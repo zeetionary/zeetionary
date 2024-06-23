@@ -158,100 +158,42 @@ class EnglishEntryape extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئاژەڵیکی گەورەی بێ کلکی شێوە مەیموونە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Chimpanzees and gorillas are both apes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شیمپانزی و گۆرێلا ھەردووکیان ئەیپن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakape129("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakape129(// REPLACE: ape /eɪp/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Chimpanzees and gorillas are both apes.",
+                            kurdishText: "شیمپانزی و گۆرێلا ھەردووکیان ئەیپن.",
+                            onPressedBritish: () => speakape129("en-GB"),
+                            onPressedAmerican: () =>
+                                speakape129(// REPLACE: ape /eɪp/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) کۆپی‌کردنی کاری کەسێک بە خراپی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For years the British film industry merely aped Hollywood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ چەندین ساڵ پیشەسازیی فیلمی بەریتانی تەنھا کۆپی خراپی ھۆڵیھوود بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakape132("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakape132(// REPLACE: ape /eɪp/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For years the British film industry merely aped Hollywood.",
+                            kurdishText:
+                                "بۆ چەندین ساڵ پیشەسازیی فیلمی بەریتانی تەنھا کۆپی خراپی ھۆڵیھوود بوو.",
+                            onPressedBritish: () => speakape132("en-GB"),
+                            onPressedAmerican: () =>
+                                speakape132(// REPLACE: ape /eɪp/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) کۆپی‌کردنی ڕەفتاری کەسێک بۆ گاڵتەپێکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We used to ape the teacher's southern accent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران لاسایی ئەکسێنتی باشووریی مامۆستاکەمان دەکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakape134("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakape134(// REPLACE: ape /eɪp/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We used to ape the teacher's southern accent.",
+                            kurdishText:
+                                "جاران لاسایی ئەکسێنتی باشووریی مامۆستاکەمان دەکردەوە.",
+                            onPressedBritish: () => speakape134("en-GB"),
+                            onPressedAmerican: () =>
+                                speakape134(// REPLACE: ape /eɪp/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

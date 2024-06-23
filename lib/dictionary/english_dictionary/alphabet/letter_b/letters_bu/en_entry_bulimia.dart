@@ -147,32 +147,12 @@ class EnglishEntrybulimia extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) نەخۆشییەک دووبارە و دووبارە خواردنی زۆر دەخوات و دواتر خۆی بەزۆر دەڕیشێنێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Feelings of guilt accompany bulimia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستکردن بە تاوان بەشێکە لە بۆلیمیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "bulimia", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulimias1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulimias1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Feelings of guilt accompany bulimia.",
+                            kurdishText:
+                                "ھەستکردن بە تاوان بەشێکە لە بۆلیمیا.", // bulimia", follow LX strictly
+                            onPressedBritish: () => speakbulimias1("en-GB"),
+                            onPressedAmerican: () => speakbulimias1("en-US"),
                           ),
                         ],
                       ),

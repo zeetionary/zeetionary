@@ -268,432 +268,154 @@ class EnglishEntrybite extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) قەپگرتن، گازگرتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Does your dog bite?"),
-                                    ExampleSentenceKurdish(
-                                        text: "سەگەکەت گاز دەگرێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbites1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbites1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Does your dog bite?",
+                            kurdishText: "سەگەکەت گاز دەگرێت؟",
+                            onPressedBritish: () => speakbites1("en-GB"),
+                            onPressedAmerican: () => speakbites1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She bit into a ripe juicy pear."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گازی لە ھەرمێیەکی ئاوداری گەییو گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbites2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbites2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She bit into a ripe juicy pear.",
+                            kurdishText: "گازی لە ھەرمێیەکی ئاوداری گەییو گرت.",
+                            onPressedBritish: () => speakbites2("en-GB"),
+                            onPressedAmerican: () => speakbites2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) گازگرتنی مێروو، مار، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most European spiders don't bite."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی جاڵجاڵۆکەی ئەورووپی ناگەزن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbites3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbites3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Most European spiders don't bite.",
+                            kurdishText: "زۆرینەی جاڵجاڵۆکەی ئەورووپی ناگەزن.",
+                            onPressedBritish: () => speakbites3("en-GB"),
+                            onPressedAmerican: () => speakbites3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) کە ماسییەک دەبێت بە قولابێکەوە بە قەپگرتن لە سەرەکەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The fish aren't biting today."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماسییەکان ئەمڕۆ نابنە قولابەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbites4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbites4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The fish aren't biting today.",
+                            kurdishText: "ماسییەکان ئەمڕۆ نابنە قولابەکەوە.",
+                            onPressedBritish: () => speakbites4("en-GB"),
+                            onPressedAmerican: () => speakbites4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) ھەبوونی کاریگەرییەکی ناخۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The recession is beginning to bite."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەیرانەکە دەست بە خەستبوونەوە دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbites5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbites5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The recession is beginning to bite.",
+                            kurdishText: "قەیرانەکە دەست بە خەستبوونەوە دەکات.",
+                            onPressedBritish: () => speakbites5("en-GB"),
+                            onPressedAmerican: () => speakbites5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ناو) قەپگرتن، گازگرتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He took a bite (= bit a piece) out of the apple."),
-                                    ExampleSentenceKurdish(
-                                        text: "قەپێکی لە سێوەکە گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbites6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbites6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He took a bite (= bit a piece) out of the apple.",
+                            kurdishText: "قەپێکی لە سێوەکە گرت.",
+                            onPressedBritish: () => speakbites6("en-GB"),
+                            onPressedAmerican: () => speakbites6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) شێوازی پێکەوەلکانی بەشی سەرەوە و خوارەوەی ددان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has to wear a brace to correct his bite."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبوو تێلێک ببەستێ بۆ ڕێککردنەوەی ددانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbites7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbites7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has to wear a brace to correct his bite.",
+                            kurdishText:
+                                "دەبوو تێلێک ببەستێ بۆ ڕێککردنەوەی ددانی.",
+                            onPressedBritish: () => speakbites7("en-GB"),
+                            onPressedAmerican: () => speakbites7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) پاروویەک لە خواردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He didn't eat a bite of his dinner (= he ate nothing)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاروویەک لە نانی ئێوارەی نەخوارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbites8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbites8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He didn't eat a bite of his dinner (= he ate nothing).",
+                            kurdishText: "پاروویەک لە نانی ئێوارەی نەخوارد.",
+                            onPressedBritish: () => speakbites8("en-GB"),
+                            onPressedAmerican: () => speakbites8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (ناو) خواردنێکی کەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We just have time for a bite to eat before the movie."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتمان ھەیە تەنھا بۆ کەمێک خواردن ھەیە پێش فیلمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbites9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbites9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We just have time for a bite to eat before the movie.",
+                            kurdishText:
+                                "کاتمان ھەیە تەنھا بۆ کەمێک خواردن ھەیە پێش فیلمەکە.",
+                            onPressedBritish: () => speakbites9("en-GB"),
+                            onPressedAmerican: () => speakbites9("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٩. (ناو) برین بە گازی ئاژەڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a bite mark on his arm."),
-                                    ExampleSentenceKurdish(
-                                        text: "برینی گازێک لەسەر باڵی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbites10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbites10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "There was a bite mark on his arm.",
+                            kurdishText: "برینی گازێک لەسەر باڵی بوو.",
+                            onPressedBritish: () => speakbites10("en-GB"),
+                            onPressedAmerican: () => speakbites10("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٠. (ناو) تامێکی بەھێزی خۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cheese will add extra bite to any pasta dish."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنیر تامێکی بەلەزەت بۆ پاستا زیاد دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbites11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbites11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cheese will add extra bite to any pasta dish.",
+                            kurdishText:
+                                "پەنیر تامێکی بەلەزەت بۆ پاستا زیاد دەکات.",
+                            onPressedBritish: () => speakbites11("en-GB"),
+                            onPressedAmerican: () => speakbites11("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١١. (ناو) سەرمایەک لە ھەوادا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's a bite in the air tonight."),
-                                    ExampleSentenceKurdish(
-                                        text: "کزەیەک ھەیە لە ھەوادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbites12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbites12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "There's a bite in the air tonight.",
+                            kurdishText: "کزەیەک ھەیە لە ھەوادا.",
+                            onPressedBritish: () => speakbites12("en-GB"),
+                            onPressedAmerican: () => speakbites12("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٢. (ناو) خاسیەتێک کە وا دەکات شتێک بەھێز یان کاریگەر بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The performance had no bite to it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نمایشەکە ھیچ تایبەتییەکی نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbites13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbites13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The performance had no bite to it.",
+                            kurdishText: "نمایشەکە ھیچ تایبەتییەکی نەبوو.",
+                            onPressedBritish: () => speakbites13("en-GB"),
+                            onPressedAmerican: () => speakbites13("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٣. (ناو) ماسییەک قەپ لە قولابێک بگرێت پێوە ببێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The fishermen waited all afternoon for a bite."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماسیگرەکە تەواوی نیوەڕۆکە چاوەڕێ بوو ماسییەک پێوە ببێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbites14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbites14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The fishermen waited all afternoon for a bite.",
+                            kurdishText:
+                                "ماسیگرەکە تەواوی نیوەڕۆکە چاوەڕێ بوو ماسییەک پێوە ببێت.",
+                            onPressedBritish: () => speakbites14("en-GB"),
+                            onPressedAmerican: () => speakbites14("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

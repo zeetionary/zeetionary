@@ -156,34 +156,14 @@ class EnglishEntrybaboon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) مەیموونێکی ئەفریقایی یان ئاسیایی کە ڕووخسارێکی درێژی ھەیە وەک ئەوەی سەگ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's got all this thick black hair like a baboon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مووی ئەستووری ڕەشی ھەیە وەک بابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka3s1(// REPLACE: baboon
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's got all this thick black hair like a baboon.",
+                            kurdishText: "مووی ئەستووری ڕەشی ھەیە وەک بابوون.",
+                            onPressedBritish: () => speaka3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka3s1(// REPLACE: baboon
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

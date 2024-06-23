@@ -148,34 +148,14 @@ class EnglishEntrybloodvessel extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئەو مولوولانەی خوێن پێیاندا تێدەپەڕێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The knife had missed the major blood vessels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەقۆکە لە دەمارە سەرەکییەکانی خوێنی نەدابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodvessels1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodvessels1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The knife had missed the major blood vessels.",
+                            kurdishText:
+                                "چەقۆکە لە دەمارە سەرەکییەکانی خوێنی نەدابوو.",
+                            onPressedBritish: () => speakbloodvessels1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodvessels1("en-US"),
                           ),
                         ],
                       ),

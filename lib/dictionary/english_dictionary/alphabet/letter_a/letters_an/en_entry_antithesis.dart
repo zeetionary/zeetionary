@@ -160,69 +160,31 @@ class EnglishEntryantithesis extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) پێچەوانەی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Students finishing their education at 16 is the very antithesis of what society needs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوکردنی خوێندن لە تەمەنی ١٦ ساڵی لەلایەن خوێندکارانەوە ڕێک پێچەوانەی ئەوەیە کە کۆمەڵگە پێویستییەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantithesis1248("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantithesis1248(
-                                        // REPLACE: antithesis /ænˈtɪθəsɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Students finishing their education at 16 is the very antithesis of what society needs.",
+                            kurdishText:
+                                "تەواوکردنی خوێندن لە تەمەنی ١٦ ساڵی لەلایەن خوێندکارانەوە ڕێک پێچەوانەی ئەوەیە کە کۆمەڵگە پێویستییەتی.",
+                            onPressedBritish: () =>
+                                speakantithesis1248("en-GB"),
+                            onPressedAmerican: () => speakantithesis1248(
+                                // REPLACE: antithesis /ænˈtɪθəsɪs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) جیاوازی نێوان دوو شت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is an antithesis between the needs of the state and the needs of the people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جیاوازییەک ھەیە لەنێوان خواستەکانی حکومەت و ئەوانەی خەڵکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantithesis1251("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantithesis1251(
-                                        // REPLACE: antithesis /ænˈtɪθəsɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is an antithesis between the needs of the state and the needs of the people.",
+                            kurdishText:
+                                "جیاوازییەک ھەیە لەنێوان خواستەکانی حکومەت و ئەوانەی خەڵکی.",
+                            onPressedBritish: () =>
+                                speakantithesis1251("en-GB"),
+                            onPressedAmerican: () => speakantithesis1251(
+                                // REPLACE: antithesis /ænˈtɪθəsɪs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -159,103 +159,42 @@ class EnglishEntryawkwardness extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ھەستی شەرم و ناڕەحەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She laughed to cover up her feeling of awkwardness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکەنی بۆ شاردنەوەی ھەستی ناڕەحەتیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakawkwardnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakawkwardnesss1(
-                                        // REPLACE: awkwardness
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She laughed to cover up her feeling of awkwardness.",
+                            kurdishText: "پێکەنی بۆ شاردنەوەی ھەستی ناڕەحەتیی.",
+                            onPressedBritish: () => speakawkwardnesss1("en-GB"),
+                            onPressedAmerican: () => speakawkwardnesss1(
+                                // REPLACE: awkwardness
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھەبوونی شێوەیەک یان دیزاینێک کە ئاسان نییە مامەڵەی لەگەڵ بکەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The awkwardness of the shape makes the desk difficult to lift."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەگونجاوی شێوەی مێزەکە وادەکات ئاسان نەبێت بەرزبکرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakawkwardnesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakawkwardnesss2(
-                                        // REPLACE: awkwardness
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The awkwardness of the shape makes the desk difficult to lift.",
+                            kurdishText:
+                                "نەگونجاوی شێوەی مێزەکە وادەکات ئاسان نەبێت بەرزبکرێتەوە.",
+                            onPressedBritish: () => speakawkwardnesss2("en-GB"),
+                            onPressedAmerican: () => speakawkwardnesss2(
+                                // REPLACE: awkwardness
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) جوڵان بەشێوەیەکی ناسرووشتییە، نائاساییە، یان جوان نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He outgrew his physical awkwardness and became a leading man in school plays."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی ڕزگارکرد لە جەستە ناڕێکەکەی و بوو بە سەرمەشق لە یارییەکانی قوتابخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakawkwardnesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakawkwardnesss3(
-                                        // REPLACE: awkwardness
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He outgrew his physical awkwardness and became a leading man in school plays.",
+                            kurdishText:
+                                "خۆی ڕزگارکرد لە جەستە ناڕێکەکەی و بوو بە سەرمەشق لە یارییەکانی قوتابخانە.",
+                            onPressedBritish: () => speakawkwardnesss3("en-GB"),
+                            onPressedAmerican: () => speakawkwardnesss3(
+                                // REPLACE: awkwardness
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

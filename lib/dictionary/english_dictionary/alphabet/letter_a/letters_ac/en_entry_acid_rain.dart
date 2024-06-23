@@ -114,33 +114,14 @@ class EnglishEntryacidrain extends StatelessWidget {
                               text:
                                   "١. (ناو) بارانێک کە مادەی کیمیایی زیانبەخشی دووکەڵی کارگەکانی تێدایە کە دەبێتە ھۆی زیان بۆ درەختەکان، دانەوێڵە، و بیناکان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sulphur, falling as acid rain, is killing fish in the Great Lakes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سلفەر ئەگەر لەگەڵ ترشە باران بێت دەبێتە ھۆی کووشتنی ماسی لە دەریاچەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaci1256("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaci1256(
-                                        "en-US"), // REPLACE acid rain /ˌæsɪd ˈreɪn/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sulphur, falling as acid rain, is killing fish in the Great Lakes.",
+                            kurdishText:
+                                "سلفەر ئەگەر لەگەڵ ترشە باران بێت دەبێتە ھۆی کووشتنی ماسی لە دەریاچەکان.",
+                            onPressedBritish: () => speakaci1256("en-GB"),
+                            onPressedAmerican: () => speakaci1256(
+                                "en-US"), // REPLACE acid rain /ˌæsɪd ˈreɪn/
                           ),
                         ],
                       ),

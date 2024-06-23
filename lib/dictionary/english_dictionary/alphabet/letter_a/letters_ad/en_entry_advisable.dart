@@ -112,34 +112,15 @@ class EnglishEntryadvisable extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بیرۆکەیەکی ژیرانە و باش" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We thought it advisable to seek police assistance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێمان وابوو باشتروایە داوای یارمەتی لە پۆلیس بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvis35996("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvis35996(
-                                        // REPLACE: advisable /ədˈvaɪzəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We thought it advisable to seek police assistance.",
+                            kurdishText:
+                                "پێمان وابوو باشتروایە داوای یارمەتی لە پۆلیس بکەین.",
+                            onPressedBritish: () => speakadvis35996("en-GB"),
+                            onPressedAmerican: () => speakadvis35996(
+                                // REPLACE: advisable /ədˈvaɪzəbl/
+                                "en-US"),
                           ),
                         ],
                       ),

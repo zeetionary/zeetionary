@@ -165,32 +165,13 @@ class EnglishEntryaugust extends StatelessWidget {
                               text:
                                   "١. (ناو) مانگی ٨ کە دەکەوێت نێوان تەممووز و ئەیلوول"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She was born in August."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە مانگی ئاب لەدایکبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaugust327("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaugust327(// REPLACE: August
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was born in August.",
+                            kurdishText: "لە مانگی ئاب لەدایکبووە.",
+                            onPressedBritish: () => speakaugust327("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaugust327(// REPLACE: August
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -158,65 +158,27 @@ class EnglishEntryavalanche extends StatelessWidget {
                               text:
                                   "١. (ناو) ڕێژەیەکی زۆر بەفر، شەختە، یان بەرد کە لە شاخێکەوە دەکەوێتەخوارەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was killed in an avalanche while skiing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ھەرەسی شەختەبەفردا مرد لە کاتی بەفرەخلیسکێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavalanches1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavalanches1(// REPLACE: avalanche
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was killed in an avalanche while skiing.",
+                            kurdishText:
+                                "لە ھەرەسی شەختەبەفردا مرد لە کاتی بەفرەخلیسکێ.",
+                            onPressedBritish: () => speakavalanches1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavalanches1(// REPLACE: avalanche
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The issue has generated an avalanche of controversy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم بابەتە ڕێژەیەکی زۆر مشتومڕی بەدوای‌خۆیداھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavalanches2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakavalanches2(
-                                        // REPLACE: avalanche
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The issue has generated an avalanche of controversy.",
+                            kurdishText:
+                                "ئەم بابەتە ڕێژەیەکی زۆر مشتومڕی بەدوای‌خۆیداھێناوە.",
+                            onPressedBritish: () => speakavalanches2("en-GB"),
+                            onPressedAmerican: () => speakavalanches2(
+                                // REPLACE: avalanche
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

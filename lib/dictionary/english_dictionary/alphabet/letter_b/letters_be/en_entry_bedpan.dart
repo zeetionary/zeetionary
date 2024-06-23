@@ -151,32 +151,13 @@ class EnglishEntrybedpan extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کاسەیەک کە نەخۆشێک وەک تەوالێت بەکاریدێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was too weak to get out of bed, so she used a bedpan."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر لاواز بوو کە بتوانێت لە جێگەی خەوەکەی ھەستێت، بۆیە کاسەکەیەکی بۆ سەراوکردن بەکاردەھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedpans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedpans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was too weak to get out of bed, so she used a bedpan.",
+                            kurdishText:
+                                "زۆر لاواز بوو کە بتوانێت لە جێگەی خەوەکەی ھەستێت، بۆیە کاسەکەیەکی بۆ سەراوکردن بەکاردەھێنا.",
+                            onPressedBritish: () => speakbedpans1("en-GB"),
+                            onPressedAmerican: () => speakbedpans1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

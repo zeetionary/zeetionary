@@ -157,130 +157,54 @@ class EnglishEntryawful extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شتێک کە زۆر خراپ و ناخۆشە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I feel awful about forgetting her birthday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەست بە خراپی دەکەم سەبارەت بە لەبیرچوونی ڕۆژی لەدایکبوونی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawfuls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawfuls1(// REPLACE: awful
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I feel awful about forgetting her birthday.",
+                            kurdishText:
+                                "ھەست بە خراپی دەکەم سەبارەت بە لەبیرچوونی ڕۆژی لەدایکبوونی.",
+                            onPressedBritish: () => speakawfuls1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawfuls1(// REPLACE: awful
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک کە شۆکت دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was only later that we learned the awful truth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا دواتر بوو کە ڕاستییە تاڵەکەمان زانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawfuls2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawfuls2(// REPLACE: awful
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was only later that we learned the awful truth.",
+                            kurdishText:
+                                "تەنھا دواتر بوو کە ڕاستییە تاڵەکەمان زانی.",
+                            onPressedBritish: () => speakawfuls2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawfuls2(// REPLACE: awful
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە لە شتێکی زۆر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's going to cost an awful lot of money."),
-                                    ExampleSentenceKurdish(
-                                        text: "پارەیەکی زۆری تێدەچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawfuls3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawfuls3(// REPLACE: awful
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's going to cost an awful lot of money.",
+                            kurdishText: "پارەیەکی زۆری تێدەچێت.",
+                            onPressedBritish: () => speakawfuls3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawfuls3(// REPLACE: awful
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) زۆر زۆر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Clint is awful smart."),
-                                    ExampleSentenceKurdish(
-                                        text: "کلینت فرە زیرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawfuls4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawfuls4(// REPLACE: awful
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Clint is awful smart.",
+                            kurdishText: "کلینت فرە زیرەکە.",
+                            onPressedBritish: () => speakawfuls4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawfuls4(// REPLACE: awful
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

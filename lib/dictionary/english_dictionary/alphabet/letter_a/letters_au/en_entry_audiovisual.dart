@@ -165,35 +165,16 @@ class EnglishEntryaudiovisual extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) لەخۆگرتنی دەنگ و وێنە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The audiovisual presentation included slides of the birds and tapes of their songs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پریزێنتەیشنەکە کە وێنە و دەنگیش بوو سلایدی باڵندە و تۆماری دەنگیانی لەخۆگرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaudiovisual151("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaudiovisual151(
-                                        // REPLACE: audiovisual
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The audiovisual presentation included slides of the birds and tapes of their songs.",
+                            kurdishText:
+                                "پریزێنتەیشنەکە کە وێنە و دەنگیش بوو سلایدی باڵندە و تۆماری دەنگیانی لەخۆگرتبوو.",
+                            onPressedBritish: () =>
+                                speakaudiovisual151("en-GB"),
+                            onPressedAmerican: () => speakaudiovisual151(
+                                // REPLACE: audiovisual
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

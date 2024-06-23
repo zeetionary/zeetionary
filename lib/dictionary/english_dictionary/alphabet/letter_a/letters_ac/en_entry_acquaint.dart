@@ -113,33 +113,14 @@ class EnglishEntryacquaint extends StatelessWidget {
                               text:
                                   "١. (کردار) ئاشناکردنی کەسێک بە کەسێکی تر یان شتێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please acquaint me with the facts of the case."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە ئاشنام بکە بە ڕاستییەکانی کەیسەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac2567("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac2567(
-                                        "en-US"), // REPLACE acquaint /əˈkweɪnt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please acquaint me with the facts of the case.",
+                            kurdishText:
+                                "تکایە ئاشنام بکە بە ڕاستییەکانی کەیسەکە.",
+                            onPressedBritish: () => speakac2567("en-GB"),
+                            onPressedAmerican: () => speakac2567(
+                                "en-US"), // REPLACE acquaint /əˈkweɪnt/
                           ),
                         ],
                       ),

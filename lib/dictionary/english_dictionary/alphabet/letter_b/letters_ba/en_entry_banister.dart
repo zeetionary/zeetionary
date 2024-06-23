@@ -156,34 +156,15 @@ class EnglishEntrybanister extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) محەجەرەی پلەکانە کە دەستی پێوە دەگری لە کاتی سەرکەوتن یان دابەزین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The kids were sliding down the banisters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان بەسەر محەجەرەکەدا خلیسکێنەیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanisters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanisters1(// REPLACE: banister
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The kids were sliding down the banisters.",
+                            kurdishText:
+                                "منداڵەکان بەسەر محەجەرەکەدا خلیسکێنەیان دەکرد.",
+                            onPressedBritish: () => speakbanisters1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanisters1(// REPLACE: banister
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -124,118 +124,41 @@ class EnglishEntryaccommodation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) شوێنی ژیان یان کارکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She lived on her own in rented accommodation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تەنھا دەژیا لە جێگایەکی کری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka25614("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka25614("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She lived on her own in rented accommodation.",
+                            kurdishText: "بە تەنھا دەژیا لە جێگایەکی کری.",
+                            onPressedBritish: () => speaka25614("en-GB"),
+                            onPressedAmerican: () => speaka25614("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We need more secure accommodation for young prisoners."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستیمان بە جێگای سەلامەتتر ھەیە بۆ زیندانییە گەنجەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac28874("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac28874("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We need more secure accommodation for young prisoners.",
+                            kurdishText:
+                                "پێویستیمان بە جێگای سەلامەتتر ھەیە بۆ زیندانییە گەنجەکان.",
+                            onPressedBritish: () => speakac28874("en-GB"),
+                            onPressedAmerican: () => speakac28874("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The boat provides overnight accommodations for four adults."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەلەمەکە جێگای مانەوەی شەوانی بۆ چوار کەسی پێگەیشتوو ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac29968("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac29968("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The boat provides overnight accommodations for four adults.",
+                            kurdishText:
+                                "بەلەمەکە جێگای مانەوەی شەوانی بۆ چوار کەسی پێگەیشتوو ھەیە.",
+                            onPressedBritish: () => speakac29968("en-GB"),
+                            onPressedAmerican: () => speakac29968("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕێککوتنێک لەلایەن چەند لایەنێکی ناکۆک کە ھەموویان پێی ڕازین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were forced to reach an accommodation with the rebels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناچارکران لەگەڵ یاخیبووان بگەنە سازان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac24995("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac24995("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were forced to reach an accommodation with the rebels.",
+                            kurdishText:
+                                "ناچارکران لەگەڵ یاخیبووان بگەنە سازان.",
+                            onPressedBritish: () => speakac24995("en-GB"),
+                            onPressedAmerican: () => speakac24995("en-US"),
                           ),
                         ],
                       ),

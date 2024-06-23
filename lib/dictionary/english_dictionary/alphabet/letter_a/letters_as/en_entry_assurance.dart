@@ -168,98 +168,41 @@ class EnglishEntryassurance extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) لێدوانێک سەبارەت بەوەی شتێک بە دڵنیاییەوە ڕاستە، یان ڕوودەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They called for assurances that the government is committed to its education policy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوای دڵنیاییان کرد کە حکومەت پابەند دەبێت بە پلانی پەروەردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassurance848("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassurance848(
-                                        // REPLACE: assurance /əˈʃʊrəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They called for assurances that the government is committed to its education policy.",
+                            kurdishText:
+                                "داوای دڵنیاییان کرد کە حکومەت پابەند دەبێت بە پلانی پەروەردەوە.",
+                            onPressedBritish: () => speakassurance848("en-GB"),
+                            onPressedAmerican: () => speakassurance848(
+                                // REPLACE: assurance /əˈʃʊrəns/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I must have your assurance that there will be no repetition of this conduct."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەبێت بەڵێنم پێ‌بدەیت کە ئەم ڕەفتارە دووبارە نابێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassurance849("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassurance849(
-                                        // REPLACE: assurance /əˈʃʊrəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I must have your assurance that there will be no repetition of this conduct.",
+                            kurdishText:
+                                "ئەبێت بەڵێنم پێ‌بدەیت کە ئەم ڕەفتارە دووبارە نابێتەوە.",
+                            onPressedBritish: () => speakassurance849("en-GB"),
+                            onPressedAmerican: () => speakassurance849(
+                                // REPLACE: assurance /əˈʃʊrəns/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) متمانە بە ھێز و توانای خۆت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Even at a very young age she showed a great deal of assurance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنانەت لە تەمەنێکی گەنجیشدا لەخۆڕادیتنی زۆری پیشان دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassurance852("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassurance852(
-                                        // REPLACE: assurance /əˈʃʊrəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Even at a very young age she showed a great deal of assurance.",
+                            kurdishText:
+                                "تەنانەت لە تەمەنێکی گەنجیشدا لەخۆڕادیتنی زۆری پیشان دەدا.",
+                            onPressedBritish: () => speakassurance852("en-GB"),
+                            onPressedAmerican: () => speakassurance852(
+                                // REPLACE: assurance /əˈʃʊrəns/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

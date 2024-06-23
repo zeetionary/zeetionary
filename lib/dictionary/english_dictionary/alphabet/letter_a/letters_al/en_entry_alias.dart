@@ -116,65 +116,26 @@ class EnglishEntryalias extends StatelessWidget {
                               text:
                                   "١. (ناو) ناوێکی تر کە ناوی ڕاستی کەسێک نییە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He travels under (= using) an alias."),
-                                    ExampleSentenceKurdish(
-                                        text: "لەژێر نازناوێکدا گەشت دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalias53444("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalias53444(
-                                        // REPLACE: alias /ˈælɡərɪðəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He travels under (= using) an alias.",
+                            kurdishText: "لەژێر نازناوێکدا گەشت دەکات.",
+                            onPressedBritish: () => speakalias53444("en-GB"),
+                            onPressedAmerican: () => speakalias53444(
+                                // REPLACE: alias /ˈælɡərɪðəm/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) لەپێش دەربڕینی ناوێکی خوازراو بەکاردێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Paul Kennedy, alias (= also known as) Rupert Sharp, went to prison today."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاوڵ کەنەدی کە ھەروەھا ناسراوە بە ڕوپرت شارپ ئەمڕۆ چوو بپ زیندان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalias4556("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalias4556(
-                                        // REPLACE: alias /ˈælɡərɪðəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Paul Kennedy, alias (= also known as) Rupert Sharp, went to prison today.",
+                            kurdishText:
+                                "پاوڵ کەنەدی کە ھەروەھا ناسراوە بە ڕوپرت شارپ ئەمڕۆ چوو بپ زیندان.",
+                            onPressedBritish: () => speakalias4556("en-GB"),
+                            onPressedAmerican: () => speakalias4556(
+                                // REPLACE: alias /ˈælɡərɪðəm/
+                                "en-US"),
                           ),
                         ],
                       ),

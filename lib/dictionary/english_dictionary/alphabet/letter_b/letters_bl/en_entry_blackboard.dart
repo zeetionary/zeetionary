@@ -148,32 +148,13 @@ class EnglishEntryblackboard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تەختەیەکی ڕەش یان سەوزی تۆخ کە مامۆستا شتی لەسەر دەنووسێت بە تەباشیر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please copy the homework from the blackboard."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە ئەرکی ناڵەوەی سەر تەختە ڕەشەکە بنووسنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackboards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackboards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please copy the homework from the blackboard.",
+                            kurdishText:
+                                "تکایە ئەرکی ناڵەوەی سەر تەختە ڕەشەکە بنووسنەوە.",
+                            onPressedBritish: () => speakblackboards1("en-GB"),
+                            onPressedAmerican: () => speakblackboards1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

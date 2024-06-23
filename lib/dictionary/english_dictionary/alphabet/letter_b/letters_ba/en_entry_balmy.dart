@@ -155,34 +155,15 @@ class EnglishEntrybalmy extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) گەرم و خۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was hardly any wind, just a balmy breeze."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئەستەم ھیچ با ھەبوو، تەنھا شنەیەکی گەرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalmys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalmys1(// REPLACE: balmy
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was hardly any wind, just a balmy breeze.",
+                            kurdishText:
+                                "بە ئەستەم ھیچ با ھەبوو، تەنھا شنەیەکی گەرم.",
+                            onPressedBritish: () => speakbalmys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalmys1(// REPLACE: balmy
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -114,35 +114,13 @@ class EnglishEntryairworthy extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) فڕۆکەیەک کە گونجاوە بۆ فڕین"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The planes were certified airworthy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەکان بە گونجاو بۆ فڕین دانران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakairworthy4277("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairworthy4277(
-                                        // REPLACE: airworthy /ˈerwɜːrði/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The planes were certified airworthy.",
+                            kurdishText: "فڕۆکەکان بە گونجاو بۆ فڕین دانران.",
+                            onPressedBritish: () => speakairworthy4277("en-GB"),
+                            onPressedAmerican: () => speakairworthy4277(
+                                // REPLACE: airworthy /ˈerwɜːrði/
+                                "en-US"),
                           ),
                         ],
                       ),

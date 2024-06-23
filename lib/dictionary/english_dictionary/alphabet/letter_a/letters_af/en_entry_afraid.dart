@@ -111,60 +111,22 @@ class EnglishEntryafraid extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ترساو" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Don't be afraid."),
-                                    ExampleSentenceKurdish(text: "مەترسە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafrai4177("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafrai4177(
-                                        // REPLACE: afraid /əˈfreɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don't be afraid.",
+                            kurdishText: "مەترسە.",
+                            onPressedBritish: () => speakafrai4177("en-GB"),
+                            onPressedAmerican: () => speakafrai4177(
+                                // REPLACE: afraid /əˈfreɪd/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They know I'm afraid of heights."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەزانن لە بەرزی دەترسم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafrai955("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafrai955(
-                                        // REPLACE: afraid /əˈfreɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They know I'm afraid of heights.",
+                            kurdishText: "دەزانن لە بەرزی دەترسم.",
+                            onPressedBritish: () => speakafrai955("en-GB"),
+                            onPressedAmerican: () => speakafrai955(
+                                // REPLACE: afraid /əˈfreɪd/
+                                "en-US"),
                           ),
                         ],
                       ),

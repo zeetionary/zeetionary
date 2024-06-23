@@ -164,68 +164,27 @@ class EnglishEntryattendance extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ئامادەبوون لە شوێنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Attendance at these lectures is not compulsory."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامادەبوون لەم وانانە ناچاری نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattendance817("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattendance817(
-                                        // REPLACE: attendance
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Attendance at these lectures is not compulsory.",
+                            kurdishText: "ئامادەبوون لەم وانانە ناچاری نییە.",
+                            onPressedBritish: () => speakattendance817("en-GB"),
+                            onPressedAmerican: () => speakattendance817(
+                                // REPLACE: attendance
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ژمارەی کەسانی ئامادەبوو لە شوێنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was an attendance of 42 at the meeting."),
-                                    ExampleSentenceKurdish(
-                                        text: "٤٢ کەس لە چاوپێکەوتنەکە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattendance819("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattendance819(
-                                        // REPLACE: attendance
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was an attendance of 42 at the meeting.",
+                            kurdishText: "٤٢ کەس لە چاوپێکەوتنەکە بوون.",
+                            onPressedBritish: () => speakattendance819("en-GB"),
+                            onPressedAmerican: () => speakattendance819(
+                                // REPLACE: attendance
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

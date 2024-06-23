@@ -150,183 +150,66 @@ class EnglishEntryblanket extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) داپۆشەرێکی گەورە کە لەکاتی خەودا دەدرێت بە خۆدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It’s cold tonight—can I have another blanket?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمشەو ساردە، دەکرێت بەتانییەکی ترم بۆ بێنیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblankets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblankets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It’s cold tonight—can I have another blanket?",
+                            kurdishText:
+                                "ئەمشەو ساردە، دەکرێت بەتانییەکی ترم بۆ بێنیت؟",
+                            onPressedBritish: () => speakblankets1("en-GB"),
+                            onPressedAmerican: () => speakblankets1("en-US"),
                           ),
                           // const DividerDefinition(),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The baby was wrapped in a blanket."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکە لە بەتانییەکدا پێچرابوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblankets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblankets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The baby was wrapped in a blanket.",
+                            kurdishText:
+                                "منداڵەکە لە بەتانییەکدا پێچرابوویەوە.",
+                            onPressedBritish: () => speakblankets2("en-GB"),
+                            onPressedAmerican: () => speakblankets2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) توێژاڵ یان چینێکی ئەستوور لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sun was breaking through the blanket of mist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆر دەدرەوشایەوە بە چینێک لە تەمدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblankets3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblankets3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sun was breaking through the blanket of mist.",
+                            kurdishText: "خۆر دەدرەوشایەوە بە چینێک لە تەمدا.",
+                            onPressedBritish: () => speakblankets3("en-GB"),
+                            onPressedAmerican: () => speakblankets3("en-US"),
                           ),
                           // const DividerDefinition(),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The trial was conducted under a blanket of secrecy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراو) دادگاییەکە ئەنجامدرا لە تەمومژێکی نھێنیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblankets4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblankets4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The trial was conducted under a blanket of secrecy.",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراو) دادگاییەکە ئەنجامدرا لە تەمومژێکی نھێنیدا.",
+                            onPressedBritish: () => speakblankets4("en-GB"),
+                            onPressedAmerican: () => speakblankets4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) خاسیەتی ھەبوونی کاریگەری یان گرتنەخۆی ھەموو کەیسەکان، دۆخ، و خەڵکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What I object to most is the blanket opposition to change."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوەی زیاتر لە ھەموو شتێک دژیم دژبەری کوێرانەیە بۆ گۆڕانکاری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblankets5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblankets5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What I object to most is the blanket opposition to change.",
+                            kurdishText:
+                                "ئەوەی زیاتر لە ھەموو شتێک دژیم دژبەری کوێرانەیە بۆ گۆڕانکاری.",
+                            onPressedBritish: () => speakblankets5("en-GB"),
+                            onPressedAmerican: () => speakblankets5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) داپۆشینی شتێک بە چینێکی ئەستوور"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ground was soon blanketed with snow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەوییەکە ھەرزوو داپۆشرا بە بەفر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblankets6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblankets6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ground was soon blanketed with snow.",
+                            kurdishText: "زەوییەکە ھەرزوو داپۆشرا بە بەفر.",
+                            onPressedBritish: () => speakblankets6("en-GB"),
+                            onPressedAmerican: () => speakblankets6("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -150,60 +150,23 @@ class EnglishEntrybellyache extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ئازاری سک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I’ve got (a) bellyache."),
-                                    ExampleSentenceKurdish(text: "ژانەسکمە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbellyaches1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbellyaches1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I’ve got (a) bellyache.",
+                            kurdishText: "ژانەسکمە.",
+                            onPressedBritish: () => speakbellyaches1("en-GB"),
+                            onPressedAmerican: () => speakbellyaches1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ناڕەزایی دەربڕین لەسەر شتێک بەشێوەیەکی بێزارکەرانە و ناخۆش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He’s always bellyaching about how much work he has to do."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە بۆڵەبۆڵیەتی لەسەر ئەوەی چەندە زۆر دەبێت ئیش بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbellyaches2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbellyaches2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He’s always bellyaching about how much work he has to do.",
+                            kurdishText:
+                                "ھەمیشە بۆڵەبۆڵیەتی لەسەر ئەوەی چەندە زۆر دەبێت ئیش بکات.",
+                            onPressedBritish: () => speakbellyaches2("en-GB"),
+                            onPressedAmerican: () => speakbellyaches2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

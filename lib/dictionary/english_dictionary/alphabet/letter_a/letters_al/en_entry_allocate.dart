@@ -111,64 +111,26 @@ class EnglishEntryallocate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) پێدانی شتێک بە فەرمی بە کەسێک/شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A large sum has been allocated for buying new books for the library."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوژمەیەکی زۆر تەرخانکراوە بۆ کڕینی پەرتووک بۆ پەرتوکخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallocate4528("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallocate4528(
-                                        // REPLACE: allocate /ˈæləkeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A large sum has been allocated for buying new books for the library.",
+                            kurdishText:
+                                "گوژمەیەکی زۆر تەرخانکراوە بۆ کڕینی پەرتووک بۆ پەرتوکخانەکە.",
+                            onPressedBritish: () => speakallocate4528("en-GB"),
+                            onPressedAmerican: () => speakallocate4528(
+                                // REPLACE: allocate /ˈæləkeɪt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "More money should be allocated for famine relief."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت پارەی زیاتر تەرخان بکرێت بۆ سوککردنی وشکەساڵییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallocate412("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallocate412(
-                                        // REPLACE: allocate /ˈæləkeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "More money should be allocated for famine relief.",
+                            kurdishText:
+                                "دەبێت پارەی زیاتر تەرخان بکرێت بۆ سوککردنی وشکەساڵییەکە.",
+                            onPressedBritish: () => speakallocate412("en-GB"),
+                            onPressedAmerican: () => speakallocate412(
+                                // REPLACE: allocate /ˈæləkeɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

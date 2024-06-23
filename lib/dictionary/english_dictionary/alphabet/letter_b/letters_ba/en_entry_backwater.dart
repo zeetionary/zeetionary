@@ -157,67 +157,27 @@ class EnglishEntrybackwater extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بەشێکی دابڕاوی ڕووبارێک کە ئاو تێیدا ناجوڵێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We tied the boat up in a quiet backwater overnight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەو بەلەمەکەمان لە گۆلاوێکی ھێمندا بەستەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s1(// REPLACE: backwater
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We tied the boat up in a quiet backwater overnight.",
+                            kurdishText:
+                                "شەو بەلەمەکەمان لە گۆلاوێکی ھێمندا بەستەوە.",
+                            onPressedBritish: () => speakb3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s1(// REPLACE: backwater
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شوێنێکی دابڕاو لە ئەو شوێنەی ڕووداوی گرنگ تێیدا ڕوودەدات و بەم ھۆیەش درەنگ داھێنان و گۆڕانکاری پێدەگات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He grew up in a rural backwater."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە لاپەڕێکی لادێنشیندا گەورە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s2(// REPLACE: backwater
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He grew up in a rural backwater.",
+                            kurdishText: "لە لاپەڕێکی لادێنشیندا گەورە بوو.",
+                            onPressedBritish: () => speakb3s2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s2(// REPLACE: backwater
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

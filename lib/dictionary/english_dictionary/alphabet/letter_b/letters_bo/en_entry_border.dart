@@ -335,182 +335,67 @@ class EnglishEntryborder extends StatelessWidget {
 کوردی: ڕەخ، لێوار، قەراخ، زێوار، کەنار، کەنارە، شیرازە، تیلماسک، تێرنج، پەراوێز، زێ، دەور، دەورە، سنوور، تخوب، سەرحەد، باوەڕ، کەوشەن، مەرز، تاڵخ
 """),
                           const DefinitionKurdish(text: "١. (ناو) سنوور"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He lives in a small town in the US, near the Canadian border."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە شارۆچکەیەکی بچووک دەژی لە ئەمریکا، لەسەر سنووری کەنەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He lives in a small town in the US, near the Canadian border.",
+                            kurdishText:
+                                "لە شارۆچکەیەکی بچووک دەژی لە ئەمریکا، لەسەر سنووری کەنەدا.",
+                            onPressedBritish: () => speakborders1("en-GB"),
+                            onPressedAmerican: () => speakborders1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Thousands of people cross the border every day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەزاران کەس ھەموو ڕۆژێک سنوورەکە دەبڕن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborders2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborders2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Thousands of people cross the border every day.",
+                            kurdishText:
+                                "ھەزاران کەس ھەموو ڕۆژێک سنوورەکە دەبڕن.",
+                            onPressedBritish: () => speakborders2("en-GB"),
+                            onPressedAmerican: () => speakborders2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They took steps to secure the border."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەنگاویان گرتەبەر بۆ پاراستنی سنوورەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakborders3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakborders3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "They took steps to secure the border.",
+                                    kurdishText:
+                                        "ھەنگاویان گرتەبەر بۆ پاراستنی سنوورەکە.",
+                                    onPressedBritish: () =>
+                                        speakborders3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakborders3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They spent a week in a national park on the border between Kenya and Tanzania."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەفتەیەکیان بەسەر برد لە پارکێکی نیشتیمانی لەسەر سنووری کینیا و تانزانیا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakborders4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakborders4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "They spent a week in a national park on the border between Kenya and Tanzania.",
+                                    kurdishText:
+                                        "ھەفتەیەکیان بەسەر برد لە پارکێکی نیشتیمانی لەسەر سنووری کینیا و تانزانیا.",
+                                    onPressedBritish: () =>
+                                        speakborders4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakborders4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "It is difficult to define the border between love and friendship."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "(بەکارھێنانی خوازراوی) سەختە سنووری نێوان خۆشەویستی و پەیوەندی دیاری بکرێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakborders5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakborders5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "It is difficult to define the border between love and friendship.",
+                                    kurdishText:
+                                        "(بەکارھێنانی خوازراوی) سەختە سنووری نێوان خۆشەویستی و پەیوەندی دیاری بکرێت.",
+                                    onPressedBritish: () =>
+                                        speakborders5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakborders5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They fled across the border."),
-                                            ExampleSentenceKurdish(
-                                                text: "بە سنوورەکەدا ھەڵھاتن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakborders6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakborders6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "They fled across the border.",
+                                    kurdishText: "بە سنوورەکەدا ھەڵھاتن.",
+                                    onPressedBritish: () =>
+                                        speakborders6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakborders6("en-US"),
                                   ),
                                 ],
                               ),
@@ -520,181 +405,65 @@ class EnglishEntryborder extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پارچەیەکی درێژی باریک بە دەوری قەراغەکانی شتێکدا، بۆ نموونە وێنەیەک یان قووماشێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She drew a decorative border around the picture."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەنارەیەکی جوانی بە دەوری وێنەکەدا کێشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborders7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborders7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She drew a decorative border around the picture.",
+                            kurdishText:
+                                "کەنارەیەکی جوانی بە دەوری وێنەکەدا کێشا.",
+                            onPressedBritish: () => speakborders7("en-GB"),
+                            onPressedAmerican: () => speakborders7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) لە باخچەیەکدا بەو ناوچە دەوترێت کە بە گوڵ چێندراوە بە دەوری قەراغی گیاکەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The back garden is mostly lawn with tulip borders."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باخچەکەی پشتەوە بە زۆری چیمەنە لەگەڵ گوڵباخ بە دەوریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborders8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborders8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The back garden is mostly lawn with tulip borders.",
+                            kurdishText:
+                                "باخچەکەی پشتەوە بە زۆری چیمەنە لەگەڵ گوڵباخ بە دەوریدا.",
+                            onPressedBritish: () => speakborders8("en-GB"),
+                            onPressedAmerican: () => speakborders8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) ھەبوونی سنوور لەگەڵ شوێنێک یان وڵاتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Albania is bordered to the north by Serbia and Montenegro."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەلبانیا لە باکوورەوە ھاوسنوورە لەگەڵ سڕبیا و مۆنتەنەگرۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborders9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborders9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Albania is bordered to the north by Serbia and Montenegro.",
+                            kurdishText:
+                                "ئەلبانیا لە باکوورەوە ھاوسنوورە لەگەڵ سڕبیا و مۆنتەنەگرۆ.",
+                            onPressedBritish: () => speakborders9("en-GB"),
+                            onPressedAmerican: () => speakborders9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Eswatini borders South Africa and Mozambique."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئیسواتینی سنووری لەگەڵ ئەفریقای باشوور و مۆزەمبیقدا ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborders10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborders10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Eswatini borders South Africa and Mozambique.",
+                            kurdishText:
+                                "ئیسواتینی سنووری لەگەڵ ئەفریقای باشوور و مۆزەمبیقدا ھەیە.",
+                            onPressedBritish: () => speakborders10("en-GB"),
+                            onPressedAmerican: () => speakborders10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) درووستکردنی ھێڵێک بەدرێژایی یان بە دەوری شتێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The large garden is bordered by a stream."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باخچە گەورەکە جۆگەیەک لە کەناریەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborders11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborders11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The large garden is bordered by a stream.",
+                            kurdishText: "باخچە گەورەکە جۆگەیەک لە کەناریەتی.",
+                            onPressedBritish: () => speakborders11("en-GB"),
+                            onPressedAmerican: () => speakborders11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The fields are bordered by tall trees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێڵگەکان بە درەختی بەرز دەوردراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborders12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborders12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The fields are bordered by tall trees.",
+                            kurdishText: "کێڵگەکان بە درەختی بەرز دەوردراون.",
+                            onPressedBritish: () => speakborders12("en-GB"),
+                            onPressedAmerican: () => speakborders12("en-US"),
                           ),
                         ],
                       ),

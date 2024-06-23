@@ -163,34 +163,15 @@ class EnglishEntryassorted extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ژمارەیەک جۆری ھەمەچەشن" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The meat is served with salad or assorted vegetables."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆشتەکە لەگەڵ زەڵاتە یان سەوزەی جۆراوجۆر دەخورێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassorted822("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassorted822(
-                                        // REPLACE: assorted /əˈsɔːrtɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The meat is served with salad or assorted vegetables.",
+                            kurdishText:
+                                "گۆشتەکە لەگەڵ زەڵاتە یان سەوزەی جۆراوجۆر دەخورێت.",
+                            onPressedBritish: () => speakassorted822("en-GB"),
+                            onPressedAmerican: () => speakassorted822(
+                                // REPLACE: assorted /əˈsɔːrtɪd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -165,98 +165,41 @@ class EnglishEntryassistant extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە لە کارکردندا وەک یاریدەدەر کاردەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My assistant will now demonstrate the machine in action."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاریدەدەرەکەم ئێستا چۆنیەتی کارکردنی ئامێرەکەتان پێ‌پیشان‌دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassistant921("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassistant921(
-                                        // REPLACE: assistant /əˈsɪstənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My assistant will now demonstrate the machine in action.",
+                            kurdishText:
+                                "یاریدەدەرەکەم ئێستا چۆنیەتی کارکردنی ئامێرەکەتان پێ‌پیشان‌دەدات.",
+                            onPressedBritish: () => speakassistant921("en-GB"),
+                            onPressedAmerican: () => speakassistant921(
+                                // REPLACE: assistant /əˈsɪstənt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was working as a special assistant to the president."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک یاریدەدەرێکی تایبەت بۆ سەرۆک کاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassistant923("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassistant923(
-                                        // REPLACE: assistant /əˈsɪstənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was working as a special assistant to the president.",
+                            kurdishText:
+                                "وەک یاریدەدەرێکی تایبەت بۆ سەرۆک کاری دەکرد.",
+                            onPressedBritish: () => speakassistant923("en-GB"),
+                            onPressedAmerican: () => speakassistant923(
+                                // REPLACE: assistant /əˈsɪstənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە لە فرؤشگایەکدا کاردەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She worked as an assistant in a local bookshop."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک فرۆشیارێک لە کتێب‌فرۆشێکی ناوخۆیی کاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassistant925("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassistant925(
-                                        // REPLACE: assistant /əˈsɪstənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She worked as an assistant in a local bookshop.",
+                            kurdishText:
+                                "وەک فرۆشیارێک لە کتێب‌فرۆشێکی ناوخۆیی کاری دەکرد.",
+                            onPressedBritish: () => speakassistant925("en-GB"),
+                            onPressedAmerican: () => speakassistant925(
+                                // REPLACE: assistant /əˈsɪstənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

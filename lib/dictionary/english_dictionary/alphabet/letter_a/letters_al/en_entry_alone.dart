@@ -147,158 +147,61 @@ class EnglishEntryalone extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بە تەنھا و بەبێ خەڵکی تر" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was sitting all alone in the hall."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە تەنھا لە ھۆڵەکە دانیشتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalone1255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalone1255(
-                                        // REPLACE: alone /əˈləʊn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was sitting all alone in the hall.",
+                            kurdishText: "بە تەنھا لە ھۆڵەکە دانیشتبوو.",
+                            onPressedBritish: () => speakalone1255("en-GB"),
+                            onPressedAmerican: () => speakalone1255(
+                                // REPLACE: alone /əˈləʊn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't like going out alone at night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزناکەم شەوانە بە تەنھا دەربچم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalone4692("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalone4692(
-                                        // REPLACE: alone /əˈləʊn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't like going out alone at night.",
+                            kurdishText: "حەزناکەم شەوانە بە تەنھا دەربچم.",
+                            onPressedBritish: () => speakalone4692("en-GB"),
+                            onPressedAmerican: () => speakalone4692(
+                                // REPLACE: alone /əˈləʊn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بەبێ یارمەتی کەسی دیکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The assassin said he had acted alone."),
-                                    ExampleSentenceKurdish(
-                                        text: "بکوژەکە گوتی ھەر خۆی بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalone4598("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalone4598(
-                                        // REPLACE: alone /əˈləʊn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The assassin said he had acted alone.",
+                            kurdishText: "بکوژەکە گوتی ھەر خۆی بووە.",
+                            onPressedBritish: () => speakalone4598("en-GB"),
+                            onPressedAmerican: () => speakalone4598(
+                                // REPLACE: alone /əˈləʊn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) تەنھا و بێزار بەبێ ھیچ ھاوەڵێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Carol felt all alone in the world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارۆڵ ھەستی بە تەنھایی دەکرد لەم جیھانەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalone9652("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalone9652(
-                                        // REPLACE: alone /əˈləʊn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Carol felt all alone in the world.",
+                            kurdishText:
+                                "کارۆڵ ھەستی بە تەنھایی دەکرد لەم جیھانەدا.",
+                            onPressedBritish: () => speakalone9652("en-GB"),
+                            onPressedAmerican: () => speakalone9652(
+                                // REPLACE: alone /əˈləʊn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) لە دوای ناو بەکاردێت بۆ وتنی ئەوەی کەسی ناوبراو تەنھا کەسە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can't blame anyone else; you alone made the decision."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانی لۆمەی کەسی تر بکەی؛ خۆت بە تەنھا بڕیارەکەت دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalone7451("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalone7451(
-                                        // REPLACE: alone /əˈləʊn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can't blame anyone else; you alone made the decision.",
+                            kurdishText:
+                                "ناتوانی لۆمەی کەسی تر بکەی؛ خۆت بە تەنھا بڕیارەکەت دا.",
+                            onPressedBritish: () => speakalone7451("en-GB"),
+                            onPressedAmerican: () => speakalone7451(
+                                // REPLACE: alone /əˈləʊn/
+                                "en-US"),
                           ),
                         ],
                       ),

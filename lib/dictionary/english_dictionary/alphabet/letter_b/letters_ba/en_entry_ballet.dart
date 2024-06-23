@@ -159,100 +159,43 @@ class EnglishEntryballet extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) جۆرە سەمایەک کە جووڵەکان چیرۆکێک دەگێڕنەوە یان بیرۆکەیەک دەردەبڕن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Natalie is, without a doubt, the star student in this year's ballet class."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتالی، بەبێ گومان، قوتابی ئەستێرەی ئەمساڵی وانەی بالێیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballets1(// REPLACE: ballet
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Natalie is, without a doubt, the star student in this year's ballet class.",
+                            kurdishText:
+                                "ناتالی، بەبێ گومان، قوتابی ئەستێرەی ئەمساڵی وانەی بالێیە.",
+                            onPressedBritish: () => speakballets1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballets1(// REPLACE: ballet
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) چیرۆکێک یان کارێکی ھونەری کە لەلایەن ژمارەیەک سەماکاری بالێوە نمایش دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "By the age of 15 he had already composed his first ballet (= music for a ballet)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تەمەنی ١٥ ساڵیدا لەمێژبوو یەکەم میوزیکی بالێی خۆی داڕشت بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballets2(// REPLACE: ballet
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "By the age of 15 he had already composed his first ballet (= music for a ballet).",
+                            kurdishText:
+                                "لە تەمەنی ١٥ ساڵیدا لەمێژبوو یەکەم میوزیکی بالێی خۆی داڕشت بوو.",
+                            onPressedBritish: () => speakballets2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballets2(// REPLACE: ballet
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ژمارەیەک سەماکاری بالێ کە پێکەوە سەما دەکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The members of the Royal Ballet are renowned for their grace, athleticism, and artistry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندامانی 'بالێی شاھانە' ناسراون بۆ سەنگینی و وەرزشی و کارامەیی ھونەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballets3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballets3(// REPLACE: ballet
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The members of the Royal Ballet are renowned for their grace, athleticism, and artistry.",
+                            kurdishText:
+                                "ئەندامانی 'بالێی شاھانە' ناسراون بۆ سەنگینی و وەرزشی و کارامەیی ھونەری.",
+                            onPressedBritish: () => speakballets3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballets3(// REPLACE: ballet
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

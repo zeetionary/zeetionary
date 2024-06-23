@@ -155,34 +155,15 @@ class EnglishEntrybackless extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) جلێک کە پشتەوە داناپۆشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was wearing a very sexy backless dress."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلێکی تەواو سێکسی بێ‌پشتی لەبەرکردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s1(// REPLACE: backless
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was wearing a very sexy backless dress.",
+                            kurdishText:
+                                "جلێکی تەواو سێکسی بێ‌پشتی لەبەرکردبوو.",
+                            onPressedBritish: () => speakb3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s1(// REPLACE: backless
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

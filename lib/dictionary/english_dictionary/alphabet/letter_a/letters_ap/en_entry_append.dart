@@ -163,65 +163,26 @@ class EnglishEntryappend extends StatelessWidget {
                               text:
                                   "١. (کردار) زیادکردنی شتێک لە کۆتایی پارچە نووسراوێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Footnotes have been appended to the document."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەراوێز بۆ دۆکیومێنتەکە دانراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappend109("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappend109(
-                                        // REPLACE: append /əˈpend/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Footnotes have been appended to the document.",
+                            kurdishText: "پەراوێز بۆ دۆکیومێنتەکە دانراوە.",
+                            onPressedBritish: () => speakappend109("en-GB"),
+                            onPressedAmerican: () => speakappend109(
+                                // REPLACE: append /əˈpend/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The principal has the right to append comments to the final report."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێوبەرەکە مافی ھەیە لێدوان بۆ کۆتایی ڕاپۆرتەکە زیاد بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappend111("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappend111(
-                                        // REPLACE: append /əˈpend/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The principal has the right to append comments to the final report.",
+                            kurdishText:
+                                "بەڕێوبەرەکە مافی ھەیە لێدوان بۆ کۆتایی ڕاپۆرتەکە زیاد بکات.",
+                            onPressedBritish: () => speakappend111("en-GB"),
+                            onPressedAmerican: () => speakappend111(
+                                // REPLACE: append /əˈpend/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

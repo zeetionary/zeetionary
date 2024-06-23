@@ -140,180 +140,65 @@ class EnglishEntryabsorb extends StatelessWidget {
                               text:
                                   "١. (کردار) ھەڵمژینی مادەی شل، گاس، یان تەنی دیکە لە ھەوادا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Plants absorb carbon dioxide from the air."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووەکەکان دووانە ئۆکسیدی کاربۆن لە سرووشتەوە وەردەگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3257("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka3257("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Plants absorb carbon dioxide from the air.",
+                            kurdishText:
+                                "ڕووەکەکان دووانە ئۆکسیدی کاربۆن لە سرووشتەوە وەردەگرن.",
+                            onPressedBritish: () => speaka3257("en-GB"),
+                            onPressedAmerican: () => speaka3257("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let the rice cook until it has absorbed all the water."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بھێڵە برنجەکە بکوڵێت ھەتا تەواوی ئاوەکە ھەڵدەمژێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2136("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2136("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Let the rice cook until it has absorbed all the water.",
+                            kurdishText:
+                                "بھێڵە برنجەکە بکوڵێت ھەتا تەواوی ئاوەکە ھەڵدەمژێت.",
+                            onPressedBritish: () => speaka2136("en-GB"),
+                            onPressedAmerican: () => speaka2136("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. ھەڵمژینی گەرمی، ڕۆشنایی، وزە، و دەنگ لە جیاتی دانەوەیان """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Black walls absorb a lot of heat during the day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیواری ڕەش لە ڕۆژدا ڕێژەیەکی زۆر گەرمی دەمژێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka6981("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka6981("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Black walls absorb a lot of heat during the day.",
+                            kurdishText:
+                                "دیواری ڕەش لە ڕۆژدا ڕێژەیەکی زۆر گەرمی دەمژێت.",
+                            onPressedBritish: () => speaka6981("en-GB"),
+                            onPressedAmerican: () => speaka6981("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) کەمکردنەوەی کاریگەریی بەرکەوتن لەلایەن تەنێکی فیزیاییەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This tennis racket absorbs shock on impact."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەسکە تێنسەکە لەگەل بەرکەوتندا تەزوو دەمژێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka6731("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka6731("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This tennis racket absorbs shock on impact.",
+                            kurdishText:
+                                "دەسکە تێنسەکە لەگەل بەرکەوتندا تەزوو دەمژێت.",
+                            onPressedBritish: () => speaka6731("en-GB"),
+                            onPressedAmerican: () => speaka6731("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) وەرگرتنی زانیاری و تێگەشتن لێی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It took me several days to absorb the fact of her death."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەند ڕۆژێکی پێچوو بۆم تا بە مردنەکەی ڕابێم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2768("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2768("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It took me several days to absorb the fact of her death.",
+                            kurdishText:
+                                "چەند ڕۆژێکی پێچوو بۆم تا بە مردنەکەی ڕابێم.",
+                            onPressedBritish: () => speaka2768("en-GB"),
+                            onPressedAmerican: () => speaka2768("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) وا لە کەسێک بکەیت بە تەواوی ھەموو بیرکردنەوەیت پێ بدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His work absorbed him completely."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکەی بە تەواوی ھەموو ھۆش و بیری بردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3959("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka3959("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His work absorbed him completely.",
+                            kurdishText:
+                                "کارەکەی بە تەواوی ھەموو ھۆش و بیری بردبوو.",
+                            onPressedBritish: () => speaka3959("en-GB"),
+                            onPressedAmerican: () => speaka3959("en-US"),
                           ),
                         ],
                       ),

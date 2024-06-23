@@ -166,65 +166,27 @@ class EnglishEntryatom extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ناو) بچووکترین یەکەی توخمێکی کیمیایی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Two atoms of hydrogen combine with one atom of oxygen to form a molecule of water."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو گەردیلەی ھایدرۆجین یەکدەگرن لەگەڵ یەک گەردیلەی ئۆکسجین بۆ درووستکردنی یەک گەردی ئاو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakatom1206("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakatom1206(// REPLACE: atom
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Two atoms of hydrogen combine with one atom of oxygen to form a molecule of water.",
+                            kurdishText:
+                                "دوو گەردیلەی ھایدرۆجین یەکدەگرن لەگەڵ یەک گەردیلەی ئۆکسجین بۆ درووستکردنی یەک گەردی ئاو.",
+                            onPressedBritish: () => speakatom1206("en-GB"),
+                            onPressedAmerican: () =>
+                                speakatom1206(// REPLACE: atom
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The scientist Ernest Rutherford was the first person to split the atom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانا ئێرنێست ڕەزەرفۆرد یەکەم کەس بوو ئەتۆم کەرت بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakatom1208("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakatom1208(// REPLACE: atom
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The scientist Ernest Rutherford was the first person to split the atom.",
+                            kurdishText:
+                                "زانا ئێرنێست ڕەزەرفۆرد یەکەم کەس بوو ئەتۆم کەرت بکات.",
+                            onPressedBritish: () => speakatom1208("en-GB"),
+                            onPressedAmerican: () =>
+                                speakatom1208(// REPLACE: atom
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

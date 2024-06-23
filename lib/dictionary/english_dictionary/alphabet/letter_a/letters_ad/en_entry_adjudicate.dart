@@ -110,34 +110,15 @@ class EnglishEntryadjudicate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بڕیاردان لە نێوان دوو لایەن کە کامیان ڕاستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their purpose is to adjudicate disputes between employers and employees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانجیان ئەوەیە کێشەی نیوان خاوەنکاران و کرێکاران چارەسەر بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadjud3254("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadjud3254(
-                                        // REPLACE: adjudicate /əˈdʒuːdɪkeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their purpose is to adjudicate disputes between employers and employees.",
+                            kurdishText:
+                                "ئامانجیان ئەوەیە کێشەی نیوان خاوەنکاران و کرێکاران چارەسەر بکەن.",
+                            onPressedBritish: () => speakadjud3254("en-GB"),
+                            onPressedAmerican: () => speakadjud3254(
+                                // REPLACE: adjudicate /əˈdʒuːdɪkeɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -113,34 +113,14 @@ class EnglishEntryalphabet extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ئەلفیبێی زمانێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Alpha is the first letter of the Greek alphabet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەلفا یەکەم پیتی ئەلفوبێی یۆنانییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalphabet4721("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalphabet4721(
-                                        // REPLACE: alphabet /ˈælfəbet/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Alpha is the first letter of the Greek alphabet.",
+                            kurdishText: "ئەلفا یەکەم پیتی ئەلفوبێی یۆنانییە.",
+                            onPressedBritish: () => speakalphabet4721("en-GB"),
+                            onPressedAmerican: () => speakalphabet4721(
+                                // REPLACE: alphabet /ˈælfəbet/
+                                "en-US"),
                           ),
                         ],
                       ),

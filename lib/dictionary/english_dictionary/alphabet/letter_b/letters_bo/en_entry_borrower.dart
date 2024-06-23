@@ -148,32 +148,12 @@ class EnglishEntryborrower extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک یان دامەزراوەیەک کە پارە قەرز دەکات، بەتایبەتی لە بانکێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The interest rate was raised for borrowers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەی سوو بەرزکرایەوە بە قەرزکەران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborrowers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborrowers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The interest rate was raised for borrowers.",
+                            kurdishText: "ڕێژەی سوو بەرزکرایەوە بە قەرزکەران.",
+                            onPressedBritish: () => speakborrowers1("en-GB"),
+                            onPressedAmerican: () => speakborrowers1("en-US"),
                           ),
                         ],
                       ),

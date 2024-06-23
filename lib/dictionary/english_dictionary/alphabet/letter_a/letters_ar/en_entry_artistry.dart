@@ -162,34 +162,14 @@ class EnglishEntryartistry extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) شارەزایی ھونەرمەندێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You have to admire the artistry of her novels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت سەرسامی ھونەری ڕۆمانەکانی بیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakartistry940("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartistry940(
-                                        // REPLACE: artistry /ˈɑːrtɪstri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You have to admire the artistry of her novels.",
+                            kurdishText: "دەبێت سەرسامی ھونەری ڕۆمانەکانی بیت.",
+                            onPressedBritish: () => speakartistry940("en-GB"),
+                            onPressedAmerican: () => speakartistry940(
+                                // REPLACE: artistry /ˈɑːrtɪstri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

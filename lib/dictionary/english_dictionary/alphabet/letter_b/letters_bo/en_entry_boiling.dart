@@ -152,57 +152,18 @@ class EnglishEntryboiling extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر گەرم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You must be boiling in that sweater!"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەبێت کوڵا بیت لەو بلووزەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboilings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboilings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You must be boiling in that sweater!",
+                            kurdishText: "دەبێت کوڵا بیت لەو بلووزەدا.",
+                            onPressedBritish: () => speakboilings1("en-GB"),
+                            onPressedAmerican: () => speakboilings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It’s boiling hot in here!"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئێرە زۆر گەرمە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboilings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboilings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It’s boiling hot in here!",
+                            kurdishText: "ئێرە زۆر گەرمە!",
+                            onPressedBritish: () => speakboilings2("en-GB"),
+                            onPressedAmerican: () => speakboilings2("en-US"),
                           ),
                         ],
                       ),

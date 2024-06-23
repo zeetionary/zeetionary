@@ -159,67 +159,27 @@ class EnglishEntryascertain extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) دۆزینەوەی زانیاریی ڕاستی لەسەر شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It can be difficult to ascertain the facts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakascertain1239("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakascertain1239(
-                                        // REPLACE: ascertain /ˌæsərˈteɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It can be difficult to ascertain the facts.",
+                            kurdishText:
+                                "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە.",
+                            onPressedBritish: () => speakascertain1239("en-GB"),
+                            onPressedAmerican: () => speakascertain1239(
+                                // REPLACE: ascertain /ˌæsərˈteɪn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I ascertained that the driver was not badly hurt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیاییم کردەوە کە شۆفێرەکە بەخراپی ئازاری پێنەگەشتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakascertain1240("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakascertain1240(
-                                        // REPLACE: ascertain /ˌæsərˈteɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I ascertained that the driver was not badly hurt.",
+                            kurdishText:
+                                "دڵنیاییم کردەوە کە شۆفێرەکە بەخراپی ئازاری پێنەگەشتبوو.",
+                            onPressedBritish: () => speakascertain1240("en-GB"),
+                            onPressedAmerican: () => speakascertain1240(
+                                // REPLACE: ascertain /ˌæsərˈteɪn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -161,69 +161,29 @@ class EnglishEntryantecedent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شتێک کە پێش شتێکی تر بوونی ھەبووە و کاریگەری لەسەری ھەبووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book dealt with the historical antecedents of the Civil War."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە لێکۆڵینەوەی لە پێشھاتەکانی جەنگی ناوخۆیی ئەمریکا دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantecedent411("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantecedent411(
-                                        // REPLACE: antecedent /ˌæntɪˈsiːdnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book dealt with the historical antecedents of the Civil War.",
+                            kurdishText:
+                                "کتێبەکە لێکۆڵینەوەی لە پێشھاتەکانی جەنگی ناوخۆیی ئەمریکا دەکرد.",
+                            onPressedBritish: () => speakantecedent411("en-GB"),
+                            onPressedAmerican: () => speakantecedent411(
+                                // REPLACE: antecedent /ˌæntɪˈsiːdnt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) باپیرانی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many people feel a great curiosity to find out about their antecedents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر کەس حەز دەکەن زانیاری لەسەر باپیرانیان بزانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantecedent414("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantecedent414(
-                                        // REPLACE: antecedent /ˌæntɪˈsiːdnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many people feel a great curiosity to find out about their antecedents.",
+                            kurdishText:
+                                "زۆر کەس حەز دەکەن زانیاری لەسەر باپیرانیان بزانن.",
+                            onPressedBritish: () => speakantecedent414("en-GB"),
+                            onPressedAmerican: () => speakantecedent414(
+                                // REPLACE: antecedent /ˌæntɪˈsiːdnt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -232,35 +192,15 @@ class EnglishEntryantecedent extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) پێشووتر """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When the college was established in 1546, it inherited a hall from each of three antecedent institutions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتێک کۆلێژەکە لە ساڵی ١٥٤٦ دامەزرا ھۆڵێکی لە ھەریەک لە سێ پەیمانگاکەی پێشووتر وەرگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantecedent421("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantecedent421(
-                                        // REPLACE: antecedent /ˌæntɪˈsiːdnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When the college was established in 1546, it inherited a hall from each of three antecedent institutions.",
+                            kurdishText:
+                                "کاتێک کۆلێژەکە لە ساڵی ١٥٤٦ دامەزرا ھۆڵێکی لە ھەریەک لە سێ پەیمانگاکەی پێشووتر وەرگرت.",
+                            onPressedBritish: () => speakantecedent421("en-GB"),
+                            onPressedAmerican: () => speakantecedent421(
+                                // REPLACE: antecedent /ˌæntɪˈsiːdnt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

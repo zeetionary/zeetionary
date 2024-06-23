@@ -189,32 +189,13 @@ class EnglishEntrybungalow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خانوویەکی یەک نھۆمی بەبێ قادرمە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were small, white bungalows dotted over the hillside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووی یەک نھۆمی بچووکی سپی بەسەر گردەکە دیاربوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bungalow", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbungalows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbungalows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were small, white bungalows dotted over the hillside.",
+                            kurdishText:
+                                "خانووی یەک نھۆمی بچووکی سپی بەسەر گردەکە دیاربوون.", // bungalow", follow LX strictly
+                            onPressedBritish: () => speakbungalows1("en-GB"),
+                            onPressedAmerican: () => speakbungalows1("en-US"),
                           ),
                         ],
                       ),

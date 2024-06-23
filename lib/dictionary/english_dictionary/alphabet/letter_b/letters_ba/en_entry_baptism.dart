@@ -153,34 +153,15 @@ class EnglishEntrybaptism extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بۆنەیەک لە ئایینی مەسیحیدا کە تێیدا چەند دڵۆپە ئاوێک لەسەر کەسێک دەکرێت بۆ خێراتنکردنیان بۆ ناو کڵێسای مەسیحی، و زۆر جار بەپێدانی ناوێک ئەگەر منداڵ بێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We’re hoping to be able to get to Pasadena for the baptism of our grandson."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھیواین بتوانین بگەینە پاسادینا بۆ مەراسیمی تەوفنی کوڕەزاکەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaptisms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaptisms1(// REPLACE: baptism
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We’re hoping to be able to get to Pasadena for the baptism of our grandson.",
+                            kurdishText:
+                                "بەھیواین بتوانین بگەینە پاسادینا بۆ مەراسیمی تەوفنی کوڕەزاکەمان.",
+                            onPressedBritish: () => speakbaptisms1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaptisms1(// REPLACE: baptism
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

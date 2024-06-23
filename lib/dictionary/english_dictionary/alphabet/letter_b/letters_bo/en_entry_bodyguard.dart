@@ -149,60 +149,21 @@ class EnglishEntrybodyguard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک یان کۆمەڵە کەسێک کە کاریان پاراستنی کەسێکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The President’s bodyguard is/are armed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاسەوانەکانی سەرۆک چەکیان پێیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodyguards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodyguards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The President’s bodyguard is/are armed.",
+                            kurdishText: "پاسەوانەکانی سەرۆک چەکیان پێیە.",
+                            onPressedBritish: () => speakbodyguards1("en-GB"),
+                            onPressedAmerican: () => speakbodyguards1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He never goes anywhere without his personal bodyguards."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز بۆ ھیچ شوێنێک ناچێت بەبی پاسەوانە تایبەتییەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodyguards2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodyguards2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He never goes anywhere without his personal bodyguards.",
+                            kurdishText:
+                                "ھەرگیز بۆ ھیچ شوێنێک ناچێت بەبی پاسەوانە تایبەتییەکانی.",
+                            onPressedBritish: () => speakbodyguards2("en-GB"),
+                            onPressedAmerican: () => speakbodyguards2("en-US"),
                           ),
                         ],
                       ),

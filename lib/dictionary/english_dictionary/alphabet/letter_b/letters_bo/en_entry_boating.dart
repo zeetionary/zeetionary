@@ -145,32 +145,13 @@ class EnglishEntryboating extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەلەم‌سواری؛ بەکارھێنانی بەلەمێک بۆ خۆشی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Local activities include walking, boating and golf."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چالاکییە لۆکاڵییەکان بریتیین لە پیاسەکردن، بەلەم‌سواری و گۆڵف."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboatings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboatings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Local activities include walking, boating and golf.",
+                            kurdishText:
+                                "چالاکییە لۆکاڵییەکان بریتیین لە پیاسەکردن، بەلەم‌سواری و گۆڵف.",
+                            onPressedBritish: () => speakboatings1("en-GB"),
+                            onPressedAmerican: () => speakboatings1("en-US"),
                           ),
                         ],
                       ),

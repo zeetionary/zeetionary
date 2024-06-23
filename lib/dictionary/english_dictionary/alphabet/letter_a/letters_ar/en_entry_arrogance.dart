@@ -164,34 +164,15 @@ class EnglishEntryarrogance extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) لەخۆڕازیی؛ بەشێوەیەل ڕەفتارکردن وەک ئەوەی لە کەسانی تر زیاتر بیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has a reputation for rudeness and intellectual arrogance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناسراوە بەوەی کەسێکی بێ‌ڕێزە و خۆی بە زیرەکتر لە کەسانی تر دادەنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrogance721("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrogance721(
-                                        // REPLACE: arrogance /ˈærəɡəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has a reputation for rudeness and intellectual arrogance.",
+                            kurdishText:
+                                "ناسراوە بەوەی کەسێکی بێ‌ڕێزە و خۆی بە زیرەکتر لە کەسانی تر دادەنێت.",
+                            onPressedBritish: () => speakarrogance721("en-GB"),
+                            onPressedAmerican: () => speakarrogance721(
+                                // REPLACE: arrogance /ˈærəɡəns/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

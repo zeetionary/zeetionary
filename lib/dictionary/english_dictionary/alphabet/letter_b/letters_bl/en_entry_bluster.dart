@@ -150,92 +150,34 @@ class EnglishEntrybluster extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) قسەکردن بە توندی و ھەڕەشەوە بەڵام بەبێ لێکەوتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "'You had no right to do it, no right at all,' he blustered."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی ھەڵکێشا بە وتنی 'ھیچ مافت نەبوو بیکەیت، ھیچ مافێک بە تەواوی'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblusters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblusters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "'You had no right to do it, no right at all,' he blustered.",
+                            kurdishText:
+                                "خۆی ھەڵکێشا بە وتنی 'ھیچ مافت نەبوو بیکەیت، ھیچ مافێک بە تەواوی'.",
+                            onPressedBritish: () => speakblusters1("en-GB"),
+                            onPressedAmerican: () => speakblusters1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) بایەک کە بەخێرایی دەجوڵێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Outside the wind was blustering."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە دەرەوە باکە گڤەی دەھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblusters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblusters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Outside the wind was blustering.",
+                            kurdishText: "لە دەرەوە باکە گڤەی دەھات.",
+                            onPressedBritish: () => speakblusters2("en-GB"),
+                            onPressedAmerican: () => speakblusters2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) قسە کە توند و پڕھەڕەشەیە بەڵام لێکەوتەی نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I wasn't frightened by what he said—it was all bluster."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەترسام بەوەی گوتی، ھەمووی خۆفشکردنەوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblusters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblusters3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I wasn't frightened by what he said—it was all bluster.",
+                            kurdishText:
+                                "نەترسام بەوەی گوتی، ھەمووی خۆفشکردنەوە بوو.",
+                            onPressedBritish: () => speakblusters3("en-GB"),
+                            onPressedAmerican: () => speakblusters3("en-US"),
                           ),
                         ],
                       ),

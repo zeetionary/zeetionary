@@ -155,35 +155,16 @@ class EnglishEntryanthropology extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) زانستی لێکۆڵینەوە لە مێژووی مرۆڤایەتی، بەتایبەتی سەرچاوە و گەشە و نەریت و باوەڕەکانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Social anthropology examines family relationships in detail."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مرۆڤ‌ناسیی کۆمەڵایەتی بەوردی لێکۆڵینەوە دەکات لە پەیوەندیی خێزانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanthropology845("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanthropology845(
-                                        // REPLACE: anthropology /ˌænθrəˈpɑːlədʒi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Social anthropology examines family relationships in detail.",
+                            kurdishText:
+                                "مرۆڤ‌ناسیی کۆمەڵایەتی بەوردی لێکۆڵینەوە دەکات لە پەیوەندیی خێزانی.",
+                            onPressedBritish: () =>
+                                speakanthropology845("en-GB"),
+                            onPressedAmerican: () => speakanthropology845(
+                                // REPLACE: anthropology /ˌænθrəˈpɑːlədʒi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -115,34 +115,15 @@ class EnglishEntryallay extends StatelessWidget {
                               text:
                                   "١. (کردار) دامردکاندنەوەی شتێک، بۆ نموونە ترس"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The inquiry has done little to allay suspicion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێکۆڵینەوەکە کاریگەری کەمی بووە لەسەر دامرکاندنەوەی گومان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallay36299("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallay36299(
-                                        // REPLACE: allay /əˈleɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The inquiry has done little to allay suspicion.",
+                            kurdishText:
+                                "لێکۆڵینەوەکە کاریگەری کەمی بووە لەسەر دامرکاندنەوەی گومان.",
+                            onPressedBritish: () => speakallay36299("en-GB"),
+                            onPressedAmerican: () => speakallay36299(
+                                // REPLACE: allay /əˈleɪ/
+                                "en-US"),
                           ),
                         ],
                       ),

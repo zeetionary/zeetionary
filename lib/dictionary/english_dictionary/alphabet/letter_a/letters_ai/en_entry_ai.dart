@@ -109,34 +109,15 @@ class EnglishEntryai extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ژیری دەستکرد؛ لێکۆڵینەوە لە کۆمپیوتەر بۆ ئەوەی وەک مرۆڤ مامەڵە بکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This new technology uses AI to recognize character features in the same way a human brain does."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم تەکنۆلەژیا تازەیە ژیری دەستکرد بەکاردەھێنێ بۆ ناسینەوەی خاسیەتەکانی کارەکتەرێک وەک ئەوەی مێشکی مرۆڤ دەیکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakai934262("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakai934262(// REPLACE: AI /ˌeɪ ˈaɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This new technology uses AI to recognize character features in the same way a human brain does.",
+                            kurdishText:
+                                "ئەم تەکنۆلەژیا تازەیە ژیری دەستکرد بەکاردەھێنێ بۆ ناسینەوەی خاسیەتەکانی کارەکتەرێک وەک ئەوەی مێشکی مرۆڤ دەیکات.",
+                            onPressedBritish: () => speakai934262("en-GB"),
+                            onPressedAmerican: () =>
+                                speakai934262(// REPLACE: AI /ˌeɪ ˈaɪ/
+                                    "en-US"),
                           ),
                         ],
                       ),

@@ -115,66 +115,28 @@ class EnglishEntryadmiring extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پیشاندانی ڕێز بۆ شتێک یان کەسێک یان ئەوەی بەدەستیان ھێناوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "James was admiring of her courage and determination."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەیمس ڕێزی ھەبوو بۆ بوێری و پێداگرییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmiri25471("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmiri25471(
-                                        // REPLACE: admiring /ədˈmaɪərɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "James was admiring of her courage and determination.",
+                            kurdishText:
+                                "جەیمس ڕێزی ھەبوو بۆ بوێری و پێداگرییەکەی.",
+                            onPressedBritish: () => speakadmiri25471("en-GB"),
+                            onPressedAmerican: () => speakadmiri25471(
+                                // REPLACE: admiring /ədˈmaɪərɪŋ/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پیشاندانی سەرسامی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was used to receiving admiring glances from men."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاھاتبوو بە نیگای سەرسامی پیاوان بۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmi95237("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmi95237(
-                                        // REPLACE: admiring /ədˈmaɪərɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was used to receiving admiring glances from men.",
+                            kurdishText:
+                                "ڕاھاتبوو بە نیگای سەرسامی پیاوان بۆی.",
+                            onPressedBritish: () => speakadmi95237("en-GB"),
+                            onPressedAmerican: () => speakadmi95237(
+                                // REPLACE: admiring /ədˈmaɪərɪŋ/
+                                "en-US"),
                           ),
                         ],
                       ),

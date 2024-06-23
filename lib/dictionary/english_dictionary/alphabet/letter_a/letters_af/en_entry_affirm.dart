@@ -110,66 +110,28 @@ class EnglishEntryaffirm extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بەڕوونی وتنی ئەوەی شتێک ڕاستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Both sides affirmed their commitment to the ceasefire."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو لایەن بەڕوونی پابەندی خۆیان بە ئاگربەستەوە ڕاگەیاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaff25699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaff25699(
-                                        // REPLACE: affirm /əˈfɜːrm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Both sides affirmed their commitment to the ceasefire.",
+                            kurdishText:
+                                "ھەردوو لایەن بەڕوونی پابەندی خۆیان بە ئاگربەستەوە ڕاگەیاند.",
+                            onPressedBritish: () => speakaff25699("en-GB"),
+                            onPressedAmerican: () => speakaff25699(
+                                // REPLACE: affirm /əˈfɜːrm/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) وتنی ئەوەی باوەڕت بەشتێکە و بەرگری لێ دەکەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We affirm the principle that leaders must be chosen by the people and be accountable to the people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشتیوانی ئەو باوەڕە دەکەین کە سەرکردەکان دەبێت لەلایەن خەڵکەوە ھەڵبژێردرێن و بەرپرسیار بن بەرامبەر خەڵکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffirm411("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffirm411(
-                                        // REPLACE: affirm /əˈfɜːrm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We affirm the principle that leaders must be chosen by the people and be accountable to the people.",
+                            kurdishText:
+                                "پشتیوانی ئەو باوەڕە دەکەین کە سەرکردەکان دەبێت لەلایەن خەڵکەوە ھەڵبژێردرێن و بەرپرسیار بن بەرامبەر خەڵکی.",
+                            onPressedBritish: () => speakaffirm411("en-GB"),
+                            onPressedAmerican: () => speakaffirm411(
+                                // REPLACE: affirm /əˈfɜːrm/
+                                "en-US"),
                           ),
                         ],
                       ),

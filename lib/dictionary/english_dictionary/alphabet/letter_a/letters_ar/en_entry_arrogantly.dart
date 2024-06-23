@@ -165,35 +165,15 @@ class EnglishEntryarrogantly extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەکی خۆبەزلزانانە و بەبێ حساب‌کردن بۆ کەسانی تر"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think he arrogantly assumed he'd just get away with it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێم وایە بە خۆبەزلزانییەوە وای‌دانا لەمە دەربازی دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarrogantly734("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrogantly734(
-                                        // REPLACE: arrogantly /ˈærəɡəntli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I think he arrogantly assumed he'd just get away with it.",
+                            kurdishText:
+                                "پێم وایە بە خۆبەزلزانییەوە وای‌دانا لەمە دەربازی دەبێت.",
+                            onPressedBritish: () => speakarrogantly734("en-GB"),
+                            onPressedAmerican: () => speakarrogantly734(
+                                // REPLACE: arrogantly /ˈærəɡəntli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

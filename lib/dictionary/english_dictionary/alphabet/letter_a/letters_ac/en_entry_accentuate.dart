@@ -94,32 +94,13 @@ class EnglishEntryaccentuate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) جەختکردنەوە لە شتێک، یان وای لێ بکەیت ئاسانتر ببینرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her short hair accentuated her huge eyes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قژە کورتەکەی چاوە گەورەکانی زیاتر دەردەخست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2158("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2158("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her short hair accentuated her huge eyes.",
+                            kurdishText:
+                                "قژە کورتەکەی چاوە گەورەکانی زیاتر دەردەخست.",
+                            onPressedBritish: () => speaka2158("en-GB"),
+                            onPressedAmerican: () => speaka2158("en-US"),
                           ),
                         ],
                       ),

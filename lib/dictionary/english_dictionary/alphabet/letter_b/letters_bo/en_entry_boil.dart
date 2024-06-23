@@ -275,258 +275,84 @@ class EnglishEntryboil extends StatelessWidget {
 کوردی: کوڵ، کوڵان، خاڵی کوڵان، زیپکە، پیزۆکە، زیتکە، بزرک، کوڵک، کوان، دمەڵ، زیەم
 """),
                           const DefinitionKurdish(text: "١. (کردار) کوڵان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Boil plenty of water, then add the spaghetti."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر ئاو بکوڵێنە و دواتر سپاگێتییەکە زیاد بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboils1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboils1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Boil plenty of water, then add the spaghetti.",
+                            kurdishText:
+                                "ڕێژەیەکی زۆر ئاو بکوڵێنە و دواتر سپاگێتییەکە زیاد بکە.",
+                            onPressedBritish: () => speakboils1("en-GB"),
+                            onPressedAmerican: () => speakboils1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Water boils at 100°C."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاو لە ١٠٠ پلەی سیلیزی دەکوڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboils2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboils2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Water boils at 100°C.",
+                            kurdishText: "ئاو لە ١٠٠ پلەی سیلیزی دەکوڵێت.",
+                            onPressedBritish: () => speakboils2("en-GB"),
+                            onPressedAmerican: () => speakboils2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) کوڵان یان کوڵاندنی کترییەک، مەنجەڵێک، ھتد تاوەکو ئاوەکەی ناوی دەکوڵێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The kettle's boiling."),
-                                    ExampleSentenceKurdish(
-                                        text: "کترییەکە دەکوڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboils3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboils3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The kettle's boiling.",
+                            kurdishText: "کترییەکە دەکوڵێت.",
+                            onPressedBritish: () => speakboils3("en-GB"),
+                            onPressedAmerican: () => speakboils3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'll boil the kettle and make some tea."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کترییەکە دەکوڵێنم و ھەندێک چا ئامادە دەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboils4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboils4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'll boil the kettle and make some tea.",
+                            kurdishText:
+                                "کترییەکە دەکوڵێنم و ھەندێک چا ئامادە دەکەم.",
+                            onPressedBritish: () => speakboils4("en-GB"),
+                            onPressedAmerican: () => speakboils4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) خواردن ئامادەکردن یان شۆردن لە ئاوی کوڵاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She put some potatoes on to boil."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەندێک پەتاتەی کوڵاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboils5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboils5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She put some potatoes on to boil.",
+                            kurdishText: "ھەندێک پەتاتەی کوڵاند.",
+                            onPressedBritish: () => speakboils5("en-GB"),
+                            onPressedAmerican: () => speakboils5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She can scarcely boil an egg."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئەستەم دەتوانێت ھێلکەش بکوڵێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboils6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboils6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She can scarcely boil an egg.",
+                            kurdishText: "بە ئەستەم دەتوانێت ھێلکەش بکوڵێنێت.",
+                            onPressedBritish: () => speakboils6("en-GB"),
+                            onPressedAmerican: () => speakboils6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) زۆر تووڕەبوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was boiling with rage."),
-                                    ExampleSentenceKurdish(
-                                        text: "خەریک بوو دەتەقی لە داخدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboils7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboils7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was boiling with rage.",
+                            kurdishText: "خەریک بوو دەتەقی لە داخدا.",
+                            onPressedBritish: () => speakboils7("en-GB"),
+                            onPressedAmerican: () => speakboils7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٥. (ناو) خاڵی کوڵان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bring the soup to the boil, then allow it to simmer for five minutes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆرباکە بھێنە کوڵان و دواتر بھێڵە مێروولەکوڵ بێت بۆ پێنج خولەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboils8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboils8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bring the soup to the boil, then allow it to simmer for five minutes.",
+                            kurdishText:
+                                "شۆرباکە بھێنە کوڵان و دواتر بھێڵە مێروولەکوڵ بێت بۆ پێنج خولەک.",
+                            onPressedBritish: () => speakboils8("en-GB"),
+                            onPressedAmerican: () => speakboils8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ھەڵئاوسانێکی بەئازار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The doctor lanced the boil."),
-                                    ExampleSentenceKurdish(
-                                        text: "دکتۆرەکە زیپکەکەی تەقاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboils9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboils9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The doctor lanced the boil.",
+                            kurdishText: "دکتۆرەکە زیپکەکەی تەقاند.",
+                            onPressedBritish: () => speakboils9("en-GB"),
+                            onPressedAmerican: () => speakboils9("en-US"),
                           ),
                         ],
                       ),

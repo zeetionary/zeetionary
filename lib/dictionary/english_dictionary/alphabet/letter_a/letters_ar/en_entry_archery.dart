@@ -162,34 +162,15 @@ class EnglishEntryarchery extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ھونەر یان وەرزشی ھاویشتنی تیر بە کەوان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Neither had practised archery before last year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچیان تیراوێژیان نەکردبوو پێش ساڵی پار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarchery350("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarchery350(
-                                        // REPLACE: archery /ˈɑːrtʃəri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Neither had practised archery before last year.",
+                            kurdishText:
+                                "ھیچیان تیراوێژیان نەکردبوو پێش ساڵی پار.",
+                            onPressedBritish: () => speakarchery350("en-GB"),
+                            onPressedAmerican: () => speakarchery350(
+                                // REPLACE: archery /ˈɑːrtʃəri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

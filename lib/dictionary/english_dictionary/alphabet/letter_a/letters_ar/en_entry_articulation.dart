@@ -168,135 +168,58 @@ class EnglishEntryarticulation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دەربڕینی بیرۆکەیەک یان ھەستێک لە وشەدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The clarity and precision of the articulation of his theory made it easy for even non-experts to understand its implications."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕوونی و وردی دەربڕینی بیرۆکەکەی وا ئاسانی کرد کە تەنانەت ناشارەزاکانیش لە دەرئەنجامەکانی تێ‌بگەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarticulation845("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarticulation845(
-                                        // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The clarity and precision of the articulation of his theory made it easy for even non-experts to understand its implications.",
+                            kurdishText:
+                                "ڕوونی و وردی دەربڕینی بیرۆکەکەی وا ئاسانی کرد کە تەنانەت ناشارەزاکانیش لە دەرئەنجامەکانی تێ‌بگەن.",
+                            onPressedBritish: () =>
+                                speakarticulation845("en-GB"),
+                            onPressedAmerican: () => speakarticulation845(
+                                // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کرداری درووستکردنی دەنگ کە قسەکردن یان گۆرانی‌وتندا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The tongue and teeth are both organs of articulation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زمان و ددان ھەردوویان ئەندامی ئاخاوتنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarticulation847("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarticulation847(
-                                        // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The tongue and teeth are both organs of articulation.",
+                            kurdishText:
+                                "زمان و ددان ھەردوویان ئەندامی ئاخاوتنن.",
+                            onPressedBritish: () =>
+                                speakarticulation847("en-GB"),
+                            onPressedAmerican: () => speakarticulation847(
+                                // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) جومگەیەک یان پێکەوەبەستراوییەک کە ڕێگا بە جووڵە دەدات، یان جومگەکە خۆی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The articulation of the pieces of the puzzle was perfect."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکەوەبەسترانی بەشەکانی پەزڵەکە تەواو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarticulation855("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarticulation855(
-                                        // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The articulation of the pieces of the puzzle was perfect.",
+                            kurdishText:
+                                "پێکەوەبەسترانی بەشەکانی پەزڵەکە تەواو بوو.",
+                            onPressedBritish: () =>
+                                speakarticulation855("en-GB"),
+                            onPressedAmerican: () => speakarticulation855(
+                                // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The articulation of the shoulder allows for a wide range of motion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جومگەی شان ڕێگا بە جووڵەی زۆر دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarticulation853("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarticulation853(
-                                        // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The articulation of the shoulder allows for a wide range of motion.",
+                            kurdishText: "جومگەی شان ڕێگا بە جووڵەی زۆر دەدات.",
+                            onPressedBritish: () =>
+                                speakarticulation853("en-GB"),
+                            onPressedAmerican: () => speakarticulation853(
+                                // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

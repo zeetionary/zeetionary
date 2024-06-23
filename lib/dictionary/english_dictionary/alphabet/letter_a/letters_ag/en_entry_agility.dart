@@ -113,65 +113,26 @@ class EnglishEntryagility extends StatelessWidget {
                               text:
                                   "١. (ناو) ھەبوونی توانای جوڵاندنی جەستە بەخێرایی و ئاسانی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has the agility of a mountain goat."),
-                                    ExampleSentenceKurdish(
-                                        text: "گورجوگۆڵی بزنێکی شاخاوی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagility1562("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagility1562(
-                                        // REPLACE: agility /əˈdʒɪləti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has the agility of a mountain goat.",
+                            kurdishText: "گورجوگۆڵی بزنێکی شاخاوی ھەیە.",
+                            onPressedBritish: () => speakagility1562("en-GB"),
+                            onPressedAmerican: () => speakagility1562(
+                                // REPLACE: agility /əˈdʒɪləti/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھەبوونی توانای بیرکردنەوە بەڕوونی و خێرایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We underestimate the agility of a child's mind."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیروھۆشی منداڵ بە کەم سەیر دەکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagilit48966("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagilit48966(
-                                        // REPLACE: agility /əˈdʒɪləti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We underestimate the agility of a child's mind.",
+                            kurdishText: "بیروھۆشی منداڵ بە کەم سەیر دەکەین.",
+                            onPressedBritish: () => speakagilit48966("en-GB"),
+                            onPressedAmerican: () => speakagilit48966(
+                                // REPLACE: agility /əˈdʒɪləti/
+                                "en-US"),
                           ),
                         ],
                       ),

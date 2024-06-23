@@ -150,32 +150,13 @@ class EnglishEntrybehead extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) سەربڕینی کەسێک، زۆرجار وەک سزا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was charged with treason and beheaded."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە خیانەت تاوانبارکرا و سەری پەڕێندرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeheads1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeheads1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was charged with treason and beheaded.",
+                            kurdishText:
+                                "بە خیانەت تاوانبارکرا و سەری پەڕێندرا.",
+                            onPressedBritish: () => speakbeheads1("en-GB"),
+                            onPressedAmerican: () => speakbeheads1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

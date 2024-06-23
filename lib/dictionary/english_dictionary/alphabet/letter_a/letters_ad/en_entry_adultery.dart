@@ -113,34 +113,14 @@ class EnglishEntryadultery extends StatelessWidget {
                               text:
                                   "١. (ناو) سێکس لە نێوان کەسێکی خێزاندار و کەسێکی تر کە خێزانی خۆی نییە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was accused of committing adultery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاوانبارکرا بە ئەنجامدانی زینا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadult53891("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadult53891(
-                                        // REPLACE: adultery /əˈdʌltəri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was accused of committing adultery.",
+                            kurdishText: "تاوانبارکرا بە ئەنجامدانی زینا.",
+                            onPressedBritish: () => speakadult53891("en-GB"),
+                            onPressedAmerican: () => speakadult53891(
+                                // REPLACE: adultery /əˈdʌltəri/
+                                "en-US"),
                           ),
                         ],
                       ),

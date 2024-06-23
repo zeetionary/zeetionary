@@ -151,147 +151,52 @@ class EnglishEntrybout extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ماوەیەکی کورت لە چالاکی زۆر یان شتێکی ناخۆش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They had been fighting after a drinking bout."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەڕیان دەکرد لە دوای ماوەیەک لە خواردنەوەی زۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbouts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbouts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They had been fighting after a drinking bout.",
+                            kurdishText:
+                                "شەڕیان دەکرد لە دوای ماوەیەک لە خواردنەوەی زۆر.",
+                            onPressedBritish: () => speakbouts1("en-GB"),
+                            onPressedAmerican: () => speakbouts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There has been a severe bout of inflation over recent months."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە چەند مانگی ڕابردوودا ماوەیەک لە ھەڵاوسانی ئابووریی توند ھەبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbouts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbouts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There has been a severe bout of inflation over recent months.",
+                            kurdishText:
+                                "لە چەند مانگی ڕابردوودا ماوەیەک لە ھەڵاوسانی ئابووریی توند ھەبووە.",
+                            onPressedBritish: () => speakbouts2("en-GB"),
+                            onPressedAmerican: () => speakbouts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ماوەیەک لە نەخۆشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He suffered occasional bouts of depression."),
-                                    ExampleSentenceKurdish(
-                                        text: "ماوە ماوە تووشی خەمۆکی دەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbouts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbouts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He suffered occasional bouts of depression.",
+                            kurdishText: "ماوە ماوە تووشی خەمۆکی دەبوو.",
+                            onPressedBritish: () => speakbouts3("en-GB"),
+                            onPressedAmerican: () => speakbouts3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I got a bad bout of the flu last winter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تووشی موددەتێکی خراپ لە ھەڵامەت بووم زستانی ڕابردوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbouts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbouts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I got a bad bout of the flu last winter.",
+                            kurdishText:
+                                "تووشی موددەتێکی خراپ لە ھەڵامەت بووم زستانی ڕابردوو.",
+                            onPressedBritish: () => speakbouts4("en-GB"),
+                            onPressedAmerican: () => speakbouts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) یارییەکی شەڕەبۆکس یان زۆرانبازی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The doctor halted their bout after the ninth round."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دکتۆرەکە زۆرانبازییەکەی وەستاند لە دوای گەڕی نۆیەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbouts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbouts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The doctor halted their bout after the ninth round.",
+                            kurdishText:
+                                "دکتۆرەکە زۆرانبازییەکەی وەستاند لە دوای گەڕی نۆیەم.",
+                            onPressedBritish: () => speakbouts5("en-GB"),
+                            onPressedAmerican: () => speakbouts5("en-US"),
                           ),
                         ],
                       ),

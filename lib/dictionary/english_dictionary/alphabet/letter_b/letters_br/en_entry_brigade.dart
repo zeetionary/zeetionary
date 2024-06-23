@@ -145,63 +145,25 @@ class EnglishEntrybrigade extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕێژەیەکی زۆر سەرباز کە بەشێکی سوپایەک پێکدێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A special army brigade is to be formed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لیوایەکی تایبەتی سوپا درووست دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brigade" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrigades1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrigades1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A special army brigade is to be formed.",
+                            kurdishText:
+                                "لیوایەکی تایبەتی سوپا درووست دەکرێت.", // brigade" as
+                            onPressedBritish: () => speakbrigades1("en-GB"),
+                            onPressedAmerican: () => speakbrigades1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کۆمەڵە کەسێک کە خاڵێکی ھاوبەشیان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Since she gave up smoking she's joined the anti-smoking brigade."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەوەتەی وازی لە جگەرەکێشان ھێناوە پەیوەندی کردووە بە کۆمەڵەی دژبەرانی جگەرەکێشانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrigades2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrigades2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Since she gave up smoking she's joined the anti-smoking brigade.",
+                            kurdishText:
+                                "لەوەتەی وازی لە جگەرەکێشان ھێناوە پەیوەندی کردووە بە کۆمەڵەی دژبەرانی جگەرەکێشانەوە.",
+                            onPressedBritish: () => speakbrigades2("en-GB"),
+                            onPressedAmerican: () => speakbrigades2("en-US"),
                           ),
                         ],
                       ),

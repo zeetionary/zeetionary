@@ -146,63 +146,25 @@ class EnglishEntryboarder extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) منداڵێک کە لە قوتابخانە دەژی و لە کاتی پشووەکاندا دەگەڕێتەوە ماڵەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The young boarder looked forward to visiting family during school breaks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندکارە گەنجەکە تامەزرۆ بوو سەردانی خێزانەکەی بکات لە ماوەی پشووی قوتابخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboarders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboarders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The young boarder looked forward to visiting family during school breaks.",
+                            kurdishText:
+                                "خوێندکارە گەنجەکە تامەزرۆ بوو سەردانی خێزانەکەی بکات لە ماوەی پشووی قوتابخانە.",
+                            onPressedBritish: () => speakboarders1("en-GB"),
+                            onPressedAmerican: () => speakboarders1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە پارە دەدات بۆ ژیانکردن لە ژوورێکی ماڵی کەسێکی تر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After her father’s death, her mother took in boarders to bring in extra money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای مردنی باوکی، دایکی کرێچی ھێنایە ژوورەکان بۆ زیادکردنی داھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboarders2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboarders2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After her father’s death, her mother took in boarders to bring in extra money.",
+                            kurdishText:
+                                "لە دوای مردنی باوکی، دایکی کرێچی ھێنایە ژوورەکان بۆ زیادکردنی داھات.",
+                            onPressedBritish: () => speakboarders2("en-GB"),
+                            onPressedAmerican: () => speakboarders2("en-US"),
                           ),
                         ],
                       ),

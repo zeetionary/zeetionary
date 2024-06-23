@@ -155,32 +155,13 @@ class EnglishEntryavidly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە تامەزرۆیی زۆرەوە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She reads avidly."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە تامەزرۆییەوە دەخوێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavidlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavidlys1(// REPLACE: avidly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She reads avidly.",
+                            kurdishText: "بە تامەزرۆییەوە دەخوێنێتەوە.",
+                            onPressedBritish: () => speakavidlys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavidlys1(// REPLACE: avidly
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

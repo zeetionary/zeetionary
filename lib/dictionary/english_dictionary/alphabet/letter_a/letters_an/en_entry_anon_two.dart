@@ -158,67 +158,29 @@ class EnglishEntryanontwo extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەسێک بەناوێکەوە کە نەزانراوە یان نایەوێت ئاشکرا بێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The money was donated by a local businessman who wishes to remain anon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارەکە بەخشرا لەلایەن بازرگانێکی خۆجێیی کە دەخوازێت بە نھێنی بمێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanontwo1022("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanontwo1022(
-                                        // REPLACE: anon. /əˈnɑːnɪməs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The money was donated by a local businessman who wishes to remain anon.",
+                            kurdishText:
+                                "پارەکە بەخشرا لەلایەن بازرگانێکی خۆجێیی کە دەخوازێت بە نھێنی بمێنێتەوە.",
+                            onPressedBritish: () => speakanontwo1022("en-GB"),
+                            onPressedAmerican: () => speakanontwo1022(
+                                // REPLACE: anon. /əˈnɑːnɪməs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک لەلایەن کەسێکەوە کە نەناسراوە یان نایەنەوێت ئاشکرا بێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He received an anon. letter threatening to disclose details of his affair if he didn't pay the money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەیەکی نھێنی پێ‌گەیشت کە ھەڕەشەی ئەوەی لێ‌دەکرد کە وردەکاری پەیوەندییە سۆزدارییەکەی ئاشکرا دەکات ئەگەر پارەکە نەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanontwo1026("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanontwo1026(
-                                        // REPLACE: anon. /əˈnɑːnɪməs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He received an anon. letter threatening to disclose details of his affair if he didn't pay the money.",
+                            kurdishText:
+                                "نامەیەکی نھێنی پێ‌گەیشت کە ھەڕەشەی ئەوەی لێ‌دەکرد کە وردەکاری پەیوەندییە سۆزدارییەکەی ئاشکرا دەکات ئەگەر پارەکە نەدات.",
+                            onPressedBritish: () => speakanontwo1026("en-GB"),
+                            onPressedAmerican: () => speakanontwo1026(
+                                // REPLACE: anon. /əˈnɑːnɪməs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

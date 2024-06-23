@@ -144,32 +144,12 @@ class EnglishEntryblackly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بینینی شتی ناخۆش، وەک کوشتن، بە گاڵتەوگەپەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie takes a blackly humorous look at death."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە بە تەنزەوە لە مەرگ دەڕوانێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacklys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacklys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie takes a blackly humorous look at death.",
+                            kurdishText: "فیلمەکە بە تەنزەوە لە مەرگ دەڕوانێت.",
+                            onPressedBritish: () => speakblacklys1("en-GB"),
+                            onPressedAmerican: () => speakblacklys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

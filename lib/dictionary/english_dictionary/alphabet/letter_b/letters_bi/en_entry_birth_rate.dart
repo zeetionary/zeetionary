@@ -151,32 +151,13 @@ class EnglishEntrybirthrate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پێناسەڕێژەی لەدایکبوون لە شوێنێکدا بۆ ھەر ١٠٠٠ کەس لە ساڵێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Educating girls has the effect of lowering birth rates."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەروەردە و فێرکردنی کچان کاریگەری ئەوەی ھەیە ڕێژەی منداڵبوون دادەبەزێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirthrates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirthrates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Educating girls has the effect of lowering birth rates.",
+                            kurdishText:
+                                "پەروەردە و فێرکردنی کچان کاریگەری ئەوەی ھەیە ڕێژەی منداڵبوون دادەبەزێت.",
+                            onPressedBritish: () => speakbirthrates1("en-GB"),
+                            onPressedAmerican: () => speakbirthrates1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

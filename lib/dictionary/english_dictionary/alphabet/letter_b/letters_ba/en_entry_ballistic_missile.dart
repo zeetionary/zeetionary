@@ -154,35 +154,16 @@ class EnglishEntryballisticmissile extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مووشەکی بالیستیکی؛ موشەکێک کە بەخێرایی و گۆشەیەکی دیاریکراو دەھاوێژرێت بۆ ئەوەی لە شوێنی مەبەست بکەوێتە خوارەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The regime was planning on developing long-range ballistic missiles that could travel 600 miles or more."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕژێمەکە پلانی گەشەپێدانی موشەکی بالیستیکی مەودا درێژی ھەبوو کە دەیتوانی ٦٠٠ میل یان زیاتر ببڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakballisticmissiles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakballisticmissiles1(
-                                        // REPLACE: ballistic missile
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The regime was planning on developing long-range ballistic missiles that could travel 600 miles or more.",
+                            kurdishText:
+                                "ڕژێمەکە پلانی گەشەپێدانی موشەکی بالیستیکی مەودا درێژی ھەبوو کە دەیتوانی ٦٠٠ میل یان زیاتر ببڕێت.",
+                            onPressedBritish: () =>
+                                speakballisticmissiles1("en-GB"),
+                            onPressedAmerican: () => speakballisticmissiles1(
+                                // REPLACE: ballistic missile
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

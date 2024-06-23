@@ -112,35 +112,16 @@ class EnglishEntryaimlessly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵکار) بەبێ ھۆ و مەبەست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "While she waited, she walked aimlessly around the car park."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە چاوەڕێی دەکرد بێ مەبەستانە لە گەراجەکەدا دەسوڕایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaimlessly76511981("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaimlessly76511981(
-                                        // REPLACE: aimlessly /ˈeɪmləsli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "While she waited, she walked aimlessly around the car park.",
+                            kurdishText:
+                                "کە چاوەڕێی دەکرد بێ مەبەستانە لە گەراجەکەدا دەسوڕایەوە.",
+                            onPressedBritish: () =>
+                                speakaimlessly76511981("en-GB"),
+                            onPressedAmerican: () => speakaimlessly76511981(
+                                // REPLACE: aimlessly /ˈeɪmləsli/
+                                "en-US"),
                           ),
                         ],
                       ),

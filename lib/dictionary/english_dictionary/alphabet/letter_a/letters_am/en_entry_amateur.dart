@@ -126,130 +126,54 @@ class EnglishEntryamateur extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کردنی شتێک بۆ ئارەزووی خۆت، نەک وەک پیشە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was an amateur photographer until the age of 40, when he turned professional."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاوەک تەمەنی ٤٠ ساڵیش ھەر وێنەگرێکی ھەوەس‌کار بوو، لەوەو بەدوا بوو کە بوو بە پڕۆفیشناڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamateur44451("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamateur44451(
-                                        // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was an amateur photographer until the age of 40, when he turned professional.",
+                            kurdishText:
+                                "تاوەک تەمەنی ٤٠ ساڵیش ھەر وێنەگرێکی ھەوەس‌کار بوو، لەوەو بەدوا بوو کە بوو بە پڕۆفیشناڵ.",
+                            onPressedBritish: () => speakamateur44451("en-GB"),
+                            onPressedAmerican: () => speakamateur44451(
+                                // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک کە بە باشی و شارەزاییەوە نەکراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The performance sounded very amateur, I’m afraid."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەداخەوەم بەڵام نمایشەکە زۆر تازەکارانە دیاربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamateur47955("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamateur47955(
-                                        // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The performance sounded very amateur, I’m afraid.",
+                            kurdishText:
+                                "بەداخەوەم بەڵام نمایشەکە زۆر تازەکارانە دیاربوو.",
+                            onPressedBritish: () => speakamateur47955("en-GB"),
+                            onPressedAmerican: () => speakamateur47955(
+                                // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کەسێک کە بۆ خۆشی و ھەوەس بەژداری چالاکییەک دەکات، نەک وەک پیشە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The tournament is open to both amateurs and professionals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاڵەوانێتییەکە بۆ حەزکاران و پڕۆفیشناڵان کراوەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamateur44592("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamateur44592(
-                                        // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The tournament is open to both amateurs and professionals.",
+                            kurdishText:
+                                "پاڵەوانێتییەکە بۆ حەزکاران و پڕۆفیشناڵان کراوەیە.",
+                            onPressedBritish: () => speakamateur44592("en-GB"),
+                            onPressedAmerican: () => speakamateur44592(
+                                // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کەسێک کە شارەزایی پێویستی نییە بۆ کردنی کارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This work was done by a bunch of amateurs!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ئیشە لەلایەن ژمارەیەک تازە کارەوە ئەنجام دراوە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamateur49555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamateur49555(
-                                        // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This work was done by a bunch of amateurs!",
+                            kurdishText:
+                                "ئەم ئیشە لەلایەن ژمارەیەک تازە کارەوە ئەنجام دراوە!",
+                            onPressedBritish: () => speakamateur49555("en-GB"),
+                            onPressedAmerican: () => speakamateur49555(
+                                // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
+                                "en-US"),
                           ),
                         ],
                       ),

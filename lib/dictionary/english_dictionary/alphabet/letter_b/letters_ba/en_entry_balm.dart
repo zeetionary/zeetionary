@@ -157,100 +157,42 @@ class EnglishEntrybalm extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ڕۆنێکی بۆنخۆش کە لە ھەندێک دار و ڕووەکەوە دەستدەکەوێت، لەکۆندا بۆ خۆشکردنەوەی برین بەکاردەھات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ancient Egyptians used balms as part of their religious rituals and cosmetic practices."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میسرییە کۆنەکان ڕۆنی بامیان بەکاردەھێنا وەک بەشێک لە بۆنەی ئاینی و کاری جوانکاری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalms1(// REPLACE: balm
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ancient Egyptians used balms as part of their religious rituals and cosmetic practices.",
+                            kurdishText:
+                                "میسرییە کۆنەکان ڕۆنی بامیان بەکاردەھێنا وەک بەشێک لە بۆنەی ئاینی و کاری جوانکاری.",
+                            onPressedBritish: () => speakbalms1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalms1(// REPLACE: balm
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شلەیەک یان کرێمێک کە بەکاردێت بۆ ساڕێژکردنی برین یان نەرمکردنی پێست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He used a skin balm after shaving."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرێمێکی پێستی بەکارھێنا لە دوای تەراشەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalms2(// REPLACE: balm
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He used a skin balm after shaving.",
+                            kurdishText:
+                                "کرێمێکی پێستی بەکارھێنا لە دوای تەراشەکەی.",
+                            onPressedBritish: () => speakbalms2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalms2(// REPLACE: balm
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) (وێژە) شتێکە کە ھێمنت دەکاتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The gentle music was a balm to his spirit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوزیکە ئارامبەخشەکە ھێدی‌کەرەوەی ڕۆحی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalms3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalms3(// REPLACE: balm
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The gentle music was a balm to his spirit.",
+                            kurdishText:
+                                "میوزیکە ئارامبەخشەکە ھێدی‌کەرەوەی ڕۆحی بوو.",
+                            onPressedBritish: () => speakbalms3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalms3(// REPLACE: balm
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

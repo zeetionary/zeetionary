@@ -152,66 +152,27 @@ class EnglishEntrybackpack extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جانتایەکی قایم کە لەپشت‌دەکرێت و زۆرجار لەلایەن شاخەوانان بەکاردێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was wearing a heavy backpack."),
-                                    ExampleSentenceKurdish(
-                                        text: "جانتایەکی قوورسی لەپشت‌کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s1(// REPLACE: backpack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was wearing a heavy backpack.",
+                            kurdishText: "جانتایەکی قوورسی لەپشت‌کردبوو.",
+                            onPressedBritish: () => speakb3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s1(// REPLACE: backpack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) چوون بۆ گەشتکردن بە جانتایەکی شاخەوانییەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They went backpacking in Spain last year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵی پار چوون بۆ گەشتکردن بۆ ئیسپانیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s2(// REPLACE: backpack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They went backpacking in Spain last year.",
+                            kurdishText:
+                                "ساڵی پار چوون بۆ گەشتکردن بۆ ئیسپانیا.",
+                            onPressedBritish: () => speakb3s2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s2(// REPLACE: backpack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

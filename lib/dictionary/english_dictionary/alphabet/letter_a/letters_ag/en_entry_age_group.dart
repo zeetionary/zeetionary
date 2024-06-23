@@ -112,35 +112,15 @@ class EnglishEntryagegroup extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کۆمەڵە کەسێکی ھاوتەمەن" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People in the younger age groups tended to vote less."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو کەسانەی تەمەنیان گەنج بوو کەمتر دەنگیان دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakagegrou199852("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagegrou199852(
-                                        // REPLACE: age group /ˈeɪdʒ ɡruːp/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People in the younger age groups tended to vote less.",
+                            kurdishText:
+                                "ئەو کەسانەی تەمەنیان گەنج بوو کەمتر دەنگیان دا.",
+                            onPressedBritish: () => speakagegrou199852("en-GB"),
+                            onPressedAmerican: () => speakagegrou199852(
+                                // REPLACE: age group /ˈeɪdʒ ɡruːp/
+                                "en-US"),
                           ),
                         ],
                       ),

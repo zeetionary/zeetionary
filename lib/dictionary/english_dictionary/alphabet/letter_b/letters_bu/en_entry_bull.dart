@@ -146,121 +146,45 @@ class EnglishEntrybull extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نێرینەی ھەر ئاژەڵێک کە مانگا بێت، یان نێرینەی فیل، قرش، یان ئاژەڵە گەورەکانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They did not see the sign by the gate saying 'Beware of the bull'."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو نووسراوەیان نەدی لە دەروازەکە کە نووسرابوو 'ئاگاداری نێرەگا بن'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "bull", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They did not see the sign by the gate saying 'Beware of the bull'.",
+                            kurdishText:
+                                "ئەو نووسراوەیان نەدی لە دەروازەکە کە نووسرابوو 'ئاگاداری نێرەگا بن'.", // bull", follow LX strictly
+                            onPressedBritish: () => speakbulls1("en-GB"),
+                            onPressedAmerican: () => speakbulls1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bull lowered its horns and charged."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نێرەگاکە شاخەکانی نزمکردەوە و ھێرشی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulls2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulls2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bull lowered its horns and charged.",
+                            kurdishText:
+                                "نێرەگاکە شاخەکانی نزمکردەوە و ھێرشی کرد.",
+                            onPressedBritish: () => speakbulls2("en-GB"),
+                            onPressedAmerican: () => speakbulls2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) بڕیارێک یان بەیاننامەیەکی پاپا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Papal bulls carry significant authority."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەیاننامەکانی پاپا گرنگی تایبەتیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulls3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulls3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Papal bulls carry significant authority.",
+                            kurdishText:
+                                "بەیاننامەکانی پاپا گرنگی تایبەتیان ھەیە.",
+                            onPressedBritish: () => speakbulls3("en-GB"),
+                            onPressedAmerican: () => speakbulls3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بیرۆکە، باوەڕ، و قسە کە پێتوایە گەمژانەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you want to believe all that bull it’s up to you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر باوەڕ بەو ھەموو پڕوپوچێتییە دەکەیت بەدەست خۆتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulls4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulls4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you want to believe all that bull it’s up to you.",
+                            kurdishText:
+                                "ئەگەر باوەڕ بەو ھەموو پڕوپوچێتییە دەکەیت بەدەست خۆتە.",
+                            onPressedBritish: () => speakbulls4("en-GB"),
+                            onPressedAmerican: () => speakbulls4("en-US"),
                           ),
                         ],
                       ),

@@ -160,101 +160,44 @@ class EnglishEntryannouncement extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ڕاگەیاندنێک کە بە فەرمی بە خەڵکی دەوترێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We welcome the recent announcement by the Government."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشوازی لە ڕاگەیاندنە تازەکەی حکومەت دەکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakannouncement413("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannouncement413(
-                                        // REPLACE: announcement /əˈnaʊnsmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We welcome the recent announcement by the Government.",
+                            kurdishText:
+                                "پێشوازی لە ڕاگەیاندنە تازەکەی حکومەت دەکەین.",
+                            onPressedBritish: () =>
+                                speakannouncement413("en-GB"),
+                            onPressedAmerican: () => speakannouncement413(
+                                // REPLACE: announcement /əˈnaʊnsmənt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An announcement about her future is expected soon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەم‌زوانە چاوەڕوانی ڕاگەیاندنێک دەکرێت دەربارەی داھاتووی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakannouncement416("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannouncement416(
-                                        // REPLACE: announcement /əˈnaʊnsmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An announcement about her future is expected soon.",
+                            kurdishText:
+                                "بەم‌زوانە چاوەڕوانی ڕاگەیاندنێک دەکرێت دەربارەی داھاتووی.",
+                            onPressedBritish: () =>
+                                speakannouncement416("en-GB"),
+                            onPressedAmerican: () => speakannouncement416(
+                                // REPLACE: announcement /əˈnaʊnsmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بە فەرمی ڕاگەیاندنی شتێک بە خەڵکی """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Announcement of the verdict was accompanied by shouts and cheers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاگەیاندنی بڕیارەکە ھاوار و قریوەی بەدواداھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakannouncement420("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannouncement420(
-                                        // REPLACE: announcement /əˈnaʊnsmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Announcement of the verdict was accompanied by shouts and cheers.",
+                            kurdishText:
+                                "ڕاگەیاندنی بڕیارەکە ھاوار و قریوەی بەدواداھات.",
+                            onPressedBritish: () =>
+                                speakannouncement420("en-GB"),
+                            onPressedAmerican: () => speakannouncement420(
+                                // REPLACE: announcement /əˈnaʊnsmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

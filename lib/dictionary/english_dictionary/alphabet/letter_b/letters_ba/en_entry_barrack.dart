@@ -148,63 +148,25 @@ class EnglishEntrybarrack extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پەیوەندیدار بە سەربازگە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soldiers trudged back to their barrack quarters after a long day of maneuvers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکان بە لاتەلات گەڕانەوە بۆ ژوورەکانی سەربازگەکەیان لە دوای ڕۆژێکی درێژ لە لە مەشق و ڕاھێنان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarracks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarracks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soldiers trudged back to their barrack quarters after a long day of maneuvers.",
+                            kurdishText:
+                                "سەربازەکان بە لاتەلات گەڕانەوە بۆ ژوورەکانی سەربازگەکەیان لە دوای ڕۆژێکی درێژ لە لە مەشق و ڕاھێنان.",
+                            onPressedBritish: () => speakbarracks1("en-GB"),
+                            onPressedAmerican: () => speakbarracks1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ھاوارکردن بۆ قسەبڕین بە کەسێک کە لەگەڵی ناڕازیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Every time the minister got up to speak he was barracked mercilessly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەر کە وەزیرەکە دەیویست قسەبکات بێ‌ڕەحمانە وتافی دژ دەوترا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarracks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarracks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Every time the minister got up to speak he was barracked mercilessly.",
+                            kurdishText:
+                                "ھەر کە وەزیرەکە دەیویست قسەبکات بێ‌ڕەحمانە وتافی دژ دەوترا.",
+                            onPressedBritish: () => speakbarracks2("en-GB"),
+                            onPressedAmerican: () => speakbarracks2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

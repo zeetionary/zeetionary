@@ -151,63 +151,25 @@ class EnglishEntrybayonet extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) چەقۆیەکی تیژ کە بەستراوە بە سەری تفەنگێکەوە و وەک چەک بەکاردێت لە شەڕدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bayonets gleamed in the sunlight as the enemy approached."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرنێزەکان لەژێر تیشکی خۆردا دەدرەوشانەوە کە دوژمن نزیکبوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbayonets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbayonets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bayonets gleamed in the sunlight as the enemy approached.",
+                            kurdishText:
+                                "سەرنێزەکان لەژێر تیشکی خۆردا دەدرەوشانەوە کە دوژمن نزیکبوویەوە.",
+                            onPressedBritish: () => speakbayonets1("en-GB"),
+                            onPressedAmerican: () => speakbayonets1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) چەقاندنی سەرنێزەیەک بە کەسێکدا بۆ کوشتنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Innocent civilians had been shot and bayoneted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوڵاتی بێ‌تاوان بە فیشەک و سەرنێزە لێیان دراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbayonets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbayonets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Innocent civilians had been shot and bayoneted.",
+                            kurdishText:
+                                "ھاوڵاتی بێ‌تاوان بە فیشەک و سەرنێزە لێیان دراوە.",
+                            onPressedBritish: () => speakbayonets2("en-GB"),
+                            onPressedAmerican: () => speakbayonets2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

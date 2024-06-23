@@ -150,32 +150,13 @@ class EnglishEntrybistro extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) چێشتخانەیەکی بچووک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The neighborhood bistro offered classic French dishes with a modern twist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواردنگەی گەڕەکەکە خواردنی ڕەسەنی فەرەنسی پێشکەش دەکرد بە گۆڕانکاریی سەردەمیانەوە.."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbistros1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbistros1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The neighborhood bistro offered classic French dishes with a modern twist.",
+                            kurdishText:
+                                "خواردنگەی گەڕەکەکە خواردنی ڕەسەنی فەرەنسی پێشکەش دەکرد بە گۆڕانکاریی سەردەمیانەوە..",
+                            onPressedBritish: () => speakbistros1("en-GB"),
+                            onPressedAmerican: () => speakbistros1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

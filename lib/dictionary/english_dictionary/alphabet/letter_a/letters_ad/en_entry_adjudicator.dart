@@ -111,34 +111,15 @@ class EnglishEntryadjudicator extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە ناوبژی لەنێوان دوو کەس یان شت دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You may refer your complaint to an independent adjudicator."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەتوانیت ناڕەزاییەکەت بە ناوبژیکارێکی سەربەخۆ بڵێیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadjudic35477("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadjudic35477(
-                                        // REPLACE: adjudicator /əˈdʒuːdɪkeɪtər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You may refer your complaint to an independent adjudicator.",
+                            kurdishText:
+                                "ئەتوانیت ناڕەزاییەکەت بە ناوبژیکارێکی سەربەخۆ بڵێیت.",
+                            onPressedBritish: () => speakadjudic35477("en-GB"),
+                            onPressedAmerican: () => speakadjudic35477(
+                                // REPLACE: adjudicator /əˈdʒuːdɪkeɪtər/
+                                "en-US"),
                           ),
                         ],
                       ),

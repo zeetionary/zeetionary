@@ -158,34 +158,15 @@ class EnglishEntryapprovingly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بە شێوەیەک کە شتێکت پێ پەسەندە یان ڕازی پێیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She looked at him approvingly and smiled."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە قایلانە سەیری‌کرد و پێکەنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapprovingly941("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapprovingly941(
-                                        // REPLACE: approvingly /əˈpruːvɪŋli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She looked at him approvingly and smiled.",
+                            kurdishText: "بە قایلانە سەیری‌کرد و پێکەنی.",
+                            onPressedBritish: () =>
+                                speakapprovingly941("en-GB"),
+                            onPressedAmerican: () => speakapprovingly941(
+                                // REPLACE: approvingly /əˈpruːvɪŋli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -164,35 +164,15 @@ class EnglishEntryauthenticity extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕاستی و درووستی شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The authenticity of the letter is beyond doubt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەسەنایەتی نامەکە لە دەرەوەی گومانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthenticity651("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthenticity651(
-                                        // REPLACE: authenticity
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The authenticity of the letter is beyond doubt.",
+                            kurdishText: "ڕەسەنایەتی نامەکە لە دەرەوەی گومانە.",
+                            onPressedBritish: () =>
+                                speakauthenticity651("en-GB"),
+                            onPressedAmerican: () => speakauthenticity651(
+                                // REPLACE: authenticity
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

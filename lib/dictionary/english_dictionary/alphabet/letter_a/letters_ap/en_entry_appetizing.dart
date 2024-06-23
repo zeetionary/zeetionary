@@ -163,35 +163,15 @@ class EnglishEntryappetizing extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) خواردنێک کە بۆنەکەی یان تامەکەی سەرجڕاکێشە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The meals he cooked were always nourishing but never particularly appetizing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو خواردنانەی کە درووستی دەکردن ھەمیشە باش بوون بۆ تەندرووستی بەڵام ھەرگیز بەردڵان نەبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappetizing324("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappetizing324(
-                                        // REPLACE: appetizing /ˈæpɪtaɪzɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The meals he cooked were always nourishing but never particularly appetizing.",
+                            kurdishText:
+                                "ئەو خواردنانەی کە درووستی دەکردن ھەمیشە باش بوون بۆ تەندرووستی بەڵام ھەرگیز بەردڵان نەبوون.",
+                            onPressedBritish: () => speakappetizing324("en-GB"),
+                            onPressedAmerican: () => speakappetizing324(
+                                // REPLACE: appetizing /ˈæpɪtaɪzɪŋ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

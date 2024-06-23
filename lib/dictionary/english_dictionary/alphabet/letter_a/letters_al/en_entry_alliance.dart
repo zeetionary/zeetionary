@@ -134,98 +134,40 @@ class EnglishEntryalliance extends StatelessWidget {
                               text:
                                   "١. (ناو) ڕێککەوتنێک لەنێوان دوو وڵات یان دوو لایەن بۆ بەدەستھێنانی شتێک کە ھەموویان بە ھاوبەشی دەیانەوێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government has tried to forge alliances with environmentalists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت ھەوڵیداوە ھاوپەیمانییەک لەگەڵ ژینگەدۆستان ببەستێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalliance45966("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalliance45966(
-                                        // REPLACE: alliance /əˈlaɪəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government has tried to forge alliances with environmentalists.",
+                            kurdishText:
+                                "حکومەت ھەوڵیداوە ھاوپەیمانییەک لەگەڵ ژینگەدۆستان ببەستێت.",
+                            onPressedBritish: () => speakalliance45966("en-GB"),
+                            onPressedAmerican: () => speakalliance45966(
+                                // REPLACE: alliance /əˈlaɪəns/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The marriage was meant to cement the alliance between the two countries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانج لە ھاوسەرگیرییەکە ئەوەبوو ھاوپەیمانی لەنێوان دوو وڵاتەکە پتەو بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalliance647239("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalliance647239(
-                                        // REPLACE: alliance /əˈlaɪəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The marriage was meant to cement the alliance between the two countries.",
+                            kurdishText:
+                                "ئامانج لە ھاوسەرگیرییەکە ئەوەبوو ھاوپەیمانی لەنێوان دوو وڵاتەکە پتەو بکات.",
+                            onPressedBritish: () =>
+                                speakalliance647239("en-GB"),
+                            onPressedAmerican: () => speakalliance647239(
+                                // REPLACE: alliance /əˈlaɪəns/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کۆمەڵە وڵاتێک یان لایەنێک کە ڕێککەوتنێک ھەیە لەنێوانیان بۆ بەدەستھێنانی شتێک کە ھەموویان بە ھاوبەشی دەیانەوێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Seven more countries have been invited to join the alliance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەوت وڵاتی دیکە بانگھێشتکراون پەیوەندی بە ھاوپەیمانییەکەوە بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalliance4692("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalliance4692(
-                                        // REPLACE: alliance /əˈlaɪəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Seven more countries have been invited to join the alliance.",
+                            kurdishText:
+                                "حەوت وڵاتی دیکە بانگھێشتکراون پەیوەندی بە ھاوپەیمانییەکەوە بکەن.",
+                            onPressedBritish: () => speakalliance4692("en-GB"),
+                            onPressedAmerican: () => speakalliance4692(
+                                // REPLACE: alliance /əˈlaɪəns/
+                                "en-US"),
                           ),
                         ],
                       ),

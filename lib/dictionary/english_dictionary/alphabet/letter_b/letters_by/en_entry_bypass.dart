@@ -194,121 +194,44 @@ class EnglishEntrybypass extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕێگایەک کە بە دەوری شارۆچکەیەک یان شارێکدا دەڕوات وەک ئەوەی بەناویدا بچێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That stretch of bypass will be finished by January."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێفا پشتێنەییەکە تا کانوونی دووەم تەواو دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bypass", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbypasss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbypasss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That stretch of bypass will be finished by January.",
+                            kurdishText:
+                                "ڕێفا پشتێنەییەکە تا کانوونی دووەم تەواو دەبێت.", // bypass", follow LX strictly
+                            onPressedBritish: () => speakbypasss1("en-GB"),
+                            onPressedAmerican: () => speakbypasss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They're building a new bypass around the town."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەقامێکی پشتێنەیی تازە بە دەوری شارۆچکەکەدا درووست دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbypasss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbypasss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They're building a new bypass around the town.",
+                            kurdishText:
+                                "شەقامێکی پشتێنەیی تازە بە دەوری شارۆچکەکەدا درووست دەکەن.",
+                            onPressedBritish: () => speakbypasss2("en-GB"),
+                            onPressedAmerican: () => speakbypasss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) چوون بە لای شتێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A new road now bypasses the town."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەقامێکی تازە ئێستا بە دەوری شارۆچکەکەدا دەچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbypasss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbypasss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A new road now bypasses the town.",
+                            kurdishText:
+                                "شەقامێکی تازە ئێستا بە دەوری شارۆچکەکەدا دەچێت.",
+                            onPressedBritish: () => speakbypasss3("en-GB"),
+                            onPressedAmerican: () => speakbypasss3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) پشتگوێ خستنی یاسایەک، سیستەمێکی فەرمی، یان کەسێکی بەدەسەڵات بۆ ئەوەی کارێک بەخێرایی بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They bypassed the committee and went straight to senior management."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لیژنەکەیان تێپەڕاند و ڕاستەوخۆ چوون بۆ بەڕێوبەرایەتی باڵا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbypasss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbypasss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They bypassed the committee and went straight to senior management.",
+                            kurdishText:
+                                "لیژنەکەیان تێپەڕاند و ڕاستەوخۆ چوون بۆ بەڕێوبەرایەتی باڵا.",
+                            onPressedBritish: () => speakbypasss4("en-GB"),
+                            onPressedAmerican: () => speakbypasss4("en-US"),
                           ),
                         ],
                       ),

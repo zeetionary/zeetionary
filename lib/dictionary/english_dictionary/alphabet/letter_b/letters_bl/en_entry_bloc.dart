@@ -148,32 +148,13 @@ class EnglishEntrybloc extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لۆمەڵە وڵاتێک کە پێکەوە کار دەکەن چونکە بەرژەوەندی سیاسی ھاوبەشیان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The European Union is a powerful trading/trade bloc."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێتیی ئەورووپا بلۆکێکی بازرگانیی بەھێزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The European Union is a powerful trading/trade bloc.",
+                            kurdishText:
+                                "یەکێتیی ئەورووپا بلۆکێکی بازرگانیی بەھێزە.",
+                            onPressedBritish: () => speakblocs1("en-GB"),
+                            onPressedAmerican: () => speakblocs1("en-US"),
                           ),
                         ],
                       ),

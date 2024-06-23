@@ -109,97 +109,40 @@ class EnglishEntryagitate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) داواکردنی شتێک بە سەرسەختی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her family are agitating to have her transferred to a prison in the UK."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێزانەکەی بە پەشێوانە ھەوڵ دەدەن بتگوێزنەوە بۆ زیندانێک لە شانشینی یەکگرتوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagit125("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagit125(
-                                        // REPLACE: agitate /ˈædʒɪteɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her family are agitating to have her transferred to a prison in the UK.",
+                            kurdishText:
+                                "خێزانەکەی بە پەشێوانە ھەوڵ دەدەن بتگوێزنەوە بۆ زیندانێک لە شانشینی یەکگرتوو.",
+                            onPressedBritish: () => speakagit125("en-GB"),
+                            onPressedAmerican: () => speakagit125(
+                                // REPLACE: agitate /ˈædʒɪteɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) تووڕەکردنی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I didn't want to agitate her by telling her."),
-                                    ExampleSentenceKurdish(
-                                        text: "نامەوێ توورەی بکەم بە پێ وتنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagit7592("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagit7592(
-                                        // REPLACE: agitate /ˈædʒɪteɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I didn't want to agitate her by telling her.",
+                            kurdishText: "نامەوێ توورەی بکەم بە پێ وتنی.",
+                            onPressedBritish: () => speakagit7592("en-GB"),
+                            onPressedAmerican: () => speakagit7592(
+                                // REPLACE: agitate /ˈædʒɪteɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) تێکدانی شلەیەک بۆ تێکەڵکردنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Agitate the mixture to dissolve the powder."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێکەڵەکە تێک بدە بۆ ئەوەی ئاردەڵووکەکە بتوێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagita3477("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagita3477(
-                                        // REPLACE: agitate /ˈædʒɪteɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Agitate the mixture to dissolve the powder.",
+                            kurdishText:
+                                "تێکەڵەکە تێک بدە بۆ ئەوەی ئاردەڵووکەکە بتوێتەوە.",
+                            onPressedBritish: () => speakagita3477("en-GB"),
+                            onPressedAmerican: () => speakagita3477(
+                                // REPLACE: agitate /ˈædʒɪteɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

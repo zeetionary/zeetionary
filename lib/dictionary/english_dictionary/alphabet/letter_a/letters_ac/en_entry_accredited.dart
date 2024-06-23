@@ -108,62 +108,24 @@ class EnglishEntryaccredited extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) کەسێک کە بە فەرمی ناسێنراوە وەک شتێک، یان شتێک کە بە کوالێتی باش ناسراوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Only accredited journalists were allowed entry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا ڕۆژنامەنووسانی جێباوەڕ ڕێگەیان پێدرا بچنەژوورەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2548("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2548("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Only accredited journalists were allowed entry.",
+                            kurdishText:
+                                "تەنھا ڕۆژنامەنووسانی جێباوەڕ ڕێگەیان پێدرا بچنەژوورەوە.",
+                            onPressedBritish: () => speaka2548("en-GB"),
+                            onPressedAmerican: () => speaka2548("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The university was the most accredited around the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانکۆکە لە ھەموو ئەوانی تر زیاتر باوەڕپێکراو بوو لە وڵاتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaccredited46923("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaccredited46923("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The university was the most accredited around the country.",
+                            kurdishText:
+                                "زانکۆکە لە ھەموو ئەوانی تر زیاتر باوەڕپێکراو بوو لە وڵاتەکە.",
+                            onPressedBritish: () =>
+                                speakaccredited46923("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaccredited46923("en-US"),
                           ),
                         ],
                       ),

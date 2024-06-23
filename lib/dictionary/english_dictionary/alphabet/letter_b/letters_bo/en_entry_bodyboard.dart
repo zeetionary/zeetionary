@@ -145,32 +145,13 @@ class EnglishEntrybodyboard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جۆرێکی کورت و سووکی تەختەی شەپۆل‌سواری کە بەکاریدێنی بە پاڵکەوتن لەسەر دەم لەسەری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was paddling on a bodyboard 200 yards from shore."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەلەی دەکرد لەسەر تەختەی شەپۆل‌سواری لە دووری ٢٠٠ یاردەوە لە کەنارەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodyboards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodyboards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was paddling on a bodyboard 200 yards from shore.",
+                            kurdishText:
+                                "مەلەی دەکرد لەسەر تەختەی شەپۆل‌سواری لە دووری ٢٠٠ یاردەوە لە کەنارەکەوە.",
+                            onPressedBritish: () => speakbodyboards1("en-GB"),
+                            onPressedAmerican: () => speakbodyboards1("en-US"),
                           ),
                         ],
                       ),

@@ -158,35 +158,16 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نامەیەک کە سەروەت و سامانی کۆمپانیایەکی تێدایە لەگەڵ لیستی خەرجی و پارەدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He points out that the company has the strongest balance sheet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خستییەبەرچاو کە کۆمپانیاکە بەھێزترین تەرازنامەی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbalancesheets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbalancesheets1(
-                                        // REPLACE: balance sheet
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He points out that the company has the strongest balance sheet.",
+                            kurdishText:
+                                "خستییەبەرچاو کە کۆمپانیاکە بەھێزترین تەرازنامەی ھەیە.",
+                            onPressedBritish: () =>
+                                speakbalancesheets1("en-GB"),
+                            onPressedAmerican: () => speakbalancesheets1(
+                                // REPLACE: balance sheet
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

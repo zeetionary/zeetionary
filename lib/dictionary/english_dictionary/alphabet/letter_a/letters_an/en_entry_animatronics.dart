@@ -153,35 +153,16 @@ class EnglishEntryanimatronics extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پڕۆسەی درووستکردنی ڕۆبۆت لەشێوەی مرۆڤ یان ئاژەڵدا کە لە فیلمدا بەکاردێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ask them if they can find out who's doing the animatronics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پرسیاریان لێ‌بکە ئاخۆ دەزانن کێ کاری ئانیماترۆنیکسەکەی کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanimatronics1043("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimatronics1043(
-                                        // REPLACE: animatronics /ˌænɪməˈtrɑːnɪks/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ask them if they can find out who's doing the animatronics.",
+                            kurdishText:
+                                "پرسیاریان لێ‌بکە ئاخۆ دەزانن کێ کاری ئانیماترۆنیکسەکەی کردووە.",
+                            onPressedBritish: () =>
+                                speakanimatronics1043("en-GB"),
+                            onPressedAmerican: () => speakanimatronics1043(
+                                // REPLACE: animatronics /ˌænɪməˈtrɑːnɪks/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

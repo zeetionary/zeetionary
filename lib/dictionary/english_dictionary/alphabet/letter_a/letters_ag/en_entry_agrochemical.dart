@@ -115,35 +115,15 @@ class EnglishEntryagrochemical extends StatelessWidget {
                               text:
                                   "١. (ناو) مادەی کیمیایی کە بەکاردێت لە کشتوکاڵدا بەکاردێت بۆ کوشتنی مێروو یان باشترکردنی گەشە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They produce a wide range of agrochemicals including pesticides, fungicides, and herbicides."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر مادەی کیمیایی درووست دەکەن، لەوانە مێرووکوژ، کەڕووکوژ، گیاکوژ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakagrochem63888("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagrochem63888(
-                                        // REPLACE: agrochemical /ˌæɡrəʊˈkemɪkl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They produce a wide range of agrochemicals including pesticides, fungicides, and herbicides.",
+                            kurdishText:
+                                "زۆر مادەی کیمیایی درووست دەکەن، لەوانە مێرووکوژ، کەڕووکوژ، گیاکوژ.",
+                            onPressedBritish: () => speakagrochem63888("en-GB"),
+                            onPressedAmerican: () => speakagrochem63888(
+                                // REPLACE: agrochemical /ˌæɡrəʊˈkemɪkl/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -150,32 +150,12 @@ class EnglishEntrybetrothed extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە بەڵێنی ھاوسەرگیری پێدراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He sent a dozen roses to his betrothed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک گوڵی بۆ دەزگیرانەکەی نارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetrotheds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetrotheds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He sent a dozen roses to his betrothed.",
+                            kurdishText: "ژمارەیەک گوڵی بۆ دەزگیرانەکەی نارد.",
+                            onPressedBritish: () => speakbetrotheds1("en-GB"),
+                            onPressedAmerican: () => speakbetrotheds1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

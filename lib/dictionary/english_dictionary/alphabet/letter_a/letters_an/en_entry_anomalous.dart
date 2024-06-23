@@ -156,35 +156,15 @@ class EnglishEntryanomalous extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) شتێکی نائاسایی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They couldn’t find an explanation for the seemingly anomalous results of the experiment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەیان‌دەتوانی ڕوونکردنەوەیەک بدۆزنەوە بۆ ئەنجامە سەیرەکانی تاقیکردنەوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanomalous1013("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanomalous1013(
-                                        // REPLACE: anomalous /əˈnɑːmələs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They couldn’t find an explanation for the seemingly anomalous results of the experiment.",
+                            kurdishText:
+                                "نەیان‌دەتوانی ڕوونکردنەوەیەک بدۆزنەوە بۆ ئەنجامە سەیرەکانی تاقیکردنەوەکە.",
+                            onPressedBritish: () => speakanomalous1013("en-GB"),
+                            onPressedAmerican: () => speakanomalous1013(
+                                // REPLACE: anomalous /əˈnɑːmələs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

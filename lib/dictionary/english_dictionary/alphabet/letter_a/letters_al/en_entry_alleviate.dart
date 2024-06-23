@@ -114,66 +114,28 @@ class EnglishEntryalleviate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) سەختی شتێک کەمبکەیتەوە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A number of measures were taken to alleviate the problem."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک ڕێکار گردرانە بەر بۆ سوککردنی کێشەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalleviate45277("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalleviate45277(
-                                        // REPLACE: alleviate /əˈliːvieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A number of measures were taken to alleviate the problem.",
+                            kurdishText:
+                                "ژمارەیەک ڕێکار گردرانە بەر بۆ سوککردنی کێشەکە.",
+                            onPressedBritish: () =>
+                                speakalleviate45277("en-GB"),
+                            onPressedAmerican: () => speakalleviate45277(
+                                // REPLACE: alleviate /əˈliːvieɪt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The drugs did nothing to alleviate her pain/suffering."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چارەسەرەکان ھیچیان نەکرد بۆ کەمکردنەوەی ئازارەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalleviate35699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalleviate35699(
-                                        // REPLACE: alleviate /əˈliːvieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The drugs did nothing to alleviate her pain/suffering.",
+                            kurdishText:
+                                "چارەسەرەکان ھیچیان نەکرد بۆ کەمکردنەوەی ئازارەکەی.",
+                            onPressedBritish: () =>
+                                speakalleviate35699("en-GB"),
+                            onPressedAmerican: () => speakalleviate35699(
+                                // REPLACE: alleviate /əˈliːvieɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

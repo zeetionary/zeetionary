@@ -165,65 +165,27 @@ class EnglishEntryarrears extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ناو) قەرزێک کە ماوەی دانەوەی بەسەرچووە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The family is facing eviction over mortgage arrears."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێزانەکە تووشی مەترسی دەرکردن لە خانووەکە دەبنەوە بەھۆی قەرزی کۆنی وامی خانووبەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrears400("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrears400(
-                                        // REPLACE: arrears /əˈrɪrz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The family is facing eviction over mortgage arrears.",
+                            kurdishText:
+                                "خێزانەکە تووشی مەترسی دەرکردن لە خانووەکە دەبنەوە بەھۆی قەرزی کۆنی وامی خانووبەرە.",
+                            onPressedBritish: () => speakarrears400("en-GB"),
+                            onPressedAmerican: () => speakarrears400(
+                                // REPLACE: arrears /əˈrɪrz/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government has agreed to pay all arrears owed to members of the armed forces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت ڕازی‌بووە ھەموو مووچەی پاشەکەوتی ھێزە چەکدارەکان بداتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrears404("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrears404(
-                                        // REPLACE: arrears /əˈrɪrz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government has agreed to pay all arrears owed to members of the armed forces.",
+                            kurdishText:
+                                "حکومەت ڕازی‌بووە ھەموو مووچەی پاشەکەوتی ھێزە چەکدارەکان بداتەوە.",
+                            onPressedBritish: () => speakarrears404("en-GB"),
+                            onPressedAmerican: () => speakarrears404(
+                                // REPLACE: arrears /əˈrɪrz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

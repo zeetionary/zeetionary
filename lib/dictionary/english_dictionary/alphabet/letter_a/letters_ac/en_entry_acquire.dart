@@ -109,93 +109,35 @@ class EnglishEntryacquire extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بەدەستھێنانی شتێک بە ھەوڵ و ماندووبوونی خۆت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has acquired a good knowledge of English."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانیارییەکی باشی ئینگلیزی بەدەستھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac215698("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac215698(
-                                        "en-US"), // REPLACE acquire /əˈkwaɪər/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has acquired a good knowledge of English.",
+                            kurdishText:
+                                "زانیارییەکی باشی ئینگلیزی بەدەستھێناوە.",
+                            onPressedBritish: () => speakac215698("en-GB"),
+                            onPressedAmerican: () => speakac215698(
+                                "en-US"), // REPLACE acquire /əˈkwaɪər/
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has acquired a reputation for dishonesty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوبانگی بۆ فروفێڵ بەدەستھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka42571("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka42571(
-                                        "en-US"), // REPLACE acquire /əˈkwaɪər/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has acquired a reputation for dishonesty.",
+                            kurdishText: "ناوبانگی بۆ فروفێڵ بەدەستھێناوە.",
+                            onPressedBritish: () => speaka42571("en-GB"),
+                            onPressedAmerican: () => speaka42571(
+                                "en-US"), // REPLACE acquire /əˈkwaɪər/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بەدەستھێنانی شتێک بە کڕینی یان ئەوەی پێت بدرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Property acquired through crime will be confiscated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەر ماڵومڵکێک بە تاوان بەدەستھاتبێت دەستیبەسەردا دەگیرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka25347("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka25347(
-                                        "en-US"), // REPLACE acquire /əˈkwaɪər/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Property acquired through crime will be confiscated.",
+                            kurdishText:
+                                "ھەر ماڵومڵکێک بە تاوان بەدەستھاتبێت دەستیبەسەردا دەگیرێت.",
+                            onPressedBritish: () => speaka25347("en-GB"),
+                            onPressedAmerican: () => speaka25347(
+                                "en-US"), // REPLACE acquire /əˈkwaɪər/
                           ),
                         ],
                       ),

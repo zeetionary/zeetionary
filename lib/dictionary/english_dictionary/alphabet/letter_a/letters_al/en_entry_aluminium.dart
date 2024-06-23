@@ -117,35 +117,16 @@ class EnglishEntryaluminium extends StatelessWidget {
                               text:
                                   "١. (ناو) مادەیەکی سووکی کانزاییە کە بەکاردێت بۆ درووستکردنی کەرەستەی خواردن و پیشەسازی ئۆتۆمبێل"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            " Aluminium is rapidly oxidized in air."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاڵومینیۆم بەخێرایی ژەنگ دەکات لە ھەوادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaluminium55555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaluminium55555(
-                                        // REPLACE: aluminium /ˌæljəˈmɪniəm/, /ˌæləˈmɪniəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                " Aluminium is rapidly oxidized in air.",
+                            kurdishText:
+                                "ئاڵومینیۆم بەخێرایی ژەنگ دەکات لە ھەوادا.",
+                            onPressedBritish: () =>
+                                speakaluminium55555("en-GB"),
+                            onPressedAmerican: () => speakaluminium55555(
+                                // REPLACE: aluminium /ˌæljəˈmɪniəm/, /ˌæləˈmɪniəm/
+                                "en-US"),
                           ),
                         ],
                       ),

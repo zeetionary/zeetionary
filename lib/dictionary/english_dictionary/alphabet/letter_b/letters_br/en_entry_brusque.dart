@@ -145,60 +145,21 @@ class EnglishEntrybrusque extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بەکارھێنانی وشەی کەم و بەشێوەیەک دەرکەوتن کە بێ‌شەرم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The doctor spoke in a brusque tone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دکتۆرەکە بە تۆنێکی بێ‌ماریفەتانە قسەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brusque" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrusques1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrusques1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The doctor spoke in a brusque tone.",
+                            kurdishText:
+                                "دکتۆرەکە بە تۆنێکی بێ‌ماریفەتانە قسەی دەکرد.", // brusque" as
+                            onPressedBritish: () => speakbrusques1("en-GB"),
+                            onPressedAmerican: () => speakbrusques1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His secretary was a little brusque with me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سکرتێرەکەی کەمێک بێ‌ڕەوشت بوو لەگەڵم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrusques2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrusques2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His secretary was a little brusque with me.",
+                            kurdishText:
+                                "سکرتێرەکەی کەمێک بێ‌ڕەوشت بوو لەگەڵم.",
+                            onPressedBritish: () => speakbrusques2("en-GB"),
+                            onPressedAmerican: () => speakbrusques2("en-US"),
                           ),
                         ],
                       ),

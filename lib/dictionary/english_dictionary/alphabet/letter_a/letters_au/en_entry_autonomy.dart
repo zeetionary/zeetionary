@@ -158,67 +158,29 @@ class EnglishEntryautonomy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) مافی خۆبەڕێوبەری بۆ خاکێک یان دامەزراوەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is pressure for some degree of autonomy from minorities in the north of the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوا ھەیە بۆ ھەندێک خۆبەڕێوبەری لەلایەن کەمینەکانی باکووری وڵاتەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakautonomyS1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautonomyS1(// REPLACE: autonomy
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is pressure for some degree of autonomy from minorities in the north of the country.",
+                            kurdishText:
+                                "داوا ھەیە بۆ ھەندێک خۆبەڕێوبەری لەلایەن کەمینەکانی باکووری وڵاتەکەوە.",
+                            onPressedBritish: () => speakautonomyS1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautonomyS1(// REPLACE: autonomy
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) توانای بڕیاردان و ژیانکردن بە سەربەخۆیانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One of the aims of modern nursing is to encourage patient autonomy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە ئامانجەکانی کاری پەرستاری لەم سەردەمەدا ئەوەیە نەخۆش بتوانێت سەربەخۆ بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakautonomyS2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautonomyS2(// REPLACE: autonomy
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One of the aims of modern nursing is to encourage patient autonomy.",
+                            kurdishText:
+                                "یەکێک لە ئامانجەکانی کاری پەرستاری لەم سەردەمەدا ئەوەیە نەخۆش بتوانێت سەربەخۆ بێت.",
+                            onPressedBritish: () => speakautonomyS2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautonomyS2(// REPLACE: autonomy
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

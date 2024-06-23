@@ -117,35 +117,16 @@ class EnglishEntryallegorical extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) چیرۆکێک کە ھەر کارەکتەرێک تێیدا سمبولە بۆ چەمکێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Every Russian knows the allegorical novel The Master And Margarita."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ڕووسیەک ڕۆمانی ھێمایی 'گەورە و مارگرێتا' دەزانێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallegorical24177("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallegorical24177(
-                                        // REPLACE: allegorical /ˌæləˈɡɔːrɪkl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Every Russian knows the allegorical novel The Master And Margarita.",
+                            kurdishText:
+                                "ھەموو ڕووسیەک ڕۆمانی ھێمایی 'گەورە و مارگرێتا' دەزانێت.",
+                            onPressedBritish: () =>
+                                speakallegorical24177("en-GB"),
+                            onPressedAmerican: () => speakallegorical24177(
+                                // REPLACE: allegorical /ˌæləˈɡɔːrɪkl/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -111,64 +111,26 @@ class EnglishEntryadhereto extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) شوێنکەوتنی ڕەچەتەیەک، یاسایەک یان شتێک کە باوەڕی پێی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For ten months he adhered to a no-fat low-salt diet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی چەور و کەم خوێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadher251463("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadher251463(
-                                        // REPLACE: adhere to /ədˈhɪə(r) tə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For ten months he adhered to a no-fat low-salt diet.",
+                            kurdishText:
+                                "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی چەور و کەم خوێ.",
+                            onPressedBritish: () => speakadher251463("en-GB"),
+                            onPressedAmerican: () => speakadher251463(
+                                // REPLACE: adhere to /ədˈhɪə(r) tə/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She adheres to teaching methods she learned over 30 years ago."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شوێن ئەو ڕێگایانەی وانەوتنەوە دەکەوێت کە ٣٠ ساڵ پێش ئێستا فێری بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadh358947("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadh358947(
-                                        // REPLACE: adhere to /ədˈhɪə(r) tə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She adheres to teaching methods she learned over 30 years ago.",
+                            kurdishText:
+                                "شوێن ئەو ڕێگایانەی وانەوتنەوە دەکەوێت کە ٣٠ ساڵ پێش ئێستا فێری بووە.",
+                            onPressedBritish: () => speakadh358947("en-GB"),
+                            onPressedAmerican: () => speakadh358947(
+                                // REPLACE: adhere to /ədˈhɪə(r) tə/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -117,127 +117,49 @@ class EnglishEntryafford extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ھەبوونی پارەی پێویست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She never took a taxi, even though she could afford to."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز تەکسی نەدەگرت، ئەگەرچی پارەشی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffor458("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffor458(
-                                        // REPLACE: afford /əˈfɔːrd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She never took a taxi, even though she could afford to.",
+                            kurdishText:
+                                "ھەرگیز تەکسی نەدەگرت، ئەگەرچی پارەشی ھەبوو.",
+                            onPressedBritish: () => speakaffor458("en-GB"),
+                            onPressedAmerican: () => speakaffor458(
+                                // REPLACE: afford /əˈfɔːrd/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They couldn't afford to buy a house there."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەیاندەتوانی خانوویەک لەوێ بکڕن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaff6665("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaff6665(
-                                        // REPLACE: afford /əˈfɔːrd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They couldn't afford to buy a house there.",
+                            kurdishText: "نەیاندەتوانی خانوویەک لەوێ بکڕن.",
+                            onPressedBritish: () => speakaff6665("en-GB"),
+                            onPressedAmerican: () => speakaff6665(
+                                // REPLACE: afford /əˈfɔːrd/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) شتێک کە پێویستە خۆتی لێ بە دوور ئەگەرنا کێشەت بۆ درووست دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We cannot afford to ignore this warning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانین ئەم ھۆشدارییە پشتگوێ بخەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaff4511("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaff4511(
-                                        // REPLACE: afford /əˈfɔːrd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We cannot afford to ignore this warning.",
+                            kurdishText: "ناتوانین ئەم ھۆشدارییە پشتگوێ بخەین.",
+                            onPressedBritish: () => speakaff4511("en-GB"),
+                            onPressedAmerican: () => speakaff4511(
+                                // REPLACE: afford /əˈfɔːrd/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) پێدانی شتێک بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The tree affords some shelter from the sun."),
-                                    ExampleSentenceKurdish(
-                                        text: "دارەکە ھەندێک سێبەر دەبەخشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaf44922("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaf44922(
-                                        // REPLACE: afford /əˈfɔːrd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The tree affords some shelter from the sun.",
+                            kurdishText: "دارەکە ھەندێک سێبەر دەبەخشێت.",
+                            onPressedBritish: () => speakaf44922("en-GB"),
+                            onPressedAmerican: () => speakaf44922(
+                                // REPLACE: afford /əˈfɔːrd/
+                                "en-US"),
                           ),
                         ],
                       ),

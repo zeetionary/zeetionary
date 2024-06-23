@@ -164,35 +164,16 @@ class EnglishEntryarticulately extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بەڕوونی قسەکردن" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spoke articulately about each of the paintings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕوونی قسەی‌کرد سەبارەت بە ھەریەکە لە تابلۆکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarticulately750("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarticulately750(
-                                        // REPLACE: articulately /ɑːrˈtɪkjələtli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He spoke articulately about each of the paintings.",
+                            kurdishText:
+                                "بەڕوونی قسەی‌کرد سەبارەت بە ھەریەکە لە تابلۆکان.",
+                            onPressedBritish: () =>
+                                speakarticulately750("en-GB"),
+                            onPressedAmerican: () => speakarticulately750(
+                                // REPLACE: articulately /ɑːrˈtɪkjələtli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -194,177 +194,62 @@ class EnglishEntryburrow extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) درووستکردنی کونێک یان تونێلێک لە زەویدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Rabbits had burrowed under the fence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەروێشک بە ژێر پەرژینەکەدا تونێلیان کەندبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burrow", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburrows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburrows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Rabbits had burrowed under the fence.",
+                            kurdishText:
+                                "کەروێشک بە ژێر پەرژینەکەدا تونێلیان کەندبوو.", // burrow", follow LX strictly
+                            onPressedBritish: () => speakburrows1("en-GB"),
+                            onPressedAmerican: () => speakburrows1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Earthworms burrow deep into the soil."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرمەسوورکە کونی قووڵ دەکەنن بەناو خاکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburrows2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburrows2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Earthworms burrow deep into the soil.",
+                            kurdishText:
+                                "کرمەسوورکە کونی قووڵ دەکەنن بەناو خاکدا.",
+                            onPressedBritish: () => speakburrows2("en-GB"),
+                            onPressedAmerican: () => speakburrows2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) خۆتووندکردن لە کەسێک یان لەژێر شتێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He burrowed down beneath the blankets."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی لەژێر بەتانییەکاندا گرمۆڵەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburrows3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburrows3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He burrowed down beneath the blankets.",
+                            kurdishText: "خۆی لەژێر بەتانییەکاندا گرمۆڵەکرد.",
+                            onPressedBritish: () => speakburrows3("en-GB"),
+                            onPressedAmerican: () => speakburrows3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She burrowed her face into his chest."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕووخساری نا بە سنگییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburrows4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburrows4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She burrowed her face into his chest.",
+                            kurdishText: "ڕووخساری نا بە سنگییەوە.",
+                            onPressedBritish: () => speakburrows4("en-GB"),
+                            onPressedAmerican: () => speakburrows4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) گەڕان بۆ شتێک لەژێر یان لەناو شتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was afraid that they would burrow into his past."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەترسا بە ڕابردوویدا بگەڕێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburrows5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburrows5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was afraid that they would burrow into his past.",
+                            kurdishText: "دەترسا بە ڕابردوویدا بگەڕێن.",
+                            onPressedBritish: () => speakburrows5("en-GB"),
+                            onPressedAmerican: () => speakburrows5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٤. (ناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rabbit created a burrow in the earth to shelter from predators."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەروێشکەکە کونێکی لە زەوییەکەدا کەند بۆ پەناگرتن لە دڕندەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburrows6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburrows6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The rabbit created a burrow in the earth to shelter from predators.",
+                            kurdishText:
+                                "کەروێشکەکە کونێکی لە زەوییەکەدا کەند بۆ پەناگرتن لە دڕندەکان.",
+                            onPressedBritish: () => speakburrows6("en-GB"),
+                            onPressedAmerican: () => speakburrows6("en-US"),
                           ),
                         ],
                       ),

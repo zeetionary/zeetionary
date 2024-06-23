@@ -113,61 +113,23 @@ class EnglishEntryafternoon extends StatelessWidget {
                               text:
                                   "١. (ناو) ناوەڕاستی ڕۆژ، لە کاتژمێر ١٢ی دوای نیوەڕۆ بۆ ٦ی ئێوارە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the afternoon, they went shopping."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە نیوەڕواندا دەچوون بۆ بازاڕ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaftern6288("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaftern6288(
-                                        // REPLACE: afternoon /ˌɑːftəˈnuːn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the afternoon, they went shopping.",
+                            kurdishText: "لە نیوەڕواندا دەچوون بۆ بازاڕ.",
+                            onPressedBritish: () => speakaftern6288("en-GB"),
+                            onPressedAmerican: () => speakaftern6288(
+                                // REPLACE: afternoon /ˌɑːftəˈnuːn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Come over on Sunday afternoon."),
-                                    ExampleSentenceKurdish(
-                                        text: "نیوەڕۆی یەکشەمە وەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaftern481("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaftern481(
-                                        // REPLACE: afternoon /ˌɑːftəˈnuːn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Come over on Sunday afternoon.",
+                            kurdishText: "نیوەڕۆی یەکشەمە وەرە.",
+                            onPressedBritish: () => speakaftern481("en-GB"),
+                            onPressedAmerican: () => speakaftern481(
+                                // REPLACE: afternoon /ˌɑːftəˈnuːn/
+                                "en-US"),
                           ),
                         ],
                       ),

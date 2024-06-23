@@ -164,34 +164,15 @@ class EnglishEntryastute extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) زیرەک و خێرا لە کردنی کاری درووست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was an astute move to sell the shares then."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فرۆشتنی پشکەکان ئەوکات ھەنگاوێکی بلیمەتانە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakastute522("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakastute522(// REPLACE: astute
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was an astute move to sell the shares then.",
+                            kurdishText:
+                                "فرۆشتنی پشکەکان ئەوکات ھەنگاوێکی بلیمەتانە بوو.",
+                            onPressedBritish: () => speakastute522("en-GB"),
+                            onPressedAmerican: () =>
+                                speakastute522(// REPLACE: astute
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -306,385 +306,130 @@ class EnglishEntrybow extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) چەمانەوە بۆ ڕێزگرتن یان ماڵئاوایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bowed low to the assembled crowd."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەمایەوە بۆ جەماوەرە کۆبووەوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He bowed low to the assembled crowd.",
+                            kurdishText: "چەمایەوە بۆ جەماوەرە کۆبووەوەکە.",
+                            onPressedBritish: () => speakbows1("en-GB"),
+                            onPressedAmerican: () => speakbows1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The people all bowed down before the emperor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکەکە ھەموو لە پێش ئیمپراتۆر چەمانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The people all bowed down before the emperor.",
+                            kurdishText:
+                                "خەڵکەکە ھەموو لە پێش ئیمپراتۆر چەمانەوە.",
+                            onPressedBritish: () => speakbows2("en-GB"),
+                            onPressedAmerican: () => speakbows2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He swept off his hat and bowed deeply to the queen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڵاوەکەی لابرد و بۆ شاژن چەمایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He swept off his hat and bowed deeply to the queen.",
+                            kurdishText: "کڵاوەکەی لابرد و بۆ شاژن چەمایەوە.",
+                            onPressedBritish: () => speakbows3("en-GB"),
+                            onPressedAmerican: () => speakbows3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) جوڵانی سەرت بەرەو پێش و دواوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She bowed her head in shame."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە شەرمدا سەری دەلەقاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She bowed her head in shame.",
+                            kurdishText: "لە شەرمدا سەری دەلەقاند.",
+                            onPressedBritish: () => speakbows4("en-GB"),
+                            onPressedAmerican: () => speakbows4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) چەمانەوە یان چەماندنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their backs were bowed under the weight of their packs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشتیان چەمابوویەوە لەژێر کێشی بارەکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their backs were bowed under the weight of their packs.",
+                            kurdishText:
+                                "پشتیان چەمابوویەوە لەژێر کێشی بارەکەیان.",
+                            onPressedBritish: () => speakbows5("en-GB"),
+                            onPressedAmerican: () => speakbows5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) لێدانی میوزیک بە بەکارھێنانی ئاڕشەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can achieve a completely different tone by bowing the strings nearer to the bridge."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەتوانی تۆنێکی تەواو جیاواز دەربکەیت بە دانانی ئاڕشەکە لەسەر تەلەکان نزیک لە پردەڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can achieve a completely different tone by bowing the strings nearer to the bridge.",
+                            kurdishText:
+                                "ئەتوانی تۆنێکی تەواو جیاواز دەربکەیت بە دانانی ئاڕشەکە لەسەر تەلەکان نزیک لە پردەڵەکە.",
+                            onPressedBritish: () => speakbows9("en-GB"),
+                            onPressedAmerican: () => speakbows9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) چەمانەوە بۆ ڕێزگرتن یان ماڵئاوایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She gave a slight bow of her head in greeting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەری بە کەمی چەماندەوە بۆ سڵاوکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She gave a slight bow of her head in greeting.",
+                            kurdishText: "سەری بە کەمی چەماندەوە بۆ سڵاوکردن.",
+                            onPressedBritish: () => speakbows6("en-GB"),
+                            onPressedAmerican: () => speakbows6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The messenger made a formal bow and left the room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیامھێنەرەکە نووشتاوەیەکی فەرمی ئەنجامدا و ژوورەکەی جێھێشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The messenger made a formal bow and left the room.",
+                            kurdishText:
+                                "پەیامھێنەرەکە نووشتاوەیەکی فەرمی ئەنجامدا و ژوورەکەی جێھێشت.",
+                            onPressedBritish: () => speakbows7("en-GB"),
+                            onPressedAmerican: () => speakbows7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) بەشی پێشەوەی بەلەمێک یان کەشتییەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ship's name was printed on her bow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوی کەشتییەکە لە پێشەوەی نووسرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ship's name was printed on her bow.",
+                            kurdishText: "ناوی کەشتییەکە لە پێشەوەی نووسرابوو.",
+                            onPressedBritish: () => speakbows8("en-GB"),
+                            onPressedAmerican: () => speakbows8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) کەوان کە بۆ تیر ھاویشتن بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was armed with a bow and arrow."),
-                                    ExampleSentenceKurdish(
-                                        text: "تیر و کەوانێکی پێبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was armed with a bow and arrow.",
+                            kurdishText: "تیر و کەوانێکی پێبوو.",
+                            onPressedBritish: () => speakbows10("en-GB"),
+                            onPressedAmerican: () => speakbows10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She drew and aimed her bow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەوانەکەی ڕاکێشا و نیشانەی گرتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She drew and aimed her bow.",
+                            kurdishText: "کەوانەکەی ڕاکێشا و نیشانەی گرتەوە.",
+                            onPressedBritish: () => speakbows11("en-GB"),
+                            onPressedAmerican: () => speakbows11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (ناو) گرێیەک کە دوو بەشی چەماوە و دوو بەشی شلی تێدایە، بەکاردێت بۆ دیکۆرات یان بەستنی بە پێڵاوەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I tied the ribbon around the present in a pretty bow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شریتەکەم لە دەوری دیارییەکە بەست لە شێوەی گرێیەکی جواندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I tied the ribbon around the present in a pretty bow.",
+                            kurdishText:
+                                "شریتەکەم لە دەوری دیارییەکە بەست لە شێوەی گرێیەکی جواندا.",
+                            onPressedBritish: () => speakbows12("en-GB"),
+                            onPressedAmerican: () => speakbows12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (ناو) ئاڕشە؛ دارێکی درێژ کە تەلی باریک لە تەنیشتییەتی و بەکاردێت، بەکاردێت بۆ ژەنینی ژمارەیەک ئامێری میوزیکی وەک کەمانچە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She drew the bow across the strings."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئاڕشەکەی ھێنا بە تەلەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbows13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbows13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She drew the bow across the strings.",
+                            kurdishText: "ئاڕشەکەی ھێنا بە تەلەکاندا.",
+                            onPressedBritish: () => speakbows13("en-GB"),
+                            onPressedAmerican: () => speakbows13("en-US"),
                           ),
                         ],
                       ),

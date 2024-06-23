@@ -105,61 +105,22 @@ class EnglishEntryabusive extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بێ ڕێز و توندوتیژ" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He became abusive when he was drunk."),
-                                    ExampleSentenceKurdish(
-                                        text: "کە دەیخواردەوە توندوتیژ دەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakab582("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakab582("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He became abusive when he was drunk.",
+                            kurdishText: "کە دەیخواردەوە توندوتیژ دەبوو.",
+                            onPressedBritish: () => speakab582("en-GB"),
+                            onPressedAmerican: () => speakab582("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بارودۆخێک کە توندوتیژی تێدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After many years in an abusive relationship, she left her husband."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای چەندین ساڵ لەناو پەیوەندیدییەکی توندوتیژانە، ھاوسەرەکەی جێھێشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka1574("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka1574("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After many years in an abusive relationship, she left her husband.",
+                            kurdishText:
+                                "لە دوای چەندین ساڵ لەناو پەیوەندیدییەکی توندوتیژانە، ھاوسەرەکەی جێھێشت.",
+                            onPressedBritish: () => speaka1574("en-GB"),
+                            onPressedAmerican: () => speaka1574("en-US"),
                           ),
                         ],
                       ),

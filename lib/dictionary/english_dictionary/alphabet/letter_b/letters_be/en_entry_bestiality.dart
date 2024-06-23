@@ -151,63 +151,25 @@ class EnglishEntrybestiality extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) سێکس لە نێوان مرۆڤ و ئاژەڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bestiality is illegal and considered a form of animal cruelty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گیانەوەربازی نایاساییە و وەک جۆرێک لە دڕندەیی بەرامبەر ئاژەڵان دادەنرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbestialitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbestialitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bestiality is illegal and considered a form of animal cruelty.",
+                            kurdishText:
+                                "گیانەوەربازی نایاساییە و وەک جۆرێک لە دڕندەیی بەرامبەر ئاژەڵان دادەنرێت.",
+                            onPressedBritish: () => speakbestialitys1("en-GB"),
+                            onPressedAmerican: () => speakbestialitys1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھەڵسوکەوتی دڕندانە و خراپ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dictator's regime was known for its bestiality towards its own people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕژێمە دیکتاتۆرەکە ناسرابوو بە دڕندەیی بەرامبەر خەڵکی خۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbestialitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbestialitys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dictator's regime was known for its bestiality towards its own people.",
+                            kurdishText:
+                                "ڕژێمە دیکتاتۆرەکە ناسرابوو بە دڕندەیی بەرامبەر خەڵکی خۆی.",
+                            onPressedBritish: () => speakbestialitys2("en-GB"),
+                            onPressedAmerican: () => speakbestialitys2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

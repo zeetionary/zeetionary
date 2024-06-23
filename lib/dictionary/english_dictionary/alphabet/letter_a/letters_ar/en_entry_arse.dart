@@ -163,33 +163,14 @@ class EnglishEntryarse extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) سمت؛ ئەو بەشەی جەستە کە لەسەریان دادەنیشیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Get off your arse! (= stop sitting around doing nothing)"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەستە ئیشێک بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarse803("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarse803(// REPLACE: arse /ɑːrs/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Get off your arse! (= stop sitting around doing nothing)",
+                            kurdishText: "ھەستە ئیشێک بکە.",
+                            onPressedBritish: () => speakarse803("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarse803(// REPLACE: arse /ɑːrs/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),

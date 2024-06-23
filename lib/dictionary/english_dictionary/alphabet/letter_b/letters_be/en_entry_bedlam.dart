@@ -151,32 +151,13 @@ class EnglishEntrybedlam extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) دیمەنێکی پڕ لە جەنجاڵی و ھەراوھوریا "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was bedlam at our house on the morning of the wedding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شلۆقاوییەکی زۆر بوو لە ماڵەکەمان لە ڕۆژی ئاھەنگی ھاوسەرگیرییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedlams1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedlams1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was bedlam at our house on the morning of the wedding.",
+                            kurdishText:
+                                "شلۆقاوییەکی زۆر بوو لە ماڵەکەمان لە ڕۆژی ئاھەنگی ھاوسەرگیرییەکە.",
+                            onPressedBritish: () => speakbedlams1("en-GB"),
+                            onPressedAmerican: () => speakbedlams1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

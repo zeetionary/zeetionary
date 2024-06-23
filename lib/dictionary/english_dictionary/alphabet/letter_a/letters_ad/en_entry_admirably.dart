@@ -111,34 +111,15 @@ class EnglishEntryadmirably extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بەشێوەیەک کە جێگەی ڕێزە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Joe coped admirably with a difficult situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جۆو بەشێوەیەکی جێگەی ڕێز قەناعەتی بە بارودۆخێکی قوورس کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmi668471("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmi668471(
-                                        // REPLACE: admirably /ˈædmərəbli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Joe coped admirably with a difficult situation.",
+                            kurdishText:
+                                "جۆو بەشێوەیەکی جێگەی ڕێز قەناعەتی بە بارودۆخێکی قوورس کرد.",
+                            onPressedBritish: () => speakadmi668471("en-GB"),
+                            onPressedAmerican: () => speakadmi668471(
+                                // REPLACE: admirably /ˈædmərəbli/
+                                "en-US"),
                           ),
                         ],
                       ),

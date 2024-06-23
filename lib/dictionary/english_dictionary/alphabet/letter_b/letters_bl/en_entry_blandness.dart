@@ -149,64 +149,26 @@ class EnglishEntryblandness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بوونی کەمی لە ڕەنگ، جۆشوخرۆشی، یان حەز و ئارەزوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My usual enthusiasm for life was replaced by blandness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تامەزرۆیی زۆرم بۆ ژیان گۆڕاوەتەوە بە بێ‌ھیوایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblandnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblandnesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My usual enthusiasm for life was replaced by blandness.",
+                            kurdishText:
+                                "تامەزرۆیی زۆرم بۆ ژیان گۆڕاوەتەوە بە بێ‌ھیوایی.",
+                            onPressedBritish: () => speakblandnesss1("en-GB"),
+                            onPressedAmerican: () => speakblandnesss1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) نەبوونی تامێکی بەھێز یان بەلەزەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He made a joke about the blandness of the food."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نوکتەیەکی گێڕایەوە سەبارەت بە بێ‌تامی خواردنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblandnesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblandnesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He made a joke about the blandness of the food.",
+                            kurdishText:
+                                "نوکتەیەکی گێڕایەوە سەبارەت بە بێ‌تامی خواردنەکە.",
+                            onPressedBritish: () => speakblandnesss2("en-GB"),
+                            onPressedAmerican: () => speakblandnesss2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

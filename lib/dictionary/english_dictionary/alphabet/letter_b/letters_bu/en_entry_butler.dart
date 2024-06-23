@@ -192,32 +192,13 @@ class EnglishEntrybutler extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خزمەتکاری سەرەکیی پیاو لە خانوویەکی گەورەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The butler announced that dinner was served."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربەردەستەکە ڕایگەیاند کە نانی ئێوارە ئامادەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "butler", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutlers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutlers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The butler announced that dinner was served.",
+                            kurdishText:
+                                "سەربەردەستەکە ڕایگەیاند کە نانی ئێوارە ئامادەیە.", // butler", follow LX strictly
+                            onPressedBritish: () => speakbutlers1("en-GB"),
+                            onPressedAmerican: () => speakbutlers1("en-US"),
                           ),
                         ],
                       ),

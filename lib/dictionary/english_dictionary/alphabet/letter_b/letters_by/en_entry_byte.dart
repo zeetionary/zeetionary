@@ -188,32 +188,13 @@ class EnglishEntrybyte extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بایت؛ یەکەیەکی زانیارییە کە لە کۆمپیوتەرێکدا کۆگاکراو و یەکسانە بە ٨ بیت. مەمۆری کۆمپیوتەر بە بایت دەپێورێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One kilobyte equals to 1024 bytes of information."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەک کیلۆبایت یەکسانە بە ١٠٢٤ بایتی زانیاری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "byte", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbytes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbytes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One kilobyte equals to 1024 bytes of information.",
+                            kurdishText:
+                                "یەک کیلۆبایت یەکسانە بە ١٠٢٤ بایتی زانیاری.", // byte", follow LX strictly
+                            onPressedBritish: () => speakbytes1("en-GB"),
+                            onPressedAmerican: () => speakbytes1("en-US"),
                           ),
                         ],
                       ),

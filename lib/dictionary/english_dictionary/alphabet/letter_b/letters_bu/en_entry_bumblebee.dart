@@ -144,32 +144,12 @@ class EnglishEntrybumblebee extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) مێشھەنگێکی گەورە کە بە مووی بچووک داپۆشراوە و دەنگێکی گەورە دەردەکات کە دەفڕێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Children often draw cute bumblebees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵان زۆرجار وێنەی ھەنگەزلەی جوان دەکێشن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bumblebee", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumblebees1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumblebees1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Children often draw cute bumblebees.",
+                            kurdishText:
+                                "منداڵان زۆرجار وێنەی ھەنگەزلەی جوان دەکێشن.", // bumblebee", follow LX strictly
+                            onPressedBritish: () => speakbumblebees1("en-GB"),
+                            onPressedAmerican: () => speakbumblebees1("en-US"),
                           ),
                         ],
                       ),

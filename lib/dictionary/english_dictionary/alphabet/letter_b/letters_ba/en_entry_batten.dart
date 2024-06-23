@@ -151,32 +151,13 @@ class EnglishEntrybatten extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچە تەختەیەک کە بۆ ھەڵواسینی شتی تر بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The battens were used to reinforce the frame of the door."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەختەکان بەکارھێندران بۆ بەھێزکردنی چوارچێوەی دەرگاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbattens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbattens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The battens were used to reinforce the frame of the door.",
+                            kurdishText:
+                                "تەختەکان بەکارھێندران بۆ بەھێزکردنی چوارچێوەی دەرگاکە.",
+                            onPressedBritish: () => speakbattens1("en-GB"),
+                            onPressedAmerican: () => speakbattens1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

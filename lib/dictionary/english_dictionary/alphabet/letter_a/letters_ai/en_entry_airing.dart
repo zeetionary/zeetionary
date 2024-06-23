@@ -116,66 +116,28 @@ class EnglishEntryairing extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) گەنگەشەی بابەتێک لەبەردەم ڕای گشتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The subject got a thorough airing in the British press."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بابەتەکە گەنگەشەی تەواوی لەسەر کرا لە میدیای بەریتانیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairing4522("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairing4522(
-                                        // REPLACE: airing /ˈerɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The subject got a thorough airing in the British press.",
+                            kurdishText:
+                                "بابەتەکە گەنگەشەی تەواوی لەسەر کرا لە میدیای بەریتانیا.",
+                            onPressedBritish: () => speakairing4522("en-GB"),
+                            onPressedAmerican: () => speakairing4522(
+                                // REPLACE: airing /ˈerɪŋ/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕێگەدان بە ھەواگۆڕکێ بۆ ئەوەی شتێک تازە و وشک بکاتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Open the windows and give the house a good airing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجەرەکان بکەوە و ھەواگۆڕکێیەکی باش بدە بە ژوورەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairing4155("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairing4155(
-                                        // REPLACE: airing /ˈerɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Open the windows and give the house a good airing.",
+                            kurdishText:
+                                "پەنجەرەکان بکەوە و ھەواگۆڕکێیەکی باش بدە بە ژوورەکە.",
+                            onPressedBritish: () => speakairing4155("en-GB"),
+                            onPressedAmerican: () => speakairing4155(
+                                // REPLACE: airing /ˈerɪŋ/
+                                "en-US"),
                           ),
                         ],
                       ),

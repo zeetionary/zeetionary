@@ -163,34 +163,15 @@ class EnglishEntryapplied extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) بەکارھێنانی کرداریی شتێک، نەک تەنھا بوونی وەک بیردۆزێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In medicine, applied science is vital for developing new treatments and medical technologies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دەرمانسازیدا زانستی کرداری گرنگە بۆ چارەسەری تازە و تەکنۆلۆژیای تەندرووستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapplied806("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapplied806(
-                                        // REPLACE: applied /əˈplaɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In medicine, applied science is vital for developing new treatments and medical technologies.",
+                            kurdishText:
+                                "لە دەرمانسازیدا زانستی کرداری گرنگە بۆ چارەسەری تازە و تەکنۆلۆژیای تەندرووستی.",
+                            onPressedBritish: () => speakapplied806("en-GB"),
+                            onPressedAmerican: () => speakapplied806(
+                                // REPLACE: applied /əˈplaɪd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

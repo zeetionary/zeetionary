@@ -194,351 +194,121 @@ class EnglishEntrybust extends StatelessWidget {
 کوردی: پەیکەری سەرەوەی لەش، سەرباڵا، نیوەپەیکەر، سنگ، مەمک، ئەندازەی دەوری سنگ (ژن)، سەرنەکەوتن، بنکەوتن، تێشکان (یەکجاری)، نابووتی، بەرشکستی، دەس‌بەسەری، گل‌دانەوە، گرتن، مستەکۆڵە، مشت نافەرمی، تەنگژە یا قەیرانی ئابووری، شتێکی بێ‌نرخ یان ھیچەکە، شکاو، لەکارکەوتوو، خراپ‌بوو، خەوتوو، نابووت، لات‌کەوتوو، بەرشکست (کەسێ یان کۆمپانیایێ)
 """),
                           const DefinitionKurdish(text: "١. (کردار) شکاندن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I bust my camera."),
-                                    ExampleSentenceKurdish(
-                                        text: "کامێراکەمم شکاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bust", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I bust my camera.",
+                            kurdishText:
+                                "کامێراکەمم شکاند.", // bust", follow LX strictly
+                            onPressedBritish: () => speakbusts1("en-GB"),
+                            onPressedAmerican: () => speakbusts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Come out, or I'll bust the door down!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەرە دەرەوە، ئەگەرنا دەرگاکە دەشکێنم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Come out, or I'll bust the door down!",
+                            kurdishText:
+                                "وەرە دەرەوە، ئەگەرنا دەرگاکە دەشکێنم.",
+                            onPressedBritish: () => speakbusts2("en-GB"),
+                            onPressedAmerican: () => speakbusts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) چوونی پۆلیس لەناکاو بۆ شوێنێک بۆ گەڕان یان دەستگیرکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He's been busted for drugs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھۆی مادەی ھۆشبەرەوە دەستگیرکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's been busted for drugs.",
+                            kurdishText: "بەھۆی مادەی ھۆشبەرەوە دەستگیرکراوە.",
+                            onPressedBritish: () => speakbusts3("en-GB"),
+                            onPressedAmerican: () => speakbusts3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was busted for drunk driving."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستبەسەرکرا بەھۆی شۆفێریکردن بە سەرخۆشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was busted for drunk driving.",
+                            kurdishText:
+                                "دەستبەسەرکرا بەھۆی شۆفێریکردن بە سەرخۆشی.",
+                            onPressedBritish: () => speakbusts4("en-GB"),
+                            onPressedAmerican: () => speakbusts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) پەیکەرێک کە ڕووخسار، شانەکان، و سنگ پیشان دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prime minister unveiled a big bust of the former president."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک وەزیران پەردەی لەسەر پەیکەرێکی سەرۆکی پێشوو لادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prime minister unveiled a big bust of the former president.",
+                            kurdishText:
+                                "سەرۆک وەزیران پەردەی لەسەر پەیکەرێکی سەرۆکی پێشوو لادا.",
+                            onPressedBritish: () => speakbusts5("en-GB"),
+                            onPressedAmerican: () => speakbusts5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) سنگی ژنێک یان ئەندازەی دەوری سنگی و پشتەوەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What is your bust measurement, Madam?"),
-                                    ExampleSentenceKurdish(
-                                        text: "قیاسی سنگت چەندە، خاتوون؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What is your bust measurement, Madam?",
+                            kurdishText: "قیاسی سنگت چەندە، خاتوون؟",
+                            onPressedBritish: () => speakbusts6("en-GB"),
+                            onPressedAmerican: () => speakbusts6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dress was too big in the bust."),
-                                    ExampleSentenceKurdish(
-                                        text: "جلەکە لە سنگدا زۆر گەورە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The dress was too big in the bust.",
+                            kurdishText: "جلەکە لە سنگدا زۆر گەورە بوو.",
+                            onPressedBritish: () => speakbusts7("en-GB"),
+                            onPressedAmerican: () => speakbusts7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) ماوەیەک لە قەیرانی ئابووری دژوار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Will this year be boom or bust for the property market?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمساڵ بژێودار یان قەیراناوی دەبێت بۆ بازاڕی خانووبەرە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Will this year be boom or bust for the property market?",
+                            kurdishText:
+                                "ئەمساڵ بژێودار یان قەیراناوی دەبێت بۆ بازاڕی خانووبەرە؟",
+                            onPressedBritish: () => speakbusts8("en-GB"),
+                            onPressedAmerican: () => speakbusts8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) ھەڵکوتانەسەری شوێنێک لەلایەن پۆلیسەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In their latest drugs bust, police entered a warehouse where cocaine dealers were meeting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تازەترین ھەڵکوتانەسەریاندا، پۆلیس چوونە کۆگایەکەوە کە فرۆشیارانی کۆکاین تێیاندا یەکیان دەدی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In their latest drugs bust, police entered a warehouse where cocaine dealers were meeting.",
+                            kurdishText:
+                                "لە تازەترین ھەڵکوتانەسەریاندا، پۆلیس چوونە کۆگایەکەوە کە فرۆشیارانی کۆکاین تێیاندا یەکیان دەدی.",
+                            onPressedBritish: () => speakbusts9("en-GB"),
+                            onPressedAmerican: () => speakbusts9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) شتێک کە باش نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "As a movie it was a big bust."),
-                                    ExampleSentenceKurdish(
-                                        text: "وەک فیلمێک زۆر خراپ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusts10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusts10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "As a movie it was a big bust.",
+                            kurdishText: "وەک فیلمێک زۆر خراپ بوو.",
+                            onPressedBritish: () => speakbusts10("en-GB"),
+                            onPressedAmerican: () => speakbusts10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٨. (ھاوەڵناو) شکاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "My watch is bust."),
-                                    ExampleSentenceKurdish(
-                                        text: "کاتژمێرەکەم شکاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusts11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusts11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My watch is bust.",
+                            kurdishText: "کاتژمێرەکەم شکاوە.",
+                            onPressedBritish: () => speakbusts11("en-GB"),
+                            onPressedAmerican: () => speakbusts11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٩. (ھاوەڵناو) مایەپووچ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "More than 20 companies in the district went bust during the last three months."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیاتر لە ٢٠ کۆمپانیا مایەپووچ بوونە لە سێ مانگی ڕابردوودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusts12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusts12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "More than 20 companies in the district went bust during the last three months.",
+                            kurdishText:
+                                "زیاتر لە ٢٠ کۆمپانیا مایەپووچ بوونە لە سێ مانگی ڕابردوودا.",
+                            onPressedBritish: () => speakbusts12("en-GB"),
+                            onPressedAmerican: () => speakbusts12("en-US"),
                           ),
                         ],
                       ),

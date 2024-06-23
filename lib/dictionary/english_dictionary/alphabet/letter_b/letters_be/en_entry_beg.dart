@@ -149,151 +149,53 @@ class EnglishEntrybeg extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) پاڕانەوە لە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Now you have to beg and plead."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێستا دەبێت بپاڕێیتەوە و بکڕوزێیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbegs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbegs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Now you have to beg and plead.",
+                            kurdishText:
+                                "ئێستا دەبێت بپاڕێیتەوە و بکڕوزێیتەوە.",
+                            onPressedBritish: () => speakbegs1("en-GB"),
+                            onPressedAmerican: () => speakbegs1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wants to see them beg for mercy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیەوێت بیانبینێت داوای لێبووردن بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbegs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbegs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He wants to see them beg for mercy.",
+                            kurdishText:
+                                "دەیەوێت بیانبینێت داوای لێبووردن بکەن.",
+                            onPressedBritish: () => speakbegs2("en-GB"),
+                            onPressedAmerican: () => speakbegs2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) سواڵکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A young woman was begging in the street."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنێکی گەنج سواڵی دەکرد لەسەر شەقامەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbegs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbegs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A young woman was begging in the street.",
+                            kurdishText:
+                                "ژنێکی گەنج سواڵی دەکرد لەسەر شەقامەکە.",
+                            onPressedBritish: () => speakbegs3("en-GB"),
+                            onPressedAmerican: () => speakbegs3("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children were begging for food."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان سواڵی خواردنیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbegs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbegs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The children were begging for food.",
+                            kurdishText: "منداڵەکان سواڵی خواردنیان دەکرد.",
+                            onPressedBritish: () => speakbegs4("en-GB"),
+                            onPressedAmerican: () => speakbegs4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) سەگێک کە قاچەکانی دواوەی دەچەمێنێتەوە و لەسەر ئەوانەی پێشەوە دەوەستێت وەک ئەوەی داوای شتێک بکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have trained their dog to sit up and beg."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگەکەیان ڕاھێناوە لەسەر قاچ بوەستێ و داوای شت بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbegs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbegs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have trained their dog to sit up and beg.",
+                            kurdishText:
+                                "سەگەکەیان ڕاھێناوە لەسەر قاچ بوەستێ و داوای شت بکات.",
+                            onPressedBritish: () => speakbegs5("en-GB"),
+                            onPressedAmerican: () => speakbegs5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -143,89 +143,32 @@ class EnglishEntrybubbly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پڕ لە بڵق یان کەف"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I want a nice hot bubbly bath."),
-                                    ExampleSentenceKurdish(
-                                        text: "حەوزێکی گەرمی پڕ کەفم دەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bubbly" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbubblys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbubblys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I want a nice hot bubbly bath.",
+                            kurdishText:
+                                "حەوزێکی گەرمی پڕ کەفم دەوێت.", // bubbly" as
+                            onPressedBritish: () => speakbubblys1("en-GB"),
+                            onPressedAmerican: () => speakbubblys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) کەسێکی دڵخۆش و بەجۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has a very bubbly character."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەسایەتییەکی زۆر ڕووخۆشی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbubblys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbubblys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She has a very bubbly character.",
+                            kurdishText: "کەسایەتییەکی زۆر ڕووخۆشی ھەیە.",
+                            onPressedBritish: () => speakbubblys2("en-GB"),
+                            onPressedAmerican: () => speakbubblys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) شامپەین (بیرەیەکی سپی فەرەنسی)"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let's crack open a bottle of bubbly to celebrate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با بتڵێک شامپەین ھەڵپچڕین بۆ ئاھەنگ گێڕان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbubblys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbubblys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Let's crack open a bottle of bubbly to celebrate.",
+                            kurdishText:
+                                "با بتڵێک شامپەین ھەڵپچڕین بۆ ئاھەنگ گێڕان.",
+                            onPressedBritish: () => speakbubblys3("en-GB"),
+                            onPressedAmerican: () => speakbubblys3("en-US"),
                           ),
                         ],
                       ),

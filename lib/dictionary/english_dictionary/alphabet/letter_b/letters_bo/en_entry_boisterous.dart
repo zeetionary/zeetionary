@@ -150,60 +150,22 @@ class EnglishEntryboisterous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ڕەفتاری مرۆڤ و ئاژەڵ کە پڕ لە قاڵەقاڵ و جۆشوخرۆشی و وزەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a challenge, keeping ten boisterous seven-year-olds amused."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەرکێکی قوورس بوو ١٠ منداڵی حەوت ساڵانی پڕوزە بە دڵخۆشی بھێڵیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboisterouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboisterouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was a challenge, keeping ten boisterous seven-year-olds amused.",
+                            kurdishText:
+                                "ئەرکێکی قوورس بوو ١٠ منداڵی حەوت ساڵانی پڕوزە بە دڵخۆشی بھێڵیتەوە.",
+                            onPressedBritish: () => speakboisterouss1("en-GB"),
+                            onPressedAmerican: () => speakboisterouss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children and the dogs raced out of the house to give me a boisterous welcome."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان و سەگەکان لە ماڵەکە ھاتنە دەرەوە بۆ ئەوەی خێراتنێکی گەرموگوڕم بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboisterouss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboisterouss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children and the dogs raced out of the house to give me a boisterous welcome.",
+                            kurdishText:
+                                "منداڵەکان و سەگەکان لە ماڵەکە ھاتنە دەرەوە بۆ ئەوەی خێراتنێکی گەرموگوڕم بکەن.",
+                            onPressedBritish: () => speakboisterouss2("en-GB"),
+                            onPressedAmerican: () => speakboisterouss2("en-US"),
                           ),
                         ],
                       ),

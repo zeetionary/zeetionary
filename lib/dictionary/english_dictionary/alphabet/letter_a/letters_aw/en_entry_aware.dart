@@ -155,67 +155,28 @@ class EnglishEntryaware extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) بەئاگا لەشتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As you're aware, this is not a new problem."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک ئاگادارن، ئەمە کێشەیەکی تازە نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawares1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawares1(// REPLACE: aware
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As you're aware, this is not a new problem.",
+                            kurdishText:
+                                "وەک ئاگادارن، ئەمە کێشەیەکی تازە نییە.",
+                            onPressedBritish: () => speakawares1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawares1(// REPLACE: aware
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) حەزکردن لە زانین دەربارەی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Young people are very environmentally aware."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەنجان زۆر ھۆشیارن سەبارەت بە ژینگە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawares2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawares2(// REPLACE: aware
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Young people are very environmentally aware.",
+                            kurdishText: "گەنجان زۆر ھۆشیارن سەبارەت بە ژینگە.",
+                            onPressedBritish: () => speakawares2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawares2(// REPLACE: aware
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

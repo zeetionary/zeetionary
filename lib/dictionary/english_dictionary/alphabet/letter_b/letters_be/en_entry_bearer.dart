@@ -151,125 +151,49 @@ class EnglishEntrybearer extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) کەسێک کە ھەڵگری شتێکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a coffin bearer at his father's funeral."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵگری تابووتەکە بوو لە مەراسیمی ناشرنی باوکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbearers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbearers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a coffin bearer at his father's funeral.",
+                            kurdishText:
+                                "ھەڵگری تابووتەکە بوو لە مەراسیمی ناشرنی باوکی.",
+                            onPressedBritish: () => speakbearers1("en-GB"),
+                            onPressedAmerican: () => speakbearers1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھێنەری نامەیەک یان ھەواڵێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm sorry to be the bearer of bad news."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەداخم بۆ بوون بە ھێنەری ھەواڵی خراپ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbearers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbearers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm sorry to be the bearer of bad news.",
+                            kurdishText:
+                                "بەداخم بۆ بوون بە ھێنەری ھەواڵی خراپ.",
+                            onPressedBritish: () => speakbearers2("en-GB"),
+                            onPressedAmerican: () => speakbearers2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کەسێک کە شتێکی پێیە یان خاوەنی شتێکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A pass will allow the bearer to enter the building."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆڵەتێکی چوونەژوورەوە ڕێگا بە خاوەنەکەی دەدات بچێتە بیناکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbearers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbearers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A pass will allow the bearer to enter the building.",
+                            kurdishText:
+                                "مۆڵەتێکی چوونەژوورەوە ڕێگا بە خاوەنەکەی دەدات بچێتە بیناکەوە.",
+                            onPressedBritish: () => speakbearers3("en-GB"),
+                            onPressedAmerican: () => speakbearers3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کەسێک کە زانیارییەکی پێیە و دڵنیایی دەدات کە لەبیرناچیتەوە بە بڵاوکردنەوەی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In many societies, women play an important role as bearers of cultures and traditions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە زۆر کۆمەڵگەدا، ژنان ڕۆڵی گرنگ دەبینن وەک پارێزەری کەلتوور و نەریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbearers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbearers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In many societies, women play an important role as bearers of cultures and traditions.",
+                            kurdishText:
+                                "لە زۆر کۆمەڵگەدا، ژنان ڕۆڵی گرنگ دەبینن وەک پارێزەری کەلتوور و نەریت.",
+                            onPressedBritish: () => speakbearers4("en-GB"),
+                            onPressedAmerican: () => speakbearers4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

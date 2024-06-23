@@ -149,114 +149,37 @@ class EnglishEntrybog extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوچەیەکی زەوی نەرم کە درووست بووە لە ڕووەکی خراپ بوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I found myself walking through a bog."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەوتمە ناو زەلکاوێکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbogs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbogs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I found myself walking through a bog.",
+                            kurdishText: "کەوتمە ناو زەلکاوێکەوە.",
+                            onPressedBritish: () => speakbogs1("en-GB"),
+                            onPressedAmerican: () => speakbogs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The more she struggled the deeper she sank into the bog."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرچەندە بەرھەڵستی دەکرد ئەوەندە زیاتر دەکەوتە ناو زەلکاوەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbogs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbogs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The more she struggled the deeper she sank into the bog.",
+                            kurdishText:
+                                "ھەرچەندە بەرھەڵستی دەکرد ئەوەندە زیاتر دەکەوتە ناو زەلکاوەکەوە.",
+                            onPressedBritish: () => speakbogs2("en-GB"),
+                            onPressedAmerican: () => speakbogs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) تەوالێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Have you got any bog roll (= toilet paper)?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ کاغەزی دەسبەئاوت پێیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbogs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbogs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Have you got any bog roll (= toilet paper)?",
+                            kurdishText: "ھیچ کاغەزی دەسبەئاوت پێیە؟",
+                            onPressedBritish: () => speakbogs3("en-GB"),
+                            onPressedAmerican: () => speakbogs3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sam was on the bog when I arrived."),
-                                    ExampleSentenceKurdish(
-                                        text: "سام لە سەرئاو بوو کە ڕۆشتم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbogs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbogs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Sam was on the bog when I arrived.",
+                            kurdishText: "سام لە سەرئاو بوو کە ڕۆشتم.",
+                            onPressedBritish: () => speakbogs4("en-GB"),
+                            onPressedAmerican: () => speakbogs4("en-US"),
                           ),
                         ],
                       ),

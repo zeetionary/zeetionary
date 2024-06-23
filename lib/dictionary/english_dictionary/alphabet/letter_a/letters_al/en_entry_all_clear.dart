@@ -113,101 +113,42 @@ class EnglishEntryallclear extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئاماژەیەک بۆ ئەوەی شوێنێک چی تر مەترسیدار نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children hid in the basement until the all-clear sounded."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان خۆیان لەژێر زەمینەکە شاردەوە تاوەکو ئاماژەی سەلامەتییان پێدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallclear37455("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallclear37455(
-                                        // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children hid in the basement until the all-clear sounded.",
+                            kurdishText:
+                                "منداڵەکان خۆیان لەژێر زەمینەکە شاردەوە تاوەکو ئاماژەی سەلامەتییان پێدرا.",
+                            onPressedBritish: () => speakallclear37455("en-GB"),
+                            onPressedAmerican: () => speakallclear37455(
+                                // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) وتنی ئەوەی ھیچ کێشەیەک نییە، بۆ نموونە پزیشک بڵێت ھیچ کێشەی تەندرووستیت نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The building was given the all-clear following tests."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیناکە بە سەلامەت دانرا لە دوای پشکنینەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallclear24121("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallclear24121(
-                                        // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The building was given the all-clear following tests.",
+                            kurdishText:
+                                "بیناکە بە سەلامەت دانرا لە دوای پشکنینەکان.",
+                            onPressedBritish: () => speakallclear24121("en-GB"),
+                            onPressedAmerican: () => speakallclear24121(
+                                // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) مۆڵەتپێدان بۆ کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ship was given the all-clear to sail."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشتییەکە مۆڵەتی پێدرا بۆ چوونە دەریا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallclear385796("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallclear385796(
-                                        // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ship was given the all-clear to sail.",
+                            kurdishText:
+                                "کەشتییەکە مۆڵەتی پێدرا بۆ چوونە دەریا.",
+                            onPressedBritish: () =>
+                                speakallclear385796("en-GB"),
+                            onPressedAmerican: () => speakallclear385796(
+                                // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
+                                "en-US"),
                           ),
                         ],
                       ),

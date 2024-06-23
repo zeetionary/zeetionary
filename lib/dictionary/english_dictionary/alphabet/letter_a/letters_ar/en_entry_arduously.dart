@@ -162,34 +162,13 @@ class EnglishEntryarduously extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە ھێز و وزەی زۆری دەوێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They searched arduously for clues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تاقەت‌پڕوقێنانە گەڕان بۆ سەرەداو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarduously715("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarduously715(
-                                        // REPLACE: arduously /ˈɑːrdʒuəsli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They searched arduously for clues.",
+                            kurdishText: "بە تاقەت‌پڕوقێنانە گەڕان بۆ سەرەداو.",
+                            onPressedBritish: () => speakarduously715("en-GB"),
+                            onPressedAmerican: () => speakarduously715(
+                                // REPLACE: arduously /ˈɑːrdʒuəsli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

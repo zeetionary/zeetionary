@@ -116,66 +116,28 @@ class EnglishEntryalbino extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) کەسێک یان ئاژەڵێک کە ڕەنگ لە پێستی یان قژی نییە و سپی دەردەکەون، یان لە چاوەکانی کە پەمەیی دەردەکەون"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I ended up living with this albino guy who was an engineer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەکۆتاییدا کەوتم لەگەڵ کابرایەکی ئەلباینۆ کە ئەندازیار بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalbino4855("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalbino4855(
-                                        // REPLACE: albino /ælˈbaɪnəʊ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I ended up living with this albino guy who was an engineer.",
+                            kurdishText:
+                                "لەکۆتاییدا کەوتم لەگەڵ کابرایەکی ئەلباینۆ کە ئەندازیار بوو.",
+                            onPressedBritish: () => speakalbino4855("en-GB"),
+                            onPressedAmerican: () => speakalbino4855(
+                                // REPLACE: albino /ælˈbaɪnəʊ/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێکی ئەلباینۆ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was not an albino, but nearly so."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێکی ئەلباینۆ نەبوو، بەڵام نزیک بوو لێی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalbino3411("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalbino3411(
-                                        // REPLACE: albino /ælˈbaɪnəʊ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was not an albino, but nearly so.",
+                            kurdishText:
+                                "کەسێکی ئەلباینۆ نەبوو، بەڵام نزیک بوو لێی.",
+                            onPressedBritish: () => speakalbino3411("en-GB"),
+                            onPressedAmerican: () => speakalbino3411(
+                                // REPLACE: albino /ælˈbaɪnəʊ/
+                                "en-US"),
                           ),
                         ],
                       ),

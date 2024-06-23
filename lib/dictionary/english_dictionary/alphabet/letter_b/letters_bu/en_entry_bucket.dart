@@ -146,178 +146,64 @@ class EnglishEntrybucket extends StatelessWidget {
 کوردی: سەتڵ، مەڕدۆش، مانگادۆش، دۆڵ، دۆلکە، دۆڵکە، دۆڵچە، ئاڤدانک، پەقرەچ
 """),
                           const DefinitionKurdish(text: "١. (ناو) سەتڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children ran down to the beach with their buckets and spades."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان بە کەنارەکەدا ڕایان دەکرد بە سەتڵ و خاکەنازەکانیانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bucket" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuckets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuckets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children ran down to the beach with their buckets and spades.",
+                            kurdishText:
+                                "منداڵەکان بە کەنارەکەدا ڕایان دەکرد بە سەتڵ و خاکەنازەکانیانەوە.", // bucket" as
+                            onPressedBritish: () => speakbuckets1("en-GB"),
+                            onPressedAmerican: () => speakbuckets1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cleaner put down his mop and bucket and sat down."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاککەرەوەکە عەرزسڕ و سەتڵەکەی دانا و دانیشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuckets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuckets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cleaner put down his mop and bucket and sat down.",
+                            kurdishText:
+                                "پاککەرەوەکە عەرزسڕ و سەتڵەکەی دانا و دانیشت.",
+                            onPressedBritish: () => speakbuckets2("en-GB"),
+                            onPressedAmerican: () => speakbuckets2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) قەپی شۆفڵ یان حەفارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The excavator's bucket scooped up the loose earth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەپی حەفارەکە زەوییە نەرمەکەی ھەڵکەند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuckets3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuckets3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The excavator's bucket scooped up the loose earth.",
+                            kurdishText:
+                                "قەپی حەفارەکە زەوییە نەرمەکەی ھەڵکەند.",
+                            onPressedBritish: () => speakbuckets3("en-GB"),
+                            onPressedAmerican: () => speakbuckets3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەو ڕێژەیەی لە سەتڵێکدا جێگای دەبێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They used to drink tea by the bucketful (= in large quantities)."),
-                                    ExampleSentenceKurdish(
-                                        text: "جاران چایان زۆر دەخواردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuckets4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuckets4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They used to drink tea by the bucketful (= in large quantities).",
+                            kurdishText: "جاران چایان زۆر دەخواردەوە.",
+                            onPressedBritish: () => speakbuckets4("en-GB"),
+                            onPressedAmerican: () => speakbuckets4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She poured the bucket of dirty water down the drain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەتڵی ئاوە پیسەکەی ڕژاندە ناو ئاوەڕۆکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuckets5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuckets5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She poured the bucket of dirty water down the drain.",
+                            kurdishText:
+                                "سەتڵی ئاوە پیسەکەی ڕژاندە ناو ئاوەڕۆکە.",
+                            onPressedBritish: () => speakbuckets5("en-GB"),
+                            onPressedAmerican: () => speakbuckets5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) ڕێژەیەکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was sweating buckets by the end of the race."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتایی پێشبڕکێیەکەدا یەکجار زۆر ئارەقەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuckets6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuckets6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was sweating buckets by the end of the race.",
+                            kurdishText:
+                                "لە کۆتایی پێشبڕکێیەکەدا یەکجار زۆر ئارەقەی دەکرد.",
+                            onPressedBritish: () => speakbuckets6("en-GB"),
+                            onPressedAmerican: () => speakbuckets6("en-US"),
                           ),
                         ],
                       ),

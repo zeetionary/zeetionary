@@ -115,66 +115,28 @@ class EnglishEntryaerial extends StatelessWidget {
                               text:
                                   "١. (ناو) پارچە دەزگایەک کە لە وایەر درووستکراوە یان پارچە ئاسنی باریک بۆ وەرگرتن و ناردنی ئاماژەی ڕادیۆ یان تەلەڤیزیۆن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A forest of television aerials on the roofs could be seen afar."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆر ئاریەڵی تەلەڤیزیۆن لەسەر سەربانەکان لە دوورەوە دیار بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaeri5692("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaeri5692(
-                                        // REPLACE: aerial /ˈeriəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A forest of television aerials on the roofs could be seen afar.",
+                            kurdishText:
+                                "ژمارەیەکی زۆر ئاریەڵی تەلەڤیزیۆن لەسەر سەربانەکان لە دوورەوە دیار بوون.",
+                            onPressedBritish: () => speakaeri5692("en-GB"),
+                            onPressedAmerican: () => speakaeri5692(
+                                // REPLACE: aerial /ˈeriəl/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) لە ئاسمانەوە یان لە ناو فڕۆکەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The massive aerial bombardment of military targets continued unabated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆمبارانی ئاسمانی بۆ سەر ئامانجە سەربازییەکان بەردەوام بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaeria2567("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaeria2567(
-                                        // REPLACE: aerial /ˈeriəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The massive aerial bombardment of military targets continued unabated.",
+                            kurdishText:
+                                "بۆمبارانی ئاسمانی بۆ سەر ئامانجە سەربازییەکان بەردەوام بوون.",
+                            onPressedBritish: () => speakaeria2567("en-GB"),
+                            onPressedAmerican: () => speakaeria2567(
+                                // REPLACE: aerial /ˈeriəl/
+                                "en-US"),
                           ),
                         ],
                       ),

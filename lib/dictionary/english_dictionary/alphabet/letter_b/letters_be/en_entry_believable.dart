@@ -149,31 +149,12 @@ class EnglishEntrybelievable extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) شتێک کە جێگەی باوەڕە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her explanation certainly sounded believable."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕوونکردنەوەکەی جێی‌باوەڕە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelievables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelievables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her explanation certainly sounded believable.",
+                            kurdishText: "ڕوونکردنەوەکەی جێی‌باوەڕە.",
+                            onPressedBritish: () => speakbelievables1("en-GB"),
+                            onPressedAmerican: () => speakbelievables1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -152,33 +152,14 @@ class EnglishEntrybadness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خراپە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was not a hint of badness in him."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ ئاماژەی خراپەکاری تێدابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadnesss1(// REPLACE: badness
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was not a hint of badness in him.",
+                            kurdishText: "ھیچ ئاماژەی خراپەکاری تێدابوو.",
+                            onPressedBritish: () => speakbadnesss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadnesss1(// REPLACE: badness
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

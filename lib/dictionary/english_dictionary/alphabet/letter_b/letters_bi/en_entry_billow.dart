@@ -152,94 +152,35 @@ class EnglishEntrybillow extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) پڕبوون لە ھەوا و درووستکرنی تۆپەڵێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The curtains billowed in the breeze."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەردەکان تۆپەڵە بوون لە شنە باکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbillows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbillows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The curtains billowed in the breeze.",
+                            kurdishText: "پەردەکان تۆپەڵە بوون لە شنە باکەدا.",
+                            onPressedBritish: () => speakbillows1("en-GB"),
+                            onPressedAmerican: () => speakbillows1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بەرزبوونەوەی دووکەڵ و ھەور"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A great cloud of smoke billowed out of the chimney."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆپەڵێژی گەورە لە دووکەڵ لە دووکەڵ‌کێشەکەوە بەرزبوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbillows2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbillows2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A great cloud of smoke billowed out of the chimney.",
+                            kurdishText:
+                                "تۆپەڵێژی گەورە لە دووکەڵ لە دووکەڵ‌کێشەکەوە بەرزبوویەوە.",
+                            onPressedBritish: () => speakbillows2("en-GB"),
+                            onPressedAmerican: () => speakbillows2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) تۆپەڵێکی گەورە لە دووکەڵ یان ھەڵم لە شێوەی شەپۆلدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A farmer was burning straw, the billows of smoke spiralling upward."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوتیارێک پەڵاشی دەسووتاند، تۆپەڵە دووکەڵ بەرەو سەرەوە بەرزدەبوونەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbillows3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbillows3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A farmer was burning straw, the billows of smoke spiralling upward.",
+                            kurdishText:
+                                "جوتیارێک پەڵاشی دەسووتاند، تۆپەڵە دووکەڵ بەرەو سەرەوە بەرزدەبوونەوە.",
+                            onPressedBritish: () => speakbillows3("en-GB"),
+                            onPressedAmerican: () => speakbillows3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

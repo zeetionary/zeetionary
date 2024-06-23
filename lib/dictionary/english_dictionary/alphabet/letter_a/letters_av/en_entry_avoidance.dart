@@ -158,34 +158,15 @@ class EnglishEntryavoidance extends StatelessWidget {
                               text:
                                   "١. (ناو) دوورکەوتنەوە یان خۆدزینەوە لە شتێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A person's health improves with the avoidance of stress."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەندرووستی کەسێک بەھێز دەبێت ئەگەر خۆی لە خەمخواردن بەدووربگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavoidances1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavoidances1(// REPLACE: avoidance
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A person's health improves with the avoidance of stress.",
+                            kurdishText:
+                                "تەندرووستی کەسێک بەھێز دەبێت ئەگەر خۆی لە خەمخواردن بەدووربگرێت.",
+                            onPressedBritish: () => speakavoidances1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavoidances1(// REPLACE: avoidance
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -161,35 +161,16 @@ class EnglishEntryassemblyline extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ڕیزێک لە کرێکار و ئامێر لە کارگەیەکدا کە قۆناغ بە قۆناغ کاردەکەن لەسەر بەستنی پارچەکانی بەرھەمێک تاوەکو تەواو دەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The workers on the assembly line worked tirelessly to produce the cars."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرێکاران لەسەر ھێڵی بەرھەمھێنانەکە ماندوونەناسانە کاریان دەکرد بۆ بەرھەمھێنانی ئۆتۆمبێل."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassemblyline1003("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassemblyline1003(
-                                        // REPLACE: assembly line /əˈsembli laɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The workers on the assembly line worked tirelessly to produce the cars.",
+                            kurdishText:
+                                "کرێکاران لەسەر ھێڵی بەرھەمھێنانەکە ماندوونەناسانە کاریان دەکرد بۆ بەرھەمھێنانی ئۆتۆمبێل.",
+                            onPressedBritish: () =>
+                                speakassemblyline1003("en-GB"),
+                            onPressedAmerican: () => speakassemblyline1003(
+                                // REPLACE: assembly line /əˈsembli laɪn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

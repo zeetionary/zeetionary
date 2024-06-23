@@ -157,34 +157,15 @@ class EnglishEntryaxle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پارچە ئاسنێکی ڕاست کە ویلەکانی ئۆتۆمبێلێک پێکەوە دەبەستێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The mechanic carefully greased the car's axles to prevent friction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەستاکە بەوریاییەوە ئەکسڵەکانی ئۆتۆمبێلەکەی گریس کرد بۆ ڕێگری لە لێکخشان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaxles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaxles1(// REPLACE: axle
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The mechanic carefully greased the car's axles to prevent friction.",
+                            kurdishText:
+                                "وەستاکە بەوریاییەوە ئەکسڵەکانی ئۆتۆمبێلەکەی گریس کرد بۆ ڕێگری لە لێکخشان.",
+                            onPressedBritish: () => speakaxles1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaxles1(// REPLACE: axle
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -116,98 +116,39 @@ class EnglishEntryalongside extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) شان بە شان یان لە تەنیشت" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Nick caught up with me and rode alongside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیک گەشتەوە پێم و شان بە شانم لێیخوڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalongside4592("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalongside4592(
-                                        // REPLACE: alongside /əˌlɔːŋˈsaɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Nick caught up with me and rode alongside.",
+                            kurdishText:
+                                "نیک گەشتەوە پێم و شان بە شانم لێیخوڕی.",
+                            onPressedBritish: () => speakalongside4592("en-GB"),
+                            onPressedAmerican: () => speakalongside4592(
+                                // REPLACE: alongside /əˌlɔːŋˈsaɪd/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ئامراز) لە تەنیشت، یان لەگەڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new pill will be used alongside existing medicines."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەبە تازەکە دەکرێت لەگەڵ دەرمانی دیکە بەکاربێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalongside4597("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalongside4597(
-                                        // REPLACE: alongside /əˌlɔːŋˈsaɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new pill will be used alongside existing medicines.",
+                            kurdishText:
+                                "حەبە تازەکە دەکرێت لەگەڵ دەرمانی دیکە بەکاربێت.",
+                            onPressedBritish: () => speakalongside4597("en-GB"),
+                            onPressedAmerican: () => speakalongside4597(
+                                // REPLACE: alongside /əˌlɔːŋˈsaɪd/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most of the staff refused to work alongside the new team."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی ستافەکە ڕەتیان کردەوە شان بە شانی تیمە تازەکە کاربکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalongside9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalongside9(
-                                        // REPLACE: alongside /əˌlɔːŋˈsaɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most of the staff refused to work alongside the new team.",
+                            kurdishText:
+                                "زۆرینەی ستافەکە ڕەتیان کردەوە شان بە شانی تیمە تازەکە کاربکەن.",
+                            onPressedBritish: () => speakalongside9("en-GB"),
+                            onPressedAmerican: () => speakalongside9(
+                                // REPLACE: alongside /əˌlɔːŋˈsaɪd/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -150,125 +150,47 @@ class EnglishEntrybeast extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئاژەڵێکی ترسناک و گەورە، زیاتر یەکێک کە دەگمەنە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was ripped apart by wild beasts in the forest."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارچەپارچە کرا لەلایەن دڕندەی کێوییەوە لە دارستانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeasts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeasts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was ripped apart by wild beasts in the forest.",
+                            kurdishText:
+                                "پارچەپارچە کرا لەلایەن دڕندەی کێوییەوە لە دارستانەکە.",
+                            onPressedBritish: () => speakbeasts1("en-GB"),
+                            onPressedAmerican: () => speakbeasts1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە زۆردارە و ڕەفتاری کۆنترۆڵ نەکراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The beast in her wanted to destroy his house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڕندەکەی ناخی دەیویست ماڵەکەی وێران بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeasts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeasts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The beast in her wanted to destroy his house.",
+                            kurdishText:
+                                "دڕندەکەی ناخی دەیویست ماڵەکەی وێران بکات.",
+                            onPressedBritish: () => speakbeasts2("en-GB"),
+                            onPressedAmerican: () => speakbeasts2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) شتێک یان کەسێکی ناخۆش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The maths exam was a real beast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاقیکردنەوەی بیرکاری سەرێشەیەکی تەواو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeasts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeasts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The maths exam was a real beast.",
+                            kurdishText:
+                                "تاقیکردنەوەی بیرکاری سەرێشەیەکی تەواو بوو.",
+                            onPressedBritish: () => speakbeasts3("en-GB"),
+                            onPressedAmerican: () => speakbeasts3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) شتێک کە خاسیەتی تایبەتی خۆی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His new guitar is a very expensive beast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گیتارە تازەکەی دانەیەکی زۆر گرانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeasts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeasts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His new guitar is a very expensive beast.",
+                            kurdishText: "گیتارە تازەکەی دانەیەکی زۆر گرانە.",
+                            onPressedBritish: () => speakbeasts4("en-GB"),
+                            onPressedAmerican: () => speakbeasts4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

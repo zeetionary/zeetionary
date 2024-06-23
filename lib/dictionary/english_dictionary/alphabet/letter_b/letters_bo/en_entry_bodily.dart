@@ -151,149 +151,52 @@ class EnglishEntrybodily extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە جەستەی مرۆڤەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The virus can be passed from person to person through bodily fluids such as blood and saliva."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڤایرۆسەکە دەکرێت بگوازرێتەوە لە کەسێکەوە بۆ یەکێکی تر لە ڕێگەی شلەی جەستەوە وەک خوێن و تف."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodilys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodilys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The virus can be passed from person to person through bodily fluids such as blood and saliva.",
+                            kurdishText:
+                                "ڤایرۆسەکە دەکرێت بگوازرێتەوە لە کەسێکەوە بۆ یەکێکی تر لە ڕێگەی شلەی جەستەوە وەک خوێن و تف.",
+                            onPressedBritish: () => speakbodilys1("en-GB"),
+                            onPressedAmerican: () => speakbodilys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As you get older, you begin to lose control of your bodily functions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە بەتەمەنتر دەبیت، دەست دەکەیت بە لەدەستدانی توانات بەسەر ئەرکەکانی جەستەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodilys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodilys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As you get older, you begin to lose control of your bodily functions.",
+                            kurdishText:
+                                "کە بەتەمەنتر دەبیت، دەست دەکەیت بە لەدەستدانی توانات بەسەر ئەرکەکانی جەستەت.",
+                            onPressedBritish: () => speakbodilys2("en-GB"),
+                            onPressedAmerican: () => speakbodilys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بە بەرزکردنەوەی تەواوی جەستەی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He carried her bodily up the stairs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە باوەش ھەڵیگرت بەسەر پەیژەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodilys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodilys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He carried her bodily up the stairs.",
+                            kurdishText: "بە باوەش ھەڵیگرت بەسەر پەیژەکەدا.",
+                            onPressedBritish: () => speakbodilys3("en-GB"),
+                            onPressedAmerican: () => speakbodilys3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The force of the blast hurled us bodily to the ground."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزی تەقینەوەکە بەجەستەوە کوتامانی بە زەویدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodilys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodilys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The force of the blast hurled us bodily to the ground.",
+                            kurdishText:
+                                "ھێزی تەقینەوەکە بەجەستەوە کوتامانی بە زەویدا.",
+                            onPressedBritish: () => speakbodilys4("en-GB"),
+                            onPressedAmerican: () => speakbodilys4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵکار) بە یەک پارچە، بە تەواوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The monument was moved bodily to a new site."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆنومێنتەکە بە تەواوی گوازرایەوە بۆ شوێنێکی تازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodilys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodilys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The monument was moved bodily to a new site.",
+                            kurdishText:
+                                "مۆنومێنتەکە بە تەواوی گوازرایەوە بۆ شوێنێکی تازە.",
+                            onPressedBritish: () => speakbodilys5("en-GB"),
+                            onPressedAmerican: () => speakbodilys5("en-US"),
                           ),
                         ],
                       ),

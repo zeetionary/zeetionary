@@ -147,34 +147,15 @@ class EnglishEntryboaconstrictor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مارێکی گەورەی ئەمریکای باشوور کە ئاژەڵ دەکوژێت بۆ خواردن بە سووڕدانی لاشە درێژەکەی بە توندی بە دەوریاندا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A boa constrictor's diet mainly consists of small mammals and birds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواردنی ماری بووا بەزۆری پێکدێت لە شیردەری بچووک و باڵندە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakboaconstrictors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakboaconstrictors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A boa constrictor's diet mainly consists of small mammals and birds.",
+                            kurdishText:
+                                "خواردنی ماری بووا بەزۆری پێکدێت لە شیردەری بچووک و باڵندە.",
+                            onPressedBritish: () =>
+                                speakboaconstrictors1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakboaconstrictors1("en-US"),
                           ),
                         ],
                       ),

@@ -333,123 +333,45 @@ class EnglishEntryburn extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) درووستکردنی بڵێسە و گەرمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Fires were burning all over the city."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگر تاوی سەندبوو لە تەواوی شارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burn", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Fires were burning all over the city.",
+                            kurdishText:
+                                "ئاگر تاوی سەندبوو لە تەواوی شارەکە.", // burn", follow LX strictly
+                            onPressedBritish: () => speakburns1("en-GB"),
+                            onPressedAmerican: () => speakburns1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A small candle burned brightly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆمێکی بچووک بە درەوشاوەیی دەسووتا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A small candle burned brightly.",
+                            kurdishText: "مۆمێکی بچووک بە درەوشاوەیی دەسووتا.",
+                            onPressedBritish: () => speakburns2("en-GB"),
+                            onPressedAmerican: () => speakburns2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The fire was still burning fiercely."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئاگرەکە ھێشتا بە تاوەوە دەگڕیا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakburns3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakburns3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The fire was still burning fiercely.",
+                                    kurdishText:
+                                        "ئاگرەکە ھێشتا بە تاوەوە دەگڕیا.",
+                                    onPressedBritish: () =>
+                                        speakburns3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakburns3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She burned his old love letters."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "نامە ئەویندارییە کۆنەکانی سوتاند."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakburns4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakburns4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She burned his old love letters.",
+                                    kurdishText:
+                                        "نامە ئەویندارییە کۆنەکانی سوتاند.",
+                                    onPressedBritish: () =>
+                                        speakburns4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakburns4("en-US"),
                                   ),
                                 ],
                               ),
@@ -458,93 +380,34 @@ class EnglishEntryburn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) بوون لە ناو ئاگردا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "By nightfall the whole city was burning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تا شەو تەواوی شارەکە لە ئاگردابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "By nightfall the whole city was burning.",
+                            kurdishText: "تا شەو تەواوی شارەکە لە ئاگردابوو.",
+                            onPressedBritish: () => speakburns5("en-GB"),
+                            onPressedAmerican: () => speakburns5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The girl ran from the burning building."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کچەکە ڕایکرد لە ماڵە گڕگرتووەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The girl ran from the burning building.",
+                            kurdishText: "کچەکە ڕایکرد لە ماڵە گڕگرتووەکە.",
+                            onPressedBritish: () => speakburns6("en-GB"),
+                            onPressedAmerican: () => speakburns6("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They called us to tell us that my aunt's house was burning."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پەیوەندییان پێوە کردین تا بڵێن ماڵی پوورم ئاگری گرتووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakburns7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakburns7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "They called us to tell us that my aunt's house was burning.",
+                                    kurdishText:
+                                        "پەیوەندییان پێوە کردین تا بڵێن ماڵی پوورم ئاگری گرتووە.",
+                                    onPressedBritish: () =>
+                                        speakburns7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakburns7("en-US"),
                                   ),
                                 ],
                               ),
@@ -554,122 +417,44 @@ class EnglishEntryburn extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) لەناوبردن، زیان گەیاندن، بریندارکردن، یان کوشتن بە ئاگر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The house burned to the ground."),
-                                    ExampleSentenceKurdish(
-                                        text: "خانووەکە بە تەواوی سووتا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The house burned to the ground.",
+                            kurdishText: "خانووەکە بە تەواوی سووتا.",
+                            onPressedBritish: () => speakburns8("en-GB"),
+                            onPressedAmerican: () => speakburns8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ten people burned to death in the hotel fire."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دە کەس مردن لە ئاگری ھوتێلەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ten people burned to death in the hotel fire.",
+                            kurdishText: "دە کەس مردن لە ئاگری ھوتێلەکەدا.",
+                            onPressedBritish: () => speakburns9("en-GB"),
+                            onPressedAmerican: () => speakburns9("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "All his belongings were burnt in the fire."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تەواوی کەلوپەلەکانی لە ئاگرەکەدا سووتان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakburns10("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakburns10("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "All his belongings were burnt in the fire.",
+                                    kurdishText:
+                                        "تەواوی کەلوپەلەکانی لە ئاگرەکەدا سووتان.",
+                                    onPressedBritish: () =>
+                                        speakburns10("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakburns10("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Several protesters burned American flags."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ژمارەیەک خۆپیشاندەر ئاڵای ئەمریکایان سووتاند."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakburns11("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakburns11("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Several protesters burned American flags.",
+                                    kurdishText:
+                                        "ژمارەیەک خۆپیشاندەر ئاڵای ئەمریکایان سووتاند.",
+                                    onPressedBritish: () =>
+                                        speakburns11("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakburns11("en-US"),
                                   ),
                                 ],
                               ),
@@ -679,238 +464,85 @@ class EnglishEntryburn extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) سووتاندنی سووتەمەنی بە مەبەستی درووستکردنی گەرمی، ڕۆشنایی، یان وزە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Which fuel burns most efficiently?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چی سووتەمەنییەک بە کاریگەری دەسووتێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Which fuel burns most efficiently?",
+                            kurdishText:
+                                "چی سووتەمەنییەک بە کاریگەری دەسووتێت؟",
+                            onPressedBritish: () => speakburns12("en-GB"),
+                            onPressedAmerican: () => speakburns12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some people burn calories (= use food to produce energy) faster than others."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراوی) ھەندێک کەس کالۆری زیاتر لە کەسانی دیکە دەسووتێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some people burn calories (= use food to produce energy) faster than others.",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی) ھەندێک کەس کالۆری زیاتر لە کەسانی دیکە دەسووتێنن.",
+                            onPressedBritish: () => speakburns13("en-GB"),
+                            onPressedAmerican: () => speakburns13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) سووتاندنی خۆراک بەھۆی زۆر گەرمکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can smell something burning in the kitchen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆنی شتێک دەکەم لە چێشتخانەکە دەسووتێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can smell something burning in the kitchen.",
+                            kurdishText:
+                                "بۆنی شتێک دەکەم لە چێشتخانەکە دەسووتێت.",
+                            onPressedBritish: () => speakburns14("en-GB"),
+                            onPressedAmerican: () => speakburns14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Sorry—I burnt the cake."),
-                                    ExampleSentenceKurdish(
-                                        text: "ببوورە، کێکەکەم سووتاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Sorry—I burnt the cake.",
+                            kurdishText: "ببوورە، کێکەکەم سووتاند.",
+                            onPressedBritish: () => speakburns15("en-GB"),
+                            onPressedAmerican: () => speakburns15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) بریندار بوون یان زیان پێگەشتن بە خۆر، گەرمی، ئەسید، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My skin burns easily (= in the sun).."),
-                                    ExampleSentenceKurdish(
-                                        text: "پێستم بە ئاسانی دەسووتێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My skin burns easily (= in the sun)..",
+                            kurdishText: "پێستم بە ئاسانی دەسووتێتەوە.",
+                            onPressedBritish: () => speakburns16("en-GB"),
+                            onPressedAmerican: () => speakburns16("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I burnt my tongue trying to eat a hot soup."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زمانمم سووتاند بە خواردنی شۆربایەکی گەرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I burnt my tongue trying to eat a hot soup.",
+                            kurdishText:
+                                "زمانمم سووتاند بە خواردنی شۆربایەکی گەرم.",
+                            onPressedBritish: () => speakburns17("en-GB"),
+                            onPressedAmerican: () => speakburns17("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The soup's hot. Don't burn your mouth."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "شۆرباکە گەرمە. دەمت مەسووتێنە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakburns18("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakburns18("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The soup's hot. Don't burn your mouth.",
+                                    kurdishText:
+                                        "شۆرباکە گەرمە. دەمت مەسووتێنە.",
+                                    onPressedBritish: () =>
+                                        speakburns18("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakburns18("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "His face had been horrifically burnt by acid."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕووخساری بە خراپی سوتێندرابوو بە ئەسید."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakburns19("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakburns19("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "His face had been horrifically burnt by acid.",
+                                    kurdishText:
+                                        "ڕووخساری بە خراپی سوتێندرابوو بە ئەسید.",
+                                    onPressedBritish: () =>
+                                        speakburns19("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakburns19("en-US"),
                                   ),
                                 ],
                               ),
@@ -920,269 +552,94 @@ class EnglishEntryburn extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) گەرمبوون یان بەئازاربوونی بەشێکی جەستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your forehead's burning. Have you got a fever?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوچاوانت گڕی گرتووە. تات ھەیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns20("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns20("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your forehead's burning. Have you got a fever?",
+                            kurdishText: "ناوچاوانت گڕی گرتووە. تات ھەیە؟",
+                            onPressedBritish: () => speakburns20("en-GB"),
+                            onPressedAmerican: () => speakburns20("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our eyes were burning from the chemicals in the air."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوەکانمان بە ئازار بوون بەھۆی مادە کیمیاییەکانی ناو ھەوا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns21("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns21("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our eyes were burning from the chemicals in the air.",
+                            kurdishText:
+                                "چاوەکانمان بە ئازار بوون بەھۆی مادە کیمیاییەکانی ناو ھەوا.",
+                            onPressedBritish: () => speakburns21("en-GB"),
+                            onPressedAmerican: () => speakburns21("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (کردار) درووستکردنی ڕۆشنایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their torches burned brightly in the dark."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لایتەکان بە درەوشاوەیی ھەڵکردبوو لە تاریکییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns22("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns22("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their torches burned brightly in the dark.",
+                            kurdishText:
+                                "لایتەکان بە درەوشاوەیی ھەڵکردبوو لە تاریکییەکەدا.",
+                            onPressedBritish: () => speakburns22("en-GB"),
+                            onPressedAmerican: () => speakburns22("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) ھەستکردن بە ھەست و ئارەزوویەکی بەھێز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She could sense the anger burning slowly inside him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە تووڕەییەکەی دەکرد کە تاوی سەندبوو لە ناخیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns23("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns23("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She could sense the anger burning slowly inside him.",
+                            kurdishText:
+                                "ھەستی بە تووڕەییەکەی دەکرد کە تاوی سەندبوو لە ناخیدا.",
+                            onPressedBritish: () => speakburns23("en-GB"),
+                            onPressedAmerican: () => speakburns23("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٠. (کردار) ڕۆشتن زۆر بە خێرایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car was burning down the road."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکەی گڤەی دەھات بە ڕێگاکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns24("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns24("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The car was burning down the road.",
+                            kurdishText: "ئۆتۆمبێلەکەی گڤەی دەھات بە ڕێگاکەدا.",
+                            onPressedBritish: () => speakburns24("en-GB"),
+                            onPressedAmerican: () => speakburns24("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١١. (کردار) تووڕەکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "So you did it just to burn me?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوەت کرد بەس بۆ ئەوەی تووڕەم بکەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns25("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns25("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "So you did it just to burn me?",
+                            kurdishText: "ئەوەت کرد بەس بۆ ئەوەی تووڕەم بکەیت؟",
+                            onPressedBritish: () => speakburns25("en-GB"),
+                            onPressedAmerican: () => speakburns25("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٢. (کردار) پارە خەرجکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The state has already burned through its cash reserves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ویلایەتەکە دەمێک دەبێت ھەموو پارەی کاشی یەدەگی بەکارھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns26("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns26("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The state has already burned through its cash reserves.",
+                            kurdishText:
+                                "ویلایەتەکە دەمێک دەبێت ھەموو پارەی کاشی یەدەگی بەکارھێناوە.",
+                            onPressedBritish: () => speakburns26("en-GB"),
+                            onPressedAmerican: () => speakburns26("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٣. (ناو) برین یان نیشانە بە ئاگر، ئەسید، یان گەرمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She suffered serious burns but is expected to survive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تووشی سووتانی خراپ بووە بەڵام چاوەڕێ دەکرێت ڕزگاری ببێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns27("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns27("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She suffered serious burns but is expected to survive.",
+                            kurdishText:
+                                "تووشی سووتانی خراپ بووە بەڵام چاوەڕێ دەکرێت ڕزگاری ببێت.",
+                            onPressedBritish: () => speakburns27("en-GB"),
+                            onPressedAmerican: () => speakburns27("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is recovering from burns to his face and hands."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەریکە چاکدەبێتەوە لە سووتاوی لە ڕووخسار و دەستیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburns28("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburns28("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is recovering from burns to his face and hands.",
+                            kurdishText:
+                                "خەریکە چاکدەبێتەوە لە سووتاوی لە ڕووخسار و دەستیدا.",
+                            onPressedBritish: () => speakburns28("en-GB"),
+                            onPressedAmerican: () => speakburns28("en-US"),
                           ),
                         ],
                       ),

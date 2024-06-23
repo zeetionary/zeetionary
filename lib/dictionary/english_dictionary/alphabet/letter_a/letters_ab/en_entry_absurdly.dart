@@ -96,32 +96,12 @@ class EnglishEntryabsurdly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. بە ئاستێک کە جێگەی باوەڕ نییە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The paintings were sold for absurdly high prices."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تابلۆکان بەنرخی ئێجگار بەرز فرۆشران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka41758("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka41758("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The paintings were sold for absurdly high prices.",
+                            kurdishText: "تابلۆکان بەنرخی ئێجگار بەرز فرۆشران.",
+                            onPressedBritish: () => speaka41758("en-GB"),
+                            onPressedAmerican: () => speaka41758("en-US"),
                           ),
                         ],
                       ),

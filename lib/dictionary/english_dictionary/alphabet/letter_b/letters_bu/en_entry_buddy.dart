@@ -144,145 +144,49 @@ class EnglishEntrybuddy extends StatelessWidget {
 کوردی: کاکە، دۆست، ھاوڕێ، ھەڤاڵ
 """),
                           const DefinitionKurdish(text: "١. (ناو) ھاوڕێ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We were good buddies."),
-                                    ExampleSentenceKurdish(
-                                        text: "دۆستی نزیکی یەکدی بووین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "buddy", follow LX strictly.
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuddys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuddys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We were good buddies.",
+                            kurdishText:
+                                "دۆستی نزیکی یەکدی بووین.", // buddy", follow LX strictly.
+                            onPressedBritish: () => speakbuddys1("en-GB"),
+                            onPressedAmerican: () => speakbuddys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I’d like you to meet an old college buddy of mine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزەکەم بتناسێنم بە ھاوڕێیەکی کۆنی کۆلێژم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuddys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuddys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I’d like you to meet an old college buddy of mine.",
+                            kurdishText:
+                                "حەزەکەم بتناسێنم بە ھاوڕێیەکی کۆنی کۆلێژم.",
+                            onPressedBritish: () => speakbuddys2("en-GB"),
+                            onPressedAmerican: () => speakbuddys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) بۆ بانگکردنی پیاوێک کە نایناسیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘Where to, buddy?’ the driver asked."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆفێرەکە پرسی 'بۆ کوێ دەچیت کاکە؟'"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuddys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuddys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "‘Where to, buddy?’ the driver asked.",
+                            kurdishText: "شۆفێرەکە پرسی 'بۆ کوێ دەچیت کاکە؟'",
+                            onPressedBritish: () => speakbuddys3("en-GB"),
+                            onPressedAmerican: () => speakbuddys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ھاوکارێک کە کارێکت لەگەڵ دەکات بۆ ئەوەی یارمەتی یەکدی بدەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The school uses a buddy system to pair newcomers with older students."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوتابخانەکە سیستەمی ھاوڕێیەتی بەکاردێنێت بۆ ئەوەی تازەھاتووان لەگەڵ خوێندکارە کۆنەکان لەگەڵ یەکدی بخات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuddys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuddys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The school uses a buddy system to pair newcomers with older students.",
+                            kurdishText:
+                                "قوتابخانەکە سیستەمی ھاوڕێیەتی بەکاردێنێت بۆ ئەوەی تازەھاتووان لەگەڵ خوێندکارە کۆنەکان لەگەڵ یەکدی بخات.",
+                            onPressedBritish: () => speakbuddys4("en-GB"),
+                            onPressedAmerican: () => speakbuddys4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We became workout buddies."),
-                                    ExampleSentenceKurdish(
-                                        text: "دۆستی سەر کار بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuddys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuddys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We became workout buddies.",
+                            kurdishText: "دۆستی سەر کار بوون.",
+                            onPressedBritish: () => speakbuddys5("en-GB"),
+                            onPressedAmerican: () => speakbuddys5("en-US"),
                           ),
                         ],
                       ),

@@ -116,65 +116,26 @@ class EnglishEntryalcohol extends StatelessWidget {
                               text:
                                   "١. (ناو) خواردنەوەی وەک بیرە و شەراب کە دەبێتەھۆی سەرخۆش بوون"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was unable to overcome his addiction to alcohol."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەیدەتوانی زاڵ ببێت بەسەر ئاڵوودەیی بە کحوول."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalcohol4538("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalcohol4538(
-                                        // REPLACE: alcohol /ˈælkəhɔːl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was unable to overcome his addiction to alcohol.",
+                            kurdishText:
+                                "نەیدەتوانی زاڵ ببێت بەسەر ئاڵوودەیی بە کحوول.",
+                            onPressedBritish: () => speakalcohol4538("en-GB"),
+                            onPressedAmerican: () => speakalcohol4538(
+                                // REPLACE: alcohol /ˈælkəhɔːl/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئەو مادە شلەییەی کە لە خواردنەوەکانی وەک بیرە و شەرابدا ھەیە و بەکاردێت لە دەرمان و بەرھەمەکانی پاککردنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Wine contains about 10% alcohol."),
-                                    ExampleSentenceKurdish(
-                                        text: "بیرە ڕێژەی ١٠٪ کحولی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalcohol42566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalcohol42566(
-                                        // REPLACE: alcohol /ˈælkəhɔːl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Wine contains about 10% alcohol.",
+                            kurdishText: "بیرە ڕێژەی ١٠٪ کحولی تێدایە.",
+                            onPressedBritish: () => speakalcohol42566("en-GB"),
+                            onPressedAmerican: () => speakalcohol42566(
+                                // REPLACE: alcohol /ˈælkəhɔːl/
+                                "en-US"),
                           ),
                         ],
                       ),

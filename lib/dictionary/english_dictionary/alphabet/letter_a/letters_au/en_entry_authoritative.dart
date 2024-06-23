@@ -167,69 +167,31 @@ class EnglishEntryauthoritative extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) پیشاندانی ئەوەی چاوەڕێی گێڕایەڵی و ڕێز دەکەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has an authoritative manner that at times is almost arrogant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسوکەوتێکی زۆردارانەی ھەیە کە ھەندێک جار تا ڕادەیەکی زۆر لەخۆڕازییانەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthoritative743("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthoritative743(
-                                        // REPLACE: authoritative
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has an authoritative manner that at times is almost arrogant.",
+                            kurdishText:
+                                "ھەڵسوکەوتێکی زۆردارانەی ھەیە کە ھەندێک جار تا ڕادەیەکی زۆر لەخۆڕازییانەیە.",
+                            onPressedBritish: () =>
+                                speakauthoritative743("en-GB"),
+                            onPressedAmerican: () => speakauthoritative743(
+                                // REPLACE: authoritative
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) جێگەی باوەڕ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her opinion on the subject was considered authoritative."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆچوونی لەسەر بابەتەکە بە باوەڕپێکراو دەدەنرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthoritative745("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthoritative745(
-                                        // REPLACE: authoritative
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her opinion on the subject was considered authoritative.",
+                            kurdishText:
+                                "بۆچوونی لەسەر بابەتەکە بە باوەڕپێکراو دەدەنرا.",
+                            onPressedBritish: () =>
+                                speakauthoritative745("en-GB"),
+                            onPressedAmerican: () => speakauthoritative745(
+                                // REPLACE: authoritative
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

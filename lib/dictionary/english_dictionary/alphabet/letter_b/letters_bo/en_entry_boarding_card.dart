@@ -144,34 +144,14 @@ class EnglishEntryboardingcard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کارتی سواربوون ناو فڕۆکە یان کەشتی)"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Show your boarding card at the gate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارتی سواربوونت لە دەروازەکە پیشان بدە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakboardingcards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakboardingcards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Show your boarding card at the gate.",
+                            kurdishText:
+                                "کارتی سواربوونت لە دەروازەکە پیشان بدە.",
+                            onPressedBritish: () =>
+                                speakboardingcards1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakboardingcards1("en-US"),
                           ),
                         ],
                       ),

@@ -146,60 +146,20 @@ class EnglishEntryboyish extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) شێوە و ھەڵسوکەوتی کوڕانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His boyish good looks made him popular with girls."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێوە کوڕانە جوانەکەی وایکرد لای کچان ناسراو بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboyishs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboyishs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His boyish good looks made him popular with girls.",
+                            kurdishText:
+                                "شێوە کوڕانە جوانەکەی وایکرد لای کچان ناسراو بێت.",
+                            onPressedBritish: () => speakboyishs1("en-GB"),
+                            onPressedAmerican: () => speakboyishs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jane fell for his boyish charm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەین کەوتە داوی سیما کوڕانەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboyishs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboyishs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Jane fell for his boyish charm.",
+                            kurdishText: "جەین کەوتە داوی سیما کوڕانەکەی.",
+                            onPressedBritish: () => speakboyishs2("en-GB"),
+                            onPressedAmerican: () => speakboyishs2("en-US"),
                           ),
                         ],
                       ),

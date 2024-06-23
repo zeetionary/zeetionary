@@ -145,207 +145,70 @@ class EnglishEntryaccept extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ڕازیبوون بە وەرگرتنی شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He asked me to marry him and I accepted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوای لێ‌کردم شووی پێ بکەم و ڕازی بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaccept1112("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaccept1112("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He asked me to marry him and I accepted.",
+                            kurdishText:
+                                "داوای لێ‌کردم شووی پێ بکەم و ڕازی بووم.",
+                            onPressedBritish: () => speakaccept1112("en-GB"),
+                            onPressedAmerican: () => speakaccept1112("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please accept our sincere apologies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە داوای لێبووردنی پڕبەدڵمان پەسەند بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka51968("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka51968("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Please accept our sincere apologies.",
+                            kurdishText:
+                                "تکایە داوای لێبووردنی پڕبەدڵمان پەسەند بکە.",
+                            onPressedBritish: () => speaka51968("en-GB"),
+                            onPressedAmerican: () => speaka51968("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ڕازیبوون بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They accepted the court's decision."),
-                                    ExampleSentenceKurdish(
-                                        text: "بڕیاری دادگایان پەسەندکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac4781("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac4781("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They accepted the court's decision.",
+                            kurdishText: "بڕیاری دادگایان پەسەندکرد.",
+                            onPressedBritish: () => speakac4781("en-GB"),
+                            onPressedAmerican: () => speakac4781("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He accepted all the changes we proposed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ئەو گۆڕانکارییانەی پەسەندکرد کە پێشنیازمان کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka65489("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka65489("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He accepted all the changes we proposed.",
+                            kurdishText:
+                                "ھەموو ئەو گۆڕانکارییانەی پەسەندکرد کە پێشنیازمان کردبوو.",
+                            onPressedBritish: () => speaka65489("en-GB"),
+                            onPressedAmerican: () => speaka65489("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) وەرگرتنی جۆری پارەدان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This machine only accepts coins."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ئامێرە تەنھا سکە وەردەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac2456("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac2456("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This machine only accepts coins.",
+                            kurdishText: "ئەم ئامێرە تەنھا سکە وەردەگرێت.",
+                            onPressedBritish: () => speakac2456("en-GB"),
+                            onPressedAmerican: () => speakac2456("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) دانپێدانان بە ھەڵە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He accepts full responsibility for what happened."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسیاریەتی تەواو ھەڵدەگرێت بۆ ئەوەی کە ڕوویدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2858("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2858("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He accepts full responsibility for what happened.",
+                            kurdishText:
+                                "بەرپرسیاریەتی تەواو ھەڵدەگرێت بۆ ئەوەی کە ڕوویدا.",
+                            onPressedBritish: () => speaka2858("en-GB"),
+                            onPressedAmerican: () => speaka2858("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) بەردەوامبوون لە بارودۆخێکی سەختدا بەبێ وەستان چونکە ئەزانیت ناتوانیت بیگۆڕیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You just have to accept the fact that we're never going to be rich."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت ئەو ڕاستییە پەسەند بکەیت کە ئێمە ھەرگیز دەوڵەمەند نابین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka68974("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka68974("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You just have to accept the fact that we're never going to be rich.",
+                            kurdishText:
+                                "دەبێت ئەو ڕاستییە پەسەند بکەیت کە ئێمە ھەرگیز دەوڵەمەند نابین.",
+                            onPressedBritish: () => speaka68974("en-GB"),
+                            onPressedAmerican: () => speaka68974("en-US"),
                           ),
                         ],
                       ),

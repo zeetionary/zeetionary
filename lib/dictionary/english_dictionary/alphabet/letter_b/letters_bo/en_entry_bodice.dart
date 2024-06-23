@@ -148,32 +148,13 @@ class EnglishEntrybodice extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەشی سەرەوەی جلی ژنانە، لە کەمەرەوە بۆ مل"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was wearing a ballgown with a fitted bodice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلێکی ئاھەنگی لەبەرکردبوو کە مەمک‌بەندێکی پڕبەبەری ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodices1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodices1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was wearing a ballgown with a fitted bodice.",
+                            kurdishText:
+                                "جلێکی ئاھەنگی لەبەرکردبوو کە مەمک‌بەندێکی پڕبەبەری ھەبوو.",
+                            onPressedBritish: () => speakbodices1("en-GB"),
+                            onPressedAmerican: () => speakbodices1("en-US"),
                           ),
                         ],
                       ),

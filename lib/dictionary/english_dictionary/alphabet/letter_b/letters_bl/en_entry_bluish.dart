@@ -147,60 +147,21 @@ class EnglishEntrybluish extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ڕەنگێک کە تا ڕادەیەک شینە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bluish flowers bloomed in spring."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوڵە شینباوەکان لە بەھاردا گوڵیان گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbluishs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbluishs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bluish flowers bloomed in spring.",
+                            kurdishText:
+                                "گوڵە شینباوەکان لە بەھاردا گوڵیان گرت.",
+                            onPressedBritish: () => speakbluishs1("en-GB"),
+                            onPressedAmerican: () => speakbluishs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sky turned a bluish hue as night fell."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاسمان بوو بە شینباو کە شەو داھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbluishs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbluishs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sky turned a bluish hue as night fell.",
+                            kurdishText: "ئاسمان بوو بە شینباو کە شەو داھات.",
+                            onPressedBritish: () => speakbluishs2("en-GB"),
+                            onPressedAmerican: () => speakbluishs2("en-US"),
                           ),
                         ],
                       ),

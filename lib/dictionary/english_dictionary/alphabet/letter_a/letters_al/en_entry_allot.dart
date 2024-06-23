@@ -106,59 +106,21 @@ class EnglishEntryallot extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) پێدانی پارە، کات، یان ئەرک بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I completed the test within the time allotted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاقیکردنەوەکەم لە ماوەی کاتی دیاریکراو تەواوکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallot4266("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallot4266("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I completed the test within the time allotted.",
+                            kurdishText:
+                                "تاقیکردنەوەکەم لە ماوەی کاتی دیاریکراو تەواوکرد.",
+                            onPressedBritish: () => speakallot4266("en-GB"),
+                            onPressedAmerican: () => speakallot4266("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How much money has been allotted to us?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چەندە پارەمان بۆ تەرخانکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallot341("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallot341("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How much money has been allotted to us?",
+                            kurdishText: "چەندە پارەمان بۆ تەرخانکراوە.",
+                            onPressedBritish: () => speakallot341("en-GB"),
+                            onPressedAmerican: () => speakallot341("en-US"),
                           ),
                         ],
                       ),

@@ -198,328 +198,133 @@ class EnglishEntrybang extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) لێدان لە شتێک بەشێوەیەک کە دەنگێکی بەرز درووست بکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The baby was banging the table with his spoon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکە بە کەوچکەکەی زرمەی ھەڵساندبوو لە مێزەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangs1(// REPLACE: bang
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The baby was banging the table with his spoon.",
+                            kurdishText:
+                                "منداڵەکە بە کەوچکەکەی زرمەی ھەڵساندبوو لە مێزەکە.",
+                            onPressedBritish: () => speakbangs1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangs1(// REPLACE: bang
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) گرتنی شتێک بە دەنگێکی بەرزەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She banged the door shut."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەرگاکەی بەتوندی قەپاتکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangs2(// REPLACE: bang
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She banged the door shut.",
+                            kurdishText: "دەرگاکەی بەتوندی قەپاتکرد.",
+                            onPressedBritish: () => speakbangs2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangs2(// REPLACE: bang
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) دانانی شتێک لە شوێنێک بە توندی و لەناکاو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He kept banging his chair against the wall."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەردەوام بوو لە کێشانی کورسییەکە بە دیوارەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangs3(// REPLACE: bang
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He kept banging his chair against the wall.",
+                            kurdishText:
+                                "بەردەوام بوو لە کێشانی کورسییەکە بە دیوارەکەدا.",
+                            onPressedBritish: () => speakbangs3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangs3(// REPLACE: bang
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) کێشانی شتێک، زۆرجار ئەندامێکی جەستە، بە شتێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She tripped and banged her knee on the desk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێی ھەڵکەوت و چۆکی کێشا بە مێزەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangs4(// REPLACE: bang
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She tripped and banged her knee on the desk.",
+                            kurdishText: "پێی ھەڵکەوت و چۆکی کێشا بە مێزەکەدا.",
+                            onPressedBritish: () => speakbangs4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangs4(// REPLACE: bang
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) کردنی سێکس لەگەڵ کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had banged a ton of guys by the time she was 25."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێکسی لەگەڵ یەک دونیا پیاو کردبوو کە تەمەنی ٢٥ ساڵان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangs5(// REPLACE: bang
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had banged a ton of guys by the time she was 25.",
+                            kurdishText:
+                                "سێکسی لەگەڵ یەک دونیا پیاو کردبوو کە تەمەنی ٢٥ ساڵان بوو.",
+                            onPressedBritish: () => speakbangs5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangs5(// REPLACE: bang
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ناو) دەنگێکی بەرز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The door swung shut with a bang."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرگاکە بە زرمیەکەوە قەپات بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangs6(// REPLACE: bang
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The door swung shut with a bang.",
+                            kurdishText: "دەرگاکە بە زرمیەکەوە قەپات بوو.",
+                            onPressedBritish: () => speakbangs6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangs6(// REPLACE: bang
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ناو) لێدانێکی توند لەسەر جەستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think she must have got a bang on the head."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێم‌وایە دەبێت شتێک کێشابێتی بەسەریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangs7(// REPLACE: bang
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I think she must have got a bang on the head.",
+                            kurdishText:
+                                "پێم‌وایە دەبێت شتێک کێشابێتی بەسەریدا.",
+                            onPressedBritish: () => speakbangs7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangs7(// REPLACE: bang
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (ناو) پەرچەمی قژ؛ بەشی پێشەوە کە شۆڕ دەبێتەوە بۆ ناوچاوان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She blew her bangs out of her face."),
-                                    ExampleSentenceKurdish(
-                                        text: "پەرچەمی لەسەر ڕووخساری لادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangs8(// REPLACE: bang
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She blew her bangs out of her face.",
+                            kurdishText: "پەرچەمی لەسەر ڕووخساری لادا.",
+                            onPressedBritish: () => speakbangs8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangs8(// REPLACE: bang
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (ھاوەڵکار) بە تەواوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My estimate was bang on target."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەمڵاندنەکەم بە تەواوی لەجێی خۆی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangs9(// REPLACE: bang
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My estimate was bang on target.",
+                            kurdishText:
+                                "خەمڵاندنەکەم بە تەواوی لەجێی خۆی بوو.",
+                            onPressedBritish: () => speakbangs9("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangs9(// REPLACE: bang
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٠. (سەرسوڕمان) بەکاردێت بۆ ئاماژە بە دەنگێکی بەرز، بۆ نموونە دەنگی فیشەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "'Bang! Bang! You're dead!' said the child, pointing a plastic gun at me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە منداڵە بچووکەکە چەکێکی پلاستیکی ڕووم تێکردبوو وتی 'تەق تەق، تۆ مردووی'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangs10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangs10(// REPLACE: bang
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "'Bang! Bang! You're dead!' said the child, pointing a plastic gun at me.",
+                            kurdishText:
+                                "کە منداڵە بچووکەکە چەکێکی پلاستیکی ڕووم تێکردبوو وتی 'تەق تەق، تۆ مردووی'.",
+                            onPressedBritish: () => speakbangs10("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangs10(// REPLACE: bang
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

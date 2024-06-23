@@ -127,127 +127,51 @@ class EnglishEntryace extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) سەرکەوتووبوون لە شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He aced all his tests."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ھەموو تاقیکردنەوەکانی سەرکەوتووبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka256981("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
+                          SentencesRow(
+  englishText: "He aced all his tests.",
+  kurdishText:
+                                            "لە ھەموو تاقیکردنەوەکانی سەرکەوتووبوو.",
+onPressedBritish: () => speaka256981("en-GB"),
+onPressedAmerican: () =>
                                         speaka256981("en-US"), // REPLACE ace
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کاردێکی یاریی کۆنکان بە سمبولێکی گەورەوە لە ناوەڕاستی کە دەکرێت گەورەترین یان نزمترین بەھای ھەبێت"""),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کەسێک کە زۆرباشە لە کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "French ace Mbappé scored a penalty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بلیمەتەکەی فەرەنسا، مباپێ، لێدانێکی سزای کرد بە گۆڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka82694("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
+                          SentencesRow(
+  englishText:
+                                            "French ace Mbappé scored a penalty.",
+  kurdishText:
+                                            "بلیمەتەکەی فەرەنسا، مباپێ، لێدانێکی سزای کرد بە گۆڵ.",
+onPressedBritish: () => speaka82694("en-GB"),
+onPressedAmerican: () =>
                                         speaka82694("en-US"), // REPLACE ace
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) لە یاری تێنسدا، یەکەم سێرڤە کە ھێندە خێرایە دەبێت بە خاڵ """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He served 20 aces in the match."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە یارییەکەدا ٢٠ جار ھەر بە یەکەم لێدان خاڵی تۆمارکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka12748("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
+                          SentencesRow(
+  englishText:
+                                            "He served 20 aces in the match.",
+  kurdishText:
+                                            "لە یارییەکەدا ٢٠ جار ھەر بە یەکەم لێدان خاڵی تۆمارکرد.",
+onPressedBritish: () => speaka12748("en-GB"),
+onPressedAmerican: () =>
                                         speaka12748("en-US"), // REPLACE ace
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵناو) زۆرباش """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We had an ace time."),
-                                    ExampleSentenceKurdish(
-                                        text: "کاتێکی زۆرخۆشمان ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka19437("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
+                          SentencesRow(
+  englishText: "We had an ace time.",
+  kurdishText: "کاتێکی زۆرخۆشمان ھەبوو.",
+onPressedBritish: () => speaka19437("en-GB"),
+onPressedAmerican: () =>
                                         speaka19437("en-US"), // REPLACE ace
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
                         ],
                       ),
                     ),

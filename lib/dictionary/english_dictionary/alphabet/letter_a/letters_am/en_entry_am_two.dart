@@ -110,33 +110,14 @@ class EnglishEntryamtwo extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کورتکراوە) لە نێوان ١٢ی شەو و ١٢ی نیوەڕۆ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It starts at 10 a.m."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتژمێر ١٠ی پێش نیوەڕۆ دەستپێ‌دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamtwo4555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakamtwo4555(// REPLACE: a.m. /haʊ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It starts at 10 a.m.",
+                            kurdishText:
+                                "لە کاتژمێر ١٠ی پێش نیوەڕۆ دەستپێ‌دەکات.",
+                            onPressedBritish: () => speakamtwo4555("en-GB"),
+                            onPressedAmerican: () =>
+                                speakamtwo4555(// REPLACE: a.m. /haʊ/
+                                    "en-US"),
                           ),
                         ],
                       ),

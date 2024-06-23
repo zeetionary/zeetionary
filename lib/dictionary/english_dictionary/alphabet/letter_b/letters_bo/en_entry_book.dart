@@ -337,95 +337,37 @@ class EnglishEntrybook extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کتێب؛ ژمارەیەک پەڕە کە لە ناو بەرگێکدا کۆکراونەتەوە و بۆ ئەوەی ھەڵیان بدەیتەوە و بیانخوێنیتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His desk was covered with piles of books."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێزەکەی داپۆشرابوو بە چینێک لە کتێب."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His desk was covered with piles of books.",
+                            kurdishText: "مێزەکەی داپۆشرابوو بە چینێک لە کتێب.",
+                            onPressedBritish: () => speakbooks1("en-GB"),
+                            onPressedAmerican: () => speakbooks1("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I took a book with me to read on the plane."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کتێبێکم لەگەڵ خۆم برد بۆ خوێندنەوە لەسەر فڕۆکەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbooks6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbooks6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I took a book with me to read on the plane.",
+                                    kurdishText:
+                                        "کتێبێکم لەگەڵ خۆم برد بۆ خوێندنەوە لەسەر فڕۆکەکە.",
+                                    onPressedBritish: () =>
+                                        speakbooks6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbooks6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Her name was inscribed in the book."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ناوی لەسەر کتێبەکە ھەڵکۆڵدرابوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbooks2("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbooks2("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Her name was inscribed in the book.",
+                                    kurdishText:
+                                        "ناوی لەسەر کتێبەکە ھەڵکۆڵدرابوو.",
+                                    onPressedBritish: () =>
+                                        speakbooks2("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbooks2("en-US"),
                                   ),
                                 ],
                               ),
@@ -435,182 +377,67 @@ class EnglishEntrybook extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کتێێک کە بڵاوکراوەتەوە بە کاغەز یان بە ئەلیکترۆنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Have you read any good books recently?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەم نزیکانە ھیچ کتێبێکی خۆشت خوێندووتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Have you read any good books recently?",
+                            kurdishText:
+                                "بەم نزیکانە ھیچ کتێبێکی خۆشت خوێندووتەوە؟",
+                            onPressedBritish: () => speakbooks3("en-GB"),
+                            onPressedAmerican: () => speakbooks3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has a new book out (= published)."),
-                                    ExampleSentenceKurdish(
-                                        text: "کتێبێکی تازەی بڵاوکردووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He has a new book out (= published).",
+                            kurdishText: "کتێبێکی تازەی بڵاوکردووەتەوە.",
+                            onPressedBritish: () => speakbooks4("en-GB"),
+                            onPressedAmerican: () => speakbooks4("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Have you read the latest book by J. K. Rowling?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "تازەترین کتێبی جەی کەی ڕۆولینگت خوێندووتەوە؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbooks5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbooks5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Have you read the latest book by J. K. Rowling?",
+                                    kurdishText:
+                                        "تازەترین کتێبی جەی کەی ڕۆولینگت خوێندووتەوە؟",
+                                    onPressedBritish: () =>
+                                        speakbooks5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbooks5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The book is dedicated to his mother."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کتێبەکە پێشکەشکراوە بە دایکی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbooks7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbooks7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The book is dedicated to his mother.",
+                                    kurdishText:
+                                        "کتێبەکە پێشکەشکراوە بە دایکی.",
+                                    onPressedBritish: () =>
+                                        speakbooks7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbooks7("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "There's nothing like curling up with a mug of tea and a good book."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھیچ وەک ئەوە نییە پاڵبدەیتەوە لەگەڵ گڵاسێک چا و کتێبێکی باش."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbooks8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbooks8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "There's nothing like curling up with a mug of tea and a good book.",
+                                    kurdishText:
+                                        "ھیچ وەک ئەوە نییە پاڵبدەیتەوە لەگەڵ گڵاسێک چا و کتێبێکی باش.",
+                                    onPressedBritish: () =>
+                                        speakbooks8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbooks8("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The book has received some terrible reviews."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کتێبەکە ھەندێک پاشخوردی خراپی وەرگرتووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbooks9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbooks9("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The book has received some terrible reviews.",
+                                    kurdishText:
+                                        "کتێبەکە ھەندێک پاشخوردی خراپی وەرگرتووە.",
+                                    onPressedBritish: () =>
+                                        speakbooks9("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbooks9("en-US"),
                                   ),
                                 ],
                               ),
@@ -620,301 +447,110 @@ class EnglishEntrybook extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ژمارەیەک پەڕە کە پێکەوە لە بەرگێک دان و تێیاندا دەنووسرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He writes all his expenses in a little book he carries with him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی خەرجییەکانی لە دەفتەرێکی بچووکدا دەنووسێت کە لەگەڵ خۆی بۆ ھەموو شوێنێک ھەڵیدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooks10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooks10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He writes all his expenses in a little book he carries with him.",
+                            kurdishText:
+                                "تەواوی خەرجییەکانی لە دەفتەرێکی بچووکدا دەنووسێت کە لەگەڵ خۆی بۆ ھەموو شوێنێک ھەڵیدەگرێت.",
+                            onPressedBritish: () => speakbooks10("en-GB"),
+                            onPressedAmerican: () => speakbooks10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) کۆمەڵە شتێک کە وەک کتێبێک پێکەوە لکێنراون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She flipped through her recipe book for inspiration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبی ڕەچەتەکەی ھەڵدایەوە بۆ ئیلھام وەرگرتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooks11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooks11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She flipped through her recipe book for inspiration.",
+                            kurdishText:
+                                "کتێبی ڕەچەتەکەی ھەڵدایەوە بۆ ئیلھام وەرگرتن.",
+                            onPressedBritish: () => speakbooks11("en-GB"),
+                            onPressedAmerican: () => speakbooks11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ناو) تۆماری دارایی کۆمپانیایەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You need to go over the books again; there’s a mistake somewhere."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت دووبارە پێداچوونەوە بە تۆمارەکان بکەیتەوە، ھەڵەیەک لە شوێنێک ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooks12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooks12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You need to go over the books again; there’s a mistake somewhere.",
+                            kurdishText:
+                                "دەبێت دووبارە پێداچوونەوە بە تۆمارەکان بکەیتەوە، ھەڵەیەک لە شوێنێک ھەیە.",
+                            onPressedBritish: () => speakbooks12("en-GB"),
+                            onPressedAmerican: () => speakbooks12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) بەشێکی کتێبێکی گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The first book of the Bible is Genesis."),
-                                    ExampleSentenceKurdish(
-                                        text: "یەکەم بەشی ئینجیل جێنەسیسە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooks13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooks13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The first book of the Bible is Genesis.",
+                            kurdishText: "یەکەم بەشی ئینجیل جێنەسیسە.",
+                            onPressedBritish: () => speakbooks13("en-GB"),
+                            onPressedAmerican: () => speakbooks13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) ڕێکخستنی بەروارێک بۆ ھەبوون یان بەکارھێنانی شتێک لە داھاتوودا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She booked a flight to Chicago."),
-                                    ExampleSentenceKurdish(
-                                        text: "گەشتێکی بۆ شیکاگۆ حجز کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooks14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooks14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She booked a flight to Chicago.",
+                            kurdishText: "گەشتێکی بۆ شیکاگۆ حجز کرد.",
+                            onPressedBritish: () => speakbooks14("en-GB"),
+                            onPressedAmerican: () => speakbooks14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He booked tickets for his trip to New York."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بلیتی ئامادەکرد بۆ گەشتەکەی بۆ نیویۆرک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooks15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooks15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He booked tickets for his trip to New York.",
+                            kurdishText:
+                                "بلیتی ئامادەکرد بۆ گەشتەکەی بۆ نیویۆرک.",
+                            onPressedBritish: () => speakbooks15("en-GB"),
+                            onPressedAmerican: () => speakbooks15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) گرتنی جێگەیەک بۆ کەسێک لەسەر فڕۆکەیەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've booked you on the 10 o'clock flight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێگەم بۆ گرتووی لەسەر گەشتی کاتژمێر ١٠."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooks16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooks16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've booked you on the 10 o'clock flight.",
+                            kurdishText:
+                                "جێگەم بۆ گرتووی لەسەر گەشتی کاتژمێر ١٠.",
+                            onPressedBritish: () => speakbooks16("en-GB"),
+                            onPressedAmerican: () => speakbooks16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) گرتنی کاتێک بۆ گۆرانیبێژێک، ھتد بۆ نمایشکردن لە کاتێکی دیاریکراودا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Have you booked the band for the party yet?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باندەکەت گرتووە بۆ ئاھەنگەکە تا ئێستا؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooks17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooks17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Have you booked the band for the party yet?",
+                            kurdishText:
+                                "باندەکەت گرتووە بۆ ئاھەنگەکە تا ئێستا؟",
+                            onPressedBritish: () => speakbooks17("en-GB"),
+                            onPressedAmerican: () => speakbooks17("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several well-known authors have been booked to speak at the event."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک نووسەری ناسراو بانگھێشتکراون بۆ قسەکردن لە بۆنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooks18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooks18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several well-known authors have been booked to speak at the event.",
+                            kurdishText:
+                                "ژمارەیەک نووسەری ناسراو بانگھێشتکراون بۆ قسەکردن لە بۆنەکە.",
+                            onPressedBritish: () => speakbooks18("en-GB"),
+                            onPressedAmerican: () => speakbooks18("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (کردار) نووسینی ناو و ناونیشانی کەسێک بەھۆی ئەوەی تاوانێکی کردووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was booked for possession of cocaine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خرایە لیستی ئەو کەسانەی کۆکاینیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooks19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooks19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was booked for possession of cocaine.",
+                            kurdishText:
+                                "خرایە لیستی ئەو کەسانەی کۆکاینیان ھەیە.",
+                            onPressedBritish: () => speakbooks19("en-GB"),
+                            onPressedAmerican: () => speakbooks19("en-US"),
                           ),
                         ],
                       ),

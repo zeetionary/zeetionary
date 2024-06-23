@@ -114,33 +114,14 @@ class EnglishEntryacrimonious extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) مشتومڕێک یان کێشەیەک کە پڕە لە ھەست و قسەی ناخۆش"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His parents went through an acrimonious divorce."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایک و باوکی بە جیابوونەوەیەکی تاڵدا تێپەڕین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacrim237("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacrim237(
-                                        "en-US"), // REPLACE acrimonious /ˌækrɪˈməʊniəs/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His parents went through an acrimonious divorce.",
+                            kurdishText:
+                                "دایک و باوکی بە جیابوونەوەیەکی تاڵدا تێپەڕین.",
+                            onPressedBritish: () => speakacrim237("en-GB"),
+                            onPressedAmerican: () => speakacrim237(
+                                "en-US"), // REPLACE acrimonious /ˌækrɪˈməʊniəs/
                           ),
                         ],
                       ),

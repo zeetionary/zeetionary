@@ -149,34 +149,14 @@ class EnglishEntrybookkeeping extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کاری ڕاگرتنی تۆمارێکی پارەی وەرگیراو و خەرجکراو لەلایەن کۆمپانیایەک یان دامەزراوەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Accurate bookkeeping is essential for financial transparency."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەژمارنووسی درووست گرنگە بۆ بەرچاوڕوونی دارایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbookkeepings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbookkeepings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Accurate bookkeeping is essential for financial transparency.",
+                            kurdishText:
+                                "ھەژمارنووسی درووست گرنگە بۆ بەرچاوڕوونی دارایی.",
+                            onPressedBritish: () => speakbookkeepings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbookkeepings1("en-US"),
                           ),
                         ],
                       ),

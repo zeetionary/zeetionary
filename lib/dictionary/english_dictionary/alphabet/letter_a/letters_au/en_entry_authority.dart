@@ -207,229 +207,93 @@ class EnglishEntryauthority extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دەسەڵاتی بڕیاردان بەسەر خەڵکی تردا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She now has authority over the people who used to be her bosses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێستا دەسەڵاتی ھەیە بەسەر ئەو کەسانەی کە جاران گەورەی بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthority804("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthority804(// REPLACE: authority
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She now has authority over the people who used to be her bosses.",
+                            kurdishText:
+                                "ئێستا دەسەڵاتی ھەیە بەسەر ئەو کەسانەی کە جاران گەورەی بوون.",
+                            onPressedBritish: () => speakauthority804("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthority804(// REPLACE: authority
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Central government has extensive authority over teachers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەتی ناوەندی دەسەڵاتی فراوانی ھەیە بەسەر مامۆستایاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthority805("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthority805(// REPLACE: authority
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Central government has extensive authority over teachers.",
+                            kurdishText:
+                                "حکومەتی ناوەندی دەسەڵاتی فراوانی ھەیە بەسەر مامۆستایاندا.",
+                            onPressedBritish: () => speakauthority805("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthority805(// REPLACE: authority
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) دەسەڵات یان مافی کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some experts think the agency may have exceeded its authority."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک شارەزا باوەڕیان وایە کە دەزگاکە ئەگەری ھەیە دەسەڵاتی خۆی تێپەڕاندبێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthority808("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthority808(// REPLACE: authority
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some experts think the agency may have exceeded its authority.",
+                            kurdishText:
+                                "ھەندێک شارەزا باوەڕیان وایە کە دەزگاکە ئەگەری ھەیە دەسەڵاتی خۆی تێپەڕاندبێ.",
+                            onPressedBritish: () => speakauthority808("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthority808(// REPLACE: authority
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) مۆڵەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He took the car without authority."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئۆتۆمبێلەکەی بەبێ مۆڵەت برد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthority809("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthority809(// REPLACE: authority
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He took the car without authority.",
+                            kurdishText: "ئۆتۆمبێلەکەی بەبێ مۆڵەت برد.",
+                            onPressedBritish: () => speakauthority809("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthority809(// REPLACE: authority
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کۆمەڵە کەسێک یان ڕێکخراوێک کە مافی بڕیاردانیان ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have to report this to the authorities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت ئەمە بە دەسەڵاتداران بڵێم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthority811("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthority811(// REPLACE: authority
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I have to report this to the authorities.",
+                            kurdishText: "دەبێت ئەمە بە دەسەڵاتداران بڵێم.",
+                            onPressedBritish: () => speakauthority811("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthority811(// REPLACE: authority
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) دەسەڵاتی درووستکردنی کاریگەری بەھۆی ڕێزلێگیراوی بەھۆی زانیارییەکانت یان پێگەکەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spoke with authority on the topic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە جێی‌باوەڕەوە قسەی لەسەر بابەتەکە دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthority814("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthority814(// REPLACE: authority
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He spoke with authority on the topic.",
+                            kurdishText:
+                                "بە جێی‌باوەڕەوە قسەی لەسەر بابەتەکە دەکرد.",
+                            onPressedBritish: () => speakauthority814("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthority814(// REPLACE: authority
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ناو) کەسێکی شارەزا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's an authority on criminal law."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێکی شارەزایە لەسەر یاسای تاوانبارێتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthority816("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthority816(// REPLACE: authority
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's an authority on criminal law.",
+                            kurdishText:
+                                "کەسێکی شارەزایە لەسەر یاسای تاوانبارێتی.",
+                            onPressedBritish: () => speakauthority816("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthority816(// REPLACE: authority
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

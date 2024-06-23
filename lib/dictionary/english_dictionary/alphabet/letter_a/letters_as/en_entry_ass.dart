@@ -164,98 +164,41 @@ class EnglishEntryass extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) سمت؛ ئەو بەشەی جەستە کە لەسەریان دادەنیشیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was wearing tight jeans that showed off her ass."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پانتۆڵی تەسکی لەپێ‌کردبوو کە سمتی دەرخستبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakass834("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakass834(// REPLACE: arse /ɑːrs/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was wearing tight jeans that showed off her ass.",
+                            kurdishText:
+                                "پانتۆڵی تەسکی لەپێ‌کردبوو کە سمتی دەرخستبوو.",
+                            onPressedBritish: () => speakass834("en-GB"),
+                            onPressedAmerican: () =>
+                                speakass834(// REPLACE: arse /ɑːrs/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێکی گەمژە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Don't be such an ass!"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھێندە گەمژە مەبە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakass837("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakass837(// REPLACE: arse /ɑːrs/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don't be such an ass!",
+                            kurdishText: "ھێندە گەمژە مەبە!",
+                            onPressedBritish: () => speakass837("en-GB"),
+                            onPressedAmerican: () =>
+                                speakass837(// REPLACE: arse /ɑːrs/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) گوێدرێژ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The farmer loaded the hay onto the ass's back."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوتیارەکە پەڵاشەکەی بارکردە سەر پشتی گوێدرێژەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakass842("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakass842(// REPLACE: arse /ɑːrs/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The farmer loaded the hay onto the ass's back.",
+                            kurdishText:
+                                "جوتیارەکە پەڵاشەکەی بارکردە سەر پشتی گوێدرێژەکە.",
+                            onPressedBritish: () => speakass842("en-GB"),
+                            onPressedAmerican: () =>
+                                speakass842(// REPLACE: arse /ɑːrs/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

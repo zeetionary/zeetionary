@@ -151,92 +151,35 @@ class EnglishEntrybeckon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) ئاماژەکردن بە پەنجە یان دەست، زۆرجار بۆ بانگکردنی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He beckoned to the waiter to bring the bill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاماژەی بۆ گارسۆنەکە کرد پسوولەکە بێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeckons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeckons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He beckoned to the waiter to bring the bill.",
+                            kurdishText:
+                                "ئاماژەی بۆ گارسۆنەکە کرد پسوولەکە بێنێت.",
+                            onPressedBritish: () => speakbeckons1("en-GB"),
+                            onPressedAmerican: () => speakbeckons1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) دەرکەوتن بەشێوەیەکی زۆر سەرنجڕاکێش بۆ کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The clear blue sea beckoned."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەریا شینە ڕوونەکە دەگەشایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeckons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeckons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The clear blue sea beckoned.",
+                            kurdishText: "دەریا شینە ڕوونەکە دەگەشایەوە.",
+                            onPressedBritish: () => speakbeckons2("en-GB"),
+                            onPressedAmerican: () => speakbeckons2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) بوون بە شتێک کە ئەگەری لە داھاتوودا ڕووبدات، یان بەسەر کەسێکدا بێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For many kids leaving college the prospect of unemployment beckons."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ زۆر منداڵ کە واز لە کۆلێژ دێنن پاشەڕۆژی بێ‌کاری چاوەڕێیان دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeckons3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeckons3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For many kids leaving college the prospect of unemployment beckons.",
+                            kurdishText:
+                                "بۆ زۆر منداڵ کە واز لە کۆلێژ دێنن پاشەڕۆژی بێ‌کاری چاوەڕێیان دەبێت.",
+                            onPressedBritish: () => speakbeckons3("en-GB"),
+                            onPressedAmerican: () => speakbeckons3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

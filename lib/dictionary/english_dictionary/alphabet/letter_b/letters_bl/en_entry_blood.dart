@@ -150,177 +150,60 @@ class EnglishEntryblood extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خوێن؛ شلەی سوور کە بە لەشی مرۆڤ و ئاژەڵدا دەچێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He lost a lot of blood in the accident."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێنێکی زۆر لەدەستدا لە ڕووداوەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloods1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloods1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He lost a lot of blood in the accident.",
+                            kurdishText: "خوێنێکی زۆر لەدەستدا لە ڕووداوەکەدا.",
+                            onPressedBritish: () => speakbloods1("en-GB"),
+                            onPressedAmerican: () => speakbloods1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Blood was pouring out of a cut on her head."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێن دەچۆڕا لە برینێک لە سەریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloods2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloods2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Blood was pouring out of a cut on her head.",
+                            kurdishText: "خوێن دەچۆڕا لە برینێک لە سەریدا.",
+                            onPressedBritish: () => speakbloods2("en-GB"),
+                            onPressedAmerican: () => speakbloods2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His hands were covered in blood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستەکانی بە خوێن سووربوو بوون (داپۆشرابوون)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloods3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloods3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His hands were covered in blood.",
+                            kurdishText:
+                                "دەستەکانی بە خوێن سووربوو بوون (داپۆشرابوون).",
+                            onPressedBritish: () => speakbloods3("en-GB"),
+                            onPressedAmerican: () => speakbloods3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھەبوونی ئەو جۆرەی خوێن کە باسکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cold-blooded animals cannot generate their own body heat, but they do regulate it by changing their environment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاژەڵە خوێن ساردەکان ئەوانەن کە ناتوانن گەرمی لەشی خۆیان ڕێکبخەن، بەڵام کۆنترۆڵی دەکەن بە بە گۆڕینی ژینگەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloods4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloods4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cold-blooded animals cannot generate their own body heat, but they do regulate it by changing their environment.",
+                            kurdishText:
+                                "ئاژەڵە خوێن ساردەکان ئەوانەن کە ناتوانن گەرمی لەشی خۆیان ڕێکبخەن، بەڵام کۆنترۆڵی دەکەن بە بە گۆڕینی ژینگەیان.",
+                            onPressedBritish: () => speakbloods4("en-GB"),
+                            onPressedAmerican: () => speakbloods4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ڕەچەڵەکی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She is of noble blood."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ڕەچەڵەکێکی خانەدانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloods5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloods5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She is of noble blood.",
+                            kurdishText: "لە ڕەچەڵەکێکی خانەدانە.",
+                            onPressedBritish: () => speakbloods5("en-GB"),
+                            onPressedAmerican: () => speakbloods5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) پێدانی یەکەم ئەزموون بە کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They decided to blood him in the international team at the age of only 18."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیاریان دا بەژداری پێ بکەن لە تیمە نێودەوڵەتییەکە لە تەمەنی تەنھا ١٨ ساڵیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloods6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloods6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They decided to blood him in the international team at the age of only 18.",
+                            kurdishText:
+                                "بڕیاریان دا بەژداری پێ بکەن لە تیمە نێودەوڵەتییەکە لە تەمەنی تەنھا ١٨ ساڵیدا.",
+                            onPressedBritish: () => speakbloods6("en-GB"),
+                            onPressedAmerican: () => speakbloods6("en-US"),
                           ),
                         ],
                       ),

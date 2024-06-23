@@ -151,66 +151,26 @@ class EnglishEntrybereavement extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) لە دۆخێکدا کە خزمێک یان کەسێکی نزیکت لەدەست داوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has recently suffered a bereavement."),
-                                    ExampleSentenceKurdish(
-                                        text: "تازەگی تووشی جەرگ‌سووتاوی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbereavements1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbereavements1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has recently suffered a bereavement.",
+                            kurdishText: "تازەگی تووشی جەرگ‌سووتاوی بوو.",
+                            onPressedBritish: () => speakbereavements1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbereavements1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) مردنی خزمێک یان کەسێکی نزیک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had suffered three bereavements in quick succession."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێ جار جەرگ‌سووتاو بووبوو بەدوای یەکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbereavements2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbereavements2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had suffered three bereavements in quick succession.",
+                            kurdishText:
+                                "سێ جار جەرگ‌سووتاو بووبوو بەدوای یەکدا.",
+                            onPressedBritish: () => speakbereavements2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbereavements2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

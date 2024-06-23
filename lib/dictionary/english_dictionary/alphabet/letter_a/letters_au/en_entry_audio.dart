@@ -160,32 +160,13 @@ class EnglishEntryaudio extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پەیوەندیدار بە دەنگ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The audio quality was poor."),
-                                    ExampleSentenceKurdish(
-                                        text: "کوالێتی دەنگەکە خراپ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudio136("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudio136(// REPLACE: audio
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The audio quality was poor.",
+                            kurdishText: "کوالێتی دەنگەکە خراپ بوو.",
+                            onPressedBritish: () => speakaudio136("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudio136(// REPLACE: audio
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

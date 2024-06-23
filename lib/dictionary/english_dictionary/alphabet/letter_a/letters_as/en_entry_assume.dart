@@ -167,164 +167,69 @@ class EnglishEntryassume extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) بیرکردنەوە بەجۆرێک کە شتێک ڕاستە بەبێ زانیاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's probably safe to assume (that) we'll be hearing more about this story."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاڕادەیەک ئەتوانین وادابنێین کە شتی زیاتر لەسەر ئەم بابەتە دەبیستین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassume843("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassume843(
-                                        // REPLACE: assume /əˈsuːm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's probably safe to assume (that) we'll be hearing more about this story.",
+                            kurdishText:
+                                "تاڕادەیەک ئەتوانین وادابنێین کە شتی زیاتر لەسەر ئەم بابەتە دەبیستین.",
+                            onPressedBritish: () => speakassume843("en-GB"),
+                            onPressedAmerican: () => speakassume843(
+                                // REPLACE: assume /əˈsuːm/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let us assume for a moment that the plan succeeds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با بۆ کەمێک وادابنێین پلانەکە سەرکەوتوو دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassume844("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassume844(
-                                        // REPLACE: assume /əˈsuːm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Let us assume for a moment that the plan succeeds.",
+                            kurdishText:
+                                "با بۆ کەمێک وادابنێین پلانەکە سەرکەوتوو دەبێت.",
+                            onPressedBritish: () => speakassume844("en-GB"),
+                            onPressedAmerican: () => speakassume844(
+                                // REPLACE: assume /əˈsuːm/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) وەرگرتنی دەسەڵات یان بەرپرسیاریەتی """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Rebel forces have assumed control of the capital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزە یاخیبووەکان کۆنترۆڵی پایتەختیان گرتووەتە دەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassume846("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassume846(
-                                        // REPLACE: assume /əˈsuːm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Rebel forces have assumed control of the capital.",
+                            kurdishText:
+                                "ھێزە یاخیبووەکان کۆنترۆڵی پایتەختیان گرتووەتە دەست.",
+                            onPressedBritish: () => speakassume846("en-GB"),
+                            onPressedAmerican: () => speakassume846(
+                                // REPLACE: assume /əˈsuːm/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ھەبوونی شێوەیەک یان خاسیەتێک """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the story the god assumes the form of an eagle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە چیرۆکەکەدا خودا شێوەی داڵێک لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassume848("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassume848(
-                                        // REPLACE: assume /əˈsuːm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the story the god assumes the form of an eagle.",
+                            kurdishText:
+                                "لە چیرۆکەکەدا خودا شێوەی داڵێک لەخۆدەگرێت.",
+                            onPressedBritish: () => speakassume848("en-GB"),
+                            onPressedAmerican: () => speakassume848(
+                                // REPLACE: assume /əˈsuːm/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) واپیشاندان بەوەی خاسیەتێک یان ھەستێکی تایبەتت ھەیە """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Moving to a different town, he assumed a false name."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە چووە شارۆچکەیەکی تازە، ناوێکی تازەی ھەڵگرتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassume851("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassume851(
-                                        // REPLACE: assume /əˈsuːm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Moving to a different town, he assumed a false name.",
+                            kurdishText:
+                                "کە چووە شارۆچکەیەکی تازە، ناوێکی تازەی ھەڵگرتەوە.",
+                            onPressedBritish: () => speakassume851("en-GB"),
+                            onPressedAmerican: () => speakassume851(
+                                // REPLACE: assume /əˈsuːm/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

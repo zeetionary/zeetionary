@@ -128,66 +128,28 @@ class EnglishEntryafloat extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) سەرئاوکەوتوو" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were struggling to keep the boat afloat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەقەڵایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بھێڵنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaflo45("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaflo45(// REPLACE: afloat /əˈfləʊt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were struggling to keep the boat afloat.",
+                            kurdishText:
+                                "تەقەڵایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بھێڵنەوە.",
+                            onPressedBritish: () => speakaflo45("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaflo45(// REPLACE: afloat /əˈfləʊt/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ھەبوونی بەشی پێویست پارە بۆ دانەوەی قەرزەکانی کۆمپانیایەک و توانای مانەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many small businesses are struggling to stay afloat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆر بزنسی بچووک تەقەڵایانە ئیفلاس نەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafl5988("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafl5988(
-                                        // REPLACE: afloat /əˈfləʊt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many small businesses are struggling to stay afloat.",
+                            kurdishText:
+                                "ژمارەیەکی زۆر بزنسی بچووک تەقەڵایانە ئیفلاس نەکەن.",
+                            onPressedBritish: () => speakafl5988("en-GB"),
+                            onPressedAmerican: () => speakafl5988(
+                                // REPLACE: afloat /əˈfləʊt/
+                                "en-US"),
                           ),
                         ],
                       ),

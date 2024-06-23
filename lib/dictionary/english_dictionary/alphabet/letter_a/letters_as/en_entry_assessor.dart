@@ -166,100 +166,43 @@ class EnglishEntryassessor extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شارەزایەک لە باورێکی دیاریکراو کە لەلایەن دادگا یان بەرپرسی دیکە داوای ڕاوێژی لێ‌دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government appointed independent assessors to review the viability of the remaining coal mines."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت ھەڵسەنگێنەری سەربەخۆی دیاریکرد بۆ لێکۆڵینەوە لە گونجاوی ئەو خەڵووزانەی لە کانەکان مابوونەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassessor1140("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassessor1140(
-                                        // REPLACE: assessor /əˈsesər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government appointed independent assessors to review the viability of the remaining coal mines.",
+                            kurdishText:
+                                "حکومەت ھەڵسەنگێنەری سەربەخۆی دیاریکرد بۆ لێکۆڵینەوە لە گونجاوی ئەو خەڵووزانەی لە کانەکان مابوونەوە.",
+                            onPressedBritish: () => speakassessor1140("en-GB"),
+                            onPressedAmerican: () => speakassessor1140(
+                                // REPLACE: assessor /əˈsesər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە نرخی شتێک دیاری‌دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The assessor's offices vary in how they determine a home's value."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆفیسی نرخێنەرەکان جیاوازن لە شێوازی خەمڵاندنی نرخی خانوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassessor1143("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassessor1143(
-                                        // REPLACE: assessor /əˈsesər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The assessor's offices vary in how they determine a home's value.",
+                            kurdishText:
+                                "ئۆفیسی نرخێنەرەکان جیاوازن لە شێوازی خەمڵاندنی نرخی خانوو.",
+                            onPressedBritish: () => speakassessor1143("en-GB"),
+                            onPressedAmerican: () => speakassessor1143(
+                                // REPLACE: assessor /əˈsesər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کەسێک کە ھەڵسەنگاندن بۆ ئاستی بەژداربوو لە تاقیکردنەوەیەک یان کێبڕکێیەک دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The assessor evaluated the student's performance on the exam."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسەنگێنەرەکان توانای خوێندکارانیان لە تاقیکردنەوەکە نرخاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassessor1147("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassessor1147(
-                                        // REPLACE: assessor /əˈsesər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The assessor evaluated the student's performance on the exam.",
+                            kurdishText:
+                                "ھەڵسەنگێنەرەکان توانای خوێندکارانیان لە تاقیکردنەوەکە نرخاند.",
+                            onPressedBritish: () => speakassessor1147("en-GB"),
+                            onPressedAmerican: () => speakassessor1147(
+                                // REPLACE: assessor /əˈsesər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

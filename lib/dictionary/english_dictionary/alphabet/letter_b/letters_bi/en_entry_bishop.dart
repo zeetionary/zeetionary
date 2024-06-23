@@ -151,63 +151,23 @@ class EnglishEntrybishop extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) قەشەی باڵا کە سەرپەرشتی کڵێسای ناوچەیەک یان شارێک دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was appointed Bishop of Naples."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک قەشەی باڵای ناپۆلی دیاریکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbishops1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbishops1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was appointed Bishop of Naples.",
+                            kurdishText: "وەک قەشەی باڵای ناپۆلی دیاریکرا.",
+                            onPressedBritish: () => speakbishops1("en-GB"),
+                            onPressedAmerican: () => speakbishops1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پارچەیەک لە یاری شەترەنجدا کە وەک کڵاوی قەشەی باڵا وایە و دەتوانێت لە شێوەی ئێکسدا (X) لەسەر تەختەی شەترەنج بجووڵێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A well-placed bishop can effectively shield the king from enemy pieces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلێکی باش جێگیرکراو دەتوانێت پاشا بپارێزێت لە پارچەکانی دوژمن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbishops2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbishops2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A well-placed bishop can effectively shield the king from enemy pieces.",
+                            kurdishText:
+                                "فیلێکی باش جێگیرکراو دەتوانێت پاشا بپارێزێت لە پارچەکانی دوژمن.",
+                            onPressedBritish: () => speakbishops2("en-GB"),
+                            onPressedAmerican: () => speakbishops2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

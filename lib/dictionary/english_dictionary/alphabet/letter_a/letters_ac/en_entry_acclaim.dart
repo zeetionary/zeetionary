@@ -106,62 +106,24 @@ class EnglishEntryacclaim extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) بەرزنرخاندنی شتێک بەشێوەیەکی گشتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This book has been widely acclaimed as a modern classic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم کتێبە بەشێوەیەکی بەرفراوان پەسندراوە وەک کتێبێکی کلاسیکی سەردەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka21598("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka21598("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This book has been widely acclaimed as a modern classic.",
+                            kurdishText:
+                                "ئەم کتێبە بەشێوەیەکی بەرفراوان پەسندراوە وەک کتێبێکی کلاسیکی سەردەم.",
+                            onPressedBritish: () => speaka21598("en-GB"),
+                            onPressedAmerican: () => speaka21598("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ستایش و مەحتکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His discoveries earned him wide acclaim."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆزینەوەکانی ستایشی بەرفراوانیان بەدوای خۆیاندا ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2158("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2158("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His discoveries earned him wide acclaim.",
+                            kurdishText:
+                                "دۆزینەوەکانی ستایشی بەرفراوانیان بەدوای خۆیاندا ھێنا.",
+                            onPressedBritish: () => speaka2158("en-GB"),
+                            onPressedAmerican: () => speaka2158("en-US"),
                           ),
                         ],
                       ),

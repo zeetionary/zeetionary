@@ -145,92 +145,35 @@ class EnglishEntrybroadside extends StatelessWidget {
 کوردی: ھێرش، ڕەخنە، بەقسەداگرتن، تەنیشتی کەشتی، لاپاڵی کەشتی
 """),
                           const DefinitionKurdish(text: "١. (ناو) ڕەخنەی توند"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prime minister fired a broadside at his critics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک وەزیران ھێرشی توندی کردە سەر ڕەخنەگرانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broadside" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadsides1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadsides1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prime minister fired a broadside at his critics.",
+                            kurdishText:
+                                "سەرۆک وەزیران ھێرشی توندی کردە سەر ڕەخنەگرانی.", // broadside" as
+                            onPressedBritish: () => speakbroadsides1("en-GB"),
+                            onPressedAmerican: () => speakbroadsides1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵکار) بە یەک لاوە ڕوو لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car skidded and crashed broadside into another car."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە خلیسکا و بە لادا کێشای بە ئۆتۆمبێلێکی دیکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadsides2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadsides2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The car skidded and crashed broadside into another car.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە خلیسکا و بە لادا کێشای بە ئۆتۆمبێلێکی دیکەدا.",
+                            onPressedBritish: () => speakbroadsides2("en-GB"),
+                            onPressedAmerican: () => speakbroadsides2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) کێشان بە لای شتێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The driver ran a stop light and broadsided the truck."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆفێرەکە لە ترافیک لایتێکی دا (لەسەر سوور تێپەڕی) و کێشای بە لای بارھەڵگرێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadsides3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadsides3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The driver ran a stop light and broadsided the truck.",
+                            kurdishText:
+                                "شۆفێرەکە لە ترافیک لایتێکی دا (لەسەر سوور تێپەڕی) و کێشای بە لای بارھەڵگرێکدا.",
+                            onPressedBritish: () => speakbroadsides3("en-GB"),
+                            onPressedAmerican: () => speakbroadsides3("en-US"),
                           ),
                         ],
                       ),

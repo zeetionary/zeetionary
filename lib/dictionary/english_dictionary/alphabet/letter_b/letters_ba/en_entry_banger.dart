@@ -158,132 +158,54 @@ class EnglishEntrybanger extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) تێکەڵەیەک لە گۆشت و چەوری و نان کە دەکرێت بە پارچەی بچووک و درووست دەکرێت لە شێوەی لوولەدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I love having bangers and mash for dinner."),
-                                    ExampleSentenceKurdish(
-                                        text: "حەزم لە سۆسجە بۆ نانی ئێوارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangers1(// REPLACE: banger
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I love having bangers and mash for dinner.",
+                            kurdishText: "حەزم لە سۆسجە بۆ نانی ئێوارە.",
+                            onPressedBritish: () => speakbangers1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangers1(// REPLACE: banger
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئۆتۆمبێلێکی زۆر کۆن کە لە دۆخێکی خراپ و شڕە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You’re not still driving that old banger, are you?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا ئەو داشقەیەت بەدەستەوەیە، وایە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangers2(// REPLACE: banger
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You’re not still driving that old banger, are you?",
+                            kurdishText:
+                                "ھێشتا ئەو داشقەیەت بەدەستەوەیە، وایە؟",
+                            onPressedBritish: () => speakbangers2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangers2(// REPLACE: banger
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) یاری ئاگرین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some idiot decided to let off a banger right next to my ear."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبەنگێک بڕیاریدا یارییەکی ئاگرین ڕێک لە لاگوێمدا بتەقێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangers3(// REPLACE: banger
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some idiot decided to let off a banger right next to my ear.",
+                            kurdishText:
+                                "دەبەنگێک بڕیاریدا یارییەکی ئاگرین ڕێک لە لاگوێمدا بتەقێنێتەوە.",
+                            onPressedBritish: () => speakbangers3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangers3(// REPLACE: banger
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) گۆرانییەکی زۆر خۆش، بەتایبەتی یەکێک کە خەڵکی دەتوانن سەمای لەگەڵ بکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new album is full of bangers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەلبوومە تازەکە ھەموو گۆرانی سەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangers4(// REPLACE: banger
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The new album is full of bangers.",
+                            kurdishText: "ئەلبوومە تازەکە ھەموو گۆرانی سەمان.",
+                            onPressedBritish: () => speakbangers4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangers4(// REPLACE: banger
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

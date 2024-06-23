@@ -158,35 +158,16 @@ class EnglishEntryanniversary extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ساڵیاد؛ بەروارێک کە تێیدا ڕێژەیەکی دیاریکراو ساڵی تەواو بەسەر ڕووداوێک تێ‌پەڕیوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company is celebrating its 100-year anniversary this year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمساڵ کۆمپانیاکە یادی ١٠٠ھەمین ساڵی دەکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanniversary147("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanniversary147(
-                                        // REPLACE: anniversary /ˌænɪˈvɜːrsəri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company is celebrating its 100-year anniversary this year.",
+                            kurdishText:
+                                "ئەمساڵ کۆمپانیاکە یادی ١٠٠ھەمین ساڵی دەکاتەوە.",
+                            onPressedBritish: () =>
+                                speakanniversary147("en-GB"),
+                            onPressedAmerican: () => speakanniversary147(
+                                // REPLACE: anniversary /ˌænɪˈvɜːrsəri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

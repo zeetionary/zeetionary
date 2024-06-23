@@ -115,34 +115,15 @@ class EnglishEntryaloofness extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) گۆشەگیری و دووری لە خەڵکی تر"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her cool aloofness was seen as arrogance by some people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوورەپەرێزییە ساردوسڕییەکەی وەک خۆبەزلزانی دەبینرا لەلایەن ھەندێک کەسەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaloofness452("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaloofness452(
-                                        // REPLACE: aloofness /əˈluːfnəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her cool aloofness was seen as arrogance by some people.",
+                            kurdishText:
+                                "دوورەپەرێزییە ساردوسڕییەکەی وەک خۆبەزلزانی دەبینرا لەلایەن ھەندێک کەسەوە.",
+                            onPressedBritish: () => speakaloofness452("en-GB"),
+                            onPressedAmerican: () => speakaloofness452(
+                                // REPLACE: aloofness /əˈluːfnəs/
+                                "en-US"),
                           ),
                         ],
                       ),

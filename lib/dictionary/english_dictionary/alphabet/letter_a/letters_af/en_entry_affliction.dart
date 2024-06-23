@@ -113,34 +113,14 @@ class EnglishEntryaffliction extends StatelessWidget {
                               text:
                                   "١. (ناو) ئازار و مەینەتی، یان شتێک کە ببێتە ھۆکاری"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These poor people are in great affliction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم خەڵکە ھەژارە لە مەینەتی زۆرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafflict9644("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafflict9644(
-                                        // REPLACE: affliction /əˈflɪkʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These poor people are in great affliction.",
+                            kurdishText: "ئەم خەڵکە ھەژارە لە مەینەتی زۆرن.",
+                            onPressedBritish: () => speakafflict9644("en-GB"),
+                            onPressedAmerican: () => speakafflict9644(
+                                // REPLACE: affliction /əˈflɪkʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

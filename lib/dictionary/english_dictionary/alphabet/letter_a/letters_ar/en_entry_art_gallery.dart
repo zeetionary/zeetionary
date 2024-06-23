@@ -160,35 +160,16 @@ class EnglishEntryartgallery extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پێشانگای ھونەری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He frequently exhibits at the art gallery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زوو زوو کارەکانی لە پێشانگای ھونەری نمایش‌دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakartgallery1257("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartgallery1257(
-                                        // REPLACE: art gallery /ˈɑːrt ɡæləri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He frequently exhibits at the art gallery.",
+                            kurdishText:
+                                "زوو زوو کارەکانی لە پێشانگای ھونەری نمایش‌دەکات.",
+                            onPressedBritish: () =>
+                                speakartgallery1257("en-GB"),
+                            onPressedAmerican: () => speakartgallery1257(
+                                // REPLACE: art gallery /ˈɑːrt ɡæləri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

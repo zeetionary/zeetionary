@@ -147,32 +147,13 @@ class EnglishEntrybeverage extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھەر خواردنەوەیەک جگە لە ئاو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Studies on the consumption of various alcoholic beverages have been conducted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تویژینەوە لەسەر خواردنەوەی ژمارەیەک لە خواردنەوەی کحوولی ئەنجام دراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeverages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeverages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Studies on the consumption of various alcoholic beverages have been conducted.",
+                            kurdishText:
+                                "تویژینەوە لەسەر خواردنەوەی ژمارەیەک لە خواردنەوەی کحوولی ئەنجام دراوە.",
+                            onPressedBritish: () => speakbeverages1("en-GB"),
+                            onPressedAmerican: () => speakbeverages1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

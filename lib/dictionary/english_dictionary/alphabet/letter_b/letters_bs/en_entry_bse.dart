@@ -150,32 +150,13 @@ class EnglishEntryBSE extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نەخۆشییەک کە تووشی مێشکی مانگا دەبێت و دەیکوژێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The discovery of a case of BSE in the cattle herd raised concerns about food safety."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆزینەوەی حاڵەتێکی نەخۆشی ھاری بووە بەھۆی نیگەرانی سەبارەت بە سەلامەتی خواردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "BSE" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbSEs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbSEs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The discovery of a case of BSE in the cattle herd raised concerns about food safety.",
+                            kurdishText:
+                                "دۆزینەوەی حاڵەتێکی نەخۆشی ھاری بووە بەھۆی نیگەرانی سەبارەت بە سەلامەتی خواردن.", // BSE" as
+                            onPressedBritish: () => speakbSEs1("en-GB"),
+                            onPressedAmerican: () => speakbSEs1("en-US"),
                           ),
                         ],
                       ),

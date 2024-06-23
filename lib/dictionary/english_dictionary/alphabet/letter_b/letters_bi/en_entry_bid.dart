@@ -228,300 +228,110 @@ class EnglishEntrybid extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پێشنیازێک لەلایەن کۆمپانیایەکەوە بۆ پێدانی بڕێکی دیریکراوی پارە بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At the auction (= a public sale where things are sold to the person who offers the most), the highest bid for the picture was £200."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە زیادکردنی ئاشکرادا زۆرترین بڕی پێشنیازکراو بۆ وێنەکە ٢٠ پاوەند بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbids1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbids1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At the auction (= a public sale where things are sold to the person who offers the most), the highest bid for the picture was £200.",
+                            kurdishText:
+                                "لە زیادکردنی ئاشکرادا زۆرترین بڕی پێشنیازکراو بۆ وێنەکە ٢٠ پاوەند بوو.",
+                            onPressedBritish: () => speakbids1("en-GB"),
+                            onPressedAmerican: () => speakbids1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Any more bids?"),
-                                    ExampleSentenceKurdish(
-                                        text: "پێشنیازی زیاتر؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbids2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbids2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Any more bids?",
+                            kurdishText: "پێشنیازی زیاتر؟",
+                            onPressedBritish: () => speakbids2("en-GB"),
+                            onPressedAmerican: () => speakbids2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئۆفەری کردنی کارێک یان پێشکەشکردنی خزمەتگوزارییەک بە نرخێکی دیاریکراو وەک ڕکابەری لەگەڵ کۆمپانیاکانی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company submitted a bid for the contract to clean the hospital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە پێشنیازێکی پێشکەشکرد بۆ گرێبەستی پاککردنەوەی نەخۆشخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbids3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbids3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company submitted a bid for the contract to clean the hospital.",
+                            kurdishText:
+                                "کۆمپانیاکە پێشنیازێکی پێشکەشکرد بۆ گرێبەستی پاککردنەوەی نەخۆشخانەکە.",
+                            onPressedBritish: () => speakbids3("en-GB"),
+                            onPressedAmerican: () => speakbids3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ھەوڵێک بۆ بەدەستھێنانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He attacked his guards in a desperate bid for freedom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیرشی کردە سەر پاسەوانەکانی لە ھەوڵی بێھوودەی بۆ ئازادی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbids4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbids4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He attacked his guards in a desperate bid for freedom.",
+                            kurdishText:
+                                "ھیرشی کردە سەر پاسەوانەکانی لە ھەوڵی بێھوودەی بۆ ئازادی.",
+                            onPressedBritish: () => speakbids4("en-GB"),
+                            onPressedAmerican: () => speakbids4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) پێشنیازکردنی بڕێک پارە بۆ شتێک لە زیادکردنی ئاشکرادا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I bid £2 000 for the painting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشنیازی ٢٠٠٠ پاوەندیم بۆ وێنەکە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbids5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbids5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I bid £2 000 for the painting.",
+                            kurdishText:
+                                "پێشنیازی ٢٠٠٠ پاوەندیم بۆ وێنەکە کرد.",
+                            onPressedBritish: () => speakbids5("en-GB"),
+                            onPressedAmerican: () => speakbids5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) پێشکەشکردنی ئۆفەرێک بۆ کردنی کارێک یان پێشکەشکردنی خزمەتگوزارییەک بە نرخێکی دیاریکراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Which other cities are bidding to host the 2028 Olympics?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چی شارێکی تر ھەوڵ دەدات بۆ میوانداری ئۆڵۆمپیادی ٢٠٢٨؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbids6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbids6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Which other cities are bidding to host the 2028 Olympics?",
+                            kurdishText:
+                                "چی شارێکی تر ھەوڵ دەدات بۆ میوانداری ئۆڵۆمپیادی ٢٠٢٨؟",
+                            onPressedBritish: () => speakbids6("en-GB"),
+                            onPressedAmerican: () => speakbids6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) ھەوڵی کردن، وەرگرتن، یان بەدەستھێنانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team is bidding to retain its place in the league."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە ھەوڵ دەدەن شوێنیان لە خولەکەدا بپارێزن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbids7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbids7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The team is bidding to retain its place in the league.",
+                            kurdishText:
+                                "تیمەکە ھەوڵ دەدەن شوێنیان لە خولەکەدا بپارێزن.",
+                            onPressedBritish: () => speakbids7("en-GB"),
+                            onPressedAmerican: () => speakbids7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (کردار) وتنی 'بەیانیت باش'، ھتد بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I bade farewell to all the friends I had made in Paris."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماڵئاواییم لە ھەموو ئەو ھاوڕێیانە کرد کە لە پاریس ناسیبوومن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbids8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbids8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I bade farewell to all the friends I had made in Paris.",
+                            kurdishText:
+                                "ماڵئاواییم لە ھەموو ئەو ھاوڕێیانە کرد کە لە پاریس ناسیبوومن.",
+                            onPressedBritish: () => speakbids8("en-GB"),
+                            onPressedAmerican: () => speakbids8("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He bade her good day and left."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕۆژباشی بۆ خواست و ڕۆشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbids9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbids9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He bade her good day and left.",
+                            kurdishText: "ڕۆژباشی بۆ خواست و ڕۆشت.",
+                            onPressedBritish: () => speakbids9("en-GB"),
+                            onPressedAmerican: () => speakbids9("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (کردار) بە کەسێک وتن کە شتێک بکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He bade me come closer."),
-                                    ExampleSentenceKurdish(
-                                        text: "پێی وتم نزیک ببمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbids9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbids9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He bade me come closer.",
+                            kurdishText: "پێی وتم نزیک ببمەوە.",
+                            onPressedBritish: () => speakbids9("en-GB"),
+                            onPressedAmerican: () => speakbids9("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

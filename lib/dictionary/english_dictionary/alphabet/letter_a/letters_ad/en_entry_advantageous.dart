@@ -114,34 +114,15 @@ class EnglishEntryadvantageous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بەسوود یان لە بەرژەوەندی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This plan could be advantageous for people on low incomes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم پلانە دەکرێت لە بەرژەوەندی ئەو کەسانە بێت کە داھاتیان نزمە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvant964725("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvant964725(
-                                        // REPLACE: advantageous /ˌædvənˈteɪdʒəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This plan could be advantageous for people on low incomes.",
+                            kurdishText:
+                                "ئەم پلانە دەکرێت لە بەرژەوەندی ئەو کەسانە بێت کە داھاتیان نزمە.",
+                            onPressedBritish: () => speakadvant964725("en-GB"),
+                            onPressedAmerican: () => speakadvant964725(
+                                // REPLACE: advantageous /ˌædvənˈteɪdʒəs/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -150,61 +150,23 @@ class EnglishEntrybedside extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ناوچەی تەنیشت جێگەی خەو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His mother has been at his bedside throughout his illness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایکی لە تەنیشت جێخەوەکەی بوو بەدرێژایی ماوەی نەخۆشییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedsides1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedsides1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His mother has been at his bedside throughout his illness.",
+                            kurdishText:
+                                "دایکی لە تەنیشت جێخەوەکەی بوو بەدرێژایی ماوەی نەخۆشییەکەی.",
+                            onPressedBritish: () => speakbedsides1("en-GB"),
+                            onPressedAmerican: () => speakbedsides1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I like to keep a glass of water by my bedside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەز دەکەم گڵاسێک ئاو لە تەنیشت جێگەی خەوەکەم ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedsides2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedsides2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I like to keep a glass of water by my bedside.",
+                            kurdishText:
+                                "حەز دەکەم گڵاسێک ئاو لە تەنیشت جێگەی خەوەکەم ھەبێت.",
+                            onPressedBritish: () => speakbedsides2("en-GB"),
+                            onPressedAmerican: () => speakbedsides2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -108,59 +108,21 @@ class EnglishEntryacceleration extends StatelessWidget {
                               text:
                                   "١. (ناو) ڕێژەی زیادبوونی خێرایی شتێک؛ تاودان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There has been a rapid acceleration in the growth of industry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیادبوونێکی خێرا ڕوویداوە لە گەشەی پیشەسازی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac95741("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac95741("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There has been a rapid acceleration in the growth of industry.",
+                            kurdishText:
+                                "زیادبوونێکی خێرا ڕوویداوە لە گەشەی پیشەسازی.",
+                            onPressedBritish: () => speakac95741("en-GB"),
+                            onPressedAmerican: () => speakac95741("en-US"),
                           ),
                           const DefinitionKurdish(text: """
 ٢. (ناو) تاودانی ئۆتۆمبێل"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "a car with good acceleration"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئۆتۆمبێلێک بە تاودانی باشەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac45987("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac45987("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "a car with good acceleration",
+                            kurdishText: "ئۆتۆمبێلێک بە تاودانی باشەوە.",
+                            onPressedBritish: () => speakac45987("en-GB"),
+                            onPressedAmerican: () => speakac45987("en-US"),
                           ),
                         ],
                       ),

@@ -150,32 +150,13 @@ class EnglishEntrybeachball extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تۆپێکی گەورەی سووک و ڕەنگین کە بەکاردێت بۆ یاری لە کەناراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children spent hours bouncing the beach ball."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان چەندین کاتژمێریان بەسەر برد بە تەپ‌تەپێن بە تۆپەباکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeachballs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeachballs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children spent hours bouncing the beach ball.",
+                            kurdishText:
+                                "منداڵەکان چەندین کاتژمێریان بەسەر برد بە تەپ‌تەپێن بە تۆپەباکەوە.",
+                            onPressedBritish: () => speakbeachballs1("en-GB"),
+                            onPressedAmerican: () => speakbeachballs1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

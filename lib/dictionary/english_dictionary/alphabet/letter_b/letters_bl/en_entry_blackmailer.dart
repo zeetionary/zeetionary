@@ -149,34 +149,14 @@ class EnglishEntryblackmailer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە ھەوڵی وەرگرتنی پارە دەدات لە کەسێک بە ھەڕەشە لێ کردنی بەوەی نھێنییەک لەسەری بە کەسێکی تر دەڵێیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Blackmailers threatened Helen with the video they secretly made."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەیگێڕەکان ھەڕەشەیان لە ھێلین کرد بەو ڤیدیۆیەی بە دزییەوە گرتیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakblackmailers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakblackmailers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Blackmailers threatened Helen with the video they secretly made.",
+                            kurdishText:
+                                "وەیگێڕەکان ھەڕەشەیان لە ھێلین کرد بەو ڤیدیۆیەی بە دزییەوە گرتیان.",
+                            onPressedBritish: () => speakblackmailers1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakblackmailers1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

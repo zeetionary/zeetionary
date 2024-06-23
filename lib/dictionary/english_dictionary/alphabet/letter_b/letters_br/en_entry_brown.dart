@@ -144,176 +144,59 @@ class EnglishEntrybrown extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ڕەنگی خاک یان قاوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Soon the yellow leaves will turn brown."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەزوویی گەڵا زەردەکان قاوەیی دەبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brown" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrowns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrowns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Soon the yellow leaves will turn brown.",
+                            kurdishText:
+                                "بەزوویی گەڵا زەردەکان قاوەیی دەبن.", // brown" as
+                            onPressedBritish: () => speakbrowns1("en-GB"),
+                            onPressedAmerican: () => speakbrowns1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Henry has short brown hair and green eyes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێنری قژی قاوەیی کورتی ھەیە لەگەڵ چاوی سەوزدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrowns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrowns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Henry has short brown hair and green eyes.",
+                            kurdishText:
+                                "ھێنری قژی قاوەیی کورتی ھەیە لەگەڵ چاوی سەوزدا.",
+                            onPressedBritish: () => speakbrowns2("en-GB"),
+                            onPressedAmerican: () => speakbrowns2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ھەبوونی پێستێک کە بەسرووشتی قاوەییە یان بەھۆی خۆرەوە گۆڕاوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I don't go brown very easily."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە ئاسانی ڕەشتاڵە نابم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrowns3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrowns3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I don't go brown very easily.",
+                            kurdishText: "بە ئاسانی ڕەشتاڵە نابم.",
+                            onPressedBritish: () => speakbrowns3("en-GB"),
+                            onPressedAmerican: () => speakbrowns3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is proud to describe himself as a brown person."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە شانازییەوە خۆی ڕەشباو دەناسێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrowns4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrowns4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is proud to describe himself as a brown person.",
+                            kurdishText: "بە شانازییەوە خۆی ڕەشباو دەناسێنێت.",
+                            onPressedBritish: () => speakbrowns4("en-GB"),
+                            onPressedAmerican: () => speakbrowns4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ڕەنگی قاوەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Brown doesn't (= brown clothes do not) suit you."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕەنگی قاوەییت لێ ناییەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrowns5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrowns5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Brown doesn't (= brown clothes do not) suit you.",
+                            kurdishText: "ڕەنگی قاوەییت لێ ناییەت.",
+                            onPressedBritish: () => speakbrowns5("en-GB"),
+                            onPressedAmerican: () => speakbrowns5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) قاوەیی کردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Heat the butter until it browns."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەرەکە گەرم بکە تا قاوەیی دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrowns6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrowns6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Heat the butter until it browns.",
+                            kurdishText: "کەرەکە گەرم بکە تا قاوەیی دەبێت.",
+                            onPressedBritish: () => speakbrowns6("en-GB"),
+                            onPressedAmerican: () => speakbrowns6("en-US"),
                           ),
                         ],
                       ),

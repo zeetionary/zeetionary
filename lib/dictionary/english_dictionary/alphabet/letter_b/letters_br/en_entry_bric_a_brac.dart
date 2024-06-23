@@ -140,32 +140,12 @@ class EnglishEntrybricabrac extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خشڵ و شتی دیکەی جوانکاری کە نرخیان زۆر نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They sell antiques and bric-a-brac."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شتی ئەنتیکە و خشڵ‌وزەمبەری ھەرزان دەفرۆشن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bric-a-brac" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbricabracs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbricabracs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They sell antiques and bric-a-brac.",
+                            kurdishText:
+                                "شتی ئەنتیکە و خشڵ‌وزەمبەری ھەرزان دەفرۆشن.", // bric-a-brac" as
+                            onPressedBritish: () => speakbricabracs1("en-GB"),
+                            onPressedAmerican: () => speakbricabracs1("en-US"),
                           ),
                         ],
                       ),

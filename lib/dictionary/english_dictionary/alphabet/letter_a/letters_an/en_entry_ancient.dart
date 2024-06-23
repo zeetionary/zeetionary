@@ -158,130 +158,52 @@ class EnglishEntryancient extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) زۆر‌کۆن؛ پێش ھەزاران ساڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Archaeologists are excavating the ruined temples of this ancient civilization."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شوێنەوارناسان پەرستگا وێرانەکانی ئەم شارستانیەتە کۆنە ھەڵدەدەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakancient2258("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakancient2258(
-                                        // REPLACE: ancient /ˈeɪnʃənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Archaeologists are excavating the ruined temples of this ancient civilization.",
+                            kurdishText:
+                                "شوێنەوارناسان پەرستگا وێرانەکانی ئەم شارستانیەتە کۆنە ھەڵدەدەنەوە.",
+                            onPressedBritish: () => speakancient2258("en-GB"),
+                            onPressedAmerican: () => speakancient2258(
+                                // REPLACE: ancient /ˈeɪnʃənt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People have lived in this valley since ancient times."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی لەدێر زەمانەوە لەم دۆڵە ژیاون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakancient4077("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakancient4077(
-                                        // REPLACE: ancient /ˈeɪnʃənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People have lived in this valley since ancient times.",
+                            kurdishText: "خەڵکی لەدێر زەمانەوە لەم دۆڵە ژیاون.",
+                            onPressedBritish: () => speakancient4077("en-GB"),
+                            onPressedAmerican: () => speakancient4077(
+                                // REPLACE: ancient /ˈeɪnʃənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) زۆر‌کۆن؛ شتێک لەزووەوە ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He's got an ancient laptop."),
-                                    ExampleSentenceKurdish(
-                                        text: "لاپتۆپێکی قەدیمی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakancient102("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakancient102(
-                                        // REPLACE: ancient /ˈeɪnʃənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's got an ancient laptop.",
+                            kurdishText: "لاپتۆپێکی قەدیمی ھەیە.",
+                            onPressedBritish: () => speakancient102("en-GB"),
+                            onPressedAmerican: () => speakancient102(
+                                // REPLACE: ancient /ˈeɪnʃənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) وەک ناو بەکاردێت بۆ خەڵکی سەردەمی کۆن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ancients believed in mythical creatures and powerful gods."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زووژیاوان باوەڕیان بە بوونەوەری ئەفسانەیی و کۆمەڵە خواوەندی بەدەسەڵات ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakancient558030("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakancient558030(
-                                        // REPLACE: ancient /ˈeɪnʃənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ancients believed in mythical creatures and powerful gods.",
+                            kurdishText:
+                                "زووژیاوان باوەڕیان بە بوونەوەری ئەفسانەیی و کۆمەڵە خواوەندی بەدەسەڵات ھەبوو.",
+                            onPressedBritish: () => speakancient558030("en-GB"),
+                            onPressedAmerican: () => speakancient558030(
+                                // REPLACE: ancient /ˈeɪnʃənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

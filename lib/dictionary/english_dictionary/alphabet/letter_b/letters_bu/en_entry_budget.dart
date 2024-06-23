@@ -304,123 +304,47 @@ class EnglishEntrybudget extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بودجە؛ بڕی پارەی بەردەستی کەسێک یان دامەزراوەیەک لەگەڵ پلانێک کە چۆن خەرج دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many families struggle to balance the household budget."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر خێزان تەقەڵایانە ھاوسەنگی ڕابگرن لە بودجەی خێزانەکانیاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "budget", follow LX strictly.
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many families struggle to balance the household budget.",
+                            kurdishText:
+                                "زۆر خێزان تەقەڵایانە ھاوسەنگی ڕابگرن لە بودجەی خێزانەکانیاندا.", // budget", follow LX strictly.
+                            onPressedBritish: () => speakbudgets1("en-GB"),
+                            onPressedAmerican: () => speakbudgets1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's one of those big-budget Hollywood movies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێکە لە فیلمە بودجە زۆرەکانی ھۆڵیھوود."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's one of those big-budget Hollywood movies.",
+                            kurdishText:
+                                "یەکێکە لە فیلمە بودجە زۆرەکانی ھۆڵیھوود.",
+                            onPressedBritish: () => speakbudgets2("en-GB"),
+                            onPressedAmerican: () => speakbudgets2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The museum has an annual budget of £3 million with which to acquire new works of art."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "مۆزەخانەکە بودجەی ساڵانەی ٣ ملیار پاوەندی ھەیە بۆ کڕینی کاری نوێی ھونەری."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbudgets4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbudgets4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The museum has an annual budget of £3 million with which to acquire new works of art.",
+                                    kurdishText:
+                                        "مۆزەخانەکە بودجەی ساڵانەی ٣ ملیار پاوەندی ھەیە بۆ کڕینی کاری نوێی ھونەری.",
+                                    onPressedBritish: () =>
+                                        speakbudgets4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbudgets4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The government is planning to double the education budget."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "حکومەت پلانی ھەیە بودجەی پەروەردە دوو ھێندە بکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbudgets3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbudgets3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The government is planning to double the education budget.",
+                                    kurdishText:
+                                        "حکومەت پلانی ھەیە بودجەی پەروەردە دوو ھێندە بکات.",
+                                    onPressedBritish: () =>
+                                        speakbudgets3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbudgets3("en-US"),
                                   ),
                                 ],
                               ),
@@ -430,93 +354,36 @@ class EnglishEntrybudget extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بودجەی ساڵانە کە لە باجەوە کۆدەکرێتەوە و شێوازی خەرجکردنی "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Tax cuts are expected to be a major part of this year's Budget."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمکردنەوەی باج چاوەڕوان دەکرێت بەشێکی گرنگی بودجەی ئەمساڵ بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Tax cuts are expected to be a major part of this year's Budget.",
+                            kurdishText:
+                                "کەمکردنەوەی باج چاوەڕوان دەکرێت بەشێکی گرنگی بودجەی ئەمساڵ بێت.",
+                            onPressedBritish: () => speakbudgets5("en-GB"),
+                            onPressedAmerican: () => speakbudgets5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Military spending accounts for around 17% of the federal budget."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەرجی سەربازی ١٧٪ بودجەی حکومەتی ناوەندی دەبات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Military spending accounts for around 17% of the federal budget.",
+                            kurdishText:
+                                "خەرجی سەربازی ١٧٪ بودجەی حکومەتی ناوەندی دەبات.",
+                            onPressedBritish: () => speakbudgets6("en-GB"),
+                            onPressedAmerican: () => speakbudgets6("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The finance ministry is trying to reduce the budget deficit."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "وەزیری دارایی ھەوڵ دەدات کورتھێنانی بودجە کەم‌بکاتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbudgets7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbudgets7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The finance ministry is trying to reduce the budget deficit.",
+                                    kurdishText:
+                                        "وەزیری دارایی ھەوڵ دەدات کورتھێنانی بودجە کەم‌بکاتەوە.",
+                                    onPressedBritish: () =>
+                                        speakbudgets7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbudgets7("en-US"),
                                   ),
                                 ],
                               ),
@@ -526,120 +393,44 @@ class EnglishEntrybudget extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ڕێژەیەک لە شتێک کە داتناوە لە پلانەکانتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Find a holiday to suit your time budget."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشوویەک بدۆزەوە کە لەگەڵ کاتی بەردەستت دەگونجێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Find a holiday to suit your time budget.",
+                            kurdishText:
+                                "پشوویەک بدۆزەوە کە لەگەڵ کاتی بەردەستت دەگونجێت.",
+                            onPressedBritish: () => speakbudgets8("en-GB"),
+                            onPressedAmerican: () => speakbudgets8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) وریا سەبارەت بەو بڕە پارەیەی خەرجی دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If we budget carefully we'll be able to afford the trip."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر بە ئاگایەوە خەرجی بکەین، دەتوانن پارەی گەشتەکە بدەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If we budget carefully we'll be able to afford the trip.",
+                            kurdishText:
+                                "ئەگەر بە ئاگایەوە خەرجی بکەین، دەتوانن پارەی گەشتەکە بدەین.",
+                            onPressedBritish: () => speakbudgets9("en-GB"),
+                            onPressedAmerican: () => speakbudgets9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ten million euros has been budgeted for the project."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "١٠ ملیۆن یۆرۆ بۆ پڕۆژەکە تەرخانکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ten million euros has been budgeted for the project.",
+                            kurdishText:
+                                "١٠ ملیۆن یۆرۆ بۆ پڕۆژەکە تەرخانکراوە.",
+                            onPressedBritish: () => speakbudgets10("en-GB"),
+                            onPressedAmerican: () => speakbudgets10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٥. (ھاوەڵناو) ھەرزان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can save money on budget flights."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت پارە خڕبکەیت بە گرتنی گەشتی ئاسمانی ھەرزان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudgets11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgets11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can save money on budget flights.",
+                            kurdishText:
+                                "دەتوانیت پارە خڕبکەیت بە گرتنی گەشتی ئاسمانی ھەرزان.",
+                            onPressedBritish: () => speakbudgets11("en-GB"),
+                            onPressedAmerican: () => speakbudgets11("en-US"),
                           ),
                         ],
                       ),

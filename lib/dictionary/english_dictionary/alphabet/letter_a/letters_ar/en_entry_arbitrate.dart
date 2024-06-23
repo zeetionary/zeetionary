@@ -158,35 +158,15 @@ class EnglishEntryarbitrate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بە فەرمی چارەسەرکردنی ناکۆکییەک لەنێوان دوو کەس یان گرووپ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is the official responsible for arbitrating the case of disputed trades."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو دەسەڵاتدارەیە کە بەرپرسە بۆ ناوبژی‌کردنی کەیسی ناکۆکییە بازرگانییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarbitrate1150("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarbitrate1150(
-                                        // REPLACE: arbitrate /ˈɑːrbɪtreɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is the official responsible for arbitrating the case of disputed trades.",
+                            kurdishText:
+                                "ئەو دەسەڵاتدارەیە کە بەرپرسە بۆ ناوبژی‌کردنی کەیسی ناکۆکییە بازرگانییەکان.",
+                            onPressedBritish: () => speakarbitrate1150("en-GB"),
+                            onPressedAmerican: () => speakarbitrate1150(
+                                // REPLACE: arbitrate /ˈɑːrbɪtreɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -148,32 +148,12 @@ class EnglishEntryblotch extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نیشانەیەک کە شێوەی دیاریکراوی نییە لەسەر پێست، ڕووەک، یان مادەی تر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her face was covered in purple blotches."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووخساری داپۆشرابوو بە لەکەی مۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblotchs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblotchs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her face was covered in purple blotches.",
+                            kurdishText: "ڕووخساری داپۆشرابوو بە لەکەی مۆر.",
+                            onPressedBritish: () => speakblotchs1("en-GB"),
+                            onPressedAmerican: () => speakblotchs1("en-US"),
                           ),
                         ],
                       ),

@@ -133,162 +133,64 @@ class EnglishEntryalignment extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕێک لەسەر ھێڵێکی ڕاست" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A bone in my spine was out of alignment."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئێسکێک لە بڕبڕەی پشتم پلابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalignment2533("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalignment2533(
-                                        // REPLACE: alignment /əˈlaɪnmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A bone in my spine was out of alignment.",
+                            kurdishText: "ئێسکێک لە بڕبڕەی پشتم پلابوو.",
+                            onPressedBritish: () => speakalignment2533("en-GB"),
+                            onPressedAmerican: () => speakalignment2533(
+                                // REPLACE: alignment /əˈlaɪnmənt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The door needs to be in alignment with the frame before you start work on it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرگاکە پێویستە لەگەڵ چوارچێوەکەی ڕێک بێت پێش ئەوەی دەست بە کارکردن بکەیت لەسەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalignment2455("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalignment2455(
-                                        // REPLACE: alignment /əˈlaɪnmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The door needs to be in alignment with the frame before you start work on it.",
+                            kurdishText:
+                                "دەرگاکە پێویستە لەگەڵ چوارچێوەکەی ڕێک بێت پێش ئەوەی دەست بە کارکردن بکەیت لەسەری.",
+                            onPressedBritish: () => speakalignment2455("en-GB"),
+                            onPressedAmerican: () => speakalignment2455(
+                                // REPLACE: alignment /əˈlaɪnmənt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئەو بارودۆخەی کە پەیوەندی یەکگیرر ھەیە لەنێوان دوو شت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We will implement policies in alignment with our fiscal goals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو سیاسەت دادەڕێژین کە لەگەل ئامانجەکانی ساڵەکەمان یەکبگرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalignment3522("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalignment3522(
-                                        // REPLACE: alignment /əˈlaɪnmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We will implement policies in alignment with our fiscal goals.",
+                            kurdishText:
+                                "ئەو سیاسەت دادەڕێژین کە لەگەل ئامانجەکانی ساڵەکەمان یەکبگرێتەوە.",
+                            onPressedBritish: () => speakalignment3522("en-GB"),
+                            onPressedAmerican: () => speakalignment3522(
+                                // REPLACE: alignment /əˈlaɪnmənt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Property prices are too high and need to be brought back into alignment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخی زەوی زۆر بەرزە و پێویستە ڕێکبخرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalignment35288("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalignment35288(
-                                        // REPLACE: alignment /əˈlaɪnmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Property prices are too high and need to be brought back into alignment.",
+                            kurdishText:
+                                "نرخی زەوی زۆر بەرزە و پێویستە ڕێکبخرێت.",
+                            onPressedBritish: () =>
+                                speakalignment35288("en-GB"),
+                            onPressedAmerican: () => speakalignment35288(
+                                // REPLACE: alignment /əˈlaɪnmənt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) پشتگیری ئابووری یان سیاسی وڵاتێک یان گرووپێک بۆ یەکێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new prime minister has moved into a much closer alignment with America."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک وەزیرانە نوێیەکە ھاوپەیمانییەکی زیاتری لەگەڵ ئەمریکادا ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalignment325888("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalignment325888(
-                                        // REPLACE: alignment /əˈlaɪnmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new prime minister has moved into a much closer alignment with America.",
+                            kurdishText:
+                                "سەرۆک وەزیرانە نوێیەکە ھاوپەیمانییەکی زیاتری لەگەڵ ئەمریکادا ھەیە.",
+                            onPressedBritish: () =>
+                                speakalignment325888("en-GB"),
+                            onPressedAmerican: () => speakalignment325888(
+                                // REPLACE: alignment /əˈlaɪnmənt/
+                                "en-US"),
                           ),
                         ],
                       ),

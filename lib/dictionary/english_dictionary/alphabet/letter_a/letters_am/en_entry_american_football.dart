@@ -177,35 +177,15 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) یاتییەک کە لەلایەن دوو تیمی ١١ کەسی دەکرێت بە تۆپێکی ھێلکەیی کە یاریزانان ھەوڵ دەدەن تێی ھەڵبدەن، بیھاوێژن، یان ھەڵیبگرن، و بیخەنە ھێڵی تیمی بەرامبەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "American Football doesn't interest me at all."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ حەزم بە تۆپێنی ئەمریکی نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamericanfootball45777("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamericanfootball45777(
-                                        // REPLACE: American football /əˌmerɪkən ˈfʊtbɔːl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "American Football doesn't interest me at all.",
+                            kurdishText: "ھیچ حەزم بە تۆپێنی ئەمریکی نییە.",
+                            onPressedBritish: () =>
+                                speakamericanfootball45777("en-GB"),
+                            onPressedAmerican: () => speakamericanfootball45777(
+                                // REPLACE: American football /əˌmerɪkən ˈfʊtbɔːl/
+                                "en-US"),
                           ),
                         ],
                       ),

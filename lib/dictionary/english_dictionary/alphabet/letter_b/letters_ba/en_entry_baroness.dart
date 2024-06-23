@@ -148,63 +148,25 @@ class EnglishEntrybaroness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ژنێک کە لە ناو گەورەزادەکاندا لە نزمترین ئاستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Baroness Isabella, a skilled warrior, led her troops to victory in battle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنەمیر ئیزابێلا، جەنگاوەرێکی بەئەزموون، سەرکردایەتی سەربازەکانی کرد بۆ بردنەوە لە جەنگدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaronesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaronesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Baroness Isabella, a skilled warrior, led her troops to victory in battle.",
+                            kurdishText:
+                                "ژنەمیر ئیزابێلا، جەنگاوەرێکی بەئەزموون، سەرکردایەتی سەربازەکانی کرد بۆ بردنەوە لە جەنگدا.",
+                            onPressedBritish: () => speakbaronesss1("en-GB"),
+                            onPressedAmerican: () => speakbaronesss1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ژنی پیاوێک کە لە نزمترین ئاستی گەورەزادەکانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Young Sophia, the future Baroness, learned etiquette from her mother."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سۆفیای گەنج، کە دواتر بوو بە ژنەبەگزادە، ئەتەکێت لە دایکییەوە فێربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaronesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaronesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Young Sophia, the future Baroness, learned etiquette from her mother.",
+                            kurdishText:
+                                "سۆفیای گەنج، کە دواتر بوو بە ژنەبەگزادە، ئەتەکێت لە دایکییەوە فێربوو.",
+                            onPressedBritish: () => speakbaronesss2("en-GB"),
+                            onPressedAmerican: () => speakbaronesss2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

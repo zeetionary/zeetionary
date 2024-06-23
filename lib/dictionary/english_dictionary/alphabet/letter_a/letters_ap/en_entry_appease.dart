@@ -159,65 +159,27 @@ class EnglishEntryappease extends StatelessWidget {
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
 ٢. (کردار) ھێمنکردنەوەی کەسێک بە پێدانی ئەوەی دەیەوێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The move was widely seen as an attempt to appease critics of the regime."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەنگاوەکە بەشێوەیەکی بەرفراوان بینرا بە ھەوڵێک بۆ ھێمنکردنەوەی ڕەخنەگرانی ڕژێمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappease1203("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappease1203(
-                                        // REPLACE: appease /əˈpiːz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The move was widely seen as an attempt to appease critics of the regime.",
+                            kurdishText:
+                                "ھەنگاوەکە بەشێوەیەکی بەرفراوان بینرا بە ھەوڵێک بۆ ھێمنکردنەوەی ڕەخنەگرانی ڕژێمەکە.",
+                            onPressedBritish: () => speakappease1203("en-GB"),
+                            onPressedAmerican: () => speakappease1203(
+                                // REPLACE: appease /əˈpiːz/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a crucial ally who the country needed to appease."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوپەیمانێکی گرنگی وڵاتەکە بوو کە دەبوو دڵی‌ڕابگیردرێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappease1205("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappease1205(
-                                        // REPLACE: appease /əˈpiːz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a crucial ally who the country needed to appease.",
+                            kurdishText:
+                                "ھاوپەیمانێکی گرنگی وڵاتەکە بوو کە دەبوو دڵی‌ڕابگیردرێ.",
+                            onPressedBritish: () => speakappease1205("en-GB"),
+                            onPressedAmerican: () => speakappease1205(
+                                // REPLACE: appease /əˈpiːz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -155,65 +155,27 @@ class EnglishEntryanemic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) تووشبوو بە کەم‌خوێنی و لاوازی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She looks anemic."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەم‌خوێن دیارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanemic55580("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanemic55580(
-                                        // REPLACE: anemic /əˈniːmɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She looks anemic.",
+                            kurdishText: "کەم‌خوێن دیارە.",
+                            onPressedBritish: () => speakanemic55580("en-GB"),
+                            onPressedAmerican: () => speakanemic55580(
+                                // REPLACE: anemic /əˈniːmɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بێ‌ھێز و بێ‌کاریگەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Both actors gave fairly anemic performances."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو ئەکتەرەکە تاڕادەیەک نمایشی لاوازیان پێشکەش‌کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanemic4966("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanemic4966(
-                                        // REPLACE: anemic /əˈniːmɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Both actors gave fairly anemic performances.",
+                            kurdishText:
+                                "ھەردوو ئەکتەرەکە تاڕادەیەک نمایشی لاوازیان پێشکەش‌کرد.",
+                            onPressedBritish: () => speakanemic4966("en-GB"),
+                            onPressedAmerican: () => speakanemic4966(
+                                // REPLACE: anemic /əˈniːmɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

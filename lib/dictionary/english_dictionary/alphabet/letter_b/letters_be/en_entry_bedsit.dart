@@ -150,32 +150,11 @@ class EnglishEntrybedsit extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژوورێک کەسێک بە کرێ دەیگرێت وەک شوێنی مانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He lives in a tiny student bedsit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ژوورێکی بچووکی خوێندکاردا دەژی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedsits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedsits1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He lives in a tiny student bedsit.",
+                            kurdishText: "لە ژوورێکی بچووکی خوێندکاردا دەژی.",
+                            onPressedBritish: () => speakbedsits1("en-GB"),
+                            onPressedAmerican: () => speakbedsits1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -163,34 +163,14 @@ class EnglishEntryappalling extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ئێجگار خراپ، بەتایبەتی لەلایەنی ئەخلاقییەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prisoners were living in appalling conditions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیندانیان لە دۆخی تۆقێنەردا دەژیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappalling823("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappalling823(
-                                        // REPLACE: appalling /əˈpɔːlɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prisoners were living in appalling conditions.",
+                            kurdishText: "زیندانیان لە دۆخی تۆقێنەردا دەژیان.",
+                            onPressedBritish: () => speakappalling823("en-GB"),
+                            onPressedAmerican: () => speakappalling823(
+                                // REPLACE: appalling /əˈpɔːlɪŋ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

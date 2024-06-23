@@ -109,33 +109,14 @@ class EnglishEntryacquainted extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) ئاشنا لەگەڵ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The students are already acquainted with the works of Shakespeare."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندکاران لەمێژە ئاشنان لەگەڵ کارەکانی شکسپیر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacqua24("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacqua24(
-                                        "en-US"), // REPLACE acquainted /əˈkweɪntɪd/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The students are already acquainted with the works of Shakespeare.",
+                            kurdishText:
+                                "خوێندکاران لەمێژە ئاشنان لەگەڵ کارەکانی شکسپیر.",
+                            onPressedBritish: () => speakacqua24("en-GB"),
+                            onPressedAmerican: () => speakacqua24(
+                                "en-US"), // REPLACE acquainted /əˈkweɪntɪd/
                           ),
                         ],
                       ),

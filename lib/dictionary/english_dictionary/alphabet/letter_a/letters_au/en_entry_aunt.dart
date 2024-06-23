@@ -163,62 +163,23 @@ class EnglishEntryaunt extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) خوشکی باوک و دایک؛ ژنی خاڵۆ" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I have an aunt in Australia."),
-                                    ExampleSentenceKurdish(
-                                        text: "پورێکم ھەیە لە ئوسترالیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaunt352("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaunt352(// REPLACE: aunt
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I have an aunt in Australia.",
+                            kurdishText: "پورێکم ھەیە لە ئوسترالیا.",
+                            onPressedBritish: () => speakaunt352("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaunt352(// REPLACE: aunt
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you want some tea, Aunt Alice?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چا ئەخۆیتەوە، پورە ئالیس؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaunt353("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaunt353(// REPLACE: aunt
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Do you want some tea, Aunt Alice?",
+                            kurdishText: "چا ئەخۆیتەوە، پورە ئالیس؟",
+                            onPressedBritish: () => speakaunt353("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaunt353(// REPLACE: aunt
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

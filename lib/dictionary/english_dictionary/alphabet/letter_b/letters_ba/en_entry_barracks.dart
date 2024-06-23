@@ -150,32 +150,13 @@ class EnglishEntrybarracks extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بینایەک یان کۆمەڵە بینایەکی گەورە بۆ ئەوەی سەرباز تێیدا بژی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The troops were ordered back to barracks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکان فەرمانیان پێکرا بگەڕێنەوە سەربازگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarrackss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarrackss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The troops were ordered back to barracks.",
+                            kurdishText:
+                                "سەربازەکان فەرمانیان پێکرا بگەڕێنەوە سەربازگەکە.",
+                            onPressedBritish: () => speakbarrackss1("en-GB"),
+                            onPressedAmerican: () => speakbarrackss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

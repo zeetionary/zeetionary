@@ -153,34 +153,15 @@ class EnglishEntryballerina extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سەماکارێکی بالێ (جۆرە سەمایەک کە جووڵەکان چیرۆکێک دەگێڕنەوە یان بیرۆکەیەک دەردەبڕن)"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She turned to sport when she grew too tall to fulfil her ambition of becoming a ballerina."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەلای وەرزشدا چوو کاتێک کە باڵای زۆر بەرز بوو بۆ ئەوەی ھیوای بوون بە بالێرینا بخولقێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballerinas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballerinas1(// REPLACE: ballerina
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She turned to sport when she grew too tall to fulfil her ambition of becoming a ballerina.",
+                            kurdishText:
+                                "بەلای وەرزشدا چوو کاتێک کە باڵای زۆر بەرز بوو بۆ ئەوەی ھیوای بوون بە بالێرینا بخولقێنێت.",
+                            onPressedBritish: () => speakballerinas1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballerinas1(// REPLACE: ballerina
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

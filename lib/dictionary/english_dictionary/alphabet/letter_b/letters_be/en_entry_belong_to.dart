@@ -147,150 +147,54 @@ class EnglishEntrybelongto extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) خاوەندارێتی کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Who does this watch belong to?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم کاتژمێرە ھی کێیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelongtos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelongtos1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Who does this watch belong to?",
+                            kurdishText: "ئەم کاتژمێرە ھی کێیە؟",
+                            onPressedBritish: () => speakbelongtos1("en-GB"),
+                            onPressedAmerican: () => speakbelongtos1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The islands belong to Spain."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم دوورگانە سەر بە ئیسپانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelongtos2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelongtos2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The islands belong to Spain.",
+                            kurdishText: "ئەم دوورگانە سەر بە ئیسپانیان.",
+                            onPressedBritish: () => speakbelongtos2("en-GB"),
+                            onPressedAmerican: () => speakbelongtos2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کاری لێکدراو) بوون بە سەرکەوتووترین لە شتێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "British actors did well at the award ceremony, but the evening belonged to the Americans."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەکتەرانی بەریتانیا باش بوون لە ئاھەنگی خەڵات بەخشینەکە، بەڵام شەو شەوی ئەمریکییەکان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelongtos3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelongtos3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "British actors did well at the award ceremony, but the evening belonged to the Americans.",
+                            kurdishText:
+                                "ئەکتەرانی بەریتانیا باش بوون لە ئاھەنگی خەڵات بەخشینەکە، بەڵام شەو شەوی ئەمریکییەکان بوو.",
+                            onPressedBritish: () => speakbelongtos3("en-GB"),
+                            onPressedAmerican: () => speakbelongtos3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کاری لێکدراو) بوون بە ئەندامی دامەزراوەیەک، پارتێکی سیاسی، ھتد."""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Have you ever belonged to a political party?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز سەر بە ھیچ پارتێکی سیاسی بوویتە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelongtos4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelongtos4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Have you ever belonged to a political party?",
+                            kurdishText:
+                                "ھەرگیز سەر بە ھیچ پارتێکی سیاسی بوویتە؟",
+                            onPressedBritish: () => speakbelongtos4("en-GB"),
+                            onPressedAmerican: () => speakbelongtos4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کاری لێکدراو) بوون بە بەشێک لە گرووپێک، جۆرێک، یان سیستەمێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Lions and tigers belong to the cat family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێر و پڵنگ سەر بە خێزانی پشیلەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelongtos5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelongtos5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Lions and tigers belong to the cat family.",
+                            kurdishText: "شێر و پڵنگ سەر بە خێزانی پشیلەن.",
+                            onPressedBritish: () => speakbelongtos5("en-GB"),
+                            onPressedAmerican: () => speakbelongtos5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

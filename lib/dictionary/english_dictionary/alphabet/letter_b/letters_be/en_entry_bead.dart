@@ -150,123 +150,45 @@ class EnglishEntrybead extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پارچەیەکی بچووک لە شووشە یان دار کە کونێکی تێدایە و دەکرێت بکرێت بە زنجیرەیەک و وەک خشڵ ببەسترێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A bead curtain separated the two rooms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەردەیەکی موورووی دوو ژوورەکەی لێک جیاکردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeads1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeads1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A bead curtain separated the two rooms.",
+                            kurdishText:
+                                "پەردەیەکی موورووی دوو ژوورەکەی لێک جیاکردبوو.",
+                            onPressedBritish: () => speakbeads1("en-GB"),
+                            onPressedAmerican: () => speakbeads1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She threaded the beads carefully."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "موورووەکانی بەوریاییەوە کرد بە دەزوویەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeads2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeads2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She threaded the beads carefully.",
+                            kurdishText:
+                                "موورووەکانی بەوریاییەوە کرد بە دەزوویەکەوە.",
+                            onPressedBritish: () => speakbeads2("en-GB"),
+                            onPressedAmerican: () => speakbeads2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) تەزبیح"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the church a woman was fingering her beads."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کڵێساکەدا ژنێک تەزبیحەکەی دەژمارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeads3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeads3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the church a woman was fingering her beads.",
+                            kurdishText:
+                                "لە کڵێساکەدا ژنێک تەزبیحەکەی دەژمارد.",
+                            onPressedBritish: () => speakbeads3("en-GB"),
+                            onPressedAmerican: () => speakbeads3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) دڵۆپێکی بچووک لە شلە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were beads of sweat on his forehead."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵۆپە ئارەق لەسەر ناوچاوانی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeads4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeads4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were beads of sweat on his forehead.",
+                            kurdishText: "دڵۆپە ئارەق لەسەر ناوچاوانی بوو.",
+                            onPressedBritish: () => speakbeads4("en-GB"),
+                            onPressedAmerican: () => speakbeads4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

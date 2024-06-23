@@ -158,166 +158,71 @@ class EnglishEntryaward extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) خەڵاتێک بۆ شتێک کەسێک کردوویەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was nominated for the best actor award."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاندیدکرا بۆ خەڵاتی ئۆسکار بۆ باشترین ئەکتەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawards1(// REPLACE: award
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was nominated for the best actor award.",
+                            kurdishText:
+                                "کاندیدکرا بۆ خەڵاتی ئۆسکار بۆ باشترین ئەکتەر.",
+                            onPressedBritish: () => speakawards1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawards1(// REPLACE: award
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) زیادبوونێک لەو پارەی کەسێک بە دەستی دەخات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As head of the bank, she got an award of £2.18m."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک سەرۆکی بانکەکە، بەخشیشێکی ٢,١٨ ملیۆن دۆلاری وەرگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawards2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawards2(// REPLACE: award
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As head of the bank, she got an award of £2.18m.",
+                            kurdishText:
+                                "وەک سەرۆکی بانکەکە، بەخشیشێکی ٢,١٨ ملیۆن دۆلاری وەرگرت.",
+                            onPressedBritish: () => speakawards2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawards2(// REPLACE: award
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بڕە پارەیەک کە دەدرێت بە کەسێک وەک قەرەبوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The judge has the power to make damages awards."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دادوەرەکە دەسەڵاتی پێدانی قەرەبووی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawards3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawards3(// REPLACE: award
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The judge has the power to make damages awards.",
+                            kurdishText:
+                                "دادوەرەکە دەسەڵاتی پێدانی قەرەبووی ھەیە.",
+                            onPressedBritish: () => speakawards3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawards3(// REPLACE: award
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) بڕیاری فەرمی پێدانی شتێک بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Satisfactory completion of the course will lead to the award of the Diploma of Social Work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوکردنی گونجاوی کۆرسەکە دەگات بە پێدانی دیپلۆما لە کاری کۆمەڵایەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawards4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawards4(// REPLACE: award
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Satisfactory completion of the course will lead to the award of the Diploma of Social Work.",
+                            kurdishText:
+                                "تەواوکردنی گونجاوی کۆرسەکە دەگات بە پێدانی دیپلۆما لە کاری کۆمەڵایەتی.",
+                            onPressedBritish: () => speakawards4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawards4(// REPLACE: award
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) پێدانی پارە، خەڵات، قەرەبوو، ھتد بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prize is awarded annually for the best new building."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵاتەکە ساڵانە دەبەخشرێت بۆ باشترین بینای تازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawards5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawards5(// REPLACE: award
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prize is awarded annually for the best new building.",
+                            kurdishText:
+                                "خەڵاتەکە ساڵانە دەبەخشرێت بۆ باشترین بینای تازە.",
+                            onPressedBritish: () => speakawards5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawards5(// REPLACE: award
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

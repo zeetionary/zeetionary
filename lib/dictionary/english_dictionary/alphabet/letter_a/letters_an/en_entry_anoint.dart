@@ -152,33 +152,13 @@ class EnglishEntryanoint extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) دانانی ڕۆن یان ئاو لەسەر سەر یان جەستەی کەسێک وەک بەشێک لە ڕێوڕەسمێکی ئاینی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The priest anointed her with oil."),
-                                    ExampleSentenceKurdish(
-                                        text: "قەشەکە بە ڕۆن چەوری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanoint949("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanoint949(
-                                        // REPLACE: anoint /əˈnɔɪnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The priest anointed her with oil.",
+                            kurdishText: "قەشەکە بە ڕۆن چەوری کرد.",
+                            onPressedBritish: () => speakanoint949("en-GB"),
+                            onPressedAmerican: () => speakanoint949(
+                                // REPLACE: anoint /əˈnɔɪnt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

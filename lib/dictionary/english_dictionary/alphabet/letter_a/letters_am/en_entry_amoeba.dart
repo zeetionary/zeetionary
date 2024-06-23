@@ -111,34 +111,15 @@ class EnglishEntryamoeba extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) زیندەوەرێکی سەرەتایی کە لە یەک خانە پێکھاتووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is studying the ecology of amoeba."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamoeba352477("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamoeba352477(
-                                        // REPLACE: amoeba /əˈmiːbə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is studying the ecology of amoeba.",
+                            kurdishText:
+                                "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا.",
+                            onPressedBritish: () => speakamoeba352477("en-GB"),
+                            onPressedAmerican: () => speakamoeba352477(
+                                // REPLACE: amoeba /əˈmiːbə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

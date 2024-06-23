@@ -145,32 +145,13 @@ class EnglishEntrybrewer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک یان کۆمپانیایەک کە بیرە درووست دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Six big brewers account for about 75% of total beer sales in the UK."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەش کۆمپانیای بەرھەمھێنەری بیرە لە پشت ٧٥٪ فرۆشی بیرەن لە شانشینی یەکگرتوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brewer" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrewers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrewers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Six big brewers account for about 75% of total beer sales in the UK.",
+                            kurdishText:
+                                "شەش کۆمپانیای بەرھەمھێنەری بیرە لە پشت ٧٥٪ فرۆشی بیرەن لە شانشینی یەکگرتوو.", // brewer" as
+                            onPressedBritish: () => speakbrewers1("en-GB"),
+                            onPressedAmerican: () => speakbrewers1("en-US"),
                           ),
                         ],
                       ),

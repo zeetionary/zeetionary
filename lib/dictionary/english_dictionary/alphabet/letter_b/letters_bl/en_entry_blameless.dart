@@ -147,62 +147,23 @@ class EnglishEntryblameless extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بێ‌تاوان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "None of us is entirely blameless in this matter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ کەسمان بە تەواوی بێ‌گوناح نییە لەم بابەتەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblamelesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblamelesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "None of us is entirely blameless in this matter.",
+                            kurdishText:
+                                "ھیچ کەسمان بە تەواوی بێ‌گوناح نییە لەم بابەتەدا.",
+                            onPressedBritish: () => speakblamelesss1("en-GB"),
+                            onPressedAmerican: () => speakblamelesss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In her father's eyes, she was blameless."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕوانگەی باوکییەوە بێ‌تاوان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblamelesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblamelesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In her father's eyes, she was blameless.",
+                            kurdishText: "لە ڕوانگەی باوکییەوە بێ‌تاوان بوو.",
+                            onPressedBritish: () => speakblamelesss2("en-GB"),
+                            onPressedAmerican: () => speakblamelesss2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

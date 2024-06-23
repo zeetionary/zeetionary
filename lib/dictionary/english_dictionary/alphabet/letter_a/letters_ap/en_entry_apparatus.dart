@@ -163,34 +163,15 @@ class EnglishEntryapparatus extends StatelessWidget {
                               text:
                                   "١. (ناو) ئەو کەرەستانەی کە پێویستن بۆ چالاکییەک یان ئەرکێکی دیاریکراو"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Firefighters needed breathing apparatus to enter the burning house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگرکوژێنەرەوەکان پێویستیان بە ھەندێک دەزگای ھەناسەدان ھەبوو بۆ ئەوەی بچنە ناو خانووە سووتاوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapparatus841("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapparatus841(
-                                        // REPLACE: apparatus /ˌæpəˈrætəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Firefighters needed breathing apparatus to enter the burning house.",
+                            kurdishText:
+                                "ئاگرکوژێنەرەوەکان پێویستیان بە ھەندێک دەزگای ھەناسەدان ھەبوو بۆ ئەوەی بچنە ناو خانووە سووتاوەکە.",
+                            onPressedBritish: () => speakapparatus841("en-GB"),
+                            onPressedAmerican: () => speakapparatus841(
+                                // REPLACE: apparatus /ˌæpəˈrætəs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

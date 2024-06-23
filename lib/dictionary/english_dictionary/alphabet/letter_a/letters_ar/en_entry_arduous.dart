@@ -163,63 +163,25 @@ class EnglishEntryarduous extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) شتێک کە ھەوڵ و ماندووبوونی زۆری دەوێ"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The road back to political stability is long and arduous."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگای گەشتنەوە بە ئارامی سیاسی زەحمەتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarduous530("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarduous530(
-                                        // REPLACE: arduous /ˈɑːrdʒuəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The road back to political stability is long and arduous.",
+                            kurdishText:
+                                "ڕێگای گەشتنەوە بە ئارامی سیاسی زەحمەتە.",
+                            onPressedBritish: () => speakarduous530("en-GB"),
+                            onPressedAmerican: () => speakarduous530(
+                                // REPLACE: arduous /ˈɑːrdʒuəs/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The work was arduous."),
-                                    ExampleSentenceKurdish(
-                                        text: "کارەکە تاقەت‌پڕوقێن بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarduous531("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarduous531(
-                                        // REPLACE: arduous /ˈɑːrdʒuəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The work was arduous.",
+                            kurdishText: "کارەکە تاقەت‌پڕوقێن بوو.",
+                            onPressedBritish: () => speakarduous531("en-GB"),
+                            onPressedAmerican: () => speakarduous531(
+                                // REPLACE: arduous /ˈɑːrdʒuəs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -143,32 +143,13 @@ class EnglishEntryboxingday extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) یەکەم ڕۆژی دوای ڕۆژی کریسمسە و لە شانشینی یەکگرتوو و ژمارەیەک وڵاتی دیکە پشووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Employees happily received their gifts on the cheerful Boxing Day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارمەندان بە دڵخۆشییەوە دیارییەکانیان وەرگرت لە ڕۆژی پڕشادی دوای کریسمس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxingdays1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxingdays1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Employees happily received their gifts on the cheerful Boxing Day.",
+                            kurdishText:
+                                "کارمەندان بە دڵخۆشییەوە دیارییەکانیان وەرگرت لە ڕۆژی پڕشادی دوای کریسمس.",
+                            onPressedBritish: () => speakboxingdays1("en-GB"),
+                            onPressedAmerican: () => speakboxingdays1("en-US"),
                           ),
                         ],
                       ),

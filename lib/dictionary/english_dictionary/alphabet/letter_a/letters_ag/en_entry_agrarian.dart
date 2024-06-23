@@ -114,34 +114,15 @@ class EnglishEntryagrarian extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە جووتیاران و کشتوکاڵ"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The central government was urged to adopt a massive public investment programme in the agrarian sector to enhance grain production."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەتی ناوەندی ھاندرا بۆ دەستپێکردنی پڕۆگرامێکی گەورەی وەبەرھێنانی گشتگیر لە کەرتی کشتوکاڵی بۆ زیادکردنی بەرھەمھێنانی گەنم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagrarian4377("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagrarian4377(
-                                        // REPLACE: agrarian /əˈɡreriən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The central government was urged to adopt a massive public investment programme in the agrarian sector to enhance grain production.",
+                            kurdishText:
+                                "حکومەتی ناوەندی ھاندرا بۆ دەستپێکردنی پڕۆگرامێکی گەورەی وەبەرھێنانی گشتگیر لە کەرتی کشتوکاڵی بۆ زیادکردنی بەرھەمھێنانی گەنم.",
+                            onPressedBritish: () => speakagrarian4377("en-GB"),
+                            onPressedAmerican: () => speakagrarian4377(
+                                // REPLACE: agrarian /əˈɡreriən/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -151,122 +151,44 @@ class EnglishEntrybat extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پارچە دارێک کە بەکاردێت بۆ لێدان لە تۆپ لە ھەندێک یاریدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She showed me how to hold the bat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فێری کردم چۆن دارەکە بەکاربێنم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She showed me how to hold the bat.",
+                            kurdishText: "فێری کردم چۆن دارەکە بەکاربێنم.",
+                            onPressedBritish: () => speakbats1("en-GB"),
+                            onPressedAmerican: () => speakbats1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شەمشەمەکوێرە؛ ئاژەڵێک کە وەک مشکە و دەفڕێت، و لە شەودا دەگەڕێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some bats live in caves, while others live in trees or in buildings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک شەمشەمەکوێرە لە ئەشکەوتدا دەژین، لەکاتێکدا ھەندێکیان لە دار و دیواردا دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbats2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbats2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some bats live in caves, while others live in trees or in buildings.",
+                            kurdishText:
+                                "ھەندێک شەمشەمەکوێرە لە ئەشکەوتدا دەژین، لەکاتێکدا ھەندێکیان لە دار و دیواردا دەژین.",
+                            onPressedBritish: () => speakbats2("en-GB"),
+                            onPressedAmerican: () => speakbats2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) لێدان لە تۆپێک بە دارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He bats very well."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆرباش لە تۆپەکە دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbats3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbats3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He bats very well.",
+                            kurdishText: "زۆرباش لە تۆپەکە دەدات.",
+                            onPressedBritish: () => speakbats3("en-GB"),
+                            onPressedAmerican: () => speakbats3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) لێدان لە شتێکی بچووک و ناردنی بە ھەوادا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He batted the wasp away."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشای بە زەردەواڵەکەدا و دووریخستەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbats4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbats4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He batted the wasp away.",
+                            kurdishText:
+                                "کێشای بە زەردەواڵەکەدا و دووریخستەوە.",
+                            onPressedBritish: () => speakbats4("en-GB"),
+                            onPressedAmerican: () => speakbats4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

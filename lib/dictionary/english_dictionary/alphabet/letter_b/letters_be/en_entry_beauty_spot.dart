@@ -151,63 +151,25 @@ class EnglishEntrybeautyspot extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ناوچەیەکی دەرەوەی شار کە بەناوبانگە بۆ جوانییەکەی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The lake is one of the local beauty spots."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەریاچەکە یەکێکە لە ناوچە گەشتیارییەکانی ئەم ناوچە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeautyspots1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeautyspots1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The lake is one of the local beauty spots.",
+                            kurdishText:
+                                "دەریاچەکە یەکێکە لە ناوچە گەشتیارییەکانی ئەم ناوچە.",
+                            onPressedBritish: () => speakbeautyspots1("en-GB"),
+                            onPressedAmerican: () => speakbeautyspots1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) خاڵێکی بچووک لەسەر ڕووخساری ژنان کە جاران بە جوان دادەنرا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had a small beauty spot on the left side of her face."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاڵێکی بچووکی لەسەر لای چەپی ڕووخساری ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeautyspots2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeautyspots2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had a small beauty spot on the left side of her face.",
+                            kurdishText:
+                                "خاڵێکی بچووکی لەسەر لای چەپی ڕووخساری ھەبوو.",
+                            onPressedBritish: () => speakbeautyspots2("en-GB"),
+                            onPressedAmerican: () => speakbeautyspots2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

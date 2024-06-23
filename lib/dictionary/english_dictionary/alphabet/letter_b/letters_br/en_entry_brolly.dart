@@ -140,32 +140,13 @@ class EnglishEntrybrolly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چەتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I left my brolly on the bus yesterday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوێنێ چەترەکەم لە پاسەکە جێھێشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brolly" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrollys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrollys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I left my brolly on the bus yesterday.",
+                            kurdishText:
+                                "دوێنێ چەترەکەم لە پاسەکە جێھێشت.", // brolly" as
+                            onPressedBritish: () => speakbrollys1("en-GB"),
+                            onPressedAmerican: () => speakbrollys1("en-US"),
                           ),
                         ],
                       ),

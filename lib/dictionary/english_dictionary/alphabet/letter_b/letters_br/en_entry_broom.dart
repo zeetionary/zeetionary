@@ -145,93 +145,35 @@ class EnglishEntrybroom extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گەسک کە بە دەسکێکەوەیە و بۆ پاککردنەوە بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Grab a broom and let’s clean up."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەسکێک ھەڵبگرە و با دەست بە پاککردنەوە بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broom" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrooms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrooms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Grab a broom and let’s clean up.",
+                            kurdishText:
+                                "گەسکێک ھەڵبگرە و با دەست بە پاککردنەوە بکەین.", // broom" as
+                            onPressedBritish: () => speakbrooms1("en-GB"),
+                            onPressedAmerican: () => speakbrooms1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) داری جادووگەران کە لە چیرۆکدا ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The witch cackled and flew away on her broom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جادووگەرەکە قاقایەکی لێدا و لەسەر دارەکەی فڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrooms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrooms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The witch cackled and flew away on her broom.",
+                            kurdishText:
+                                "جادووگەرەکە قاقایەکی لێدا و لەسەر دارەکەی فڕی.",
+                            onPressedBritish: () => speakbrooms2("en-GB"),
+                            onPressedAmerican: () => speakbrooms2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) دەوەنێکی کێوی گوڵی زەردی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The mountains are covered in a scrub of broom and myrtle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیاکان پڕبوون لە دەوەنێک لە گیای زەرد و گیامورد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrooms3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrooms3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The mountains are covered in a scrub of broom and myrtle.",
+                            kurdishText:
+                                "چیاکان پڕبوون لە دەوەنێک لە گیای زەرد و گیامورد.",
+                            onPressedBritish: () => speakbrooms3("en-GB"),
+                            onPressedAmerican: () => speakbrooms3("en-US"),
                           ),
                         ],
                       ),

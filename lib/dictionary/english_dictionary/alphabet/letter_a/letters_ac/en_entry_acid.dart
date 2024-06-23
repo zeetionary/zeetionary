@@ -114,33 +114,13 @@ class EnglishEntryacid extends StatelessWidget {
                               text:
                                   "١. (ناو) مادەیەکی کیمیایی کە زۆرجار ترشە و ھایدرۆجینی تێدایە، ھایدرۆجینەکە دەکرێت بگۆڕدرێتەوە بە کانزایەک بۆ درووستکردنی خوێ. ئەسید بەزۆری ترشییەکی زۆری ھەیە کە دەکرێت کون درووستبکات لە شتێکدا یان زیان بگەیەنێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The acid burned a hole in her coat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەسیدەکە کونێکی درووستکرد لە پاڵتاوەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac12846("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac12846(
-                                        "en-US"), // REPLACE acid /ˈæsɪd/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The acid burned a hole in her coat.",
+                            kurdishText:
+                                "ئەسیدەکە کونێکی درووستکرد لە پاڵتاوەکەی.",
+                            onPressedBritish: () => speakac12846("en-GB"),
+                            onPressedAmerican: () =>
+                                speakac12846("en-US"), // REPLACE acid /ˈæsɪd/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -148,33 +128,14 @@ class EnglishEntryacid extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) شتێک کە زۆر ترشە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It’s a very juicy fruit with a slightly acid flavour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوەیەکی زۆر ئاودارە لەگەڵ بوونی کەمێک تامی ترشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacid1598("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacid1598(
-                                        "en-US"), // REPLACE acid /ˈæsɪd/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It’s a very juicy fruit with a slightly acid flavour.",
+                            kurdishText:
+                                "میوەیەکی زۆر ئاودارە لەگەڵ بوونی کەمێک تامی ترشی.",
+                            onPressedBritish: () => speakacid1598("en-GB"),
+                            onPressedAmerican: () =>
+                                speakacid1598("en-US"), // REPLACE acid /ˈæsɪd/
                           ),
                         ],
                       ),

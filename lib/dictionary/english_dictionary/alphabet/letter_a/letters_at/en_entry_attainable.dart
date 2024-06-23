@@ -167,35 +167,15 @@ class EnglishEntryattainable extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) شتێک کە توانای بەدەستھاتنی ھەیە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This standard is easily attainable by most students."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم پێوەرە بە ئاسانی لەلایەن زۆرینەی خوێندکاران بەدەستدێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattainable715("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattainable715(
-                                        // REPLACE: attainable
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This standard is easily attainable by most students.",
+                            kurdishText:
+                                "ئەم پێوەرە بە ئاسانی لەلایەن زۆرینەی خوێندکاران بەدەستدێت.",
+                            onPressedBritish: () => speakattainable715("en-GB"),
+                            onPressedAmerican: () => speakattainable715(
+                                // REPLACE: attainable
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

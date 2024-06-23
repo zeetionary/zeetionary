@@ -153,67 +153,28 @@ class EnglishEntryazure extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) ڕەنگی شینی ئاسمانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sun shone out of a clear azure sky."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆر درەوشایەوە بە ئاسمانێکی شیندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakazures1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakazures1(// REPLACE: azure
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sun shone out of a clear azure sky.",
+                            kurdishText: "خۆر درەوشایەوە بە ئاسمانێکی شیندا.",
+                            onPressedBritish: () => speakazures1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakazures1(// REPLACE: azure
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕەنگی شینی ئاسمانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was captivated by the azure of the woman's eyes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵی فڕی بە چاوە شینە ئاسمانییەکەی ژنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakazures2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakazures2(// REPLACE: azure
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was captivated by the azure of the woman's eyes.",
+                            kurdishText:
+                                "دڵی فڕی بە چاوە شینە ئاسمانییەکەی ژنەکە.",
+                            onPressedBritish: () => speakazures2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakazures2(// REPLACE: azure
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

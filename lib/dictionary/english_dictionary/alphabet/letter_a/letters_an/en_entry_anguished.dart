@@ -156,35 +156,15 @@ class EnglishEntryanguished extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پیشاندانی ئازار، ناڕەحەتی، یان ناخۆشییەکی زۆری دەروونی یان جەستەیی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The anguished song at the end was beautiful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆرانییە بەئازارەکە لەکۆتاییدا جوان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanguished1010("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanguished1010(
-                                        // REPLACE: anguished /ˈæŋɡwɪʃt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The anguished song at the end was beautiful.",
+                            kurdishText:
+                                "گۆرانییە بەئازارەکە لەکۆتاییدا جوان بوو.",
+                            onPressedBritish: () => speakanguished1010("en-GB"),
+                            onPressedAmerican: () => speakanguished1010(
+                                // REPLACE: anguished /ˈæŋɡwɪʃt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

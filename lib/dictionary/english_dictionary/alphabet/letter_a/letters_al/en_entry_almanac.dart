@@ -116,34 +116,15 @@ class EnglishEntryalmanac extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پەرتووکێک یان سەرچاوەیەکی ئەلیکترۆنی کە ھەموو ساڵێک بڵاودەکرێتەوە بۆ چالاکییەکانی ساڵە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The almanac says there will be above normal rainfall in the first half of the winter in California."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵنامەکە دەڵێت ئەمساڵ زیاتر لە کاتی ئاسایی باران دەبێت لە نیوەی یەکەمی زستان لە کالیفۆرنیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalmanac4932("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalmanac4932(
-                                        // REPLACE: almanac  /ˈɔːlmənæk/, /ˈælmənæk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The almanac says there will be above normal rainfall in the first half of the winter in California.",
+                            kurdishText:
+                                "ساڵنامەکە دەڵێت ئەمساڵ زیاتر لە کاتی ئاسایی باران دەبێت لە نیوەی یەکەمی زستان لە کالیفۆرنیا.",
+                            onPressedBritish: () => speakalmanac4932("en-GB"),
+                            onPressedAmerican: () => speakalmanac4932(
+                                // REPLACE: almanac  /ˈɔːlmənæk/, /ˈælmənæk/
+                                "en-US"),
                           ),
                         ],
                       ),

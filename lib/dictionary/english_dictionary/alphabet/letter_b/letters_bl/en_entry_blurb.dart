@@ -149,32 +149,13 @@ class EnglishEntryblurb extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کورتە باسێکی کتێبێک، بەرھەمێکی تازە، ھتد کە لەلایەن ئەو کەسانەوە نووسراوە کە بەرھەمیان ھێناوە بۆ ئەوەی سەرنجت ڕابکێشێت یان وات لێ بکات بیکڕیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The blurb says that this is Tarantino’s greatest movie."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کورتەباسەکە دەڵێت ئەمە مەزنترین فیلمی تارانتینۆیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblurbs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblurbs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The blurb says that this is Tarantino’s greatest movie.",
+                            kurdishText:
+                                "کورتەباسەکە دەڵێت ئەمە مەزنترین فیلمی تارانتینۆیە.",
+                            onPressedBritish: () => speakblurbs1("en-GB"),
+                            onPressedAmerican: () => speakblurbs1("en-US"),
                           ),
                         ],
                       ),

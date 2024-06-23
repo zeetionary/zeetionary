@@ -113,34 +113,15 @@ class EnglishEntryairline extends StatelessWidget {
                               text:
                                   "١. (ناو) ھێڵی ئاسمانی؛ کۆمپانیایەک کە گەشتی ئاسمانی ڕێکدەخات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'll never fly this airline (= travel with this airline company) again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز ئەم ھێڵە ئاسمانییە بەکارناھێنمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairline42566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairline42566(
-                                        // REPLACE: airline /ˈerlaɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'll never fly this airline (= travel with this airline company) again.",
+                            kurdishText:
+                                "ھەرگیز ئەم ھێڵە ئاسمانییە بەکارناھێنمەوە.",
+                            onPressedBritish: () => speakairline42566("en-GB"),
+                            onPressedAmerican: () => speakairline42566(
+                                // REPLACE: airline /ˈerlaɪn/
+                                "en-US"),
                           ),
                         ],
                       ),

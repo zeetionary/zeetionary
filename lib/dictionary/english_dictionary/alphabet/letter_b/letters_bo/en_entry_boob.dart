@@ -221,153 +221,57 @@ class EnglishEntryboob extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مەمکی ژن؛ ھەر یەک لەو دوو بەشە نەرم و خڕەی سنگی ژنان کە شیر درووست دەکەن لە دوای منداڵبوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wore a low-cut dress, revealing her boobs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلێکی سنگ نزمی پۆشیبوو کە مەمکەکانی دەرخستبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboobs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboobs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wore a low-cut dress, revealing her boobs.",
+                            kurdishText:
+                                "جلێکی سنگ نزمی پۆشیبوو کە مەمکەکانی دەرخستبوو.",
+                            onPressedBritish: () => speakboobs1("en-GB"),
+                            onPressedAmerican: () => speakboobs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The swimsuit showcased her toned boobs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلەمەلەکە مەمکە توندەکانی دەرخستبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboobs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboobs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The swimsuit showcased her toned boobs.",
+                            kurdishText: "جلەمەلەکە مەمکە توندەکانی دەرخستبوو.",
+                            onPressedBritish: () => speakboobs2("en-GB"),
+                            onPressedAmerican: () => speakboobs2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The comedian joked about his obsession with boobs."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەکتەرە کۆمیدییەکە نوکتەی درووستکرد لەسەر حەزی زۆری بۆ مەمک."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboobs3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboobs3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The comedian joked about his obsession with boobs.",
+                                    kurdishText:
+                                        "ئەکتەرە کۆمیدییەکە نوکتەی درووستکرد لەسەر حەزی زۆری بۆ مەمک.",
+                                    onPressedBritish: () =>
+                                        speakboobs3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboobs3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The dress emphasized her cleavage and boobs."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "جلەکە قڵیشی مەمکی و مەمکەکانی زەقکردبوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboobs4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboobs4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The dress emphasized her cleavage and boobs.",
+                                    kurdishText:
+                                        "جلەکە قڵیشی مەمکی و مەمکەکانی زەقکردبوو.",
+                                    onPressedBritish: () =>
+                                        speakboobs4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboobs4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "You know her - blonde hair and big boobs."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەیناسیت، ئەوەی قژی زەردە و مەمکی زلە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboobs5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboobs5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "You know her - blonde hair and big boobs.",
+                                    kurdishText:
+                                        "ئەیناسیت، ئەوەی قژی زەردە و مەمکی زلە.",
+                                    onPressedBritish: () =>
+                                        speakboobs5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboobs5("en-US"),
                                   ),
                                 ],
                               ),
@@ -376,92 +280,34 @@ class EnglishEntryboob extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ھەڵەیەکی گەمژانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I made a bit of a boob deleting that file."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵەیەکی گەمژانەم کرد ئەو فایلەم سڕییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboobs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboobs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I made a bit of a boob deleting that file.",
+                            kurdishText:
+                                "ھەڵەیەکی گەمژانەم کرد ئەو فایلەم سڕییەوە.",
+                            onPressedBritish: () => speakboobs6("en-GB"),
+                            onPressedAmerican: () => speakboobs6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) کەسێکی گەمژە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't be such a boob; think before you act."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێندە گەمژە مەبە، پێش ئەوەی ھەنگاو بنێیت بیربکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboobs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboobs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Don't be such a boob; think before you act.",
+                            kurdishText:
+                                "ھێندە گەمژە مەبە، پێش ئەوەی ھەنگاو بنێیت بیربکەوە.",
+                            onPressedBritish: () => speakboobs7("en-GB"),
+                            onPressedAmerican: () => speakboobs7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) کردنی ھەڵەیەکی گەمژانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I boobed by forgetting the meeting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵەیەکی گەمژانەم کرد بە لەبیرچوونی کۆبوونەوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboobs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboobs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I boobed by forgetting the meeting.",
+                            kurdishText:
+                                "ھەڵەیەکی گەمژانەم کرد بە لەبیرچوونی کۆبوونەوەکە.",
+                            onPressedBritish: () => speakboobs8("en-GB"),
+                            onPressedAmerican: () => speakboobs8("en-US"),
                           ),
                         ],
                       ),

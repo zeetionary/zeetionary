@@ -147,32 +147,13 @@ class EnglishEntrybrat extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک، بەتایبەتی منداڵ، لە خراپ ڕەفتار دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Why does that irritating little brat ask so many stupid questions?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆچی ئەو بەچکە ھەتیوە بێزارکەرە ھێندە پرسیار زۆر دەکات؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Why does that irritating little brat ask so many stupid questions?",
+                            kurdishText:
+                                "بۆچی ئەو بەچکە ھەتیوە بێزارکەرە ھێندە پرسیار زۆر دەکات؟",
+                            onPressedBritish: () => speakbrats1("en-GB"),
+                            onPressedAmerican: () => speakbrats1("en-US"),
                           ),
                         ],
                       ),

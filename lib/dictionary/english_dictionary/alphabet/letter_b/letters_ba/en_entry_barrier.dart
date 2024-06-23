@@ -154,156 +154,61 @@ class EnglishEntrybarrier extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شتێک کە وەکو پەرژین وایە و ڕێگری لە خەڵکی دەکات لێی تێپەڕبن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The crowd had to stand behind barriers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەماوەرەکە دەبوو لە پشتی بەربەستەوە بوەستن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarriers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarriers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The crowd had to stand behind barriers.",
+                            kurdishText:
+                                "جەماوەرەکە دەبوو لە پشتی بەربەستەوە بوەستن.",
+                            onPressedBritish: () => speakbarriers1("en-GB"),
+                            onPressedAmerican: () => speakbarriers1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) دەروازەی گەراجی ئۆتۆمبێل کە بەرز و نزم دەبێتەوە بۆ ڕێگەدان بە ھاتووچۆ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scan your ticket at the barrier and it will automatically lift."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بلیتەکەت سکان بکە لە دەروازەکە و بە ئۆتۆماتیکی بەرزدەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarriers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarriers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scan your ticket at the barrier and it will automatically lift.",
+                            kurdishText:
+                                "بلیتەکەت سکان بکە لە دەروازەکە و بە ئۆتۆماتیکی بەرزدەبێتەوە.",
+                            onPressedBritish: () => speakbarriers2("en-GB"),
+                            onPressedAmerican: () => speakbarriers2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کێشەیەک یان دۆخێک کە ڕێگر دەبێت لە کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Despite the language barrier (= not speaking the same language), they soon became good friends."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەرچی ئاستەنگی زمانی لە نێوانیان بوو (زمانی یەکدیان نەدەزانی)، بەڵام زوو بوون بە دۆست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarriers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarriers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Despite the language barrier (= not speaking the same language), they soon became good friends.",
+                            kurdishText:
+                                "ئەگەرچی ئاستەنگی زمانی لە نێوانیان بوو (زمانی یەکدیان نەدەزانی)، بەڵام زوو بوون بە دۆست.",
+                            onPressedBritish: () => speakbarriers3("en-GB"),
+                            onPressedAmerican: () => speakbarriers3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) شتێک کە لەنێوان دوو شت یان کەسدا ھەیە و جیایان دەکاتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cream acts as a protective barrier against sun damage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرێمەکە وەک مادەیەکی پارێزەر کاردەکات دژ بە خۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarriers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarriers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cream acts as a protective barrier against sun damage.",
+                            kurdishText:
+                                "کرێمەکە وەک مادەیەکی پارێزەر کاردەکات دژ بە خۆر.",
+                            onPressedBritish: () => speakbarriers4("en-GB"),
+                            onPressedAmerican: () => speakbarriers4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) بڕێک کە گرانە تێیپەڕێنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was the first player whose earnings passed the £10 million barrier."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو یەکەم یاریزان بوو کە قازانجەکانی بەربەستی ١٠ ملیۆن دۆلاری تێپەڕاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarriers5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarriers5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was the first player whose earnings passed the £10 million barrier.",
+                            kurdishText:
+                                "ئەو یەکەم یاریزان بوو کە قازانجەکانی بەربەستی ١٠ ملیۆن دۆلاری تێپەڕاند.",
+                            onPressedBritish: () => speakbarriers5("en-GB"),
+                            onPressedAmerican: () => speakbarriers5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

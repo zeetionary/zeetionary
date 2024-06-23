@@ -157,34 +157,15 @@ class EnglishEntryanode extends StatelessWidget {
                               text:
                                   "١. (ناو) جەمسەری ئەرێنی؛ شوێنی چوونە ژوورەوەی تەزووی کارەبایی لە باتری یان ئامێری کارەبایی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A red wire is often attached to the anode."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وایەرێکی سوور زۆرجار دەلکێنرێت بە جەمسەرە گەرمەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanode936("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakanode936(// REPLACE: anode /ˈænəʊd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A red wire is often attached to the anode.",
+                            kurdishText:
+                                "وایەرێکی سوور زۆرجار دەلکێنرێت بە جەمسەرە گەرمەکەوە.",
+                            onPressedBritish: () => speakanode936("en-GB"),
+                            onPressedAmerican: () =>
+                                speakanode936(// REPLACE: anode /ˈænəʊd/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

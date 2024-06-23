@@ -154,122 +154,46 @@ class EnglishEntrybaton extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دارێک یان تێڵایەک کە پۆلیس بەکاریدێنێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Five people were injured in the baton charge (= one made by police carrying batons, to force a crowd back)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێ کەس برینداربوون لە ھێرشی پۆلیسە کوتەک‌بەدەستەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Five people were injured in the baton charge (= one made by police carrying batons, to force a crowd back).",
+                            kurdishText:
+                                "سێ کەس برینداربوون لە ھێرشی پۆلیسە کوتەک‌بەدەستەکان.",
+                            onPressedBritish: () => speakbatons1("en-GB"),
+                            onPressedAmerican: () => speakbatons1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) دارێک کە سەرپەرشتیاری ئۆرکێسترایەکەوە بەکاردەھێنرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The orchestra played brilliantly under Previn’s baton."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆرکێستراکە بە بلیمەتانە کاریانکرد لەژێر دارەکەی پرێڤندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The orchestra played brilliantly under Previn’s baton.",
+                            kurdishText:
+                                "ئۆرکێستراکە بە بلیمەتانە کاریانکرد لەژێر دارەکەی پرێڤندا.",
+                            onPressedBritish: () => speakbatons2("en-GB"),
+                            onPressedAmerican: () => speakbatons2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) دارێک کە لە یاریدا بەکاردێت و کەسێک دەیدات بە دەستی کەسێکی ترەوە کە ڕادەکات """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The baton dropped to the ground as the third runner stumbled."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دارەکە کەوتە سەر زەوی کە سێیەم ڕاکەر کەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatons4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatons4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The baton dropped to the ground as the third runner stumbled.",
+                            kurdishText:
+                                "دارەکە کەوتە سەر زەوی کە سێیەم ڕاکەر کەوت.",
+                            onPressedBritish: () => speakbatons4("en-GB"),
+                            onPressedAmerican: () => speakbatons4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The President handed over the baton (= passed responsibility) to his successor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک بەرپرسیاریەتی ڕادەستی شوێنگرەوەکەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatons3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatons3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The President handed over the baton (= passed responsibility) to his successor.",
+                            kurdishText:
+                                "سەرۆک بەرپرسیاریەتی ڕادەستی شوێنگرەوەکەی کرد.",
+                            onPressedBritish: () => speakbatons3("en-GB"),
+                            onPressedAmerican: () => speakbatons3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

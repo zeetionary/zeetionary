@@ -164,100 +164,43 @@ class EnglishEntryarc extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ھێڵێکی کەوانەیی کە بەشێکە لە بازنەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ball rose in a high arc and fell behind the boundary line."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆپەکە لە شێوەی کەوانەیەک بەرزبوویەوە و چووە دەرەوەی یاریگاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarc1246("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarc1246(// REPLACE: arc /ɑːrk/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ball rose in a high arc and fell behind the boundary line.",
+                            kurdishText:
+                                "تۆپەکە لە شێوەی کەوانەیەک بەرزبوویەوە و چووە دەرەوەی یاریگاکە.",
+                            onPressedBritish: () => speakarc1246("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarc1246(// REPLACE: arc /ɑːrk/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شێوە کەوانەیی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were firing shells in a high arc over our heads."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوللە تۆپیان ھەڵدەدا بەسەرماندا لە شێوەی کەوانەیەکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarc1249("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarc1249(// REPLACE: arc /ɑːrk/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were firing shells in a high arc over our heads.",
+                            kurdishText:
+                                "گوللە تۆپیان ھەڵدەدا بەسەرماندا لە شێوەی کەوانەیەکدا.",
+                            onPressedBritish: () => speakarc1249("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarc1249(// REPLACE: arc /ɑːrk/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) چیرۆکی سەرەکیی ڕۆمانێک، یان چیرۆکی یەکێک لە کارەکتەرەکانی ڕۆمانێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The father has the most interesting character arc in the series."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوکەکە سەرنجڕاکێشترین چیرۆکی ھەیە لە زنجیرەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarc1252("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarc1252(// REPLACE: arc /ɑːrk/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The father has the most interesting character arc in the series.",
+                            kurdishText:
+                                "باوکەکە سەرنجڕاکێشترین چیرۆکی ھەیە لە زنجیرەکەدا.",
+                            onPressedBritish: () => speakarc1252("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarc1252(// REPLACE: arc /ɑːrk/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

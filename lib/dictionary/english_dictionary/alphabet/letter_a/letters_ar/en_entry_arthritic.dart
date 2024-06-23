@@ -159,34 +159,15 @@ class EnglishEntryarthritic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پەیوەندیدار بە نەخۆشی ھەوکردنی جومگەکان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her hands were swollen and arthritic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستەکانی ئاوساوبوون و تووشی ھەوکردن بووبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarthritic457("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarthritic457(
-                                        // REPLACE: arthritic /ɑːrˈθrɪtɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her hands were swollen and arthritic.",
+                            kurdishText:
+                                "دەستەکانی ئاوساوبوون و تووشی ھەوکردن بووبوون.",
+                            onPressedBritish: () => speakarthritic457("en-GB"),
+                            onPressedAmerican: () => speakarthritic457(
+                                // REPLACE: arthritic /ɑːrˈθrɪtɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

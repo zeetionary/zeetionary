@@ -142,60 +142,22 @@ class EnglishEntrybrusquely extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بە بەکارھێنانی وشەی کەم و بێ‌شەرمانە دەرکەوتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘What's your name?’ he asked brusquely."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە بێ‌ڕێزییەوە وتی 'ناوت چییە؟'"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brusquely" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrusquelys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrusquelys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘What's your name?’ he asked brusquely.",
+                            kurdishText:
+                                "بە بێ‌ڕێزییەوە وتی 'ناوت چییە؟'", // brusquely" as
+                            onPressedBritish: () => speakbrusquelys1("en-GB"),
+                            onPressedAmerican: () => speakbrusquelys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Officials had treated him brusquely during the investigation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسان بێ‌ڕێزانە مامەڵەیان لەگەڵ کرد لەکاتی لێکۆڵینەوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrusquelys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrusquelys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Officials had treated him brusquely during the investigation.",
+                            kurdishText:
+                                "بەرپرسان بێ‌ڕێزانە مامەڵەیان لەگەڵ کرد لەکاتی لێکۆڵینەوەکە.",
+                            onPressedBritish: () => speakbrusquelys2("en-GB"),
+                            onPressedAmerican: () => speakbrusquelys2("en-US"),
                           ),
                         ],
                       ),

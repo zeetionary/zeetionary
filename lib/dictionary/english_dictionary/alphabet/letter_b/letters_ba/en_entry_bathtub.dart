@@ -147,32 +147,13 @@ class EnglishEntrybathtub extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) حەوزی خۆشتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bathtub was so deep that I could completely submerge myself in the water."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەوزی خۆشتنەکە ھێندە قووڵ بوو کە بە تەواوی خۆم نقووم کرد لە ئاوەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbathtubs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbathtubs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bathtub was so deep that I could completely submerge myself in the water.",
+                            kurdishText:
+                                "حەوزی خۆشتنەکە ھێندە قووڵ بوو کە بە تەواوی خۆم نقووم کرد لە ئاوەکەدا.",
+                            onPressedBritish: () => speakbathtubs1("en-GB"),
+                            onPressedAmerican: () => speakbathtubs1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

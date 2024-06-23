@@ -111,35 +111,15 @@ class EnglishEntryalludeto extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) ئاماژەکردن بۆ شتێک؛ باسکردنی شتێک بە ناڕاستەوخۆ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The problem had been alluded to briefly in earlier discussions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە گفتوگۆکانی پێشووتر کێشەکە بە کورتی ئاماژەی پێکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalludeto35477("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalludeto35477(
-                                        // REPLACE: allude to /əˈluːd tə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The problem had been alluded to briefly in earlier discussions.",
+                            kurdishText:
+                                "لە گفتوگۆکانی پێشووتر کێشەکە بە کورتی ئاماژەی پێکراوە.",
+                            onPressedBritish: () => speakalludeto35477("en-GB"),
+                            onPressedAmerican: () => speakalludeto35477(
+                                // REPLACE: allude to /əˈluːd tə/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -150,32 +150,12 @@ class EnglishEntrybiography extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) ژیانی کەسێک کە لەلایەن کەسێکی دیکەوە نووسراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wrote a biography of Winston Churchill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژیاننامەیەکی وینستۆن چەرچڵی نووسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiographys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiographys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wrote a biography of Winston Churchill.",
+                            kurdishText: "ژیاننامەیەکی وینستۆن چەرچڵی نووسی.",
+                            onPressedBritish: () => speakbiographys1("en-GB"),
+                            onPressedAmerican: () => speakbiographys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -151,122 +151,45 @@ class EnglishEntrybirth extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) کاتی لەدایکبوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The baby weighed three kilos at birth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکە سێ کیلۆ بوو لە کاتی لەدایکبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirths1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The baby weighed three kilos at birth.",
+                            kurdishText:
+                                "منداڵەکە سێ کیلۆ بوو لە کاتی لەدایکبوون.",
+                            onPressedBritish: () => speakbirths1("en-GB"),
+                            onPressedAmerican: () => speakbirths1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mark has been blind from birth."),
-                                    ExampleSentenceKurdish(
-                                        text: "مارک لە زگماکەوە کوێر بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirths2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirths2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Mark has been blind from birth.",
+                            kurdishText: "مارک لە زگماکەوە کوێر بووە.",
+                            onPressedBritish: () => speakbirths2("en-GB"),
+                            onPressedAmerican: () => speakbirths2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) سەرەتای شتێکی (دۆخێک، بیرۆکەیەک، شوێنێک، ھتد) نوێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This declaration marked the birth of a new society in South Africa."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاگەیاندنەکە سەرەتای کۆمەڵگەیەکی تازەی لە باشووری ئەفریقا دیاریکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirths3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirths3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This declaration marked the birth of a new society in South Africa.",
+                            kurdishText:
+                                "ڕاگەیاندنەکە سەرەتای کۆمەڵگەیەکی تازەی لە باشووری ئەفریقا دیاریکرد.",
+                            onPressedBritish: () => speakbirths3("en-GB"),
+                            onPressedAmerican: () => speakbirths3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بنەچەی کەسێک یان باری کۆمەڵایەتی خێزانەکەی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Anne was French by birth but lived most of her life in Italy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئان بە بنەچە فەرەنسی بوو، بەڵام زۆرینەی ژیانی لە ئیتالیا بەسەربرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirths4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirths4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Anne was French by birth but lived most of her life in Italy.",
+                            kurdishText:
+                                "ئان بە بنەچە فەرەنسی بوو، بەڵام زۆرینەی ژیانی لە ئیتالیا بەسەربرد.",
+                            onPressedBritish: () => speakbirths4("en-GB"),
+                            onPressedAmerican: () => speakbirths4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

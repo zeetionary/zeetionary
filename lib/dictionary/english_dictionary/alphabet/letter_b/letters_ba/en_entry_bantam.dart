@@ -153,34 +153,15 @@ class EnglishEntrybantam extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جۆرە مریشکێکی بچووک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I see a small difference between a bantam egg and any other egg."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جیاوازییەکی کەم دەبینم لەنێوان ھێلکەی مریشکی بانتم و ھەر ھێلکەیەکی تر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbantams1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbantams1(// REPLACE: bantam
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I see a small difference between a bantam egg and any other egg.",
+                            kurdishText:
+                                "جیاوازییەکی کەم دەبینم لەنێوان ھێلکەی مریشکی بانتم و ھەر ھێلکەیەکی تر.",
+                            onPressedBritish: () => speakbantams1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbantams1(// REPLACE: bantam
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

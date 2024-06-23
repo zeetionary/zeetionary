@@ -148,32 +148,13 @@ class EnglishEntryboiler extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێکە کە تێیدا ئاو گەرم دەکرێت بۆ ئەوەی ئاوی گەرم بۆ بینایەک دابین بکات یان ھەڵم درووست بکات بۆ بزوێنەرێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You might need to install a new boiler."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەنگە پێویست بکات گیزەرێکی تازە دابنەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboilers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboilers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You might need to install a new boiler.",
+                            kurdishText:
+                                "ڕەنگە پێویست بکات گیزەرێکی تازە دابنەیت.",
+                            onPressedBritish: () => speakboilers1("en-GB"),
+                            onPressedAmerican: () => speakboilers1("en-US"),
                           ),
                         ],
                       ),

@@ -201,300 +201,107 @@ class EnglishEntrybelow extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) لە خوارەوە یان بەرەو خوارەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They live on the floor below."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە نھۆمی خوارەوە دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They live on the floor below.",
+                            kurdishText: "لە نھۆمی خوارەوە دەژین.",
+                            onPressedBritish: () => speakbelows1("en-GB"),
+                            onPressedAmerican: () => speakbelows1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I could still see the airport buildings far below."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا دەمتوانی بیناکانی فڕۆکەخانەکە کە زۆر لە خوارەوە بوون ببینم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelows2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelows2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I could still see the airport buildings far below.",
+                            kurdishText:
+                                "ھێشتا دەمتوانی بیناکانی فڕۆکەخانەکە کە زۆر لە خوارەوە بوون ببینم.",
+                            onPressedBritish: () => speakbelows2("en-GB"),
+                            onPressedAmerican: () => speakbelows2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "See below (= at the bottom of the page) for references."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەیری خوارەوە بکە بۆ سەرچاوەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelows3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelows3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "See below (= at the bottom of the page) for references.",
+                            kurdishText: "سەیری خوارەوە بکە بۆ سەرچاوەکان.",
+                            onPressedBritish: () => speakbelows3("en-GB"),
+                            onPressedAmerican: () => speakbelows3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) لە پلەیەکی نزمتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This ruling applies to the ranks of officers and below."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم بڕیارە ئەفسەران و ئەوانەی نزمتر لێیان دەگرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelows4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelows4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This ruling applies to the ranks of officers and below.",
+                            kurdishText:
+                                "ئەم بڕیارە ئەفسەران و ئەوانەی نزمتر لێیان دەگرێتەوە.",
+                            onPressedBritish: () => speakbelows4("en-GB"),
+                            onPressedAmerican: () => speakbelows4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) نزمتر لە سفر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The thermometer had dropped to a record 40 below (= −40 degrees)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەرمی‌پێوەکە دابەزیوە بۆ ٤٠ی ژێر سفر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelows5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelows5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The thermometer had dropped to a record 40 below (= −40 degrees).",
+                            kurdishText:
+                                "گەرمی‌پێوەکە دابەزیوە بۆ ٤٠ی ژێر سفر.",
+                            onPressedBritish: () => speakbelows5("en-GB"),
+                            onPressedAmerican: () => speakbelows5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ئامراز) لە ئاست یان جێگەیەکی خوارتر وەک لە کەسێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please do not write below this line."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە لە خوار ئەم ھێڵەوە مەنووسە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelows6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelows6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Please do not write below this line.",
+                            kurdishText: "تکایە لە خوار ئەم ھێڵەوە مەنووسە.",
+                            onPressedBritish: () => speakbelows6("en-GB"),
+                            onPressedAmerican: () => speakbelows6("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He dived below the surface of the water."),
-                                    ExampleSentenceKurdish(
-                                        text: "دابەزییە ژێر ئاوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelows7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelows7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He dived below the surface of the water.",
+                            kurdishText: "دابەزییە ژێر ئاوەکە.",
+                            onPressedBritish: () => speakbelows7("en-GB"),
+                            onPressedAmerican: () => speakbelows7("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In this school, skirts will be worn below (= long enough to cover) the knee."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەم قوتابخانەیە، تەنوورە دەبێت لەخوار ئەژنۆوە بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelows8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelows8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In this school, skirts will be worn below (= long enough to cover) the knee.",
+                            kurdishText:
+                                "لەم قوتابخانەیە، تەنوورە دەبێت لەخوار ئەژنۆوە بێت.",
+                            onPressedBritish: () => speakbelows8("en-GB"),
+                            onPressedAmerican: () => speakbelows8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ئامراز) لە ئاستێک یان ستانداردی کەمتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The temperatures remained below freezing all day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلەی گەرمی تەواوی ڕۆژەکە لەژێر پلەی بەستن مایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelows9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelows9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The temperatures remained below freezing all day.",
+                            kurdishText:
+                                "پلەی گەرمی تەواوی ڕۆژەکە لەژێر پلەی بەستن مایەوە.",
+                            onPressedBritish: () => speakbelows9("en-GB"),
+                            onPressedAmerican: () => speakbelows9("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ئامراز) لە پلەیەکی نزمتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She held a position below manager in the company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلەیەکی ھەبوو کە لە خوار سەرپەرشتیارەوە بوو لە کۆمپانیاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelows10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelows10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She held a position below manager in the company.",
+                            kurdishText:
+                                "پلەیەکی ھەبوو کە لە خوار سەرپەرشتیارەوە بوو لە کۆمپانیاکە.",
+                            onPressedBritish: () => speakbelows10("en-GB"),
+                            onPressedAmerican: () => speakbelows10("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

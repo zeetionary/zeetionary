@@ -164,250 +164,96 @@ class EnglishEntryaid extends StatelessWidget {
                               text:
                                   "١. (ناو) خواردن و کەلوپەل کە وەک یارمەتی دابەش دەکرێن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The British government has now suspended humanitarian aid to the area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەتی بەریتانیا ھاریکاری مرۆیی بۆ ناوچەکە وەستاندووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaid2522("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaid2522(// REPLACE: aid /eɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The British government has now suspended humanitarian aid to the area.",
+                            kurdishText:
+                                "حکومەتی بەریتانیا ھاریکاری مرۆیی بۆ ناوچەکە وەستاندووە.",
+                            onPressedBritish: () => speakaid2522("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaid2522(// REPLACE: aid /eɪd/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Emergency aid arrived too late for many."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یارمەتی فریاگوزاری زۆر درەنگ بۆ زۆر کەس گەشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaid38996("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaid38996(// REPLACE: aid /eɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Emergency aid arrived too late for many.",
+                            kurdishText:
+                                "یارمەتی فریاگوزاری زۆر درەنگ بۆ زۆر کەس گەشت.",
+                            onPressedBritish: () => speakaid38996("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaid38996(// REPLACE: aid /eɪd/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) یارمەتییەک کە پێویستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One of the staff saw he was in difficulty and came to his aid (= helped him)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە ستافەکە بینی کە لە کێشەدایە و چوو بە ھانای."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaid35288("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaid35288(// REPLACE: aid /eɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One of the staff saw he was in difficulty and came to his aid (= helped him).",
+                            kurdishText:
+                                "یەکێک لە ستافەکە بینی کە لە کێشەدایە و چوو بە ھانای.",
+                            onPressedBritish: () => speakaid35288("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaid35288(// REPLACE: aid /eɪd/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) شتێک کە یارمەتیت دەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Photos make useful teaching aids."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێنە یارمەتیدەری باشە لە فێرکردندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaid37844("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaid37844(// REPLACE: aid /eɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Photos make useful teaching aids.",
+                            kurdishText: "وێنە یارمەتیدەری باشە لە فێرکردندا.",
+                            onPressedBritish: () => speakaid37844("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaid37844(// REPLACE: aid /eɪd/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) یارمەتیتدانی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The charity was established to aid hurricane victims."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێکخراوە خێرخوازییەکە دامەزرا بۆ یارمەتیدانی قوربانیانی گێژەلووکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaid35882555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaid35882555(// REPLACE: aid /eɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The charity was established to aid hurricane victims.",
+                            kurdishText:
+                                "ڕێکخراوە خێرخوازییەکە دامەزرا بۆ یارمەتیدانی قوربانیانی گێژەلووکەکە.",
+                            onPressedBritish: () => speakaid35882555("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaid35882555(// REPLACE: aid /eɪd/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were accused of aiding him to escape."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆمەتبارکران بە یارمەتیدانی لە ڕاکردندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaid45269("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaid45269(// REPLACE: aid /eɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were accused of aiding him to escape.",
+                            kurdishText:
+                                "تۆمەتبارکران بە یارمەتیدانی لە ڕاکردندا.",
+                            onPressedBritish: () => speakaid45269("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaid45269(// REPLACE: aid /eɪd/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) یارمەتیتدانی ڕوودانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "New drugs are now available to aid recovery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرمانە تازەکان ئێستا بەردەستن بۆ یارمەتیدانی چاکبوونەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaid43748("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaid43748(// REPLACE: aid /eɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "New drugs are now available to aid recovery.",
+                            kurdishText:
+                                "دەرمانە تازەکان ئێستا بەردەستن بۆ یارمەتیدانی چاکبوونەوە.",
+                            onPressedBritish: () => speakaid43748("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaid43748(// REPLACE: aid /eɪd/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Peppermint aids digestion."),
-                                    ExampleSentenceKurdish(
-                                        text: "نەعنا یارمەتی ھەرسکردن دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaid35999("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaid35999(// REPLACE: aid /eɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Peppermint aids digestion.",
+                            kurdishText: "نەعنا یارمەتی ھەرسکردن دەدات.",
+                            onPressedBritish: () => speakaid35999("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaid35999(// REPLACE: aid /eɪd/
+                                    "en-US"),
                           ),
                         ],
                       ),

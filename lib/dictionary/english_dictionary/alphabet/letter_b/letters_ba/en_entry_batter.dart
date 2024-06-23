@@ -150,153 +150,56 @@ class EnglishEntrybatter extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) لێدانی شتێک بە بەردەوامی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She battered at the door with her fists."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە مشتی دەیکێشا بە دەرگاکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She battered at the door with her fists.",
+                            kurdishText: "بە مشتی دەیکێشا بە دەرگاکەدا.",
+                            onPressedBritish: () => speakbatters1("en-GB"),
+                            onPressedAmerican: () => speakbatters1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The waves battered against the ship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەپۆلەکان دەیانکێشا بە کەشتییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The waves battered against the ship.",
+                            kurdishText: "شەپۆلەکان دەیانکێشا بە کەشتییەکەدا.",
+                            onPressedBritish: () => speakbatters2("en-GB"),
+                            onPressedAmerican: () => speakbatters2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) تێکەڵەی ھێلکە و شیر و ئارد کە دەکرێت بەسەر ماسی و مریشکدا پێش برژاندن، یان بۆ درووستکردنی شلکێنە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I started mixing the batter for the pancakes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستمکرد بە تێکەڵکردنی ھەویرەکە بۆ کێکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatters3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I started mixing the batter for the pancakes.",
+                            kurdishText:
+                                "دەستمکرد بە تێکەڵکردنی ھەویرەکە بۆ کێکەکە.",
+                            onPressedBritish: () => speakbatters3("en-GB"),
+                            onPressedAmerican: () => speakbatters3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) تێکەڵەی ھێلکە و شیر و ئارد کە بەکاردێت بۆ درووستکردنی کێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In most cake batters you typically add eggs to the batter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە زۆرینەی ھەویری کێکدا بەزۆری ھێلکە زیاددەکرێت بۆ ھەویرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatters4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatters4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In most cake batters you typically add eggs to the batter.",
+                            kurdishText:
+                                "لە زۆرینەی ھەویری کێکدا بەزۆری ھێلکە زیاددەکرێت بۆ ھەویرەکە.",
+                            onPressedBritish: () => speakbatters4("en-GB"),
+                            onPressedAmerican: () => speakbatters4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) لە یاریدا، بۆ نموونە لە بەیسبۆڵ و کریکتدا، بەو کەسە دەوترێت کە لە تۆپەکە دەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jimmy struck out the first batter with ease."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جیمی بە ئاسانی یەکەم تۆپھاوێژی کردە دەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatters5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatters5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Jimmy struck out the first batter with ease.",
+                            kurdishText:
+                                "جیمی بە ئاسانی یەکەم تۆپھاوێژی کردە دەرەوە.",
+                            onPressedBritish: () => speakbatters5("en-GB"),
+                            onPressedAmerican: () => speakbatters5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

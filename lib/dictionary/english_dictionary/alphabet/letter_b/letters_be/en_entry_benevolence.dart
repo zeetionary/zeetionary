@@ -151,34 +151,14 @@ class EnglishEntrybenevolence extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەبوونی خاسیەتی میھرەبانی، یارمەتیدەری، دەستکراوەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His sunny, calm tone suggested a man of deep benevolence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگە ئارام و خۆشحاڵییەکەی وای نیشاندا کە کەسێکی تەواو دڵپاک و چاکەکار بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbenevolences1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbenevolences1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His sunny, calm tone suggested a man of deep benevolence.",
+                            kurdishText:
+                                "دەنگە ئارام و خۆشحاڵییەکەی وای نیشاندا کە کەسێکی تەواو دڵپاک و چاکەکار بێت.",
+                            onPressedBritish: () => speakbenevolences1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbenevolences1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

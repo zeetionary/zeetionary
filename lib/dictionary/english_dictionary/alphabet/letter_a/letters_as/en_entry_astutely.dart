@@ -166,34 +166,15 @@ class EnglishEntryastutely extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەکی بلیمەتی و بیرتیژانە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She astutely points out the differences between the two accounts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەکی بلیمەتانە جیاوازییەکانی نێوان دوو گێڕانەوەکە دەخاتە بەرچاو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakastutely529("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakastutely529(// REPLACE: astutely
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She astutely points out the differences between the two accounts.",
+                            kurdishText:
+                                "بەشێوەیەکی بلیمەتانە جیاوازییەکانی نێوان دوو گێڕانەوەکە دەخاتە بەرچاو.",
+                            onPressedBritish: () => speakastutely529("en-GB"),
+                            onPressedAmerican: () =>
+                                speakastutely529(// REPLACE: astutely
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

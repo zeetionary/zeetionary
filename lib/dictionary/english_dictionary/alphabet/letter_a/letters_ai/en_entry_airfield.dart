@@ -112,35 +112,15 @@ class EnglishEntryairfield extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) سووینێک کە فڕۆکە لێوەی دەفڕێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is not just enough to have a bare airfield."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوونی تەنھا باڵافڕگەیەک بەس نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakspeakAirfiel1355("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakspeakAirfiel1355(
-                                        // REPLACE: airfield /ˈeəfiːld/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is not just enough to have a bare airfield.",
+                            kurdishText: "بوونی تەنھا باڵافڕگەیەک بەس نییە.",
+                            onPressedBritish: () =>
+                                speakspeakAirfiel1355("en-GB"),
+                            onPressedAmerican: () => speakspeakAirfiel1355(
+                                // REPLACE: airfield /ˈeəfiːld/
+                                "en-US"),
                           ),
                         ],
                       ),

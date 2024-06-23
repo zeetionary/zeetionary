@@ -162,69 +162,31 @@ class EnglishEntryantisocial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) خراپ و زیان‌بەخش بۆ کەسێک یان کۆمەڵگە بەگشتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Increasingly, smoking is regarded as an antisocial habit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جگەرەکێشان زیاتر و زیاتر لەلایەن خەڵکییەوە دادەنرێت بە شتێکی ناکۆمەڵایەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantisocial1238("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantisocial1238(
-                                        // REPLACE: antisocial /ˌæntiˈsəʊʃl/, /ˌæntaɪˈsəʊʃl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Increasingly, smoking is regarded as an antisocial habit.",
+                            kurdishText:
+                                "جگەرەکێشان زیاتر و زیاتر لەلایەن خەڵکییەوە دادەنرێت بە شتێکی ناکۆمەڵایەتی.",
+                            onPressedBritish: () =>
+                                speakantisocial1238("en-GB"),
+                            onPressedAmerican: () => speakantisocial1238(
+                                // REPLACE: antisocial /ˌæntiˈsəʊʃl/, /ˌæntaɪˈsəʊʃl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) حەزنەکردن لە کات بەسەربردن لەگەڵ کەسانی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They'll think you're being antisocial if you don't go."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وابیردەکەنەوە ناکۆمەڵایەتیت ئەگەر نەچیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantisocial1240("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantisocial1240(
-                                        // REPLACE: antisocial /ˌæntiˈsəʊʃl/, /ˌæntaɪˈsəʊʃl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They'll think you're being antisocial if you don't go.",
+                            kurdishText:
+                                "وابیردەکەنەوە ناکۆمەڵایەتیت ئەگەر نەچیت.",
+                            onPressedBritish: () =>
+                                speakantisocial1240("en-GB"),
+                            onPressedAmerican: () => speakantisocial1240(
+                                // REPLACE: antisocial /ˌæntiˈsəʊʃl/, /ˌæntaɪˈsəʊʃl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

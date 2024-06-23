@@ -148,94 +148,36 @@ class EnglishEntryblush extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) سووربوونەوەی ڕووخسار بەھۆی ئەوەی خەجاڵەتی یان شەرم دەکەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I blush to think what a fool I made of myself."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوورھەڵدەگەڕێم کە بیر لەوە دەکەمەوە چەندە خۆم گەمژە پیشان دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblushs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblushs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I blush to think what a fool I made of myself.",
+                            kurdishText:
+                                "سوورھەڵدەگەڕێم کە بیر لەوە دەکەمەوە چەندە خۆم گەمژە پیشان دا.",
+                            onPressedBritish: () => speakblushs1("en-GB"),
+                            onPressedAmerican: () => speakblushs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) خەجاڵەت بوون یان شەرمەزار بوون سەبارەت بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I blush to admit it, but I quite like her music."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەرم دەکەم دانی پێدا بنێم، بەڵام تا ڕادیەک حەزم بە گۆرانییەکانیەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblushs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblushs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I blush to admit it, but I quite like her music.",
+                            kurdishText:
+                                "شەرم دەکەم دانی پێدا بنێم، بەڵام تا ڕادیەک حەزم بە گۆرانییەکانیەتی.",
+                            onPressedBritish: () => speakblushs2("en-GB"),
+                            onPressedAmerican: () => speakblushs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ڕەنگی سوور کە بەسەر دەموچاودا دێت کە ھەست بە خەجاڵەتی یان شەرم دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He turned away to hide his blushes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووی وەرگێڕا بۆ شاردنەوەی سوورھەڵگەڕانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblushs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblushs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He turned away to hide his blushes.",
+                            kurdishText:
+                                "ڕووی وەرگێڕا بۆ شاردنەوەی سوورھەڵگەڕانی.",
+                            onPressedBritish: () => speakblushs3("en-GB"),
+                            onPressedAmerican: () => speakblushs3("en-US"),
                           ),
                           // const DividerDefinition(),
                           // const DefinitionKurdish(text: "٤. (ناو) بۆ_دواتر"),

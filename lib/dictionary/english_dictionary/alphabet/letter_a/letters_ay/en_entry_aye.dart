@@ -153,64 +153,25 @@ class EnglishEntryaye extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (سەرسوڕمان) بەڵێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘Did you see what happened?’ ‘Oh aye, I was there.’"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "'بینیت چی ڕوویدا؟' 'بەڵێ، لەوێ بووم'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakayes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakayes1(// REPLACE: aye
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘Did you see what happened?’ ‘Oh aye, I was there.’",
+                            kurdishText:
+                                "'بینیت چی ڕوویدا؟' 'بەڵێ، لەوێ بووم'.",
+                            onPressedBritish: () => speakayes1("en-GB"),
+                            onPressedAmerican: () => speakayes1(// REPLACE: aye
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (سەرسوڕمان) ھەمیشە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have aye wanted to see London."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەمیشە ویستوومە لەندەن ببینم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakayes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakayes2(// REPLACE: aye
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I have aye wanted to see London.",
+                            kurdishText: "ھەمیشە ویستوومە لەندەن ببینم.",
+                            onPressedBritish: () => speakayes2("en-GB"),
+                            onPressedAmerican: () => speakayes2(// REPLACE: aye
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -243,313 +243,117 @@ class EnglishEntryair extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ھەوا؛ ئەو گازانەی کە لە بەرگەھەوای زەویدا ھەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let's go out for some fresh air."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با بچین ھەندێک ھەوای پاک ھەڵمژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakair11524("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakair11524(// REPLACE: air /er/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Let's go out for some fresh air.",
+                            kurdishText: "با بچین ھەندێک ھەوای پاک ھەڵمژین.",
+                            onPressedBritish: () => speakair11524("en-GB"),
+                            onPressedAmerican: () =>
+                                speakair11524(// REPLACE: air /er/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was gasping for air as she ran out of the burning house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەناسەبڕکێی بوو بۆ ھەوا کە لە خانووە سووتاوەکەوە ڕایکردە دەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakair42112("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakair42112(// REPLACE: air /er/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was gasping for air as she ran out of the burning house.",
+                            kurdishText:
+                                "ھەناسەبڕکێی بوو بۆ ھەوا کە لە خانووە سووتاوەکەوە ڕایکردە دەرەوە.",
+                            onPressedBritish: () => speakair42112("en-GB"),
+                            onPressedAmerican: () =>
+                                speakair42112(// REPLACE: air /er/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بۆشایی؛ بۆشایی نێوان زەوی و ئاسمان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Wave your hands in the air!"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەست ڕاوەشێنە لە ھەوادا!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakair2133("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakair2133(// REPLACE: air /er/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Wave your hands in the air!",
+                            kurdishText: "دەست ڕاوەشێنە لە ھەوادا!",
+                            onPressedBritish: () => speakair2133("en-GB"),
+                            onPressedAmerican: () =>
+                                speakair2133(// REPLACE: air /er/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I kicked the ball high into the air."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرز لە تۆپەکەم ھەڵدا بە ئاسماندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakair4144("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakair4144(// REPLACE: air /er/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I kicked the ball high into the air.",
+                            kurdishText: "بەرز لە تۆپەکەم ھەڵدا بە ئاسماندا.",
+                            onPressedBritish: () => speakair4144("en-GB"),
+                            onPressedAmerican: () =>
+                                speakair4144(// REPLACE: air /er/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ئاسمان کە فڕۆکە تێیدا دەفڕێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We watched as the helicopter took to the air."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەیرمان کرد کە ھەلیکۆپتەرەکە فڕییە ئاسمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakair45666("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakair45666(// REPLACE: air /er/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We watched as the helicopter took to the air.",
+                            kurdishText:
+                                "سەیرمان کرد کە ھەلیکۆپتەرەکە فڕییە ئاسمان.",
+                            onPressedBritish: () => speakair45666("en-GB"),
+                            onPressedAmerican: () =>
+                                speakair45666(// REPLACE: air /er/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ڕواڵەت؛ شێوازی دەرکەوتنی شتێک یان کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was an air of complete confidence about her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕواڵەتێکی تەواو خۆباوەڕی تێدا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakair3544("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakair3544(// REPLACE: air /er/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was an air of complete confidence about her.",
+                            kurdishText: "ڕواڵەتێکی تەواو خۆباوەڕی تێدا بوو.",
+                            onPressedBritish: () => speakair3544("en-GB"),
+                            onPressedAmerican: () =>
+                                speakair3544(// REPLACE: air /er/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) وشککردنەوەی جل"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Air the sheets well."),
-                                    ExampleSentenceKurdish(
-                                        text: "پێخەفەکان باش وشک بکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakair58999("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakair58999(// REPLACE: air /er/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Air the sheets well.",
+                            kurdishText: "پێخەفەکان باش وشک بکەوە.",
+                            onPressedBritish: () => speakair58999("en-GB"),
+                            onPressedAmerican: () =>
+                                speakair58999(// REPLACE: air /er/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) ڕێگەدان بە ھەوا بۆ ناو ژوورێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Leave the window open to air the room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجەرەکە بە کراوەیی بھێڵەوە بۆ ئەوەی ھەوای پاک بێتە ژوورەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakair49258("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakair49258(// REPLACE: air /er/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Leave the window open to air the room.",
+                            kurdishText:
+                                "پەنجەرەکە بە کراوەیی بھێڵەوە بۆ ئەوەی ھەوای پاک بێتە ژوورەکەوە.",
+                            onPressedBritish: () => speakair49258("en-GB"),
+                            onPressedAmerican: () =>
+                                speakair49258(// REPLACE: air /er/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (کردار) دەربڕینی بیروڕا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The issues were openly aired and discussed by the group."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بابەتەکان بە ڕاشکاوی دەربڕدران و گەنگەشە کران لەلایەن گرووپەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakair96354("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakair96354(// REPLACE: air /er/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The issues were openly aired and discussed by the group.",
+                            kurdishText:
+                                "بابەتەکان بە ڕاشکاوی دەربڕدران و گەنگەشە کران لەلایەن گرووپەکەوە.",
+                            onPressedBritish: () => speakair96354("en-GB"),
+                            onPressedAmerican: () =>
+                                speakair96354(// REPLACE: air /er/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (کردار) پەخشکردنی پڕۆگرامی تەلەفیزیۆنی یان ڕادیۆیی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The program aired last week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆگرامەکە ھەفتەی ڕابردوو پێشکەشکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakair74952("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakair74952(// REPLACE: air /er/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The program aired last week.",
+                            kurdishText: "پڕۆگرامەکە ھەفتەی ڕابردوو پێشکەشکرا.",
+                            onPressedBritish: () => speakair74952("en-GB"),
+                            onPressedAmerican: () =>
+                                speakair74952(// REPLACE: air /er/
+                                    "en-US"),
                           ),
                         ],
                       ),

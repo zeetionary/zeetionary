@@ -114,35 +114,15 @@ class EnglishEntryalteration extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) گۆڕانکارییەک لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They are making some alterations to the house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک گۆڕانکاری لە خانووەکە دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalteration4522("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalteration4522(
-                                        // REPLACE: alteration /ˌɔːltəˈreɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They are making some alterations to the house.",
+                            kurdishText: "ھەندێک گۆڕانکاری لە خانووەکە دەکەن.",
+                            onPressedBritish: () =>
+                                speakalteration4522("en-GB"),
+                            onPressedAmerican: () => speakalteration4522(
+                                // REPLACE: alteration /ˌɔːltəˈreɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

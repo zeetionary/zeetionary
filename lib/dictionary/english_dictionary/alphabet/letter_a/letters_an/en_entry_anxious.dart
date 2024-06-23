@@ -161,131 +161,55 @@ class EnglishEntryanxious extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) ھەست‌کردن بە نیگەرانی و شڵەژاوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bus was late and Sue began to get anxious."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاسەکە درەنگ کەوتبوو و سوو دەستی‌کرد بە شڵەژان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanxious733("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanxious733(
-                                        // REPLACE: anxious /ˈæŋkʃəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bus was late and Sue began to get anxious.",
+                            kurdishText:
+                                "پاسەکە درەنگ کەوتبوو و سوو دەستی‌کرد بە شڵەژان.",
+                            onPressedBritish: () => speakanxious733("en-GB"),
+                            onPressedAmerican: () => speakanxious733(
+                                // REPLACE: anxious /ˈæŋkʃəs/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I felt very anxious and depressed about the future."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر ھەستم بە نیگەرانی و بێزاری دەکرد سەبارەت بە داھاتوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanxious735("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanxious735(
-                                        // REPLACE: anxious /ˈæŋkʃəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I felt very anxious and depressed about the future.",
+                            kurdishText:
+                                "زۆر ھەستم بە نیگەرانی و بێزاری دەکرد سەبارەت بە داھاتوو.",
+                            onPressedBritish: () => speakanxious735("en-GB"),
+                            onPressedAmerican: () => speakanxious735(
+                                // REPLACE: anxious /ˈæŋkʃəs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک کە دەبێتە ھۆی نیگەرانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were a few anxious moments in the baseball game."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک ساتی ئۆقرەبڕ ھەبوو لە یاری بەیسبۆڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanxious738("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanxious738(
-                                        // REPLACE: anxious /ˈæŋkʃəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were a few anxious moments in the baseball game.",
+                            kurdishText:
+                                "ھەندێک ساتی ئۆقرەبڕ ھەبوو لە یاری بەیسبۆڵەکە.",
+                            onPressedBritish: () => speakanxious738("en-GB"),
+                            onPressedAmerican: () => speakanxious738(
+                                // REPLACE: anxious /ˈæŋkʃəs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) ویستنی زۆری شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was anxious to finish school and get a job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تامەزرۆ بوو قوتابجانە تەواو بکات و کارێک بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanxious743("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanxious743(
-                                        // REPLACE: anxious /ˈæŋkʃəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was anxious to finish school and get a job.",
+                            kurdishText:
+                                "تامەزرۆ بوو قوتابجانە تەواو بکات و کارێک بکات.",
+                            onPressedBritish: () => speakanxious743("en-GB"),
+                            onPressedAmerican: () => speakanxious743(
+                                // REPLACE: anxious /ˈæŋkʃəs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

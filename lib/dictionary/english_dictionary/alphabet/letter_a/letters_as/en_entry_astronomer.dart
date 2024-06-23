@@ -165,35 +165,15 @@ class EnglishEntryastronomer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) زانایەک کە کار لەسەر ئەستێرەناسی دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Astronomers continue to discover new stars."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەستێرەناسان بەردەوامن لە دۆزینەوەی ئەستێرەی تازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakastronomer503("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakastronomer503(
-                                        // REPLACE: astronomer
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Astronomers continue to discover new stars.",
+                            kurdishText:
+                                "ئەستێرەناسان بەردەوامن لە دۆزینەوەی ئەستێرەی تازە.",
+                            onPressedBritish: () => speakastronomer503("en-GB"),
+                            onPressedAmerican: () => speakastronomer503(
+                                // REPLACE: astronomer
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

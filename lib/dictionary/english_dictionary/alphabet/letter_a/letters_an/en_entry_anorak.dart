@@ -157,34 +157,15 @@ class EnglishEntryanorak extends StatelessWidget {
                               text:
                                   "١. (ناو) پاڵتاوێکی کورت لەگەڵ کڵاوێک بۆ پاراستن لە باران"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My Mum made me take my anorak in case it rained."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایکم زۆری لێ‌کردم پاڵتاوەکەم ببەم نەوەک باران ببارێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanorak836("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanorak836(
-                                        // REPLACE: anorak /ˈænəræk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My Mum made me take my anorak in case it rained.",
+                            kurdishText:
+                                "دایکم زۆری لێ‌کردم پاڵتاوەکەم ببەم نەوەک باران ببارێ.",
+                            onPressedBritish: () => speakanorak836("en-GB"),
+                            onPressedAmerican: () => speakanorak836(
+                                // REPLACE: anorak /ˈænəræk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

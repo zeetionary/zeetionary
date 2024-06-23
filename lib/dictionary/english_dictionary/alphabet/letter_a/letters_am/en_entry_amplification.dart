@@ -157,69 +157,31 @@ class EnglishEntryamplification extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) زیادکردنی ھێزی شتێک، بەتایبەتی دەنگ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Amplification of this energy promotes fertilization of the surrounding area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھێزکردنی ئەم وزەیە یارمەتیدەرە بۆ پیتاندنی ناوچەی دەورووبەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamplification102("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamplification102(
-                                        // REPLACE: amplification /ˌæmplɪfɪˈkeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Amplification of this energy promotes fertilization of the surrounding area.",
+                            kurdishText:
+                                "بەھێزکردنی ئەم وزەیە یارمەتیدەرە بۆ پیتاندنی ناوچەی دەورووبەر.",
+                            onPressedBritish: () =>
+                                speakamplification102("en-GB"),
+                            onPressedAmerican: () => speakamplification102(
+                                // REPLACE: amplification /ˌæmplɪfɪˈkeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) زیادکردنی ڕوونکردنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That comment needs some amplification."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو لێدوانە پێویستی بە ھەندێک ڕوونکردنەوە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamplification44140("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamplification44140(
-                                        // REPLACE: amplification /ˌæmplɪfɪˈkeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That comment needs some amplification.",
+                            kurdishText:
+                                "ئەو لێدوانە پێویستی بە ھەندێک ڕوونکردنەوە ھەیە.",
+                            onPressedBritish: () =>
+                                speakamplification44140("en-GB"),
+                            onPressedAmerican: () => speakamplification44140(
+                                // REPLACE: amplification /ˌæmplɪfɪˈkeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

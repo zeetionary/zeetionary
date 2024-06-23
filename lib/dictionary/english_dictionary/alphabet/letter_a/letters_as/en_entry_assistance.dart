@@ -162,66 +162,25 @@ class EnglishEntryassistance extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) یارمەتی و ھاوکاری" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can I be of any assistance?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ ھەیە بتوانم یارمەتیدەربم تێیدا؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassistance907("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassistance907(
-                                        // REPLACE: assistance /əˈsɪstəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can I be of any assistance?",
+                            kurdishText: "ھیچ ھەیە بتوانم یارمەتیدەربم تێیدا؟",
+                            onPressedBritish: () => speakassistance907("en-GB"),
+                            onPressedAmerican: () => speakassistance907(
+                                // REPLACE: assistance /əˈsɪstəns/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The other passengers went to her assistance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرنشینەکانی دیکە چوون بۆ یارمەتیدانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassistance908("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassistance908(
-                                        // REPLACE: assistance /əˈsɪstəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The other passengers went to her assistance.",
+                            kurdishText:
+                                "سەرنشینەکانی دیکە چوون بۆ یارمەتیدانی.",
+                            onPressedBritish: () => speakassistance908("en-GB"),
+                            onPressedAmerican: () => speakassistance908(
+                                // REPLACE: assistance /əˈsɪstəns/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

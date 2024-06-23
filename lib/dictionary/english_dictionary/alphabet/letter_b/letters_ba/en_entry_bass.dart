@@ -151,152 +151,55 @@ class EnglishEntrybass extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) نزمترین تۆنی دەنگ یان بەشی میوزیکێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He sings bass."),
-                                    ExampleSentenceKurdish(
-                                        text: "گۆرانی باس دەڵێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He sings bass.",
+                            kurdishText: "گۆرانی باس دەڵێتەوە.",
+                            onPressedBritish: () => speakbasss1("en-GB"),
+                            onPressedAmerican: () => speakbasss1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) گیتارێکی ئەلیکترۆنی کە نۆتەی زپر نزم لێدەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He played bass in a band."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو گیتاری باس لێدەدات لە باندێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He played bass in a band.",
+                            kurdishText: "ئەو گیتاری باس لێدەدات لە باندێکدا.",
+                            onPressedBritish: () => speakbasss2("en-GB"),
+                            onPressedAmerican: () => speakbasss2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) پیاوێک کە تۆنی دەنگی نزمە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He answered my question in a surprisingly bass."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەڵامی پرسیارەکەمی دایەوە بە دەنگێکی سەیری تۆن نزم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He answered my question in a surprisingly bass.",
+                            kurdishText:
+                                "وەڵامی پرسیارەکەمی دایەوە بە دەنگێکی سەیری تۆن نزم.",
+                            onPressedBritish: () => speakbasss3("en-GB"),
+                            onPressedAmerican: () => speakbasss3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ماسییەک کە بۆ خواردن بەکاردێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Fresh sea bass is a great delicacy."),
-                                    ExampleSentenceKurdish(
-                                        text: "ماسی تازە لەزەتێکی تایبەتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Fresh sea bass is a great delicacy.",
+                            kurdishText: "ماسی تازە لەزەتێکی تایبەتە.",
+                            onPressedBritish: () => speakbasss4("en-GB"),
+                            onPressedAmerican: () => speakbasss4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵناو) تۆن نزم"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This bass part contains some relatively complex passages."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشە تۆن نزمەکە ھەندێک پارچەی تا ڕادەیەک ئاڵۆزی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasss5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasss5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This bass part contains some relatively complex passages.",
+                            kurdishText:
+                                "بەشە تۆن نزمەکە ھەندێک پارچەی تا ڕادەیەک ئاڵۆزی تێدایە.",
+                            onPressedBritish: () => speakbasss5("en-GB"),
+                            onPressedAmerican: () => speakbasss5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

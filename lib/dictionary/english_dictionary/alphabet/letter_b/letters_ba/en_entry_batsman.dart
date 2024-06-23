@@ -150,32 +150,13 @@ class EnglishEntrybatsman extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) یاریزانێک کە لە تۆپەکە دەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The next four batsmen made just 21 between them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوار داربە دەستی دواتر پێکەوە ٢١ خاڵیان تۆمارکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatsmans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatsmans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The next four batsmen made just 21 between them.",
+                            kurdishText:
+                                "چوار داربە دەستی دواتر پێکەوە ٢١ خاڵیان تۆمارکرد.",
+                            onPressedBritish: () => speakbatsmans1("en-GB"),
+                            onPressedAmerican: () => speakbatsmans1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

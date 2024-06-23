@@ -166,35 +166,16 @@ class EnglishEntryautobiographical extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پەوەندیدار بە خۆژین‌نامە؛ کتێبی ژیاننامەی کەسێک کە لەلایەن خۆیەوە نووسراوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The novel is largely autobiographical."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆمانەکە تاڕادەیەکی زۆر خۆژین‌نامەییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautobiographical911("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakautobiographical911(
-                                        // REPLACE: autobiographical
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The novel is largely autobiographical.",
+                            kurdishText:
+                                "ڕۆمانەکە تاڕادەیەکی زۆر خۆژین‌نامەییە.",
+                            onPressedBritish: () =>
+                                speakautobiographical911("en-GB"),
+                            onPressedAmerican: () => speakautobiographical911(
+                                // REPLACE: autobiographical
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

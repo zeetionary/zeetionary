@@ -150,32 +150,13 @@ class EnglishEntrybeet extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕووەکێک کە ڕەگەکەی بەکاردێت وەک سەوزە، بەتایبەتی بۆ خواردنی ئاژەڵان یان درووستکردنی شەکر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The farmers planted rows of beets in their field."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوتیاران چەندان ڕیزی چەوەندەریان چاند لە کێڵگەکانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The farmers planted rows of beets in their field.",
+                            kurdishText:
+                                "جوتیاران چەندان ڕیزی چەوەندەریان چاند لە کێڵگەکانیان.",
+                            onPressedBritish: () => speakbeets1("en-GB"),
+                            onPressedAmerican: () => speakbeets1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

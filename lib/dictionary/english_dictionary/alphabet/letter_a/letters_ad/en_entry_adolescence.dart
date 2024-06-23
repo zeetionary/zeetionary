@@ -113,34 +113,15 @@ class EnglishEntryadolescence extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) قۆناغی بوون بە ھەرزەکار" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Adolescence brings about major changes in a young person’s body."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرزەکاری گۆڕانکاریی گرنگ دێنێتە جەستەی کەسێکی گەنج"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadoles69874("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadoles69874(
-                                        // REPLACE: adolescence /ˌædəˈlesns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Adolescence brings about major changes in a young person’s body.",
+                            kurdishText:
+                                "ھەرزەکاری گۆڕانکاریی گرنگ دێنێتە جەستەی کەسێکی گەنج",
+                            onPressedBritish: () => speakadoles69874("en-GB"),
+                            onPressedAmerican: () => speakadoles69874(
+                                // REPLACE: adolescence /ˌædəˈlesns/
+                                "en-US"),
                           ),
                         ],
                       ),

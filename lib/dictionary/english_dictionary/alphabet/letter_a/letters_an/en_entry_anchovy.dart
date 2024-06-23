@@ -152,34 +152,15 @@ class EnglishEntryanchovy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ماسییەکی بچووک کە دەخورێت و تامی سوێرە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Decorate the top of the pizza with anchovies/strips of anchovy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەوەی پیتزاکە بڕازێنەوە بە پارچە ئانچۆڤی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanchovy502("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanchovy502(
-                                        // REPLACE: anchovy /ˈæntʃəʊvi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Decorate the top of the pizza with anchovies/strips of anchovy.",
+                            kurdishText:
+                                "سەرەوەی پیتزاکە بڕازێنەوە بە پارچە ئانچۆڤی.",
+                            onPressedBritish: () => speakanchovy502("en-GB"),
+                            onPressedAmerican: () => speakanchovy502(
+                                // REPLACE: anchovy /ˈæntʃəʊvi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -114,34 +114,15 @@ class EnglishEntryadmissible extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) شتێک کە پەسەند دەکرێت، زۆرجار لە دادگا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Photographs are usually admissible evidence provided it can be proved that they are authentic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێنە جێیباوەڕە ئەگەر بسەلمێندرێت کە ڕاستین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmis25374("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmis25374(
-                                        // REPLACE: admissible /ədˈmɪsəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Photographs are usually admissible evidence provided it can be proved that they are authentic.",
+                            kurdishText:
+                                "وێنە جێیباوەڕە ئەگەر بسەلمێندرێت کە ڕاستین.",
+                            onPressedBritish: () => speakadmis25374("en-GB"),
+                            onPressedAmerican: () => speakadmis25374(
+                                // REPLACE: admissible /ədˈmɪsəbl/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -155,35 +155,16 @@ class EnglishEntryanticyclone extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەنتی‌سایکلۆن؛ ناوچەیەکی پەستان بەرز کە کەشوھەوایەکی ھێمن و ئاسمانێکی ڕوونی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The anticyclone brought bright sunshine and calm conditions to most areas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دژە-زریانەکە تیشکی ڕوون و کەشی ھێمنی ھێنا بۆ زۆرێک لە ناوچەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanticyclone955("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanticyclone955(
-                                        // REPLACE: anticyclone /ˌæntiˈsaɪkləʊn/, /ˌæntaɪˈsaɪkləʊn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The anticyclone brought bright sunshine and calm conditions to most areas.",
+                            kurdishText:
+                                "دژە-زریانەکە تیشکی ڕوون و کەشی ھێمنی ھێنا بۆ زۆرێک لە ناوچەکان.",
+                            onPressedBritish: () =>
+                                speakanticyclone955("en-GB"),
+                            onPressedAmerican: () => speakanticyclone955(
+                                // REPLACE: anticyclone /ˌæntiˈsaɪkləʊn/, /ˌæntaɪˈsaɪkləʊn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

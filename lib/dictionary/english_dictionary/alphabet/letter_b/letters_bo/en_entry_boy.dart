@@ -323,241 +323,82 @@ class EnglishEntryboy extends StatelessWidget {
 کوردی: پس، کوڕ، لاو، بەچە، کوڕیژگە، مناڵکار، کوڕەکان، شاگرد، بەردەست، نۆکەر، شا، تەح، ئاخ، وەی، پیاح
 """),
                           const DefinitionKurdish(text: "١. (ناو) کوڕ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I used to play here as a boy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران کە تەنھا کوڕێک بووم لێرە یاریم دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I used to play here as a boy.",
+                            kurdishText:
+                                "جاران کە تەنھا کوڕێک بووم لێرە یاریم دەکرد.",
+                            onPressedBritish: () => speakboys1("en-GB"),
+                            onPressedAmerican: () => speakboys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The older boys at school used to tease him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کوڕە بە تەمەنەکان لە قوتابخانە سەریان دەناوەسەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The older boys at school used to tease him.",
+                            kurdishText:
+                                "کوڕە بە تەمەنەکان لە قوتابخانە سەریان دەناوەسەری.",
+                            onPressedBritish: () => speakboys2("en-GB"),
+                            onPressedAmerican: () => speakboys2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Now she's a teenager, she's starting to be interested in boys."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئێستا کە کچەکە پێگەشتووە، دەستیکردووە بە حەزچوون بۆ کوڕان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboys3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboys3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Now she's a teenager, she's starting to be interested in boys.",
+                                    kurdishText:
+                                        "ئێستا کە کچەکە پێگەشتووە، دەستیکردووە بە حەزچوون بۆ کوڕان.",
+                                    onPressedBritish: () => speakboys3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboys3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Be a good boy and get me my coat."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کوڕێکی گوێگر بە و قەمسەڵەکەم بۆ بھێنە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboys4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboys4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Be a good boy and get me my coat.",
+                                    kurdishText:
+                                        "کوڕێکی گوێگر بە و قەمسەڵەکەم بۆ بھێنە.",
+                                    onPressedBritish: () => speakboys4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboys4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Two teenage boys were standing outside the shop."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دوو کوڕی گەنج لە دەرەوەی فرۆشگاکە وەستابوون."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboys5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboys5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Two teenage boys were standing outside the shop.",
+                                    kurdishText:
+                                        "دوو کوڕی گەنج لە دەرەوەی فرۆشگاکە وەستابوون.",
+                                    onPressedBritish: () => speakboys5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboys5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They've had a baby boy."),
-                                            ExampleSentenceKurdish(
-                                                text: "منداڵێکی کوڕیان بووە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboys6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboys6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "They've had a baby boy.",
+                                    kurdishText: "منداڵێکی کوڕیان بووە.",
+                                    onPressedBritish: () => speakboys6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboys6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She gave birth to a healthy baby boy."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "منداڵێکی کوڕی تەندرووستی بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboys7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboys7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She gave birth to a healthy baby boy.",
+                                    kurdishText:
+                                        "منداڵێکی کوڕی تەندرووستی بوو.",
+                                    onPressedBritish: () => speakboys7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboys7("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Oliver is a popular boy's name."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئۆلیڤەر ناوێکی بەربڵاوی کوڕانە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboys8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboys8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Oliver is a popular boy's name.",
+                                    kurdishText:
+                                        "ئۆلیڤەر ناوێکی بەربڵاوی کوڕانە.",
+                                    onPressedBritish: () => speakboys8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboys8("en-US"),
                                   ),
                                 ],
                               ),
@@ -566,147 +407,52 @@ class EnglishEntryboy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) منداڵێکی کوڕی خێزانێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They have two boys and a girl."),
-                                    ExampleSentenceKurdish(
-                                        text: "دوو کوڕ و کچێکیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboys9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboys9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They have two boys and a girl.",
+                            kurdishText: "دوو کوڕ و کچێکیان ھەیە.",
+                            onPressedBritish: () => speakboys9("en-GB"),
+                            onPressedAmerican: () => speakboys9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "How old is your eldest boy?"),
-                                    ExampleSentenceKurdish(
-                                        text: "بە تەمەنترین کوڕت چەند ساڵە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboys10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboys10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "How old is your eldest boy?",
+                            kurdishText: "بە تەمەنترین کوڕت چەند ساڵە؟",
+                            onPressedBritish: () => speakboys10("en-GB"),
+                            onPressedAmerican: () => speakboys10("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text: "I have three boys."),
-                                            ExampleSentenceKurdish(
-                                                text: "سێ کوڕم ھەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboys11("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboys11("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "I have three boys.",
+                                    kurdishText: "سێ کوڕم ھەیە.",
+                                    onPressedBritish: () =>
+                                        speakboys11("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboys11("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Our youngest boy is just starting school."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بچووکترین کوڕمان تازە دەچێتە قوتابخانە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboys12("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboys12("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Our youngest boy is just starting school.",
+                                    kurdishText:
+                                        "بچووکترین کوڕمان تازە دەچێتە قوتابخانە.",
+                                    onPressedBritish: () =>
+                                        speakboys12("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboys12("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Their boy is small for his age."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کوڕەکەیان بچووکە بەپێی تەمەنی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboys13("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboys13("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Their boy is small for his age.",
+                                    kurdishText:
+                                        "کوڕەکەیان بچووکە بەپێی تەمەنی.",
+                                    onPressedBritish: () =>
+                                        speakboys13("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboys13("en-US"),
                                   ),
                                 ],
                               ),
@@ -715,178 +461,64 @@ class EnglishEntryboy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) کوڕێک یان گەنجێک کە کارێک دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company are hiring delivery boys."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە گەنج بۆ دیلیڤەری وەردەگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboys14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboys14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company are hiring delivery boys.",
+                            kurdishText:
+                                "کۆمپانیاکە گەنج بۆ دیلیڤەری وەردەگرن.",
+                            onPressedBritish: () => speakboys14("en-GB"),
+                            onPressedAmerican: () => speakboys14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) قسەکردن لەسەر کەسێک کە خەڵکی شوێنێکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He's a country boy."),
-                                    ExampleSentenceKurdish(
-                                        text: "خەڵکی لادێیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboys15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboys15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's a country boy.",
+                            kurdishText: "خەڵکی لادێیە.",
+                            onPressedBritish: () => speakboys15("en-GB"),
+                            onPressedAmerican: () => speakboys15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) ژمارەیەک کوڕی گەنج کە پێکەوە دەچنە دەرەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He used to like spending Friday nights with the boys."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران حەزی دەکرد شەوانی ھەینی لەگەڵ ھاوڕێیانی بەسەر ببات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboys16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboys16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He used to like spending Friday nights with the boys.",
+                            kurdishText:
+                                "جاران حەزی دەکرد شەوانی ھەینی لەگەڵ ھاوڕێیانی بەسەر ببات.",
+                            onPressedBritish: () => speakboys16("en-GB"),
+                            onPressedAmerican: () => speakboys16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) بۆ ناوھێنانی سەربازانی وڵاتێک و ئەوەی حەزت لێیانە و گرنگیان پێ دەدەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We must not forget our boys serving far from home."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت ڕۆڵەکانمان لەبیر نەکەین کە دوور لە نیشتیمان خزمەت دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboys17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboys17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We must not forget our boys serving far from home.",
+                            kurdishText:
+                                "دەبێت ڕۆڵەکانمان لەبیر نەکەین کە دوور لە نیشتیمان خزمەت دەکەن.",
+                            onPressedBritish: () => speakboys17("en-GB"),
+                            onPressedAmerican: () => speakboys17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (سەرسوڕمان) بەکاردێت بۆ پیشاندانی ھەستی سەرسوڕمان، حەز، یان ئازار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Boy, it sure is hot!"),
-                                    ExampleSentenceKurdish(
-                                        text: "وەی، بە دڵنیاییەوە توونە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboys18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboys18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Boy, it sure is hot!",
+                            kurdishText: "وەی، بە دڵنیاییەوە توونە!",
+                            onPressedBritish: () => speakboys18("en-GB"),
+                            onPressedAmerican: () => speakboys18("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Boy, it hurts!"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئاخ، ئازاری ھەیە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboys19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboys19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Boy, it hurts!",
+                            kurdishText: "ئاخ، ئازاری ھەیە!",
+                            onPressedBritish: () => speakboys19("en-GB"),
+                            onPressedAmerican: () => speakboys19("en-US"),
                           ),
                         ],
                       ),

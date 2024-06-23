@@ -157,34 +157,15 @@ class EnglishEntryballad extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گۆرانییەک یان ھۆنراوەیەک کە چیرۆکێک دەڵێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Adele's 'Someone Like You' is a ballad about lost love."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆرانی 'Someone Like You'ی ئەدێڵ لاوژەیەکە سەبارەت بە خۆشەویستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballads1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballads1(// REPLACE: ballad
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Adele's 'Someone Like You' is a ballad about lost love.",
+                            kurdishText:
+                                "گۆرانی 'Someone Like You'ی ئەدێڵ لاوژەیەکە سەبارەت بە خۆشەویستی.",
+                            onPressedBritish: () => speakballads1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballads1(// REPLACE: ballad
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

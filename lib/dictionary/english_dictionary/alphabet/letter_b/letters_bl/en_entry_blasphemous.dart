@@ -148,34 +148,13 @@ class EnglishEntryblasphemous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ڕەفتارێک یان قسەکردنێک کە لەلایەنی ئایینییەوە پەسەندنەکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many people found the film blasphemous."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر کەس فیلمەکەیان بە کفراوی بینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakblasphemouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakblasphemouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many people found the film blasphemous.",
+                            kurdishText: "زۆر کەس فیلمەکەیان بە کفراوی بینی.",
+                            onPressedBritish: () => speakblasphemouss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakblasphemouss1("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

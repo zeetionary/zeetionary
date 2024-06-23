@@ -114,34 +114,15 @@ class EnglishEntryadviser extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە کاری ڕاوێژکاری دەکات؛ ئامۆژگاری بە کەسێک دەدات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You ought to consult an independent legal adviser."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستە ڕاوێژ بە ڕاوێژکارێکی یاسایی سەربەخۆ بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakad36528("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakad36528(
-                                        // REPLACE: adviser /ədˈvaɪzər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You ought to consult an independent legal adviser.",
+                            kurdishText:
+                                "پێویستە ڕاوێژ بە ڕاوێژکارێکی یاسایی سەربەخۆ بکەیت.",
+                            onPressedBritish: () => speakad36528("en-GB"),
+                            onPressedAmerican: () => speakad36528(
+                                // REPLACE: adviser /ədˈvaɪzər/
+                                "en-US"),
                           ),
                         ],
                       ),

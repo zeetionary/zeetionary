@@ -162,65 +162,25 @@ class EnglishEntryasphalt extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) قیری درووستکرنی شەقام"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The road was paved with asphalt."),
-                                    ExampleSentenceKurdish(
-                                        text: "شەقامەکە قیرتاوکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasphalt528("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasphalt528(
-                                        // REPLACE: asphalt /ˈæsfɔːlt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The road was paved with asphalt.",
+                            kurdishText: "شەقامەکە قیرتاوکرا.",
+                            onPressedBritish: () => speakasphalt528("en-GB"),
+                            onPressedAmerican: () => speakasphalt528(
+                                // REPLACE: asphalt /ˈæsfɔːlt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) قیرتاوکردنی ڕێگایەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The workers asphalted the road."),
-                                    ExampleSentenceKurdish(
-                                        text: "کرێکاران ڕێگاکەیان قیرتاوکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasphalt530("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasphalt530(
-                                        // REPLACE: asphalt /ˈæsfɔːlt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The workers asphalted the road.",
+                            kurdishText: "کرێکاران ڕێگاکەیان قیرتاوکرد.",
+                            onPressedBritish: () => speakasphalt530("en-GB"),
+                            onPressedAmerican: () => speakasphalt530(
+                                // REPLACE: asphalt /ˈæsfɔːlt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

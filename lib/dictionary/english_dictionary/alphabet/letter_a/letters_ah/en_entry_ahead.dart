@@ -143,126 +143,47 @@ class EnglishEntryahead extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) پێشوەختە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'll run ahead and warn them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشوەختە دەچم و ئاگاداریان دەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakahead24999("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakahead24999(
-                                        // REPLACE: ahead /əˈhed/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'll run ahead and warn them.",
+                            kurdishText: "پێشوەختە دەچم و ئاگاداریان دەکەم.",
+                            onPressedBritish: () => speakahead24999("en-GB"),
+                            onPressedAmerican: () => speakahead24999(
+                                // REPLACE: ahead /əˈhed/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This will create problems in the months ahead."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە لە مانگەکانی داھاتوودا کێشە درووست دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakahead12555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakahead12555(
-                                        // REPLACE: ahead /əˈhed/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This will create problems in the months ahead.",
+                            kurdishText:
+                                "ئەمە لە مانگەکانی داھاتوودا کێشە درووست دەکات.",
+                            onPressedBritish: () => speakahead12555("en-GB"),
+                            onPressedAmerican: () => speakahead12555(
+                                // REPLACE: ahead /əˈhed/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) پێشتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The party was planned weeks ahead."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاھەنگەکە چەندین ھەفتە پێشتر پلانی بۆ دانرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakahead43582("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakahead43582(
-                                        // REPLACE: ahead /əˈhed/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The party was planned weeks ahead.",
+                            kurdishText:
+                                "ئاھەنگەکە چەندین ھەفتە پێشتر پلانی بۆ دانرا.",
+                            onPressedBritish: () => speakahead43582("en-GB"),
+                            onPressedAmerican: () => speakahead43582(
+                                // REPLACE: ahead /əˈhed/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) لە پێشەوە لە ڕکابەریدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our team was ahead by six points."),
-                                    ExampleSentenceKurdish(
-                                        text: "تیمەکان بە شەش خاڵ لەپێش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakahead24331("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakahead24331(
-                                        // REPLACE: ahead /əˈhed/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Our team was ahead by six points.",
+                            kurdishText: "تیمەکان بە شەش خاڵ لەپێش بوو.",
+                            onPressedBritish: () => speakahead24331("en-GB"),
+                            onPressedAmerican: () => speakahead24331(
+                                // REPLACE: ahead /əˈhed/
+                                "en-US"),
                           ),
                         ],
                       ),

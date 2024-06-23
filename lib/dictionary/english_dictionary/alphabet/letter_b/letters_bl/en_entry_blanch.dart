@@ -148,64 +148,26 @@ class EnglishEntryblanch extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ڕەنگپەڕین بەھۆی ئەوەی شۆک بویتە یان ترساویت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He blanched visibly when he heard the news."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئاشکرایی رەنگی پەڕی کە ھەواڵەکەی بیست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblanchs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblanchs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He blanched visibly when he heard the news.",
+                            kurdishText:
+                                "بە ئاشکرایی رەنگی پەڕی کە ھەواڵەکەی بیست.",
+                            onPressedBritish: () => speakblanchs1("en-GB"),
+                            onPressedAmerican: () => speakblanchs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ئامادەکردنی خواردن بە خستنە ناو ئاوی کوڵان بۆ ماوەیەکی کەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Blanch the peas quickly before you freeze them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەزالیاکان بەخێرایی ئامادە بکە پێش ئەوەی بیانخەیتە ساردکەرەوەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblanchs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblanchs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Blanch the peas quickly before you freeze them.",
+                            kurdishText:
+                                "بەزالیاکان بەخێرایی ئامادە بکە پێش ئەوەی بیانخەیتە ساردکەرەوەوە.",
+                            onPressedBritish: () => speakblanchs2("en-GB"),
+                            onPressedAmerican: () => speakblanchs2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -151,147 +151,49 @@ class EnglishEntryblessing extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) داواکردن لە خودا بۆ یارمەتی و پاراستن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The blessing was said in Hebrew."),
-                                    ExampleSentenceKurdish(
-                                        text: "نزاکە بە عیبری خوێندرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblessings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblessings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The blessing was said in Hebrew.",
+                            kurdishText: "نزاکە بە عیبری خوێندرا.",
+                            onPressedBritish: () => speakblessings1("en-GB"),
+                            onPressedAmerican: () => speakblessings1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) مۆڵەت یان پشتگیری بۆ شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He went with his parents' blessing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە پشتگیری دایک و باوکییەوە ڕۆشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblessings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblessings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He went with his parents' blessing.",
+                            kurdishText: "بە پشتگیری دایک و باوکییەوە ڕۆشت.",
+                            onPressedBritish: () => speakblessings2("en-GB"),
+                            onPressedAmerican: () => speakblessings2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government gave its blessing to the new plans."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت پشتگیری خۆیدا بە پلانە تازەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblessings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblessings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government gave its blessing to the new plans.",
+                            kurdishText:
+                                "حکومەت پشتگیری خۆیدا بە پلانە تازەکان.",
+                            onPressedBritish: () => speakblessings3("en-GB"),
+                            onPressedAmerican: () => speakblessings3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) شتێکی باش یان بەسوود"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Lack of traffic is one of the blessings of country life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمی ترافیکی ھاتووچۆ یەکێکە لە بەرەکەتەکانی ژیان لە گونددا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblessings4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblessings4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Lack of traffic is one of the blessings of country life.",
+                            kurdishText:
+                                "کەمی ترافیکی ھاتووچۆ یەکێکە لە بەرەکەتەکانی ژیان لە گونددا.",
+                            onPressedBritish: () => speakblessings4("en-GB"),
+                            onPressedAmerican: () => speakblessings4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's a blessing that nobody was in the house at the time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیعمەتێک بوو کە ئەو کات کەس لە ماڵەکە نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblessings5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblessings5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's a blessing that nobody was in the house at the time.",
+                            kurdishText:
+                                "نیعمەتێک بوو کە ئەو کات کەس لە ماڵەکە نەبوو.",
+                            onPressedBritish: () => speakblessings5("en-GB"),
+                            onPressedAmerican: () => speakblessings5("en-US"),
                           ),
                         ],
                       ),

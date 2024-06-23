@@ -100,32 +100,13 @@ class EnglishEntryaccountable extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) دانانی کەسێک بە بەرپرس بۆ قسە و کردارەکانی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Someone must be held accountable for the killings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێک دەبێت بە بەرپرسیار دابنرێت بۆ کووشتنەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka65814("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka65814("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Someone must be held accountable for the killings.",
+                            kurdishText:
+                                "کەسێک دەبێت بە بەرپرسیار دابنرێت بۆ کووشتنەکان.",
+                            onPressedBritish: () => speaka65814("en-GB"),
+                            onPressedAmerican: () => speaka65814("en-US"),
                           ),
                         ],
                       ),

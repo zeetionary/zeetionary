@@ -152,179 +152,63 @@ class EnglishEntrybedroom extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ژووری خەو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is the master bedroom (= the main bedroom of the house)."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەمە ژووری سەرەکی خەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedrooms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedrooms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is the master bedroom (= the main bedroom of the house).",
+                            kurdishText: "ئەمە ژووری سەرەکی خەوە.",
+                            onPressedBritish: () => speakbedrooms1("en-GB"),
+                            onPressedAmerican: () => speakbedrooms1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I went into the bedroom and cried."),
-                                    ExampleSentenceKurdish(
-                                        text: "چوومە ژووری خەو و گریام."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedrooms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedrooms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I went into the bedroom and cried.",
+                            kurdishText: "چوومە ژووری خەو و گریام.",
+                            onPressedBritish: () => speakbedrooms2("en-GB"),
+                            onPressedAmerican: () => speakbedrooms2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All the children had separate bedrooms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو منداڵەکان ژووری خەوی خۆیان ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedrooms3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedrooms3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All the children had separate bedrooms.",
+                            kurdishText:
+                                "ھەموو منداڵەکان ژووری خەوی خۆیان ھەبوو.",
+                            onPressedBritish: () => speakbedrooms3("en-GB"),
+                            onPressedAmerican: () => speakbedrooms3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھەبوونی ژمارەیەکی باسکراو لە ژووری خەو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The larger houses are four-bedroom houses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووە گەورەکان خانووی چوار ژووری خەون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedrooms4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedrooms4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The larger houses are four-bedroom houses.",
+                            kurdishText:
+                                "خانووە گەورەکان خانووی چوار ژووری خەون.",
+                            onPressedBritish: () => speakbedrooms4("en-GB"),
+                            onPressedAmerican: () => speakbedrooms4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) پەیوەندیدار بە سێکس"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has bedroom eyes (= looks as if he is interested in sex)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وادەردەکەوێت مەیلی سێکسی ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedrooms5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedrooms5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has bedroom eyes (= looks as if he is interested in sex).",
+                            kurdishText: "وادەردەکەوێت مەیلی سێکسی ھەبێت.",
+                            onPressedBritish: () => speakbedrooms5("en-GB"),
+                            onPressedAmerican: () => speakbedrooms5("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My dad was embarrassed by the bedroom scenes in the movie."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوکم شەرمەزار بوو بە دیمەنە ورووژێنەرەکانی فیلمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedrooms6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedrooms6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My dad was embarrassed by the bedroom scenes in the movie.",
+                            kurdishText:
+                                "باوکم شەرمەزار بوو بە دیمەنە ورووژێنەرەکانی فیلمەکە.",
+                            onPressedBritish: () => speakbedrooms6("en-GB"),
+                            onPressedAmerican: () => speakbedrooms6("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

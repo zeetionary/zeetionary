@@ -194,90 +194,33 @@ class EnglishEntrybumper extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچەیەک کە لە ئۆتۆمبێل دەبەسترێت بۆ کەمکردنەوەی زیانی پێکدادان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cars were bumper to bumper on the road to the coast (= so close that their bumpers were nearly touching)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکان تەواو لێک نزیک بوون لەسەر ڕێگای چوون بۆ کەنارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bumper", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumpers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumpers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cars were bumper to bumper on the road to the coast (= so close that their bumpers were nearly touching).",
+                            kurdishText:
+                                "ئۆتۆمبێلەکان تەواو لێک نزیک بوون لەسەر ڕێگای چوون بۆ کەنارەکە.", // bumper", follow LX strictly
+                            onPressedBritish: () => speakbumpers1("en-GB"),
+                            onPressedAmerican: () => speakbumpers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He crashed into the van, denting its bumper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشای بە ڤانەکەدا و زەربەگێڕەوەکەی قوپاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumpers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumpers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He crashed into the van, denting its bumper.",
+                            kurdishText:
+                                "کێشای بە ڤانەکەدا و زەربەگێڕەوەکەی قوپاند.",
+                            onPressedBritish: () => speakbumpers2("en-GB"),
+                            onPressedAmerican: () => speakbumpers2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) زۆر گەورە؛ بە ئاستێکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Farmers have been celebrating bumper crops this year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوتیاران خۆشیان لە دانەوێڵەی زۆری بینیوە ئەمساڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumpers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumpers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Farmers have been celebrating bumper crops this year.",
+                            kurdishText:
+                                "جوتیاران خۆشیان لە دانەوێڵەی زۆری بینیوە ئەمساڵ.",
+                            onPressedBritish: () => speakbumpers3("en-GB"),
+                            onPressedAmerican: () => speakbumpers3("en-US"),
                           ),
                         ],
                       ),

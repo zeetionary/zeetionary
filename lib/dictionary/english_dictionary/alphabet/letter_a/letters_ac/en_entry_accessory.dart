@@ -107,60 +107,22 @@ class EnglishEntryaccessory extends StatelessWidget {
                               text:
                                   "١. (ناو) پارچەیەکی شتێک کە زۆر گرنگ نییە، بەڵام دەکرێت زیاد بکرێت وەک جوانکاری"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We stock a large range of bicycle accessories."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر جیاواز لە جوانکارییەکانی پاسکیل دابین دەکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac2598("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac2598("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We stock a large range of bicycle accessories.",
+                            kurdishText:
+                                "ڕێژەیەکی زۆر جیاواز لە جوانکارییەکانی پاسکیل دابین دەکەین.",
+                            onPressedBritish: () => speakac2598("en-GB"),
+                            onPressedAmerican: () => speakac2598("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sunglasses are much more than a fashion accessory."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاویلکە زۆر تەنھا بۆ جوانکاری و مۆدە نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacc711459("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacc711459("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sunglasses are much more than a fashion accessory.",
+                            kurdishText:
+                                "چاویلکە زۆر تەنھا بۆ جوانکاری و مۆدە نییە.",
+                            onPressedBritish: () => speakacc711459("en-GB"),
+                            onPressedAmerican: () => speakacc711459("en-US"),
                           ),
                         ],
                       ),

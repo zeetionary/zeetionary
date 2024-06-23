@@ -150,32 +150,13 @@ class EnglishEntrybirthday extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕۆژی لەدایکبوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She celebrated her 21st birthday with a party for family and friends."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "٢١ ھەمین ڕۆژی لەدایکبوونی پیرۆزکرد بە ئاھەنگێک بۆ خێزانی و ھاوڕێکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirthdays1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirthdays1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She celebrated her 21st birthday with a party for family and friends.",
+                            kurdishText:
+                                "٢١ ھەمین ڕۆژی لەدایکبوونی پیرۆزکرد بە ئاھەنگێک بۆ خێزانی و ھاوڕێکانی.",
+                            onPressedBritish: () => speakbirthdays1("en-GB"),
+                            onPressedAmerican: () => speakbirthdays1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

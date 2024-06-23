@@ -112,66 +112,26 @@ class EnglishEntryailing extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) نەخۆش بەبێ باشتربوون" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She looked after her ailing father."),
-                                    ExampleSentenceKurdish(
-                                        text: "چاودێری باوکە ناساخەکەی دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakailing25388("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakailing25388(
-                                        // REPLACE: ailing /ˈeɪlɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She looked after her ailing father.",
+                            kurdishText: "چاودێری باوکە ناساخەکەی دەکات.",
+                            onPressedBritish: () => speakailing25388("en-GB"),
+                            onPressedAmerican: () => speakailing25388(
+                                // REPLACE: ailing /ˈeɪlɪŋ/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک کە لە بارودۆخێکی باش نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ted asked me if I could help him fix his ailing car."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێد داوای لێ‌کردم کە یارمەتی بدەم ئۆتۆمبێلە داشقەکەی چاکبکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakailing4899956("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakailing4899956(
-                                        // REPLACE: ailing /ˈeɪlɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ted asked me if I could help him fix his ailing car.",
+                            kurdishText:
+                                "تێد داوای لێ‌کردم کە یارمەتی بدەم ئۆتۆمبێلە داشقەکەی چاکبکاتەوە.",
+                            onPressedBritish: () => speakailing4899956("en-GB"),
+                            onPressedAmerican: () => speakailing4899956(
+                                // REPLACE: ailing /ˈeɪlɪŋ/
+                                "en-US"),
                           ),
                         ],
                       ),

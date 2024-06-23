@@ -161,166 +161,70 @@ class EnglishEntrybackground extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) زانیاری لەسەر کەسێک سەبارەت بە خێزانەکەی، خوێندنی، ئەزموونی، ھتد"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We come from very different backgrounds but we get on well."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو پێشینەی جیاوازمان ھەیە بەڵام باش پێکەوە ھەڵدەکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s1(// REPLACE: background
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We come from very different backgrounds but we get on well.",
+                            kurdishText:
+                                "دوو پێشینەی جیاوازمان ھەیە بەڵام باش پێکەوە ھەڵدەکەین.",
+                            onPressedBritish: () => speakb3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s1(// REPLACE: background
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) زانیاری ڕابردوو کە یارمەتیدەر دەبێت لە ڕوونکردنەوەی ڕوودانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book explains the complex historical background to the war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە ھەلومەرجی ئاڵۆزی پێش جەنگەکە ڕووندەکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s2(// REPLACE: background
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book explains the complex historical background to the war.",
+                            kurdishText:
+                                "کتێبەکە ھەلومەرجی ئاڵۆزی پێش جەنگەکە ڕووندەکاتەوە.",
+                            onPressedBritish: () => speakb3s2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s2(// REPLACE: background
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بەشی پشتەوەی وێنەیەک یان دیمەنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The mountains in the background were capped with snow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیاکانی پشتەوە بە بەفر داپۆشرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s3(// REPLACE: background
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The mountains in the background were capped with snow.",
+                            kurdishText: "چیاکانی پشتەوە بە بەفر داپۆشرابوون.",
+                            onPressedBritish: () => speakb3s3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s3(// REPLACE: background
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) شتێک یان کەسێک کە گرنگی پێ نادرێت، یان کەمتر لە شتێک یان کەسێکی تر گرنگی پێ دەدرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a lot of background noise (= that you could hear, but were not listening to)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر ژاوەژاو لە پشتەوە ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s4(// REPLACE: background
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a lot of background noise (= that you could hear, but were not listening to).",
+                            kurdishText:
+                                "ڕێژەیەکی زۆر ژاوەژاو لە پشتەوە ھەبوو.",
+                            onPressedBritish: () => speakb3s4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s4(// REPLACE: background
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) ڕەنگێک یان دیزاینێک کە لە سەری شتێک دەکێشرێت یان دەنووسرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The name of the company is written in red on a white background."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوی کۆمپانیاکە بە سوور نووسراوە لەسەر باکگراوندێکی سپی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s5(// REPLACE: background
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The name of the company is written in red on a white background.",
+                            kurdishText:
+                                "ناوی کۆمپانیاکە بە سوور نووسراوە لەسەر باکگراوندێکی سپی.",
+                            onPressedBritish: () => speakb3s5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s5(// REPLACE: background
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

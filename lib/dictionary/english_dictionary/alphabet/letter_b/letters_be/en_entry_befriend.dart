@@ -147,32 +147,13 @@ class EnglishEntrybefriend extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بوون بە ھاوڕێی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Shortly after my arrival at the school, I was befriended by an older girl."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمێک دوای گەشتنم بە قوتابخانەکە، کچێکی بەتەمەنتر بوو بە ھاوڕێم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbefriends1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbefriends1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Shortly after my arrival at the school, I was befriended by an older girl.",
+                            kurdishText:
+                                "کەمێک دوای گەشتنم بە قوتابخانەکە، کچێکی بەتەمەنتر بوو بە ھاوڕێم.",
+                            onPressedBritish: () => speakbefriends1("en-GB"),
+                            onPressedAmerican: () => speakbefriends1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

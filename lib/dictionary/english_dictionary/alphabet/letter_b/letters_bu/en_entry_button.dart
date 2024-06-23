@@ -195,240 +195,85 @@ class EnglishEntrybutton extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دووگمەی جلوبەگ بۆ بەستنی دوو بەش پێکەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One of the buttons on his jacket was missing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە دووگمەکانی چاکەتەکەی دیار نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "button", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuttons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuttons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One of the buttons on his jacket was missing.",
+                            kurdishText:
+                                "یەکێک لە دووگمەکانی چاکەتەکەی دیار نەبوو.", // button", follow LX strictly
+                            onPressedBritish: () => speakbuttons1("en-GB"),
+                            onPressedAmerican: () => speakbuttons1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The top button of his shirt was undone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووگمەی سەرەوەی کراسەکەی نەدرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuttons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuttons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The top button of his shirt was undone.",
+                            kurdishText: "دووگمەی سەرەوەی کراسەکەی نەدرابوو.",
+                            onPressedBritish: () => speakbuttons2("en-GB"),
+                            onPressedAmerican: () => speakbuttons2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەشێکی ئامێرێک کە پەنجەی پێدا دەنێیت بۆ ئەوەی کاربکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Adam pressed a button on the elevator and waited for the lift."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئادەم پەنجەی نا بە دووگمەیەکدا لەسەر بەرزکەرەوەکە و چاوەڕێی چوونەسەرەوەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuttons3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuttons3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Adam pressed a button on the elevator and waited for the lift.",
+                            kurdishText:
+                                "ئادەم پەنجەی نا بە دووگمەیەکدا لەسەر بەرزکەرەوەکە و چاوەڕێی چوونەسەرەوەی دەکرد.",
+                            onPressedBritish: () => speakbuttons3("en-GB"),
+                            onPressedAmerican: () => speakbuttons3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Choose ‘printer’ from the menu and click with the right mouse button."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وشەی ‘printer’ ھەڵبژێرە لە لیستەکە و دەست بنێ بە دووگمەی ڕاستی ماوسەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuttons4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuttons4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Choose ‘printer’ from the menu and click with the right mouse button.",
+                            kurdishText:
+                                "وشەی ‘printer’ ھەڵبژێرە لە لیستەکە و دەست بنێ بە دووگمەی ڕاستی ماوسەکەدا.",
+                            onPressedBritish: () => speakbuttons4("en-GB"),
+                            onPressedAmerican: () => speakbuttons4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بەشێکی بچووکی کۆمپیوتەرێک یان موبایل کە پەنجەی پێدا دەنێیت بۆ ئەوەی کارێک بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Click on the back button to go back to the previous screen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجە بنێ بە دووگمەی back دا بۆ گەڕانەوە بۆ شاشەی پێشوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuttons5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuttons5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Click on the back button to go back to the previous screen.",
+                            kurdishText:
+                                "پەنجە بنێ بە دووگمەی back دا بۆ گەڕانەوە بۆ شاشەی پێشوو.",
+                            onPressedBritish: () => speakbuttons5("en-GB"),
+                            onPressedAmerican: () => speakbuttons5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) باجێک کە شتێکی لەسەر نووسراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They all wore buttons saying ‘Stop the war’."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموویان باجێکیان بەستبوو کە لەسەری نووسرابوو 'جەنگ بوەستێنن'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuttons6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuttons6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They all wore buttons saying ‘Stop the war’.",
+                            kurdishText:
+                                "ھەموویان باجێکیان بەستبوو کە لەسەری نووسرابوو 'جەنگ بوەستێنن'.",
+                            onPressedBritish: () => speakbuttons6("en-GB"),
+                            onPressedAmerican: () => speakbuttons6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) بەستن بە دووگمە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She buttoned the child into his coat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووگمەی قەمسەڵەی منداڵەکەی بەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuttons7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuttons7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She buttoned the child into his coat.",
+                            kurdishText: "دووگمەی قەمسەڵەی منداڵەکەی بەست.",
+                            onPressedBritish: () => speakbuttons7("en-GB"),
+                            onPressedAmerican: () => speakbuttons7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) بوونی دووگمە بۆ بەستن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dress buttons (up) at the back."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کراسەکە لە پشتەوە بە دووگمە دەبەسترێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuttons8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuttons8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The dress buttons (up) at the back.",
+                            kurdishText:
+                                "کراسەکە لە پشتەوە بە دووگمە دەبەسترێت.",
+                            onPressedBritish: () => speakbuttons8("en-GB"),
+                            onPressedAmerican: () => speakbuttons8("en-US"),
                           ),
                         ],
                       ),

@@ -151,94 +151,37 @@ class EnglishEntryblight extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) ھەبوونی کاریگەرییەکی خراپ لەسەر شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A broken leg blighted her chances of winning the championship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لاق شکاوی شانسی بردنەوەی پاڵەوانێتییەکەی بۆی خستە مەترسییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblights1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblights1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A broken leg blighted her chances of winning the championship.",
+                            kurdishText:
+                                "لاق شکاوی شانسی بردنەوەی پاڵەوانێتییەکەی بۆی خستە مەترسییەوە.",
+                            onPressedBritish: () => speakblights1("en-GB"),
+                            onPressedAmerican: () => speakblights1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھەر نەخۆشییەک کە تووشی ڕووەک ببێت، بەتایبەتی دانەوێڵە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many areas have been devastated by blights which destroyed cereal crops and vines."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆر ناوچە وێرانبوونە بە ئافات کە بەرھەمی دانەوێڵە و دار مێوی لەناوبردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblights2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblights2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many areas have been devastated by blights which destroyed cereal crops and vines.",
+                            kurdishText:
+                                "ژمارەیەکی زۆر ناوچە وێرانبوونە بە ئافات کە بەرھەمی دانەوێڵە و دار مێوی لەناوبردووە.",
+                            onPressedBritish: () => speakblights2("en-GB"),
+                            onPressedAmerican: () => speakblights2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شتێک کە کاریگەرییەکی خراپی ھەیە لەسەر دۆخێک، ژیانی کەسێک، یان ژینگە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their divorce was a great blight on the life of their children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جیابوونەوەکەیان بەڵایەکی گەورە بوو بۆ ژیانی منداڵەکانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblights3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblights3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their divorce was a great blight on the life of their children.",
+                            kurdishText:
+                                "جیابوونەوەکەیان بەڵایەکی گەورە بوو بۆ ژیانی منداڵەکانیان.",
+                            onPressedBritish: () => speakblights3("en-GB"),
+                            onPressedAmerican: () => speakblights3("en-US"),
                           ),
                         ],
                       ),

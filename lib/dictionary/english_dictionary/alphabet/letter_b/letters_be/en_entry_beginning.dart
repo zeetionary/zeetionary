@@ -151,149 +151,54 @@ class EnglishEntrybeginning extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) کاتی دەستپێکردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A story has to have a beginning, middle, and end."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیرۆکێک دەبێت سەرەتا، ناوەڕاست، و کۆتایی ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeginnings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeginnings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A story has to have a beginning, middle, and end.",
+                            kurdishText:
+                                "چیرۆکێک دەبێت سەرەتا، ناوەڕاست، و کۆتایی ھەبێت.",
+                            onPressedBritish: () => speakbeginnings1("en-GB"),
+                            onPressedAmerican: () => speakbeginnings1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We missed the beginning of the movie."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەرەتای فیلمەکەمان لەدەستچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeginnings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeginnings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We missed the beginning of the movie.",
+                            kurdishText: "سەرەتای فیلمەکەمان لەدەستچوو.",
+                            onPressedBritish: () => speakbeginnings2("en-GB"),
+                            onPressedAmerican: () => speakbeginnings2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's been working there since the beginning of last summer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە سەرەتای ھاوینی ڕابردووەوە لەوێ کاردەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeginnings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeginnings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's been working there since the beginning of last summer.",
+                            kurdishText:
+                                "لە سەرەتای ھاوینی ڕابردووەوە لەوێ کاردەکات.",
+                            onPressedBritish: () => speakbeginnings3("en-GB"),
+                            onPressedAmerican: () => speakbeginnings3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) یەکەم یان سەرەتاییترینی کۆمەڵە بیرۆکەیەک، نیشانەیەک، یان قۆناغی شتێک """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Did democracy have its beginnings in ancient Greece?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیموکراسی سەرەتاکەی لە یۆنانی کۆنەوە بوو؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeginnings4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeginnings4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Did democracy have its beginnings in ancient Greece?",
+                            kurdishText:
+                                "دیموکراسی سەرەتاکەی لە یۆنانی کۆنەوە بوو؟",
+                            onPressedBritish: () => speakbeginnings4("en-GB"),
+                            onPressedAmerican: () => speakbeginnings4("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The city had its beginnings in Roman times."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەکە بنەڕەتەکەی دەگەڕێتەوە بۆ سەردەمی ڕۆمەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeginnings5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeginnings5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The city had its beginnings in Roman times.",
+                            kurdishText:
+                                "شارەکە بنەڕەتەکەی دەگەڕێتەوە بۆ سەردەمی ڕۆمەکان.",
+                            onPressedBritish: () => speakbeginnings5("en-GB"),
+                            onPressedAmerican: () => speakbeginnings5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

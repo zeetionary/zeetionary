@@ -282,123 +282,47 @@ class EnglishEntrybond extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە پەیوەندی یان ھاوڕێیەتی درووست دەکات لە نێوان خەڵکی و گرووپدا، بۆ نموونە خۆشەویستی یان بیرۆکە و ئەزموون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A bond of friendship had been forged between them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندییەکی خۆشەویستی درووست بووە لە نێوانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A bond of friendship had been forged between them.",
+                            kurdishText:
+                                "پەیوەندییەکی خۆشەویستی درووست بووە لە نێوانیان.",
+                            onPressedBritish: () => speakbonds1("en-GB"),
+                            onPressedAmerican: () => speakbonds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The agreement strengthened the bonds between the two countries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتنەکە پەیوەندی نێوان دوو وڵاتەکەی بەھێزکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The agreement strengthened the bonds between the two countries.",
+                            kurdishText:
+                                "ڕێککەوتنەکە پەیوەندی نێوان دوو وڵاتەکەی بەھێزکرد.",
+                            onPressedBritish: () => speakbonds2("en-GB"),
+                            onPressedAmerican: () => speakbonds2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The students formed strong bonds with each other."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "قوتابییان پەیوەندیی بەھێزیان لەگەڵ یەکدی درووستکرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbonds3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbonds3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The students formed strong bonds with each other.",
+                                    kurdishText:
+                                        "قوتابییان پەیوەندیی بەھێزیان لەگەڵ یەکدی درووستکرد.",
+                                    onPressedBritish: () =>
+                                        speakbonds3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbonds3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She felt a bond of affection for the other girls."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەستی بە وابەستەیەکی سۆزدارانە دەکرد بەرامبەر بە کچانی دیکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbonds4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbonds4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She felt a bond of affection for the other girls.",
+                                    kurdishText:
+                                        "ھەستی بە وابەستەیەکی سۆزدارانە دەکرد بەرامبەر بە کچانی دیکە.",
+                                    onPressedBritish: () =>
+                                        speakbonds4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbonds4("en-US"),
                                   ),
                                 ],
                               ),
@@ -408,307 +332,112 @@ class EnglishEntrybond extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕێککەوتنێک لەلایەنی حکومەتێک یان بانکێکەوە کە سووت پێبدات بۆ ئەو پارەیەی بە قەرز پێیان دەدەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bonds were redeemed in 2002."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرێبەستەکان لە ساڵی ٢٠٠٢ پاککرانەوە (قەرزەکان درانەوە)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonds5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonds5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The bonds were redeemed in 2002.",
+                            kurdishText:
+                                "گرێبەستەکان لە ساڵی ٢٠٠٢ پاککرانەوە (قەرزەکان درانەوە).",
+                            onPressedBritish: () => speakbonds5("en-GB"),
+                            onPressedAmerican: () => speakbonds5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) بڕێک پارە کە وەک کەفالەت دەدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was released on £5 000 bond."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە کەفالەتی ٥٠٠٠ پاوەند ئازادکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonds6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonds6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was released on £5 000 bond.",
+                            kurdishText: "بە کەفالەتی ٥٠٠٠ پاوەند ئازادکرا.",
+                            onPressedBritish: () => speakbonds6("en-GB"),
+                            onPressedAmerican: () => speakbonds6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) بڕێک ڕێککەوتنێکی یاسایی کە بەپێی ئەوە بانکێک پارەت پێدەدات بۆ بەکارھێنان و بەدرێژایی چەندین ساڵ دەیدەیتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We had to take out a second bond on the property."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویست بوو بیمەی دووەم وەربگرین بە دانانی زەوییەکە وەک زەمانەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonds7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonds7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We had to take out a second bond on the property.",
+                            kurdishText:
+                                "پێویست بوو بیمەی دووەم وەربگرین بە دانانی زەوییەکە وەک زەمانەت.",
+                            onPressedBritish: () => speakbonds7("en-GB"),
+                            onPressedAmerican: () => speakbonds7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) حەبل یان زنجیر کە بەندکراوێکی پێوە بەستراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Loose his bonds and set him free."),
-                                    ExampleSentenceKurdish(
-                                        text: "کۆتەکەی شل بکەوە و ئازادی بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonds8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonds8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Loose his bonds and set him free.",
+                            kurdishText: "کۆتەکەی شل بکەوە و ئازادی بکە.",
+                            onPressedBritish: () => speakbonds8("en-GB"),
+                            onPressedAmerican: () => speakbonds8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) بەڵێن یان ڕێککەوتنێکی یاسایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We entered into a solemn bond."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چووینە ناو ڕێککەوتنێکی فەرمییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonds9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonds9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We entered into a solemn bond.",
+                            kurdishText: "چووینە ناو ڕێککەوتنێکی فەرمییەوە.",
+                            onPressedBritish: () => speakbonds9("en-GB"),
+                            onPressedAmerican: () => speakbonds9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) شێوازی پێکەوەبەسترانی دوو شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When the glue has set, the bond formed is watertight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە چەسپەکە جێی خۆی دەگرێت، شوێنی یەکگرتنەکە ئاو ناکێشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonds10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonds10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When the glue has set, the bond formed is watertight.",
+                            kurdishText:
+                                "کە چەسپەکە جێی خۆی دەگرێت، شوێنی یەکگرتنەکە ئاو ناکێشێت.",
+                            onPressedBritish: () => speakbonds10("en-GB"),
+                            onPressedAmerican: () => speakbonds10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (ناو) ھێزی پێکەوەلکێنەری ئەتۆمەکان لە ئاوێتەیەکی کیمیاییدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Carbon atoms can form bonds not only with themselves but with the atoms of oxygen and nitrogen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەتۆمەکانی کاربۆن دەتوانن بۆند درووست بکەن نەک تەنھا لەگەڵ خۆیان بەڵکو لەگەڵ ئەتۆمەکانی ئۆکسجین و نایترۆجین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonds11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonds11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Carbon atoms can form bonds not only with themselves but with the atoms of oxygen and nitrogen.",
+                            kurdishText:
+                                "ئەتۆمەکانی کاربۆن دەتوانن بۆند درووست بکەن نەک تەنھا لەگەڵ خۆیان بەڵکو لەگەڵ ئەتۆمەکانی ئۆکسجین و نایترۆجین.",
+                            onPressedBritish: () => speakbonds11("en-GB"),
+                            onPressedAmerican: () => speakbonds11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) پێکەوەلکاندنی دوو شت بە توندی پێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This new glue bonds a variety of surfaces in seconds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم چەسپە تازەیە ژمارەیەکی جیاواز لە ڕووکەش پێکەوەدەبەستێت لە چەند چرکەیەکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonds12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonds12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This new glue bonds a variety of surfaces in seconds.",
+                            kurdishText:
+                                "ئەم چەسپە تازەیە ژمارەیەکی جیاواز لە ڕووکەش پێکەوەدەبەستێت لە چەند چرکەیەکدا.",
+                            onPressedBritish: () => speakbonds12("en-GB"),
+                            onPressedAmerican: () => speakbonds12("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "It cannot be used to bond wood to metal."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ناتوانرێت بەکاربھێندرێت بۆ لکاندنی تەختە بە ئاسنەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbonds13("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbonds13("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "It cannot be used to bond wood to metal.",
+                                    kurdishText:
+                                        "ناتوانرێت بەکاربھێندرێت بۆ لکاندنی تەختە بە ئاسنەوە.",
+                                    onPressedBritish: () =>
+                                        speakbonds13("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbonds13("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The atoms bond together to form a molecule."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەتۆمەکان یەکدەگرن بۆ درووستکردنی ئاوێتە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbonds14("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbonds14("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The atoms bond together to form a molecule.",
+                                    kurdishText:
+                                        "ئەتۆمەکان یەکدەگرن بۆ درووستکردنی ئاوێتە.",
+                                    onPressedBritish: () =>
+                                        speakbonds14("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbonds14("en-US"),
                                   ),
                                 ],
                               ),
@@ -718,32 +447,13 @@ class EnglishEntrybond extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١٠. (کردار) درووستکردن یان پەرەپێدانی پەیوەندی لەسەر بنەمای متمانە لەگەڵ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mothers who are depressed sometimes fail to bond with their children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو دایکانەی کە خەمۆکییان ھەیە ھەندێک جار ناتوانن لەگەڵ منداڵەکانیان ئاوێتە بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonds15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonds15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mothers who are depressed sometimes fail to bond with their children.",
+                            kurdishText:
+                                "ئەو دایکانەی کە خەمۆکییان ھەیە ھەندێک جار ناتوانن لەگەڵ منداڵەکانیان ئاوێتە بن.",
+                            onPressedBritish: () => speakbonds15("en-GB"),
+                            onPressedAmerican: () => speakbonds15("en-US"),
                           ),
                         ],
                       ),

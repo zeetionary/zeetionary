@@ -163,32 +163,13 @@ class EnglishEntryastonish extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) سەرسامکردنی زۆر" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The news astonished everyone."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەواڵەکە ھەمووانی حەپەساند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakastonish1031("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakastonish1031(// REPLACE: astonish
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The news astonished everyone.",
+                            kurdishText: "ھەواڵەکە ھەمووانی حەپەساند.",
+                            onPressedBritish: () => speakastonish1031("en-GB"),
+                            onPressedAmerican: () =>
+                                speakastonish1031(// REPLACE: astonish
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

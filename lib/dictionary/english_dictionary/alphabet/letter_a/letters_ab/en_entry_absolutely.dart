@@ -114,85 +114,27 @@ class EnglishEntryabsolutely extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لەوەی شتێک بە تەواوی ڕاستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You're absolutely right."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە تەواوی ڕاست دەکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka8632("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka8632("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You're absolutely right.",
+                            kurdishText: "بە تەواوی ڕاست دەکەیت.",
+                            onPressedBritish: () => speaka8632("en-GB"),
+                            onPressedAmerican: () => speaka8632("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The place was absolutely packed."),
-                                    ExampleSentenceKurdish(
-                                        text: "شوێنەکە بە تەواوی پڕبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakab7569("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakab7569("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The place was absolutely packed.",
+                            kurdishText: "شوێنەکە بە تەواوی پڕبوو.",
+                            onPressedBritish: () => speakab7569("en-GB"),
+                            onPressedAmerican: () => speakab7569("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) لەگەڵ ھاوەڵناو بەکاردێت بۆ دەربڕینی ھەست بە تەواوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She absolutely adores you."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە تەواوی حەزی لێتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2143("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2143("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She absolutely adores you.",
+                            kurdishText: "بە تەواوی حەزی لێتە.",
+                            onPressedBritish: () => speaka2143("en-GB"),
+                            onPressedAmerican: () => speaka2143("en-US"),
                           ),
                         ],
                       ),

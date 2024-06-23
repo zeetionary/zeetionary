@@ -143,31 +143,12 @@ class EnglishEntrybrightly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بەدرەوشاوەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The sun was shining brightly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆر بە پڕتیشکانەوە دەدرەوشایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brightly" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrightlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrightlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The sun was shining brightly.",
+                            kurdishText:
+                                "خۆر بە پڕتیشکانەوە دەدرەوشایەوە.", // brightly" as
+                            onPressedBritish: () => speakbrightlys1("en-GB"),
+                            onPressedAmerican: () => speakbrightlys1("en-US"),
                           ),
                         ],
                       ),

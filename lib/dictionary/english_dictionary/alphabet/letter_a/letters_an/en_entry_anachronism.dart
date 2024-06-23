@@ -158,69 +158,31 @@ class EnglishEntryanachronism extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کۆنەپەرستی؛ شتێک کە پەیوەندی بە ڕابردوو ھەیە و لەگەڵ سەردەمدا یەکناگرێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The monarchy is seen by many people as an anachronism in the modern world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاشایەتی لەلایەن زۆر کەس بە بەشێک لە ڕابردوو دادەنرێت لە جیھانی ئەمڕۆدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanachronism4599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanachronism4599(
-                                        // REPLACE: anachronism /əˈnækrənɪzəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The monarchy is seen by many people as an anachronism in the modern world.",
+                            kurdishText:
+                                "پاشایەتی لەلایەن زۆر کەس بە بەشێک لە ڕابردوو دادەنرێت لە جیھانی ئەمڕۆدا.",
+                            onPressedBritish: () =>
+                                speakanachronism4599("en-GB"),
+                            onPressedAmerican: () => speakanachronism4599(
+                                // REPLACE: anachronism /əˈnækrənɪzəm/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. شتێک کە یەکناگرێتەوە لەگەڵ ئەو سەردەمەی باسی‌دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book is full of anachronisms which suggests there were parts rewritten in later centuries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە پڕە لە پاش‌وپێش‌گەری، ئەمەش واتە ھەندێکی دووبارە نووسرایەوە لە سەدەکانی دواتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanachronism0205("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanachronism0205(
-                                        // REPLACE: anachronism /əˈnækrənɪzəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book is full of anachronisms which suggests there were parts rewritten in later centuries.",
+                            kurdishText:
+                                "کتێبەکە پڕە لە پاش‌وپێش‌گەری، ئەمەش واتە ھەندێکی دووبارە نووسرایەوە لە سەدەکانی دواتر.",
+                            onPressedBritish: () =>
+                                speakanachronism0205("en-GB"),
+                            onPressedAmerican: () => speakanachronism0205(
+                                // REPLACE: anachronism /əˈnækrənɪzəm/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

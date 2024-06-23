@@ -111,98 +111,39 @@ class EnglishEntryamber extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) عەمبەری؛ ڕەنگی زەرد و قاوەیی تێکەڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her amber eyes shone in the dark."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوە عەمبەرییەکانی لە تاریکییەکەدا دەدرەوشانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamber4447("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamber4447(
-                                        // REPLACE: amber /ˈæmbər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her amber eyes shone in the dark.",
+                            kurdishText:
+                                "چاوە عەمبەرییەکانی لە تاریکییەکەدا دەدرەوشانەوە.",
+                            onPressedBritish: () => speakamber4447("en-GB"),
+                            onPressedAmerican: () => speakamber4447(
+                                // REPLACE: amber /ˈæmbər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) عەمبەر؛ مادەیەکی زەرد و قاوەییە کە لە کۆندا لە دارەوە درووست دەبوو و بەکاردەھات بۆ خشڵ و مادەی جوان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has a collection of prehistoric insects preserved in amber."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک لە مێرووی پێش مێژووی ھەیە کە لە عەمبەردا پاراستوونی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamber46922("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamber46922(
-                                        // REPLACE: amber /ˈæmbər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has a collection of prehistoric insects preserved in amber.",
+                            kurdishText:
+                                "ژمارەیەک لە مێرووی پێش مێژووی ھەیە کە لە عەمبەردا پاراستوونی.",
+                            onPressedBritish: () => speakamber46922("en-GB"),
+                            onPressedAmerican: () => speakamber46922(
+                                // REPLACE: amber /ˈæmbər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) عەمبەر؛ ڕەنگی زەردی قاوەیی باو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The traffic lights were on amber."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ترافیک لایتەکان لەسەر گڵۆپە زەردەکە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamber4699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamber4699(
-                                        // REPLACE: amber /ˈæmbər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The traffic lights were on amber.",
+                            kurdishText:
+                                "ترافیک لایتەکان لەسەر گڵۆپە زەردەکە بوون.",
+                            onPressedBritish: () => speakamber4699("en-GB"),
+                            onPressedAmerican: () => speakamber4699(
+                                // REPLACE: amber /ˈæmbər/
+                                "en-US"),
                           ),
                         ],
                       ),

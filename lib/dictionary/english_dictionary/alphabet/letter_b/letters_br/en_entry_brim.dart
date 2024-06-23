@@ -147,175 +147,61 @@ class EnglishEntrybrim extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لێواری گڵاسێک، دەفرێک، دۆڵکەیەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He filled the glass to the brim."),
-                                    ExampleSentenceKurdish(
-                                        text: "گڵاسەکەی تا لێوەکەی پڕکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brim" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrims1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrims1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He filled the glass to the brim.",
+                            kurdishText:
+                                "گڵاسەکەی تا لێوەکەی پڕکرد.", // brim" as
+                            onPressedBritish: () => speakbrims1("en-GB"),
+                            onPressedAmerican: () => speakbrims1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She felt suddenly alive and full to the brim with enthusiasm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراوی) لەناکاو ھەستی بە گڕوتین کرد و تەواو بە جۆش و خرۆش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrims2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrims2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She felt suddenly alive and full to the brim with enthusiasm.",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی) لەناکاو ھەستی بە گڕوتین کرد و تەواو بە جۆش و خرۆش بوو.",
+                            onPressedBritish: () => speakbrims2("en-GB"),
+                            onPressedAmerican: () => speakbrims2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) لێوارەکانی کڵاوێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She watched the crowd from beneath the brim of her hat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ژێرەوەی کڵاوەکەیەوە سەیری جەماوەرەکەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrims3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrims3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She watched the crowd from beneath the brim of her hat.",
+                            kurdishText:
+                                "لە ژێرەوەی کڵاوەکەیەوە سەیری جەماوەرەکەی دەکرد.",
+                            onPressedBritish: () => speakbrims3("en-GB"),
+                            onPressedAmerican: () => speakbrims3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ھەبوونی ئەو جۆرە لێوارەی کە باسکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She wore a wide-brimmed hat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڵاوێکی لێوارە پانی (شەبقە) لەسەر کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrims4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrims4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She wore a wide-brimmed hat.",
+                            kurdishText:
+                                "کڵاوێکی لێوارە پانی (شەبقە) لەسەر کردبوو.",
+                            onPressedBritish: () => speakbrims4("en-GB"),
+                            onPressedAmerican: () => speakbrims4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) پڕ لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Tears brimmed in her eyes."),
-                                    ExampleSentenceKurdish(
-                                        text: "چاوەکانی پڕ لە فرمێسک بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrims5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrims5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Tears brimmed in her eyes.",
+                            kurdishText: "چاوەکانی پڕ لە فرمێسک بوون.",
+                            onPressedBritish: () => speakbrims5("en-GB"),
+                            onPressedAmerican: () => speakbrims5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team were brimming with confidence before the game."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە پڕ لە متمانە بوون پێش یارییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrims6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrims6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The team were brimming with confidence before the game.",
+                            kurdishText:
+                                "تیمەکە پڕ لە متمانە بوون پێش یارییەکە.",
+                            onPressedBritish: () => speakbrims6("en-GB"),
+                            onPressedAmerican: () => speakbrims6("en-US"),
                           ),
                         ],
                       ),

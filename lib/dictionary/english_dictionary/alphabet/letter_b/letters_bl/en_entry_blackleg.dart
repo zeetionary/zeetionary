@@ -149,32 +149,13 @@ class EnglishEntryblackleg extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە بەردەوامە لە کارکردن لە کاتێکدا ھاوکارەکانی مانیان گرتووە لە کارکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some workers viewed blacklegs with disdain, considering them traitors to the collective cause."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کرێکار مانبڕەکانیان ڕێزی کەمەوە و بە خیانەتکار لە ئامانجە گشتییەکەیان دەیانبینن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacklegs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacklegs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some workers viewed blacklegs with disdain, considering them traitors to the collective cause.",
+                            kurdishText:
+                                "ھەندێک کرێکار مانبڕەکانیان ڕێزی کەمەوە و بە خیانەتکار لە ئامانجە گشتییەکەیان دەیانبینن.",
+                            onPressedBritish: () => speakblacklegs1("en-GB"),
+                            onPressedAmerican: () => speakblacklegs1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

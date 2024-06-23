@@ -163,35 +163,16 @@ class EnglishEntryaristocrat extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئەندامێکی چینی باڵای کۆمەڵگە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The castle has been owned by a succession of wealthy aristocrats."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەڵاکە لەلایەن ژمارەیەک خانەدانی یەک لە دوای یەک خاوەندارێتی کراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaristocrat1207("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaristocrat1207(
-                                        // REPLACE: aristocrat /əˈrɪstəkræt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The castle has been owned by a succession of wealthy aristocrats.",
+                            kurdishText:
+                                "قەڵاکە لەلایەن ژمارەیەک خانەدانی یەک لە دوای یەک خاوەندارێتی کراوە.",
+                            onPressedBritish: () =>
+                                speakaristocrat1207("en-GB"),
+                            onPressedAmerican: () => speakaristocrat1207(
+                                // REPLACE: aristocrat /əˈrɪstəkræt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -114,34 +114,15 @@ class EnglishEntryadjudication extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ناو) پڕۆسەی ناوبژی کە نێوان دوو لایەن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The case was referred to a higher court for adjudication."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەیسەکە نێردرا بۆ داگایەکی باڵاتر بۆ ناوبژی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadjudi5684("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadjudi5684(
-                                        // REPLACE: adjudication /əˌdʒuːdɪˈkeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The case was referred to a higher court for adjudication.",
+                            kurdishText:
+                                "کەیسەکە نێردرا بۆ داگایەکی باڵاتر بۆ ناوبژی.",
+                            onPressedBritish: () => speakadjudi5684("en-GB"),
+                            onPressedAmerican: () => speakadjudi5684(
+                                // REPLACE: adjudication /əˌdʒuːdɪˈkeɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

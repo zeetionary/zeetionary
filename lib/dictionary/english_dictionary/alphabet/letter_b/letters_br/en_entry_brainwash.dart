@@ -148,60 +148,22 @@ class EnglishEntrybrainwash extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) زۆرکردن لە کەسێک کە بیرۆکەکانت پەسەند بە بەوەی دووبارە و دووبارەیان بکەیتەوە یان ڕێگەی لێ بگری بەڕوونی بیربکاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The group is accused of brainwashing its young members."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرووپەکە تاوانبارکراوە بە مێشک شتنەوەی ئەندامە گەنجەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrainwashs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrainwashs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The group is accused of brainwashing its young members.",
+                            kurdishText:
+                                "گرووپەکە تاوانبارکراوە بە مێشک شتنەوەی ئەندامە گەنجەکانی.",
+                            onPressedBritish: () => speakbrainwashs1("en-GB"),
+                            onPressedAmerican: () => speakbrainwashs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were brainwashed into believing that their leader was all-powerful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێشکیان شۆردرابووەوە بەوەی باوەڕ بکەن سەرکردەکەیان تەواو بەدەسەڵات بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrainwashs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrainwashs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were brainwashed into believing that their leader was all-powerful.",
+                            kurdishText:
+                                "مێشکیان شۆردرابووەوە بەوەی باوەڕ بکەن سەرکردەکەیان تەواو بەدەسەڵات بوو.",
+                            onPressedBritish: () => speakbrainwashs2("en-GB"),
+                            onPressedAmerican: () => speakbrainwashs2("en-US"),
                           ),
                         ],
                       ),

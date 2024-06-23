@@ -152,121 +152,44 @@ class EnglishEntrybasically extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) تەنھا بە لەبەرچاوگرتنی شتە گرنگەکان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think we are basically saying the same thing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێم‌وایە لە بنەڕەتدا ھەمان شت دەڵێین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasicallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasicallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I think we are basically saying the same thing.",
+                            kurdishText:
+                                "پێم‌وایە لە بنەڕەتدا ھەمان شت دەڵێین.",
+                            onPressedBritish: () => speakbasicallys1("en-GB"),
+                            onPressedAmerican: () => speakbasicallys1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There have been some problems but basically it's a good system."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کێشە ھەبووە، بەڵام لە بنچینەدا سیستەمێکی باشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasicallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasicallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There have been some problems but basically it's a good system.",
+                            kurdishText:
+                                "ھەندێک کێشە ھەبووە، بەڵام لە بنچینەدا سیستەمێکی باشە.",
+                            onPressedBritish: () => speakbasicallys2("en-GB"),
+                            onPressedAmerican: () => speakbasicallys2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەکاردێت کە بۆچوونت دەردەبڕیت یان وتنی ئەوەی چی گرنگترینە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Basically, there's not a lot we can do about it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەڕاستیدا ھیچ نییە بتوانین بیکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasicallys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasicallys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Basically, there's not a lot we can do about it.",
+                            kurdishText: "لەڕاستیدا ھیچ نییە بتوانین بیکەین.",
+                            onPressedBritish: () => speakbasicallys3("en-GB"),
+                            onPressedAmerican: () => speakbasicallys3("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He basically just sits there and does nothing all day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو تەنھا و تەنھا لەوێدا دادەنیشێت لەوێدا و تەواوی ڕۆژەکە ھیچ ناکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasicallys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasicallys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He basically just sits there and does nothing all day.",
+                            kurdishText:
+                                "ئەو تەنھا و تەنھا لەوێدا دادەنیشێت لەوێدا و تەواوی ڕۆژەکە ھیچ ناکات.",
+                            onPressedBritish: () => speakbasicallys4("en-GB"),
+                            onPressedAmerican: () => speakbasicallys4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

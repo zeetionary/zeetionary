@@ -148,32 +148,13 @@ class EnglishEntrybotanical extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پەیوەندیدار بە ڕووەکناسی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several new botanical species have been discovered in the last year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک چەشنی تازەی ڕووەک دۆزراونەتەوە لە ساڵی ڕابردوودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbotanicals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbotanicals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several new botanical species have been discovered in the last year.",
+                            kurdishText:
+                                "ژمارەیەک چەشنی تازەی ڕووەک دۆزراونەتەوە لە ساڵی ڕابردوودا.",
+                            onPressedBritish: () => speakbotanicals1("en-GB"),
+                            onPressedAmerican: () => speakbotanicals1("en-US"),
                           ),
                         ],
                       ),

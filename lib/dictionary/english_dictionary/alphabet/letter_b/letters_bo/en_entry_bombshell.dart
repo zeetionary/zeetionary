@@ -149,90 +149,32 @@ class EnglishEntrybombshell extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ڕووداوێک یان ھەواڵێک کە پێشبینینەکراوە و زۆرجار ناخۆشە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The news of his death came as a bombshell."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەواڵی مردنەکەی چاوەڕواننەکراو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombshells1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombshells1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The news of his death came as a bombshell.",
+                            kurdishText: "ھەواڵی مردنەکەی چاوەڕواننەکراو بوو.",
+                            onPressedBritish: () => speakbombshells1("en-GB"),
+                            onPressedAmerican: () => speakbombshells1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She dropped a bombshell at the meeting and announced that she was leaving."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵێکی چاوەڕواننەکراوی ڕاگەیاند لە کۆبوونەوەکە بەوەی کە وازدێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombshells2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombshells2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She dropped a bombshell at the meeting and announced that she was leaving.",
+                            kurdishText:
+                                "ھەوڵێکی چاوەڕواننەکراوی ڕاگەیاند لە کۆبوونەوەکە بەوەی کە وازدێنێت.",
+                            onPressedBritish: () => speakbombshells2("en-GB"),
+                            onPressedAmerican: () => speakbombshells2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کەسێکی زۆرجوان، بەتایبەتی ژن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The actress is known as a Hollywood bombshell."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانمە ئەکتەرەکە بە شۆخەکەی ھۆڵیوود ناسراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombshells3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombshells3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The actress is known as a Hollywood bombshell.",
+                            kurdishText:
+                                "خانمە ئەکتەرەکە بە شۆخەکەی ھۆڵیوود ناسراوە.",
+                            onPressedBritish: () => speakbombshells3("en-GB"),
+                            onPressedAmerican: () => speakbombshells3("en-US"),
                           ),
                         ],
                       ),

@@ -113,33 +113,12 @@ class EnglishEntryacquittal extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ناساندنی گومانلێکراوێک لە دادگا بە بێ گوناح"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The case resulted in an acquittal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەیسەکە بە لێخۆشبوون کۆتایی ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacqu21647("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacqu21647(
-                                        "en-US"), // REPLACE acquittal /əˈkwɪtl/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The case resulted in an acquittal.",
+                            kurdishText: "کەیسەکە بە لێخۆشبوون کۆتایی ھات.",
+                            onPressedBritish: () => speakacqu21647("en-GB"),
+                            onPressedAmerican: () => speakacqu21647(
+                                "en-US"), // REPLACE acquittal /əˈkwɪtl/
                           ),
                         ],
                       ),

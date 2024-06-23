@@ -158,67 +158,29 @@ class EnglishEntryantenna extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شاخۆچکەی بچووکی ھەندێک مێروو کە بەکاردێن بۆ ھەست‌کردن و 'دەستدان' لە شت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The minister was praised for his acute political antennae (= ability to understand complicated political situations)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەزیرەکە پەسن‌کرا بۆ بیرتیژیی لە سیاسەتدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantenna519("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantenna519(
-                                        // REPLACE: antenna /ænˈtenə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The minister was praised for his acute political antennae (= ability to understand complicated political situations).",
+                            kurdishText:
+                                "وەزیرەکە پەسن‌کرا بۆ بیرتیژیی لە سیاسەتدا.",
+                            onPressedBritish: () => speakantenna519("en-GB"),
+                            onPressedAmerican: () => speakantenna519(
+                                // REPLACE: antenna /ænˈtenə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پارچە دەزگایەک کە لە وایەر درووستکراوە یان پارچە ئاسنی باریک بۆ وەرگرتن و ناردنی ئاماژەی ڕادیۆ یان تەلەڤیزیۆن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They installed a dish antenna on the roof."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەحنەی سەتەلایتێکیان لە سەربانەکە دانا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantenna523("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantenna523(
-                                        // REPLACE: antenna /ænˈtenə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They installed a dish antenna on the roof.",
+                            kurdishText:
+                                "سەحنەی سەتەلایتێکیان لە سەربانەکە دانا.",
+                            onPressedBritish: () => speakantenna523("en-GB"),
+                            onPressedAmerican: () => speakantenna523(
+                                // REPLACE: antenna /ænˈtenə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

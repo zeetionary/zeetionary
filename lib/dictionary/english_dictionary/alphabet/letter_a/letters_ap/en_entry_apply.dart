@@ -159,195 +159,81 @@ class EnglishEntryapply extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) پێشکەشکردنی داواکارییەک، زۆرجار بە نووسین، بۆ کارێک، قەرزێک، مۆڵەتی کردنی شتێک، یان جێگایەک لە زانکۆ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have decided to apply for this new job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارم داوە داخوازینامە بۆ ئەم کارە تازە پێشکەش بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapply736("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakapply736(// REPLACE: apply /əˈplaɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I have decided to apply for this new job.",
+                            kurdishText:
+                                "بڕیارم داوە داخوازینامە بۆ ئەم کارە تازە پێشکەش بکەم.",
+                            onPressedBritish: () => speakapply736("en-GB"),
+                            onPressedAmerican: () =>
+                                speakapply736(// REPLACE: apply /əˈplaɪ/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They may apply to the court for the decision to be reversed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەوانەیە داوا پێشکەشی دادگا بکەن بۆ ھەڵوەشاندنەوەی بڕیارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapply738("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakapply738(// REPLACE: apply /əˈplaɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They may apply to the court for the decision to be reversed.",
+                            kurdishText:
+                                "لەوانەیە داوا پێشکەشی دادگا بکەن بۆ ھەڵوەشاندنەوەی بڕیارەکە.",
+                            onPressedBritish: () => speakapply738("en-GB"),
+                            onPressedAmerican: () =>
+                                speakapply738(// REPLACE: apply /əˈplaɪ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) جێبەجێبوونی شتێک، یان پەیوەندیداربوونی بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What I am saying applies only to some of you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوەی دەیڵێم تەنھا بەسەر ھەندێکتان دەچەسپێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapply741("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakapply741(// REPLACE: apply /əˈplaɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What I am saying applies only to some of you.",
+                            kurdishText:
+                                "ئەوەی دەیڵێم تەنھا بەسەر ھەندێکتان دەچەسپێ.",
+                            onPressedBritish: () => speakapply741("en-GB"),
+                            onPressedAmerican: () =>
+                                speakapply741(// REPLACE: apply /əˈplaɪ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) جێبەجێبوونی شتێک، یان پەیوەندیداربوونی بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new technology was applied to farming."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەکنەلۆژیا تازەکە بەکارھێندرا لە کشتوکاڵدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapply744("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakapply744(// REPLACE: apply /əˈplaɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new technology was applied to farming.",
+                            kurdishText:
+                                "تەکنەلۆژیا تازەکە بەکارھێندرا لە کشتوکاڵدا.",
+                            onPressedBritish: () => speakapply744("en-GB"),
+                            onPressedAmerican: () =>
+                                speakapply744(// REPLACE: apply /əˈplaɪ/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Now is the time to apply the insights you have gained from your studies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێستا کاتی بەکارھێنانی ئەو توانایانەیە کە لە خوێندن فێریان بوویت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapply747("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakapply747(// REPLACE: apply /əˈplaɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Now is the time to apply the insights you have gained from your studies.",
+                            kurdishText:
+                                "ئێستا کاتی بەکارھێنانی ئەو توانایانەیە کە لە خوێندن فێریان بوویت.",
+                            onPressedBritish: () => speakapply747("en-GB"),
+                            onPressedAmerican: () =>
+                                speakapply747(// REPLACE: apply /əˈplaɪ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) دانانی بۆیە یان کرێم لەسەر ڕوویەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The glue should be applied to both surfaces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەسپەکە دەبێت لە ھەردوو ڕووەکە بدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapply749("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakapply749(// REPLACE: apply /əˈplaɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The glue should be applied to both surfaces.",
+                            kurdishText:
+                                "چەسپەکە دەبێت لە ھەردوو ڕووەکە بدرێت.",
+                            onPressedBritish: () => speakapply749("en-GB"),
+                            onPressedAmerican: () =>
+                                speakapply749(// REPLACE: apply /əˈplaɪ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

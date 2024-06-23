@@ -144,60 +144,22 @@ class EnglishEntrybroke extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بێ پارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm always broke by the end of the month."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە لەکۆتایی مانگدا بێ پارەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broke" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrokes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrokes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm always broke by the end of the month.",
+                            kurdishText:
+                                "ھەمیشە لەکۆتایی مانگدا بێ پارەم.", // broke" as
+                            onPressedBritish: () => speakbrokes1("en-GB"),
+                            onPressedAmerican: () => speakbrokes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "During the recession thousands of small businesses went broke (= had to stop doing business)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتی قەیرانەکەدا چەندین بازرگانیی بچووک مایەپووچ بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrokes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrokes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "During the recession thousands of small businesses went broke (= had to stop doing business).",
+                            kurdishText:
+                                "لە کاتی قەیرانەکەدا چەندین بازرگانیی بچووک مایەپووچ بوون.",
+                            onPressedBritish: () => speakbrokes2("en-GB"),
+                            onPressedAmerican: () => speakbrokes2("en-US"),
                           ),
                         ],
                       ),

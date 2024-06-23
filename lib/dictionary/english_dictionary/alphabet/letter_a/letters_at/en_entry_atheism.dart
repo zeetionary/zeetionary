@@ -165,34 +165,15 @@ class EnglishEntryatheism extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ناو) باوەڕی ئەوەی کە خودا بوونی نییە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is torn between atheism and the religious traditions she was raised with."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گیری‌خواردووە لە نێوان ئەیسییزم و ئەو باوەڕە ئاینییانەی لەسەری گەورەکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakatheism731("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakatheism731(// REPLACE: atheism
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is torn between atheism and the religious traditions she was raised with.",
+                            kurdishText:
+                                "گیری‌خواردووە لە نێوان ئەیسییزم و ئەو باوەڕە ئاینییانەی لەسەری گەورەکرا.",
+                            onPressedBritish: () => speakatheism731("en-GB"),
+                            onPressedAmerican: () =>
+                                speakatheism731(// REPLACE: atheism
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

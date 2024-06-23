@@ -124,64 +124,26 @@ class EnglishEntryalso extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) ھەروەھا" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's fluent in French and German. She also speaks a little Italian."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فەرەنسی و ئەڵمانی بە پاراوی دەزانێت. ھەروەھا کەمێک ئیتالیش دەزانێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalso74823("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalso74823(
-                                        // REPLACE: also /ˈɔːlsəʊ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's fluent in French and German. She also speaks a little Italian.",
+                            kurdishText:
+                                "فەرەنسی و ئەڵمانی بە پاراوی دەزانێت. ھەروەھا کەمێک ئیتالیش دەزانێت.",
+                            onPressedBritish: () => speakalso74823("en-GB"),
+                            onPressedAmerican: () => speakalso74823(
+                                // REPLACE: also /ˈɔːlsəʊ/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I didn't like it that much. Also, it was much too expensive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرم حەز لێ نەبوو. ھەروەھا زۆریش گران بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalso459("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakalso459(// REPLACE: also /ˈɔːlsəʊ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I didn't like it that much. Also, it was much too expensive.",
+                            kurdishText:
+                                "زۆرم حەز لێ نەبوو. ھەروەھا زۆریش گران بوو.",
+                            onPressedBritish: () => speakalso459("en-GB"),
+                            onPressedAmerican: () =>
+                                speakalso459(// REPLACE: also /ˈɔːlsəʊ/
+                                    "en-US"),
                           ),
                         ],
                       ),

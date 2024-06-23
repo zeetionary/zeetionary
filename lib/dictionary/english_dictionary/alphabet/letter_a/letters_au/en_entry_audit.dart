@@ -166,133 +166,56 @@ class EnglishEntryaudit extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) لێکۆڵینەوەی وردی تۆمارەکانی کۆمپانیایەک بۆ زانینی ڕاستییان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company has an audit at the end of each year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە پێداچوونەوەیەک دەکات لە کۆتایی ھەر ساڵێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudit201("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudit201(// REPLACE: audit
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company has an audit at the end of each year.",
+                            kurdishText:
+                                "کۆمپانیاکە پێداچوونەوەیەک دەکات لە کۆتایی ھەر ساڵێک.",
+                            onPressedBritish: () => speakaudit201("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudit201(// REPLACE: audit
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) لێکۆڵینەوەی ورد بۆ دڵنیایی لە کوالێتی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Managers should undertake an audit of staff performance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرپەرشتیاران دەبێت پێداچوونەوەیەک بە توانای ستافدا بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudit205("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudit205(// REPLACE: audit
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Managers should undertake an audit of staff performance.",
+                            kurdishText:
+                                "سەرپەرشتیاران دەبێت پێداچوونەوەیەک بە توانای ستافدا بکەن.",
+                            onPressedBritish: () => speakaudit205("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudit205(// REPLACE: audit
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) پێداچوونەوە لە تۆماری ئابووری کۆمپانیایەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have just had our accounts audited."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆمارەکانمان تازەگی پێداچوونەوەیان بۆ کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudit208("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudit208(// REPLACE: audit
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have just had our accounts audited.",
+                            kurdishText:
+                                "تۆمارەکانمان تازەگی پێداچوونەوەیان بۆ کرا.",
+                            onPressedBritish: () => speakaudit208("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudit208(// REPLACE: audit
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) بەژداریکردن لە کۆرسەکانی کۆلێژێک یان زانکۆیەک بەبێ وەرگرتنی بڕوانامە یان ئەنجامدانی تاقیکردنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She audited classes at the University of California."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەچووە وانەکان لە زانکۆی کالیفۆرنیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudit211("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudit211(// REPLACE: audit
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She audited classes at the University of California.",
+                            kurdishText: "دەچووە وانەکان لە زانکۆی کالیفۆرنیا.",
+                            onPressedBritish: () => speakaudit211("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudit211(// REPLACE: audit
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

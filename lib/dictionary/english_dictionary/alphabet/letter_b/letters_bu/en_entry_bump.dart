@@ -301,123 +301,44 @@ class EnglishEntrybump extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) لێدان لە شتێک بە ڕێکەوت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the dark I bumped into a chair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تاریکییەکەدا خۆم کێشا بە کورسییەکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bump", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "In the dark I bumped into a chair.",
+                            kurdishText:
+                                "لە تاریکییەکەدا خۆم کێشا بە کورسییەکدا.", // bump", follow LX strictly
+                            onPressedBritish: () => speakbumps1("en-GB"),
+                            onPressedAmerican: () => speakbumps1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car bumped against the kerb."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە کێشای بە قەراغەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The car bumped against the kerb.",
+                            kurdishText: "ئۆتۆمبێلەکە کێشای بە قەراغەکەدا.",
+                            onPressedBritish: () => speakbumps2("en-GB"),
+                            onPressedAmerican: () => speakbumps2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Toddlers are always falling over and bumping their heads."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "منداڵان ھەمیشە دەکەون و سەریان دەدەن بە زەویدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbumps4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbumps4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Toddlers are always falling over and bumping their heads.",
+                                    kurdishText:
+                                        "منداڵان ھەمیشە دەکەون و سەریان دەدەن بە زەویدا.",
+                                    onPressedBritish: () =>
+                                        speakbumps4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbumps4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I bumped my head on the door frame."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سەرمم کێشا بە چوارچێوەی دەرگاکەدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbumps3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbumps3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I bumped my head on the door frame.",
+                                    kurdishText:
+                                        "سەرمم کێشا بە چوارچێوەی دەرگاکەدا.",
+                                    onPressedBritish: () =>
+                                        speakbumps3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbumps3("en-US"),
                                   ),
                                 ],
                               ),
@@ -426,244 +347,91 @@ class EnglishEntrybump extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) جوڵان بەسەر ڕوویەکی سەختدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The jeep bumped along the dirt track."),
-                                    ExampleSentenceKurdish(
-                                        text: "جیبەکەبە ڕێگا قوڕەکەدا چوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The jeep bumped along the dirt track.",
+                            kurdishText: "جیبەکەبە ڕێگا قوڕەکەدا چوو.",
+                            onPressedBritish: () => speakbumps5("en-GB"),
+                            onPressedAmerican: () => speakbumps5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) گواستنەوە یان سڕینەوەی کەسێک لە گرووپێک یان شوێنێکەوە بۆ یەکێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The coach told him he had been bumped from the crew."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاھێنەرەکە پێی گوت کە لە تیمەکە دەرکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The coach told him he had been bumped from the crew.",
+                            kurdishText:
+                                "ڕاھێنەرەکە پێی گوت کە لە تیمەکە دەرکراوە.",
+                            onPressedBritish: () => speakbumps6("en-GB"),
+                            onPressedAmerican: () => speakbumps6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you are bumped from an oversold flight you are entitled to compensation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر لە گەشتێکی ئاسمانی لادەدرێیت بەھۆی فرۆشتنی زۆری بلیتەوە، ئەوا دەکرێت داوای قەرەبوو بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you are bumped from an oversold flight you are entitled to compensation.",
+                            kurdishText:
+                                "ئەگەر لە گەشتێکی ئاسمانی لادەدرێیت بەھۆی فرۆشتنی زۆری بلیتەوە، ئەوا دەکرێت داوای قەرەبوو بکەیت.",
+                            onPressedBritish: () => speakbumps7("en-GB"),
+                            onPressedAmerican: () => speakbumps7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) کێشان یان دەنگی شتێک کە دەکێشێتە بە ڕوویەکی سەختدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We could hear loud bumps from upstairs where the children were playing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێمان لە زرمەی بەرز بوو لە نھۆمی سەرەوە کە تێیدا منداڵەکان یارییان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We could hear loud bumps from upstairs where the children were playing.",
+                            kurdishText:
+                                "گوێمان لە زرمەی بەرز بوو لە نھۆمی سەرەوە کە تێیدا منداڵەکان یارییان دەکرد.",
+                            onPressedBritish: () => speakbumps8("en-GB"),
+                            onPressedAmerican: () => speakbumps8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) ھەڵاوسانێک لەسەر جەستە، بەزۆری بەھۆی بەرکەوتن بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was covered in bumps and bruises."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لاشەی پڕ لە پەنەمان و شینبوونەوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was covered in bumps and bruises.",
+                            kurdishText:
+                                "لاشەی پڕ لە پەنەمان و شینبوونەوە بوو.",
+                            onPressedBritish: () => speakbumps9("en-GB"),
+                            onPressedAmerican: () => speakbumps9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) زگی ژنێکی دووگیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wore a black dress that showed off her expanding bump."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلێکی ڕەشی لەبەرکردبوو کە سکە دووگیانییەکەی دەرخستبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wore a black dress that showed off her expanding bump.",
+                            kurdishText:
+                                "جلێکی ڕەشی لەبەرکردبوو کە سکە دووگیانییەکەی دەرخستبوو.",
+                            onPressedBritish: () => speakbumps10("en-GB"),
+                            onPressedAmerican: () => speakbumps10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) بەشێکی شوێنێکی تەخت کە بەرزبووەتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We hit a bump and the car swerved."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەسەر چاڵ‌وچۆڵییەکدا ڕۆشتین و ئۆتۆمبێلەکە ھەڵسووڕا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We hit a bump and the car swerved.",
+                            kurdishText:
+                                "بەسەر چاڵ‌وچۆڵییەکدا ڕۆشتین و ئۆتۆمبێلەکە ھەڵسووڕا.",
+                            onPressedBritish: () => speakbumps11("en-GB"),
+                            onPressedAmerican: () => speakbumps11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (ناو) ڕووداوێکی بچووک کە تێیدا ئۆتۆمبێلێک لە شتێک دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had a bump in the car earlier, but it wasn’t serious."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکدادانێکی بچووکم ھەبوو بە ئۆتۆمبێلەکە پێشووتر، بەڵام سەخت نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumps12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumps12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had a bump in the car earlier, but it wasn’t serious.",
+                            kurdishText:
+                                "پێکدادانێکی بچووکم ھەبوو بە ئۆتۆمبێلەکە پێشووتر، بەڵام سەخت نەبوو.",
+                            onPressedBritish: () => speakbumps12("en-GB"),
+                            onPressedAmerican: () => speakbumps12("en-US"),
                           ),
                         ],
                       ),

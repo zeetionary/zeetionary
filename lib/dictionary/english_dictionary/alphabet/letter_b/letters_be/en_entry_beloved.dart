@@ -150,92 +150,32 @@ class EnglishEntrybeloved extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) زۆر خۆشەویست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were glad to be back in their beloved Ireland."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆشحاڵبوون بە گەڕانەوە بۆ ئێرلەندای خۆشەویستیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeloveds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeloveds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were glad to be back in their beloved Ireland.",
+                            kurdishText:
+                                "خۆشحاڵبوون بە گەڕانەوە بۆ ئێرلەندای خۆشەویستیان.",
+                            onPressedBritish: () => speakbeloveds1("en-GB"),
+                            onPressedAmerican: () => speakbeloveds1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was beloved by all who knew her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر خۆشەویست بوو لای ھەرکەس کە دەیناسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeloveds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeloveds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was beloved by all who knew her.",
+                            kurdishText:
+                                "زۆر خۆشەویست بوو لای ھەرکەس کە دەیناسی.",
+                            onPressedBritish: () => speakbeloveds2("en-GB"),
+                            onPressedAmerican: () => speakbeloveds2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێکی زۆر خۆشەویست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a gift from her beloved."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیارییەک بوو لە خۆشەویستەکەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeloveds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeloveds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It was a gift from her beloved.",
+                            kurdishText: "دیارییەک بوو لە خۆشەویستەکەیەوە.",
+                            onPressedBritish: () => speakbeloveds3("en-GB"),
+                            onPressedAmerican: () => speakbeloveds3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

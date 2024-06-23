@@ -112,68 +112,29 @@ class EnglishEntryalienate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) وا لە کەسێک بکەیت لێت دوور بێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His comments have alienated a lot of young voters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێدوانەکانی ژمارەیەکی زۆر دەنگدەری گەنجی پەست کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalienate4625555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalienate4625555(
-                                        // REPLACE: alienate /ˈeɪliəneɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His comments have alienated a lot of young voters.",
+                            kurdishText:
+                                "لێدوانەکانی ژمارەیەکی زۆر دەنگدەری گەنجی پەست کردووە.",
+                            onPressedBritish: () =>
+                                speakalienate4625555("en-GB"),
+                            onPressedAmerican: () => speakalienate4625555(
+                                // REPLACE: alienate /ˈeɪliəneɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ھەستی ئەوەی کە ئەو جێگەیەی لێیت گونجاو نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Very talented children may feel alienated from the others in their class."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵانی زۆر بەھرەمەند لەوانەیە ھەست بە نامۆیی بکەن لەگەل ئەوانی تری پۆلەکانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalienate34791("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalienate34791(
-                                        // REPLACE: alienate /ˈeɪliəneɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Very talented children may feel alienated from the others in their class.",
+                            kurdishText:
+                                "منداڵانی زۆر بەھرەمەند لەوانەیە ھەست بە نامۆیی بکەن لەگەل ئەوانی تری پۆلەکانیان.",
+                            onPressedBritish: () => speakalienate34791("en-GB"),
+                            onPressedAmerican: () => speakalienate34791(
+                                // REPLACE: alienate /ˈeɪliəneɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -156,100 +156,43 @@ class EnglishEntrybacking extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) یارمەتی و پشتیوانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police gave the proposals their full backing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس پشتگیری تەواوی دا بە پێشنیارەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbackings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbackings1(// REPLACE: backing
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police gave the proposals their full backing.",
+                            kurdishText:
+                                "پۆلیس پشتگیری تەواوی دا بە پێشنیارەکان.",
+                            onPressedBritish: () => speakbackings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbackings1(// REPLACE: backing
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) مادەی پارێزەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's strong cloth - it might be useful as (a) backing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارچەیەکی بەھێزە، لەوانەیە بەسوود بێت وەک پارێزەرێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbackings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbackings2(// REPLACE: backing
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's strong cloth - it might be useful as (a) backing.",
+                            kurdishText:
+                                "پارچەیەکی بەھێزە، لەوانەیە بەسوود بێت وەک پارێزەرێک.",
+                            onPressedBritish: () => speakbackings2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbackings2(// REPLACE: backing
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) میوزیک یان سەما کە دەکرێت بۆ بەشی سەرەکی گۆرانییەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She sang as part of an backing group."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک بەشێک لە گرووپی یاریدەدەر گۆرانی گوتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbackings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbackings3(// REPLACE: backing
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She sang as part of an backing group.",
+                            kurdishText:
+                                "وەک بەشێک لە گرووپی یاریدەدەر گۆرانی گوتەوە.",
+                            onPressedBritish: () => speakbackings3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbackings3(// REPLACE: backing
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

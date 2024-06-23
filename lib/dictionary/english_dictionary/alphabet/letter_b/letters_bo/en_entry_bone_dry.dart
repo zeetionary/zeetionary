@@ -147,32 +147,13 @@ class EnglishEntrybonedry extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) تەواو وشک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ground was bone dry after the drought."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەوییەکە وشک‌وبرینگ بوو لە دوای وشکەساڵییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonedrys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonedrys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ground was bone dry after the drought.",
+                            kurdishText:
+                                "زەوییەکە وشک‌وبرینگ بوو لە دوای وشکەساڵییەکە.",
+                            onPressedBritish: () => speakbonedrys1("en-GB"),
+                            onPressedAmerican: () => speakbonedrys1("en-US"),
                           ),
                         ],
                       ),

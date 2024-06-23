@@ -148,120 +148,44 @@ class EnglishEntrybegrudge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ناڕەحەت بوون بەوەی کەسێک شتێکی ھەیە چونکە پێت‌وایە شایەنی نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You surely don't begrudge him his happiness?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە دڵنیاییەوە ناڕەحەت نیت بە دڵخۆشییەکەی؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbegrudges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbegrudges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You surely don't begrudge him his happiness?",
+                            kurdishText:
+                                "بە دڵنیاییەوە ناڕەحەت نیت بە دڵخۆشییەکەی؟",
+                            onPressedBritish: () => speakbegrudges1("en-GB"),
+                            onPressedAmerican: () => speakbegrudges1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't begrudge her being so successful."),
-                                    ExampleSentenceKurdish(
-                                        text: "ناڕەحەت نابم بە سەرکەوتنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbegrudges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbegrudges2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't begrudge her being so successful.",
+                            kurdishText: "ناڕەحەت نابم بە سەرکەوتنی.",
+                            onPressedBritish: () => speakbegrudges2("en-GB"),
+                            onPressedAmerican: () => speakbegrudges2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ناڕەحەت بوون بە کردن، پارەدان، یان پێدانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I begrudge every second I spent trying to help him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕقم لە ھەر چرکەیەک دەبێتەوە کە بەسەری دەبەم بە ھەوڵدان بۆ یارمەتیدانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbegrudges3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbegrudges3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I begrudge every second I spent trying to help him.",
+                            kurdishText:
+                                "ڕقم لە ھەر چرکەیەک دەبێتەوە کە بەسەری دەبەم بە ھەوڵدان بۆ یارمەتیدانی.",
+                            onPressedBritish: () => speakbegrudges3("en-GB"),
+                            onPressedAmerican: () => speakbegrudges3("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They begrudge paying so much money for a a bad service like this."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕقیان لە پارەدانێکی وەھا زۆرە بۆ خزمەتێکی خراپی وەک ئەمە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbegrudges4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbegrudges4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They begrudge paying so much money for a a bad service like this.",
+                            kurdishText:
+                                "ڕقیان لە پارەدانێکی وەھا زۆرە بۆ خزمەتێکی خراپی وەک ئەمە.",
+                            onPressedBritish: () => speakbegrudges4("en-GB"),
+                            onPressedAmerican: () => speakbegrudges4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

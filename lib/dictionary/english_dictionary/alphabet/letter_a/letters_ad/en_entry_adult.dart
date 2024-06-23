@@ -115,66 +115,28 @@ class EnglishEntryadult extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە لە ڕووی یاساییەوە بەرپرسە بۆ کردارەکانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Children must be accompanied by an adult."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵان دەبێت کەسێکی پێگەیشتوویان لەگەڵدا بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadult12568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadult12568(
-                                        // REPLACE: adult /ˈædʌlt/, /əˈdʌlt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Children must be accompanied by an adult.",
+                            kurdishText:
+                                "منداڵان دەبێت کەسێکی پێگەیشتوویان لەگەڵدا بێت.",
+                            onPressedBritish: () => speakadult12568("en-GB"),
+                            onPressedAmerican: () => speakadult12568(
+                                // REPLACE: adult /ˈædʌlt/, /əˈdʌlt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئاژەڵێکی تەواو پێگەیشتوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The fish return to the river as adults in order to breed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماسییەکان کە تەواو گەورە دەبن دەگەڕێنەوە ناو ڕووبارەکە بۆ زاوزێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadul458237("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadul458237(
-                                        // REPLACE: adult /ˈædʌlt/, /əˈdʌlt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The fish return to the river as adults in order to breed.",
+                            kurdishText:
+                                "ماسییەکان کە تەواو گەورە دەبن دەگەڕێنەوە ناو ڕووبارەکە بۆ زاوزێ.",
+                            onPressedBritish: () => speakadul458237("en-GB"),
+                            onPressedAmerican: () => speakadul458237(
+                                // REPLACE: adult /ˈædʌlt/, /əˈdʌlt/
+                                "en-US"),
                           ),
                         ],
                       ),

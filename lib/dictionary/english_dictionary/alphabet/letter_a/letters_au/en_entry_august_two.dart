@@ -166,34 +166,15 @@ class EnglishEntryaugusttwo extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی گرنگی زۆر و لە بەرزترین ئاستی کۆمەڵگە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had dared to challenge the views of an august body of imperial historians."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوێری ئەوەی دژایەتی ڕای لیژنەیەکی بەشکۆی مێژوونووسانی شاھانە بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaugusttwo338("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaugusttwo338(// REPLACE: august
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had dared to challenge the views of an august body of imperial historians.",
+                            kurdishText:
+                                "بوێری ئەوەی دژایەتی ڕای لیژنەیەکی بەشکۆی مێژوونووسانی شاھانە بکات.",
+                            onPressedBritish: () => speakaugusttwo338("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaugusttwo338(// REPLACE: august
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

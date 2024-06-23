@@ -150,31 +150,11 @@ class EnglishEntrybedridden extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەوتنەجێ بە بەردەوامی بەھۆی ئەوەی نەخۆشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His aunt was 93 and bedridden."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پووری ٩٣ ساڵ بوو و جێکەوتە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedriddens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedriddens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His aunt was 93 and bedridden.",
+                            kurdishText: "پووری ٩٣ ساڵ بوو و جێکەوتە بوو.",
+                            onPressedBritish: () => speakbedriddens1("en-GB"),
+                            onPressedAmerican: () => speakbedriddens1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

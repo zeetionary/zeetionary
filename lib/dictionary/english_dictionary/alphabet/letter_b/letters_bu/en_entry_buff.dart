@@ -146,153 +146,57 @@ class EnglishEntrybuff extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە زۆری حەز بە بابەتێکە و زۆری لەسەر دەزانێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were a group of computer buffs who used to meet every Thursday evening."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک تامەزرۆی کۆمپیوتەر ھەبوون کە ھەموو شەوانی پێنجشەممەیەک یەکیان دەدی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "buff", follow LX strictly.
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuffs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuffs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were a group of computer buffs who used to meet every Thursday evening.",
+                            kurdishText:
+                                "ژمارەیەک تامەزرۆی کۆمپیوتەر ھەبوون کە ھەموو شەوانی پێنجشەممەیەک یەکیان دەدی.", // buff", follow LX strictly.
+                            onPressedBritish: () => speakbuffs1("en-GB"),
+                            onPressedAmerican: () => speakbuffs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕەنگی بێجی؛ ڕەنگێکی کاڵی قاوەیی باو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Is it available in buff?"),
-                                    ExampleSentenceKurdish(
-                                        text: "بە ڕەنگی بێجی ھەیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuffs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuffs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Is it available in buff?",
+                            kurdishText: "بە ڕەنگی بێجی ھەیە؟",
+                            onPressedBritish: () => speakbuffs2("en-GB"),
+                            onPressedAmerican: () => speakbuffs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) زیادبوونی توانای کارەکتەرێک، چەکێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some weapons will receive buffs in the next update."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک لە چەکەکان ھێز وەردەگرن لە نوێکردنوەی دواتردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuffs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuffs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some weapons will receive buffs in the next update.",
+                            kurdishText:
+                                "ھەندێک لە چەکەکان ھێز وەردەگرن لە نوێکردنوەی دواتردا.",
+                            onPressedBritish: () => speakbuffs3("en-GB"),
+                            onPressedAmerican: () => speakbuffs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ھاوەڵناو) ڕەنگی بێجی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The curtains were a lovely shade of buff."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەردەکان ڕەنگێکی جوانی بێجی بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuffs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuffs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The curtains were a lovely shade of buff.",
+                            kurdishText: "پەردەکان ڕەنگێکی جوانی بێجی بوون.",
+                            onPressedBritish: () => speakbuffs4("en-GB"),
+                            onPressedAmerican: () => speakbuffs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ھاوەڵناو) کەسێکی چوارشانە و جوان بە ماسولکەی گەورەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a tall buff guy in his thirties."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوێکی چوارشانەی بەرز بوو لە سییەکانی تەمەنیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuffs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuffs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a tall buff guy in his thirties.",
+                            kurdishText:
+                                "پیاوێکی چوارشانەی بەرز بوو لە سییەکانی تەمەنیدا.",
+                            onPressedBritish: () => speakbuffs5("en-GB"),
+                            onPressedAmerican: () => speakbuffs5("en-US"),
                           ),
                         ],
                       ),

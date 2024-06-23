@@ -113,34 +113,14 @@ class EnglishEntryaglow extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) بریقانەوە بە ڕەنگ و درەوشانەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His face was all aglow with excitement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووخساری لە خۆشیدا دەدرەوشایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakag4599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakag4599(// REPLACE: aglow /əˈɡləʊ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His face was all aglow with excitement.",
+                            kurdishText: "ڕووخساری لە خۆشیدا دەدرەوشایەوە.",
+                            onPressedBritish: () => speakag4599("en-GB"),
+                            onPressedAmerican: () =>
+                                speakag4599(// REPLACE: aglow /əˈɡləʊ/
+                                    "en-US"),
                           ),
                         ],
                       ),

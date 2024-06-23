@@ -162,34 +162,15 @@ class EnglishEntryassailant extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێکی ھێرشکار" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The alleged assailants appeared in court."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆمەتبارە بانگەشەبۆکراوەکان لە دادگا دەرکەوتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassailant851("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassailant851(
-                                        // REPLACE: assailant /əˈseɪlənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The alleged assailants appeared in court.",
+                            kurdishText:
+                                "تۆمەتبارە بانگەشەبۆکراوەکان لە دادگا دەرکەوتن.",
+                            onPressedBritish: () => speakassailant851("en-GB"),
+                            onPressedAmerican: () => speakassailant851(
+                                // REPLACE: assailant /əˈseɪlənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -158,34 +158,15 @@ class EnglishEntryaria extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پارچە میوزیکێک کە لەلایەن یەک کەسەوە لە ئۆپێرایەک دەوترێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Such was the enthusiasm that you might have thought that the singer had just sung an aria."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جۆشوخرۆشییەکە ھێندە زۆربوو کە وابیرت‌دەکردەوە گۆرانیبێژەکە تازەگی ئاریایەکی وتبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaria1117("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaria1117(// REPLACE: aria /ˈɑːriə/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Such was the enthusiasm that you might have thought that the singer had just sung an aria.",
+                            kurdishText:
+                                "جۆشوخرۆشییەکە ھێندە زۆربوو کە وابیرت‌دەکردەوە گۆرانیبێژەکە تازەگی ئاریایەکی وتبێت.",
+                            onPressedBritish: () => speakaria1117("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaria1117(// REPLACE: aria /ˈɑːriə/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

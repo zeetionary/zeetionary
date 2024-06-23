@@ -147,94 +147,37 @@ class EnglishEntrybidding extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کرداری پێشنیازکردنی بڕە پارەیەک بە تایبەتی لە زیادکردنی ئاشکرادا """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several companies remained in the bidding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک کۆمپانیا مانەوە لە پێشنیازکردندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiddings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiddings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several companies remained in the bidding.",
+                            kurdishText:
+                                "ژمارەیەک کۆمپانیا مانەوە لە پێشنیازکردندا.",
+                            onPressedBritish: () => speakbiddings1("en-GB"),
+                            onPressedAmerican: () => speakbiddings1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کرداری پێشنیازکردنی کردن یان پێشکەشکردنی شتێک بە نرخێکی دیریکراو """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was fierce competitive bidding for the contract."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشنیازکردنی توندی ڕکابەرانە ھەبوو بۆ گرێبەستەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiddings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiddings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was fierce competitive bidding for the contract.",
+                            kurdishText:
+                                "پێشنیازکردنی توندی ڕکابەرانە ھەبوو بۆ گرێبەستەکە.",
+                            onPressedBritish: () => speakbiddings2("en-GB"),
+                            onPressedAmerican: () => speakbiddings2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) داواکاری یان داخوازی کەسێک """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At his father’s bidding (= because his father asked him to) he wrote to his lawyer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر داوای باوکی نووسراوێکی نارد بۆ پارێزەرەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiddings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiddings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At his father’s bidding (= because his father asked him to) he wrote to his lawyer.",
+                            kurdishText:
+                                "لەسەر داوای باوکی نووسراوێکی نارد بۆ پارێزەرەکەی.",
+                            onPressedBritish: () => speakbiddings3("en-GB"),
+                            onPressedAmerican: () => speakbiddings3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

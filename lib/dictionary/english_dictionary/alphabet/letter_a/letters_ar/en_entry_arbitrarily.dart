@@ -165,69 +165,31 @@ class EnglishEntryarbitrarily extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) لەخۆوە؛ شتێک کە پشتی بە ھیچ لۆژیکێک، سیستەنێک، یان پلانێک نەبەستووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The leaders of the groups were chosen arbitrarily."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکردەی گرووپەکان بە ھەڕەمەکییانە ھەڵبژێردران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarbitrarily1132("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarbitrarily1132(
-                                        // REPLACE: arbitrarily /ˌɑːrbɪˈtrerəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The leaders of the groups were chosen arbitrarily.",
+                            kurdishText:
+                                "سەرکردەی گرووپەکان بە ھەڕەمەکییانە ھەڵبژێردران.",
+                            onPressedBritish: () =>
+                                speakarbitrarily1132("en-GB"),
+                            onPressedAmerican: () => speakarbitrarily1132(
+                                // REPLACE: arbitrarily /ˌɑːrbɪˈtrerəli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەشێوەیەک کە دەسەڵات بەکاردێت بە بێ‌سنووری و بە بێ گرنگیدان بە کەسانی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The political frontiers in Africa were often arbitrarily drawn up by the old colonial powers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سنوورە سیاسییەکان لە ئەفریقا زۆرجار بە زۆرەملێیانە لەلایەن دەسەڵاتە داگیرکەرەکانی کۆنەوە دەکێشران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarbitrarily1135("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarbitrarily1135(
-                                        // REPLACE: arbitrarily /ˌɑːrbɪˈtrerəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The political frontiers in Africa were often arbitrarily drawn up by the old colonial powers.",
+                            kurdishText:
+                                "سنوورە سیاسییەکان لە ئەفریقا زۆرجار بە زۆرەملێیانە لەلایەن دەسەڵاتە داگیرکەرەکانی کۆنەوە دەکێشران.",
+                            onPressedBritish: () =>
+                                speakarbitrarily1135("en-GB"),
+                            onPressedAmerican: () => speakarbitrarily1135(
+                                // REPLACE: arbitrarily /ˌɑːrbɪˈtrerəli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

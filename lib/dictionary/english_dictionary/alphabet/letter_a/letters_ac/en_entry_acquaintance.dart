@@ -115,64 +115,26 @@ class EnglishEntryacquaintance extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە ناسیاویت لەگەڵی ھەیە بەڵام ھاوڕێی نزیکت نییە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I bumped into an old acquaintance on the train."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە شەمەندەفەرەکە ناسیاوێکی کۆنمم بینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacqu4587("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacqu4587(
-                                        "en-US"), // REPLACE acquaintance /əˈkweɪntəns/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I bumped into an old acquaintance on the train.",
+                            kurdishText:
+                                "لە شەمەندەفەرەکە ناسیاوێکی کۆنمم بینی.",
+                            onPressedBritish: () => speakacqu4587("en-GB"),
+                            onPressedAmerican: () => speakacqu4587(
+                                "en-US"), // REPLACE acquaintance /əˈkweɪntəns/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھاوڕێیەتییەکی کەم"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He hoped their acquaintance would develop further."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیوای خواست ھاوڕێیەتییەکەیان سەر بۆ زیاتر بکێشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacq3528("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacq3528(
-                                        "en-US"), // REPLACE acquaintance /əˈkweɪntəns/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He hoped their acquaintance would develop further.",
+                            kurdishText:
+                                "ھیوای خواست ھاوڕێیەتییەکەیان سەر بۆ زیاتر بکێشێت.",
+                            onPressedBritish: () => speakacq3528("en-GB"),
+                            onPressedAmerican: () => speakacq3528(
+                                "en-US"), // REPLACE acquaintance /əˈkweɪntəns/
                           ),
                         ],
                       ),

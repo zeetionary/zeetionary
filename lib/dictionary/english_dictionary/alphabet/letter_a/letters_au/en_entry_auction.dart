@@ -165,66 +165,28 @@ class EnglishEntryauction extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ھەڕاجی ئاشکرا کە تێیدا شتێک دەفرۆشرێت بەو کەسەی زۆرتری پارە دەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The house is up for auction (= will be sold at an auction)."),
-                                    ExampleSentenceKurdish(
-                                        text: "خانووەکە ھەڕاجکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauction1150("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauction1150(// REPLACE: auction
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The house is up for auction (= will be sold at an auction).",
+                            kurdishText: "خانووەکە ھەڕاجکراوە.",
+                            onPressedBritish: () => speakauction1150("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauction1150(// REPLACE: auction
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) فرۆشتنی شتێک لە زیادکردنی ئاشکرادا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The costumes from the movie are to be auctioned for charity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلوبەرگەکانی فیلمەکە لە زیادکردنی ئاشکرادا دەفرۆشرێن بۆ کاری خێرخوازی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauction1154("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauction1154(// REPLACE: auction
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The costumes from the movie are to be auctioned for charity.",
+                            kurdishText:
+                                "جلوبەرگەکانی فیلمەکە لە زیادکردنی ئاشکرادا دەفرۆشرێن بۆ کاری خێرخوازی.",
+                            onPressedBritish: () => speakauction1154("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauction1154(// REPLACE: auction
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

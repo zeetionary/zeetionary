@@ -149,32 +149,13 @@ class EnglishEntryblackhead extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) خاڵێکی بچووک لەسەر پێست کە سەرەوەی ڕەشە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Teenagers often struggle with blackheads during puberty due to increased oil production."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرزەکاران زۆرجار کێشەیان ھەیە لەگەڵ سەرڕەشە لەکاتی باڵغ‌بوون بەھۆی زیادبوونی درووست بوونی چەوری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackheads1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackheads1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Teenagers often struggle with blackheads during puberty due to increased oil production.",
+                            kurdishText:
+                                "ھەرزەکاران زۆرجار کێشەیان ھەیە لەگەڵ سەرڕەشە لەکاتی باڵغ‌بوون بەھۆی زیادبوونی درووست بوونی چەوری.",
+                            onPressedBritish: () => speakblackheads1("en-GB"),
+                            onPressedAmerican: () => speakblackheads1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

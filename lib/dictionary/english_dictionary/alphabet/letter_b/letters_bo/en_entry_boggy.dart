@@ -145,32 +145,13 @@ class EnglishEntryboggy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) خاکێکی نەرم و تەڕ وەک زەلکاو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The path through the moorland is boggy but still in use."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگاکە بە دەشتەبوورەکەدا لیتەیە بەڵام ھێشتا بەکاردێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboggys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboggys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The path through the moorland is boggy but still in use.",
+                            kurdishText:
+                                "ڕێگاکە بە دەشتەبوورەکەدا لیتەیە بەڵام ھێشتا بەکاردێت.",
+                            onPressedBritish: () => speakboggys1("en-GB"),
+                            onPressedAmerican: () => speakboggys1("en-US"),
                           ),
                         ],
                       ),

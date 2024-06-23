@@ -161,65 +161,27 @@ class EnglishEntryapricot extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) میوەیەکی خڕ بە توێکڵی زەرد یان پرتەقاڵی و ناوکێکی گەورەی ڕەق"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I don't like apricot."),
-                                    ExampleSentenceKurdish(
-                                        text: "حەزم لە قەیسی نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapricot1040("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapricot1040(
-                                        // REPLACE: apricot /ˈæprɪkɑːt/, /ˈeɪprɪkɑːt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I don't like apricot.",
+                            kurdishText: "حەزم لە قەیسی نییە.",
+                            onPressedBritish: () => speakapricot1040("en-GB"),
+                            onPressedAmerican: () => speakapricot1040(
+                                // REPLACE: apricot /ˈæprɪkɑːt/, /ˈeɪprɪkɑːt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕەنگی پرتەقاڵی زەردباو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The room was painted apricot and white."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژوورەکە بۆیەکرا بە پرتەقاڵی زەردباو و سپی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapricot1043("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapricot1043(
-                                        // REPLACE: apricot /ˈæprɪkɑːt/, /ˈeɪprɪkɑːt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The room was painted apricot and white.",
+                            kurdishText:
+                                "ژوورەکە بۆیەکرا بە پرتەقاڵی زەردباو و سپی.",
+                            onPressedBritish: () => speakapricot1043("en-GB"),
+                            onPressedAmerican: () => speakapricot1043(
+                                // REPLACE: apricot /ˈæprɪkɑːt/, /ˈeɪprɪkɑːt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -156,69 +156,29 @@ class EnglishEntryamplitude extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) زۆرترین ماوەی کشانی شەپۆلێکی دەنگی یان ڕادیۆیی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sound waves are measured by their amplitude."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەپۆلی دەنگی بەپێی کشانیان دەپێورێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamplitude4599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamplitude4599(
-                                        // REPLACE: amplitude /ˈæmplɪtuːd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sound waves are measured by their amplitude.",
+                            kurdishText: "شەپۆلی دەنگی بەپێی کشانیان دەپێورێن.",
+                            onPressedBritish: () => speakamplitude4599("en-GB"),
+                            onPressedAmerican: () => speakamplitude4599(
+                                // REPLACE: amplitude /ˈæmplɪtuːd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بڕێکی زۆر، یان مەودایەکی فراوان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sheer amplitude of the novel invites comparisons with Tolstoy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەربڵاویی فراوانی ڕۆمانەکە وادەکات بەوانەی تۆڵستۆی بەراورد بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamplitude46669("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamplitude46669(
-                                        // REPLACE: amplitude /ˈæmplɪtuːd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sheer amplitude of the novel invites comparisons with Tolstoy.",
+                            kurdishText:
+                                "بەربڵاویی فراوانی ڕۆمانەکە وادەکات بەوانەی تۆڵستۆی بەراورد بکرێت.",
+                            onPressedBritish: () =>
+                                speakamplitude46669("en-GB"),
+                            onPressedAmerican: () => speakamplitude46669(
+                                // REPLACE: amplitude /ˈæmplɪtuːd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

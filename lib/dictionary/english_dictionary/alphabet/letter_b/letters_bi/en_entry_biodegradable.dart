@@ -152,33 +152,13 @@ class EnglishEntrybiodegradable extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە بە بەکتریا ھەڵدەوەشێت و بە تێپەڕبوونی کات و زیانی بۆ ژینگە نابێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most plastics are not biodegradable."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆرینەی پلاستیک ژینگەدۆست نین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbiodegradables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbiodegradables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Most plastics are not biodegradable.",
+                            kurdishText: "زۆرینەی پلاستیک ژینگەدۆست نین.",
+                            onPressedBritish: () =>
+                                speakbiodegradables1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbiodegradables1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

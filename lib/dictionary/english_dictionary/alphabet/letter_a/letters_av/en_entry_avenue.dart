@@ -157,100 +157,43 @@ class EnglishEntryavenue extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) شەقامێکی فراوان لە شارێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We walked down a broad avenue lined with trees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە شەقامێکی فراواندا تێپەڕین کە بە درەخت دەوردرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavenues1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavenues1(// REPLACE: avenue
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We walked down a broad avenue lined with trees.",
+                            kurdishText:
+                                "بە شەقامێکی فراواندا تێپەڕین کە بە درەخت دەوردرابوو.",
+                            onPressedBritish: () => speakavenues1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavenues1(// REPLACE: avenue
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕێگایەکی فراوان و ڕێک کە درەخت لە ھەردوو لایەتی و دەگات بە ماڵێکی گەورە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A mile-long avenue of lime trees leads to the house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگایەکی یەک میل درێژی دەوردراو بە درەختی لیمۆ دەگات بە ماڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavenues2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavenues2(// REPLACE: avenue
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A mile-long avenue of lime trees leads to the house.",
+                            kurdishText:
+                                "ڕێگایەکی یەک میل درێژی دەوردراو بە درەختی لیمۆ دەگات بە ماڵەکە.",
+                            onPressedBritish: () => speakavenues2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavenues2(// REPLACE: avenue
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ھەڵبژاردە یان ڕێگای مامەڵە لەگەڵ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Only two avenues are open to us - either we accept his offer or we give up the fight completely."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا دوو ھەڵبژاردەمان لەبەردەستە: یان پێشنیارەکەی پەسەند دەکەین، یان بە تەواوی واز لە شەڕەکە دێنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavenues3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavenues3(// REPLACE: avenue
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Only two avenues are open to us - either we accept his offer or we give up the fight completely.",
+                            kurdishText:
+                                "تەنھا دوو ھەڵبژاردەمان لەبەردەستە: یان پێشنیارەکەی پەسەند دەکەین، یان بە تەواوی واز لە شەڕەکە دێنین.",
+                            onPressedBritish: () => speakavenues3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavenues3(// REPLACE: avenue
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

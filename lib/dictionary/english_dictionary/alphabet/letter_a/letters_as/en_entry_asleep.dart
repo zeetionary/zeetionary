@@ -164,98 +164,41 @@ class EnglishEntryasleep extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) خەوتوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I waited until they were all fast asleep (= sleeping deeply)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەستام تاوەکو ھەموویان خەویان لێ کەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasleep929("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasleep929(
-                                        // REPLACE: asleep /əˈsliːp/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I waited until they were all fast asleep (= sleeping deeply).",
+                            kurdishText:
+                                "وەستام تاوەکو ھەموویان خەویان لێ کەوت.",
+                            onPressedBritish: () => speakasleep929("en-GB"),
+                            onPressedAmerican: () => speakasleep929(
+                                // REPLACE: asleep /əˈsliːp/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was still half asleep (= not fully awake) when she arrived at work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا چاوی بە خەوەوە بوو کە گەشتە سەر کار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasleep930("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasleep930(
-                                        // REPLACE: asleep /əˈsliːp/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was still half asleep (= not fully awake) when she arrived at work.",
+                            kurdishText:
+                                "ھێشتا چاوی بە خەوەوە بوو کە گەشتە سەر کار.",
+                            onPressedBritish: () => speakasleep930("en-GB"),
+                            onPressedAmerican: () => speakasleep930(
+                                // REPLACE: asleep /əˈsliːp/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بەشێکی جەستە کە سڕبووە بەھۆی ئەوەی زۆر نەجووڵاوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I couldn't move straight away, as my leg was completely asleep."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەمتوانی ڕاستەوخۆ بجوڵێم بەھۆی ئەوەی لاقم تەواو سڕبوو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasleep933("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasleep933(
-                                        // REPLACE: asleep /əˈsliːp/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I couldn't move straight away, as my leg was completely asleep.",
+                            kurdishText:
+                                "نەمتوانی ڕاستەوخۆ بجوڵێم بەھۆی ئەوەی لاقم تەواو سڕبوو بوو.",
+                            onPressedBritish: () => speakasleep933("en-GB"),
+                            onPressedAmerican: () => speakasleep933(
+                                // REPLACE: asleep /əˈsliːp/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

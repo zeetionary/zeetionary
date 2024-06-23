@@ -147,122 +147,46 @@ class EnglishEntrybuildup extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) زیادبوونی بڕی شتێک بە درێژایی ماوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The leak led to a slow build-up of carbon dioxide."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قڵشەکە بووە ھۆی کەڵەکەبوونی ھێواشی دووەم ئۆکسیدی کاربۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "build-up", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuildups1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuildups1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The leak led to a slow build-up of carbon dioxide.",
+                            kurdishText:
+                                "قڵشەکە بووە ھۆی کەڵەکەبوونی ھێواشی دووەم ئۆکسیدی کاربۆن.", // build-up", follow LX strictly
+                            onPressedBritish: () => speakbuildups1("en-GB"),
+                            onPressedAmerican: () => speakbuildups1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The build-up of troops in the region makes war seem more likely."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆکردنەوەی سەرباز لە ھەرێمەکە وادەکات ئەگەری جەنگ بەھێزتر بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuildups2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuildups2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The build-up of troops in the region makes war seem more likely.",
+                            kurdishText:
+                                "کۆکردنەوەی سەرباز لە ھەرێمەکە وادەکات ئەگەری جەنگ بەھێزتر بێت.",
+                            onPressedBritish: () => speakbuildups2("en-GB"),
+                            onPressedAmerican: () => speakbuildups2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کاتی پێش ڕوودانی شتێکی گرنگ و ئامادەکاری خەڵکی بۆی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a lot of excitement in the build-up to the Olympics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جۆش‌وخرۆشێکی زۆر ھەبوو لە ماوەی ئامادەکای بۆ ئۆڵۆمپیاد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuildups3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuildups3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a lot of excitement in the build-up to the Olympics.",
+                            kurdishText:
+                                "جۆش‌وخرۆشێکی زۆر ھەبوو لە ماوەی ئامادەکای بۆ ئۆڵۆمپیاد.",
+                            onPressedBritish: () => speakbuildups3("en-GB"),
+                            onPressedAmerican: () => speakbuildups3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) دۆخێک کە تێیدا کەسێک/شتێک بە شێوەیەکی ئەرێنی باس دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The media have given the movie a huge build-up."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میدیاکان بانگەشەیەکی گەورەیان بۆ فیلمەکە کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuildups4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuildups4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The media have given the movie a huge build-up.",
+                            kurdishText:
+                                "میدیاکان بانگەشەیەکی گەورەیان بۆ فیلمەکە کردووە.",
+                            onPressedBritish: () => speakbuildups4("en-GB"),
+                            onPressedAmerican: () => speakbuildups4("en-US"),
                           ),
                         ],
                       ),

@@ -157,128 +157,51 @@ class EnglishEntryanger extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) توڕەیی؛ ھەستێکی توند کە ھەتە کاتێک شتێکی خراپ ڕوودەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had to find a way to express her pent-up anger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویست‌بوو ڕێگایەک بدۆزێتەوە بۆ دەربڕینی توڕەییە خوراوەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanger104("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakanger104(// REPLACE: anger /ˈæŋɡər/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had to find a way to express her pent-up anger.",
+                            kurdishText:
+                                "پێویست‌بوو ڕێگایەک بدۆزێتەوە بۆ دەربڕینی توڕەییە خوراوەکەی.",
+                            onPressedBritish: () => speakanger104("en-GB"),
+                            onPressedAmerican: () =>
+                                speakanger104(// REPLACE: anger /ˈæŋɡər/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plan provoked anger among local residents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانەکە بوو بەھۆی توڕەیی خەڵکە خۆجێییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanger407("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanger407(
-                                        // REPLACE: anger /ˈæŋɡər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The plan provoked anger among local residents.",
+                            kurdishText:
+                                "پلانەکە بوو بەھۆی توڕەیی خەڵکە خۆجێییەکە.",
+                            onPressedBritish: () => speakanger407("en-GB"),
+                            onPressedAmerican: () => speakanger407(
+                                // REPLACE: anger /ˈæŋɡər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) توڕەکردنی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The question clearly angered him."),
-                                    ExampleSentenceKurdish(
-                                        text: "پرسیارەکە بەڕوونی تووڕەی‌کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanger005("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakanger005(// REPLACE: anger /ˈæŋɡər/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The question clearly angered him.",
+                            kurdishText: "پرسیارەکە بەڕوونی تووڕەی‌کرد.",
+                            onPressedBritish: () => speakanger005("en-GB"),
+                            onPressedAmerican: () =>
+                                speakanger005(// REPLACE: anger /ˈæŋɡər/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were angered that their complaints were dismissed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تووڕەبوون بەوەی ناڕەزاییەکانیان وەلاخران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanger950("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanger950(
-                                        // REPLACE: anger /ˈæŋɡər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were angered that their complaints were dismissed.",
+                            kurdishText:
+                                "تووڕەبوون بەوەی ناڕەزاییەکانیان وەلاخران.",
+                            onPressedBritish: () => speakanger950("en-GB"),
+                            onPressedAmerican: () => speakanger950(
+                                // REPLACE: anger /ˈæŋɡər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

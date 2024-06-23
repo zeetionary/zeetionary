@@ -163,35 +163,16 @@ class EnglishEntryarbitrator extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە دادوەری لە ناکۆکییەک دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An outside arbitrator may be appointed in such cases."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەم حاڵەتانەدا ناوبژیکارێکی دەرەکی ڕەنگە دیاری‌بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarbitrator1204("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarbitrator1204(
-                                        // REPLACE: arbitrator /ˈɑːrbɪtreɪtər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An outside arbitrator may be appointed in such cases.",
+                            kurdishText:
+                                "لەم حاڵەتانەدا ناوبژیکارێکی دەرەکی ڕەنگە دیاری‌بکرێت.",
+                            onPressedBritish: () =>
+                                speakarbitrator1204("en-GB"),
+                            onPressedAmerican: () => speakarbitrator1204(
+                                // REPLACE: arbitrator /ˈɑːrbɪtreɪtər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

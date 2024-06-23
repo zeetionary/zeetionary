@@ -155,32 +155,13 @@ class EnglishEntryawhile extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بۆ ماوەیەکی کەم" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Stay awhile."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەمێک بوەستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawhiles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawhiles1(// REPLACE: awhile
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Stay awhile.",
+                            kurdishText: "کەمێک بوەستە.",
+                            onPressedBritish: () => speakawhiles1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawhiles1(// REPLACE: awhile
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -144,32 +144,13 @@ class EnglishEntryboilersuit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جلێک کە یەک پارچەیە و بەکاردێت بۆ کارکردنی پیس"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Factory workers were issued blue boiler suits."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرێکارانی کارگەکە جلی کاری شینیان پێدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboilersuits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboilersuits1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Factory workers were issued blue boiler suits.",
+                            kurdishText:
+                                "کرێکارانی کارگەکە جلی کاری شینیان پێدرا.",
+                            onPressedBritish: () => speakboilersuits1("en-GB"),
+                            onPressedAmerican: () => speakboilersuits1("en-US"),
                           ),
                         ],
                       ),

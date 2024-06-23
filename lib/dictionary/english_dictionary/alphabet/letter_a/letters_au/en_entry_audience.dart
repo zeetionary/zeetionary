@@ -165,131 +165,55 @@ class EnglishEntryaudience extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئامادەبووانی شانۆیەک، کۆنسێرتێک، وتارێک، ھتد"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The audience was/were clapping for 10 minutes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامادەبووان بۆ ماوەی ١٠ خولەک چەپڵەیان لێدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudience117("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudience117(// REPLACE: audience
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The audience was/were clapping for 10 minutes.",
+                            kurdishText:
+                                "ئامادەبووان بۆ ماوەی ١٠ خولەک چەپڵەیان لێدا.",
+                            onPressedBritish: () => speakaudience117("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudience117(// REPLACE: audience
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The museum is trying to attract a wider audience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆزەخانەکە ھەوڵ دەدات سەردانیکاری زیاتر ڕابکێشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudience118("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudience118(// REPLACE: audience
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The museum is trying to attract a wider audience.",
+                            kurdishText:
+                                "مۆزەخانەکە ھەوڵ دەدات سەردانیکاری زیاتر ڕابکێشێت.",
+                            onPressedBritish: () => speakaudience118("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudience118(// REPLACE: audience
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئەو کەسانەی کە گوێگر، بینەر، یان خوێنەری ھەمان شتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His book reached an even wider audience when it was made into a movie."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکەی گەشت بە ھەواداری زیاتر کە کرا بە فیلم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudience121("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudience121(// REPLACE: audience
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His book reached an even wider audience when it was made into a movie.",
+                            kurdishText:
+                                "کتێبەکەی گەشت بە ھەواداری زیاتر کە کرا بە فیلم.",
+                            onPressedBritish: () => speakaudience121("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudience121(// REPLACE: audience
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کۆبوونەوە لەگەڵ کەسێکی گرنگ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had a private audience with the king."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆبوونەوەیەکی تایبەتی ھەبوو لەگەڵ پاشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudience123("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudience123(// REPLACE: audience
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had a private audience with the king.",
+                            kurdishText:
+                                "کۆبوونەوەیەکی تایبەتی ھەبوو لەگەڵ پاشا.",
+                            onPressedBritish: () => speakaudience123("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudience123(// REPLACE: audience
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

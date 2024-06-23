@@ -194,63 +194,25 @@ class EnglishEntrybyproduct extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە درووست دەبێت لە ئەنجامی درووستکردن یان لەناوبردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When burnt, plastic produces dangerous by-products."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە دەسووتێنرێت، پلاستیک لابەرھەمی مەترسیدار درووست دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "by-product", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbyproducts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbyproducts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When burnt, plastic produces dangerous by-products.",
+                            kurdishText:
+                                "کە دەسووتێنرێت، پلاستیک لابەرھەمی مەترسیدار درووست دەکات.", // by-product", follow LX strictly
+                            onPressedBritish: () => speakbyproducts1("en-GB"),
+                            onPressedAmerican: () => speakbyproducts1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شتێک کە ڕوودەدات، زۆرجار بە چاوەڕواننەکراوی، لە ئەنجامی شتێکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One of the by-products of unemployment is an increase in crime."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە کاریگەرییە لاوەکییەکانی بێ‌کاری زۆربوونی تاوانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbyproducts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbyproducts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One of the by-products of unemployment is an increase in crime.",
+                            kurdishText:
+                                "یەکێک لە کاریگەرییە لاوەکییەکانی بێ‌کاری زۆربوونی تاوانە.",
+                            onPressedBritish: () => speakbyproducts2("en-GB"),
+                            onPressedAmerican: () => speakbyproducts2("en-US"),
                           ),
                         ],
                       ),

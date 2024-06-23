@@ -157,34 +157,15 @@ class EnglishEntrybakery extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نانەواخانە؛ شوێنێک کە نان و کێکی تێدا درووست دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People were stealing bread from those who went to the bakery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی نانیان دەدزی لەو کەسانەی کە دەچوون بۆ نانەواخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbakerys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbakerys1(// REPLACE: bakery
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People were stealing bread from those who went to the bakery.",
+                            kurdishText:
+                                "خەڵکی نانیان دەدزی لەو کەسانەی کە دەچوون بۆ نانەواخانەکە.",
+                            onPressedBritish: () => speakbakerys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbakerys1(// REPLACE: bakery
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

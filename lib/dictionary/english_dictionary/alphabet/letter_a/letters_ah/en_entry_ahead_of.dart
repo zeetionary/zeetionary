@@ -125,126 +125,50 @@ class EnglishEntryaheadof extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ئامراز) کات یان شوێنی لەپێش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Two boys were ahead of us."),
-                                    ExampleSentenceKurdish(
-                                        text: "دوو کوڕ لە پێشمانەوە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakahead25355("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakahead25355(
-                                        // REPLACE: aheadof /əˈhed əv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Two boys were ahead of us.",
+                            kurdishText: "دوو کوڕ لە پێشمانەوە بوون.",
+                            onPressedBritish: () => speakahead25355("en-GB"),
+                            onPressedAmerican: () => speakahead25355(
+                                // REPLACE: aheadof /əˈhed əv/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ahead of us lay ten days of intensive training."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دە ڕۆژی پڕ لە ڕاھێنانی سەختمان لە پێشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaheadof2377("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaheadof2377(
-                                        // REPLACE: aheadof /əˈhed əv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ahead of us lay ten days of intensive training.",
+                            kurdishText:
+                                "دە ڕۆژی پڕ لە ڕاھێنانی سەختمان لە پێشە.",
+                            onPressedBritish: () => speakaheadof2377("en-GB"),
+                            onPressedAmerican: () => speakaheadof2377(
+                                // REPLACE: aheadof /əˈhed əv/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ئامراز) پێش کەسێک/شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I finished several days ahead of the deadline."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەند ڕۆژێک پێش وادەی دیاریکراو تەواو بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakahead3522("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakahead3522(
-                                        // REPLACE: aheadof /əˈhed əv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I finished several days ahead of the deadline.",
+                            kurdishText:
+                                "چەند ڕۆژێک پێش وادەی دیاریکراو تەواو بووم.",
+                            onPressedBritish: () => speakahead3522("en-GB"),
+                            onPressedAmerican: () => speakahead3522(
+                                // REPLACE: aheadof /əˈhed əv/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ئامراز) باشتر لە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was always well ahead of the rest of the class."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە لەپێش ئەوانی دیکەی پۆلەکە بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaheadof3596("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaheadof3596(
-                                        // REPLACE: aheadof /əˈhed əv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was always well ahead of the rest of the class.",
+                            kurdishText:
+                                "ھەمیشە لەپێش ئەوانی دیکەی پۆلەکە بووە.",
+                            onPressedBritish: () => speakaheadof3596("en-GB"),
+                            onPressedAmerican: () => speakaheadof3596(
+                                // REPLACE: aheadof /əˈhed əv/
+                                "en-US"),
                           ),
                         ],
                       ),

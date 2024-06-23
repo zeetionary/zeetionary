@@ -150,95 +150,38 @@ class EnglishEntrybitterness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەستی تووڕەیی و دڵتەنگی بەھۆی ئەوەی پێت وایە خراپ مامەڵەت لەگەڵ کراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was full of bitterness after he lost his job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕ لە تووڕەیی بوو کە کارەکەی لەدەستدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitternesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitternesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was full of bitterness after he lost his job.",
+                            kurdishText:
+                                "پڕ لە تووڕەیی بوو کە کارەکەی لەدەستدا.",
+                            onPressedBritish: () => speakbitternesss1("en-GB"),
+                            onPressedAmerican: () => speakbitternesss1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) گفتوگۆیەک یان مشتومڕێکی توند بەھۆی ئەوەی ڕق و تووڕەیی زۆرەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bitterness of the argument left a lasting impact on their relationship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاڵی مشتومڕەکە کاریگەرییەکی بەردەوامی لەسەر پەیوەندییان جێھێشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitternesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitternesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bitterness of the argument left a lasting impact on their relationship.",
+                            kurdishText:
+                                "تاڵی مشتومڕەکە کاریگەرییەکی بەردەوامی لەسەر پەیوەندییان جێھێشت.",
+                            onPressedBritish: () => speakbitternesss2("en-GB"),
+                            onPressedAmerican: () => speakbitternesss2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) شتێک، بۆ نموونە خواردن، کە تاڵە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The medicine had a strong bitterness that lingered on the tongue."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرمانەکە تاڵییەکی توندی ھەبوو کە لەسەر زمان مایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitternesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitternesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The medicine had a strong bitterness that lingered on the tongue.",
+                            kurdishText:
+                                "دەرمانەکە تاڵییەکی توندی ھەبوو کە لەسەر زمان مایەوە.",
+                            onPressedBritish: () => speakbitternesss3("en-GB"),
+                            onPressedAmerican: () => speakbitternesss3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

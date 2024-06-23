@@ -151,90 +151,33 @@ class EnglishEntrybequeath extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (كردار) دیاریکردن لە وەسیەتدا کە سامانەکەت بۆ کێ دەچێت لە دوای مردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bequeathed his entire estate (= all his money and property) to his daughter."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەواوی سامانەکەی دا بە کچەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbequeaths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbequeaths1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He bequeathed his entire estate (= all his money and property) to his daughter.",
+                            kurdishText: "تەواوی سامانەکەی دا بە کچەکەی.",
+                            onPressedBritish: () => speakbequeaths1("en-GB"),
+                            onPressedAmerican: () => speakbequeaths1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bequeathed his daughter his entire estate."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەواوی سامانەکەی دا بە کچەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbequeaths2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbequeaths2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He bequeathed his daughter his entire estate.",
+                            kurdishText: "تەواوی سامانەکەی دا بە کچەکەی.",
+                            onPressedBritish: () => speakbequeaths2("en-GB"),
+                            onPressedAmerican: () => speakbequeaths2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (كردار) جێھێشتنی بەری ھەوڵ و ماندووبوون و زانیارییەکانت بۆ کەسێک بەکاریبێنن یان بەرپرسیار بن بۆی لە دوای مردنت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The previous government had bequeathed a legacy of lots of problems."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەتی پێشوو ژمارەیەکی زۆر کێشەی وەک میراتی جێھێشت بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbequeaths3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbequeaths3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The previous government had bequeathed a legacy of lots of problems.",
+                            kurdishText:
+                                "حکومەتی پێشوو ژمارەیەکی زۆر کێشەی وەک میراتی جێھێشت بوو.",
+                            onPressedBritish: () => speakbequeaths3("en-GB"),
+                            onPressedAmerican: () => speakbequeaths3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

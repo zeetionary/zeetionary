@@ -114,90 +114,32 @@ class EnglishEntryaccelerate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) شتێک خێراتر ڕووبدات" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Exposure to the sun can accelerate the ageing process."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرکەوتن بە خۆر ئەکرێت بەتەمەنبوون خێراتر بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2537("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2537("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Exposure to the sun can accelerate the ageing process.",
+                            kurdishText:
+                                "بەرکەوتن بە خۆر ئەکرێت بەتەمەنبوون خێراتر بکات.",
+                            onPressedBritish: () => speaka2537("en-GB"),
+                            onPressedAmerican: () => speaka2537("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The pace of change has begun to accelerate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێرایی گۆڕانکاری دەستیکردووە بە خێرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaa6587("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaa6587("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The pace of change has begun to accelerate.",
+                            kurdishText:
+                                "خێرایی گۆڕانکاری دەستیکردووە بە خێرابوون.",
+                            onPressedBritish: () => speakaa6587("en-GB"),
+                            onPressedAmerican: () => speakaa6587("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) کاتێک ئۆتۆمبێلێک خێراتر دەڕوات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car accelerated to overtake me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە خێرایی زیادکرد بۆ تێپەڕاندنم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaa3596("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaa3596("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The car accelerated to overtake me.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە خێرایی زیادکرد بۆ تێپەڕاندنم.",
+                            onPressedBritish: () => speakaa3596("en-GB"),
+                            onPressedAmerican: () => speakaa3596("en-US"),
                           ),
                         ],
                       ),

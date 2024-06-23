@@ -149,150 +149,51 @@ class EnglishEntrybless extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) داواکردن لە خودا بۆ پاراستنی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They brought the children to Jesus and he blessed them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکانیان ھێنا بۆ عیسای مەسیح و ئەویش داوای ڕەحمەتی بۆ کردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They brought the children to Jesus and he blessed them.",
+                            kurdishText:
+                                "منداڵەکانیان ھێنا بۆ عیسای مەسیح و ئەویش داوای ڕەحمەتی بۆ کردن.",
+                            onPressedBritish: () => speakblesss1("en-GB"),
+                            onPressedAmerican: () => speakblesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "God bless you!"),
-                                    ExampleSentenceKurdish(
-                                        text: "خودا ڕەحمت پێ بکات!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "God bless you!",
+                            kurdishText: "خودا ڕەحمت پێ بکات!",
+                            onPressedBritish: () => speakblesss2("en-GB"),
+                            onPressedAmerican: () => speakblesss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) پیرۆزکردنی شتێک بە خوێندنی نزا بەسەریدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The priest blessed the bread and meat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەشەکە نان و گۆشتەکەی پیرۆزکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The priest blessed the bread and meat.",
+                            kurdishText: "قەشەکە نان و گۆشتەکەی پیرۆزکرد.",
+                            onPressedBritish: () => speakblesss3("en-GB"),
+                            onPressedAmerican: () => speakblesss3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) ناوھێنانی خودا بە پیرۆزی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We bless your holy name, O Lord."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەی خودا، ناوت بە پیرۆزی دێنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblesss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblesss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We bless your holy name, O Lord.",
+                            kurdishText: "ئەی خودا، ناوت بە پیرۆزی دێنین.",
+                            onPressedBritish: () => speakblesss4("en-GB"),
+                            onPressedAmerican: () => speakblesss4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) بۆ پیشاندانی سەرسوڕمان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bless my soul! Here comes Karen!"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئاھ، کارن ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblesss5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblesss5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Bless my soul! Here comes Karen!",
+                            kurdishText: "ئاھ، کارن ھات.",
+                            onPressedBritish: () => speakblesss5("en-GB"),
+                            onPressedAmerican: () => speakblesss5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

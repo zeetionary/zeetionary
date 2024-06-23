@@ -150,62 +150,24 @@ class EnglishEntrybounty extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بەخشندەیی و دەستکراوەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The charity is totally dependent on the Church's bounty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێکخراوە خێرخوازییەکە بە تەواوی پشت دەبەستێت بە بەخشندەیی کڵێساکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbountys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbountys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The charity is totally dependent on the Church's bounty.",
+                            kurdishText:
+                                "ڕێکخراوە خێرخوازییەکە بە تەواوی پشت دەبەستێت بە بەخشندەیی کڵێساکە.",
+                            onPressedBritish: () => speakbountys1("en-GB"),
+                            onPressedAmerican: () => speakbountys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) پارەیەک کە وەک پاداشت دەدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A bounty of £10,000 has been offered for the capture of his murderer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاداشتی ١٠,٠٠٠ پاوەند دانراوە بۆ دەستگیرکردنی بکووژەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbountys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbountys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A bounty of £10,000 has been offered for the capture of his murderer.",
+                            kurdishText:
+                                "پاداشتی ١٠,٠٠٠ پاوەند دانراوە بۆ دەستگیرکردنی بکووژەکەی.",
+                            onPressedBritish: () => speakbountys2("en-GB"),
+                            onPressedAmerican: () => speakbountys2("en-US"),
                           ),
                         ],
                       ),

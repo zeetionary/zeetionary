@@ -147,32 +147,13 @@ class EnglishEntrybeachwear extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جلێک کە لە کەناراو لەبەردەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In most tourist destinations, there are plenty of shops selling beachwear."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە زۆرێک لە شوێنە گەشتیارییەکان فرۆشگای زۆر ھەیە بۆ فرۆشتنی جلی کەناراو و."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeachwears1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeachwears1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In most tourist destinations, there are plenty of shops selling beachwear.",
+                            kurdishText:
+                                "لە زۆرێک لە شوێنە گەشتیارییەکان فرۆشگای زۆر ھەیە بۆ فرۆشتنی جلی کەناراو و.",
+                            onPressedBritish: () => speakbeachwears1("en-GB"),
+                            onPressedAmerican: () => speakbeachwears1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

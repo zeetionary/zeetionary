@@ -149,32 +149,13 @@ class EnglishEntrybloodhound extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سەگێکی گەورە کە توانای بۆنکردنی تیژی ھەیە و بەکاردێت بۆ شوێنکەوتن یان گەڕان بە شوێن خەڵکیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Law enforcement relies on bloodhounds for locating missing persons."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس سەگی ڕاو بەکاردێنێت بۆ دۆزینەوەی شوێنی کەسانی ونبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodhounds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodhounds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Law enforcement relies on bloodhounds for locating missing persons.",
+                            kurdishText:
+                                "پۆلیس سەگی ڕاو بەکاردێنێت بۆ دۆزینەوەی شوێنی کەسانی ونبوو.",
+                            onPressedBritish: () => speakbloodhounds1("en-GB"),
+                            onPressedAmerican: () => speakbloodhounds1("en-US"),
                           ),
                         ],
                       ),

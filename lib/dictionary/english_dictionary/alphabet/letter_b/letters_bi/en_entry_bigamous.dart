@@ -151,32 +151,13 @@ class EnglishEntrybigamous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەسێک کە دوو ھاوسەری ھەیە لە یەک کاتدا، یان پەیوەندییەک کە کەسێکیان دوو ھاوسەری ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wasn't ready to tell the story of her bigamous husband."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامادە نەبوو باسی چیرۆکی ھاوسەرە دووژنەکەی بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbigamouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbigamouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wasn't ready to tell the story of her bigamous husband.",
+                            kurdishText:
+                                "ئامادە نەبوو باسی چیرۆکی ھاوسەرە دووژنەکەی بکات.",
+                            onPressedBritish: () => speakbigamouss1("en-GB"),
+                            onPressedAmerican: () => speakbigamouss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

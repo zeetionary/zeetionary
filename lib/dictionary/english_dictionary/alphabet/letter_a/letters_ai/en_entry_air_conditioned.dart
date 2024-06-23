@@ -109,35 +109,15 @@ class EnglishEntryairconditioned extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) شوێنێک کە سیستەمی فێنککەرەوەی تێدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The restaurant is air-conditioned."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چێشتخانەکە سیستەمی فێنککەرەوەی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakairconditioned341("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairconditioned341(
-                                        // REPLACE: air-conditioned /ˈer kəndɪʃnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The restaurant is air-conditioned.",
+                            kurdishText:
+                                "چێشتخانەکە سیستەمی فێنککەرەوەی تێدایە.",
+                            onPressedBritish: () =>
+                                speakairconditioned341("en-GB"),
+                            onPressedAmerican: () => speakairconditioned341(
+                                // REPLACE: air-conditioned /ˈer kəndɪʃnd/
+                                "en-US"),
                           ),
                         ],
                       ),

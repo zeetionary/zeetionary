@@ -114,34 +114,15 @@ class EnglishEntryaltar extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) مێزێک کە لە کڵێسا دادەنرێت لە کاتی بۆنەی ئاینی و شتە پیرۆزەکانی لەسەر دادەنرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He built an altar to God and made a sacrifice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێش‌نوێژگەیەکی بۆ خودا دانا و قوربانی ئەنجامدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaltar45966("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaltar45966(
-                                        // REPLACE: altar /ˈɔːltər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He built an altar to God and made a sacrifice.",
+                            kurdishText:
+                                "پێش‌نوێژگەیەکی بۆ خودا دانا و قوربانی ئەنجامدا.",
+                            onPressedBritish: () => speakaltar45966("en-GB"),
+                            onPressedAmerican: () => speakaltar45966(
+                                // REPLACE: altar /ˈɔːltər/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -146,121 +146,42 @@ class EnglishEntrybray extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) سەڕەی گوێدرێژ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The mules suddenly started braying."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێسرەکە لەناکاو دەستیکرد بە سەڕەسەڕ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrays1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrays1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The mules suddenly started braying.",
+                            kurdishText: "ھێسرەکە لەناکاو دەستیکرد بە سەڕەسەڕ.",
+                            onPressedBritish: () => speakbrays1("en-GB"),
+                            onPressedAmerican: () => speakbrays1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) قسەکردن یان پێکەنین بە شێوەیەکی ناخۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were all braying with laughter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموویان سەڕەسەڕیان بوو لە پێکەنیندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrays2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrays2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They were all braying with laughter.",
+                            kurdishText:
+                                "ھەموویان سەڕەسەڕیان بوو لە پێکەنیندا.",
+                            onPressedBritish: () => speakbrays2("en-GB"),
+                            onPressedAmerican: () => speakbrays2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) سەڕاندنی گوێدرێژ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the distance they see the glow of the campfires and hear the occasional bray of a mule."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوورەوە ڕۆشنایی ئاگری بەر خێوەتەکان دەبینن لەگەڵ بیستنی ناوەناوەی سەڕەی ھێستر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrays3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrays3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the distance they see the glow of the campfires and hear the occasional bray of a mule.",
+                            kurdishText:
+                                "لە دوورەوە ڕۆشنایی ئاگری بەر خێوەتەکان دەبینن لەگەڵ بیستنی ناوەناوەی سەڕەی ھێستر.",
+                            onPressedBritish: () => speakbrays3("en-GB"),
+                            onPressedAmerican: () => speakbrays3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) قسەکردن یان پێکەنین بە ناخۆشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He brayed with laughter."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەڕەی دەھات لە پێکەنیندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrays4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrays4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He brayed with laughter.",
+                            kurdishText: "سەڕەی دەھات لە پێکەنیندا.",
+                            onPressedBritish: () => speakbrays4("en-GB"),
+                            onPressedAmerican: () => speakbrays4("en-US"),
                           ),
                         ],
                       ),

@@ -115,34 +115,15 @@ class EnglishEntryagitator extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە ھەوڵ دەدات خەڵکی ڕازی بکات بەژداری ناڕەزایی بکەن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is thought that the strike was the work of undercover political agitators."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕ وایە مانگرتنەکە کاری ئاژاوەگێڕە نھێنییە سیاسییەکان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagita62577("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagita62577(
-                                        // REPLACE: agitator /ˈædʒɪteɪtər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is thought that the strike was the work of undercover political agitators.",
+                            kurdishText:
+                                "باوەڕ وایە مانگرتنەکە کاری ئاژاوەگێڕە نھێنییە سیاسییەکان بوو.",
+                            onPressedBritish: () => speakagita62577("en-GB"),
+                            onPressedAmerican: () => speakagita62577(
+                                // REPLACE: agitator /ˈædʒɪteɪtər/
+                                "en-US"),
                           ),
                         ],
                       ),

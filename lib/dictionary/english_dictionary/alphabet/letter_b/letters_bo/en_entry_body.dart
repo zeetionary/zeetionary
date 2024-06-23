@@ -338,466 +338,159 @@ class EnglishEntrybody extends StatelessWidget {
 کوردی: لەش، تەن، جەستە، ئەندام، گیان، قەلبەند، کەلەخ، کەلاک، جەندەک، تەرم، لاشە، بەشی سەرەکی، (ئۆتۆمبێل) بەدەنە، لاشە، گروپ، دەستە، تیپ، تاقم، کۆمەڵە، کۆمەڵ، کۆما، کۆگا، لۆدەتەن، ژمارە، چۆنیەتی، باشی، بنیادەم، پیاو، مرۆ، (مەی) خەستی
 """),
                           const DefinitionKurdish(text: "١. (ناو) لەش، جەستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The human body is a complex structure."),
-                                    ExampleSentenceKurdish(
-                                        text: "لەشی مرۆڤ پێکھاتەیەکی ئاڵۆزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The human body is a complex structure.",
+                            kurdishText: "لەشی مرۆڤ پێکھاتەیەکی ئاڵۆزە.",
+                            onPressedBritish: () => speakbodys1("en-GB"),
+                            onPressedAmerican: () => speakbodys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The virus can affect all parts of the body."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڤایرۆسەکە دەکرێت کار بکاتە سەر ھەموو بەشەکانی جەستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The virus can affect all parts of the body.",
+                            kurdishText:
+                                "ڤایرۆسەکە دەکرێت کار بکاتە سەر ھەموو بەشەکانی جەستە.",
+                            onPressedBritish: () => speakbodys2("en-GB"),
+                            onPressedAmerican: () => speakbodys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەشی سەرەکی جەستە بەبێ سەر، یان بەبێ سەر و باڵ و لاق"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had injuries to her head and body."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "برینی ھەبوو لەسەر سەری و جەستەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had injuries to her head and body.",
+                            kurdishText: "برینی ھەبوو لەسەر سەری و جەستەی.",
+                            onPressedBritish: () => speakbodys3("en-GB"),
+                            onPressedAmerican: () => speakbodys3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has a large body, but thin legs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لاشەیەکی گەورەی ھەیە، بەڵام لاقەکانی باریکن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He has a large body, but thin legs.",
+                            kurdishText:
+                                "لاشەیەکی گەورەی ھەیە، بەڵام لاقەکانی باریکن.",
+                            onPressedBritish: () => speakbodys4("en-GB"),
+                            onPressedAmerican: () => speakbodys4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) لاشەی کەسێک یان ئاژەڵێکی مردوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The family of the missing girl has been called in by the police to identify the body."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێزانی کچە ونبووەکە بانگکراون لەلایەن پۆلیسەوە بۆ ناسینەوەی لاشەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The family of the missing girl has been called in by the police to identify the body.",
+                            kurdishText:
+                                "خێزانی کچە ونبووەکە بانگکراون لەلایەن پۆلیسەوە بۆ ناسینەوەی لاشەکە.",
+                            onPressedBritish: () => speakbodys5("en-GB"),
+                            onPressedAmerican: () => speakbodys5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) بەشی سەرەکیی شتێک، بەتایبەتی بینایەک، ئامرازێکی گواستنەوە، کتێبێک، وتارێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bar is in the main body of the hotel."),
-                                    ExampleSentenceKurdish(
-                                        text: "باڕەکە بەشی سەرەکی ھوتێلەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bar is in the main body of the hotel.",
+                            kurdishText: "باڕەکە بەشی سەرەکی ھوتێلەکەیە.",
+                            onPressedBritish: () => speakbodys6("en-GB"),
+                            onPressedAmerican: () => speakbodys6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are some references in the main body of the text."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک سەرچاوە ھەن لە بەشی سەرەکیی نووسراوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are some references in the main body of the text.",
+                            kurdishText:
+                                "ھەندێک سەرچاوە ھەن لە بەشی سەرەکیی نووسراوەکە.",
+                            onPressedBritish: () => speakbodys7("en-GB"),
+                            onPressedAmerican: () => speakbodys7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) کۆمەڵێک لە خەڵکی کە پێکەوە کاردەکەن، زۆرجار بۆ مەبەستێکی فەرمی، یان ئەوەی بە شێوەیەک پێکەوە پەیوەندیدارن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The governing body of the school is/are concerned about discipline."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستەی بەڕێوبەری قوتابخانەکە نیگەرانن سەبارەت بە گوێرایەڵی (خوێندکاران)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The governing body of the school is/are concerned about discipline.",
+                            kurdishText:
+                                "دەستەی بەڕێوبەری قوتابخانەکە نیگەرانن سەبارەت بە گوێرایەڵی (خوێندکاران).",
+                            onPressedBritish: () => speakbodys8("en-GB"),
+                            onPressedAmerican: () => speakbodys8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An independent body has been set up to investigate the affair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستەیەکی سەربەخۆ پێکھێنراوە بۆ لێکۆڵینەوە لە بابەتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An independent body has been set up to investigate the affair.",
+                            kurdishText:
+                                "دەستەیەکی سەربەخۆ پێکھێنراوە بۆ لێکۆڵینەوە لە بابەتەکە.",
+                            onPressedBritish: () => speakbodys9("en-GB"),
+                            onPressedAmerican: () => speakbodys9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) ڕێژەیەکی زۆر لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a powerful body of opinion against the ruling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی بەھێز لە بۆچوون ھەیە دژ بە بڕیارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a powerful body of opinion against the ruling.",
+                            kurdishText:
+                                "ڕێژەیەکی بەھێز لە بۆچوون ھەیە دژ بە بڕیارەکە.",
+                            onPressedBritish: () => speakbodys10("en-GB"),
+                            onPressedAmerican: () => speakbodys10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two islands are separated by a large body of water."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو دوورگەکە جیاکراونەتەوە بە بڕێکی زۆر لە ئاو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two islands are separated by a large body of water.",
+                            kurdishText:
+                                "دوو دوورگەکە جیاکراونەتەوە بە بڕێکی زۆر لە ئاو.",
+                            onPressedBritish: () => speakbodys11("en-GB"),
+                            onPressedAmerican: () => speakbodys11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٧. (ناو) شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They removed a foreign body from her eye."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شتێکی دەرەکییان لە چاوی دەرکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They removed a foreign body from her eye.",
+                            kurdishText: "شتێکی دەرەکییان لە چاوی دەرکرد.",
+                            onPressedBritish: () => speakbodys12("en-GB"),
+                            onPressedAmerican: () => speakbodys12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Stars are celestial bodies."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەستێرەکان تەنی ئاسمانین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Stars are celestial bodies.",
+                            kurdishText: "ئەستێرەکان تەنی ئاسمانین.",
+                            onPressedBritish: () => speakbodys13("en-GB"),
+                            onPressedAmerican: () => speakbodys13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (ناو) کوالێتی بەھێز یان ئەستوور"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Regular use of conditioner is supposed to give your hair more body."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکارھێنانی بەردەوامی نەرم‌کەرەوە دەبێت ئەستووری زیاتر بە قژت بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Regular use of conditioner is supposed to give your hair more body.",
+                            kurdishText:
+                                "بەکارھێنانی بەردەوامی نەرم‌کەرەوە دەبێت ئەستووری زیاتر بە قژت بدات.",
+                            onPressedBritish: () => speakbodys14("en-GB"),
+                            onPressedAmerican: () => speakbodys14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This wine has plenty of body (= strong flavour)."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم بیرەیە تامی بەھێزی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This wine has plenty of body (= strong flavour).",
+                            kurdishText: "ئەم بیرەیە تامی بەھێزی ھەیە.",
+                            onPressedBritish: () => speakbodys15("en-GB"),
+                            onPressedAmerican: () => speakbodys15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (ناو) ھەبوونی ئەو جۆرە لاشەیەی کە باسکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Every able-bodied man had to fight for his country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو پیاوێکی لاشە ساخ دەبوو شەڕ بۆ وڵاتەکەی بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodys16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodys16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Every able-bodied man had to fight for his country.",
+                            kurdishText:
+                                "ھەموو پیاوێکی لاشە ساخ دەبوو شەڕ بۆ وڵاتەکەی بکات.",
+                            onPressedBritish: () => speakbodys16("en-GB"),
+                            onPressedAmerican: () => speakbodys16("en-US"),
                           ),
                         ],
                       ),

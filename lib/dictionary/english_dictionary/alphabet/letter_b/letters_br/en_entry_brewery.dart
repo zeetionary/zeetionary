@@ -145,32 +145,13 @@ class EnglishEntrybrewery extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆمپانیایەک یان کارگەیەک کە بیرە درووست دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Visitors enjoyed a brewery tour to learn about the beer-making process."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەردانکەران گەشتێکیان بۆ ناو کارگەی بیرەکە ئەنجامدا بۆ زانین لەسەر پڕۆسەی درووستکردنی بیرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brewery" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrewerys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrewerys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Visitors enjoyed a brewery tour to learn about the beer-making process.",
+                            kurdishText:
+                                "سەردانکەران گەشتێکیان بۆ ناو کارگەی بیرەکە ئەنجامدا بۆ زانین لەسەر پڕۆسەی درووستکردنی بیرە.", // brewery" as
+                            onPressedBritish: () => speakbrewerys1("en-GB"),
+                            onPressedAmerican: () => speakbrewerys1("en-US"),
                           ),
                         ],
                       ),

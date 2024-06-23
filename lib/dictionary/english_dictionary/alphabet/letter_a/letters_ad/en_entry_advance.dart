@@ -198,352 +198,142 @@ class EnglishEntryadvance extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بەرەوپێشچوون و سەرکەوتن" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We live in an age of rapid technological advance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە سەردەمێکدا دەژین کە تەکنەلۆژیا بەخێرایی بەرەو پێشەوە دەچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadv2567("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadv2567(
-                                        // REPLACE: advance /ədˈvɑːns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We live in an age of rapid technological advance.",
+                            kurdishText:
+                                "لە سەردەمێکدا دەژین کە تەکنەلۆژیا بەخێرایی بەرەو پێشەوە دەچێت.",
+                            onPressedBritish: () => speakadv2567("en-GB"),
+                            onPressedAmerican: () => speakadv2567(
+                                // REPLACE: advance /ədˈvɑːns/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بۆ پێشەوە جووڵەی کۆمەڵێک کەس، بەتایبەت یەکەی سەربازی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Enemy advances had forced them to retreat into the mountains."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشڕەویی دوژمن ناچاری کردبوون بکشێنەوە ناو چیکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvan3567("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvan3567(
-                                        // REPLACE: advance /ədˈvɑːns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Enemy advances had forced them to retreat into the mountains.",
+                            kurdishText:
+                                "پێشڕەویی دوژمن ناچاری کردبوون بکشێنەوە ناو چیکان.",
+                            onPressedBritish: () => speakadvan3567("en-GB"),
+                            onPressedAmerican: () => speakadvan3567(
+                                // REPLACE: advance /ədˈvɑːns/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) پارەیەک کە لەپێشدا دەدرێت وەک پێشەکی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The publishers have paid me an advance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڵاوکەرەوەکان پێشەکییەکیان داوە پێم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadv253("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadv253(
-                                        // REPLACE: advance /ədˈvɑːns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The publishers have paid me an advance.",
+                            kurdishText: "بڵاوکەرەوەکان پێشەکییەکیان داوە پێم.",
+                            onPressedBritish: () => speakadv253("en-GB"),
+                            onPressedAmerican: () => speakadv253(
+                                // REPLACE: advance /ədˈvɑːns/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ھەوڵدان بۆ دەستپێکردنی پەیوەندیی سێکسی لەگەڵ کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had made advances to one of his colleagues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵیدا پەیوەندی سێکسی لەگەڵ یەکێک لە ھاوکارەکانی درووست بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadv23574("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadv23574(
-                                        // REPLACE: advance /ədˈvɑːns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had made advances to one of his colleagues.",
+                            kurdishText:
+                                "ھەوڵیدا پەیوەندی سێکسی لەگەڵ یەکێک لە ھاوکارەکانی درووست بکات.",
+                            onPressedBritish: () => speakadv23574("en-GB"),
+                            onPressedAmerican: () => speakadv23574(
+                                // REPLACE: advance /ədˈvɑːns/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) بەرەوپێشچوون و گەشەکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our knowledge of the disease has advanced considerably over recent years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێگەشتنمان بۆ نەخۆشییەکە زۆر بەرەوپێشچووە لە چەند ساڵی ڕابردوودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvan6988("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvan6988(
-                                        // REPLACE: advance /ədˈvɑːns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our knowledge of the disease has advanced considerably over recent years.",
+                            kurdishText:
+                                "تێگەشتنمان بۆ نەخۆشییەکە زۆر بەرەوپێشچووە لە چەند ساڵی ڕابردوودا.",
+                            onPressedBritish: () => speakadvan6988("en-GB"),
+                            onPressedAmerican: () => speakadvan6988(
+                                // REPLACE: advance /ədˈvɑːns/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) بەرەوپێشچوونی کۆمەڵە کەسێک، بەتایبەتی پێشڕەویکردنی سەربازی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The troops were finally given the order to advance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازان لە کۆتاییدا فەرمانی پێشڕەوییان پێدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakad456("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakad456(
-                                        // REPLACE: advance /ədˈvɑːns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The troops were finally given the order to advance.",
+                            kurdishText:
+                                "سەربازان لە کۆتاییدا فەرمانی پێشڕەوییان پێدرا.",
+                            onPressedBritish: () => speakad456("en-GB"),
+                            onPressedAmerican: () => speakad456(
+                                // REPLACE: advance /ədˈvɑːns/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (کردار) یارمەتیدان لە سەرکەوتنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They worked together to advance the cause of democracy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکەوە کاریان کرد بۆ بەرەوپێشچوونی دۆزی دیموکراسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadv3568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadv3568(
-                                        // REPLACE: advance /ədˈvɑːns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They worked together to advance the cause of democracy.",
+                            kurdishText:
+                                "پێکەوە کاریان کرد بۆ بەرەوپێشچوونی دۆزی دیموکراسی.",
+                            onPressedBritish: () => speakadv3568("en-GB"),
+                            onPressedAmerican: () => speakadv3568(
+                                // REPLACE: advance /ədˈvɑːns/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (کردار) پێدانی پارە لە پێش کاتی خۆی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We will advance you the money."),
-                                    ExampleSentenceKurdish(
-                                        text: "پارەکەت بە پێشەکی پێدەدەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadva391("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadva391(
-                                        // REPLACE: advance /ədˈvɑːns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We will advance you the money.",
+                            kurdishText: "پارەکەت بە پێشەکی پێدەدەین.",
+                            onPressedBritish: () => speakadva391("en-GB"),
+                            onPressedAmerican: () => speakadva391(
+                                // REPLACE: advance /ədˈvɑːns/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (کردار) پێشنیارکردنی بیرۆکەیەک یان پلانێک بۆ گەنگەشەکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The article advances a new theory to explain changes in the climate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکە بیردۆزێکی تازە پێشنیار دەکات بۆ ڕوونکردنەوەی گۆڕان لە ئاووھەوا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadva7864("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadva7864(
-                                        // REPLACE: advance /ədˈvɑːns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The article advances a new theory to explain changes in the climate.",
+                            kurdishText:
+                                "وتارەکە بیردۆزێکی تازە پێشنیار دەکات بۆ ڕوونکردنەوەی گۆڕان لە ئاووھەوا.",
+                            onPressedBritish: () => speakadva7864("en-GB"),
+                            onPressedAmerican: () => speakadva7864(
+                                // REPLACE: advance /ədˈvɑːns/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٠. (کردار) گۆڕینی کاتی ڕووداوێک بۆ ئەوەی زووتر ڕووبدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The date of the trial has been advanced by one week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێکەوتی دانیشتنەکەی دادگا یەک ھەفتە ھێنراوەتە پێشەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadva8529("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadva8529(
-                                        // REPLACE: advance /ədˈvɑːns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The date of the trial has been advanced by one week.",
+                            kurdishText:
+                                "ڕێکەوتی دانیشتنەکەی دادگا یەک ھەفتە ھێنراوەتە پێشەوە.",
+                            onPressedBritish: () => speakadva8529("en-GB"),
+                            onPressedAmerican: () => speakadva8529(
+                                // REPLACE: advance /ədˈvɑːns/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١١. (کردار) چوونە قۆناغێکی دواتری شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Participants advance through the program by answering a series of questions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەژداربووان دەچنە قۆناغەکانی دواتری پڕۆگرامەکە بە وەڵامدانەوەی ژمارەیەک پرسیار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadv9678("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadv9678(
-                                        // REPLACE: advance /ədˈvɑːns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Participants advance through the program by answering a series of questions.",
+                            kurdishText:
+                                "بەژداربووان دەچنە قۆناغەکانی دواتری پڕۆگرامەکە بە وەڵامدانەوەی ژمارەیەک پرسیار.",
+                            onPressedBritish: () => speakadv9678("en-GB"),
+                            onPressedAmerican: () => speakadv9678(
+                                // REPLACE: advance /ədˈvɑːns/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -163,69 +163,31 @@ class EnglishEntryarchitecture extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ھونەر و زانستی دیزاینی بینا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's a professor of architecture at the University of Oregon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆفیسۆری بیناسازییە لە زانکۆی ئۆریگۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarchitecture415("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarchitecture415(
-                                        // REPLACE: architecture /ˈɑːrkɪtektʃər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's a professor of architecture at the University of Oregon.",
+                            kurdishText:
+                                "پڕۆفیسۆری بیناسازییە لە زانکۆی ئۆریگۆن.",
+                            onPressedBritish: () =>
+                                speakarchitecture415("en-GB"),
+                            onPressedAmerican: () => speakarchitecture415(
+                                // REPLACE: architecture /ˈɑːrkɪtektʃər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) دیزاین یان ستایلی بینایەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are examples of most styles of architecture in the town."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نموونەی زۆرێک لە ستایلەکانی بیناسازی لە شارەکە ھەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarchitecture417("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarchitecture417(
-                                        // REPLACE: architecture /ˈɑːrkɪtektʃər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are examples of most styles of architecture in the town.",
+                            kurdishText:
+                                "نموونەی زۆرێک لە ستایلەکانی بیناسازی لە شارەکە ھەن.",
+                            onPressedBritish: () =>
+                                speakarchitecture417("en-GB"),
+                            onPressedAmerican: () => speakarchitecture417(
+                                // REPLACE: architecture /ˈɑːrkɪtektʃər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

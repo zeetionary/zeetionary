@@ -119,35 +119,16 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                               text:
                                   "١. (ناو) نەخۆشییەک کە زۆرجار بەساڵاچووان تووشی دەبن کە دەبێتەھۆی لەبیرچوونەوە و لەدەستدانی توانای قسەکردن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The most common form of dementia is Alzheimer's disease."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوترین جۆری خەڵەفاوی نەخۆشی ئالزایمێرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalzheimersdisease6555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalzheimersdisease6555(
-                                        // REPLACE: Alzheimer's disease /ˈɑːltshaɪmərz dɪziːz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The most common form of dementia is Alzheimer's disease.",
+                            kurdishText:
+                                "باوترین جۆری خەڵەفاوی نەخۆشی ئالزایمێرە.",
+                            onPressedBritish: () =>
+                                speakalzheimersdisease6555("en-GB"),
+                            onPressedAmerican: () => speakalzheimersdisease6555(
+                                // REPLACE: Alzheimer's disease /ˈɑːltshaɪmərz dɪziːz/
+                                "en-US"),
                           ),
                         ],
                       ),

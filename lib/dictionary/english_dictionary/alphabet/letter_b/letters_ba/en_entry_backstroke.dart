@@ -157,32 +157,13 @@ class EnglishEntrybackstroke extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) جۆرە مەلەکردنێک کە لەسەر پشتت پاڵ دەکەویت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can you do (the) backstroke?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەتوانی پشتەمەلە بکەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s1(// REPLACE: backstroke
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can you do (the) backstroke?",
+                            kurdishText: "ئەتوانی پشتەمەلە بکەیت؟",
+                            onPressedBritish: () => speakb3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s1(// REPLACE: backstroke
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

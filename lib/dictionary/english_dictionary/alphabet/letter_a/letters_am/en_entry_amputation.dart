@@ -158,35 +158,16 @@ class EnglishEntryamputation extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) کردەی بڕینەوەی باڵ، لاق، یان پەنجەی کەسێک بە نەشتەرگەری"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A boyhood accident led to the amputation of one of his legs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووداوێک لە کاتی منداڵی‌یدا بوو بەھۆی بڕینەوەی لاقێکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamputation7704("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamputation7704(
-                                        // REPLACE: amputation /ˌæmpjuˈteɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A boyhood accident led to the amputation of one of his legs.",
+                            kurdishText:
+                                "ڕووداوێک لە کاتی منداڵی‌یدا بوو بەھۆی بڕینەوەی لاقێکی.",
+                            onPressedBritish: () =>
+                                speakamputation7704("en-GB"),
+                            onPressedAmerican: () => speakamputation7704(
+                                // REPLACE: amputation /ˌæmpjuˈteɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

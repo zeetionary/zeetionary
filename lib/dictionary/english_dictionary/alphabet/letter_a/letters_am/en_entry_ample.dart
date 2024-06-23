@@ -155,67 +155,28 @@ class EnglishEntryample extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) بەشی پێویست، یان زیاتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was ample time to get to the airport."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتی پێویست ھەبوو بۆ گەشتن بە فڕۆکەخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakample001("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakample001(// REPLACE: ample /ˈæmpl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was ample time to get to the airport.",
+                            kurdishText:
+                                "کاتی پێویست ھەبوو بۆ گەشتن بە فڕۆکەخانەکە.",
+                            onPressedBritish: () => speakample001("en-GB"),
+                            onPressedAmerican: () =>
+                                speakample001(// REPLACE: ample /ˈæmpl/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) کەسێک کە جەستەیەکی گەورە و پتەو و جوانی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These clothes belonged to a man of more ample girth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم جلانە ھی پیاوێکی کەمەر زل‌ترە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakample4408("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakample4408(// REPLACE: ample /ˈæmpl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These clothes belonged to a man of more ample girth.",
+                            kurdishText: "ئەم جلانە ھی پیاوێکی کەمەر زل‌ترە.",
+                            onPressedBritish: () => speakample4408("en-GB"),
+                            onPressedAmerican: () =>
+                                speakample4408(// REPLACE: ample /ˈæmpl/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

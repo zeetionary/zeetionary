@@ -147,91 +147,33 @@ class EnglishEntrybrawl extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شەڕی نێوان گرووپێک لە خەڵکی، زۆرجار لە شوێنێکی گشتیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He got into a drunken brawl in a bar."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی تێوەگلاند لە شەڕێکی سەرخۆشانە لە مەیخانەیەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrawls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrawls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He got into a drunken brawl in a bar.",
+                            kurdishText:
+                                "خۆی تێوەگلاند لە شەڕێکی سەرخۆشانە لە مەیخانەیەک.",
+                            onPressedBritish: () => speakbrawls1("en-GB"),
+                            onPressedAmerican: () => speakbrawls1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Police officers were injured in a mass brawl outside a nightclub."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەفسەرانی پۆلیس برینداربوون لە شەڕێکی گەورەدا لە دەرەوەی یانە شەوانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrawls2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrawls2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Police officers were injured in a mass brawl outside a nightclub.",
+                            kurdishText:
+                                "ئەفسەرانی پۆلیس برینداربوون لە شەڕێکی گەورەدا لە دەرەوەی یانە شەوانەکە.",
+                            onPressedBritish: () => speakbrawls2("en-GB"),
+                            onPressedAmerican: () => speakbrawls2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بەژداری کردن لە شەڕێکی توندوتیژانە، بە تایبەتی لە شوێنێکی گشتیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were arrested for brawling in the street."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستگیرکران بۆ شەڕکردن لە شەقامەکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrawls3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrawls3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were arrested for brawling in the street.",
+                            kurdishText: "دەستگیرکران بۆ شەڕکردن لە شەقامەکدا.",
+                            onPressedBritish: () => speakbrawls3("en-GB"),
+                            onPressedAmerican: () => speakbrawls3("en-US"),
                           ),
                         ],
                       ),

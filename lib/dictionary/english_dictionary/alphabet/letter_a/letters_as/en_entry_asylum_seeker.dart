@@ -162,35 +162,16 @@ class EnglishEntryasylumseeker extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە بەھۆی مەترسی لەسەر ژیانی وڵاتی خۆی جێھێشتووە و داوای مانەوە لە وڵاتێکی تر دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The asylum seeker fled her home country due to political violence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەناخوازەکە وڵاتی خۆی جێھێشت بەھۆی توندوتیژی سیاسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakasylumseeker629("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasylumseeker629(
-                                        // REPLACE: asylum seeker
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The asylum seeker fled her home country due to political violence.",
+                            kurdishText:
+                                "پەناخوازەکە وڵاتی خۆی جێھێشت بەھۆی توندوتیژی سیاسی.",
+                            onPressedBritish: () =>
+                                speakasylumseeker629("en-GB"),
+                            onPressedAmerican: () => speakasylumseeker629(
+                                // REPLACE: asylum seeker
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

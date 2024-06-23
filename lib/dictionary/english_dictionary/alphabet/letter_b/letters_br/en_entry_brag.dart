@@ -147,60 +147,22 @@ class EnglishEntrybrag extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) قسەکردن بە شانازییەوە لەسەر شتێک کە ھەتە یان کردووتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bragged to his friends about the crime."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەلای ھاوڕێکانی خی‌ھەڵکێشا سەبارەت بە تاوانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrags1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrags1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He bragged to his friends about the crime.",
+                            kurdishText:
+                                "لەلای ھاوڕێکانی خی‌ھەڵکێشا سەبارەت بە تاوانەکە.",
+                            onPressedBritish: () => speakbrags1("en-GB"),
+                            onPressedAmerican: () => speakbrags1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I’m not bragging but I think I did very well in the interview."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆم فشناکەمەوە، بەڵام پێـ‌وایە زۆر باش بووم لە چاوپێکەوتنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrags2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrags2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I’m not bragging but I think I did very well in the interview.",
+                            kurdishText:
+                                "خۆم فشناکەمەوە، بەڵام پێـ‌وایە زۆر باش بووم لە چاوپێکەوتنەکە.",
+                            onPressedBritish: () => speakbrags2("en-GB"),
+                            onPressedAmerican: () => speakbrags2("en-US"),
                           ),
                         ],
                       ),

@@ -148,223 +148,89 @@ class EnglishEntryaim extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) ھەوڵدان بۆ بەدەستھێنانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We should aim for a bigger share of the market."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت ئامانجمان پشکێکی زیاتری بازاڕ بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaim86555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaim86555(// REPLACE: aim /eɪm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We should aim for a bigger share of the market.",
+                            kurdishText:
+                                "دەبێت ئامانجمان پشکێکی زیاتری بازاڕ بێت.",
+                            onPressedBritish: () => speakaim86555("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaim86555(// REPLACE: aim /eɪm/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government is aiming at a 50% reduction in unemployment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت ئامانجیەتی بە ڕێژەی ٥٠٪ بێکاری کەمبکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaim475699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaim475699(// REPLACE: aim /eɪm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government is aiming at a 50% reduction in unemployment.",
+                            kurdishText:
+                                "حکومەت ئامانجیەتی بە ڕێژەی ٥٠٪ بێکاری کەمبکاتەوە.",
+                            onPressedBritish: () => speakaim475699("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaim475699(// REPLACE: aim /eɪm/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ھەبوونی شتێک وەک ئامانج"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These measures are aimed at preventing violent crime."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ڕێکارانە ئامانجیانە تاوانی توندوتیژی کەمبکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaim456933("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaim456933(// REPLACE: aim /eɪm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These measures are aimed at preventing violent crime.",
+                            kurdishText:
+                                "ئەم ڕێکارانە ئامانجیانە تاوانی توندوتیژی کەمبکەنەوە.",
+                            onPressedBritish: () => speakaim456933("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaim456933(// REPLACE: aim /eɪm/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) وتن یان کردنی شتێک بە ئامانجی کارلێککردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My criticism wasn't aimed at you."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕەخنەکانم ڕوو لە تۆ نەبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaim5283("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaim5283(// REPLACE: aim /eɪm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My criticism wasn't aimed at you.",
+                            kurdishText: "ڕەخنەکانم ڕوو لە تۆ نەبوون.",
+                            onPressedBritish: () => speakaim5283("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaim5283(// REPLACE: aim /eɪm/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) ڕووکردنی چەک، کامێرا، بۆکس، یان شتێکی تر لە کەسێک/شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was aiming at the tree but hit the car by mistake."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانجم لە دارەکە گرتەوە، بەڵام بە ھەڵە لە ئۆتۆمبێلەکەم دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaim371595446("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaim371595446(// REPLACE: aim /eɪm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was aiming at the tree but hit the car by mistake.",
+                            kurdishText:
+                                "ئامانجم لە دارەکە گرتەوە، بەڵام بە ھەڵە لە ئۆتۆمبێلەکەم دا.",
+                            onPressedBritish: () => speakaim371595446("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaim371595446(// REPLACE: aim /eɪm/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) ئامانج، شتێک کە ھەوڵی بەدەستھێنانی دەدەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His sole aim in life is to enjoy himself."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا ئامانجی لە ژیان ئەوە بوو خۆشی لە خۆی ببینێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaim78562("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaim78562(// REPLACE: aim /eɪm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His sole aim in life is to enjoy himself.",
+                            kurdishText:
+                                "تەنھا ئامانجی لە ژیان ئەوە بوو خۆشی لە خۆی ببینێت.",
+                            onPressedBritish: () => speakaim78562("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaim78562(// REPLACE: aim /eɪm/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) شارەزایی لە ئامانجگرتنەوە بە چەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her aim was good and she hit the lion with her first shot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانجگرتنەکەی باش بوو و بە یەکەم لێدان لە شێرەکەی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaim46011635("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaim46011635(// REPLACE: aim /eɪm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her aim was good and she hit the lion with her first shot.",
+                            kurdishText:
+                                "ئامانجگرتنەکەی باش بوو و بە یەکەم لێدان لە شێرەکەی دا.",
+                            onPressedBritish: () => speakaim46011635("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaim46011635(// REPLACE: aim /eɪm/
+                                    "en-US"),
                           ),
                         ],
                       ),

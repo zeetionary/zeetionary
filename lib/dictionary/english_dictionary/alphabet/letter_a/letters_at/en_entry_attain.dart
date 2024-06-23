@@ -165,67 +165,29 @@ class EnglishEntryattain extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) سەرکەوتن لە بەدەستھێنانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has attained the highest grade in his music exams."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرزترین نمرەی لە تاقیکردنەوەی میوزیک بەدەستھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattain646("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattain646(// REPLACE: attain
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has attained the highest grade in his music exams.",
+                            kurdishText:
+                                "بەرزترین نمرەی لە تاقیکردنەوەی میوزیک بەدەستھێناوە.",
+                            onPressedBritish: () => speakattain646("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattain646(// REPLACE: attain
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) گەشتنە تەمەنێک، ئاستێک، یان دۆخێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cheetah can attain speeds of up to 97 kph."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیتا دەتوانێت بگاتە خێرایی ٩٧ کم لە کاتژمێرێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattain648("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattain648(// REPLACE: attain
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cheetah can attain speeds of up to 97 kph.",
+                            kurdishText:
+                                "چیتا دەتوانێت بگاتە خێرایی ٩٧ کم لە کاتژمێرێکدا.",
+                            onPressedBritish: () => speakattain648("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattain648(// REPLACE: attain
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

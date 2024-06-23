@@ -162,100 +162,40 @@ class EnglishEntryarctic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) پەیوەندیدار بە خولگەی جەمسەری باکوور"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "No trees grow in the Arctic regions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ درەختێک لە ناوچەکانی جەمسەری باکوور گەشە ناکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarctic449("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarctic449(
-                                        // REPLACE: Arctic /ˈɑːrktɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "No trees grow in the Arctic regions.",
+                            kurdishText:
+                                "ھیچ درەختێک لە ناوچەکانی جەمسەری باکوور گەشە ناکات.",
+                            onPressedBritish: () => speakarctic449("en-GB"),
+                            onPressedAmerican: () => speakarctic449(
+                                // REPLACE: Arctic /ˈɑːrktɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) زۆر سارد"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The North of England has been experiencing Arctic conditions these past few days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم چەند ڕۆژەی ڕابردوو باکووری ئینگلتەرە بە کەشوھەوای زۆر سارددا تێپەڕیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarctic451("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarctic451(
-                                        // REPLACE: Arctic /ˈɑːrktɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The North of England has been experiencing Arctic conditions these past few days.",
+                            kurdishText:
+                                "ئەم چەند ڕۆژەی ڕابردوو باکووری ئینگلتەرە بە کەشوھەوای زۆر سارددا تێپەڕیوە.",
+                            onPressedBritish: () => speakarctic451("en-GB"),
+                            onPressedAmerican: () => speakarctic451(
+                                // REPLACE: Arctic /ˈɑːrktɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ناوچەی خولگەی باکووری زەوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Polar bears live in the Arctic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ورچەسپی لە جەمسەری باکوور دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarctic452("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarctic452(
-                                        // REPLACE: Arctic /ˈɑːrktɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Polar bears live in the Arctic.",
+                            kurdishText: "ورچەسپی لە جەمسەری باکوور دەژین.",
+                            onPressedBritish: () => speakarctic452("en-GB"),
+                            onPressedAmerican: () => speakarctic452(
+                                // REPLACE: Arctic /ˈɑːrktɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

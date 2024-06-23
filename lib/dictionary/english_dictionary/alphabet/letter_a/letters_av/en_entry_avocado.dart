@@ -157,34 +157,15 @@ class EnglishEntryavocado extends StatelessWidget {
                               text:
                                   "١. (ناو) میوەیەک کە تویکڵێکی سەختی سەوزی کاڵی ھەیە لەگەڵ ناوێکی نەرمی سەوزی ڕۆشن کە شیرین نییە و تۆوێکی گەورەی تێدایە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Half an avocado contains about 160 calories."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیوەی ئەڤۆکادۆیەک نزیکەی ١٦٠ کالۆری تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavocados1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavocados1(// REPLACE: avocado
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Half an avocado contains about 160 calories.",
+                            kurdishText:
+                                "نیوەی ئەڤۆکادۆیەک نزیکەی ١٦٠ کالۆری تێدایە.",
+                            onPressedBritish: () => speakavocados1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavocados1(// REPLACE: avocado
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

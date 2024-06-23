@@ -112,68 +112,29 @@ class EnglishEntryaggressively extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) شەڕەنگێزانە و بەتوڕەیی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many drivers behave aggressively on the road."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر شۆفێر لەسەر شەقامەکان بە توندوتیژی ڕەفتار دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaggressiv1458("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggressiv1458(
-                                        // REPLACE: aggressively /əˈɡresɪvli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many drivers behave aggressively on the road.",
+                            kurdishText:
+                                "زۆر شۆفێر لەسەر شەقامەکان بە توندوتیژی ڕەفتار دەکەن.",
+                            onPressedBritish: () => speakaggressiv1458("en-GB"),
+                            onPressedAmerican: () => speakaggressiv1458(
+                                // REPLACE: aggressively /əˈɡresɪvli/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەشێوەیەک کە ھێز و ماندووبوونی زیاتری تێدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They played more aggressively in the second half."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە گێمی دووەم سەرسەختانەتر یارییان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaggressively22222("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggressively22222(
-                                        // REPLACE: aggressively /əˈɡresɪvli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They played more aggressively in the second half.",
+                            kurdishText:
+                                "لە گێمی دووەم سەرسەختانەتر یارییان کرد.",
+                            onPressedBritish: () =>
+                                speakaggressively22222("en-GB"),
+                            onPressedAmerican: () => speakaggressively22222(
+                                // REPLACE: aggressively /əˈɡresɪvli/
+                                "en-US"),
                           ),
                         ],
                       ),

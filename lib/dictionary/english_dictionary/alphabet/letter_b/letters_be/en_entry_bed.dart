@@ -147,212 +147,79 @@ class EnglishEntrybed extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جێگەی خەو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'm tired—I'm going to bed."),
-                                    ExampleSentenceKurdish(
-                                        text: "ماندووم، دەچم دەخەوم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'm tired—I'm going to bed.",
+                            kurdishText: "ماندووم، دەچم دەخەوم.",
+                            onPressedBritish: () => speakbeds1("en-GB"),
+                            onPressedAmerican: () => speakbeds1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'll put the kids to bed."),
-                                    ExampleSentenceKurdish(
-                                        text: "منداڵەکان دەبەمە جێگەی خەو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'll put the kids to bed.",
+                            kurdishText: "منداڵەکان دەبەمە جێگەی خەو.",
+                            onPressedBritish: () => speakbeds2("en-GB"),
+                            onPressedAmerican: () => speakbeds2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بنکی ڕووبار، دەریا، یان زەریا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many strange plants and fish live on the sea bed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆر ڕووەک و ماسی نامۆ لە بنکی دەریادا دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many strange plants and fish live on the sea bed.",
+                            kurdishText:
+                                "ژمارەیەکی زۆر ڕووەک و ماسی نامۆ لە بنکی دەریادا دەژین.",
+                            onPressedBritish: () => speakbeds3("en-GB"),
+                            onPressedAmerican: () => speakbeds3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بەشی باخچەیەک یان پارکێک کە بەکاردێت بۆ ڕوواندنی گوڵ، ڕووەک، ھتد """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have some beautiful flower beds in their garden."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک شەتڵگەی جوانی گوڵیان ھەیە لە باخچەکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeds4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeds4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have some beautiful flower beds in their garden.",
+                            kurdishText:
+                                "ھەندێک شەتڵگەی جوانی گوڵیان ھەیە لە باخچەکەیان.",
+                            onPressedBritish: () => speakbeds4("en-GB"),
+                            onPressedAmerican: () => speakbeds4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) چینێکی شتێک کە بەشەکانی تر لەسەری دەبن """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The blocks should be laid on a bed of concrete."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بلۆکەکان دەبێت لەسەر بنەڕەتێکی کۆنکریت دابنرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeds5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeds5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The blocks should be laid on a bed of concrete.",
+                            kurdishText:
+                                "بلۆکەکان دەبێت لەسەر بنەڕەتێکی کۆنکریت دابنرێن.",
+                            onPressedBritish: () => speakbeds5("en-GB"),
+                            onPressedAmerican: () => speakbeds5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) دانانی شتێک بە پتەوی لە شوێنێک """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The posts should be firmly bedded in concrete."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستوونەکان دەبێت بە پتەوی لە کۆنکریتدا ڕۆبچن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeds6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeds6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The posts should be firmly bedded in concrete.",
+                            kurdishText:
+                                "ستوونەکان دەبێت بە پتەوی لە کۆنکریتدا ڕۆبچن.",
+                            onPressedBritish: () => speakbeds6("en-GB"),
+                            onPressedAmerican: () => speakbeds6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) کردنی سێکس """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He’s been trying to bed her for weeks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ چەندین ھەفتەیە ھەوڵ دەدات سێکسی لەگەڵ بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeds7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeds7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He’s been trying to bed her for weeks.",
+                            kurdishText:
+                                "بۆ چەندین ھەفتەیە ھەوڵ دەدات سێکسی لەگەڵ بکات.",
+                            onPressedBritish: () => speakbeds7("en-GB"),
+                            onPressedAmerican: () => speakbeds7("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

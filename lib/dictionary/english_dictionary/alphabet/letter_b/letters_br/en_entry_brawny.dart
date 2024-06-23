@@ -146,59 +146,20 @@ class EnglishEntrybrawny extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەسێک کە ماسولکەی بەھێزی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a great brawny brute of a man."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەڵەگایەکی گەورەی بازۆڵەبەھێز بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrawnys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrawnys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a great brawny brute of a man.",
+                            kurdishText: "کەڵەگایەکی گەورەی بازۆڵەبەھێز بوو.",
+                            onPressedBritish: () => speakbrawnys1("en-GB"),
+                            onPressedAmerican: () => speakbrawnys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a big brawny man with huge hands."),
-                                    ExampleSentenceKurdish(
-                                        text: "پیاوێکی چوارشانەی دەست‌زل بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrawnys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrawnys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a big brawny man with huge hands.",
+                            kurdishText: "پیاوێکی چوارشانەی دەست‌زل بوو.",
+                            onPressedBritish: () => speakbrawnys2("en-GB"),
+                            onPressedAmerican: () => speakbrawnys2("en-US"),
                           ),
                         ],
                       ),

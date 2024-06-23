@@ -166,103 +166,43 @@ class EnglishEntryassimilate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) بە تەواوی تێگەشتن لە شتێک بە شێوەیەک کە خۆت بتوانیت بەکاریبێنیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The committee will need time to assimilate this report."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لیژنەکە پێویستی بە کاتە بۆ تێگەشتن لەم ڕاپۆرتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassimilate808("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassimilate808(
-                                        // REPLACE: assimilate /əˈsɪməleɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The committee will need time to assimilate this report.",
+                            kurdishText:
+                                "لیژنەکە پێویستی بە کاتە بۆ تێگەشتن لەم ڕاپۆرتە.",
+                            onPressedBritish: () => speakassimilate808("en-GB"),
+                            onPressedAmerican: () => speakassimilate808(
+                                // REPLACE: assimilate /əˈsɪməleɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) توانەوە یان تاواندنەوە لەناو گرووپێک؛ وا لە کەسێک بکەیت ببێت لە بەشێک لە گرووپێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You shouldn't expect immigrants to assimilate into an alien culture immediately."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نابێیت چاوەڕێی ئەوە لە پەنابەران بکەیت بەزویی بتوێنەوە ناو کەلتوورێکی نامۆ بەخۆیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassimilate812("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassimilate812(
-                                        // REPLACE: assimilate /əˈsɪməleɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You shouldn't expect immigrants to assimilate into an alien culture immediately.",
+                            kurdishText:
+                                "نابێیت چاوەڕێی ئەوە لە پەنابەران بکەیت بەزویی بتوێنەوە ناو کەلتوورێکی نامۆ بەخۆیان.",
+                            onPressedBritish: () => speakassimilate812("en-GB"),
+                            onPressedAmerican: () => speakassimilate812(
+                                // REPLACE: assimilate /əˈsɪməleɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) گونجاندنی بیرۆکەیەک یان ڕەفتارێک لەگەڵ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These changes were gradually assimilated into everyday life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم گۆڕانکارییانە کەم‌کەم لەگەڵ ژیانی ڕۆژانە گونجێندران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassimilate814("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassimilate814(
-                                        // REPLACE: assimilate /əˈsɪməleɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These changes were gradually assimilated into everyday life.",
+                            kurdishText:
+                                "ئەم گۆڕانکارییانە کەم‌کەم لەگەڵ ژیانی ڕۆژانە گونجێندران.",
+                            onPressedBritish: () => speakassimilate814("en-GB"),
+                            onPressedAmerican: () => speakassimilate814(
+                                // REPLACE: assimilate /əˈsɪməleɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

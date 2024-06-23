@@ -109,34 +109,15 @@ class EnglishEntryadulterous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پەیوەندیدار بە پەیوەنسییەکی نابەجێ کە لە دەرەوەی ھاوسەرگیرییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had an adulterous relationship with his wife's best friend."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندی نابەجێی جەستەیی ھەبوو لەگەڵ باشترین ھاوڕێی ژنەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadul2534("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadul2534(
-                                        // REPLACE: adulterous /əˈdʌltərəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had an adulterous relationship with his wife's best friend.",
+                            kurdishText:
+                                "پەیوەندی نابەجێی جەستەیی ھەبوو لەگەڵ باشترین ھاوڕێی ژنەکەی.",
+                            onPressedBritish: () => speakadul2534("en-GB"),
+                            onPressedAmerican: () => speakadul2534(
+                                // REPLACE: adulterous /əˈdʌltərəs/
+                                "en-US"),
                           ),
                         ],
                       ),

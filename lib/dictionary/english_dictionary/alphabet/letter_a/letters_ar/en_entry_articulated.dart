@@ -161,35 +161,16 @@ class EnglishEntryarticulated extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) ئۆتۆمبێلێک کە لە زیاتر لە دوو بەش پێکھاتووە بۆ ئاسانی خولانەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An articulated lorry has overturned on the southbound carriageway, shedding its load."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لۆرییەکی بارھەڵگر وەرگەڕاوە لەسەر ئەو سایدەی بەرەو باشوور دەچێت و بارەکەی ڕژاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarticulated801("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarticulated801(
-                                        // REPLACE: articulated /ɑːrˈtɪkjuleɪtɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An articulated lorry has overturned on the southbound carriageway, shedding its load.",
+                            kurdishText:
+                                "لۆرییەکی بارھەڵگر وەرگەڕاوە لەسەر ئەو سایدەی بەرەو باشوور دەچێت و بارەکەی ڕژاوە.",
+                            onPressedBritish: () =>
+                                speakarticulated801("en-GB"),
+                            onPressedAmerican: () => speakarticulated801(
+                                // REPLACE: articulated /ɑːrˈtɪkjuleɪtɪd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

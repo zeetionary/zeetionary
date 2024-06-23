@@ -159,133 +159,57 @@ class EnglishEntryaxis extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) تەوەرە؛ ھێڵێکی جێگیر بە ناوەڕاستی شتێکدا کە بە دەوریدا دەسووڕێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mars takes longer to revolve on its axis than the Earth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەریخ زیاتر لە زەوی پێدەچێت بۆ سووڕانەوە بەدەوری تەوەرەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaxiss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaxiss1(// REPLACE: axis
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mars takes longer to revolve on its axis than the Earth.",
+                            kurdishText:
+                                "مەریخ زیاتر لە زەوی پێدەچێت بۆ سووڕانەوە بەدەوری تەوەرەکەیدا.",
+                            onPressedBritish: () => speakaxiss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaxiss1(// REPLACE: axis
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ھێڵێکی جێگیر کە بەکاردێت بۆ دیاریکردنی شوێنی خاڵ، بۆ نموونە لەسەر نەخشەی پۆتان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The real wage is measured along the horizontal axis and the quantity of labour is measured along the vertical axis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مووچەی ڕاستی لەسەر تەوەرەی ئاسۆییە و بڕی کارکردنیش لەسەر تەوەرەی ستوونییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaxiss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaxiss2(// REPLACE: axis
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The real wage is measured along the horizontal axis and the quantity of labour is measured along the vertical axis.",
+                            kurdishText:
+                                "مووچەی ڕاستی لەسەر تەوەرەی ئاسۆییە و بڕی کارکردنیش لەسەر تەوەرەی ستوونییە.",
+                            onPressedBritish: () => speakaxiss2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaxiss2(// REPLACE: axis
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) ھێڵێک کە شێوەیەک دەکات بە دوو بەشەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The axis of a circle is its diameter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێڵی ھاوتایی بازنەیەک بریتییە لە تیرەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaxiss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaxiss3(// REPLACE: axis
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The axis of a circle is its diameter.",
+                            kurdishText:
+                                "ھێڵی ھاوتایی بازنەیەک بریتییە لە تیرەکەی.",
+                            onPressedBritish: () => speakaxiss3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaxiss3(// REPLACE: axis
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) ڕێککەوتنی نێوان دوو لایەن یان زیاتر کە بەشی سەرەکی ھاوپەیمانییەکی گەورەترن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Franco-British axis has shaped European foreign policy for decades."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتنی فەرەنسا و بەریتانیا بە چەندین دەیەیە داڕێژەری سیاسەتی دەرەوەی ئەورووپا بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaxiss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaxiss4(// REPLACE: axis
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Franco-British axis has shaped European foreign policy for decades.",
+                            kurdishText:
+                                "ڕێککەوتنی فەرەنسا و بەریتانیا بە چەندین دەیەیە داڕێژەری سیاسەتی دەرەوەی ئەورووپا بووە.",
+                            onPressedBritish: () => speakaxiss4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaxiss4(// REPLACE: axis
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

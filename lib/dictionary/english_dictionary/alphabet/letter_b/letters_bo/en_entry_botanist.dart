@@ -149,32 +149,13 @@ class EnglishEntrybotanist extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) زانایاک کە لێکۆڵینەوە لە ڕووەک دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The renowned botanist discovered a new species in the rainforest."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووەکناسە ناسراوەکە ڕووکێکی تازەی لە دارستانەکە دۆزییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbotanists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbotanists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The renowned botanist discovered a new species in the rainforest.",
+                            kurdishText:
+                                "ڕووەکناسە ناسراوەکە ڕووکێکی تازەی لە دارستانەکە دۆزییەوە.",
+                            onPressedBritish: () => speakbotanists1("en-GB"),
+                            onPressedAmerican: () => speakbotanists1("en-US"),
                           ),
                         ],
                       ),

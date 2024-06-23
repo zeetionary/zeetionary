@@ -149,147 +149,50 @@ class EnglishEntryboot extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پێڵاوێکی بەھێز کە پێ و لاق دادەپۆشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wore black knee-high boots."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆتینی ڕەشی تا ئەژنۆ بەرزی لەپێکردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboots1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboots1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She wore black knee-high boots.",
+                            kurdishText:
+                                "پۆتینی ڕەشی تا ئەژنۆ بەرزی لەپێکردبوو.",
+                            onPressedBritish: () => speakboots1("en-GB"),
+                            onPressedAmerican: () => speakboots1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm going to christen my new walking boots on Saturday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژی شەممە لاپچینەکانم بۆ یەکەمجار بەکاردێنم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboots2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboots2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm going to christen my new walking boots on Saturday.",
+                            kurdishText:
+                                "ڕۆژی شەممە لاپچینەکانم بۆ یەکەمجار بەکاردێنم.",
+                            onPressedBritish: () => speakboots2("en-GB"),
+                            onPressedAmerican: () => speakboots2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پشتەوەی ئۆتۆمبێل کە شتی تێدەخەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Did you lock the boot?"),
-                                    ExampleSentenceKurdish(
-                                        text: "سنووقەکەت قوفڵ کرد؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboots3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboots3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Did you lock the boot?",
+                            kurdishText: "سنووقەکەت قوفڵ کرد؟",
+                            onPressedBritish: () => speakboots3("en-GB"),
+                            onPressedAmerican: () => speakboots3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) لێدانێکی بەھێز و خێرا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gave the ball a tremendous boot."),
-                                    ExampleSentenceKurdish(
-                                        text: "شەپێکی بەھێزی لە تۆپەکە دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboots4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboots4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He gave the ball a tremendous boot.",
+                            kurdishText: "شەپێکی بەھێزی لە تۆپەکە دا.",
+                            onPressedBritish: () => speakboots4("en-GB"),
+                            onPressedAmerican: () => speakboots4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) لەقەدان لە شتێک یان کەسێک بە بەھێزی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They booted him in the head."),
-                                    ExampleSentenceKurdish(
-                                        text: "لەقەیەکیان کێشا بە سەریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboots5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboots5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They booted him in the head.",
+                            kurdishText: "لەقەیەکیان کێشا بە سەریدا.",
+                            onPressedBritish: () => speakboots5("en-GB"),
+                            onPressedAmerican: () => speakboots5("en-US"),
                           ),
                         ],
                       ),

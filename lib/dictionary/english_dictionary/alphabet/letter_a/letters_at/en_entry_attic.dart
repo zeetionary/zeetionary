@@ -160,34 +160,15 @@ class EnglishEntryattic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ژووری ژێرزەمین، زۆرجار وەک کۆگا بەکاردێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've got boxes of old clothes in the attic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک سنووقی جلی کۆنم لەژێر زەمینەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattic936("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattic936(// REPLACE: attic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've got boxes of old clothes in the attic.",
+                            kurdishText:
+                                "ژمارەیەک سنووقی جلی کۆنم لەژێر زەمینەکەیە.",
+                            onPressedBritish: () => speakattic936("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattic936(// REPLACE: attic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

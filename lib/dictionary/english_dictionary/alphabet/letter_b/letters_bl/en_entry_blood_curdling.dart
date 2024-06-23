@@ -145,34 +145,15 @@ class EnglishEntrybloodcurdling extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) چیرۆکێک یان دەنگێک کە تەواو تۆقێنەرە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The horror movie had a blood-curdling scene that left everyone terrified."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمە ترسناکەکە دیمەنێکی تۆقێنەری تێدا بوو کە ھەمووانی تاساند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodcurdlings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodcurdlings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The horror movie had a blood-curdling scene that left everyone terrified.",
+                            kurdishText:
+                                "فیلمە ترسناکەکە دیمەنێکی تۆقێنەری تێدا بوو کە ھەمووانی تاساند.",
+                            onPressedBritish: () =>
+                                speakbloodcurdlings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodcurdlings1("en-US"),
                           ),
                         ],
                       ),

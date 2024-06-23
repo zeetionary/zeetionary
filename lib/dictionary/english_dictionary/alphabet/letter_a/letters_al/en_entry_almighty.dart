@@ -123,131 +123,51 @@ class EnglishEntryalmighty extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ھەبوونی دەسەڵاتی تەواو" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Almighty God, have mercy on us."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خودای بەدەسەڵات، ڕەحممان پێ بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalmighty23599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalmighty23599(
-                                        // REPLACE: almighty /ɔːlˈmaɪti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Almighty God, have mercy on us.",
+                            kurdishText: "خودای بەدەسەڵات، ڕەحممان پێ بکە.",
+                            onPressedBritish: () => speakalmighty23599("en-GB"),
+                            onPressedAmerican: () => speakalmighty23599(
+                                // REPLACE: almighty /ɔːlˈmaɪti/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) زۆر بەرز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All of a sudden we heard an almighty crash from the kitchen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەناکاو تەقەیەکی بەرزمان لە چێشتخانەکەوە بیست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalmighty4263("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalmighty4263(
-                                        // REPLACE: almighty /ɔːlˈmaɪti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All of a sudden we heard an almighty crash from the kitchen.",
+                            kurdishText:
+                                "لەناکاو تەقەیەکی بەرزمان لە چێشتخانەکەوە بیست.",
+                            onPressedBritish: () => speakalmighty4263("en-GB"),
+                            onPressedAmerican: () => speakalmighty4263(
+                                // REPLACE: almighty /ɔːlˈmaɪti/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) بۆ پیشاندانی توڕەیی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "God Almighty! What the hell do you think you are doing?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ خاتری خودا، پێت وایە چی دەکەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalmight4693("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalmight4693(
-                                        // REPLACE: almighty /ɔːlˈmaɪti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "God Almighty! What the hell do you think you are doing?",
+                            kurdishText: "بۆ خاتری خودا، پێت وایە چی دەکەیت؟",
+                            onPressedBritish: () => speakalmight4693("en-GB"),
+                            onPressedAmerican: () => speakalmight4693(
+                                // REPLACE: almighty /ɔːlˈmaɪti/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) خودا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We must pray to the Almighty for forgiveness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت لای خودا نزا بکەین بۆ لێخۆشبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalmight45665("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalmight45665(
-                                        // REPLACE: almighty /ɔːlˈmaɪti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We must pray to the Almighty for forgiveness.",
+                            kurdishText:
+                                "دەبێت لای خودا نزا بکەین بۆ لێخۆشبوون.",
+                            onPressedBritish: () => speakalmight45665("en-GB"),
+                            onPressedAmerican: () => speakalmight45665(
+                                // REPLACE: almighty /ɔːlˈmaɪti/
+                                "en-US"),
                           ),
                         ],
                       ),

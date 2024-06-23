@@ -155,34 +155,15 @@ class EnglishEntryaversion extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕقێکی زۆر بۆ شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had an aversion to getting up early."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوژمنایەتی لەگەڵ زوو لەخەوھەستان ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaversions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaversions1(// REPLACE: aversion
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had an aversion to getting up early.",
+                            kurdishText:
+                                "دوژمنایەتی لەگەڵ زوو لەخەوھەستان ھەبوو.",
+                            onPressedBritish: () => speakaversions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaversions1(// REPLACE: aversion
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -193,91 +193,34 @@ class EnglishEntrybutter extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) خواردنێکی زەردی نەرم کە بەکاردێت لە خواردن درووستکردندا و بڵاوکردنەوە لەسەر نان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Fry the onions in butter."),
-                                    ExampleSentenceKurdish(
-                                        text: "پیازەکان لە ڕۆندا سووربکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "butter", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Fry the onions in butter.",
+                            kurdishText:
+                                "پیازەکان لە ڕۆندا سووربکەوە.", // butter", follow LX strictly
+                            onPressedBritish: () => speakbutters1("en-GB"),
+                            onPressedAmerican: () => speakbutters1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Melt the butter in a small pan, add the flour and stir well."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆنەکە لە تاوەیەکی بچووکدا بتاوێنەوە و ئاردەکەی تێبکە و جوان تێی ڕادە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Melt the butter in a small pan, add the flour and stir well.",
+                            kurdishText:
+                                "ڕۆنەکە لە تاوەیەکی بچووکدا بتاوێنەوە و ئاردەکەی تێبکە و جوان تێی ڕادە.",
+                            onPressedBritish: () => speakbutters2("en-GB"),
+                            onPressedAmerican: () => speakbutters2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "This butter doesn't spread very well."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەم کرێمە باش بڵاونابێتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbutters3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbutters3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "This butter doesn't spread very well.",
+                                    kurdishText: "ئەم کرێمە باش بڵاونابێتەوە.",
+                                    onPressedBritish: () =>
+                                        speakbutters3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbutters3("en-US"),
                                   ),
                                 ],
                               ),
@@ -286,32 +229,13 @@ class EnglishEntrybutter extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) بڵاوکردنەوەی کەرە لەسەر شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She buttered four thick slices of bread."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوار پارچە نانی ئەستووری بە کەرە چەور کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutters4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutters4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She buttered four thick slices of bread.",
+                            kurdishText:
+                                "چوار پارچە نانی ئەستووری بە کەرە چەور کرد.",
+                            onPressedBritish: () => speakbutters4("en-GB"),
+                            onPressedAmerican: () => speakbutters4("en-US"),
                           ),
                         ],
                       ),

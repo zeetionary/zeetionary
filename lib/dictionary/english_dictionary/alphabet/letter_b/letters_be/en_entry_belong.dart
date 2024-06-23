@@ -148,120 +148,44 @@ class EnglishEntrybelong extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بوون لە شوێنی درووست یان گونجاو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Where do these plates belong (= where are they kept)?"),
-                                    ExampleSentenceKurdish(
-                                        text: "شوێنی ئەم دەورییانە کوێیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelongs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelongs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Where do these plates belong (= where are they kept)?",
+                            kurdishText: "شوێنی ئەم دەورییانە کوێیە؟",
+                            onPressedBritish: () => speakbelongs1("en-GB"),
+                            onPressedAmerican: () => speakbelongs1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Are you sure these documents belong together?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیای لەوەی ئەم دۆکیومێنتانە پێکەوەن؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelongs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelongs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Are you sure these documents belong together?",
+                            kurdishText:
+                                "دڵنیای لەوەی ئەم دۆکیومێنتانە پێکەوەن؟",
+                            onPressedBritish: () => speakbelongs2("en-GB"),
+                            onPressedAmerican: () => speakbelongs2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several of the points you raise do not belong in this discussion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک لەو خاڵانەی باستکردن پەیوەندییان بەم گفتوگۆوە نییە"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelongs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelongs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several of the points you raise do not belong in this discussion.",
+                            kurdishText:
+                                "ھەندێک لەو خاڵانەی باستکردن پەیوەندییان بەم گفتوگۆوە نییە",
+                            onPressedBritish: () => speakbelongs3("en-GB"),
+                            onPressedAmerican: () => speakbelongs3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ئاسوودە و دڵخۆش بە بوون لە دۆخێکدا یان بوون لەگەڵ گرووپێکی دیاریکراو لە خەڵکی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After three years in Cambridge, I finally feel as if I belong here."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای سێ ساڵ لە کامبریج، لەکۆتاییدا ھەست دەکەم ئێرە شوێنی گونجاوە بۆم"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelongs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelongs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After three years in Cambridge, I finally feel as if I belong here.",
+                            kurdishText:
+                                "لە دوای سێ ساڵ لە کامبریج، لەکۆتاییدا ھەست دەکەم ئێرە شوێنی گونجاوە بۆم",
+                            onPressedBritish: () => speakbelongs4("en-GB"),
+                            onPressedAmerican: () => speakbelongs4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

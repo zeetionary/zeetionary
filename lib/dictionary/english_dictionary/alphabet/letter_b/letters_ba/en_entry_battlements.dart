@@ -151,34 +151,14 @@ class EnglishEntrybattlements extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دیوارێک بە دەوری بەشی سەرەوەی قەڵایەکدا کە بۆشایی بە دەوریدا ھەیە بۆ ئەوەی لێیەوە تیر بھاوێژن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The defenders poured boiling oil and arrows down upon the attacking army from the safety of the castle's battlements."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرگریکاران نەوتی گەرم و تیریان ھاویشت بەسەر سوپای ھێرشکاردا لە بەشی ئارامی شوورای قەڵاکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbattlementss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbattlementss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The defenders poured boiling oil and arrows down upon the attacking army from the safety of the castle's battlements.",
+                            kurdishText:
+                                "بەرگریکاران نەوتی گەرم و تیریان ھاویشت بەسەر سوپای ھێرشکاردا لە بەشی ئارامی شوورای قەڵاکەوە.",
+                            onPressedBritish: () => speakbattlementss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbattlementss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -113,34 +113,15 @@ class EnglishEntryaffectionately extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بەشێوەیەک کە سۆز و خۆشەویستی پیشان دەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "William was affectionately known as Billy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ولیام بەھۆی سۆز و خۆشەویستی بۆی بە بیڵی ناسراوبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffecti248("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffecti248(
-                                        // REPLACE: affectionately /əˈfekʃənətli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "William was affectionately known as Billy.",
+                            kurdishText:
+                                "ولیام بەھۆی سۆز و خۆشەویستی بۆی بە بیڵی ناسراوبوو.",
+                            onPressedBritish: () => speakaffecti248("en-GB"),
+                            onPressedAmerican: () => speakaffecti248(
+                                // REPLACE: affectionately /əˈfekʃənətli/
+                                "en-US"),
                           ),
                         ],
                       ),

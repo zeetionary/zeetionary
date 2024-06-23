@@ -192,61 +192,23 @@ class EnglishEntryburp extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) قرقێنەدانەوە؛ دەرکردنی ھەوای ناو گەدە لە دەمەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He swigged his drink and burped loudly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قومێکی لە خواردنەوەکەی خواردەوە و قرقێنەیەکی بەرزی دایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burp", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He swigged his drink and burped loudly.",
+                            kurdishText:
+                                "قومێکی لە خواردنەوەکەی خواردەوە و قرقێنەیەکی بەرزی دایەوە.", // burp", follow LX strictly
+                            onPressedBritish: () => speakburps1("en-GB"),
+                            onPressedAmerican: () => speakburps1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) قرقێنەدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After the meal, the baby let out a burp."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای خواردنەکە، منداڵەکە قرقێنەیەکی دایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburps2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburps2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After the meal, the baby let out a burp.",
+                            kurdishText:
+                                "لە دوای خواردنەکە، منداڵەکە قرقێنەیەکی دایەوە.",
+                            onPressedBritish: () => speakburps2("en-GB"),
+                            onPressedAmerican: () => speakburps2("en-US"),
                           ),
                         ],
                       ),

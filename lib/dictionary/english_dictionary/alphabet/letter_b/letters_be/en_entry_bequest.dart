@@ -150,32 +150,13 @@ class EnglishEntrybequest extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) سەروەت و سامان کە داوا دەکەیت بدرێت کەسێک لە دوای مردنت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He left a bequest to each of his grandchildren."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشە میراتییەکی بۆ ھەریەک لە منداڵەکانی جێھێشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbequests1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbequests1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He left a bequest to each of his grandchildren.",
+                            kurdishText:
+                                "بەشە میراتییەکی بۆ ھەریەک لە منداڵەکانی جێھێشت.",
+                            onPressedBritish: () => speakbequests1("en-GB"),
+                            onPressedAmerican: () => speakbequests1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

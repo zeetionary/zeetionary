@@ -158,35 +158,16 @@ class EnglishEntryantediluvian extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) کۆنەپەرست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My mother has some hopelessly antediluvian ideas about the role of women."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایکم ھەندێک بیرۆکەی کۆنەپەرستانەی نائومێدکەری ھەیە دەربارەی ئەرکی ژنان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantediluvian439("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantediluvian439(
-                                        // REPLACE: antediluvian /ˌæntidɪˈluːviən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My mother has some hopelessly antediluvian ideas about the role of women.",
+                            kurdishText:
+                                "دایکم ھەندێک بیرۆکەی کۆنەپەرستانەی نائومێدکەری ھەیە دەربارەی ئەرکی ژنان.",
+                            onPressedBritish: () =>
+                                speakantediluvian439("en-GB"),
+                            onPressedAmerican: () => speakantediluvian439(
+                                // REPLACE: antediluvian /ˌæntidɪˈluːviən/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

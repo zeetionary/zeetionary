@@ -164,166 +164,67 @@ class EnglishEntryattend extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) ئامادەبوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We'd like as many people as possible to attend."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەز دەکەین ھەرچەند دەکرێت خەڵک ئامادەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattend759("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattend759(// REPLACE: attend
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We'd like as many people as possible to attend.",
+                            kurdishText:
+                                "حەز دەکەین ھەرچەند دەکرێت خەڵک ئامادەبێت.",
+                            onPressedBritish: () => speakattend759("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattend759(// REPLACE: attend
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) چوون بۆ شوێنێک بە بەردەوامی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our children attend the same school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکانمان دەچنە ھەمان خوێندنگە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattend800("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattend800(// REPLACE: attend
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Our children attend the same school.",
+                            kurdishText: "منداڵەکانمان دەچنە ھەمان خوێندنگە.",
+                            onPressedBritish: () => speakattend800("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattend800(// REPLACE: attend
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) سەرنجدان بە شتێک کە دەیکەیت، یان ئەوەی کەسێک دەیڵێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She hadn't been attending during the lesson."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتی وانەکەدا سەرنجی نەدەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattend802("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattend802(// REPLACE: attend
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She hadn't been attending during the lesson.",
+                            kurdishText: "لە کاتی وانەکەدا سەرنجی نەدەدا.",
+                            onPressedBritish: () => speakattend802("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattend802(// REPLACE: attend
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) ڕوودان لە ھەمان کاتی شتێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Success attended their hard work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکەوتن دوابەدوای ھەوڵە سەختەکانیان ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattend808("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattend808(// REPLACE: attend
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Success attended their hard work.",
+                            kurdishText:
+                                "سەرکەوتن دوابەدوای ھەوڵە سەختەکانیان ھات.",
+                            onPressedBritish: () => speakattend808("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattend808(// REPLACE: attend
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) لەگەڵ کەسێک بوون و یارمەتیدانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The president was attended by several members of his staff."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک یارمەتی دەدرا لەلایەن ژمارەیەک لە ئەندامانی ستافەکەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattend809("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattend809(// REPLACE: attend
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The president was attended by several members of his staff.",
+                            kurdishText:
+                                "سەرۆک یارمەتی دەدرا لەلایەن ژمارەیەک لە ئەندامانی ستافەکەیەوە.",
+                            onPressedBritish: () => speakattend809("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattend809(// REPLACE: attend
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

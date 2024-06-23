@@ -148,32 +148,11 @@ class EnglishEntrybookkeeper extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە کاری تۆمارکردنی پارەی وەرگیراو و خەرجکراوە لە کۆمپانیایەک یان دامەزراوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My first job was as a bookkeeper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەم کارم وەک ھەژمارنووسێک بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookkeepers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookkeepers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My first job was as a bookkeeper.",
+                            kurdishText: "یەکەم کارم وەک ھەژمارنووسێک بوو.",
+                            onPressedBritish: () => speakbookkeepers1("en-GB"),
+                            onPressedAmerican: () => speakbookkeepers1("en-US"),
                           ),
                         ],
                       ),

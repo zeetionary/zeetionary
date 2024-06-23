@@ -161,34 +161,15 @@ class EnglishEntryaudibly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بەشێوەیەک کە دەبیسترێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jets audibly passed overhead but the sky was too overcast for them to be seen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکە بە دەنگی بیستراو بەسەر سەماندا دەفڕین، بەڵام ئاسمان زۆر ھەوراوی بوو تا ببینرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudibly105("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudibly105(// REPLACE: audibly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Jets audibly passed overhead but the sky was too overcast for them to be seen.",
+                            kurdishText:
+                                "فڕۆکە بە دەنگی بیستراو بەسەر سەماندا دەفڕین، بەڵام ئاسمان زۆر ھەوراوی بوو تا ببینرێن.",
+                            onPressedBritish: () => speakaudibly105("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudibly105(// REPLACE: audibly
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

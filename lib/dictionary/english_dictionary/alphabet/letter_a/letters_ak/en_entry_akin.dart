@@ -113,64 +113,26 @@ class EnglishEntryakin extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) لێکچوو لەگەڵ شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What he felt was more akin to pity than love."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستەکەی زیاتر لە بەزەیی دەچوو وەک لە خۆشەویستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakakin3544("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakakin3544(// REPLACE: akin /əˈkɪn/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What he felt was more akin to pity than love.",
+                            kurdishText:
+                                "ھەستەکەی زیاتر لە بەزەیی دەچوو وەک لە خۆشەویستی.",
+                            onPressedBritish: () => speakakin3544("en-GB"),
+                            onPressedAmerican: () =>
+                                speakakin3544(// REPLACE: akin /əˈkɪn/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They speak a language akin to French."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە زمانێک قسەدەکەن کە نزیکە لە فەرەنسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakakin5366("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakakin5366(// REPLACE: akin /əˈkɪn/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They speak a language akin to French.",
+                            kurdishText:
+                                "بە زمانێک قسەدەکەن کە نزیکە لە فەرەنسی.",
+                            onPressedBritish: () => speakakin5366("en-GB"),
+                            onPressedAmerican: () =>
+                                speakakin5366(// REPLACE: akin /əˈkɪn/
+                                    "en-US"),
                           ),
                         ],
                       ),

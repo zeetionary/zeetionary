@@ -141,32 +141,13 @@ class EnglishEntrybuiltup extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ناوچەیەکی کە بە بینا و ڕێگاوبان ئاوەدان کراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "City council plans to lower speed limit in built-up areas to 30 km/h."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەنجوومەنی شارەکە پلانی ھەیە خێرایی دیاریکراو کەم بکاتەوە بۆ ٣٠ کم/کاتژمێرێکدا لە ناوچە ئاوەدانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "built-up", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuiltups1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuiltups1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "City council plans to lower speed limit in built-up areas to 30 km/h.",
+                            kurdishText:
+                                "ئەنجوومەنی شارەکە پلانی ھەیە خێرایی دیاریکراو کەم بکاتەوە بۆ ٣٠ کم/کاتژمێرێکدا لە ناوچە ئاوەدانەکە.", // built-up", follow LX strictly
+                            onPressedBritish: () => speakbuiltups1("en-GB"),
+                            onPressedAmerican: () => speakbuiltups1("en-US"),
                           ),
                         ],
                       ),

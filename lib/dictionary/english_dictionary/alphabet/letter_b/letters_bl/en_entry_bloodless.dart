@@ -148,92 +148,33 @@ class EnglishEntrybloodless extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بەبێ کووشتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rebel soldiers seized power in a bloodless coup."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازە ھەڵگەڕاوەکان دەستیان بەسەر دەسەڵاتدا گرت لە کودەتایەکی بێ خوێن ڕژاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodlesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodlesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The rebel soldiers seized power in a bloodless coup.",
+                            kurdishText:
+                                "سەربازە ھەڵگەڕاوەکان دەستیان بەسەر دەسەڵاتدا گرت لە کودەتایەکی بێ خوێن ڕژاندا.",
+                            onPressedBritish: () => speakbloodlesss1("en-GB"),
+                            onPressedAmerican: () => speakbloodlesss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) پێستێکی ڕەنگپەڕیو و کاڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His face was thin and bloodless."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووخساری باریک و ڕەنگپەڕیو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodlesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodlesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His face was thin and bloodless.",
+                            kurdishText: "ڕووخساری باریک و ڕەنگپەڕیو بوو.",
+                            onPressedBritish: () => speakbloodlesss2("en-GB"),
+                            onPressedAmerican: () => speakbloodlesss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) کەسێکی بێ ھەست"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The novel portrayed a bloodless romance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆمانەکە پەیوەندییەکی خۆشەویستیی بێ ھەستانەی وێنا دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodlesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodlesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The novel portrayed a bloodless romance.",
+                            kurdishText:
+                                "ڕۆمانەکە پەیوەندییەکی خۆشەویستیی بێ ھەستانەی وێنا دەکرد.",
+                            onPressedBritish: () => speakbloodlesss3("en-GB"),
+                            onPressedAmerican: () => speakbloodlesss3("en-US"),
                           ),
                         ],
                       ),

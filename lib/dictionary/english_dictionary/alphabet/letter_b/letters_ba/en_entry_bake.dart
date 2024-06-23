@@ -156,129 +156,51 @@ class EnglishEntrybake extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) برژاندنی شت لە فڕندا بەبێ ڕۆن یان شلە لەسەی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bread is baking in the oven."),
-                                    ExampleSentenceKurdish(
-                                        text: "نانەکە لە فڕنەکەدا دەبرژێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbakes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbakes1(// REPLACE: bake
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The bread is baking in the oven.",
+                            kurdishText: "نانەکە لە فڕنەکەدا دەبرژێت.",
+                            onPressedBritish: () => speakbakes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbakes1(// REPLACE: bake
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm baking a birthday cake for Alex."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێکێکی لەدایکبوون بۆ ئەلێکس دەبرژێنم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbakes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbakes2(// REPLACE: bake
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'm baking a birthday cake for Alex.",
+                            kurdishText:
+                                "کێکێکی لەدایکبوون بۆ ئەلێکس دەبرژێنم.",
+                            onPressedBritish: () => speakbakes2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbakes2(// REPLACE: bake
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ڕەقبوون بە گەرمبوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bricks are left in the kiln to bake."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خشتەکان لە کوورەکەدا دانراون بۆ ڕەقبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbakes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbakes3(// REPLACE: bake
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bricks are left in the kiln to bake.",
+                            kurdishText:
+                                "خشتەکان لە کوورەکەدا دانراون بۆ ڕەقبوون.",
+                            onPressedBritish: () => speakbakes3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbakes3(// REPLACE: bake
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) گەرمبوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We sat baking in the sun."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانیشتبووین گەرمدەبووینەوە لەبەر خۆرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbakes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbakes4(// REPLACE: bake
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We sat baking in the sun.",
+                            kurdishText:
+                                "دانیشتبووین گەرمدەبووینەوە لەبەر خۆرەکە.",
+                            onPressedBritish: () => speakbakes4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbakes4(// REPLACE: bake
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

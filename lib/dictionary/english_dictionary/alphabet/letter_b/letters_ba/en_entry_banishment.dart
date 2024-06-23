@@ -159,65 +159,27 @@ class EnglishEntrybanishment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کرداری دوورخستنەوەی کەسێک لە شوێنێک یان وڵاتێک وەک سزا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A period of peace followed the successful banishment of the warlords from the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەردەمێک لە ئارامی درووست بوو بەھۆی دوورخستنەوەی سەرکەوتووانەی سەرکردە سەربازییەکانەوە لە وڵاتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanishments1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanishments1(// REPLACE: banishment
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A period of peace followed the successful banishment of the warlords from the country.",
+                            kurdishText:
+                                "سەردەمێک لە ئارامی درووست بوو بەھۆی دوورخستنەوەی سەرکەوتووانەی سەرکردە سەربازییەکانەوە لە وڵاتەکە.",
+                            onPressedBritish: () => speakbanishments1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanishments1(// REPLACE: banishment
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most area residents are very happy with the banishment of cars from the park."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی ھاوڵاتیانی ناوچەکە زۆر دڵخۆشن بە قەدەغەکردنی ئۆتۆمبێل لە پارکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanishments2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbanishments2(
-                                        // REPLACE: banishment
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most area residents are very happy with the banishment of cars from the park.",
+                            kurdishText:
+                                "زۆرینەی ھاوڵاتیانی ناوچەکە زۆر دڵخۆشن بە قەدەغەکردنی ئۆتۆمبێل لە پارکەکە.",
+                            onPressedBritish: () => speakbanishments2("en-GB"),
+                            onPressedAmerican: () => speakbanishments2(
+                                // REPLACE: banishment
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

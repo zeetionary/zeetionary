@@ -157,100 +157,40 @@ class EnglishEntryavoid extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) ڕێگریکردن لە ڕوودانی شتێکی خراپ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We must find a way to avoid similar problems in future."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت ڕێگەیەک بدۆزینەوە بۆ خەدوورگرتن لە کێشەی ھاوشێوە لە داھاتوودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavoids1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavoids1(// REPLACE: avoid
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We must find a way to avoid similar problems in future.",
+                            kurdishText:
+                                "دەبێت ڕێگەیەک بدۆزینەوە بۆ خەدوورگرتن لە کێشەی ھاوشێوە لە داھاتوودا.",
+                            onPressedBritish: () => speakavoids1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavoids1(// REPLACE: avoid
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) خۆدوورگرتن لە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's been avoiding me all week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ھەفتەکە خۆی لێم دزیوەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavoids2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavoids2(// REPLACE: avoid
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's been avoiding me all week.",
+                            kurdishText: "تەواوی ھەفتەکە خۆی لێم دزیوەتەوە.",
+                            onPressedBritish: () => speakavoids2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavoids2(// REPLACE: avoid
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) خۆدوورگرتن لە لێدانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car swerved to avoid a cat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە خۆیدابەلا بۆ دووربوون لە لێدانی پشیلەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavoids3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavoids3(// REPLACE: avoid
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The car swerved to avoid a cat.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە خۆیدابەلا بۆ دووربوون لە لێدانی پشیلەکە.",
+                            onPressedBritish: () => speakavoids3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavoids3(// REPLACE: avoid
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

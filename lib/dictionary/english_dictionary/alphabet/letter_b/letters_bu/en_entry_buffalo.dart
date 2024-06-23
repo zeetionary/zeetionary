@@ -145,32 +145,13 @@ class EnglishEntrybuffalo extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئاژەڵێکی گەورە کە لە خێزانی مانگاکانە و شاخی فراوان و چەماوەی ھەیە. جۆری ئاسیا و ئەفریقایی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is common here to see a water buffalo pulling a cart."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێرە بینی گامێشێکی ئاوی کە عارەبانەیەک ڕابکێشێت بەربڵاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "buffalo", follow LX strictly.
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuffalos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuffalos1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is common here to see a water buffalo pulling a cart.",
+                            kurdishText:
+                                "لێرە بینی گامێشێکی ئاوی کە عارەبانەیەک ڕابکێشێت بەربڵاوە.", // buffalo", follow LX strictly.
+                            onPressedBritish: () => speakbuffalos1("en-GB"),
+                            onPressedAmerican: () => speakbuffalos1("en-US"),
                           ),
                         ],
                       ),

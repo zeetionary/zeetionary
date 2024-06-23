@@ -149,67 +149,29 @@ class EnglishEntrythebourgeoisie extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چینی ناوەڕاست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new bourgeoisie, which was created by the Industrial Revolution, had money to spend and wanted to travel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چینی تازەی بورژوازی، کە بەھۆی شۆڕشی پیشەسازییەوە درووست بووبوو، پارەیان ھەبوو خەرجی بکەن و گەشت بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakthebourgeoisies1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakthebourgeoisies1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new bourgeoisie, which was created by the Industrial Revolution, had money to spend and wanted to travel.",
+                            kurdishText:
+                                "چینی تازەی بورژوازی، کە بەھۆی شۆڕشی پیشەسازییەوە درووست بووبوو، پارەیان ھەبوو خەرجی بکەن و گەشت بکەن.",
+                            onPressedBritish: () =>
+                                speakthebourgeoisies1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakthebourgeoisies1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو چینەی کۆمەڵگا کە بەری ڕەنجی کرێکاران دەخۆن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Without their control over the workers, the bourgeoisie could not remain in power."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەبێ کۆنترۆڵیان بەسەر چینی کرێکارانەوە، بورژوازییەکان نەیاندەتوانی لە دەسەڵات بمێننەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakthebourgeoisies2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakthebourgeoisies2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Without their control over the workers, the bourgeoisie could not remain in power.",
+                            kurdishText:
+                                "بەبێ کۆنترۆڵیان بەسەر چینی کرێکارانەوە، بورژوازییەکان نەیاندەتوانی لە دەسەڵات بمێننەوە.",
+                            onPressedBritish: () =>
+                                speakthebourgeoisies2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakthebourgeoisies2("en-US"),
                           ),
                         ],
                       ),

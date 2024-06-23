@@ -111,35 +111,15 @@ class EnglishEntryalligator extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خشۆکێکی گەورە کە وەک تیمساحە و کلکی درێژ و پێستی قایم و کەڵبەی بەھێزی ھەیە و لە ئەمریکای باکوور و باشوور و وڵاتی چیندا دەژین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It could be the size of an alligator."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بارستاییەکەی ھێندەی تیمساحێکی ئەمریکی دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalligator4596("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalligator4596(
-                                        // REPLACE: alligator /ˈælɪɡeɪtər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It could be the size of an alligator.",
+                            kurdishText:
+                                "بارستاییەکەی ھێندەی تیمساحێکی ئەمریکی دەبێت.",
+                            onPressedBritish: () => speakalligator4596("en-GB"),
+                            onPressedAmerican: () => speakalligator4596(
+                                // REPLACE: alligator /ˈælɪɡeɪtər/
+                                "en-US"),
                           ),
                         ],
                       ),

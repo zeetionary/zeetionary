@@ -111,34 +111,13 @@ class EnglishEntryadoration extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ھەستی خۆشەویستییەکی زۆر" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gazed at her with pure adoration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێی دەڕوانی بە ئەڤینێکی بێگەرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakador25674("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakador25674(
-                                        // REPLACE: adoration /ˌædəˈreɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He gazed at her with pure adoration.",
+                            kurdishText: "لێی دەڕوانی بە ئەڤینێکی بێگەرد.",
+                            onPressedBritish: () => speakador25674("en-GB"),
+                            onPressedAmerican: () => speakador25674(
+                                // REPLACE: adoration /ˌædəˈreɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

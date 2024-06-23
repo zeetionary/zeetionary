@@ -165,34 +165,15 @@ class EnglishEntryasbestos extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) کەرەستەیەکی نائەندانی کە ناسوتێت و دەکرێت بکرێت بە پارچە و جاران بەکاردەھات بۆ پاراستنی بینا لە سووتان. ئازبێستۆس دەکرێ مەترسیدار بێت ئەگەر ھەڵیبمژی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The asbestos-laden ceiling tiles were falling apart, so they had to be replaced."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاشییەکانی سەقفەکە کە ئەزبێستۆسیان لێدرابوو دەکەوتنەخوارەوە، بۆیە دەبوو بگۆڕدرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasbestos1111("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasbestos1111(
-                                        // REPLACE: asbestos /æzˈbestəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The asbestos-laden ceiling tiles were falling apart, so they had to be replaced.",
+                            kurdishText:
+                                "کاشییەکانی سەقفەکە کە ئەزبێستۆسیان لێدرابوو دەکەوتنەخوارەوە، بۆیە دەبوو بگۆڕدرێن.",
+                            onPressedBritish: () => speakasbestos1111("en-GB"),
+                            onPressedAmerican: () => speakasbestos1111(
+                                // REPLACE: asbestos /æzˈbestəs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

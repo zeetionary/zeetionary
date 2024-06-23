@@ -111,34 +111,15 @@ class EnglishEntryalto extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دەنگێکی گۆرانی وتن کە نزمترە لە سۆپرانۆ (بەرزترین ئاست)، کەسێک کە بەم شێوەیە گۆرانی دەڵێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She began by singing soprano, then changed to alto."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ ئالتۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalto4565("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakalto4565(// REPLACE: alto /ˈæltəʊ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She began by singing soprano, then changed to alto.",
+                            kurdishText:
+                                "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ ئالتۆ.",
+                            onPressedBritish: () => speakalto4565("en-GB"),
+                            onPressedAmerican: () =>
+                                speakalto4565(// REPLACE: alto /ˈæltəʊ/
+                                    "en-US"),
                           ),
                         ],
                       ),

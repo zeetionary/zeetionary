@@ -147,62 +147,23 @@ class EnglishEntrybareback extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) لەسەر ئەسپێک بەبێ زین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The circus featured a performance by a bareback rider who executed daring stunts on a horse."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێرکەکە نمایشێکی لۆخەگرت لەلایەن سوارچاکێکی بێ‌زینەوە کە ژمارەیەک کاری شانۆیی ئەنجامدا لەسەر ئەسپێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarebacks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarebacks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The circus featured a performance by a bareback rider who executed daring stunts on a horse.",
+                            kurdishText:
+                                "سێرکەکە نمایشێکی لۆخەگرت لەلایەن سوارچاکێکی بێ‌زینەوە کە ژمارەیەک کاری شانۆیی ئەنجامدا لەسەر ئەسپێک.",
+                            onPressedBritish: () => speakbarebacks1("en-GB"),
+                            onPressedAmerican: () => speakbarebacks1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) سوارچاکی بەبێ زین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Is it difficult riding bareback?"), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text: "سوارچاکی بەبێ زین گرانە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarebacks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarebacks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Is it difficult riding bareback?",
+                            kurdishText: "سوارچاکی بەبێ زین گرانە؟",
+                            onPressedBritish: () => speakbarebacks2("en-GB"),
+                            onPressedAmerican: () => speakbarebacks2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

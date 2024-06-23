@@ -155,34 +155,15 @@ class EnglishEntryaorta extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شاخوێن‌بەر؛ خوێن‌بەری سەرەکیی دڵی مرۆڤ کە خوێن بۆ ئەندامەکانی تری جەستە دەنێرێت لە دوای تێپەڕبوون بە سنگذا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The blood can dissect up or down the aorta."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێن دەکرێت بە شاخوێن‌بەردا دڵ جێبھێڵێت یان بێتە ناوی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaorta1053("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaorta1053(
-                                        // REPLACE: aorta /eɪˈɔːrtə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The blood can dissect up or down the aorta.",
+                            kurdishText:
+                                "خوێن دەکرێت بە شاخوێن‌بەردا دڵ جێبھێڵێت یان بێتە ناوی.",
+                            onPressedBritish: () => speakaorta1053("en-GB"),
+                            onPressedAmerican: () => speakaorta1053(
+                                // REPLACE: aorta /eɪˈɔːrtə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

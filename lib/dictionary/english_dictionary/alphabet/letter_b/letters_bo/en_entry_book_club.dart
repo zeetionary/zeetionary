@@ -149,63 +149,25 @@ class EnglishEntrybookclub extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دامەزراوەیەک کە کتێب بە ھەرزان دەفرۆشێت بە ئەندامانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book club requires members to buy at least six books in the first year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەرجی یانەی کتێبەکەیە بۆ ئەندامانی ئەوەیە بە لایەنی کەمەوە شەش کتێب بکڕن لە یەکەم ساڵدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookclubs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookclubs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book club requires members to buy at least six books in the first year.",
+                            kurdishText:
+                                "مەرجی یانەی کتێبەکەیە بۆ ئەندامانی ئەوەیە بە لایەنی کەمەوە شەش کتێب بکڕن لە یەکەم ساڵدا.",
+                            onPressedBritish: () => speakbookclubs1("en-GB"),
+                            onPressedAmerican: () => speakbookclubs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کۆمەڵە کەسێک کە ماوەیەک جارێک کۆدەبنەوە بۆ باسکردن لە کتێبێک کە ھەموویان خوێندوویانەتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I belong to a book club which meets once a month."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندامی یانەیەکی کتێبم کە مانگی جارێک کۆدەبینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookclubs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookclubs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I belong to a book club which meets once a month.",
+                            kurdishText:
+                                "ئەندامی یانەیەکی کتێبم کە مانگی جارێک کۆدەبینەوە.",
+                            onPressedBritish: () => speakbookclubs2("en-GB"),
+                            onPressedAmerican: () => speakbookclubs2("en-US"),
                           ),
                         ],
                       ),

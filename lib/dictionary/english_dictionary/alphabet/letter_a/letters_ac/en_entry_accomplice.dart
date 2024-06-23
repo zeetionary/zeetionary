@@ -99,32 +99,13 @@ class EnglishEntryaccomplice extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە یارمەتی کەسێکی تر دەدات بۆ ئەنجامدانی تاوانێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police suspect that he had an accomplice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس گومان دەکەن کە ھاودەستێکی ھەبووبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac19957("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac19957("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police suspect that he had an accomplice.",
+                            kurdishText:
+                                "پۆلیس گومان دەکەن کە ھاودەستێکی ھەبووبێت.",
+                            onPressedBritish: () => speakac19957("en-GB"),
+                            onPressedAmerican: () => speakac19957("en-US"),
                           ),
                         ],
                       ),

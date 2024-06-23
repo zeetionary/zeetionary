@@ -147,32 +147,13 @@ class EnglishEntrybaronet extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گەورەزادەیەک کە نزمترین نازناوی ھەیە لە شانشینی یەکگرتوو کە دەتوانرێت لە باوکەوە بۆ کوڕ بگوازرێتەوە. نازناوی Sir بەکاردێنن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The young baronet, despite his title, chose a career as a doctor, tending to the needs of the common folk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەچکە بەگزادە گەنجەکە، سەرەڕای نازناوەکەی، بڕیاریدا ببێتە دکتۆر بۆ بەدەمەوەچوونی پێویستییەکانی خەڵکی ئاسایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaronets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaronets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The young baronet, despite his title, chose a career as a doctor, tending to the needs of the common folk.",
+                            kurdishText:
+                                "بەچکە بەگزادە گەنجەکە، سەرەڕای نازناوەکەی، بڕیاریدا ببێتە دکتۆر بۆ بەدەمەوەچوونی پێویستییەکانی خەڵکی ئاسایی.",
+                            onPressedBritish: () => speakbaronets1("en-GB"),
+                            onPressedAmerican: () => speakbaronets1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

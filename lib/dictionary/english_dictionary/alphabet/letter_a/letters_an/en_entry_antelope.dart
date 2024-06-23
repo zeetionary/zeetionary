@@ -158,34 +158,14 @@ class EnglishEntryantelope extends StatelessWidget {
                               text:
                                   "١. (ناو) ئاژەڵێکی ئەفریقی یان ئاسیاییە کە شێوەی وەک ئاسکە و زۆر خێرایە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hunter disembowelled the antelope."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاوچییەکە ئاسکەکێوییەکەی کەوڵ کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantelope451("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantelope451(
-                                        // REPLACE: antelope /ˈæntɪləʊp/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hunter disembowelled the antelope.",
+                            kurdishText: "ڕاوچییەکە ئاسکەکێوییەکەی کەوڵ کرد.",
+                            onPressedBritish: () => speakantelope451("en-GB"),
+                            onPressedAmerican: () => speakantelope451(
+                                // REPLACE: antelope /ˈæntɪləʊp/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

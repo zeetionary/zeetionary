@@ -161,103 +161,43 @@ class EnglishEntryantiquity extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) سەردەمانی کۆن، بەتایبەتی سەردەمی یۆنان و ڕۆمی کۆن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The statue was brought to Rome in antiquity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیکەرەکە لە سەردەمانی کۆندا ھێنرا بۆ ڕۆما."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantiquity1151("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantiquity1151(
-                                        // REPLACE: antiquity /ænˈtɪkwəti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The statue was brought to Rome in antiquity.",
+                            kurdishText:
+                                "پەیکەرەکە لە سەردەمانی کۆندا ھێنرا بۆ ڕۆما.",
+                            onPressedBritish: () => speakantiquity1151("en-GB"),
+                            onPressedAmerican: () => speakantiquity1151(
+                                // REPLACE: antiquity /ænˈtɪkwəti/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) لە دۆخێکی کۆندا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Archaeologists found 40 bodies of varying antiquity in the area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شوێنەوارناسان ٤٠ جەستەیان دۆزییەوە لە ناوچەکە کە لە تەمەنی جیاوازدا بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantiquity1156("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantiquity1156(
-                                        // REPLACE: antiquity /ænˈtɪkwəti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Archaeologists found 40 bodies of varying antiquity in the area.",
+                            kurdishText:
+                                "شوێنەوارناسان ٤٠ جەستەیان دۆزییەوە لە ناوچەکە کە لە تەمەنی جیاوازدا بوون.",
+                            onPressedBritish: () => speakantiquity1156("en-GB"),
+                            onPressedAmerican: () => speakantiquity1156(
+                                // REPLACE: antiquity /ænˈtɪkwəti/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) پارچە شوێنەوارێکی سەردەمانی کۆن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Under Greek law, all antiquities that are discovered in Greece belong to the government."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەپێی یاسای یۆنان ھەموو ئەو پارچە شوێنەوارانەی لە یۆنان دەدۆزرێنەوە دەگەڕێنەوە بۆ حکومەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantiquity1159("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantiquity1159(
-                                        // REPLACE: antiquity /ænˈtɪkwəti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Under Greek law, all antiquities that are discovered in Greece belong to the government.",
+                            kurdishText:
+                                "بەپێی یاسای یۆنان ھەموو ئەو پارچە شوێنەوارانەی لە یۆنان دەدۆزرێنەوە دەگەڕێنەوە بۆ حکومەت.",
+                            onPressedBritish: () => speakantiquity1159("en-GB"),
+                            onPressedAmerican: () => speakantiquity1159(
+                                // REPLACE: antiquity /ænˈtɪkwəti/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

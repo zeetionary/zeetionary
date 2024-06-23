@@ -163,35 +163,15 @@ class EnglishEntryargumentative extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەسێک کە حەزی بە مشتومڕە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everyone in the family was argumentative."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ئەندامێکی خێزانەکە چەنەبازن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakargumentative1050("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakargumentative1050(
-                                        // REPLACE: argumentative /ˌɑːrɡjuˈmentətɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Everyone in the family was argumentative.",
+                            kurdishText: "ھەموو ئەندامێکی خێزانەکە چەنەبازن.",
+                            onPressedBritish: () =>
+                                speakargumentative1050("en-GB"),
+                            onPressedAmerican: () => speakargumentative1050(
+                                // REPLACE: argumentative /ˌɑːrɡjuˈmentətɪv/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

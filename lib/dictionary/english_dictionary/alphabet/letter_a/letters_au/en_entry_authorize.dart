@@ -166,65 +166,27 @@ class EnglishEntryauthorize extends StatelessWidget {
                               text:
                                   "١. (کردار) پێدانی مۆڵەتی فەرمی بۆ شتێک، یان بە کەسێک بۆ کردنی شتێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can authorize payments up to £5 000."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانم مۆڵەتی پێدانی تاوەکو ٥٠٠٠ پاوەند بدەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthorize840("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthorize840(// REPLACE: authorize
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can authorize payments up to £5 000.",
+                            kurdishText:
+                                "دەتوانم مۆڵەتی پێدانی تاوەکو ٥٠٠٠ پاوەند بدەم.",
+                            onPressedBritish: () => speakauthorize840("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthorize840(// REPLACE: authorize
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police were authorized to record his phone conversations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس مۆڵەتی پێدرا گفتوگۆ تەلەفۆنییەکانی تۆمار بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthorize842("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthorize842(
-                                        // REPLACE: authorize
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police were authorized to record his phone conversations.",
+                            kurdishText:
+                                "پۆلیس مۆڵەتی پێدرا گفتوگۆ تەلەفۆنییەکانی تۆمار بکات.",
+                            onPressedBritish: () => speakauthorize842("en-GB"),
+                            onPressedAmerican: () => speakauthorize842(
+                                // REPLACE: authorize
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

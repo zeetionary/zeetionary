@@ -150,212 +150,78 @@ class EnglishEntrybath extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) حەوزی خۆشتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'm in the bath!"),
-                                    ExampleSentenceKurdish(
-                                        text: "لە حەوزی خۆشتنەکەدام!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaths1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'm in the bath!",
+                            kurdishText: "لە حەوزی خۆشتنەکەدام!",
+                            onPressedBritish: () => speakbaths1("en-GB"),
+                            onPressedAmerican: () => speakbaths1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) خۆشتن بە ڕاکشان لە حەوزێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think I'll have a bath and go to bed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێم‌باشە خۆم بشۆم و بچمە جێگەی نووستن"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaths2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaths2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I think I'll have a bath and go to bed.",
+                            kurdishText:
+                                "پێم‌باشە خۆم بشۆم و بچمە جێگەی نووستن",
+                            onPressedBritish: () => speakbaths2("en-GB"),
+                            onPressedAmerican: () => speakbaths2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ئاوی ئامادەی حەوزێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please run a bath for me (= fill the bath with water)."),
-                                    ExampleSentenceKurdish(
-                                        text: "تکایە حەوزەکەم بۆ پڕبکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaths3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaths3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please run a bath for me (= fill the bath with water).",
+                            kurdishText: "تکایە حەوزەکەم بۆ پڕبکە.",
+                            onPressedBritish: () => speakbaths3("en-GB"),
+                            onPressedAmerican: () => speakbaths3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) شوێنێکی گشتی کە بۆی دەچیت بۆ مەلەکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My father took me to the baths every Sunday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوکم ھەموو یەکشەمەیەک دەیبردم بۆ مەلەوانگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaths4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaths4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My father took me to the baths every Sunday.",
+                            kurdishText:
+                                "باوکم ھەموو یەکشەمەیەک دەیبردم بۆ مەلەوانگەکە.",
+                            onPressedBritish: () => speakbaths4("en-GB"),
+                            onPressedAmerican: () => speakbaths4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) شوێنێکی گشتی کە خەڵکی لە کۆندا بۆی دەچوون بۆ خۆشتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most families had no bathroom and used the public baths instead."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر خێزان گەرماویان نەبوو و گەرماوی گشتییان لەجیاتیدا بەکاردەھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaths5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaths5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most families had no bathroom and used the public baths instead.",
+                            kurdishText:
+                                "زۆر خێزان گەرماویان نەبوو و گەرماوی گشتییان لەجیاتیدا بەکاردەھێنا.",
+                            onPressedBritish: () => speakbaths5("en-GB"),
+                            onPressedAmerican: () => speakbaths5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) ششتنی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's your turn to bath the baby."),
-                                    ExampleSentenceKurdish(
-                                        text: "نۆرەی تۆیە منداڵەکە بشۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaths6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaths6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's your turn to bath the baby.",
+                            kurdishText: "نۆرەی تۆیە منداڵەکە بشۆی.",
+                            onPressedBritish: () => speakbaths6("en-GB"),
+                            onPressedAmerican: () => speakbaths6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (کردار) خۆششتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She baths every morning."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەموو بەیانییەک خۆی دەشوات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaths7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaths7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She baths every morning.",
+                            kurdishText: "ھەموو بەیانییەک خۆی دەشوات.",
+                            onPressedBritish: () => speakbaths7("en-GB"),
+                            onPressedAmerican: () => speakbaths7("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

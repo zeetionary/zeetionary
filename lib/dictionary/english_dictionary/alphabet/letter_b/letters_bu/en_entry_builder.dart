@@ -145,63 +145,25 @@ class EnglishEntrybuilder extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک یان کۆمپانیایەک کە کاری درووستنکردن یان چاککردنەوەی خانوو و بینا دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We got a local builder to do the work for us."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیناچییەکی ناوخۆییمان دەستکەوتووە تا کارەکەمان بۆ بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "builder", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuilders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuilders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We got a local builder to do the work for us.",
+                            kurdishText:
+                                "بیناچییەکی ناوخۆییمان دەستکەوتووە تا کارەکەمان بۆ بکات.", // builder", follow LX strictly
+                            onPressedBritish: () => speakbuilders1("en-GB"),
+                            onPressedAmerican: () => speakbuilders1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک/شتێک کە شتێک درووست دەکات یان پەرەی پێدەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Going on the course was a real confidence builder for me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەژداری لە کۆرسەکە متمانە درووستکەرێکی تەواو بۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuilders2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuilders2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Going on the course was a real confidence builder for me.",
+                            kurdishText:
+                                "بەژداری لە کۆرسەکە متمانە درووستکەرێکی تەواو بۆم.",
+                            onPressedBritish: () => speakbuilders2("en-GB"),
+                            onPressedAmerican: () => speakbuilders2("en-US"),
                           ),
                         ],
                       ),

@@ -156,66 +156,27 @@ class EnglishEntryavid extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) زۆر تامەزرۆ سەبارەت بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has taken an avid interest in the project (= she is extremely interested in it)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئارەزوویەکی زۆری بۆ پڕۆژەکە لا درووست‌بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavids1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavids1(// REPLACE: avid
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has taken an avid interest in the project (= she is extremely interested in it).",
+                            kurdishText:
+                                "ئارەزوویەکی زۆری بۆ پڕۆژەکە لا درووست‌بووە.",
+                            onPressedBritish: () => speakavids1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavids1(// REPLACE: avid
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ویستنی شتێک بە ئاستێکی زۆر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was avid for more information."),
-                                    ExampleSentenceKurdish(
-                                        text: "تینووی زانیاریی زیاتر بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavids2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavids2(// REPLACE: avid
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was avid for more information.",
+                            kurdishText: "تینووی زانیاریی زیاتر بوو.",
+                            onPressedBritish: () => speakavids2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavids2(// REPLACE: avid
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

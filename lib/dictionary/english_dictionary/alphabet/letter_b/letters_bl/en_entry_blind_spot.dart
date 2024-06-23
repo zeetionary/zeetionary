@@ -150,90 +150,33 @@ class EnglishEntryblindspot extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ناوچەیەک کە کەسێک ناوانێت بیبینێت، بەتایبەتی ناوچەیەکی ڕێگایەک لە کاتی شۆفێریدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rear-view mirror helps to reduce blind spots on both sides of the car."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاوێنەی پێشەوە یارمەتیدەرە بۆ کەمکردنەوەی ناوچەی کوێر لە ھەردوو لای ئۆتۆمبێلێکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblindspots1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblindspots1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The rear-view mirror helps to reduce blind spots on both sides of the car.",
+                            kurdishText:
+                                "ئاوێنەی پێشەوە یارمەتیدەرە بۆ کەمکردنەوەی ناوچەی کوێر لە ھەردوو لای ئۆتۆمبێلێکەوە.",
+                            onPressedBritish: () => speakblindspots1("en-GB"),
+                            onPressedAmerican: () => speakblindspots1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کاتێک کەسێک شتێک پشتگوێ دەخات، یان توانای نییە، یان ئامادە نییە فێربێت لەسەری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have a blind spot where maths is concerned."),
-                                    ExampleSentenceKurdish(
-                                        text: "دوو چاوی ھەیە بیرکاری نابینن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblindspots2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblindspots2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I have a blind spot where maths is concerned.",
+                            kurdishText: "دوو چاوی ھەیە بیرکاری نابینن.",
+                            onPressedBritish: () => speakblindspots2("en-GB"),
+                            onPressedAmerican: () => speakblindspots2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I am pretty good at English, but I have a blind spot where spelling is concerned."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئینگلیزی باشم، بەڵام حساب بۆ ڕێنووس ناکەم (یان ناتوانم فێری ببم)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblindspots3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblindspots3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I am pretty good at English, but I have a blind spot where spelling is concerned.",
+                            kurdishText:
+                                "لە ئینگلیزی باشم، بەڵام حساب بۆ ڕێنووس ناکەم (یان ناتوانم فێری ببم).",
+                            onPressedBritish: () => speakblindspots3("en-GB"),
+                            onPressedAmerican: () => speakblindspots3("en-US"),
                           ),
                         ],
                       ),

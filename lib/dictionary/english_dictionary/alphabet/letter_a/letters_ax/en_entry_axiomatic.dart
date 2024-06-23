@@ -158,34 +158,15 @@ class EnglishEntryaxiomatic extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ھێندە ڕاست کە پێویستی بە بەڵگە نییە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It seems axiomatic that everyone would benefit from a better scientific education."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە بەڵگەنەویست دیارە کە ھەمووان سوودمەند دەبن لە پەروەردەی زانستیی باشتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaxiomatics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaxiomatics1(// REPLACE: axiomatic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It seems axiomatic that everyone would benefit from a better scientific education.",
+                            kurdishText:
+                                "ئەوە بەڵگەنەویست دیارە کە ھەمووان سوودمەند دەبن لە پەروەردەی زانستیی باشتر.",
+                            onPressedBritish: () => speakaxiomatics1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaxiomatics1(// REPLACE: axiomatic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

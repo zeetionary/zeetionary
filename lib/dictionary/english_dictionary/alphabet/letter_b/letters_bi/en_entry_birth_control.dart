@@ -152,34 +152,15 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کردەی کۆنترۆڵکردنی ژمارەی ئەو منداڵانەی کەسێک ھەیەتی بە بەکارھێنانی ژمارەیەک ڕێگای بەرگیری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Today's methods of birth control make it possible for a couple to choose whether or not to have a child."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگاکانی ئەمڕۆی پێشگیری لە منداڵبوون ئاسانی دەکات بۆ ژن و پیاوێک کە ئایا منداڵیان ھەبێت یان نا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbirthcontrols1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbirthcontrols1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Today's methods of birth control make it possible for a couple to choose whether or not to have a child.",
+                            kurdishText:
+                                "ڕێگاکانی ئەمڕۆی پێشگیری لە منداڵبوون ئاسانی دەکات بۆ ژن و پیاوێک کە ئایا منداڵیان ھەبێت یان نا.",
+                            onPressedBritish: () =>
+                                speakbirthcontrols1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbirthcontrols1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

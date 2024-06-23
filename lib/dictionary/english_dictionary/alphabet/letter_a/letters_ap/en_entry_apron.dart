@@ -162,34 +162,13 @@ class EnglishEntryapron extends StatelessWidget {
                               text:
                                   "١. (ناو) بەروانکە؛ پارچە کراسێک کە لەبەر دەکرێت بۆ داپۆشینی سنگ بەرەو خوارەوە، و لەنزیکی کەمەردا دەبسترێت. بەروانکە بەسەر جلی تر دەبەسترێت بۆ پاکڕاگرتنیاین، بۆ نموونە لە کاتی خواردن ئامادەکردن، یان کە منداڵ خواردن دەخوات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her apron was speckled with oil."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەروانکەکەی خاڵ خاڵ ڕۆنی پێوەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapron728("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapron728(
-                                        // REPLACE: apron /ˈeɪprən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her apron was speckled with oil.",
+                            kurdishText: "بەروانکەکەی خاڵ خاڵ ڕۆنی پێوەبوو.",
+                            onPressedBritish: () => speakapron728("en-GB"),
+                            onPressedAmerican: () => speakapron728(
+                                // REPLACE: apron /ˈeɪprən/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

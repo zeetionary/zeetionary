@@ -163,65 +163,27 @@ class EnglishEntryapathy extends StatelessWidget {
                               text:
                                   "١. (ناو) نەبوونی تامەزرۆیی یان حەز بپ شتێک، یان ھەموو شتێک بە گشتی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Such attitudes can only lead to apathy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵوێستی وەھا ئەنجامەکەی تەنھا بێ‌ھەستی دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapathy1212("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapathy1212(
-                                        // REPLACE: apathy /ˈæpəθi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Such attitudes can only lead to apathy.",
+                            kurdishText:
+                                "ھەڵوێستی وەھا ئەنجامەکەی تەنھا بێ‌ھەستی دەبێت.",
+                            onPressedBritish: () => speakapathy1212("en-GB"),
+                            onPressedAmerican: () => speakapathy1212(
+                                // REPLACE: apathy /ˈæpəθi/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a growing sense of apathy among teens and a feeling that there are no opportunities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بێ‌دەربەستیی ڕوولەزۆری لەناو گەنجان ھەیە، و ھەستی ئەوەی ھیچ ھەلێک نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapathy1215("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapathy1215(
-                                        // REPLACE: apathy /ˈæpəθi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a growing sense of apathy among teens and a feeling that there are no opportunities.",
+                            kurdishText:
+                                "ھەستی بێ‌دەربەستیی ڕوولەزۆری لەناو گەنجان ھەیە، و ھەستی ئەوەی ھیچ ھەلێک نییە.",
+                            onPressedBritish: () => speakapathy1215("en-GB"),
+                            onPressedAmerican: () => speakapathy1215(
+                                // REPLACE: apathy /ˈæpəθi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

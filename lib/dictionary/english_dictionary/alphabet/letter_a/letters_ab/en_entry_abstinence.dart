@@ -99,30 +99,11 @@ class EnglishEntryabstinence extends StatelessWidget {
                               text:
                                   "١. کرداری خۆپارێزی لەو شتانەی کە حەزت لێیە، بۆ نموونە مادە کحوولییەکان و سێکس"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "total abstinence from alcohol"),
-                                    ExampleSentenceKurdish(
-                                        text: "خۆبەدوورگرتنی تەواو لە کحوول."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka25891("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka25891("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "total abstinence from alcohol",
+                            kurdishText: "خۆبەدوورگرتنی تەواو لە کحوول.",
+                            onPressedBritish: () => speaka25891("en-GB"),
+                            onPressedAmerican: () => speaka25891("en-US"),
                           ),
                         ],
                       ),

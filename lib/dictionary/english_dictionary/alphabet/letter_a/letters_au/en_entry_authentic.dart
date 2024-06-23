@@ -166,100 +166,43 @@ class EnglishEntryauthentic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شتێک کە ڕاستە و ساختە نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't know if the painting is authentic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانیاریم نییە ئاخۆ کە تابلۆکە ڕەسەنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthentic602("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthentic602(// REPLACE: authentic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't know if the painting is authentic.",
+                            kurdishText:
+                                "زانیاریم نییە ئاخۆ کە تابلۆکە ڕەسەنە.",
+                            onPressedBritish: () => speakauthentic602("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthentic602(// REPLACE: authentic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ڕاست و درووست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The historian's painstaking research resulted in an authentic understanding of the events leading up to the revolution."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژینەوەی شەکەتکەری مێژوونووسان ئەنجامەکەی تێگەشتنێکی درووست بوو بۆ ئەو ڕووداوانەی کە گەشتن بە شۆڕشەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthentic610("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthentic610(// REPLACE: authentic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The historian's painstaking research resulted in an authentic understanding of the events leading up to the revolution.",
+                            kurdishText:
+                                "توێژینەوەی شەکەتکەری مێژوونووسان ئەنجامەکەی تێگەشتنێکی درووست بوو بۆ ئەو ڕووداوانەی کە گەشتن بە شۆڕشەکە.",
+                            onPressedBritish: () => speakauthentic610("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthentic610(// REPLACE: authentic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) درووستکراو بۆ ئەوەی ھاوشێوەی تەواوی یەکێکی تر بێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The architect's design for the new building was an authentic reproduction of a 19th-century house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیزاینی تەلارسازەکە بۆ بینا تازەکە کۆپپیەکی تەواوی خانوویەکی سەدەی ١٩ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthentic616("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthentic616(// REPLACE: authentic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The architect's design for the new building was an authentic reproduction of a 19th-century house.",
+                            kurdishText:
+                                "دیزاینی تەلارسازەکە بۆ بینا تازەکە کۆپپیەکی تەواوی خانوویەکی سەدەی ١٩ بوو.",
+                            onPressedBritish: () => speakauthentic616("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthentic616(// REPLACE: authentic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

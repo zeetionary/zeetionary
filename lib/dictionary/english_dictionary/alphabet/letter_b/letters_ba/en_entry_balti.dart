@@ -153,34 +153,15 @@ class EnglishEntrybalti extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خواردنێکی توونی باشووری ئاسیایە کە لە دەفرێکی ئاسندا دەکرێت و بە نانەوە دەخورێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I enjoyed a delicious balti chicken dish at an Indian restaurant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نانێکی بەتامی مریشکی باڵتیم لە چێشتخانەیەکی ھندی خوارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaltis1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaltis1(// REPLACE: balti
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I enjoyed a delicious balti chicken dish at an Indian restaurant.",
+                            kurdishText:
+                                "نانێکی بەتامی مریشکی باڵتیم لە چێشتخانەیەکی ھندی خوارد.",
+                            onPressedBritish: () => speakbaltis1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaltis1(// REPLACE: balti
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

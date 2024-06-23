@@ -156,94 +156,35 @@ class EnglishEntryanalyze extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) لێکۆڵینەوە لە شتێک و شیتەڵ‌کردنی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The job involves collecting and analyzing data."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکە کۆکردنەوە و شیکردنەوەی داتا لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanalyze7950("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalyze7950(
-                                        // REPLACE: analyze /ˈænəlaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The job involves collecting and analyzing data.",
+                            kurdishText:
+                                "کارەکە کۆکردنەوە و شیکردنەوەی داتا لەخۆدەگرێت.",
+                            onPressedBritish: () => speakanalyze7950("en-GB"),
+                            onPressedAmerican: () => speakanalyze7950(
+                                // REPLACE: analyze /ˈænəlaɪz/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He tried to analyze his feelings."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەوڵی‌دا لە ھەستەکانی تێ‌بگات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanalyze4920("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalyze4920(
-                                        // REPLACE: analyze /ˈænəlaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He tried to analyze his feelings.",
+                            kurdishText: "ھەوڵی‌دا لە ھەستەکانی تێ‌بگات.",
+                            onPressedBritish: () => speakanalyze4920("en-GB"),
+                            onPressedAmerican: () => speakanalyze4920(
+                                // REPLACE: analyze /ˈænəlaɪz/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We need to analyze what went wrong."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستە لێ‌بکۆڵینەوە لەوەی چی ھەڵە ڕوویدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanalyze469("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalyze469(
-                                        // REPLACE: analyze /ˈænəlaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We need to analyze what went wrong.",
+                            kurdishText:
+                                "پێویستە لێ‌بکۆڵینەوە لەوەی چی ھەڵە ڕوویدا.",
+                            onPressedBritish: () => speakanalyze469("en-GB"),
+                            onPressedAmerican: () => speakanalyze469(
+                                // REPLACE: analyze /ˈænəlaɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

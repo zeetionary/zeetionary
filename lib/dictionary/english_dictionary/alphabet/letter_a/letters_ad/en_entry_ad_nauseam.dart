@@ -113,34 +113,15 @@ class EnglishEntryadnauseam extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) تا ئاستێکی بێزارکەر" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sports commentators repeat the same phrases ad nauseam."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمێنتارە وەرزشییەکان ھەمان شت دووبارە و دووبارە دەکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadn25691("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadn25691(
-                                        // REPLACE: adnauseam /ˌæd ˈnɔːziəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sports commentators repeat the same phrases ad nauseam.",
+                            kurdishText:
+                                "کۆمێنتارە وەرزشییەکان ھەمان شت دووبارە و دووبارە دەکەنەوە.",
+                            onPressedBritish: () => speakadn25691("en-GB"),
+                            onPressedAmerican: () => speakadn25691(
+                                // REPLACE: adnauseam /ˌæd ˈnɔːziəm/
+                                "en-US"),
                           ),
                         ],
                       ),

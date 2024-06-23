@@ -158,67 +158,29 @@ class EnglishEntryappoint extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) دیاریکردنی کەسێک بۆ کارێک یان بەرپرسیاریەتییەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have appointed a new head teacher at my son's school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێوبەرێکی تازەیان دیاریکردووە لە قوتابخانەکەی کوڕەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappoint820("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappoint820(
-                                        // REPLACE: appoint /əˈpɔɪnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have appointed a new head teacher at my son's school.",
+                            kurdishText:
+                                "بەڕێوبەرێکی تازەیان دیاریکردووە لە قوتابخانەکەی کوڕەکەم.",
+                            onPressedBritish: () => speakappoint820("en-GB"),
+                            onPressedAmerican: () => speakappoint820(
+                                // REPLACE: appoint /əˈpɔɪnt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) دیاریکردنی کات یان شوێنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A date for the meeting is still to be appointed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیاریکردنی ڕێکەوتێک بۆ کۆبوونەوەکە ھێشتا قسەی لەسەر دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappoint822("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappoint822(
-                                        // REPLACE: appoint /əˈpɔɪnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A date for the meeting is still to be appointed.",
+                            kurdishText:
+                                "دیاریکردنی ڕێکەوتێک بۆ کۆبوونەوەکە ھێشتا قسەی لەسەر دەکرێت.",
+                            onPressedBritish: () => speakappoint822("en-GB"),
+                            onPressedAmerican: () => speakappoint822(
+                                // REPLACE: appoint /əˈpɔɪnt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

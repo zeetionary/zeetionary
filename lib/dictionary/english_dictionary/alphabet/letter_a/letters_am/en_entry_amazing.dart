@@ -112,64 +112,26 @@ class EnglishEntryamazing extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) سەیر و سەرسوڕھێنەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The amazing thing is, he really believes he'll get away with it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوەی سەیرە ئەوەیە پێی‌وایە لەمە دەربازی دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamazing45555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamazing45555(
-                                        // REPLACE: amazing /əˈmeɪzɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The amazing thing is, he really believes he'll get away with it.",
+                            kurdishText:
+                                "ئەوەی سەیرە ئەوەیە پێی‌وایە لەمە دەربازی دەبێت.",
+                            onPressedBritish: () => speakamazing45555("en-GB"),
+                            onPressedAmerican: () => speakamazing45555(
+                                // REPLACE: amazing /əˈmeɪzɪŋ/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I find it amazing that people can be so irresponsible."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لام سەیرە خەڵکی دەکرێت ھێندە نابەرپرس بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamazing95314("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamazing95314(
-                                        // REPLACE: amazing /əˈmeɪzɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I find it amazing that people can be so irresponsible.",
+                            kurdishText:
+                                "لام سەیرە خەڵکی دەکرێت ھێندە نابەرپرس بن.",
+                            onPressedBritish: () => speakamazing95314("en-GB"),
+                            onPressedAmerican: () => speakamazing95314(
+                                // REPLACE: amazing /əˈmeɪzɪŋ/
+                                "en-US"),
                           ),
                         ],
                       ),

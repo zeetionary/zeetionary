@@ -152,97 +152,37 @@ class EnglishEntrybaggage extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جانتایەک کە کەلوپەل و شتومەکی کەسێکی تێدایە لە کاتی گەشتکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We loaded our baggage into the car."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جانتاکانمان سەرخستە ناو ئۆتۆمبێلەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaggages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaggages1(// REPLACE: baggage
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We loaded our baggage into the car.",
+                            kurdishText: "جانتاکانمان سەرخستە ناو ئۆتۆمبێلەکە.",
+                            onPressedBritish: () => speakbaggages1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaggages1(// REPLACE: baggage
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Let's claim our baggage first."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با سەرەتا جانتاکانمان وەربگرینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaggages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaggages2(// REPLACE: baggage
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Let's claim our baggage first.",
+                            kurdishText: "با سەرەتا جانتاکانمان وەربگرینەوە.",
+                            onPressedBritish: () => speakbaggages2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaggages2(// REPLACE: baggage
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئەو کەلوپەلانەی کە سوپایەک لەگەڵ خۆی دەیانبات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Extensive baggage trains followed the troops."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەمەندەفەری پڕ لە کەلوپەل دوای سەربازەکان گەشتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaggages3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaggages3(// REPLACE: baggage
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Extensive baggage trains followed the troops.",
+                            kurdishText:
+                                "شەمەندەفەری پڕ لە کەلوپەل دوای سەربازەکان گەشتن.",
+                            onPressedBritish: () => speakbaggages3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaggages3(// REPLACE: baggage
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),

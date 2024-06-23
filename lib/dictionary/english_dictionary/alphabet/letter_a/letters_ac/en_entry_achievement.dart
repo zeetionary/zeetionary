@@ -116,62 +116,24 @@ class EnglishEntryachievement extends StatelessWidget {
                               text:
                                   "١. (ناو) شتێک کە کەسێک بە ھەوڵ و ماندییبیینی بە سەرکەوتووانە کردوویەتی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a remarkable achievement for such a young player."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستکەوتێکی ناوازە بوو بۆ یاریزانێکی وا گەنج."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka452876("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka452876(
-                                        "en-US"), // REPLACE achievement /əˈtʃiːvmənt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was a remarkable achievement for such a young player.",
+                            kurdishText:
+                                "دەستکەوتێکی ناوازە بوو بۆ یاریزانێکی وا گەنج.",
+                            onPressedBritish: () => speaka452876("en-GB"),
+                            onPressedAmerican: () => speaka452876(
+                                "en-US"), // REPLACE achievement /əˈtʃiːvmənt/
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This work is the crowning achievement (= the greatest achievement) of her career."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە گەورەترین دەستکەوتی کارکردنیەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac251468("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac251468(
-                                        "en-US"), // REPLACE achievement /əˈtʃiːvmənt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This work is the crowning achievement (= the greatest achievement) of her career.",
+                            kurdishText:
+                                "ئەمە گەورەترین دەستکەوتی کارکردنیەتی.",
+                            onPressedBritish: () => speakac251468("en-GB"),
+                            onPressedAmerican: () => speakac251468(
+                                "en-US"), // REPLACE achievement /əˈtʃiːvmənt/
                           ),
                         ],
                       ),

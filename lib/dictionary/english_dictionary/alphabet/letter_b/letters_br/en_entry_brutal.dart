@@ -146,91 +146,34 @@ class EnglishEntrybrutal extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) توندوتیژ و دڕندانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had presided over a brutal regime in which thousands of people had been killed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکردەی ڕژێمێکی دڕندە بوو کە تێیدا ھەزاران کەس کوژران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brutal" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had presided over a brutal regime in which thousands of people had been killed.",
+                            kurdishText:
+                                "سەرکردەی ڕژێمێکی دڕندە بوو کە تێیدا ھەزاران کەس کوژران.", // brutal" as
+                            onPressedBritish: () => speakbrutals1("en-GB"),
+                            onPressedAmerican: () => speakbrutals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was imprisoned in 1945 for the brutal murder of a twelve-year-old girl."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵی ١٩٤٥ زیندانی کرا بۆ تیرۆری دڕندانەی کچێکی ١٢ ساڵان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was imprisoned in 1945 for the brutal murder of a twelve-year-old girl.",
+                            kurdishText:
+                                "ساڵی ١٩٤٥ زیندانی کرا بۆ تیرۆری دڕندانەی کچێکی ١٢ ساڵان.",
+                            onPressedBritish: () => speakbrutals2("en-GB"),
+                            onPressedAmerican: () => speakbrutals2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) بە ڕوونی و بەبێ گرنگیدان بە ھەستەکانی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "With brutal honesty she told him she did not love him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ڕاستگۆییەکی تاڵەوە پێی گوت کە خۆشی ناوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "With brutal honesty she told him she did not love him.",
+                            kurdishText:
+                                "بە ڕاستگۆییەکی تاڵەوە پێی گوت کە خۆشی ناوێت.",
+                            onPressedBritish: () => speakbrutals3("en-GB"),
+                            onPressedAmerican: () => speakbrutals3("en-US"),
                           ),
                         ],
                       ),

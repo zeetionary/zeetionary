@@ -111,34 +111,14 @@ class EnglishEntryameba extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) زیندەوەرێکی سەرەتایی کە لە یەک خانە پێکھاتووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is studying the ecology of ameba."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakameba4688("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakameba4688(
-                                        // REPLACE: ameba /əˈmiːbə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He is studying the ecology of ameba.",
+                            kurdishText:
+                                "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا.",
+                            onPressedBritish: () => speakameba4688("en-GB"),
+                            onPressedAmerican: () => speakameba4688(
+                                // REPLACE: ameba /əˈmiːbə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

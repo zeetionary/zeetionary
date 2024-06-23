@@ -162,34 +162,14 @@ class EnglishEntryarcher extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) کەسێک کە تیر و کەوان بەکاردێنێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The archer can bend a strong bow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیراوێژەکە دەتوانێت کەوانێکی بەھێز بچەمێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarcher334("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarcher334(
-                                        // REPLACE: archer /ˈɑːrtʃər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The archer can bend a strong bow.",
+                            kurdishText:
+                                "تیراوێژەکە دەتوانێت کەوانێکی بەھێز بچەمێنێتەوە.",
+                            onPressedBritish: () => speakarcher334("en-GB"),
+                            onPressedAmerican: () => speakarcher334(
+                                // REPLACE: archer /ˈɑːrtʃər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -149,34 +149,15 @@ class EnglishEntrybloodpressure extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پەستانی خوێن کە بە جەستەدا دەجوڵێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The nurse will take your blood pressure in a moment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرستارەکە کەمێکی تر پەستانی خوێنی دەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodpressures1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodpressures1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The nurse will take your blood pressure in a moment.",
+                            kurdishText:
+                                "پەرستارەکە کەمێکی تر پەستانی خوێنی دەگرێت.",
+                            onPressedBritish: () =>
+                                speakbloodpressures1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodpressures1("en-US"),
                           ),
                         ],
                       ),

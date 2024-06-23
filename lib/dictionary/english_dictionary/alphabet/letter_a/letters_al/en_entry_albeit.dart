@@ -114,34 +114,15 @@ class EnglishEntryalbeit extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (لێکدەر) سەرەڕای شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He finally agreed, albeit reluctantly, to help us."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتاییدا ڕازیبوو یارمەتیمان بدات، ئەگەرچی بەنابەدڵییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalbeit3555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalbeit3555(
-                                        // REPLACE: albeit /ˌɔːlˈbiːɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He finally agreed, albeit reluctantly, to help us.",
+                            kurdishText:
+                                "لە کۆتاییدا ڕازیبوو یارمەتیمان بدات، ئەگەرچی بەنابەدڵییەوە.",
+                            onPressedBritish: () => speakalbeit3555("en-GB"),
+                            onPressedAmerican: () => speakalbeit3555(
+                                // REPLACE: albeit /ˌɔːlˈbiːɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

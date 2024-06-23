@@ -112,32 +112,12 @@ class EnglishEntryacne extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ژمارەیەک زیپکە کە لە تەمەنی گەنجیدا دەردەکەوێت لەسەر ڕووخسار و مل"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Acne often clears up by itself."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئاکنی بەزۆری بۆ خۆی لادەچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacn1259("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacn1259(
-                                        "en-US"), // REPLACE acne /ˈækni/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Acne often clears up by itself.",
+                            kurdishText: "ئاکنی بەزۆری بۆ خۆی لادەچێت.",
+                            onPressedBritish: () => speakacn1259("en-GB"),
+                            onPressedAmerican: () =>
+                                speakacn1259("en-US"), // REPLACE acne /ˈækni/
                           ),
                         ],
                       ),

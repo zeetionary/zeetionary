@@ -162,34 +162,13 @@ class EnglishEntryaspire extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ئاوات‌خواستن بە شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She aspired to a scientific career."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاواتی ھەبوو کارێکی زانستی ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaspire700("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspire700(
-                                        // REPLACE: aspire /əˈspaɪər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She aspired to a scientific career.",
+                            kurdishText: "ئاواتی ھەبوو کارێکی زانستی ھەبێت.",
+                            onPressedBritish: () => speakaspire700("en-GB"),
+                            onPressedAmerican: () => speakaspire700(
+                                // REPLACE: aspire /əˈspaɪər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

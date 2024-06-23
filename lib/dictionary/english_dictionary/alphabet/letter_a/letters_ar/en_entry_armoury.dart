@@ -162,34 +162,15 @@ class EnglishEntryarmoury extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) کۆگای چەک و تەقەمەنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several guns had been stolen from the palace armoury."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک چەک دزرابوون لە جبەخانەی کۆشکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmoury631("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmoury631(
-                                        // REPLACE: armoury /ˈɑːrməri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several guns had been stolen from the palace armoury.",
+                            kurdishText:
+                                "ھەندێک چەک دزرابوون لە جبەخانەی کۆشکەکە.",
+                            onPressedBritish: () => speakarmoury631("en-GB"),
+                            onPressedAmerican: () => speakarmoury631(
+                                // REPLACE: armoury /ˈɑːrməri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -198,67 +179,29 @@ class EnglishEntryarmoury extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ئەو شتانەی کە کەسێک ھەیەتی بۆ یارمەتیدانی لە بەدەستھێنانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Doctors have an armoury of drugs available."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دکتۆرەکان گەنجینەیەک لە دەرمانیان لەبەردەستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmoury635("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmoury635(
-                                        // REPLACE: armoury /ˈɑːrməri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Doctors have an armoury of drugs available.",
+                            kurdishText:
+                                "دکتۆرەکان گەنجینەیەک لە دەرمانیان لەبەردەستە.",
+                            onPressedBritish: () => speakarmoury635("en-GB"),
+                            onPressedAmerican: () => speakarmoury635(
+                                // REPLACE: armoury /ˈɑːrməri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) تەواوی چەک و کەرەستەی سەربازیی وڵاتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two countries signed an agreement to reduce their nuclear armouries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو وڵات ڕێککەوتنێکیان واژۆکرد بۆ کەمکردنەوەی چەکی ئەتۆمییان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmoury646("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmoury646(
-                                        // REPLACE: armoury /ˈɑːrməri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two countries signed an agreement to reduce their nuclear armouries.",
+                            kurdishText:
+                                "ھەردوو وڵات ڕێککەوتنێکیان واژۆکرد بۆ کەمکردنەوەی چەکی ئەتۆمییان.",
+                            onPressedBritish: () => speakarmoury646("en-GB"),
+                            onPressedAmerican: () => speakarmoury646(
+                                // REPLACE: armoury /ˈɑːrməri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

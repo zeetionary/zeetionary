@@ -151,63 +151,25 @@ class EnglishEntrybeetle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) مێروویەکە، کە زۆرجار گەورە و ڕەشە، و پارێزەرێکی ڕەق لەسەر پشتییەتی کە باڵەکانی دادەپۆشێت."""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children were fascinated by the variety of beetles they found in the garden."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان شاگەشکەبووبوون بە ڕێژەی جۆراوجۆری قالۆنچە کە دۆزییانەوە لە باخچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeetles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeetles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children were fascinated by the variety of beetles they found in the garden.",
+                            kurdishText:
+                                "منداڵەکان شاگەشکەبووبوون بە ڕێژەی جۆراوجۆری قالۆنچە کە دۆزییانەوە لە باخچەکە.",
+                            onPressedBritish: () => speakbeetles1("en-GB"),
+                            onPressedAmerican: () => speakbeetles1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) چوون بۆ شوێنێک بە خێرایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I last saw him beetling off down the road."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆتا جار بینیم بە ڕێگاکەدا دەچوو بەخێرایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeetles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeetles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I last saw him beetling off down the road.",
+                            kurdishText:
+                                "کۆتا جار بینیم بە ڕێگاکەدا دەچوو بەخێرایی.",
+                            onPressedBritish: () => speakbeetles2("en-GB"),
+                            onPressedAmerican: () => speakbeetles2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -113,34 +113,14 @@ class EnglishEntryadvert extends StatelessWidget {
                               text:
                                   "١. (ناو) وێنەیەک یان ڤیدیۆیەک کە دەیەوێت کەسێک ڕازیبکات بۆ کڕینی شتێک."
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A lot of claims are made in the advert."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانگەشەی زۆر لە ڕیکلامەکەدا دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadv36914("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadv36914(
-                                        // REPLACE: advert /ˈædvɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A lot of claims are made in the advert.",
+                            kurdishText: "بانگەشەی زۆر لە ڕیکلامەکەدا دەکرێت.",
+                            onPressedBritish: () => speakadv36914("en-GB"),
+                            onPressedAmerican: () => speakadv36914(
+                                // REPLACE: advert /ˈædvɜːrt/
+                                "en-US"),
                           ),
                         ],
                       ),

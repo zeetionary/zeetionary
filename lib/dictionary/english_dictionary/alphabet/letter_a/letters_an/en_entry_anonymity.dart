@@ -158,35 +158,15 @@ class EnglishEntryanonymity extends StatelessWidget {
                               text:
                                   "١. (ناو) باری نەناسراوی‌بوون بۆ زۆرینەی کەسانی تر"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Names of people in the book were changed to preserve anonymity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوەکانی ناو کتێبەکە گۆڕدران بۆ ھێشتنەوەی بێ‌ناوی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanonymity1038("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanonymity1038(
-                                        // REPLACE: anonymity /ˌænəˈnɪməti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Names of people in the book were changed to preserve anonymity.",
+                            kurdishText:
+                                "ناوەکانی ناو کتێبەکە گۆڕدران بۆ ھێشتنەوەی بێ‌ناوی.",
+                            onPressedBritish: () => speakanonymity1038("en-GB"),
+                            onPressedAmerican: () => speakanonymity1038(
+                                // REPLACE: anonymity /ˌænəˈnɪməti/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

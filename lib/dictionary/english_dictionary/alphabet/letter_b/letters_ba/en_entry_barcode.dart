@@ -152,34 +152,15 @@ class EnglishEntrybarcode extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) نەخشێکی ھێڵی باریک و ئەستوور کە لەسەر شت دادەنرێت کە دەیکڕیت. نەخشەکە زانیاری لەخۆدەگرێت کە کۆمپیوتەر دەتوانێت بیخوێنێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A handheld scanner is used to read bar codes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سکانەرێکی دەستی بەکاردێت بۆ خوێندنەوەی بارکۆد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarcodes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarcodes1(// REPLACE: barcode
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A handheld scanner is used to read bar codes.",
+                            kurdishText:
+                                "سکانەرێکی دەستی بەکاردێت بۆ خوێندنەوەی بارکۆد.",
+                            onPressedBritish: () => speakbarcodes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarcodes1(// REPLACE: barcode
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

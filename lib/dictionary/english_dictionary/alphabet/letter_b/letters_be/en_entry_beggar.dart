@@ -150,93 +150,33 @@ class EnglishEntrybeggar extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە لەسەر شەقامەکان داوای پارە و شت دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rich man waved the beggar away."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوە دەوڵەمەندەکە دەستی ڕاوەشاند بۆ سواڵکەرەکە کە دووربکەوێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeggars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeggars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The rich man waved the beggar away.",
+                            kurdishText:
+                                "پیاوە دەوڵەمەندەکە دەستی ڕاوەشاند بۆ سواڵکەرەکە کە دووربکەوێتەوە.",
+                            onPressedBritish: () => speakbeggars1("en-GB"),
+                            onPressedAmerican: () => speakbeggars1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بەکاردێت لەگەڵ ھاوەڵناو بۆ باسکردنی کەسێک بەشێوەیەکی تایبەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Aren't you dressed yet, you lazy beggar?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا خۆت نەپۆشیوە، تەمەڵی تەوەزەل؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeggars2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeggars2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Aren't you dressed yet, you lazy beggar?",
+                            kurdishText: "ھێشتا خۆت نەپۆشیوە، تەمەڵی تەوەزەل؟",
+                            onPressedBritish: () => speakbeggars2("en-GB"),
+                            onPressedAmerican: () => speakbeggars2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) وا لە کەسێک بکەیت زۆر ھەژار بێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Why should I beggar myself for you?"),
-                                    ExampleSentenceKurdish(
-                                        text: "بۆچی خۆم نەدار بکەم بۆ تۆ؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeggars3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeggars3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Why should I beggar myself for you?",
+                            kurdishText: "بۆچی خۆم نەدار بکەم بۆ تۆ؟",
+                            onPressedBritish: () => speakbeggars3("en-GB"),
+                            onPressedAmerican: () => speakbeggars3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

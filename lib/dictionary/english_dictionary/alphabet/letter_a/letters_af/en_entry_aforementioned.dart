@@ -116,34 +116,15 @@ class EnglishEntryaforementioned extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) کەسێک/شتێک کە پێشتر باسکراوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The aforementioned person was seen acting suspiciously."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوبراو بینرا کە بە گومانەوە ڕەفتاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaforemen96("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaforemen96(
-                                        // REPLACE: aforementioned /əˈfɔːmenʃənd/, /əˌfɔːˈmenʃənd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The aforementioned person was seen acting suspiciously.",
+                            kurdishText:
+                                "ناوبراو بینرا کە بە گومانەوە ڕەفتاری دەکرد.",
+                            onPressedBritish: () => speakaforemen96("en-GB"),
+                            onPressedAmerican: () => speakaforemen96(
+                                // REPLACE: aforementioned /əˈfɔːmenʃənd/, /əˌfɔːˈmenʃənd/
+                                "en-US"),
                           ),
                         ],
                       ),

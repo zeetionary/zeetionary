@@ -148,90 +148,31 @@ class EnglishEntrybloodily extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بەشێوەیەک کە توندوتیژی و کووشتنی زۆر لە خۆدەگرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The uprising was bloodily suppressed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرھەڵدانەکە دڕندانە سەرکوتکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodilys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodilys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The uprising was bloodily suppressed.",
+                            kurdishText: "سەرھەڵدانەکە دڕندانە سەرکوتکرا.",
+                            onPressedBritish: () => speakbloodilys1("en-GB"),
+                            onPressedAmerican: () => speakbloodilys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The war raged bloodily on."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەنگەکە دڕندانە بەردەوامی کێشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodilys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodilys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The war raged bloodily on.",
+                            kurdishText: "جەنگەکە دڕندانە بەردەوامی کێشا.",
+                            onPressedBritish: () => speakbloodilys2("en-GB"),
+                            onPressedAmerican: () => speakbloodilys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە خوێنی زۆر لەخۆدەگرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Protestors collided bloodily with police."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆپیشاندەران بەخوێناوییانە لەگەڵ پۆلیس تێکئاڵان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodilys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodilys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Protestors collided bloodily with police.",
+                            kurdishText:
+                                "خۆپیشاندەران بەخوێناوییانە لەگەڵ پۆلیس تێکئاڵان.",
+                            onPressedBritish: () => speakbloodilys3("en-GB"),
+                            onPressedAmerican: () => speakbloodilys3("en-US"),
                           ),
                         ],
                       ),

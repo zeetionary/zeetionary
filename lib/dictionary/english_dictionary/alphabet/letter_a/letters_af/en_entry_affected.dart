@@ -113,66 +113,28 @@ class EnglishEntryaffected extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) کاریگەربوون بە شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't worry about the rule changes—you're not affected."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیگەران مەبە سەبارەت بە گۆڕانی یاساکان، تۆ کاریگەر نابیت پێیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffec357("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffec357(
-                                        // REPLACE: affected /əˈfektɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Don't worry about the rule changes—you're not affected.",
+                            kurdishText:
+                                "نیگەران مەبە سەبارەت بە گۆڕانی یاساکان، تۆ کاریگەر نابیت پێیان.",
+                            onPressedBritish: () => speakaffec357("en-GB"),
+                            onPressedAmerican: () => speakaffec357(
+                                // REPLACE: affected /əˈfektɪd/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) نا سرووشتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don’t use such strange words—it makes you sound affected."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وشەی وا نامۆ بەکارمەھێنە، وای دەردەخات کە نواندن دەکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffec3618("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffec3618(
-                                        // REPLACE: affected /əˈfektɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Don’t use such strange words—it makes you sound affected.",
+                            kurdishText:
+                                "وشەی وا نامۆ بەکارمەھێنە، وای دەردەخات کە نواندن دەکەیت.",
+                            onPressedBritish: () => speakaffec3618("en-GB"),
+                            onPressedAmerican: () => speakaffec3618(
+                                // REPLACE: affected /əˈfektɪd/
+                                "en-US"),
                           ),
                         ],
                       ),

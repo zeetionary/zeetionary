@@ -154,34 +154,14 @@ class EnglishEntryangler extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە ماسی دەگرێت بۆ خۆشی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The angler reeled in and went home."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماسیگرەکە قولابەکەیی کۆکردەوە و چووەوە ماڵەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangler402("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangler402(
-                                        // REPLACE: angler /ˈæŋɡlər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The angler reeled in and went home.",
+                            kurdishText:
+                                "ماسیگرەکە قولابەکەیی کۆکردەوە و چووەوە ماڵەوە.",
+                            onPressedBritish: () => speakangler402("en-GB"),
+                            onPressedAmerican: () => speakangler402(
+                                // REPLACE: angler /ˈæŋɡlər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

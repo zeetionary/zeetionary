@@ -156,34 +156,15 @@ class EnglishEntryantonym extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) وشەیەک کە واتاکەی پێچەوانەی واتای وشەیەکی ترە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A dictionary of antonyms is a helpful tool for understanding opposites in a language."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فەرھەنگی دژواتاکان ئامرازێکی یارمەتیدەرە بۆ تێگەشتن لە دژواتاکان لە زمانێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantonym144("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantonym144(
-                                        // REPLACE: antonym /ˈæntənɪm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A dictionary of antonyms is a helpful tool for understanding opposites in a language.",
+                            kurdishText:
+                                "فەرھەنگی دژواتاکان ئامرازێکی یارمەتیدەرە بۆ تێگەشتن لە دژواتاکان لە زمانێکدا.",
+                            onPressedBritish: () => speakantonym144("en-GB"),
+                            onPressedAmerican: () => speakantonym144(
+                                // REPLACE: antonym /ˈæntənɪm/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

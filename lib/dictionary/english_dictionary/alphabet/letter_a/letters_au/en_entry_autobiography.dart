@@ -167,35 +167,16 @@ class EnglishEntryautobiography extends StatelessWidget {
                               text:
                                   "١. (ناو) کتێبی ژیاننامەی کەسێک کە لەلایەن خۆیەوە نووسراوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In his autobiography, he recalls the poverty he grew up in."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە خۆژین‌نامەکەیدا ئەو ساتانەی ھەژاریدا وەبیرێنێتەوە کە تێیدا گەورەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautobiography901("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakautobiography901(
-                                        // REPLACE: autobiography
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In his autobiography, he recalls the poverty he grew up in.",
+                            kurdishText:
+                                "لە خۆژین‌نامەکەیدا ئەو ساتانەی ھەژاریدا وەبیرێنێتەوە کە تێیدا گەورەبوو.",
+                            onPressedBritish: () =>
+                                speakautobiography901("en-GB"),
+                            onPressedAmerican: () => speakautobiography901(
+                                // REPLACE: autobiography
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

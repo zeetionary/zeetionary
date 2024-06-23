@@ -108,33 +108,13 @@ class EnglishEntryadore extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) خۆشویستنی زۆری کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's obvious that she adores him."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئاشکرایە کە ئەڤینداریەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadore45821("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadore45821(
-                                        // REPLACE: adore /əˈdɔːr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's obvious that she adores him.",
+                            kurdishText: "ئاشکرایە کە ئەڤینداریەتی.",
+                            onPressedBritish: () => speakadore45821("en-GB"),
+                            onPressedAmerican: () => speakadore45821(
+                                // REPLACE: adore /əˈdɔːr/
+                                "en-US"),
                           ),
                         ],
                       ),

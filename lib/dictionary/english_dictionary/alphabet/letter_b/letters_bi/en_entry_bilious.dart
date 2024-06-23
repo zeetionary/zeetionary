@@ -151,93 +151,35 @@ class EnglishEntrybilious extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) ھەست بکەیت کە دەڕشێیتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I felt a little bilious after last night’s dinner."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک ھەستم بە ڕشانەوە دەکرد لە دوای نانی ئێوارەی دوێنێ شەو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiliouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiliouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I felt a little bilious after last night’s dinner.",
+                            kurdishText:
+                                "ھەندێک ھەستم بە ڕشانەوە دەکرد لە دوای نانی ئێوارەی دوێنێ شەو.",
+                            onPressedBritish: () => speakbiliouss1("en-GB"),
+                            onPressedAmerican: () => speakbiliouss1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) زۆر ناشرین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His shirt was a bilious shade of green."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلەکەی ڕەنگێکی سەوزی ناشرین بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiliouss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiliouss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His shirt was a bilious shade of green.",
+                            kurdishText: "جلەکەی ڕەنگێکی سەوزی ناشرین بوو.",
+                            onPressedBritish: () => speakbiliouss2("en-GB"),
+                            onPressedAmerican: () => speakbiliouss2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He woke up feeling bilious."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە خەو ھەستا و ھەستی بە تووڕەیی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiliouss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiliouss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He woke up feeling bilious.",
+                            kurdishText:
+                                "لە خەو ھەستا و ھەستی بە تووڕەیی دەکرد.",
+                            onPressedBritish: () => speakbiliouss3("en-GB"),
+                            onPressedAmerican: () => speakbiliouss3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

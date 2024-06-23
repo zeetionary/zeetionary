@@ -161,34 +161,15 @@ class EnglishEntryattache extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە لە بوارێکی تایبەتدا لە باڵیۆزخانەیەک کاردەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The commercial attaché was tasked with promoting trade between the two countries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسە بازرگانییەکە ڕاسپێردرا بە بەھێزکردنی بازرگانی نێوان ھەردوو وڵات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattache432("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattache432(// REPLACE: attaché
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The commercial attaché was tasked with promoting trade between the two countries.",
+                            kurdishText:
+                                "بەرپرسە بازرگانییەکە ڕاسپێردرا بە بەھێزکردنی بازرگانی نێوان ھەردوو وڵات.",
+                            onPressedBritish: () => speakattache432("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattache432(// REPLACE: attaché
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

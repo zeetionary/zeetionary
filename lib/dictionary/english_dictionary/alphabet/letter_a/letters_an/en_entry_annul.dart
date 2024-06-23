@@ -153,34 +153,15 @@ class EnglishEntryannul extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بەفەرمی وتنی ئەوەی شتێک لەڕووی یاساییەوە نەناسراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their marriage was annulled after just six months."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوسەرگیرییەکەیان ھەڵوەشێندرایەوە لە دوای تەنھا شەش مانگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannul859("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakannul859(// REPLACE: annul /əˈnʌl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their marriage was annulled after just six months.",
+                            kurdishText:
+                                "ھاوسەرگیرییەکەیان ھەڵوەشێندرایەوە لە دوای تەنھا شەش مانگ.",
+                            onPressedBritish: () => speakannul859("en-GB"),
+                            onPressedAmerican: () =>
+                                speakannul859(// REPLACE: annul /əˈnʌl/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

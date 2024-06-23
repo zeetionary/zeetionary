@@ -144,62 +144,23 @@ class EnglishEntryblare extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) دەرکردنی دەنگێکی ناخۆش و بەرز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Music blared out from the open window."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوزیک تڵپەتڵپی بوو لە پەنجەرە کراوەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblares1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblares1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Music blared out from the open window.",
+                            kurdishText:
+                                "میوزیک تڵپەتڵپی بوو لە پەنجەرە کراوەکەوە.",
+                            onPressedBritish: () => speakblares1("en-GB"),
+                            onPressedAmerican: () => speakblares1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) دەنگێکی بەرز و ناخۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The siren’s blare was deafening."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگی بەرزی زەنگە ئاگادارکەرەوەکە گوێ‌دڕ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblares2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblares2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The siren’s blare was deafening.",
+                            kurdishText:
+                                "دەنگی بەرزی زەنگە ئاگادارکەرەوەکە گوێ‌دڕ بوو.",
+                            onPressedBritish: () => speakblares2("en-GB"),
+                            onPressedAmerican: () => speakblares2("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

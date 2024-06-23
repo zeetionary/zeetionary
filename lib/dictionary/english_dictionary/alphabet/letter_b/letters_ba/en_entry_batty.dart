@@ -150,32 +150,13 @@ class EnglishEntrybatty extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) تۆزێک شێتانە، بەشێوەیەک کە زیانی نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has some batty ideas, but she's quite sweet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک بیرۆکەی شێتانەی ھەبوو، بەڵام تەواو کەسێکی شیرینە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbattys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbattys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has some batty ideas, but she's quite sweet.",
+                            kurdishText:
+                                "ھەندێک بیرۆکەی شێتانەی ھەبوو، بەڵام تەواو کەسێکی شیرینە.",
+                            onPressedBritish: () => speakbattys1("en-GB"),
+                            onPressedAmerican: () => speakbattys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

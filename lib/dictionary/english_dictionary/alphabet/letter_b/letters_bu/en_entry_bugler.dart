@@ -144,32 +144,12 @@ class EnglishEntrybugler extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە زوڕنایەک لێدەدات کە لەلایەن سوپاوە بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A bugler sounded the wake-up call."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەیپوورژەنێک زوڕنای لە خەوھەستانی لێدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "bugler", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuglers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuglers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A bugler sounded the wake-up call.",
+                            kurdishText:
+                                "شەیپوورژەنێک زوڕنای لە خەوھەستانی لێدا.", // bugler", follow LX strictly
+                            onPressedBritish: () => speakbuglers1("en-GB"),
+                            onPressedAmerican: () => speakbuglers1("en-US"),
                           ),
                         ],
                       ),

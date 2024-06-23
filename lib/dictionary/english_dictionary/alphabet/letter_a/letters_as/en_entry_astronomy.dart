@@ -164,34 +164,15 @@ class EnglishEntryastronomy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) زانستی لێکۆڵینەوە لە خۆر و مانگ و ھەسارە و ئەستێرەکان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Astronomy is one of the oldest sciences."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەستێرەناسی یەکێکە لە کۆنترین زانستەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakastronomy456("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakastronomy456(// REPLACE: astronomy
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Astronomy is one of the oldest sciences.",
+                            kurdishText:
+                                "ئەستێرەناسی یەکێکە لە کۆنترین زانستەکان.",
+                            onPressedBritish: () => speakastronomy456("en-GB"),
+                            onPressedAmerican: () =>
+                                speakastronomy456(// REPLACE: astronomy
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

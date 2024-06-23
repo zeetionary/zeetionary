@@ -129,150 +129,54 @@ class EnglishEntryabsolute extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) بە تەواوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've joined a class for absolute beginners."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشداری وانەیەکم کردووە کە بۆ ئاستی تەواو سەرەتایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka6254("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka6254("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've joined a class for absolute beginners.",
+                            kurdishText:
+                                "بەشداری وانەیەکم کردووە کە بۆ ئاستی تەواو سەرەتایە.",
+                            onPressedBritish: () => speaka6254("en-GB"),
+                            onPressedAmerican: () => speaka6254("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Clean water is an absolute necessity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاوی پاک پێویستییەکی تەواو سەرەتایییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2569("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2569("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Clean water is an absolute necessity.",
+                            kurdishText:
+                                "ئاوی پاک پێویستییەکی تەواو سەرەتایییە.",
+                            onPressedBritish: () => speaka2569("en-GB"),
+                            onPressedAmerican: () => speaka2569("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We must keep costs to an absolute minimum."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت نرخەکان بە ئەوپەڕی نزمی بھێڵینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka7415("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka7415("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We must keep costs to an absolute minimum.",
+                            kurdishText:
+                                "دەبێت نرخەکان بە ئەوپەڕی نزمی بھێڵینەوە.",
+                            onPressedBritish: () => speaka7415("en-GB"),
+                            onPressedAmerican: () => speaka7415("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) نەگۆڕ بەبێ ئەوەی گومانی لەسەر بێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He taught us that the laws of physics were absolute."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فێری کردین کە یاساکانی فیزیا نەگۆڕن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka6587("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka6587("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He taught us that the laws of physics were absolute.",
+                            kurdishText: "فێری کردین کە یاساکانی فیزیا نەگۆڕن.",
+                            onPressedBritish: () => speaka6587("en-GB"),
+                            onPressedAmerican: () => speaka6587("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) گەشتن بە کۆتایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The divorce became absolute last week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جیابوونەوەکەیان ھەفتەی ڕابردوو گەشت بە کۆتایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakab2541("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakab2541("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The divorce became absolute last week.",
+                            kurdishText:
+                                "جیابوونەوەکەیان ھەفتەی ڕابردوو گەشت بە کۆتایی.",
+                            onPressedBritish: () => speakab2541("en-GB"),
+                            onPressedAmerican: () => speakab2541("en-US"),
                           ),
                         ],
                       ),

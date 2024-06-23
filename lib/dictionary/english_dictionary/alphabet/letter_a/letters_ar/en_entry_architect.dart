@@ -160,34 +160,15 @@ class EnglishEntryarchitect extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە دیزاینی بینا دەکات" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The house was designed by architect Louis Kahn."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووەکە لەلایەن بیناساز لویس کاھن دیزاین کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarchitect407("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarchitect407(
-                                        // REPLACE: architect /ˈɑːrkɪtekt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The house was designed by architect Louis Kahn.",
+                            kurdishText:
+                                "خانووەکە لەلایەن بیناساز لویس کاھن دیزاین کرا.",
+                            onPressedBritish: () => speakarchitect407("en-GB"),
+                            onPressedAmerican: () => speakarchitect407(
+                                // REPLACE: architect /ˈɑːrkɪtekt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

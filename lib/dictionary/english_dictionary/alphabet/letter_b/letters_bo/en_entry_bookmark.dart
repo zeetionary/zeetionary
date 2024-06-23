@@ -150,94 +150,35 @@ class EnglishEntrybookmark extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پارچە پاڕەیەکی درێژ و باریک کە دەیخەیتە نێوان پەڕەکانی کتێبێک کە دەوەستیت لە خوێندن بۆ ئەوەی دواتر بە ئاسانی شوێنەکە بدۆزیتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bookstore gave away free bookmarks with each purchase."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێب‌فرۆشەکە جێدۆزی بێبەرامبەری لەگەڵ ھەر کڕینێکدا دەبەخشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookmarks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookmarks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bookstore gave away free bookmarks with each purchase.",
+                            kurdishText:
+                                "کتێب‌فرۆشەکە جێدۆزی بێبەرامبەری لەگەڵ ھەر کڕینێکدا دەبەخشی.",
+                            onPressedBritish: () => speakbookmarks1("en-GB"),
+                            onPressedAmerican: () => speakbookmarks1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) تۆماری فایل و پەڕەی سەر ئینتەرنێت کە ڕێگەت پێدەدات دواتر بە ئاسانی بیاندۆزیتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bookmark icon in the browser simplifies navigation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئایکۆنی بوکمارکەکە لەسەر وێبگەڕەکە ھاتووچۆ ئاسان دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookmarks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookmarks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bookmark icon in the browser simplifies navigation.",
+                            kurdishText:
+                                "ئایکۆنی بوکمارکەکە لەسەر وێبگەڕەکە ھاتووچۆ ئاسان دەکات.",
+                            onPressedBritish: () => speakbookmarks2("en-GB"),
+                            onPressedAmerican: () => speakbookmarks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) تۆمارکردنی ناونیشانی فایلێک یان پەڕەیەک لەسەر ئینتەرنێت بۆ ئەوەی دواتر بە ئاسانی بیدۆزیتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you want to bookmark this site?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتەوێت ئەم سایتە بوکمارک بکەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookmarks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookmarks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Do you want to bookmark this site?",
+                            kurdishText: "دەتەوێت ئەم سایتە بوکمارک بکەیت؟",
+                            onPressedBritish: () => speakbookmarks3("en-GB"),
+                            onPressedAmerican: () => speakbookmarks3("en-US"),
                           ),
                         ],
                       ),

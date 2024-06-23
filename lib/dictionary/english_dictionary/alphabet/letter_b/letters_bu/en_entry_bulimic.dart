@@ -142,60 +142,21 @@ class EnglishEntrybulimic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە تووشبووی بولیمیایە (نەخۆشییەک دووبارە و دووبارە خواردنی زۆر دەخوات و دواتر خۆی بەزۆر دەڕیشێنێتەوە) """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She said she was bulimic up to the age of 36."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتی تووشبووی بولیمیا بوو تا تەمەنی ٣٦ ساڵی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "bulimic", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulimics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulimics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She said she was bulimic up to the age of 36.",
+                            kurdishText:
+                                "وتی تووشبووی بولیمیا بوو تا تەمەنی ٣٦ ساڵی.", // bulimic", follow LX strictly
+                            onPressedBritish: () => speakbulimics1("en-GB"),
+                            onPressedAmerican: () => speakbulimics1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many bulimic adults will recover."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆر لە کەسانی پێگەشتووی تووشبووی بولیمیا چاکدەبنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulimics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulimics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Many bulimic adults will recover.",
+                            kurdishText:
+                                "ژمارەیەکی زۆر لە کەسانی پێگەشتووی تووشبووی بولیمیا چاکدەبنەوە.",
+                            onPressedBritish: () => speakbulimics2("en-GB"),
+                            onPressedAmerican: () => speakbulimics2("en-US"),
                           ),
                         ],
                       ),

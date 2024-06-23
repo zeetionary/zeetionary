@@ -150,63 +150,25 @@ class EnglishEntrybottleneck extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەشێکی تەسک یان باریکی ڕێگایەک کە ھاتوچۆ تێیدا خاودەبێتەوە و دەوەستێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He drove around the outside of the town to avoid the bottleneck in the centre."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە دەرەوەی شارەکەدا ڕۆشت بۆ ئەوەی لە تەسکەڕێی ناوەندەکە دووربێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottlenecks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottlenecks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He drove around the outside of the town to avoid the bottleneck in the centre.",
+                            kurdishText:
+                                "بە دەرەوەی شارەکەدا ڕۆشت بۆ ئەوەی لە تەسکەڕێی ناوەندەکە دووربێت.",
+                            onPressedBritish: () => speakbottlenecks1("en-GB"),
+                            onPressedAmerican: () => speakbottlenecks1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھەرشتێک کە بەرەوپێشچوون یان گەشەسەندن خاوبکاتەوە، بەتایبەتی لە بازرگانی و پیشەسازیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Is there any way of getting around this bureaucratic bottleneck?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ ڕێگایەک ھەیە ئەم بەربەستە کارگێڕییە تێپەڕێنین؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottlenecks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottlenecks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Is there any way of getting around this bureaucratic bottleneck?",
+                            kurdishText:
+                                "ھیچ ڕێگایەک ھەیە ئەم بەربەستە کارگێڕییە تێپەڕێنین؟",
+                            onPressedBritish: () => speakbottlenecks2("en-GB"),
+                            onPressedAmerican: () => speakbottlenecks2("en-US"),
                           ),
                         ],
                       ),

@@ -158,34 +158,15 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخی بێ پارەیی بۆ دانەوەی ئەوەی قەرزاری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There could be further bankruptcies among small farmers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەری ھەیە مایەپووچبوونی زیاتر ڕووبدات لەناو جوتیارە کەمدەرامەتەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbankruptcys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbankruptcys1(// REPLACE: bankruptcy
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There could be further bankruptcies among small farmers.",
+                            kurdishText:
+                                "ئەگەری ھەیە مایەپووچبوونی زیاتر ڕووبدات لەناو جوتیارە کەمدەرامەتەکاندا.",
+                            onPressedBritish: () => speakbankruptcys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbankruptcys1(// REPLACE: bankruptcy
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

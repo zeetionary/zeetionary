@@ -157,67 +157,28 @@ class EnglishEntrybachelor extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پیاوێک کە ھیچ کات ھاوسەرگیری نەکردووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was 38, and a confirmed bachelor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەمەنی ٣٨ ساڵ بوو ھیچ ھاوسەرگیری نەکردبوو (و ناشیەوێت)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka3s1(// REPLACE: bachelor
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was 38, and a confirmed bachelor.",
+                            kurdishText:
+                                "تەمەنی ٣٨ ساڵ بوو ھیچ ھاوسەرگیری نەکردبوو (و ناشیەوێت).",
+                            onPressedBritish: () => speaka3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka3s1(// REPLACE: bachelor
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە بڕوانامەی بەکالۆریۆسی ھەیە (یەکەم بڕوانامەی زانکۆ)، یان بڕوانامەکە خۆی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bachelor of arts graduate was eager to start her career."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوەی دەرچووی بەکالۆریۆس لە ھونەر بوو بەپەرۆش بوو کارەکەی دەستپێ‌بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka3s2(// REPLACE: bachelor
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bachelor of arts graduate was eager to start her career.",
+                            kurdishText:
+                                "ئەوەی دەرچووی بەکالۆریۆس لە ھونەر بوو بەپەرۆش بوو کارەکەی دەستپێ‌بکات.",
+                            onPressedBritish: () => speaka3s2("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka3s2(// REPLACE: bachelor
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

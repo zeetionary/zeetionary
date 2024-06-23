@@ -156,35 +156,14 @@ class EnglishEntrybadlanguage extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) زمانی ناشرین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's far too much bad language on television."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قسەی پیس لەسەر تەلەفیزیۆن زۆرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbadlanguages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbadlanguages1(
-                                        // REPLACE: bad language
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's far too much bad language on television.",
+                            kurdishText: "قسەی پیس لەسەر تەلەفیزیۆن زۆرە.",
+                            onPressedBritish: () => speakbadlanguages1("en-GB"),
+                            onPressedAmerican: () => speakbadlanguages1(
+                                // REPLACE: bad language
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

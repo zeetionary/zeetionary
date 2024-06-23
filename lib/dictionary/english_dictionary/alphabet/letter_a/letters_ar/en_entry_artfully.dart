@@ -164,67 +164,29 @@ class EnglishEntryartfully extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵکار) بەشێوەیەکی زیرەکانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In our conversation, he was artfully vague about his plans."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە گفتوگۆکەماندا بەشێوەیەکی زیرەکانە ناڕوون بوو سەبارەت بە پلانەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakartfully441("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartfully441(
-                                        // REPLACE: artfully /ˈɑːrtfəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In our conversation, he was artfully vague about his plans.",
+                            kurdishText:
+                                "لە گفتوگۆکەماندا بەشێوەیەکی زیرەکانە ناڕوون بوو سەبارەت بە پلانەکانی.",
+                            onPressedBritish: () => speakartfully441("en-GB"),
+                            onPressedAmerican: () => speakartfully441(
+                                // REPLACE: artfully /ˈɑːrtfəli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەشێوەیەکی زیرەکانە و وتنی درۆ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She opened her right hand but artfully concealed the key in her left hand."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی ڕاستی کردەوە بەڵام زۆڵانە کلیلەکەی لە دەستی چەپی شاردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakartfully443("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartfully443(
-                                        // REPLACE: artfully /ˈɑːrtfəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She opened her right hand but artfully concealed the key in her left hand.",
+                            kurdishText:
+                                "دەستی ڕاستی کردەوە بەڵام زۆڵانە کلیلەکەی لە دەستی چەپی شاردەوە.",
+                            onPressedBritish: () => speakartfully443("en-GB"),
+                            onPressedAmerican: () => speakartfully443(
+                                // REPLACE: artfully /ˈɑːrtfəli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

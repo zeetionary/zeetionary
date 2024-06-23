@@ -147,94 +147,37 @@ class EnglishEntrybulletin extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کورتە ھەواڵ لەسەر ڕادیۆ یان تەلەفیزیۆن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The story led the television news bulletins that evening."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەواڵەکە ئەو شەوە سەردێڕی کورتە ھەواڵی تەلەفیزیۆنی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulletin", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulletins1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulletins1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The story led the television news bulletins that evening.",
+                            kurdishText:
+                                "ھەواڵەکە ئەو شەوە سەردێڕی کورتە ھەواڵی تەلەفیزیۆنی بوو.", // bulletin", follow LX strictly
+                            onPressedBritish: () => speakbulletins1("en-GB"),
+                            onPressedAmerican: () => speakbulletins1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەیاننامەیەکی فەرمی لەسەر شتێکی گرنگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government will issue an official bulletin later this week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت بەیاننامەیەکی فەرمی دەردەکات دواتر لەم ھەفتەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulletins2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulletins2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government will issue an official bulletin later this week.",
+                            kurdishText:
+                                "حکومەت بەیاننامەیەکی فەرمی دەردەکات دواتر لەم ھەفتەدا.",
+                            onPressedBritish: () => speakbulletins2("en-GB"),
+                            onPressedAmerican: () => speakbulletins2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ڕاپۆرتێکی نووسراو کە ھەواڵ دەدات لەسەر دامەزراوەیەک یان فرووپێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "More details will be given in our next news bulletin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وردەکاریی زیاتر دەدرێت لە ڕاپۆرتی ھەواڵیی دواترماندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulletins3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulletins3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "More details will be given in our next news bulletin.",
+                            kurdishText:
+                                "وردەکاریی زیاتر دەدرێت لە ڕاپۆرتی ھەواڵیی دواترماندا.",
+                            onPressedBritish: () => speakbulletins3("en-GB"),
+                            onPressedAmerican: () => speakbulletins3("en-US"),
                           ),
                         ],
                       ),

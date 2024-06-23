@@ -148,128 +148,52 @@ class EnglishEntryaffair extends StatelessWidget {
                               text:
                                   "١. (ناو) ئەو بابەتانەی کە خەڵکی گرنگیان پێدەدات، یان مژاری سیاسی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's always interfering in (= trying to influence) other people's affairs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە خۆی لە کاری خەڵکی تر ھەڵدەقورتێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaff25941("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaff25941(
-                                        // REPLACE: affair /əˈfeər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's always interfering in (= trying to influence) other people's affairs.",
+                            kurdishText:
+                                "ھەمیشە خۆی لە کاری خەڵکی تر ھەڵدەقورتێنێت.",
+                            onPressedBritish: () => speakaff25941("en-GB"),
+                            onPressedAmerican: () => speakaff25941(
+                                // REPLACE: affair /əˈfeər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As a leader, he's been criticized for his inexperience in foreign affairs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک سەرکردەیەک، ڕەخنەی لێ گیردرا بۆ بێ ئەزموونیی لە کارووباری دەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffa35228("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffa35228(
-                                        // REPLACE: affair /əˈfeər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As a leader, he's been criticized for his inexperience in foreign affairs.",
+                            kurdishText:
+                                "وەک سەرکردەیەک، ڕەخنەی لێ گیردرا بۆ بێ ئەزموونیی لە کارووباری دەرەوە.",
+                            onPressedBritish: () => speakaffa35228("en-GB"),
+                            onPressedAmerican: () => speakaffa35228(
+                                // REPLACE: affair /əˈfeər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕووداوێک کە خەڵکی قسەی لەسەر دەکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The newspapers exaggerated the whole affair wildly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژنامەکان تەواوی ڕووداوەکەی زۆر گەورە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffa25677("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffa25677(
-                                        // REPLACE: affair /əˈfeər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The newspapers exaggerated the whole affair wildly.",
+                            kurdishText:
+                                "ڕۆژنامەکان تەواوی ڕووداوەکەی زۆر گەورە کرد.",
+                            onPressedBritish: () => speakaffa25677("en-GB"),
+                            onPressedAmerican: () => speakaffa25677(
+                                // REPLACE: affair /əˈfeər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) پەیوەندی سێکسی نێوان دوو کەس، زۆرجار لە کاتێکدا یەکێک یان ھەردووکیان لە پەیوەندین لەگەڵ کەسێکی تردا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was having an affair with a co-worker."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندی سێکسی ھەبوو لەگەڵ ھاوپیشەیەکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffa2411("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffa2411(
-                                        // REPLACE: affair /əˈfeər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was having an affair with a co-worker.",
+                            kurdishText:
+                                "پەیوەندی سێکسی ھەبوو لەگەڵ ھاوپیشەیەکی.",
+                            onPressedBritish: () => speakaffa2411("en-GB"),
+                            onPressedAmerican: () => speakaffa2411(
+                                // REPLACE: affair /əˈfeər/
+                                "en-US"),
                           ),
                         ],
                       ),

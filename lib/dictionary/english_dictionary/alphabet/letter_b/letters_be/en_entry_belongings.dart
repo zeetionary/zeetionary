@@ -150,32 +150,13 @@ class EnglishEntrybelongings extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو شتانەی کە ھەتن و دەکرێت بگوێزرێنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She packed her few belongings in a bag and left."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەلوپەلە کەمەکانی لە جانتایەکدا کۆکردەوە و ڕۆشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelongingss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelongingss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She packed her few belongings in a bag and left.",
+                            kurdishText:
+                                "کەلوپەلە کەمەکانی لە جانتایەکدا کۆکردەوە و ڕۆشت.",
+                            onPressedBritish: () => speakbelongingss1("en-GB"),
+                            onPressedAmerican: () => speakbelongingss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

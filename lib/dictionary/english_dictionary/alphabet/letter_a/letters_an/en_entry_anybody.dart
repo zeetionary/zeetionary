@@ -191,179 +191,62 @@ class EnglishEntryanybody extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (جێناو) لە ڕستەی پرسیاری و نەرێ لە دوای if و whether بەکاردێ، و لە دوای ھەندێ کردار، بۆ نموونە prevent و forbid و avoid"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Is there anybody who can help me?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کەس ھەیە بتوانێ یارمەتیم بدا؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanybody1055("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanybody1055("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Is there anybody who can help me?",
+                            kurdishText: "کەس ھەیە بتوانێ یارمەتیم بدا؟",
+                            onPressedBritish: () => speakanybody1055("en-GB"),
+                            onPressedAmerican: () => speakanybody1055("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Does anybody else want to come?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کەسی تر دەیەوێت بێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanybody926("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanybody926("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Does anybody else want to come?",
+                            kurdishText: "کەسی تر دەیەوێت بێت؟",
+                            onPressedBritish: () => speakanybody926("en-GB"),
+                            onPressedAmerican: () => speakanybody926("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I forbid anybody to touch that clock."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگە بە کەس نادەم دەست لەو کاتژمێرە بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanybody927("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanybody927("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I forbid anybody to touch that clock.",
+                            kurdishText:
+                                "ڕێگە بە کەس نادەم دەست لەو کاتژمێرە بدات.",
+                            onPressedBritish: () => speakanybody927("en-GB"),
+                            onPressedAmerican: () => speakanybody927("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (جێناو) ھەرکەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Anybody could dress well with all that money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمووکەس دەیتوانی بە باشی خۆی بپۆشێ بەو ھەموو پارەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanybody1059("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanybody1059(
-                                        // REPLACE: anybody /ˈenibɑːdi/, /ˈenibʌdi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Anybody could dress well with all that money.",
+                            kurdishText:
+                                "ھەمووکەس دەیتوانی بە باشی خۆی بپۆشێ بەو ھەموو پارەوە.",
+                            onPressedBritish: () => speakanybody1059("en-GB"),
+                            onPressedAmerican: () => speakanybody1059(
+                                // REPLACE: anybody /ˈenibɑːdi/, /ˈenibʌdi/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Anybody can see that it's wrong."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو کەس دەتوانێ ببینێت ئەوە ھەڵەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanybody929("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanybody929("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Anybody can see that it's wrong.",
+                            kurdishText:
+                                "ھەموو کەس دەتوانێ ببینێت ئەوە ھەڵەیە.",
+                            onPressedBritish: () => speakanybody929("en-GB"),
+                            onPressedAmerican: () => speakanybody929("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (جێناو) لە ڕستەی نەرێدا بە واتای کەسێکی گرنگ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wasn't anybody before she got that job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێکی گرنگ نەبوو پێش وەرگرتنی کارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanybody931("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanybody931("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wasn't anybody before she got that job.",
+                            kurdishText:
+                                "کەسێکی گرنگ نەبوو پێش وەرگرتنی کارەکە.",
+                            onPressedBritish: () => speakanybody931("en-GB"),
+                            onPressedAmerican: () => speakanybody931("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

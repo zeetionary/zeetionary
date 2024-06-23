@@ -165,68 +165,30 @@ class EnglishEntryatmospheric extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) پەیوەندیدار بە بەرگەھەوا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Plants are the main source of atmospheric oxygen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووەکەکان سەرچاوەی سەرەکیی ئۆکسجینی بەرگەھەوان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakatmospheric1140("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakatmospheric1140(
-                                        // REPLACE: atmospheric
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Plants are the main source of atmospheric oxygen.",
+                            kurdishText:
+                                "ڕووەکەکان سەرچاوەی سەرەکیی ئۆکسجینی بەرگەھەوان.",
+                            onPressedBritish: () =>
+                                speakatmospheric1140("en-GB"),
+                            onPressedAmerican: () => speakatmospheric1140(
+                                // REPLACE: atmospheric
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) درووستکردنی کەشێکی خۆش و سەرنجڕاکێش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new restaurant is highly atmospheric."),
-                                    ExampleSentenceKurdish(
-                                        text: "چێشتخانە تازەکە زۆر بزوێنەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakatmospheric1145("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakatmospheric1145(
-                                        // REPLACE: atmospheric
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new restaurant is highly atmospheric.",
+                            kurdishText: "چێشتخانە تازەکە زۆر بزوێنەرە.",
+                            onPressedBritish: () =>
+                                speakatmospheric1145("en-GB"),
+                            onPressedAmerican: () => speakatmospheric1145(
+                                // REPLACE: atmospheric
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

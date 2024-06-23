@@ -193,32 +193,13 @@ class EnglishEntrybumpy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شوێنێک کە تەواو تەخت نییە و چاڵ‌وچۆڵی تێدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The road was getting bumpier and we had to hold on to our seats."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگاکە پڕچاڵ‌وچۆڵ دەبوو و دەبوو دەست بگرین بە کۆشینەکانمانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bumpy", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbumpys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbumpys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The road was getting bumpier and we had to hold on to our seats.",
+                            kurdishText:
+                                "ڕێگاکە پڕچاڵ‌وچۆڵ دەبوو و دەبوو دەست بگرین بە کۆشینەکانمانەوە.", // bumpy", follow LX strictly
+                            onPressedBritish: () => speakbumpys1("en-GB"),
+                            onPressedAmerican: () => speakbumpys1("en-US"),
                           ),
                         ],
                       ),

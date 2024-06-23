@@ -146,66 +146,26 @@ class EnglishEntrybroadcaster extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پێشکەشکاری تەلەفیزیۆن یان ڕادیۆ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is a writer and broadcaster on environmental matters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نووسەر و پێشکەشکارە لەسەر بابەتە ژینگەییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broadcaster" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbroadcasters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbroadcasters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is a writer and broadcaster on environmental matters.",
+                            kurdishText:
+                                "نووسەر و پێشکەشکارە لەسەر بابەتە ژینگەییەکان.", // broadcaster" as
+                            onPressedBritish: () => speakbroadcasters1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbroadcasters1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کۆمپانیا یان دەزگای پەخش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The BBC is the largest global broadcaster by number of employees with a staff of around 20,000."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بی‌بی‌سی گەورەترین دەزگای پەخشی جیھانە بە ستافێکی نزیکەی ٢٠,٠٠٠ کەسییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbroadcasters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbroadcasters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The BBC is the largest global broadcaster by number of employees with a staff of around 20,000.",
+                            kurdishText:
+                                "بی‌بی‌سی گەورەترین دەزگای پەخشی جیھانە بە ستافێکی نزیکەی ٢٠,٠٠٠ کەسییەوە.",
+                            onPressedBritish: () => speakbroadcasters2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbroadcasters2("en-US"),
                           ),
                         ],
                       ),

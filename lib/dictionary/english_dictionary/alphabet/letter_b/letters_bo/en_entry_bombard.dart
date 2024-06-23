@@ -148,62 +148,24 @@ class EnglishEntrybombard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ھێرشکردنە سەر شوێنێک بە ھاویشتن یان بەردانەوەی بۆمبێکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Madrid was heavily bombarded for several months."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەدرید بۆ چەند مانگێک بە سەختی بۆمباران کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Madrid was heavily bombarded for several months.",
+                            kurdishText:
+                                "مەدرید بۆ چەند مانگێک بە سەختی بۆمباران کرا.",
+                            onPressedBritish: () => speakbombards1("en-GB"),
+                            onPressedAmerican: () => speakbombards1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ئاراستەکردنی ژمارەیەکی زۆر لە پرسیار، ڕەخنە، ھتد لە کەسێک یان پێدانی ڕێژەیەکی زۆر لە زانیاری یان شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have been bombarded with letters of complaint."),
-                                    ExampleSentenceKurdish(
-                                        text: "دراوینەتە بەر نامەی ناڕەزایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombards2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombards2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have been bombarded with letters of complaint.",
+                            kurdishText: "دراوینەتە بەر نامەی ناڕەزایی.",
+                            onPressedBritish: () => speakbombards2("en-GB"),
+                            onPressedAmerican: () => speakbombards2("en-US"),
                           ),
                         ],
                       ),

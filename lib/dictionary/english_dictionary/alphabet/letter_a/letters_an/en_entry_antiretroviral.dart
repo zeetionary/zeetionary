@@ -158,35 +158,16 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) دەرمانێک کە درووست‌کراوە بۆ ڕێگری لە ڤایرۆسی وەک ئێچ-ئای-ڤی کە دەبێتەھۆی ئایدز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Antiretroviral drugs are the only way to treat HIV."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئانتی‌ریترۆڤایرڵ تەنھا ڕێگەی چارەسەری ئایدزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantiretroviral1208("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantiretroviral1208(
-                                        // REPLACE: antiretroviral /ˌæntiˌretrəʊˈvaɪrəl/, /ˌæntaɪˌretrəʊˈvaɪrəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Antiretroviral drugs are the only way to treat HIV.",
+                            kurdishText:
+                                "ئانتی‌ریترۆڤایرڵ تەنھا ڕێگەی چارەسەری ئایدزە.",
+                            onPressedBritish: () =>
+                                speakantiretroviral1208("en-GB"),
+                            onPressedAmerican: () => speakantiretroviral1208(
+                                // REPLACE: antiretroviral /ˌæntiˌretrəʊˈvaɪrəl/, /ˌæntaɪˌretrəʊˈvaɪrəl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

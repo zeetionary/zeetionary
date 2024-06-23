@@ -147,62 +147,24 @@ class EnglishEntrybewitch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) سەرسامکردنی کەسێک بە ئاستێک کە ھۆش و بیری دەبەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was completely bewitched by her beauty."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە تەواوی تاسا بە جوانییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbewitchs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbewitchs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was completely bewitched by her beauty.",
+                            kurdishText: "بە تەواوی تاسا بە جوانییەکەی.",
+                            onPressedBritish: () => speakbewitchs1("en-GB"),
+                            onPressedAmerican: () => speakbewitchs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) جادووکردن لە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The villagers feared the woman's ability to bewitch their livestock."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوندییەکان لە توانای ژنەکە دەترسان کە جادوو لە مەڕوماڵاتیان بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbewitchs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbewitchs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The villagers feared the woman's ability to bewitch their livestock.",
+                            kurdishText:
+                                "گوندییەکان لە توانای ژنەکە دەترسان کە جادوو لە مەڕوماڵاتیان بکات.",
+                            onPressedBritish: () => speakbewitchs2("en-GB"),
+                            onPressedAmerican: () => speakbewitchs2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

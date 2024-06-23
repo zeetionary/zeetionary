@@ -156,100 +156,42 @@ class EnglishEntrybald extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) کەچەڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He started going bald in his twenties."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی بە کەچەڵبوون کرد لە بیستەکانی تەمەنیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalds1(// REPLACE: bald
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He started going bald in his twenties.",
+                            kurdishText:
+                                "دەستی بە کەچەڵبوون کرد لە بیستەکانی تەمەنیدا.",
+                            onPressedBritish: () => speakbalds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalds1(// REPLACE: bald
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بەبێ ئەوەی بە موو داپۆشرابێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our dog has a bald patch on its leg."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگەکەمان خاڵێکی بێ مووی لەسەر لاقی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalds2(// REPLACE: bald
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Our dog has a bald patch on its leg.",
+                            kurdishText:
+                                "سەگەکەمان خاڵێکی بێ مووی لەسەر لاقی ھەیە.",
+                            onPressedBritish: () => speakbalds2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalds2(// REPLACE: bald
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) بەبێ ھیچ ڕوونکردنەوەی زیادە یان وردەکاری بۆ تێگەشتن لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bald fact is that we don't need you any longer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاستییە ئاشکراکە ئەوەیە چیتر پێویستیمان پێتان نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalds3(// REPLACE: bald
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bald fact is that we don't need you any longer.",
+                            kurdishText:
+                                "ڕاستییە ئاشکراکە ئەوەیە چیتر پێویستیمان پێتان نییە.",
+                            onPressedBritish: () => speakbalds3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalds3(// REPLACE: bald
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

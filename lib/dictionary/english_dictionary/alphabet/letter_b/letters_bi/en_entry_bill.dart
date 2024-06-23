@@ -336,393 +336,143 @@ class EnglishEntrybill extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دۆکیومێنت کە پیشانی دەدات چەندە قەرزاری بۆ کەلوپەل و خزمەتگوزاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She always pays her bills on time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو کات پارەی پسوولەکانی لە کاتی خۆیدا دەداتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbills1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbills1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She always pays her bills on time.",
+                            kurdishText:
+                                "ھەموو کات پارەی پسوولەکانی لە کاتی خۆیدا دەداتەوە.",
+                            onPressedBritish: () => speakbills1("en-GB"),
+                            onPressedAmerican: () => speakbills1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bills are piling up (= there are more and more that have still not been paid)."),
-                                    ExampleSentenceKurdish(
-                                        text: "پسوولەکان خەریکە کەڵەکە دەبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbills2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbills2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bills are piling up (= there are more and more that have still not been paid).",
+                            kurdishText: "پسوولەکان خەریکە کەڵەکە دەبن.",
+                            onPressedBritish: () => speakbills2("en-GB"),
+                            onPressedAmerican: () => speakbills2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کاغەزێک لە چێشتخانە کە پیشانی دەدات دەبێت چەند پارە بدەیت بۆ خواردن و خواردنەوە """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The bill came to £120."),
-                                    ExampleSentenceKurdish(
-                                        text: "پسووڵەکە گەشت بە ١٢٠ پاوەند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbills3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbills3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The bill came to £120.",
+                            kurdishText: "پسووڵەکە گەشت بە ١٢٠ پاوەند.",
+                            onPressedBritish: () => speakbills3("en-GB"),
+                            onPressedAmerican: () => speakbills3("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The waiter brought the bill to their table."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گارسۆنەکە پسووڵەکەی ھێنا بۆ سەر مێزەکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbills4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbills4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The waiter brought the bill to their table.",
+                            kurdishText:
+                                "گارسۆنەکە پسووڵەکەی ھێنا بۆ سەر مێزەکەیان.",
+                            onPressedBritish: () => speakbills4("en-GB"),
+                            onPressedAmerican: () => speakbills4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) پارەی کاغەز """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I found a ten-dollar bill on the floor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارەیەکی ١٠ دۆلاریم لەسەر زەوییەکە دۆزییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbills5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbills5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I found a ten-dollar bill on the floor.",
+                            kurdishText:
+                                "پارەیەکی ١٠ دۆلاریم لەسەر زەوییەکە دۆزییەوە.",
+                            onPressedBritish: () => speakbills5("en-GB"),
+                            onPressedAmerican: () => speakbills5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) پڕۆژە یاسایەک کە پێشکەشی پەرلەمان دەکرێت بۆ ئەوەی گەنگەشە بکرێت کە ئاخۆ بکرێت بە یاسا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Congress passed the energy bill last month."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆنگرێس پڕۆژە یاسای وزەی مانگی ڕابردوو پەسەندکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbills6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbills6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Congress passed the energy bill last month.",
+                            kurdishText:
+                                "کۆنگرێس پڕۆژە یاسای وزەی مانگی ڕابردوو پەسەندکرد.",
+                            onPressedBritish: () => speakbills6("en-GB"),
+                            onPressedAmerican: () => speakbills6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) نمایشێک لە شانۆ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were lots of big names (= famous people) on the bill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک کەسی بەناوبانگ نمایشیان ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbills7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbills7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were lots of big names (= famous people) on the bill.",
+                            kurdishText:
+                                "ژمارەیەک کەسی بەناوبانگ نمایشیان ھەبوو.",
+                            onPressedBritish: () => speakbills7("en-GB"),
+                            onPressedAmerican: () => speakbills7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ناو) پۆستەرێکی ڕیکلام"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They prohibitted sticking any bills to the walls of the building."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لکاندنی ھەموو پۆستەرێکیان قەدەغەکردبوو بە لەسەر دیوارەکانی بیناکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbills8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbills8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They prohibitted sticking any bills to the walls of the building.",
+                            kurdishText:
+                                "لکاندنی ھەموو پۆستەرێکیان قەدەغەکردبوو بە لەسەر دیوارەکانی بیناکە.",
+                            onPressedBritish: () => speakbills8("en-GB"),
+                            onPressedAmerican: () => speakbills8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ناو) دەنووکی باڵندە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hawk used its sharp bill to tear at its prey."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵۆکە دەنووکە تیژەکەی بەکارھێنا بۆ لەتکردنی نێچیرەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbills9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbills9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hawk used its sharp bill to tear at its prey.",
+                            kurdishText:
+                                "ھەڵۆکە دەنووکە تیژەکەی بەکارھێنا بۆ لەتکردنی نێچیرەکەی.",
+                            onPressedBritish: () => speakbills9("en-GB"),
+                            onPressedAmerican: () => speakbills9("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (کردار) ناردنی پسوولەیەک بۆ کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Please bill me for the books."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە پسوولەی کتێبەکانم بۆ بنێرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbills10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbills10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Please bill me for the books.",
+                            kurdishText: "تکایە پسوولەی کتێبەکانم بۆ بنێرە.",
+                            onPressedBritish: () => speakbills10("en-GB"),
+                            onPressedAmerican: () => speakbills10("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You will be billed monthly for the service."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ خزمەتگوزارییەکە مانگانە پارەت لێ وەردەگیرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbills11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbills11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You will be billed monthly for the service.",
+                            kurdishText:
+                                "بۆ خزمەتگوزارییەکە مانگانە پارەت لێ وەردەگیرێت.",
+                            onPressedBritish: () => speakbills11("en-GB"),
+                            onPressedAmerican: () => speakbills11("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (کردار) وێناکردن یان بانگەشە کردن بۆ کەسێک بە شێوەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was billed as the new Tom Cruise."),
-                                    ExampleSentenceKurdish(
-                                        text: "وەک تۆم کرووزی نوێ ناوزەندکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbills12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbills12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was billed as the new Tom Cruise.",
+                            kurdishText: "وەک تۆم کرووزی نوێ ناوزەندکرا.",
+                            onPressedBritish: () => speakbills12("en-GB"),
+                            onPressedAmerican: () => speakbills12("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٠. (کردار) بانگەشە کردنی ئەوەی کەسێک شتێک دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was billed to speak on ‘Feminism and third world countries’."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕیکلامی بۆ کرا کە قسەدەکات لەسەر 'فێمینیزم و وڵاتانی جیھانی سێیەم'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbills13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbills13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was billed to speak on ‘Feminism and third world countries’.",
+                            kurdishText:
+                                "ڕیکلامی بۆ کرا کە قسەدەکات لەسەر 'فێمینیزم و وڵاتانی جیھانی سێیەم'.",
+                            onPressedBritish: () => speakbills13("en-GB"),
+                            onPressedAmerican: () => speakbills13("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -161,69 +161,29 @@ class EnglishEntryauditorium extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەو بەشەی ھۆڵی کۆنسێرتێک یان سینەمایەک کە گوێگران تێیدا دادەنیشن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The auditorium seats over a thousand people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھۆڵەکە شوێنی زیاتر لە ھەزار کەسی تێدا دەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauditorium252("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauditorium252(
-                                        // REPLACE: auditorium
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The auditorium seats over a thousand people.",
+                            kurdishText:
+                                "ھۆڵەکە شوێنی زیاتر لە ھەزار کەسی تێدا دەبێتەوە.",
+                            onPressedBritish: () => speakauditorium252("en-GB"),
+                            onPressedAmerican: () => speakauditorium252(
+                                // REPLACE: auditorium
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ژوورێکی گەورە کە بۆنەی تێدا سازدەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He stood at the back of the packed auditorium."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دواوەی ئۆدیتۆریۆمە پڕەکە وەستابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauditorium255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauditorium255(
-                                        // REPLACE: auditorium
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He stood at the back of the packed auditorium.",
+                            kurdishText:
+                                "لە دواوەی ئۆدیتۆریۆمە پڕەکە وەستابوو.",
+                            onPressedBritish: () => speakauditorium255("en-GB"),
+                            onPressedAmerican: () => speakauditorium255(
+                                // REPLACE: auditorium
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -151,34 +151,15 @@ class EnglishEntrybatteringram extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پارچە دارێکی گەورە کە لە کۆندا بەکاردەھات بۆ شکاندنی دەرگا و دیوار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The besiegers used a battering ram to breach the castle walls."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئابڵووقەدەران دەرگاشکێنێکیان بەکارھێنا بۆ قڵشکردنە دیوارەکانی قەڵاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbatteringrams1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbatteringrams1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The besiegers used a battering ram to breach the castle walls.",
+                            kurdishText:
+                                "ئابڵووقەدەران دەرگاشکێنێکیان بەکارھێنا بۆ قڵشکردنە دیوارەکانی قەڵاکە.",
+                            onPressedBritish: () =>
+                                speakbatteringrams1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbatteringrams1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

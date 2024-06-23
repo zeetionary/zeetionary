@@ -151,124 +151,47 @@ class EnglishEntrybash extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) لێدانێکی سەخت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He stood up, bashing his head on the ceiling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستایە سەرپێ و سەری کێشای بە سەقفەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbashs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbashs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He stood up, bashing his head on the ceiling.",
+                            kurdishText:
+                                "ھەستایە سەرپێ و سەری کێشای بە سەقفەکەدا.",
+                            onPressedBritish: () => speakbashs1("en-GB"),
+                            onPressedAmerican: () => speakbashs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ڕەخنەگرتنی توند"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bashing politicians is normal practice in the press."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەخنەی توند لە سیاسییەکان شتێکی ڕۆژانەیە لە میدیادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbashs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbashs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bashing politicians is normal practice in the press.",
+                            kurdishText:
+                                "ڕەخنەی توند لە سیاسییەکان شتێکی ڕۆژانەیە لە میدیادا.",
+                            onPressedBritish: () => speakbashs2("en-GB"),
+                            onPressedAmerican: () => speakbashs2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) لێدانێکی توند"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gave Mike a bash on the nose."),
-                                    ExampleSentenceKurdish(
-                                        text: "مشتێکی کێشا بە لووتی مایکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbashs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbashs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He gave Mike a bash on the nose.",
+                            kurdishText: "مشتێکی کێشا بە لووتی مایکدا.",
+                            onPressedBritish: () => speakbashs3("en-GB"),
+                            onPressedAmerican: () => speakbashs3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ئاھەنگێکی گەورە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She gave a big 40th birthday bash for her husband."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاھەنگێکی گەورەی گێڕا بۆ ٤٠ھەمین ساڵیادی لەدایکبوونی ھاوژینەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbashs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbashs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She gave a big 40th birthday bash for her husband.",
+                            kurdishText:
+                                "ئاھەنگێکی گەورەی گێڕا بۆ ٤٠ھەمین ساڵیادی لەدایکبوونی ھاوژینەکەی.",
+                            onPressedBritish: () => speakbashs4("en-GB"),
+                            onPressedAmerican: () => speakbashs4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

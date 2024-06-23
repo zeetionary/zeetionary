@@ -152,34 +152,15 @@ class EnglishEntryanglo extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (گرێدەر) ئینگلیزی یان بەریتانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The term 'Anglo-Canadian' refers to people of English descent living in Canada."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئینگلیزی-بەریتانی واتە کەسێک کە بە ڕەچەڵەک ئینگلیزە بەڵام لە کەنەدا دەژی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanglo40115("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanglo40115(
-                                        // REPLACE: Anglo- /æŋɡləʊ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The term 'Anglo-Canadian' refers to people of English descent living in Canada.",
+                            kurdishText:
+                                "ئینگلیزی-بەریتانی واتە کەسێک کە بە ڕەچەڵەک ئینگلیزە بەڵام لە کەنەدا دەژی.",
+                            onPressedBritish: () => speakanglo40115("en-GB"),
+                            onPressedAmerican: () => speakanglo40115(
+                                // REPLACE: Anglo- /æŋɡləʊ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

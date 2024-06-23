@@ -158,194 +158,78 @@ class EnglishEntryawkward extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) بەشێوەیەک کە تووشی شەرمت دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "There was an awkward silence."),
-                                    ExampleSentenceKurdish(
-                                        text: "بێ‌دەنگییەکی شەرمھێنەر بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawkwards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawkwards1(// REPLACE: awkward
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "There was an awkward silence.",
+                            kurdishText: "بێ‌دەنگییەکی شەرمھێنەر بوو.",
+                            onPressedBritish: () => speakawkwards1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawkwards1(// REPLACE: awkward
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I felt awkward because they obviously wanted to be alone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستم بە شەرم دەکرد چونکە ئاشکرا بوو دەیانویست تەنھا بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawkwards2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawkwards2(// REPLACE: awkward
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I felt awkward because they obviously wanted to be alone.",
+                            kurdishText:
+                                "ھەستم بە شەرم دەکرد چونکە ئاشکرا بوو دەیانویست تەنھا بن.",
+                            onPressedBritish: () => speakawkwards2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawkwards2(// REPLACE: awkward
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک کە ئاسان نییە مامەڵەی لەگەڵ بکەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You've put me in an awkward position."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منت خستووەتە بارودۆخێکی نالەبارەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawkwards3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawkwards3(// REPLACE: awkward
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You've put me in an awkward position.",
+                            kurdishText: "منت خستووەتە بارودۆخێکی نالەبارەوە.",
+                            onPressedBritish: () => speakawkwards3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawkwards3(// REPLACE: awkward
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) نەگونجاو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Have I come at an awkward time?"),
-                                    ExampleSentenceKurdish(
-                                        text: "لە کاتێکی نەگونجاو ھاتووم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawkwards4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawkwards4(// REPLACE: awkward
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Have I come at an awkward time?",
+                            kurdishText: "لە کاتێکی نەگونجاو ھاتووم؟",
+                            onPressedBritish: () => speakawkwards4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawkwards4(// REPLACE: awkward
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) گران یان مەترسیدار بەھۆی شێوە و دیزاین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This box is very awkward for one person to carry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم سنووقە زۆر نەشیاوە بۆ ھەڵگرتنی لەلایەن یەک کەس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawkwards5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawkwards5(// REPLACE: awkward
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This box is very awkward for one person to carry.",
+                            kurdishText:
+                                "ئەم سنووقە زۆر نەشیاوە بۆ ھەڵگرتنی لەلایەن یەک کەس.",
+                            onPressedBritish: () => speakawkwards5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawkwards5(// REPLACE: awkward
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵناو) نا ئاسوودە؛ ڕۆشتن بەشێوەیەکی ناڕاست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I must have slept in an awkward position—I'm aching all over."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت لەسەر لایەکی خراپ خەوتبم، تەواوی جەستەم دێشێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawkwards6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawkwards6(// REPLACE: awkward
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I must have slept in an awkward position—I'm aching all over.",
+                            kurdishText:
+                                "دەبێت لەسەر لایەکی خراپ خەوتبم، تەواوی جەستەم دێشێ.",
+                            onPressedBritish: () => speakawkwards6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawkwards6(// REPLACE: awkward
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

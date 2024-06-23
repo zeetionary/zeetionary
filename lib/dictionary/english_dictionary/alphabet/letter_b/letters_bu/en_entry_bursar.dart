@@ -193,32 +193,13 @@ class EnglishEntrybursar extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە کاری دارایی زانکۆ یان قوتابخانە بەڕێوەدەبات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The university's bursar manages student financial accounts and tuition payments."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەنجینەوانی زانکۆکە ھەژماری دارایی خوێندکاران و پێدانی تێچووەکەیان بەڕێوە دەبات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bursar", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbursars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbursars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The university's bursar manages student financial accounts and tuition payments.",
+                            kurdishText:
+                                "گەنجینەوانی زانکۆکە ھەژماری دارایی خوێندکاران و پێدانی تێچووەکەیان بەڕێوە دەبات.", // bursar", follow LX strictly
+                            onPressedBritish: () => speakbursars1("en-GB"),
+                            onPressedAmerican: () => speakbursars1("en-US"),
                           ),
                         ],
                       ),

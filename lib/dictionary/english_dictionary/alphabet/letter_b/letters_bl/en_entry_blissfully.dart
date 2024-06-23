@@ -148,89 +148,32 @@ class EnglishEntryblissfully extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) تەواو دڵخۆشانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We were young and still blissfully in love."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەنج بووین و دڵخۆشانە لە خۆشەویستیدا بووین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblissfullys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblissfullys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We were young and still blissfully in love.",
+                            kurdishText:
+                                "گەنج بووین و دڵخۆشانە لە خۆشەویستیدا بووین.",
+                            onPressedBritish: () => speakblissfullys1("en-GB"),
+                            onPressedAmerican: () => speakblissfullys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She looked blissfully happy."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەواو دڵخۆش دیار بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblissfullys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblissfullys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She looked blissfully happy.",
+                            kurdishText: "تەواو دڵخۆش دیار بوو.",
+                            onPressedBritish: () => speakblissfullys2("en-GB"),
+                            onPressedAmerican: () => speakblissfullys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە تەواو دڵخۆشت دەکات یان ڕێگری دەکات لەوەی شتی خراپ کارت تێ بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All this time I was blissfully unaware of the situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوکات خەشبەختانە بێ‌ئاگا بووم لە دۆخەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblissfullys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblissfullys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All this time I was blissfully unaware of the situation.",
+                            kurdishText:
+                                "ئەوکات خەشبەختانە بێ‌ئاگا بووم لە دۆخەکە.",
+                            onPressedBritish: () => speakblissfullys3("en-GB"),
+                            onPressedAmerican: () => speakblissfullys3("en-US"),
                           ),
                         ],
                       ),

@@ -154,35 +154,15 @@ class EnglishEntryantagonize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) کردنی شتێک کە کەسێک تووڕە دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Not wishing to antagonize her further, he said no more."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ دووربوون لە زیاتر تووڕەکردنی ھیچی دیکەی نەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantagonize117("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantagonize117(
-                                        // REPLACE: Antagonize /ænˈtæɡənaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Not wishing to antagonize her further, he said no more.",
+                            kurdishText:
+                                "بۆ دووربوون لە زیاتر تووڕەکردنی ھیچی دیکەی نەوت.",
+                            onPressedBritish: () => speakantagonize117("en-GB"),
+                            onPressedAmerican: () => speakantagonize117(
+                                // REPLACE: Antagonize /ænˈtæɡənaɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

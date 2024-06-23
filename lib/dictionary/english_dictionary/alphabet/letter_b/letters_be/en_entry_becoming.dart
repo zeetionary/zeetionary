@@ -149,63 +149,23 @@ class EnglishEntrybecoming extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) جلێک کە لە کەسێک جوانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That's a very becoming dress, my dear."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلەکەت زۆر جوان لێ دێت، ئازیزم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbecomings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbecomings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That's a very becoming dress, my dear.",
+                            kurdishText: "جلەکەت زۆر جوان لێ دێت، ئازیزم.",
+                            onPressedBritish: () => speakbecomings1("en-GB"),
+                            onPressedAmerican: () => speakbecomings1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) گونجاو یان شیاو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was not very becoming behaviour for a teacher."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەفتارێکی شیاو نەبوو بۆ مامۆستایەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbecomings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbecomings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was not very becoming behaviour for a teacher.",
+                            kurdishText: "ڕەفتارێکی شیاو نەبوو بۆ مامۆستایەک.",
+                            onPressedBritish: () => speakbecomings2("en-GB"),
+                            onPressedAmerican: () => speakbecomings2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

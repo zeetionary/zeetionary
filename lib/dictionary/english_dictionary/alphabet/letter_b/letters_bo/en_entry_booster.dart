@@ -152,125 +152,49 @@ class EnglishEntrybooster extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مووشەکێک کە ھێزی زیاتر دەدات بە کەشتییەکی ئاسمانی لە کاتی جێھێشتنی زەوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The booster separated after propelling the spacecraft into space."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مووشەکەکە جیابووەوە لە دوای ئەوەی کەشتییە ئاسمانییەکەی ناردە بۆشایی ئاسمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboosters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboosters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The booster separated after propelling the spacecraft into space.",
+                            kurdishText:
+                                "مووشەکەکە جیابووەوە لە دوای ئەوەی کەشتییە ئاسمانییەکەی ناردە بۆشایی ئاسمان.",
+                            onPressedBritish: () => speakboosters1("en-GB"),
+                            onPressedAmerican: () => speakboosters1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئامێرێک کە توانای زیاتر دەدات بە ئامێرێکی کارەبایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A Wi-Fi booster extends the range of internet connectivity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھێزکەری وایفایەکە مەودای پەیوەستبوون بە ئینتەرنێتەوە زیاد دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboosters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboosters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A Wi-Fi booster extends the range of internet connectivity.",
+                            kurdishText:
+                                "بەھێزکەری وایفایەکە مەودای پەیوەستبوون بە ئینتەرنێتەوە زیاد دەکات.",
+                            onPressedBritish: () => speakboosters2("en-GB"),
+                            onPressedAmerican: () => speakboosters2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ڕێژەیەکی کەم لە ڤاکسینی زیادە کە بۆ زیادکردنی توانای یەکێکی تر کە پێشووتر دراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you plan on travelling to North Africa, typhoid and polio boosters are advised."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر پلانت ھەیە گەشت بۆ باکووری ئەفریقا بکەیت، وا باشە کوتانی دژ بە گرانەتا و ئیفلیجی منداڵان وەربگریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboosters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboosters3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you plan on travelling to North Africa, typhoid and polio boosters are advised.",
+                            kurdishText:
+                                "ئەگەر پلانت ھەیە گەشت بۆ باکووری ئەفریقا بکەیت، وا باشە کوتانی دژ بە گرانەتا و ئیفلیجی منداڵان وەربگریت.",
+                            onPressedBritish: () => speakboosters3("en-GB"),
+                            onPressedAmerican: () => speakboosters3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) شتێک کە یارمەتیدەر، ھاندەر، یان بەھێزکەر دەبێت بۆ شتێک یان کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Winning this game was a great morale booster for the team."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بردنەوەی ئەم یارییە ورەبەخشەرێکی بەھێز بوو بۆ تیمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboosters4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboosters4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Winning this game was a great morale booster for the team.",
+                            kurdishText:
+                                "بردنەوەی ئەم یارییە ورەبەخشەرێکی بەھێز بوو بۆ تیمەکە.",
+                            onPressedBritish: () => speakboosters4("en-GB"),
+                            onPressedAmerican: () => speakboosters4("en-US"),
                           ),
                         ],
                       ),

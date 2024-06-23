@@ -147,62 +147,24 @@ class EnglishEntryblindness extends StatelessWidget {
 کوردی: کوێری، کۆری، نەبینی، نابینایی، نەفامی، بێ‌ئەقڵی، گەوجێتی
 """),
                           const DefinitionKurdish(text: "١. (ناو) نابینایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A lack of vitamin A can cause blindness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمی ڤیتامین A دەکرێت ببێتە ھۆی نابینایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblindnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblindnesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A lack of vitamin A can cause blindness.",
+                            kurdishText:
+                                "کەمی ڤیتامین A دەکرێت ببێتە ھۆی نابینایی.",
+                            onPressedBritish: () => speakblindnesss1("en-GB"),
+                            onPressedAmerican: () => speakblindnesss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ھەست نەکردن بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His blindness to social codes was getting him into deeper trouble."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێ ئاگایی لە ڕێسا کۆمەڵایەتییەکان دەیخستە ناو کێشەی قووڵترەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblindnesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblindnesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His blindness to social codes was getting him into deeper trouble.",
+                            kurdishText:
+                                "بێ ئاگایی لە ڕێسا کۆمەڵایەتییەکان دەیخستە ناو کێشەی قووڵترەوە.",
+                            onPressedBritish: () => speakblindnesss2("en-GB"),
+                            onPressedAmerican: () => speakblindnesss2("en-US"),
                           ),
                         ],
                       ),

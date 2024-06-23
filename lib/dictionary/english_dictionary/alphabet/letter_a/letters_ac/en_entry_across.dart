@@ -159,245 +159,92 @@ class EnglishEntryacross extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ئامراز) لەلایەک بۆ لەیەکی تر" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I drew a line across the page."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێڵێکم کێشا لە لایەکی پەڕەکە بۆ لەیەکەی تری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacr2149("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacr2149(
-                                        "en-US"), // REPLACE across /əˈkrɔːs/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I drew a line across the page.",
+                            kurdishText:
+                                "ھێڵێکم کێشا لە لایەکی پەڕەکە بۆ لەیەکەی تری.",
+                            onPressedBritish: () => speakacr2149("en-GB"),
+                            onPressedAmerican: () => speakacr2149(
+                                "en-US"), // REPLACE across /əˈkrɔːs/
                           ),
                           const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Where's the nearest bridge across the river?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نزیکترین پرد کە بەسەر ڕووبارەکەدا بڕوات لە کوێیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacr2437("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacr2437(
-                                        "en-US"), // REPLACE across /əˈkrɔːs/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Where's the nearest bridge across the river?",
+                            kurdishText:
+                                "نزیکترین پرد کە بەسەر ڕووبارەکەدا بڕوات لە کوێیە.",
+                            onPressedBritish: () => speakacr2437("en-GB"),
+                            onPressedAmerican: () => speakacr2437(
+                                "en-US"), // REPLACE across /əˈkrɔːs/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ئامراز) لەلایەکەی تری شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's a bank right across the street."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانکێک ھەیە لە لایەکەی تری شەقامەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacr4269("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacr4269(
-                                        "en-US"), // REPLACE across /əˈkrɔːs/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's a bank right across the street.",
+                            kurdishText:
+                                "بانکێک ھەیە لە لایەکەی تری شەقامەکەوە.",
+                            onPressedBritish: () => speakacr4269("en-GB"),
+                            onPressedAmerican: () => speakacr4269(
+                                "en-US"), // REPLACE across /əˈkrɔːs/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ئامراز) لەسەر بەشێکی جەستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He hit him across the face."),
-                                    ExampleSentenceKurdish(
-                                        text: "کێشای بە ڕووخساریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac2568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac2568(
-                                        "en-US"), // REPLACE across /əˈkrɔːs/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He hit him across the face.",
+                            kurdishText: "کێشای بە ڕووخساریدا.",
+                            onPressedBritish: () => speakac2568("en-GB"),
+                            onPressedAmerican: () => speakac2568(
+                                "en-US"), // REPLACE across /əˈkrɔːs/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ئامراز) لە ھەموو بەشێکی وڵاتێک، گرووپێک. شوێنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her family is scattered across the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێزانەکەی بە وڵاتەکەدا بڵاوبووبوونەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacro154("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacro154(
-                                        "en-US"), // REPLACE across /əˈkrɔːs/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her family is scattered across the country.",
+                            kurdishText:
+                                "خێزانەکەی بە وڵاتەکەدا بڵاوبووبوونەوە.",
+                            onPressedBritish: () => speakacro154("en-GB"),
+                            onPressedAmerican: () => speakacro154(
+                                "en-US"), // REPLACE across /əˈkrɔːs/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵکار) لەلایەک بۆ لەیەکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The river is too wide. We can't swim across."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووبارەکە زۆر فراوانە. ناتوانین بپەڕینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacro2568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacro2568(
-                                        "en-US"), // REPLACE across /əˈkrɔːs/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The river is too wide. We can't swim across.",
+                            kurdishText:
+                                "ڕووبارەکە زۆر فراوانە. ناتوانین بپەڕینەوە.",
+                            onPressedBritish: () => speakacro2568("en-GB"),
+                            onPressedAmerican: () => speakacro2568(
+                                "en-US"), // REPLACE across /əˈkrɔːs/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ھاوەڵکار) بە ئاراستەیەکی دیاریکراو و ڕوو لە کەسێک/شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When my name was called, he looked across at me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە ناوم خوێندرایەوە، ڕاستەوخۆ ڕووی لە من کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacr258("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacr258(
-                                        "en-US"), // REPLACE across /əˈkrɔːs/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When my name was called, he looked across at me.",
+                            kurdishText:
+                                "کە ناوم خوێندرایەوە، ڕاستەوخۆ ڕووی لە من کرد.",
+                            onPressedBritish: () => speakacr258("en-GB"),
+                            onPressedAmerican: () => speakacr258(
+                                "en-US"), // REPLACE across /əˈkrɔːs/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ھاوەڵکار) لە بەرامبەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's a school just across from our house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندنگەیەک لە بەرامبەر ماڵمان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacr7598("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacr7598(
-                                        "en-US"), // REPLACE across /əˈkrɔːs/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's a school just across from our house.",
+                            kurdishText: "خوێندنگەیەک لە بەرامبەر ماڵمان ھەیە.",
+                            onPressedBritish: () => speakacr7598("en-GB"),
+                            onPressedAmerican: () => speakacr7598(
+                                "en-US"), // REPLACE across /əˈkrɔːs/
                           ),
                         ],
                       ),

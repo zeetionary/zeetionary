@@ -151,32 +151,13 @@ class EnglishEntrybigoted extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی باوەڕی توند و نابەجێ، و ڕەتی بکەیتەوە کە بیانگۆڕی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's so bigoted that she refuses to accept anyone who doesn't think like her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێندە بیرتەسکە کە ڕەتیدەکاتەوە ھیچ کەس پەسەند بکات کە وەک ئەو بیرنەکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbigoteds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbigoteds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's so bigoted that she refuses to accept anyone who doesn't think like her.",
+                            kurdishText:
+                                "ھێندە بیرتەسکە کە ڕەتیدەکاتەوە ھیچ کەس پەسەند بکات کە وەک ئەو بیرنەکاتەوە.",
+                            onPressedBritish: () => speakbigoteds1("en-GB"),
+                            onPressedAmerican: () => speakbigoteds1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

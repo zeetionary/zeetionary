@@ -149,32 +149,13 @@ class EnglishEntryboutique extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) فرۆشگایەکی بچووک و کە جلی مۆدە و دیاری گرانبەھا دەفرۆشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She owns a chic boutique in the city center."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فرۆشگایەکی جوانی جلی ھەیە لە سەنتەری شار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboutiques1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboutiques1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She owns a chic boutique in the city center.",
+                            kurdishText:
+                                "فرۆشگایەکی جوانی جلی ھەیە لە سەنتەری شار.",
+                            onPressedBritish: () => speakboutiques1("en-GB"),
+                            onPressedAmerican: () => speakboutiques1("en-US"),
                           ),
                         ],
                       ),

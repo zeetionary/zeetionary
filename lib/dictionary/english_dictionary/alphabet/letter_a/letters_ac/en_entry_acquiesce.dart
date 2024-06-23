@@ -109,33 +109,14 @@ class EnglishEntryacquiesce extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) ڕازیبوون بە شتێک ئەگەرچی پێت گونجاو نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She explained her plan and reluctantly we acquiesced."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانەکەی ڕوونکردەوە و ئێمەش بە نابەدڵییەوە ڕازیبووین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacq154("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacq154(
-                                        "en-US"), // REPLACE acquiesce /ˌækwiˈes/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She explained her plan and reluctantly we acquiesced.",
+                            kurdishText:
+                                "پلانەکەی ڕوونکردەوە و ئێمەش بە نابەدڵییەوە ڕازیبووین.",
+                            onPressedBritish: () => speakacq154("en-GB"),
+                            onPressedAmerican: () => speakacq154(
+                                "en-US"), // REPLACE acquiesce /ˌækwiˈes/
                           ),
                         ],
                       ),

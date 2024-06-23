@@ -146,31 +146,11 @@ class EnglishEntrybifocals extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چاویلکەیەک کە ھەر ھاوێنەیەکی لە دوو بەش پێکھاتووە. بەشی سەرەوە بۆ بینینی شتی دوورە و بەشی خوارەوەش بۆ بینینی شتی نزیکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He peered through his bifocals."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە چاویلکەکەیەوە وردبوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbifocalss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbifocalss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He peered through his bifocals.",
+                            kurdishText: "لە چاویلکەکەیەوە وردبوویەوە.",
+                            onPressedBritish: () => speakbifocalss1("en-GB"),
+                            onPressedAmerican: () => speakbifocalss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

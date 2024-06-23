@@ -104,58 +104,20 @@ class EnglishEntryabundant extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) کاتێک شتێک ئێجگار زۆرە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Fish are abundant in the lake."),
-                                    ExampleSentenceKurdish(
-                                        text: "ماسی ئێجگار زۆرە لە دەریاچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka96852("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka96852("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Fish are abundant in the lake.",
+                            kurdishText: "ماسی ئێجگار زۆرە لە دەریاچەکە.",
+                            onPressedBritish: () => speaka96852("en-GB"),
+                            onPressedAmerican: () => speaka96852("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have abundant evidence to prove his guilt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵگەی زۆرمان ھەیە بۆ سەلماندنی تاوانەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka15742("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka15742("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have abundant evidence to prove his guilt.",
+                            kurdishText:
+                                "بەڵگەی زۆرمان ھەیە بۆ سەلماندنی تاوانەکەی.",
+                            onPressedBritish: () => speaka15742("en-GB"),
+                            onPressedAmerican: () => speaka15742("en-US"),
                           ),
                         ],
                       ),

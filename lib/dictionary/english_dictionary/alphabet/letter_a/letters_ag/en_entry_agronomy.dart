@@ -114,34 +114,15 @@ class EnglishEntryagronomy extends StatelessWidget {
                               text:
                                   "١. (ناو) زانستی گرێدانی کشتوکاڵ و ژینگە پێکەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Agronomy encompasses work in many areas including plant genetics, irrigation, and food production."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کشتوکاڵناسی زۆر شت لەخۆدەگرێت وەک بۆماوەناسی ڕووەک، ئاودێری، و بەرھەمھێنانی خۆراک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagron3784("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagron3784(
-                                        // REPLACE: agronomy /əˈɡrɑːnəmi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Agronomy encompasses work in many areas including plant genetics, irrigation, and food production.",
+                            kurdishText:
+                                "کشتوکاڵناسی زۆر شت لەخۆدەگرێت وەک بۆماوەناسی ڕووەک، ئاودێری، و بەرھەمھێنانی خۆراک.",
+                            onPressedBritish: () => speakagron3784("en-GB"),
+                            onPressedAmerican: () => speakagron3784(
+                                // REPLACE: agronomy /əˈɡrɑːnəmi/
+                                "en-US"),
                           ),
                         ],
                       ),

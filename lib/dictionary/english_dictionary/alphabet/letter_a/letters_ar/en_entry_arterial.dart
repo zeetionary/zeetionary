@@ -160,34 +160,15 @@ class EnglishEntryarterial extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پەیوەندیدار بە خوێنبەرەکانی لەشی مرۆڤ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These symptoms are often the first evidence of arterial disease."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم نیشانانە زۆرجار سەلمێنەری سەرەتایی نەخۆشییە لە خوێنبەرەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarterial158("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarterial158(
-                                        // REPLACE: arterial /ɑːrˈtɪriəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These symptoms are often the first evidence of arterial disease.",
+                            kurdishText:
+                                "ئەم نیشانانە زۆرجار سەلمێنەری سەرەتایی نەخۆشییە لە خوێنبەرەکان.",
+                            onPressedBritish: () => speakarterial158("en-GB"),
+                            onPressedAmerican: () => speakarterial158(
+                                // REPLACE: arterial /ɑːrˈtɪriəl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -144,32 +144,13 @@ class EnglishEntrybluebottle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مێشی گۆشت؛ مێشێکی گەورە کە جەستەیەکی شینی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A bluebottle buzzed around the garbage bin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێشێکی گۆشت بە دەوری تەنەکەی زباڵەکە گیزەی دەھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbluebottles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbluebottles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A bluebottle buzzed around the garbage bin.",
+                            kurdishText:
+                                "مێشێکی گۆشت بە دەوری تەنەکەی زباڵەکە گیزەی دەھات.",
+                            onPressedBritish: () => speakbluebottles1("en-GB"),
+                            onPressedAmerican: () => speakbluebottles1("en-US"),
                           ),
                         ],
                       ),

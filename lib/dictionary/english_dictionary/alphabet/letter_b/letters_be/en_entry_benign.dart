@@ -153,123 +153,47 @@ class EnglishEntrybenign extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) کەسێکی بێ زیان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You would never have guessed his intentions from the benign expression on his face."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز نەتدەتوانی ھەست بە نیازەکانی بکەیت لە دەربڕینە بێوەییەکانی سەر ڕووخساری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbenigns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbenigns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You would never have guessed his intentions from the benign expression on his face.",
+                            kurdishText:
+                                "ھەرگیز نەتدەتوانی ھەست بە نیازەکانی بکەیت لە دەربڕینە بێوەییەکانی سەر ڕووخساری.",
+                            onPressedBritish: () => speakbenigns1("en-GB"),
+                            onPressedAmerican: () => speakbenigns1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The native inhabitants at first thought European traders were completely benign."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانیشتوانە ڕەسەنەکان یەکەم جار وایان زانی ئەورووپییەکان بە تەواوی بێ‌وەیین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbenigns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbenigns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The native inhabitants at first thought European traders were completely benign.",
+                            kurdishText:
+                                "دانیشتوانە ڕەسەنەکان یەکەم جار وایان زانی ئەورووپییەکان بە تەواوی بێ‌وەیین.",
+                            onPressedBritish: () => speakbenigns2("en-GB"),
+                            onPressedAmerican: () => speakbenigns2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێکی بێ زیان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The industry's environmental impact is relatively benign, even positive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاریگەرییە ژینگەییەکانی پیشەسازییەکە تا ئاستێکی زۆر بێ‌مەترسین، ڕەنگە تەنانەت ئەرێنیش بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbenigns3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbenigns3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The industry's environmental impact is relatively benign, even positive.",
+                            kurdishText:
+                                "کاریگەرییە ژینگەییەکانی پیشەسازییەکە تا ئاستێکی زۆر بێ‌مەترسین، ڕەنگە تەنانەت ئەرێنیش بن.",
+                            onPressedBritish: () => speakbenigns3("en-GB"),
+                            onPressedAmerican: () => speakbenigns3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) لوویەک کە لە جەستەدا گەشە دەکات بەڵام مەترسیدار نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is recovering after surgery to remove a benign tumour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئێستادا باش دەبێتەوە لە دوای نەشتەرگەرییەک بۆ دەرکردنی لوویەکی بێ‌مەترسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbenigns4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbenigns4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is recovering after surgery to remove a benign tumour.",
+                            kurdishText:
+                                "لە ئێستادا باش دەبێتەوە لە دوای نەشتەرگەرییەک بۆ دەرکردنی لوویەکی بێ‌مەترسی.",
+                            onPressedBritish: () => speakbenigns4("en-GB"),
+                            onPressedAmerican: () => speakbenigns4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

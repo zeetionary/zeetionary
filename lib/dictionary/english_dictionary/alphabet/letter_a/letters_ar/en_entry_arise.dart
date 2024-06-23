@@ -163,162 +163,67 @@ class EnglishEntryarise extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) ھاتنەپێشەوەی کێشەیەک، ھەلێک، ڕووداوێک، ھتد"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An opportunity arose to work in the United States."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەلێک ھاتەپێشەوە بۆ کارکردن لە ئەمریکا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarise1141("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarise1141(
-                                        // REPLACE: arise /əˈraɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An opportunity arose to work in the United States.",
+                            kurdishText:
+                                "ھەلێک ھاتەپێشەوە بۆ کارکردن لە ئەمریکا.",
+                            onPressedBritish: () => speakarise1141("en-GB"),
+                            onPressedAmerican: () => speakarise1141(
+                                // REPLACE: arise /əˈraɪz/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A serious problem can arise if the heart stops pumping effectively."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشەیەکی گەورە دەکرێت درووست‌ببێت ئەگەر دڵ لە لێدان بکەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarise1144("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarise1144(
-                                        // REPLACE: arise /əˈraɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A serious problem can arise if the heart stops pumping effectively.",
+                            kurdishText:
+                                "کێشەیەکی گەورە دەکرێت درووست‌ببێت ئەگەر دڵ لە لێدان بکەوێت.",
+                            onPressedBritish: () => speakarise1144("en-GB"),
+                            onPressedAmerican: () => speakarise1144(
+                                // REPLACE: arise /əˈraɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ڕوودان لە ئەنجامی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Violence typically arises out of anger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توندوتیژی زۆرجار لە ئەنجامی تووڕەیی ڕوودەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarise1145("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarise1145(
-                                        // REPLACE: arise /əˈraɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Violence typically arises out of anger.",
+                            kurdishText:
+                                "توندوتیژی زۆرجار لە ئەنجامی تووڕەیی ڕوودەدات.",
+                            onPressedBritish: () => speakarise1145("en-GB"),
+                            onPressedAmerican: () => speakarise1145(
+                                // REPLACE: arise /əˈraɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) دەستپێ‌کردن یان درووست‌بوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several new industries arose in the town."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک کارگەی تازە درووست‌بوون لە شارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarise1147("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarise1147(
-                                        // REPLACE: arise /əˈraɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several new industries arose in the town.",
+                            kurdishText:
+                                "ژمارەیەک کارگەی تازە درووست‌بوون لە شارەکە.",
+                            onPressedBritish: () => speakarise1147("en-GB"),
+                            onPressedAmerican: () => speakarise1147(
+                                // REPLACE: arise /əˈraɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) ھەستان لە جێگەی خەو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He arose at dawn."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە بەرەبەیاندا ھەستا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarise1149("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarise1149(
-                                        // REPLACE: arise /əˈraɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He arose at dawn.",
+                            kurdishText: "لە بەرەبەیاندا ھەستا.",
+                            onPressedBritish: () => speakarise1149("en-GB"),
+                            onPressedAmerican: () => speakarise1149(
+                                // REPLACE: arise /əˈraɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

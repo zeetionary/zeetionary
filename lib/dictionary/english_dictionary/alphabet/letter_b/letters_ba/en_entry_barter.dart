@@ -151,63 +151,25 @@ class EnglishEntrybarter extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) سیستەمی ئاڵوگۆڕی سەربەسەری شتومەک بەبێ بەکارھێنانی پارە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The islanders use a system of barter instead of money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوورگەنشینەکان سیستەمی ئاڵ‌وگۆڕ بەکاردێنن لەجیاتی پارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The islanders use a system of barter instead of money.",
+                            kurdishText:
+                                "دوورگەنشینەکان سیستەمی ئاڵ‌وگۆڕ بەکاردێنن لەجیاتی پارە.",
+                            onPressedBritish: () => speakbarters1("en-GB"),
+                            onPressedAmerican: () => speakbarters1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) سیستەمی ئاڵوگۆڕی سەربەسەری شتومەک بەبێ بەکارھێنانی پارە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The local people bartered wheat for tools."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوڵاتییە خۆجێییەکان گەنمیان بە ئامێر دەگۆڕییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The local people bartered wheat for tools.",
+                            kurdishText:
+                                "ھاوڵاتییە خۆجێییەکان گەنمیان بە ئامێر دەگۆڕییەوە.",
+                            onPressedBritish: () => speakbarters2("en-GB"),
+                            onPressedAmerican: () => speakbarters2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

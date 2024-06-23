@@ -153,35 +153,15 @@ class EnglishEntrybankholiday extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پشووی فەرمی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our offices will be closed for the bank holiday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆفیسەکانمان داخراو دەبن لە پشووە فەرمییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbankholidays1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbankholidays1(
-                                        // REPLACE: bank holiday
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our offices will be closed for the bank holiday.",
+                            kurdishText:
+                                "ئۆفیسەکانمان داخراو دەبن لە پشووە فەرمییەکەدا.",
+                            onPressedBritish: () => speakbankholidays1("en-GB"),
+                            onPressedAmerican: () => speakbankholidays1(
+                                // REPLACE: bank holiday
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

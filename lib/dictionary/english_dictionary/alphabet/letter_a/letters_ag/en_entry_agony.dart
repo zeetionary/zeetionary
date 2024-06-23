@@ -112,62 +112,23 @@ class EnglishEntryagony extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ناو) ئازاری زۆری جەستەیی یان دەروونی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The soldier died in agony."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەربازەکە بە ئازارەوە مرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakago1488("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakago1488(// REPLACE: agony /ˈæɡəni/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The soldier died in agony.",
+                            kurdishText: "سەربازەکە بە ئازارەوە مرد.",
+                            onPressedBritish: () => speakago1488("en-GB"),
+                            onPressedAmerican: () =>
+                                speakago1488(// REPLACE: agony /ˈæɡəni/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jack collapsed in agony on the floor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاک لە ئازاردا کەوت بە زەوییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakago1566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakago1566(// REPLACE: agony /ˈæɡəni/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Jack collapsed in agony on the floor.",
+                            kurdishText: "جاک لە ئازاردا کەوت بە زەوییەکەدا.",
+                            onPressedBritish: () => speakago1566("en-GB"),
+                            onPressedAmerican: () =>
+                                speakago1566(// REPLACE: agony /ˈæɡəni/
+                                    "en-US"),
                           ),
                         ],
                       ),

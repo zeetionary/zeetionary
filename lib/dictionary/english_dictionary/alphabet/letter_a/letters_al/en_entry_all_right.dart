@@ -232,257 +232,99 @@ class EnglishEntryallright extends StatelessWidget {
                               text:
                                   "١. (سەرسوڕمان) بۆ زانینی ئەوەی کەسێک ڕازییە یان تێگەشتووە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We've got to get up early, all right?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت زوو لە خەو ھەستین، تێگەشتی؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallright124("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallright124(
-                                        // REPLACE: all right /ɔːl ˈraɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We've got to get up early, all right?",
+                            kurdishText: "دەبێت زوو لە خەو ھەستین، تێگەشتی؟",
+                            onPressedBritish: () => speakallright124("en-GB"),
+                            onPressedAmerican: () => speakallright124(
+                                // REPLACE: all right /ɔːl ˈraɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (سەرسوڕمان) بۆ دەربڕینی ئەوەی کەسێک ڕازییە یان تێگەشتووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘Can you do it?’ ‘Oh, all right.’"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەتوانی بیکەیت؟ ئاھ، بەڵێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallright123("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallright123(
-                                        // REPLACE: all right /ɔːl ˈraɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "‘Can you do it?’ ‘Oh, all right.’",
+                            kurdishText: "دەتوانی بیکەیت؟ ئاھ، بەڵێ.",
+                            onPressedBritish: () => speakallright123("en-GB"),
+                            onPressedAmerican: () => speakallright123(
+                                // REPLACE: all right /ɔːl ˈraɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (سەرسوڕمان) بۆ پەسەندکردنی سوپاس، یارمەتی، یان چاکە، یان کاتێک کەسێک داوای لێبووردن دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘I'm really sorry.’ ‘That's all right, don't worry.’"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "'زۆر داوای لێبووردن دەکەم'، 'کێشە نییە، نیگەران مەبە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallright235("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallright235(
-                                        // REPLACE: all right /ɔːl ˈraɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘I'm really sorry.’ ‘That's all right, don't worry.’",
+                            kurdishText:
+                                "'زۆر داوای لێبووردن دەکەم'، 'کێشە نییە، نیگەران مەبە.",
+                            onPressedBritish: () => speakallright235("en-GB"),
+                            onPressedAmerican: () => speakallright235(
+                                // REPLACE: all right /ɔːl ˈraɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (سەرسوڕمان) بۆ ڕاکێشانی سەرنج"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All right class, turn to page 20."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرباشە خوێندکاران، بیخەنە سەر پەڕەی ٢٠"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallright23469("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallright23469(
-                                        // REPLACE: all right /ɔːl ˈraɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "All right class, turn to page 20.",
+                            kurdishText:
+                                "زۆرباشە خوێندکاران، بیخەنە سەر پەڕەی ٢٠",
+                            onPressedBritish: () => speakallright23469("en-GB"),
+                            onPressedAmerican: () => speakallright23469(
+                                // REPLACE: all right /ɔːl ˈraɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵناو) شتێک کە کێشەی نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Are you getting along all right in your new job?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کارە تازەکەت بێ کێشە ھەڵدەکەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallright5241("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallright5241(
-                                        // REPLACE: all right /ɔːl ˈraɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Are you getting along all right in your new job?",
+                            kurdishText: "لە کارە تازەکەت بێ کێشە ھەڵدەکەیت؟",
+                            onPressedBritish: () => speakallright5241("en-GB"),
+                            onPressedAmerican: () => speakallright5241(
+                                // REPLACE: all right /ɔːl ˈraɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ھاوەڵناو) باش و سەلامەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I hope the children are all right."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیوادارم منداڵەکان سەلامەت بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallright3695("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallright3695(
-                                        // REPLACE: all right /ɔːl ˈraɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I hope the children are all right.",
+                            kurdishText: "ھیوادارم منداڵەکان سەلامەت بن.",
+                            onPressedBritish: () => speakallright3695("en-GB"),
+                            onPressedAmerican: () => speakallright3695(
+                                // REPLACE: all right /ɔːl ˈraɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ھاوەڵناو) شتێک کە خراپ نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your work is all right but I'm sure you could do better."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکەت خراپ نییە بەڵام دڵنیام ئەتتوانی باشتر بیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallright4577("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallright4577(
-                                        // REPLACE: all right /ɔːl ˈraɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your work is all right but I'm sure you could do better.",
+                            kurdishText:
+                                "کارەکەت خراپ نییە بەڵام دڵنیام ئەتتوانی باشتر بیت.",
+                            onPressedBritish: () => speakallright4577("en-GB"),
+                            onPressedAmerican: () => speakallright4577(
+                                // REPLACE: all right /ɔːl ˈraɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (ھاوەڵناو) شتێک کە ڕێگەپێدراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Are you sure it's all right for me to leave early?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیایت کە ئاسایی دەبێت زوو کار جێبھێڵم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallright1056("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallright1056(
-                                        // REPLACE: all right /ɔːl ˈraɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Are you sure it's all right for me to leave early?",
+                            kurdishText:
+                                "دڵنیایت کە ئاسایی دەبێت زوو کار جێبھێڵم.",
+                            onPressedBritish: () => speakallright1056("en-GB"),
+                            onPressedAmerican: () => speakallright1056(
+                                // REPLACE: all right /ɔːl ˈraɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

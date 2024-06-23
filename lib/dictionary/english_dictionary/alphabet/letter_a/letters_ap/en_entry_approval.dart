@@ -161,128 +161,49 @@ class EnglishEntryapproval extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ھەستی بەدڵبوونی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I could tell I had earned her approval."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمتوانی بڵێم ڕەزامەندیی ئەوم بەدەست‌ھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproval826("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproval826(
-                                        // REPLACE: approval /əˈpruːvl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I could tell I had earned her approval.",
+                            kurdishText:
+                                "دەمتوانی بڵێم ڕەزامەندیی ئەوم بەدەست‌ھێناوە.",
+                            onPressedBritish: () => speakapproval826("en-GB"),
+                            onPressedAmerican: () => speakapproval826(
+                                // REPLACE: approval /əˈpruːvl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He showed his approval by smiling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەزامەندیی پیشان‌دا بە پێکەنین‌کردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproval829("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproval829(
-                                        // REPLACE: approval /əˈpruːvl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He showed his approval by smiling.",
+                            kurdishText: "ڕەزامەندیی پیشان‌دا بە پێکەنین‌کردن.",
+                            onPressedBritish: () => speakapproval829("en-GB"),
+                            onPressedAmerican: () => speakapproval829(
+                                // REPLACE: approval /əˈpruːvl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕازی‌بوون یان مۆڵەتدان بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plan will be submitted to the committee for official approval."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانەکە پێشکەشی لیژنەکە دەکرێت بۆ پەسەندکردنی فەرمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproval831("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproval831(
-                                        // REPLACE: approval /əˈpruːvl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The plan will be submitted to the committee for official approval.",
+                            kurdishText:
+                                "پلانەکە پێشکەشی لیژنەکە دەکرێت بۆ پەسەندکردنی فەرمی.",
+                            onPressedBritish: () => speakapproval831("en-GB"),
+                            onPressedAmerican: () => speakapproval831(
+                                // REPLACE: approval /əˈpruːvl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He won approval for his project."),
-                                    ExampleSentenceKurdish(
-                                        text: "پڕۆژەکەی پەسەندکردنی وەرگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproval832("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproval832(
-                                        // REPLACE: approval /əˈpruːvl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He won approval for his project.",
+                            kurdishText: "پڕۆژەکەی پەسەندکردنی وەرگرت.",
+                            onPressedBritish: () => speakapproval832("en-GB"),
+                            onPressedAmerican: () => speakapproval832(
+                                // REPLACE: approval /əˈpruːvl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

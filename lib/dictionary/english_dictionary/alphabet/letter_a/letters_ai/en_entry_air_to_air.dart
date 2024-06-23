@@ -117,34 +117,15 @@ class EnglishEntryairtoair extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) موشەکێک کە لە ئاسمانەوە دەھاوءژرێت بۆ ئامانجێک کە لە ئاسمانە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The aid includes 200 supersonic air-to-air missiles and military communications equipment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یارمەتییەکە ٢٠٠ مووشەکی دەنگبڕی ئاسمان بۆ ئاسمان لەخۆدەگرێت لەگەڵ کەرەستەی پەیوەندی سەربازی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairtoair124("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairtoair124(
-                                        // REPLACE: air-to-air /ˌer tu ˈer/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The aid includes 200 supersonic air-to-air missiles and military communications equipment.",
+                            kurdishText:
+                                "یارمەتییەکە ٢٠٠ مووشەکی دەنگبڕی ئاسمان بۆ ئاسمان لەخۆدەگرێت لەگەڵ کەرەستەی پەیوەندی سەربازی.",
+                            onPressedBritish: () => speakairtoair124("en-GB"),
+                            onPressedAmerican: () => speakairtoair124(
+                                // REPLACE: air-to-air /ˌer tu ˈer/
+                                "en-US"),
                           ),
                         ],
                       ),

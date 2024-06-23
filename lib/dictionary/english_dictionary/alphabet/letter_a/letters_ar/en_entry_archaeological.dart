@@ -165,35 +165,16 @@ class EnglishEntryarchaeological extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە شوێنەوارناسی (توێژینەوە لە کەلتوورە کۆنەکان و مێژوو و ھەڵکۆڵینی ئەو شوێنەوارانەی لە زەویدا دەدۆزرێنەوە)"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Further archaeological excavations are now being carried out."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵکۆڵینی شوێنەوارناسییانەی دیکە لە ئێستادا ئەنجام دەدرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarchaeological240("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarchaeological240(
-                                        // REPLACE: archaeological /ˌɑːrkiəˈlɑːdʒɪkl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Further archaeological excavations are now being carried out.",
+                            kurdishText:
+                                "ھەڵکۆڵینی شوێنەوارناسییانەی دیکە لە ئێستادا ئەنجام دەدرێن.",
+                            onPressedBritish: () =>
+                                speakarchaeological240("en-GB"),
+                            onPressedAmerican: () => speakarchaeological240(
+                                // REPLACE: archaeological /ˌɑːrkiəˈlɑːdʒɪkl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

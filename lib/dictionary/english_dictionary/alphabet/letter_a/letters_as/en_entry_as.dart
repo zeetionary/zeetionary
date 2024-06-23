@@ -212,253 +212,97 @@ class EnglishEntryas extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ئامراز) بەکاردێت بۆ وتنی ئەوەی کەسێک/شتێک وەک کەسێکی تر یان شتێکی تر دەردەکەوێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children were all dressed as police officers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان ھەموویان وەک ئەفسەری پۆلیس جلیان پۆشیبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakas1035("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakas1035(
-                                        // REPLACE: as /əz/, strong form  /æz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children were all dressed as police officers.",
+                            kurdishText:
+                                "منداڵەکان ھەموویان وەک ئەفسەری پۆلیس جلیان پۆشیبوو.",
+                            onPressedBritish: () => speakas1035("en-GB"),
+                            onPressedAmerican: () => speakas1035(
+                                // REPLACE: as /əz/, strong form  /æz/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bomb was disguised as a package."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆمبەکە لە شێوەی پاکێجێکدا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakas1038("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakas1038(
-                                        // REPLACE: as /əz/, strong form  /æz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The bomb was disguised as a package.",
+                            kurdishText: "بۆمبەکە لە شێوەی پاکێجێکدا بوو.",
+                            onPressedBritish: () => speakas1038("en-GB"),
+                            onPressedAmerican: () => speakas1038(
+                                // REPLACE: as /əz/, strong form  /æz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ئامراز) بۆ پیشاندانی پیشە یان ئەرک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Treat me as a friend."),
-                                    ExampleSentenceKurdish(
-                                        text: "وەک ھاوڕێیەک بمبینە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakas1041("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakas1041(
-                                        // REPLACE: as /əz/, strong form  /æz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Treat me as a friend.",
+                            kurdishText: "وەک ھاوڕێیەک بمبینە.",
+                            onPressedBritish: () => speakas1041("en-GB"),
+                            onPressedAmerican: () => speakas1041(
+                                // REPLACE: as /əz/, strong form  /æz/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The news came as a shock."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەواڵەکە وەک شۆکێک وابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakas1042("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakas1042(
-                                        // REPLACE: as /əz/, strong form  /æz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The news came as a shock.",
+                            kurdishText: "ھەواڵەکە وەک شۆکێک وابوو.",
+                            onPressedBritish: () => speakas1042("en-GB"),
+                            onPressedAmerican: () => speakas1042(
+                                // REPLACE: as /əz/, strong form  /æz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) بۆ بەراوردکردن بەکاردێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You're as tall as your father."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھێندەی باوکت درێژی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakas1044("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakas1044(
-                                        // REPLACE: as /əz/, strong form  /æz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You're as tall as your father.",
+                            kurdishText: "ھێندەی باوکت درێژی.",
+                            onPressedBritish: () => speakas1044("en-GB"),
+                            onPressedAmerican: () => speakas1044(
+                                // REPLACE: as /əz/, strong form  /æz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵکار) بەکاردێت بۆ وتنی ئەوەی شتێک بە ھەمان شێوە روودەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "As always, he said little."),
-                                    ExampleSentenceKurdish(
-                                        text: "وەک ھەمیشە، کەمێک قسەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakas1046("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakas1046(
-                                        // REPLACE: as /əz/, strong form  /æz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "As always, he said little.",
+                            kurdishText: "وەک ھەمیشە، کەمێک قسەی کرد.",
+                            onPressedBritish: () => speakas1046("en-GB"),
+                            onPressedAmerican: () => speakas1046(
+                                // REPLACE: as /əz/, strong form  /æz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵکار) بەکاردێت بۆ سەرنج‌خستنەسەر بڕێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As many as 2 million people could be affected."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تا ٢ ملیۆن کەس دەکرێت کاریگەر بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakas1047("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakas1047(
-                                        // REPLACE: as /əz/, strong form  /æz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As many as 2 million people could be affected.",
+                            kurdishText: "تا ٢ ملیۆن کەس دەکرێت کاریگەر بن.",
+                            onPressedBritish: () => speakas1047("en-GB"),
+                            onPressedAmerican: () => speakas1047(
+                                // REPLACE: as /əz/, strong form  /æz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (لێکدەر) لە کاتی ڕوودانی شتێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He sat watching her as she got ready."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانیشتوو سەیری کرد کە خۆی دەگۆڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakas1049("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakas1049(
-                                        // REPLACE: as /əz/, strong form  /æz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He sat watching her as she got ready.",
+                            kurdishText: "دانیشتوو سەیری کرد کە خۆی دەگۆڕی.",
+                            onPressedBritish: () => speakas1049("en-GB"),
+                            onPressedAmerican: () => speakas1049(
+                                // REPLACE: as /əz/, strong form  /æz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -118,92 +118,35 @@ class EnglishEntryabsorption extends StatelessWidget {
                               text:
                                   "١. (ناو) ھەڵمژینی شلە، گاس، یان ھەر مادەیەکی دیکە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Vitamin D is necessary to aid the absorption of calcium from food."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڤیتامین D پێویستە بۆ یارمەتیی ھەڵمژینی کالسیۆم لە خۆراکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3591("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka3591("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Vitamin D is necessary to aid the absorption of calcium from food.",
+                            kurdishText:
+                                "ڤیتامین D پێویستە بۆ یارمەتیی ھەڵمژینی کالسیۆم لە خۆراکەوە.",
+                            onPressedBritish: () => speaka3591("en-GB"),
+                            onPressedAmerican: () => speaka3591("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پڕۆسەی گرتنەخۆی گروپێکی بچووک لەلایەن یەکێکی گەورەترەوە """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "the absorption of the town into the Leeds City Region"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرتنەخۆی شارۆچکەکە لەلایەن ھەرێمی شاری لیدزەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakab3618("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakab3618("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "the absorption of the town into the Leeds City Region",
+                            kurdishText:
+                                "گرتنەخۆی شارۆچکەکە لەلایەن ھەرێمی شاری لیدزەوە.",
+                            onPressedBritish: () => speakab3618("en-GB"),
+                            onPressedAmerican: () => speakab3618("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کاتێک کەسێک زۆر حەز لە شتێک دەکات """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His work suffered because of his total absorption in sport."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکەی زیانی پێگەیشت بەھۆی ڕۆچوونی لە وەرزشدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka36948("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka36948("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His work suffered because of his total absorption in sport.",
+                            kurdishText:
+                                "کارەکەی زیانی پێگەیشت بەھۆی ڕۆچوونی لە وەرزشدا.",
+                            onPressedBritish: () => speaka36948("en-GB"),
+                            onPressedAmerican: () => speaka36948("en-US"),
                           ),
                         ],
                       ),

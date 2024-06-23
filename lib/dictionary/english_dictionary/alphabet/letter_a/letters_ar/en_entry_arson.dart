@@ -160,34 +160,15 @@ class EnglishEntryarson extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سوتاندنی شوێنێک بە ئەنقەست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A cinema was burned out in north London last night. Police suspect arson."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سینەمایەک دوێنێ شەو بە تەواوی لە باکووری لەندەن سووتا. پۆلیس گەمانی ھەیە سوتاندنی بە ئەنقەست بووبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarson912("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarson912(// REPLACE: arson /ˈɑːrsn/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A cinema was burned out in north London last night. Police suspect arson.",
+                            kurdishText:
+                                "سینەمایەک دوێنێ شەو بە تەواوی لە باکووری لەندەن سووتا. پۆلیس گەمانی ھەیە سوتاندنی بە ئەنقەست بووبێت.",
+                            onPressedBritish: () => speakarson912("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarson912(// REPLACE: arson /ˈɑːrsn/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

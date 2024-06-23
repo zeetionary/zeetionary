@@ -127,159 +127,63 @@ class EnglishEntryadmit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) داننان بەوەی شتێک ڕاستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She stubbornly refuses to admit the truth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە کەللەڕەقییەوە ڕەتیدەکاتەوە دان بە ڕاستییەکە بنێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmi4527("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakadmi4527(// REPLACE: admit /ədˈmɪt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She stubbornly refuses to admit the truth.",
+                            kurdishText:
+                                "بە کەللەڕەقییەوە ڕەتیدەکاتەوە دان بە ڕاستییەکە بنێ.",
+                            onPressedBritish: () => speakadmi4527("en-GB"),
+                            onPressedAmerican: () =>
+                                speakadmi4527(// REPLACE: admit /ədˈmɪt/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was generally admitted that the government had acted too quickly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەکی گشتی دان بەوەدا نرا کە حکومەت بەزووی ھەنگاوی نا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmit4568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmit4568(
-                                        // REPLACE: admit /ədˈmɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was generally admitted that the government had acted too quickly.",
+                            kurdishText:
+                                "بەشێوەیەکی گشتی دان بەوەدا نرا کە حکومەت بەزووی ھەنگاوی نا.",
+                            onPressedBritish: () => speakadmit4568("en-GB"),
+                            onPressedAmerican: () => speakadmit4568(
+                                // REPLACE: admit /ədˈmɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) داننان بە بەرپرسیاریەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He refused to admit his guilt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەتیکردەوە دان بە ھەڵەکەیدا بنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmit34587("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmit34587(
-                                        // REPLACE: admit /ədˈmɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He refused to admit his guilt.",
+                            kurdishText: "ڕەتیکردەوە دان بە ھەڵەکەیدا بنێت.",
+                            onPressedBritish: () => speakadmit34587("en-GB"),
+                            onPressedAmerican: () => speakadmit34587(
+                                // REPLACE: admit /ədˈmɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ڕێگەدان بە کەسێک بچێتە شوێنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You will not be admitted to the theatre after the performance has started."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگەت پێنادرێت بچیتە ناو ھۆڵی شانۆ لە دوای ئەوەی نمایش دەستیپێکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmit45682("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmit45682(
-                                        // REPLACE: admit /ədˈmɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You will not be admitted to the theatre after the performance has started.",
+                            kurdishText:
+                                "ڕێگەت پێنادرێت بچیتە ناو ھۆڵی شانۆ لە دوای ئەوەی نمایش دەستیپێکردووە.",
+                            onPressedBritish: () => speakadmit45682("en-GB"),
+                            onPressedAmerican: () => speakadmit45682(
+                                // REPLACE: admit /ədˈmɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) بردنی کەسێک بۆ نەخۆشخانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Two crash victims were admitted to the local hospital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو قوربانی پێکدادانەکە بردرانە نەخۆشخانە ناوخۆییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmit458796("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmit458796(
-                                        // REPLACE: admit /ədˈmɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Two crash victims were admitted to the local hospital.",
+                            kurdishText:
+                                "دوو قوربانی پێکدادانەکە بردرانە نەخۆشخانە ناوخۆییەکە.",
+                            onPressedBritish: () => speakadmit458796("en-GB"),
+                            onPressedAmerican: () => speakadmit458796(
+                                // REPLACE: admit /ədˈmɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

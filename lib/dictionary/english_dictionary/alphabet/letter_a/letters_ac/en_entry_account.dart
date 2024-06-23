@@ -139,179 +139,61 @@ class EnglishEntryaccount extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ڕێککەوتنێک کە کەسێک لەگەڵ بانکێك ھەیەتی بۆ ھەڵگرتنی پارەکانی و کێشانەوە لێی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He opened an account at a bank in Germany."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەژمارێکی کردەوە لە بانکێک لە ئەڵمانیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2573("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2573("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He opened an account at a bank in Germany.",
+                            kurdishText:
+                                "ھەژمارێکی کردەوە لە بانکێک لە ئەڵمانیا.",
+                            onPressedBritish: () => speaka2573("en-GB"),
+                            onPressedAmerican: () => speaka2573("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What's your account number please?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێزەحمەت، ژمارەی ھەژمارەکەت چەندە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac2481("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac2481("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "What's your account number please?",
+                            kurdishText: "بێزەحمەت، ژمارەی ھەژمارەکەت چەندە؟",
+                            onPressedBritish: () => speakac2481("en-GB"),
+                            onPressedAmerican: () => speakac2481("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھەبوونی ھەژمارێک لەسەر ئینتەرنێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My YouTube account was terminated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەژمارەکەم لەسەر یووتیووب سڕکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka14258("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka14258("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My YouTube account was terminated.",
+                            kurdishText: "ھەژمارەکەم لەسەر یووتیووب سڕکرا.",
+                            onPressedBritish: () => speaka14258("en-GB"),
+                            onPressedAmerican: () => speaka14258("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) گێڕانەوەی ڕووداوێک کە ڕوویداوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She gave the police a full account of the incident."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گێڕانەوەی تەواوی ڕووداوەکەی بە پۆلیس گوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka52489("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka52489("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She gave the police a full account of the incident.",
+                            kurdishText:
+                                "گێڕانەوەی تەواوی ڕووداوەکەی بە پۆلیس گوت.",
+                            onPressedBritish: () => speaka52489("en-GB"),
+                            onPressedAmerican: () => speaka52489("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) لیستی حیساباتی کڕین و فرۆشتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Try to keep accurate accounts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵبدە لیستی حیساباتەکە بە درووستی ڕابگری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3518("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka3518("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Try to keep accurate accounts.",
+                            kurdishText:
+                                "ھەوڵبدە لیستی حیساباتەکە بە درووستی ڕابگری.",
+                            onPressedBritish: () => speaka3518("en-GB"),
+                            onPressedAmerican: () => speaka3518("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) ھەبوونی بۆچوونێک لەسەر کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "English law a person is accounted innocent until they are proved guilty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە یاسای ئینگلتەرە کەسێک بە بێتاوان سەیردەکرێت تا بە تاوانبار دەسەلمێندرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac24579("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac24579("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "English law a person is accounted innocent until they are proved guilty.",
+                            kurdishText:
+                                "لە یاسای ئینگلتەرە کەسێک بە بێتاوان سەیردەکرێت تا بە تاوانبار دەسەلمێندرێت.",
+                            onPressedBritish: () => speakac24579("en-GB"),
+                            onPressedAmerican: () => speakac24579("en-US"),
                           ),
                         ],
                       ),

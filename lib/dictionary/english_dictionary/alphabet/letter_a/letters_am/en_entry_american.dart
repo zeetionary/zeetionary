@@ -179,94 +179,34 @@ class EnglishEntryamerican extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێکی ئەمریکایی، بەتایبەت دانیشتووی ویلایەتە یەکگرتووەکانی ئەمریکا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He said he was proud to be an American."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوتی شانازییە بۆی خەڵکی ئەمریکا بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamerican4211("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamerican4211(
-                                        // REPLACE: American /əˈmerɪkən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He said he was proud to be an American.",
+                            kurdishText: "گوتی شانازییە بۆی خەڵکی ئەمریکا بێت.",
+                            onPressedBritish: () => speakamerican4211("en-GB"),
+                            onPressedAmerican: () => speakamerican4211(
+                                // REPLACE: American /əˈmerɪkən/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بە ئەمریکا، بەتایبەت ویلایەتە یەکگرتووەکانی ئەمریکا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'm American."),
-                                    ExampleSentenceKurdish(
-                                        text: "من ئەمریکیم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamerican4555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamerican4555(
-                                        // REPLACE: American /əˈmerɪkən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'm American.",
+                            kurdishText: "من ئەمریکیم.",
+                            onPressedBritish: () => speakamerican4555("en-GB"),
+                            onPressedAmerican: () => speakamerican4555(
+                                // REPLACE: American /əˈmerɪkən/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They drive a big American car."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلێکی گەورەی ئەمریکییان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamerican46599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamerican46599(
-                                        // REPLACE: American /əˈmerɪkən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They drive a big American car.",
+                            kurdishText: "ئۆتۆمبێلێکی گەورەی ئەمریکییان ھەیە.",
+                            onPressedBritish: () => speakamerican46599("en-GB"),
+                            onPressedAmerican: () => speakamerican46599(
+                                // REPLACE: American /əˈmerɪkən/
+                                "en-US"),
                           ),
                         ],
                       ),

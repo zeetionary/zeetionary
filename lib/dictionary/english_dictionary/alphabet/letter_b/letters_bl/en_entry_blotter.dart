@@ -149,63 +149,25 @@ class EnglishEntryblotter extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پارچەیەکی گەورە لە وشککەرەوە کە لایەکی توند و جیڕە و بەکاردێت بۆ ھەڵمژینی مەرەکەب، زۆرجار لەسەر مێزێک دادەنرێت بۆ پاراستنی لە کاتی نووسیندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She kept a fresh blotter on her desk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاوھەڵچنەیەکی پاکی لەسەر مێزەکەی دادەنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblotters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblotters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She kept a fresh blotter on her desk.",
+                            kurdishText:
+                                "ئاوھەڵچنەیەکی پاکی لەسەر مێزەکەی دادەنا.",
+                            onPressedBritish: () => speakblotters1("en-GB"),
+                            onPressedAmerican: () => speakblotters1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) تۆماری دەستگیرکردنەکان لەلایەن پۆلیسەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police officer updated the blotter with new incidents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەفسەرەکە تۆمارەکەی نوێکردەوە بۆ زیادکردنی ڕووداوە تازەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblotters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblotters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police officer updated the blotter with new incidents.",
+                            kurdishText:
+                                "ئەفسەرەکە تۆمارەکەی نوێکردەوە بۆ زیادکردنی ڕووداوە تازەکان.",
+                            onPressedBritish: () => speakblotters2("en-GB"),
+                            onPressedAmerican: () => speakblotters2("en-US"),
                           ),
                         ],
                       ),

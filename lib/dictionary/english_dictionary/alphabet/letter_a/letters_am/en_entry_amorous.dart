@@ -180,34 +180,15 @@ class EnglishEntryamorous extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پیشاندانی حەزی سێکسی و خۆشەویستی بۆ کەسێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mary rejected Tony's amorous advances."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماری ھەوڵە ئەویندارییەکانی تۆنی‌ی ڕەتکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamorous441("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamorous441(
-                                        // REPLACE: amorous /ˈæmərəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mary rejected Tony's amorous advances.",
+                            kurdishText:
+                                "ماری ھەوڵە ئەویندارییەکانی تۆنی‌ی ڕەتکردەوە.",
+                            onPressedBritish: () => speakamorous441("en-GB"),
+                            onPressedAmerican: () => speakamorous441(
+                                // REPLACE: amorous /ˈæmərəs/
+                                "en-US"),
                           ),
                         ],
                       ),

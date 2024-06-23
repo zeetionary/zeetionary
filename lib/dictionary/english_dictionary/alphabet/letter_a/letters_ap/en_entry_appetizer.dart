@@ -163,34 +163,15 @@ class EnglishEntryappetizer extends StatelessWidget {
                               text:
                                   "١. (ناو) کەمێک خواردن یان خواردنەوە کە دەیخۆیت لە پێش ژەمێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some green olives make a simple appetizer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک زەیتوونی سەوز بەرخۆراکێکی باش دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappetizer312("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappetizer312(
-                                        // REPLACE: appetizer /ˈæpɪtaɪzər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some green olives make a simple appetizer.",
+                            kurdishText:
+                                "ھەندێک زەیتوونی سەوز بەرخۆراکێکی باش دەبێت.",
+                            onPressedBritish: () => speakappetizer312("en-GB"),
+                            onPressedAmerican: () => speakappetizer312(
+                                // REPLACE: appetizer /ˈæpɪtaɪzər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

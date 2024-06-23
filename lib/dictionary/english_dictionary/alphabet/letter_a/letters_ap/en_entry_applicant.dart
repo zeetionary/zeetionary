@@ -162,34 +162,14 @@ class EnglishEntryapplicant extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە بە فەرمی داوای شتێک دەکات، بۆ نموونە کارێک، جێگایەک لە زانکۆ یان کۆلێژێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were over 500 applicants for the job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیاتر لە ٥٠٠ داواکار بۆ کارەکە ھەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapplicant656("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapplicant656(
-                                        // REPLACE: applicant /ˈæplɪkənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were over 500 applicants for the job.",
+                            kurdishText: "زیاتر لە ٥٠٠ داواکار بۆ کارەکە ھەن.",
+                            onPressedBritish: () => speakapplicant656("en-GB"),
+                            onPressedAmerican: () => speakapplicant656(
+                                // REPLACE: applicant /ˈæplɪkənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

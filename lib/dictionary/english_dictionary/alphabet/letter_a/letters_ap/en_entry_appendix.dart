@@ -161,67 +161,27 @@ class EnglishEntryappendix extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پارچە تورەگەیەک کە لکاوە بە ڕیخۆڵە ئەستوورەوە و ھیچ ئەرکێکی زانراوی نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had to have his appendix out (= removed)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویست بوو پەلەڕیخۆڵەی دەربێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappendix216("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappendix216(
-                                        // REPLACE: appendix /əˈpendɪks/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had to have his appendix out (= removed).",
+                            kurdishText: "پێویست بوو پەلەڕیخۆڵەی دەربێنێت.",
+                            onPressedBritish: () => speakappendix216("en-GB"),
+                            onPressedAmerican: () => speakappendix216(
+                                // REPLACE: appendix /əˈpendɪks/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بەشێکی کتێبێک یان دۆکیومێنتێک کە زانیاریی زیادەی تێدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Full details are given in Appendix 3."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وردەکاریی تەواو لە پاشکۆی ٣ دراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappendix218("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappendix218(
-                                        // REPLACE: appendix /əˈpendɪks/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Full details are given in Appendix 3.",
+                            kurdishText: "وردەکاریی تەواو لە پاشکۆی ٣ دراوە.",
+                            onPressedBritish: () => speakappendix218("en-GB"),
+                            onPressedAmerican: () => speakappendix218(
+                                // REPLACE: appendix /əˈpendɪks/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

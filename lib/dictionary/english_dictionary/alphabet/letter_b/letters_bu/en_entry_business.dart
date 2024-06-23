@@ -401,213 +401,80 @@ class EnglishEntrybusiness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کاری درووست کردن، کڕین، فرۆشتن، یان پێدانی کەلوپەل و خزمەتگوزاری لە بەرامبەر پارەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's been a pleasure to do business with you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مایەی خۆشحاڵی بووە کار لەگەڵ تۆدا بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "business", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's been a pleasure to do business with you.",
+                            kurdishText:
+                                "مایەی خۆشحاڵی بووە کار لەگەڵ تۆدا بکەم.", // business", follow LX strictly
+                            onPressedBritish: () => speakbusinesss1("en-GB"),
+                            onPressedAmerican: () => speakbusinesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There will be some changes to the way we conduct business."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک گۆڕانکاری دەبێت لە شێوازی کارکردنماندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There will be some changes to the way we conduct business.",
+                            kurdishText:
+                                "ھەندێک گۆڕانکاری دەبێت لە شێوازی کارکردنماندا.",
+                            onPressedBritish: () => speakbusinesss2("en-GB"),
+                            onPressedAmerican: () => speakbusinesss2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "When he left school, he went into business with his brother."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کە قوتابخانەی جێھێشت، چووە کارەوە لەگەڵ براکەیدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbusinesss3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbusinesss3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "When he left school, he went into business with his brother.",
+                                    kurdishText:
+                                        "کە قوتابخانەی جێھێشت، چووە کارەوە لەگەڵ براکەیدا.",
+                                    onPressedBritish: () =>
+                                        speakbusinesss3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbusinesss3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She works in the software business."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە پیشەی نەرمامێردا کاردەکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbusinesss4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbusinesss4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She works in the software business.",
+                                    kurdishText:
+                                        "لە پیشەی نەرمامێردا کاردەکات.",
+                                    onPressedBritish: () =>
+                                        speakbusinesss4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbusinesss4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We need to concentrate on our core business (= the main thing that our business does)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دەبێت سەرنج بخەینە سەر کاسپیی سەرەکیمان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbusinesss5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbusinesss5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We need to concentrate on our core business (= the main thing that our business does).",
+                                    kurdishText:
+                                        "دەبێت سەرنج بخەینە سەر کاسپیی سەرەکیمان.",
+                                    onPressedBritish: () =>
+                                        speakbusinesss5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbusinesss5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "It's good business practice to listen to your customers."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گوێگرتن لە کڕیاران شێوازێکی باشی کاسپی کردنە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbusinesss6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbusinesss6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "It's good business practice to listen to your customers.",
+                                    kurdishText:
+                                        "گوێگرتن لە کڕیاران شێوازێکی باشی کاسپی کردنە.",
+                                    onPressedBritish: () =>
+                                        speakbusinesss6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbusinesss6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Falling prices are wreaking havoc in the oil business."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "داکەوتنی نرخ پشێوەی درووستکردووە لە پیشەسازی نەوتدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbusinesss7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbusinesss7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Falling prices are wreaking havoc in the oil business.",
+                                    kurdishText:
+                                        "داکەوتنی نرخ پشێوەی درووستکردووە لە پیشەسازی نەوتدا.",
+                                    onPressedBritish: () =>
+                                        speakbusinesss7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbusinesss7("en-US"),
                                   ),
                                 ],
                               ),
@@ -616,92 +483,34 @@ class EnglishEntrybusiness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کارێک کە بەشێکە لە پیشەکەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Is the trip to Rome for business or pleasure?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشتەکەت بۆ ڕۆما بۆ کارە یان خۆشی؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Is the trip to Rome for business or pleasure?",
+                            kurdishText: "گەشتەکەت بۆ ڕۆما بۆ کارە یان خۆشی؟",
+                            onPressedBritish: () => speakbusinesss8("en-GB"),
+                            onPressedAmerican: () => speakbusinesss8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was not his habit to discuss his business affairs with strangers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو خووەی نەبوو باسی کارەکانی لەگەڵ کەسانی نامۆ بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was not his habit to discuss his business affairs with strangers.",
+                            kurdishText:
+                                "ئەو خووەی نەبوو باسی کارەکانی لەگەڵ کەسانی نامۆ بکات.",
+                            onPressedBritish: () => speakbusinesss9("en-GB"),
+                            onPressedAmerican: () => speakbusinesss9("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I'm going to Paris on business."),
-                                            ExampleSentenceKurdish(
-                                                text: "دەچم بۆ پاریس بۆ کار."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbusinesss10("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbusinesss10("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I'm going to Paris on business.",
+                                    kurdishText: "دەچم بۆ پاریس بۆ کار.",
+                                    onPressedBritish: () =>
+                                        speakbusinesss10("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbusinesss10("en-US"),
                                   ),
                                 ],
                               ),
@@ -711,180 +520,64 @@ class EnglishEntrybusiness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەو کارەی لەلایەن کۆمپانیایەکەوە دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Our business is booming."),
-                                    ExampleSentenceKurdish(
-                                        text: "مەعامەلەمان خەریکە دەتەقێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Our business is booming.",
+                            kurdishText: "مەعامەلەمان خەریکە دەتەقێتەوە.",
+                            onPressedBritish: () => speakbusinesss11("en-GB"),
+                            onPressedAmerican: () => speakbusinesss11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her job was to drum up (= increase) business."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاری ئەوەبوو مەعامەلە زیاد بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her job was to drum up (= increase) business.",
+                            kurdishText: "کاری ئەوەبوو مەعامەلە زیاد بکات.",
+                            onPressedBritish: () => speakbusinesss12("en-GB"),
+                            onPressedAmerican: () => speakbusinesss12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) دامەزراوەیەکی بازرگانی، بۆ نموونە کۆمپانیایەک، فرۆشگایەک، کارگەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We try to support local businesses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ دەدەین پشتگیری کاردارییە خۆجێیەکان بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We try to support local businesses.",
+                            kurdishText:
+                                "ھەوڵ دەدەین پشتگیری کاردارییە خۆجێیەکان بکەین.",
+                            onPressedBritish: () => speakbusinesss13("en-GB"),
+                            onPressedAmerican: () => speakbusinesss13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wanted to expand the export side of the business."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵیدا لایەنی ھەناردەی کارەکەی گەشەپێ‌بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wanted to expand the export side of the business.",
+                            kurdishText:
+                                "ھەوڵیدا لایەنی ھەناردەی کارەکەی گەشەپێ‌بدات.",
+                            onPressedBritish: () => speakbusinesss14("en-GB"),
+                            onPressedAmerican: () => speakbusinesss14("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "After six months the business really took off."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە دوای شەش مانگ بازرگانییەکە فڕی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbusinesss15("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbusinesss15("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "After six months the business really took off.",
+                                    kurdishText:
+                                        "لە دوای شەش مانگ بازرگانییەکە فڕی.",
+                                    onPressedBritish: () =>
+                                        speakbusinesss15("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbusinesss15("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She runs a successful online business."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بازرگانییەکی سەرکەوتووانەی ئۆنلاین دەکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbusinesss16("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbusinesss16("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She runs a successful online business.",
+                                    kurdishText:
+                                        "بازرگانییەکی سەرکەوتووانەی ئۆنلاین دەکات.",
+                                    onPressedBritish: () =>
+                                        speakbusinesss16("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbusinesss16("en-US"),
                                   ),
                                 ],
                               ),
@@ -894,93 +587,36 @@ class EnglishEntrybusiness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) شتێک کە دامەزراوەیەک یان کەسێک بەرپرسە بۆی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is the business of the police to protect the community."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە ئەرکی پۆلیسە کۆمەڵگەکە بپارێزێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is the business of the police to protect the community.",
+                            kurdishText:
+                                "ئەوە ئەرکی پۆلیسە کۆمەڵگەکە بپارێزێت.",
+                            onPressedBritish: () => speakbusinesss17("en-GB"),
+                            onPressedAmerican: () => speakbusinesss17("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I shall make it my business to find out who is responsible."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆزینەوەی بەرپرسیار دەخەمە سەر شانی خۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I shall make it my business to find out who is responsible.",
+                            kurdishText:
+                                "دۆزینەوەی بەرپرسیار دەخەمە سەر شانی خۆم.",
+                            onPressedBritish: () => speakbusinesss18("en-GB"),
+                            onPressedAmerican: () => speakbusinesss18("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "My private life is none of your business (= not something that you need to know about)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ژیانی تایبەتیم ھیچ پەیوەندی بە تۆوە نییە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbusinesss19("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbusinesss19("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "My private life is none of your business (= not something that you need to know about).",
+                                    kurdishText:
+                                        "ژیانی تایبەتیم ھیچ پەیوەندی بە تۆوە نییە.",
+                                    onPressedBritish: () =>
+                                        speakbusinesss19("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbusinesss19("en-US"),
                                   ),
                                 ],
                               ),
@@ -990,150 +626,52 @@ class EnglishEntrybusiness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) بابەتی گرنگ کە دەبێت مامەڵەی لەگەڵ بکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has some unfinished business to deal with."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کاری ناتەواوی ھەیە تەواویان بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss20("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss20("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has some unfinished business to deal with.",
+                            kurdishText:
+                                "ھەندێک کاری ناتەواوی ھەیە تەواویان بکات.",
+                            onPressedBritish: () => speakbusinesss20("en-GB"),
+                            onPressedAmerican: () => speakbusinesss20("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They should leave the business of making policy to the experts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت کاری دانانی سیاسەت دابنێن بۆ شارەزایان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss21("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss21("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They should leave the business of making policy to the experts.",
+                            kurdishText:
+                                "دەبێت کاری دانانی سیاسەت دابنێن بۆ شارەزایان.",
+                            onPressedBritish: () => speakbusinesss21("en-GB"),
+                            onPressedAmerican: () => speakbusinesss21("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) بابەتێک، ڕووداوێک، دۆخێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That plane crash was a terrible business."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێکشکانی فڕۆکەکە ڕووداوێکی ناخۆش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss22("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss22("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That plane crash was a terrible business.",
+                            kurdishText:
+                                "تێکشکانی فڕۆکەکە ڕووداوێکی ناخۆش بوو.",
+                            onPressedBritish: () => speakbusinesss22("en-GB"),
+                            onPressedAmerican: () => speakbusinesss22("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I found the whole business very depressing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی دۆخەکەم بە نائومێدکەر بینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss23("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss23("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I found the whole business very depressing.",
+                            kurdishText: "تەواوی دۆخەکەم بە نائومێدکەر بینی.",
+                            onPressedBritish: () => speakbusinesss23("en-GB"),
+                            onPressedAmerican: () => speakbusinesss23("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (ناو) کڕینی خزمەتگوزاری و کاڵا لە فرۆشگایەک یان بازرگانییەک لە لایەن خەڵکییەوە"),
                           const AlsoEnglishckb(word: "ھەروەھا: custom"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We're grateful for your business."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوپاسگوزارین بۆ ھەڵبژاردنی ئێمە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusinesss24("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusinesss24("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We're grateful for your business.",
+                            kurdishText: "سوپاسگوزارین بۆ ھەڵبژاردنی ئێمە.",
+                            onPressedBritish: () => speakbusinesss24("en-GB"),
+                            onPressedAmerican: () => speakbusinesss24("en-US"),
                           ),
                         ],
                       ),

@@ -157,34 +157,15 @@ class EnglishEntrybandstand extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ستەیجێک کە باندی میوزیکی لەسەری دەوەستن و گۆرانی دەڵێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The event will include a band performing on the restored bandstand."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆنەکە باندێک لەخۆدەگرێت کە گۆرانی دەڵێن لەسەر سەکۆ نۆژەنکراوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbandstands1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbandstands1(// REPLACE: bandstand
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The event will include a band performing on the restored bandstand.",
+                            kurdishText:
+                                "بۆنەکە باندێک لەخۆدەگرێت کە گۆرانی دەڵێن لەسەر سەکۆ نۆژەنکراوەکە.",
+                            onPressedBritish: () => speakbandstands1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbandstands1(// REPLACE: bandstand
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

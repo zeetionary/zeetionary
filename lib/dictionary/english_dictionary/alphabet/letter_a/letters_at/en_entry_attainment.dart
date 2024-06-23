@@ -164,69 +164,29 @@ class EnglishEntryattainment extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) شتێک کە بەدەستتھێناوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His scientific attainments are well known."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەدەستھێنانە زانستییەکانی شتێکی زانراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattainment730("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattainment730(
-                                        // REPLACE: attainment
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His scientific attainments are well known.",
+                            kurdishText:
+                                "بەدەستھێنانە زانستییەکانی شتێکی زانراوە.",
+                            onPressedBritish: () => speakattainment730("en-GB"),
+                            onPressedAmerican: () => speakattainment730(
+                                // REPLACE: attainment
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) سەرکەوتن لە بەدەستھێنانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She values educational attainment above all else."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەدەستھێنانی خوێندن لە سەروو ھەموو شتێکی دادەنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattainment732("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattainment732(
-                                        // REPLACE: attainment
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She values educational attainment above all else.",
+                            kurdishText:
+                                "بەدەستھێنانی خوێندن لە سەروو ھەموو شتێکی دادەنا.",
+                            onPressedBritish: () => speakattainment732("en-GB"),
+                            onPressedAmerican: () => speakattainment732(
+                                // REPLACE: attainment
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

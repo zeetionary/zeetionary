@@ -157,65 +157,27 @@ class EnglishEntryavert extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) ڕێگرتن لە شتێکی خراپ یان مەترسیدار لە ڕوودان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "A disaster was averted."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕێگە لە کارەساتێک گیردرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaverts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaverts1(// REPLACE: avert
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A disaster was averted.",
+                            kurdishText: "ڕێگە لە کارەساتێک گیردرا.",
+                            onPressedBritish: () => speakaverts1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaverts1(// REPLACE: avert
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) کادانی چاوت یان شتێکی تر بۆ دووربوون لە بینینی شتێک کە ناتەوێت بیبینی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She averted her eyes from the terrible scene in front of her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوی لادا لەو ڕووداوە تۆقێنەرەی لە پێشی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaverts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaverts2(// REPLACE: avert
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She averted her eyes from the terrible scene in front of her.",
+                            kurdishText:
+                                "چاوی لادا لەو ڕووداوە تۆقێنەرەی لە پێشی بوو.",
+                            onPressedBritish: () => speakaverts2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaverts2(// REPLACE: avert
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

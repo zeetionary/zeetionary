@@ -166,67 +166,29 @@ class EnglishEntryastral extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) پەیوەندیدار بە ئەستێرەکان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The astronomer observed the astral bodies through his telescope."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەستێرەناسەکە بە تەلیسکۆبەکەیەوە سەرنجیدایە تەنە ئەستێرەییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakastral1111("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakastral1111(// REPLACE: astral
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The astronomer observed the astral bodies through his telescope.",
+                            kurdishText:
+                                "ئەستێرەناسەکە بە تەلیسکۆبەکەیەوە سەرنجیدایە تەنە ئەستێرەییەکان.",
+                            onPressedBritish: () => speakastral1111("en-GB"),
+                            onPressedAmerican: () =>
+                                speakastral1111(// REPLACE: astral
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بە جیھانی ڕۆحی، وەک لە ژیانی ڕاستی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She believed that her dreams took her to the astral plane."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وای بیرکردەوە کە خەونەکانی بردنی بۆ جیھانی خەیاڵاوی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakastral1115("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakastral1115(// REPLACE: astral
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She believed that her dreams took her to the astral plane.",
+                            kurdishText:
+                                "وای بیرکردەوە کە خەونەکانی بردنی بۆ جیھانی خەیاڵاوی.",
+                            onPressedBritish: () => speakastral1115("en-GB"),
+                            onPressedAmerican: () =>
+                                speakastral1115(// REPLACE: astral
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

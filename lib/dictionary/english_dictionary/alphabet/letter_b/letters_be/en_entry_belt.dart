@@ -208,274 +208,94 @@ class EnglishEntrybelt extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) قایش کە لە کەمەر دەبەسترێت لەگەڵ جلدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Around his waist he wore a belt."),
-                                    ExampleSentenceKurdish(
-                                        text: "قایشێکی لە کەمەری بەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Around his waist he wore a belt.",
+                            kurdishText: "قایشێکی لە کەمەری بەست.",
+                            onPressedBritish: () => speakbelts1("en-GB"),
+                            onPressedAmerican: () => speakbelts1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She fastened her belt tightly around her waist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قایشەکەی بەتوندی لە کەمەری بەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She fastened her belt tightly around her waist.",
+                            kurdishText: "قایشەکەی بەتوندی لە کەمەری بەست.",
+                            onPressedBritish: () => speakbelts2("en-GB"),
+                            onPressedAmerican: () => speakbelts2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پارچەیەک کە بەردەوام دەجوڵێت و شت دەگوازێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The conveyor belt carried the boxes to the loading dock."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قایشە گوازەرەوەکە سنووقی دەگواستەوە بۆ جێگەی بارکردنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The conveyor belt carried the boxes to the loading dock.",
+                            kurdishText:
+                                "قایشە گوازەرەوەکە سنووقی دەگواستەوە بۆ جێگەی بارکردنەکە.",
+                            onPressedBritish: () => speakbelts3("en-GB"),
+                            onPressedAmerican: () => speakbelts3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ناوچەیەکی باریک یان لە کەناری شوێنێک کە خاسیەتی تایبەتی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Towns in the country's industrial belt were particularly affected by the recession."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو شارۆچکانەی لە ناوچەی پیشەسازی وڵاتەکە بوون بەتایبەتی کاریگەر بوون بە قەیرانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Towns in the country's industrial belt were particularly affected by the recession.",
+                            kurdishText:
+                                "ئەو شارۆچکانەی لە ناوچەی پیشەسازی وڵاتەکە بوون بەتایبەتی کاریگەر بوون بە قەیرانەکە.",
+                            onPressedBritish: () => speakbelts4("en-GB"),
+                            onPressedAmerican: () => speakbelts4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) لێدانی شتێک بەتوندی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She gave the ball a terrific belt."),
-                                    ExampleSentenceKurdish(
-                                        text: "لێدانێکی ناوازەی دا لە تۆپەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She gave the ball a terrific belt.",
+                            kurdishText: "لێدانێکی ناوازەی دا لە تۆپەکە.",
+                            onPressedBritish: () => speakbelts5("en-GB"),
+                            onPressedAmerican: () => speakbelts5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) لێدانی شتێک بەتوندی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He belted the ball right out of the park."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆپەکەی فڕێدایە دەرەوەی پارکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He belted the ball right out of the park.",
+                            kurdishText: "تۆپەکەی فڕێدایە دەرەوەی پارکەکە.",
+                            onPressedBritish: () => speakbelts6("en-GB"),
+                            onPressedAmerican: () => speakbelts6("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'll belt you if you do that again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دارکاریت ئەکەم ئەگەر دووبارەی بکەیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'll belt you if you do that again.",
+                            kurdishText:
+                                "دارکاریت ئەکەم ئەگەر دووبارەی بکەیتەوە.",
+                            onPressedBritish: () => speakbelts7("en-GB"),
+                            onPressedAmerican: () => speakbelts7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) جوڵان بەخێرایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A truck came belting up behind us."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بارھەڵگرێک بەخێرایی لەدوامانەوە ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A truck came belting up behind us.",
+                            kurdishText: "بارھەڵگرێک بەخێرایی لەدوامانەوە ھات.",
+                            onPressedBritish: () => speakbelts8("en-GB"),
+                            onPressedAmerican: () => speakbelts8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (کردار) بەستنی قایشێک بە دەوری شتێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dress was belted at the waist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلەکە قایشێکی لێ بەسترا لە کەمەردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The dress was belted at the waist.",
+                            kurdishText: "جلەکە قایشێکی لێ بەسترا لە کەمەردا.",
+                            onPressedBritish: () => speakbelts9("en-GB"),
+                            onPressedAmerican: () => speakbelts9("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

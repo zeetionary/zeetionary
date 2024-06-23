@@ -176,35 +176,15 @@ class EnglishEntryamethyst extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەمیتیست؛ بەردێکی بەنرخی وەنەوشەیی، کە لە دروستکردنی خشڵی جوانکاریدا بەکاردەھێنرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bishops and cardinals used to wear amethyst as a symbol of peace."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەورە‌قەشە و سەر‌قەشەکان جاران ئەمیتیستیان وەک سمبولی ئاشتی لەبەردەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamethyst47666("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamethyst47666(
-                                        // REPLACE: amethyst /ˈæməθɪst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bishops and cardinals used to wear amethyst as a symbol of peace.",
+                            kurdishText:
+                                "گەورە‌قەشە و سەر‌قەشەکان جاران ئەمیتیستیان وەک سمبولی ئاشتی لەبەردەکرد.",
+                            onPressedBritish: () => speakamethyst47666("en-GB"),
+                            onPressedAmerican: () => speakamethyst47666(
+                                // REPLACE: amethyst /ˈæməθɪst/
+                                "en-US"),
                           ),
                         ],
                       ),

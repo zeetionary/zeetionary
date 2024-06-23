@@ -160,130 +160,51 @@ class EnglishEntryascribeto extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) دانەپاڵی کتێبێک یان شتێکی تر بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This play is usually ascribed to Shakespeare."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم شانۆیە زۆرجار دەدرێتەپاڵ شکسپیر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakascribeto141("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakascribeto141(
-                                        // REPLACE: ascribe /əˈskraɪb tə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This play is usually ascribed to Shakespeare.",
+                            kurdishText: "ئەم شانۆیە زۆرجار دەدرێتەپاڵ شکسپیر.",
+                            onPressedBritish: () => speakascribeto141("en-GB"),
+                            onPressedAmerican: () => speakascribeto141(
+                                // REPLACE: ascribe /əˈskraɪb tə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کاری لێکدراو) وتنی ئەوەی شتێک نەھۆی شتێکی ترەوە ڕوویداوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He ascribed his failure to bad luck."),
-                                    ExampleSentenceKurdish(
-                                        text: "شکستەکەیی خستەمل بێ‌بەختی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakascribeto143("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakascribeto143(
-                                        // REPLACE: ascribe /əˈskraɪb tə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He ascribed his failure to bad luck.",
+                            kurdishText: "شکستەکەیی خستەمل بێ‌بەختی.",
+                            onPressedBritish: () => speakascribeto143("en-GB"),
+                            onPressedAmerican: () => speakascribeto143(
+                                // REPLACE: ascribe /əˈskraɪb tə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کاری لێکدراو) باوەڕبوون بەوەی کەسێک/شتێک خاسیەتێکی تایبەتی ھەیە، یان دەبێت ھەیبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We ascribe great importance to these policies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرنگی زۆر دەدەین بەم سیاسەتانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakascribeto146("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakascribeto146(
-                                        // REPLACE: ascribe /əˈskraɪb tə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We ascribe great importance to these policies.",
+                            kurdishText: "گرنگی زۆر دەدەین بەم سیاسەتانە.",
+                            onPressedBritish: () => speakascribeto146("en-GB"),
+                            onPressedAmerican: () => speakascribeto146(
+                                // REPLACE: ascribe /əˈskraɪb tə/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People like to ascribe human feelings to animals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی حەز دەکەن ھەستی مرۆڤ بە ئاژەڵیشەوە ببەستنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakascribeto147("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakascribeto147(
-                                        // REPLACE: ascribe /əˈskraɪb tə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People like to ascribe human feelings to animals.",
+                            kurdishText:
+                                "خەڵکی حەز دەکەن ھەستی مرۆڤ بە ئاژەڵیشەوە ببەستنەوە.",
+                            onPressedBritish: () => speakascribeto147("en-GB"),
+                            onPressedAmerican: () => speakascribeto147(
+                                // REPLACE: ascribe /əˈskraɪb tə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

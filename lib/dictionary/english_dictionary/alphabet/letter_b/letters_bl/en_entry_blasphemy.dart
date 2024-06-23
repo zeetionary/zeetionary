@@ -148,30 +148,11 @@ class EnglishEntryblasphemy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕەفتار یان شێوازی قسەکردن کە لەلایەنی ئایینییەوە پەسەندنەکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was accused of blasphemy."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە کفرکاری تاوانبارکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblasphemys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblasphemys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was accused of blasphemy.",
+                            kurdishText: "بە کفرکاری تاوانبارکرا.",
+                            onPressedBritish: () => speakblasphemys1("en-GB"),
+                            onPressedAmerican: () => speakblasphemys1("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

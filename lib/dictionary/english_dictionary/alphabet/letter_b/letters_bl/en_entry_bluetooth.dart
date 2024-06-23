@@ -144,32 +144,13 @@ class EnglishEntrybluetooth extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) تەکنەلۆژیایەکی ڕادیۆیی کە ڕێگە دەدات موبایل و کۆمپیوتەر و ئامێری ئەلیکترۆنی دیکە لە مەودایەکی نزیک لە یەکدی پێکەوە لە پەیوەندیدا بن بەبێ بەکارھێنانی وایەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Pair your phone with Bluetooth speakers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "موبایلەکەت ببەستەوە بە بڵندگۆی بلوتوزەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbluetooths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbluetooths1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Pair your phone with Bluetooth speakers.",
+                            kurdishText:
+                                "موبایلەکەت ببەستەوە بە بڵندگۆی بلوتوزەوە.",
+                            onPressedBritish: () => speakbluetooths1("en-GB"),
+                            onPressedAmerican: () => speakbluetooths1("en-US"),
                           ),
                         ],
                       ),

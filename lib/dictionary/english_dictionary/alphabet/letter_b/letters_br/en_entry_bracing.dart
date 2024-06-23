@@ -146,60 +146,22 @@ class EnglishEntrybracing extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەشێکی سارد و پڕبا کە وزەبەخشە، یان چالاکییەک کە لە کەشێکی وەھادا دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The air on top of the hill was cool and bracing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشەکە لەسەر لوتکەی گردەکە سارد و سازگار بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbracings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbracings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The air on top of the hill was cool and bracing.",
+                            kurdishText:
+                                "کەشەکە لەسەر لوتکەی گردەکە سارد و سازگار بوو.",
+                            onPressedBritish: () => speakbracings1("en-GB"),
+                            onPressedAmerican: () => speakbracings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We enjoyed a bracing walk on the beach."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چێژمان لە پیاسەیەکی وزەبەخش بینی لەسەر کەناراوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbracings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbracings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We enjoyed a bracing walk on the beach.",
+                            kurdishText:
+                                "چێژمان لە پیاسەیەکی وزەبەخش بینی لەسەر کەناراوەکە.",
+                            onPressedBritish: () => speakbracings2("en-GB"),
+                            onPressedAmerican: () => speakbracings2("en-US"),
                           ),
                         ],
                       ),

@@ -150,89 +150,30 @@ class EnglishEntrybeer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) مادەیەکی کحولییە کە لە چەقەرەی وشکەوەبووی جۆ درووست دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Are you a beer drinker?"),
-                                    ExampleSentenceKurdish(text: "بیرەخۆریت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Are you a beer drinker?",
+                            kurdishText: "بیرەخۆریت؟",
+                            onPressedBritish: () => speakbeers1("en-GB"),
+                            onPressedAmerican: () => speakbeers1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Put the beer in the fridge to chill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیرەکە بخە ساردکەرەوەکەوە بۆ ئەوەی سارد ببێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Put the beer in the fridge to chill.",
+                            kurdishText:
+                                "بیرەکە بخە ساردکەرەوەکەوە بۆ ئەوەی سارد ببێت.",
+                            onPressedBritish: () => speakbeers2("en-GB"),
+                            onPressedAmerican: () => speakbeers2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) گڵاسێک یان قوتوویەک بیرە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "David bought us a couple of beers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایڤد ژمارەیەک قوتووە بیرەی بۆ کڕین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "David bought us a couple of beers.",
+                            kurdishText: "دایڤد ژمارەیەک قوتووە بیرەی بۆ کڕین.",
+                            onPressedBritish: () => speakbeers3("en-GB"),
+                            onPressedAmerican: () => speakbeers3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -151,34 +151,15 @@ class EnglishEntryanarchist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) حکومەت‌نەویست؛ کەسێک کە باوەڕی‌وایە یاسا و حکومەت ناپێویستن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a poet, an anarchist, and a vegan."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێکی شاعیر و حکومەت‌نەویست و گیاخۆر بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanarchist459("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanarchist459(
-                                        // REPLACE: anarchist /ˈænərkɪst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a poet, an anarchist, and a vegan.",
+                            kurdishText:
+                                "کەسێکی شاعیر و حکومەت‌نەویست و گیاخۆر بوو.",
+                            onPressedBritish: () => speakanarchist459("en-GB"),
+                            onPressedAmerican: () => speakanarchist459(
+                                // REPLACE: anarchist /ˈænərkɪst/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

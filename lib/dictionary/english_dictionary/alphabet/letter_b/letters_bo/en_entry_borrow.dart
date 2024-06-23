@@ -230,151 +230,56 @@ class EnglishEntryborrow extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بردنی شتی کەسێکی تر بۆ بەکارھێنان و ھێنانەوەی لە کاتێکی تردا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can I borrow your umbrella?"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەتوانم چەترەکەت بە قەرز ببەم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborrows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborrows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can I borrow your umbrella?",
+                            kurdishText: "دەتوانم چەترەکەت بە قەرز ببەم؟",
+                            onPressedBritish: () => speakborrows1("en-GB"),
+                            onPressedAmerican: () => speakborrows1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Members can borrow up to ten books from the library at any one time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندامان دەتوانن دە کتێب ببەن لە کتێبخانەکە لە ھەر کاتێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborrows2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborrows2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Members can borrow up to ten books from the library at any one time.",
+                            kurdishText:
+                                "ئەندامان دەتوانن دە کتێب ببەن لە کتێبخانەکە لە ھەر کاتێکدا.",
+                            onPressedBritish: () => speakborrows2("en-GB"),
+                            onPressedAmerican: () => speakborrows2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I borrowed the tools I needed off my brother."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەو ئامرازانەی پێویستم بوون لای براکەم بردمن بە قەرز."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakborrows3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakborrows3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I borrowed the tools I needed off my brother.",
+                                    kurdishText:
+                                        "ئەو ئامرازانەی پێویستم بوون لای براکەم بردمن بە قەرز.",
+                                    onPressedBritish: () =>
+                                        speakborrows3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakborrows3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I'll borrow some coffee off the neighbours."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەندێک قاوە لە دراوسێیەکان قەرز دەکەم."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakborrows4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakborrows4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I'll borrow some coffee off the neighbours.",
+                                    kurdishText:
+                                        "ھەندێک قاوە لە دراوسێیەکان قەرز دەکەم.",
+                                    onPressedBritish: () =>
+                                        speakborrows4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakborrows4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I'm borrowing the office laptop for the weekend."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لاپتۆپی ئۆفیسەکە بەکاردێنم بۆ کۆتایی ھەفتە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakborrows5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakborrows5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I'm borrowing the office laptop for the weekend.",
+                                    kurdishText:
+                                        "لاپتۆپی ئۆفیسەکە بەکاردێنم بۆ کۆتایی ھەفتە.",
+                                    onPressedBritish: () =>
+                                        speakborrows5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakborrows5("en-US"),
                                   ),
                                 ],
                               ),
@@ -384,119 +289,43 @@ class EnglishEntryborrow extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بردنی پارە لە کەسێک یان بانکێک و ڕازی بوون بەوەی دواتر بیدەیتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How much did you have to borrow to pay for this?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەند دەبێت قەرز بکەیت بۆ ئەوەی پارەی ئەمە بدەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborrows6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborrows6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How much did you have to borrow to pay for this?",
+                            kurdishText:
+                                "چەند دەبێت قەرز بکەیت بۆ ئەوەی پارەی ئەمە بدەیت؟",
+                            onPressedBritish: () => speakborrows6("en-GB"),
+                            onPressedAmerican: () => speakborrows6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The goal is to borrow funds at a low interest rate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانجەکە ئەوەیە دەسمایە قەرز بکەین بە ڕێژەیەکی کەمی سوو لەسەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborrows7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborrows7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The goal is to borrow funds at a low interest rate.",
+                            kurdishText:
+                                "ئامانجەکە ئەوەیە دەسمایە قەرز بکەین بە ڕێژەیەکی کەمی سوو لەسەری.",
+                            onPressedBritish: () => speakborrows7("en-GB"),
+                            onPressedAmerican: () => speakborrows7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) بردنی بیرۆکە، وشە، ھتد لە کەسێک یان زامنێکی تر و بەکارھێنانی وەک ھی خۆت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The author borrows heavily from Henry James."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نووسەرەکە بە ڕێژەیەکی زۆر بیرۆکەی ھێنری جەیمسی بەکارھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborrows8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborrows8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The author borrows heavily from Henry James.",
+                            kurdishText:
+                                "نووسەرەکە بە ڕێژەیەکی زۆر بیرۆکەی ھێنری جەیمسی بەکارھێناوە.",
+                            onPressedBritish: () => speakborrows8("en-GB"),
+                            onPressedAmerican: () => speakborrows8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "English has borrowed lots of words from French."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئینگلیزی ژمارەیەکی زۆر وشەی لە فەرەنسی وەرگرتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborrows9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborrows9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "English has borrowed lots of words from French.",
+                            kurdishText:
+                                "ئینگلیزی ژمارەیەکی زۆر وشەی لە فەرەنسی وەرگرتووە.",
+                            onPressedBritish: () => speakborrows9("en-GB"),
+                            onPressedAmerican: () => speakborrows9("en-US"),
                           ),
                         ],
                       ),

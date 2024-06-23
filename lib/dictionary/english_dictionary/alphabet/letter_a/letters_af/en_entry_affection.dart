@@ -111,64 +111,25 @@ class EnglishEntryaffection extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) سۆز و خۆشەویستی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Children need lots of love and affection."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵان پێویستیان بە سۆز و خەشەویستی زۆر ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffe6811("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffe6811(
-                                        // REPLACE: affection /əˈfekʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Children need lots of love and affection.",
+                            kurdishText:
+                                "منداڵان پێویستیان بە سۆز و خەشەویستی زۆر ھەیە.",
+                            onPressedBritish: () => speakaffe6811("en-GB"),
+                            onPressedAmerican: () => speakaffe6811(
+                                // REPLACE: affection /əˈfekʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have a great affection for New York."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆشەویستی زۆرم بۆ نیویۆرک ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffec3599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffec3599(
-                                        // REPLACE: affection /əˈfekʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I have a great affection for New York.",
+                            kurdishText: "خۆشەویستی زۆرم بۆ نیویۆرک ھەیە.",
+                            onPressedBritish: () => speakaffec3599("en-GB"),
+                            onPressedAmerican: () => speakaffec3599(
+                                // REPLACE: affection /əˈfekʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

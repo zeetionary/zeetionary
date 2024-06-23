@@ -148,122 +148,45 @@ class EnglishEntrybreakaway extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) گرووپێک، دامەزراوەیەک، یان بەشێکی وڵاتێک کە لە یەکێکی گەورەتر جیابووەتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The breakaway region declared its autonomy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرێمە دابڕاوەکە ئۆتۆنۆمی ڕاگەیاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakaways1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakaways1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The breakaway region declared its autonomy.",
+                            kurdishText: "ھەرێمە دابڕاوەکە ئۆتۆنۆمی ڕاگەیاند.",
+                            onPressedBritish: () => speakbreakaways1("en-GB"),
+                            onPressedAmerican: () => speakbreakaways1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The breakaway group formed a new political party."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرووپە جیابووەوەکە پارتێکی سیاسی تازەی درووستکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakaways2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakaways2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The breakaway group formed a new political party.",
+                            kurdishText:
+                                "گرووپە جیابووەوەکە پارتێکی سیاسی تازەی درووستکرد.",
+                            onPressedBritish: () => speakbreakaways2("en-GB"),
+                            onPressedAmerican: () => speakbreakaways2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دۆخێک کە ئەندامانی پارتێک یان گرووپێک جیادەبنەوە بۆ درووستکردنی یەکێکی دیکەی تازە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The political party experienced a breakaway due to ideological differences."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارتە سیاسییەکە بە لق‌لێبوونەوەیەکدا تێپەڕی بەھۆی جیاوازی بیروباوەڕەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakaways3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakaways3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The political party experienced a breakaway due to ideological differences.",
+                            kurdishText:
+                                "پارتە سیاسییەکە بە لق‌لێبوونەوەیەکدا تێپەڕی بەھۆی جیاوازی بیروباوەڕەوە.",
+                            onPressedBritish: () => speakbreakaways3("en-GB"),
+                            onPressedAmerican: () => speakbreakaways3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) گۆڕانێک لە شتێکدا بەشێوەیەک کە جیاواز بێت لەوەی بوونی ھەیە و زانراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The breakaway in technology revolutionized the industry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داھێنانە گەورە تەکنەلۆژییەکە شۆڕشی بەرپاکرد لە پیشەسازییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakaways4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakaways4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The breakaway in technology revolutionized the industry.",
+                            kurdishText:
+                                "داھێنانە گەورە تەکنەلۆژییەکە شۆڕشی بەرپاکرد لە پیشەسازییەکەدا.",
+                            onPressedBritish: () => speakbreakaways4("en-GB"),
+                            onPressedAmerican: () => speakbreakaways4("en-US"),
                           ),
                         ],
                       ),

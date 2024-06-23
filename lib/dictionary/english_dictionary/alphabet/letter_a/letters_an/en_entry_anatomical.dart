@@ -158,35 +158,15 @@ class EnglishEntryanatomical extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، یان ڕووەک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All medical students are required to do an anatomical dissection of a human body."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو خوێندکارانی پزیشکی دەبێت توێکارییەکی یەکاڵاکردنەوەیی جەستەی مرۆڤ بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanatomical460("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanatomical460(
-                                        // REPLACE: anatomical /ˌænəˈtɑːmɪkl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All medical students are required to do an anatomical dissection of a human body.",
+                            kurdishText:
+                                "ھەموو خوێندکارانی پزیشکی دەبێت توێکارییەکی یەکاڵاکردنەوەیی جەستەی مرۆڤ بکەن.",
+                            onPressedBritish: () => speakanatomical460("en-GB"),
+                            onPressedAmerican: () => speakanatomical460(
+                                // REPLACE: anatomical /ˌænəˈtɑːmɪkl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

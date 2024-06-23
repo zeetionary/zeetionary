@@ -155,34 +155,14 @@ class EnglishEntryanxiously extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بە نیگەرانییەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We waited anxiously by the phone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە نیگەرانییەوە لەلای تەلەفۆنەکە چاوەڕێ‌بووین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanxiously751("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanxiously751(
-                                        // REPLACE: anxiously /ˈæŋkʃəsli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We waited anxiously by the phone.",
+                            kurdishText:
+                                "بە نیگەرانییەوە لەلای تەلەفۆنەکە چاوەڕێ‌بووین.",
+                            onPressedBritish: () => speakanxiously751("en-GB"),
+                            onPressedAmerican: () => speakanxiously751(
+                                // REPLACE: anxiously /ˈæŋkʃəsli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

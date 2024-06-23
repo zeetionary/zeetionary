@@ -148,123 +148,47 @@ class EnglishEntrybuilding extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بینایەک، بۆ نموونە خانوو یان قوتابخانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The architects have presented the design of a new office building."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەلارسازان دیزاینی بینایەکی تازەی ئۆفیسیان پێشکەش کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "building", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuildings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuildings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The architects have presented the design of a new office building.",
+                            kurdishText:
+                                "تەلارسازان دیزاینی بینایەکی تازەی ئۆفیسیان پێشکەش کردووە.", // building", follow LX strictly
+                            onPressedBritish: () => speakbuildings1("en-GB"),
+                            onPressedAmerican: () => speakbuildings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The old industrial buildings have all been demolished."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بینا کۆنەکانی نیشتەجێبوون ھەموویان ڕووخیندراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuildings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuildings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The old industrial buildings have all been demolished.",
+                            kurdishText:
+                                "بینا کۆنەکانی نیشتەجێبوون ھەموویان ڕووخیندراون.",
+                            onPressedBritish: () => speakbuildings2("en-GB"),
+                            onPressedAmerican: () => speakbuildings2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "In 2018 the building was converted into a house."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە ساڵی ٢٠١٨ بیناکە کرا بە خانوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbuildings3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbuildings3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "In 2018 the building was converted into a house.",
+                                    kurdishText:
+                                        "لە ساڵی ٢٠١٨ بیناکە کرا بە خانوو.",
+                                    onPressedBritish: () =>
+                                        speakbuildings3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbuildings3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Several new buildings are now being put up."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ژمارەیەک بینای تازە لە ئێستادا درووست دەکرێن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbuildings4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbuildings4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Several new buildings are now being put up.",
+                                    kurdishText:
+                                        "ژمارەیەک بینای تازە لە ئێستادا درووست دەکرێن.",
+                                    onPressedBritish: () =>
+                                        speakbuildings4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbuildings4("en-US"),
                                   ),
                                 ],
                               ),
@@ -274,90 +198,32 @@ class EnglishEntrybuilding extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پڕۆسە و کاری درووستکردنی بینایەک یان چوارچێوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's building work going on next door."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاری بیناسازی لە تەنیشتمانەوە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuildings5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuildings5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's building work going on next door.",
+                            kurdishText: "کاری بیناسازی لە تەنیشتمانەوە ھەیە.",
+                            onPressedBritish: () => speakbuildings5("en-GB"),
+                            onPressedAmerican: () => speakbuildings5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He started off in the building trade before opening his own restaurant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاری بیناسازییەوە دەستی پێکرد پێش ئەوەی چێشتخانەی خۆی بکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuildings6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuildings6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He started off in the building trade before opening his own restaurant.",
+                            kurdishText:
+                                "لە کاری بیناسازییەوە دەستی پێکرد پێش ئەوەی چێشتخانەی خۆی بکاتەوە.",
+                            onPressedBritish: () => speakbuildings6("en-GB"),
+                            onPressedAmerican: () => speakbuildings6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) درووستکردن یان گەشەپێدانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The building of a consensus is not going to be an easy process."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "درووستکردنی ھاودەنگی پڕۆسەیەکی ئاسان نابێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuildings7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuildings7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The building of a consensus is not going to be an easy process.",
+                            kurdishText:
+                                "درووستکردنی ھاودەنگی پڕۆسەیەکی ئاسان نابێت.",
+                            onPressedBritish: () => speakbuildings7("en-GB"),
+                            onPressedAmerican: () => speakbuildings7("en-US"),
                           ),
                         ],
                       ),

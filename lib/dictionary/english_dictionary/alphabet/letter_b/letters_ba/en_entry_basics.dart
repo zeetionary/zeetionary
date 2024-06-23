@@ -151,61 +151,23 @@ class EnglishEntrybasics extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گرنگترین و پێویسترین زانیاری، شارەزایی، بیرۆکە، ھتد کە شتی تر لێیانەوە پەرەدەسێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This range of books for young children covers basics like the alphabet and numbers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم زنجیرە کتێبە بۆ منداڵان شتە گرنگەکانی وەک ئەلفوبێ و ژمارە باسدەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasicss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasicss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This range of books for young children covers basics like the alphabet and numbers.",
+                            kurdishText:
+                                "ئەم زنجیرە کتێبە بۆ منداڵان شتە گرنگەکانی وەک ئەلفوبێ و ژمارە باسدەکات.",
+                            onPressedBritish: () => speakbasicss1("en-GB"),
+                            onPressedAmerican: () => speakbasicss1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I really must learn the basics of first aid."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕاستی دەبێت سەرەتاییترینی فریاگوزاری سەرەتایی فێرببم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasicss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasicss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I really must learn the basics of first aid.",
+                            kurdishText:
+                                "بەڕاستی دەبێت سەرەتاییترینی فریاگوزاری سەرەتایی فێرببم.",
+                            onPressedBritish: () => speakbasicss2("en-GB"),
+                            onPressedAmerican: () => speakbasicss2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

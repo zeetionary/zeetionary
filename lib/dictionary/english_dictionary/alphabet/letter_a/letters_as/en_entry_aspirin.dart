@@ -165,62 +165,23 @@ class EnglishEntryaspirin extends StatelessWidget {
                               text:
                                   "١. (ناو) دەرمانی کەمکردنەوەی ئازار و تا و ھەوکردن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Do you have any aspirin?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ ئاسپرینت ھەیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaspirin814("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspirin814(
-                                        // REPLACE: aspirin /ˈæsprɪn/, /ˈæspərɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Do you have any aspirin?",
+                            kurdishText: "ھیچ ئاسپرینت ھەیە؟",
+                            onPressedBritish: () => speakaspirin814("en-GB"),
+                            onPressedAmerican: () => speakaspirin814(
+                                // REPLACE: aspirin /ˈæsprɪn/, /ˈæspərɪn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Take two aspirin(s) for a headache."),
-                                    ExampleSentenceKurdish(
-                                        text: "دوو ئاسپرین بخۆ بۆ سەرێشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaspirin815("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspirin815(
-                                        // REPLACE: aspirin /ˈæsprɪn/, /ˈæspərɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Take two aspirin(s) for a headache.",
+                            kurdishText: "دوو ئاسپرین بخۆ بۆ سەرێشە.",
+                            onPressedBritish: () => speakaspirin815("en-GB"),
+                            onPressedAmerican: () => speakaspirin815(
+                                // REPLACE: aspirin /ˈæsprɪn/, /ˈæspərɪn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

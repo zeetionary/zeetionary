@@ -149,63 +149,23 @@ class EnglishEntryboldly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) کردن یان وتنی شتێک بەبێ ترس و بە ئازایی و متمانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He stepped boldly forward to speak."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە بوێرییەوە چووە پێشەوە بۆ قسەکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboldlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboldlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He stepped boldly forward to speak.",
+                            kurdishText: "بە بوێرییەوە چووە پێشەوە بۆ قسەکردن.",
+                            onPressedBritish: () => speakboldlys1("en-GB"),
+                            onPressedAmerican: () => speakboldlys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بە خاسیەت یان ڕواڵەتێکەوە کە بە ئاسانی دەبینرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The advertisement boldly displayed the product's unique features."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕیکلامەکە بە ڕوونی تایبەتمەندییە ناوازەکانی بەرھەمەکەی دەخستەڕوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboldlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboldlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The advertisement boldly displayed the product's unique features.",
+                            kurdishText:
+                                "ڕیکلامەکە بە ڕوونی تایبەتمەندییە ناوازەکانی بەرھەمەکەی دەخستەڕوو.",
+                            onPressedBritish: () => speakboldlys2("en-GB"),
+                            onPressedAmerican: () => speakboldlys2("en-US"),
                           ),
                         ],
                       ),

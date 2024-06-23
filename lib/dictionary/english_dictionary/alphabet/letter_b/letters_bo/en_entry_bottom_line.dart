@@ -149,63 +149,25 @@ class EnglishEntrybottomline extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) خاڵی سەرەکیی گفتوگۆیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bottom line is that we have to make a decision today."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاڵی سەرەکی ئەوەیە دەبێت ئەمڕۆ بڕیار بدەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottomlines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottomlines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bottom line is that we have to make a decision today.",
+                            kurdishText:
+                                "خاڵی سەرەکی ئەوەیە دەبێت ئەمڕۆ بڕیار بدەین.",
+                            onPressedBritish: () => speakbottomlines1("en-GB"),
+                            onPressedAmerican: () => speakbottomlines1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بڕی ئەو پارەیەی کە قزانج یان زیانە لە دوای ئەوەی ھەموو شتێک حسابکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How will the rise in interest rates affect our bottom line?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن زیادکردنی ڕێژەی سوو کاریگەر دەبێت لەسەر قازانج و زیانمان؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottomlines2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottomlines2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How will the rise in interest rates affect our bottom line?",
+                            kurdishText:
+                                "چۆن زیادکردنی ڕێژەی سوو کاریگەر دەبێت لەسەر قازانج و زیانمان؟",
+                            onPressedBritish: () => speakbottomlines2("en-GB"),
+                            onPressedAmerican: () => speakbottomlines2("en-US"),
                           ),
                         ],
                       ),

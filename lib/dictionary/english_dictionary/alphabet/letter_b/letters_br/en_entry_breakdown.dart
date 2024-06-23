@@ -152,211 +152,78 @@ class EnglishEntrybreakdown extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) وەستانی ئامێرێکی گوازەرەوە یان دەزگایەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most breakdown services give priority to women travelling alone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی خزمەتگوزارییەکانی پەککەوتن پێشینەیی دەدەن بەو ژنانەی بە تەنھا گەشت دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakdowns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakdowns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most breakdown services give priority to women travelling alone.",
+                            kurdishText:
+                                "زۆرینەی خزمەتگوزارییەکانی پەککەوتن پێشینەیی دەدەن بەو ژنانەی بە تەنھا گەشت دەکەن.",
+                            onPressedBritish: () => speakbreakdowns1("en-GB"),
+                            onPressedAmerican: () => speakbreakdowns1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had a breakdown (= my car stopped working) in the middle of the road."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکەم پەکی کەوت لە ناوەڕاستی ڕێگاکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakdowns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakdowns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had a breakdown (= my car stopped working) in the middle of the road.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکەم پەکی کەوت لە ناوەڕاستی ڕێگاکەدا.",
+                            onPressedBritish: () => speakbreakdowns2("en-GB"),
+                            onPressedAmerican: () => speakbreakdowns2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھەڵوەشانەوەی پەیوەندی، گفتوگۆ، سیستەمێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The only ground for divorce is the irretrievable breakdown of the marriage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا ھۆکار بۆ جیابوونەوە شێوانی چاکنەکراوەی ھاوسەرگیرییەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakdowns3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakdowns3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The only ground for divorce is the irretrievable breakdown of the marriage.",
+                            kurdishText:
+                                "تەنھا ھۆکار بۆ جیابوونەوە شێوانی چاکنەکراوەی ھاوسەرگیرییەکەیە.",
+                            onPressedBritish: () => speakbreakdowns3("en-GB"),
+                            onPressedAmerican: () => speakbreakdowns3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Both sides blamed each other for the breakdown of talks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو لا لۆمەی یەکدیان دەکرد بۆ سەرنەکەوتنی گفتوگۆکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakdowns4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakdowns4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Both sides blamed each other for the breakdown of talks.",
+                            kurdishText:
+                                "ھەردوو لا لۆمەی یەکدیان دەکرد بۆ سەرنەکەوتنی گفتوگۆکان.",
+                            onPressedBritish: () => speakbreakdowns4("en-GB"),
+                            onPressedAmerican: () => speakbreakdowns4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) دابەشکردنی زانیاری بۆ بەش بەش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We need a breakdown of the statistics into age groups."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستیمان بە دابەشکاریی ئامارەکانە بەپێی گرووپی تەمەنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakdowns5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakdowns5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We need a breakdown of the statistics into age groups.",
+                            kurdishText:
+                                "پێویستیمان بە دابەشکاریی ئامارەکانە بەپێی گرووپی تەمەنی.",
+                            onPressedBritish: () => speakbreakdowns5("en-GB"),
+                            onPressedAmerican: () => speakbreakdowns5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) پڕۆسەی دابەشبوونی مادەیەک بۆ ئەو بەشانەی کە لێی درووست بووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rate of breakdown of muscle protein was assessed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەی شیبوونەوەی پڕۆتینی ماسولکە خەمڵێندرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakdowns6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakdowns6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The rate of breakdown of muscle protein was assessed.",
+                            kurdishText:
+                                "ڕێژەی شیبوونەوەی پڕۆتینی ماسولکە خەمڵێندرا.",
+                            onPressedBritish: () => speakbreakdowns6("en-GB"),
+                            onPressedAmerican: () => speakbreakdowns6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) ماوەیەک لە نەخۆشێ دەروونی توند کە کەسێک ناتوانێت بە ئاسایی ژیان بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The pain all became too much and he had some sort of breakdown."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئازارەکە ھەموو زۆر بوو و تووشی شێوەیەک لە داڕووخان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakdowns7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakdowns7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The pain all became too much and he had some sort of breakdown.",
+                            kurdishText:
+                                "ئازارەکە ھەموو زۆر بوو و تووشی شێوەیەک لە داڕووخان بوو.",
+                            onPressedBritish: () => speakbreakdowns7("en-GB"),
+                            onPressedAmerican: () => speakbreakdowns7("en-US"),
                           ),
                         ],
                       ),

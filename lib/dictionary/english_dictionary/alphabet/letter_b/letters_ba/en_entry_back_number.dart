@@ -154,34 +154,15 @@ class EnglishEntrybacknumber extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کۆپی پێشووتری گۆڤار یان ڕۆژنامە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Readers can easily find back numbers of the magazine they require."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێنەران بە ئاسانی دەتوانن کۆپییەکانی پێشووتری گۆڤارەکە بدۆزنەوە کە دەیانەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka3s1(// REPLACE: back number
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Readers can easily find back numbers of the magazine they require.",
+                            kurdishText:
+                                "خوێنەران بە ئاسانی دەتوانن کۆپییەکانی پێشووتری گۆڤارەکە بدۆزنەوە کە دەیانەوێت.",
+                            onPressedBritish: () => speaka3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka3s1(// REPLACE: back number
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

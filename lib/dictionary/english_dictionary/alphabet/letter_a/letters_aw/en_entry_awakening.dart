@@ -157,67 +157,29 @@ class EnglishEntryawakening extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) بەئاگاھاتنەوە بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If they had expected a warm welcome, they were in for a rude awakening (= they would soon realize that it would not be warm)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر چاوەڕێی پێشوازییەکی گەرمیان دەکرد، ئەوا زوو دەزانن خراپ بە ھەڵەدا چوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawakenings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawakenings1(// REPLACE: awakening
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If they had expected a warm welcome, they were in for a rude awakening (= they would soon realize that it would not be warm).",
+                            kurdishText:
+                                "ئەگەر چاوەڕێی پێشوازییەکی گەرمیان دەکرد، ئەوا زوو دەزانن خراپ بە ھەڵەدا چوونە.",
+                            onPressedBritish: () => speakawakenings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawakenings1(// REPLACE: awakening
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کردەی ھەستکردن بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The political awakening that followed the Second World War led to a surge of anti-colonial movements."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو بزووتنەوە سیاسییەی کە لە دوای جەنگی دووەمی جیھانی ڕوویدا بەدوای خۆیدا شەپۆلێک لە بزاڤی دژ بە کۆلۆنیاڵیزمی ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawakenings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawakenings2(// REPLACE: awakening
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The political awakening that followed the Second World War led to a surge of anti-colonial movements.",
+                            kurdishText:
+                                "ئەو بزووتنەوە سیاسییەی کە لە دوای جەنگی دووەمی جیھانی ڕوویدا بەدوای خۆیدا شەپۆلێک لە بزاڤی دژ بە کۆلۆنیاڵیزمی ھێنا.",
+                            onPressedBritish: () => speakawakenings2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawakenings2(// REPLACE: awakening
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

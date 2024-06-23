@@ -151,61 +151,23 @@ class EnglishEntrybeset extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ھەبوونی کاریگەری خراپ و زیانبەخش لەسەر شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team was beset by injury all season."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە تەواوی وەرزەکە گیرۆدەی پێکان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbesets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbesets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The team was beset by injury all season.",
+                            kurdishText:
+                                "تیمەکە تەواوی وەرزەکە گیرۆدەی پێکان بوو.",
+                            onPressedBritish: () => speakbesets1("en-GB"),
+                            onPressedAmerican: () => speakbesets1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's one of the most difficult problems besetting our modern way of life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە یەکێکە لە گەورەترین کێشە گەورەکان کە ژیانی سەردەم پێوەی گیرۆدە بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbesets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbesets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's one of the most difficult problems besetting our modern way of life.",
+                            kurdishText:
+                                "ئەوە یەکێکە لە گەورەترین کێشە گەورەکان کە ژیانی سەردەم پێوەی گیرۆدە بووە.",
+                            onPressedBritish: () => speakbesets2("en-GB"),
+                            onPressedAmerican: () => speakbesets2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

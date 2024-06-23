@@ -111,35 +111,16 @@ class EnglishEntryalcoholism extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئاڵوودەیی بە کحول"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He finally sought treatment for his alcoholism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتاییدا ھەوڵی چارەسەری بۆ ئاڵوودەییەکەی بە کحول دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalcoholism6582("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalcoholism6582(
-                                        // REPLACE: alcoholism /ˈælkəhɑːlɪzəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He finally sought treatment for his alcoholism.",
+                            kurdishText:
+                                "لە کۆتاییدا ھەوڵی چارەسەری بۆ ئاڵوودەییەکەی بە کحول دا.",
+                            onPressedBritish: () =>
+                                speakalcoholism6582("en-GB"),
+                            onPressedAmerican: () => speakalcoholism6582(
+                                // REPLACE: alcoholism /ˈælkəhɑːlɪzəm/
+                                "en-US"),
                           ),
                         ],
                       ),

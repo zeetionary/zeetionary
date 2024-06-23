@@ -144,60 +144,22 @@ class EnglishEntrybridesmaid extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کچێک یان ژنێکی گەنج کە لەگەڵ بووکدا دەبێت پێش و لەکاتی ئاھەنگی ھاوسەرگیریدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Tim asked her sister to be (a) bridesmaid."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیم داوای لە خوشکەکەی ببێت بە ئاوەڵ‌بووک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bridesmaid" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridesmaids1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridesmaids1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Tim asked her sister to be (a) bridesmaid.",
+                            kurdishText:
+                                "تیم داوای لە خوشکەکەی ببێت بە ئاوەڵ‌بووک.", // bridesmaid" as
+                            onPressedBritish: () => speakbridesmaids1("en-GB"),
+                            onPressedAmerican: () => speakbridesmaids1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her sister asked her to be chief bridesmaid."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوشکەکەی داوای لێی‌کرد ببێت بە ئاوەڵ‌بووکی سەرەکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridesmaids2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridesmaids2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her sister asked her to be chief bridesmaid.",
+                            kurdishText:
+                                "خوشکەکەی داوای لێی‌کرد ببێت بە ئاوەڵ‌بووکی سەرەکی.",
+                            onPressedBritish: () => speakbridesmaids2("en-GB"),
+                            onPressedAmerican: () => speakbridesmaids2("en-US"),
                           ),
                         ],
                       ),

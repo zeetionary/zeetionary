@@ -113,65 +113,26 @@ class EnglishEntryadhoc extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ڕوودان لە ھەر کاتێکدا کە پێویست بکات، نەک بە پلانی پێشوەختە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The meetings will be held on an ad hoc basis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆبوونەوەکان ڕێکدەخرێن ھەرکە پێویست بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadhoc2414("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadhoc2414(
-                                        // REPLACE: ad hoc /ˌæd ˈhɑːk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The meetings will be held on an ad hoc basis.",
+                            kurdishText:
+                                "کۆبوونەوەکان ڕێکدەخرێن ھەرکە پێویست بکەن.",
+                            onPressedBritish: () => speakadhoc2414("en-GB"),
+                            onPressedAmerican: () => speakadhoc2414(
+                                // REPLACE: ad hoc /ˌæd ˈhɑːk/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بۆ مەبەستێکی تایبەت، نەک بەشێوەیەکی گشتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The decisions were made ad hoc."),
-                                    ExampleSentenceKurdish(
-                                        text: "بڕیارەکان گەرماوگەرم  دران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadhoc2414("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadhoc2414(
-                                        // REPLACE: ad hoc /ˌæd ˈhɑːk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The decisions were made ad hoc.",
+                            kurdishText: "بڕیارەکان گەرماوگەرم  دران.",
+                            onPressedBritish: () => speakadhoc2414("en-GB"),
+                            onPressedAmerican: () => speakadhoc2414(
+                                // REPLACE: ad hoc /ˌæd ˈhɑːk/
+                                "en-US"),
                           ),
                         ],
                       ),

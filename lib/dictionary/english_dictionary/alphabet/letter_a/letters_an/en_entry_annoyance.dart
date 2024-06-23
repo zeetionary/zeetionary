@@ -158,98 +158,41 @@ class EnglishEntryannoyance extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) کەمێک بێزاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He could not conceal his annoyance at being interrupted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەیدەتوانی بێزاریی بشارێتەوە بە قسەپێ‌بڕینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannoyance759("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannoyance759(
-                                        // REPLACE: annoyance /əˈnɔɪəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He could not conceal his annoyance at being interrupted.",
+                            kurdishText:
+                                "نەیدەتوانی بێزاریی بشارێتەوە بە قسەپێ‌بڕینی.",
+                            onPressedBritish: () => speakannoyance759("en-GB"),
+                            onPressedAmerican: () => speakannoyance759(
+                                // REPLACE: annoyance /əˈnɔɪəns/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I dropped out of college, much to the annoyance of my parents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وازم لە کۆلێژ ھێنا کە بووە ھۆی بێزاریی دایک و باوکم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannoyance801("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannoyance801(
-                                        // REPLACE: annoyance /əˈnɔɪəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I dropped out of college, much to the annoyance of my parents.",
+                            kurdishText:
+                                "وازم لە کۆلێژ ھێنا کە بووە ھۆی بێزاریی دایک و باوکم.",
+                            onPressedBritish: () => speakannoyance801("en-GB"),
+                            onPressedAmerican: () => speakannoyance801(
+                                // REPLACE: annoyance /əˈnɔɪəns/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شتێک کە دەبێتە ھۆی کەمێک بێزاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One of the greatest annoyances was being bitten by mosquitoes every night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە گەورەترین جاڕسکەرەکان ئەوەبوو مێشوولە ھەموو شەوێک بتگەزێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannoyance805("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannoyance805(
-                                        // REPLACE: annoyance /əˈnɔɪəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One of the greatest annoyances was being bitten by mosquitoes every night.",
+                            kurdishText:
+                                "یەکێک لە گەورەترین جاڕسکەرەکان ئەوەبوو مێشوولە ھەموو شەوێک بتگەزێت.",
+                            onPressedBritish: () => speakannoyance805("en-GB"),
+                            onPressedAmerican: () => speakannoyance805(
+                                // REPLACE: annoyance /əˈnɔɪəns/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

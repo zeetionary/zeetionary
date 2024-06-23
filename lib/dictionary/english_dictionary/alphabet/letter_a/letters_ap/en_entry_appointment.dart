@@ -166,169 +166,73 @@ class EnglishEntryappointment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئامادەکاری بۆ بینین یان سەردانی کەسێک لە کاتێکی دیاریکراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've got a dental appointment at 3 o'clock."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وادەیەکم لای دکتۆری ددان ھەیە لە کاتژمێر ٣."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappointment836("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappointment836(
-                                        // REPLACE: appointment /əˈpɔɪntmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've got a dental appointment at 3 o'clock.",
+                            kurdishText:
+                                "وادەیەکم لای دکتۆری ددان ھەیە لە کاتژمێر ٣.",
+                            onPressedBritish: () =>
+                                speakappointment836("en-GB"),
+                            onPressedAmerican: () => speakappointment836(
+                                // REPLACE: appointment /əˈpɔɪntmənt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She made an appointment for her son to see the doctor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وادەی دانا بۆ کوڕەکەی بۆ بینینی دکتۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappointment839("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappointment839(
-                                        // REPLACE: appointment /əˈpɔɪntmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She made an appointment for her son to see the doctor.",
+                            kurdishText:
+                                "وادەی دانا بۆ کوڕەکەی بۆ بینینی دکتۆر.",
+                            onPressedBritish: () =>
+                                speakappointment839("en-GB"),
+                            onPressedAmerican: () => speakappointment839(
+                                // REPLACE: appointment /əˈpɔɪntmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) دیاریکردنی کەسێک بۆ کارێک یان بەرپرسیاریەتییەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They announced the appointments of key security officials."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستنیشانکردنی بەرپرسانی ئاسایشیان ڕاگەیاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappointment844("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappointment844(
-                                        // REPLACE: appointment /əˈpɔɪntmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They announced the appointments of key security officials.",
+                            kurdishText:
+                                "دەستنیشانکردنی بەرپرسانی ئاسایشیان ڕاگەیاند.",
+                            onPressedBritish: () =>
+                                speakappointment844("en-GB"),
+                            onPressedAmerican: () => speakappointment844(
+                                // REPLACE: appointment /əˈpɔɪntmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کارێک یان پۆستێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I would like to congratulate you on your appointment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیرۆزبایی پۆستە تازەکەت لێ‌دەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappointment847("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappointment847(
-                                        // REPLACE: appointment /əˈpɔɪntmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I would like to congratulate you on your appointment.",
+                            kurdishText: "پیرۆزبایی پۆستە تازەکەت لێ‌دەکەم.",
+                            onPressedBritish: () =>
+                                speakappointment847("en-GB"),
+                            onPressedAmerican: () => speakappointment847(
+                                // REPLACE: appointment /əˈpɔɪntmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کەسێک کە لە کارێک یان پۆستێکدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Government ministers and other political appointments are frequently replaced."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەزیرەکانی حکومەت و بەرپرسانی سیاسی دیکە زوو زوو دەگۆڕدرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappointment848("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappointment848(
-                                        // REPLACE: appointment /əˈpɔɪntmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Government ministers and other political appointments are frequently replaced.",
+                            kurdishText:
+                                "وەزیرەکانی حکومەت و بەرپرسانی سیاسی دیکە زوو زوو دەگۆڕدرێن.",
+                            onPressedBritish: () =>
+                                speakappointment848("en-GB"),
+                            onPressedAmerican: () => speakappointment848(
+                                // REPLACE: appointment /əˈpɔɪntmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

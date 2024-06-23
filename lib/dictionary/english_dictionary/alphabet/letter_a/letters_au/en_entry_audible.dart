@@ -165,34 +165,15 @@ class EnglishEntryaudible extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) دەنگێک کە ھێندە بەرزە ببیسترێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her voice was barely audible above the noise."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگەکەی بە ئەستەم زیاتر لە ورتەورت بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudible1255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudible1255(// REPLACE: audible
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her voice was barely audible above the noise.",
+                            kurdishText:
+                                "دەنگەکەی بە ئەستەم زیاتر لە ورتەورت بوو.",
+                            onPressedBritish: () => speakaudible1255("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudible1255(// REPLACE: audible
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

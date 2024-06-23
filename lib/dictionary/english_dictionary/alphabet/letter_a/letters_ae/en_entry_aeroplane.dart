@@ -112,33 +112,14 @@ class EnglishEntryaeroplane extends StatelessWidget {
 کوردی: فڕۆکە، باڵافڕ، تەیارە
 """),
                           const DefinitionKurdish(text: "١. (ناو) فڕۆکە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The aeroplane was carrying 350 people."),
-                                    ExampleSentenceKurdish(
-                                        text: "فڕۆکەکە ٣٥٠ کەسی ھەڵگرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaerop3658("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaerop3658(
-                                        // REPLACE: aeroplane /ˈerəpleɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The aeroplane was carrying 350 people.",
+                            kurdishText: "فڕۆکەکە ٣٥٠ کەسی ھەڵگرتبوو.",
+                            onPressedBritish: () => speakaerop3658("en-GB"),
+                            onPressedAmerican: () => speakaerop3658(
+                                // REPLACE: aeroplane /ˈerəpleɪn/
+                                "en-US"),
                           ),
                         ],
                       ),

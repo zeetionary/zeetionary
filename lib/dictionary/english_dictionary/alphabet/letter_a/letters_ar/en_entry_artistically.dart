@@ -165,35 +165,16 @@ class EnglishEntryartistically extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە ھونەر و ھونەرمەندان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The film was both commercially and artistically successful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە لەلایەنی بازرگانی و ھونەرییەوە سەرکەوتووبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakartistically930("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartistically930(
-                                        // REPLACE: artistically /ɑːrˈtɪstɪkli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The film was both commercially and artistically successful.",
+                            kurdishText:
+                                "فیلمەکە لەلایەنی بازرگانی و ھونەرییەوە سەرکەوتووبوو.",
+                            onPressedBritish: () =>
+                                speakartistically930("en-GB"),
+                            onPressedAmerican: () => speakartistically930(
+                                // REPLACE: artistically /ɑːrˈtɪstɪkli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -129,156 +129,58 @@ class EnglishEntryagainst extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ئامراز) دژ بە شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "That's against the law."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەوە دژ بە یاسایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaga937884("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaga937884(
-                                        // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That's against the law.",
+                            kurdishText: "ئەوە دژ بە یاسایە.",
+                            onPressedBritish: () => speakaga937884("en-GB"),
+                            onPressedAmerican: () => speakaga937884(
+                                // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was forced to marry against her will."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دژ بە ویستی خۆی ناچار بە ھاوسەرگیری کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagain2566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagain2566(
-                                        // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was forced to marry against her will.",
+                            kurdishText:
+                                "دژ بە ویستی خۆی ناچار بە ھاوسەرگیری کرا.",
+                            onPressedBritish: () => speakagain2566("en-GB"),
+                            onPressedAmerican: () => speakagain2566(
+                                // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ئامراز) شتێک کە لە بەرژەوەندیت نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The evidence is against him."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەڵگەکان لە دژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagain156("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagain156(
-                                        // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The evidence is against him.",
+                            kurdishText: "بەڵگەکان لە دژین.",
+                            onPressedBritish: () => speakagain156("en-GB"),
+                            onPressedAmerican: () => speakagain156(
+                                // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ئامراز) لە نزیک یان پاڵ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Put the piano there, against the wall."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیانۆکە بخە ئەوێ، لەلای دیوارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaga156338("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaga156338(
-                                        // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Put the piano there, against the wall.",
+                            kurdishText: "پیانۆکە بخە ئەوێ، لەلای دیوارەکە.",
+                            onPressedBritish: () => speakaga156338("en-GB"),
+                            onPressedAmerican: () => speakaga156338(
+                                // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ئامراز) ڕێگەدان لە ڕوودانی شتێک یان کەمکردنەوەی زیانەکانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They took precautions against fire."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێکاریان دژ بە ئاگرەکە گرتەبەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaga98274("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaga98274(
-                                        // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They took precautions against fire.",
+                            kurdishText: "ڕێکاریان دژ بە ئاگرەکە گرتەبەر.",
+                            onPressedBritish: () => speakaga98274("en-GB"),
+                            onPressedAmerican: () => speakaga98274(
+                                // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
+                                "en-US"),
                           ),
                         ],
                       ),

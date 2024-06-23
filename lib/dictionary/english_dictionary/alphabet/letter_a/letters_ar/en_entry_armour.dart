@@ -164,131 +164,54 @@ class EnglishEntryarmour extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) زرێیەک یان جلێک کە سەرباز و پۆلیس دەیپۆشن بۆ پاراستن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Police put on body armour before confronting the rioters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس زرێپۆشیان لەبەرکرد پێش ڕووبەڕووبوونەوەی ئاژاوەچییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmour530("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmour530(
-                                        // REPLACE: armour /ˈɑːrmər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Police put on body armour before confronting the rioters.",
+                            kurdishText:
+                                "پۆلیس زرێپۆشیان لەبەرکرد پێش ڕووبەڕووبوونەوەی ئاژاوەچییەکان.",
+                            onPressedBritish: () => speakarmour530("en-GB"),
+                            onPressedAmerican: () => speakarmour530(
+                                // REPLACE: armour /ˈɑːrmər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Monkeys do not have any kind of protective armour and use their brains to solve problems."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەیموون ھیچ پارێزەرێکی جەستەیان نییە و مێشکیان بەکاردێنن بۆ چارەسەرکردنی کێشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmour531("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmour531(
-                                        // REPLACE: armour /ˈɑːrmər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Monkeys do not have any kind of protective armour and use their brains to solve problems.",
+                            kurdishText:
+                                "مەیموون ھیچ پارێزەرێکی جەستەیان نییە و مێشکیان بەکاردێنن بۆ چارەسەرکردنی کێشە.",
+                            onPressedBritish: () => speakarmour531("en-GB"),
+                            onPressedAmerican: () => speakarmour531(
+                                // REPLACE: armour /ˈɑːrmər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) تەنێکی بەھێز کە کەشتی و ئۆتۆمبێلی سەربازی دەپارێزن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Modern tanks have strong armour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تانکەکانی ئەم سەردەمە زرێپۆشی بەھێزیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmour536("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmour536(
-                                        // REPLACE: armour /ˈɑːrmər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Modern tanks have strong armour.",
+                            kurdishText:
+                                "تانکەکانی ئەم سەردەمە زرێپۆشی بەھێزیان ھەیە.",
+                            onPressedBritish: () => speakarmour536("en-GB"),
+                            onPressedAmerican: () => speakarmour536(
+                                // REPLACE: armour /ˈɑːrmər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئۆتۆمبێل و تانکی سەربازی کە بە زرێ‌پۆش پارێزراون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The troops were backed by tanks, artillery, and other heavy armour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزەکان پشتیوانی دەکران بە تانک و تۆپھاوێژ و زرێپۆشی دیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmour540("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmour540(
-                                        // REPLACE: armour /ˈɑːrmər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The troops were backed by tanks, artillery, and other heavy armour.",
+                            kurdishText:
+                                "ھێزەکان پشتیوانی دەکران بە تانک و تۆپھاوێژ و زرێپۆشی دیکە.",
+                            onPressedBritish: () => speakarmour540("en-GB"),
+                            onPressedAmerican: () => speakarmour540(
+                                // REPLACE: armour /ˈɑːrmər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

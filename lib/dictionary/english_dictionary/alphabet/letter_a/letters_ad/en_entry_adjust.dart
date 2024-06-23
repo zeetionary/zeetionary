@@ -116,127 +116,48 @@ class EnglishEntryadjust extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) گۆڕینی شتێک بە کەمی بۆ ئەوەی لەگەڵ بارودۆخێکی تازە بگونجێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This button is for adjusting the volume."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم دووگمە بۆ ڕێکخستنی دەنگەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadj459("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakadj459(// REPLACE: adjust /əˈdʒʌst/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This button is for adjusting the volume.",
+                            kurdishText: "ئەم دووگمە بۆ ڕێکخستنی دەنگەکەیە.",
+                            onPressedBritish: () => speakadj459("en-GB"),
+                            onPressedAmerican: () =>
+                                speakadj459(// REPLACE: adjust /əˈdʒʌst/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The brakes need to be adjusted."),
-                                    ExampleSentenceKurdish(
-                                        text: "وەستێنەرەکان دەبێت ڕێکبخرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadj7596("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadj7596(
-                                        // REPLACE: adjust /əˈdʒʌst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The brakes need to be adjusted.",
+                            kurdishText: "وەستێنەرەکان دەبێت ڕێکبخرێن.",
+                            onPressedBritish: () => speakadj7596("en-GB"),
+                            onPressedAmerican: () => speakadj7596(
+                                // REPLACE: adjust /əˈdʒʌst/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) خۆڕاھێنان بە بارودۆخێکی تازە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It took her a while to adjust to living alone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماوەیەکی پێچوو تا ڕابێت بە تەنھایی ژیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadj4589("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadj4589(
-                                        // REPLACE: adjust /əˈdʒʌst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It took her a while to adjust to living alone.",
+                            kurdishText:
+                                "ماوەیەکی پێچوو تا ڕابێت بە تەنھایی ژیان.",
+                            onPressedBritish: () => speakadj4589("en-GB"),
+                            onPressedAmerican: () => speakadj4589(
+                                // REPLACE: adjust /əˈdʒʌst/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) کردنی گۆڕانێک لە شتێکدا بۆ ئەوەی باشتر یان ڕێکتر دەربکەوێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He smoothed his hair and adjusted his tie."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قژی سافکرد و بۆینباخەکەی ڕێکخست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadj8542("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadj8542(
-                                        // REPLACE: adjust /əˈdʒʌst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He smoothed his hair and adjusted his tie.",
+                            kurdishText: "قژی سافکرد و بۆینباخەکەی ڕێکخست.",
+                            onPressedBritish: () => speakadj8542("en-GB"),
+                            onPressedAmerican: () => speakadj8542(
+                                // REPLACE: adjust /əˈdʒʌst/
+                                "en-US"),
                           ),
                         ],
                       ),

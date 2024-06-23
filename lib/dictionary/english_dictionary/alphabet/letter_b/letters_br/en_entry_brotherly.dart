@@ -140,32 +140,13 @@ class EnglishEntrybrotherly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) برایانە، لە سۆنگەی برایەتییەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gave her a brotherly kiss on the cheek."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماچێکی برایانەی سەر گۆنایی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brotherly" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrotherlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrotherlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He gave her a brotherly kiss on the cheek.",
+                            kurdishText:
+                                "ماچێکی برایانەی سەر گۆنایی کرد.", // brotherly" as
+                            onPressedBritish: () => speakbrotherlys1("en-GB"),
+                            onPressedAmerican: () => speakbrotherlys1("en-US"),
                           ),
                         ],
                       ),

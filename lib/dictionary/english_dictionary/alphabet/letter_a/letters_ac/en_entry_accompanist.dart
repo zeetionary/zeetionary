@@ -95,32 +95,13 @@ class EnglishEntryaccompanist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. کەسێک کە ئامێرێکی میوزیکی دەژەنێت لە کاتێکدا کەسێکی تر بەشە گرنگەکەی گۆرانییەکە دەڵێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The singer's accompanist on the piano was Charles Harman."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیانۆژەنی گۆرانیبێژەکە چارڵس ھارمان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac98832("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac98832("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The singer's accompanist on the piano was Charles Harman.",
+                            kurdishText:
+                                "پیانۆژەنی گۆرانیبێژەکە چارڵس ھارمان بوو.",
+                            onPressedBritish: () => speakac98832("en-GB"),
+                            onPressedAmerican: () => speakac98832("en-US"),
                           ),
                         ],
                       ),

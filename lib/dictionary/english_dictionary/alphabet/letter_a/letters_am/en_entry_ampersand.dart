@@ -156,35 +156,15 @@ class EnglishEntryampersand extends StatelessWidget {
                               text:
                                   "١. (ناو) نیشانەی & کە بە واتای «و» بەکاردێت "
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has worked for both Google & Microsoft."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ھەردوو گووگڵ و مایکرۆسۆفت کاری‌کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakampersand0856("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakampersand0856(
-                                        // REPLACE: ampersand /ˈæmpərsænd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has worked for both Google & Microsoft.",
+                            kurdishText:
+                                "بۆ ھەردوو گووگڵ و مایکرۆسۆفت کاری‌کردووە.",
+                            onPressedBritish: () => speakampersand0856("en-GB"),
+                            onPressedAmerican: () => speakampersand0856(
+                                // REPLACE: ampersand /ˈæmpərsænd/
+                                "en-US"),
                           ),
                         ],
                       ),

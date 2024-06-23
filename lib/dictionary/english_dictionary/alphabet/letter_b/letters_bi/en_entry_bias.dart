@@ -155,214 +155,80 @@ class EnglishEntrybias extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) لایەنگیری یان دژایەتی گرووپێک زۆرجار بەبێ ئەوەی پشتی بە ھیچ بیرکردنەوەی داپەروەرانە بەستبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Employers must consider all candidates without bias."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاوەنکاران دەبێت ھەموو بەربژێران بەبێ لایەنگیری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiass1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiass1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Employers must consider all candidates without bias.",
+                            kurdishText:
+                                "خاوەنکاران دەبێت ھەموو بەربژێران بەبێ لایەنگیری.",
+                            onPressedBritish: () => speakbiass1("en-GB"),
+                            onPressedAmerican: () => speakbiass1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some institutions still have a strong bias against women."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک دامەزراوە ھێشتا لایەنگیریان دژ بە ژنان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiass2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiass2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some institutions still have a strong bias against women.",
+                            kurdishText:
+                                "ھەندێک دامەزراوە ھێشتا لایەنگیریان دژ بە ژنان ھەیە.",
+                            onPressedBritish: () => speakbiass2("en-GB"),
+                            onPressedAmerican: () => speakbiass2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بوونی حەز و مەیل بۆ شتێک زیاتر لە شتی زیاتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In British universities there was a bias towards pure science."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە زانکۆکانی بەریتانیادا مەیلێک ھەیە بۆ زانستی بێگەرد (سیاسەت و شتی تری تێکەڵ نەبێ)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiass3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiass3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In British universities there was a bias towards pure science.",
+                            kurdishText:
+                                "لە زانکۆکانی بەریتانیادا مەیلێک ھەیە بۆ زانستی بێگەرد (سیاسەت و شتی تری تێکەڵ نەبێ).",
+                            onPressedBritish: () => speakbiass3("en-GB"),
+                            onPressedAmerican: () => speakbiass3("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She showed a scientific bias at an early age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزی بۆ زانست ھەبوو لە تەمەنی سەرەتاییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiass4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiass4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She showed a scientific bias at an early age.",
+                            kurdishText:
+                                "حەزی بۆ زانست ھەبوو لە تەمەنی سەرەتاییەوە.",
+                            onPressedBritish: () => speakbiass4("en-GB"),
+                            onPressedAmerican: () => speakbiass4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) نادرووستی لە ئەنجامی تاقیکردنەوەیەک یان توێژینەوەیەکدا بەھۆی ئەوەی لایەنێکی دیاریکراو لەبەرچاو نەگیراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If a response rate is low, the risk of bias in the findings will be greater."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر ڕێژەی وەڵامدانەوە کەم بێت، ئەگەری نادرووستی زیاتر دەبێت لە دۆزینەوەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiass5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiass5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If a response rate is low, the risk of bias in the findings will be greater.",
+                            kurdishText:
+                                "ئەگەر ڕێژەی وەڵامدانەوە کەم بێت، ئەگەری نادرووستی زیاتر دەبێت لە دۆزینەوەکاندا.",
+                            onPressedBritish: () => speakbiass5("en-GB"),
+                            onPressedAmerican: () => speakbiass5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) کاریگەری دانان لەسەر بۆچوونی کەسێک بە نادادپەروەرانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The newspapers have biased people against her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژنامەکان خەڵکیان دژی ھانداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiass6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiass6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The newspapers have biased people against her.",
+                            kurdishText: "ڕۆژنامەکان خەڵکیان دژی ھانداوە.",
+                            onPressedBritish: () => speakbiass6("en-GB"),
+                            onPressedAmerican: () => speakbiass6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) ھەبوونی کاریگەرییەک لەسەر ئەنجامی تاقیکردنەوە یان توێژینەوەیەک بەشێوەیەک کە ئەنجامی درووستی نابێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The experiment contained an error which could bias the results."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاقیکردنەوەکە ھەڵەیەکی تێدابوو کە دەکرا نادرووستی درووست بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiass7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiass7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The experiment contained an error which could bias the results.",
+                            kurdishText:
+                                "تاقیکردنەوەکە ھەڵەیەکی تێدابوو کە دەکرا نادرووستی درووست بکات.",
+                            onPressedBritish: () => speakbiass7("en-GB"),
+                            onPressedAmerican: () => speakbiass7("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -147,32 +147,13 @@ class EnglishEntryblissful extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) تەواو دڵخۆش و خۆشبەخت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We spent three blissful weeks away from work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێ ھەفتەی پڕ لە خۆشبەختیمان بەسەربرد دوور لە کار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblissfuls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblissfuls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We spent three blissful weeks away from work.",
+                            kurdishText:
+                                "سێ ھەفتەی پڕ لە خۆشبەختیمان بەسەربرد دوور لە کار.",
+                            onPressedBritish: () => speakblissfuls1("en-GB"),
+                            onPressedAmerican: () => speakblissfuls1("en-US"),
                           ),
                         ],
                       ),

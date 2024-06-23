@@ -158,69 +158,31 @@ class EnglishEntryavailability extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) بەردەستێتی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is limited ticket availability, so book early to avoid disappointment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەی بەردەستێتی بلیت سنووردارە، بۆیە زوو شوێنێک بگرە بۆ ئەوەی تووشی نائومێدی نەبی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakavailabilitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakavailabilitys1(
-                                        // REPLACE: availability
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is limited ticket availability, so book early to avoid disappointment.",
+                            kurdishText:
+                                "ڕێژەی بەردەستێتی بلیت سنووردارە، بۆیە زوو شوێنێک بگرە بۆ ئەوەی تووشی نائومێدی نەبی.",
+                            onPressedBritish: () =>
+                                speakavailabilitys1("en-GB"),
+                            onPressedAmerican: () => speakavailabilitys1(
+                                // REPLACE: availability
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھەبوونی کات بۆ بینین یان قسەکردن لەگەڵ خەڵکی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Check her availability before you schedule the meeting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێش ئەوەی چاوپێکەوتنەکە ڕێکبخەیت بزانە کاتی دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakavailabilitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakavailabilitys2(
-                                        // REPLACE: availability
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Check her availability before you schedule the meeting.",
+                            kurdishText:
+                                "پێش ئەوەی چاوپێکەوتنەکە ڕێکبخەیت بزانە کاتی دەبێت.",
+                            onPressedBritish: () =>
+                                speakavailabilitys2("en-GB"),
+                            onPressedAmerican: () => speakavailabilitys2(
+                                // REPLACE: availability
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

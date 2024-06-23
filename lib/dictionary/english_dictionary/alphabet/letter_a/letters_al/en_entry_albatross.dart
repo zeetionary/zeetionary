@@ -117,68 +117,28 @@ class EnglishEntryalbatross extends StatelessWidget {
                               text:
                                   "١. (ناو) باڵندەیەک کە باڵی درێژی ھەیە و لە زەریای ھێمن و زەریاکانی باشوور دەژی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The albatross can stay airborne at sea for days at a time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەلباتروس دەتوانێت بۆ چەندین ڕۆژ لەیەک کاتدا لە ئاسماندا بمێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalbatross4377("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalbatross4377(
-                                        // REPLACE: albatross /ˈælbətrɑːs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The albatross can stay airborne at sea for days at a time.",
+                            kurdishText:
+                                "ئەلباتروس دەتوانێت بۆ چەندین ڕۆژ لەیەک کاتدا لە ئاسماندا بمێنێتەوە.",
+                            onPressedBritish: () => speakalbatross4377("en-GB"),
+                            onPressedAmerican: () => speakalbatross4377(
+                                // REPLACE: albatross /ˈælbətrɑːs/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شتێک کە کێشەت بۆ درووست دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The national debt is an albatross around the president’s neck."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەرزە نیشتیمانییەکان مایەی سەرێشەن بۆ سەرۆک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalbatross3622("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalbatross3622(
-                                        // REPLACE: albatross /ˈælbətrɑːs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The national debt is an albatross around the president’s neck.",
+                            kurdishText:
+                                "قەرزە نیشتیمانییەکان مایەی سەرێشەن بۆ سەرۆک.",
+                            onPressedBritish: () => speakalbatross3622("en-GB"),
+                            onPressedAmerican: () => speakalbatross3622(
+                                // REPLACE: albatross /ˈælbətrɑːs/
+                                "en-US"),
                           ),
                         ],
                       ),

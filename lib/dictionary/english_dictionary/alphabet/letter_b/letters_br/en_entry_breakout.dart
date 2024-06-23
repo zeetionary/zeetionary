@@ -145,94 +145,37 @@ class EnglishEntrybreakout extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھەڵھاتن لە زیندان، بەتایبەتی بە کۆمەڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There has been a mass breakout from one of Germany's top security jails."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵھاتنێکی گەورە لە یەکێک لە زیندانە توندەکانی ئەڵمانیا ڕوویداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakouts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakouts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There has been a mass breakout from one of Germany's top security jails.",
+                            kurdishText:
+                                "ھەڵھاتنێکی گەورە لە یەکێک لە زیندانە توندەکانی ئەڵمانیا ڕوویداوە.",
+                            onPressedBritish: () => speakbreakouts1("en-GB"),
+                            onPressedAmerican: () => speakbreakouts1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) کەسێک/شتێک کە لەناکاو تەواو ناسراو و سەرکەوتووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was the breakout star of this year's Women's World Cup."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەستێرەی دەرکەوتووی جامی جیھانیی ژنان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakouts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakouts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was the breakout star of this year's Women's World Cup.",
+                            kurdishText:
+                                "ئەستێرەی دەرکەوتووی جامی جیھانیی ژنان بوو.",
+                            onPressedBritish: () => speakbreakouts2("en-GB"),
+                            onPressedAmerican: () => speakbreakouts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) کۆبوونەوەیەک کە جیاواز لە کۆبوونەوەی سەرەکی ڕوودەدات و ژمارەیەکی کەمتر بەژداربووی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Here are some notes from the breakout session I attended."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە ھەندێک تێبینییە لە کۆبوونەوە بچووکەکە کە بەژداری بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakouts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakouts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Here are some notes from the breakout session I attended.",
+                            kurdishText:
+                                "ئەمە ھەندێک تێبینییە لە کۆبوونەوە بچووکەکە کە بەژداری بووم.",
+                            onPressedBritish: () => speakbreakouts3("en-GB"),
+                            onPressedAmerican: () => speakbreakouts3("en-US"),
                           ),
                         ],
                       ),

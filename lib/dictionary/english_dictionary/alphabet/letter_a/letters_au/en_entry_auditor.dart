@@ -163,100 +163,43 @@ class EnglishEntryauditor extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە تۆمارە ئابوورییەکانی کۆمپانیایەک دەپشکنێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The auditors’ report will be submitted at the end of the year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاپۆرتی پشکنەرەکە لە کۆتایی ساڵدا ڕادەست دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauditor222("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauditor222(// REPLACE: auditor
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The auditors’ report will be submitted at the end of the year.",
+                            kurdishText:
+                                "ڕاپۆرتی پشکنەرەکە لە کۆتایی ساڵدا ڕادەست دەکرێت.",
+                            onPressedBritish: () => speakauditor222("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauditor222(// REPLACE: auditor
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە بەژداری دەکات لە کۆرسەکانی کۆلێژێک یان زانکۆیەک بەبێ وەرگرتنی بڕوانامە یان ئەنجامدانی تاقیکردنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The auditor sat in on the class sessions and observed the teacher's instruction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێگرەکە لە وانەکەدا دانیشت و چاودێری ڕێنماییەکانی مامۆستای کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauditor226("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauditor226(// REPLACE: auditor
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The auditor sat in on the class sessions and observed the teacher's instruction.",
+                            kurdishText:
+                                "گوێگرەکە لە وانەکەدا دانیشت و چاودێری ڕێنماییەکانی مامۆستای کرد.",
+                            onPressedBritish: () => speakauditor226("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauditor226(// REPLACE: auditor
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کەسێک کە گوێ دەگرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His auditors had to listen carefully to understand what he was saying."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێگرەکانی دەبوو بە وریاییەوە گوێبگرن بۆ تێگەشتن لەوەی چی دەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauditor227("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauditor227(// REPLACE: auditor
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His auditors had to listen carefully to understand what he was saying.",
+                            kurdishText:
+                                "گوێگرەکانی دەبوو بە وریاییەوە گوێبگرن بۆ تێگەشتن لەوەی چی دەوت.",
+                            onPressedBritish: () => speakauditor227("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauditor227(// REPLACE: auditor
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

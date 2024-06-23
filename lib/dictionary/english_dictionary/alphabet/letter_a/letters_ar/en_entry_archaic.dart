@@ -162,100 +162,42 @@ class EnglishEntryarchaic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شتێکی کۆن کە چیتر لە بەکارھێناندا نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘Thou art’ is an archaic form of ‘you are’."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "‘Thou art’ شێوەیەکی کۆنە بۆ ‘you are’."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarchaic300("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarchaic300(
-                                        // REPLACE: archaic /ɑːrˈkeɪɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘Thou art’ is an archaic form of ‘you are’.",
+                            kurdishText:
+                                "‘Thou art’ شێوەیەکی کۆنە بۆ ‘you are’.",
+                            onPressedBritish: () => speakarchaic300("en-GB"),
+                            onPressedAmerican: () => speakarchaic300(
+                                // REPLACE: archaic /ɑːrˈkeɪɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) کۆنەباو و نەگونجاو بۆ ئێستا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The system is archaic and unfair and needs changing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیستەمەکە کۆنەباو و نادادپەروەرە و پێویستی بە گۆڕانکارییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarchaic302("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarchaic302(
-                                        // REPLACE: archaic /ɑːrˈkeɪɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The system is archaic and unfair and needs changing.",
+                            kurdishText:
+                                "سیستەمەکە کۆنەباو و نادادپەروەرە و پێویستی بە گۆڕانکارییە.",
+                            onPressedBritish: () => speakarchaic302("en-GB"),
+                            onPressedAmerican: () => speakarchaic302(
+                                // REPLACE: archaic /ɑːrˈkeɪɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) کۆنەباو و نەگونجاو بۆ ئێستا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many museums showcase archaic art."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرێک لە مۆزەخانەکان ھونەری سەردەمانی کۆن نمایش دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarchaic304("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarchaic304(
-                                        // REPLACE: archaic /ɑːrˈkeɪɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Many museums showcase archaic art.",
+                            kurdishText:
+                                "زۆرێک لە مۆزەخانەکان ھونەری سەردەمانی کۆن نمایش دەکەن.",
+                            onPressedBritish: () => speakarchaic304("en-GB"),
+                            onPressedAmerican: () => speakarchaic304(
+                                // REPLACE: archaic /ɑːrˈkeɪɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -111,64 +111,26 @@ class EnglishEntryamass extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) کۆکردنەوەی ڕێژەیەکی زۆر لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They amassed enough evidence to convict her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشی پێویست بەڵگەیان کۆکردەوە تاوانباری بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamass5555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakamass5555(// REPLACE: amass /əˈmæs/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They amassed enough evidence to convict her.",
+                            kurdishText:
+                                "بەشی پێویست بەڵگەیان کۆکردەوە تاوانباری بکەن.",
+                            onPressedBritish: () => speakamass5555("en-GB"),
+                            onPressedAmerican: () =>
+                                speakamass5555(// REPLACE: amass /əˈmæs/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Germany has amassed a large number of troops on the border with France."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەڵمانیا ڕێژەیەکی زۆر سەربازی لەسەر سنووری فەرەنسا کۆکردووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamass4447("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakamass4447(// REPLACE: amass /əˈmæs/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Germany has amassed a large number of troops on the border with France.",
+                            kurdishText:
+                                "ئەڵمانیا ڕێژەیەکی زۆر سەربازی لەسەر سنووری فەرەنسا کۆکردووەتەوە.",
+                            onPressedBritish: () => speakamass4447("en-GB"),
+                            onPressedAmerican: () =>
+                                speakamass4447(// REPLACE: amass /əˈmæs/
+                                    "en-US"),
                           ),
                         ],
                       ),

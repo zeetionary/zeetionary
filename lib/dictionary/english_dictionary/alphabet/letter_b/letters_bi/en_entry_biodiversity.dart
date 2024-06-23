@@ -153,34 +153,15 @@ class EnglishEntrybiodiversity extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بوونی ژمارەیەکی زۆر لە گیانلەبەر و ڕووەک کە ھاوسەنگی ژینگە ڕادەگرن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The mining project threatens one of the world’s richest areas of biodiversity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆژەی کانەکە ھەڕەشە لە یەکێک لە گەورەترین ناوچەکانی زیندەفرەجۆری دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbiodiversitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbiodiversitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The mining project threatens one of the world’s richest areas of biodiversity.",
+                            kurdishText:
+                                "پڕۆژەی کانەکە ھەڕەشە لە یەکێک لە گەورەترین ناوچەکانی زیندەفرەجۆری دەکات.",
+                            onPressedBritish: () =>
+                                speakbiodiversitys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbiodiversitys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

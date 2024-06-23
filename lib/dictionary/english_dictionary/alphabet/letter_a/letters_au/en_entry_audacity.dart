@@ -163,34 +163,14 @@ class EnglishEntryaudacity extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بوێری و جەربەزەیی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had the audacity to say I was too fat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوێری ئەوەی بوو بڵێت من زۆر قەڵەوم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudacity1246("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudacity1246(// REPLACE: audacity
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had the audacity to say I was too fat.",
+                            kurdishText: "بوێری ئەوەی بوو بڵێت من زۆر قەڵەوم.",
+                            onPressedBritish: () => speakaudacity1246("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudacity1246(// REPLACE: audacity
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

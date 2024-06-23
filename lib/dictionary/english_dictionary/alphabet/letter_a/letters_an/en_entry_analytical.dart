@@ -152,34 +152,13 @@ class EnglishEntryanalytical extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) بەکارھێنانی شێوازی بیرکردنەوەی لۆژیکیانە بۆ تێگەشتن لە شتێک، بەتایبەتی بە سەیرکردنی ھەموو بەشەکانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has a clear analytical mind."),
-                                    ExampleSentenceKurdish(
-                                        text: "مێشکێکی تەواو بەدیقەتی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanalytical150("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalytical150(
-                                        // REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She has a clear analytical mind.",
+                            kurdishText: "مێشکێکی تەواو بەدیقەتی ھەیە.",
+                            onPressedBritish: () => speakanalytical150("en-GB"),
+                            onPressedAmerican: () => speakanalytical150(
+                                // REPLACE: analytical /ˌænəˈlɪtɪkl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

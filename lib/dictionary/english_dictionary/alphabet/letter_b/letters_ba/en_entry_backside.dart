@@ -154,34 +154,14 @@ class EnglishEntrybackside extends StatelessWidget {
 کوردی: سمت، کنگ، ھێت، پاشوو، دواوە، پشتەوە
 """),
                           const DefinitionKurdish(text: "١. (ناو) سمت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Get up off your backside and do some work!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سمتت لە ئەرز ھەڵبڕە و کارێک بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s1(// REPLACE: backside
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Get up off your backside and do some work!",
+                            kurdishText: "سمتت لە ئەرز ھەڵبڕە و کارێک بکە.",
+                            onPressedBritish: () => speakb3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s1(// REPLACE: backside
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

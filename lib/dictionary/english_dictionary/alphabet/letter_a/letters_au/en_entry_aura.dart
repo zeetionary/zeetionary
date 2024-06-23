@@ -160,34 +160,14 @@ class EnglishEntryaura extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھەستێک یان خاسیەتێک لە کەسێک یان شوێنێکدا کە ئاسانە ببینرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She always has an aura of confidence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە متمانەبەخۆبوونی لێ‌دەبارێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaura414("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaura414(// REPLACE: aura
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She always has an aura of confidence.",
+                            kurdishText: "ھەمیشە متمانەبەخۆبوونی لێ‌دەبارێ.",
+                            onPressedBritish: () => speakaura414("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaura414(// REPLACE: aura
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

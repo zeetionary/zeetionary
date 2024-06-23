@@ -239,260 +239,106 @@ class EnglishEntryart extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بەکارھێنانی خەیاڵ بۆ دەربڕینی ھەست و بیرۆکە لە شێوەی تابلۆ و وێنەکێشان و پەیکەردا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's a very beautiful piece of art."),
-                                    ExampleSentenceKurdish(
-                                        text: "پارچەیەکی ھونەری زۆر جوانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakart925("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakart925(// REPLACE: art /ɑːrt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's a very beautiful piece of art.",
+                            kurdishText: "پارچەیەکی ھونەری زۆر جوانە.",
+                            onPressedBritish: () => speakart925("en-GB"),
+                            onPressedAmerican: () =>
+                                speakart925(// REPLACE: art /ɑːrt/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His art style was less radical than his contemporaries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستایلی ھونەریی کەمتر تازەگەریی تێدابوو وەک لەوانەی دیکەی ھاوسەردەمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakart927("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakart927(// REPLACE: art /ɑːrt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His art style was less radical than his contemporaries.",
+                            kurdishText:
+                                "ستایلی ھونەریی کەمتر تازەگەریی تێدابوو وەک لەوانەی دیکەی ھاوسەردەمی.",
+                            onPressedBritish: () => speakart927("en-GB"),
+                            onPressedAmerican: () =>
+                                speakart927(// REPLACE: art /ɑːrt/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) نموونەی کاری ھونەری، بۆ نموونە تابلۆ، وێنەی کێشراو، یان پەیکەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The castle houses one of the finest art collections in Britain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەڵاکە یەکێک لە باشترین کۆمەڵە کاری ھونەری لە بەریتانیادا تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakart930("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakart930(// REPLACE: art /ɑːrt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The castle houses one of the finest art collections in Britain.",
+                            kurdishText:
+                                "قەڵاکە یەکێک لە باشترین کۆمەڵە کاری ھونەری لە بەریتانیادا تێدایە.",
+                            onPressedBritish: () => speakart930("en-GB"),
+                            onPressedAmerican: () =>
+                                speakart930(// REPLACE: art /ɑːrt/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) شارەزایی لە درووستکردنی پارچەی ھونەری، بۆ نموونە تابلۆ، وێنەی کێشراو، یان پەیکەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She's good at art and design."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ھونەر و دیزایندا باشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakart936("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakart936(// REPLACE: art /ɑːrt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's good at art and design.",
+                            kurdishText: "لە ھونەر و دیزایندا باشە.",
+                            onPressedBritish: () => speakart936("en-GB"),
+                            onPressedAmerican: () =>
+                                speakart936(// REPLACE: art /ɑːrt/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) بابەتە ھونەرییەکان کاتێک پێکەوە باس دەکرێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "More government money is needed for the arts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارەی زیاتری حکومەت بۆ ھونەر پێویستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakart947("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakart947(// REPLACE: art /ɑːrt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "More government money is needed for the arts.",
+                            kurdishText:
+                                "پارەی زیاتری حکومەت بۆ ھونەر پێویستە.",
+                            onPressedBritish: () => speakart947("en-GB"),
+                            onPressedAmerican: () =>
+                                speakart947(// REPLACE: art /ɑːrt/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) ھونەری بینراو، یان یەکێک کە نمایش دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Drama is an art that is traditionally performed in a theatre."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دراما ھونەرێکە زۆرجار لە ھۆڵی شانۆ پێشکەش دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakart943("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakart943(// REPLACE: art /ɑːrt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Drama is an art that is traditionally performed in a theatre.",
+                            kurdishText:
+                                "دراما ھونەرێکە زۆرجار لە ھۆڵی شانۆ پێشکەش دەکرێت.",
+                            onPressedBritish: () => speakart943("en-GB"),
+                            onPressedAmerican: () =>
+                                speakart943(// REPLACE: art /ɑːrt/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ناو) بابەتە نازانستییەکانی وەک مێژوو و زمانەکان و ئەدەب"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At school I was quite good at arts, but hopeless at science."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە قوتابخانە زۆر لە بابەتە ھونەرییەکان باش بووم، بەڵام لە زانست بێ‌ئەمەل بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakart939("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakart939(// REPLACE: art /ɑːrt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At school I was quite good at arts, but hopeless at science.",
+                            kurdishText:
+                                "لە قوتابخانە زۆر لە بابەتە ھونەرییەکان باش بووم، بەڵام لە زانست بێ‌ئەمەل بووم.",
+                            onPressedBritish: () => speakart939("en-GB"),
+                            onPressedAmerican: () =>
+                                speakart939(// REPLACE: art /ɑːrt/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ناو) توانایەک یان شارەزاییەک کە دەتوانی زیاتر گەشەی پێ‌بدەیت بە ڕاھێنان‌کردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've never mastered the art of making bread."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز فێری ھونەری نانکردن نەبوومە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakart950("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakart950(// REPLACE: art /ɑːrt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've never mastered the art of making bread.",
+                            kurdishText: "ھەرگیز فێری ھونەری نانکردن نەبوومە.",
+                            onPressedBritish: () => speakart950("en-GB"),
+                            onPressedAmerican: () =>
+                                speakart950(// REPLACE: art /ɑːrt/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

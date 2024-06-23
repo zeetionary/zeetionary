@@ -169,203 +169,83 @@ class EnglishEntryassociate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) پێکەوەبەستنی دوو شت یان کەس لە ھزردا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I always associate the smell of baking with my childhood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە بۆنی برژاندن دەبەستمەوە بە منداڵیمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassociate1135("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassociate1135(
-                                        // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I always associate the smell of baking with my childhood.",
+                            kurdishText:
+                                "ھەمیشە بۆنی برژاندن دەبەستمەوە بە منداڵیمەوە.",
+                            onPressedBritish: () => speakassociate1135("en-GB"),
+                            onPressedAmerican: () => speakassociate1135(
+                                // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most people immediately associate addictions with drugs, alcohol and cigarettes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرکەس ڕاستەوخۆ ئاڵوودەیی دەبەستنەوە بە مادەی ھۆشبەر و کحول و جگەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassociate1136("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassociate1136(
-                                        // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most people immediately associate addictions with drugs, alcohol and cigarettes.",
+                            kurdishText:
+                                "زۆرکەس ڕاستەوخۆ ئاڵوودەیی دەبەستنەوە بە مادەی ھۆشبەر و کحول و جگەرە.",
+                            onPressedBritish: () => speakassociate1136("en-GB"),
+                            onPressedAmerican: () => speakassociate1136(
+                                // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) کات بەسەربردن لەگەڵ خەڵکی، بەتایبەتی لەگەڵ کەسێک یان کەسانێک کە کەسێکی دیکە بەدڵی نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't like you associating with those people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزم لە تێکەڵبوون لەگەڵ ئەو کەسانە نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassociate1139("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassociate1139(
-                                        // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't like you associating with those people.",
+                            kurdishText:
+                                "حەزم لە تێکەڵبوون لەگەڵ ئەو کەسانە نییە.",
+                            onPressedBritish: () => speakassociate1139("en-GB"),
+                            onPressedAmerican: () => speakassociate1139(
+                                // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) پیشاندانی پشتگیری یان ڕەزامەندی بۆ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I associate myself with the prime minister's remarks (= I agree with them)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشتگیری لێدوانەکانی سەرۆک وەزیران دەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassociate1140("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassociate1140(
-                                        // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I associate myself with the prime minister's remarks (= I agree with them).",
+                            kurdishText:
+                                "پشتگیری لێدوانەکانی سەرۆک وەزیران دەکەم.",
+                            onPressedBritish: () => speakassociate1140("en-GB"),
+                            onPressedAmerican: () => speakassociate1140(
+                                // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کەسێک کە کاری لەگەڵ دەکەیت یان زۆر لەگەڵی تێکەڵ دەبیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was known to be one of the convicted man’s associates."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ناسراوە بەوەی یەکێک لە ھاوەڵەکانی پیاوە تاوەنبارەکە بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassociate1143("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassociate1143(
-                                        // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was known to be one of the convicted man’s associates.",
+                            kurdishText:
+                                "ئەو ناسراوە بەوەی یەکێک لە ھاوەڵەکانی پیاوە تاوەنبارەکە بێت.",
+                            onPressedBritish: () => speakassociate1143("en-GB"),
+                            onPressedAmerican: () => speakassociate1143(
+                                // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵناو) کەسێک کە لە پلەیەکی نزمترە لە کارێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was only the associate producer of the movie."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا بەرھەمھێنەری یاریدەدەر بوو لە فیلمەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassociate1147("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassociate1147(
-                                        // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was only the associate producer of the movie.",
+                            kurdishText:
+                                "تەنھا بەرھەمھێنەری یاریدەدەر بوو لە فیلمەکەدا.",
+                            onPressedBritish: () => speakassociate1147("en-GB"),
+                            onPressedAmerican: () => speakassociate1147(
+                                // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

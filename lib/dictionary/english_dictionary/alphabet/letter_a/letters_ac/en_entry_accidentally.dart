@@ -98,32 +98,13 @@ class EnglishEntryaccidentally extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. بە ھەڵکەوت ڕوودان" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The damage couldn't have been caused accidentally."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو زیانە ڕێی تێ ناچێ بە ڕێکەوت ڕوویدابێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka21589("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka21589("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The damage couldn't have been caused accidentally.",
+                            kurdishText:
+                                "ئەو زیانە ڕێی تێ ناچێ بە ڕێکەوت ڕوویدابێت.",
+                            onPressedBritish: () => speaka21589("en-GB"),
+                            onPressedAmerican: () => speaka21589("en-US"),
                           ),
                         ],
                       ),

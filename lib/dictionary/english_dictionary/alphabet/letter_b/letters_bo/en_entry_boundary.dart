@@ -152,88 +152,31 @@ class EnglishEntryboundary extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) سنوور؛ ھێڵێکی خەیاڵی یان ڕاستی کە سنووری شتێک دیاری دەکات و جیای دەکاتەوە لە شتێکی تر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After the war the national boundaries were redrawn."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای جەنگەکە سنووری وڵاتان دووبارە کێشرانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboundarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboundarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After the war the national boundaries were redrawn.",
+                            kurdishText:
+                                "لە دوای جەنگەکە سنووری وڵاتان دووبارە کێشرانەوە.",
+                            onPressedBritish: () => speakboundarys1("en-GB"),
+                            onPressedAmerican: () => speakboundarys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The fence marks the boundary between my property and hers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرژینەکە سنووری نێوان زەوییەکەی من و ئەو دیاری دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboundarys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboundarys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The fence marks the boundary between my property and hers.",
+                            kurdishText:
+                                "پەرژینەکە سنووری نێوان زەوییەکەی من و ئەو دیاری دەکات.",
+                            onPressedBritish: () => speakboundarys2("en-GB"),
+                            onPressedAmerican: () => speakboundarys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scientists continue to push back the boundaries of human knowledge."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاناکان بەردەوامن لە فراوانکردنی سنووری زانستی مرۆڤ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboundarys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboundarys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scientists continue to push back the boundaries of human knowledge.",
+                            kurdishText:
+                                "زاناکان بەردەوامن لە فراوانکردنی سنووری زانستی مرۆڤ.",
+                            onPressedBritish: () => speakboundarys3("en-GB"),
+                            onPressedAmerican: () => speakboundarys3("en-US"),
                           ),
                         ],
                       ),

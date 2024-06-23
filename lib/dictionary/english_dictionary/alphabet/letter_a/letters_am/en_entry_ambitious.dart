@@ -114,65 +114,26 @@ class EnglishEntryambitious extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) ڕشت لەسەر ئەوەی دەوڵەمەند و سەرکەوتووبیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm not ambitious enough to try for the top."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێندە تەماح‌کار نیم ھەوڵ بۆ باشترین بدەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakambitious344("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambitious344(
-                                        // REPLACE: ambitious /æmˈbɪʃəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm not ambitious enough to try for the top.",
+                            kurdishText:
+                                "ھێندە تەماح‌کار نیم ھەوڵ بۆ باشترین بدەم.",
+                            onPressedBritish: () => speakambitious344("en-GB"),
+                            onPressedAmerican: () => speakambitious344(
+                                // REPLACE: ambitious /æmˈbɪʃəs/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The students are all ambitious to do well."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێنکاران ھەموویان ئامانجیانە باش بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakambitious7666("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambitious7666(
-                                        // REPLACE: ambitious /æmˈbɪʃəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The students are all ambitious to do well.",
+                            kurdishText:
+                                "خوێنکاران ھەموویان ئامانجیانە باش بن.",
+                            onPressedBritish: () => speakambitious7666("en-GB"),
+                            onPressedAmerican: () => speakambitious7666(
+                                // REPLACE: ambitious /æmˈbɪʃəs/
+                                "en-US"),
                           ),
                         ],
                       ),

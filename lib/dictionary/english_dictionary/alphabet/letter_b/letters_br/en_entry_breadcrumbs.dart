@@ -147,34 +147,14 @@ class EnglishEntrybreadcrumbs extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) وردەنانی زۆر بچووک کە دەکرێت لە درووستکردنی خواردندا بەکاربێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sprinkle the breadcrumbs over the mixture before baking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وردەنانەکە بپرژێنە بەسەر تێکەڵەکەدا پێش ئەوەی بیبرژێنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreadcrumbss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreadcrumbss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sprinkle the breadcrumbs over the mixture before baking.",
+                            kurdishText:
+                                "وردەنانەکە بپرژێنە بەسەر تێکەڵەکەدا پێش ئەوەی بیبرژێنی.",
+                            onPressedBritish: () => speakbreadcrumbss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbreadcrumbss1("en-US"),
                           ),
                         ],
                       ),

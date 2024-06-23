@@ -148,175 +148,59 @@ class EnglishEntryboss extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە بەرپرسی کەسانی دیکەیە لەسەر کار و پێیان دەڵێت چی بکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'll ask my boss if I can have the day off."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە سەرکارەکەم دەڵێم ئاخۆ بتوانم ئەو ڕۆژە پشوو وەربگرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbosss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbosss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'll ask my boss if I can have the day off.",
+                            kurdishText:
+                                "بە سەرکارەکەم دەڵێم ئاخۆ بتوانم ئەو ڕۆژە پشوو وەربگرم.",
+                            onPressedBritish: () => speakbosss1("en-GB"),
+                            onPressedAmerican: () => speakbosss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I like being my own boss (= working for myself and making my own decisions)."),
-                                    ExampleSentenceKurdish(
-                                        text: "حەز دەکەم سەرکاری خۆم بم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbosss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbosss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I like being my own boss (= working for myself and making my own decisions).",
+                            kurdishText: "حەز دەکەم سەرکاری خۆم بم.",
+                            onPressedBritish: () => speakbosss2("en-GB"),
+                            onPressedAmerican: () => speakbosss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە بەڕێوەبەری دامەزراوەیەکی گەورەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hospital bosses protested at the decision."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسانی نەخۆشخانەکان بڕیارەکانیان سەرکۆنە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbosss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbosss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Hospital bosses protested at the decision.",
+                            kurdishText:
+                                "بەرپرسانی نەخۆشخانەکان بڕیارەکانیان سەرکۆنە کرد.",
+                            onPressedBritish: () => speakbosss3("en-GB"),
+                            onPressedAmerican: () => speakbosss3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) وتن بە کەسێک کە چی بکات بەشێوەیەکی توند و ناشرین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm sick of you bossing me around!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێزارم لێت فرمانم بەسەردا بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbosss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbosss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'm sick of you bossing me around!",
+                            kurdishText: "بێزارم لێت فرمانم بەسەردا بکەیت.",
+                            onPressedBritish: () => speakbosss4("en-GB"),
+                            onPressedAmerican: () => speakbosss4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ھاوەڵناو) زۆر باش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She's a real boss chick."),
-                                    ExampleSentenceKurdish(
-                                        text: "ژنێکی تەواو سەرکەوتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbosss5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbosss5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's a real boss chick.",
+                            kurdishText: "ژنێکی تەواو سەرکەوتووە.",
+                            onPressedBritish: () => speakbosss5("en-GB"),
+                            onPressedAmerican: () => speakbosss5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It was a boss party."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئاھەنگێکی ناوازە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbosss6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbosss6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It was a boss party.",
+                            kurdishText: "ئاھەنگێکی ناوازە بوو.",
+                            onPressedBritish: () => speakbosss6("en-GB"),
+                            onPressedAmerican: () => speakbosss6("en-US"),
                           ),
                         ],
                       ),

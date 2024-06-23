@@ -152,94 +152,37 @@ class EnglishEntrybarrow extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) عەرەبانەیەک کە لەسەری شت دەفرۆشرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The market vendors pushed their barrows filled with fresh produce."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستگێڕەکانی بازاڕ عەرەبانەکانیان پاڵدەدا کە پڕبوون لە بەرھەمی تازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarrows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarrows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The market vendors pushed their barrows filled with fresh produce.",
+                            kurdishText:
+                                "دەستگێڕەکانی بازاڕ عەرەبانەکانیان پاڵدەدا کە پڕبوون لە بەرھەمی تازە.",
+                            onPressedBritish: () => speakbarrows1("en-GB"),
+                            onPressedAmerican: () => speakbarrows1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) تەپۆلکەیەک کە جاران درووستدەکرا بۆ ناشتنی مردوو تێیدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The archaeologists carefully excavated the ancient barrow, discovering a wealth of artifacts within."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شوێنەوارناسان بەوریاییەوە تەپۆلکە دێرینەکەیان ھەڵکۆڵی و ڕێژەیەکی زۆر لە پاشماوەیان تێیدا دۆزییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarrows2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarrows2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The archaeologists carefully excavated the ancient barrow, discovering a wealth of artifacts within.",
+                            kurdishText:
+                                "شوێنەوارناسان بەوریاییەوە تەپۆلکە دێرینەکەیان ھەڵکۆڵی و ڕێژەیەکی زۆر لە پاشماوەیان تێیدا دۆزییەوە.",
+                            onPressedBritish: () => speakbarrows2("en-GB"),
+                            onPressedAmerican: () => speakbarrows2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) عەرەبانەی دەستی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The barrow was leaning against the wall."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "عەرەبانە دەستییەکە پاڵدرابوو بە دیوارەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarrows3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarrows3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The barrow was leaning against the wall.",
+                            kurdishText:
+                                "عەرەبانە دەستییەکە پاڵدرابوو بە دیوارەکەوە.",
+                            onPressedBritish: () => speakbarrows3("en-GB"),
+                            onPressedAmerican: () => speakbarrows3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

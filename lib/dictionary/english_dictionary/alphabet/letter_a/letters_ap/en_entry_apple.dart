@@ -161,62 +161,23 @@ class EnglishEntryapple extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) میوەیەکی خڕ بە توێکڵی بریقەداری سوور و سەوز کە کەمێک ڕەقە و ناوەکەی سپییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I took a bite of the apple."),
-                                    ExampleSentenceKurdish(
-                                        text: "قەپێکم لە سێوەکە گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapple547("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakapple547(// REPLACE: apple /ˈæpl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I took a bite of the apple.",
+                            kurdishText: "قەپێکم لە سێوەکە گرت.",
+                            onPressedBritish: () => speakapple547("en-GB"),
+                            onPressedAmerican: () =>
+                                speakapple547(// REPLACE: apple /ˈæpl/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Peel and core the apples."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێوەکە پاک بکە و ناوەکەی دەربکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapple549("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapple549(
-                                        // REPLACE: apple /ˈæpl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Peel and core the apples.",
+                            kurdishText: "سێوەکە پاک بکە و ناوەکەی دەربکە.",
+                            onPressedBritish: () => speakapple549("en-GB"),
+                            onPressedAmerican: () => speakapple549(
+                                // REPLACE: apple /ˈæpl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

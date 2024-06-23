@@ -150,57 +150,19 @@ class EnglishEntrybeard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕیش؛ مووی چەناگە و لایەکانی ڕووخساری کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "My beard's grown a lot."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕیشم زۆر درێژ بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My beard's grown a lot.",
+                            kurdishText: "ڕیشم زۆر درێژ بووە.",
+                            onPressedBritish: () => speakbeards1("en-GB"),
+                            onPressedAmerican: () => speakbeards1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Do you like men with beards?"),
-                                    ExampleSentenceKurdish(
-                                        text: "حەزت لە پیاوی ڕیشدارە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeards2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeards2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Do you like men with beards?",
+                            kurdishText: "حەزت لە پیاوی ڕیشدارە؟",
+                            onPressedBritish: () => speakbeards2("en-GB"),
+                            onPressedAmerican: () => speakbeards2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

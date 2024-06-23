@@ -152,63 +152,25 @@ class EnglishEntrybiennial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شتێک کە دوو ساڵ جارێک ڕوودەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The university hosts a biennial art exhibition showcasing the work of local artists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانکۆکە پێشانگایەکی ھونەری دوو ساڵ جارێک ڕێکدەخات بۆ نمایشی کاری ھونەرمەندە خۆجێیەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiennials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiennials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The university hosts a biennial art exhibition showcasing the work of local artists.",
+                            kurdishText:
+                                "زانکۆکە پێشانگایەکی ھونەری دوو ساڵ جارێک ڕێکدەخات بۆ نمایشی کاری ھونەرمەندە خۆجێیەکان.",
+                            onPressedBritish: () => speakbiennials1("en-GB"),
+                            onPressedAmerican: () => speakbiennials1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕوەکێک کە دوو ساڵ دەژی و لە ساڵی دووەمدا گوڵ دەگرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Carrots, beets, parsley, and are examples of biennials."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەزەر و چەوەندەر و مەعدەنووس نموونەی ڕووەکن کە دوو ساڵ دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiennials2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiennials2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Carrots, beets, parsley, and are examples of biennials.",
+                            kurdishText:
+                                "گەزەر و چەوەندەر و مەعدەنووس نموونەی ڕووەکن کە دوو ساڵ دەژین.",
+                            onPressedBritish: () => speakbiennials2("en-GB"),
+                            onPressedAmerican: () => speakbiennials2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

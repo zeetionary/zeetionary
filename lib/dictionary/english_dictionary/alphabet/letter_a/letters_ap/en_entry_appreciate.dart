@@ -161,199 +161,77 @@ class EnglishEntryappreciate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) قەدرزانینی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Over the years he came to appreciate the beauty and tranquillity of the river."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوای ساڵانێکی زۆر قەدری جوانی و ئارام‌بەخشیی ڕووبارەکەی زانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciate749("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciate749(
-                                        // REPLACE: appreciate /əˈpriːʃieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Over the years he came to appreciate the beauty and tranquillity of the river.",
+                            kurdishText:
+                                "دوای ساڵانێکی زۆر قەدری جوانی و ئارام‌بەخشیی ڕووبارەکەی زانی.",
+                            onPressedBritish: () => speakappreciate749("en-GB"),
+                            onPressedAmerican: () => speakappreciate749(
+                                // REPLACE: appreciate /əˈpriːʃieɪt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her family doesn't appreciate her."),
-                                    ExampleSentenceKurdish(
-                                        text: "خێزانەکەی قەدری نازانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciate750("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciate750(
-                                        // REPLACE: appreciate /əˈpriːʃieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her family doesn't appreciate her.",
+                            kurdishText: "خێزانەکەی قەدری نازانن.",
+                            onPressedBritish: () => speakappreciate750("en-GB"),
+                            onPressedAmerican: () => speakappreciate750(
+                                // REPLACE: appreciate /əˈpriːʃieɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) دەربڕینی سوپاسگوزاری بۆ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'd appreciate some help."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێزانینم دەبێ بۆ ھەندێک یارمەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciate753("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciate753(
-                                        // REPLACE: appreciate /əˈpriːʃieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'd appreciate some help.",
+                            kurdishText: "پێزانینم دەبێ بۆ ھەندێک یارمەتی.",
+                            onPressedBritish: () => speakappreciate753("en-GB"),
+                            onPressedAmerican: () => speakappreciate753(
+                                // REPLACE: appreciate /əˈpriːʃieɪt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your kindness and generosity is much appreciated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەخشندەیی و دەست‌کراوەییت بەرزدەنرخێنم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciate756("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciate756(
-                                        // REPLACE: appreciate /əˈpriːʃieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your kindness and generosity is much appreciated.",
+                            kurdishText:
+                                "بەخشندەیی و دەست‌کراوەییت بەرزدەنرخێنم.",
+                            onPressedBritish: () => speakappreciate756("en-GB"),
+                            onPressedAmerican: () => speakappreciate756(
+                                // REPLACE: appreciate /əˈpriːʃieɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ھەست‌کردن بەوەی شتێک ڕاستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What I failed to appreciate was the distance between the two cities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوەی پێم‌نەزانی دووری نێوان دوو شارەکە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciate759("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciate759(
-                                        // REPLACE: appreciate /əˈpriːʃieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What I failed to appreciate was the distance between the two cities.",
+                            kurdishText:
+                                "ئەوەی پێم‌نەزانی دووری نێوان دوو شارەکە بوو.",
+                            onPressedBritish: () => speakappreciate759("en-GB"),
+                            onPressedAmerican: () => speakappreciate759(
+                                // REPLACE: appreciate /əˈpriːʃieɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) زیادبوونی نرخ لە دوای ماوەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their investments have appreciated over the years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵ دوای ساڵ وەبەرھێنانەکانیان نرخی زیادبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciate801("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciate801(
-                                        // REPLACE: appreciate /əˈpriːʃieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their investments have appreciated over the years.",
+                            kurdishText:
+                                "ساڵ دوای ساڵ وەبەرھێنانەکانیان نرخی زیادبووە.",
+                            onPressedBritish: () => speakappreciate801("en-GB"),
+                            onPressedAmerican: () => speakappreciate801(
+                                // REPLACE: appreciate /əˈpriːʃieɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

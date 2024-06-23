@@ -150,122 +150,46 @@ class EnglishEntrybean extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) تۆو، یان کەلووی تۆودار، کە ھی ڕووەکێکی ھەڵگژە و وەک سەوزە دەخورێت (فاسۆلیا، لۆبیا، پاقلە)"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The villagers cultivate mostly maize and beans."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوندنشینەکان بەزۆری گەنمەشامی و لۆبیا و فاسۆلیا و پاقلە دەچێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The villagers cultivate mostly maize and beans.",
+                            kurdishText:
+                                "گوندنشینەکان بەزۆری گەنمەشامی و لۆبیا و فاسۆلیا و پاقلە دەچێنن.",
+                            onPressedBritish: () => speakbeans1("en-GB"),
+                            onPressedAmerican: () => speakbeans1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) تۆوی ڕووەکێک کە قاوەی لێ بەرھەمدێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Coffee beans are the seeds of the coffee tree."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەنکە قاوە تۆوی داری قاوەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeans2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeans2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Coffee beans are the seeds of the coffee tree.",
+                            kurdishText: "دەنکە قاوە تۆوی داری قاوەیە.",
+                            onPressedBritish: () => speakbeans2("en-GB"),
+                            onPressedAmerican: () => speakbeans2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) سەر یان مێشکی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Use your bean, kiddo!"),
-                                    ExampleSentenceKurdish(
-                                        text: "مێشکت بەکاربێنە منداڵ!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeans3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeans3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Use your bean, kiddo!",
+                            kurdishText: "مێشکت بەکاربێنە منداڵ!",
+                            onPressedBritish: () => speakbeans3("en-GB"),
+                            onPressedAmerican: () => speakbeans3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) لێدانی کەسێک لەسەر سەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I got beaned by a rock someone threw."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەردێک کە کەسێک ھاویشتی کێشای بە سەرمدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeans4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeans4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I got beaned by a rock someone threw.",
+                            kurdishText:
+                                "بەردێک کە کەسێک ھاویشتی کێشای بە سەرمدا.",
+                            onPressedBritish: () => speakbeans4("en-GB"),
+                            onPressedAmerican: () => speakbeans4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

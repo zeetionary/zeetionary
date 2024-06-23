@@ -165,34 +165,15 @@ class EnglishEntryartefact extends StatelessWidget {
                               text:
                                   "١. (ناو) پارچەیەکی دەستکرد کە لەلایەن کەسێکەوە درووست‌کراوە، بەتایبەتی شتێک کە گرنگی مێژوویی یان کەلتووری ھەیە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The museum has a superb collection of ancient artefacts from Nubia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆزەخانەکە کۆمەڵە دەسکارێکی کۆنی ناوازەی نوبیای ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakartefact112("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartefact112(
-                                        // REPLACE: artefact /ˈɑːrtɪfækt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The museum has a superb collection of ancient artefacts from Nubia.",
+                            kurdishText:
+                                "مۆزەخانەکە کۆمەڵە دەسکارێکی کۆنی ناوازەی نوبیای ھەیە.",
+                            onPressedBritish: () => speakartefact112("en-GB"),
+                            onPressedAmerican: () => speakartefact112(
+                                // REPLACE: artefact /ˈɑːrtɪfækt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

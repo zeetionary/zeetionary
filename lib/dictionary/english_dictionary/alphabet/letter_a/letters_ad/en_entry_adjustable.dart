@@ -113,34 +113,14 @@ class EnglishEntryadjustable extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) شتێک کە دەستکاری دەکرێت بۆ ئەو شێوەیەی کە خۆت دەتەوێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The height of the bicycle seat is adjustable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرزیی کورسی پاسکیلەکە ڕێکدەخرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadjusta5847("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadjusta5847(
-                                        // REPLACE: adjustable /əˈdʒʌstəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The height of the bicycle seat is adjustable.",
+                            kurdishText: "بەرزیی کورسی پاسکیلەکە ڕێکدەخرێت.",
+                            onPressedBritish: () => speakadjusta5847("en-GB"),
+                            onPressedAmerican: () => speakadjusta5847(
+                                // REPLACE: adjustable /əˈdʒʌstəbl/
+                                "en-US"),
                           ),
                         ],
                       ),

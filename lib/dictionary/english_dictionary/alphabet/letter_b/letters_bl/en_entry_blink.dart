@@ -148,148 +148,48 @@ class EnglishEntryblink extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) چاو ترپاندن؛ داخستن و کردنەوەی چاو بەخێرایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He blinked in the bright sunlight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوی ترپاند لە خۆرەتاوە گەرمەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He blinked in the bright sunlight.",
+                            kurdishText: "چاوی ترپاند لە خۆرەتاوە گەرمەکەدا.",
+                            onPressedBritish: () => speakblinks1("en-GB"),
+                            onPressedAmerican: () => speakblinks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'll be back before you can blink (= very quickly)."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە چەقەنەیەکدا دێمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'll be back before you can blink (= very quickly).",
+                            kurdishText: "لە چەقەنەیەکدا دێمەوە.",
+                            onPressedBritish: () => speakblinks2("en-GB"),
+                            onPressedAmerican: () => speakblinks2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When I told him the news he didn't even blink (= showed no surprise at all)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە ھەواڵەکەم پێ وت ھەر چاویشی نەترپاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When I told him the news he didn't even blink (= showed no surprise at all).",
+                            kurdishText:
+                                "کە ھەواڵەکەم پێ وت ھەر چاویشی نەترپاند.",
+                            onPressedBritish: () => speakblinks3("en-GB"),
+                            onPressedAmerican: () => speakblinks3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) درەوشانەوە بە ڕۆشناییەکی کە دەبڕێت و دەگەڕێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Suddenly a warning light blinked."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەناکاو لایتێکی ئاگادارکردنەوە دەستی بە پرتەپرت کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Suddenly a warning light blinked.",
+                            kurdishText:
+                                "لەناکاو لایتێکی ئاگادارکردنەوە دەستی بە پرتەپرت کرد.",
+                            onPressedBritish: () => speakblinks4("en-GB"),
+                            onPressedAmerican: () => speakblinks4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ترپاندنی چاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was observing her every blink."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێبینی ھەر ترپاندنێکی چاوی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinks5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinks5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was observing her every blink.",
+                            kurdishText: "تێبینی ھەر ترپاندنێکی چاوی دەکرد.",
+                            onPressedBritish: () => speakblinks5("en-GB"),
+                            onPressedAmerican: () => speakblinks5("en-US"),
                           ),
                         ],
                       ),

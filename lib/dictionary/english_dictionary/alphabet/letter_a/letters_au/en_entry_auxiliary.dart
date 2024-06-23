@@ -160,133 +160,57 @@ class EnglishEntryauxiliary extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) پێدانی یارمەتی بە کەسێکی تر کە بە سەرەکی کاردەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The auxiliary nurse helped the doctor with patient care."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرستارە یارمەتیدەرەکە یارمەتی دکتۆرەکەی دەدا لە چاودێری نەخۆشەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauxiliarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauxiliarys1(// REPLACE: auxiliary
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The auxiliary nurse helped the doctor with patient care.",
+                            kurdishText:
+                                "پەرستارە یارمەتیدەرەکە یارمەتی دکتۆرەکەی دەدا لە چاودێری نەخۆشەکە.",
+                            onPressedBritish: () => speakauxiliarys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauxiliarys1(// REPLACE: auxiliary
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک کە بەکاردێت کاتێک کێشە درووست دەبێت لەو شتەی بەشێوەیەکی سەرەکی بەکاریدێنیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The auxiliary engine provided power to the sailboat when the wind died down."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بزوێنەرە یەدەکەکە ھێزی بە بەلەمەکە دا کاتێک بایەکە نەما."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauxiliarys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauxiliarys2(// REPLACE: auxiliary
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The auxiliary engine provided power to the sailboat when the wind died down.",
+                            kurdishText:
+                                "بزوێنەرە یەدەکەکە ھێزی بە بەلەمەکە دا کاتێک بایەکە نەما.",
+                            onPressedBritish: () => speakauxiliarys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauxiliarys2(// REPLACE: auxiliary
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کردارێک بۆ نموونە وەک be, do و have کە لەگەڵ کاری سەرەکی بەکاردێت بۆ پیشاندانی دەم یان درووستکردنی ڕستەی پرسیاری و نەرێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the question ‘Do you know where he has gone?’, ‘do’ and ‘has’ are auxiliaries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕستەی ‘Do you know where he has gone?’, ‘do’ و ‘has’ کاری یاریدەدەرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauxiliarys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauxiliarys3(// REPLACE: auxiliary
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the question ‘Do you know where he has gone?’, ‘do’ and ‘has’ are auxiliaries.",
+                            kurdishText:
+                                "لە ڕستەی ‘Do you know where he has gone?’, ‘do’ و ‘has’ کاری یاریدەدەرن.",
+                            onPressedBritish: () => speakauxiliarys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauxiliarys3(// REPLACE: auxiliary
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کارمەندێک کە یارمەتی بەو کەسانە دەدات کە بەشێوەی سەرەکی کاردەکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The firefighters were aided by auxiliaries who helped to evacuate residents from the burning building."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگرکوژێنەرەوەکان لەلایەن پاشکۆکانەوە کۆمەک دەکران کە یارمەتی دەرکردنی ھاوڵاتییەکانیان دا لە بینا سووتاوەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauxiliarys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauxiliarys4(// REPLACE: auxiliary
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The firefighters were aided by auxiliaries who helped to evacuate residents from the burning building.",
+                            kurdishText:
+                                "ئاگرکوژێنەرەوەکان لەلایەن پاشکۆکانەوە کۆمەک دەکران کە یارمەتی دەرکردنی ھاوڵاتییەکانیان دا لە بینا سووتاوەکەوە.",
+                            onPressedBritish: () => speakauxiliarys4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauxiliarys4(// REPLACE: auxiliary
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -164,35 +164,14 @@ class EnglishEntryastuteness extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) زیرەک و خێرا لە تێگەشتن" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is admired for her political astuteness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێزلێگیراوە بۆ بیرتیژیی لە سیاسەتدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakastuteness606("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakastuteness606(
-                                        // REPLACE: astuteness
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is admired for her political astuteness.",
+                            kurdishText: "ڕێزلێگیراوە بۆ بیرتیژیی لە سیاسەتدا.",
+                            onPressedBritish: () => speakastuteness606("en-GB"),
+                            onPressedAmerican: () => speakastuteness606(
+                                // REPLACE: astuteness
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

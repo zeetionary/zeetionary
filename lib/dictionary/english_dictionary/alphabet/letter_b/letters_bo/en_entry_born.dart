@@ -230,122 +230,46 @@ class EnglishEntryborn extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) دەرچوون لە سکی دایک لە سەرەتای ژیاندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was born in 1976."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ساڵی ١٩٧٦ لەدایکبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborns1("en-GB"),
+                          SentencesRow(
+  englishText: "He was born in 1976.",
+kurdishText: "لە ساڵی ١٩٧٦ لەدایکبوو.",
+onPressedBritish: () => speakborns1("en-GB"),
+onPressedAmerican: () => speakborns1("en-US"),
                                   ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was born in a small village in northern Spain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە گوندێکی بچووکی باکووری ئیسپانیا لەدایکبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborns2("en-GB"),
+                          SentencesRow(
+  englishText:
+                                            "He was born in a small village in northern Spain.",
+kurdishText:
+                                            "لە گوندێکی بچووکی باکووری ئیسپانیا لەدایکبوو.",
+onPressedBritish: () => speakborns2("en-GB"),
+onPressedAmerican: () => speakborns2("en-US"),
                                   ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The baby was born by Caesarean section on Friday."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "منداڵەکە لە ڕۆژی ھەینی بە نەشتەرگەری لەدایکبوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "The baby was born by Caesarean section on Friday.",
+kurdishText:
+                                                    "منداڵەکە لە ڕۆژی ھەینی بە نەشتەرگەری لەدایکبوو.",
+onPressedBritish: () =>
                                                 speakborns3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+onPressedAmerican: () =>
                                                 speakborns10("en-US"),
                                           ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "These children were born into poverty."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەم منداڵانە لە ھەژاریدا لەدایکبوون."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
+                                  SentencesRow(
+  englishText:
+                                                    "These children were born into poverty.",
+kurdishText:
+                                                    "ئەم منداڵانە لە ھەژاریدا لەدایکبوون.",
+onPressedBritish: () =>
                                                 speakborns4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
+onPressedAmerican: () =>
                                                 speakborns4("en-US"),
                                           ),
-                                        ],
-                                      ),
-                                    ],
-                                  ),
                                 ],
                               ),
                             ],
@@ -354,152 +278,57 @@ class EnglishEntryborn extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) دەستپێکردنی بیرۆکەیەک، جوڵانەوەیەک، دامەزراوەیەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She acted with a courage born (out) of desperation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە بوێرییەکەوە ھەنگاوی نا لە دەستبەستراوی درووست بووبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborns5("en-GB"),
+                          SentencesRow(
+  englishText:
+                                            "She acted with a courage born (out) of desperation.",
+kurdishText:
+                                            "بە بوێرییەکەوە ھەنگاوی نا لە دەستبەستراوی درووست بووبوو.",
+onPressedBritish: () => speakborns5("en-GB"),
+onPressedAmerican: () => speakborns5("en-US"),
                                   ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborns5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) لەدایکبوو بەو شێوەیەی باسکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The part is played by an American-born actress."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆڵەکە لەلایەن خانمە ئەکتەرێکی لەدایکبووی ئەمریکاوە دەبینرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborns6("en-GB"),
+                          SentencesRow(
+  englishText:
+                                            "The part is played by an American-born actress.",
+kurdishText:
+                                            "ڕۆڵەکە لەلایەن خانمە ئەکتەرێکی لەدایکبووی ئەمریکاوە دەبینرێت.",
+onPressedBritish: () => speakborns6("en-GB"),
+onPressedAmerican: () => speakborns6("en-US"),
                                   ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborns6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was the firstborn of his family."),
-                                    ExampleSentenceKurdish(
-                                        text: "یەکەم منداڵی خێزانەکەی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborns7("en-GB"),
+                          SentencesRow(
+  englishText:
+                                            "He was the firstborn of his family.",
+kurdishText: "یەکەم منداڵی خێزانەکەی بوو.",
+onPressedBritish: () => speakborns7("en-GB"),
+onPressedAmerican: () => speakborns7("en-US"),
                                   ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborns7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) ھەبوونی توانای سرووشتی بۆ چالاکییەک یان کارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I felt born to take care of animals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وام ھەستکرد لەدایکبووبم بۆ چاودێری ئاژەڵان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborns8("en-GB"),
+                          SentencesRow(
+  englishText:
+                                            "I felt born to take care of animals.",
+kurdishText:
+                                            "وام ھەستکرد لەدایکبووبم بۆ چاودێری ئاژەڵان.",
+onPressedBritish: () => speakborns8("en-GB"),
+onPressedAmerican: () => speakborns8("en-US"),
                                   ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborns8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I do not expect anything from him. He was a born loser (= a person who always loses or is unsuccessful)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچی لێ چاوەڕێ ناکەم. دۆڕان لە خوێنیدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborns9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborns9("en-US"),
+                          SentencesRow(
+  englishText:
+                                            "I do not expect anything from him. He was a born loser (= a person who always loses or is unsuccessful).",
+kurdishText:
+                                            "ھیچی لێ چاوەڕێ ناکەم. دۆڕان لە خوێنیدایە.",
+onPressedBritish: () => speakborns9("en-GB"),
+onPressedAmerican: () => speakborns9("en-US"),
                                   ),
                                 ],
                               ),
-                            ],
-                          ),
-                        ],
-                      ),
                     ),
                     const YouTubeScroller(
                       children: [

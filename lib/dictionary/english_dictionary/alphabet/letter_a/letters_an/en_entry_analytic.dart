@@ -169,99 +169,40 @@ class EnglishEntryanalytic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) بەکارھێنانی شێوازی بیرکردنەوەی لۆژیکیانە بۆ تێگەشتن لە شتێک، بەتایبەتی بە سەیرکردنی ھەموو بەشەکانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She has a clear analytic mind."),
-                                    ExampleSentenceKurdish(
-                                        text: "مێشکێکی تەواو بەدیقەتی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanalytical150("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalytical150(
-                                        // REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She has a clear analytic mind.",
+                            kurdishText: "مێشکێکی تەواو بەدیقەتی ھەیە.",
+                            onPressedBritish: () => speakanalytical150("en-GB"),
+                            onPressedAmerican: () => speakanalytical150(
+                                // REPLACE: analytical /ˌænəˈlɪtɪkl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The analytic methods we developed for this project will be useful for our future work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ڕێگا شیکارییانەی گەشەمان‌پێدا بۆ ئەم پڕۆژە بەسوود دەبێت بۆ کارەکانی داھاتوومان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanalytical0025("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalytical0025(
-                                        // REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The analytic methods we developed for this project will be useful for our future work.",
+                            kurdishText:
+                                "ئەو ڕێگا شیکارییانەی گەشەمان‌پێدا بۆ ئەم پڕۆژە بەسوود دەبێت بۆ کارەکانی داھاتوومان.",
+                            onPressedBritish: () =>
+                                speakanalytical0025("en-GB"),
+                            onPressedAmerican: () => speakanalytical0025(
+                                // REPLACE: analytical /ˌænəˈlɪtɪkl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بە بەکارھێنانی لۆژیک (وردبوونەوە و بیرکردنەوە لە بیرۆکەکان بە ڕێگای زانستی)"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This book is one of the masterpieces of analytic philosophy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم کتێبە یەکێکە لە شاکارەکانی فەلسەفەی شیکارانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanalytic47906("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalytic47906(
-                                        // REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This book is one of the masterpieces of analytic philosophy.",
+                            kurdishText:
+                                "ئەم کتێبە یەکێکە لە شاکارەکانی فەلسەفەی شیکارانە.",
+                            onPressedBritish: () => speakanalytic47906("en-GB"),
+                            onPressedAmerican: () => speakanalytic47906(
+                                // REPLACE: analytical /ˌænəˈlɪtɪkl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

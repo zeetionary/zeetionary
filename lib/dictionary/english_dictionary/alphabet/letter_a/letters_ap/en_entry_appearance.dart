@@ -166,203 +166,89 @@ class EnglishEntryappearance extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شێوازی دەرکەوتنی شتێک لە ڕواڵەتدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had never been greatly concerned about her appearance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز ھێندە زۆر گرنگی بە ڕواڵەتی نەداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappearance1127("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappearance1127(
-                                        // REPLACE: appearance /əˈpɪrəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had never been greatly concerned about her appearance.",
+                            kurdishText:
+                                "ھەرگیز ھێندە زۆر گرنگی بە ڕواڵەتی نەداوە.",
+                            onPressedBritish: () =>
+                                speakappearance1127("en-GB"),
+                            onPressedAmerican: () => speakappearance1127(
+                                // REPLACE: appearance /əˈpɪrəns/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Judging by appearances can be misleading."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیاردان بە ڕواڵەت دەکرێت بتخاتە ھەڵەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappearance1128("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappearance1128(
-                                        // REPLACE: appearance /əˈpɪrəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Judging by appearances can be misleading.",
+                            kurdishText:
+                                "بڕیاردان بە ڕواڵەت دەکرێت بتخاتە ھەڵەوە.",
+                            onPressedBritish: () =>
+                                speakappearance1128("en-GB"),
+                            onPressedAmerican: () => speakappearance1128(
+                                // REPLACE: appearance /əˈpɪrəns/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) گەشتنی کەسێک لە شوێنێک، بەتایبەتی کە پێشبینی‌نەکراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sudden appearance of a security guard caused them to drop the money and run."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرکەوتنی لەناکاوی پاسەوانێک بووە ھۆی ئەوەی پارەکە دابنێن و ھەڵبێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappearance1131("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappearance1131(
-                                        // REPLACE: appearance /əˈpɪrəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sudden appearance of a security guard caused them to drop the money and run.",
+                            kurdishText:
+                                "دەرکەوتنی لەناکاوی پاسەوانێک بووە ھۆی ئەوەی پارەکە دابنێن و ھەڵبێن.",
+                            onPressedBritish: () =>
+                                speakappearance1131("en-GB"),
+                            onPressedAmerican: () => speakappearance1131(
+                                // REPLACE: appearance /əˈpɪrəns/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ساتی درووست بوون یان دەرکەوتنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Since its first appearance in the 19th century, cholera has killed millions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە سەرەتای دەرکەوتنییەوە لە سەدەی نۆزدەوە، کۆلێرا بووە بەھۆی کووشتنی ملیۆنان کەس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappearance1132("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappearance1132(
-                                        // REPLACE: appearance /əˈpɪrəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Since its first appearance in the 19th century, cholera has killed millions.",
+                            kurdishText:
+                                "لە سەرەتای دەرکەوتنییەوە لە سەدەی نۆزدەوە، کۆلێرا بووە بەھۆی کووشتنی ملیۆنان کەس.",
+                            onPressedBritish: () =>
+                                speakappearance1132("en-GB"),
+                            onPressedAmerican: () => speakappearance1132(
+                                // REPLACE: appearance /əˈpɪrəns/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) دەرکەوتن لە شوێنێکی گشتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The singer's first public appearance was at the age of eight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەم دەرکەوتنی گۆرانیبێژەکە لە تەمەنی ھەشت ساڵی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappearance1135("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappearance1135(
-                                        // REPLACE: appearance /əˈpɪrəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The singer's first public appearance was at the age of eight.",
+                            kurdishText:
+                                "یەکەم دەرکەوتنی گۆرانیبێژەکە لە تەمەنی ھەشت ساڵی بوو.",
+                            onPressedBritish: () =>
+                                speakappearance1135("en-GB"),
+                            onPressedAmerican: () => speakappearance1135(
+                                // REPLACE: appearance /əˈpɪrəns/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) بڵاوبوونەوە یان پەخشکردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The appearance of claims about the minister's private life in the press has caused a lot of discussions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڵاوبوونەوەی دەنگۆکان لەسەر ژیان تایبەتیی وەزیرەکە لە میدیادا قسەی زۆری بەدوادا ھاتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappearance1145("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappearance1145(
-                                        // REPLACE: appearance /əˈpɪrəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The appearance of claims about the minister's private life in the press has caused a lot of discussions.",
+                            kurdishText:
+                                "بڵاوبوونەوەی دەنگۆکان لەسەر ژیان تایبەتیی وەزیرەکە لە میدیادا قسەی زۆری بەدوادا ھاتووە.",
+                            onPressedBritish: () =>
+                                speakappearance1145("en-GB"),
+                            onPressedAmerican: () => speakappearance1145(
+                                // REPLACE: appearance /əˈpɪrəns/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

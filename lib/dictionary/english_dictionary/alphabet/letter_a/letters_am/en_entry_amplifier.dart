@@ -157,35 +157,16 @@ class EnglishEntryamplifier extends StatelessWidget {
                               text:
                                   "١. (ناو) پارچەیەکی ئەلیکترۆنی کە دەنگ بەرزدەکاتەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Have you connected the speakers to the amplifier?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڵیندگۆکانت پەیوەست‌کردووە بە دەنگپێدەرەکەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamplifier40990("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamplifier40990(
-                                        // REPLACE: amplifier /ˈæmplɪfaɪər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Have you connected the speakers to the amplifier?",
+                            kurdishText:
+                                "بڵیندگۆکانت پەیوەست‌کردووە بە دەنگپێدەرەکەوە؟",
+                            onPressedBritish: () =>
+                                speakamplifier40990("en-GB"),
+                            onPressedAmerican: () => speakamplifier40990(
+                                // REPLACE: amplifier /ˈæmplɪfaɪər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

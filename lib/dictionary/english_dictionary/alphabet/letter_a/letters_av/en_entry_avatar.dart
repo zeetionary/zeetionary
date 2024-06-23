@@ -154,67 +154,29 @@ class EnglishEntryavatar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) لە ئایینی ھیندۆس و بودیدا بریتییە لە خودا کە لە شێوەی مرۆڤدا دێتە سەر زەوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Gautama Buddha is considered an avatar of the god Vishnu."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوتاما بودا بە ئەڤەتاری خواوەند ڤیشنو دادەنرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavatars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavatars1(// REPLACE: avatar
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Gautama Buddha is considered an avatar of the god Vishnu.",
+                            kurdishText:
+                                "گوتاما بودا بە ئەڤەتاری خواوەند ڤیشنو دادەنرێت.",
+                            onPressedBritish: () => speakavatars1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavatars1(// REPLACE: avatar
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) وێنەی دیجیتاڵی کەسێک کە وێنا لەو کەسە دەکات لەسەر کۆمپیوتەر و یارییە ئەلیکترۆنییەکان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The game creates a virtual world where people interact and participate in activities through their avatars."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یارییەکە جیھانێکی خەیاڵی درووست‌دەکات کە تێیدا خەڵکی مامەڵە لەگەڵ یەکدەکەن و بەژداری دەکەن لە ڕێگەی ئەڤەتارەکانیانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavatars2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavatars2(// REPLACE: avatar
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The game creates a virtual world where people interact and participate in activities through their avatars.",
+                            kurdishText:
+                                "یارییەکە جیھانێکی خەیاڵی درووست‌دەکات کە تێیدا خەڵکی مامەڵە لەگەڵ یەکدەکەن و بەژداری دەکەن لە ڕێگەی ئەڤەتارەکانیانەوە.",
+                            onPressedBritish: () => speakavatars2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavatars2(// REPLACE: avatar
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

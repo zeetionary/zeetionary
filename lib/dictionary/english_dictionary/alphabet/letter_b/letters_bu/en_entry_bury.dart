@@ -193,325 +193,111 @@ class EnglishEntrybury extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ناشتنی کەسێکی مردوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They killed her and buried her body."),
-                                    ExampleSentenceKurdish(
-                                        text: "کوشتیان و لاشەکەیان ناشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bury", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They killed her and buried her body.",
+                            kurdishText:
+                                "کوشتیان و لاشەکەیان ناشت.", // bury", follow LX strictly
+                            onPressedBritish: () => speakburys1("en-GB"),
+                            onPressedAmerican: () => speakburys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Those people are now all dead and buried."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو کەسانە ئێستا ھەموویان مردوو و لەژێر گڵن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Those people are now all dead and buried.",
+                            kurdishText:
+                                "ئەو کەسانە ئێستا ھەموویان مردوو و لەژێر گڵن.",
+                            onPressedBritish: () => speakburys2("en-GB"),
+                            onPressedAmerican: () => speakburys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) لەدەستدانی کەسێک بە مردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's 85 and has buried three husbands."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەمەنی ٨٥ ساڵە و سێ ھاوسەری لەدەستداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's 85 and has buried three husbands.",
+                            kurdishText:
+                                "تەمەنی ٨٥ ساڵە و سێ ھاوسەری لەدەستداوە.",
+                            onPressedBritish: () => speakburys3("en-GB"),
+                            onPressedAmerican: () => speakburys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) شاردنەوەی شتێک لە زەویدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We used to dig for hours, looking for buried treasure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران چەندین کاتژمێر دەگەڕاین بۆ گەنجینەی شاردراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We used to dig for hours, looking for buried treasure.",
+                            kurdishText:
+                                "جاران چەندین کاتژمێر دەگەڕاین بۆ گەنجینەی شاردراوە.",
+                            onPressedBritish: () => speakburys4("en-GB"),
+                            onPressedAmerican: () => speakburys4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dog had buried its bone in the garden."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگەکە ئێسقانەکەی لە باخچەکەدا شاردبووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dog had buried its bone in the garden.",
+                            kurdishText:
+                                "سەگەکە ئێسقانەکەی لە باخچەکەدا شاردبووەوە.",
+                            onPressedBritish: () => speakburys5("en-GB"),
+                            onPressedAmerican: () => speakburys5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) داپۆشینی کەسێک/شتێک بە خۆڵ، بەرد، گەڵا، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The house was buried under ten feet of snow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووەکە داپۆشرا بە ١٠ فیت لە بەفر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The house was buried under ten feet of snow.",
+                            kurdishText: "خانووەکە داپۆشرا بە ١٠ فیت لە بەفر.",
+                            onPressedBritish: () => speakburys6("en-GB"),
+                            onPressedAmerican: () => speakburys6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A landslide buried about 25 people yesterday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوومەخزەیەک نزیکەی ٢٥ کەسی کرد بە ژێرەوە دوێنێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburys7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburys7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A landslide buried about 25 people yesterday.",
+                            kurdishText:
+                                "بوومەخزەیەک نزیکەی ٢٥ کەسی کرد بە ژێرەوە دوێنێ.",
+                            onPressedBritish: () => speakburys7("en-GB"),
+                            onPressedAmerican: () => speakburys7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) داپۆشینی شتێک بەشێوەیەک کە نەبینرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He buried his face in his hands and wept."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووخساری لە دەستیدا داپۆشی و گریا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburys8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburys8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He buried his face in his hands and wept.",
+                            kurdishText: "ڕووخساری لە دەستیدا داپۆشی و گریا.",
+                            onPressedBritish: () => speakburys8("en-GB"),
+                            onPressedAmerican: () => speakburys8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) شاردنەوەی ھەست، ھەڵە، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had learnt to bury her feelings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فێربوو بوو کە ھەستەکانی بشارێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburys9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburys9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She had learnt to bury her feelings.",
+                            kurdishText: "فێربوو بوو کە ھەستەکانی بشارێتەوە.",
+                            onPressedBritish: () => speakburys9("en-GB"),
+                            onPressedAmerican: () => speakburys9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کردار) بە قووڵی خستنە ناو شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He walked slowly, his hands buried in his pockets."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھێواشی ڕێی دەکرد و دەستەکانی لە گیرفانیدا بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburys10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburys10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He walked slowly, his hands buried in his pockets.",
+                            kurdishText:
+                                "بەھێواشی ڕێی دەکرد و دەستەکانی لە گیرفانیدا بوون.",
+                            onPressedBritish: () => speakburys10("en-GB"),
+                            onPressedAmerican: () => speakburys10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She always has her head buried in a book."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە سەری لەناو کتێبێکدا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburys11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburys11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She always has her head buried in a book.",
+                            kurdishText: "ھەمیشە سەری لەناو کتێبێکدا بوو.",
+                            onPressedBritish: () => speakburys11("en-GB"),
+                            onPressedAmerican: () => speakburys11("en-US"),
                           ),
                         ],
                       ),

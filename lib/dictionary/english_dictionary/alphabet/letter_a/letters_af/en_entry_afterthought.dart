@@ -115,34 +115,15 @@ class EnglishEntryafterthought extends StatelessWidget {
                               text:
                                   "١. (ناو) شتێک کە دەیکەیت تەنھا لە دواییدا و بە تەواوی بیری لێ ناکەیتەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They only invited Jack and Sarah as an afterthought."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاک و سارایان بانگھێشت کرد تەنھا دوای ئەوەی بیریانکەوتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafterth369("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafterth369(
-                                        // REPLACE: afterthought /ˈɑːftərθɔːt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They only invited Jack and Sarah as an afterthought.",
+                            kurdishText:
+                                "جاک و سارایان بانگھێشت کرد تەنھا دوای ئەوەی بیریانکەوتەوە.",
+                            onPressedBritish: () => speakafterth369("en-GB"),
+                            onPressedAmerican: () => speakafterth369(
+                                // REPLACE: afterthought /ˈɑːftərθɔːt/
+                                "en-US"),
                           ),
                         ],
                       ),

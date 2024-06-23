@@ -145,118 +145,41 @@ class EnglishEntrybully extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە ھێز و دەسەڵات بەکاردێنێت ترساندن و ئازاردانی کەسانی تر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Leave him alone, you big bully!"),
-                                    ExampleSentenceKurdish(
-                                        text: "وازی لێبێنە، کەڵەگای زل."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bully", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbullys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbullys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Leave him alone, you big bully!",
+                            kurdishText:
+                                "وازی لێبێنە، کەڵەگای زل.", // bully", follow LX strictly
+                            onPressedBritish: () => speakbullys1("en-GB"),
+                            onPressedAmerican: () => speakbullys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Teachers usually know who the bullies are in a class."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستایان زۆرجار دەزانن ملھوڕانی پۆل کێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbullys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbullys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Teachers usually know who the bullies are in a class.",
+                            kurdishText:
+                                "مامۆستایان زۆرجار دەزانن ملھوڕانی پۆل کێن.",
+                            onPressedBritish: () => speakbullys2("en-GB"),
+                            onPressedAmerican: () => speakbullys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بەکارھێنانی ھێز و دەسەڵات بۆ ترساندن و ئازاردانی کەسانی تر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My son is being bullied at school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کوڕەکەم لە قوتابخانە وەی پێ دەگێڕدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbullys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbullys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My son is being bullied at school.",
+                            kurdishText:
+                                "کوڕەکەم لە قوتابخانە وەی پێ دەگێڕدرێت.",
+                            onPressedBritish: () => speakbullys3("en-GB"),
+                            onPressedAmerican: () => speakbullys3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I won't be bullied into signing anything."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانرێت ناچار بکرێم بە واژۆکردنی ھیچ شتێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbullys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbullys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I won't be bullied into signing anything.",
+                            kurdishText:
+                                "ناتوانرێت ناچار بکرێم بە واژۆکردنی ھیچ شتێک.",
+                            onPressedBritish: () => speakbullys4("en-GB"),
+                            onPressedAmerican: () => speakbullys4("en-US"),
                           ),
                         ],
                       ),

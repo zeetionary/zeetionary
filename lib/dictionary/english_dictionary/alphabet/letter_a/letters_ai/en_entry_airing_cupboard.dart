@@ -116,34 +116,15 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                               text:
                                   "١. (ناو) دۆڵابێک کە جلوبەرگی پاکی تێدەخەیت بۆ ئەوەی دڵنیابیت بە تەواوی وشکن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Put the clothes in the airing cupboard."),
-                                    ExampleSentenceKurdish(
-                                        text: "جلەکان بخە دۆڵابەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakairingcupboard4588("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairingcupboard4588(
-                                        // REPLACE: airing cupboard /ˈerɪŋ kʌbərd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Put the clothes in the airing cupboard.",
+                            kurdishText: "جلەکان بخە دۆڵابەکە.",
+                            onPressedBritish: () =>
+                                speakairingcupboard4588("en-GB"),
+                            onPressedAmerican: () => speakairingcupboard4588(
+                                // REPLACE: airing cupboard /ˈerɪŋ kʌbərd/
+                                "en-US"),
                           ),
                         ],
                       ),

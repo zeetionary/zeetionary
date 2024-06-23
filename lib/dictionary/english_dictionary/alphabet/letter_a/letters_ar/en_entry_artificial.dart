@@ -165,103 +165,43 @@ class EnglishEntryartificial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شتێک کە دەستکردە و ئامانج لێی کۆپیکردنی شتێکی سرووشتییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All food served in the restaurant is completely free from any artificial colours and flavours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ئەو خواردنانەی لە چێشتخانەکە پێشکەش‌دەکرێن ھیچ ڕەنگ و تامی دەستکردیان تێدا نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakartificial907("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartificial907(
-                                        // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All food served in the restaurant is completely free from any artificial colours and flavours.",
+                            kurdishText:
+                                "ھەموو ئەو خواردنانەی لە چێشتخانەکە پێشکەش‌دەکرێن ھیچ ڕەنگ و تامی دەستکردیان تێدا نییە.",
+                            onPressedBritish: () => speakartificial907("en-GB"),
+                            onPressedAmerican: () => speakartificial907(
+                                // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک کە جیاوازە لە ڕوودانی سرووشتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A job interview is a very artificial situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوپێکەوتن بۆ کار بارودۆخێکی ناواقیعییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakartificial910("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartificial910(
-                                        // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A job interview is a very artificial situation.",
+                            kurdishText:
+                                "چاوپێکەوتن بۆ کار بارودۆخێکی ناواقیعییە.",
+                            onPressedBritish: () => speakartificial910("en-GB"),
+                            onPressedAmerican: () => speakartificial910(
+                                // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) شتێکی ساختە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The girl's artificial laughs were so believable that she could convince anyone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکەنینی ساختەی کچەکە ھێندە باوەڕپێکەر بوو کە دەکرا قەناعەت بە ھەموو کەسێک بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakartificial917("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartificial917(
-                                        // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The girl's artificial laughs were so believable that she could convince anyone.",
+                            kurdishText:
+                                "پێکەنینی ساختەی کچەکە ھێندە باوەڕپێکەر بوو کە دەکرا قەناعەت بە ھەموو کەسێک بکات.",
+                            onPressedBritish: () => speakartificial917("en-GB"),
+                            onPressedAmerican: () => speakartificial917(
+                                // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -148,63 +148,25 @@ class EnglishEntrybowler extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە تۆپ فڕێ دەدات، بەتایبەتی لە یاری بۆوڵینگ و کریکێتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's an excellent bowler, consistently scoring high in competitions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاریزانێکی باشی بۆوڵینگە و بەردەوام خاڵی باش تۆمار دەکات لە پاڵەوانێتییەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowlers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowlers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's an excellent bowler, consistently scoring high in competitions.",
+                            kurdishText:
+                                "یاریزانێکی باشی بۆوڵینگە و بەردەوام خاڵی باش تۆمار دەکات لە پاڵەوانێتییەکاندا.",
+                            onPressedBritish: () => speakbowlers1("en-GB"),
+                            onPressedAmerican: () => speakbowlers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کڵاوێکی ڕەشی ڕەق کە قەراغەکانی چەماوەیە و سەرەوەی خڕە، جاران لە لایەن پیاوانی بازرگانەوە لە بەریتانیا لەسەر دەکرا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bowler became a popular accessory in the 19th century."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڵاوی خڕ بوو بە جوانکارییەکی بەرفراوان لە سەدەی ١٩ دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowlers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowlers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bowler became a popular accessory in the 19th century.",
+                            kurdishText:
+                                "کڵاوی خڕ بوو بە جوانکارییەکی بەرفراوان لە سەدەی ١٩ دا.",
+                            onPressedBritish: () => speakbowlers2("en-GB"),
+                            onPressedAmerican: () => speakbowlers2("en-US"),
                           ),
                         ],
                       ),

@@ -147,32 +147,13 @@ class EnglishEntryboulder extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بەردێکی گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Children climbed the smooth river boulders."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵان بەسەر تاشە بەردە لووسەکانی ڕووبارەکەدا سەردەکەوتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboulders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboulders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Children climbed the smooth river boulders.",
+                            kurdishText:
+                                "منداڵان بەسەر تاشە بەردە لووسەکانی ڕووبارەکەدا سەردەکەوتن.",
+                            onPressedBritish: () => speakboulders1("en-GB"),
+                            onPressedAmerican: () => speakboulders1("en-US"),
                           ),
                         ],
                       ),

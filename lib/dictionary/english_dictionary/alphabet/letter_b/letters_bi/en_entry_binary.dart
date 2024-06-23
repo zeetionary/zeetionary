@@ -152,63 +152,25 @@ class EnglishEntrybinary extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) بەکارھێنانی تەنھا ژمارە سفر و یەک وەک سیستەمی ژمارەیی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Computers store all data in binary code."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپیوتەر تەواوی زانیارییەکان بە کۆدی دووانەیی کۆگا دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Computers store all data in binary code.",
+                            kurdishText:
+                                "کۆمپیوتەر تەواوی زانیارییەکان بە کۆدی دووانەیی کۆگا دەکات.",
+                            onPressedBritish: () => speakbinarys1("en-GB"),
+                            onPressedAmerican: () => speakbinarys1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک کە لە دوو شت پێکھاتووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's a binary choice, you either accept or you refuse."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵبژاردەیەکی دووانییە، یان پەسەندی دەکەیت یان ڕەتی دەکەیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinarys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinarys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's a binary choice, you either accept or you refuse.",
+                            kurdishText:
+                                "ھەڵبژاردەیەکی دووانییە، یان پەسەندی دەکەیت یان ڕەتی دەکەیتەوە.",
+                            onPressedBritish: () => speakbinarys2("en-GB"),
+                            onPressedAmerican: () => speakbinarys2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

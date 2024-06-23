@@ -145,57 +145,18 @@ class EnglishEntrybrainy extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) زۆر زیرەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He’s a brainy kid."),
-                                    ExampleSentenceKurdish(
-                                        text: "منداڵێکی بلیمەتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrainys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrainys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He’s a brainy kid.",
+                            kurdishText: "منداڵێکی بلیمەتە.",
+                            onPressedBritish: () => speakbrainys1("en-GB"),
+                            onPressedAmerican: () => speakbrainys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sarah was beautiful and brainy."),
-                                    ExampleSentenceKurdish(
-                                        text: "سارا جوان و بلیمەت بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrainys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrainys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Sarah was beautiful and brainy.",
+                            kurdishText: "سارا جوان و بلیمەت بوو.",
+                            onPressedBritish: () => speakbrainys2("en-GB"),
+                            onPressedAmerican: () => speakbrainys2("en-US"),
                           ),
                         ],
                       ),

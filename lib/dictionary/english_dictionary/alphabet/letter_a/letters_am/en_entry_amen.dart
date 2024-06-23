@@ -116,65 +116,27 @@ class EnglishEntryamen extends StatelessWidget {
                               text:
                                   "١. (ناو) وشەیەک لە دوای نزا و بابەتی ئاینی بەکاردێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We ask this through our Lord, Amen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ئەمە داوا لە خودا دەکەین، ئامین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamen2411("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamen2411(
+                          SentencesRow(
+  englishText:
+                                            "We ask this through our Lord, Amen.",
+  kurdishText:
+                                            "بۆ ئەمە داوا لە خودا دەکەین، ئامین.",
+onPressedBritish: () => speakamen2411("en-GB"),
+onPressedAmerican: () => speakamen2411(
                                         // REPLACE: amen /eɪˈmen/, /ɑːˈmen/
                                         "en-US"),
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Amen to that (= I certainly agree with that)."),
-                                    ExampleSentenceKurdish(
-                                        text: "خودا بکات (ئەوە ڕووبدات)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamen96552("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamen96552(
+                          SentencesRow(
+  englishText:
+                                            "Amen to that (= I certainly agree with that).",
+  kurdishText: "خودا بکات (ئەوە ڕووبدات).",
+onPressedBritish: () => speakamen96552("en-GB"),
+onPressedAmerican: () => speakamen96552(
                                         // REPLACE: amen /eɪˈmen/, /ɑːˈmen/
                                         "en-US"),
                                   ),
-                                ],
-                              ),
-                            ],
-                          ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],

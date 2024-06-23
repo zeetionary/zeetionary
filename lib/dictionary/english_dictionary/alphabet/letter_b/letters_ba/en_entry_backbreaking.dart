@@ -157,34 +157,15 @@ class EnglishEntrybackbreaking extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) کارێکی زۆر سەخت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She realized with dismay that the task would take weeks of back-breaking work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە دڵساردییەوە زانی کە ئەرکەکە چەندین ھەفتەی کاری کەمەرشکێنی دەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s1(// REPLACE: back-breaking
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She realized with dismay that the task would take weeks of back-breaking work.",
+                            kurdishText:
+                                "بە دڵساردییەوە زانی کە ئەرکەکە چەندین ھەفتەی کاری کەمەرشکێنی دەوێت.",
+                            onPressedBritish: () => speakb3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s1(// REPLACE: back-breaking
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

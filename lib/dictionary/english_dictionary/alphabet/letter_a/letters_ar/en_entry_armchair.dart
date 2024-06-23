@@ -162,67 +162,28 @@ class EnglishEntryarmchair extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کورسییەکی ئاسوودەبەخش کە جێ‌دەستی ھەیە و دەتوانی دەستت لەسەریان دابنێی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He eased himself into the big armchair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئیستراحەتی کرد لەسەر قەنەفە گەورەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmchair356("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmchair356(
-                                        // REPLACE: armchair /ˈɑːrmtʃer/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He eased himself into the big armchair.",
+                            kurdishText: "ئیستراحەتی کرد لەسەر قەنەفە گەورەکە.",
+                            onPressedBritish: () => speakarmchair356("en-GB"),
+                            onPressedAmerican: () => speakarmchair356(
+                                // REPLACE: armchair /ˈɑːrmtʃer/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) زانینی شتێک لە ڕێگەی تەلەفیزیۆن، ئینتەرنێت، یان کتێبەوە، لە جیاتی ئەوەی ئەزموونت تێیدا ھەبێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "While fewer people are attending football matches, armchair viewers are growing in number."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەکاتێکدا خەڵکی کەمتر بەژداری یارییەکانی تۆپێن دەکەن، ژمارەی تەماشاکاران لە ماڵەوە زیاد دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmchair400("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmchair400(
-                                        // REPLACE: armchair /ˈɑːrmtʃer/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "While fewer people are attending football matches, armchair viewers are growing in number.",
+                            kurdishText:
+                                "لەکاتێکدا خەڵکی کەمتر بەژداری یارییەکانی تۆپێن دەکەن، ژمارەی تەماشاکاران لە ماڵەوە زیاد دەکات.",
+                            onPressedBritish: () => speakarmchair400("en-GB"),
+                            onPressedAmerican: () => speakarmchair400(
+                                // REPLACE: armchair /ˈɑːrmtʃer/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

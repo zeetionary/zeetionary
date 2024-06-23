@@ -168,271 +168,96 @@ class EnglishEntrybend extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) چەمانەوە، چەماندنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He bent and kissed her."),
-                                    ExampleSentenceKurdish(
-                                        text: "چەمایەوە ماچی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbends1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbends1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He bent and kissed her.",
+                            kurdishText: "چەمایەوە ماچی کرد.",
+                            onPressedBritish: () => speakbends1("en-GB"),
+                            onPressedAmerican: () => speakbends1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She bent forward to pick up the newspaper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ پێشەوە چەمایەوە بۆ ھەڵگرتنی ڕۆژنامەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbends2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbends2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She bent forward to pick up the newspaper.",
+                            kurdishText:
+                                "بۆ پێشەوە چەمایەوە بۆ ھەڵگرتنی ڕۆژنامەکە.",
+                            onPressedBritish: () => speakbends2("en-GB"),
+                            onPressedAmerican: () => speakbends2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) چەماندنەوەی دەست، لاق، ھتد"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Lie flat and let your knees bend."),
-                                    ExampleSentenceKurdish(
-                                        text: "پاڵکەوە و قاچت بنووشتێنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbends3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbends3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Lie flat and let your knees bend.",
+                            kurdishText: "پاڵکەوە و قاچت بنووشتێنەوە.",
+                            onPressedBritish: () => speakbends3("en-GB"),
+                            onPressedAmerican: () => speakbends3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) لاربوون، لارکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mark the pipe where you want to bend it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆرییەکە لەو شوێنە نیشانە بکە کە دەتەوێت لاری بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbends4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbends4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mark the pipe where you want to bend it.",
+                            kurdishText:
+                                "بۆرییەکە لەو شوێنە نیشانە بکە کە دەتەوێت لاری بکەیت.",
+                            onPressedBritish: () => speakbends4("en-GB"),
+                            onPressedAmerican: () => speakbends4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) گۆڕینی ئاراستە بەشێوەیەک کە چەمانەوەیەک درووست بکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The road bent sharply to the right."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگاکە بە تیژی بە ڕاستدا لادەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbends5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbends5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The road bent sharply to the right.",
+                            kurdishText: "ڕێگاکە بە تیژی بە ڕاستدا لادەدات.",
+                            onPressedBritish: () => speakbends5("en-GB"),
+                            onPressedAmerican: () => speakbends5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) لادانێک لە ڕێگایەکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He lost control on a bend and crashed into a tree."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە لادانێکدا کۆنترۆڵی لەدەستدا و خۆی کێشا بە دیوارێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbends6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbends6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He lost control on a bend and crashed into a tree.",
+                            kurdishText:
+                                "لە لادانێکدا کۆنترۆڵی لەدەستدا و خۆی کێشا بە دیوارێکدا.",
+                            onPressedBritish: () => speakbends6("en-GB"),
+                            onPressedAmerican: () => speakbends6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) ئازاری زۆر و کێشەی ھەناسەدانی مەلەوانێک کە بەخێرایی دێتەوە ڕووی ئاوەکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "On the way up, divers stop at various depths in order to prevent the bends."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتی گەڕانەوە بۆ سەرەوە، مەلەوانان لە ھەندێک قوڵایی جیاوازدا دەوەستن بۆ ڕێگری لە گرێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbends7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbends7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "On the way up, divers stop at various depths in order to prevent the bends.",
+                            kurdishText:
+                                "لە کاتی گەڕانەوە بۆ سەرەوە، مەلەوانان لە ھەندێک قوڵایی جیاوازدا دەوەستن بۆ ڕێگری لە گرێ.",
+                            onPressedBritish: () => speakbends7("en-GB"),
+                            onPressedAmerican: () => speakbends7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) پێچێک، بۆ نموونە لە ڕووبارێک یان ڕێگایەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You took that bend very fast!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر بە خێرایی بەو پێچەدا چوویت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbends8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbends8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You took that bend very fast!",
+                            kurdishText: "زۆر بە خێرایی بەو پێچەدا چوویت.",
+                            onPressedBritish: () => speakbends8("en-GB"),
+                            onPressedAmerican: () => speakbends8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He lost control on a bend and crashed into a tree."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پێچەکەدا کۆنترۆڵی لەدەستدا و کێشای بە دارێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbends9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbends9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He lost control on a bend and crashed into a tree.",
+                            kurdishText:
+                                "لە پێچەکەدا کۆنترۆڵی لەدەستدا و کێشای بە دارێکدا.",
+                            onPressedBritish: () => speakbends9("en-GB"),
+                            onPressedAmerican: () => speakbends9("en-US"),
                           ),
                         ],
                       ),

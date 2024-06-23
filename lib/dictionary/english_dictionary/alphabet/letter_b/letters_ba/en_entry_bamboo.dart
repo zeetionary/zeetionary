@@ -153,34 +153,15 @@ class EnglishEntrybamboo extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دار حەیزەران"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In her garden she has bamboos, palm trees and bananas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە باخچەکەیدا حەیزەران و دار خورما و مۆزی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbamboos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbamboos1(// REPLACE: bamboo
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In her garden she has bamboos, palm trees and bananas.",
+                            kurdishText:
+                                "لە باخچەکەیدا حەیزەران و دار خورما و مۆزی ھەیە.",
+                            onPressedBritish: () => speakbamboos1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbamboos1(// REPLACE: bamboo
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

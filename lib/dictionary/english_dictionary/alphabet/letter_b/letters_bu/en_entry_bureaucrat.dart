@@ -189,32 +189,13 @@ class EnglishEntrybureaucrat extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە لە دامەزراوەیەک یان بەشێکی حکومەتێکدا کاردەکات، بەتایبەتی شوێنێک کە گرنگی زۆر بە پابەندبوون بە بڕیارەوە دەدرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It turned out she was one of those faceless bureaucrats who control our lives."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرچوو ئەو یەکێکە لەو بیرۆکراتە نەناسراوانە کە ژیانمانی کۆنترۆڵ کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bureaucrat", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbureaucrats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbureaucrats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It turned out she was one of those faceless bureaucrats who control our lives.",
+                            kurdishText:
+                                "دەرچوو ئەو یەکێکە لەو بیرۆکراتە نەناسراوانە کە ژیانمانی کۆنترۆڵ کردووە.", // bureaucrat", follow LX strictly
+                            onPressedBritish: () => speakbureaucrats1("en-GB"),
+                            onPressedAmerican: () => speakbureaucrats1("en-US"),
                           ),
                         ],
                       ),

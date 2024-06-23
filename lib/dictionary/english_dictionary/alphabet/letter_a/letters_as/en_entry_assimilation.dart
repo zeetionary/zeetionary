@@ -165,69 +165,31 @@ class EnglishEntryassimilation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پڕۆسەی تێگەشتن لە بیرۆکەی تازە بۆ ئەوەی خۆت بتوانی بەکاریان‌بێنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the fast-paced world of technology, the rapid assimilation of new ideas is essential for companies to survive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە جیھانی خێرا-گوزەری تەکنەلۆژیادا، لەخۆگرتنی بیرۆکەی تازە گرنگە بۆ کۆمپانیاکان بۆ مانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassimilation833("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassimilation833(
-                                        // REPLACE: assimilation /əˌsɪməˈleɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the fast-paced world of technology, the rapid assimilation of new ideas is essential for companies to survive.",
+                            kurdishText:
+                                "لە جیھانی خێرا-گوزەری تەکنەلۆژیادا، لەخۆگرتنی بیرۆکەی تازە گرنگە بۆ کۆمپانیاکان بۆ مانەوە.",
+                            onPressedBritish: () =>
+                                speakassimilation833("en-GB"),
+                            onPressedAmerican: () => speakassimilation833(
+                                // REPLACE: assimilation /əˌsɪməˈleɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پڕۆسەی بوون بە بەشێک لە وڵاتێک یان خەڵکی نەتەوەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The assimilation of ethnic Germans in the US was accelerated by the two world wars."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانەوەی بەڕەچەڵەک ئەڵمانییەکان لە ئەمریکا خێراتر بوو بەھۆی دوو جەنگە جیھانییەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassimilation835("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassimilation835(
-                                        // REPLACE: assimilation /əˌsɪməˈleɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The assimilation of ethnic Germans in the US was accelerated by the two world wars.",
+                            kurdishText:
+                                "توانەوەی بەڕەچەڵەک ئەڵمانییەکان لە ئەمریکا خێراتر بوو بەھۆی دوو جەنگە جیھانییەکەوە.",
+                            onPressedBritish: () =>
+                                speakassimilation835("en-GB"),
+                            onPressedAmerican: () => speakassimilation835(
+                                // REPLACE: assimilation /əˌsɪməˈleɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),

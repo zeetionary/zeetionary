@@ -147,32 +147,13 @@ class EnglishEntrybifocal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) چاویلکەی دووتیشکۆ کە ھەر ھاوێنەیەکی لە دوو بەش پێکھاتووە. بەشی سەرەوە بۆ بینینی شتی دوورە و بەشی خوارەوەش بۆ بینینی شتی نزیکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The elderly gentleman wore bifocal glasses to read the newspaper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوە بەتەمەنەکە چاویلکەی دووتیشکۆی لەچاوکردبوو بۆ خوێندندەوەی ڕۆژنامەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbifocals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbifocals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The elderly gentleman wore bifocal glasses to read the newspaper.",
+                            kurdishText:
+                                "پیاوە بەتەمەنەکە چاویلکەی دووتیشکۆی لەچاوکردبوو بۆ خوێندندەوەی ڕۆژنامەکە.",
+                            onPressedBritish: () => speakbifocals1("en-GB"),
+                            onPressedAmerican: () => speakbifocals1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

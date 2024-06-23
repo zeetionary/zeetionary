@@ -191,60 +191,23 @@ class EnglishEntrybungle extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) کردنی شتێک بەخراپی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They bungled the job."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئیشەکەیان گوو تێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bungle", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbungles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbungles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They bungled the job.",
+                            kurdishText:
+                                "ئیشەکەیان گوو تێکرد.", // bungle", follow LX strictly
+                            onPressedBritish: () => speakbungles1("en-GB"),
+                            onPressedAmerican: () => speakbungles1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شتێک کە بە خراپی کراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their pay was late because of a computer bungle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مووچکەیان درەنگ کەوت بەھۆی کێشەیەکی کۆمپیوتەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbungles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbungles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their pay was late because of a computer bungle.",
+                            kurdishText:
+                                "مووچکەیان درەنگ کەوت بەھۆی کێشەیەکی کۆمپیوتەر.",
+                            onPressedBritish: () => speakbungles2("en-GB"),
+                            onPressedAmerican: () => speakbungles2("en-US"),
                           ),
                         ],
                       ),

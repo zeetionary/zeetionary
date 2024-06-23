@@ -148,32 +148,12 @@ class EnglishEntrybleary extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کە چاو نەتوانێت بە باشی ببینێت بەھۆی ماندووێتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had bleary red eyes from lack of sleep."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوی ماندوو بووبوو بەھۆی کەم‌خەوی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblearys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblearys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had bleary red eyes from lack of sleep.",
+                            kurdishText: "چاوی ماندوو بووبوو بەھۆی کەم‌خەوی.",
+                            onPressedBritish: () => speakblearys1("en-GB"),
+                            onPressedAmerican: () => speakblearys1("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

@@ -111,33 +111,14 @@ class EnglishEntryachillesheel extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خاڵی لاواز """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The enemy had an Achilles heel somewhere, if only we could find it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوژمن خاڵێکی لاوازی ھەبوو، تەنھا ئەگەر بمانزانیایە لە کوێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac153864("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac153864(
-                                        "en-US"), // REPLACE Achilles' heel /əˌkɪliːz ˈhiːl/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The enemy had an Achilles heel somewhere, if only we could find it.",
+                            kurdishText:
+                                "دوژمن خاڵێکی لاوازی ھەبوو، تەنھا ئەگەر بمانزانیایە لە کوێ.",
+                            onPressedBritish: () => speakac153864("en-GB"),
+                            onPressedAmerican: () => speakac153864(
+                                "en-US"), // REPLACE Achilles' heel /əˌkɪliːz ˈhiːl/
                           ),
                         ],
                       ),

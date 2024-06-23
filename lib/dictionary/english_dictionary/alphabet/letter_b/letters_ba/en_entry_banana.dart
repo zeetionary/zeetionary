@@ -152,34 +152,14 @@ class EnglishEntrybanana extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مۆز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Could you chop up a banana for the salad?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانی مۆزێک ورد بکەیت بۆ زەڵاتەکە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbananas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbananas1(// REPLACE: banana
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Could you chop up a banana for the salad?",
+                            kurdishText: "دەتوانی مۆزێک ورد بکەیت بۆ زەڵاتەکە؟",
+                            onPressedBritish: () => speakbananas1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbananas1(// REPLACE: banana
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

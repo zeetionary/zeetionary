@@ -153,34 +153,15 @@ class EnglishEntrybibliographer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە مێژووی کتێب و بەرھەمھێنانیان دەخوێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bibliographer meticulously listed all the works of the 19th-century poet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبناسەکە بەوردی ھەموو کارەکانی ھۆزانڤانەکەی سەدەی ١٩ ی خستە لیستێکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbibliographers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbibliographers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bibliographer meticulously listed all the works of the 19th-century poet.",
+                            kurdishText:
+                                "کتێبناسەکە بەوردی ھەموو کارەکانی ھۆزانڤانەکەی سەدەی ١٩ ی خستە لیستێکەوە.",
+                            onPressedBritish: () =>
+                                speakbibliographers1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbibliographers1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

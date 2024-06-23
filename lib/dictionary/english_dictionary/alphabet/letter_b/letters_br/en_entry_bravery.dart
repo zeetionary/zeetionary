@@ -144,31 +144,12 @@ class EnglishEntrybravery extends StatelessWidget {
 کوردی: بەزاتی، چاوسووری، ئازایەتی، نەبەردی، نەبەردایەتی، مەردایەتی، شێرکرۆژی، بوێری
 """),
                           const DefinitionKurdish(text: "١. (ناو) ئازایەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were awarded medals for their bravery."),
-                                    ExampleSentenceKurdish(
-                                        text: "مەدالیایان بۆ بوێری پێدرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraverys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraverys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were awarded medals for their bravery.",
+                            kurdishText: "مەدالیایان بۆ بوێری پێدرا.",
+                            onPressedBritish: () => speakbraverys1("en-GB"),
+                            onPressedAmerican: () => speakbraverys1("en-US"),
                           ),
                         ],
                       ),

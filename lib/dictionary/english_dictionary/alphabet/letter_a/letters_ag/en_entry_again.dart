@@ -145,125 +145,48 @@ class EnglishEntryagain extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) جارێکی تر" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "This must never happen again."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەمە ئەبێت ھەرگیز ڕوونەداتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagain493("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagain493(
-                                        // REPLACE: again /əˈɡen/, /əˈɡeɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This must never happen again.",
+                            kurdishText: "ئەمە ئەبێت ھەرگیز ڕوونەداتەوە.",
+                            onPressedBritish: () => speakagain493("en-GB"),
+                            onPressedAmerican: () => speakagain493(
+                                // REPLACE: again /əˈɡen/, /əˈɡeɪn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If he does it again I'll have to tell him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر دووبارەی بکاتەوە دەبێت پێی بڵێم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagai1822("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagai1822(
-                                        // REPLACE: again /əˈɡen/, /əˈɡeɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If he does it again I'll have to tell him.",
+                            kurdishText:
+                                "ئەگەر دووبارەی بکاتەوە دەبێت پێی بڵێم.",
+                            onPressedBritish: () => speakagai1822("en-GB"),
+                            onPressedAmerican: () => speakagai1822(
+                                // REPLACE: again /əˈɡen/, /əˈɡeɪn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) پیشاندانی ئەوەی کەسێک لە ھەمان شوێن یان بارودۆخ دەبێت کە پێشووتر لێی بووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was glad to be home again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆشحاڵبوو کە دووبارە لە ماڵەوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagain156("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagain156(
-                                        // REPLACE: again /əˈɡen/, /əˈɡeɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was glad to be home again.",
+                            kurdishText: "خۆشحاڵبوو کە دووبارە لە ماڵەوە بوو.",
+                            onPressedBritish: () => speakagain156("en-GB"),
+                            onPressedAmerican: () => speakagain156(
+                                // REPLACE: again /əˈɡen/, /əˈɡeɪn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) زیادبوون بۆ سەر ژمارەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cost is about half as much again as it was two years ago."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخەکەی نیوەی نرخی دوو ساڵ پێش ئێستای خۆی چووەتە سەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaga256("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaga256(
-                                        // REPLACE: again /əˈɡen/, /əˈɡeɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cost is about half as much again as it was two years ago.",
+                            kurdishText:
+                                "نرخەکەی نیوەی نرخی دوو ساڵ پێش ئێستای خۆی چووەتە سەر.",
+                            onPressedBritish: () => speakaga256("en-GB"),
+                            onPressedAmerican: () => speakaga256(
+                                // REPLACE: again /əˈɡen/, /əˈɡeɪn/
+                                "en-US"),
                           ),
                         ],
                       ),

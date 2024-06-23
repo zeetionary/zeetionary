@@ -112,34 +112,15 @@ class EnglishEntryaddicted extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ئاڵوودەبوون بە شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It did not take James very long to get addicted to video games."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆری نەبرد بۆ جەیمس بۆ ئەوەی ئاڵوودە بێت بە یارییە ڤیدیۆییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaddict7451("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaddict7451(
-                                        // REPLACE: addicted /əˈdɪktɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It did not take James very long to get addicted to video games.",
+                            kurdishText:
+                                "زۆری نەبرد بۆ جەیمس بۆ ئەوەی ئاڵوودە بێت بە یارییە ڤیدیۆییەکان.",
+                            onPressedBritish: () => speakaddict7451("en-GB"),
+                            onPressedAmerican: () => speakaddict7451(
+                                // REPLACE: addicted /əˈdɪktɪd/
+                                "en-US"),
                           ),
                         ],
                       ),

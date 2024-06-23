@@ -146,31 +146,11 @@ class EnglishEntrybbc extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دامەزراوەیەکی نیشتیمانی کە پڕۆگرامی تەلەفیزیۆنی و ڕادیۆیی پەخشدەکات و لەلایەن خەڵکەوە پارەی بۆ دەدرێت وەک لە ڕیکلامکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The BBC broadcasts every day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بی‌بی‌سی ھەموو ڕۆژێک پەخشدەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbbcs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbbcs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The BBC broadcasts every day.",
+                            kurdishText: "بی‌بی‌سی ھەموو ڕۆژێک پەخشدەکات.",
+                            onPressedBritish: () => speakbbcs1("en-GB"),
+                            onPressedAmerican: () => speakbbcs1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -158,95 +158,37 @@ class EnglishEntryapologize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) داواکردنی لێبووردەیی بۆ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Why should I apologize?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆچی دەبێت داوای لێبووردن بکەم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapologize535("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapologize535(
-                                        // REPLACE: apologize /əˈpɑːlədʒaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Why should I apologize?",
+                            kurdishText: "بۆچی دەبێت داوای لێبووردن بکەم؟",
+                            onPressedBritish: () => speakapologize535("en-GB"),
+                            onPressedAmerican: () => speakapologize535(
+                                // REPLACE: apologize /əˈpɑːlədʒaɪz/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wanted to publicly apologize to his victims."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ویستی بەشێوەیەکی گشتی داوای لێبووردن بکات لە قوربانییەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapologize537("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapologize537(
-                                        // REPLACE: apologize /əˈpɑːlədʒaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wanted to publicly apologize to his victims.",
+                            kurdishText:
+                                "ویستی بەشێوەیەکی گشتی داوای لێبووردن بکات لە قوربانییەکانی.",
+                            onPressedBritish: () => speakapologize537("en-GB"),
+                            onPressedAmerican: () => speakapologize537(
+                                // REPLACE: apologize /əˈpɑːlədʒaɪz/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I apologize unreservedly for any offending remarks I made."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تەواوی داوای لێبووردن دەکەم ھەر لێدوانێکی بێ‌ڕێزانە کە وتبێتم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapologize540("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapologize540(
-                                        // REPLACE: apologize /əˈpɑːlədʒaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I apologize unreservedly for any offending remarks I made.",
+                            kurdishText:
+                                "بە تەواوی داوای لێبووردن دەکەم ھەر لێدوانێکی بێ‌ڕێزانە کە وتبێتم.",
+                            onPressedBritish: () => speakapologize540("en-GB"),
+                            onPressedAmerican: () => speakapologize540(
+                                // REPLACE: apologize /əˈpɑːlədʒaɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

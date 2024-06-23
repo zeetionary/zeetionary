@@ -145,32 +145,13 @@ class EnglishEntrybookworm extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە کتێب زۆر دەخوێنێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's a bookworm, often immersed in novels during her free time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاڵوودەیەکی کتێبە کە زۆرجار ڕۆچووە لە ڕۆماندا لە کاتە بەتاڵەکانیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookworms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookworms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's a bookworm, often immersed in novels during her free time.",
+                            kurdishText:
+                                "ئاڵوودەیەکی کتێبە کە زۆرجار ڕۆچووە لە ڕۆماندا لە کاتە بەتاڵەکانیدا.",
+                            onPressedBritish: () => speakbookworms1("en-GB"),
+                            onPressedAmerican: () => speakbookworms1("en-US"),
                           ),
                         ],
                       ),

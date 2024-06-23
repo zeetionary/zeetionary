@@ -148,59 +148,18 @@ class EnglishEntrybookcase extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچە کەلوپەلێکی ناوماڵ کە جێگەی کتێبی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I chose a book from the bookcase."),
-                                    ExampleSentenceKurdish(
-                                        text: "کتێبێکم لە جێ‌کتێبەکە ھەڵگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookcases1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookcases1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I chose a book from the bookcase.",
+                            kurdishText: "کتێبێکم لە جێ‌کتێبەکە ھەڵگرت.",
+                            onPressedBritish: () => speakbookcases1("en-GB"),
+                            onPressedAmerican: () => speakbookcases1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I found this book in your bookcase."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم کتێبەم لە جێ‌کتێبەکەت دۆزییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookcases2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookcases2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I found this book in your bookcase.",
+                            kurdishText: "ئەم کتێبەم لە جێ‌کتێبەکەت دۆزییەوە.",
+                            onPressedBritish: () => speakbookcases2("en-GB"),
+                            onPressedAmerican: () => speakbookcases2("en-US"),
                           ),
                         ],
                       ),

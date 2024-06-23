@@ -151,32 +151,12 @@ class EnglishEntrybeady extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) چاوی بچووک و خڕ و درەوشاوە؛ سەیرکردنی ھەموو شتێکی بە چاوێکی بز و زەقەوە چونکە گومانت ھەیە شتێکی ھەڵە و خراپ ڕوودەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I shall certainly keep a beady eye on his behaviour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە دڵنیاییەوە بە زەقی چاودێری دەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeadys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeadys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I shall certainly keep a beady eye on his behaviour.",
+                            kurdishText: "بە دڵنیاییەوە بە زەقی چاودێری دەکەم.",
+                            onPressedBritish: () => speakbeadys1("en-GB"),
+                            onPressedAmerican: () => speakbeadys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

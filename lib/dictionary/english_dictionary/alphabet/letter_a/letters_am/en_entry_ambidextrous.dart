@@ -117,35 +117,16 @@ class EnglishEntryambidextrous extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی توانای بەکارھێنانی دەستە ڕاست و چەپ وەک یەک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I am naturally left-handed, but was not allowed to write with my left hand, with the result that I became ambidextrous."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەکی سرووشتی چەپلەرم، بەڵام ڕێگەم پێ‌نەدرا بە دەستە چەپم بنووسم، و لە ئەنجامدا بوومە دوودەستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakambidextrous525555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambidextrous525555(
-                                        // REPLACE: ambidextrous /ˌæmbiˈdekstrəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I am naturally left-handed, but was not allowed to write with my left hand, with the result that I became ambidextrous.",
+                            kurdishText:
+                                "بەشێوەیەکی سرووشتی چەپلەرم، بەڵام ڕێگەم پێ‌نەدرا بە دەستە چەپم بنووسم، و لە ئەنجامدا بوومە دوودەستە.",
+                            onPressedBritish: () =>
+                                speakambidextrous525555("en-GB"),
+                            onPressedAmerican: () => speakambidextrous525555(
+                                // REPLACE: ambidextrous /ˌæmbiˈdekstrəs/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -146,32 +146,11 @@ class EnglishEntrybravo extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (سەرسوڕمان) بەکاردێت بۆ دەربڕینی دەستخۆشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bravo, chef! The meal is exquisite."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بژیت، شێف! خواردنەکە بێ‌ھاوتایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbravos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbravos1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Bravo, chef! The meal is exquisite.",
+                            kurdishText: "بژیت، شێف! خواردنەکە بێ‌ھاوتایە.",
+                            onPressedBritish: () => speakbravos1("en-GB"),
+                            onPressedAmerican: () => speakbravos1("en-US"),
                           ),
                         ],
                       ),

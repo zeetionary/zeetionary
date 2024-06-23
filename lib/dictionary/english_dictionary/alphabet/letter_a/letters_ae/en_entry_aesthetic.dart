@@ -117,98 +117,41 @@ class EnglishEntryaesthetic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) پەیوەندیدار بە جوانی ھونەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The works of art are judged on purely aesthetic grounds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارە ھونەرییەکان تەنھا لە لایەنی ھونەرییەوە بڕیاریان لەسەر دەدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaesth6588("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaesth6588(
-                                        // REPLACE: aesthetic /esˈθetɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The works of art are judged on purely aesthetic grounds.",
+                            kurdishText:
+                                "کارە ھونەرییەکان تەنھا لە لایەنی ھونەرییەوە بڕیاریان لەسەر دەدرێت.",
+                            onPressedBritish: () => speakaesth6588("en-GB"),
+                            onPressedAmerican: () => speakaesth6588(
+                                // REPLACE: aesthetic /esˈθetɪk/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) درووستکراو بەشێوەیەکی ھونەری کە جوانە بۆ سەیرکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their furniture was more aesthetic than functional."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شتومەکەکانیان زیاتر بۆ جوانکاری بوو وەک ئەوەی بۆ پێویستی بووبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaest67451("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaest67451(
-                                        // REPLACE: aesthetic /esˈθetɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their furniture was more aesthetic than functional.",
+                            kurdishText:
+                                "شتومەکەکانیان زیاتر بۆ جوانکاری بوو وەک ئەوەی بۆ پێویستی بووبن.",
+                            onPressedBritish: () => speakaest67451("en-GB"),
+                            onPressedAmerican: () => speakaest67451(
+                                // REPLACE: aesthetic /esˈθetɪk/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) جوانکاری و بیرۆکەکانی ناو کارێکی ھونەری یان ئەدەبی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The students debated the aesthetic of the poems."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندکاران گەنگەشەی لایەنی جوانکاری (ڕەوانبێژی) لە شیعرەکانیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaest52887("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaest52887(
-                                        // REPLACE: aesthetic /esˈθetɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The students debated the aesthetic of the poems.",
+                            kurdishText:
+                                "خوێندکاران گەنگەشەی لایەنی جوانکاری (ڕەوانبێژی) لە شیعرەکانیان کرد.",
+                            onPressedBritish: () => speakaest52887("en-GB"),
+                            onPressedAmerican: () => speakaest52887(
+                                // REPLACE: aesthetic /esˈθetɪk/
+                                "en-US"),
                           ),
                         ],
                       ),

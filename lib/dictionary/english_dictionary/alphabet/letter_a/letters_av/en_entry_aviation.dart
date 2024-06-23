@@ -158,34 +158,15 @@ class EnglishEntryaviation extends StatelessWidget {
                               text:
                                   "١. (ناو) دیزاین و درووستکردن و فڕاندنی فڕۆکە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Orville and Wilbur Wright were aviation trail blazers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆرڤڵ و ویڵبەر ڕێچکەشکێنی فڕینەوانی بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaviations1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaviations1(// REPLACE: aviation
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Orville and Wilbur Wright were aviation trail blazers.",
+                            kurdishText:
+                                "ئۆرڤڵ و ویڵبەر ڕێچکەشکێنی فڕینەوانی بوون.",
+                            onPressedBritish: () => speakaviations1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaviations1(// REPLACE: aviation
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

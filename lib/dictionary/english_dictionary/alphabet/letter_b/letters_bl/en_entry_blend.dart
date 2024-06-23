@@ -150,185 +150,71 @@ class EnglishEntryblend extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) تێکەڵکردنی دوو مادە یان زیاتر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Blend together the eggs, sugar and flour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێلکەکان و شەکرەکە و ئاردەکە تێکەڵ بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblends1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblends1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Blend together the eggs, sugar and flour.",
+                            kurdishText:
+                                "ھێلکەکان و شەکرەکە و ئاردەکە تێکەڵ بکە.",
+                            onPressedBritish: () => speakblends1("en-GB"),
+                            onPressedAmerican: () => speakblends1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have very little idea of how to blend colours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانیاریی زۆر کەمم ھەیە لەسەر تێکەڵکردنی ڕەنگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblends2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblends2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I have very little idea of how to blend colours.",
+                            kurdishText:
+                                "زانیاریی زۆر کەمم ھەیە لەسەر تێکەڵکردنی ڕەنگ.",
+                            onPressedBritish: () => speakblends2("en-GB"),
+                            onPressedAmerican: () => speakblends2("en-US"),
                           ),
                           // const DividerDefinition(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) درووستکردنی تێکەڵەیەک لەگەڵ شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Oil does not blend with water."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕۆن تێکەڵ بە ئاو نابێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblends3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblends3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Oil does not blend with water.",
+                            kurdishText: "ڕۆن تێکەڵ بە ئاو نابێت.",
+                            onPressedBritish: () => speakblends3("en-GB"),
+                            onPressedAmerican: () => speakblends3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) پێکەوەگونجانی دوو شت بەشێوەیەکی جوان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The old and new buildings blend together perfectly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بینا کۆن و تازەکان بێ‌خەوشانە پێکەوە دەگونجێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblends4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblends4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The old and new buildings blend together perfectly.",
+                            kurdishText:
+                                "بینا کۆن و تازەکان بێ‌خەوشانە پێکەوە دەگونجێن.",
+                            onPressedBritish: () => speakblends4("en-GB"),
+                            onPressedAmerican: () => speakblends4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) تێکەڵەی ژمارەیەک جۆری جیاوازی ھەمان شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their music is a blend of jazz and African rhythms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوزیکەکە تێکەڵەیەکی جاز و ڕیتمی ئەفریقییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblends5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblends5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their music is a blend of jazz and African rhythms.",
+                            kurdishText:
+                                "میوزیکەکە تێکەڵەیەکی جاز و ڕیتمی ئەفریقییە.",
+                            onPressedBritish: () => speakblends5("en-GB"),
+                            onPressedAmerican: () => speakblends5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) یەکگرتنی جوان و بەسوودی ژمارەیەک شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This charming hotel is a delightful blend of the old and the new."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ھوتێلە نازدارە تێکەڵەیەکی جوانی کۆنەکە و تازەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblends6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblends6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This charming hotel is a delightful blend of the old and the new.",
+                            kurdishText:
+                                "ئەم ھوتێلە نازدارە تێکەڵەیەکی جوانی کۆنەکە و تازەکەیە.",
+                            onPressedBritish: () => speakblends6("en-GB"),
+                            onPressedAmerican: () => speakblends6("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

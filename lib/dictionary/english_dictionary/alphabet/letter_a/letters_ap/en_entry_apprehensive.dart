@@ -164,35 +164,16 @@ class EnglishEntryapprehensive extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) نیگەران یان تۆقاو لە ڕوودانی شتێکی خراپ"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was a little apprehensive about the effects of what I had said."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمێک نیگەران بووم سەبارەت بە کاریگەرییەکانی ئەوەی وتم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapprehensive946("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapprehensive946(
-                                        // REPLACE: apprehensive /ˌæprɪˈhensɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was a little apprehensive about the effects of what I had said.",
+                            kurdishText:
+                                "کەمێک نیگەران بووم سەبارەت بە کاریگەرییەکانی ئەوەی وتم.",
+                            onPressedBritish: () =>
+                                speakapprehensive946("en-GB"),
+                            onPressedAmerican: () => speakapprehensive946(
+                                // REPLACE: apprehensive /ˌæprɪˈhensɪv/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

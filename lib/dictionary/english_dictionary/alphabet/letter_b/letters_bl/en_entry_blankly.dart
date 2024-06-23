@@ -145,32 +145,13 @@ class EnglishEntryblankly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بەشێوەیەک کە ھیچ ھەست و تێگەشتن و ئارەزووی تێدا نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She stared blankly into space, not knowing what to say next."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە نائاگاییەوە سەیری دەورووبەری دەکرد، و نەیدەزانی چی بڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblanklys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblanklys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She stared blankly into space, not knowing what to say next.",
+                            kurdishText:
+                                "بە نائاگاییەوە سەیری دەورووبەری دەکرد، و نەیدەزانی چی بڵێت.",
+                            onPressedBritish: () => speakblanklys1("en-GB"),
+                            onPressedAmerican: () => speakblanklys1("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

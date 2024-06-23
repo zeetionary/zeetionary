@@ -116,35 +116,16 @@ class EnglishEntryalgorithm extends StatelessWidget {
                               text:
                                   "١. (ناو) کۆمەڵە یاسایەک یان ڕێنماییەک کە دەدرێت بە کۆمپیوتەرێک بۆ ئەوەی کارێک بکات بە پشتبەستن پێی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Music apps such as Spotify use algorithms to predict the probability that fans of one particular band will like another."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەپە میوزیکییەکان، بۆ نموونە سپۆتیفای، ئەلگۆریزم بەکاردێنن بۆ ئەوەی پێشبینی ئەگەری حەزی ھەوادارانی باندێک بۆ باندێکی دیکە بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalgorithm25344("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalgorithm25344(
-                                        // REPLACE: algorithm /ˈælɡərɪðəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Music apps such as Spotify use algorithms to predict the probability that fans of one particular band will like another.",
+                            kurdishText:
+                                "ئەپە میوزیکییەکان، بۆ نموونە سپۆتیفای، ئەلگۆریزم بەکاردێنن بۆ ئەوەی پێشبینی ئەگەری حەزی ھەوادارانی باندێک بۆ باندێکی دیکە بکەن.",
+                            onPressedBritish: () =>
+                                speakalgorithm25344("en-GB"),
+                            onPressedAmerican: () => speakalgorithm25344(
+                                // REPLACE: algorithm /ˈælɡərɪðəm/
+                                "en-US"),
                           ),
                         ],
                       ),

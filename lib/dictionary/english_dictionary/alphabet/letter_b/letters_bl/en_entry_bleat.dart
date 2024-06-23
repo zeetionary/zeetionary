@@ -148,87 +148,30 @@ class EnglishEntrybleat extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) دەنگی مەڕ یان بزن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The lamb gave a faint bleat."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەرخەکە بەنزمی باعاندی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The lamb gave a faint bleat.",
+                            kurdishText: "بەرخەکە بەنزمی باعاندی.",
+                            onPressedBritish: () => speakbleats1("en-GB"),
+                            onPressedAmerican: () => speakbleats1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (کردار) باعاندن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "A goat was bleating afar."),
-                                    ExampleSentenceKurdish(
-                                        text: "بزنێک لە دوورەوە دەیباعاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleats3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleats3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A goat was bleating afar.",
+                            kurdishText: "بزنێک لە دوورەوە دەیباعاند.",
+                            onPressedBritish: () => speakbleats3("en-GB"),
+                            onPressedAmerican: () => speakbleats3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) بۆڵەبۆڵکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's always bleating (on) about how badly she's been treated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە بۆڵە بۆڵیەتی لەسەر ئەوەی چەندە بە خراپ مامەڵەی لەگەڵ کراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleats2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleats2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's always bleating (on) about how badly she's been treated.",
+                            kurdishText:
+                                "ھەمیشە بۆڵە بۆڵیەتی لەسەر ئەوەی چەندە بە خراپ مامەڵەی لەگەڵ کراوە.",
+                            onPressedBritish: () => speakbleats2("en-GB"),
+                            onPressedAmerican: () => speakbleats2("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

@@ -114,34 +114,15 @@ class EnglishEntryadaptable extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی توانای ڕاھاتن بە بارودۆخی نوێ"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Successful businesses are highly adaptable to economic change."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بزنسی گەورە بە زۆری خۆی دەگونجێنێت لەگەڵ گۆڕانکاریی ئابووری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadap2537("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadap2537(
-                                        // REPLACE: adaptable /əˈdæptəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Successful businesses are highly adaptable to economic change.",
+                            kurdishText:
+                                "بزنسی گەورە بە زۆری خۆی دەگونجێنێت لەگەڵ گۆڕانکاریی ئابووری.",
+                            onPressedBritish: () => speakadap2537("en-GB"),
+                            onPressedAmerican: () => speakadap2537(
+                                // REPLACE: adaptable /əˈdæptəbl/
+                                "en-US"),
                           ),
                         ],
                       ),

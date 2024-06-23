@@ -162,33 +162,14 @@ class EnglishEntryaptly extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەکی گونجاو و بەجێ لە بارودۆخێکدا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "This word is aptly used here."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم وشەیە بەشێوەیەکی بەجێ بەکارھێنراوە لێرەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaptly805("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaptly805(// REPLACE: aptly /ˈæptli/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This word is aptly used here.",
+                            kurdishText:
+                                "ئەم وشەیە بەشێوەیەکی بەجێ بەکارھێنراوە لێرەدا.",
+                            onPressedBritish: () => speakaptly805("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaptly805(// REPLACE: aptly /ˈæptli/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

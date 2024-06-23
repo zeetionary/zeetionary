@@ -150,32 +150,13 @@ class EnglishEntrybevelled extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی لێوارێک یان ڕوویەک کە لێژی تێدایە (بۆ نموونە تیژ نییە)"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A picture frame often has bevelled edges."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوارچێوەی وێنە زۆرجار سووچی پەخ‌داری ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbevelleds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbevelleds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A picture frame often has bevelled edges.",
+                            kurdishText:
+                                "چوارچێوەی وێنە زۆرجار سووچی پەخ‌داری ھەیە.",
+                            onPressedBritish: () => speakbevelleds1("en-GB"),
+                            onPressedAmerican: () => speakbevelleds1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -162,34 +162,15 @@ class EnglishEntryannexe extends StatelessWidget {
 کوردی: لاخانوو(بەرە)، دەستەی لا(پاڵ)، لادەستە، خانووبەرەی سەرخستە یان لکاو، خانووبەرەی سەرخراو (نووساوە بە خانووبەرەی سەرەکی)، پاشکۆ، سەرخستە
 
 1. (کردار) ژوورێکی زیادە کە زیاد دەکرێت بۆ ژوورێکی گەورەتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Delicate and valuable books are kept in an air-conditioned annexe to the main library."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannex1204("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannex1204(
-                                        // REPLACE: annex /ˈæneks/, /əˈneks/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Delicate and valuable books are kept in an air-conditioned annexe to the main library.",
+                            kurdishText:
+                                "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە.",
+                            onPressedBritish: () => speakannex1204("en-GB"),
+                            onPressedAmerican: () => speakannex1204(
+                                // REPLACE: annex /ˈæneks/, /əˈneks/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -98,32 +98,12 @@ class EnglishEntryabsent extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ئامادەنەبوو لە شوێنێک بە ھۆکارێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was absent from work for two weeks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ماوەی دوو ھەفتە لە کار نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3691("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka3691("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was absent from work for two weeks.",
+                            kurdishText: "بۆ ماوەی دوو ھەفتە لە کار نەبوو.",
+                            onPressedBritish: () => speaka3691("en-GB"),
+                            onPressedAmerican: () => speaka3691("en-US"),
                           ),
                         ],
                       ),

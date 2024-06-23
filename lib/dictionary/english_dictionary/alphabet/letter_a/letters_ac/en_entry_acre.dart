@@ -111,33 +111,14 @@ class EnglishEntryacre extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) یەکەی پێوانی زەوی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Each house has acres of space around it (= a lot of space)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەر ماڵێک ڕێژەیەکی زۆر بۆشی لە دەوری ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacr1527("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacr1527(
-                                        "en-US"), // REPLACE acre /ˈeɪkər/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Each house has acres of space around it (= a lot of space).",
+                            kurdishText:
+                                "ھەر ماڵێک ڕێژەیەکی زۆر بۆشی لە دەوری ھەبوو.",
+                            onPressedBritish: () => speakacr1527("en-GB"),
+                            onPressedAmerican: () =>
+                                speakacr1527("en-US"), // REPLACE acre /ˈeɪkər/
                           ),
                         ],
                       ),

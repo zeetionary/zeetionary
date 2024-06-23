@@ -113,66 +113,28 @@ class EnglishEntryaffront extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) قسەیەک کە بێڕێزی تێدایە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His speech was an affront to many in the community."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکەی بێحورمەتی بوو بە ژمارەیەکی زۆر خەڵک لە گەڕەکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffront92("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffront92(
-                                        // REPLACE: affront /əˈfrʌnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His speech was an affront to many in the community.",
+                            kurdishText:
+                                "وتارەکەی بێحورمەتی بوو بە ژمارەیەکی زۆر خەڵک لە گەڕەکەکە.",
+                            onPressedBritish: () => speakaffront92("en-GB"),
+                            onPressedAmerican: () => speakaffront92(
+                                // REPLACE: affront /əˈfrʌnt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بێڕێزی پێکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He hoped they would not feel affronted if they were not invited."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیواداربوو ھەست بە بێڕێزی پێکردن نەکەن ئەگەر بانگھێشت نەکرابان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffron4599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffron4599(
-                                        // REPLACE: affront /əˈfrʌnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He hoped they would not feel affronted if they were not invited.",
+                            kurdishText:
+                                "ھیواداربوو ھەست بە بێڕێزی پێکردن نەکەن ئەگەر بانگھێشت نەکرابان.",
+                            onPressedBritish: () => speakaffron4599("en-GB"),
+                            onPressedAmerican: () => speakaffron4599(
+                                // REPLACE: affront /əˈfrʌnt/
+                                "en-US"),
                           ),
                         ],
                       ),

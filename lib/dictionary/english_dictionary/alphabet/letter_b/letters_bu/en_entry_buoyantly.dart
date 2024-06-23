@@ -194,93 +194,35 @@ class EnglishEntrybuoyantly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندی بە سەرئاوکەوتووی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were sailing swiftly and buoyantly on long waves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە چووستی و سەراوکەوتانە مەلەیان دەکرد لەسەر شەپۆلە بەرزەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "buoyantly", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuoyantlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuoyantlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were sailing swiftly and buoyantly on long waves.",
+                            kurdishText:
+                                "بە چووستی و سەراوکەوتانە مەلەیان دەکرد لەسەر شەپۆلە بەرزەکان.", // buoyantly", follow LX strictly
+                            onPressedBritish: () => speakbuoyantlys1("en-GB"),
+                            onPressedAmerican: () => speakbuoyantlys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) بەشێوەیەکی گەشبینانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She raced buoyantly through the house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشبینانە بە ماڵەکەدا ڕاکردنی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuoyantlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuoyantlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She raced buoyantly through the house.",
+                            kurdishText: "گەشبینانە بە ماڵەکەدا ڕاکردنی بوو.",
+                            onPressedBritish: () => speakbuoyantlys2("en-GB"),
+                            onPressedAmerican: () => speakbuoyantlys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) بەشێوەیەک کە سەرکەوتووانە و قازانجدارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Equity markets continue to rise buoyantly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بازاڕی پشکەکان بەردەوامن لە بەرزبوونەوە بە سەرکەوتووانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuoyantlys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuoyantlys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Equity markets continue to rise buoyantly.",
+                            kurdishText:
+                                "بازاڕی پشکەکان بەردەوامن لە بەرزبوونەوە بە سەرکەوتووانە.",
+                            onPressedBritish: () => speakbuoyantlys3("en-GB"),
+                            onPressedAmerican: () => speakbuoyantlys3("en-US"),
                           ),
                         ],
                       ),

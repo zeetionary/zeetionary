@@ -148,61 +148,21 @@ class EnglishEntrybony extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەسێک زۆر باریک کو ئێسکەکانی لەژێر پێستی دەبینرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She looked frail, her face bony."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لاواز بوو و ڕووخساری ڕەقەڵ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She looked frail, her face bony.",
+                            kurdishText: "لاواز بوو و ڕووخساری ڕەقەڵ بوو.",
+                            onPressedBritish: () => speakbonys1("en-GB"),
+                            onPressedAmerican: () => speakbonys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) ماسییەک کە پڕ لە ئێسکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "This fish is too bony to eat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماسییەکە دڕووی ئێجگار زۆرە تا بە کەڵکی خواردن بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This fish is too bony to eat.",
+                            kurdishText:
+                                "ماسییەکە دڕووی ئێجگار زۆرە تا بە کەڵکی خواردن بێت.",
+                            onPressedBritish: () => speakbonys2("en-GB"),
+                            onPressedAmerican: () => speakbonys2("en-US"),
                           ),
                         ],
                       ),

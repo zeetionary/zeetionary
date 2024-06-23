@@ -210,337 +210,122 @@ class EnglishEntryact extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) کردنی شتێک بە مەبەستی دیاریکراو، یان بۆ مامەڵەکردن لەگەڵ بارودۆخێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is vital that we act to stop the destruction of the rainforests."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر گرنگە ھەنگاوبنێین بۆ وەستاندنی وێرانکردنی جەنگەڵەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakact7859("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakact7859(
-                                        "en-US"), // REPLACE act /ækt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is vital that we act to stop the destruction of the rainforests.",
+                            kurdishText:
+                                "زۆر گرنگە ھەنگاوبنێین بۆ وەستاندنی وێرانکردنی جەنگەڵەکان.",
+                            onPressedBritish: () => speakact7859("en-GB"),
+                            onPressedAmerican: () =>
+                                speakact7859("en-US"), // REPLACE act /ækt/
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government was criticized for failing to act decisively."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت بەر ڕەخنە درا بەھۆی شکستھێنان لە ھەنگاونان بە خێرایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakact42693("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakact42693(
-                                        "en-US"), // REPLACE act /ækt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government was criticized for failing to act decisively.",
+                            kurdishText:
+                                "حکومەت بەر ڕەخنە درا بەھۆی شکستھێنان لە ھەنگاونان بە خێرایی.",
+                            onPressedBritish: () => speakact42693("en-GB"),
+                            onPressedAmerican: () =>
+                                speakact42693("en-US"), // REPLACE act /ækt/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ڕەفتارکردن بەشێوەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The man was seen acting suspiciously."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوەکە بینرا بە گوماناوییەوە ڕەفتاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakact7691("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakact7691(
-                                        "en-US"), // REPLACE act /ækt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The man was seen acting suspiciously.",
+                            kurdishText:
+                                "پیاوەکە بینرا بە گوماناوییەوە ڕەفتاری دەکرد.",
+                            onPressedBritish: () => speakact7691("en-GB"),
+                            onPressedAmerican: () =>
+                                speakact7691("en-US"), // REPLACE act /ækt/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ڕۆڵبینین لە بەشیکی شانۆیەک یان فیلمێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who's acting the part of Hamlet?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کێ ڕۆڵی ھاملێت دەبینێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakact4589("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakact4589(
-                                        "en-US"), // REPLACE act /ækt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Who's acting the part of Hamlet?",
+                            kurdishText: "کێ ڕۆڵی ھاملێت دەبینێت؟",
+                            onPressedBritish: () => speakact4589("en-GB"),
+                            onPressedAmerican: () =>
+                                speakact4589("en-US"), // REPLACE act /ækt/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) خۆنیشاندانت بەشێوەیەکی تایبەت لە ڕێگەی ڕەفتارکردنتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's been acting the devoted husband all day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ڕۆژەکە وەک مێردێکی خەمخۆر خۆی نیشانداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakact15932("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakact15932(
-                                        "en-US"), // REPLACE act /ækt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's been acting the devoted husband all day.",
+                            kurdishText:
+                                "تەواوی ڕۆژەکە وەک مێردێکی خەمخۆر خۆی نیشانداوە.",
+                            onPressedBritish: () => speakact15932("en-GB"),
+                            onPressedAmerican: () =>
+                                speakact15932("en-US"), // REPLACE act /ækt/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) کردنی کارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can you act as interpreter?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەتوانی وەک وەرگێڕێک کار بکەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakact1527("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakact1527(
-                                        "en-US"), // REPLACE act /ækt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can you act as interpreter?",
+                            kurdishText: "ئەتوانی وەک وەرگێڕێک کار بکەیت؟",
+                            onPressedBritish: () => speakact1527("en-GB"),
+                            onPressedAmerican: () =>
+                                speakact1527("en-US"), // REPLACE act /ækt/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) ھەبوونی کاریگەرییەک لەسەر شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Alcohol acts quickly on the brain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کحوول ڕاستەوخۆ کاریگەری لەسەر مێشک دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakact3541("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakact3541(
-                                        "en-US"), // REPLACE act /ækt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Alcohol acts quickly on the brain.",
+                            kurdishText:
+                                "کحوول ڕاستەوخۆ کاریگەری لەسەر مێشک دەبێت.",
+                            onPressedBritish: () => speakact3541("en-GB"),
+                            onPressedAmerican: () =>
+                                speakact3541("en-US"), // REPLACE act /ækt/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ناو) شتێک کە کەسێک دەیکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You have committed a serious criminal act."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارێکی تاوانکاریی کوشندەت کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakact75381("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakact75381(
-                                        "en-US"), // REPLACE act /ækt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You have committed a serious criminal act.",
+                            kurdishText: "کارێکی تاوانکاریی کوشندەت کردووە.",
+                            onPressedBritish: () => speakact75381("en-GB"),
+                            onPressedAmerican: () =>
+                                speakact75381("en-US"), // REPLACE act /ækt/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (ناو) یاسایەک کە لەلایەن پەرلەمانەوە دەرکراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The old Act has now been repealed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاسا کۆنەکە ئێستا ھەڵپەسێردراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac25341("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac25341(
-                                        "en-US"), // REPLACE act /ækt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The old Act has now been repealed.",
+                            kurdishText: "یاسا کۆنەکە ئێستا ھەڵپەسێردراوە.",
+                            onPressedBritish: () => speakac25341("en-GB"),
+                            onPressedAmerican: () =>
+                                speakac25341("en-US"), // REPLACE act /ækt/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (ناو) ڕەفتارێک کە ڕاستی نییە و یەنھا بە مەبەستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't take her seriously—it's all an act."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە جدی مەیگرە، ھەمووی نمایشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakact1258("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakact1258(
-                                        "en-US"), // REPLACE act /ækt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Don't take her seriously—it's all an act.",
+                            kurdishText: "بە جدی مەیگرە، ھەمووی نمایشە.",
+                            onPressedBritish: () => speakact1258("en-GB"),
+                            onPressedAmerican: () =>
+                                speakact1258("en-US"), // REPLACE act /ækt/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٠. (ناو) یەکێک لەو بەشانەی شانۆ یان ئۆپێرایەکی لێ پێکدێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The king is killed in the opening act."),
-                                    ExampleSentenceKurdish(
-                                        text: "پاشا لە یەکەم بەش دەکوژرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakact75638("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakact75638(
-                                        "en-US"), // REPLACE act /ækt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The king is killed in the opening act.",
+                            kurdishText: "پاشا لە یەکەم بەش دەکوژرێت.",
+                            onPressedBritish: () => speakact75638("en-GB"),
+                            onPressedAmerican: () =>
+                                speakact75638("en-US"), // REPLACE act /ækt/
                           ),
                         ],
                       ),

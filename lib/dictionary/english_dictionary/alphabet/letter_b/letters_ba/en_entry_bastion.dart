@@ -151,63 +151,25 @@ class EnglishEntrybastion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کۆمەڵە کەسێک یان سیستەمێک کە جۆرە شێوازێکی ھی==ژت=یان یان سیستەمێک دەپارێزێت کە وادیارە لە نەماندایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The university is a bastion of academic freedom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانکۆکە نموونەی زیندووھێڵەرەوەی ئازادی ئەکادیمییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbastions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbastions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The university is a bastion of academic freedom.",
+                            kurdishText:
+                                "زانکۆکە نموونەی زیندووھێڵەرەوەی ئازادی ئەکادیمییە.",
+                            onPressedBritish: () => speakbastions1("en-GB"),
+                            onPressedAmerican: () => speakbastions1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شوێنێک کە ھێزی سەربازی بەرگری لێ دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Singapore was the last bastion of British defences in South-East Asia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سنگاپوور کۆتا شوورای بەرگری بەرخۆدانی بەریتانیا بوو لە باشووری ڕۆژھەڵاتی ئاسیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbastions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbastions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Singapore was the last bastion of British defences in South-East Asia.",
+                            kurdishText:
+                                "سنگاپوور کۆتا شوورای بەرگری بەرخۆدانی بەریتانیا بوو لە باشووری ڕۆژھەڵاتی ئاسیا.",
+                            onPressedBritish: () => speakbastions2("en-GB"),
+                            onPressedAmerican: () => speakbastions2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

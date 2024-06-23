@@ -115,95 +115,38 @@ class EnglishEntryacquisition extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) بەدەستھێنانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The acquisition of huge amounts of data has helped our research enormously."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەدەستھێنانی ڕێژەیەکی زۆر داتا یارمەتی توێژینەوەکەمانی زۆر داوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacquis2534("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacquis2534(
-                                        "en-US"), // REPLACE acquisition /ˌækwɪˈzɪʃn/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The acquisition of huge amounts of data has helped our research enormously.",
+                            kurdishText:
+                                "بەدەستھێنانی ڕێژەیەکی زۆر داتا یارمەتی توێژینەوەکەمانی زۆر داوە.",
+                            onPressedBritish: () => speakacquis2534("en-GB"),
+                            onPressedAmerican: () => speakacquis2534(
+                                "en-US"), // REPLACE acquisition /ˌækwɪˈzɪʃn/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کڕینی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The money will be spent on acquisitions for the university library."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارەکە بەکاردێت بۆ کڕین بۆ کتێبخانەی زانکۆکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacqui24987("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacqui24987(
-                                        "en-US"), // REPLACE acquisition /ˌækwɪˈzɪʃn/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The money will be spent on acquisitions for the university library.",
+                            kurdishText:
+                                "پارەکە بەکاردێت بۆ کڕین بۆ کتێبخانەی زانکۆکە.",
+                            onPressedBritish: () => speakacqui24987("en-GB"),
+                            onPressedAmerican: () => speakacqui24987(
+                                "en-US"), // REPLACE acquisition /ˌækwɪˈzɪʃn/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کۆمپانیایەک یان پارچە زەوییەک کە لەلایەن کەسێک یان کۆمپانیایەکی دیکەوە دەکڕدرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have made acquisitions in several EU countries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەند کۆمپانیایەکیان لە ژمارەیەک وڵاتی یەکێتیی ئەورووپا کڕیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacqu1254("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacqu1254(
-                                        "en-US"), // REPLACE acquisition /ˌækwɪˈzɪʃn/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have made acquisitions in several EU countries.",
+                            kurdishText:
+                                "چەند کۆمپانیایەکیان لە ژمارەیەک وڵاتی یەکێتیی ئەورووپا کڕیوە.",
+                            onPressedBritish: () => speakacqu1254("en-GB"),
+                            onPressedAmerican: () => speakacqu1254(
+                                "en-US"), // REPLACE acquisition /ˌækwɪˈzɪʃn/
                           ),
                         ],
                       ),

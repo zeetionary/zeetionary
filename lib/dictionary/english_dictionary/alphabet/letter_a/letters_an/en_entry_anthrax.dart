@@ -154,34 +154,15 @@ class EnglishEntryanthrax extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) نەخۆشییەکی کوشندە کە دەکرێت تووشی مەڕ و مانگا و ھەندێک جاریش مرۆڤ ببێت و ببێتەھۆی مردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Humans can contract anthrax by handling products from infected animals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مرۆڤ دەکرێت تووشی ڕەشەبرین ببێت بەھۆی دەستدان لە ئاژەڵی تووشبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanthrax833("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanthrax833(
-                                        // REPLACE: anthrax /ˈænθræks/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Humans can contract anthrax by handling products from infected animals.",
+                            kurdishText:
+                                "مرۆڤ دەکرێت تووشی ڕەشەبرین ببێت بەھۆی دەستدان لە ئاژەڵی تووشبوو.",
+                            onPressedBritish: () => speakanthrax833("en-GB"),
+                            onPressedAmerican: () => speakanthrax833(
+                                // REPLACE: anthrax /ˈænθræks/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

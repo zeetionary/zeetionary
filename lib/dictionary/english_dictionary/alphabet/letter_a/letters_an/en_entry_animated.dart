@@ -155,97 +155,39 @@ class EnglishEntryanimated extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) پڕ لە حەز و وزە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mark was beginning to sound animated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مارک خەریک‌بوو دەستی‌دەکرد بەوەی کراوە بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanimated944("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimated944(
-                                        // REPLACE: animated /ˈænɪmeɪtɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mark was beginning to sound animated.",
+                            kurdishText:
+                                "مارک خەریک‌بوو دەستی‌دەکرد بەوەی کراوە بێت.",
+                            onPressedBritish: () => speakanimated944("en-GB"),
+                            onPressedAmerican: () => speakanimated944(
+                                // REPLACE: animated /ˈænɪmeɪtɪd/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her face suddenly became animated."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕووخساری لەناکاو گەشایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanimated946("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimated946(
-                                        // REPLACE: animated /ˈænɪmeɪtɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her face suddenly became animated.",
+                            kurdishText: "ڕووخساری لەناکاو گەشایەوە.",
+                            onPressedBritish: () => speakanimated946("en-GB"),
+                            onPressedAmerican: () => speakanimated946(
+                                // REPLACE: animated /ˈænɪmeɪtɪd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) درووستکراو وەک ئەوەی ئەنیمەیشن بێ (فیلمی کۆمپیوتەری یان وێنەیەکی زۆری جوڵاو بەدوای یەکدا)"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Animated cartoons are popular for entertainment and storytelling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارتۆنی ئەنیمەیشن باوە لە چێژبەخشین و چیرۆک‌گێڕانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanimated950("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimated950(
-                                        // REPLACE: animated /ˈænɪmeɪtɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Animated cartoons are popular for entertainment and storytelling.",
+                            kurdishText:
+                                "کارتۆنی ئەنیمەیشن باوە لە چێژبەخشین و چیرۆک‌گێڕانەوە.",
+                            onPressedBritish: () => speakanimated950("en-GB"),
+                            onPressedAmerican: () => speakanimated950(
+                                // REPLACE: animated /ˈænɪmeɪtɪd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

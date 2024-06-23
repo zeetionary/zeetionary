@@ -164,67 +164,29 @@ class EnglishEntryausterely extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بەشێوەیەکی سادە و ساکار"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her dress was simple and austerely elegant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلەکەی سادە بوو و ساکارانە شۆخ‌وشەنگ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakausterely506("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakausterely506(// REPLACE: austerely
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her dress was simple and austerely elegant.",
+                            kurdishText:
+                                "جلەکەی سادە بوو و ساکارانە شۆخ‌وشەنگ بوو.",
+                            onPressedBritish: () => speakausterely506("en-GB"),
+                            onPressedAmerican: () =>
+                                speakausterely506(// REPLACE: austerely
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەشێوەیەکی توند و دابڕاو لە خۆشی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She lived austerely and in constant prayer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە سادەیی و بەردەوام لە نزاکردن دەژیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakausterely509("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakausterely509(// REPLACE: austerely
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She lived austerely and in constant prayer.",
+                            kurdishText:
+                                "بە سادەیی و بەردەوام لە نزاکردن دەژیا.",
+                            onPressedBritish: () => speakausterely509("en-GB"),
+                            onPressedAmerican: () =>
+                                speakausterely509(// REPLACE: austerely
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -163,98 +163,40 @@ class EnglishEntryassured extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) بە متمانەبەخۆبوونەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spoke in a calm, assured voice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قسەی کرد بە دەنگێکی لەسەرخۆ و متمانەبەخۆبوونەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassured929("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassured929(
-                                        // REPLACE: assured /əˈʃʊrd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He spoke in a calm, assured voice.",
+                            kurdishText:
+                                "قسەی کرد بە دەنگێکی لەسەرخۆ و متمانەبەخۆبوونەوە.",
+                            onPressedBritish: () => speakassured929("en-GB"),
+                            onPressedAmerican: () => speakassured929(
+                                // REPLACE: assured /əˈʃʊrd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) مسۆگەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Success seemed assured."),
-                                    ExampleSentenceKurdish(
-                                        text: "بردنەوە مسۆگەر دیاربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassured931("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassured931(
-                                        // REPLACE: assured /əˈʃʊrd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Success seemed assured.",
+                            kurdishText: "بردنەوە مسۆگەر دیاربوو.",
+                            onPressedBritish: () => speakassured931("en-GB"),
+                            onPressedAmerican: () => speakassured931(
+                                // REPLACE: assured /əˈʃʊrd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) دڵنیایی لە بەدەستھێنانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You are assured of a warm welcome at this hotel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت دڵنیابیت لە پێشوازییەکی گەرم لەم ھوتێلە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassured932("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassured932(
-                                        // REPLACE: assured /əˈʃʊrd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You are assured of a warm welcome at this hotel.",
+                            kurdishText:
+                                "دەتوانیت دڵنیابیت لە پێشوازییەکی گەرم لەم ھوتێلە.",
+                            onPressedBritish: () => speakassured932("en-GB"),
+                            onPressedAmerican: () => speakassured932(
+                                // REPLACE: assured /əˈʃʊrd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

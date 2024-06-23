@@ -146,30 +146,11 @@ class EnglishEntrybigheaded extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) کەسێکی خۆبەزلزان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She's so bigheaded!"),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر خۆبەزلزانە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbigheadeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbigheadeds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's so bigheaded!",
+                            kurdishText: "زۆر خۆبەزلزانە!",
+                            onPressedBritish: () => speakbigheadeds1("en-GB"),
+                            onPressedAmerican: () => speakbigheadeds1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

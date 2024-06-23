@@ -158,164 +158,69 @@ class EnglishEntrybait extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پێناسەکەمێک خواردن کە وەک داو بەکاردێت بۆ گرتنی ماسی یان نێچیر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Live worms are used as bait."),
-                                    ExampleSentenceKurdish(
-                                        text: "کرمی زیندوو وەک تامک بەکاردێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaits1(// REPLACE: bait
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Live worms are used as bait.",
+                            kurdishText: "کرمی زیندوو وەک تامک بەکاردێن.",
+                            onPressedBritish: () => speakbaits1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaits1(// REPLACE: bait
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە بەکاردێت بۆ نزیککردنەوەی کەسێک بۆ ئەوەی بیگریت یان وای‌لێ‌بکەیت ئەوە بکات کە دەتەوێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police used him as bait to trap the killers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس ئەوی وەک داوێک بەکارھێنا بۆ خستنەتەڵەی بکوژەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaits2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaits2(// REPLACE: bait
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police used him as bait to trap the killers.",
+                            kurdishText:
+                                "پۆلیس ئەوی وەک داوێک بەکارھێنا بۆ خستنەتەڵەی بکوژەکان.",
+                            onPressedBritish: () => speakbaits2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaits2(// REPLACE: bait
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) دانانی تامک لەسەر تەڵەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He baited the trap with a piece of meat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارچە گۆشتێکی لەسەر تەڵەکە دانا وەک داو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaits3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaits3(// REPLACE: bait
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He baited the trap with a piece of meat.",
+                            kurdishText:
+                                "پارچە گۆشتێکی لەسەر تەڵەکە دانا وەک داو.",
+                            onPressedBritish: () => speakbaits3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaits3(// REPLACE: bait
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) بەئەنقەست تووڕەکردنی کەسێک بە لێدوانی توند"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soldiers remained calm even though the crowd was baiting them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکان بەھێمنی مانەوە ئەگەرچی جەماوەرەکە توڕەیان کردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaits4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaits4(// REPLACE: bait
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soldiers remained calm even though the crowd was baiting them.",
+                            kurdishText:
+                                "سەربازەکان بەھێمنی مانەوە ئەگەرچی جەماوەرەکە توڕەیان کردن.",
+                            onPressedBritish: () => speakbaits4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaits4(// REPLACE: bait
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) چالاکی ھێرش کردنە سەر ئاژەڵ بە بەکارھێنانی سەگ بۆ خۆشی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The activity of bear-baiting was finally banned in England in the 19th century."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چالاکی ورچ کوشتن لەکۆتاییدا لە ئینگلتەرە قەدەغەکرا لە سەدەی ١٩."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaits5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaits5(// REPLACE: bait
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The activity of bear-baiting was finally banned in England in the 19th century.",
+                            kurdishText:
+                                "چالاکی ورچ کوشتن لەکۆتاییدا لە ئینگلتەرە قەدەغەکرا لە سەدەی ١٩.",
+                            onPressedBritish: () => speakbaits5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaits5(// REPLACE: bait
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

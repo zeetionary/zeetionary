@@ -195,183 +195,68 @@ class EnglishEntrybutcher extends StatelessWidget {
 کوردی: گۆشت‌فرۆش، قەساب، قەسابی، قەساب‌خانە، دووکانی قەسابی، خوێن‌ڕێژ، پیاوکوژ، دڕندە
 """),
                           const DefinitionKurdish(text: """١. (ناو) قەساب"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Every morning, the butcher displays fresh cuts in the shop."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو بەیانییەک قەسابەکە گۆشتی تازە ھەڵدەواسێت لە قەسابخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "butcher", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutchers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutchers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Every morning, the butcher displays fresh cuts in the shop.",
+                            kurdishText:
+                                "ھەموو بەیانییەک قەسابەکە گۆشتی تازە ھەڵدەواسێت لە قەسابخانەکە.", // butcher", follow LX strictly
+                            onPressedBritish: () => speakbutchers1("en-GB"),
+                            onPressedAmerican: () => speakbutchers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) قەسابخانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He owns the butcher's in the main street."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەسابخانەی شەقامە سەرەکییەکەی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutchers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutchers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He owns the butcher's in the main street.",
+                            kurdishText: "قەسابخانەی شەقامە سەرەکییەکەی ھەیە.",
+                            onPressedBritish: () => speakbutchers2("en-GB"),
+                            onPressedAmerican: () => speakbutchers2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) کەسێک کە دڕندانە خەڵک دەکوژێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ruthless dictator was known as a political butcher."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیکتاتۆرە بێ‌بەزەییەکە ناسراو بوو وەک خوێنڕێژێکی سیاسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutchers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutchers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ruthless dictator was known as a political butcher.",
+                            kurdishText:
+                                "دیکتاتۆرە بێ‌بەزەییەکە ناسراو بوو وەک خوێنڕێژێکی سیاسی.",
+                            onPressedBritish: () => speakbutchers3("en-GB"),
+                            onPressedAmerican: () => speakbutchers3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) کوشتنی خەڵکی بەشێوەیەکی دڕندانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Unarmed civilians are being butchered by the occupying forces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوڵاتیی مەدەنیی بێ‌چەک لەلایەن ھێزە داگیرکەرەکانەوە دەکوژرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutchers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutchers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Unarmed civilians are being butchered by the occupying forces.",
+                            kurdishText:
+                                "ھاوڵاتیی مەدەنیی بێ‌چەک لەلایەن ھێزە داگیرکەرەکانەوە دەکوژرێن.",
+                            onPressedBritish: () => speakbutchers4("en-GB"),
+                            onPressedAmerican: () => speakbutchers4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) کوشتنی ئاژەڵ بۆ بەکارھێنان و فرۆشتن یان خواردنی گۆشتەکەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is where farmers brought their livestock to be butchered."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە ئەوێیە کە ئاژەڵداران مەڕوماڵاتەکەیان ھێنا بۆ ئەوەی سەرببڕدرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutchers5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutchers5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is where farmers brought their livestock to be butchered.",
+                            kurdishText:
+                                "ئەمە ئەوێیە کە ئاژەڵداران مەڕوماڵاتەکەیان ھێنا بۆ ئەوەی سەرببڕدرێن.",
+                            onPressedBritish: () => speakbutchers5("en-GB"),
+                            onPressedAmerican: () => speakbutchers5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) کردنی شتێک بە خراپی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I couldn't bear to hear our national anthem being butchered like that."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەمدەتوانی گوێم لە ئەنزیمی نیشتیمانیمان بێت بەو شێوەیە بشێوێندرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutchers6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutchers6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I couldn't bear to hear our national anthem being butchered like that.",
+                            kurdishText:
+                                "نەمدەتوانی گوێم لە ئەنزیمی نیشتیمانیمان بێت بەو شێوەیە بشێوێندرێت.",
+                            onPressedBritish: () => speakbutchers6("en-GB"),
+                            onPressedAmerican: () => speakbutchers6("en-US"),
                           ),
                         ],
                       ),

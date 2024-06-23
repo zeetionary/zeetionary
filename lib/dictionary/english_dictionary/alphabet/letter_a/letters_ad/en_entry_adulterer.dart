@@ -112,35 +112,14 @@ class EnglishEntryadulterer extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە زینا دەکات" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her husband was a compulsive adulterer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوسەرەکەی زیناکارێکی خراپ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakadulterer2534("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadulterer2534(
-                                        // REPLACE: adulterer /əˈdʌltərər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her husband was a compulsive adulterer.",
+                            kurdishText: "ھاوسەرەکەی زیناکارێکی خراپ بوو.",
+                            onPressedBritish: () => speakadulterer2534("en-GB"),
+                            onPressedAmerican: () => speakadulterer2534(
+                                // REPLACE: adulterer /əˈdʌltərər/
+                                "en-US"),
                           ),
                         ],
                       ),

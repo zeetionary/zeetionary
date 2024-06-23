@@ -165,34 +165,14 @@ class EnglishEntryasphyxiation extends StatelessWidget {
                               text:
                                   "١. (ناو) ھەناسەلێ‌بڕان تاوەکو مردن یان بێ‌ھۆش‌کەوتن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cause of death was asphyxiation."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھۆکاری مردنەکە خنکان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakasphyxiation625("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasphyxiation625(
-                                        // REPLACE: asphyxiation /əsˌfɪksiˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The cause of death was asphyxiation.",
+                            kurdishText: "ھۆکاری مردنەکە خنکان بوو.",
+                            onPressedBritish: () =>
+                                speakasphyxiation625("en-GB"),
+                            onPressedAmerican: () => speakasphyxiation625(
+                                // REPLACE: asphyxiation /əsˌfɪksiˈeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

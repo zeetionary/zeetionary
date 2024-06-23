@@ -149,34 +149,14 @@ class EnglishEntryblameworthy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شایەنی سەرکۆنە و کۆمە بەھۆی کردنی شتێکی خراپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Blameworthy or not, his father should pay some of the costs of repairing the damage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەتابار یان نا، باوکی دەبێت ھەندێک لە تێچووی چاککردنەوەی زیانەکە بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakblameworthys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakblameworthys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Blameworthy or not, his father should pay some of the costs of repairing the damage.",
+                            kurdishText:
+                                "خەتابار یان نا، باوکی دەبێت ھەندێک لە تێچووی چاککردنەوەی زیانەکە بدات.",
+                            onPressedBritish: () => speakblameworthys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakblameworthys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

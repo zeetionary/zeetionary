@@ -159,35 +159,16 @@ class EnglishEntryaromatherapy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەکارھێنانی جۆرە جیاوازەکانی ڕۆنی سرووشتی کە بۆنیان خۆشە بۆ بەھێزکردنی لەش لە لایەنی جەستەیی و دەروونی بە ساوینی ڕۆنەکە بە لەشدا یان بۆنکردنیان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Owen received aromatherapy massage weekly for about three months."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆون ھەفتانە بۆ نزیکەی سێ مانگ مەساجی ئارۆماسێرەپی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaromatherapy915("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaromatherapy915(
-                                        // REPLACE: aromatherapy /əˌrəʊməˈθerəpi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Owen received aromatherapy massage weekly for about three months.",
+                            kurdishText:
+                                "ئۆون ھەفتانە بۆ نزیکەی سێ مانگ مەساجی ئارۆماسێرەپی دەکرد.",
+                            onPressedBritish: () =>
+                                speakaromatherapy915("en-GB"),
+                            onPressedAmerican: () => speakaromatherapy915(
+                                // REPLACE: aromatherapy /əˌrəʊməˈθerəpi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -155,33 +155,13 @@ class EnglishEntrybanknote extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) یەک پارچە پارەی کاغەز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They issue both banknotes and coins."),
-                                    ExampleSentenceKurdish(
-                                        text: "پارەی کاغەز و دراویش دەردەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanknotes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanknotes1(// REPLACE: banknote
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They issue both banknotes and coins.",
+                            kurdishText: "پارەی کاغەز و دراویش دەردەکەن.",
+                            onPressedBritish: () => speakbanknotes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanknotes1(// REPLACE: banknote
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -144,61 +144,22 @@ class EnglishEntrybrutally extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بە توندوتیژی و بێ بەزەییانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was brutally assaulted."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە دڕندانە ھێرشی کرایە سەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brutally" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutallys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutallys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was brutally assaulted.",
+                            kurdishText:
+                                "بە دڕندانە ھێرشی کرایە سەر.", // brutally" as
+                            onPressedBritish: () => speakbrutallys1("en-GB"),
+                            onPressedAmerican: () => speakbrutallys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بە ڕوونی و ڕاستەوخۆ، بەبێ گرنگیدان بە ھەستی خەڵکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let me be brutally frank about this."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بھێڵە تەواو ڕاستگۆ بم سەبارەت بەمە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutallys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutallys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Let me be brutally frank about this.",
+                            kurdishText: "بھێڵە تەواو ڕاستگۆ بم سەبارەت بەمە.",
+                            onPressedBritish: () => speakbrutallys2("en-GB"),
+                            onPressedAmerican: () => speakbrutallys2("en-US"),
                           ),
                         ],
                       ),

@@ -145,60 +145,22 @@ class EnglishEntryblouse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جۆرە جلێک کە بۆ ژنانە و وەک قەمیس لەبەر دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bought his wife a new blouse for her birthday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بلووزێکی تازەی بۆ ھاوژینەکەی کڕی بۆ جەژنی لەدایکبوونی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblouses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblouses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He bought his wife a new blouse for her birthday.",
+                            kurdishText:
+                                "بلووزێکی تازەی بۆ ھاوژینەکەی کڕی بۆ جەژنی لەدایکبوونی.",
+                            onPressedBritish: () => speakblouses1("en-GB"),
+                            onPressedAmerican: () => speakblouses1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She tucked the blouse into her high-waisted skirt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بلووزەکەی کرد بە ناو تەنوورە کەمەر بەرزەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblouses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblouses2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She tucked the blouse into her high-waisted skirt.",
+                            kurdishText:
+                                "بلووزەکەی کرد بە ناو تەنوورە کەمەر بەرزەکەیدا.",
+                            onPressedBritish: () => speakblouses2("en-GB"),
+                            onPressedAmerican: () => speakblouses2("en-US"),
                           ),
                         ],
                       ),

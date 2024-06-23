@@ -149,32 +149,13 @@ class EnglishEntrybitumen extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) مادەیەکی پێوەنووسەرە کە بەکاردێت بۆ داپۆشینی ڕێگا و سەربان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bitumen's adhesive properties make it an ideal material for waterproofing roofs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاسیەتی پێوەنووسان لە ئیزووگامدا وا دەکات ببێت بە مادەیەکی باش دژ بە ئاو بۆ سەربان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitumens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitumens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bitumen's adhesive properties make it an ideal material for waterproofing roofs.",
+                            kurdishText:
+                                "خاسیەتی پێوەنووسان لە ئیزووگامدا وا دەکات ببێت بە مادەیەکی باش دژ بە ئاو بۆ سەربان.",
+                            onPressedBritish: () => speakbitumens1("en-GB"),
+                            onPressedAmerican: () => speakbitumens1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

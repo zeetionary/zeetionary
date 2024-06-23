@@ -164,35 +164,16 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                               text:
                                   "١. (ناو) ماوەیەک کە تێیدا کەسێک وەک شاگردێک کاردەکات بۆ فێربوونی پیشەیەک، زۆرجار بە پارەیەکی کەم"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was in the second year of her apprenticeship as a carpenter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دووەم ساڵی شاگردییەکەی بوو وەک دارتاشێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapprenticeship1013("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapprenticeship1013(
-                                        // REPLACE: apprenticeship /əˈprentɪʃɪp/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was in the second year of her apprenticeship as a carpenter.",
+                            kurdishText:
+                                "لە دووەم ساڵی شاگردییەکەی بوو وەک دارتاشێک.",
+                            onPressedBritish: () =>
+                                speakapprenticeship1013("en-GB"),
+                            onPressedAmerican: () => speakapprenticeship1013(
+                                // REPLACE: apprenticeship /əˈprentɪʃɪp/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

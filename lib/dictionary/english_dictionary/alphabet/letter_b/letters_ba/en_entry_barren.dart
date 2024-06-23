@@ -153,125 +153,48 @@ class EnglishEntrybarren extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) زەوییەک کە ڕووەک گەشەی لەسەر ناکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We drove through a barren, rocky landscape."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تەنیشت دەشتێکی ڕووتاوەدا تێپەڕین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarrens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarrens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We drove through a barren, rocky landscape.",
+                            kurdishText: "بە تەنیشت دەشتێکی ڕووتاوەدا تێپەڕین.",
+                            onPressedBritish: () => speakbarrens1("en-GB"),
+                            onPressedAmerican: () => speakbarrens1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) درەختێک کە میوەی لێ سەوز نابێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Years of drought had rendered the orchard a wasteland of barren trees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەندین ساڵ لە وشکەساڵی باخەکەی کردووە بە زەوییەکی بەیار لە داری بێ‌بەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarrens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarrens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Years of drought had rendered the orchard a wasteland of barren trees.",
+                            kurdishText:
+                                "چەندین ساڵ لە وشکەساڵی باخەکەی کردووە بە زەوییەکی بەیار لە داری بێ‌بەر.",
+                            onPressedBritish: () => speakbarrens2("en-GB"),
+                            onPressedAmerican: () => speakbarrens2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) ژنێک یان ئاژەڵێکی مێینە کە منداڵی نابێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The barren mare was a source of concern for the rancher."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماینە نەزۆکەکە جێگەی نیگەرانی بوو بۆ خاوەن ئاژەڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarrens3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarrens3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The barren mare was a source of concern for the rancher.",
+                            kurdishText:
+                                "ماینە نەزۆکەکە جێگەی نیگەرانی بوو بۆ خاوەن ئاژەڵەکە.",
+                            onPressedBritish: () => speakbarrens3("en-GB"),
+                            onPressedAmerican: () => speakbarrens3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) دۆخێک کە ھیچی بەسوود و سەرکەوتووانەی لێ سەوز نابێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team will come through this barren patch and start to win again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە بەسەر ئەم دۆخە تاڵەدا زاڵ دەبن و دووبارە دەبەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarrens4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarrens4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The team will come through this barren patch and start to win again.",
+                            kurdishText:
+                                "تیمەکە بەسەر ئەم دۆخە تاڵەدا زاڵ دەبن و دووبارە دەبەنەوە.",
+                            onPressedBritish: () => speakbarrens4("en-GB"),
+                            onPressedAmerican: () => speakbarrens4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

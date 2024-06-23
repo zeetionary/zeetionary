@@ -115,34 +115,15 @@ class EnglishEntryalleged extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) بانگەشەبۆکراو بەبێ بەڵگە """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The girl gave evidence in court against her alleged attacker."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کچەکە لە داگا بەڵگەی پێشکەشکرد دژ بە ھێرشکارە تاوانبارکراوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalleged35962("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalleged35962(
-                                        // REPLACE: alleged /əˈledʒd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The girl gave evidence in court against her alleged attacker.",
+                            kurdishText:
+                                "کچەکە لە داگا بەڵگەی پێشکەشکرد دژ بە ھێرشکارە تاوانبارکراوەکە.",
+                            onPressedBritish: () => speakalleged35962("en-GB"),
+                            onPressedAmerican: () => speakalleged35962(
+                                // REPLACE: alleged /əˈledʒd/
+                                "en-US"),
                           ),
                         ],
                       ),

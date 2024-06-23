@@ -141,34 +141,14 @@ class EnglishEntrybulletproof extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) گوللەنەبڕ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A bulletproof limousine used by the president was on display in the museum."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لیمۆزینێکی گوللەنەبڕ کە لەلایەن سەرۆکەوە بەکاردەھات لە نمایشدا بوو لە مۆزەخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulletproof", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbulletproofs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbulletproofs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A bulletproof limousine used by the president was on display in the museum.",
+                            kurdishText:
+                                "لیمۆزینێکی گوللەنەبڕ کە لەلایەن سەرۆکەوە بەکاردەھات لە نمایشدا بوو لە مۆزەخانە.", // bulletproof", follow LX strictly
+                            onPressedBritish: () => speakbulletproofs1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbulletproofs1("en-US"),
                           ),
                         ],
                       ),

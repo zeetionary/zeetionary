@@ -99,32 +99,12 @@ class EnglishEntryacclimatize extends StatelessWidget {
                               text:
                                   "١. خۆگونجاندن لەگەڵ شوێنێک، بارودۆخێک، یان ئاووھەوایەکی نوێ"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We haven’t got acclimatized to village life yet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا بە ژیانی لادێ ڕانەھاتووین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka14998("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka14998("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We haven’t got acclimatized to village life yet.",
+                            kurdishText: "ھێشتا بە ژیانی لادێ ڕانەھاتووین.",
+                            onPressedBritish: () => speaka14998("en-GB"),
+                            onPressedAmerican: () => speaka14998("en-US"),
                           ),
                         ],
                       ),

@@ -124,116 +124,40 @@ class EnglishEntryaccurate extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ڕاست و درووست لە ھەموو لایەکەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The film is not historically accurate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە لەلایەنی مێژووییەوە درووست نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac21546("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac21546("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The film is not historically accurate.",
+                            kurdishText:
+                                "فیلمەکە لەلایەنی مێژووییەوە درووست نییە.",
+                            onPressedBritish: () => speakac21546("en-GB"),
+                            onPressedAmerican: () => speakac21546("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cost is an accurate reflection of the high quality of our products."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخەکان ڕەنگدانەوەی درووستی کوالێتیی بەرزی کاڵاکانمانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac12369("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac12369("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cost is an accurate reflection of the high quality of our products.",
+                            kurdishText:
+                                "نرخەکان ڕەنگدانەوەی درووستی کوالێتیی بەرزی کاڵاکانمانە.",
+                            onPressedBritish: () => speakac12369("en-GB"),
+                            onPressedAmerican: () => speakac12369("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ھەبوونی توانای بەدەستەوەدانی زانیاریی درووست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "My watch is not very accurate."),
-                                    ExampleSentenceKurdish(
-                                        text: "کاتژمێرەکەم تەواو نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2158("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2158("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My watch is not very accurate.",
+                            kurdishText: "کاتژمێرەکەم تەواو نییە.",
+                            onPressedBritish: () => speaka2158("en-GB"),
+                            onPressedAmerican: () => speaka2158("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scientists have found a more accurate way of dating cave paintings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاناکان ڕیگایەکی وردتریان دۆزیوەتەوە بۆ زانینی سەردەمی وێنەی ناو ئەشکەوتەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka23547("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka23547("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scientists have found a more accurate way of dating cave paintings.",
+                            kurdishText:
+                                "زاناکان ڕیگایەکی وردتریان دۆزیوەتەوە بۆ زانینی سەردەمی وێنەی ناو ئەشکەوتەکان.",
+                            onPressedBritish: () => speaka23547("en-GB"),
+                            onPressedAmerican: () => speaka23547("en-US"),
                           ),
                         ],
                       ),

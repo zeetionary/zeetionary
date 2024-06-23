@@ -149,90 +149,32 @@ class EnglishEntrybottomless extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) زۆر قووڵ وەک ئەوەی کۆتایی نەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sea looked dark, almost bottomless."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەریاکە تاریک دیار بوو، وەک ئەوەی بنی نەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottomlesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottomlesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sea looked dark, almost bottomless.",
+                            kurdishText:
+                                "دەریاکە تاریک دیار بوو، وەک ئەوەی بنی نەبێت.",
+                            onPressedBritish: () => speakbottomlesss1("en-GB"),
+                            onPressedAmerican: () => speakbottomlesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They believed that at the centre of the earth, the sea poured into a bottomless hole."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕیان وابوو کە ناوەڕاستی زەویدا دەریاکە دەڕژایە ناو چاڵێکی بێ‌بنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottomlesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottomlesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They believed that at the centre of the earth, the sea poured into a bottomless hole.",
+                            kurdishText:
+                                "باوەڕیان وابوو کە ناوەڕاستی زەویدا دەریاکە دەڕژایە ناو چاڵێکی بێ‌بنەوە.",
+                            onPressedBritish: () => speakbottomlesss2("en-GB"),
+                            onPressedAmerican: () => speakbottomlesss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) بە بێ سنوور یان کۆتایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had a bottomless hunger for learning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزێکی بێ سنووری ھەبوو بۆ فێربوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottomlesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottomlesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had a bottomless hunger for learning.",
+                            kurdishText: "حەزێکی بێ سنووری ھەبوو بۆ فێربوون.",
+                            onPressedBritish: () => speakbottomlesss3("en-GB"),
+                            onPressedAmerican: () => speakbottomlesss3("en-US"),
                           ),
                         ],
                       ),

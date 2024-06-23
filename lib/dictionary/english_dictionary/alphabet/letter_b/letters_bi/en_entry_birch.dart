@@ -152,94 +152,37 @@ class EnglishEntrybirch extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دارێک کە توێکڵێکی ساف و لووسی ھەیە لەگەڵ لقی ناسک و باریک و لە وڵاتانی جەمسەری باکوور دەڕوێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Birch branches swayed gently in the breeze."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لقەکانی دارە بێتولەکە بەھێواشی سەمایان دەکرد لە کزە باکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirchs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirchs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Birch branches swayed gently in the breeze.",
+                            kurdishText:
+                                "لقەکانی دارە بێتولەکە بەھێواشی سەمایان دەکرد لە کزە باکەدا.",
+                            onPressedBritish: () => speakbirchs1("en-GB"),
+                            onPressedAmerican: () => speakbirchs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) تەختەی دار بێتولە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Craftsmen use birch to create furniture, toys, and decorative objects."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیشەگەران تەختەی بێتولە بەکاردێنن بۆ درووستکردنی کەلوپەلی ناوماڵ و یاری منداڵان و کەرەستەی جوانکاری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirchs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirchs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Craftsmen use birch to create furniture, toys, and decorative objects.",
+                            kurdishText:
+                                "پیشەگەران تەختەی بێتولە بەکاردێنن بۆ درووستکردنی کەلوپەلی ناوماڵ و یاری منداڵان و کەرەستەی جوانکاری.",
+                            onPressedBritish: () => speakbirchs2("en-GB"),
+                            onPressedAmerican: () => speakbirchs2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) سزادانی کەسێک بە کێشان بە سمتیدا بە بەکارھێنانی دار بێتولە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The threat of the birch hung heavy in the air during school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڕەشەی دارکاری ھەمیشە بەسەر سەری خوێنکارەوە بوو لە قوتابخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirchs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirchs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The threat of the birch hung heavy in the air during school.",
+                            kurdishText:
+                                "ھەڕەشەی دارکاری ھەمیشە بەسەر سەری خوێنکارەوە بوو لە قوتابخانە.",
+                            onPressedBritish: () => speakbirchs3("en-GB"),
+                            onPressedAmerican: () => speakbirchs3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

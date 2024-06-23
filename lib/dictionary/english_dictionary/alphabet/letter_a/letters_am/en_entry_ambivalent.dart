@@ -117,66 +117,28 @@ class EnglishEntryambivalent extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) دوودڵ، ھەبوونی ھەستی ئەرێنی و ەرێنی لە یەک کاتدا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She seems to feel ambivalent about her new job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وادیاربوو دوودڵ بێت سەبارەت بە کارە تازەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakambivalent4633("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambivalent4633(
-                                        // REPLACE: ambivalent /æmˈbɪvələnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She seems to feel ambivalent about her new job.",
+                            kurdishText:
+                                "وادیاربوو دوودڵ بێت سەبارەت بە کارە تازەکەی.",
+                            onPressedBritish: () =>
+                                speakambivalent4633("en-GB"),
+                            onPressedAmerican: () => speakambivalent4633(
+                                // REPLACE: ambivalent /æmˈbɪvələnt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The party's position on nuclear weapons is deeply ambivalent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵوێستی پارتەکە سەبارەت بە چەکی ئەتۆمی پێک‌دژانەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakambivalent46777("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambivalent46777(
-                                        // REPLACE: ambivalent /æmˈbɪvələnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The party's position on nuclear weapons is deeply ambivalent.",
+                            kurdishText:
+                                "ھەڵوێستی پارتەکە سەبارەت بە چەکی ئەتۆمی پێک‌دژانەیە.",
+                            onPressedBritish: () =>
+                                speakambivalent46777("en-GB"),
+                            onPressedAmerican: () => speakambivalent46777(
+                                // REPLACE: ambivalent /æmˈbɪvələnt/
+                                "en-US"),
                           ),
                         ],
                       ),

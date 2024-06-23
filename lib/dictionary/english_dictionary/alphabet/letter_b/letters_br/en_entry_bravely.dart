@@ -146,60 +146,20 @@ class EnglishEntrybravely extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بەشێوەیەکی ئازایانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He fought bravely for his country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە بوێرییەوە جەنگا بۆ وڵاتەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbravelys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbravelys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He fought bravely for his country.",
+                            kurdishText: "بە بوێرییەوە جەنگا بۆ وڵاتەکەی.",
+                            onPressedBritish: () => speakbravelys1("en-GB"),
+                            onPressedAmerican: () => speakbravelys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For more than two years she battled bravely against cancer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ زیاتر لە دوو ساڵ ئازایانە بەربەرەکانێی بوو لەگەڵ شێرپەنجە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbravelys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbravelys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For more than two years she battled bravely against cancer.",
+                            kurdishText:
+                                "بۆ زیاتر لە دوو ساڵ ئازایانە بەربەرەکانێی بوو لەگەڵ شێرپەنجە.",
+                            onPressedBritish: () => speakbravelys2("en-GB"),
+                            onPressedAmerican: () => speakbravelys2("en-US"),
                           ),
                         ],
                       ),

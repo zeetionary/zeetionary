@@ -179,66 +179,28 @@ class EnglishEntryamid extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ئامراز) لەناوەڕاستی کاتێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He finished his speech amid tremendous applause."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکەی تەواوکرد لەناوەڕاستی چەپڵەڕێزانێکی زۆردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamid77744("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakamid77744(// REPLACE: amid /əˈmɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He finished his speech amid tremendous applause.",
+                            kurdishText:
+                                "وتارەکەی تەواوکرد لەناوەڕاستی چەپڵەڕێزانێکی زۆردا.",
+                            onPressedBritish: () => speakamid77744("en-GB"),
+                            onPressedAmerican: () =>
+                                speakamid77744(// REPLACE: amid /əˈmɪd/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ئامراز) لەناوەڕاستی شتێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "On the floor, amid mounds of books, were two small envelopes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر زەوییەکە، و لە ناوەڕاستی یەک کەڵەکە کتێبدا، دوو بەرگەنامە کەوتبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamid7741("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakamid7741(// REPLACE: amid /əˈmɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "On the floor, amid mounds of books, were two small envelopes.",
+                            kurdishText:
+                                "لەسەر زەوییەکە، و لە ناوەڕاستی یەک کەڵەکە کتێبدا، دوو بەرگەنامە کەوتبوون.",
+                            onPressedBritish: () => speakamid7741("en-GB"),
+                            onPressedAmerican: () =>
+                                speakamid7741(// REPLACE: amid /əˈmɪd/
+                                    "en-US"),
                           ),
                         ],
                       ),

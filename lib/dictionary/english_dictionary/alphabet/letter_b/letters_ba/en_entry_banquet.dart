@@ -153,34 +153,15 @@ class EnglishEntrybanquet extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ژەمێکی فەرمی و گەورە بۆ ژمارەیەکی زۆر خەڵکی، زۆرجار لە بۆنەی تایبەتدا کە وتاری تێدا پێشکەش دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Over 1 600 people attended a banquet in her honour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیاتر لە ١٦٠٠ کەس بەژداری میواندارییەکە بوون کە بۆ ڕێزلێنان لێی سازکرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanquets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanquets1(// REPLACE: banquet
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Over 1 600 people attended a banquet in her honour.",
+                            kurdishText:
+                                "زیاتر لە ١٦٠٠ کەس بەژداری میواندارییەکە بوون کە بۆ ڕێزلێنان لێی سازکرابوو.",
+                            onPressedBritish: () => speakbanquets1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanquets1(// REPLACE: banquet
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

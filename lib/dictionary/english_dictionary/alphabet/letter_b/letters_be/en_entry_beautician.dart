@@ -150,31 +150,11 @@ class EnglishEntrybeautician extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە کاری جوانکاری بۆ ڕووخسار و جەستە دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was working as a beautician."),
-                                    ExampleSentenceKurdish(
-                                        text: "وەک جوانکارێک کاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeauticians1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeauticians1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was working as a beautician.",
+                            kurdishText: "وەک جوانکارێک کاری دەکرد.",
+                            onPressedBritish: () => speakbeauticians1("en-GB"),
+                            onPressedAmerican: () => speakbeauticians1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

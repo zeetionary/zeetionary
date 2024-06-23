@@ -164,230 +164,94 @@ class EnglishEntryarch extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەوانەیەک کە زۆرجار لەژێر پردێک درووست دەکرێت بۆ کەمکردنەوەی ئەگەری ڕووخانی پردەکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bridge they built over the river has three arches."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو پردەی بەسەر ڕووبارەکەدا درووستیان‌کرد سێ قەوسی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarch135("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarch135(// REPLACE: arch /ɑːrtʃ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bridge they built over the river has three arches.",
+                            kurdishText:
+                                "ئەو پردەی بەسەر ڕووبارەکەدا درووستیان‌کرد سێ قەوسی ھەیە.",
+                            onPressedBritish: () => speakarch135("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarch135(// REPLACE: arch /ɑːrtʃ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بینایەک کە لە سەرەوە قەوسێکی تێدایە و لاکانی ستوونین، و ھەندێک جار لە دەروازەی بینایەک درووست‌دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Go through the arch and follow the path."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە کەوانەکەدا بچۆ ژوورەوە و بە ڕێگاکەدا بەردەوام‌ بە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarch140("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarch140(// REPLACE: arch /ɑːrtʃ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Go through the arch and follow the path.",
+                            kurdishText:
+                                "بە کەوانەکەدا بچۆ ژوورەوە و بە ڕێگاکەدا بەردەوام‌ بە.",
+                            onPressedBritish: () => speakarch140("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarch140(// REPLACE: arch /ɑːrtʃ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بەشی ناوەڕاستی پێ لە خوارەوە کە بەرەو سەرەوە وەک قەوسێکی بچووک بەرزبووەتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She has very high arches."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەوانەی پێی زۆر بەرزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarch143("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarch143(// REPLACE: arch /ɑːrtʃ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She has very high arches.",
+                            kurdishText: "کەوانەی پێی زۆر بەرزە.",
+                            onPressedBritish: () => speakarch143("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarch143(// REPLACE: arch /ɑːrtʃ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ھەر شتێک کە شێوەی کەوانەیی ھەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The branches of the trees formed an arch over the bench."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لقی دارەکان قەوسێکیان درووستکردبوو بەسەر کورسییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarch148("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarch148(// REPLACE: arch /ɑːrtʃ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The branches of the trees formed an arch over the bench.",
+                            kurdishText:
+                                "لقی دارەکان قەوسێکیان درووستکردبوو بەسەر کورسییەکەدا.",
+                            onPressedBritish: () => speakarch148("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarch148(// REPLACE: arch /ɑːrtʃ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) درووستکردنی کەوانەیەک بە جەستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cat arched its back and hissed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشیلەکە پشتی چەماندەوە و فساندی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarch148("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarch148(// REPLACE: arch /ɑːrtʃ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The cat arched its back and hissed.",
+                            kurdishText: "پشیلەکە پشتی چەماندەوە و فساندی.",
+                            onPressedBritish: () => speakarch148("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarch148(// REPLACE: arch /ɑːrtʃ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) وەرگرتنی شێوەی کەوانەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Tall trees arched over the path."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دارە بەرزەکان کەوانەیەکیان بەسەر ڕێگاکەدا درووستکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarch152("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarch152(// REPLACE: arch /ɑːrtʃ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Tall trees arched over the path.",
+                            kurdishText:
+                                "دارە بەرزەکان کەوانەیەکیان بەسەر ڕێگاکەدا درووستکرد.",
+                            onPressedBritish: () => speakarch152("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarch152(// REPLACE: arch /ɑːrtʃ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ھاوەڵناو) ھەستکردن بە دڵخۆشی چونکە زیاتر لە خەڵکی تر دەزانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Using an arch tone doesn't always mean being mean; it can add humor to discussions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قسەکردن بە دەنگێکی لەخۆڕازییانە ھەمیشە بۆ ئەوە نییە کەسی دیکە تووڕە بکەیت؛ ئەکرێت خۆشی بە گفتوگۆ بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarch159("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarch159(// REPLACE: arch /ɑːrtʃ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Using an arch tone doesn't always mean being mean; it can add humor to discussions.",
+                            kurdishText:
+                                "قسەکردن بە دەنگێکی لەخۆڕازییانە ھەمیشە بۆ ئەوە نییە کەسی دیکە تووڕە بکەیت؛ ئەکرێت خۆشی بە گفتوگۆ بدات.",
+                            onPressedBritish: () => speakarch159("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarch159(// REPLACE: arch /ɑːrtʃ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

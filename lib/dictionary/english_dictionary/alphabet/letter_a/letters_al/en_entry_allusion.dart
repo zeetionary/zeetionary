@@ -115,34 +115,15 @@ class EnglishEntryallusion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شتێک کە بە شێوەی ناڕاستەوخۆ باسی کەسێک/شتێک دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His statement was seen as an allusion to the recent drug-related killings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتەکەی وابینرا کە ئاماژەیەک بێت بۆ ئەو کوشتنانەی ئەم ماوە کە پەیوەندیدار بە مادەی ھۆشبەر بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallusio426("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallusio426(
-                                        // REPLACE: allusion /əˈluːʒn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His statement was seen as an allusion to the recent drug-related killings.",
+                            kurdishText:
+                                "وتەکەی وابینرا کە ئاماژەیەک بێت بۆ ئەو کوشتنانەی ئەم ماوە کە پەیوەندیدار بە مادەی ھۆشبەر بوون.",
+                            onPressedBritish: () => speakallusio426("en-GB"),
+                            onPressedAmerican: () => speakallusio426(
+                                // REPLACE: allusion /əˈluːʒn/
+                                "en-US"),
                           ),
                         ],
                       ),

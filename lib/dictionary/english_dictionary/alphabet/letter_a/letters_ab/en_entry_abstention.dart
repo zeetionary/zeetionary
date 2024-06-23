@@ -107,62 +107,24 @@ class EnglishEntryabstention extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بەژاداری نەکردن لە دەنگدان" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Voter abstention is seen as the only real form of dissent in elections."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ھەڵبژاردندا، بایکۆت بە تەنھا جۆری ڕاستیی ناڕەزایی دەربڕین دێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka26971("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka26971("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Voter abstention is seen as the only real form of dissent in elections.",
+                            kurdishText:
+                                "لە ھەڵبژاردندا، بایکۆت بە تەنھا جۆری ڕاستیی ناڕەزایی دەربڕین دێت.",
+                            onPressedBritish: () => speaka26971("en-GB"),
+                            onPressedAmerican: () => speaka26971("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) خۆبەدوورگرتن لە شتێک کە حەزت لێیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Church insisted on abstention from all luxuries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڵێساکە پێداگیری دەکرد لە خۆبەدوورگرتن لە ھەموو جۆرە شتێکی جوان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka26983("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka26983("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Church insisted on abstention from all luxuries.",
+                            kurdishText:
+                                "کڵێساکە پێداگیری دەکرد لە خۆبەدوورگرتن لە ھەموو جۆرە شتێکی جوان.",
+                            onPressedBritish: () => speaka26983("en-GB"),
+                            onPressedAmerican: () => speaka26983("en-US"),
                           ),
                         ],
                       ),

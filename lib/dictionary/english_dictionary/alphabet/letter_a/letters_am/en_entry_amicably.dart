@@ -178,65 +178,26 @@ class EnglishEntryamicably extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بە ھاوڕیانە و تەبایی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The policeman chatted amicably to the bystanders."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیسەکان بە ھاوڕێیانە لەگەڵ پیادەکان قسەیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamicably4777("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamicably4777(
-                                        // REPLACE: amicably /ˈæmɪkəbli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The policeman chatted amicably to the bystanders.",
+                            kurdishText:
+                                "پۆلیسەکان بە ھاوڕێیانە لەگەڵ پیادەکان قسەیان دەکرد.",
+                            onPressedBritish: () => speakamicably4777("en-GB"),
+                            onPressedAmerican: () => speakamicably4777(
+                                // REPLACE: amicably /ˈæmɪkəbli/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I hope we can settle this amicably."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیوادارم بە تەبایی ئەمە چارەسەر بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamicably555541("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamicably555541(
-                                        // REPLACE: amicably /ˈæmɪkəbli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I hope we can settle this amicably.",
+                            kurdishText:
+                                "ھیوادارم بە تەبایی ئەمە چارەسەر بکەین.",
+                            onPressedBritish: () =>
+                                speakamicably555541("en-GB"),
+                            onPressedAmerican: () => speakamicably555541(
+                                // REPLACE: amicably /ˈæmɪkəbli/
+                                "en-US"),
                           ),
                         ],
                       ),

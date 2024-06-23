@@ -152,154 +152,59 @@ class EnglishEntrybasket extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) سەبەتەی ھەڵگرتنی شتومەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was cycling along with her bicycle basket full of groceries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاسکیلسواری دەکرد بە سەبەتەی پاسکیلەکەی پڕ لە میوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaskets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaskets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was cycling along with her bicycle basket full of groceries.",
+                            kurdishText:
+                                "پاسکیلسواری دەکرد بە سەبەتەی پاسکیلەکەی پڕ لە میوە.",
+                            onPressedBritish: () => speakbaskets1("en-GB"),
+                            onPressedAmerican: () => speakbaskets1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She found a basket of fruit waiting for her in the hotel room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەبەتەیەک میوەی بینییەوە کە لە ژووری ھوتێلەکە بۆی دانرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaskets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaskets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She found a basket of fruit waiting for her in the hotel room.",
+                            kurdishText:
+                                "سەبەتەیەک میوەی بینییەوە کە لە ژووری ھوتێلەکە بۆی دانرابوو.",
+                            onPressedBritish: () => speakbaskets2("en-GB"),
+                            onPressedAmerican: () => speakbaskets2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئەو بڕەی لە سەبەتەیەک جێی دەبێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We picked lots of strawberries, but we'd eaten half the basket by the time we got home."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمڕۆ ڕێژەیەکی زۆر تووت فەرەنگیمان چنی، بەڵام نیوەی سەبەتەکەمان خوارد تا گەشتینە ماڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaskets3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaskets3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We picked lots of strawberries, but we'd eaten half the basket by the time we got home.",
+                            kurdishText:
+                                "ئەمڕۆ ڕێژەیەکی زۆر تووت فەرەنگیمان چنی، بەڵام نیوەی سەبەتەکەمان خوارد تا گەشتینە ماڵ.",
+                            onPressedBritish: () => speakbaskets3("en-GB"),
+                            onPressedAmerican: () => speakbaskets3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بەشی وێبسایتێک کە ئەو شتانە لەخۆدەگرێت کە دەتەوێت بیکڕیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Click to drop items into your shopping basket."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرتە بکە بۆ تێخستنی ئەو بەرھەمانەی دەتەوێت بۆ زیادکردنیان بۆ ناو سەبەتەی بازاڕکردنەکەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaskets4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaskets4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Click to drop items into your shopping basket.",
+                            kurdishText:
+                                "گرتە بکە بۆ تێخستنی ئەو بەرھەمانەی دەتەوێت بۆ زیادکردنیان بۆ ناو سەبەتەی بازاڕکردنەکەت.",
+                            onPressedBritish: () => speakbaskets4("en-GB"),
+                            onPressedAmerican: () => speakbaskets4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) سەبەتەی یاری باسکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The player swished the ball through the basket."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاریزانەکە تۆپەکەی ھاویشتە ناو سەبەتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaskets5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaskets5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The player swished the ball through the basket.",
+                            kurdishText:
+                                "یاریزانەکە تۆپەکەی ھاویشتە ناو سەبەتەکە.",
+                            onPressedBritish: () => speakbaskets5("en-GB"),
+                            onPressedAmerican: () => speakbaskets5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

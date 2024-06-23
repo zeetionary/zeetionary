@@ -159,34 +159,15 @@ class EnglishEntryantibody extends StatelessWidget {
                               text:
                                   "١. (ناو) مادەیەک کە لەش درووستی دەکات لە خوێندا، یان وەک کاردانەوە دژ بە شتێک کە دەخرێتە لەشەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Antibodies found in breast milk protect newborn babies against infection."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو دژەتەنانەی لە شیری سرووشتیدان منداڵی ساوا دەپارێزن لە نەخۆشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantibody1019("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantibody1019(
-                                        // REPLACE: antibody /ˈæntibɑːdi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Antibodies found in breast milk protect newborn babies against infection.",
+                            kurdishText:
+                                "ئەو دژەتەنانەی لە شیری سرووشتیدان منداڵی ساوا دەپارێزن لە نەخۆشی.",
+                            onPressedBritish: () => speakantibody1019("en-GB"),
+                            onPressedAmerican: () => speakantibody1019(
+                                // REPLACE: antibody /ˈæntibɑːdi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

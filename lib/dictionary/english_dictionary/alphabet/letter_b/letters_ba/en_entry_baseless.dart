@@ -150,31 +150,12 @@ class EnglishEntrybaseless extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە ھیچ بەڵگەیەکی لە پشتەوە نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rumours were completely baseless."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەنگۆکان بێ‌بنەما بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaselesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaselesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The rumours were completely baseless.",
+                            kurdishText: "دەنگۆکان بێ‌بنەما بوون.",
+                            onPressedBritish: () => speakbaselesss1("en-GB"),
+                            onPressedAmerican: () => speakbaselesss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

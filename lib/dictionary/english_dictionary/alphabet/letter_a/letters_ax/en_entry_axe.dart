@@ -157,128 +157,51 @@ class EnglishEntryaxe extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئەسپاپێک کە دەسکێکی دارین و دەمێکی ئاسنینی ھەیە بۆ بڕینەوەی دار و تەخە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Julian used an axe to chop down the old apple tree."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جولیان تەورێکی بەکارھێنا بۆ بڕینەوەی دار سێوە کۆنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaxes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaxes1(// REPLACE: axe
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Julian used an axe to chop down the old apple tree.",
+                            kurdishText:
+                                "جولیان تەورێکی بەکارھێنا بۆ بڕینەوەی دار سێوە کۆنەکە.",
+                            onPressedBritish: () => speakaxes1("en-GB"),
+                            onPressedAmerican: () => speakaxes1(// REPLACE: axe
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) داخران یان لەدەستدانی کار"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Up to 300 workers are facing the axe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیاتر لە ٣٠٠ کەس کارەکانیان لەدەستدەدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaxes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaxes2(// REPLACE: axe
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Up to 300 workers are facing the axe.",
+                            kurdishText:
+                                "زیاتر لە ٣٠٠ کەس کارەکانیان لەدەستدەدەن.",
+                            onPressedBritish: () => speakaxes2("en-GB"),
+                            onPressedAmerican: () => speakaxes2(// REPLACE: axe
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) کۆتایی پێھێنان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The series was axed after only six episodes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دراماکە کۆتایی پێھێندرا تەنھا لە دوای شەش زنجیرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaxes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaxes3(// REPLACE: axe
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The series was axed after only six episodes.",
+                            kurdishText:
+                                "دراماکە کۆتایی پێھێندرا تەنھا لە دوای شەش زنجیرە.",
+                            onPressedBritish: () => speakaxes3("en-GB"),
+                            onPressedAmerican: () => speakaxes3(// REPLACE: axe
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) دەرکردن لە کار"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Michael has been axed from the team."),
-                                    ExampleSentenceKurdish(
-                                        text: "مایکڵ لە تیمەکە دەرکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaxes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaxes4(// REPLACE: axe
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Michael has been axed from the team.",
+                            kurdishText: "مایکڵ لە تیمەکە دەرکراوە.",
+                            onPressedBritish: () => speakaxes4("en-GB"),
+                            onPressedAmerican: () => speakaxes4(// REPLACE: axe
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

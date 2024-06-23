@@ -161,134 +161,56 @@ class EnglishEntryantiseptic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) مادەیەک کە ڕێگە لە ھەوکردنی برین دەکات بە کوشتنی بەکتریا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Dab the graze with antiseptic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووشاوییەکە بە خاوێن‌کەر بساوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantiseptic1218("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantiseptic1218(
-                                        // REPLACE: antiseptic /ˌæntiˈseptɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Dab the graze with antiseptic.",
+                            kurdishText: "ڕووشاوییەکە بە خاوێن‌کەر بساوە.",
+                            onPressedBritish: () =>
+                                speakantiseptic1218("en-GB"),
+                            onPressedAmerican: () => speakantiseptic1218(
+                                // REPLACE: antiseptic /ˌæntiˈseptɪk/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Use antiseptic to clean and dress cuts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاوێن‌کەر بەکاربێنە بۆ پاککردنەوە و دواتر برینەکە بپێچە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantiseptic1221("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantiseptic1221(
-                                        // REPLACE: antiseptic /ˌæntiˈseptɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Use antiseptic to clean and dress cuts.",
+                            kurdishText:
+                                "خاوێن‌کەر بەکاربێنە بۆ پاککردنەوە و دواتر برینەکە بپێچە.",
+                            onPressedBritish: () =>
+                                speakantiseptic1221("en-GB"),
+                            onPressedAmerican: () => speakantiseptic1221(
+                                // REPLACE: antiseptic /ˌæntiˈseptɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ھەبوونی خاسیەتی ڕێگری لە ھەوکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When you get a little cut, you can use antiseptic cream."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتێک برینێکی بچووکت دەبێت دەتوانی کرێمی دژە-ھەوکردن بەکاربێنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantiseptic1225("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantiseptic1225(
-                                        // REPLACE: antiseptic /ˌæntiˈseptɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When you get a little cut, you can use antiseptic cream.",
+                            kurdishText:
+                                "کاتێک برینێکی بچووکت دەبێت دەتوانی کرێمی دژە-ھەوکردن بەکاربێنی.",
+                            onPressedBritish: () =>
+                                speakantiseptic1225("en-GB"),
+                            onPressedAmerican: () => speakantiseptic1225(
+                                // REPLACE: antiseptic /ˌæntiˈseptɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) زۆرپاک بەبێ بوونی ھیچ بەکتریایەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cover the burn with an antiseptic dressing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "برینەکە بە پارچەیەکی زۆرپاک ببەستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantiseptic1228("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantiseptic1228(
-                                        // REPLACE: antiseptic /ˌæntiˈseptɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cover the burn with an antiseptic dressing.",
+                            kurdishText: "برینەکە بە پارچەیەکی زۆرپاک ببەستە.",
+                            onPressedBritish: () =>
+                                speakantiseptic1228("en-GB"),
+                            onPressedAmerican: () => speakantiseptic1228(
+                                // REPLACE: antiseptic /ˌæntiˈseptɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

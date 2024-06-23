@@ -157,34 +157,15 @@ class EnglishEntryballroom extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژوورێکی گەورە کە بۆ سەماکردن بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He entered the palatial ballroom and later danced with a beautiful girl."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چووە سەماخانە کۆشک‌ئاساکە و دواتر سەمای لەگەڵ کچێکی جوان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballrooms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballrooms1(// REPLACE: ballroom
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He entered the palatial ballroom and later danced with a beautiful girl.",
+                            kurdishText:
+                                "چووە سەماخانە کۆشک‌ئاساکە و دواتر سەمای لەگەڵ کچێکی جوان کرد.",
+                            onPressedBritish: () => speakballrooms1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballrooms1(// REPLACE: ballroom
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

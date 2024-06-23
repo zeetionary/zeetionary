@@ -151,126 +151,46 @@ class EnglishEntryb extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دوومین پیتی ئەلفوبێی ئینگلیزی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘Butter’ begins with (a) B/‘B’."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وشەی ‘Butter’ بە پیتی B دەستپێ‌دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbs1(// REPLACE: b
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "‘Butter’ begins with (a) B/‘B’.",
+                            kurdishText:
+                                "وشەی ‘Butter’ بە پیتی B دەستپێ‌دەکات.",
+                            onPressedBritish: () => speakbs1("en-GB"),
+                            onPressedAmerican: () => speakbs1(// REPLACE: b
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) نمرەیەک کە خوێندکارێک وەری‌دەگرێت کە باشە بەڵام نایاب نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She got (a) B in history."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە مێژوو باشەی ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbs2(// REPLACE: b
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She got (a) B in history.",
+                            kurdishText: "لە مێژوو باشەی ھێنا.",
+                            onPressedBritish: () => speakbs2("en-GB"),
+                            onPressedAmerican: () => speakbs2(// REPLACE: b
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بەکاردێت بۆ ئاماژە بە دووەم ھەڵبژاردە لە دوو یان کۆمەڵە ھەڵبژاردەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Shall we go for plan A or plan B?"),
-                                    ExampleSentenceKurdish(
-                                        text: "پلانی A یان B ھەڵبژێرین؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbs3(// REPLACE: b
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Shall we go for plan A or plan B?",
+                            kurdishText: "پلانی A یان B ھەڵبژێرین؟",
+                            onPressedBritish: () => speakbs3("en-GB"),
+                            onPressedAmerican: () => speakbs3(// REPLACE: b
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) بەکاردێت بۆ ئاماژە بە کەسێک لە دۆخی خەیاڵکردن یان بۆ شاردنی ناسنامە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let's pretend A meets B in the park."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با وادابنێین A لە پارکەکە B دەبینێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbs4(// REPLACE: b
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Let's pretend A meets B in the park.",
+                            kurdishText: "با وادابنێین A لە پارکەکە B دەبینێت.",
+                            onPressedBritish: () => speakbs4("en-GB"),
+                            onPressedAmerican: () => speakbs4(// REPLACE: b
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

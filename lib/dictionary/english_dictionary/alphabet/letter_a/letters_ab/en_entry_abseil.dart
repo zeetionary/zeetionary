@@ -93,32 +93,13 @@ class EnglishEntryabseil extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار و ناو) ھاتنەخوارە بە تەناف‌دا (لە ھەڵدێرەوە) بە بەکارھێنانی پێیەکانت بۆ دوورخستنەوەی جەستەت لە ھەڵدێرەکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was a little scared when I first abseiled."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمێک تاساوبووم کە یەکەمجار بە ھەڵدێرێکدا ھاتمە خوارەوە بە تەناف."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka6271("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka6271("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was a little scared when I first abseiled.",
+                            kurdishText:
+                                "کەمێک تاساوبووم کە یەکەمجار بە ھەڵدێرێکدا ھاتمە خوارەوە بە تەناف.",
+                            onPressedBritish: () => speaka6271("en-GB"),
+                            onPressedAmerican: () => speaka6271("en-US"),
                           ),
                         ],
                       ),

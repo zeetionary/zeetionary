@@ -150,121 +150,43 @@ class EnglishEntrybird extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) گیانلەبەرێک کە بە پەڕ داپۆشراوە و دوو باڵ و قاچی ھەیە. زۆرینەی باڵندەکان دەتوانن بفڕن."""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The birds migrate in September."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باڵندەکان لە ئەیلوولدا کۆچ دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The birds migrate in September.",
+                            kurdishText: "باڵندەکان لە ئەیلوولدا کۆچ دەکەن.",
+                            onPressedBritish: () => speakbirds1("en-GB"),
+                            onPressedAmerican: () => speakbirds1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە خاسیەتێکی دیاریکراوی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He's a tough old bird."),
-                                    ExampleSentenceKurdish(
-                                        text: "بوونەوەرێکی پیری سەرسەختە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's a tough old bird.",
+                            kurdishText: "بوونەوەرێکی پیری سەرسەختە.",
+                            onPressedBritish: () => speakbirds2("en-GB"),
+                            onPressedAmerican: () => speakbirds2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ژنێکی گەنج"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Is that John's new bird?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەوە یارە تازەکەی جۆنە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Is that John's new bird?",
+                            kurdishText: "ئەوە یارە تازەکەی جۆنە؟",
+                            onPressedBritish: () => speakbirds3("en-GB"),
+                            onPressedAmerican: () => speakbirds3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) ڕۆشتن بۆ سەیری باڵندە لە ژینگەی سرووشتی خۆیاندا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has birded the whole of North America."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تەواوی ئەمریکای باکووردا چووە بۆ سەیری چۆلەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirds4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirds4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has birded the whole of North America.",
+                            kurdishText:
+                                "لە تەواوی ئەمریکای باکووردا چووە بۆ سەیری چۆلەکە.",
+                            onPressedBritish: () => speakbirds4("en-GB"),
+                            onPressedAmerican: () => speakbirds4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

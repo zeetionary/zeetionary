@@ -146,58 +146,20 @@ class EnglishEntryboyhood extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) سەردەمی کوڕێتی ژیانی پیاوێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spent most of his boyhood with his grandparents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی ژیانی کوڕێتی لەگەڵ باوانی بەسەربرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboyhoods1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboyhoods1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He spent most of his boyhood with his grandparents.",
+                            kurdishText:
+                                "زۆرینەی ژیانی کوڕێتی لەگەڵ باوانی بەسەربرد.",
+                            onPressedBritish: () => speakboyhoods1("en-GB"),
+                            onPressedAmerican: () => speakboyhoods1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I had a very happy boyhood."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەردەمێکی خۆشی کوڕێتیم ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboyhoods2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboyhoods2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I had a very happy boyhood.",
+                            kurdishText: "سەردەمێکی خۆشی کوڕێتیم ھەبوو.",
+                            onPressedBritish: () => speakboyhoods2("en-GB"),
+                            onPressedAmerican: () => speakboyhoods2("en-US"),
                           ),
                         ],
                       ),

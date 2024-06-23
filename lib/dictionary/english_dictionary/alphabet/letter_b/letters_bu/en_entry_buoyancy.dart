@@ -195,93 +195,35 @@ class EnglishEntrybuoyancy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخێک کە تێیدا نرخ یان چالاکی وەک خۆی دەمێنێتەوە یان زیاد دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is continued buoyancy in the property market."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشەسەندنی بەردەوام ھەیە لە بازاڕی خانووبەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "buoyancy", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuoyancys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuoyancys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is continued buoyancy in the property market.",
+                            kurdishText:
+                                "گەشەسەندنی بەردەوام ھەیە لە بازاڕی خانووبەرە.", // buoyancy", follow LX strictly
+                            onPressedBritish: () => speakbuoyancys1("en-GB"),
+                            onPressedAmerican: () => speakbuoyancys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) گەشبینی و دڵخۆشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was normally subdued, but today she radiated buoyancy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرجار بێزاربوو، بەڵام ئەمڕۆ گەشبینی لێ دەباری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuoyancys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuoyancys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was normally subdued, but today she radiated buoyancy.",
+                            kurdishText:
+                                "زۆرجار بێزاربوو، بەڵام ئەمڕۆ گەشبینی لێ دەباری.",
+                            onPressedBritish: () => speakbuoyancys2("en-GB"),
+                            onPressedAmerican: () => speakbuoyancys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) توانای سەرئاوکەوتووی، ھێشتنەوە بە سەراوکەوتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We tested the boat for buoyancy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەراوکەوتوویی بەلەمەکەمان تاقیکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuoyancys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuoyancys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We tested the boat for buoyancy.",
+                            kurdishText:
+                                "سەراوکەوتوویی بەلەمەکەمان تاقیکردەوە.",
+                            onPressedBritish: () => speakbuoyancys3("en-GB"),
+                            onPressedAmerican: () => speakbuoyancys3("en-US"),
                           ),
                         ],
                       ),

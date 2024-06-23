@@ -152,94 +152,36 @@ class EnglishEntrybeater extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئامرازێک کە بۆ کوتانی شت بەکاردێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A carpet beater is a long, wooden tool used to clean carpets."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕایەخ لێدەر ئامرازێکی درێژی دارینە بەکاردێت بۆ پاککردنەوەی ڕایەخ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeaters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeaters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A carpet beater is a long, wooden tool used to clean carpets.",
+                            kurdishText:
+                                "ڕایەخ لێدەر ئامرازێکی درێژی دارینە بەکاردێت بۆ پاککردنەوەی ڕایەخ.",
+                            onPressedBritish: () => speakbeaters1("en-GB"),
+                            onPressedAmerican: () => speakbeaters1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە لە کەسێک دەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was arrested for being a wife-beater."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستگیرکرا بەھۆی لێدان لە ژنەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeaters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeaters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was arrested for being a wife-beater.",
+                            kurdishText: "دەستگیرکرا بەھۆی لێدان لە ژنەکەی.",
+                            onPressedBritish: () => speakbeaters2("en-GB"),
+                            onPressedAmerican: () => speakbeaters2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ئۆتۆمبێلێکی کۆن کە لە دۆخێکی خراپە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bought a cheap beater to get around until he could afford a new car."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلە شڕەیەکی ھەرزانی کڕی بۆ بەکارھێنان تاوەکو ئەوکاتەی دەتوانێت دانەیەکی تازە بکڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeaters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeaters3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He bought a cheap beater to get around until he could afford a new car.",
+                            kurdishText:
+                                "ئۆتۆمبێلە شڕەیەکی ھەرزانی کڕی بۆ بەکارھێنان تاوەکو ئەوکاتەی دەتوانێت دانەیەکی تازە بکڕێت.",
+                            onPressedBritish: () => speakbeaters3("en-GB"),
+                            onPressedAmerican: () => speakbeaters3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

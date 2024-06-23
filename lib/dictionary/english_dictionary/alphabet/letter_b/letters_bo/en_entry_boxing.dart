@@ -146,32 +146,11 @@ class EnglishEntryboxing extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) وەرزشێک کە دوو کەس تێیدا شەڕەمشت دەکەن بە دەستکێشی ئەستوورەو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He does boxing in his spare time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاری شەڕەمشت دەکات لە کاتی بەتاڵیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He does boxing in his spare time.",
+                            kurdishText: "یاری شەڕەمشت دەکات لە کاتی بەتاڵیدا.",
+                            onPressedBritish: () => speakboxings1("en-GB"),
+                            onPressedAmerican: () => speakboxings1("en-US"),
                           ),
                         ],
                       ),

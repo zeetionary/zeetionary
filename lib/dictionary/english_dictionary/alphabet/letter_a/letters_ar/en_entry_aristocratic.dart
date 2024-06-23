@@ -164,35 +164,16 @@ class EnglishEntryaristocratic extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە چینی باڵای کۆمەڵگە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were impressed by his accent and aristocratic manner."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسام‌بوون بە ئەکسێنت و ھەڵسوکەوتی خانەدانەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaristocratic1214("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaristocratic1214(
-                                        // REPLACE: aristocratic /əˌrɪstəˈkrætɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were impressed by his accent and aristocratic manner.",
+                            kurdishText:
+                                "سەرسام‌بوون بە ئەکسێنت و ھەڵسوکەوتی خانەدانەی.",
+                            onPressedBritish: () =>
+                                speakaristocratic1214("en-GB"),
+                            onPressedAmerican: () => speakaristocratic1214(
+                                // REPLACE: aristocratic /əˌrɪstəˈkrætɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

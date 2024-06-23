@@ -158,33 +158,14 @@ class EnglishEntryantidote extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) مادەیەک کە کۆنترۆڵی نەخۆشی یان ژەھر دەکات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is no known antidote to the poison."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ ژارکوژێک نییە بۆ ژەھرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantidote1018("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantidote1018(
-                                        // REPLACE: antidote /ˈæntidəʊt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is no known antidote to the poison.",
+                            kurdishText: "ھیچ ژارکوژێک نییە بۆ ژەھرەکە.",
+                            onPressedBritish: () => speakantidote1018("en-GB"),
+                            onPressedAmerican: () => speakantidote1018(
+                                // REPLACE: antidote /ˈæntidəʊt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

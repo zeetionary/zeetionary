@@ -149,122 +149,41 @@ class EnglishEntrybeautifully extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵکار) بەشێوەیەکی جوان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She sings beautifully."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەجوانی گۆرانی دەڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbeautifullys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbeautifullys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She sings beautifully.",
+                            kurdishText: "بەجوانی گۆرانی دەڵێت.",
+                            onPressedBritish: () => speakbeautifullys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbeautifullys1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She dresses beautifully."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەجوانی خۆی دەپۆشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbeautifullys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbeautifullys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She dresses beautifully.",
+                            kurdishText: "بەجوانی خۆی دەپۆشێت.",
+                            onPressedBritish: () => speakbeautifullys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbeautifullys2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) زۆر باش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's all working out beautifully."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەمووی بە باشی دەچێت بەڕێوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbeautifullys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbeautifullys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's all working out beautifully.",
+                            kurdishText: "ھەمووی بە باشی دەچێت بەڕێوە.",
+                            onPressedBritish: () => speakbeautifullys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbeautifullys3("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "My leg has healed beautifully."),
-                                    ExampleSentenceKurdish(
-                                        text: "لاقم بە باشی خۆشبووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbeautifullys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbeautifullys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My leg has healed beautifully.",
+                            kurdishText: "لاقم بە باشی خۆشبووەتەوە.",
+                            onPressedBritish: () => speakbeautifullys4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbeautifullys4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

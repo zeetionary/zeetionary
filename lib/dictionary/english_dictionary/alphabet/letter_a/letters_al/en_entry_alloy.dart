@@ -115,33 +115,14 @@ class EnglishEntryalloy extends StatelessWidget {
                               text:
                                   "١. (ناو) داڕشتە؛ کانزایەک کە بە تێکەڵکردنی دوو کانزای تر، یان کانزایەک و مادەیەکی تر درووست بووە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Brass is an alloy of copper and zinc."),
-                                    ExampleSentenceKurdish(
-                                        text: "مسی سپی داڕشتەی مس و زینکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalloy4277("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakalloy4277(// REPLACE: alloy /ˈælɔɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Brass is an alloy of copper and zinc.",
+                            kurdishText: "مسی سپی داڕشتەی مس و زینکە.",
+                            onPressedBritish: () => speakalloy4277("en-GB"),
+                            onPressedAmerican: () =>
+                                speakalloy4277(// REPLACE: alloy /ˈælɔɪ/
+                                    "en-US"),
                           ),
                         ],
                       ),

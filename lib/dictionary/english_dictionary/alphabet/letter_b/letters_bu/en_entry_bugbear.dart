@@ -143,32 +143,13 @@ class EnglishEntrybugbear extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شوتێک کە دەبێتە مایەی نیگەرانی، دڵەڕاوکێ، بێزاری، و ترس"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Inflation is the government's main bugbear."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵاوسان دێوەزمەی سەرەکی حکومەتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bugbear" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbugbears1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbugbears1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Inflation is the government's main bugbear.",
+                            kurdishText:
+                                "ھەڵاوسان دێوەزمەی سەرەکی حکومەتە.", // bugbear" as
+                            onPressedBritish: () => speakbugbears1("en-GB"),
+                            onPressedAmerican: () => speakbugbears1("en-US"),
                           ),
                         ],
                       ),

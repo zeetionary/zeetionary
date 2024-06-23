@@ -153,34 +153,15 @@ class EnglishEntrybalsa extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) تەختەی داتی بالسا کە زۆر نەرمە و بە ئاسانی دەبڕدرێت، ھەندێک جار بۆ درووستکردنی نموونەی کاری ئەندازیاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The balsa trees are native to South America and can grow up to 100 feet tall."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داری بالسا بەسرووشتی لە ئەمریکای باشوور ھەن و تاوەکو ١٠٠ پێ گەشەدەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalsas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalsas1(// REPLACE: balsa
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The balsa trees are native to South America and can grow up to 100 feet tall.",
+                            kurdishText:
+                                "داری بالسا بەسرووشتی لە ئەمریکای باشوور ھەن و تاوەکو ١٠٠ پێ گەشەدەکەن.",
+                            onPressedBritish: () => speakbalsas1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalsas1(// REPLACE: balsa
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

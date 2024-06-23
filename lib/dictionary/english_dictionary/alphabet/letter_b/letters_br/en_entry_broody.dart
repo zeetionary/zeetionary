@@ -144,94 +144,37 @@ class EnglishEntrybroody extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) حەزی زۆر بۆ بوونی منداڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I reached the age of 27 and suddenly started to feel broody."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوومە ٢٧ ساڵ و لەناکاو بە مەراقی منداڵ بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broody" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroodys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroodys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I reached the age of 27 and suddenly started to feel broody.",
+                            kurdishText:
+                                "بوومە ٢٧ ساڵ و لەناکاو بە مەراقی منداڵ بووم.", // broody" as
+                            onPressedBritish: () => speakbroodys1("en-GB"),
+                            onPressedAmerican: () => speakbroodys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) مریشکێک کە حەزی لییە لەسەر ھێلکە کڕ بکەوێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The broody hen refused to leave the nest."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مریشکە کڕکەوتووەکە مکوڕ بوو لەسەر جێھێشتنی کولانەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroodys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroodys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The broody hen refused to leave the nest.",
+                            kurdishText:
+                                "مریشکە کڕکەوتووەکە مکوڕ بوو لەسەر جێھێشتنی کولانەکەی.",
+                            onPressedBritish: () => speakbroodys2("en-GB"),
+                            onPressedAmerican: () => speakbroodys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) بێ دەنگ لە کاتێکدا بیر لە شتێک دەکەیتەوە بەھۆی ئەوەی بێزاریت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ruth started feeling broody in her late twenties."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕوس خەمبار بوو لە بیستەکانی تەمەنیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroodys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroodys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ruth started feeling broody in her late twenties.",
+                            kurdishText:
+                                "ڕوس خەمبار بوو لە بیستەکانی تەمەنیدا.",
+                            onPressedBritish: () => speakbroodys3("en-GB"),
+                            onPressedAmerican: () => speakbroodys3("en-US"),
                           ),
                         ],
                       ),

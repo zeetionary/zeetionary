@@ -156,97 +156,40 @@ class EnglishEntryavailable extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) شتێک کە بەردەستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We'll send you a copy as soon as it becomes available."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆپپیەکت بۆ دەنێرین ھەرکە بەردەست بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavailables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavailables1(// REPLACE: available
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We'll send you a copy as soon as it becomes available.",
+                            kurdishText:
+                                "کۆپپیەکت بۆ دەنێرین ھەرکە بەردەست بوو.",
+                            onPressedBritish: () => speakavailables1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavailables1(// REPLACE: available
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ھەبوونی کات بۆ بینین یان قسەکردن لەگەڵ خەڵکی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Will she be available this afternoon?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم نیوەڕۆ کاتی دەبێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavailables2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavailables2(// REPLACE: available
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Will she be available this afternoon?",
+                            kurdishText: "ئەم نیوەڕۆ کاتی دەبێت؟",
+                            onPressedBritish: () => speakavailables2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavailables2(// REPLACE: available
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) کەسێک کە لە پەیوەندی خۆشەویستیدا نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Do you think he's available?"),
-                                    ExampleSentenceKurdish(
-                                        text: "پێت وایە ھێشتا سینگڵ بێ؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavailables3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavailables3(// REPLACE: available
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Do you think he's available?",
+                            kurdishText: "پێت وایە ھێشتا سینگڵ بێ؟",
+                            onPressedBritish: () => speakavailables3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavailables3(// REPLACE: available
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

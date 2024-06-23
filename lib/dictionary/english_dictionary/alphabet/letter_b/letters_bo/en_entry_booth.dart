@@ -149,63 +149,25 @@ class EnglishEntrybooth extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شوێنێک کە دیوار بە دەوریدایە و دەتوانیت شتێکی تایبەت بکەیت، بۆ نموونە پەیوەندیی تەلەفۆنی یان دەنگدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Phone booths have become rare with the rise of mobile phones."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژوورۆچکەی پەیوەندیکردن بوونە بە شتێکی دەگمەن لەگەڵ دەرکەوتنی موبایلدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooths1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Phone booths have become rare with the rise of mobile phones.",
+                            kurdishText:
+                                "ژوورۆچکەی پەیوەندیکردن بوونە بە شتێکی دەگمەن لەگەڵ دەرکەوتنی موبایلدا.",
+                            onPressedBritish: () => speakbooths1("en-GB"),
+                            onPressedAmerican: () => speakbooths1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شوێنێک یان چادرگەیەکی کاتی لە مارکێتێک یان پێشانگایەک کە تێیدا دەتوانیت شت بکڕیت، سەیری شت بکەیت، یان زانیاری وەربگریت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The information booth provided maps to tourists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژوورۆچکەی زانیاری ڕێنمایی دەدا بە گەشتیاران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooths2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooths2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The information booth provided maps to tourists.",
+                            kurdishText:
+                                "ژوورۆچکەی زانیاری ڕێنمایی دەدا بە گەشتیاران.",
+                            onPressedBritish: () => speakbooths2("en-GB"),
+                            onPressedAmerican: () => speakbooths2("en-US"),
                           ),
                         ],
                       ),

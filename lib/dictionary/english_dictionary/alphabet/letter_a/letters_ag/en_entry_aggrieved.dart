@@ -114,34 +114,15 @@ class EnglishEntryaggrieved extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ھەستکردن بەوەی بەخراپی مامەڵەت لەگەڵ کراوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had every right to feel aggrieved at the decision."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو مافێکی ھەبوو ھەست بە مافخوراوی بکات بەھۆی بڕیارەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaggri6254("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggri6254(
-                                        // REPLACE: aggrieved /əˈɡriːvd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had every right to feel aggrieved at the decision.",
+                            kurdishText:
+                                "ھەموو مافێکی ھەبوو ھەست بە مافخوراوی بکات بەھۆی بڕیارەکەوە.",
+                            onPressedBritish: () => speakaggri6254("en-GB"),
+                            onPressedAmerican: () => speakaggri6254(
+                                // REPLACE: aggrieved /əˈɡriːvd/
+                                "en-US"),
                           ),
                         ],
                       ),

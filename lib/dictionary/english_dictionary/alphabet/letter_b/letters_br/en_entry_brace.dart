@@ -279,361 +279,131 @@ class EnglishEntrybrace extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە دادەنرێت بۆ ئەوەی شت پێکەوە یان لە شوێنی خۆی بھێڵێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wore a knee brace to support his injured joint."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لاق‌بەندێکی بەست بۆ پاڵپشتی جومگە بریندارەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraces1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraces1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wore a knee brace to support his injured joint.",
+                            kurdishText:
+                                "لاق‌بەندێکی بەست بۆ پاڵپشتی جومگە بریندارەکەی.",
+                            onPressedBritish: () => speakbraces1("en-GB"),
+                            onPressedAmerican: () => speakbraces1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was recently fitted with a brace for his bad back."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەم‌نزیکانە پشتێنێکی بۆ دانرا بۆ ئازاری پشتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraces2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraces2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was recently fitted with a brace for his bad back.",
+                            kurdishText:
+                                "بەم‌نزیکانە پشتێنێکی بۆ دانرا بۆ ئازاری پشتی.",
+                            onPressedBritish: () => speakbraces2("en-GB"),
+                            onPressedAmerican: () => speakbraces2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پارچە ئاسنێک کە منداڵان یان یان ئەو کەسانەی ددان ڕێکدەکەنەوە دەیبەستن بۆ ئەوەی ددان بە ڕاستی دەربچێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My daughter has to wear a brace on her teeth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کچەکەم دەبوو تەل لە ددانی ببەستێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraces3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraces3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My daughter has to wear a brace on her teeth.",
+                            kurdishText: "کچەکەم دەبوو تەل لە ددانی ببەستێ.",
+                            onPressedBritish: () => speakbraces3("en-GB"),
+                            onPressedAmerican: () => speakbraces3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He had braces on his teeth."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەلی لە ددانی بەستبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraces4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraces4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He had braces on his teeth.",
+                            kurdishText: "تەلی لە ددانی بەستبوو.",
+                            onPressedBritish: () => speakbraces4("en-GB"),
+                            onPressedAmerican: () => speakbraces4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) پارچە قوماشێکی باریک کە لە سەرەوەی پانتۆڵ لە پێش و پاشەوە دەبەسترێت و بەسەر شاندا دەبردرێت بۆ ھێشتنەوەی پانتۆڵەکە لە شوێنی خۆی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The braces held up his trousers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەندەخوێنەکان پانتۆڵەکەی لە شوێنی خۆی ھێشتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraces5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraces5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The braces held up his trousers.",
+                            kurdishText:
+                                "بەندەخوێنەکان پانتۆڵەکەی لە شوێنی خۆی ھێشتبوو.",
+                            onPressedBritish: () => speakbraces5("en-GB"),
+                            onPressedAmerican: () => speakbraces5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) نیشانەکانی {} کە بەکاردێن بۆ وتنی ئەوەی ئەو شتانەی لە ناویدان، بۆ نموونە وشە، پەیوەندیدارن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In mathematics, a brace is used to denote a set."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بیرکاریدا برۆنیشان بەکاردێت بۆ پیشاندانی دەستەیەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraces6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraces6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In mathematics, a brace is used to denote a set.",
+                            kurdishText:
+                                "لە بیرکاریدا برۆنیشان بەکاردێت بۆ پیشاندانی دەستەیەک.",
+                            onPressedBritish: () => speakbraces6("en-GB"),
+                            onPressedAmerican: () => speakbraces6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) دوو شتی ھەمان جۆر، بە تایبەتی جووتە باڵندەیەک یان ئاژەڵێک کە لە ڕاودا کوژراون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The farmer raised a brace of goats on his farm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوتیارەکە جوتێک بزنی لە کێڵگەکەی بەخێودەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraces7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraces7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The farmer raised a brace of goats on his farm.",
+                            kurdishText:
+                                "جوتیارەکە جوتێک بزنی لە کێڵگەکەی بەخێودەکرد.",
+                            onPressedBritish: () => speakbraces7("en-GB"),
+                            onPressedAmerican: () => speakbraces7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) ئامادەکردنی کەسێک یان خۆت بۆ ڕووداوێکی ناخۆش کە ڕوودەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "UN troops are braced for more violence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزەکانی نەتەوە یەکگرتووەکان خۆیان بۆ توندوتیژی زیاتر ئامادەکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraces8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraces8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "UN troops are braced for more violence.",
+                            kurdishText:
+                                "ھێزەکانی نەتەوە یەکگرتووەکان خۆیان بۆ توندوتیژی زیاتر ئامادەکردووە.",
+                            onPressedBritish: () => speakbraces8("en-GB"),
+                            onPressedAmerican: () => speakbraces8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They are bracing themselves for a long legal battle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆیان ئامادە دەکەن بۆ تێکۆشانێکی درێژی یاسایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraces9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraces9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They are bracing themselves for a long legal battle.",
+                            kurdishText:
+                                "خۆیان ئامادە دەکەن بۆ تێکۆشانێکی درێژی یاسایی.",
+                            onPressedBritish: () => speakbraces9("en-GB"),
+                            onPressedAmerican: () => speakbraces9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) خۆگرتن لەوەی کە بکەوی بە خۆتوندکردن لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They braced themselves against the wind."),
-                                    ExampleSentenceKurdish(
-                                        text: "خۆیان توند ڕاگرت دژ بە بایەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraces10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraces10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They braced themselves against the wind.",
+                            kurdishText: "خۆیان توند ڕاگرت دژ بە بایەکە.",
+                            onPressedBritish: () => speakbraces10("en-GB"),
+                            onPressedAmerican: () => speakbraces10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) گرژکردنەوەی ماسولکەکانی جەستەت پێش کردنی کارێکی سەخت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He stood with his legs and shoulders braced, ready to lift the weights."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەستابوو بە توندکردنەوەی لاقی و شانەکانی، و ئامادە بۆ بەرزکردنەوەی قورساییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraces11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraces11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He stood with his legs and shoulders braced, ready to lift the weights.",
+                            kurdishText:
+                                "وەستابوو بە توندکردنەوەی لاقی و شانەکانی، و ئامادە بۆ بەرزکردنەوەی قورساییەکان.",
+                            onPressedBritish: () => speakbraces11("en-GB"),
+                            onPressedAmerican: () => speakbraces11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) وا لە شتێک بکەیت بەھێز یان جێگیر بیت بە دانانی ڕاگیرکردنی بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The side wall of the old house was braced with a wooden support."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیواری تەنیشتی خانووە کۆنەکە بەھێزکرا بە ڕاگرێکی دارین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraces12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraces12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The side wall of the old house was braced with a wooden support.",
+                            kurdishText:
+                                "دیواری تەنیشتی خانووە کۆنەکە بەھێزکرا بە ڕاگرێکی دارین.",
+                            onPressedBritish: () => speakbraces12("en-GB"),
+                            onPressedAmerican: () => speakbraces12("en-US"),
                           ),
                         ],
                       ),

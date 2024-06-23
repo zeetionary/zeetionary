@@ -109,34 +109,15 @@ class EnglishEntryagm extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کۆبوونەوەی گشتیی ساڵانەی خاوەن پشکەکانی کۆمپانیایەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mr Thomson was voted onto the board at the company's AGM two weeks ago."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێز تۆمسن بۆ دەستەی بەڕێوبەرایەتی کۆمپانیا ھەڵبژێردرا دوو ھەفتە پێش ئێستا لە کۆبوونەوەی ساڵانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagm74888("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagm74888(
-                                        // REPLACE: AGM /ˌeɪ dʒiː ˈem/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mr Thomson was voted onto the board at the company's AGM two weeks ago.",
+                            kurdishText:
+                                "بەڕێز تۆمسن بۆ دەستەی بەڕێوبەرایەتی کۆمپانیا ھەڵبژێردرا دوو ھەفتە پێش ئێستا لە کۆبوونەوەی ساڵانە.",
+                            onPressedBritish: () => speakagm74888("en-GB"),
+                            onPressedAmerican: () => speakagm74888(
+                                // REPLACE: AGM /ˌeɪ dʒiː ˈem/
+                                "en-US"),
                           ),
                         ],
                       ),

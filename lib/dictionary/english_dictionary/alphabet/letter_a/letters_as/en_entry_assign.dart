@@ -165,196 +165,80 @@ class EnglishEntryassign extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) پێدانی شتێک بە کەسێک بۆ بەکارھێنان، یان پێدانی کار یان بەرپرسیاریەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two large classrooms have been assigned to us."),
-                                    ExampleSentenceKurdish(
-                                        text: "دوو پۆلی گەورەمان پێدراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassign659("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassign659(
-                                        // REPLACE: assign /əˈsaɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two large classrooms have been assigned to us.",
+                            kurdishText: "دوو پۆلی گەورەمان پێدراوە.",
+                            onPressedBritish: () => speakassign659("en-GB"),
+                            onPressedAmerican: () => speakassign659(
+                                // REPLACE: assign /əˈsaɪn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The teacher assigned each of the children a different task."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستاکە ئەرکی جیاوازی دا بە ھەر قوتابییەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassign700("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassign700(
-                                        // REPLACE: assign /əˈsaɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The teacher assigned each of the children a different task.",
+                            kurdishText:
+                                "مامۆستاکە ئەرکی جیاوازی دا بە ھەر قوتابییەک.",
+                            onPressedBritish: () => speakassign700("en-GB"),
+                            onPressedAmerican: () => speakassign700(
+                                // REPLACE: assign /əˈsaɪn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ڕاسپاردنی کەسێک بۆ کارێک یان بەرپرسیاریەتییەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They've assigned their best man to the job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترین کەسیان بۆ کارەکە ڕاسپاردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassign700("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassign700(
-                                        // REPLACE: assign /əˈsaɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They've assigned their best man to the job.",
+                            kurdishText: "باشترین کەسیان بۆ کارەکە ڕاسپاردووە.",
+                            onPressedBritish: () => speakassign700("en-GB"),
+                            onPressedAmerican: () => speakassign700(
+                                // REPLACE: assign /əˈsaɪn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ناردنی کەسێک بۆ کارکردن لەژێر سەرپەرشتی کەسێک، گرووپێک، یان شوێنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All the team were assigned to Poland."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی تیمەکە بۆ پۆڵەندا نێردران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassign706("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassign706(
-                                        // REPLACE: assign /əˈsaɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All the team were assigned to Poland.",
+                            kurdishText: "تەواوی تیمەکە بۆ پۆڵەندا نێردران.",
+                            onPressedBritish: () => speakassign706("en-GB"),
+                            onPressedAmerican: () => speakassign706(
+                                // REPLACE: assign /əˈsaɪn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) دیاریکردنی نرخ، بەرپرسیاریەتی، کات، یان شوێنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The painting cannot be assigned an exact date."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تابلۆکە ناتوانرێت مێژوویەکی تەواوی بۆ دیاری‌بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassign709("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassign709(
-                                        // REPLACE: assign /əˈsaɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The painting cannot be assigned an exact date.",
+                            kurdishText:
+                                "تابلۆکە ناتوانرێت مێژوویەکی تەواوی بۆ دیاری‌بکرێت.",
+                            onPressedBritish: () => speakassign709("en-GB"),
+                            onPressedAmerican: () => speakassign709(
+                                // REPLACE: assign /əˈsaɪn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) وتنی ئەوەی مافەکانت لە ئێستادا بۆ کەسێکی تر دەگەڕێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The agreement assigns copyright to the publisher."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتنەکە مافی کۆپیڕایت دەدات بە دەزگای بڵاوکار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassign711("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassign711(
-                                        // REPLACE: assign /əˈsaɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The agreement assigns copyright to the publisher.",
+                            kurdishText:
+                                "ڕێککەوتنەکە مافی کۆپیڕایت دەدات بە دەزگای بڵاوکار.",
+                            onPressedBritish: () => speakassign711("en-GB"),
+                            onPressedAmerican: () => speakassign711(
+                                // REPLACE: assign /əˈsaɪn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

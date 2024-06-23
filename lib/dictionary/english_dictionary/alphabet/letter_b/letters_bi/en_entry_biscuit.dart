@@ -153,60 +153,21 @@ class EnglishEntrybiscuit extends StatelessWidget {
 کوردی: غوڕابی، تۆشە، جۆرێ نانی نەرم، ڕەنگی قاوەیی کاڵ یان ڕۆشن، ڕەنگی قاوەیی مەیلەو زەرد، گڵێنەی بێ‌لیاو یان بێ‌لۆعاب
 """),
                           const DefinitionKurdish(text: "١. (ناو) بسکیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cake has a biscuit base (= one made from crushed biscuits)."),
-                                    ExampleSentenceKurdish(
-                                        text: "بنی کێکەکە بسکیتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiscuits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiscuits1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cake has a biscuit base (= one made from crushed biscuits).",
+                            kurdishText: "بنی کێکەکە بسکیتە.",
+                            onPressedBritish: () => speakbiscuits1("en-GB"),
+                            onPressedAmerican: () => speakbiscuits1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We were offered a cup of tea and some biscuits."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێڵایەک چا و ھەندێک بسکیتیان پێداین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiscuits2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiscuits2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We were offered a cup of tea and some biscuits.",
+                            kurdishText: "پێڵایەک چا و ھەندێک بسکیتیان پێداین.",
+                            onPressedBritish: () => speakbiscuits2("en-GB"),
+                            onPressedAmerican: () => speakbiscuits2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

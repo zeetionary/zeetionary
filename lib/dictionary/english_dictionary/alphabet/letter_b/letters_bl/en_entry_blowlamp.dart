@@ -150,32 +150,13 @@ class EnglishEntryblowlamp extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دەزگایەک کە بەکاردێت بۆ ئاراستەکردنی گڕێکی گەرم بەرەو ڕووی شتێک، بۆ نموونە بۆ سڕینەوەی بۆیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plumber employed a blowlamp to thaw a frozen pipe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆڕیچییەکە پەرەمێزێکی بەکارھێنا بۆ گەرمکردنی بۆڕییە بەستووەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblowlamps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblowlamps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The plumber employed a blowlamp to thaw a frozen pipe.",
+                            kurdishText:
+                                "بۆڕیچییەکە پەرەمێزێکی بەکارھێنا بۆ گەرمکردنی بۆڕییە بەستووەکە.",
+                            onPressedBritish: () => speakblowlamps1("en-GB"),
+                            onPressedAmerican: () => speakblowlamps1("en-US"),
                           ),
                         ],
                       ),

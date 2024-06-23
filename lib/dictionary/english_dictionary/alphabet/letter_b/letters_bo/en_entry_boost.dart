@@ -259,238 +259,86 @@ class EnglishEntryboost extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) زیادکردنی شتێک، یان وای لێ بکەیت باشتر یان سەرکەوتووتر بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie helped boost her screen career."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە کارکردنی لە سینەمادا بەرەو پێش برد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboosts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboosts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie helped boost her screen career.",
+                            kurdishText:
+                                "فیلمەکە کارکردنی لە سینەمادا بەرەو پێش برد.",
+                            onPressedBritish: () => speakboosts1("en-GB"),
+                            onPressedAmerican: () => speakboosts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The total was boosted to nearly £200 by donations from parents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆی گشتی زیادکرا بۆ نزیکەی ٢٠٠ پاوەند بەو بەخشینەی دایک و باوکی دایان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboosts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboosts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The total was boosted to nearly £200 by donations from parents.",
+                            kurdishText:
+                                "کۆی گشتی زیادکرا بۆ نزیکەی ٢٠٠ پاوەند بەو بەخشینەی دایک و باوکی دایان.",
+                            onPressedBritish: () => speakboosts2("en-GB"),
+                            onPressedAmerican: () => speakboosts2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company is looking for ways to boost sales in Asia, its biggest market."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە ھەوڵ دەدات فرۆشتن لە ئاسیادا زیاد بکات کە بەھێزترین بازاڕیەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboosts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboosts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company is looking for ways to boost sales in Asia, its biggest market.",
+                            kurdishText:
+                                "کۆمپانیاکە ھەوڵ دەدات فرۆشتن لە ئاسیادا زیاد بکات کە بەھێزترین بازاڕیەتی.",
+                            onPressedBritish: () => speakboosts3("en-GB"),
+                            onPressedAmerican: () => speakboosts3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) وەرگرتنی ڤاکسین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "More than half of over 18s in the country have now been boosted against Covid."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیاتر لە نیوەی کەسانی سەروو ١٨ ساڵ لە وڵاتەکەدا ڤاکسینیان وەرگرتووە دژ بە کۆرۆنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboosts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboosts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "More than half of over 18s in the country have now been boosted against Covid.",
+                            kurdishText:
+                                "زیاتر لە نیوەی کەسانی سەروو ١٨ ساڵ لە وڵاتەکەدا ڤاکسینیان وەرگرتووە دژ بە کۆرۆنا.",
+                            onPressedBritish: () => speakboosts4("en-GB"),
+                            onPressedAmerican: () => speakboosts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شتێک کە یارمەتی یان ھانی کەسێک/شتێک دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The tax cuts will give a much needed boost to the economy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمکردنەوەی باج یارمەتیی زۆر پێویست بە ئابووری دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboosts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboosts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The tax cuts will give a much needed boost to the economy.",
+                            kurdishText:
+                                "کەمکردنەوەی باج یارمەتیی زۆر پێویست بە ئابووری دەدات.",
+                            onPressedBritish: () => speakboosts5("en-GB"),
+                            onPressedAmerican: () => speakboosts5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Winning the competition was a wonderful boost for her morale."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بردنەوەی پێشبڕکێیەکە ھاندەرێکی باشی ورەی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboosts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboosts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Winning the competition was a wonderful boost for her morale.",
+                            kurdishText:
+                                "بردنەوەی پێشبڕکێیەکە ھاندەرێکی باشی ورەی بوو.",
+                            onPressedBritish: () => speakboosts6("en-GB"),
+                            onPressedAmerican: () => speakboosts6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) زیادبوون لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Motorists who operate diesel-powered vehicles would face a 1.5-cent-a-gallon boost in fuel taxes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو شۆفێرانەی کە ئۆتۆمبێلی گازوایل بەکاردێنن ڕووبەڕووی ١,٥ سەنت بۆ ھەر گاڵۆنێک باجی سوتەمەنی دەبنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboosts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboosts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Motorists who operate diesel-powered vehicles would face a 1.5-cent-a-gallon boost in fuel taxes.",
+                            kurdishText:
+                                "ئەو شۆفێرانەی کە ئۆتۆمبێلی گازوایل بەکاردێنن ڕووبەڕووی ١,٥ سەنت بۆ ھەر گاڵۆنێک باجی سوتەمەنی دەبنەوە.",
+                            onPressedBritish: () => speakboosts7("en-GB"),
+                            onPressedAmerican: () => speakboosts7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) زیادبوون لە توانای بزوێنەرێک یان ئامێرێکی کارەبایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new software update offers a performance boost."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نوێکردنەوەی تازەی نەرمامێرەکە زیادبوونێک لە توانای کارکردن دەبەخشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboosts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboosts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new software update offers a performance boost.",
+                            kurdishText:
+                                "نوێکردنەوەی تازەی نەرمامێرەکە زیادبوونێک لە توانای کارکردن دەبەخشێت.",
+                            onPressedBritish: () => speakboosts8("en-GB"),
+                            onPressedAmerican: () => speakboosts8("en-US"),
                           ),
                         ],
                       ),

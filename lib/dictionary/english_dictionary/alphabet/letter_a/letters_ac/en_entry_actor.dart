@@ -114,66 +114,28 @@ class EnglishEntryactor extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە لە شانۆ یان فیلم ڕۆڵدەگێڕێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is one of the country’s leading actors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێکە لە ئەکتەرە ناسراوەکانی وڵاتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacto459("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakacto459(// REPLACE: actor
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is one of the country’s leading actors.",
+                            kurdishText:
+                                "یەکێکە لە ئەکتەرە ناسراوەکانی وڵاتەکە.",
+                            onPressedBritish: () => speakacto459("en-GB"),
+                            onPressedAmerican: () =>
+                                speakacto459(// REPLACE: actor
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە خۆی بەشێوەیەک دەردەخات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't know if he really meant the things he said—he was always a good actor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نازانم ئەگەر بە ڕاستی مەبەستی لەو شتانە بوو کە گوتی، ھەمیشە نمایشکارێکی باش بووە (ئاسان نییە بزانی ڕاست ئەکات یان نا)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactor25687("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakactor25687(// REPLACE: actor
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't know if he really meant the things he said—he was always a good actor.",
+                            kurdishText:
+                                "نازانم ئەگەر بە ڕاستی مەبەستی لەو شتانە بوو کە گوتی، ھەمیشە نمایشکارێکی باش بووە (ئاسان نییە بزانی ڕاست ئەکات یان نا).",
+                            onPressedBritish: () => speakactor25687("en-GB"),
+                            onPressedAmerican: () =>
+                                speakactor25687(// REPLACE: actor
+                                    "en-US"),
                           ),
                         ],
                       ),

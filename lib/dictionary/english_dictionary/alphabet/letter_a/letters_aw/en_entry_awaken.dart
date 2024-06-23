@@ -152,34 +152,15 @@ class EnglishEntryawaken extends StatelessWidget {
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
 ٢. (کردار) درووست بوونی یان درووستکردنی ھەستێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dream awakened terrible memories."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەونەکە یادەوەری تۆقێنەری زیندووکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawakens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawakens2(// REPLACE: awaken
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dream awakened terrible memories.",
+                            kurdishText:
+                                "خەونەکە یادەوەری تۆقێنەری زیندووکردەوە.",
+                            onPressedBritish: () => speakawakens2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawakens2(// REPLACE: awaken
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -130,98 +130,38 @@ class EnglishEntryalight extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ئاگرگرتوو" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A car was overturned and set alight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلێک وەرگەڕا و ئاگری گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalight3996("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalight3996(
-                                        // REPLACE: alight /əˈlaɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A car was overturned and set alight.",
+                            kurdishText: "ئۆتۆمبێلێک وەرگەڕا و ئاگری گرت.",
+                            onPressedBritish: () => speakalight3996("en-GB"),
+                            onPressedAmerican: () => speakalight3996(
+                                // REPLACE: alight /əˈlaɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) نیشتنەوە لەسەر شتێک لە دوای فڕین بۆی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several birds alighted on the branches of the tree."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک باڵندە لەسەر لقەکانی دارەکە نیشتنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalight35244("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalight35244(
-                                        // REPLACE: alight /əˈlaɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several birds alighted on the branches of the tree.",
+                            kurdishText:
+                                "ژمارەیەک باڵندە لەسەر لقەکانی دارەکە نیشتنەوە.",
+                            onPressedBritish: () => speakalight35244("en-GB"),
+                            onPressedAmerican: () => speakalight35244(
+                                // REPLACE: alight /əˈlaɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) دابەزین لە پاسێک یان شەمەندەفەرێک، یان ئامێرێکی دیکەی گواستنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do not alight from a moving bus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پاسێک دامەبەزە کە ھێشتا لە جووڵە دایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalight32852("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalight32852(
-                                        // REPLACE: alight /əˈlaɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Do not alight from a moving bus.",
+                            kurdishText:
+                                "لە پاسێک دامەبەزە کە ھێشتا لە جووڵە دایە.",
+                            onPressedBritish: () => speakalight32852("en-GB"),
+                            onPressedAmerican: () => speakalight32852(
+                                // REPLACE: alight /əˈlaɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

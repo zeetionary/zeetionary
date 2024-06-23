@@ -116,101 +116,42 @@ class EnglishEntryamendment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) گۆڕانکارییەکی بچووک کە لە یاسایەک یان دۆکیومێنتێک دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Parliament passed the bill without further amendment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرلەمان پڕۆژە یاساکەی تێپەڕاند بەبێ گۆڕانکاری زیاتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamendment1244("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamendment1244(
-                                        // REPLACE: amendment /əˈmendmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Parliament passed the bill without further amendment.",
+                            kurdishText:
+                                "پەرلەمان پڕۆژە یاساکەی تێپەڕاند بەبێ گۆڕانکاری زیاتر.",
+                            onPressedBritish: () => speakamendment1244("en-GB"),
+                            onPressedAmerican: () => speakamendment1244(
+                                // REPLACE: amendment /əˈmendmənt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Senate added numerous amendments to the bill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەنجوومەنی پیران ژمارەیەک گۆڕانکاری بۆ پڕۆژە یاساکە زیادکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamendment4557("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamendment4557(
-                                        // REPLACE: amendment /əˈmendmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Senate added numerous amendments to the bill.",
+                            kurdishText:
+                                "ئەنجوومەنی پیران ژمارەیەک گۆڕانکاری بۆ پڕۆژە یاساکە زیادکرد.",
+                            onPressedBritish: () => speakamendment4557("en-GB"),
+                            onPressedAmerican: () => speakamendment4557(
+                                // REPLACE: amendment /əˈmendmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) گۆڕانکارییەک لە دەستووری ئەمریکا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The 19th Amendment gave women the right to vote."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نۆزدەیەمین گۆڕانکاری بۆ دەستووری ئەمریکا مافی دەنگدانی دا بە ژنان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamendment74111("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamendment74111(
-                                        // REPLACE: amendment /əˈmendmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The 19th Amendment gave women the right to vote.",
+                            kurdishText:
+                                "نۆزدەیەمین گۆڕانکاری بۆ دەستووری ئەمریکا مافی دەنگدانی دا بە ژنان.",
+                            onPressedBritish: () =>
+                                speakamendment74111("en-GB"),
+                            onPressedAmerican: () => speakamendment74111(
+                                // REPLACE: amendment /əˈmendmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

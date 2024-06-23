@@ -161,33 +161,13 @@ class EnglishEntryarmadillo extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) گیانلەبەرێکی ئەمریکی کە توێکڵێکی ڕەقی وەک کیسەڵ ھەیە لە ئێسک پێکھاتووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have never seen an armadillo."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەرگیز ئەرمادیلۆیەکم نەدیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmadillo440("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmadillo440(
-                                        // REPLACE: armadillo /ˌɑːrməˈdɪləʊ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I have never seen an armadillo.",
+                            kurdishText: "ھەرگیز ئەرمادیلۆیەکم نەدیوە.",
+                            onPressedBritish: () => speakarmadillo440("en-GB"),
+                            onPressedAmerican: () => speakarmadillo440(
+                                // REPLACE: armadillo /ˌɑːrməˈdɪləʊ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

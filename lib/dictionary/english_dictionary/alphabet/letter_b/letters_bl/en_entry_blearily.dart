@@ -147,32 +147,13 @@ class EnglishEntryblearily extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە چاوی ماندووێتییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Carl stared blearily at the newspaper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارڵ بە چاوی ماندووێتییەوە لە ڕۆژنامەکەی دەڕوانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblearilys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblearilys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Carl stared blearily at the newspaper.",
+                            kurdishText:
+                                "کارڵ بە چاوی ماندووێتییەوە لە ڕۆژنامەکەی دەڕوانی.",
+                            onPressedBritish: () => speakblearilys1("en-GB"),
+                            onPressedAmerican: () => speakblearilys1("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

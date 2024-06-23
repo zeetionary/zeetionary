@@ -162,35 +162,16 @@ class EnglishEntryastrological extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) سەربە یان پەیوەندیدار بە ئەستێرەبینی یان فەلەکناسی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He likes to talk about his astrological sign, which is Leo, and reads his horoscope every day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزئەکات قسە لەسەر ھێما فەلەکناسییەکەی بکات کە بورجی لیۆیە، و ھەموو ڕۆژێک پێشبینییەکانی دەخوێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakastrological434("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakastrological434(
-                                        // REPLACE: astrological
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He likes to talk about his astrological sign, which is Leo, and reads his horoscope every day.",
+                            kurdishText:
+                                "حەزئەکات قسە لەسەر ھێما فەلەکناسییەکەی بکات کە بورجی لیۆیە، و ھەموو ڕۆژێک پێشبینییەکانی دەخوێنێتەوە.",
+                            onPressedBritish: () =>
+                                speakastrological434("en-GB"),
+                            onPressedAmerican: () => speakastrological434(
+                                // REPLACE: astrological
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

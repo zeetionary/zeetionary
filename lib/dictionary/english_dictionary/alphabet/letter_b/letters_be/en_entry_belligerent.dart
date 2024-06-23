@@ -151,99 +151,39 @@ class EnglishEntrybelligerent extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) شەڕخواز و نەیار"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is always very belligerent towards me."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەمیشە زۆر دوژمنانەیە لەگەڵم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbelligerents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbelligerents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is always very belligerent towards me.",
+                            kurdishText: "ھەمیشە زۆر دوژمنانەیە لەگەڵم.",
+                            onPressedBritish: () => speakbelligerents1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbelligerents1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) وڵاتێک کە لە شەڕدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The belligerent countries are having difficulties funding the war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتە شەڕکەرەکان ئاستەنگیان ھەیە لە دابینکردنی بودجەی شەڕ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbelligerents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbelligerents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The belligerent countries are having difficulties funding the war.",
+                            kurdishText:
+                                "وڵاتە شەڕکەرەکان ئاستەنگیان ھەیە لە دابینکردنی بودجەی شەڕ.",
+                            onPressedBritish: () => speakbelligerents2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbelligerents2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) وڵاتێک، گرووپێک، یان کەسێک کە لە شەڕدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Wars often end in partition treaties in which territory is divided among the belligerents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەنگ زۆرجار بە دابەشکاری کۆتایی کە تێیدا ناوچەکان دابەش دەکرێن بەسەر وڵاتانی شەڕکەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbelligerents3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbelligerents3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Wars often end in partition treaties in which territory is divided among the belligerents.",
+                            kurdishText:
+                                "جەنگ زۆرجار بە دابەشکاری کۆتایی کە تێیدا ناوچەکان دابەش دەکرێن بەسەر وڵاتانی شەڕکەر.",
+                            onPressedBritish: () => speakbelligerents3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbelligerents3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

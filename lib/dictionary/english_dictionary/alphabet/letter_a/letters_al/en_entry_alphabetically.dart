@@ -112,35 +112,16 @@ class EnglishEntryalphabetically extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بە پێی ڕیزبەندی ئەلفوبێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The names of the contest winners are listed alphabetically."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوی براوەکانی پێشبڕکێیەکە بەپێی ئەلفوبێ ڕیزکراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalphabetically548("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalphabetically548(
-                                        // REPLACE: alphabetically /ˌælfəˈbetɪkli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The names of the contest winners are listed alphabetically.",
+                            kurdishText:
+                                "ناوی براوەکانی پێشبڕکێیەکە بەپێی ئەلفوبێ ڕیزکراون.",
+                            onPressedBritish: () =>
+                                speakalphabetically548("en-GB"),
+                            onPressedAmerican: () => speakalphabetically548(
+                                // REPLACE: alphabetically /ˌælfəˈbetɪkli/
+                                "en-US"),
                           ),
                         ],
                       ),

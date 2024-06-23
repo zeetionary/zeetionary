@@ -153,181 +153,65 @@ class EnglishEntrybasis extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ڕێژەی ڕوودانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are in contact on a regular basis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەکی بەردەوام لە پەیوەندیداین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasiss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasiss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are in contact on a regular basis.",
+                            kurdishText: "بەشێوەیەکی بەردەوام لە پەیوەندیداین.",
+                            onPressedBritish: () => speakbasiss1("en-GB"),
+                            onPressedAmerican: () => speakbasiss1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Fatal accidents occur on our roads on a daily basis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووداوی کوشندە لەسەر شەقام ڕوودەدات بەشێوەیەکی ڕۆژانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasiss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasiss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Fatal accidents occur on our roads on a daily basis.",
+                            kurdishText:
+                                "ڕووداوی کوشندە لەسەر شەقام ڕوودەدات بەشێوەیەکی ڕۆژانە.",
+                            onPressedBritish: () => speakbasiss2("en-GB"),
+                            onPressedAmerican: () => speakbasiss2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھۆکاری ڕوودانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was chosen for the job on the basis of her qualifications."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ کارەکە دیاریکرا لەسەر بنەمای کارامەییەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasiss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasiss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was chosen for the job on the basis of her qualifications.",
+                            kurdishText:
+                                "بۆ کارەکە دیاریکرا لەسەر بنەمای کارامەییەکانی.",
+                            onPressedBritish: () => speakbasiss3("en-GB"),
+                            onPressedAmerican: () => speakbasiss3("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We made our decision on the basis of the information we had."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارەکەمان دا بە پشتبەستن بەو زانیارییانەی کە ھەمان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasiss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasiss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We made our decision on the basis of the information we had.",
+                            kurdishText:
+                                "بڕیارەکەمان دا بە پشتبەستن بەو زانیارییانەی کە ھەمان بوو.",
+                            onPressedBritish: () => speakbasiss4("en-GB"),
+                            onPressedAmerican: () => speakbasiss4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) گرنگترین بیرۆکە، زانیاری، یان ڕووداو کە دەبێت بە بناغە بۆ ڕوودانی شتی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The basis of a good marriage is trust."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بناغەی ھاوسەرگیری باش متمانەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasiss5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasiss5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The basis of a good marriage is trust.",
+                            kurdishText: "بناغەی ھاوسەرگیری باش متمانەیە.",
+                            onPressedBritish: () => speakbasiss5("en-GB"),
+                            onPressedAmerican: () => speakbasiss5("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The initial talks were intended to provide a basis for negotiations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گفتوگۆکانی سەرەتا مەبەست لێیان درووستکردنی بنەمایەک بوو بۆ گفتوگۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasiss6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasiss6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The initial talks were intended to provide a basis for negotiations.",
+                            kurdishText:
+                                "گفتوگۆکانی سەرەتا مەبەست لێیان درووستکردنی بنەمایەک بوو بۆ گفتوگۆ.",
+                            onPressedBritish: () => speakbasiss6("en-GB"),
+                            onPressedAmerican: () => speakbasiss6("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

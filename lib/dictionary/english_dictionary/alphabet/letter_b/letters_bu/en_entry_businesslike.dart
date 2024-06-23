@@ -193,34 +193,15 @@ class EnglishEntrybusinesslike extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەسێک کە بە ڕێکخراوی و بەبێ کات بەفیڕۆدان کاردەکات بەبێ بیرکردنەوە لە بابەتی کەسی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their relationship remained strictly businesslike."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندییا زۆر بە پڕۆفیشناڵی مایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "businesslike", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbusinesslikes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbusinesslikes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their relationship remained strictly businesslike.",
+                            kurdishText:
+                                "پەیوەندییا زۆر بە پڕۆفیشناڵی مایەوە.", // businesslike", follow LX strictly
+                            onPressedBritish: () =>
+                                speakbusinesslikes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbusinesslikes1("en-US"),
                           ),
                           // const DividerSentences(),
                           // Row(

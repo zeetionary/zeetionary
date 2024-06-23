@@ -113,60 +113,22 @@ class EnglishEntryaccustomed extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەم کەم ڕاھاتن بە شتێک، بۆ نموونە بارودۆخێکی نوێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My eyes slowly grew accustomed to the dark."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوەکانم کەم کەم بە تاریکییەکە ڕاھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac52687("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac52687("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My eyes slowly grew accustomed to the dark.",
+                            kurdishText:
+                                "چاوەکانم کەم کەم بە تاریکییەکە ڕاھات.",
+                            onPressedBritish: () => speakac52687("en-GB"),
+                            onPressedAmerican: () => speakac52687("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This was not the kind of behaviour I was accustomed to."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە لەو جۆرە ڕەفتارانە نەبوو کە پێی ڕاھاتووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac5278("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac5278("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This was not the kind of behaviour I was accustomed to.",
+                            kurdishText:
+                                "ئەمە لەو جۆرە ڕەفتارانە نەبوو کە پێی ڕاھاتووم.",
+                            onPressedBritish: () => speakac5278("en-GB"),
+                            onPressedAmerican: () => speakac5278("en-US"),
                           ),
                         ],
                       ),

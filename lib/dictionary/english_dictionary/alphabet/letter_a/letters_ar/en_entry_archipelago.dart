@@ -163,35 +163,16 @@ class EnglishEntryarchipelago extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆمەڵە دوورگەیەک لە ناو ئاودا" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Hawaiian archipelago is famous for its unique volcanic landscapes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆدورگەی ھاوایی ناسراوە بۆ دیمەنە گڕکانییە بێ‌ھاوتاکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarchipelago400("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarchipelago400(
-                                        // REPLACE: archipelago /ˌɑːrkɪˈpeləɡəʊ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Hawaiian archipelago is famous for its unique volcanic landscapes.",
+                            kurdishText:
+                                "کۆدورگەی ھاوایی ناسراوە بۆ دیمەنە گڕکانییە بێ‌ھاوتاکانی.",
+                            onPressedBritish: () =>
+                                speakarchipelago400("en-GB"),
+                            onPressedAmerican: () => speakarchipelago400(
+                                // REPLACE: archipelago /ˌɑːrkɪˈpeləɡəʊ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

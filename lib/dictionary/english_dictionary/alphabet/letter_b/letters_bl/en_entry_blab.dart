@@ -144,61 +144,22 @@ class EnglishEntryblab extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) وتنی زانیاری بە کەسێک کە دەبێت بە نھێنی بھێڵدرێتەوە، زۆرجار لەکاتی قسەزۆری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Someone must have blabbed to the police."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەبێت کەسێک بە پۆلیسی وتبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblabs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblabs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Someone must have blabbed to the police.",
+                            kurdishText: "دەبێت کەسێک بە پۆلیسی وتبێت.",
+                            onPressedBritish: () => speakblabs1("en-GB"),
+                            onPressedAmerican: () => speakblabs1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Try not to blab the whole story."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ بدە دەمشڕی نەکەیت و تەواوی چیرۆکەکە ئاشکرا بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblabs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblabs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Try not to blab the whole story.",
+                            kurdishText:
+                                "ھەوڵ بدە دەمشڕی نەکەیت و تەواوی چیرۆکەکە ئاشکرا بکەیت.",
+                            onPressedBritish: () => speakblabs2("en-GB"),
+                            onPressedAmerican: () => speakblabs2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

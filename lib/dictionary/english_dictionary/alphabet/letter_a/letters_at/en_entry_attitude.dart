@@ -166,100 +166,43 @@ class EnglishEntryattitude extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شێوازی بیرکردنەوە یان ڕوانین لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These societies have to change their attitudes towards women."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم کۆمەڵگایانە دەبێت ھەڵوێستیان بەرامبەر بە ژنان بگۆڕن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattitude1030("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattitude1030(// REPLACE: attitude
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These societies have to change their attitudes towards women.",
+                            kurdishText:
+                                "ئەم کۆمەڵگایانە دەبێت ھەڵوێستیان بەرامبەر بە ژنان بگۆڕن.",
+                            onPressedBritish: () => speakattitude1030("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattitude1030(// REPLACE: attitude
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شێوازی ڕەفتاری کەسێک کە بە جۆرێکە زۆرجار نەگونجاوە و کەسانی تر بەدڵنیان نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You'd better get rid of that attitude and shape up, young man."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترە بۆت واز جوڵانەوەیە بێنیت و ڕەفتارت جوان بکەیت، کوڕە گەنج."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattitude1034("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattitude1034(// REPLACE: attitude
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You'd better get rid of that attitude and shape up, young man.",
+                            kurdishText:
+                                "باشترە بۆت واز جوڵانەوەیە بێنیت و ڕەفتارت جوان بکەیت، کوڕە گەنج.",
+                            onPressedBritish: () => speakattitude1034("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattitude1034(// REPLACE: attitude
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) شێوازی وەستانی جەستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her hands were folded in an attitude of prayer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستەکانی نووشتانبوویەوە وەک لە باری نزاکردندا بێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattitude1036("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattitude1036(// REPLACE: attitude
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her hands were folded in an attitude of prayer.",
+                            kurdishText:
+                                "دەستەکانی نووشتانبوویەوە وەک لە باری نزاکردندا بێ.",
+                            onPressedBritish: () => speakattitude1036("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattitude1036(// REPLACE: attitude
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -148,67 +148,29 @@ class EnglishEntrybiographical extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) فیلمێک یان ڕۆمانیك کە ژیانی کەسێک دەگێڕێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The newspaper published a tribute to the deceased professor, highlighting his biographical achievements."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژنامەکە ڕێزلێنانێکی بۆ پڕۆفیسۆرە کۆچکردووەکە بڵاوکردەوە بە تیشکخستنە سەر بەدەستھێنانەکانی ژیانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbiographicals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbiographicals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The newspaper published a tribute to the deceased professor, highlighting his biographical achievements.",
+                            kurdishText:
+                                "ڕۆژنامەکە ڕێزلێنانێکی بۆ پڕۆفیسۆرە کۆچکردووەکە بڵاوکردەوە بە تیشکخستنە سەر بەدەستھێنانەکانی ژیانی.",
+                            onPressedBritish: () =>
+                                speakbiographicals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbiographicals1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بە ژیانی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a biographical note about the author on the back of the book."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێبینییەک سەبارەت بە ژیانی نووسەرەکە لە کۆتایی کتێبەکە نووسرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbiographicals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbiographicals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a biographical note about the author on the back of the book.",
+                            kurdishText:
+                                "تێبینییەک سەبارەت بە ژیانی نووسەرەکە لە کۆتایی کتێبەکە نووسرابوو.",
+                            onPressedBritish: () =>
+                                speakbiographicals2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbiographicals2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

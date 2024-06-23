@@ -148,96 +148,38 @@ class EnglishEntrybloodthirsty extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەسێک کە حەزی بە کووشتن و توندوتیژییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are not a bloodthirsty people."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئێمە کەسانی خوێن‌خۆر نیین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodthirstys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodthirstys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We are not a bloodthirsty people.",
+                            kurdishText: "ئێمە کەسانی خوێن‌خۆر نیین.",
+                            onPressedBritish: () =>
+                                speakbloodthirstys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodthirstys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bloodthirsty dictator was ousted in a coup."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیکتاتۆرە خوێنڕێژەکە لە کودەتایەکدا لادرا لە دەسەڵات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodthirstys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodthirstys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bloodthirsty dictator was ousted in a coup.",
+                            kurdishText:
+                                "دیکتاتۆرە خوێنڕێژەکە لە کودەتایەکدا لادرا لە دەسەڵات.",
+                            onPressedBritish: () =>
+                                speakbloodthirstys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodthirstys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) کتێبێک یان فیلمێک کە کووشتن و توندوتیژی پیشان دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It’s a bloodthirsty tale of murder and revenge."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیرۆکێکی بەخوێن‌تینووە لەسەر کووشتن و تۆڵە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodthirstys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodthirstys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It’s a bloodthirsty tale of murder and revenge.",
+                            kurdishText:
+                                "چیرۆکێکی بەخوێن‌تینووە لەسەر کووشتن و تۆڵە.",
+                            onPressedBritish: () =>
+                                speakbloodthirstys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodthirstys3("en-US"),
                           ),
                         ],
                       ),

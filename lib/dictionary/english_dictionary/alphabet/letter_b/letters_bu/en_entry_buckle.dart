@@ -146,146 +146,52 @@ class EnglishEntrybuckle extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) بەستن بە ئاوزوونە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She buckled her belt."),
-                                    ExampleSentenceKurdish(
-                                        text: "قایشەکەی بە ئاوەزوونەکە بەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "buckle" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuckles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuckles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She buckled her belt.",
+                            kurdishText:
+                                "قایشەکەی بە ئاوەزوونەکە بەست.", // buckle" as
+                            onPressedBritish: () => speakbuckles1("en-GB"),
+                            onPressedAmerican: () => speakbuckles1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He buckled on his sword."),
-                                    ExampleSentenceKurdish(
-                                        text: "شمشێرەکەی لە خۆی بەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuckles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuckles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He buckled on his sword.",
+                            kurdishText: "شمشێرەکەی لە خۆی بەست.",
+                            onPressedBritish: () => speakbuckles2("en-GB"),
+                            onPressedAmerican: () => speakbuckles2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) لاربوون یان شکان لەژێر کێشی شتێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The steel frames began to buckle under the strain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارچەکانی ئاسنەکە دەستیان بە لاربوون کرد لەژێر پەستانەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuckles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuckles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The steel frames began to buckle under the strain.",
+                            kurdishText:
+                                "پارچەکانی ئاسنەکە دەستیان بە لاربوون کرد لەژێر پەستانەکەدا.",
+                            onPressedBritish: () => speakbuckles3("en-GB"),
+                            onPressedAmerican: () => speakbuckles3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A weaker man would have buckled under the pressure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراوی) پیاوێکی لاوازتر کۆڵی دەدا لەژێر پەستانەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuckles4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuckles4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A weaker man would have buckled under the pressure.",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی) پیاوێکی لاوازتر کۆڵی دەدا لەژێر پەستانەکەدا.",
+                            onPressedBritish: () => speakbuckles4("en-GB"),
+                            onPressedAmerican: () => speakbuckles4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) پارچەیەک ئاسن یان پلاستیک کە بەکاردێت بۆ بەستنی سەرەکانی قایشێک، یان بەستنی بەشێکی جانتایەک، پێڵاوێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She adjusted the tightness of her belt by moving the buckle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توندی قایشەکەی ڕێکخست بە جوڵاندنی ئاوزوونەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuckles5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuckles5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She adjusted the tightness of her belt by moving the buckle.",
+                            kurdishText:
+                                "توندی قایشەکەی ڕێکخست بە جوڵاندنی ئاوزوونەکە.",
+                            onPressedBritish: () => speakbuckles5("en-GB"),
+                            onPressedAmerican: () => speakbuckles5("en-US"),
                           ),
                         ],
                       ),

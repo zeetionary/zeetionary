@@ -148,91 +148,34 @@ class EnglishEntrybolster extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) بەھێزکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "More money is needed to bolster the industry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارەی زیاتر پێویستە بۆ بەھێزکردنی پیشەسازییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolsters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolsters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "More money is needed to bolster the industry.",
+                            kurdishText:
+                                "پارەی زیاتر پێویستە بۆ بەھێزکردنی پیشەسازییەکە.",
+                            onPressedBritish: () => speakbolsters1("en-GB"),
+                            onPressedAmerican: () => speakbolsters1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They need to do something to bolster their image."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت شتێک بکەن بۆ ئەوەی وێنایان جوان بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolsters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolsters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They need to do something to bolster their image.",
+                            kurdishText:
+                                "دەبێت شتێک بکەن بۆ ئەوەی وێنایان جوان بکەن.",
+                            onPressedBritish: () => speakbolsters2("en-GB"),
+                            onPressedAmerican: () => speakbolsters2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) سەرینێک کە لە شێوەی سەرینی کوردییە و دەخرێتە ژێر سەرینەکانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hotel room had comfortable beds with bolsters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژووری ھوتێلەکە جێخەوی ئاسوودەبەخشی ھەبوو لەگەڵ سەرینی پاڵپشتیکار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolsters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolsters3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hotel room had comfortable beds with bolsters.",
+                            kurdishText:
+                                "ژووری ھوتێلەکە جێخەوی ئاسوودەبەخشی ھەبوو لەگەڵ سەرینی پاڵپشتیکار.",
+                            onPressedBritish: () => speakbolsters3("en-GB"),
+                            onPressedAmerican: () => speakbolsters3("en-US"),
                           ),
                         ],
                       ),

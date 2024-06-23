@@ -151,61 +151,23 @@ class EnglishEntrybarring extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بەکاردێت بۆ وتنی ئەوەی شتێک ڕوودەدات مەگەر ئەوەی شتێکی ڕووبدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Barring accidents, we should arrive on time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەگەر ئەوەی ڕووداو ڕووبدات، ئەگەرنا لە کاتی خۆی دەگەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarrings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarrings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Barring accidents, we should arrive on time.",
+                            kurdishText:
+                                "مەگەر ئەوەی ڕووداو ڕووبدات، ئەگەرنا لە کاتی خۆی دەگەین.",
+                            onPressedBritish: () => speakbarrings1("en-GB"),
+                            onPressedAmerican: () => speakbarrings1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We should arrive at ten o'clock, barring any (= if there are no) unexpected delays."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت لە کاتژمێر ١٠ بگەین، مەگەر ئەوەی دواکەوتنی نەخوازراو ڕووبدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarrings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarrings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We should arrive at ten o'clock, barring any (= if there are no) unexpected delays.",
+                            kurdishText:
+                                "دەبێت لە کاتژمێر ١٠ بگەین، مەگەر ئەوەی دواکەوتنی نەخوازراو ڕووبدات.",
+                            onPressedBritish: () => speakbarrings2("en-GB"),
+                            onPressedAmerican: () => speakbarrings2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

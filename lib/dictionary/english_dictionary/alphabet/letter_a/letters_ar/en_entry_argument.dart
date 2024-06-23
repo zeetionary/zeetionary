@@ -164,131 +164,54 @@ class EnglishEntryargument extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بابەتێک کە دوو یان سێ کەس تێیدا مشتومڕی لەسەر دەکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After some heated argument a decision was finally taken."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای ھەندێک مشتومڕی گەرم بڕیارێک لە کۆتاییدا دار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakargument1032("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakargument1032(
-                                        // REPLACE: argument /ˈɑːrɡjumənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After some heated argument a decision was finally taken.",
+                            kurdishText:
+                                "لە دوای ھەندێک مشتومڕی گەرم بڕیارێک لە کۆتاییدا دار.",
+                            onPressedBritish: () => speakargument1032("en-GB"),
+                            onPressedAmerican: () => speakargument1032(
+                                // REPLACE: argument /ˈɑːrɡjumənt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She got into an argument with the teacher."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەوتە مشتومڕێک لەگەڵ مامۆستاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakargument1033("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakargument1033(
-                                        // REPLACE: argument /ˈɑːrɡjumənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She got into an argument with the teacher.",
+                            kurdishText: "کەوتە مشتومڕێک لەگەڵ مامۆستاکە.",
+                            onPressedBritish: () => speakargument1033("en-GB"),
+                            onPressedAmerican: () => speakargument1033(
+                                // REPLACE: argument /ˈɑːrɡjumənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کۆمەڵە ھۆکارێک کە ئەیدەیت بەدەستەوە بۆ بەرگری یان دژایەتی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are strong arguments for and against euthanasia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵگەھێنانەوەی بەھێز بۆ لەگەڵ‌بوون یان دژایەتی ھوومەرگی (کوشتنی مرۆڤ، بەتایبەتی نەخۆشێک، لەسەر داوای خۆی بە ڕێگای پزیشکی)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakargument1039("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakargument1039(
-                                        // REPLACE: argument /ˈɑːrɡjumənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are strong arguments for and against euthanasia.",
+                            kurdishText:
+                                "بەڵگەھێنانەوەی بەھێز بۆ لەگەڵ‌بوون یان دژایەتی ھوومەرگی (کوشتنی مرۆڤ، بەتایبەتی نەخۆشێک، لەسەر داوای خۆی بە ڕێگای پزیشکی).",
+                            onPressedBritish: () => speakargument1039("en-GB"),
+                            onPressedAmerican: () => speakargument1039(
+                                // REPLACE: argument /ˈɑːrɡjumənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کرداری ڕازی‌نەبوون لە گفتوگۆیەکدا بە پێدانی چەند ھۆکارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let's assume for the sake of argument (= in order to discuss the problem) that we can't start till March."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە مەبەستی گفتوگۆکردنی بابەتەکە با وادابنێین کە تاوەکو مانگی ئادار دەستپێ‌ناکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakargument1042("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakargument1042(
-                                        // REPLACE: argument /ˈɑːrɡjumənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Let's assume for the sake of argument (= in order to discuss the problem) that we can't start till March.",
+                            kurdishText:
+                                "بە مەبەستی گفتوگۆکردنی بابەتەکە با وادابنێین کە تاوەکو مانگی ئادار دەستپێ‌ناکەین.",
+                            onPressedBritish: () => speakargument1042("en-GB"),
+                            onPressedAmerican: () => speakargument1042(
+                                // REPLACE: argument /ˈɑːrɡjumənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

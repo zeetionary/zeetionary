@@ -113,31 +113,12 @@ class EnglishEntryacrobatic extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) لەخۆگرتنی کردنی نمایشی قوورس بە جەستە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "an acrobatic dancer"),
-                                    ExampleSentenceKurdish(
-                                        text: "سەماکارێکی ئاکرۆباتیک"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacr21567("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacr21567(
-                                        "en-US"), // REPLACE acrobatic /ˌækrəˈbætɪk/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "an acrobatic dancer",
+                            kurdishText: "سەماکارێکی ئاکرۆباتیک",
+                            onPressedBritish: () => speakacr21567("en-GB"),
+                            onPressedAmerican: () => speakacr21567(
+                                "en-US"), // REPLACE acrobatic /ˌækrəˈbætɪk/
                           ),
                         ],
                       ),

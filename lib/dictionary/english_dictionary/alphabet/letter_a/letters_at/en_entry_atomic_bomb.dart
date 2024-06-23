@@ -162,35 +162,16 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بۆمبی ئەتۆمی؛ بۆمبێک کە دەتەقێتەوە بە بەکارھێنانی ئەو وزەیەی کە درووست دەبێت لە کاتی کەرتبوونی گەردیلە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The atomic bombs dropped on Hiroshima and Nagasaki in 1945 caused widespread destruction and loss of life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو بۆمبە ئەتۆمییانەی لە ساڵی ١٩٤٥ بەسەر ھیرۆشیما و ناگازاکیدا بەردرانەوە بوونە ھۆی وێرانی و لەدەستچوونی ژیانی زۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakatomicbomb1236("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakatomicbomb1236(
-                                        // REPLACE: atomic bomb
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The atomic bombs dropped on Hiroshima and Nagasaki in 1945 caused widespread destruction and loss of life.",
+                            kurdishText:
+                                "ئەو بۆمبە ئەتۆمییانەی لە ساڵی ١٩٤٥ بەسەر ھیرۆشیما و ناگازاکیدا بەردرانەوە بوونە ھۆی وێرانی و لەدەستچوونی ژیانی زۆر.",
+                            onPressedBritish: () =>
+                                speakatomicbomb1236("en-GB"),
+                            onPressedAmerican: () => speakatomicbomb1236(
+                                // REPLACE: atomic bomb
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

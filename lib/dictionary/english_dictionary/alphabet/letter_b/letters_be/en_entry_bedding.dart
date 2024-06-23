@@ -152,63 +152,25 @@ class EnglishEntrybedding extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پێخەف و داپۆشەر و سەرین و ئەو شتانەی دیکە کە لەسەر جێگەی خەو دادەنرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new recruits at the army base were lined up to pick up their bedding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەرگیراوە تازەکانی بنکە سەربازییەکە ڕیزکران بۆ وەرگرتنی پێخەف و سەرینیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeddings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeddings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new recruits at the army base were lined up to pick up their bedding.",
+                            kurdishText:
+                                "وەرگیراوە تازەکانی بنکە سەربازییەکە ڕیزکران بۆ وەرگرتنی پێخەف و سەرینیان.",
+                            onPressedBritish: () => speakbeddings1("en-GB"),
+                            onPressedAmerican: () => speakbeddings1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پوشوپەڵاش بۆ ئەوەی ئاژەڵان لەسەری بخەون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The farmer spread fresh bedding in the stalls for the horses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاژەڵدارەکە پوشوپەڵاشی تازەی بڵاوکردەوە لە تەویلەی ئەسپەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeddings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeddings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The farmer spread fresh bedding in the stalls for the horses.",
+                            kurdishText:
+                                "ئاژەڵدارەکە پوشوپەڵاشی تازەی بڵاوکردەوە لە تەویلەی ئەسپەکان.",
+                            onPressedBritish: () => speakbeddings2("en-GB"),
+                            onPressedAmerican: () => speakbeddings2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -160,131 +160,55 @@ class EnglishEntryantitwo extends StatelessWidget {
 کوردی: پێشگر: پێچەوانە، دژ، دژە، بەرڤاژی، پەرچە، ئاوەژوو
 """),
                           const DefinitionKurdish(text: """١. (پێشگر) دژبەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Just because I won't join you, it doesn't mean that I'm anti you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا لەبەرئەوەی پەیوەندیت پێوەناکەم واتای ئەوە نییە دژتم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantitwo920("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantitwo920(
-                                        // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Just because I won't join you, it doesn't mean that I'm anti you.",
+                            kurdishText:
+                                "تەنھا لەبەرئەوەی پەیوەندیت پێوەناکەم واتای ئەوە نییە دژتم.",
+                            onPressedBritish: () => speakantitwo920("en-GB"),
+                            onPressedAmerican: () => speakantitwo920(
+                                // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Soldiers used an anti-tank weapon to stop the big tank."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکان چەکێکی دژە تانکیان بەکارھێنا بۆ وەستاندنی دەبابە گەورەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantitwo925("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantitwo925(
-                                        // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Soldiers used an anti-tank weapon to stop the big tank.",
+                            kurdishText:
+                                "سەربازەکان چەکێکی دژە تانکیان بەکارھێنا بۆ وەستاندنی دەبابە گەورەکە.",
+                            onPressedBritish: () => speakantitwo925("en-GB"),
+                            onPressedAmerican: () => speakantitwo925(
+                                // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (پێشگر) پێچەوانەی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Shakespeare's plays have different characters, some heroes, and some anti-heroes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شانۆکانی شکسپیر کارەکتەری جیاوازیان تێدایە، ھەندێکیان پاڵەوانن و ھەندێکیشیان دژە پاڵەوانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantitwo935("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantitwo935(
-                                        // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Shakespeare's plays have different characters, some heroes, and some anti-heroes.",
+                            kurdishText:
+                                "شانۆکانی شکسپیر کارەکتەری جیاوازیان تێدایە، ھەندێکیان پاڵەوانن و ھەندێکیشیان دژە پاڵەوانن.",
+                            onPressedBritish: () => speakantitwo935("en-GB"),
+                            onPressedAmerican: () => speakantitwo935(
+                                // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (پێشگر) ڕێگری لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Antifreeze keeps your car's engine from freezing in cold weather."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دژە بەستن ڕێگری لە بزوێنەری ئۆتۆمبێلەکەت دەکات بیبەستێ لە کەشوھەوای سارددا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantitwo938("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantitwo938(
-                                        // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Antifreeze keeps your car's engine from freezing in cold weather.",
+                            kurdishText:
+                                "دژە بەستن ڕێگری لە بزوێنەری ئۆتۆمبێلەکەت دەکات بیبەستێ لە کەشوھەوای سارددا.",
+                            onPressedBritish: () => speakantitwo938("en-GB"),
+                            onPressedAmerican: () => speakantitwo938(
+                                // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

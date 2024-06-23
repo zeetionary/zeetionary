@@ -155,67 +155,28 @@ class EnglishEntryanchorage extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شوێنی لەنگەرگرتنی کەشتی و بەلەم"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bay is well known as a safe anchorage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەنداوەکە بە باشی وەک بەندەرێکی سەلامەت ناسراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanchorage152("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanchorage152(
-                                        // REPLACE: anchorage /ˈæŋkərɪdʒ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bay is well known as a safe anchorage.",
+                            kurdishText:
+                                "کەنداوەکە بە باشی وەک بەندەرێکی سەلامەت ناسراوە.",
+                            onPressedBritish: () => speakanchorage152("en-GB"),
+                            onPressedAmerican: () => speakanchorage152(
+                                // REPLACE: anchorage /ˈæŋkərɪdʒ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) جێگیرکردنی شتێک بە قایمی لە جێگەی خۆیدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plant needs firm anchorage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووەکەکە پێویستی بە قایمکردنی توند ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanchorage145("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanchorage145(
-                                        // REPLACE: anchorage /ˈæŋkərɪdʒ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The plant needs firm anchorage.",
+                            kurdishText:
+                                "ڕووەکەکە پێویستی بە قایمکردنی توند ھەیە.",
+                            onPressedBritish: () => speakanchorage145("en-GB"),
+                            onPressedAmerican: () => speakanchorage145(
+                                // REPLACE: anchorage /ˈæŋkərɪdʒ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

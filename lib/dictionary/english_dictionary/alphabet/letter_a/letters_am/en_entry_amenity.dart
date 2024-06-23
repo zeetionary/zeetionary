@@ -180,64 +180,24 @@ class EnglishEntryamenity extends StatelessWidget {
                               text:
                                   "١. (ناو) خزمەتگوزاری؛ ئەو خزمەتگوزارییانەی وا دەکەن شوێنێک بە کەڵکی ژیان بێت، یان ژیانکردن تێیدا خۆش بێت "
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many of the houses lacked even basic amenities (= baths, showers, hot water, etc.)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆر لە خانووەکان تەنانەت خزمەتگوزارییە سەرەتاییەکانیشیان تێدا نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamenity4777("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamenity4777(
-                                        // REPLACE: amenity /əˈmenəti/, /əˈmiːnəti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many of the houses lacked even basic amenities (= baths, showers, hot water, etc.).",
+                            kurdishText:
+                                "ژمارەیەکی زۆر لە خانووەکان تەنانەت خزمەتگوزارییە سەرەتاییەکانیشیان تێدا نییە.",
+                            onPressedBritish: () => speakamenity4777("en-GB"),
+                            onPressedAmerican: () => speakamenity4777(
+                                // REPLACE: amenity /əˈmenəti/, /əˈmiːnəti/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hotel has excellent amenities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھوتێلەکە خزمەتگوزاریی نایابی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamenity7622("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamenity7622(
-                                        // REPLACE: amenity /əˈmenəti/, /əˈmiːnəti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The hotel has excellent amenities.",
+                            kurdishText: "ھوتێلەکە خزمەتگوزاریی نایابی تێدایە.",
+                            onPressedBritish: () => speakamenity7622("en-GB"),
+                            onPressedAmerican: () => speakamenity7622(
+                                // REPLACE: amenity /əˈmenəti/, /əˈmiːnəti/
+                                "en-US"),
                           ),
                         ],
                       ),

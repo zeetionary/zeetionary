@@ -154,35 +154,16 @@ class EnglishEntryaweinspiring extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) تەواو سەرنجڕاکێش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The building was awe-inspiring in size and design."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیناکە تەواو سەرنجڕاکێش بوو لە ڕووی قەبارە و دیزاینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaweinspirings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaweinspirings1(
-                                        // REPLACE: awe-inspiring
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The building was awe-inspiring in size and design.",
+                            kurdishText:
+                                "بیناکە تەواو سەرنجڕاکێش بوو لە ڕووی قەبارە و دیزاینەوە.",
+                            onPressedBritish: () =>
+                                speakaweinspirings1("en-GB"),
+                            onPressedAmerican: () => speakaweinspirings1(
+                                // REPLACE: awe-inspiring
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -158,67 +158,29 @@ class EnglishEntryawareness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) ئاگاداری سەبارەت بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There seems to be a general awareness that this is not the solution."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وادیارە ئاگایی گشتگیر ھەبێت کە ئەمە چارەسەرەکە نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawarenesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawarenesss1(// REPLACE: awareness
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There seems to be a general awareness that this is not the solution.",
+                            kurdishText:
+                                "وادیارە ئاگایی گشتگیر ھەبێت کە ئەمە چارەسەرەکە نییە.",
+                            onPressedBritish: () => speakawarenesss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawarenesss1(// REPLACE: awareness
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) حەز و گرنگی بۆ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The group is trying to raise public awareness about homelessness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرووپەکە ھەوڵ دەدات ھۆشیاری کۆمەڵگە زیادبکات سەبارەت بە بێ‌لانەیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawarenesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawarenesss2(// REPLACE: awareness
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The group is trying to raise public awareness about homelessness.",
+                            kurdishText:
+                                "گرووپەکە ھەوڵ دەدات ھۆشیاری کۆمەڵگە زیادبکات سەبارەت بە بێ‌لانەیی.",
+                            onPressedBritish: () => speakawarenesss2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawarenesss2(// REPLACE: awareness
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -158,34 +158,15 @@ class EnglishEntryanthology extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ھەڵبژاردەیەک لە کاری ھونەری کە لێکچووة و بە باشترین دادەنرێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This Michael Jackson anthology includes some rare recordings of his best songs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم گوڵب‌ژێرەی مایکڵ جاکسۆن ھەندێک لە تۆماری دەگمەنی باشترین گۆرانییەکانی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanthology819("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanthology819(
-                                        // REPLACE: anthology /ænˈθɑːlədʒi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This Michael Jackson anthology includes some rare recordings of his best songs.",
+                            kurdishText:
+                                "ئەم گوڵب‌ژێرەی مایکڵ جاکسۆن ھەندێک لە تۆماری دەگمەنی باشترین گۆرانییەکانی تێدایە.",
+                            onPressedBritish: () => speakanthology819("en-GB"),
+                            onPressedAmerican: () => speakanthology819(
+                                // REPLACE: anthology /ænˈθɑːlədʒi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

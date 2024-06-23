@@ -154,35 +154,16 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سرکەیەکی ڕەشی شیرینی ئیتالی کە لە بەرمیلی دارینی خڕدا ھەڵدەگیرێت بۆ ئەوەی تامێکی تایبەتی پێبدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Drizzle some balsamic vinegar over your salad for a touch of sweetness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک سرکەی بالزامیک بپرژێنە بەسەر زەڵاتەکەدا بۆ ئەوەی ھەندێک شیرینی پێبدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbalsamicvinegars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbalsamicvinegars1(
-                                        // REPLACE: balsamic vinegar
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Drizzle some balsamic vinegar over your salad for a touch of sweetness.",
+                            kurdishText:
+                                "ھەندێک سرکەی بالزامیک بپرژێنە بەسەر زەڵاتەکەدا بۆ ئەوەی ھەندێک شیرینی پێبدا.",
+                            onPressedBritish: () =>
+                                speakbalsamicvinegars1("en-GB"),
+                            onPressedAmerican: () => speakbalsamicvinegars1(
+                                // REPLACE: balsamic vinegar
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

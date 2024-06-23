@@ -154,34 +154,15 @@ class EnglishEntrybipolardisorder extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) نەخۆشییەکی دەروونی کە تێیدا کەسێک ماوەیەک ھەست بە بێزاری زۆر دەکات و ماوەیەک ھەست بە چالاکی و جۆش و خرۆشی زۆردەکات بە وزەیەکی زۆرەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At age 13 she was diagnosed with bipolar disorder."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تەمەنی ١٣ ساڵی وەک تووشبووی دووجەمسەری ناسێنرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbipolardisorders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbipolardisorders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At age 13 she was diagnosed with bipolar disorder.",
+                            kurdishText:
+                                "لە تەمەنی ١٣ ساڵی وەک تووشبووی دووجەمسەری ناسێنرا.",
+                            onPressedBritish: () =>
+                                speakbipolardisorders1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbipolardisorders1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

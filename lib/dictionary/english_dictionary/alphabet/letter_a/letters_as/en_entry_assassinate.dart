@@ -161,35 +161,16 @@ class EnglishEntryassassinate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) کووشتن یان تیرۆرکردنی کەسێکی بەناوبانگ یان گرنگ بۆ پارە یان بەھۆکاری سیاسی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prime minister was assassinated by extremists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک وەزیران لەلایەن توندڕەوانەوە کوژرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassassinate1009("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassassinate1009(
-                                        // REPLACE: assassinate /əˈsæsɪneɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prime minister was assassinated by extremists.",
+                            kurdishText:
+                                "سەرۆک وەزیران لەلایەن توندڕەوانەوە کوژرا.",
+                            onPressedBritish: () =>
+                                speakassassinate1009("en-GB"),
+                            onPressedAmerican: () => speakassassinate1009(
+                                // REPLACE: assassinate /əˈsæsɪneɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

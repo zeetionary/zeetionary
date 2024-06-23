@@ -148,60 +148,22 @@ class EnglishEntryboredom extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ھەستی بێزاری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Television helps to relieve the boredom of the long winter evenings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەلەفیزیۆن دەکرێت یارمەتیدەر بێت لە سووککردنی بێزاربوون لە شەوانی درێژی زستان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboredoms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboredoms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Television helps to relieve the boredom of the long winter evenings.",
+                            kurdishText:
+                                "تەلەفیزیۆن دەکرێت یارمەتیدەر بێت لە سووککردنی بێزاربوون لە شەوانی درێژی زستان.",
+                            onPressedBritish: () => speakboredoms1("en-GB"),
+                            onPressedAmerican: () => speakboredoms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They started quarrelling out of sheer boredom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستیان بە مشتومڕ کرد تەنھا لە بێزاریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboredoms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboredoms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They started quarrelling out of sheer boredom.",
+                            kurdishText:
+                                "دەستیان بە مشتومڕ کرد تەنھا لە بێزاریدا.",
+                            onPressedBritish: () => speakboredoms2("en-GB"),
+                            onPressedAmerican: () => speakboredoms2("en-US"),
                           ),
                         ],
                       ),

@@ -165,129 +165,53 @@ class EnglishEntryassure extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) دڵنیایی‌کردنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You think I did it deliberately, but I assure you (that) I did not."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وابیردەکەیتەوە کە بە ئەنقەست کردم، بەڵام دڵنیات دەکەمەوە بەئەنقەست نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassure902("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassure902(
-                                        // REPLACE: assure /əˈʃʊr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You think I did it deliberately, but I assure you (that) I did not.",
+                            kurdishText:
+                                "وابیردەکەیتەوە کە بە ئەنقەست کردم، بەڵام دڵنیات دەکەمەوە بەئەنقەست نەبوو.",
+                            onPressedBritish: () => speakassure902("en-GB"),
+                            onPressedAmerican: () => speakassure902(
+                                // REPLACE: assure /əˈʃʊr/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We assured him of our support."),
-                                    ExampleSentenceKurdish(
-                                        text: "دڵنیامانکردەوە لە پشتیوانیمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassure903("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassure903(
-                                        // REPLACE: assure /əˈʃʊr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We assured him of our support.",
+                            kurdishText: "دڵنیامانکردەوە لە پشتیوانیمان.",
+                            onPressedBritish: () => speakassure903("en-GB"),
+                            onPressedAmerican: () => speakassure903(
+                                // REPLACE: assure /əˈʃʊr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) دڵنیایی‌کردنەوەی خۆت لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She assured herself that the letter was still in the drawer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیایی‌کردەوە کە نامەکە ھێشتا لە چەکمەجەکە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassure905("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassure905(
-                                        // REPLACE: assure /əˈʃʊr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She assured herself that the letter was still in the drawer.",
+                            kurdishText:
+                                "دڵنیایی‌کردەوە کە نامەکە ھێشتا لە چەکمەجەکە بوو.",
+                            onPressedBritish: () => speakassure905("en-GB"),
+                            onPressedAmerican: () => speakassure905(
+                                // REPLACE: assure /əˈʃʊr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) مسۆگەرکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Victory would assure them a place in the finals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بردنەوە شوێنێکیان لە کۆتایی بۆ مسۆگەردەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassure921("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassure921(
-                                        // REPLACE: assure /əˈʃʊr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Victory would assure them a place in the finals.",
+                            kurdishText:
+                                "بردنەوە شوێنێکیان لە کۆتایی بۆ مسۆگەردەکات.",
+                            onPressedBritish: () => speakassure921("en-GB"),
+                            onPressedAmerican: () => speakassure921(
+                                // REPLACE: assure /əˈʃʊr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

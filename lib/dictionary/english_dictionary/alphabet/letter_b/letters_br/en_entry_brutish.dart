@@ -145,32 +145,13 @@ class EnglishEntrybrutish extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) توندوتیژ؛ بەبێ بیرکردنەوە و زیرەکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Life for our early ancestors was nasty, brutish and short, according to the evidence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەپێی بەڵگەکان، ژیان بۆ باوانە سەرەتاییەکانمان ناخۆش، سەخت، و کورت بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brutish" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutishs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutishs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Life for our early ancestors was nasty, brutish and short, according to the evidence.",
+                            kurdishText:
+                                "بەپێی بەڵگەکان، ژیان بۆ باوانە سەرەتاییەکانمان ناخۆش، سەخت، و کورت بوو.", // brutish" as
+                            onPressedBritish: () => speakbrutishs1("en-GB"),
+                            onPressedAmerican: () => speakbrutishs1("en-US"),
                           ),
                         ],
                       ),

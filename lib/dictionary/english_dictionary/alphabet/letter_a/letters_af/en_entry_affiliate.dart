@@ -115,95 +115,38 @@ class EnglishEntryaffiliate extends StatelessWidget {
                               text:
                                   "١. (کردار) گرێدراو بە شتێکەوە، بوون بە بەشێک لە شتێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The group is not affiliated to any political party."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرووپەکە گرێدراو نییە بە ھیچ پارتێکی سیاسییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffil3588("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffil3588(
-                                        // REPLACE: affiliate /əˈfɪlieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The group is not affiliated to any political party.",
+                            kurdishText:
+                                "گرووپەکە گرێدراو نییە بە ھیچ پارتێکی سیاسییەوە.",
+                            onPressedBritish: () => speakaffil3588("en-GB"),
+                            onPressedAmerican: () => speakaffil3588(
+                                // REPLACE: affiliate /əˈfɪlieɪt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hospital is affiliated with the university."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشخانەکە گرێدراو نییە بە زانکۆکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffi2699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffi2699(
-                                        // REPLACE: affiliate /əˈfɪlieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hospital is affiliated with the university.",
+                            kurdishText:
+                                "نەخۆشخانەکە گرێدراو نییە بە زانکۆکەوە.",
+                            onPressedBritish: () => speakaffi2699("en-GB"),
+                            onPressedAmerican: () => speakaffi2699(
+                                // REPLACE: affiliate /əˈfɪlieɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کۆمپانیایەک یان دامەزراوەیەک کە بەشێکە لە یەکێکی گەورەتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our college is an affiliate of the university."),
-                                    ExampleSentenceKurdish(
-                                        text: "کۆلێژەکەمان بەشێکە لە زانکۆکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffi25699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffi25699(
-                                        // REPLACE: affiliate /əˈfɪlieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our college is an affiliate of the university.",
+                            kurdishText: "کۆلێژەکەمان بەشێکە لە زانکۆکە.",
+                            onPressedBritish: () => speakaffi25699("en-GB"),
+                            onPressedAmerican: () => speakaffi25699(
+                                // REPLACE: affiliate /əˈfɪlieɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

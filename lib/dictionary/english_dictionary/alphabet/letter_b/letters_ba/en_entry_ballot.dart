@@ -158,164 +158,67 @@ class EnglishEntryballot extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) سیستەمی دەنگدان لەسەر کاغەز و بەنھێنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The club members decided in a ballot to suspend the captain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندامانی یانەکە لە دەنگدانێکدا بڕیاریاندا کاپتنەکە سڕبکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballots1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballots1(// REPLACE: ballot
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The club members decided in a ballot to suspend the captain.",
+                            kurdishText:
+                                "ئەندامانی یانەکە لە دەنگدانێکدا بڕیاریاندا کاپتنەکە سڕبکەن.",
+                            onPressedBritish: () => speakballots1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballots1(// REPLACE: ballot
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پەڕەیەک کە کەسێک دەنگی لەسەر دەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What percentage of voters cast their ballots?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەی سەدی چەند لە دەنگدەران پەڕەی دەنگدانیان پڕکردەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballots2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballots2(// REPLACE: ballot
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What percentage of voters cast their ballots?",
+                            kurdishText:
+                                "ڕێژەی سەدی چەند لە دەنگدەران پەڕەی دەنگدانیان پڕکردەوە؟",
+                            onPressedBritish: () => speakballots2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballots2(// REPLACE: ballot
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ڕێژەی گشتی دەنگدان لە ھەڵبژاردنێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She won 58.8% of the ballot."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕێژەی ٥٨,٨ دەنگەکانی بردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballots3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballots3(// REPLACE: ballot
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She won 58.8% of the ballot.",
+                            kurdishText: "ڕێژەی ٥٨,٨ دەنگەکانی بردەوە.",
+                            onPressedBritish: () => speakballots3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballots3(// REPLACE: ballot
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) داواکردن لە خەڵکی بۆ دەنگدانی نھێنی لەسەر کاغەز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The union balloted its members on the proposed changes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێتییەکە داوای لە ئەندامەکانی کرد دەنگبدەن لەسەر گۆڕانکارییە پێشنیارکراوەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballots4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballots4(// REPLACE: ballot
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The union balloted its members on the proposed changes.",
+                            kurdishText:
+                                "یەکێتییەکە داوای لە ئەندامەکانی کرد دەنگبدەن لەسەر گۆڕانکارییە پێشنیارکراوەکان.",
+                            onPressedBritish: () => speakballots4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballots4(// REPLACE: ballot
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) دەنگدانی نھێنی لەسەر شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The workers balloted for a strike."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرێکاران دەنگیان بۆ مانگرتن دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballots5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballots5(// REPLACE: ballot
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The workers balloted for a strike.",
+                            kurdishText: "کرێکاران دەنگیان بۆ مانگرتن دا.",
+                            onPressedBritish: () => speakballots5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballots5(// REPLACE: ballot
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

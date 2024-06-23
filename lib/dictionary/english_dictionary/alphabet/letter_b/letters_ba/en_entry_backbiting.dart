@@ -158,34 +158,15 @@ class EnglishEntrybackbiting extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) قسەی خراپ لەسەر کەسێک کە ئامادە نییە لەو شوێنە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was tired of all the backbiting and gossip in the office."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێزاربوو لەو ھەموو غەیبەت و قسەڵۆکانەی ئۆفیسەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka3s1(// REPLACE: backbiting
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was tired of all the backbiting and gossip in the office.",
+                            kurdishText:
+                                "بێزاربوو لەو ھەموو غەیبەت و قسەڵۆکانەی ئۆفیسەکە.",
+                            onPressedBritish: () => speaka3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka3s1(// REPLACE: backbiting
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

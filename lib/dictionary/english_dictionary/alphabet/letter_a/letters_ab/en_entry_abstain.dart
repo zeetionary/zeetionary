@@ -106,62 +106,23 @@ class EnglishEntryabstain extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) بێ‌لایەن بوون لە دەنگداندا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ten people voted in favour, five against and two abstained."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دە کەس بە بەڵێ دەنگیاندا، پێنج بە نەخێر، و دووانیش بێلایەن بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka26987("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka26987("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ten people voted in favour, five against and two abstained.",
+                            kurdishText:
+                                "دە کەس بە بەڵێ دەنگیاندا، پێنج بە نەخێر، و دووانیش بێلایەن بوون.",
+                            onPressedBritish: () => speaka26987("en-GB"),
+                            onPressedAmerican: () => speaka26987("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) خۆبەدوورگرتن لە شتێک کە حەزت لێیە، بەھۆی ئەوەی خراپە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "to abstain from alcohol/sex/drugs"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆبەدوورگرتن لە کحول/سێکس/مادەی ھۆشبەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka23485("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka23485("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "to abstain from alcohol/sex/drugs",
+                            kurdishText:
+                                "خۆبەدوورگرتن لە کحول/سێکس/مادەی ھۆشبەر.",
+                            onPressedBritish: () => speaka23485("en-GB"),
+                            onPressedAmerican: () => speaka23485("en-US"),
                           ),
                         ],
                       ),

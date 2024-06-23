@@ -166,260 +166,105 @@ class EnglishEntryarrest extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) دەستگیرکردن لەلایەن پۆلیسەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A man has been arrested in connection with the robbery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێک دەستگیرکراوە بەتۆمەتی تێوەگلان لە دزییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrest420("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrest420(
-                                        // REPLACE: arrest /əˈrest/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A man has been arrested in connection with the robbery.",
+                            kurdishText:
+                                "کەسێک دەستگیرکراوە بەتۆمەتی تێوەگلان لە دزییەکە.",
+                            onPressedBritish: () => speakarrest420("en-GB"),
+                            onPressedAmerican: () => speakarrest420(
+                                // REPLACE: arrest /əˈrest/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was arrested on corruption charges."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەتۆمەتی گەندەڵی دەستگیرکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrest421("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrest421(
-                                        // REPLACE: arrest /əˈrest/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was arrested on corruption charges.",
+                            kurdishText: "بەتۆمەتی گەندەڵی دەستگیرکرا.",
+                            onPressedBritish: () => speakarrest421("en-GB"),
+                            onPressedAmerican: () => speakarrest421(
+                                // REPLACE: arrest /əˈrest/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) وەستاندنی پڕۆسەیەک، پەرەسەندنێک، یان گەشەسەندنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They failed to arrest the company's decline."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شکستیان ھێنا لە ڕێگری‌کردن لە داڕووخانی کۆمپانیاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrest425("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrest425(
-                                        // REPLACE: arrest /əˈrest/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They failed to arrest the company's decline.",
+                            kurdishText:
+                                "شکستیان ھێنا لە ڕێگری‌کردن لە داڕووخانی کۆمپانیاکە.",
+                            onPressedBritish: () => speakarrest425("en-GB"),
+                            onPressedAmerican: () => speakarrest425(
+                                // REPLACE: arrest /əˈrest/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The spread of the disease can be arrested with drugs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرەسەندنی نەخۆشییەکە دەوەستێنرێت بە دەرمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrest426("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrest426(
-                                        // REPLACE: arrest /əˈrest/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The spread of the disease can be arrested with drugs.",
+                            kurdishText:
+                                "پەرەسەندنی نەخۆشییەکە دەوەستێنرێت بە دەرمان.",
+                            onPressedBritish: () => speakarrest426("en-GB"),
+                            onPressedAmerican: () => speakarrest426(
+                                // REPLACE: arrest /əˈrest/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) وا لە کەسێک بکەیت ھەست بە شتێک بکات و سەرنجی پێ‌بدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An unusual noise arrested his attention."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگە دەنگێکی نائاسایی سەرنجی ڕاکێشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrest428("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrest428(
-                                        // REPLACE: arrest /əˈrest/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An unusual noise arrested his attention.",
+                            kurdishText:
+                                "دەنگە دەنگێکی نائاسایی سەرنجی ڕاکێشا.",
+                            onPressedBritish: () => speakarrest428("en-GB"),
+                            onPressedAmerican: () => speakarrest428(
+                                // REPLACE: arrest /əˈrest/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) وەستانی دڵ لە لێدان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He arrested on the way to the hospital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵی لە لێدان کەوت لە ڕێگا بۆ نەخۆشخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrest430("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrest430(
-                                        // REPLACE: arrest /əˈrest/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He arrested on the way to the hospital.",
+                            kurdishText:
+                                "دڵی لە لێدان کەوت لە ڕێگا بۆ نەخۆشخانە.",
+                            onPressedBritish: () => speakarrest430("en-GB"),
+                            onPressedAmerican: () => speakarrest430(
+                                // REPLACE: arrest /əˈrest/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) کرداری دەستگیرکردنی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police made several arrests."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس ژمارەیەک کەسی دەستگیرکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrest432("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrest432(
-                                        // REPLACE: arrest /əˈrest/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The police made several arrests.",
+                            kurdishText: "پۆلیس ژمارەیەک کەسی دەستگیرکرد.",
+                            onPressedBritish: () => speakarrest432("en-GB"),
+                            onPressedAmerican: () => speakarrest432(
+                                // REPLACE: arrest /əˈrest/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ناو) کرداری وەستانی شتێک یان ناوبڕکەوتنە ناوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He died after suffering a cardiac arrest (= when his heart suddenly stopped)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گیانی لەدەستدا لە دوای وەستانی دڵی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrest435("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrest435(
-                                        // REPLACE: arrest /əˈrest/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He died after suffering a cardiac arrest (= when his heart suddenly stopped).",
+                            kurdishText: "گیانی لەدەستدا لە دوای وەستانی دڵی.",
+                            onPressedBritish: () => speakarrest435("en-GB"),
+                            onPressedAmerican: () => speakarrest435(
+                                // REPLACE: arrest /əˈrest/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -148,91 +148,34 @@ class EnglishEntrybraid extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) حەبلی ڕەنگاوڕەنگ کە بەکاردێت بۆ نەخشاندنی کەلوپەلی ناوماڵ و جلی سەربازی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The captain of the ship wore a cap decorated with gold braid (= twisted gold threads)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاپتنی کاشتییەکە کڵاوێکی لەسەر کردبوو کە بە قەیاتنی ئاڵتوونی نەخشێندرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraids1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraids1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The captain of the ship wore a cap decorated with gold braid (= twisted gold threads).",
+                            kurdishText:
+                                "کاپتنی کاشتییەکە کڵاوێکی لەسەر کردبوو کە بە قەیاتنی ئاڵتوونی نەخشێندرابوو.",
+                            onPressedBritish: () => speakbraids1("en-GB"),
+                            onPressedAmerican: () => speakbraids1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) قژ یان شتێک کە دەکرێت بە سێ بەشەوە و لێک دەئاكێندرێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She usually wears her hair in a braid/in two braids."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرجار قژی دەکات بە پەلکەیەک/دوو پەلکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraids2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraids2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She usually wears her hair in a braid/in two braids.",
+                            kurdishText:
+                                "زۆرجار قژی دەکات بە پەلکەیەک/دوو پەلکە.",
+                            onPressedBritish: () => speakbraids2("en-GB"),
+                            onPressedAmerican: () => speakbraids2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) کردن بە پەلکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She'd braided her hair."),
-                                    ExampleSentenceKurdish(
-                                        text: "قژی کردبوو بە پەلکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraids3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraids3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She'd braided her hair.",
+                            kurdishText: "قژی کردبوو بە پەلکە.",
+                            onPressedBritish: () => speakbraids3("en-GB"),
+                            onPressedAmerican: () => speakbraids3("en-US"),
                           ),
                         ],
                       ),

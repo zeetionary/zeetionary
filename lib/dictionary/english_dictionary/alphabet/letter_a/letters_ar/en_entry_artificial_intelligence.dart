@@ -164,35 +164,16 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) لێکۆڵینەوە لە کۆمپیوتەر بۆ ئەوەی توانای بیرکردنەوەیان وەک مێشکی مرۆڤ ھەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Language is crucial to the development of artificial intelligence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زمان زۆر گرنگە بۆ پەرەپێدانی ژیریی دەستکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakartificialintelligence927("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartificialintelligence927(
-                                        // REPLACE: artificial intelligence /ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Language is crucial to the development of artificial intelligence.",
+                            kurdishText:
+                                "زمان زۆر گرنگە بۆ پەرەپێدانی ژیریی دەستکرد.",
+                            onPressedBritish: () =>
+                                speakartificialintelligence927("en-GB"),
+                            onPressedAmerican: () => speakartificialintelligence927(
+                                // REPLACE: artificial intelligence /ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

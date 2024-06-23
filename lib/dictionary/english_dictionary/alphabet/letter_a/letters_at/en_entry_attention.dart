@@ -166,161 +166,66 @@ class EnglishEntryattention extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) گوێگرتن، سەیرکردن، یان بیرکردنەوە لە شتێک بە وریاییەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His attention turned to other matters."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەرنجی چوو بەلای پرسی تردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattention846("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattention846(// REPLACE: attention
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His attention turned to other matters.",
+                            kurdishText: "سەرنجی چوو بەلای پرسی تردا.",
+                            onPressedBritish: () => speakattention846("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattention846(// REPLACE: attention
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She doesn't pay her children much attention."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر سەرنج نادات بە منداڵەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattention847("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattention847(// REPLACE: attention
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She doesn't pay her children much attention.",
+                            kurdishText: "زۆر سەرنج نادات بە منداڵەکانی.",
+                            onPressedBritish: () => speakattention847("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattention847(// REPLACE: attention
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) چاودێری یان چارەسەری تایبەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He received urgent medical attention."),
-                                    ExampleSentenceKurdish(
-                                        text: "چاودێری تایبەتی خێرای وەرگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattention848("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattention848(// REPLACE: attention
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He received urgent medical attention.",
+                            kurdishText: "چاودێری تایبەتی خێرای وەرگرت.",
+                            onPressedBritish: () => speakattention848("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattention848(// REPLACE: attention
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ئەو شتانەی کە کەسێک دەیکات بۆ دڵخۆشکردنت، یان بۆ پیشاندانی حەزیان بۆت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her primary aim was to avoid the attentions of the newspapers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامانجی سەرەکی ئەوەبوو لە سەرنجی ڕۆژنامەکان بەدووربێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattention852("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattention852(// REPLACE: attention
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her primary aim was to avoid the attentions of the newspapers.",
+                            kurdishText:
+                                "ئامانجی سەرەکی ئەوەبوو لە سەرنجی ڕۆژنامەکان بەدووربێت.",
+                            onPressedBritish: () => speakattention852("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattention852(// REPLACE: attention
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (سەرسوڕمان) بەکاردێت بۆ وەرگرتنی سەرنجی خەڵکی لەپێش ڕاگەیاندنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Attention, please! Passengers for flight KL412 are requested to go to gate 21 immediately."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگاداری، تکایە گەشتیارانی گەشتی KL412 داوایان لێدەکرێت دەستبەجێ بچن بۆ دەروازەی ٢١."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattention856("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattention856(// REPLACE: attention
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Attention, please! Passengers for flight KL412 are requested to go to gate 21 immediately.",
+                            kurdishText:
+                                "ئاگاداری، تکایە گەشتیارانی گەشتی KL412 داوایان لێدەکرێت دەستبەجێ بچن بۆ دەروازەی ٢١.",
+                            onPressedBritish: () => speakattention856("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattention856(// REPLACE: attention
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

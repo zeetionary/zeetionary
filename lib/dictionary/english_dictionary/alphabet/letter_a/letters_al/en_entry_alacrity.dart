@@ -113,35 +113,15 @@ class EnglishEntryalacrity extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) شادی و جۆشوخرۆشی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They accepted the offer with alacrity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆفەرەکەیان بە جۆشوخرۆشییەوە پەسەندکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalacrity42566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalacrity42566(
-                                        // REPLACE: alacrity /əˈlækrəti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They accepted the offer with alacrity.",
+                            kurdishText:
+                                "ئۆفەرەکەیان بە جۆشوخرۆشییەوە پەسەندکرد.",
+                            onPressedBritish: () => speakalacrity42566("en-GB"),
+                            onPressedAmerican: () => speakalacrity42566(
+                                // REPLACE: alacrity /əˈlækrəti/
+                                "en-US"),
                           ),
                         ],
                       ),

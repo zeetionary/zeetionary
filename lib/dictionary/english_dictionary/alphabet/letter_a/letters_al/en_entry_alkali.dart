@@ -116,34 +116,15 @@ class EnglishEntryalkali extends StatelessWidget {
                               text:
                                   "١. (ناو) مادەیەکی کیمیایی کە لەگەڵ ترشەڵۆک کارلێک دەکات بۆ درووستکردنی خوێ و ڕەنووسی ھایدرۆجینی بەرزتر دەبێت لە حەوت کە لە ئاودا دەتوێتەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When an acid and an alkali react together the result is a salt and water."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتێک ترش و تفت کارلێک دەکەن خوێ و ئاو درووست دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalkali85236("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalkali85236(
-                                        // REPLACE: alkali /ˈælkəlaɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When an acid and an alkali react together the result is a salt and water.",
+                            kurdishText:
+                                "کاتێک ترش و تفت کارلێک دەکەن خوێ و ئاو درووست دەکەن.",
+                            onPressedBritish: () => speakalkali85236("en-GB"),
+                            onPressedAmerican: () => speakalkali85236(
+                                // REPLACE: alkali /ˈælkəlaɪ/
+                                "en-US"),
                           ),
                         ],
                       ),

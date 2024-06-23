@@ -194,63 +194,25 @@ class EnglishEntrybylaw extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) یاسایەک کە لە لایەن حکومەتێکی خۆجێییەوە دەردەکرێت و تەنھا بەسەر ناوچەیەکدا دەچەسپێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A bylaw passed in the region said those caught smoking in public places would be fined."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاسایەک کە لە ھەرێمەکە دەرچوو دەڵێت ئەو کەسانەی لە شوێنی گشتی دەگیردرێن لە کاتی جگەرەکێشان بژێرەیان بۆ دەنووسرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "by-law", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbylaws1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbylaws1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A bylaw passed in the region said those caught smoking in public places would be fined.",
+                            kurdishText:
+                                "یاسایەک کە لە ھەرێمەکە دەرچوو دەڵێت ئەو کەسانەی لە شوێنی گشتی دەگیردرێن لە کاتی جگەرەکێشان بژێرەیان بۆ دەنووسرێت.", // by-law", follow LX strictly
+                            onPressedBritish: () => speakbylaws1("en-GB"),
+                            onPressedAmerican: () => speakbylaws1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) یاسایەک کە دەچەسپێت بەسەر ئەندامانی دامەزراوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She fought to change the organization's by-laws, which allowed only men."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵیدا یاساکانی دامەزراوەکە بگۆڕێت کە تەنھا ڕێگەی بە پیاو دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbylaws2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbylaws2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She fought to change the organization's by-laws, which allowed only men.",
+                            kurdishText:
+                                "ھەوڵیدا یاساکانی دامەزراوەکە بگۆڕێت کە تەنھا ڕێگەی بە پیاو دەدات.",
+                            onPressedBritish: () => speakbylaws2("en-GB"),
+                            onPressedAmerican: () => speakbylaws2("en-US"),
                           ),
                         ],
                       ),

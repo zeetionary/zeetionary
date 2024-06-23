@@ -200,95 +200,35 @@ class EnglishEntrybusinessman extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بازرگان/ژنە بازرگان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a successful businessman before becoming a writer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بازتگانێکی سەرکەوتوو بوو پێش ئەوەی ببێت بە نووسەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "businessman", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbusinessmans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbusinessmans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a successful businessman before becoming a writer.",
+                            kurdishText:
+                                "بازتگانێکی سەرکەوتوو بوو پێش ئەوەی ببێت بە نووسەر.", // businessman", follow LX strictly
+                            onPressedBritish: () => speakbusinessmans1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbusinessmans1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She's a shrewd businesswoman."),
-                                    ExampleSentenceKurdish(
-                                        text: "ژنە بازرگانێکی بیرتیژە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbusinessmans2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbusinessmans2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's a shrewd businesswoman.",
+                            kurdishText: "ژنە بازرگانێکی بیرتیژە.",
+                            onPressedBritish: () => speakbusinessmans2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbusinessmans2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پیاوێک یان ژنێک کە شارەزایی ھەیە لە بازرگانی و کاری دارایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I should have got a better price for the car, but I'm not much of a businessman."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبوو پارەیەکی باشترم بۆ ئۆتۆمبێلەکە وەربگرتایە، بەڵام سەوداگەرێکی باش نیم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbusinessmans3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbusinessmans3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I should have got a better price for the car, but I'm not much of a businessman.",
+                            kurdishText:
+                                "دەبوو پارەیەکی باشترم بۆ ئۆتۆمبێلەکە وەربگرتایە، بەڵام سەوداگەرێکی باش نیم.",
+                            onPressedBritish: () => speakbusinessmans3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbusinessmans3("en-US"),
                           ),
                         ],
                       ),

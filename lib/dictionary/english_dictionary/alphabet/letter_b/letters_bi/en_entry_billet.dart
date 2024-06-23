@@ -147,63 +147,25 @@ class EnglishEntrybillet extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شوێنێکی کاتی کە سەرباز بۆ ماوەیەکی کاتی تێیدا دەمێنێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The troops are all in billets (= not in camps or barracks)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکان ھەموویان لە خانووی کاتیدا دەمانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbillets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbillets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The troops are all in billets (= not in camps or barracks).",
+                            kurdishText:
+                                "سەربازەکان ھەموویان لە خانووی کاتیدا دەمانەوە.",
+                            onPressedBritish: () => speakbillets1("en-GB"),
+                            onPressedAmerican: () => speakbillets1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ناردنی سەرباز بۆ ئەوەی بۆ ماوەیەکی کاتی لە شوێنێکدا بژین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The troops were billeted in the town with local families."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکان نێردران بۆ شارۆچکەکە بۆ ژیانکردن لەگەڵ خێزانە ناوخۆییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbillets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbillets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The troops were billeted in the town with local families.",
+                            kurdishText:
+                                "سەربازەکان نێردران بۆ شارۆچکەکە بۆ ژیانکردن لەگەڵ خێزانە ناوخۆییەکان.",
+                            onPressedBritish: () => speakbillets2("en-GB"),
+                            onPressedAmerican: () => speakbillets2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

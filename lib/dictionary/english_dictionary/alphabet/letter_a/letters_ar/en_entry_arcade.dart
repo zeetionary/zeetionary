@@ -163,67 +163,29 @@ class EnglishEntryarcade extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ڕێگایەکی سەر داخراو کە کەوانەی تێدایە و تەنیشتەکانی بینایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Families like to spend time together at the shopping arcade on weekends."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێزانەکان حەز دەکەن پێکەوە کات بەسەر ببەن لە قەیسەرییەکە لە ڕۆژانی کۆتایی ھەفتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarcade105("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarcade105(
-                                        // REPLACE: arcade /ɑːrˈkeɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Families like to spend time together at the shopping arcade on weekends.",
+                            kurdishText:
+                                "خێزانەکان حەز دەکەن پێکەوە کات بەسەر ببەن لە قەیسەرییەکە لە ڕۆژانی کۆتایی ھەفتە.",
+                            onPressedBritish: () => speakarcade105("en-GB"),
+                            onPressedAmerican: () => speakarcade105(
+                                // REPLACE: arcade /ɑːrˈkeɪd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شوێنێک کە دەتوانی یاری بە ئامێر بکەیت بە پێدانی دراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Playing arcade games can be a fun way to spend time with friends and family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کردنی یارییە ئارکەیدییەکان دەکرێت ڕێگایەکی خۆش بێت بۆ بەسەربردنی ھەندێک کات لەگەڵ ھاوڕێیان و خێزان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarcade109("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarcade109(
-                                        // REPLACE: arcade /ɑːrˈkeɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Playing arcade games can be a fun way to spend time with friends and family.",
+                            kurdishText:
+                                "کردنی یارییە ئارکەیدییەکان دەکرێت ڕێگایەکی خۆش بێت بۆ بەسەربردنی ھەندێک کات لەگەڵ ھاوڕێیان و خێزان.",
+                            onPressedBritish: () => speakarcade109("en-GB"),
+                            onPressedAmerican: () => speakarcade109(
+                                // REPLACE: arcade /ɑːrˈkeɪd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

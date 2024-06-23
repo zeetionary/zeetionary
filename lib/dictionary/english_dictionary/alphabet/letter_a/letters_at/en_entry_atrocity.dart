@@ -165,34 +165,15 @@ class EnglishEntryatrocity extends StatelessWidget {
                               text:
                                   "١. (ناو) کارێکی دڕندانە، بەتایبەتی لە جەنگدا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the war, both sides committed atrocities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە جەنگەکەدا، ھەردوو لا تاوانکارییان ئەنجامدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakatrocity310("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakatrocity310(// REPLACE: atrocity
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the war, both sides committed atrocities.",
+                            kurdishText:
+                                "لە جەنگەکەدا، ھەردوو لا تاوانکارییان ئەنجامدا.",
+                            onPressedBritish: () => speakatrocity310("en-GB"),
+                            onPressedAmerican: () =>
+                                speakatrocity310(// REPLACE: atrocity
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -152,35 +152,15 @@ class EnglishEntryanglicize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) پێدانی خاسیەتی ئینگلیز بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She married Norwegian immigrant Niels Larsen, who later anglicized his name."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوسەرگیری لەگەڵ پەنابەری نەرویجی نیەڵز لارسن کرد کە دواتر ناوەکەی خۆی بە ئینگلیزی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanglicize4450("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanglicize4450(
-                                        // REPLACE: anglicize /ˈæŋɡlɪsaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She married Norwegian immigrant Niels Larsen, who later anglicized his name.",
+                            kurdishText:
+                                "ھاوسەرگیری لەگەڵ پەنابەری نەرویجی نیەڵز لارسن کرد کە دواتر ناوەکەی خۆی بە ئینگلیزی کرد.",
+                            onPressedBritish: () => speakanglicize4450("en-GB"),
+                            onPressedAmerican: () => speakanglicize4450(
+                                // REPLACE: anglicize /ˈæŋɡlɪsaɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

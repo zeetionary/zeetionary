@@ -147,32 +147,13 @@ class EnglishEntrybrainchild extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بیرۆکە یان داھێنانی کەسێک یان گرووپێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The TV programme was the brainchild of the producer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆگرامە تەلەفیزیۆنییەکە بیرۆکەی بەرھەمھێنەرەکە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrainchilds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrainchilds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The TV programme was the brainchild of the producer.",
+                            kurdishText:
+                                "پڕۆگرامە تەلەفیزیۆنییەکە بیرۆکەی بەرھەمھێنەرەکە بوو.",
+                            onPressedBritish: () => speakbrainchilds1("en-GB"),
+                            onPressedAmerican: () => speakbrainchilds1("en-US"),
                           ),
                         ],
                       ),

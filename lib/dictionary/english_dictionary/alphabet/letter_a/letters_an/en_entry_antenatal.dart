@@ -159,34 +159,15 @@ class EnglishEntryantenatal extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە چاودێریی ژنانی دووگیان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your blood pressure will be monitored at all antenatal checks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەستانی خوێنت وەردەگیرێت لە ھەموو پشکنینەکانی دووگیانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantenatal504("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantenatal504(
-                                        // REPLACE: antenatal /ˌæntiˈneɪtl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your blood pressure will be monitored at all antenatal checks.",
+                            kurdishText:
+                                "پەستانی خوێنت وەردەگیرێت لە ھەموو پشکنینەکانی دووگیانی.",
+                            onPressedBritish: () => speakantenatal504("en-GB"),
+                            onPressedAmerican: () => speakantenatal504(
+                                // REPLACE: antenatal /ˌæntiˈneɪtl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -114,34 +114,15 @@ class EnglishEntryadvent extends StatelessWidget {
                               text:
                                   "١. (ناو) گەشتنی کەسێک، بۆنەیەک، یان داھێنانێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Before the advent of the railways, communications were slow and difficult."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێش داھێنانی سکەی ئاسنین، پەیوەندیکردن زۆر سەخت بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvent25677("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvent25677(
-                                        // REPLACE: advent /ˈædvent/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Before the advent of the railways, communications were slow and difficult.",
+                            kurdishText:
+                                "پێش داھێنانی سکەی ئاسنین، پەیوەندیکردن زۆر سەخت بوو.",
+                            onPressedBritish: () => speakadvent25677("en-GB"),
+                            onPressedAmerican: () => speakadvent25677(
+                                // REPLACE: advent /ˈædvent/
+                                "en-US"),
                           ),
                         ],
                       ),

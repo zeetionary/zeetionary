@@ -123,128 +123,52 @@ class EnglishEntryadvantage extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شتێک کە دەتخاتە بارودۆخێکی باشتر وەک لە کەسانی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The advantage of booking tickets in advance is that you get better seats."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوودی کڕینی بلیت لە پێشدا ئەوەیە کە جێگەی باشتر وەردەگریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvan35688("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvan35688(
-                                        // REPLACE: advantage /ədˈvæntɪdʒ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The advantage of booking tickets in advance is that you get better seats.",
+                            kurdishText:
+                                "سوودی کڕینی بلیت لە پێشدا ئەوەیە کە جێگەی باشتر وەردەگریت.",
+                            onPressedBritish: () => speakadvan35688("en-GB"),
+                            onPressedAmerican: () => speakadvan35688(
+                                // REPLACE: advantage /ədˈvæntɪdʒ/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For a goalkeeper, it's a great advantage to have big hands."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ گۆڵپارێزێک، ھەبوونی دەستی گەورە سوودێکی گەورەی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvan3674("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvan3674(
-                                        // REPLACE: advantage /ədˈvæntɪdʒ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For a goalkeeper, it's a great advantage to have big hands.",
+                            kurdishText:
+                                "بۆ گۆڵپارێزێک، ھەبوونی دەستی گەورە سوودێکی گەورەی ھەیە.",
+                            onPressedBritish: () => speakadvan3674("en-GB"),
+                            onPressedAmerican: () => speakadvan3674(
+                                // REPLACE: advantage /ədˈvæntɪdʒ/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) خاسیەتێک کە وادەکات شتێک باشتر بێت یان سوودی ھەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Is there any advantage in getting there early?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ بەرژەوەندییەک ھەیە لە زوو گەشتن بەوێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvan6724("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvan6724(
-                                        // REPLACE: advantage /ədˈvæntɪdʒ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Is there any advantage in getting there early?",
+                            kurdishText:
+                                "ھیچ بەرژەوەندییەک ھەیە لە زوو گەشتن بەوێ.",
+                            onPressedBritish: () => speakadvan6724("en-GB"),
+                            onPressedAmerican: () => speakadvan6724(
+                                // REPLACE: advantage /ədˈvæntɪdʒ/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) بەرژەوەندی پێدان بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Affluent parents seek to advantage their children by sending them to more prestigious universities"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایک و باوکانی دەوڵەمەند ھەوڵ دەدەن سوود بە منداڵانیان بگەیەنن بە نادنیان بۆ زانکۆ ناودارەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvant9436("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvant9436(
-                                        // REPLACE: advantage /ədˈvæntɪdʒ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Affluent parents seek to advantage their children by sending them to more prestigious universities",
+                            kurdishText:
+                                "دایک و باوکانی دەوڵەمەند ھەوڵ دەدەن سوود بە منداڵانیان بگەیەنن بە نادنیان بۆ زانکۆ ناودارەکان.",
+                            onPressedBritish: () => speakadvant9436("en-GB"),
+                            onPressedAmerican: () => speakadvant9436(
+                                // REPLACE: advantage /ədˈvæntɪdʒ/
+                                "en-US"),
                           ),
                         ],
                       ),

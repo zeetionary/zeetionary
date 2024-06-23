@@ -109,64 +109,25 @@ class EnglishEntryaint extends StatelessWidget {
                           const DefinitionKurdish(text: """
 ١. (کورتکراوە) کورتکراوە بۆ
 am not/is not/are not"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Things ain't what they used to be."),
-                                    ExampleSentenceKurdish(
-                                        text: "شتەکان وەک جاران نین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaint286599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaint286599(// REPLACE: ain't /eɪnt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Things ain't what they used to be.",
+                            kurdishText: "شتەکان وەک جاران نین.",
+                            onPressedBritish: () => speakaint286599("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaint286599(// REPLACE: ain't /eɪnt/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کورتکراوە) کورتکراوە بۆ
 has not/have not"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I ain't got no money."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ پارەم نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaint8411("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaint8411(// REPLACE: ain't /eɪnt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I ain't got no money.",
+                            kurdishText: "ھیچ پارەم نییە.",
+                            onPressedBritish: () => speakaint8411("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaint8411(// REPLACE: ain't /eɪnt/
+                                    "en-US"),
                           ),
                         ],
                       ),

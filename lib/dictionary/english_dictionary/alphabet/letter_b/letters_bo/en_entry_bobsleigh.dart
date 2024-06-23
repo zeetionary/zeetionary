@@ -145,60 +145,22 @@ class EnglishEntrybobsleigh extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خێشکەی پێشبڕکێ؛ گالیسکەی پێشبڕکێ، یان پێشبڕکێی وەرزشی بەسەر بەفردا بە گالیسکەکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We watched athletes careering down an icy track on bobsleighs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەیری وەرزشوانەکانمان دەکرد بە ڕێگایەکی بەفریندا دەچوونە خوارەوە لە گالیسکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbobsleighs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbobsleighs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We watched athletes careering down an icy track on bobsleighs.",
+                            kurdishText:
+                                "سەیری وەرزشوانەکانمان دەکرد بە ڕێگایەکی بەفریندا دەچوونە خوارەوە لە گالیسکەدا.",
+                            onPressedBritish: () => speakbobsleighs1("en-GB"),
+                            onPressedAmerican: () => speakbobsleighs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was the first female bobsleigh team."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە یەکەمین تیمی ئافرەتانی گالیسکەوانی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbobsleighs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbobsleighs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was the first female bobsleigh team.",
+                            kurdishText:
+                                "ئەوە یەکەمین تیمی ئافرەتانی گالیسکەوانی بوو.",
+                            onPressedBritish: () => speakbobsleighs2("en-GB"),
+                            onPressedAmerican: () => speakbobsleighs2("en-US"),
                           ),
                         ],
                       ),

@@ -140,30 +140,12 @@ class EnglishEntrybullseye extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ناوەڕاستی ئامانجێک کە تەقەی لێ دەکەیت، یان تیری بۆ داھاوێژیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He scored a bullseye."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ناوەڕاستی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bullseye", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbullseyes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbullseyes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He scored a bullseye.",
+                            kurdishText:
+                                "لە ناوەڕاستی دا.", // bullseye", follow LX strictly
+                            onPressedBritish: () => speakbullseyes1("en-GB"),
+                            onPressedAmerican: () => speakbullseyes1("en-US"),
                           ),
                         ],
                       ),

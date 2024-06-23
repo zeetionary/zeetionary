@@ -164,98 +164,41 @@ class EnglishEntryassist extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) یارمەتی‌دان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are looking for people who would be willing to assist in the group's work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ کەسانێک دەگەڕێین کە ئامادەبن یارمەتیدەربن لە کاری گرووپەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassist848("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassist848(
-                                        // REPLACE: assist /əˈsɪst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are looking for people who would be willing to assist in the group's work.",
+                            kurdishText:
+                                "بۆ کەسانێک دەگەڕێین کە ئامادەبن یارمەتیدەربن لە کاری گرووپەکە.",
+                            onPressedBritish: () => speakassist848("en-GB"),
+                            onPressedAmerican: () => speakassist848(
+                                // REPLACE: assist /əˈsɪst/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His task is to advise and assist his colleagues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەرکەکەی ئەوەیە ڕاوێژ بدات بە ھاوکارەکانی و یارمەتییان بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassist849("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassist849(
-                                        // REPLACE: assist /əˈsɪst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His task is to advise and assist his colleagues.",
+                            kurdishText:
+                                "ئەرکەکەی ئەوەیە ڕاوێژ بدات بە ھاوکارەکانی و یارمەتییان بدات.",
+                            onPressedBritish: () => speakassist849("en-GB"),
+                            onPressedAmerican: () => speakassist849(
+                                // REPLACE: assist /əˈsɪst/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) یارمەتیدان بۆ ڕوودانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Volcanic eruptions like this probably assisted the development of life on this planet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەقینەوەی گڕکانی وەک ئەمە ئەگەری ھەیە یارمەتیدەر بووبن لە گەشەی ژیان لەسەر زەوی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassist852("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassist852(
-                                        // REPLACE: assist /əˈsɪst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Volcanic eruptions like this probably assisted the development of life on this planet.",
+                            kurdishText:
+                                "تەقینەوەی گڕکانی وەک ئەمە ئەگەری ھەیە یارمەتیدەر بووبن لە گەشەی ژیان لەسەر زەوی.",
+                            onPressedBritish: () => speakassist852("en-GB"),
+                            onPressedAmerican: () => speakassist852(
+                                // REPLACE: assist /əˈsɪst/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

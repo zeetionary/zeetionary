@@ -112,35 +112,16 @@ class EnglishEntryairconditioner extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئامێرێک کە ھەوای ناو ژوور یان ئۆتۆمبێل دەگۆڕێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The room temperature was controlled by using an air conditioner."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلەی گەرمیی ژوورەکە کۆنترۆڵ کرابوو بە بەکارھێنانی ھەواگۆڕکێیەک/فێنککەرەوەیەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakairconditio3411("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairconditio3411(
-                                        // REPLACE: air conditioner /ˈer kəndɪʃənər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The room temperature was controlled by using an air conditioner.",
+                            kurdishText:
+                                "پلەی گەرمیی ژوورەکە کۆنترۆڵ کرابوو بە بەکارھێنانی ھەواگۆڕکێیەک/فێنککەرەوەیەک.",
+                            onPressedBritish: () =>
+                                speakairconditio3411("en-GB"),
+                            onPressedAmerican: () => speakairconditio3411(
+                                // REPLACE: air conditioner /ˈer kəndɪʃənər/
+                                "en-US"),
                           ),
                         ],
                       ),

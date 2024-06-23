@@ -164,34 +164,14 @@ class EnglishEntryauburn extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ڕەنگی قاوەیی مەیلەو سوور" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has a freckled complexion and auburn hair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووخساری خاڵاوی و قژی خورمایی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauburn1140("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauburn1140(// REPLACE: auburn
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has a freckled complexion and auburn hair.",
+                            kurdishText: "ڕووخساری خاڵاوی و قژی خورمایی ھەیە.",
+                            onPressedBritish: () => speakauburn1140("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauburn1140(// REPLACE: auburn
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

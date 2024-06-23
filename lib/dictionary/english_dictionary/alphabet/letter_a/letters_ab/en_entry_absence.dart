@@ -108,62 +108,24 @@ class EnglishEntryabsence extends StatelessWidget {
                               text:
                                   "١. (ناو) کاتێک کەسێک لە شوێنێک ئامادە نییە لەکاتێکدا زۆرینەی کات لەوێیە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We did not receive any news during his long absence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ ھەواڵێکمان پێنەگەیشت لەو ماوە زۆرەی بزر بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2689("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2689("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We did not receive any news during his long absence.",
+                            kurdishText:
+                                "ھیچ ھەواڵێکمان پێنەگەیشت لەو ماوە زۆرەی بزر بوو.",
+                            onPressedBritish: () => speaka2689("en-GB"),
+                            onPressedAmerican: () => speaka2689("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کاتی نەبوونی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The case was dismissed in the absence of any definite proof."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەیسەکە کۆتایی پێھێنرا بەھۆی نەبوونی بەڵگەی ئاشکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2134("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2134("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The case was dismissed in the absence of any definite proof.",
+                            kurdishText:
+                                "کەیسەکە کۆتایی پێھێنرا بەھۆی نەبوونی بەڵگەی ئاشکرا.",
+                            onPressedBritish: () => speaka2134("en-GB"),
+                            onPressedAmerican: () => speaka2134("en-US"),
                           ),
                         ],
                       ),

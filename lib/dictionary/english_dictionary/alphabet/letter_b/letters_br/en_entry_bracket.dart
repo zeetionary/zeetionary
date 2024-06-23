@@ -151,208 +151,73 @@ class EnglishEntrybracket extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەوانەی وەک () یان [] کە لە نووسیندا زانیاری زیادە لە ناویاندا دەنووسرێت. لە بیرکاریدا بەشێک لە ھاوکێشە لە ناو () دەنووسرێت. لە نووسیندا لێدوانی نووسەر لە ناو [] دەنووسرێت."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Publication dates are given in brackets after each title."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای ھەر ناونیشانێک ساڵی بڵاوکردنەوە دەدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrackets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Publication dates are given in brackets after each title.",
+                            kurdishText:
+                                "لە دوای ھەر ناونیشانێک ساڵی بڵاوکردنەوە دەدرێت.",
+                            onPressedBritish: () => speakbrackets1("en-GB"),
+                            onPressedAmerican: () => speakbrackets1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Add the numbers in brackets first."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەتا ژمارەکان لە کەوانەدا بنووسە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrackets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Add the numbers in brackets first.",
+                            kurdishText: "سەرەتا ژمارەکان لە کەوانەدا بنووسە.",
+                            onPressedBritish: () => speakbrackets2("en-GB"),
+                            onPressedAmerican: () => speakbrackets2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) مەودایەکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People in the lower income brackets will not be able to afford this."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسانی کۆمەڵەی کەمدەرامەت ناتوانن پارەی ئەمە دابین بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrackets3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackets3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People in the lower income brackets will not be able to afford this.",
+                            kurdishText:
+                                "کەسانی کۆمەڵەی کەمدەرامەت ناتوانن پارەی ئەمە دابین بکەن.",
+                            onPressedBritish: () => speakbrackets3("en-GB"),
+                            onPressedAmerican: () => speakbrackets3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most of the houses are out of our price bracket."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی خانووەکان لە سەرەوەی ڕێژەی پارەی ئێمەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrackets4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackets4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most of the houses are out of our price bracket.",
+                            kurdishText:
+                                "زۆرینەی خانووەکان لە سەرەوەی ڕێژەی پارەی ئێمەیە.",
+                            onPressedBritish: () => speakbrackets4("en-GB"),
+                            onPressedAmerican: () => speakbrackets4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) نووسینی زانیاری یان ژمارە لە ناو کەوانەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've bracketed the parts of the text that could be omitted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو بەشانەی نووسینەکەم خستووەتە کەوانەوە کە دەکرێت لاببرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrackets5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackets5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've bracketed the parts of the text that could be omitted.",
+                            kurdishText:
+                                "ئەو بەشانەی نووسینەکەم خستووەتە کەوانەوە کە دەکرێت لاببرێن.",
+                            onPressedBritish: () => speakbrackets5("en-GB"),
+                            onPressedAmerican: () => speakbrackets5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) دادانی خەڵکی یان شت لە ھەمان کۆمەڵەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is unfair to bracket together those who cannot work with those who will not."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نادادییە ئەوانەی کە ناتوانن کار بکەن و ئەوانەی کە کار ناکەن لە ھەمان کۆمەڵە پۆلێن بکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrackets6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackets6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is unfair to bracket together those who cannot work with those who will not.",
+                            kurdishText:
+                                "نادادییە ئەوانەی کە ناتوانن کار بکەن و ئەوانەی کە کار ناکەن لە ھەمان کۆمەڵە پۆلێن بکرێن.",
+                            onPressedBritish: () => speakbrackets6("en-GB"),
+                            onPressedAmerican: () => speakbrackets6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two writers are often bracketed together by critics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو نووسەرەکە زۆرجار لەلایەن ڕەخنەگرانەوە پێکەوە ناودەھێنرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrackets7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackets7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two writers are often bracketed together by critics.",
+                            kurdishText:
+                                "دوو نووسەرەکە زۆرجار لەلایەن ڕەخنەگرانەوە پێکەوە ناودەھێنرێن.",
+                            onPressedBritish: () => speakbrackets7("en-GB"),
+                            onPressedAmerican: () => speakbrackets7("en-US"),
                           ),
                         ],
                       ),

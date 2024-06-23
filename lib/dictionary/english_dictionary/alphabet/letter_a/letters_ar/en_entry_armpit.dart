@@ -161,34 +161,14 @@ class EnglishEntryarmpit extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ناو) بن‌باڵ؛ بەشی خوارەوەی جومگەی شان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "To my mind, a hairless armpit looks unnatural."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ من، بن‌باڵی بێ موو نا سرووشتییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmpit412("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmpit412(
-                                        // REPLACE: armpit /ˈɑːrmpɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "To my mind, a hairless armpit looks unnatural.",
+                            kurdishText: "بۆ من، بن‌باڵی بێ موو نا سرووشتییە.",
+                            onPressedBritish: () => speakarmpit412("en-GB"),
+                            onPressedAmerican: () => speakarmpit412(
+                                // REPLACE: armpit /ˈɑːrmpɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

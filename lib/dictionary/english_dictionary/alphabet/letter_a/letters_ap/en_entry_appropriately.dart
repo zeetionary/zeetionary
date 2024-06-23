@@ -159,35 +159,16 @@ class EnglishEntryappropriately extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بە گونجاوی و درووستی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government has been accused of not responding appropriately to the needs of the homeless."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت تاوانبار کراوە بە وەڵام‌نەدانەوەی گونجاو بۆ پێداویستییەکانی کەسانی بێ‌لانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappropriately414("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappropriately414(
-                                        // REPLACE: appropriately /əˈprəʊpriətli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government has been accused of not responding appropriately to the needs of the homeless.",
+                            kurdishText:
+                                "حکومەت تاوانبار کراوە بە وەڵام‌نەدانەوەی گونجاو بۆ پێداویستییەکانی کەسانی بێ‌لانە.",
+                            onPressedBritish: () =>
+                                speakappropriately414("en-GB"),
+                            onPressedAmerican: () => speakappropriately414(
+                                // REPLACE: appropriately /əˈprəʊpriətli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

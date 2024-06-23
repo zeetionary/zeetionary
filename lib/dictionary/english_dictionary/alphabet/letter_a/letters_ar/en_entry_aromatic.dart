@@ -162,34 +162,13 @@ class EnglishEntryaromatic extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) بوونی بۆنێکی خۆش کە بە ئاسانی ھەستی پێ‌دەکرێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plant is strongly aromatic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووەکەکە بۆنێکی توندی خۆشی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaromatic857("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaromatic857(
-                                        // REPLACE: aromatic /ˌærəˈmætɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The plant is strongly aromatic.",
+                            kurdishText: "ڕووەکەکە بۆنێکی توندی خۆشی ھەیە.",
+                            onPressedBritish: () => speakaromatic857("en-GB"),
+                            onPressedAmerican: () => speakaromatic857(
+                                // REPLACE: aromatic /ˌærəˈmætɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

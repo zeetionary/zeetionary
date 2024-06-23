@@ -144,91 +144,33 @@ class EnglishEntrybrowser extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پڕۆگرامێکی کۆمپیوتەری کە بەکاردێت بۆ گيران بە ئینتەرنێت و خوێندنەوە تێیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What do you use as your default browser?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چی وەک وێب‌گەڕۆکێکی پێش‌ھەڵبژاردەت (سەرەکی) بەکاردێنیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "browser" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrowsers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrowsers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What do you use as your default browser?",
+                            kurdishText:
+                                "چی وەک وێب‌گەڕۆکێکی پێش‌ھەڵبژاردەت (سەرەکی) بەکاردێنیت؟", // browser" as
+                            onPressedBritish: () => speakbrowsers1("en-GB"),
+                            onPressedAmerican: () => speakbrowsers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Google Chrome is the most popular browser."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرۆمی گووگڵ بەربڵاوترین براوزەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrowsers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrowsers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Google Chrome is the most popular browser.",
+                            kurdishText: "کرۆمی گووگڵ بەربڵاوترین براوزەرە.",
+                            onPressedBritish: () => speakbrowsers2("en-GB"),
+                            onPressedAmerican: () => speakbrowsers2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە سەیری گۆڤار، کتێب، ھتد یان شت بۆ فرۆشتن دەکات بەڵام ڕەنگە مەبەستی نەبێت ھیچ بکڕێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were one or two browsers in the bookstore."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەک دوو کڕیار لە کتێب فرۆشییەکەدا بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrowsers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrowsers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were one or two browsers in the bookstore.",
+                            kurdishText:
+                                "یەک دوو کڕیار لە کتێب فرۆشییەکەدا بوون.",
+                            onPressedBritish: () => speakbrowsers3("en-GB"),
+                            onPressedAmerican: () => speakbrowsers3("en-US"),
                           ),
                         ],
                       ),

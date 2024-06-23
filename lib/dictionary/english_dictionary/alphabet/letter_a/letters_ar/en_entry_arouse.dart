@@ -163,133 +163,54 @@ class EnglishEntryarouse extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) وا لە کەسێک بکەیت ھەستێک یان ڕەفتارێکی دیاریکراو بنوێنێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her strange behaviour aroused our suspicions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەفتارە نامۆکەی گومانی درووست‌کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarouse1147("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarouse1147(
-                                        // REPLACE: arouse /əˈraʊz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her strange behaviour aroused our suspicions.",
+                            kurdishText: "ڕەفتارە نامۆکەی گومانی درووست‌کرد.",
+                            onPressedBritish: () => speakarouse1147("en-GB"),
+                            onPressedAmerican: () => speakarouse1147(
+                                // REPLACE: arouse /əˈraʊz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ورووژاندنی کەسێک لە لایەنی سێکسییەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Girls who wear perfume arouse him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو کچانەی بۆن لە خۆیان دەدەن دەیورووژێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarouse1154("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarouse1154(
-                                        // REPLACE: arouse /əˈraʊz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Girls who wear perfume arouse him.",
+                            kurdishText:
+                                "ئەو کچانەی بۆن لە خۆیان دەدەن دەیورووژێنن.",
+                            onPressedBritish: () => speakarouse1154("en-GB"),
+                            onPressedAmerican: () => speakarouse1154(
+                                // REPLACE: arouse /əˈraʊz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) چالاککردنی کەسێک بۆ کردنی کارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The whole community was aroused by the crime."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی گەڕەکەکە بە تاوانەکە ڕاپەڕین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarouse1155("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarouse1155(
-                                        // REPLACE: arouse /əˈraʊz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The whole community was aroused by the crime.",
+                            kurdishText: "تەواوی گەڕەکەکە بە تاوانەکە ڕاپەڕین.",
+                            onPressedBritish: () => speakarouse1155("en-GB"),
+                            onPressedAmerican: () => speakarouse1155(
+                                // REPLACE: arouse /əˈraʊz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) لە خەو ھەستاندن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was aroused from a deep sleep by a loud noise."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە دەنگێکی بەرز لە خەوێکی قووڵ ھەستا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarouse1157("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarouse1157(
-                                        // REPLACE: arouse /əˈraʊz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was aroused from a deep sleep by a loud noise.",
+                            kurdishText:
+                                "بە دەنگێکی بەرز لە خەوێکی قووڵ ھەستا.",
+                            onPressedBritish: () => speakarouse1157("en-GB"),
+                            onPressedAmerican: () => speakarouse1157(
+                                // REPLACE: arouse /əˈraʊz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

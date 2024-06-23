@@ -153,185 +153,71 @@ class EnglishEntrybay extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەنداو؛ بەشێک لە دەریایەک کە بە قەسێک لە خاک دەوردراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We sailed into a beautiful, secluded bay."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چووینە ناو کەنداوێکی جوان و دوورەپەرێز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbays1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbays1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We sailed into a beautiful, secluded bay.",
+                            kurdishText:
+                                "چووینە ناو کەنداوێکی جوان و دوورەپەرێز.",
+                            onPressedBritish: () => speakbays1("en-GB"),
+                            onPressedAmerican: () => speakbays1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بەشێکی دیاریکراو کە دەکرێت لە دەرەوە یان ناوەوەی بینایەک بێت، بۆ نموونە دەکرێت بەکاربێت بۆ وەستاندنی ئۆتۆمبێل، یان کۆگاکردنی شتومەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Put the equipment in No 3 bay."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەلوپەلەکان بخە بەشی سێیەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbays2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbays2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Put the equipment in No 3 bay.",
+                            kurdishText: "کەلوپەلەکان بخە بەشی سێیەم.",
+                            onPressedBritish: () => speakbays2("en-GB"),
+                            onPressedAmerican: () => speakbays2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ناوچەیەکی چەماوەی ژوورێک یان بینایەک کە دەرچووە لە بەشەکانی تری بیناکەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bay window provided a beautiful view of the garden."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجەرە دەرپەڕیوەکە دەیڕوانی بەسەر دیمەنێکی جوانی باخچەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbays3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbays3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bay window provided a beautiful view of the garden.",
+                            kurdishText:
+                                "پەنجەرە دەرپەڕیوەکە دەیڕوانی بەسەر دیمەنێکی جوانی باخچەکەدا.",
+                            onPressedBritish: () => speakbays3("en-GB"),
+                            onPressedAmerican: () => speakbays3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ئەسپێکی ڕەنگ قاوەیی تاریک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was riding a big bay."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوارچاکی ئەسپێکی قاوەیی گەورەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbays4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbays4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was riding a big bay.",
+                            kurdishText:
+                                "سوارچاکی ئەسپێکی قاوەیی گەورەی دەکرد.",
+                            onPressedBritish: () => speakbays4("en-GB"),
+                            onPressedAmerican: () => speakbays4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) دەرکردنی دەنگێکی قووڵ و درێژ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dog bayed incessantly, alerting its owner to something unusual."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگەکان بەردەوام دەیان‌حەپاند وەک ئاگادارکردنەوەی خاوەنەکە کە شتێک نامۆیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbays5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbays5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dog bayed incessantly, alerting its owner to something unusual.",
+                            kurdishText:
+                                "سەگەکان بەردەوام دەیان‌حەپاند وەک ئاگادارکردنەوەی خاوەنەکە کە شتێک نامۆیە.",
+                            onPressedBritish: () => speakbays5("en-GB"),
+                            onPressedAmerican: () => speakbays5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
 
                           const DefinitionKurdish(text: """
 ٦. (کردار) داواکردنی شتێل بە دەنگێکی بەرز و تووڕە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The referee's decision left the crowd baying for blood (= threatening violence towards him)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیاری دادوەرەکە وای لە جەماوەرەکە کرد داوای سزا بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbays6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbays6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The referee's decision left the crowd baying for blood (= threatening violence towards him).",
+                            kurdishText:
+                                "بڕیاری دادوەرەکە وای لە جەماوەرەکە کرد داوای سزا بکەن.",
+                            onPressedBritish: () => speakbays6("en-GB"),
+                            onPressedAmerican: () => speakbays6("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

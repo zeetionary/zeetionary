@@ -116,64 +116,25 @@ class EnglishEntryairspace extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئاسمانی وڵاتێک کە لەلایەن ئەو وڵاتەوە کۆنترۆڵ کراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The airspace over Europe is becoming more and more crowded."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاسمانی ئەورووپا زیاتر و زیاتر قەرەباڵغ دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairspace4355("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairspace4355(
-                                        // REPLACE: airspace /ˈerspeɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The airspace over Europe is becoming more and more crowded.",
+                            kurdishText:
+                                "ئاسمانی ئەورووپا زیاتر و زیاتر قەرەباڵغ دەبێت.",
+                            onPressedBritish: () => speakairspace4355("en-GB"),
+                            onPressedAmerican: () => speakairspace4355(
+                                // REPLACE: airspace /ˈerspeɪs/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The jet entered Chinese airspace without permission."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەکە چووە ئاسمانی چین بەبێ مۆڵەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairspace5366("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairspace5366(
-                                        // REPLACE: airspace /ˈerspeɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The jet entered Chinese airspace without permission.",
+                            kurdishText: "فڕۆکەکە چووە ئاسمانی چین بەبێ مۆڵەت.",
+                            onPressedBritish: () => speakairspace5366("en-GB"),
+                            onPressedAmerican: () => speakairspace5366(
+                                // REPLACE: airspace /ˈerspeɪs/
+                                "en-US"),
                           ),
                         ],
                       ),

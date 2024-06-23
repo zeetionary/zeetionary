@@ -113,33 +113,14 @@ class EnglishEntryactivate extends StatelessWidget {
                               text:
                                   "١. (کردار) چالاککردنی شتێک، بۆ نموونە ئامێرێک یان پڕۆسەیەکی کیمیایی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The gene is activated by a specific protein."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جینەکە لەلایەن پڕۆتینێکی تایبەتەوە چالاک دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakact2537("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakact2537(
-                                        "en-US"), // REPLACE activate /ˈæktɪveɪt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The gene is activated by a specific protein.",
+                            kurdishText:
+                                "جینەکە لەلایەن پڕۆتینێکی تایبەتەوە چالاک دەکرێت.",
+                            onPressedBritish: () => speakact2537("en-GB"),
+                            onPressedAmerican: () => speakact2537(
+                                "en-US"), // REPLACE activate /ˈæktɪveɪt/
                           ),
                         ],
                       ),

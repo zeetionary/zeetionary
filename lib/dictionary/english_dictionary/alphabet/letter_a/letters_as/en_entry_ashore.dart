@@ -162,63 +162,25 @@ class EnglishEntryashore extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) لە ئاوەوە بۆ سەر وشکانی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We swam ashore."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەرەو وشکانی مەلەمان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakashore607("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakashore607(
-                                        // REPLACE: ashore /əˈʃɔːr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We swam ashore.",
+                            kurdishText: "بەرەو وشکانی مەلەمان کرد.",
+                            onPressedBritish: () => speakashore607("en-GB"),
+                            onPressedAmerican: () => speakashore607(
+                                // REPLACE: ashore /əˈʃɔːr/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A few pieces of wood had washed ashore."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەند پارچە تەختەیەک ھاتبوونە سەر وشکانییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakashore609("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakashore609(
-                                        // REPLACE: ashore /əˈʃɔːr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A few pieces of wood had washed ashore.",
+                            kurdishText:
+                                "چەند پارچە تەختەیەک ھاتبوونە سەر وشکانییەکە.",
+                            onPressedBritish: () => speakashore609("en-GB"),
+                            onPressedAmerican: () => speakashore609(
+                                // REPLACE: ashore /əˈʃɔːr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

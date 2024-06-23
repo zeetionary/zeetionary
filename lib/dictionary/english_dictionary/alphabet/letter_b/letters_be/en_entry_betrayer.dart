@@ -150,32 +150,13 @@ class EnglishEntrybetrayer extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێکی خیانەتکار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Judas Iscariot is remembered as Christ's betrayer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەھودا ئیسخاریۆت وەک خیانەتکار لە پێغەمبەر عیسا بەبیردەھێندرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetrayers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetrayers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Judas Iscariot is remembered as Christ's betrayer.",
+                            kurdishText:
+                                "یەھودا ئیسخاریۆت وەک خیانەتکار لە پێغەمبەر عیسا بەبیردەھێندرێتەوە.",
+                            onPressedBritish: () => speakbetrayers1("en-GB"),
+                            onPressedAmerican: () => speakbetrayers1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

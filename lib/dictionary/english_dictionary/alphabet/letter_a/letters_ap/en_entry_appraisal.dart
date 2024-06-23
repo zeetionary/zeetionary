@@ -161,96 +161,38 @@ class EnglishEntryappraisal extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) نرخاندنی نرخ و بەھای شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The report has been subject to appraisal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاپۆرتەکە بە لێکدانەوەدا تێپەڕبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappraisal930("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappraisal930(
-                                        // REPLACE: appraisal /əˈpreɪzl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The report has been subject to appraisal.",
+                            kurdishText: "ڕاپۆرتەکە بە لێکدانەوەدا تێپەڕبووە.",
+                            onPressedBritish: () => speakappraisal930("en-GB"),
+                            onPressedAmerican: () => speakappraisal930(
+                                // REPLACE: appraisal /əˈpreɪzl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A detailed appraisal of the scheme will now be carried out."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسەنگاندنێکی وردی پلانەکە ئەنجام دەدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappraisal932("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappraisal932(
-                                        // REPLACE: appraisal /əˈpreɪzl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A detailed appraisal of the scheme will now be carried out.",
+                            kurdishText:
+                                "ھەڵسەنگاندنێکی وردی پلانەکە ئەنجام دەدرێت.",
+                            onPressedBritish: () => speakappraisal932("en-GB"),
+                            onPressedAmerican: () => speakappraisal932(
+                                // REPLACE: appraisal /əˈpreɪzl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کۆبوونەوەیەک کە تێیدا کارمەندێک باسی کارەکەی بۆ بەڕێوبەرەکەی دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I have my appraisal today."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەمڕۆ ڕۆژی ھەڵسەنگاندنمە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappraisal935("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappraisal935(
-                                        // REPLACE: appraisal /əˈpreɪzl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I have my appraisal today.",
+                            kurdishText: "ئەمڕۆ ڕۆژی ھەڵسەنگاندنمە.",
+                            onPressedBritish: () => speakappraisal935("en-GB"),
+                            onPressedAmerican: () => speakappraisal935(
+                                // REPLACE: appraisal /əˈpreɪzl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

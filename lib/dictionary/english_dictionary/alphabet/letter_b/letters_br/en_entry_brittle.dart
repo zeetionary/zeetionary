@@ -148,208 +148,73 @@ class EnglishEntrybrittle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شتێک کە سەختە بەڵام ئاسان دەشکێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The paint was brittle with age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تابلۆکە بە تێپەڕبوونی کات ناسک بووبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brittle" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrittles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrittles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The paint was brittle with age.",
+                            kurdishText:
+                                "تابلۆکە بە تێپەڕبوونی کات ناسک بووبوو.", // brittle" as
+                            onPressedBritish: () => speakbrittles1("en-GB"),
+                            onPressedAmerican: () => speakbrittles1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As you get older your bones become increasingly brittle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە دەچیت بە تەمەندا ئێسکەکانت زیاتر ھەستیار دەبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrittles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrittles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As you get older your bones become increasingly brittle.",
+                            kurdishText:
+                                "کە دەچیت بە تەمەندا ئێسکەکانت زیاتر ھەستیار دەبن.",
+                            onPressedBritish: () => speakbrittles2("en-GB"),
+                            onPressedAmerican: () => speakbrittles2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The pond was covered in a brittle layer of ice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆنگاوەکە بە چینێک لە شەختەی ناسک داپۆشرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrittles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrittles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The pond was covered in a brittle layer of ice.",
+                            kurdishText:
+                                "زۆنگاوەکە بە چینێک لە شەختەی ناسک داپۆشرابوو.",
+                            onPressedBritish: () => speakbrittles3("en-GB"),
+                            onPressedAmerican: () => speakbrittles3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) کەشێک کە تێیدا کەسێک دڵخۆش و بەھێز دەردەکەوێت بەڵام لە ڕاستیدا قەلەقە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The character she plays is successful but emotionally brittle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو کارەکتەرەی ڕۆڵەکەی دەگێڕێت سەرکەوتووە بەڵام لە ڕووی سۆزەوە زووھەڵچووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrittles4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrittles4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The character she plays is successful but emotionally brittle.",
+                            kurdishText:
+                                "ئەو کارەکتەرەی ڕۆڵەکەی دەگێڕێت سەرکەوتووە بەڵام لە ڕووی سۆزەوە زووھەڵچووە.",
+                            onPressedBritish: () => speakbrittles4("en-GB"),
+                            onPressedAmerican: () => speakbrittles4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She greeted him with a brittle smile."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە بزەیەکی ساختەوە خێراتنی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrittles5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrittles5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She greeted him with a brittle smile.",
+                            kurdishText: "بە بزەیەکی ساختەوە خێراتنی کرد.",
+                            onPressedBritish: () => speakbrittles5("en-GB"),
+                            onPressedAmerican: () => speakbrittles5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) دەنگێکی زیق"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘Not at all,’ she said in a brittle voice, avoiding his eye."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە دەنگێکی زیقەوە و دوورگرتنی چاوی گوتی 'شایەنی نییە'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrittles6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrittles6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘Not at all,’ she said in a brittle voice, avoiding his eye.",
+                            kurdishText:
+                                "بە دەنگێکی زیقەوە و دوورگرتنی چاوی گوتی 'شایەنی نییە'.",
+                            onPressedBritish: () => speakbrittles6("en-GB"),
+                            onPressedAmerican: () => speakbrittles6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) شیرینییەکی ڕەق کە لە کەرە و شەکر درووست دەکرێت و بستەی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They gave us pieces of almond brittle coated in chocolate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شیرینی بادەمیان پێمان دا کە بە چکلێت داپۆشرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrittles7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrittles7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They gave us pieces of almond brittle coated in chocolate.",
+                            kurdishText:
+                                "شیرینی بادەمیان پێمان دا کە بە چکلێت داپۆشرابوو.",
+                            onPressedBritish: () => speakbrittles7("en-GB"),
+                            onPressedAmerican: () => speakbrittles7("en-US"),
                           ),
                         ],
                       ),

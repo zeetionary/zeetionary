@@ -162,34 +162,15 @@ class EnglishEntryarmistice extends StatelessWidget {
                               text:
                                   "١. (ناو) ڕێککەوتنێکی فەرمی لە کاتی جەنگدا بۆ کۆتایی ھێنان بە جەنگ و دەستپێ‌کردنی گفروگۆی ئاشتی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The armistice was signed on 4 December."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگربەستەکە واژۆکرا لە ڕۆژی ٥ی کانوونی یەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmistice508("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmistice508(
-                                        // REPLACE: armistice /ˈɑːrmɪstɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The armistice was signed on 4 December.",
+                            kurdishText:
+                                "ئاگربەستەکە واژۆکرا لە ڕۆژی ٥ی کانوونی یەکەم.",
+                            onPressedBritish: () => speakarmistice508("en-GB"),
+                            onPressedAmerican: () => speakarmistice508(
+                                // REPLACE: armistice /ˈɑːrmɪstɪs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

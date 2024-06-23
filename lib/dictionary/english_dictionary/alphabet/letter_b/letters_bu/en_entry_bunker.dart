@@ -195,121 +195,44 @@ class EnglishEntrybunker extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پەناگەیەکی بەھێزی سەربازی بۆ سەرباز یان تەقەمەنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The military strategically positioned bunkers along the border for defensive purposes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوپا بەشێوەیەکی ستراتیژی پەناگەی دانا بەدرێژایی سنوورەکە بۆ مەبەستی بەرگری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bunker", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunkers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunkers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The military strategically positioned bunkers along the border for defensive purposes.",
+                            kurdishText:
+                                "سوپا بەشێوەیەکی ستراتیژی پەناگەی دانا بەدرێژایی سنوورەکە بۆ مەبەستی بەرگری.", // bunker", follow LX strictly
+                            onPressedBritish: () => speakbunkers1("en-GB"),
+                            onPressedAmerican: () => speakbunkers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "During the war, families sought refuge in the bunker when air raid sirens sounded."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتی جەنگەکە خێزانەکان خۆیان داڵدە دا لە پەناگەکە کە دەنگی ئاگادارکەرەوەی ھێرشی ئاسمانی دەھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunkers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunkers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "During the war, families sought refuge in the bunker when air raid sirens sounded.",
+                            kurdishText:
+                                "لە کاتی جەنگەکە خێزانەکان خۆیان داڵدە دا لە پەناگەکە کە دەنگی ئاگادارکەرەوەی ھێرشی ئاسمانی دەھات.",
+                            onPressedBritish: () => speakbunkers2("en-GB"),
+                            onPressedAmerican: () => speakbunkers2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شوێنی کۆگاکردنی خەڵووز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A coal bunker on the steam train ensured a steady supply for the journey."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵووزدانێک لە شەمەندەفەرە ھەڵمییەکەدا دڵنیایی دا لە ھەبوونی سەرچاوەیەکی (وزەی) بەردەوام بۆ گەشتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunkers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunkers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A coal bunker on the steam train ensured a steady supply for the journey.",
+                            kurdishText:
+                                "خەڵووزدانێک لە شەمەندەفەرە ھەڵمییەکەدا دڵنیایی دا لە ھەبوونی سەرچاوەیەکی (وزەی) بەردەوام بۆ گەشتەکە.",
+                            onPressedBritish: () => speakbunkers3("en-GB"),
+                            onPressedAmerican: () => speakbunkers3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) لە یاری گۆڵفدا بەشێکە لە گۆڕەپانەکە کە پڕکراوە لە خۆڵ و ئاسان نییە تۆپەکەی لێ دەربکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He hit his second shot into a bunker."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووەم لێدانی خستە چاڵە خۆڵەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunkers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunkers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He hit his second shot into a bunker.",
+                            kurdishText: "دووەم لێدانی خستە چاڵە خۆڵەکەوە.",
+                            onPressedBritish: () => speakbunkers4("en-GB"),
+                            onPressedAmerican: () => speakbunkers4("en-US"),
                           ),
                         ],
                       ),

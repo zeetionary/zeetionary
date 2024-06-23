@@ -160,133 +160,57 @@ class EnglishEntryanswerable extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) بوونی پێویستیی وەڵامدانەوە بەرامبەر کەسێک کە دەسەڵاتی بەسەرت ھەیە یان شتێک، بۆ نموونە یاسا، کە کۆنترۆڵی کردارەکانت دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was a free agent, answerable to no one for her behaviour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیخوڕێکی سەربەخۆ بوو کە پێویست نەبوو وەڵامی ھیچ کەس بداتەوە بۆ ڕەفتارەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanswerable1100("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswerable1100(
-                                        // REPLACE: answerable /ˈænsərəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was a free agent, answerable to no one for her behaviour.",
+                            kurdishText:
+                                "سیخوڕێکی سەربەخۆ بوو کە پێویست نەبوو وەڵامی ھیچ کەس بداتەوە بۆ ڕەفتارەکانی.",
+                            onPressedBritish: () =>
+                                speakanswerable1100("en-GB"),
+                            onPressedAmerican: () => speakanswerable1100(
+                                // REPLACE: answerable /ˈænsərəbl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Any European central bank should be directly answerable to the European Parliament."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەر بانکێکی ئەورووپی دەبێت ڕاستەوخۆ لەژێر چاودێری/بەرپرسیار بێت بەرامبەر یەکێتیی ئەورووپا بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanswerable1102("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswerable1102(
-                                        // REPLACE: answerable /ˈænsərəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Any European central bank should be directly answerable to the European Parliament.",
+                            kurdishText:
+                                "ھەر بانکێکی ئەورووپی دەبێت ڕاستەوخۆ لەژێر چاودێری/بەرپرسیار بێت بەرامبەر یەکێتیی ئەورووپا بێت.",
+                            onPressedBritish: () =>
+                                speakanswerable1102("en-GB"),
+                            onPressedAmerican: () => speakanswerable1102(
+                                // REPLACE: answerable /ˈænsərəbl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بەرپرسیار بۆ شتێک و ھەبوونی ئامادەیی وەرگرتنی سزا بۆی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ministers must be made answerable for their decisions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەزیرەکان دەبێت بەرپرسیاربن بۆ بڕیارەکانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanswerable1104("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswerable1104(
-                                        // REPLACE: answerable /ˈænsərəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ministers must be made answerable for their decisions.",
+                            kurdishText:
+                                "وەزیرەکان دەبێت بەرپرسیاربن بۆ بڕیارەکانیان.",
+                            onPressedBritish: () =>
+                                speakanswerable1104("en-GB"),
+                            onPressedAmerican: () => speakanswerable1104(
+                                // REPLACE: answerable /ˈænsərəbl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Soldiers who obey orders to commit atrocities should be answerable for their crimes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو سەربازانەی گوێ‌ڕایەڵی ئەنجامدانی تاوانی جەنگ دەکەن دەبێت ئامادەی وەرگرتنی سزابن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanswerable1106("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswerable1106(
-                                        // REPLACE: answerable /ˈænsərəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Soldiers who obey orders to commit atrocities should be answerable for their crimes.",
+                            kurdishText:
+                                "ئەو سەربازانەی گوێ‌ڕایەڵی ئەنجامدانی تاوانی جەنگ دەکەن دەبێت ئامادەی وەرگرتنی سزابن.",
+                            onPressedBritish: () =>
+                                speakanswerable1106("en-GB"),
+                            onPressedAmerican: () => speakanswerable1106(
+                                // REPLACE: answerable /ˈænsərəbl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

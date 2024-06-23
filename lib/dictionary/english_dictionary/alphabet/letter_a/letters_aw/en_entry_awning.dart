@@ -158,34 +158,15 @@ class EnglishEntryawning extends StatelessWidget {
                               text:
                                   "١. (ناو) پارچە چادرێک کە دەدرێت بەسەر دەرگایەکدا بۆ ڕێگری لە تیشکی خۆر"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We sat under the blue and white awning of the cafe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەژێر ساباتە ڕەنگ شین و سپییەکەی قاوەخانەکە دانیشتین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawnings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawnings1(// REPLACE: awning
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We sat under the blue and white awning of the cafe.",
+                            kurdishText:
+                                "لەژێر ساباتە ڕەنگ شین و سپییەکەی قاوەخانەکە دانیشتین.",
+                            onPressedBritish: () => speakawnings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawnings1(// REPLACE: awning
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

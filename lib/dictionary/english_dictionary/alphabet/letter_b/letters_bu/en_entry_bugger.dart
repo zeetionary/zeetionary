@@ -144,180 +144,64 @@ class EnglishEntrybugger extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) وشەیەک بۆ پیشاندانی تووڕەیی و بێزاری لە کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Come here, you little bugger!"),
-                                    ExampleSentenceKurdish(
-                                        text: "وەرە ئێرە قێزەونی بچووک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bugger" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuggers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuggers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Come here, you little bugger!",
+                            kurdishText:
+                                "وەرە ئێرە قێزەونی بچووک.", // bugger" as
+                            onPressedBritish: () => speakbuggers1("en-GB"),
+                            onPressedAmerican: () => speakbuggers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The stupid bugger's given me the wrong number!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ھیچی گەمژە ژمارەیەکی ھەڵەی پێداوم!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuggers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuggers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The stupid bugger's given me the wrong number!",
+                            kurdishText:
+                                "ئەو ھیچی گەمژە ژمارەیەکی ھەڵەی پێداوم!",
+                            onPressedBritish: () => speakbuggers2("en-GB"),
+                            onPressedAmerican: () => speakbuggers2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە خۆشەویستی یان بەزەییت بۆی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Poor bugger! His wife left him last week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داماوی ھەژارە! ژنەکەی ھەفتەی پێشوو جێیھێشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuggers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuggers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Poor bugger! His wife left him last week.",
+                            kurdishText:
+                                "داماوی ھەژارە! ژنەکەی ھەفتەی پێشوو جێیھێشت.",
+                            onPressedBritish: () => speakbuggers3("en-GB"),
+                            onPressedAmerican: () => speakbuggers3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شتێک کە گرانە یان کێشە درووست دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Question 6 is a real bugger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پرسیاری شەشەم سەرێشەیەکی تەواوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuggers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuggers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Question 6 is a real bugger.",
+                            kurdishText: "پرسیاری شەشەم سەرێشەیەکی تەواوە.",
+                            onPressedBritish: () => speakbuggers4("en-GB"),
+                            onPressedAmerican: () => speakbuggers4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) بۆ بێزاری دەربڕین لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Oh, bugger the cost! Let's get it anyway."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخەکەی بە نەفرەت بکە! با بیبەین ھەرچۆنێک بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuggers5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuggers5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Oh, bugger the cost! Let's get it anyway.",
+                            kurdishText:
+                                "نرخەکەی بە نەفرەت بکە! با بیبەین ھەرچۆنێک بێت.",
+                            onPressedBritish: () => speakbuggers5("en-GB"),
+                            onPressedAmerican: () => speakbuggers5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) شکاندن یان گەیاندنێکی زۆر بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think I've buggered the computer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێم‌وایە کۆمپیوتەرەکەم داڕزاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuggers6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuggers6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I think I've buggered the computer.",
+                            kurdishText: "پێم‌وایە کۆمپیوتەرەکەم داڕزاند.",
+                            onPressedBritish: () => speakbuggers6("en-GB"),
+                            onPressedAmerican: () => speakbuggers6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

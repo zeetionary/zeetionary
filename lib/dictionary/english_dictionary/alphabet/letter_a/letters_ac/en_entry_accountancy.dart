@@ -94,31 +94,12 @@ class EnglishEntryaccountancy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کاری ژمێریاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She studied accountancy at university."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە زانکۆ ژمێریاری خوێند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka19437("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka19437("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She studied accountancy at university.",
+                            kurdishText: "لە زانکۆ ژمێریاری خوێند.",
+                            onPressedBritish: () => speaka19437("en-GB"),
+                            onPressedAmerican: () => speaka19437("en-US"),
                           ),
                         ],
                       ),

@@ -147,32 +147,13 @@ class EnglishEntrybelittle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) پیشاندانی کەسێک یان ئەو شتانەی دەیکات وەک ئەوەی گرنگ نەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She felt her husband constantly belittled her achievements."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی دەکرد ھاوسەرەکەی بەردەوام بەدەستھێنانەکانی بچووک دەکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelittles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelittles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She felt her husband constantly belittled her achievements.",
+                            kurdishText:
+                                "ھەستی دەکرد ھاوسەرەکەی بەردەوام بەدەستھێنانەکانی بچووک دەکردەوە.",
+                            onPressedBritish: () => speakbelittles1("en-GB"),
+                            onPressedAmerican: () => speakbelittles1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

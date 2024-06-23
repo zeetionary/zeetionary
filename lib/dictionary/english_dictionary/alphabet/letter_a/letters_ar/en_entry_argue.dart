@@ -162,130 +162,51 @@ class EnglishEntryargue extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) قسەکردن بە تووڕەییەوە لەگەڵ کەسێک بەھۆی ئەوەی ناکۆکن لەسەر شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My brothers are always arguing."),
-                                    ExampleSentenceKurdish(
-                                        text: "براکانم ھەمیشە شەڕەدەمیانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakargue957("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakargue957(
-                                        // REPLACE: argue /ˈɑːrɡjuː/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My brothers are always arguing.",
+                            kurdishText: "براکانم ھەمیشە شەڕەدەمیانە.",
+                            onPressedBritish: () => speakargue957("en-GB"),
+                            onPressedAmerican: () => speakargue957(
+                                // REPLACE: argue /ˈɑːrɡjuː/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I know it was a stupid thing to argue about."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەزانم شتێکی پڕوپووچ بوو مشتومڕمان لەسەر کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakargue958("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakargue958(
-                                        // REPLACE: argue /ˈɑːrɡjuː/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I know it was a stupid thing to argue about.",
+                            kurdishText:
+                                "ئەزانم شتێکی پڕوپووچ بوو مشتومڕمان لەسەر کرد.",
+                            onPressedBritish: () => speakargue958("en-GB"),
+                            onPressedAmerican: () => speakargue958(
+                                // REPLACE: argue /ˈɑːrɡjuː/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بەڵگە یان پۆزش ھێنانەوە لەبەرژەوەندی بیرۆکەیەک یان دژی یەکێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They argued for the right to strike."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مشتومڕیان لەبەرژەوەندی مانگگرتن کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakargue1000("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakargue1000(
-                                        // REPLACE: argue /ˈɑːrɡjuː/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They argued for the right to strike.",
+                            kurdishText: "مشتومڕیان لەبەرژەوەندی مانگگرتن کرد.",
+                            onPressedBritish: () => speakargue1000("en-GB"),
+                            onPressedAmerican: () => speakargue1000(
+                                // REPLACE: argue /ˈɑːrɡjuː/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) بەڕوونی پیشاندانی بوونی شتێک، یان ئەوەی شتێک ڕاستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These latest developments argue a change in government policy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشھاتەکانی ئەم دواییە دەرخەری گۆڕانن لە سیاسەتی حکومەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakargue1002("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakargue1002(
-                                        // REPLACE: argue /ˈɑːrɡjuː/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These latest developments argue a change in government policy.",
+                            kurdishText:
+                                "پێشھاتەکانی ئەم دواییە دەرخەری گۆڕانن لە سیاسەتی حکومەت.",
+                            onPressedBritish: () => speakargue1002("en-GB"),
+                            onPressedAmerican: () => speakargue1002(
+                                // REPLACE: argue /ˈɑːrɡjuː/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

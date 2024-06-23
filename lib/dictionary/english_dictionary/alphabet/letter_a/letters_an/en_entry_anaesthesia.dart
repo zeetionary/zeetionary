@@ -158,35 +158,16 @@ class EnglishEntryanaesthesia extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) لەژێربەنج؛ بارودۆخێک کە تێیدا کەسێک ھەست بە ئازار ناکات بۆھۆی ئەوەی بەنج‌کراوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The surgery is performed under general anaesthesia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەشتەرگەرییەکە لەژێر سڕکردنی تەواو دەکرێت (=نەخۆشەکە بێ‌ھۆش دەخرێت)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanaesthesia25630("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanaesthesia25630(
-                                        // REPLACE: anaesthesia /ˌænəsˈθiːʒə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The surgery is performed under general anaesthesia.",
+                            kurdishText:
+                                "نەشتەرگەرییەکە لەژێر سڕکردنی تەواو دەکرێت (=نەخۆشەکە بێ‌ھۆش دەخرێت).",
+                            onPressedBritish: () =>
+                                speakanaesthesia25630("en-GB"),
+                            onPressedAmerican: () => speakanaesthesia25630(
+                                // REPLACE: anaesthesia /ˌænəsˈθiːʒə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

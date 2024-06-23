@@ -143,32 +143,13 @@ class EnglishEntrybulrush extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) قامیش؛ ڕووەکێکی بەرز کە گەڵای "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Frogs hid among the bulrush in the pond."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆق لە پشتەوەی قامیشەکان لە زۆنگاوەکەدا خۆیان شاردبووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulrush", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulrushs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulrushs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Frogs hid among the bulrush in the pond.",
+                            kurdishText:
+                                "بۆق لە پشتەوەی قامیشەکان لە زۆنگاوەکەدا خۆیان شاردبووەوە.", // bulrush", follow LX strictly
+                            onPressedBritish: () => speakbulrushs1("en-GB"),
+                            onPressedAmerican: () => speakbulrushs1("en-US"),
                           ),
                         ],
                       ),

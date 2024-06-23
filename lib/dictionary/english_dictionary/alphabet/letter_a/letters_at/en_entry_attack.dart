@@ -294,525 +294,216 @@ class EnglishEntryattack extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ھێرش بۆ سەر کەسێک بە بەکارھێنانی ھێز یان چەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Five people were killed in the attacks that took place last night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێنچ کەس کوژران لەو ھێرشانەی دوێنێ شەو ئەنجام دران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack453("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack453(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Five people were killed in the attacks that took place last night.",
+                            kurdishText:
+                                "پێنچ کەس کوژران لەو ھێرشانەی دوێنێ شەو ئەنجام دران.",
+                            onPressedBritish: () => speakattack453("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack453(// REPLACE: attack
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A child is recovering in hospital after a serious attack by a stray dog."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵێک لە نەخۆشخانە چاکدەبێتەوە لە دوای ھێرشێک بۆسەری لەلایەن سەگێکی بەرەڵاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack455("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack455(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A child is recovering in hospital after a serious attack by a stray dog.",
+                            kurdishText:
+                                "منداڵێک لە نەخۆشخانە چاکدەبێتەوە لە دوای ھێرشێک بۆسەری لەلایەن سەگێکی بەرەڵاوە.",
+                            onPressedBritish: () => speakattack455("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack455(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھێرشێک بۆ سەر دوژمن لە جەنگدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Rebel forces launched an attack on civilian targets."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزە یاخییەکان ھێرشێکیان ئەنجامدا بۆ سەر ئامانجی مەدەنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack457("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack457(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Rebel forces launched an attack on civilian targets.",
+                            kurdishText:
+                                "ھێزە یاخییەکان ھێرشێکیان ئەنجامدا بۆ سەر ئامانجی مەدەنی.",
+                            onPressedBritish: () => speakattack457("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack457(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) نەخۆشییەک کە لەناکاو و مەوداکورتە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had an attack of fever this week."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم ھەفتەیە ماوەیەک تام ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack500("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack500(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I had an attack of fever this week.",
+                            kurdishText: "ئەم ھەفتەیە ماوەیەک تام ھەبوو.",
+                            onPressedBritish: () => speakattack500("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack500(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ماوەیەکی لەناکاو لە ھەبوونی ھەستێک، بۆ نموونە ترس"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He suffers from attacks of anxiety."),
-                                    ExampleSentenceKurdish(
-                                        text: "ماوە ماوە تووشی خەمباری دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack503("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack503(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He suffers from attacks of anxiety.",
+                            kurdishText: "ماوە ماوە تووشی خەمباری دەبێت.",
+                            onPressedBritish: () => speakattack503("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack503(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) ڕەخنەی توند"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Doctors have gone on the attack, accusing the government of incompetence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پزیشکان دەستیان بە ڕەخنە کردووە و حکومەت تۆمەتبار دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack506("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack506(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Doctors have gone on the attack, accusing the government of incompetence.",
+                            kurdishText:
+                                "پزیشکان دەستیان بە ڕەخنە کردووە و حکومەت تۆمەتبار دەکەن.",
+                            onPressedBritish: () => speakattack506("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack506(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ناو) ئەو یاریزانانەی ئەرکیان تۆمارکردنی خاڵە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Germany's attack has been weakened by the loss of some key players through injury."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێرشبردنی ئەڵمانیا لاوازبووە بەھۆی لەدەستدانی ژمارەیەک یاریزانی گرنگ بەھۆی پێکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack508("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack508(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Germany's attack has been weakened by the loss of some key players through injury.",
+                            kurdishText:
+                                "ھێرشبردنی ئەڵمانیا لاوازبووە بەھۆی لەدەستدانی ژمارەیەک یاریزانی گرنگ بەھۆی پێکانەوە.",
+                            onPressedBritish: () => speakattack508("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack508(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ناو) کرداری ھێرشبردنی یاریزانان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a sustained attack on the Arsenal goal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێرشی بەردەوام لەسەر گۆڵی ئەرسناڵ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack510("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack510(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a sustained attack on the Arsenal goal.",
+                            kurdishText:
+                                "ھێرشی بەردەوام لەسەر گۆڵی ئەرسناڵ بوو.",
+                            onPressedBritish: () => speakattack510("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack510(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (ناو) ھەڵمەتێک دژ بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government launched an all-out attack on poverty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت ھەڵمەتێکی فراوانی دژ بە ھەژاری ڕاگەیاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack512("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack512(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government launched an all-out attack on poverty.",
+                            kurdishText:
+                                "حکومەت ھەڵمەتێکی فراوانی دژ بە ھەژاری ڕاگەیاند.",
+                            onPressedBritish: () => speakattack512("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack512(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (ناو) کرداری شتێک، بۆ نموونە مێروو یان نەخۆشی کە دەبێتەھۆی زیان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The roof timbers were affected by rot and insect attack."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دار سەقفەکان کاریگەربوون بە ڕزین و ھێرشی مێروو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack515("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack515(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The roof timbers were affected by rot and insect attack.",
+                            kurdishText:
+                                "دار سەقفەکان کاریگەربوون بە ڕزین و ھێرشی مێروو.",
+                            onPressedBritish: () => speakattack515("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack515(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٠. (کردار) ھێرش بە بەکارھێنانی ھێز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most dogs will not attack unless provoked."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر سەگ ھێرش ناکەن مەگەر ئەوەی تووڕە بکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack517("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack517(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most dogs will not attack unless provoked.",
+                            kurdishText:
+                                "زۆر سەگ ھێرش ناکەن مەگەر ئەوەی تووڕە بکرێن.",
+                            onPressedBritish: () => speakattack517("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack517(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١١. (کردار) ھێرشکردن لە جەنگدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Enemy forces attacked at night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزەکانی دوژمن لە شەودا ھێرشیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack519("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack519(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Enemy forces attacked at night.",
+                            kurdishText: "ھێزەکانی دوژمن لە شەودا ھێرشیان کرد.",
+                            onPressedBritish: () => speakattack519("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack519(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٢. (کردار) ڕەخنەگرتن بە توندی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His latest work has been bitterly attacked by the critics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تازەترین کاری بەتوندی لەلایەن ھەڵسەنگێنەرانەوە ڕەخنەی لێگیراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack523("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack523(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His latest work has been bitterly attacked by the critics.",
+                            kurdishText:
+                                "تازەترین کاری بەتوندی لەلایەن ھەڵسەنگێنەرانەوە ڕەخنەی لێگیراوە.",
+                            onPressedBritish: () => speakattack523("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack523(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٣. (کردار) زیانگەیاندن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bacteria act on sugars to form acids which attack the tooth surface."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکتریا کار لەسەر شەکر دەکەن بۆ درووستکردنی ئەسید کە زیان دەگەیەنێت بە ڕووی ددان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack525("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack525(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bacteria act on sugars to form acids which attack the tooth surface.",
+                            kurdishText:
+                                "بەکتریا کار لەسەر شەکر دەکەن بۆ درووستکردنی ئەسید کە زیان دەگەیەنێت بە ڕووی ددان.",
+                            onPressedBritish: () => speakattack525("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack525(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٤. (کردار) ھێرشکردن لە یارییەکدا بە مەبەستی بەدەستھێنانی خاڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Spain attacked more in the second half and deserved a goal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئیسپانیا لە گێمی دووەمدا زیاتر ھێرشی کرد و شایەنی گۆڵێک بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack526("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack526(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Spain attacked more in the second half and deserved a goal.",
+                            kurdishText:
+                                "ئیسپانیا لە گێمی دووەمدا زیاتر ھێرشی کرد و شایەنی گۆڵێک بوون.",
+                            onPressedBritish: () => speakattack526("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack526(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٥. (کردار) مامەڵەکردن لەگەڵ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let's attack one problem at a time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با مامەڵە لەگەڵ یەک کێشە بکەین لە ھەر کاتێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattack528("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattack528(// REPLACE: attack
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Let's attack one problem at a time.",
+                            kurdishText:
+                                "با مامەڵە لەگەڵ یەک کێشە بکەین لە ھەر کاتێکدا.",
+                            onPressedBritish: () => speakattack528("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattack528(// REPLACE: attack
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

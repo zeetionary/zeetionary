@@ -145,32 +145,13 @@ class EnglishEntrybreastbone extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئێسکێکی درێژی ستوونییە دەکەوێتە ناوەڕاستی سنگ و ئێسکەکانی پەراسوو لە پێشەوە پێوەی لکاون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The surgeon carefully incised the breastbone during the heart surgery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەشتەرگەرەکە بە وریاییەوە چۆڵەمەی کردەوە لەکاتی نەشتەرگەری دڵیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "breastbone" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreastbones1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreastbones1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The surgeon carefully incised the breastbone during the heart surgery.",
+                            kurdishText:
+                                "نەشتەرگەرەکە بە وریاییەوە چۆڵەمەی کردەوە لەکاتی نەشتەرگەری دڵیدا.", // breastbone" as
+                            onPressedBritish: () => speakbreastbones1("en-GB"),
+                            onPressedAmerican: () => speakbreastbones1("en-US"),
                           ),
                         ],
                       ),

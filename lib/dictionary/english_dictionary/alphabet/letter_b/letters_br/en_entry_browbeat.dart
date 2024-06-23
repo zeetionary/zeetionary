@@ -144,32 +144,13 @@ class EnglishEntrybrowbeat extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ترساندن یان ھەڕەشەکردن لە کەسێک بۆ ئەوەی شتێک بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were browbeaten into accepting the offer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەزۆر ڕازیکران ئۆفەرەکە پەسەند بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "browbeat" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrowbeats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrowbeats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were browbeaten into accepting the offer.",
+                            kurdishText:
+                                "بەزۆر ڕازیکران ئۆفەرەکە پەسەند بکەن.", // browbeat" as
+                            onPressedBritish: () => speakbrowbeats1("en-GB"),
+                            onPressedAmerican: () => speakbrowbeats1("en-US"),
                           ),
                         ],
                       ),

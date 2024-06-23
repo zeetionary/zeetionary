@@ -112,32 +112,13 @@ class EnglishEntryadjective extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) وشەیەک زانیاریی زیادە دەدات لەسەر کەسێک/شتێک، بۆ نموونە وشەی جوان لە 'ماڵێکی جوان' دا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Adjectives qualify nouns."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھاوەڵناو پێناسەی ناو دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadje1411("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadje1411(
-                                        // REPLACE: adjective /ˈædʒɪktɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Adjectives qualify nouns.",
+                            kurdishText: "ھاوەڵناو پێناسەی ناو دەکات.",
+                            onPressedBritish: () => speakadje1411("en-GB"),
+                            onPressedAmerican: () => speakadje1411(
+                                // REPLACE: adjective /ˈædʒɪktɪv/
+                                "en-US"),
                           ),
                         ],
                       ),

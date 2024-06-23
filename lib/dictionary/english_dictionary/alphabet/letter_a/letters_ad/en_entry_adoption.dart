@@ -113,98 +113,40 @@ class EnglishEntryadoption extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ھەڵگرتنەوەی منداڵ" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She put the baby up for adoption."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستبەرداری منداڵەکە بوو بۆ ھەڵگرتنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadopt58694("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadopt58694(
-                                        // REPLACE: adoption /əˈdɑːpʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She put the baby up for adoption.",
+                            kurdishText:
+                                "دەستبەرداری منداڵەکە بوو بۆ ھەڵگرتنەوە.",
+                            onPressedBritish: () => speakadopt58694("en-GB"),
+                            onPressedAmerican: () => speakadopt58694(
+                                // REPLACE: adoption /əˈdɑːpʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) دەستکردن بە بەکارھێنانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The widespread adoption of new technology could save 162 billion dollars a year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکارھێنانی بەرفراوانی تەکنەلۆژیای تازە ئەکرێت ١٦٢ ملیار دۆلاری ساڵانە بگەڕێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadop5861("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadop5861(
-                                        // REPLACE: adoption /əˈdɑːpʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The widespread adoption of new technology could save 162 billion dollars a year.",
+                            kurdishText:
+                                "بەکارھێنانی بەرفراوانی تەکنەلۆژیای تازە ئەکرێت ١٦٢ ملیار دۆلاری ساڵانە بگەڕێنێتەوە.",
+                            onPressedBritish: () => speakadop5861("en-GB"),
+                            onPressedAmerican: () => speakadop5861(
+                                // REPLACE: adoption /əˈdɑːpʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) دیاریکردنی کەسێک وەک کاندیدی ھەڵبژاردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The party announced the formal adoption of George Smith as their election candidate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارتەکە بە فەرمی ھەڵبژاردنی جۆرج سمیسی وەک کاندیدی ھەڵبژاردنەکان ڕاگەیاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadop25674("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadop25674(
-                                        // REPLACE: adoption /əˈdɑːpʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The party announced the formal adoption of George Smith as their election candidate.",
+                            kurdishText:
+                                "پارتەکە بە فەرمی ھەڵبژاردنی جۆرج سمیسی وەک کاندیدی ھەڵبژاردنەکان ڕاگەیاند.",
+                            onPressedBritish: () => speakadop25674("en-GB"),
+                            onPressedAmerican: () => speakadop25674(
+                                // REPLACE: adoption /əˈdɑːpʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

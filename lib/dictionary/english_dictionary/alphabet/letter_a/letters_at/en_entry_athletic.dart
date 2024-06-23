@@ -165,65 +165,27 @@ class EnglishEntryathletic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) لە ڕووی جەستەییەوە بەھێز و چالاک و وەرزشی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She looks very athletic."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر وەرزشی دیارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakathletic808("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakathletic808(// REPLACE: athletic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She looks very athletic.",
+                            kurdishText: "زۆر وەرزشی دیارە.",
+                            onPressedBritish: () => speakathletic808("en-GB"),
+                            onPressedAmerican: () =>
+                                speakathletic808(// REPLACE: athletic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بە وەرزش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This college has a long tradition of athletic excellence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم کۆلێژە تۆمارێکی درێژی نایابییەتی لە وەرزشدا ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakathletic813("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakathletic813(// REPLACE: athletic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This college has a long tradition of athletic excellence.",
+                            kurdishText:
+                                "ئەم کۆلێژە تۆمارێکی درێژی نایابییەتی لە وەرزشدا ھەیە.",
+                            onPressedBritish: () => speakathletic813("en-GB"),
+                            onPressedAmerican: () =>
+                                speakathletic813(// REPLACE: athletic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

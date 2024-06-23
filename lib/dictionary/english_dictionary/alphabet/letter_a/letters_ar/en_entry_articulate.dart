@@ -166,203 +166,82 @@ class EnglishEntryarticulate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەسێک کە توانای ئەوەی ھەیە بۆچوونەکانی بە ڕوونی دەرببڕێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was unusually articulate for a ten-year-old."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەکی سەیر زمان‌ڕەوان بوو بۆ منداڵێکی ١٠ ساڵان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarticulate716("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarticulate716(
-                                        // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was unusually articulate for a ten-year-old.",
+                            kurdishText:
+                                "بەشێوەیەکی سەیر زمان‌ڕەوان بوو بۆ منداڵێکی ١٠ ساڵان.",
+                            onPressedBritish: () => speakarticulate716("en-GB"),
+                            onPressedAmerican: () => speakarticulate716(
+                                // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) قسەیەکی ڕوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All we could hear were loud sobs, but no articulate words."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ئەوەی گوێمان لێ‌بوو نوزەنوزە بوو، بەبێ ھیچ قسەیەکی ڕوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarticulate718("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarticulate718(
-                                        // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All we could hear were loud sobs, but no articulate words.",
+                            kurdishText:
+                                "ھەموو ئەوەی گوێمان لێ‌بوو نوزەنوزە بوو، بەبێ ھیچ قسەیەکی ڕوون.",
+                            onPressedBritish: () => speakarticulate718("en-GB"),
+                            onPressedAmerican: () => speakarticulate718(
+                                // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) دەربڕینی بۆچوونەکانت بەڕوونی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She struggled to articulate her thoughts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشەی ھەبوو لە دەربڕینی بیرۆکەکانی بەڕوونی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarticulate720("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarticulate720(
-                                        // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She struggled to articulate her thoughts.",
+                            kurdishText:
+                                "کێشەی ھەبوو لە دەربڕینی بیرۆکەکانی بەڕوونی.",
+                            onPressedBritish: () => speakarticulate720("en-GB"),
+                            onPressedAmerican: () => speakarticulate720(
+                                // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She cannot articulate her feelings very well."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانێت بەڕوونی ھەستەکانی دەرببڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarticulate722("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarticulate722(
-                                        // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She cannot articulate her feelings very well.",
+                            kurdishText: "ناتوانێت بەڕوونی ھەستەکانی دەرببڕێت.",
+                            onPressedBritish: () => speakarticulate722("en-GB"),
+                            onPressedAmerican: () => speakarticulate722(
+                                // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) قسەکردن یان خوێندنەوە بە ڕوونی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was too drunk to articulate properly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر سەرخۆش بوو تا بتوانێ بە ڕوونی قسەبکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarticulate736("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarticulate736(
-                                        // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was too drunk to articulate properly.",
+                            kurdishText:
+                                "زۆر سەرخۆش بوو تا بتوانێ بە ڕوونی قسەبکات.",
+                            onPressedBritish: () => speakarticulate736("en-GB"),
+                            onPressedAmerican: () => speakarticulate736(
+                                // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) بوون لە پەیوەندی لەگەڵ شتێکی تر بۆ ئەوەی پێکەوە یەک شت درووست بکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These courses are designed to articulate with university degrees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم کۆرسانە دیزاین کراون بۆ ئەوەی لەگەڵ بڕوانامەی زانکۆ ڕێکبکەون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarticulate726("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarticulate726(
-                                        // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These courses are designed to articulate with university degrees.",
+                            kurdishText:
+                                "ئەم کۆرسانە دیزاین کراون بۆ ئەوەی لەگەڵ بڕوانامەی زانکۆ ڕێکبکەون.",
+                            onPressedBritish: () => speakarticulate726("en-GB"),
+                            onPressedAmerican: () => speakarticulate726(
+                                // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

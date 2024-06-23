@@ -157,34 +157,15 @@ class EnglishEntryant extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) مێروویەکی بچووک کە لەژێر زەویدا بە ژمارەیەکی زۆر و گرووپی ڕێکخراو دەژین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ants are tiny insects that crawl on the ground in large groups."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێروولە مێرووی بچووکن کە بەسەر زەویدا دەڕۆن بە گرووپی زۆرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakant1125("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakant1125(// REPLACE: ant /ænt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ants are tiny insects that crawl on the ground in large groups.",
+                            kurdishText:
+                                "مێروولە مێرووی بچووکن کە بەسەر زەویدا دەڕۆن بە گرووپی زۆرەوە.",
+                            onPressedBritish: () => speakant1125("en-GB"),
+                            onPressedAmerican: () =>
+                                speakant1125(// REPLACE: ant /ænt/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

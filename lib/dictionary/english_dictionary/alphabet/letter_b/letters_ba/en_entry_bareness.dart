@@ -150,63 +150,24 @@ class EnglishEntrybareness extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) ڕووت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The statue's bareness shocked the conservative viewers."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووتی پەیکەرەکە بینەرە کۆنەپەرستەکانی شۆک کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarenesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarenesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The statue's bareness shocked the conservative viewers.",
+                            kurdishText:
+                                "ڕووتی پەیکەرەکە بینەرە کۆنەپەرستەکانی شۆک کرد.",
+                            onPressedBritish: () => speakbarenesss1("en-GB"),
+                            onPressedAmerican: () => speakbarenesss1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) زۆر سادە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The poem's beauty lay in its bareness."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوانی ھۆنراوەکە لە سادەییەکەی دایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarenesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarenesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The poem's beauty lay in its bareness.",
+                            kurdishText: "جوانی ھۆنراوەکە لە سادەییەکەی دایە.",
+                            onPressedBritish: () => speakbarenesss2("en-GB"),
+                            onPressedAmerican: () => speakbarenesss2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

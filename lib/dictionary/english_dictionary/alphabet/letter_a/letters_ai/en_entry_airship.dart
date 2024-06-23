@@ -116,34 +116,15 @@ class EnglishEntryairship extends StatelessWidget {
                               text:
                                   "١. (ناو) فڕۆکەیەکی گەورەی بێ باڵ کە پڕ لە گازی سووکتر لە ھەوایە و بەمەش دەفڕێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If necessary, the airship can stay up there for days to keep out of danger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر پێویست بکات ھەواکەشتییەکە دەتوانێت بۆ چەندین ڕۆژ لەوێ بمێنێتەوە بۆ دووربوون لە مەترسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairship426("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairship426(
-                                        // REPLACE: airship /ˈerʃɪp/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If necessary, the airship can stay up there for days to keep out of danger.",
+                            kurdishText:
+                                "ئەگەر پێویست بکات ھەواکەشتییەکە دەتوانێت بۆ چەندین ڕۆژ لەوێ بمێنێتەوە بۆ دووربوون لە مەترسی.",
+                            onPressedBritish: () => speakairship426("en-GB"),
+                            onPressedAmerican: () => speakairship426(
+                                // REPLACE: airship /ˈerʃɪp/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -117,35 +117,13 @@ class EnglishEntryamateurish extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) شتێک کە لە کردنیدا ئەزموون و شارەزایی نەبووە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their website looks amateurish."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێبسایتەکەیان تازەکارانە دیاربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamateurish321("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamateurish321(
-                                        // REPLACE: amateurish /ˈæmətərɪʃ/, /ˈæmətʃərɪʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Their website looks amateurish.",
+                            kurdishText: "وێبسایتەکەیان تازەکارانە دیاربوو.",
+                            onPressedBritish: () => speakamateurish321("en-GB"),
+                            onPressedAmerican: () => speakamateurish321(
+                                // REPLACE: amateurish /ˈæmətərɪʃ/, /ˈæmətʃərɪʃ/
+                                "en-US"),
                           ),
                         ],
                       ),

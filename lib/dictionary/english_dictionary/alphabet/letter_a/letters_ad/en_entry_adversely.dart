@@ -111,34 +111,15 @@ class EnglishEntryadversely extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بشێوەیەک کە ئەنجامێکی باشی نابێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her health was adversely affected by the climate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەندرووستیی بەشێوەیەکی خراپ کاریگەربوو بە ئاووھەوایەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadve592("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadve592(
-                                        // REPLACE: adversely /ˈædvɜːsli/, /ədˈvɜːsli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her health was adversely affected by the climate.",
+                            kurdishText:
+                                "تەندرووستیی بەشێوەیەکی خراپ کاریگەربوو بە ئاووھەوایەکە.",
+                            onPressedBritish: () => speakadve592("en-GB"),
+                            onPressedAmerican: () => speakadve592(
+                                // REPLACE: adversely /ˈædvɜːsli/, /ədˈvɜːsli/
+                                "en-US"),
                           ),
                         ],
                       ),

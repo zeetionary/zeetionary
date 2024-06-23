@@ -155,228 +155,92 @@ class EnglishEntryaway extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵکار) دوور"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The beach is a mile away."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەنارەکە یەک میل دوورە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaways1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaways1(// REPLACE: away
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The beach is a mile away.",
+                            kurdishText: "کەنارەکە یەک میل دوورە.",
+                            onPressedBritish: () => speakaways1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaways1(// REPLACE: away
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بۆ شوێنێک یان ئاراستەیەکی جیاواز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bright light made her look away."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆشناییە توندەکە وایکرد ڕووی وەرگێڕێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaways2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaways2(// REPLACE: away
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The bright light made her look away.",
+                            kurdishText:
+                                "ڕۆشناییە توندەکە وایکرد ڕووی وەرگێڕێ.",
+                            onPressedBritish: () => speakaways2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaways2(// REPLACE: away
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) ئامادەنەبوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were ten children away yesterday."),
-                                    ExampleSentenceKurdish(
-                                        text: "دوێنێ ١٠ منداڵ نەھاتبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaways3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaways3(// REPLACE: away
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were ten children away yesterday.",
+                            kurdishText: "دوێنێ ١٠ منداڵ نەھاتبوون.",
+                            onPressedBritish: () => speakaways3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaways3(// REPLACE: away
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵکار) لە دوای کردار بەکاردێت بۆ وتنی ئەوەی شتێک بەردەوام یان بە وزەیەکی زۆرەوە دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were soon chatting away like old friends."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا گفتوگۆیان بوو وەک ھاوڕێی کۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaways4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaways4(// REPLACE: away
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were soon chatting away like old friends.",
+                            kurdishText: "ھێشتا گفتوگۆیان بوو وەک ھاوڕێی کۆن.",
+                            onPressedBritish: () => speakaways4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaways4(// REPLACE: away
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵکار) تاوەکو بە تەواوی نامێنێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The music faded away."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوزیکەکە بە تەواوی داگیرسایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaways5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaways5(// REPLACE: away
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The music faded away.",
+                            kurdishText: "میوزیکەکە بە تەواوی داگیرسایەوە.",
+                            onPressedBritish: () => speakaways5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaways5(// REPLACE: away
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ھاوەڵکار) لە یاریگای دوژمن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Chelsea are playing away this Saturday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چێڵسی ئەم شەممەیە لە یاریگای ڕکابەرەکەی یاری دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaways6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaways6(// REPLACE: away
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Chelsea are playing away this Saturday.",
+                            kurdishText:
+                                "چێڵسی ئەم شەممەیە لە یاریگای ڕکابەرەکەی یاری دەکات.",
+                            onPressedBritish: () => speakaways6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaways6(// REPLACE: away
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ھاوەڵناو) یارییەک کە لە یاریگای تیمی بەرامبەرە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We lost the away game but won both home games."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یارییەکەمان لە یاریگای تیمی بەرامبەر دۆڕاند، بەڵام ھەردوو ئەوەمان بردەوە کە لە یاریگەی خۆمان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaways7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaways7(// REPLACE: away
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We lost the away game but won both home games.",
+                            kurdishText:
+                                "یارییەکەمان لە یاریگای تیمی بەرامبەر دۆڕاند، بەڵام ھەردوو ئەوەمان بردەوە کە لە یاریگەی خۆمان بوو.",
+                            onPressedBritish: () => speakaways7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaways7(// REPLACE: away
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

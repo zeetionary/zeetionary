@@ -159,231 +159,98 @@ class EnglishEntryaverage extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) تێکڕا؛ کۆی گشتی کۆمەڵە بڕێک و دابەشکردنی ئەنجامەکە بەسەر ژمارەی بڕەکان """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The average age of participants was 52 years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێکڕای تەمەنی بەژداربووان ٥٢ ساڵ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaverages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaverages1(// REPLACE: average
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The average age of participants was 52 years.",
+                            kurdishText:
+                                "تێکڕای تەمەنی بەژداربووان ٥٢ ساڵ بوو.",
+                            onPressedBritish: () => speakaverages1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaverages1(// REPLACE: average
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ئەوەی کە ئاساییە و دەکرێت بکرێت بە پێوەر """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "On an average day they sell more than £2 000 worth of vegetables."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕۆژێکی ئاساییدا بای ٢٠٠٠ پاوەند سەوزە دەفرۆشن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaverages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaverages2(// REPLACE: average
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "On an average day they sell more than £2 000 worth of vegetables.",
+                            kurdishText:
+                                "لە ڕۆژێکی ئاساییدا بای ٢٠٠٠ پاوەند سەوزە دەفرۆشن.",
+                            onPressedBritish: () => speakaverages2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaverages2(// REPLACE: average
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) شتێک کە لە ئاستێکی ئاساییە """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was just an average sort of student."),
-                                    ExampleSentenceKurdish(
-                                        text: "خوێندکارێکی مام‌ناوەند بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaverages3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaverages3(// REPLACE: average
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was just an average sort of student.",
+                            kurdishText: "خوێندکارێکی مام‌ناوەند بووم.",
+                            onPressedBritish: () => speakaverages3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaverages3(// REPLACE: average
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) تێکڕای کۆمەڵە ژمارەیەک """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Parents spend an average of £220 a year on toys."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایکان و باوکان بە تێکڕا ٢٢٠ پاوەند لە کایەی منداڵان خەرج‌دەکەن"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaverages4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaverages4(// REPLACE: average
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Parents spend an average of £220 a year on toys.",
+                            kurdishText:
+                                "دایکان و باوکان بە تێکڕا ٢٢٠ پاوەند لە کایەی منداڵان خەرج‌دەکەن",
+                            onPressedBritish: () => speakaverages4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaverages4(// REPLACE: average
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) ئاستێک کە ئاساییە """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Temperatures are above average for the time of year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلەی گەرمی لە سەروو ئاسایین بۆ ئەم کاتەی ساڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaverages5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaverages5(// REPLACE: average
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Temperatures are above average for the time of year.",
+                            kurdishText:
+                                "پلەی گەرمی لە سەروو ئاسایین بۆ ئەم کاتەی ساڵ.",
+                            onPressedBritish: () => speakaverages5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaverages5(// REPLACE: average
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) ھەبوونی ژمارەیەک وەک تێکڕا """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has averaged 15 goals over the past two seasons."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێکڕای ١٥ گۆڵی ھەبووە لە دوو وەرزی ڕابردوودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaverages6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaverages6(// REPLACE: average
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has averaged 15 goals over the past two seasons.",
+                            kurdishText:
+                                "تێکڕای ١٥ گۆڵی ھەبووە لە دوو وەرزی ڕابردوودا.",
+                            onPressedBritish: () => speakaverages6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaverages6(// REPLACE: average
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (کردار) دۆزینەوەی تێکڕا """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Earnings are averaged over the whole period."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قازانجەکان تێکڕای تەواوی ماوەکە دەکرێن"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaverages7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaverages7(// REPLACE: average
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Earnings are averaged over the whole period.",
+                            kurdishText:
+                                "قازانجەکان تێکڕای تەواوی ماوەکە دەکرێن",
+                            onPressedBritish: () => speakaverages7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaverages7(// REPLACE: average
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -149,32 +149,13 @@ class EnglishEntrybloodshot extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) چاوێک کە ئەو بەشەی زۆر جار سپییە پڕ بێت لە ھێڵی سوور"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After the long flight, her eyes were visibly bloodshot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای فڕینە ماوە درێژەکە، چاوەکانی بە ئاشکرایی سووربووبوونەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodshots1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodshots1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After the long flight, her eyes were visibly bloodshot.",
+                            kurdishText:
+                                "لە دوای فڕینە ماوە درێژەکە، چاوەکانی بە ئاشکرایی سووربووبوونەوە.",
+                            onPressedBritish: () => speakbloodshots1("en-GB"),
+                            onPressedAmerican: () => speakbloodshots1("en-US"),
                           ),
                         ],
                       ),

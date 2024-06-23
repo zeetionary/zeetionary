@@ -145,32 +145,13 @@ class EnglishEntryblogger extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بلۆگنووس؛ کەسێک کە کاری بلۆگی دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Celebrity bloggers are obsessed with the royal family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بلۆگنووسانی کەسانی بەناوبانگ زۆر ھۆگرن بە خێزانی شاھانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloggers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloggers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Celebrity bloggers are obsessed with the royal family.",
+                            kurdishText:
+                                "بلۆگنووسانی کەسانی بەناوبانگ زۆر ھۆگرن بە خێزانی شاھانەوە.",
+                            onPressedBritish: () => speakbloggers1("en-GB"),
+                            onPressedAmerican: () => speakbloggers1("en-US"),
                           ),
                         ],
                       ),

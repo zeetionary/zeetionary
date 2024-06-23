@@ -152,94 +152,35 @@ class EnglishEntryberth extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شوێنی خەوتنی سەر کەشتییەک، شەمەندەفەرێک، ھتد"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She booked a berth on the ferry from Palermo to Naples."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێ‌خەوێکی بەکرێ گرت لەسەر کەشتییەکە کە لە پالێرمۆوە بۆ ناپۆلی دەچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakberths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakberths1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She booked a berth on the ferry from Palermo to Naples.",
+                            kurdishText:
+                                "جێ‌خەوێکی بەکرێ گرت لەسەر کەشتییەکە کە لە پالێرمۆوە بۆ ناپۆلی دەچوو.",
+                            onPressedBritish: () => speakberths1("en-GB"),
+                            onPressedAmerican: () => speakberths1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شوێنی وەستانی کەشتییەک لە بەندەرێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The harbor was filled with ships of all sizes, each secured to its own berth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەندەرەکە پڕبوو لە کەشتی ھەموو قەبارەیەک، کە ھەریەکەیان توند کرابوو لە لەمگەرگای خۆیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakberths2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakberths2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The harbor was filled with ships of all sizes, each secured to its own berth.",
+                            kurdishText:
+                                "بەندەرەکە پڕبوو لە کەشتی ھەموو قەبارەیەک، کە ھەریەکەیان توند کرابوو لە لەمگەرگای خۆیدا.",
+                            onPressedBritish: () => speakberths2("en-GB"),
+                            onPressedAmerican: () => speakberths2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) جێگیرکردنی کەشتییەک لە لەنگەرگایەکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ship is berthed at Southampton."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشتییەکە لە ساوسامپتن لەنگەرکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakberths3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakberths3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The ship is berthed at Southampton.",
+                            kurdishText: "کەشتییەکە لە ساوسامپتن لەنگەرکراوە.",
+                            onPressedBritish: () => speakberths3("en-GB"),
+                            onPressedAmerican: () => speakberths3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

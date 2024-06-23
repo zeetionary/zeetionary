@@ -162,128 +162,48 @@ class EnglishEntryarrive extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) گەشتنە شوێنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'll wait until they arrive."),
-                                    ExampleSentenceKurdish(
-                                        text: "چاوەڕێ دەبم تا دەگەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrive524("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrive524(
-                                        // REPLACE: arrive /əˈraɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'll wait until they arrive.",
+                            kurdishText: "چاوەڕێ دەبم تا دەگەن.",
+                            onPressedBritish: () => speakarrive524("en-GB"),
+                            onPressedAmerican: () => speakarrive524(
+                                // REPLACE: arrive /əˈraɪv/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She'll arrive in New York at noon."),
-                                    ExampleSentenceKurdish(
-                                        text: "نیوەڕۆ دەگاتە نیویۆرک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrive525("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrive525(
-                                        // REPLACE: arrive /əˈraɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She'll arrive in New York at noon.",
+                            kurdishText: "نیوەڕۆ دەگاتە نیویۆرک.",
+                            onPressedBritish: () => speakarrive525("en-GB"),
+                            onPressedAmerican: () => speakarrive525(
+                                // REPLACE: arrive /əˈraɪv/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ھێنان یان گەشتن بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A letter arrived for you this morning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم بەیانییە نامەیەکت پێ‌گەیشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrive527("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrive527(
-                                        // REPLACE: arrive /əˈraɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A letter arrived for you this morning.",
+                            kurdishText: "ئەم بەیانییە نامەیەکت پێ‌گەیشت.",
+                            onPressedBritish: () => speakarrive527("en-GB"),
+                            onPressedAmerican: () => speakarrive527(
+                                // REPLACE: arrive /əˈraɪv/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ڕوودان یان ھاتنی شتێک، بەتایبەتی شتێک کە چاوەڕێی بوویتە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The wedding day finally arrived."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژی ھاوسەرگیرییەکە لەکۆتاییدا گەشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrive528("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrive528(
-                                        // REPLACE: arrive /əˈraɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The wedding day finally arrived.",
+                            kurdishText: "ڕۆژی ھاوسەرگیرییەکە لەکۆتاییدا گەشت.",
+                            onPressedBritish: () => speakarrive528("en-GB"),
+                            onPressedAmerican: () => speakarrive528(
+                                // REPLACE: arrive /əˈraɪv/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

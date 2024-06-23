@@ -145,32 +145,13 @@ class EnglishEntrybriefcase extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جانتایەکی تەخت کە بۆ ھەڵگرتنی کاغەز و بەڵگەنامە بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wore a torn suit and carried a battered briefcase."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلوبەرگێکی دڕاوی لەبەربوو و جانتایەکی دەستی کۆنی ھەڵگرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "briefcase" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefcases1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefcases1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wore a torn suit and carried a battered briefcase.",
+                            kurdishText:
+                                "جلوبەرگێکی دڕاوی لەبەربوو و جانتایەکی دەستی کۆنی ھەڵگرتبوو.", // briefcase" as
+                            onPressedBritish: () => speakbriefcases1("en-GB"),
+                            onPressedAmerican: () => speakbriefcases1("en-US"),
                           ),
                         ],
                       ),

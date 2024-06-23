@@ -157,34 +157,15 @@ class EnglishEntryangelic extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) فریشتەئاسا؛ باش و میھرەبان و جوان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She smiled, revealing her angelic face to everyone around."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکەنی و ڕووخسارە فریشتەئاساکەی پیشانی ھەمووان دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangelic790("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangelic790(
-                                        // REPLACE: angelic /ænˈdʒelɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She smiled, revealing her angelic face to everyone around.",
+                            kurdishText:
+                                "پێکەنی و ڕووخسارە فریشتەئاساکەی پیشانی ھەمووان دا.",
+                            onPressedBritish: () => speakangelic790("en-GB"),
+                            onPressedAmerican: () => speakangelic790(
+                                // REPLACE: angelic /ænˈdʒelɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

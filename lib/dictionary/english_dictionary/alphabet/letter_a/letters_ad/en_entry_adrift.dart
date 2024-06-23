@@ -113,98 +113,40 @@ class EnglishEntryadrift extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەسێک یان بەلەمێکی بێ کۆنترۆڵ لەناو دەریا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spent three days adrift on his yacht."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێ ڕۆژی لەناو شەپۆلەکان بەسەربرد لەسەر یەختەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadri458692("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadri458692(
-                                        // REPLACE: adrift /əˈdrɪft/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He spent three days adrift on his yacht.",
+                            kurdishText:
+                                "سێ ڕۆژی لەناو شەپۆلەکان بەسەربرد لەسەر یەختەکەی.",
+                            onPressedBritish: () => speakadri458692("en-GB"),
+                            onPressedAmerican: () => speakadri458692(
+                                // REPLACE: adrift /əˈdrɪft/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) کەسێکی تەنھا و سەرلێشێواو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Without language, human beings are cast adrift."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەبێ زمان مرۆڤەکان سەرلێشێواون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadri52369("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadri52369(
-                                        // REPLACE: adrift /əˈdrɪft/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Without language, human beings are cast adrift.",
+                            kurdishText: "بەبێ زمان مرۆڤەکان سەرلێشێواون.",
+                            onPressedBritish: () => speakadri52369("en-GB"),
+                            onPressedAmerican: () => speakadri52369(
+                                // REPLACE: adrift /əˈdrɪft/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) شتێک کە بەو شێوەیە بەڕێوەناچێت کە مەبەستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Something seems to have gone adrift in our calculations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وادیارە شتێک لە خەمڵاندنەکانمان ناڕێکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadrif52317("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadrif52317(
-                                        // REPLACE: adrift /əˈdrɪft/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Something seems to have gone adrift in our calculations.",
+                            kurdishText:
+                                "وادیارە شتێک لە خەمڵاندنەکانمان ناڕێکە.",
+                            onPressedBritish: () => speakadrif52317("en-GB"),
+                            onPressedAmerican: () => speakadrif52317(
+                                // REPLACE: adrift /əˈdrɪft/
+                                "en-US"),
                           ),
                         ],
                       ),

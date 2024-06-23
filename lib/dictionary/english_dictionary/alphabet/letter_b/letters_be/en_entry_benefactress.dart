@@ -151,34 +151,15 @@ class EnglishEntrybenefactress extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ژنێک کە پارە یان شتومەک دەبەخشێت بە کەسێک یان دامەزراوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hospital received a generous donation from a wealthy benefactress."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشخانەکە بەخشینێکی زۆری پێگەیشت لە ژنە خێرخوازێکی دەوڵەمەندەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbenefactresss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbenefactresss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hospital received a generous donation from a wealthy benefactress.",
+                            kurdishText:
+                                "نەخۆشخانەکە بەخشینێکی زۆری پێگەیشت لە ژنە خێرخوازێکی دەوڵەمەندەوە.",
+                            onPressedBritish: () =>
+                                speakbenefactresss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbenefactresss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

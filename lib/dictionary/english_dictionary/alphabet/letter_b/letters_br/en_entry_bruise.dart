@@ -145,179 +145,62 @@ class EnglishEntrybruise extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نیشانەیەکی شین، قاوەیی، یان مۆر لەسەر پێست لە دوای کەوتن یان لێدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His legs were covered in bruises."),
-                                    ExampleSentenceKurdish(
-                                        text: "لاقی شینبووبووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bruise" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbruises1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbruises1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His legs were covered in bruises.",
+                            kurdishText: "لاقی شینبووبووەوە.", // bruise" as
+                            onPressedBritish: () => speakbruises1("en-GB"),
+                            onPressedAmerican: () => speakbruises1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She suffered only minor cuts and bruises."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا تووشی برین و کەوەبوونەوەی بچووک بوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbruises2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbruises2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She suffered only minor cuts and bruises.",
+                            kurdishText:
+                                "تەنھا تووشی برین و کەوەبوونەوەی بچووک بوویەوە.",
+                            onPressedBritish: () => speakbruises2("en-GB"),
+                            onPressedAmerican: () => speakbruises2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەشێک لەسەر میوە یان سەوزە کە خراپ بووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The apple had a small bruise, but it was still perfectly edible."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێوەکە لەکەیەکی بچووکی پێوەبوو، بەڵام ھێشتا بە تەواوی خواردەنی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbruises3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbruises3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The apple had a small bruise, but it was still perfectly edible.",
+                            kurdishText:
+                                "سێوەکە لەکەیەکی بچووکی پێوەبوو، بەڵام ھێشتا بە تەواوی خواردەنی بوو.",
+                            onPressedBritish: () => speakbruises3("en-GB"),
+                            onPressedAmerican: () => speakbruises3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) شینبوونەوە یان شینکردنەوەی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had slipped and badly bruised her face."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە خراپی کەوتبوو و ڕووخساری شینبووبوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbruises4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbruises4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had slipped and badly bruised her face.",
+                            kurdishText:
+                                "بە خراپی کەوتبوو و ڕووخساری شینبووبوویەوە.",
+                            onPressedBritish: () => speakbruises4("en-GB"),
+                            onPressedAmerican: () => speakbruises4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Strawberries bruise easily."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تووت فەرەنگی زوو ڕەنگی دەگۆڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbruises5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbruises5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Strawberries bruise easily.",
+                            kurdishText: "تووت فەرەنگی زوو ڕەنگی دەگۆڕێت.",
+                            onPressedBritish: () => speakbruises5("en-GB"),
+                            onPressedAmerican: () => speakbruises5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) کاریگەری درووستکردن لەسەر کەسێک و وایان لێ بکەیت خەمبار بێ‌ورە بن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They had been badly bruised by the defeat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە خراپی بێ‌ورە بووبوون بە شکستەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbruises6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbruises6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They had been badly bruised by the defeat.",
+                            kurdishText: "بە خراپی بێ‌ورە بووبوون بە شکستەکە.",
+                            onPressedBritish: () => speakbruises6("en-GB"),
+                            onPressedAmerican: () => speakbruises6("en-US"),
                           ),
                         ],
                       ),

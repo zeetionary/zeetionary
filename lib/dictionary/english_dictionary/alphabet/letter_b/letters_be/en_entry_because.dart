@@ -153,89 +153,31 @@ class EnglishEntrybecause extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (لێکدەر) بۆ پیشاندانی ھۆکار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I did it because he told me to."),
-                                    ExampleSentenceKurdish(
-                                        text: "کردم چونکە ئەو پێی وتم بیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbecauses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbecauses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I did it because he told me to.",
+                            kurdishText: "کردم چونکە ئەو پێی وتم بیکە.",
+                            onPressedBritish: () => speakbecauses1("en-GB"),
+                            onPressedAmerican: () => speakbecauses1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Just because I'm lending you my dress for tonight doesn't mean you can borrow it whenever you want to."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا لەبەرئەوەی بۆ ئەمشەو جلەکمت پێ دەدەم بە قەرز واتای ئەوە نییە ھەموو کاتێک دەتوانی بیبەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbecauses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbecauses2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Just because I'm lending you my dress for tonight doesn't mean you can borrow it whenever you want to.",
+                            kurdishText:
+                                "تەنھا لەبەرئەوەی بۆ ئەمشەو جلەکمت پێ دەدەم بە قەرز واتای ئەوە نییە ھەموو کاتێک دەتوانی بیبەیت.",
+                            onPressedBritish: () => speakbecauses2("en-GB"),
+                            onPressedAmerican: () => speakbecauses2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He hated being in the army because he had to obey commands."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزی لە دوپا نەبوو چونکە دەبوو پابەندی فەرمان بیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbecauses3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbecauses3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He hated being in the army because he had to obey commands.",
+                            kurdishText:
+                                "حەزی لە دوپا نەبوو چونکە دەبوو پابەندی فەرمان بیت.",
+                            onPressedBritish: () => speakbecauses3("en-GB"),
+                            onPressedAmerican: () => speakbecauses3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

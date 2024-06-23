@@ -153,92 +153,33 @@ class EnglishEntrybathroom extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ژوورێک کە حەوزێکی خۆشتن و دەستشۆرێک و زۆرجار تەوالێتێکیشی تێدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Go and wash your hands in the bathroom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بچۆ و دەستەکانت لە حەمامەکە بشۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbathrooms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbathrooms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Go and wash your hands in the bathroom.",
+                            kurdishText: "بچۆ و دەستەکانت لە حەمامەکە بشۆ.",
+                            onPressedBritish: () => speakbathrooms1("en-GB"),
+                            onPressedAmerican: () => speakbathrooms1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She stared at herself in the bathroom mirror."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە خۆی دەڕوانی لە ئاوێنەی حەمامەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbathrooms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbathrooms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She stared at herself in the bathroom mirror.",
+                            kurdishText: "لە خۆی دەڕوانی لە ئاوێنەی حەمامەکە.",
+                            onPressedBritish: () => speakbathrooms2("en-GB"),
+                            onPressedAmerican: () => speakbathrooms2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) (ئینگلیزی ئەمریکی) ژوورێک کە تەوالێتێک و دەستشۆرێک و ھەندێکجار حەوزێکی خۆشتنی تێدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We were allowed to stop occasionally for bathroom breaks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگەمان پێدەدرا ماوەماوە بچینە حەمامەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbathrooms3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbathrooms3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We were allowed to stop occasionally for bathroom breaks.",
+                            kurdishText:
+                                "ڕێگەمان پێدەدرا ماوەماوە بچینە حەمامەکە.",
+                            onPressedBritish: () => speakbathrooms3("en-GB"),
+                            onPressedAmerican: () => speakbathrooms3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

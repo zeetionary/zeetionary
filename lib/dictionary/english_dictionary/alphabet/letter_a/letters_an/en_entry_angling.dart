@@ -151,34 +151,15 @@ class EnglishEntryangling extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ماسیگری، ڕاوەماسی؛ چوون بۆ ڕاوەماسی بە قولاب، زیاتر بۆ خۆشی یان وەک وەرزش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "On weekends, they often go angling by the lake."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕۆژانی کۆتایی ھەفتە زۆرجار دەچوون بۆ ڕاوەماسی لە دەریاچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangling558("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangling558(
-                                        // REPLACE: angling /ˈæŋɡlɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "On weekends, they often go angling by the lake.",
+                            kurdishText:
+                                "لە ڕۆژانی کۆتایی ھەفتە زۆرجار دەچوون بۆ ڕاوەماسی لە دەریاچەکە.",
+                            onPressedBritish: () => speakangling558("en-GB"),
+                            onPressedAmerican: () => speakangling558(
+                                // REPLACE: angling /ˈæŋɡlɪŋ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

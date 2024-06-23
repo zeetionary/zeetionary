@@ -157,166 +157,70 @@ class EnglishEntrybabble extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) قسەی ژمارەیەکی زۆر کەس پێکەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I could hear the babble of voices in the next room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێم لە قاڵەقاڵ دەبوو لە ژوورەکەی تر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka3s1(// REPLACE: babble
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I could hear the babble of voices in the next room.",
+                            kurdishText:
+                                "گوێم لە قاڵەقاڵ دەبوو لە ژوورەکەی تر.",
+                            onPressedBritish: () => speaka3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka3s1(// REPLACE: babble
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) قسەکردنێک کە بێسوودە و ئاسان نییە بۆ تێگەیشتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't listen to his constant babble."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم گوێبگرم لە چەنەدانی بەردەوامی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka3s2(// REPLACE: babble
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't listen to his constant babble.",
+                            kurdishText:
+                                "ناتوانم گوێبگرم لە چەنەدانی بەردەوامی.",
+                            onPressedBritish: () => speaka3s2("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka3s2(// REPLACE: babble
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ئەو قسانەی منداڵێک دەیکات کە ھێشتا فێری قسەکردن نەبووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The baby’s babble would soon turn into language."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گڕوگاڵی منداڵەکە ھەرزوو دەبێت بە زمانی تەواو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka3s3(// REPLACE: babble
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The baby’s babble would soon turn into language.",
+                            kurdishText:
+                                "گڕوگاڵی منداڵەکە ھەرزوو دەبێت بە زمانی تەواو.",
+                            onPressedBritish: () => speaka3s3("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka3s3(// REPLACE: babble
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) قسەکردن بەخێرایی بەشێوەیەک کە ئاسان نییە بۆ تێگەشتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I realized I was babbling like an idiot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانیم کە فڵتەفڵتم دەکرد وەک شێتێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka3s4(// REPLACE: babble
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I realized I was babbling like an idiot.",
+                            kurdishText: "زانیم کە فڵتەفڵتم دەکرد وەک شێتێک.",
+                            onPressedBritish: () => speaka3s4("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka3s4(// REPLACE: babble
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) درووستکردنی ئەو دەنگەی کە ئاو درووستی دەکات کە بەسەر بەرددا تێدەپەڕێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They rested a while by a babbling brook."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ماوەیەک لەلای جۆگەلەیەک وەستان کە خوڕڕەی دەھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka3s5(// REPLACE: babble
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They rested a while by a babbling brook.",
+                            kurdishText:
+                                "بۆ ماوەیەک لەلای جۆگەلەیەک وەستان کە خوڕڕەی دەھات.",
+                            onPressedBritish: () => speaka3s5("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka3s5(// REPLACE: babble
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

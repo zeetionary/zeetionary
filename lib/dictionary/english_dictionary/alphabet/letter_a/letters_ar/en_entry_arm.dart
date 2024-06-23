@@ -187,325 +187,133 @@ class EnglishEntryarm extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دەست؛ دوو بەشی جەستە کە لە شانەوە درێژەبنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She threw her arms around his neck."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەستەکانی بەدەوری ملیدا بادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarm127("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarm127(// REPLACE: arm /ɑːrm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She threw her arms around his neck.",
+                            kurdishText: "دەستەکانی بەدەوری ملیدا بادا.",
+                            onPressedBritish: () => speakarm127("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarm127(// REPLACE: arm /ɑːrm/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was running forward, waving his arms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ پێشەوە ڕای‌دەکرد و دەستەکانی ڕادەوەشاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarm129("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarm129(// REPLACE: arm /ɑːrm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was running forward, waving his arms.",
+                            kurdishText:
+                                "بۆ پێشەوە ڕای‌دەکرد و دەستەکانی ڕادەوەشاند.",
+                            onPressedBritish: () => speakarm129("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarm129(// REPLACE: arm /ɑːrm/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) قۆڵی جلوبەرگ؛ ئەو بەشەی جلوبەرگ کە قۆڵ دادەپۆشێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The arms will need shortening."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قۆڵەکەی پێویستیی بە کورتکردنەوە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarm131("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarm131(// REPLACE: arm /ɑːrm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The arms will need shortening.",
+                            kurdishText:
+                                "قۆڵەکەی پێویستیی بە کورتکردنەوە ھەیە.",
+                            onPressedBritish: () => speakarm131("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarm131(// REPLACE: arm /ɑːrm/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) لایەکانی کورسییەکەت کە دەستی لەسەر دادەنێیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She perched on the arm of his chair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر جێ‌دەستی کورسییەکەی ئەو دانیشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarm134("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarm134(// REPLACE: arm /ɑːrm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She perched on the arm of his chair.",
+                            kurdishText:
+                                "لەسەر جێ‌دەستی کورسییەکەی ئەو دانیشت.",
+                            onPressedBritish: () => speakarm134("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarm134(// REPLACE: arm /ɑːrm/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) پارچەیەکی جوڵاوی ئامێرێک یان شتێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The fuel filler door is opened by a robotic arm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تانکی بەنزینەکە دەکرێتەوە لەلایەن باڵێکی ڕۆبۆتییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarm138("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarm138(// REPLACE: arm /ɑːrm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The fuel filler door is opened by a robotic arm.",
+                            kurdishText:
+                                "تانکی بەنزینەکە دەکرێتەوە لەلایەن باڵێکی ڕۆبۆتییەوە.",
+                            onPressedBritish: () => speakarm138("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarm138(// REPLACE: arm /ɑːrm/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) ڕێڕەوێکی بچووکی ئاو یان پارچە زەوی کە دەگەیەت بە یەکێکی گەورەتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A small bridge spans the arm of the river."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پردێکی بچووک بەسەر لقە ئاوەکەدا دەپەڕێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarm138("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarm138(// REPLACE: arm /ɑːrm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A small bridge spans the arm of the river.",
+                            kurdishText:
+                                "پردێکی بچووک بەسەر لقە ئاوەکەدا دەپەڕێتەوە.",
+                            onPressedBritish: () => speakarm138("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarm138(// REPLACE: arm /ɑːrm/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ناو) بەشێکی بچووکی دامەزراوەیەکی گەورەتر کە تەنھا یەک چالاکی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bank plans to sell part of its US arm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانکەکە پلانی ھەیە بەشێکی لقی ئەمریکای بفرۆشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarm148("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarm148(// REPLACE: arm /ɑːrm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bank plans to sell part of its US arm.",
+                            kurdishText:
+                                "بانکەکە پلانی ھەیە بەشێکی لقی ئەمریکای بفرۆشێت.",
+                            onPressedBritish: () => speakarm148("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarm148(// REPLACE: arm /ɑːrm/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (کردار) پێدانی چەک یان شتێکی تر بە کەسێک یان بەدەستخستنی بۆ خۆت بۆ ئەوەی پێێ بجەنگیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The men armed themselves with sticks and stones."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوەکان بە دار و بەرد خۆیان قایم‌کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarm151("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarm151(// REPLACE: arm /ɑːrm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The men armed themselves with sticks and stones.",
+                            kurdishText:
+                                "پیاوەکان بە دار و بەرد خۆیان قایم‌کرد.",
+                            onPressedBritish: () => speakarm151("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarm151(// REPLACE: arm /ɑːrm/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country was arming against the enemy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتەکە خۆی چەکدار دەکرد دژ بە دوژمنەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarm152("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarm152(// REPLACE: arm /ɑːrm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The country was arming against the enemy.",
+                            kurdishText:
+                                "وڵاتەکە خۆی چەکدار دەکرد دژ بە دوژمنەکەی.",
+                            onPressedBritish: () => speakarm152("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarm152(// REPLACE: arm /ɑːrm/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (کردار) پێدانی زانیاری بە کەسێک یان بەدەستخستنی بۆ خۆت بۆ تەواوکردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She armed herself for the interview by finding out all she could about the company in advance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێش‌وەختە خۆی ئامادەکرد بۆ چاوپێکەوتنەکە بە دۆزینەوەی ھەر شتێک کە دەیتوانی بیکات سەبارەت بە کۆمپانیاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarm156("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarm156(// REPLACE: arm /ɑːrm/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She armed herself for the interview by finding out all she could about the company in advance.",
+                            kurdishText:
+                                "پێش‌وەختە خۆی ئامادەکرد بۆ چاوپێکەوتنەکە بە دۆزینەوەی ھەر شتێک کە دەیتوانی بیکات سەبارەت بە کۆمپانیاکە.",
+                            onPressedBritish: () => speakarm156("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarm156(// REPLACE: arm /ɑːrm/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

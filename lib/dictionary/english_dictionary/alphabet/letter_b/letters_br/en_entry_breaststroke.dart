@@ -145,33 +145,14 @@ class EnglishEntrybreaststroke extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جۆرە مەلەیەک کە لەسەر سنگت دەیکەیت، دەستەکان و قاچەکانت بۆ دوور لە جەستەت دەجوڵێنیت و دواتر بە بازنەیەک بەرەو جەستەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can only do the breaststroke."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەنھا دەتوانم بۆقەمەلە بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "breaststroke" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreaststrokes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreaststrokes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I can only do the breaststroke.",
+                            kurdishText:
+                                "تەنھا دەتوانم بۆقەمەلە بکەم.", // breaststroke" as
+                            onPressedBritish: () =>
+                                speakbreaststrokes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbreaststrokes1("en-US"),
                           ),
                         ],
                       ),

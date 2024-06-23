@@ -155,67 +155,27 @@ class EnglishEntryanalogous extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) لێکچوو لەگەڵ شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sleep has often been thought of as being in some way analogous to death."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەوتن زۆرجار بەجۆرێک لە جۆرەکان بە مردن چوێندراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanalogous852401("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalogous852401(
-                                        // REPLACE: analogous /əˈnæləɡəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sleep has often been thought of as being in some way analogous to death.",
+                            kurdishText:
+                                "خەوتن زۆرجار بەجۆرێک لە جۆرەکان بە مردن چوێندراوە.",
+                            onPressedBritish: () =>
+                                speakanalogous852401("en-GB"),
+                            onPressedAmerican: () => speakanalogous852401(
+                                // REPLACE: analogous /əˈnæləɡəs/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two situations are roughly analogous."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو بارودۆخەکە تاڕادەیەک لێکچوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanalogous8401("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalogous8401(
-                                        // REPLACE: analogous /əˈnæləɡəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two situations are roughly analogous.",
+                            kurdishText: "ھەردوو بارودۆخەکە تاڕادەیەک لێکچوون.",
+                            onPressedBritish: () => speakanalogous8401("en-GB"),
+                            onPressedAmerican: () => speakanalogous8401(
+                                // REPLACE: analogous /əˈnæləɡəs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -150,92 +150,33 @@ class EnglishEntrybawl extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) ھاوارکردن بە دەنگی بەرز و ناخۆش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She bawled at him in front of everyone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەپێش ھەمووان ھاواری کرد بەسەریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbawls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbawls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She bawled at him in front of everyone.",
+                            kurdishText: "لەپێش ھەمووان ھاواری کرد بەسەریدا.",
+                            onPressedBritish: () => speakbawls1("en-GB"),
+                            onPressedAmerican: () => speakbawls1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some noisy students were bawling for more food."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک خوێندکاری ھاروھاج زاق‌وزیقیان بوو ڤۆ خواردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbawls2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbawls2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some noisy students were bawling for more food.",
+                            kurdishText:
+                                "ھەندێک خوێندکاری ھاروھاج زاق‌وزیقیان بوو ڤۆ خواردن.",
+                            onPressedBritish: () => speakbawls2("en-GB"),
+                            onPressedAmerican: () => speakbawls2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) گریان بە دەنگی بەرز و ناخۆش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A child was bawling in the next room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵێک لە ژوورەکەی تر بۆڕەبۆڕی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbawls2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbawls2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A child was bawling in the next room.",
+                            kurdishText: "منداڵێک لە ژوورەکەی تر بۆڕەبۆڕی بوو.",
+                            onPressedBritish: () => speakbawls2("en-GB"),
+                            onPressedAmerican: () => speakbawls2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

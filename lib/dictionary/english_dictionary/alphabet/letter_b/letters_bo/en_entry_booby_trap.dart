@@ -150,63 +150,25 @@ class EnglishEntryboobytrap extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بۆمبێک کە دەتەقێتەوە کاتێک ئەو شتەی پێەوە پەیوەستکراوە دەستی لێدەدرێت، یان شتێک کە بۆ گاڵتە دانراوە، بۆ نموونە شتێک لەسەر دەرگایەک کە دەکەوێت بەسەر ئەو کەسەی دەرگاکە دەکاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Nobody went near the abandoned car in case it was a booby trap."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەس نەیوێرا بچێت بە دەوری ئۆتۆمبێلە جێھێكدراوەکەدا نەوەک تەقینەوەیەکی داڕێژراو بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboobytraps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboobytraps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Nobody went near the abandoned car in case it was a booby trap.",
+                            kurdishText:
+                                "کەس نەیوێرا بچێت بە دەوری ئۆتۆمبێلە جێھێكدراوەکەدا نەوەک تەقینەوەیەکی داڕێژراو بێت.",
+                            onPressedBritish: () => speakboobytraps1("en-GB"),
+                            onPressedAmerican: () => speakboobytraps1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) نانەوەی تەڵە یان چاندنی تەقەمەنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police discovered that the car was booby-trapped."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس زانی ئۆتۆمبێلەکە بە بۆمب چێنرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboobytraps2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboobytraps2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police discovered that the car was booby-trapped.",
+                            kurdishText:
+                                "پۆلیس زانی ئۆتۆمبێلەکە بە بۆمب چێنرابوو.",
+                            onPressedBritish: () => speakboobytraps2("en-GB"),
+                            onPressedAmerican: () => speakboobytraps2("en-US"),
                           ),
                         ],
                       ),

@@ -148,31 +148,11 @@ class EnglishEntryblacksheep extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە جیاوازە لە ئەندامانی دیکەی خێزانەکەی و بە خراپ و مایەی ئابڕووچوون و شەرمەزاری دادەنرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's the black sheep of the family."),
-                                    ExampleSentenceKurdish(
-                                        text: "مایەی نەنگی خێزانەکەی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacksheeps1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacksheeps1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's the black sheep of the family.",
+                            kurdishText: "مایەی نەنگی خێزانەکەی بوو.",
+                            onPressedBritish: () => speakblacksheeps1("en-GB"),
+                            onPressedAmerican: () => speakblacksheeps1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

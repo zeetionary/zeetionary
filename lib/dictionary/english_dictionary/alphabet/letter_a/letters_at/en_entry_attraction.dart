@@ -167,200 +167,86 @@ class EnglishEntryattraction extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) شوێنێکی خۆش و سەرنجڕاکێش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Buckingham Palace is a major tourist attraction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکینگھام پاڵاس شوێنێکی گەشتیاری سەرنجڕاکێشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattraction1023("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattraction1023(
-                                        // REPLACE: attraction
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Buckingham Palace is a major tourist attraction.",
+                            kurdishText:
+                                "بەکینگھام پاڵاس شوێنێکی گەشتیاری سەرنجڕاکێشە.",
+                            onPressedBritish: () =>
+                                speakattraction1023("en-GB"),
+                            onPressedAmerican: () => speakattraction1023(
+                                // REPLACE: attraction
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) حەزکردن لە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She felt an immediate attraction for him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە دڵبەستەییەکی دەستبەجێ کرد بۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattraction1024("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattraction1024(
-                                        // REPLACE: attraction
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She felt an immediate attraction for him.",
+                            kurdishText:
+                                "ھەستی بە دڵبەستەییەکی دەستبەجێ کرد بۆی.",
+                            onPressedBritish: () =>
+                                speakattraction1024("en-GB"),
+                            onPressedAmerican: () => speakattraction1024(
+                                // REPLACE: attraction
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sexual attraction is a large part of falling in love."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزی سێکسی یەکێکە لە لایەنە گەورەکانی کەوتنە خۆشەویستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattraction1026("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattraction1026(
-                                        // REPLACE: attraction
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sexual attraction is a large part of falling in love.",
+                            kurdishText:
+                                "حەزی سێکسی یەکێکە لە لایەنە گەورەکانی کەوتنە خۆشەویستی.",
+                            onPressedBritish: () =>
+                                speakattraction1026("en-GB"),
+                            onPressedAmerican: () => speakattraction1026(
+                                // REPLACE: attraction
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) تایبەتمەندییەک یان خاسیەتێک کە شتێک ھەیەتی و سەرنجڕاکێشی دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "City life holds little attraction for me."),
-                                    ExampleSentenceKurdish(
-                                        text: "ژیانی شار باڵکێش نییە لام."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattraction1028("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattraction1028(
-                                        // REPLACE: attraction
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "City life holds little attraction for me.",
+                            kurdishText: "ژیانی شار باڵکێش نییە لام.",
+                            onPressedBritish: () =>
+                                speakattraction1028("en-GB"),
+                            onPressedAmerican: () => speakattraction1028(
+                                // REPLACE: attraction
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The main attraction of the place is the nightlife."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاسیەتی دڵڕفێنی شوێنەکە ژیانی شەوانیەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattraction1030("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattraction1030(
-                                        // REPLACE: attraction
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The main attraction of the place is the nightlife.",
+                            kurdishText:
+                                "خاسیەتی دڵڕفێنی شوێنەکە ژیانی شەوانیەتی.",
+                            onPressedBritish: () =>
+                                speakattraction1030("en-GB"),
+                            onPressedAmerican: () => speakattraction1030(
+                                // REPLACE: attraction
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ھێزێک کە شتەکان بەرەو یەکتر ڕادەکێشێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The gravitational attraction between the Earth and the Moon keeps the Moon in orbit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزی کێشکردنی نێوان زەوی و مانگ وادەکات مانگ لە خولگەی خۆیدا بمێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattraction1034("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattraction1034(
-                                        // REPLACE: attraction
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The gravitational attraction between the Earth and the Moon keeps the Moon in orbit.",
+                            kurdishText:
+                                "ھێزی کێشکردنی نێوان زەوی و مانگ وادەکات مانگ لە خولگەی خۆیدا بمێنێتەوە.",
+                            onPressedBritish: () =>
+                                speakattraction1034("en-GB"),
+                            onPressedAmerican: () => speakattraction1034(
+                                // REPLACE: attraction
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

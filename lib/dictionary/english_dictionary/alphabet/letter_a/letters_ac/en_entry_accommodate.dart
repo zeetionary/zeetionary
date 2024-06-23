@@ -120,122 +120,46 @@ class EnglishEntryaccommodate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) دابینکردنی شوێنی مانەوە بۆ کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hotel can accommodate up to 500 guests."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھوتێلەکە ئەتوانێت ٥٠٠ میوان لەخۆبگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka25631("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka25631("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hotel can accommodate up to 500 guests.",
+                            kurdishText:
+                                "ھوتێلەکە ئەتوانێت ٥٠٠ میوان لەخۆبگرێت.",
+                            onPressedBritish: () => speaka25631("en-GB"),
+                            onPressedAmerican: () => speaka25631("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) توانای لەخۆگرتنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The garage can accommodate three cars."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەراجەکە شوێنی سێ ئۆتۆمبێلی تێدا دەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka14258("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka14258("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The garage can accommodate three cars.",
+                            kurdishText:
+                                "گەراجەکە شوێنی سێ ئۆتۆمبێلی تێدا دەبێتەوە.",
+                            onPressedBritish: () => speaka14258("en-GB"),
+                            onPressedAmerican: () => speaka14258("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) لەبەرچاوگرتنی پێویستی یان بۆچوونی کەسێک و گرنگیپێدان پێی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our proposal tries to accommodate the special needs of minority groups."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشنیارەکانمان ھەوڵ دەدات پێداویستییە تایبەتەکانی کەمایەتییەکان لەبەرچاوبگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac2489("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac2489("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our proposal tries to accommodate the special needs of minority groups.",
+                            kurdishText:
+                                "پێشنیارەکانمان ھەوڵ دەدات پێداویستییە تایبەتەکانی کەمایەتییەکان لەبەرچاوبگرێت.",
+                            onPressedBritish: () => speakac2489("en-GB"),
+                            onPressedAmerican: () => speakac2489("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) یارمەتیدانی کەسێک بە پێدانی ئەوەی دەیەوێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I’m sure the bank will be able to accommodate you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیام بانکەکە دەتوانێت یارمەتیت بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka24698("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka24698("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I’m sure the bank will be able to accommodate you.",
+                            kurdishText:
+                                "دڵنیام بانکەکە دەتوانێت یارمەتیت بدات.",
+                            onPressedBritish: () => speaka24698("en-GB"),
+                            onPressedAmerican: () => speaka24698("en-US"),
                           ),
                         ],
                       ),

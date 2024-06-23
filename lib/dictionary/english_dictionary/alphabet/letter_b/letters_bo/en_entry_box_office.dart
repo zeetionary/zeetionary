@@ -146,60 +146,22 @@ class EnglishEntryboxoffice extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شوێنێک لە ھۆڵی شانۆ، سینەما، ھتد کە بلیتی تێدا دەفرۆشرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Box-office receipts have exceeded expectations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قازانج لە ئۆفیسەکانی بلیت فرۆشتن پێشبینییەکانی تێپەڕاندووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxoffices1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxoffices1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Box-office receipts have exceeded expectations.",
+                            kurdishText:
+                                "قازانج لە ئۆفیسەکانی بلیت فرۆشتن پێشبینییەکانی تێپەڕاندووە.",
+                            onPressedBritish: () => speakboxoffices1("en-GB"),
+                            onPressedAmerican: () => speakboxoffices1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie has been a huge box-office success (= many people have been to see it)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە لە سینەماکاندا سەرکەوتنی بەرچاوی بەخۆوەدیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxoffices2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxoffices2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie has been a huge box-office success (= many people have been to see it).",
+                            kurdishText:
+                                "فیلمەکە لە سینەماکاندا سەرکەوتنی بەرچاوی بەخۆوەدیوە.",
+                            onPressedBritish: () => speakboxoffices2("en-GB"),
+                            onPressedAmerican: () => speakboxoffices2("en-US"),
                           ),
                         ],
                       ),

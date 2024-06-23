@@ -158,35 +158,16 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تێکەڵەیەکی ژمارەیەک ھاڕاوە کە بەکاردێن بۆ ئەوەی وابکات کێک بەرزببێتەوە و بدرەوشێتەوە لە کاتی برژاندن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Add one teaspoon of baking powder to the flour and whisk together."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەک کەوچک چایی دەرمانی کێک بکە ئاردەکەوە و تێکەڵیان بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbakingpowders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbakingpowders1(
-                                        // REPLACE: baking powder
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Add one teaspoon of baking powder to the flour and whisk together.",
+                            kurdishText:
+                                "یەک کەوچک چایی دەرمانی کێک بکە ئاردەکەوە و تێکەڵیان بکە.",
+                            onPressedBritish: () =>
+                                speakbakingpowders1("en-GB"),
+                            onPressedAmerican: () => speakbakingpowders1(
+                                // REPLACE: baking powder
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

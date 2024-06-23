@@ -274,303 +274,111 @@ class EnglishEntrybubble extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بڵق؛ تۆپەڵەیەک لە ھەوا یان گاز لە ناو شلەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He blew bubbles into the water through a straw."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە قەسەبێک بڵقی دەکرد بە ئاوەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bubble" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbubbles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbubbles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He blew bubbles into the water through a straw.",
+                            kurdishText:
+                                "بە قەسەبێک بڵقی دەکرد بە ئاوەکەدا.", // bubble" as
+                            onPressedBritish: () => speakbubbles1("en-GB"),
+                            onPressedAmerican: () => speakbubbles1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are air bubbles trapped inside the ice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڵقە ھەوا لە ناو سەھۆڵەکەدا گیریان خواردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbubbles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbubbles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are air bubbles trapped inside the ice.",
+                            kurdishText:
+                                "بڵقە ھەوا لە ناو سەھۆڵەکەدا گیریان خواردووە.",
+                            onPressedBritish: () => speakbubbles2("en-GB"),
+                            onPressedAmerican: () => speakbubbles2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کەفی سابوون، تایت، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children like to have bubbles in their bath."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان حەز دەکەن کەف لە حەوزەکەیاندا بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbubbles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbubbles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children like to have bubbles in their bath.",
+                            kurdishText:
+                                "منداڵەکان حەز دەکەن کەف لە حەوزەکەیاندا بێت.",
+                            onPressedBritish: () => speakbubbles3("en-GB"),
+                            onPressedAmerican: () => speakbubbles3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەمێک لە ھەست کە کەسێک دەیەوێت دەری ببڕێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A simple act of kindness can create a powerful bubble of hope."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵوێستێکی سادەی بەخشندەیی دەکرێت قەترەیەکی بەھێز لە ھیوا درووست بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbubbles4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbubbles4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A simple act of kindness can create a powerful bubble of hope.",
+                            kurdishText:
+                                "ھەڵوێستێکی سادەی بەخشندەیی دەکرێت قەترەیەکی بەھێز لە ھیوا درووست بکات.",
+                            onPressedBritish: () => speakbubbles4("en-GB"),
+                            onPressedAmerican: () => speakbubbles4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) دۆخێکی باش کە زۆر بەردەوام نابێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He made millions before the dotcom bubble burst."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ملیۆنان دەلاری پەیداکرد پێش سەردەمی خۆشگوزەرانی دۆتکۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbubbles5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbubbles5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He made millions before the dotcom bubble burst.",
+                            kurdishText:
+                                "ملیۆنان دەلاری پەیداکرد پێش سەردەمی خۆشگوزەرانی دۆتکۆم.",
+                            onPressedBritish: () => speakbubbles5("en-GB"),
+                            onPressedAmerican: () => speakbubbles5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) کۆمەڵە کەسێک کە لەگەڵیاندا لە پەیوەندیدایت لە کاتی نەخۆشیدا کە دەبێت خۆت لە خەك=ڵکی دووربخەیتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's been staying with his sister and her husband at weekends since he chose to form a bubble with them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتایی ھەفتە لەگەڵ خوشکەکەی و ھاوسەرەکەی ماوەتەوە بەھۆی ئەوەی بڕیاریدا لەگەڵ ئەوان بمێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbubbles6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbubbles6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's been staying with his sister and her husband at weekends since he chose to form a bubble with them.",
+                            kurdishText:
+                                "لە کۆتایی ھەفتە لەگەڵ خوشکەکەی و ھاوسەرەکەی ماوەتەوە بەھۆی ئەوەی بڕیاریدا لەگەڵ ئەوان بمێنێتەوە.",
+                            onPressedBritish: () => speakbubbles6("en-GB"),
+                            onPressedAmerican: () => speakbubbles6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) درووستکردنی بڵق و کەف"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The water in the pan was beginning to bubble."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاوی مەنجەڵەکە دەستی بە بڵقە‌بڵق دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbubbles7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbubbles7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The water in the pan was beginning to bubble.",
+                            kurdishText:
+                                "ئاوی مەنجەڵەکە دەستی بە بڵقە‌بڵق دەکرد.",
+                            onPressedBritish: () => speakbubbles7("en-GB"),
+                            onPressedAmerican: () => speakbubbles7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کردار) درووستکردنی دەنگی بڵقە‌بڵق"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The water in the saucepan was bubbling furiously."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاوی مەنجەڵەکە بە توندی بڵقە‌بڵقی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbubbles8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbubbles8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The water in the saucepan was bubbling furiously.",
+                            kurdishText:
+                                "ئاوی مەنجەڵەکە بە توندی بڵقە‌بڵقی دەکرد.",
+                            onPressedBritish: () => speakbubbles8("en-GB"),
+                            onPressedAmerican: () => speakbubbles8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (کردار) پڕ لە ھەستێکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was bubbling over with excitement."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە خۆشیدا جێی بە خۆی نەدەگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbubbles9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbubbles9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was bubbling over with excitement.",
+                            kurdishText: "لە خۆشیدا جێی بە خۆی نەدەگرت.",
+                            onPressedBritish: () => speakbubbles9("en-GB"),
+                            onPressedAmerican: () => speakbubbles9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) ھەستێک کە بە بەھێزی بوونی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The little girl bubbled with health."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کچە بچووکەکە تەواو تەندرووست بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbubbles10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbubbles10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The little girl bubbled with health.",
+                            kurdishText: "کچە بچووکەکە تەواو تەندرووست بوو.",
+                            onPressedBritish: () => speakbubbles10("en-GB"),
+                            onPressedAmerican: () => speakbubbles10("en-US"),
                           ),
                         ],
                       ),

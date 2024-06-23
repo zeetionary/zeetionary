@@ -114,64 +114,22 @@ class EnglishEntryallergy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) حاڵەتێکی تەندرووستی کە وات لێ دەکات بارودۆخت تێک بچێت یان نەخۆش بکەویت ئەگەر شتێک بۆخیت یان دەست لە شتێک بدەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have an allergy to animal hair."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەستیاریم بە مووی ئاژەڵ ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallergy462555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallergy462555(
-                                        // REPLACE: allergy /ˈælərdʒi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I have an allergy to animal hair.",
+                            kurdishText: "ھەستیاریم بە مووی ئاژەڵ ھەیە.",
+                            onPressedBritish: () => speakallergy462555("en-GB"),
+                            onPressedAmerican: () => speakallergy462555(
+                                // REPLACE: allergy /ˈælərdʒi/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He developed an allergy to wheat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستیاری بە گەنمی بۆ درووست بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallergy53699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallergy53699(
-                                        // REPLACE: allergy /ˈælərdʒi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He developed an allergy to wheat.",
+                            kurdishText: "ھەستیاری بە گەنمی بۆ درووست بوو.",
+                            onPressedBritish: () => speakallergy53699("en-GB"),
+                            onPressedAmerican: () => speakallergy53699(
+                                // REPLACE: allergy /ˈælərdʒi/
+                                "en-US"),
                           ),
                         ],
                       ),

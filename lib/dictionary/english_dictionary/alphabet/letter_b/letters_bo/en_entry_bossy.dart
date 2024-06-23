@@ -149,60 +149,21 @@ class EnglishEntrybossy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەمیشە بە خەڵکی بڵێن چی بکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you treat all your guests in this bossy manner?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەم ھەڵسوکەوتە کەڵەگاییانە مامەڵە لەگەڵ ھەموو میوانەکانەکانت دەکەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbossys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbossys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do you treat all your guests in this bossy manner?",
+                            kurdishText:
+                                "بەم ھەڵسوکەوتە کەڵەگاییانە مامەڵە لەگەڵ ھەموو میوانەکانەکانت دەکەیت؟",
+                            onPressedBritish: () => speakbossys1("en-GB"),
+                            onPressedAmerican: () => speakbossys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's strong without being bossy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێکی بەھێزە بەبێ ئەوەی زۆردار دەربکەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbossys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbossys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's strong without being bossy.",
+                            kurdishText:
+                                "کەسێکی بەھێزە بەبێ ئەوەی زۆردار دەربکەوێت.",
+                            onPressedBritish: () => speakbossys2("en-GB"),
+                            onPressedAmerican: () => speakbossys2("en-US"),
                           ),
                         ],
                       ),

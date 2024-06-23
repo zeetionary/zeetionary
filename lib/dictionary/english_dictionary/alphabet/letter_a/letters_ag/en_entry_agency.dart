@@ -114,65 +114,27 @@ class EnglishEntryagency extends StatelessWidget {
                               text:
                                   "١. (ناو) دامەزراوەیەک کە خزمەتگوزارییەک پێشکەش دەکات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She works for an surveillance agency."),
-                                    ExampleSentenceKurdish(
-                                        text: "بۆ دەزگایەکی چاودێری کاردەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagency27469("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagency27469(
-                                        // REPLACE: agency /ˈeɪdʒənsi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She works for an surveillance agency.",
+                            kurdishText: "بۆ دەزگایەکی چاودێری کاردەکات.",
+                            onPressedBritish: () => speakagency27469("en-GB"),
+                            onPressedAmerican: () => speakagency27469(
+                                // REPLACE: agency /ˈeɪdʒənsi/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) فەرمانگەیەکی حکومەت کە خزمەتگوزارییەکی دیاریکراو پێشکەش دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some laboratories are operated by government agencies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک تاقیگە لەلایەن فەرمانگەکانی حکومەتەوە بەڕێوەدەبردرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagency2593("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagency2593(
-                                        // REPLACE: agency /ˈeɪdʒənsi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some laboratories are operated by government agencies.",
+                            kurdishText:
+                                "ھەندێک تاقیگە لەلایەن فەرمانگەکانی حکومەتەوە بەڕێوەدەبردرێن.",
+                            onPressedBritish: () => speakagency2593("en-GB"),
+                            onPressedAmerican: () => speakagency2593(
+                                // REPLACE: agency /ˈeɪdʒənsi/
+                                "en-US"),
                           ),
                         ],
                       ),

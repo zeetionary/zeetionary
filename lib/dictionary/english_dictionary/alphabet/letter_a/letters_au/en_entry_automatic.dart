@@ -166,201 +166,80 @@ class EnglishEntryautomatic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شتێک کە بۆ خۆی کاردەکات و پێویستی بە کۆنترۆڵکردن لەلایەن مرۆڤەوە نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The automatic pilot system on the airplane kept it on course even during turbulence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیستەمە لێخوڕە خۆکارەکە لەسەر فڕۆکەکە لەسەر ڕێڕەو ھێشتییەوە تەنانەت لە کاتی ھەڵبەز و دابەز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautomatic1027("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautomatic1027(// REPLACE: automatic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The automatic pilot system on the airplane kept it on course even during turbulence.",
+                            kurdishText:
+                                "سیستەمە لێخوڕە خۆکارەکە لەسەر فڕۆکەکە لەسەر ڕێڕەو ھێشتییەوە تەنانەت لە کاتی ھەڵبەز و دابەز.",
+                            onPressedBritish: () => speakautomatic1027("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautomatic1027(// REPLACE: automatic
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The automatic doors opened as I approached the entrance to the store."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرگا ئۆتۆماتیکییەکان کرانەوە کە گەشتم بە بەردەمی فرۆشگاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautomatic1030("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautomatic1030(// REPLACE: automatic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The automatic doors opened as I approached the entrance to the store.",
+                            kurdishText:
+                                "دەرگا ئۆتۆماتیکییەکان کرانەوە کە گەشتم بە بەردەمی فرۆشگاکە.",
+                            onPressedBritish: () => speakautomatic1030("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautomatic1030(// REPLACE: automatic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ڕوودان بەبێ بیرکردنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Breathing is an automatic function of the body."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەناسەدان ئەرکێکی خۆنەویستانەی لەشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautomatic1031("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautomatic1031(// REPLACE: automatic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Breathing is an automatic function of the body.",
+                            kurdishText: "ھەناسەدان ئەرکێکی خۆنەویستانەی لەشە.",
+                            onPressedBritish: () => speakautomatic1031("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautomatic1031(// REPLACE: automatic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) شتێک کە ھەمیشە ڕوودەدات لە ئەنجامی شتێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A fine for this offence is automatic."),
-                                    ExampleSentenceKurdish(
-                                        text: "سزا بۆ ئەم تاوانە ھەمیشە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautomatic1033("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautomatic1033(// REPLACE: automatic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A fine for this offence is automatic.",
+                            kurdishText: "سزا بۆ ئەم تاوانە ھەمیشە ھەیە.",
+                            onPressedBritish: () => speakautomatic1033("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautomatic1033(// REPLACE: automatic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) چەکێک کە خۆی پڕدەکاتەوە ھەرچەندە دەست لەسەر پەلەپیتکەکە دابنێیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The gunman opened fire with an automatic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەکدارەکە بە چەکێکی خۆکار دەستی بە تەقە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautomatic1037("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautomatic1037(// REPLACE: automatic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The gunman opened fire with an automatic.",
+                            kurdishText:
+                                "چەکدارەکە بە چەکێکی خۆکار دەستی بە تەقە کرد.",
+                            onPressedBritish: () => speakautomatic1037("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautomatic1037(// REPLACE: automatic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) ئۆتۆمبێلێک کە خۆکارانە گێڕ دەگۆڕێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Kate drives an automatic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەیت ئۆتۆمبێلێکی گێڕ ئۆتۆماتیکی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautomatic1039("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautomatic1039(// REPLACE: automatic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Kate drives an automatic.",
+                            kurdishText:
+                                "کەیت ئۆتۆمبێلێکی گێڕ ئۆتۆماتیکی ھەیە.",
+                            onPressedBritish: () => speakautomatic1039("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautomatic1039(// REPLACE: automatic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

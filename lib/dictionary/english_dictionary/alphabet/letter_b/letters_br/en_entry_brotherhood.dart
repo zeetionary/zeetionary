@@ -147,99 +147,39 @@ class EnglishEntrybrotherhood extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ھاوڕێیەتی و تێگەشتن لە نێوان خەڵکیدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The group tries to promote a spirit of brotherhood among its members."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرووپەکە ھەوڵ دەدات گیانی برایەتی برەو پێ بدات لە نێوان ئەندامەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brotherhood" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbrotherhoods1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbrotherhoods1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The group tries to promote a spirit of brotherhood among its members.",
+                            kurdishText:
+                                "گرووپەکە ھەوڵ دەدات گیانی برایەتی برەو پێ بدات لە نێوان ئەندامەکانی.", // brotherhood" as
+                            onPressedBritish: () => speakbrotherhoods1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbrotherhoods1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دامەزراوەیەک کە بۆ مەبەستێکی دیاریکراو درووستکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The various groups eventually fused into a single brotherhood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرووپە جیاوازەکان لە کۆتایی بوون بە یەک دامەزراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbrotherhoods2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbrotherhoods2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The various groups eventually fused into a single brotherhood.",
+                            kurdishText:
+                                "گرووپە جیاوازەکان لە کۆتایی بوون بە یەک دامەزراوە.",
+                            onPressedBritish: () => speakbrotherhoods2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbrotherhoods2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) پەیوەندی نێوان ژمارەیەک برا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ties of brotherhood strengthened as they faced challenges together."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندیی برایانەیان بەھێزبوو کە پێکەوە ڕووبەڕووی چەڵەمە دەبوونەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbrotherhoods3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbrotherhoods3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ties of brotherhood strengthened as they faced challenges together.",
+                            kurdishText:
+                                "پەیوەندیی برایانەیان بەھێزبوو کە پێکەوە ڕووبەڕووی چەڵەمە دەبوونەوە.",
+                            onPressedBritish: () => speakbrotherhoods3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbrotherhoods3("en-US"),
                           ),
                         ],
                       ),

@@ -148,63 +148,25 @@ class EnglishEntrybishopric extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھەبوونی پلەی قەشەی باڵا، یان ناوچەیەک کە قەشەیەکی باڵای ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bishopric organized charitable events to support local causes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەشە باڵاکە بۆنەی خێرخوازی ڕێکدەخست بۆ یارمەتی دانی دۆزە ناوخۆییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbishoprics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbishoprics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bishopric organized charitable events to support local causes.",
+                            kurdishText:
+                                "قەشە باڵاکە بۆنەی خێرخوازی ڕێکدەخست بۆ یارمەتی دانی دۆزە ناوخۆییەکان.",
+                            onPressedBritish: () => speakbishoprics1("en-GB"),
+                            onPressedAmerican: () => speakbishoprics1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئەو ناوچەیەی کە سەرقەشەیەک سەرپەرشتی دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bishopric of Canterbury encompassed numerous villages and towns in medieval England."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەڵبەندی سەرقەشەی کانتبری ژمارەیەک لە گوند و شارۆچکەی لەخۆدەگرت لە سەدەکانی ناوەڕاستی ئینگلتەرە (ساڵانی ١٠٠٠ بۆ ١٤٥٠ی زاینی)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbishoprics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbishoprics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bishopric of Canterbury encompassed numerous villages and towns in medieval England.",
+                            kurdishText:
+                                "مەڵبەندی سەرقەشەی کانتبری ژمارەیەک لە گوند و شارۆچکەی لەخۆدەگرت لە سەدەکانی ناوەڕاستی ئینگلتەرە (ساڵانی ١٠٠٠ بۆ ١٤٥٠ی زاینی).",
+                            onPressedBritish: () => speakbishoprics2("en-GB"),
+                            onPressedAmerican: () => speakbishoprics2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

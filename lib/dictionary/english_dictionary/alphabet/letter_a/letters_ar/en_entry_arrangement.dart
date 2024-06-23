@@ -166,203 +166,89 @@ class EnglishEntryarrangement extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پلانێک یان ئامادەکارییەک کە ئەنجامی دەدەیت بۆ ئەوەی شتێک ڕووبدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Travel and accommodation arrangements have been finalized."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێکخستنی کاتی گەشتەکە و شوێنی مانەوە ئەنجام‌دراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarrangement122("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrangement122(
-                                        // REPLACE: arrangement /əˈreɪndʒmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Travel and accommodation arrangements have been finalized.",
+                            kurdishText:
+                                "ڕێکخستنی کاتی گەشتەکە و شوێنی مانەوە ئەنجام‌دراوە.",
+                            onPressedBritish: () =>
+                                speakarrangement122("en-GB"),
+                            onPressedAmerican: () => speakarrangement122(
+                                // REPLACE: arrangement /əˈreɪndʒmənt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Arrangements for the funeral are complete."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامادەکارییەکان بۆ مەراسیمی ناشتنەکە تەواوبوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarrangement124("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrangement124(
-                                        // REPLACE: arrangement /əˈreɪndʒmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Arrangements for the funeral are complete.",
+                            kurdishText:
+                                "ئامادەکارییەکان بۆ مەراسیمی ناشتنەکە تەواوبوونە.",
+                            onPressedBritish: () =>
+                                speakarrangement124("en-GB"),
+                            onPressedAmerican: () => speakarrangement124(
+                                // REPLACE: arrangement /əˈreɪndʒmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شێوازی کردن یان ڕێکخستنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's happy with her unusual living arrangements."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵخۆشە بە شێوازە نائاساییەکەی ژیانکردنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarrangement126("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrangement126(
-                                        // REPLACE: arrangement /əˈreɪndʒmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's happy with her unusual living arrangements.",
+                            kurdishText:
+                                "دڵخۆشە بە شێوازە نائاساییەکەی ژیانکردنی.",
+                            onPressedBritish: () =>
+                                speakarrangement126("en-GB"),
+                            onPressedAmerican: () => speakarrangement126(
+                                // REPLACE: arrangement /əˈreɪndʒmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ڕێککەوتنێک لەگەڵ کەسێک بۆ ئەوەی ھەردووکتان پەسەندی بکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We can come to an arrangement over the price."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانین بگەینە ڕێککەوتنێک لەسەر نرخەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarrangement128("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrangement128(
-                                        // REPLACE: arrangement /əˈreɪndʒmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We can come to an arrangement over the price.",
+                            kurdishText:
+                                "دەتوانین بگەینە ڕێککەوتنێک لەسەر نرخەکە.",
+                            onPressedBritish: () =>
+                                speakarrangement128("en-GB"),
+                            onPressedAmerican: () => speakarrangement128(
+                                // REPLACE: arrangement /əˈreɪndʒmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کۆمەڵە شتێک کە بەشێوەیەکی جوان ڕێکخراون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who did this beautiful flower arrangement?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێ ئەم ڕازاندنەوە جوانەی بۆ ئەم گوڵانە کرد؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarrangement131("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrangement131(
-                                        // REPLACE: arrangement /əˈreɪndʒmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Who did this beautiful flower arrangement?",
+                            kurdishText:
+                                "کێ ئەم ڕازاندنەوە جوانەی بۆ ئەم گوڵانە کرد؟",
+                            onPressedBritish: () =>
+                                speakarrangement131("en-GB"),
+                            onPressedAmerican: () => speakarrangement131(
+                                // REPLACE: arrangement /əˈreɪndʒmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) پارچە میوزیکێک کە گۆڕدراوە بۆ گونجاندنی لەگەڵ ئامێرێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This new arrangement of the piece is for saxophone and piano."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم سازاندنە تازەی پارچە میوزیکەکە بۆ ساکسۆفۆن و پیانۆیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarrangement134("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrangement134(
-                                        // REPLACE: arrangement /əˈreɪndʒmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This new arrangement of the piece is for saxophone and piano.",
+                            kurdishText:
+                                "ئەم سازاندنە تازەی پارچە میوزیکەکە بۆ ساکسۆفۆن و پیانۆیە.",
+                            onPressedBritish: () =>
+                                speakarrangement134("en-GB"),
+                            onPressedAmerican: () => speakarrangement134(
+                                // REPLACE: arrangement /əˈreɪndʒmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

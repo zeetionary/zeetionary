@@ -106,62 +106,24 @@ class EnglishEntryaccession extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) گەشتن بە پلەیەکی باڵا" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "1926 was the year of Emperor Hirohito's accession to the throne."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵی ١٩٢٦ ساڵی بوون بە پاشایی ئیمپراتۆر ھیرۆھیتۆ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacc2154("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacc2154("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "1926 was the year of Emperor Hirohito's accession to the throne.",
+                            kurdishText:
+                                "ساڵی ١٩٢٦ ساڵی بوون بە پاشایی ئیمپراتۆر ھیرۆھیتۆ بوو.",
+                            onPressedBritish: () => speakacc2154("en-GB"),
+                            onPressedAmerican: () => speakacc2154("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بوون بە بەشێک لە ڕێکخراوێکی نێودەوڵەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is absolutely not right to speed up accession to Nato without public support."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ درووست نییە چوونە ناو ناتۆ خێرابکرێت بەبێ پشتگیری خەڵک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac58877("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac58877("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is absolutely not right to speed up accession to Nato without public support.",
+                            kurdishText:
+                                "ھیچ درووست نییە چوونە ناو ناتۆ خێرابکرێت بەبێ پشتگیری خەڵک.",
+                            onPressedBritish: () => speakac58877("en-GB"),
+                            onPressedAmerican: () => speakac58877("en-US"),
                           ),
                         ],
                       ),

@@ -154,210 +154,77 @@ class EnglishEntrybelief extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بۆچوونێکی بەھێز کە شتێک یان کەسێک بوونی ھەیە یان ڕاستە """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I admire his passionate belief in what he is doing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسامی باوەڕی گەرموگوڕیم بۆ ئەوەی کە دەیکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeliefs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeliefs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I admire his passionate belief in what he is doing.",
+                            kurdishText:
+                                "سەرسامی باوەڕی گەرموگوڕیم بۆ ئەوەی کە دەیکات.",
+                            onPressedBritish: () => speakbeliefs1("en-GB"),
+                            onPressedAmerican: () => speakbeliefs1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The incident has shaken my belief (= made me have less confidence) in the police."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووداوەکە باوەڕمی بە پۆلیس لەقکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeliefs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeliefs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The incident has shaken my belief (= made me have less confidence) in the police.",
+                            kurdishText:
+                                "ڕووداوەکە باوەڕمی بە پۆلیس لەقکردووە.",
+                            onPressedBritish: () => speakbeliefs2("en-GB"),
+                            onPressedAmerican: () => speakbeliefs2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They share a belief that there is life after death."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئیمانیان بەوە ھەیە کە ژیانی دوای مەرگ ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeliefs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeliefs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They share a belief that there is life after death.",
+                            kurdishText:
+                                "ئیمانیان بەوە ھەیە کە ژیانی دوای مەرگ ھەیە.",
+                            onPressedBritish: () => speakbeliefs3("en-GB"),
+                            onPressedAmerican: () => speakbeliefs3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بۆچوونێک لەسەر شتێک؛ شتێک کە پێت‌وایە ڕاستە """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a general belief that things will soon get better."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆچوونێکی گشتی ھەیە کە شتەکان باشتر دەبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeliefs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeliefs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a general belief that things will soon get better.",
+                            kurdishText:
+                                "بۆچوونێکی گشتی ھەیە کە شتەکان باشتر دەبن.",
+                            onPressedBritish: () => speakbeliefs4("en-GB"),
+                            onPressedAmerican: () => speakbeliefs4("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She acted in the belief that she was doing good."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەو باوەڕەوە کاری کرد کە شتێکی باش دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeliefs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeliefs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She acted in the belief that she was doing good.",
+                            kurdishText:
+                                "بەو باوەڕەوە کاری کرد کە شتێکی باش دەکات.",
+                            onPressedBritish: () => speakbeliefs5("en-GB"),
+                            onPressedAmerican: () => speakbeliefs5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) شتێک کە باوەڕی پێیەتی، بەتایبەتی کە بەشێک بێت لە ئایین """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some people hold beliefs about the world that are not supported by science."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کەس باوەڕیان بە شتانێک ھەیە کە زانست پشتگیری ناکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeliefs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeliefs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some people hold beliefs about the world that are not supported by science.",
+                            kurdishText:
+                                "ھەندێک کەس باوەڕیان بە شتانێک ھەیە کە زانست پشتگیری ناکات.",
+                            onPressedBritish: () => speakbeliefs6("en-GB"),
+                            onPressedAmerican: () => speakbeliefs6("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Labour Party must stick to its beliefs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارتی کرێکاران دەبێت پەیوەست بێت بەو شتانەی کە باوەڕی پێیەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeliefs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeliefs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Labour Party must stick to its beliefs.",
+                            kurdishText:
+                                "پارتی کرێکاران دەبێت پەیوەست بێت بەو شتانەی کە باوەڕی پێیەتی.",
+                            onPressedBritish: () => speakbeliefs7("en-GB"),
+                            onPressedAmerican: () => speakbeliefs7("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

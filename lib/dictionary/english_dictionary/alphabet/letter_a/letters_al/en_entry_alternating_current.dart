@@ -117,35 +117,16 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) جۆرە تەزوویەکی کارەبا کە ئاراستەی دەگۆڕێت بەخێرایی جێگیر لە ماوەی چەند چرکەیەکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Unlike Edison, George Westinghouse was a proponent of alternating current."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێچەوانەی تۆماس ئەدیسۆن، جۆرج وێستینگھاوس لایەنگیری تەزووی گۆڕاو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalternatingcurrent124("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalternatingcurrent124(
-                                        // REPLACE: alternating current /ˌɔːltərneɪtɪŋ ˈkɜːrənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Unlike Edison, George Westinghouse was a proponent of alternating current.",
+                            kurdishText:
+                                "پێچەوانەی تۆماس ئەدیسۆن، جۆرج وێستینگھاوس لایەنگیری تەزووی گۆڕاو بوو.",
+                            onPressedBritish: () =>
+                                speakalternatingcurrent124("en-GB"),
+                            onPressedAmerican: () => speakalternatingcurrent124(
+                                // REPLACE: alternating current /ˌɔːltərneɪtɪŋ ˈkɜːrənt/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -148,121 +148,44 @@ class EnglishEntryblowout extends StatelessWidget {
 کوردی: تەقینی پێچکە یان تایە، کون‌بوونێ تایە، پەنچەری، سووتان یان دەرپەڕینی فیوز، فیشقە، ھەڵچوون، کوفارە (چاڵە نەوت یان گاز)، میوانی‌یەکی گەورە یان بۆنەیەکی کۆمەڵایەتی، سەرکەوتنی ئاسان
 """),
                           const DefinitionKurdish(text: "١. (ناو) تەقینی تایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The tire had a blowout on the highway."),
-                                    ExampleSentenceKurdish(
-                                        text: "تایەیەکی تەقی لەسەر ڕێگاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblowouts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblowouts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The tire had a blowout on the highway.",
+                            kurdishText: "تایەیەکی تەقی لەسەر ڕێگاکە.",
+                            onPressedBritish: () => speakblowouts1("en-GB"),
+                            onPressedAmerican: () => speakblowouts1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ژەمە خواردنێکی گەورە کە تێیدا خەڵکی زۆر دەخۆن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The family gathered for a blowout to honor milestones."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێزانەکە کۆبوونەوە بۆ ڕێزلێنان لە شتە گرنگەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblowouts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblowouts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The family gathered for a blowout to honor milestones.",
+                            kurdishText:
+                                "خێزانەکە کۆبوونەوە بۆ ڕێزلێنان لە شتە گرنگەکان.",
+                            onPressedBritish: () => speakblowouts3("en-GB"),
+                            onPressedAmerican: () => speakblowouts3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ئاھەنگێکی گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They threw a blowout party to celebrate their graduation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاھەنگێکی گەورەیان ڕێکخست بۆ ئاھەنگگێڕانی تەواوکردنی زانکۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblowouts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblowouts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They threw a blowout party to celebrate their graduation.",
+                            kurdishText:
+                                "ئاھەنگێکی گەورەیان ڕێکخست بۆ ئاھەنگگێڕانی تەواوکردنی زانکۆ.",
+                            onPressedBritish: () => speakblowouts2("en-GB"),
+                            onPressedAmerican: () => speakblowouts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) بردنەوەیەکی ئاسان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The game was a blowout, 8–1."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یارییەکە فیشقیات بوو، ٨ بە ١ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblowouts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblowouts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The game was a blowout, 8–1.",
+                            kurdishText: "یارییەکە فیشقیات بوو، ٨ بە ١ بوو.",
+                            onPressedBritish: () => speakblowouts4("en-GB"),
+                            onPressedAmerican: () => speakblowouts4("en-US"),
                           ),
                         ],
                       ),

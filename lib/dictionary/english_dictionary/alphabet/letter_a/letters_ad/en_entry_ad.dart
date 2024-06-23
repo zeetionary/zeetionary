@@ -114,65 +114,26 @@ class EnglishEntryad extends StatelessWidget {
                               text:
                                   "١. (ناو) وێنەیەک یان ڤیدیۆیەک کە دەیەوێت کەسێک ڕازیبکات بۆ کڕینی شتێک."
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I often prefer the ads on TV to the actual programmes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرجار حەزم بە ڕیکلامەکانە لەسەر تەلەفیزیۆن وەک لە خودی پڕۆگرامەکان خۆیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakad142568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakad142568(
-                                        // REPLACE: ad /æd/, /ˌeɪˈdiː/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I often prefer the ads on TV to the actual programmes.",
+                            kurdishText:
+                                "زۆرجار حەزم بە ڕیکلامەکانە لەسەر تەلەفیزیۆن وەک لە خودی پڕۆگرامەکان خۆیان.",
+                            onPressedBritish: () => speakad142568("en-GB"),
+                            onPressedAmerican: () => speakad142568(
+                                // REPLACE: ad /æd/, /ˌeɪˈdiː/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) لە دوای لەدایکبوونی پێغەمبەر عیسا."""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "during the seventh century AD"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ماوەی سەدەی حەوتەمی دوای زایین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakad4247("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakad4247(
-                                        // REPLACE: ad /æd/, /ˌeɪˈdiː/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "during the seventh century AD",
+                            kurdishText: "لە ماوەی سەدەی حەوتەمی دوای زایین.",
+                            onPressedBritish: () => speakad4247("en-GB"),
+                            onPressedAmerican: () => speakad4247(
+                                // REPLACE: ad /æd/, /ˌeɪˈdiː/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -143,88 +143,29 @@ class EnglishEntrybriefly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بۆ ماوەیەکی کەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had spoken to Emma only briefly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا بۆ ماوەیەکی کەم قسەی لەگەڵ ئێما کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "briefly" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrieflys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrieflys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He had spoken to Emma only briefly.",
+                            kurdishText:
+                                "تەنھا بۆ ماوەیەکی کەم قسەی لەگەڵ ئێما کردبوو.", // briefly" as
+                            onPressedBritish: () => speakbrieflys1("en-GB"),
+                            onPressedAmerican: () => speakbrieflys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She met John briefly on Friday night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەوی ھەینی بۆ ماوەیەکی کەم جۆنی دیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrieflys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrieflys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She met John briefly on Friday night.",
+                            kurdishText: "شەوی ھەینی بۆ ماوەیەکی کەم جۆنی دیت.",
+                            onPressedBritish: () => speakbrieflys2("en-GB"),
+                            onPressedAmerican: () => speakbrieflys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We chatted briefly about the weather."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ماوەیەکی کەم گفتوگۆمان لەسەر کەشوھەوا کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrieflys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrieflys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We chatted briefly about the weather.",
+                            kurdishText:
+                                "بۆ ماوەیەکی کەم گفتوگۆمان لەسەر کەشوھەوا کرد.",
+                            onPressedBritish: () => speakbrieflys3("en-GB"),
+                            onPressedAmerican: () => speakbrieflys3("en-US"),
                           ),
                         ],
                       ),

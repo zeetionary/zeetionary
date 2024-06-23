@@ -146,93 +146,35 @@ class EnglishEntrybrink extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لە دۆخێکدا کە مەترسیدار، تازە، بزوێنەرە؛ ئاستێک کە لەوە زیاتر گۆڕان درووست دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scientists are on the brink of making a major new discovery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاناکان لە کات و ساتی دۆزینەوەیەکی گرنگی تازەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brink" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrinks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrinks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scientists are on the brink of making a major new discovery.",
+                            kurdishText:
+                                "زاناکان لە کات و ساتی دۆزینەوەیەکی گرنگی تازەن.", // brink" as
+                            onPressedBritish: () => speakbrinks1("en-GB"),
+                            onPressedAmerican: () => speakbrinks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's pulled the company back from the brink (= he has saved it from disaster)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکەی لە ھەڵدێرێک گەڕاندەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrinks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrinks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's pulled the company back from the brink (= he has saved it from disaster).",
+                            kurdishText: "کۆمپانیاکەی لە ھەڵدێرێک گەڕاندەوە.",
+                            onPressedBritish: () => speakbrinks2("en-GB"),
+                            onPressedAmerican: () => speakbrinks2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Extreme stress had driven him to the brink of a nervous breakdown."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دوودڵی زۆر ھێناویەتییە قەراخی داڕمانی دەروونی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrinks3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrinks3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Extreme stress had driven him to the brink of a nervous breakdown.",
+                                    kurdishText:
+                                        "دوودڵی زۆر ھێناویەتییە قەراخی داڕمانی دەروونی.",
+                                    onPressedBritish: () =>
+                                        speakbrinks3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrinks3("en-US"),
                                   ),
                                 ],
                               ),
@@ -242,32 +184,13 @@ class EnglishEntrybrink extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) قەراخی قەدپاڵێک یان ناوچەیەکی بەرز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was standing right on the brink of the gorge."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێک لە سەر قەراخی تەنگەڵانەکە وەستابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrinks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrinks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was standing right on the brink of the gorge.",
+                            kurdishText:
+                                "ڕێک لە سەر قەراخی تەنگەڵانەکە وەستابوو.",
+                            onPressedBritish: () => speakbrinks4("en-GB"),
+                            onPressedAmerican: () => speakbrinks4("en-US"),
                           ),
                         ],
                       ),

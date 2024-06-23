@@ -142,32 +142,13 @@ class EnglishEntrybrassband extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گرووپێک میوزیکژەن کە ئەو ئامێرانە دەژەنن کە لە کانزا درووستکراون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The village brass band plays regular concerts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باندی براسی گوندەکە کۆنسێرتی بەردەوام سازدەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrassbands1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrassbands1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The village brass band plays regular concerts.",
+                            kurdishText:
+                                "باندی براسی گوندەکە کۆنسێرتی بەردەوام سازدەکەن.",
+                            onPressedBritish: () => speakbrassbands1("en-GB"),
+                            onPressedAmerican: () => speakbrassbands1("en-US"),
                           ),
                         ],
                       ),

@@ -166,103 +166,46 @@ class EnglishEntryassessment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بوچوون یان بڕیاردانێک لەسەر کەسێک/شتێک کە بە تەواوی بیری‌لێ‌کراوەتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We conducted the initial assessments defining the scope of work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسەنگاندنێکی سەرەتاییمان ئەنجام‌دا بۆ دیاریکردنی ئاستی کارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassessment1125("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassessment1125(
-                                        // REPLACE: assessment /əˈsesmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We conducted the initial assessments defining the scope of work.",
+                            kurdishText:
+                                "ھەڵسەنگاندنێکی سەرەتاییمان ئەنجام‌دا بۆ دیاریکردنی ئاستی کارەکە.",
+                            onPressedBritish: () =>
+                                speakassessment1125("en-GB"),
+                            onPressedAmerican: () => speakassessment1125(
+                                // REPLACE: assessment /əˈsesmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کرداری ھەڵسەنگاندنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Needs assessment is crucial if the hospital is to deliver effective healthcare."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسەنگاندنی پێداویستییەکان گرنگە بۆ دابینکردنی خزمەتگوزاریی تەندرووستیی بەرچاو لە نەخۆشخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassessment1128("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassessment1128(
-                                        // REPLACE: assessment /əˈsesmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Needs assessment is crucial if the hospital is to deliver effective healthcare.",
+                            kurdishText:
+                                "ھەڵسەنگاندنی پێداویستییەکان گرنگە بۆ دابینکردنی خزمەتگوزاریی تەندرووستیی بەرچاو لە نەخۆشخانەکە.",
+                            onPressedBritish: () =>
+                                speakassessment1128("en-GB"),
+                            onPressedAmerican: () => speakassessment1128(
+                                // REPLACE: assessment /əˈsesmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) پڕۆسەی تاقیکردنەوەی قوتابییان و بڕیاردان لەسەر تواناکانیان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The usual means of assessment for our taught courses is by written essay."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسەنگاندنی باو بۆ ئەو کۆرسانەی دەیڵێینەوە بریتییە لە داڕشتنی نووسراو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassessment1131("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassessment1131(
-                                        // REPLACE: assessment /əˈsesmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The usual means of assessment for our taught courses is by written essay.",
+                            kurdishText:
+                                "ھەڵسەنگاندنی باو بۆ ئەو کۆرسانەی دەیڵێینەوە بریتییە لە داڕشتنی نووسراو.",
+                            onPressedBritish: () =>
+                                speakassessment1131("en-GB"),
+                            onPressedAmerican: () => speakassessment1131(
+                                // REPLACE: assessment /əˈsesmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

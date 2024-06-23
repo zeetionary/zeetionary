@@ -151,63 +151,25 @@ class EnglishEntrybaseball extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) یارییەک کە بەزۆری لە ویلایەتە یەکگرتووەکانی ئەمریکا دەکرێت لەلایەن دوو تیمی نۆ نەفەری، بە بەکارھێنانی دەسکێک و تۆپێک. ھەر یاریزانێک ھەوڵ دەدات لە تۆپەکە بدات و بە چوار گۆشەدا ڕابکات پێش ئەوەی تیمی بەرامبەر بتوانێت تۆپەکە بگەڕێنێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jake never played baseball like the other kids."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەیک ھەرگیز وەک منداڵەکانی دیکە بەیسبۆڵی نەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaseballs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaseballs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Jake never played baseball like the other kids.",
+                            kurdishText:
+                                "جەیک ھەرگیز وەک منداڵەکانی دیکە بەیسبۆڵی نەکرد.",
+                            onPressedBritish: () => speakbaseballs1("en-GB"),
+                            onPressedAmerican: () => speakbaseballs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) تۆپی یاری بەیسبۆڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had a baseball and a couple of bats in his sports bag."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆپێکی بەیسبۆڵ و ژمارەیەک دەسکی پێبوو لە جانتای وەرزشەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaseballs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaseballs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had a baseball and a couple of bats in his sports bag.",
+                            kurdishText:
+                                "تۆپێکی بەیسبۆڵ و ژمارەیەک دەسکی پێبوو لە جانتای وەرزشەکەیدا.",
+                            onPressedBritish: () => speakbaseballs2("en-GB"),
+                            onPressedAmerican: () => speakbaseballs2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

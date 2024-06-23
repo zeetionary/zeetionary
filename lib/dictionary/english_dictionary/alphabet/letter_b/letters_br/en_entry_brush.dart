@@ -319,380 +319,126 @@ class EnglishEntrybrush extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) پاککردنەوە بە فڵچە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A tiled floor is easy to brush clean."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەوییەکی کاشیکراو ئاسان پاکدەکرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brush" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrushs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrushs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A tiled floor is easy to brush clean.",
+                            kurdishText:
+                                "زەوییەکی کاشیکراو ئاسان پاکدەکرێتەوە.", // brush" as
+                            onPressedBritish: () => speakbrushs1("en-GB"),
+                            onPressedAmerican: () => speakbrushs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When did he last brush his teeth, she wondered."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێ ڕاما کە کۆتا جار کەی بوو ددانی شووشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrushs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrushs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When did he last brush his teeth, she wondered.",
+                            kurdishText:
+                                "تێ ڕاما کە کۆتا جار کەی بوو ددانی شووشت.",
+                            onPressedBritish: () => speakbrushs2("en-GB"),
+                            onPressedAmerican: () => speakbrushs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) جوڵاندنی یان لێ‌کردنەوەی شتێک بە فڵچەیەک یان بە دەستت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He brushed the dirt off his jacket."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆزەکەی بە چاکەتەکەیەوە تەکاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrushs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrushs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He brushed the dirt off his jacket.",
+                            kurdishText: "تۆزەکەی بە چاکەتەکەیەوە تەکاند.",
+                            onPressedBritish: () => speakbrushs3("en-GB"),
+                            onPressedAmerican: () => speakbrushs3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mike brushed a strand of hair out of her eyes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مایک تاڵە قژێکی بە چاوییەوە تەکاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrushs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrushs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Mike brushed a strand of hair out of her eyes.",
+                            kurdishText: "مایک تاڵە قژێکی بە چاوییەوە تەکاند.",
+                            onPressedBritish: () => speakbrushs4("en-GB"),
+                            onPressedAmerican: () => speakbrushs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) کردنی شیر، ڕۆن، یان ھێلکە بە شتێکەوە بە بەکارھێنانی فڵچەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Brush the pastry with beaten egg."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەویرەکە تەڕ بکە بە ھێلکەی تێکدراو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrushs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrushs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Brush the pastry with beaten egg.",
+                            kurdishText: "ھەویرەکە تەڕ بکە بە ھێلکەی تێکدراو.",
+                            onPressedBritish: () => speakbrushs5("en-GB"),
+                            onPressedAmerican: () => speakbrushs5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) کێشان بە شتێکدا بەھێواشی لە کاتێکدا بەھێواشی بە لایاندا تێدەپەڕی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She brushed past him."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە لایدا تێپەڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrushs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrushs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She brushed past him.",
+                            kurdishText: "بە لایدا تێپەڕی.",
+                            onPressedBritish: () => speakbrushs6("en-GB"),
+                            onPressedAmerican: () => speakbrushs6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He brushed her lips with his."),
-                                    ExampleSentenceKurdish(
-                                        text: "کوڕەکە لێوی نا بە لێوییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrushs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrushs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He brushed her lips with his.",
+                            kurdishText: "کوڕەکە لێوی نا بە لێوییەوە.",
+                            onPressedBritish: () => speakbrushs7("en-GB"),
+                            onPressedAmerican: () => speakbrushs7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٥. (ناو) فڵچە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't find my brush, but I still have my comb."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڵچەکەم دیار نییە، بەڵام شانەکەمم پێیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrushs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrushs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't find my brush, but I still have my comb.",
+                            kurdishText:
+                                "فڵچەکەم دیار نییە، بەڵام شانەکەمم پێیە.",
+                            onPressedBritish: () => speakbrushs8("en-GB"),
+                            onPressedAmerican: () => speakbrushs8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You'll need a stiff brush to scrape off the rust."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستیت بە فڵچەیەکە بۆ ئەوەی ھەموو تۆزەکە بتەکێنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrushs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrushs9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You'll need a stiff brush to scrape off the rust.",
+                            kurdishText:
+                                "پێویستیت بە فڵچەیەکە بۆ ئەوەی ھەموو تۆزەکە بتەکێنی.",
+                            onPressedBritish: () => speakbrushs9("en-GB"),
+                            onPressedAmerican: () => speakbrushs9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Change your toothbrush every month."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو مانگێک فڵچەی ددانەکەت بگۆڕە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrushs10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrushs10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Change your toothbrush every month.",
+                            kurdishText: "ھەموو مانگێک فڵچەی ددانەکەت بگۆڕە.",
+                            onPressedBritish: () => speakbrushs10("en-GB"),
+                            onPressedAmerican: () => speakbrushs10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) شۆردن یان پاککردنەوە بە فڵچە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Give your teeth a good brush before going to bed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێش ئەوەی بخەویت ششتنێکی باشی ددانت بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrushs11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrushs11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Give your teeth a good brush before going to bed.",
+                            kurdishText:
+                                "پێش ئەوەی بخەویت ششتنێکی باشی ددانت بکە.",
+                            onPressedBritish: () => speakbrushs11("en-GB"),
+                            onPressedAmerican: () => speakbrushs11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) بەرکەوتنێکی ھێواش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He felt the brush of her hand on his."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە بەرکەوتنی دەستی بە ھی خۆی کەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrushs12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrushs12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He felt the brush of her hand on his.",
+                            kurdishText:
+                                "ھەستی بە بەرکەوتنی دەستی بە ھی خۆی کەوت.",
+                            onPressedBritish: () => speakbrushs12("en-GB"),
+                            onPressedAmerican: () => speakbrushs12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (ناو) تێکھەڵچوونێک لەگەڵ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had a nasty brush with her boss this morning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمەقاڵێیەکی توندی ئەم بەیانییە لەگەڵ بەڕێوبەرەکەی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrushs13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrushs13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had a nasty brush with her boss this morning.",
+                            kurdishText:
+                                "دەمەقاڵێیەکی توندی ئەم بەیانییە لەگەڵ بەڕێوبەرەکەی ھەبوو.",
+                            onPressedBritish: () => speakbrushs13("en-GB"),
+                            onPressedAmerican: () => speakbrushs13("en-US"),
                           ),
                         ],
                       ),

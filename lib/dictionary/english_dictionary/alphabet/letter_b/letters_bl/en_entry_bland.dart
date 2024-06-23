@@ -148,92 +148,32 @@ class EnglishEntrybland extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) نەبوونی تام یان کەسایەتیی بەھێز، یان بەتاڵ لە مەیل و وزە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I find chicken a little bland."),
-                                    ExampleSentenceKurdish(
-                                        text: "مریشکم کەمێک لا بێ‌تامە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblands1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblands1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I find chicken a little bland.",
+                            kurdishText: "مریشکم کەمێک لا بێ‌تامە.",
+                            onPressedBritish: () => speakblands1("en-GB"),
+                            onPressedAmerican: () => speakblands1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Pop music these days is so bland."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوزیکی پۆپ ئەم ڕۆژانە زۆر بێ چێژە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblands2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblands2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Pop music these days is so bland.",
+                            kurdishText: "میوزیکی پۆپ ئەم ڕۆژانە زۆر بێ چێژە.",
+                            onPressedBritish: () => speakblands2("en-GB"),
+                            onPressedAmerican: () => speakblands2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) شتێک کە ھەست و جۆشوخرۆشی تێدا نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He stared back at her with a bland expression."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێی ڕووانییەوە بە دەربڕینێکی وشکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblands3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblands3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He stared back at her with a bland expression.",
+                            kurdishText: "لێی ڕووانییەوە بە دەربڕینێکی وشکەوە.",
+                            onPressedBritish: () => speakblands3("en-GB"),
+                            onPressedAmerican: () => speakblands3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

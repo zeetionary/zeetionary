@@ -112,34 +112,14 @@ class EnglishEntryadmittance extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ماف یان کردای چوونە ناو شوێنێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was refused admittance into the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگەی پێ نەدرا بچێتە ناو وڵاتەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmitt37958("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmitt37958(
-                                        // REPLACE: admittance /ədˈmɪtns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was refused admittance into the country.",
+                            kurdishText: "ڕێگەی پێ نەدرا بچێتە ناو وڵاتەکەوە.",
+                            onPressedBritish: () => speakadmitt37958("en-GB"),
+                            onPressedAmerican: () => speakadmitt37958(
+                                // REPLACE: admittance /ədˈmɪtns/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -156,34 +156,15 @@ class EnglishEntryaviary extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ناو) قەفەزێکی گەورە بۆ ڕاگرتنت باڵندە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our visitors will find hawks in the aviary."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەردانکەرانمان دەتوانن ھەڵۆ لە قەفەزی باڵندەکان ببینن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaviarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaviarys1(// REPLACE: aviary
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our visitors will find hawks in the aviary.",
+                            kurdishText:
+                                "سەردانکەرانمان دەتوانن ھەڵۆ لە قەفەزی باڵندەکان ببینن.",
+                            onPressedBritish: () => speakaviarys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaviarys1(// REPLACE: aviary
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

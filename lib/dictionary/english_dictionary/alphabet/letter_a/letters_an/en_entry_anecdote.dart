@@ -155,67 +155,29 @@ class EnglishEntryanecdote extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کورتە چیرۆکێکی سەرجڕاکێش و خۆش و پێکەنیناوی لەسەر کەسێک یان ڕووداوێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book is a rich store of anecdote."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە سەرچاوەیەکی دەوڵەمەندی سەرگوزشتەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanecdote5407("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanecdote5407(
-                                        // REPLACE: anecdote /ˈænɪkdəʊt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book is a rich store of anecdote.",
+                            kurdishText:
+                                "کتێبەکە سەرچاوەیەکی دەوڵەمەندی سەرگوزشتەیە.",
+                            onPressedBritish: () => speakanecdote5407("en-GB"),
+                            onPressedAmerican: () => speakanecdote5407(
+                                // REPLACE: anecdote /ˈænɪkdəʊt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) گێڕانەوەی کەسیی کەسێک بۆ ڕووداوێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This research is based on anecdote, not fact."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم توێژینەوەیە پشتی بە سەرگوزشتە بەستووە نەک ڕاستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanecdote460("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanecdote460(
-                                        // REPLACE: anecdote /ˈænɪkdəʊt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This research is based on anecdote, not fact.",
+                            kurdishText:
+                                "ئەم توێژینەوەیە پشتی بە سەرگوزشتە بەستووە نەک ڕاستی.",
+                            onPressedBritish: () => speakanecdote460("en-GB"),
+                            onPressedAmerican: () => speakanecdote460(
+                                // REPLACE: anecdote /ˈænɪkdəʊt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

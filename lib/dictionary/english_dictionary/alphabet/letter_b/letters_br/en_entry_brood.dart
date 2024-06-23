@@ -147,153 +147,57 @@ class EnglishEntrybrood extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بیرکردنەوەی زۆر لە شتێک کە وا دەکات بێزار، دوودڵ، یان خەمبار بیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You're not still brooding over what he said, are you?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا بیر لەوە دەکەیتەوە کە گوتی، وانییە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brood" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroods1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroods1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You're not still brooding over what he said, are you?",
+                            kurdishText:
+                                "ھێشتا بیر لەوە دەکەیتەوە کە گوتی، وانییە؟", // brood" as
+                            onPressedBritish: () => speakbroods1("en-GB"),
+                            onPressedAmerican: () => speakbroods1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) دانیشتنی مریشکێک لەسەر ھێلکە بۆ دانیشتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hen would brood over her eggs to ensure they received the necessary warmth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مریشکەکە کڕ کەوت لەسەر ھێلکەکانی بۆ ئەوەی دڵنیا بێت لەوەی گەرمی پێویست وەردەگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroods2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroods2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hen would brood over her eggs to ensure they received the necessary warmth.",
+                            kurdishText:
+                                "مریشکەکە کڕ کەوت لەسەر ھێلکەکانی بۆ ئەوەی دڵنیا بێت لەوەی گەرمی پێویست وەردەگرن.",
+                            onPressedBritish: () => speakbroods2("en-GB"),
+                            onPressedAmerican: () => speakbroods2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) تەواوی ئەو ئاژەڵ و باڵندانەی دایکێک لە یەک کاتدا دەیانھێنێتە دونیا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The blackbird flew back and forth to its brood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەشپەڕەکە ھاتوچۆی بوو بۆ لای بێچووەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroods3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroods3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The blackbird flew back and forth to its brood.",
+                            kurdishText:
+                                "ڕەشپەڕەکە ھاتوچۆی بوو بۆ لای بێچووەکانی.",
+                            onPressedBritish: () => speakbroods3("en-GB"),
+                            onPressedAmerican: () => speakbroods3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) خێزانێکی گەورە لە منداڵ؛ منداڵەکانی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ann was at the party with her brood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئانا لەگەڵ منداڵەکانی لە ئاھەنگەکە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroods4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroods4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Ann was at the party with her brood.",
+                            kurdishText:
+                                "ئانا لەگەڵ منداڵەکانی لە ئاھەنگەکە بوون.",
+                            onPressedBritish: () => speakbroods4("en-GB"),
+                            onPressedAmerican: () => speakbroods4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She grew up amidst a brood of brothers and sisters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەناو ژمارەیەک لە خوشک و برادا گەورە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroods5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroods5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She grew up amidst a brood of brothers and sisters.",
+                            kurdishText:
+                                "لەناو ژمارەیەک لە خوشک و برادا گەورە بوو.",
+                            onPressedBritish: () => speakbroods5("en-GB"),
+                            onPressedAmerican: () => speakbroods5("en-US"),
                           ),
                         ],
                       ),

@@ -151,32 +151,13 @@ class EnglishEntrybile extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو شلە سەوزە قاوەییەی کە تامێکی ناخۆشی تاڵ و ناخۆشی ھەیە و لەلایەن جگەرەوە بەرھەم دێت بۆ ئەوەی یارمەتی جەستە بدات بۆ مامەڵەکردن لەگەڵ ئەو چەوریانەی دەیخۆین، و دەکرێت بێتە ناو دەمەوە لەکاتی ڕشانەوە بە گەدەی بەتاڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Meat-eaters have to produce extensive bile acids in their intestines to properly digest the meat that they eat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆشتخۆران دەبێت ڕێژەیەکی زۆر لە ترشەڵۆکی زراو بەرھەمبێنن لە ڕیخۆڵەیان بۆ ئەوەی بە جوانی ئەو گۆشتە ھەرس بکەن کە دەیخۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Meat-eaters have to produce extensive bile acids in their intestines to properly digest the meat that they eat.",
+                            kurdishText:
+                                "گۆشتخۆران دەبێت ڕێژەیەکی زۆر لە ترشەڵۆکی زراو بەرھەمبێنن لە ڕیخۆڵەیان بۆ ئەوەی بە جوانی ئەو گۆشتە ھەرس بکەن کە دەیخۆن.",
+                            onPressedBritish: () => speakbiles1("en-GB"),
+                            onPressedAmerican: () => speakbiles1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

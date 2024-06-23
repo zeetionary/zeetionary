@@ -165,69 +165,31 @@ class EnglishEntryatrociously extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵکار) زۆر خراپ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie is badly acted and atrociously directed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە خراپ ڕۆڵی تێداگێڕدراوە و شپرزانەش دەرھێنانی بۆکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakatrociously302("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakatrociously302(
-                                        // REPLACE: atrociously
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie is badly acted and atrociously directed.",
+                            kurdishText:
+                                "فیلمەکە خراپ ڕۆڵی تێداگێڕدراوە و شپرزانەش دەرھێنانی بۆکراوە.",
+                            onPressedBritish: () =>
+                                speakatrociously302("en-GB"),
+                            onPressedAmerican: () => speakatrociously302(
+                                // REPLACE: atrociously
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) زۆر دڕندانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These prisoners have been treated atrociously."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم زیندانییانە دڵڕەقانە مامەڵەیان لەگەڵ کراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakatrociously303("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakatrociously303(
-                                        // REPLACE: atrociously
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These prisoners have been treated atrociously.",
+                            kurdishText:
+                                "ئەم زیندانییانە دڵڕەقانە مامەڵەیان لەگەڵ کراوە.",
+                            onPressedBritish: () =>
+                                speakatrociously303("en-GB"),
+                            onPressedAmerican: () => speakatrociously303(
+                                // REPLACE: atrociously
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

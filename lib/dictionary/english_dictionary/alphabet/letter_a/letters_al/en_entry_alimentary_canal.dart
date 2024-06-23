@@ -116,35 +116,16 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) جۆگەی خۆراک لە دەمەوە بۆ کۆم" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had an abscess in the lower part of my alimentary canal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دومەڵێکم ھەبوو لە بەشی خوارەوەی جۆگەی ھەرسم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalimentarycanal42588("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalimentarycanal42588(
-                                        // REPLACE: alimentary canal /ˌælɪmentəri kəˈnæl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had an abscess in the lower part of my alimentary canal.",
+                            kurdishText:
+                                "دومەڵێکم ھەبوو لە بەشی خوارەوەی جۆگەی ھەرسم.",
+                            onPressedBritish: () =>
+                                speakalimentarycanal42588("en-GB"),
+                            onPressedAmerican: () => speakalimentarycanal42588(
+                                // REPLACE: alimentary canal /ˌælɪmentəri kəˈnæl/
+                                "en-US"),
                           ),
                         ],
                       ),

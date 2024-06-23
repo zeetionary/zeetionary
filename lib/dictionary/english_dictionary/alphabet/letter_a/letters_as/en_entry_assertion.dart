@@ -166,101 +166,41 @@ class EnglishEntryassertion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شتێک کە دەیڵێیت و پێت‌وایە ڕاستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was correct in his assertion that the minister had been lying."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاست بوو لە جەخت‌کردنەوە لەوەی وەزیرەکە درۆی کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassertion1045("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassertion1045(
-                                        // REPLACE: assertion /əˈsɜːrʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was correct in his assertion that the minister had been lying.",
+                            kurdishText:
+                                "ڕاست بوو لە جەخت‌کردنەوە لەوەی وەزیرەکە درۆی کردبوو.",
+                            onPressedBritish: () => speakassertion1045("en-GB"),
+                            onPressedAmerican: () => speakassertion1045(
+                                // REPLACE: assertion /əˈsɜːrʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you have any evidence to support your assertions?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ بەڵگەت ھەیە وەک پشتگیری بۆ وتەکانت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassertion1046("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassertion1046(
-                                        // REPLACE: assertion /əˈsɜːrʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do you have any evidence to support your assertions?",
+                            kurdishText:
+                                "ھیچ بەڵگەت ھەیە وەک پشتگیری بۆ وتەکانت؟",
+                            onPressedBritish: () => speakassertion1046("en-GB"),
+                            onPressedAmerican: () => speakassertion1046(
+                                // REPLACE: assertion /əˈsɜːrʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کرداری وتن، بانگەشەکردن، یان بەکارھێنانی بۆ شتێک بە تەواوەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The demonstration was an assertion of the right to peaceful protest."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆپیشاندانەکە جەختکردنەوەیەک بوو لە مافی ناڕەزایی ھێمنانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassertion1051("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassertion1051(
-                                        // REPLACE: assertion /əˈsɜːrʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The demonstration was an assertion of the right to peaceful protest.",
+                            kurdishText:
+                                "خۆپیشاندانەکە جەختکردنەوەیەک بوو لە مافی ناڕەزایی ھێمنانە.",
+                            onPressedBritish: () => speakassertion1051("en-GB"),
+                            onPressedAmerican: () => speakassertion1051(
+                                // REPLACE: assertion /əˈsɜːrʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

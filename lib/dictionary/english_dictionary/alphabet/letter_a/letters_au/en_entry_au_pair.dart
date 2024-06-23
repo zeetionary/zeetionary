@@ -160,34 +160,15 @@ class EnglishEntryaupair extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کچێک کە لە ماڵێک لە وڵاتێکی تر دەمێنێتەوە بە مەبەستی فێربوونی زمان. ئەو کاری ماڵەوە دەکات و ئاگای لە منداڵەکان دەبێت و پارەیەکی کەم وەردەگرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She worked in Paris for six months as an au pair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پاریس شەس مانگ وەک ئۆپێرێک کاری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaupair402("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaupair402(// REPLACE: au pair
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She worked in Paris for six months as an au pair.",
+                            kurdishText:
+                                "لە پاریس شەس مانگ وەک ئۆپێرێک کاری کرد.",
+                            onPressedBritish: () => speakaupair402("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaupair402(// REPLACE: au pair
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

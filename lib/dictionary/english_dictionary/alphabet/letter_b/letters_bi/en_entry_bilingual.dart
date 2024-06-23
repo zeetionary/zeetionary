@@ -146,93 +146,36 @@ class EnglishEntrybilingual extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) ھەبوونی توانای قسەکردن بە دوو زمان وەک یەک بە باشی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is bilingual in Mandarin and English."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو زمانەیە لە ھەردوو ماندارین و ئینگلیزی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbilinguals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbilinguals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is bilingual in Mandarin and English.",
+                            kurdishText:
+                                "دوو زمانەیە لە ھەردوو ماندارین و ئینگلیزی.",
+                            onPressedBritish: () => speakbilinguals1("en-GB"),
+                            onPressedAmerican: () => speakbilinguals1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) گرووپێک یان شوێنێک کە دوو زمان وەک فەرمی بەکاردێنێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Iraq is a bilingual country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "عێراق وڵاتێکی خاوەن دوو زمانی فەرمییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbilinguals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbilinguals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Iraq is a bilingual country.",
+                            kurdishText:
+                                "عێراق وڵاتێکی خاوەن دوو زمانی فەرمییە.",
+                            onPressedBritish: () => speakbilinguals2("en-GB"),
+                            onPressedAmerican: () => speakbilinguals2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کەسێک کە دوو زمان دەزانێ وەک یەک بە باشی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The phone lines will be staffed by bilinguals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێڵەکانی پەیوەندی لەلایەن کەسانی دووزمانەوە بەڕێوەدەبردرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbilinguals4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbilinguals4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The phone lines will be staffed by bilinguals.",
+                            kurdishText:
+                                "ھێڵەکانی پەیوەندی لەلایەن کەسانی دووزمانەوە بەڕێوەدەبردرێن.",
+                            onPressedBritish: () => speakbilinguals4("en-GB"),
+                            onPressedAmerican: () => speakbilinguals4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

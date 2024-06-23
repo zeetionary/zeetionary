@@ -193,89 +193,32 @@ class EnglishEntrybustle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پەلەپەلکردن و ھاتووچۆ بە ئاراستەیەکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She bustled around in the kitchen."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە چێشتخانەکەدا جم‌وجۆڵی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bustle", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbustles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbustles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She bustled around in the kitchen.",
+                            kurdishText:
+                                "بە چێشتخانەکەدا جم‌وجۆڵی بوو.", // bustle", follow LX strictly
+                            onPressedBritish: () => speakbustles1("en-GB"),
+                            onPressedAmerican: () => speakbustles1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The nurse bustled us out of the room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرستارەکە لە ژوورەکە کردینییە دەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbustles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbustles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The nurse bustled us out of the room.",
+                            kurdishText:
+                                "پەرستارەکە لە ژوورەکە کردینییە دەرەوە.",
+                            onPressedBritish: () => speakbustles2("en-GB"),
+                            onPressedAmerican: () => speakbustles2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) چالاکی بە دەنگەدەنگ و سەرقاڵانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I sat in a café, watching the (hustle and) bustle of the street outside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە قاوەخانەکە دانیشتم و دەمڕوانی لە قەرەباڵغی شەقامی دەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbustles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbustles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I sat in a café, watching the (hustle and) bustle of the street outside.",
+                            kurdishText:
+                                "لە قاوەخانەکە دانیشتم و دەمڕوانی لە قەرەباڵغی شەقامی دەرەوە.",
+                            onPressedBritish: () => speakbustles3("en-GB"),
+                            onPressedAmerican: () => speakbustles3("en-US"),
                           ),
                         ],
                       ),

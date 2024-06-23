@@ -194,269 +194,95 @@ class EnglishEntrybundle extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ژمارەیەک شت کە پێکەوە گرێدراون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She held her little bundle (= her baby) tightly in her arms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵە بچووکەکەی بە توندی لە باوەش کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bundle", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbundles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbundles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She held her little bundle (= her baby) tightly in her arms.",
+                            kurdishText:
+                                "منداڵە بچووکەکەی بە توندی لە باوەش کردبوو.", // bundle", follow LX strictly
+                            onPressedBritish: () => speakbundles1("en-GB"),
+                            onPressedAmerican: () => speakbundles1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was carrying a large bundle of clothes."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەستەیەکی گەورە جلی ھەڵگرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbundles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbundles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was carrying a large bundle of clothes.",
+                            kurdishText: "دەستەیەکی گەورە جلی ھەڵگرتبوو.",
+                            onPressedBritish: () => speakbundles2("en-GB"),
+                            onPressedAmerican: () => speakbundles2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ژمارەیەک شت کە پێکەوەن، یان پێکەوە دەفرۆشرێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the meeting, they shared a bundle of ideas for the upcoming project."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆبوونەوەکە، ژمارەیەک بیرۆکەیان پێشنیازکرد بۆ پڕۆژەی دادێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbundles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbundles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the meeting, they shared a bundle of ideas for the upcoming project.",
+                            kurdishText:
+                                "لە کۆبوونەوەکە، ژمارەیەک بیرۆکەیان پێشنیازکرد بۆ پڕۆژەی دادێت.",
+                            onPressedBritish: () => speakbundles3("en-GB"),
+                            onPressedAmerican: () => speakbundles3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) کەسێک/شتێک کە دەتخاتە پێکەنین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wasn't exactly a bundle of laughs (= a happy person to be with) last night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێکی ھێندە بەزمەسات نەبوو دوێنێ شەو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbundles4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbundles4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wasn't exactly a bundle of laughs (= a happy person to be with) last night.",
+                            kurdishText:
+                                "کەسێکی ھێندە بەزمەسات نەبوو دوێنێ شەو.",
+                            onPressedBritish: () => speakbundles4("en-GB"),
+                            onPressedAmerican: () => speakbundles4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) ڕێژەیەکی زۆر پارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That car must have cost a bundle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە دەبێت دەریایەک لە پارەی تێچووبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbundles5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbundles5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That car must have cost a bundle.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە دەبێت دەریایەک لە پارەی تێچووبێت.",
+                            onPressedBritish: () => speakbundles5("en-GB"),
+                            onPressedAmerican: () => speakbundles5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) ناردنی کەسێک بۆ شوێنێک بە خێرایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They bundled her into the back of a car."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕێیان دایە پشتەوەی ئۆتۆمبێلێکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbundles6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbundles6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They bundled her into the back of a car.",
+                            kurdishText: "فڕێیان دایە پشتەوەی ئۆتۆمبێلێکەوە.",
+                            onPressedBritish: () => speakbundles6("en-GB"),
+                            onPressedAmerican: () => speakbundles6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bodyguards quickly bundled the President into the car."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاسەوانەکان بەخێرایی سەرۆکیان خستە ئۆتۆمبێلەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbundles7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbundles7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bodyguards quickly bundled the President into the car.",
+                            kurdishText:
+                                "پاسەوانەکان بەخێرایی سەرۆکیان خستە ئۆتۆمبێلەکەوە.",
+                            onPressedBritish: () => speakbundles7("en-GB"),
+                            onPressedAmerican: () => speakbundles7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) چوون بۆ شوێنێک بەخێرایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We bundled out onto the street."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەخێرایی چووینە سەر شەقامەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbundles8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbundles8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We bundled out onto the street.",
+                            kurdishText: "بەخێرایی چووینە سەر شەقامەکە.",
+                            onPressedBritish: () => speakbundles8("en-GB"),
+                            onPressedAmerican: () => speakbundles8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) پێدانی خزمەتگوزاری زیادە بەبێ نرخی زیاتر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A further nine applications are bundled with the system."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نۆ ئەپڵیکەیشنی دیکە لەگەڵ سیستەمەکە دەخرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbundles9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbundles9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A further nine applications are bundled with the system.",
+                            kurdishText:
+                                "نۆ ئەپڵیکەیشنی دیکە لەگەڵ سیستەمەکە دەخرێن.",
+                            onPressedBritish: () => speakbundles9("en-GB"),
+                            onPressedAmerican: () => speakbundles9("en-US"),
                           ),
                         ],
                       ),

@@ -164,34 +164,15 @@ class EnglishEntryasthma extends StatelessWidget {
                               text:
                                   "١. (ناو) بارودۆخێکی تەندرووستی کە دەبێتەھۆی ھەناسەتوندی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have thousands of asthma cases a year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵانە ھەزاران کەیسی ھەناسەتوندیمان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasthma1012("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasthma1012(
-                                        // REPLACE: asthma /ˈæzmə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have thousands of asthma cases a year.",
+                            kurdishText:
+                                "ساڵانە ھەزاران کەیسی ھەناسەتوندیمان ھەیە.",
+                            onPressedBritish: () => speakasthma1012("en-GB"),
+                            onPressedAmerican: () => speakasthma1012(
+                                // REPLACE: asthma /ˈæzmə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

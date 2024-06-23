@@ -114,34 +114,15 @@ class EnglishEntryaftereffect extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کاریگەری دەرمانێک یان ڕووداوێک کە دواتر دەردەکەوێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Headaches are an aftereffect of this sort of accident."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرئێشە دەرئەنجامی ئەم جۆرە ڕووداوانەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaftere3599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaftere3599(
-                                        // REPLACE: aftereffect /ˈɑːftər ɪfekt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Headaches are an aftereffect of this sort of accident.",
+                            kurdishText:
+                                "سەرئێشە دەرئەنجامی ئەم جۆرە ڕووداوانەیە.",
+                            onPressedBritish: () => speakaftere3599("en-GB"),
+                            onPressedAmerican: () => speakaftere3599(
+                                // REPLACE: aftereffect /ˈɑːftər ɪfekt/
+                                "en-US"),
                           ),
                         ],
                       ),

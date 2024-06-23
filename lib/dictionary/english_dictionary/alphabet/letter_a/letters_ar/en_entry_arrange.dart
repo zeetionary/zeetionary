@@ -164,130 +164,52 @@ class EnglishEntryarrange extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) پلان‌دانان یان ڕێکخستنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The party was arranged quickly."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئاھەنگەکە بەخێرایی ڕێکخرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrange105("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrange105(
-                                        // REPLACE: arrange /əˈreɪndʒ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The party was arranged quickly.",
+                            kurdishText: "ئاھەنگەکە بەخێرایی ڕێکخرا.",
+                            onPressedBritish: () => speakarrange105("en-GB"),
+                            onPressedAmerican: () => speakarrange105(
+                                // REPLACE: arrange /əˈreɪndʒ/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She arranged a loan with the bank."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەرگرتنی قەرزێکی ڕێکخست لەگەڵ بانکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrange106("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrange106(
-                                        // REPLACE: arrange /əˈreɪndʒ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She arranged a loan with the bank.",
+                            kurdishText:
+                                "وەرگرتنی قەرزێکی ڕێکخست لەگەڵ بانکەکە.",
+                            onPressedBritish: () => speakarrange106("en-GB"),
+                            onPressedAmerican: () => speakarrange106(
+                                // REPLACE: arrange /əˈreɪndʒ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ڕیزبەندی کردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The books are arranged alphabetically by author."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکان بەپێی ئەلفوبێی ناوی نووسەرەکانیان ڕیزبەندی کرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrange108("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrange108(
-                                        // REPLACE: arrange /əˈreɪndʒ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The books are arranged alphabetically by author.",
+                            kurdishText:
+                                "کتێبەکان بەپێی ئەلفوبێی ناوی نووسەرەکانیان ڕیزبەندی کرابوون.",
+                            onPressedBritish: () => speakarrange108("en-GB"),
+                            onPressedAmerican: () => speakarrange108(
+                                // REPLACE: arrange /əˈreɪndʒ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) گۆڕینی پارچە میوزیکێک بۆ سازاندنی لەگەڵ ئامێرەکە یان ھونەرمەندەکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Beethoven's fifth symphony has been arranged for the piano."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێنجەم سیمفۆنی بیتھۆڤن بۆ پیانۆ سازێندراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrange111("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrange111(
-                                        // REPLACE: arrange /əˈreɪndʒ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Beethoven's fifth symphony has been arranged for the piano.",
+                            kurdishText:
+                                "پێنجەم سیمفۆنی بیتھۆڤن بۆ پیانۆ سازێندراوە.",
+                            onPressedBritish: () => speakarrange111("en-GB"),
+                            onPressedAmerican: () => speakarrange111(
+                                // REPLACE: arrange /əˈreɪndʒ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

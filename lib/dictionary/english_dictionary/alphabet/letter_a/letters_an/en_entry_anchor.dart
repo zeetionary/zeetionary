@@ -157,262 +157,107 @@ class EnglishEntryanchor extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پارچە ئاسنێکی قورس کە بە زنجیرێک یان گوریسێک بەستراوە و لەلایەکی کەشتیەک یان بەلەمێکەوە دەخرێتەخوارەوە بۆ ئەوەی لەنگەر بگرێت """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We raised the anchor and set sail."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەنگەرەکەمان خستەخوارەوە و دەستمان بە گەشت‌کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanchor08996("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanchor08996(
-                                        // REPLACE: anchor /ˈæŋkər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We raised the anchor and set sail.",
+                            kurdishText:
+                                "لەنگەرەکەمان خستەخوارەوە و دەستمان بە گەشت‌کرد.",
+                            onPressedBritish: () => speakanchor08996("en-GB"),
+                            onPressedAmerican: () => speakanchor08996(
+                                // REPLACE: anchor /ˈæŋkər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We weighed anchor (= pulled it out of the water)."),
-                                    ExampleSentenceKurdish(
-                                        text: "لەنگەرەکەمان ھەڵکێشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanchor104("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanchor104(
-                                        // REPLACE: anchor /ˈæŋkər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We weighed anchor (= pulled it out of the water).",
+                            kurdishText: "لەنگەرەکەمان ھەڵکێشا.",
+                            onPressedBritish: () => speakanchor104("en-GB"),
+                            onPressedAmerican: () => speakanchor104(
+                                // REPLACE: anchor /ˈæŋkər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پشت‌و‌پەنا؛ کەسێک کە پشتیوانی کەسێک دەکات لە تەنگانەدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was my anchor when things were difficult for me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە شتەکان سەخت‌بوون بۆم ئەو پشت‌وپەنام بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanchor10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanchor10(
-                                        // REPLACE: anchor /ˈæŋkər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was my anchor when things were difficult for me.",
+                            kurdishText:
+                                "کە شتەکان سەخت‌بوون بۆم ئەو پشت‌وپەنام بوو.",
+                            onPressedBritish: () => speakanchor10("en-GB"),
+                            onPressedAmerican: () => speakanchor10(
+                                // REPLACE: anchor /ˈæŋkər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) پێشکەشکاری تەلەفیزیۆن یان ڕادیۆ """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was questioned by a BBC anchor about her trip."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەلایەن پێشکەشکارێکی بی‌بی‌سی‌یەوە پرسیاری لێکرا لەسەر گەشتەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanchor1044("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanchor1044(
-                                        // REPLACE: anchor /ˈæŋkər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was questioned by a BBC anchor about her trip.",
+                            kurdishText:
+                                "لەلایەن پێشکەشکارێکی بی‌بی‌سی‌یەوە پرسیاری لێکرا لەسەر گەشتەکەی.",
+                            onPressedBritish: () => speakanchor1044("en-GB"),
+                            onPressedAmerican: () => speakanchor1044(
+                                // REPLACE: anchor /ˈæŋkər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) داگرتنی لەنگەری کەشتییەک یان بەلەمێک بۆ وەستاندنی لە جوڵان """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We anchored off the coast of Spain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کەناراوەکانی ئیسپانیا لەنگەرمان گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanchor0995("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanchor0995(
-                                        // REPLACE: anchor /ˈæŋkər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We anchored off the coast of Spain.",
+                            kurdishText:
+                                "لە کەناراوەکانی ئیسپانیا لەنگەرمان گرت.",
+                            onPressedBritish: () => speakanchor0995("en-GB"),
+                            onPressedAmerican: () => speakanchor0995(
+                                // REPLACE: anchor /ˈæŋkər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) دانانی شتێک لە شوێنێک کە چی‌تر ناجوڵێت """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ropes were anchored to the rocks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوریسەکان لە بەردەکان گیرکرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanchor550("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanchor550(
-                                        // REPLACE: anchor /ˈæŋkər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ropes were anchored to the rocks.",
+                            kurdishText: "گوریسەکان لە بەردەکان گیرکرابوون.",
+                            onPressedBritish: () => speakanchor550("en-GB"),
+                            onPressedAmerican: () => speakanchor550(
+                                // REPLACE: anchor /ˈæŋkər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) پشت‌بەستنی شتێک بە شتێکی تر """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her novels are anchored in everyday experience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆمانەکانی پشت بە ئەزموونی ڕۆژانە دەبەستن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanchor5006("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanchor5006(
-                                        // REPLACE: anchor /ˈæŋkər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her novels are anchored in everyday experience.",
+                            kurdishText:
+                                "ڕۆمانەکانی پشت بە ئەزموونی ڕۆژانە دەبەستن.",
+                            onPressedBritish: () => speakanchor5006("en-GB"),
+                            onPressedAmerican: () => speakanchor5006(
+                                // REPLACE: anchor /ˈæŋkər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (کردار) پێشکەشکردنی ھەواڵ """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She anchored the evening news for seven years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەواڵی ئێوارانی بۆ حەوت ساڵ پێشکەش‌دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanchor444("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanchor444(
-                                        // REPLACE: anchor /ˈæŋkər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She anchored the evening news for seven years.",
+                            kurdishText:
+                                "ھەواڵی ئێوارانی بۆ حەوت ساڵ پێشکەش‌دەکرد.",
+                            onPressedBritish: () => speakanchor444("en-GB"),
+                            onPressedAmerican: () => speakanchor444(
+                                // REPLACE: anchor /ˈæŋkər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

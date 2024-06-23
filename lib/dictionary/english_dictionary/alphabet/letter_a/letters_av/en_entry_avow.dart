@@ -158,34 +158,15 @@ class EnglishEntryavow extends StatelessWidget {
                               text:
                                   "١. (کردار) بەڕوونی و فەرمی دەربڕینی بۆچوونت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An aide avowed that the president had known nothing of the deals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاوێژکارێک ڕایگەیاند کە سەرۆک ھیچی نەزانیوە سەبارەت بە ڕێککەوتنەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavows1(// REPLACE: avow
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An aide avowed that the president had known nothing of the deals.",
+                            kurdishText:
+                                "ڕاوێژکارێک ڕایگەیاند کە سەرۆک ھیچی نەزانیوە سەبارەت بە ڕێککەوتنەکان.",
+                            onPressedBritish: () => speakavows1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavows1(// REPLACE: avow
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

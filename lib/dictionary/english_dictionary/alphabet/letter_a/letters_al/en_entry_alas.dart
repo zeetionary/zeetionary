@@ -114,34 +114,15 @@ class EnglishEntryalas extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (سەرسوڕمان) بۆ دەربڕینی نیگەرانی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For many people, alas, hunger is part of everyday life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ زۆر کەس، بەداخەوە، برسێتی بەشێکە لە ژیانی ڕۆژانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalas2569("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakalas2569(// REPLACE: alas /əˈlæs/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For many people, alas, hunger is part of everyday life.",
+                            kurdishText:
+                                "بۆ زۆر کەس، بەداخەوە، برسێتی بەشێکە لە ژیانی ڕۆژانە.",
+                            onPressedBritish: () => speakalas2569("en-GB"),
+                            onPressedAmerican: () =>
+                                speakalas2569(// REPLACE: alas /əˈlæs/
+                                    "en-US"),
                           ),
                         ],
                       ),

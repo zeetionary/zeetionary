@@ -99,32 +99,13 @@ class EnglishEntryabyss extends StatelessWidget {
                               text:
                                   "١. (ناو) چاڵێکی قووڵ کە پێدەچێت کۆتایی نەبێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They took a long look into the abyss before deciding whether to jump."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەیرێکی زۆری چاڵەکەیان کرد پێش ئەوەی بڕیار بدەن لەسەر بازدان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka24691("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka24691("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They took a long look into the abyss before deciding whether to jump.",
+                            kurdishText:
+                                "سەیرێکی زۆری چاڵەکەیان کرد پێش ئەوەی بڕیار بدەن لەسەر بازدان.",
+                            onPressedBritish: () => speaka24691("en-GB"),
+                            onPressedAmerican: () => speaka24691("en-US"),
                           ),
                         ],
                       ),

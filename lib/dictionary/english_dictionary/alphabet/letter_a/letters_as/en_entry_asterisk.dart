@@ -164,67 +164,29 @@ class EnglishEntryasterisk extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) دانانی نیشانەی ئەستێرە (*) لە تەنیشت شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've asterisked the tasks I want you to do first."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasterisk940("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasterisk940(
-                                        // REPLACE: asterisk /ˈæstərɪsk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've asterisked the tasks I want you to do first.",
+                            kurdishText:
+                                "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت.",
+                            onPressedBritish: () => speakasterisk940("en-GB"),
+                            onPressedAmerican: () => speakasterisk940(
+                                // REPLACE: asterisk /ˈæstərɪsk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) نیشانەی ئەستێرە (*) کە بەکاردێت بۆ دەرخستنی زیاتری وشەیەک یان دەستەواژەیەک، یان وەک ئاماژە بەوەی زانیاری زیاتر لە شوێنی تر دراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've placed an asterisk next to the tasks I want you to do first."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasterisk943("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasterisk943(
-                                        // REPLACE: asterisk /ˈæstərɪsk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've placed an asterisk next to the tasks I want you to do first.",
+                            kurdishText:
+                                "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت.",
+                            onPressedBritish: () => speakasterisk943("en-GB"),
+                            onPressedAmerican: () => speakasterisk943(
+                                // REPLACE: asterisk /ˈæstərɪsk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

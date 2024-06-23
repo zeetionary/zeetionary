@@ -158,34 +158,15 @@ class EnglishEntrybackgammon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) یارییەکی دوو کەسی کە لەسەر تەختەیەک دەکرێت کە سێگۆشەی باریک و درێژی لەسەرە. یاریزانەکان زارێک فڕێدەدەن و پارچەکانیان دەجوڵێنن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I learned to play backgammon from my grandfather, and it has become one of my hobbies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە باپیرمەوە فێری تاوڵەکردن بووم و بووە بە یەکێک لە حەزەکانم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbackgammons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbackgammons1(// REPLACE: backgammon
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I learned to play backgammon from my grandfather, and it has become one of my hobbies.",
+                            kurdishText:
+                                "لە باپیرمەوە فێری تاوڵەکردن بووم و بووە بە یەکێک لە حەزەکانم.",
+                            onPressedBritish: () => speakbackgammons1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbackgammons1(// REPLACE: backgammon
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

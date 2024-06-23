@@ -304,352 +304,122 @@ class EnglishEntrybound extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە بە دڵنیایی یان ئەگەری ھەیە ڕووبدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are bound to be changes when the new system is introduced."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە سیستەمە تازەکە ڕادەگەیەندرێت ئەگەری زۆر ھەیە گۆڕان ڕووبدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbounds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbounds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are bound to be changes when the new system is introduced.",
+                            kurdishText:
+                                "کە سیستەمە تازەکە ڕادەگەیەندرێت ئەگەری زۆر ھەیە گۆڕان ڕووبدات.",
+                            onPressedBritish: () => speakbounds1("en-GB"),
+                            onPressedAmerican: () => speakbounds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's bound to be sunny again tomorrow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئەگەری زۆرەوە سبەینێش دووبارە خۆرەتاو دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbounds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbounds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's bound to be sunny again tomorrow.",
+                            kurdishText:
+                                "بە ئەگەری زۆرەوە سبەینێش دووبارە خۆرەتاو دەبێت.",
+                            onPressedBritish: () => speakbounds2("en-GB"),
+                            onPressedAmerican: () => speakbounds2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You've done so much work—you're bound to pass the exam."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵی زۆرت داوە، بە مسۆگەرییەوە تاقیکردنەوەکە تێدەپەڕێنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbounds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbounds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You've done so much work—you're bound to pass the exam.",
+                            kurdishText:
+                                "ھەوڵی زۆرت داوە، بە مسۆگەرییەوە تاقیکردنەوەکە تێدەپەڕێنی.",
+                            onPressedBritish: () => speakbounds3("en-GB"),
+                            onPressedAmerican: () => speakbounds3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ناچار بەوەی شتێک بکەیت بەپێی یاسا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are not bound by the decision."),
-                                    ExampleSentenceKurdish(
-                                        text: "بڕیارەکە نامانگرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbounds4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbounds4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We are not bound by the decision.",
+                            kurdishText: "بڕیارەکە نامانگرێتەوە.",
+                            onPressedBritish: () => speakbounds4("en-GB"),
+                            onPressedAmerican: () => speakbounds4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They are legally bound to appear in court."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەپێی یاسا ناچارن لە دادگا دەربکەون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbounds5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbounds5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They are legally bound to appear in court.",
+                            kurdishText: "بەپێی یاسا ناچارن لە دادگا دەربکەون.",
+                            onPressedBritish: () => speakbounds5("en-GB"),
+                            onPressedAmerican: () => speakbounds5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) ڕێگەپێنەدراو لەوەی بچییە شوێنێک یان کاربکەیت بەشێوەی ئاسایی بەو شێوەیەی باسکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has been wheelchair-bound for several years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ چەندین ساڵە لەسەر کورسی کارەباییە (بۆ کەم‌ئەندامان)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbounds6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbounds6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has been wheelchair-bound for several years.",
+                            kurdishText:
+                                "بۆ چەندین ساڵە لەسەر کورسی کارەباییە (بۆ کەم‌ئەندامان).",
+                            onPressedBritish: () => speakbounds6("en-GB"),
+                            onPressedAmerican: () => speakbounds6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The airport was completely fogbound (= covered by fog)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەخانەکە بە تەواوی بە تەم داپۆشرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbounds7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbounds7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The airport was completely fogbound (= covered by fog).",
+                            kurdishText:
+                                "فڕۆکەخانەکە بە تەواوی بە تەم داپۆشرابوو.",
+                            onPressedBritish: () => speakbounds7("en-GB"),
+                            onPressedAmerican: () => speakbounds7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) گەشتکردن بە ئاراستەیەکی دیاریکراو یان بۆ شوێنێکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Northbound traffic is moving very slowly because of the accident."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشتی بەرەو باکوور زۆر ھێواش بەڕێوەدەچێت بەھۆی ڕووداوەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbounds8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbounds8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Northbound traffic is moving very slowly because of the accident.",
+                            kurdishText:
+                                "گەشتی بەرەو باکوور زۆر ھێواش بەڕێوەدەچێت بەھۆی ڕووداوەکەوە.",
+                            onPressedBritish: () => speakbounds8("en-GB"),
+                            onPressedAmerican: () => speakbounds8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All Paris-bound flights have been grounded."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ئەو گەشتانەی بەرەو پاریسن وەستێنراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbounds9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbounds9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All Paris-bound flights have been grounded.",
+                            kurdishText:
+                                "ھەموو ئەو گەشتانەی بەرەو پاریسن وەستێنراون.",
+                            onPressedBritish: () => speakbounds9("en-GB"),
+                            onPressedAmerican: () => speakbounds9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) ڕاکردن بە ھەنگاوی درێژەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The dogs bounded ahead."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەگەکان بۆ پێشەوە ڕایان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbounds10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbounds10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The dogs bounded ahead.",
+                            kurdishText: "سەگەکان بۆ پێشەوە ڕایان دەکرد.",
+                            onPressedBritish: () => speakbounds10("en-GB"),
+                            onPressedAmerican: () => speakbounds10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) بوون بە قەراغ یان سنووری شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The town is bounded on one side by a river."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارۆچکەکە لەلایەکەوە سنووری لەگەڵ ڕووبار ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbounds11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbounds11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The town is bounded on one side by a river.",
+                            kurdishText:
+                                "شارۆچکەکە لەلایەکەوە سنووری لەگەڵ ڕووبار ھەیە.",
+                            onPressedBritish: () => speakbounds11("en-GB"),
+                            onPressedAmerican: () => speakbounds11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) بازێکی بەرز یان درێژ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "With one bound the dog was over the fence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە یەک باز سەگەکە بەسەر پەرژینەکەدا تێپەڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbounds12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbounds12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "With one bound the dog was over the fence.",
+                            kurdishText:
+                                "بە یەک باز سەگەکە بەسەر پەرژینەکەدا تێپەڕی.",
+                            onPressedBritish: () => speakbounds12("en-GB"),
+                            onPressedAmerican: () => speakbounds12("en-US"),
                           ),
                         ],
                       ),

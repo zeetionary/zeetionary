@@ -149,121 +149,44 @@ class EnglishEntrybeef extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) گۆشتی مانگا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Dad stood up to carve the beef."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوکە ھەستایە سەرپێ بۆ کەوڵکردنی گۆشتی مانگاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeefs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeefs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Dad stood up to carve the beef.",
+                            kurdishText:
+                                "باوکە ھەستایە سەرپێ بۆ کەوڵکردنی گۆشتی مانگاکە.",
+                            onPressedBritish: () => speakbeefs1("en-GB"),
+                            onPressedAmerican: () => speakbeefs1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I bought a kilo of very lean minced beef."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کیلۆیەک گۆشتی گای لە گۆشتاڕ دراوم کڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeefs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeefs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I bought a kilo of very lean minced beef.",
+                            kurdishText:
+                                "کیلۆیەک گۆشتی گای لە گۆشتاڕ دراوم کڕی.",
+                            onPressedBritish: () => speakbeefs2("en-GB"),
+                            onPressedAmerican: () => speakbeefs2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ناڕەزایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "What's his latest beef?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کۆتا پرتەوبۆڵەی چییە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeefs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeefs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "What's his latest beef?",
+                            kurdishText: "کۆتا پرتەوبۆڵەی چییە؟",
+                            onPressedBritish: () => speakbeefs3("en-GB"),
+                            onPressedAmerican: () => speakbeefs3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ناڕەزایی دەربڕین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't just beef about it—do something!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا پرتەوبۆڵە مەکە لەسەری، شتێک بکە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeefs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeefs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Don't just beef about it—do something!",
+                            kurdishText:
+                                "تەنھا پرتەوبۆڵە مەکە لەسەری، شتێک بکە!",
+                            onPressedBritish: () => speakbeefs4("en-GB"),
+                            onPressedAmerican: () => speakbeefs4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -165,67 +165,29 @@ class EnglishEntryartisan extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێکی شارەزا کە کارێک بە دەستی دەکات کە پێویستی بە شارەزایی تایبەت ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You will learn how eighteenth-century artisans did their work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فێردەبیت چۆن پیشەسازانی سەدەی ١٨ کارەکانیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakartisan1031("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartisan1031(
-                                        // REPLACE: artisan /ˈɑːrtəzn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You will learn how eighteenth-century artisans did their work.",
+                            kurdishText:
+                                "فێردەبیت چۆن پیشەسازانی سەدەی ١٨ کارەکانیان دەکرد.",
+                            onPressedBritish: () => speakartisan1031("en-GB"),
+                            onPressedAmerican: () => speakartisan1031(
+                                // REPLACE: artisan /ˈɑːrtəzn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بە پیشەسازێک، یان کارەکانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The artisan bakery's bread is made with only the finest ingredients and is baked in a traditional wood-fired oven."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نانەکانی نانەواخانەی پیشەسازەکە تەنھا بە باشترین ڕەچەتە درووست دەکرێن و بە ڕێگای کۆن دەبرژێندرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakartisan1036("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartisan1036(
-                                        // REPLACE: artisan /ˈɑːrtəzn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The artisan bakery's bread is made with only the finest ingredients and is baked in a traditional wood-fired oven.",
+                            kurdishText:
+                                "نانەکانی نانەواخانەی پیشەسازەکە تەنھا بە باشترین ڕەچەتە درووست دەکرێن و بە ڕێگای کۆن دەبرژێندرێن.",
+                            onPressedBritish: () => speakartisan1036("en-GB"),
+                            onPressedAmerican: () => speakartisan1036(
+                                // REPLACE: artisan /ˈɑːrtəzn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

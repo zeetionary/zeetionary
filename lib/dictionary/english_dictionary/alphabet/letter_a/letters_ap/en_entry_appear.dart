@@ -194,358 +194,144 @@ class EnglishEntryappear extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) دەست‌کردن بە دەرکەوتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Smoke appeared on the horizon."),
-                                    ExampleSentenceKurdish(
-                                        text: "دووکەڵ لە ئاسۆدا دەرکەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappear1030("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappear1030(
-                                        // REPLACE: appear /əˈpɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Smoke appeared on the horizon.",
+                            kurdishText: "دووکەڵ لە ئاسۆدا دەرکەوت.",
+                            onPressedBritish: () => speakappear1030("en-GB"),
+                            onPressedAmerican: () => speakappear1030(
+                                // REPLACE: appear /əˈpɪr/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Symptoms usually start appearing within two to three days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیشانەکانی نەخۆشییەکە زۆرجار دەردەکەون لە ماوەی دوو ڕۆژدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappear1032("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappear1032(
-                                        // REPLACE: appear /əˈpɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Symptoms usually start appearing within two to three days.",
+                            kurdishText:
+                                "نیشانەکانی نەخۆشییەکە زۆرجار دەردەکەون لە ماوەی دوو ڕۆژدا.",
+                            onPressedBritish: () => speakappear1032("en-GB"),
+                            onPressedAmerican: () => speakappear1032(
+                                // REPLACE: appear /əˈpɪr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) درووست‌بوون، پێزانین، یان بەکارھێنان بۆ یەکەم جار"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scientists are unsure when the virus first appeared."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاناکان دڵنیانین ڤایرۆسەکە بۆ یەکەم جار لە کوێوە دەرکەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappear1034("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappear1034(
-                                        // REPLACE: appear /əˈpɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scientists are unsure when the virus first appeared.",
+                            kurdishText:
+                                "زاناکان دڵنیانین ڤایرۆسەکە بۆ یەکەم جار لە کوێوە دەرکەوت.",
+                            onPressedBritish: () => speakappear1034("en-GB"),
+                            onPressedAmerican: () => speakappear1034(
+                                // REPLACE: appear /əˈpɪr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کاری لێکدەر) دەرکەوتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She didn't appear at all surprised at the news."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ سەرسام دیار نەبوو بە ھەواڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappear1037("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappear1037(
-                                        // REPLACE: appear /əˈpɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She didn't appear at all surprised at the news.",
+                            kurdishText: "ھیچ سەرسام دیار نەبوو بە ھەواڵەکە.",
+                            onPressedBritish: () => speakappear1037("en-GB"),
+                            onPressedAmerican: () => speakappear1037(
+                                // REPLACE: appear /əˈpɪr/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everything appeared normal at first."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو شتێک ئاسایی دەرکەوت لە سەرەتادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappear1038("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappear1038(
-                                        // REPLACE: appear /əˈpɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Everything appeared normal at first.",
+                            kurdishText:
+                                "ھەموو شتێک ئاسایی دەرکەوت لە سەرەتادا.",
+                            onPressedBritish: () => speakappear1038("en-GB"),
+                            onPressedAmerican: () => speakappear1038(
+                                // REPLACE: appear /əˈpɪr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) بڵاوکردنەوە یان پەخشکردنی کتێبێک، وتارێک، یان پڕۆگرامێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His new book will be appearing in the spring."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبە تازەکەی لە بەھاردا بڵاودەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappear819("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappear819(
-                                        // REPLACE: appear /əˈpɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His new book will be appearing in the spring.",
+                            kurdishText:
+                                "کتێبە تازەکەی لە بەھاردا بڵاودەبێتەوە.",
+                            onPressedBritish: () => speakappear819("en-GB"),
+                            onPressedAmerican: () => speakappear819(
+                                // REPLACE: appear /əˈpɪr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) دەرکەوتن لە فیلمێک، شانۆیەک، یان پڕۆگرامێکی تەلەفیزیۆنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has appeared in over 60 movies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە زیاتر لە ٦٠ فیلمدا دەرکەوتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappear1043("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappear1043(
-                                        // REPLACE: appear /əˈpɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He has appeared in over 60 movies.",
+                            kurdishText: "لە زیاتر لە ٦٠ فیلمدا دەرکەوتووە.",
+                            onPressedBritish: () => speakappear1043("en-GB"),
+                            onPressedAmerican: () => speakappear1043(
+                                // REPLACE: appear /əˈpɪr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) گەشتنە شوێنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A man appeared at the door and asked to see her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوێک گەشتە بەر دەرگاکە و داوای بینینی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappear1045("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappear1045(
-                                        // REPLACE: appear /əˈpɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A man appeared at the door and asked to see her.",
+                            kurdishText:
+                                "پیاوێک گەشتە بەر دەرگاکە و داوای بینینی کرد.",
+                            onPressedBritish: () => speakappear1045("en-GB"),
+                            onPressedAmerican: () => speakappear1045(
+                                // REPLACE: appear /əˈpɪr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (کردار) نووسراو یان ناوھێنراو لە شوێنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your name will appear at the front of the book."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوت لە بەرگی کتێبەکە دەنووسرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappear1047("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappear1047(
-                                        // REPLACE: appear /əˈpɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your name will appear at the front of the book.",
+                            kurdishText: "ناوت لە بەرگی کتێبەکە دەنووسرێت.",
+                            onPressedBritish: () => speakappear1047("en-GB"),
+                            onPressedAmerican: () => speakappear1047(
+                                // REPLACE: appear /əˈpɪr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (کردار) ئامادەبوون لە دادگا بۆ پێدانی بەڵگە یان وەڵامدانەوەی تۆمەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A man will appear in court today charged with the murder."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوێک ئەمڕۆ لە دادگا ئامادە دەبێت کە تۆمەتی کوشتنی لەسەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappear1050("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappear1050(
-                                        // REPLACE: appear /əˈpɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A man will appear in court today charged with the murder.",
+                            kurdishText:
+                                "پیاوێک ئەمڕۆ لە دادگا ئامادە دەبێت کە تۆمەتی کوشتنی لەسەرە.",
+                            onPressedBritish: () => speakappear1050("en-GB"),
+                            onPressedAmerican: () => speakappear1050(
+                                // REPLACE: appear /əˈpɪr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (کردار) ئامادەبوون لە دادگا وەک پارێزەری کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "James Gilbert is the lawyer appearing for the defendant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەیمس گیلبێرت پارێزەری بەرگریکارەکە دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappear1052("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappear1052(
-                                        // REPLACE: appear /əˈpɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "James Gilbert is the lawyer appearing for the defendant.",
+                            kurdishText:
+                                "جەیمس گیلبێرت پارێزەری بەرگریکارەکە دەبێت.",
+                            onPressedBritish: () => speakappear1052("en-GB"),
+                            onPressedAmerican: () => speakappear1052(
+                                // REPLACE: appear /əˈpɪr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

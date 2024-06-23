@@ -170,201 +170,87 @@ class EnglishEntryatmosphere extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئەو گازانەی کە دەوری زەوییان داوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Volcanoes and hot springs can emit methane into the atmosphere."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گڕکانەکان و کانیاوە گەرمەکان گازی میسان دەخەنە بەرگەھەواوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakatmosphere1119("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakatmosphere1119(
-                                        // REPLACE: atmosphere
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Volcanoes and hot springs can emit methane into the atmosphere.",
+                            kurdishText:
+                                "گڕکانەکان و کانیاوە گەرمەکان گازی میسان دەخەنە بەرگەھەواوە.",
+                            onPressedBritish: () =>
+                                speakatmosphere1119("en-GB"),
+                            onPressedAmerican: () => speakatmosphere1119(
+                                // REPLACE: atmosphere
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The spaceship should re-enter the earth's atmosphere later today."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشتییە ئاسمانییەکە دەبێت درەنگانی ئەمڕۆ بگەڕێتەوە ناو بەرگەھەوای زەوی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakatmosphere1121("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakatmosphere1121(
-                                        // REPLACE: atmosphere
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The spaceship should re-enter the earth's atmosphere later today.",
+                            kurdishText:
+                                "کەشتییە ئاسمانییەکە دەبێت درەنگانی ئەمڕۆ بگەڕێتەوە ناو بەرگەھەوای زەوی.",
+                            onPressedBritish: () =>
+                                speakatmosphere1121("en-GB"),
+                            onPressedAmerican: () => speakatmosphere1121(
+                                // REPLACE: atmosphere
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئەو گازانەی کە دەوری تەنێکی ئاسمانییان داوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The outermost part of the sun's atmosphere is called the corona."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوورترین بەشی ڕووی دەرەوەی بەرگەھەوای خۆر پێی دەوترێت کۆرۆنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakatmosphere1123("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakatmosphere1123(
-                                        // REPLACE: atmosphere
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The outermost part of the sun's atmosphere is called the corona.",
+                            kurdishText:
+                                "دوورترین بەشی ڕووی دەرەوەی بەرگەھەوای خۆر پێی دەوترێت کۆرۆنا.",
+                            onPressedBritish: () =>
+                                speakatmosphere1123("en-GB"),
+                            onPressedAmerican: () => speakatmosphere1123(
+                                // REPLACE: atmosphere
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ھەوای ناو ژوورێک یان شوێنێکی بچووک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These plants love warm, humid atmospheres."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ڕووەکانە حەزیان بە ژینگەی گەرم و شێدارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakatmosphere1126("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakatmosphere1126(
-                                        // REPLACE: atmosphere
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These plants love warm, humid atmospheres.",
+                            kurdishText:
+                                "ئەم ڕووەکانە حەزیان بە ژینگەی گەرم و شێدارە.",
+                            onPressedBritish: () =>
+                                speakatmosphere1126("en-GB"),
+                            onPressedAmerican: () => speakatmosphere1126(
+                                // REPLACE: atmosphere
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ئەو کەشەی لە بارودۆخێکدا ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "City officials have created an atmosphere of fear."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسانی شارەکە کەشێکی پڕ لە ترسیان درووستکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakatmosphere1128("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakatmosphere1128(
-                                        // REPLACE: atmosphere
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "City officials have created an atmosphere of fear.",
+                            kurdishText:
+                                "بەرپرسانی شارەکە کەشێکی پڕ لە ترسیان درووستکردووە.",
+                            onPressedBritish: () =>
+                                speakatmosphere1128("en-GB"),
+                            onPressedAmerican: () => speakatmosphere1128(
+                                // REPLACE: atmosphere
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was an atmosphere of mutual trust between them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشێکی متمانەی ھاوبەش ھەبوو لە نێوانیاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakatmosphere1129("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakatmosphere1129(
-                                        // REPLACE: atmosphere
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was an atmosphere of mutual trust between them.",
+                            kurdishText:
+                                "کەشێکی متمانەی ھاوبەش ھەبوو لە نێوانیاندا.",
+                            onPressedBritish: () =>
+                                speakatmosphere1129("en-GB"),
+                            onPressedAmerican: () => speakatmosphere1129(
+                                // REPLACE: atmosphere
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

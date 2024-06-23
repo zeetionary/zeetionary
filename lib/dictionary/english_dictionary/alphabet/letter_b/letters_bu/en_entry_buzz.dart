@@ -198,328 +198,117 @@ class EnglishEntrybuzz extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) دەرکردنی دەنگێکی نزمی بەردەوام"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bees buzzed lazily among the flowers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەنگ بەھێواشی گیزەیان دەھات لەناو گوڵەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "buzz", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bees buzzed lazily among the flowers.",
+                            kurdishText:
+                                "ھەنگ بەھێواشی گیزەیان دەھات لەناو گوڵەکاندا.", // buzz", follow LX strictly
+                            onPressedBritish: () => speakbuzzs1("en-GB"),
+                            onPressedAmerican: () => speakbuzzs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) دەرکردنی دەنگێک کە وەک دەنگی ھەنگ وای"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The doorbell buzzed loudly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەنگی دەرگاکە بە بەرزی دەنگی دەھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The doorbell buzzed loudly.",
+                            kurdishText: "زەنگی دەرگاکە بە بەرزی دەنگی دەھات.",
+                            onPressedBritish: () => speakbuzzs2("en-GB"),
+                            onPressedAmerican: () => speakbuzzs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) پڕ لە خرۆشاوی و چالاکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "New York buzzes from dawn to dusk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیویۆرک لە بەرەبەیانەوە تا مەغریب ھاژەی دێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "New York buzzes from dawn to dusk.",
+                            kurdishText:
+                                "نیویۆرک لە بەرەبەیانەوە تا مەغریب ھاژەی دێت.",
+                            onPressedBritish: () => speakbuzzs3("en-GB"),
+                            onPressedAmerican: () => speakbuzzs3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The place was buzzing with journalists."),
-                                    ExampleSentenceKurdish(
-                                        text: "شوێنەکە پڕبوو لە ڕۆژنامەنووس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The place was buzzing with journalists.",
+                            kurdishText: "شوێنەکە پڕبوو لە ڕۆژنامەنووس.",
+                            onPressedBritish: () => speakbuzzs4("en-GB"),
+                            onPressedAmerican: () => speakbuzzs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) بانگکردنی کەسێک بە دەستنان بە زەنگێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The doctor buzzed for the next patient to come in."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پزیشکەکە زەنگی بۆ نەخۆشی دواتر لێدا بچێتە ژوورەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The doctor buzzed for the next patient to come in.",
+                            kurdishText:
+                                "پزیشکەکە زەنگی بۆ نەخۆشی دواتر لێدا بچێتە ژوورەوە.",
+                            onPressedBritish: () => speakbuzzs5("en-GB"),
+                            onPressedAmerican: () => speakbuzzs5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ناو) دەنگێکی بەردەوامی نزم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I heard a buzz and then saw the plane in the distance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێم لە ھاژەکە بوو و دواتر فڕۆکەکەم لە دوورەوە دیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I heard a buzz and then saw the plane in the distance.",
+                            kurdishText:
+                                "گوێم لە ھاژەکە بوو و دواتر فڕۆکەکەم لە دوورەوە دیت.",
+                            onPressedBritish: () => speakbuzzs6("en-GB"),
+                            onPressedAmerican: () => speakbuzzs6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was woken by the buzz of a mosquito in his ear."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە خەو ھەستا بە دەنگی مێشوولەیەک لە گوێیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was woken by the buzz of a mosquito in his ear.",
+                            kurdishText:
+                                "لە خەو ھەستا بە دەنگی مێشوولەیەک لە گوێیدا.",
+                            onPressedBritish: () => speakbuzzs7("en-GB"),
+                            onPressedAmerican: () => speakbuzzs7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) دەنگی قسەی خەڵکی، بە تایبەتی کە خرۆشاون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The buzz of conversation suddenly stopped when she came into the room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگی گفتوگۆ لەناکاو وەستا کە ئەو ھاتە ژوورەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The buzz of conversation suddenly stopped when she came into the room.",
+                            kurdishText:
+                                "دەنگی گفتوگۆ لەناکاو وەستا کە ئەو ھاتە ژوورەکە.",
+                            onPressedBritish: () => speakbuzzs8("en-GB"),
+                            onPressedAmerican: () => speakbuzzs8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) ھەستێکی بەھێزی خۆشحاڵی، جۆشھوخرۆشی، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Flying gives me a real buzz."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕین ھەستێکی تەواو ڕاستەقینەم پێ دەبەخشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzs9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Flying gives me a real buzz.",
+                            kurdishText:
+                                "فڕین ھەستێکی تەواو ڕاستەقینەم پێ دەبەخشێت.",
+                            onPressedBritish: () => speakbuzzs9("en-GB"),
+                            onPressedAmerican: () => speakbuzzs9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a buzz of excitement all around the room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستێکی خۆشی لە تەواوی ژوورەکەدا ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzs10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzs10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a buzz of excitement all around the room.",
+                            kurdishText:
+                                "ھەستێکی خۆشی لە تەواوی ژوورەکەدا ھەبوو.",
+                            onPressedBritish: () => speakbuzzs10("en-GB"),
+                            onPressedAmerican: () => speakbuzzs10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (ناو) ھەواڵێک کە خەڵکی بە یەکدی دەڵێن و لەوانەیە ڕاست بێت و لەوانەیە ڕاست نەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The buzz is that Matt is in Scotland. Have you heard anything?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قسەڵۆکەکە ئەوەیە مات لە سکۆتلەندایە. ھیچت بیستووە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzs11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzs11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The buzz is that Matt is in Scotland. Have you heard anything?",
+                            kurdishText:
+                                "قسەڵۆکەکە ئەوەیە مات لە سکۆتلەندایە. ھیچت بیستووە؟",
+                            onPressedBritish: () => speakbuzzs11("en-GB"),
+                            onPressedAmerican: () => speakbuzzs11("en-US"),
                           ),
                         ],
                       ),

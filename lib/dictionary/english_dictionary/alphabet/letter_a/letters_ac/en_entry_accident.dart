@@ -116,90 +116,32 @@ class EnglishEntryaccident extends StatelessWidget {
                               text:
                                   "١. (ناو) ڕووداوێکی ناخۆش، زۆرجار ڕووداوی ھاتوچۆ، کە قوربانی لێدەکەوێتەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One in seven accidents is caused by sleepy drivers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە حەوت ڕووداودا یەکێکیان بەھۆی شۆفێری خەوالووەوە ڕوودەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka25698("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka25698("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One in seven accidents is caused by sleepy drivers.",
+                            kurdishText:
+                                "لە حەوت ڕووداودا یەکێکیان بەھۆی شۆفێری خەوالووەوە ڕوودەدات.",
+                            onPressedBritish: () => speaka25698("en-GB"),
+                            onPressedAmerican: () => speaka25698("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Every year in the United Kingdom more than 4 000 people die in accidents in the home."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ساڵێک ٤٠٠٠ کەس لە شانشینی یەکگرتوو دەمرن لە ئەنجامی ئەو ڕووداوانەی لە ماڵەوە ڕوودەدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacc2514("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacc2514("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Every year in the United Kingdom more than 4 000 people die in accidents in the home.",
+                            kurdishText:
+                                "ھەموو ساڵێک ٤٠٠٠ کەس لە شانشینی یەکگرتوو دەمرن لە ئەنجامی ئەو ڕووداوانەی لە ماڵەوە ڕوودەدەن.",
+                            onPressedBritish: () => speakacc2514("en-GB"),
+                            onPressedAmerican: () => speakacc2514("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شتێک کە بەشێوەیەکی چاوەڕواننەکراو ڕوودەدات، نەک بەپێی پلانی پێشوەختە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their early arrival was just an accident."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زوو گەیشتنیان تەنھا بە ڕێکەوت بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka6458("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka6458("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their early arrival was just an accident.",
+                            kurdishText: "زوو گەیشتنیان تەنھا بە ڕێکەوت بوو.",
+                            onPressedBritish: () => speaka6458("en-GB"),
+                            onPressedAmerican: () => speaka6458("en-US"),
                           ),
                         ],
                       ),

@@ -227,499 +227,194 @@ class EnglishEntryafter extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ئامراز) لە دوای شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We'll leave after lunch."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە دوای نانی نیوەڕۆ دەچین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafter157("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafter157(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We'll leave after lunch.",
+                            kurdishText: "لە دوای نانی نیوەڕۆ دەچین.",
+                            onPressedBritish: () => speakafter157("en-GB"),
+                            onPressedAmerican: () => speakafter157(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After winning the prize she became famous overnight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای بردنەوەی خەڵاتەکە لە شەو و ڕۆژێکدا بەناوبانگ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafter2499("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafter2499(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After winning the prize she became famous overnight.",
+                            kurdishText:
+                                "لە دوای بردنەوەی خەڵاتەکە لە شەو و ڕۆژێکدا بەناوبانگ بوو.",
+                            onPressedBritish: () => speakafter2499("en-GB"),
+                            onPressedAmerican: () => speakafter2499(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ئامراز) لە دوای کەسێک/شتێکەوە لە ڕیزبەندییەکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your name comes after mine in the list."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوت لە دوای ھی منەوەیە لە لیستەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafter4888("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafter4888(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your name comes after mine in the list.",
+                            kurdishText:
+                                "ناوت لە دوای ھی منەوەیە لە لیستەکەدا.",
+                            onPressedBritish: () => speakafter4888("en-GB"),
+                            onPressedAmerican: () => speakafter4888(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's the tallest, after Richard."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە دوای ڕیچارد ئەو بەرزترینە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafter4666("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafter4666(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's the tallest, after Richard.",
+                            kurdishText: "لە دوای ڕیچارد ئەو بەرزترینە.",
+                            onPressedBritish: () => speakafter4666("en-GB"),
+                            onPressedAmerican: () => speakafter4666(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ئامراز) لە دوای کەسێکی ڕۆشتوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Shut the door after you."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەرگاکە بگرە لە دوای خۆت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafter7928("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafter7928(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Shut the door after you.",
+                            kurdishText: "دەرگاکە بگرە لە دوای خۆت.",
+                            onPressedBritish: () => speakafter7928("en-GB"),
+                            onPressedAmerican: () => speakafter7928(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ئامراز) بەراورد بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was pleasantly cool in the house after the heat outside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ماڵەوە فێنک و خۆش بوو بەراورد بە گەرماکەی دەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafter4855("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafter4855(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was pleasantly cool in the house after the heat outside.",
+                            kurdishText:
+                                "لە ماڵەوە فێنک و خۆش بوو بەراورد بە گەرماکەی دەرەوە.",
+                            onPressedBritish: () => speakafter4855("en-GB"),
+                            onPressedAmerican: () => speakafter4855(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ئامراز) لە ئەنجامی شتێک کە ڕوویداوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'll never forgive him after what he said."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز لێی خۆشنابم لە دوای ئەوەی وتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafter5622("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafter5622(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'll never forgive him after what he said.",
+                            kurdishText:
+                                "ھەرگیز لێی خۆشنابم لە دوای ئەوەی وتی.",
+                            onPressedBritish: () => speakafter5622("en-GB"),
+                            onPressedAmerican: () => speakafter5622(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ئامراز) سەرەڕای شتێک کە ڕوویداوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't believe she'd do that, not after all I've done for her."), // nnothing
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕناکەم ئەوەی کرد، سەرەڕای ئەو ھەموو شتەی بۆم کردە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafter96771("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafter96771(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't believe she'd do that, not after all I've done for her.",
+                            kurdishText:
+                                "باوەڕناکەم ئەوەی کرد، سەرەڕای ئەو ھەموو شتەی بۆم کردە.",
+                            onPressedBritish: () => speakafter96771("en-GB"),
+                            onPressedAmerican: () => speakafter96771(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ئامراز) بەکاردێت بۆ وتنی ئەوەی شتێک زۆر یان بەبەردەوامی ڕوویداوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've told you time after time not to do that."), // nnothing
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووبارە و دووبارە پێم وتووی ئەوە نەکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafter152888("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafter152888(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've told you time after time not to do that.",
+                            kurdishText:
+                                "دووبارە و دووبارە پێم وتووی ئەوە نەکەیت.",
+                            onPressedBritish: () => speakafter152888("en-GB"),
+                            onPressedAmerican: () => speakafter152888(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (ئامراز) ھەوڵدان بۆ گرتنی کەسێک/شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The police are after him."),
-                                    ExampleSentenceKurdish(
-                                        text: "پۆلیس بەدوایەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafter1255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafter1255(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The police are after him.",
+                            kurdishText: "پۆلیس بەدوایەتی.",
+                            onPressedBritish: () => speakafter1255("en-GB"),
+                            onPressedAmerican: () => speakafter1255(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (ئامراز) دەربارەی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She asked after you (= how you were)."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەواڵی پرسیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafter945111("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafter945111(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She asked after you (= how you were).",
+                            kurdishText: "ھەواڵی پرسیت.",
+                            onPressedBritish: () => speakafter945111("en-GB"),
+                            onPressedAmerican: () => speakafter945111(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٠. (ئامراز) ناونانی کەسێک بەناوی کەسێکی ترەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We named the baby Ena after her grandmother."), // nnothing
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکەمان بەناوی داپیرەیەوە ناونا ئێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafter459322("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafter459322(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We named the baby Ena after her grandmother.",
+                            kurdishText:
+                                "منداڵەکەمان بەناوی داپیرەیەوە ناونا ئێنا.",
+                            onPressedBritish: () => speakafter459322("en-GB"),
+                            onPressedAmerican: () => speakafter459322(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١١. (لێکدەر) لە دوای ڕوودانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'll call you after I've spoken to them."), // nnothing
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندیت پێوە دەکەم لە دوای ئەوەی قسەیان لەگەڵ دەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaft2566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaft2566(// REPLACE: after /ˈɑːftər/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'll call you after I've spoken to them.",
+                            kurdishText:
+                                "پەیوەندیت پێوە دەکەم لە دوای ئەوەی قسەیان لەگەڵ دەکەم.",
+                            onPressedBritish: () => speakaft2566("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaft2566(// REPLACE: after /ˈɑːftər/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several years after they'd split up they met again by chance in Paris."), // nnothing
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەند ساڵێک دوای ئەوەی جیابوونەوە، بە شانس یەکیان لە پاریس دیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafte499352("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafte499352(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several years after they'd split up they met again by chance in Paris.",
+                            kurdishText:
+                                "چەند ساڵێک دوای ئەوەی جیابوونەوە، بە شانس یەکیان لە پاریس دیتەوە.",
+                            onPressedBritish: () => speakafte499352("en-GB"),
+                            onPressedAmerican: () => speakafte499352(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٢. (ھاوەڵکار) لە دوای کاتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I could come next week, or the week after."), // nnothing
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەفتەی دواتر دێم، یان ھەفتەی دوای ئەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafte98332("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafte98332(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I could come next week, or the week after.",
+                            kurdishText:
+                                "ھەفتەی دواتر دێم، یان ھەفتەی دوای ئەوە.",
+                            onPressedBritish: () => speakafte98332("en-GB"),
+                            onPressedAmerican: () => speakafte98332(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٣. (ھاوەڵناو) لە دوای کاتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In after years we never heard from him."), // nnothing
-                                    ExampleSentenceKurdish(
-                                        text: "ساڵانی دواتر ھیچمان لێ نەبیست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafter5355("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafter5355(
-                                        // REPLACE: after /ˈɑːftər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In after years we never heard from him.",
+                            kurdishText: "ساڵانی دواتر ھیچمان لێ نەبیست.",
+                            onPressedBritish: () => speakafter5355("en-GB"),
+                            onPressedAmerican: () => speakafter5355(
+                                // REPLACE: after /ˈɑːftər/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -162,34 +162,15 @@ class EnglishEntryaphid extends StatelessWidget {
                               text:
                                   "١. (ناو) مێروویەکی زۆر بچووک کە زەرەرمەندە بۆ ڕووەک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Aphids can have babies without mating."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆکەکان دەتوانن وەچە بخەنەوە بەبێ جووتبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaphid229("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaphid229(// REPLACE: aphid /ˈeɪfɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Aphids can have babies without mating.",
+                            kurdishText:
+                                "شۆکەکان دەتوانن وەچە بخەنەوە بەبێ جووتبوون.",
+                            onPressedBritish: () => speakaphid229("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaphid229(// REPLACE: aphid /ˈeɪfɪd/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

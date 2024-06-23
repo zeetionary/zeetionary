@@ -114,35 +114,14 @@ class EnglishEntryairtight extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ڕێگەنەدان بە ھاتووچۆی ھەوا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Store the cake in an airtight container."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێکەکە لە دەفرێکی ھەوانەکێش ھەڵبگرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakairtight45222("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairtight45222(
-                                        // REPLACE: airtight /ˈertaɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Store the cake in an airtight container.",
+                            kurdishText: "کێکەکە لە دەفرێکی ھەوانەکێش ھەڵبگرە.",
+                            onPressedBritish: () => speakairtight45222("en-GB"),
+                            onPressedAmerican: () => speakairtight45222(
+                                // REPLACE: airtight /ˈertaɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

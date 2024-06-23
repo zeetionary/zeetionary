@@ -152,34 +152,14 @@ class EnglishEntrybicentenary extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ساڵێک یان ڕۆژێک کە ئاھەنگی ڕووداوێک دەگێڕیت کە ٢٠٠ ساڵ بەسەریدا تێپەڕیوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A statue was erected to mark the bicentenary of the composer's birth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیکەرێک دانرا بۆ وەبیرھێنانەوەی دووسەدھەمین ساڵیادی لەدایکبوونی ئاوازدانەرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbicentenarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbicentenarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A statue was erected to mark the bicentenary of the composer's birth.",
+                            kurdishText:
+                                "پەیکەرێک دانرا بۆ وەبیرھێنانەوەی دووسەدھەمین ساڵیادی لەدایکبوونی ئاوازدانەرەکە.",
+                            onPressedBritish: () => speakbicentenarys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbicentenarys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

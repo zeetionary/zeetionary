@@ -156,66 +156,27 @@ class EnglishEntryballgame extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) یارییەک کە بە تۆپ دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ball games and skateboarding are prohibited in this area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆپێن و سکەیتەوانی لەم ناوچە قەدەغەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballgames1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballgames1(// REPLACE: ball game
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ball games and skateboarding are prohibited in this area.",
+                            kurdishText:
+                                "تۆپێن و سکەیتەوانی لەم ناوچە قەدەغەن.",
+                            onPressedBritish: () => speakballgames1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballgames1(// REPLACE: ball game
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) یاری بەیسبۆڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Are you going to the ball game?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەچی بۆ یاری بەیسبۆڵەکە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballgames2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballgames2(// REPLACE: ball game
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Are you going to the ball game?",
+                            kurdishText: "ئەچی بۆ یاری بەیسبۆڵەکە؟",
+                            onPressedBritish: () => speakballgames2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballgames2(// REPLACE: ball game
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -160,34 +160,13 @@ class EnglishEntryasphyxiate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) خنکان یان خنکاندن، ھەناسە‌لێ‌بڕان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was asphyxiated by the smoke."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە دووکەڵەکە خنکا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakasphyxiate617("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasphyxiate617(
-                                        // REPLACE: asphyxiate /əsˈfɪksieɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was asphyxiated by the smoke.",
+                            kurdishText: "بە دووکەڵەکە خنکا.",
+                            onPressedBritish: () => speakasphyxiate617("en-GB"),
+                            onPressedAmerican: () => speakasphyxiate617(
+                                // REPLACE: asphyxiate /əsˈfɪksieɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -151,32 +151,13 @@ class EnglishEntrybiochemist extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەسێک کە لێکۆڵینەوە لە زانستی پێکھاتە و ڕەفتاری کیمیایی زیندەوەران دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Biochemists have greatly advanced human understanding of how cells copy themselves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیندەکیمیازانان یەکجار زۆر تێگەشتنی مرۆڤیان زیادکردووە بۆ شێوازی زۆربوونی خانەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiochemists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiochemists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Biochemists have greatly advanced human understanding of how cells copy themselves.",
+                            kurdishText:
+                                "زیندەکیمیازانان یەکجار زۆر تێگەشتنی مرۆڤیان زیادکردووە بۆ شێوازی زۆربوونی خانەکان.",
+                            onPressedBritish: () => speakbiochemists1("en-GB"),
+                            onPressedAmerican: () => speakbiochemists1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

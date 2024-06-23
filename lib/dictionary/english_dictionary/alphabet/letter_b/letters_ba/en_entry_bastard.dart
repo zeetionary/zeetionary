@@ -152,120 +152,43 @@ class EnglishEntrybastard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) وشەیەکی ناپەسەند کە بەکاریدێنیت بۆ کەسێک کە پێتوایە ڕەفتاری ناشرین و ناپەسەند بووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You bastard! You've made her cry."),
-                                    ExampleSentenceKurdish(
-                                        text: "ناڕەسەن! گریاندت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbastards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbastards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You bastard! You've made her cry.",
+                            kurdishText: "ناڕەسەن! گریاندت.",
+                            onPressedBritish: () => speakbastards1("en-GB"),
+                            onPressedAmerican: () => speakbastards1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) وشەیەک کە بەکاردێت بۆ کەسێک کە ئیرەیی یان بەزەییت بەرامبەری ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "What a lucky bastard!"),
-                                    ExampleSentenceKurdish(
-                                        text: "چی زۆڵێکی بەبەختە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbastards2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbastards2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "What a lucky bastard!",
+                            kurdishText: "چی زۆڵێکی بەبەختە!",
+                            onPressedBritish: () => speakbastards2("en-GB"),
+                            onPressedAmerican: () => speakbastards2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) شتێک کە کێشە درووست دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It's a bastard of a problem."),
-                                    ExampleSentenceKurdish(
-                                        text: "شتێکی پڕ لە کێشەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbastards3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbastards3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's a bastard of a problem.",
+                            kurdishText: "شتێکی پڕ لە کێشەیە.",
+                            onPressedBritish: () => speakbastards3("en-GB"),
+                            onPressedAmerican: () => speakbastards3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کەسێک کە لە کاتی لەدایکبوونی دایک و باوکی ھاسەری یەکدی نەبوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was born in 1798, the bastard son of a country squire and his mistress."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ساڵی ١٧٩٨ لەدایکبوو وەک منداڵی زۆڵی دەرەبەگێکی لادێ و ژنە دۆستەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbastards4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbastards4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was born in 1798, the bastard son of a country squire and his mistress.",
+                            kurdishText:
+                                "لە ساڵی ١٧٩٨ لەدایکبوو وەک منداڵی زۆڵی دەرەبەگێکی لادێ و ژنە دۆستەکەی.",
+                            onPressedBritish: () => speakbastards4("en-GB"),
+                            onPressedAmerican: () => speakbastards4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

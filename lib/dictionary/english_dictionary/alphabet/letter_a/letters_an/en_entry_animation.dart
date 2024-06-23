@@ -157,103 +157,43 @@ class EnglishEntryanimation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پڕۆسەی درووستکردنی فیلمێک کە تێیدا نیگار یان وێنەی مرۆڤ و ئاژەڵ وادەردەکەون بجووڵێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The intricate process of creating cartoon animation requires skill and creativity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆسەی ئاڵۆزی درووستکردنی ئەنیمەیشنی کارتۆنی پێویستی بە شارەزایی و تازەگەرییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanimation1026("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimation1026(
-                                        // REPLACE: animation /ˌænɪˈmeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The intricate process of creating cartoon animation requires skill and creativity.",
+                            kurdishText:
+                                "پڕۆسەی ئاڵۆزی درووستکردنی ئەنیمەیشنی کارتۆنی پێویستی بە شارەزایی و تازەگەرییە.",
+                            onPressedBritish: () => speakanimation1026("en-GB"),
+                            onPressedAmerican: () => speakanimation1026(
+                                // REPLACE: animation /ˌænɪˈmeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) فیلمێک کە تێیدا نیگار یان وێنەی مرۆڤ و ئاژەڵ وادەردەکەون بجووڵێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The electronic dictionary included some animations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فەرھەنگە ئەلیکترۆنییەکە ژمارەیەک ئەنیمەیشنی تێدابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanimation1027("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimation1027(
-                                        // REPLACE: animation /ˌænɪˈmeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The electronic dictionary included some animations.",
+                            kurdishText:
+                                "فەرھەنگە ئەلیکترۆنییەکە ژمارەیەک ئەنیمەیشنی تێدابوو.",
+                            onPressedBritish: () => speakanimation1027("en-GB"),
+                            onPressedAmerican: () => speakanimation1027(
+                                // REPLACE: animation /ˌænɪˈmeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) وزە و جۆش‌وخرۆشی لە شێوازی دەرکەوتنی کەسێک، یان ڕەفتار و قسەکردنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His face was drained of all colour and animation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووخساری ھیچ ڕەنگ و تین‌وگوڕی تێدانەمابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanimation1030("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimation1030(
-                                        // REPLACE: animation /ˌænɪˈmeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His face was drained of all colour and animation.",
+                            kurdishText:
+                                "ڕووخساری ھیچ ڕەنگ و تین‌وگوڕی تێدانەمابوو.",
+                            onPressedBritish: () => speakanimation1030("en-GB"),
+                            onPressedAmerican: () => speakanimation1030(
+                                // REPLACE: animation /ˌænɪˈmeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -164,34 +164,15 @@ class EnglishEntryasteroid extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) ھەسارەی بچووک کە بە دەوری خۆردا دەسووڕێنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scientists are tracking an asteroid that could potentially impact Earth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاناکان چاودێری ھەسارۆکەیەک دەکەن کە ئەگەری ھەیە کاریگەری لە زەوی بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasteroid952("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasteroid952(
-                                        // REPLACE: asteroid /ˈæstərɔɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scientists are tracking an asteroid that could potentially impact Earth.",
+                            kurdishText:
+                                "زاناکان چاودێری ھەسارۆکەیەک دەکەن کە ئەگەری ھەیە کاریگەری لە زەوی بکات.",
+                            onPressedBritish: () => speakasteroid952("en-GB"),
+                            onPressedAmerican: () => speakasteroid952(
+                                // REPLACE: asteroid /ˈæstərɔɪd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

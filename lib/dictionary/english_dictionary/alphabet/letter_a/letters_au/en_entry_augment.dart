@@ -161,34 +161,15 @@ class EnglishEntryaugment extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) زیادکردنی بڕ، نرخ، یان قەبارەی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wrote magazine articles in order to augment his income."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتاری بۆ گۆڤار دەنووسی بۆ زیادکردنی داھاتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaugment304("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaugment304(// REPLACE: augment
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wrote magazine articles in order to augment his income.",
+                            kurdishText:
+                                "وتاری بۆ گۆڤار دەنووسی بۆ زیادکردنی داھاتی.",
+                            onPressedBritish: () => speakaugment304("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaugment304(// REPLACE: augment
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

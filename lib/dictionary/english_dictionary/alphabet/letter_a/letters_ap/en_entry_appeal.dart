@@ -165,230 +165,97 @@ class EnglishEntryappeal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پاڕانەوە؛ داوایەکی پڕ بەدڵ بۆ پارە، زانیاری، یان یارمەتی کە بەخێرایی پێویستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He made an emotional appeal to voters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاڕانەوەیەکی ھەست‌بزوێنی ئاراستەی دەنگدەران کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappeal932("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappeal932(
-                                        // REPLACE: appeal /əˈpiːl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He made an emotional appeal to voters.",
+                            kurdishText:
+                                "پاڕانەوەیەکی ھەست‌بزوێنی ئاراستەی دەنگدەران کرد.",
+                            onPressedBritish: () => speakappeal932("en-GB"),
+                            onPressedAmerican: () => speakappeal932(
+                                // REPLACE: appeal /əˈpiːl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police made an appeal to the public to remain calm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس تکای لە خەڵکی کرد بە ھێمنی بمێننەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappeal939("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappeal939(
-                                        // REPLACE: appeal /əˈpiːl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police made an appeal to the public to remain calm.",
+                            kurdishText:
+                                "پۆلیس تکای لە خەڵکی کرد بە ھێمنی بمێننەوە.",
+                            onPressedBritish: () => speakappeal939("en-GB"),
+                            onPressedAmerican: () => speakappeal939(
+                                // REPLACE: appeal /əˈpiːl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) خاسیەتێک کە وادەکای کەسێک/شتێک سەرنجڕاکێش یان سەرسوڕھێنەر بێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was beginning to understand the appeal of living in the countryside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەریک‌بوو دەستی‌ دەکرد بە تێگەشتن لە دڵڕفێنی ژیان لە لادێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappeal946("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappeal946(
-                                        // REPLACE: appeal /əˈpiːl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was beginning to understand the appeal of living in the countryside.",
+                            kurdishText:
+                                "خەریک‌بوو دەستی‌ دەکرد بە تێگەشتن لە دڵڕفێنی ژیان لە لادێ.",
+                            onPressedBritish: () => speakappeal946("en-GB"),
+                            onPressedAmerican: () => speakappeal946(
+                                // REPLACE: appeal /əˈpiːl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) داوایەکی فەرمی لە دادگا یان لای دەسەڵاتدارێک بۆ گۆڕینی بڕیارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The court dismissed his appeal against the verdict."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دادگا داوای پێداچوونەوەکەیی دژ بە بڕیارەکە ڕەتکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappeal950("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappeal950(
-                                        // REPLACE: appeal /əˈpiːl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The court dismissed his appeal against the verdict.",
+                            kurdishText:
+                                "دادگا داوای پێداچوونەوەکەیی دژ بە بڕیارەکە ڕەتکردەوە.",
+                            onPressedBritish: () => speakappeal950("en-GB"),
+                            onPressedAmerican: () => speakappeal950(
+                                // REPLACE: appeal /əˈpiːl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) داواکردنی شتێک پڕبەدڵ بۆ داواکردنی شتێک کە بەپەلە پێویستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government appealed to the British people for help."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت تکای لە خەڵکی بەریتانیا کرد بۆ یارمەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappeal953("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappeal953(
-                                        // REPLACE: appeal /əˈpiːl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government appealed to the British people for help.",
+                            kurdishText:
+                                "حکومەت تکای لە خەڵکی بەریتانیا کرد بۆ یارمەتی.",
+                            onPressedBritish: () => speakappeal953("en-GB"),
+                            onPressedAmerican: () => speakappeal953(
+                                // REPLACE: appeal /əˈpiːl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) سەرنج‌ڕاکێشان، یان بوون بە ھۆی سەرسوڕھێنەری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His movies appeal to a broad audience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکانی سەرنجی بیسەری بەرفراوان ڕادەکێشن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappeal956("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappeal956(
-                                        // REPLACE: appeal /əˈpiːl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His movies appeal to a broad audience.",
+                            kurdishText:
+                                "فیلمەکانی سەرنجی بیسەری بەرفراوان ڕادەکێشن.",
+                            onPressedBritish: () => speakappeal956("en-GB"),
+                            onPressedAmerican: () => speakappeal956(
+                                // REPLACE: appeal /əˈpiːl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) داواکردن لە دادگا یان کەسێکی بەدەسەڵات بۆ گۆڕینی بڕیارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            " The company is appealing against the ruling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە داوای پێداچوونەوە بە بڕیارەکە دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappeal958("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappeal958(
-                                        // REPLACE: appeal /əˈpiːl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                " The company is appealing against the ruling.",
+                            kurdishText:
+                                "کۆمپانیاکە داوای پێداچوونەوە بە بڕیارەکە دەکات.",
+                            onPressedBritish: () => speakappeal958("en-GB"),
+                            onPressedAmerican: () => speakappeal958(
+                                // REPLACE: appeal /əˈpiːl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

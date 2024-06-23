@@ -157,35 +157,16 @@ class EnglishEntryantagonism extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ھەستی ڕکابەری و ڕق"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The antagonism he felt towards his old enemy was still very strong."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو دوژمنایەتییەی دژ بە دوژمنە کۆنەکەی ھەیبوو ھێشتا بەھێز بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantagonism1204("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantagonism1204(
-                                        // REPLACE: antagonism /ænˈtæɡənɪzəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The antagonism he felt towards his old enemy was still very strong.",
+                            kurdishText:
+                                "ئەو دوژمنایەتییەی دژ بە دوژمنە کۆنەکەی ھەیبوو ھێشتا بەھێز بوو.",
+                            onPressedBritish: () =>
+                                speakantagonism1204("en-GB"),
+                            onPressedAmerican: () => speakantagonism1204(
+                                // REPLACE: antagonism /ænˈtæɡənɪzəm/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

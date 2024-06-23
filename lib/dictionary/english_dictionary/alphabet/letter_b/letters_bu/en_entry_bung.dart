@@ -194,121 +194,45 @@ class EnglishEntrybung extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) دانان یان فڕێدانی شتێک بۆ شوێنێک بەخێرایی و کەمتەرخەمییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Bung this in the bin, can you?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەتوانیت ئەمە فڕێ بدەیتە زباڵەکەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bung", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbungs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbungs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Bung this in the bin, can you?",
+                            kurdishText:
+                                "ئەتوانیت ئەمە فڕێ بدەیتە زباڵەکەوە؟", // bung", follow LX strictly
+                            onPressedBritish: () => speakbungs1("en-GB"),
+                            onPressedAmerican: () => speakbungs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "'Where shall I put my coat?' 'Oh, bung it anywhere.'"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "'قەمسەڵەکەم بخەمە کوێ؟' 'ئۆھ، فڕێی بدە شوێنێک'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbungs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbungs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "'Where shall I put my coat?' 'Oh, bung it anywhere.'",
+                            kurdishText:
+                                "'قەمسەڵەکەم بخەمە کوێ؟' 'ئۆھ، فڕێی بدە شوێنێک'.",
+                            onPressedBritish: () => speakbungs2("en-GB"),
+                            onPressedAmerican: () => speakbungs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) پارچەیەکی بچووک کە بەکاردێت بۆ بەستنی بانی بەرمیلێک، دۆڵکەیەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The winemaker inserted a tight bung into the wine barrel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەی‌گرەوەکە قەباغێکی توندی خستەسەر بەرمیلی بیرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbungs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbungs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The winemaker inserted a tight bung into the wine barrel.",
+                            kurdishText:
+                                "مەی‌گرەوەکە قەباغێکی توندی خستەسەر بەرمیلی بیرەکە.",
+                            onPressedBritish: () => speakbungs3("en-GB"),
+                            onPressedAmerican: () => speakbungs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بڕێک پارە کە دەدرێت بە کەسێک بۆ کردنی کارێکی نایاسایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Both the politicians denied taking bungs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو سیاسییەکە نکۆڵییان لە وەرگرتنی بەرتیل کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbungs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbungs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Both the politicians denied taking bungs.",
+                            kurdishText:
+                                "ھەردوو سیاسییەکە نکۆڵییان لە وەرگرتنی بەرتیل کرد.",
+                            onPressedBritish: () => speakbungs4("en-GB"),
+                            onPressedAmerican: () => speakbungs4("en-US"),
                           ),
                         ],
                       ),

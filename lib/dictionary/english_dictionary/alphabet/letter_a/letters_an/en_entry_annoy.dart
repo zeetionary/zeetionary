@@ -155,34 +155,15 @@ class EnglishEntryannoy extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) کەمێک کەسێک بێزار بکەیت" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I’m sure she does it just to annoy me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیام تەنھا بۆ بێزارکردنی من دەیکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannoy716("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakannoy716(// REPLACE: annoy /əˈnɔɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I’m sure she does it just to annoy me.",
+                            kurdishText:
+                                "دڵنیام تەنھا بۆ بێزارکردنی من دەیکات.",
+                            onPressedBritish: () => speakannoy716("en-GB"),
+                            onPressedAmerican: () =>
+                                speakannoy716(// REPLACE: annoy /əˈnɔɪ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

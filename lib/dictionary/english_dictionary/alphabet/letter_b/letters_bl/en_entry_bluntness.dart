@@ -149,62 +149,23 @@ class EnglishEntrybluntness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شێوازی قسەکردنێک کە چی لە دڵت بووێ دەیڵێیت بەبێ ھەوڵدان بۆ ئەوەی بەڕێز بیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She later apologized for her bluntness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دواتر داوای لێبووردنی کرد بۆ قسەلەڕووییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbluntnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbluntnesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She later apologized for her bluntness.",
+                            kurdishText:
+                                "دواتر داوای لێبووردنی کرد بۆ قسەلەڕووییەکەی.",
+                            onPressedBritish: () => speakbluntnesss1("en-GB"),
+                            onPressedAmerican: () => speakbluntnesss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ئەوەی شتێک کول بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bluntness of the knife made cutting difficult."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کولیی چەقۆکە وایکرد بڕین گران بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbluntnesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbluntnesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bluntness of the knife made cutting difficult.",
+                            kurdishText: "کولیی چەقۆکە وایکرد بڕین گران بێت.",
+                            onPressedBritish: () => speakbluntnesss2("en-GB"),
+                            onPressedAmerican: () => speakbluntnesss2("en-US"),
                           ),
                         ],
                       ),

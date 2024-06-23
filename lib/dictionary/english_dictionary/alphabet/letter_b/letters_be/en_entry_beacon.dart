@@ -152,92 +152,35 @@ class EnglishEntrybeacon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) لایتێک کە لە شوێنێک دادەنرێت بۆ ڕێنوێنیکردنی کەشتی، شەمەندەفەر، ھتد و ئاگادارکردنیان لە مەترسی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The beacon flashed a warning signal, alerting the sailors to the approaching storm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چرای ڕێنوێنییەکە ئاماژەیەکی ئاگادارکەرەوەی نارد بۆ ئاگادارکردنەی مەلەکەرەکان لە زریانە نزیکەوەبووەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeacons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeacons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The beacon flashed a warning signal, alerting the sailors to the approaching storm.",
+                            kurdishText:
+                                "چرای ڕێنوێنییەکە ئاماژەیەکی ئاگادارکەرەوەی نارد بۆ ئاگادارکردنەی مەلەکەرەکان لە زریانە نزیکەوەبووەکە.",
+                            onPressedBritish: () => speakbeacons1("en-GB"),
+                            onPressedAmerican: () => speakbeacons1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a beacon of hope for the younger generation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراو) ئەو ھێمای ھیوا بوو بۆ نەوەی نوێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeacons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeacons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a beacon of hope for the younger generation.",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراو) ئەو ھێمای ھیوا بوو بۆ نەوەی نوێ.",
+                            onPressedBritish: () => speakbeacons2("en-GB"),
+                            onPressedAmerican: () => speakbeacons2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) وێستگەیەکی ڕادیۆیی کە یارمەتی کەشتی و فڕۆکە دەدات شوێنیان بدۆزنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plane was guided in by radio beacon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەکە ڕێنوێنی کرایە فڕۆکەخانەکە لەلایەن وێستگەی ڕادیۆییەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeacons3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeacons3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The plane was guided in by radio beacon.",
+                            kurdishText:
+                                "فڕۆکەکە ڕێنوێنی کرایە فڕۆکەخانەکە لەلایەن وێستگەی ڕادیۆییەکەوە.",
+                            onPressedBritish: () => speakbeacons3("en-GB"),
+                            onPressedAmerican: () => speakbeacons3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

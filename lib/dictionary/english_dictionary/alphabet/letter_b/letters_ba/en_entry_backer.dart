@@ -156,34 +156,15 @@ class EnglishEntrybacker extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە یارمەت پێشکەش دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The project receives its money from European backers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆژەکە پارەی بۆ دابین دەکرێت لە پشتیوانە ئەورووپییەکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s1(// REPLACE: backer
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The project receives its money from European backers.",
+                            kurdishText:
+                                "پڕۆژەکە پارەی بۆ دابین دەکرێت لە پشتیوانە ئەورووپییەکانەوە.",
+                            onPressedBritish: () => speakb3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s1(// REPLACE: backer
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

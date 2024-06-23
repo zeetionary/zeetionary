@@ -112,34 +112,15 @@ class EnglishEntryadoptive extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) دایک و باوکی ھەڵگرەوە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When he was 7 months old, his mother gave him up to his adoptive parents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە ٧ مانگ بوو دایکی دەستبەرداری بوو بۆ دایک و باوکە ھەڵگرەوەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadop57124("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadop57124(
-                                        // REPLACE: adoptive /əˈdɒptɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When he was 7 months old, his mother gave him up to his adoptive parents.",
+                            kurdishText:
+                                "کە ٧ مانگ بوو دایکی دەستبەرداری بوو بۆ دایک و باوکە ھەڵگرەوەکەی.",
+                            onPressedBritish: () => speakadop57124("en-GB"),
+                            onPressedAmerican: () => speakadop57124(
+                                // REPLACE: adoptive /əˈdɒptɪv/
+                                "en-US"),
                           ),
                         ],
                       ),

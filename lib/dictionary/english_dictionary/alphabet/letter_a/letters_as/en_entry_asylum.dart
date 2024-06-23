@@ -165,66 +165,28 @@ class EnglishEntryasylum extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) مافی پەنابەرێتی؛ پارێزگارییەک کە حکومەتێک دەیدات بە کەسێک کە وڵاتی خۆی جێھێشتووە، زۆرجار بەھۆی مەترسی لەسەر ژیانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a nationwide debate on whether the asylum laws should be changed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیبەیتی سەرتاسەری ھەبوو لەسەر ئەوەی ئاخۆ یاساکانی پەنابەری بگۆڕدرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasylum617("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakasylum617(// REPLACE: asylum
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a nationwide debate on whether the asylum laws should be changed.",
+                            kurdishText:
+                                "دیبەیتی سەرتاسەری ھەبوو لەسەر ئەوەی ئاخۆ یاساکانی پەنابەری بگۆڕدرێن.",
+                            onPressedBritish: () => speakasylum617("en-GB"),
+                            onPressedAmerican: () =>
+                                speakasylum617(// REPLACE: asylum
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) نەخۆشخانەی چاودێری بۆ ئەو کەسانەی کە لە ڕووی دەروونییەوە ناتەواون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Conditions in the asylum were deplorable."),
-                                    ExampleSentenceKurdish(
-                                        text: "بارودۆخی شێتخانەکە جەرگبڕ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasylum620("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakasylum620(// REPLACE: asylum
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Conditions in the asylum were deplorable.",
+                            kurdishText: "بارودۆخی شێتخانەکە جەرگبڕ.",
+                            onPressedBritish: () => speakasylum620("en-GB"),
+                            onPressedAmerican: () =>
+                                speakasylum620(// REPLACE: asylum
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

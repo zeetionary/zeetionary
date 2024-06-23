@@ -151,32 +151,13 @@ class EnglishEntrybedraggled extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) تەڕ و پیس بەھۆی باران و لیتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I barely recognized the bedraggled figure who staggered in from the storm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئەستەم ئەو کەسە شێواوەم ناسییەوە کە لە زریانەکەوە دەرکەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedraggleds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedraggleds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I barely recognized the bedraggled figure who staggered in from the storm.",
+                            kurdishText:
+                                "بە ئەستەم ئەو کەسە شێواوەم ناسییەوە کە لە زریانەکەوە دەرکەوت.",
+                            onPressedBritish: () => speakbedraggleds1("en-GB"),
+                            onPressedAmerican: () => speakbedraggleds1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

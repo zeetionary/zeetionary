@@ -164,66 +164,27 @@ class EnglishEntryattentive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) گوێگرتن یان سەیرکردن بە وریایی و حەزەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He listened, quiet and attentive."),
-                                    ExampleSentenceKurdish(
-                                        text: "گوێی گرت بە ئارامی و سەرنجەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattentive904("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattentive904(// REPLACE: attentive
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He listened, quiet and attentive.",
+                            kurdishText: "گوێی گرت بە ئارامی و سەرنجەوە.",
+                            onPressedBritish: () => speakattentive904("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattentive904(// REPLACE: attentive
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) یارمەتیدەر، دڵنیاییکردنەوە لەوەی ھەموو شتێک خەڵکی دەیەوێت بەردەستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hotel staff are friendly and attentive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستافی ھوتێلەکە زۆر ڕووخۆش و یارمەتیدەرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattentive906("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattentive906(// REPLACE: attentive
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hotel staff are friendly and attentive.",
+                            kurdishText:
+                                "ستافی ھوتێلەکە زۆر ڕووخۆش و یارمەتیدەرن.",
+                            onPressedBritish: () => speakattentive906("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattentive906(// REPLACE: attentive
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

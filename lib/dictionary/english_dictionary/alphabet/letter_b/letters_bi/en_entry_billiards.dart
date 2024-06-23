@@ -147,32 +147,13 @@ class EnglishEntrybilliards extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بیلیارد؛ یارییەک کە لەلایەن دوو کەسەوە دەکرێت لەسەر مێزێک کە بە قوماشی نەرم داپۆشراوە، و دارێک بەکاردێنن بۆ لێدان لە تۆپ و کێشانیان بە یەکدا بۆ ئەوەی بیانخەنە ناو چاڵەکانەوە کە لە دەوری مێزەکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He enjoys billiards because it offers a mix of strategy and physical skill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزی لە بیلیارد بوو چونکە تێکەڵەیەک لە ستراتیژی و شارەزایی کەسی لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbilliardss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbilliardss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He enjoys billiards because it offers a mix of strategy and physical skill.",
+                            kurdishText:
+                                "حەزی لە بیلیارد بوو چونکە تێکەڵەیەک لە ستراتیژی و شارەزایی کەسی لەخۆدەگرێت.",
+                            onPressedBritish: () => speakbilliardss1("en-GB"),
+                            onPressedAmerican: () => speakbilliardss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -147,60 +147,22 @@ class EnglishEntrybliss extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) خۆشبەختیی تەواو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They're celebrating 25 years of wedded bliss."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵیادی ٢٥ ساڵ لە خۆشبەختیی ھاوسەرگیرییان دەگێڕن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblisss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblisss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They're celebrating 25 years of wedded bliss.",
+                            kurdishText:
+                                "ساڵیادی ٢٥ ساڵ لە خۆشبەختیی ھاوسەرگیرییان دەگێڕن.",
+                            onPressedBritish: () => speakblisss1("en-GB"),
+                            onPressedAmerican: () => speakblisss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Swimming on a hot day is sheer bliss."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەلەکردن لە ڕۆژێکی گەرمدا خۆشبەختی تەواوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblisss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblisss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Swimming on a hot day is sheer bliss.",
+                            kurdishText:
+                                "مەلەکردن لە ڕۆژێکی گەرمدا خۆشبەختی تەواوە.",
+                            onPressedBritish: () => speakblisss2("en-GB"),
+                            onPressedAmerican: () => speakblisss2("en-US"),
                           ),
                         ],
                       ),

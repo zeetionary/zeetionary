@@ -116,34 +116,15 @@ class EnglishEntryaltruism extends StatelessWidget {
                               text:
                                   "١. (ناو) یارمەتیدانی خۆنەویستانەی کەسانی تر"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Politicians are not necessarily motivated by altruism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیاسەتمەداران کارناکەن بە گیانی لەخۆبردووی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaltruism4693("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaltruism4693(
-                                        // REPLACE: altruism /ˈæltruɪzəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Politicians are not necessarily motivated by altruism.",
+                            kurdishText:
+                                "سیاسەتمەداران کارناکەن بە گیانی لەخۆبردووی.",
+                            onPressedBritish: () => speakaltruism4693("en-GB"),
+                            onPressedAmerican: () => speakaltruism4693(
+                                // REPLACE: altruism /ˈæltruɪzəm/
+                                "en-US"),
                           ),
                         ],
                       ),

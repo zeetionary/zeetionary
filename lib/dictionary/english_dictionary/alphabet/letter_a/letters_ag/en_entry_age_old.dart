@@ -113,34 +113,15 @@ class EnglishEntryageold extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە لەمێژە بوونی ھەیە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All the villagers followed the age-old custom of taking a siesta after lunch."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی گوندەکە شوێنی ئەو نەریتە کۆنە دەکەوتن کە دوای نانی نیوەڕۆ سەرخەوێک بشکێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakageo1552("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakageo1552(
-                                        // REPLACE: age-old /ˌeɪdʒ ˈəʊld/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All the villagers followed the age-old custom of taking a siesta after lunch.",
+                            kurdishText:
+                                "تەواوی گوندەکە شوێنی ئەو نەریتە کۆنە دەکەوتن کە دوای نانی نیوەڕۆ سەرخەوێک بشکێنن.",
+                            onPressedBritish: () => speakageo1552("en-GB"),
+                            onPressedAmerican: () => speakageo1552(
+                                // REPLACE: age-old /ˌeɪdʒ ˈəʊld/
+                                "en-US"),
                           ),
                         ],
                       ),

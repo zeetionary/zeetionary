@@ -164,35 +164,16 @@ class EnglishEntryastonishing extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) زۆر سەرسوڕھێنەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She ran 100m in an astonishing 10.6 seconds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "١٠٠ مەتری بڕی بە ڕاکردن لە ١٠,٦ چرکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakastonishing1043("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakastonishing1043(
-                                        // REPLACE: astonishing
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She ran 100m in an astonishing 10.6 seconds.",
+                            kurdishText:
+                                "١٠٠ مەتری بڕی بە ڕاکردن لە ١٠,٦ چرکەدا.",
+                            onPressedBritish: () =>
+                                speakastonishing1043("en-GB"),
+                            onPressedAmerican: () => speakastonishing1043(
+                                // REPLACE: astonishing
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

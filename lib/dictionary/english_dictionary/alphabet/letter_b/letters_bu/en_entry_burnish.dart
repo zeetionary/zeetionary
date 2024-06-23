@@ -194,63 +194,25 @@ class EnglishEntryburnish extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پاککردنەوە تا ئەوەندەی لووس و درەوشاوە بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She used a soft cloth to burnish the antique silverware."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوماشێکی نەرمی بەکارھێنا بۆ سافکردنی قاپ‌وقاچاخە زیوییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burnish", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburnishs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburnishs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She used a soft cloth to burnish the antique silverware.",
+                            kurdishText:
+                                "قوماشێکی نەرمی بەکارھێنا بۆ سافکردنی قاپ‌وقاچاخە زیوییەکان.", // burnish", follow LX strictly
+                            onPressedBritish: () => speakburnishs1("en-GB"),
+                            onPressedAmerican: () => speakburnishs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) کردنی کارێک کە وێنات لە ناو خەڵکیدا جوان دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company is currently trying to burnish its public image."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە لە ئێستادا ھەوڵ دەدات وێنای گشتیی جوان بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburnishs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburnishs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company is currently trying to burnish its public image.",
+                            kurdishText:
+                                "کۆمپانیاکە لە ئێستادا ھەوڵ دەدات وێنای گشتیی جوان بکات.",
+                            onPressedBritish: () => speakburnishs2("en-GB"),
+                            onPressedAmerican: () => speakburnishs2("en-US"),
                           ),
                         ],
                       ),

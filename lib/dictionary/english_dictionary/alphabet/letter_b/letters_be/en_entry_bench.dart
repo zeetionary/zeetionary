@@ -153,155 +153,60 @@ class EnglishEntrybench extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کوورسیەکی درێژ کە بۆ دوو کەس یان زیاترە و زۆرجار لە تەختەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The park was filled with families sitting on benches and enjoying the sunshine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارکەکە پڕبوو لە کورسی کە خێزان لەسەری دانیشتبوون و چێژیان لە خۆرەتاوەکە دەبینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbenchs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbenchs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The park was filled with families sitting on benches and enjoying the sunshine.",
+                            kurdishText:
+                                "پارکەکە پڕبوو لە کورسی کە خێزان لەسەری دانیشتبوون و چێژیان لە خۆرەتاوەکە دەبینی.",
+                            onPressedBritish: () => speakbenchs1("en-GB"),
+                            onPressedAmerican: () => speakbenchs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) دادوەرێک لە دادگادا، یان جێگەی دانیشتنەکەی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has recently been appointed to the bench."),
-                                    ExampleSentenceKurdish(
-                                        text: "تازەگی وەک دادوەر دیاریکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbenchs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbenchs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has recently been appointed to the bench.",
+                            kurdishText: "تازەگی وەک دادوەر دیاریکراوە.",
+                            onPressedBritish: () => speakbenchs2("en-GB"),
+                            onPressedAmerican: () => speakbenchs2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) (لە پەرلەمانی بەریتانیا) کورسی ئەندام پەرلەمانەکان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was lots of jeering from the Labour benches."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرا و ھاوارێکی زۆر لە کورسی پارتی کرێکارانەوە دەھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbenchs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbenchs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was lots of jeering from the Labour benches.",
+                            kurdishText:
+                                "ھەرا و ھاوارێکی زۆر لە کورسی پارتی کرێکارانەوە دەھات.",
+                            onPressedBritish: () => speakbenchs3("en-GB"),
+                            onPressedAmerican: () => speakbenchs3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ئەو کورسیانەی یاریزانانی یەدەگ لەسەری دادەنیشن لە یارییەکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's sick of spending every game on the bench."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێزار بووە لەوەی ھەموو یارییەک لەسەر کورسی یەدەگ دابنیشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbenchs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbenchs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's sick of spending every game on the bench.",
+                            kurdishText:
+                                "بێزار بووە لەوەی ھەموو یارییەک لەسەر کورسی یەدەگ دابنیشێت.",
+                            onPressedBritish: () => speakbenchs4("en-GB"),
+                            onPressedAmerican: () => speakbenchs4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) مێزێکی گەورە بۆ کارکردن لەسەری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most of the work constructing these objects is done at a bench."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی کارەکانی درووستکردنی ئەم شتانە لەسەر مێزێک دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbenchs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbenchs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most of the work constructing these objects is done at a bench.",
+                            kurdishText:
+                                "زۆرینەی کارەکانی درووستکردنی ئەم شتانە لەسەر مێزێک دەکرێت.",
+                            onPressedBritish: () => speakbenchs5("en-GB"),
+                            onPressedAmerican: () => speakbenchs5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

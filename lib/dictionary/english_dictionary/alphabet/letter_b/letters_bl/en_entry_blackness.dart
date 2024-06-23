@@ -150,96 +150,39 @@ class EnglishEntryblackness extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕەشی یان تاریکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In such complete blackness, we couldn’t see a thing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تاریکی تەواوی وەھادا، نەماندەتوانی ھیچ ببینین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacknesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacknesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In such complete blackness, we couldn’t see a thing.",
+                            kurdishText:
+                                "لە تاریکی تەواوی وەھادا، نەماندەتوانی ھیچ ببینین.",
+                            onPressedBritish: () => speakblacknesss1("en-GB"),
+                            onPressedAmerican: () => speakblacknesss1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پڕ لە توڕەیی و ڕق، یان بێ‌ھیوایی و بێزاری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her eyes reflected the blackness of her grief, the loss still raw and unhealed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوەکانی بێزاریی شیوەنەکەیی تێدا دەبینرا، لەدەستچوونەکە ھێشتا تازە و ساڕێژنەبوو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacknesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacknesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her eyes reflected the blackness of her grief, the loss still raw and unhealed.",
+                            kurdishText:
+                                "چاوەکانی بێزاریی شیوەنەکەیی تێدا دەبینرا، لەدەستچوونەکە ھێشتا تازە و ساڕێژنەبوو بوو.",
+                            onPressedBritish: () => speakblacknesss2("en-GB"),
+                            onPressedAmerican: () => speakblacknesss2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بوون بە بەشێک لەو گرووپەی کە پێستیان ڕەشە و سەر بە ئەفریقان یان ڕەچەڵەکیان ئەفریقایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The documentary explored the historical significance of reclaiming and celebrating blackness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆکیومێنتارییەکە لێکۆڵینەوەی دەکرد لە گرنگی مێژوویی گەڕاندنەوە و شانازی بە ڕەشپێستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacknesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacknesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The documentary explored the historical significance of reclaiming and celebrating blackness.",
+                            kurdishText:
+                                "دۆکیومێنتارییەکە لێکۆڵینەوەی دەکرد لە گرنگی مێژوویی گەڕاندنەوە و شانازی بە ڕەشپێستی.",
+                            onPressedBritish: () => speakblacknesss3("en-GB"),
+                            onPressedAmerican: () => speakblacknesss3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

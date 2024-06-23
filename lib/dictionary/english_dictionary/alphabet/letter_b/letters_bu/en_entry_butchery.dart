@@ -192,63 +192,25 @@ class EnglishEntrybutchery extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کوشتنی دڕندانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When are they going to put an end to this butchery?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەی کۆتایی بەم خوێنڕێژییە دێنن؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "butchery", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutcherys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutcherys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When are they going to put an end to this butchery?",
+                            kurdishText:
+                                "کەی کۆتایی بەم خوێنڕێژییە دێنن؟", // butchery", follow LX strictly
+                            onPressedBritish: () => speakbutcherys1("en-GB"),
+                            onPressedAmerican: () => speakbutcherys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کاری کوشتنی ئاژەڵ و ئامادەکردنی گۆشتەکەی بۆ فرۆشتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Butchery is a skill that takes time to learn."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەسابی بەھرەیەکە کە کاتی پێویستە بۆ فێربوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutcherys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutcherys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Butchery is a skill that takes time to learn.",
+                            kurdishText:
+                                "قەسابی بەھرەیەکە کە کاتی پێویستە بۆ فێربوون.",
+                            onPressedBritish: () => speakbutcherys2("en-GB"),
+                            onPressedAmerican: () => speakbutcherys2("en-US"),
                           ),
                         ],
                       ),

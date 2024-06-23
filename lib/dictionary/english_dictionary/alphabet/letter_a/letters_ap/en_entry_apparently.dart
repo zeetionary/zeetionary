@@ -162,67 +162,26 @@ class EnglishEntryapparently extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) بەپێی ئەوەی بیستووتە یان خوێندووتەوە؛ بەپێی ئەوەی دەردەکەوێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Apparently they are getting divorced soon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وادیارە بەم‌نزیکانە جیادەبنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapparently907("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapparently907(
-                                        // REPLACE: apparently /əˈpærəntli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Apparently they are getting divorced soon.",
+                            kurdishText: "وادیارە بەم‌نزیکانە جیادەبنەوە.",
+                            onPressedBritish: () => speakapparently907("en-GB"),
+                            onPressedAmerican: () => speakapparently907(
+                                // REPLACE: apparently /əˈpærəntli/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I thought she had retired, but apparently she hasn't."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وامزانی خانەنشین‌بووە، بەڵام وادیارە وانییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapparently909("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapparently909(
-                                        // REPLACE: apparently /əˈpærəntli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I thought she had retired, but apparently she hasn't.",
+                            kurdishText:
+                                "وامزانی خانەنشین‌بووە، بەڵام وادیارە وانییە.",
+                            onPressedBritish: () => speakapparently909("en-GB"),
+                            onPressedAmerican: () => speakapparently909(
+                                // REPLACE: apparently /əˈpærəntli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

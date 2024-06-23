@@ -150,32 +150,13 @@ class EnglishEntrybc extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لە ڕحژژمێری زاییندا بەکاردێت بۆ پیشاندانی ساڵی پێش ئەو کاتەی کە باوەڕوایە پێغەمبەر عیسا لەدایکبووبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Battle of Actium took place in 31 BC."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەڕی ئاکتیەم لە ساڵی ٣١ی پێش زایین ڕوویدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbcs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbcs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Battle of Actium took place in 31 BC.",
+                            kurdishText:
+                                "شەڕی ئاکتیەم لە ساڵی ٣١ی پێش زایین ڕوویدا.",
+                            onPressedBritish: () => speakbcs1("en-GB"),
+                            onPressedAmerican: () => speakbcs1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

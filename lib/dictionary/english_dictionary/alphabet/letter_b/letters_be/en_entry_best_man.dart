@@ -151,32 +151,13 @@ class EnglishEntrybestman extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە ھاوڕێ یان خزمی زاوایە لە ئاھەنگێکدا کە یارمەتی دەدا لەکاتی ئاھەنگەکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The groom asked his best friend to be his best man."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاواکە داوای لە باشترین ھاوڕێی کرد ببێت بە برازاوای."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbestmans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbestmans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The groom asked his best friend to be his best man.",
+                            kurdishText:
+                                "زاواکە داوای لە باشترین ھاوڕێی کرد ببێت بە برازاوای.",
+                            onPressedBritish: () => speakbestmans1("en-GB"),
+                            onPressedAmerican: () => speakbestmans1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -158,65 +158,27 @@ class EnglishEntryanarchy extends StatelessWidget {
                               text:
                                   "١. (ناو) پاشاگەردانی؛ بارودۆخێک کە تێیدا کەس‌بە‌کەس نییە و حکومەت بوونی نییە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The overthrow of the military regime was followed by a period of anarchy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووخاندنی ڕژێمە سەربازییەکە ماوەیەک لە پاشاگەردانی بەدوادا ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanarchy470("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanarchy470(
-                                        // REPLACE: anarchy /ˈænərki/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The overthrow of the military regime was followed by a period of anarchy.",
+                            kurdishText:
+                                "ڕووخاندنی ڕژێمە سەربازییەکە ماوەیەک لە پاشاگەردانی بەدوادا ھات.",
+                            onPressedBritish: () => speakanarchy470("en-GB"),
+                            onPressedAmerican: () => speakanarchy470(
+                                // REPLACE: anarchy /ˈænərki/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was complete anarchy in the classroom when their usual teacher was away."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرکەس بۆخۆی بوو لە پۆلەکەدا کاتێک مامۆستاکەی خۆیان لەوێ نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanarchy041("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanarchy041(
-                                        // REPLACE: anarchy /ˈænərki/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was complete anarchy in the classroom when their usual teacher was away.",
+                            kurdishText:
+                                "ھەرکەس بۆخۆی بوو لە پۆلەکەدا کاتێک مامۆستاکەی خۆیان لەوێ نەبوو.",
+                            onPressedBritish: () => speakanarchy041("en-GB"),
+                            onPressedAmerican: () => speakanarchy041(
+                                // REPLACE: anarchy /ˈænərki/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

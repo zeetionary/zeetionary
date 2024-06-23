@@ -162,35 +162,16 @@ class EnglishEntryappreciably extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵکار) بەشێوەیەکی بەرچاو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The risk of infection is appreciably higher among children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەترسی تووشبوون بە شێوەیەکی بەرچاو زیاترە لەناو منداڵاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciably951("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciably951(
-                                        // REPLACE: appreciably /əˈpriːʃəbli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The risk of infection is appreciably higher among children.",
+                            kurdishText:
+                                "مەترسی تووشبوون بە شێوەیەکی بەرچاو زیاترە لەناو منداڵاندا.",
+                            onPressedBritish: () =>
+                                speakappreciably951("en-GB"),
+                            onPressedAmerican: () => speakappreciably951(
+                                // REPLACE: appreciably /əˈpriːʃəbli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

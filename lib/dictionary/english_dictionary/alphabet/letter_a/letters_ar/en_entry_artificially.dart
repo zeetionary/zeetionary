@@ -165,69 +165,31 @@ class EnglishEntryartificially extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بەشێوەیەک کە کۆپی شتێکی سرووشتییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most mushrooms sold in supermarkets have been grown artificially in manure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی قارچکەکان کە لە سوپەرمارکێتەکان دەفرۆشرێن بەشێوەی دەستکردانە لە پەییندا سەوزبوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakartificially954("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartificially954(
-                                        // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most mushrooms sold in supermarkets have been grown artificially in manure.",
+                            kurdishText:
+                                "زۆرینەی قارچکەکان کە لە سوپەرمارکێتەکان دەفرۆشرێن بەشێوەی دەستکردانە لە پەییندا سەوزبوونە.",
+                            onPressedBritish: () =>
+                                speakartificially954("en-GB"),
+                            onPressedAmerican: () => speakartificially954(
+                                // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەشێوەیەک کە سرووشتی نییە و کاریگەریی مرۆڤی لەسەرە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They are keeping their prices artificially low."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخەکانیان بەخواستی خۆیان بە نزمی دەھێڵنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakartificially956("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartificially956(
-                                        // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They are keeping their prices artificially low.",
+                            kurdishText:
+                                "نرخەکانیان بەخواستی خۆیان بە نزمی دەھێڵنەوە.",
+                            onPressedBritish: () =>
+                                speakartificially956("en-GB"),
+                            onPressedAmerican: () => speakartificially956(
+                                // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -115,34 +115,15 @@ class EnglishEntryagoraphobic extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە ئەگۆرافۆبیا (ترسی بوون لە شوێنی گشتی و قەرەباڵغ)"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is agoraphobic and stays inside as much as she can."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تووشبووی ئەگۆرافۆبیا بوو و ھەرچەندە بۆی بکرێت لە ماڵەوە دەمێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagorap6577("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagorap6577(
-                                        // REPLACE: agoraphobic /ˌæɡərəˈfəʊbɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is agoraphobic and stays inside as much as she can.",
+                            kurdishText:
+                                "تووشبووی ئەگۆرافۆبیا بوو و ھەرچەندە بۆی بکرێت لە ماڵەوە دەمێنێتەوە.",
+                            onPressedBritish: () => speakagorap6577("en-GB"),
+                            onPressedAmerican: () => speakagorap6577(
+                                // REPLACE: agoraphobic /ˌæɡərəˈfəʊbɪk/
+                                "en-US"),
                           ),
                         ],
                       ),

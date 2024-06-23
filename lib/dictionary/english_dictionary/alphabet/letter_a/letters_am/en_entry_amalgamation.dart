@@ -118,66 +118,28 @@ class EnglishEntryamalgamation extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پڕۆسەی یەکخستن، یان ئەوەی درووست دەبێت لە ئەنجامی ئەم پڕۆسەیە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We look towards the amalgamation of some of the neighborhood factories."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە نیازین ژمارەیەک لە کارگەکانی گەڕەکەکە یەکبخەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamalgamation45999("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamalgamation45999(
-                                        // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We look towards the amalgamation of some of the neighborhood factories.",
+                            kurdishText:
+                                "بە نیازین ژمارەیەک لە کارگەکانی گەڕەکەکە یەکبخەین.",
+                            onPressedBritish: () =>
+                                speakamalgamation45999("en-GB"),
+                            onPressedAmerican: () => speakamalgamation45999(
+                                // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The proposed amalgamation of the two institutes has mow fallen through."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆسەی پێشنیازکراوی یەکخستنی دوو پەیمانگاکە شکستی ھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamalgamation4444("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamalgamation4444(
-                                        // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The proposed amalgamation of the two institutes has mow fallen through.",
+                            kurdishText:
+                                "پڕۆسەی پێشنیازکراوی یەکخستنی دوو پەیمانگاکە شکستی ھێناوە.",
+                            onPressedBritish: () =>
+                                speakamalgamation4444("en-GB"),
+                            onPressedAmerican: () => speakamalgamation4444(
+                                // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

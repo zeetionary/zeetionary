@@ -147,87 +147,29 @@ class EnglishEntrybuddhism extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بودیزم؛ ئاینێکی ھندی کە زۆرێک لە خەڵکی ئاسیا شوێنی دەکەون و پشتی بە وانەکانی سیدارتا گاوتاما بەستووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She became interested in Buddhism."),
-                                    ExampleSentenceKurdish(
-                                        text: "حەزی چوو بۆ بودیزم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "Buddhism" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuddhisms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuddhisms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She became interested in Buddhism.",
+                            kurdishText: "حەزی چوو بۆ بودیزم.", // Buddhism" as
+                            onPressedBritish: () => speakbuddhisms1("en-GB"),
+                            onPressedAmerican: () => speakbuddhisms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The practice of meditation is a very important part of Buddhism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاھێنانی قووڵ‌بوونەوە بەشێکی سەرەکی بودیزمە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuddhisms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuddhisms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The practice of meditation is a very important part of Buddhism.",
+                            kurdishText:
+                                "ڕاھێنانی قووڵ‌بوونەوە بەشێکی سەرەکی بودیزمە.",
+                            onPressedBritish: () => speakbuddhisms2("en-GB"),
+                            onPressedAmerican: () => speakbuddhisms2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This book gives basic history and information about Buddhism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم کتێبە مێژوو و زانیاری سەرەتایی لەسەر بودیزم دەخاتەڕوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuddhisms3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuddhisms3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This book gives basic history and information about Buddhism.",
+                            kurdishText:
+                                "ئەم کتێبە مێژوو و زانیاری سەرەتایی لەسەر بودیزم دەخاتەڕوو.",
+                            onPressedBritish: () => speakbuddhisms3("en-GB"),
+                            onPressedAmerican: () => speakbuddhisms3("en-US"),
                           ),
                         ],
                       ),

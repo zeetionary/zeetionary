@@ -148,62 +148,23 @@ class EnglishEntrybiting extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر سارد و ناخۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He shivered in the biting cold."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەلەرزی لە سەرما تەزێنەرەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He shivered in the biting cold.",
+                            kurdishText: "دەلەرزی لە سەرما تەزێنەرەکەدا.",
+                            onPressedBritish: () => speakbitings1("en-GB"),
+                            onPressedAmerican: () => speakbitings1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) لێدوانێک کە توندە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He made some biting remarks about the whole occasion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک لێدوانی ڕەقی دا سەبارەت بە تەواوی بۆنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He made some biting remarks about the whole occasion.",
+                            kurdishText:
+                                "ھەندێک لێدوانی ڕەقی دا سەبارەت بە تەواوی بۆنەکە.",
+                            onPressedBritish: () => speakbitings2("en-GB"),
+                            onPressedAmerican: () => speakbitings2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

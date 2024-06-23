@@ -153,34 +153,15 @@ class EnglishEntrybabyish extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) وەک منداڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Now she’s nine, she thinks toys are babyish and wants a computer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێستا کە ٩ ساڵە، وابیردەکاتەوە کایە ھی منداڵانە و کۆمپیوتەرێکی دەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka3s1(// REPLACE: babyish
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Now she’s nine, she thinks toys are babyish and wants a computer.",
+                            kurdishText:
+                                "ئێستا کە ٩ ساڵە، وابیردەکاتەوە کایە ھی منداڵانە و کۆمپیوتەرێکی دەوێت.",
+                            onPressedBritish: () => speaka3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka3s1(// REPLACE: babyish
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -117,35 +117,16 @@ class EnglishEntryaltruistic extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی خاسیەتی لەخۆبردوویی؛ یارمەتیدانی کەسانی تر بەبێ ھیچ ھۆکارێکی کەسی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I doubt whether her motives for donating the money are altruistic - she's probably looking for publicity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گومانم ھەیە مەبەستی لە بەخشینی پارەکە تەنھا لەخۆبردووی بێت، پێدەچێت بۆ ناوبانگ بگەڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaltruistic4583("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaltruistic4583(
-                                        // REPLACE: altruistic /ˌæltruˈɪstɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I doubt whether her motives for donating the money are altruistic - she's probably looking for publicity.",
+                            kurdishText:
+                                "گومانم ھەیە مەبەستی لە بەخشینی پارەکە تەنھا لەخۆبردووی بێت، پێدەچێت بۆ ناوبانگ بگەڕێت.",
+                            onPressedBritish: () =>
+                                speakaltruistic4583("en-GB"),
+                            onPressedAmerican: () => speakaltruistic4583(
+                                // REPLACE: altruistic /ˌæltruˈɪstɪk/
+                                "en-US"),
                           ),
                         ],
                       ),

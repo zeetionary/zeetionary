@@ -116,91 +116,34 @@ class EnglishEntryaccessible extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) شتێک کە بەردەستە و بە ئاسانی دەتوانرێت بەکاربھێندرێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The remote desert area is accessible only by helicopter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوچە بیابانە دوورەدەستەکە تەنھا لە ڕێگەی ھەلیکۆپتەرەوە دەتوانرێت سەردانی بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka21598("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka21598("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The remote desert area is accessible only by helicopter.",
+                            kurdishText:
+                                "ناوچە بیابانە دوورەدەستەکە تەنھا لە ڕێگەی ھەلیکۆپتەرەوە دەتوانرێت سەردانی بکرێت.",
+                            onPressedBritish: () => speaka21598("en-GB"),
+                            onPressedAmerican: () => speaka21598("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک کە دەکرێت بەکاربھێبدرێت یان بەردەست بێت بۆ کەسێک کە کێشەی لە ڕێکردن ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The beach should be accessible to everyone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەنار دەریاکە دەبێت بۆ ھەمووکەسێک بەردەست بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2114("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2114("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The beach should be accessible to everyone.",
+                            kurdishText:
+                                "کەنار دەریاکە دەبێت بۆ ھەمووکەسێک بەردەست بێت.",
+                            onPressedBritish: () => speaka2114("en-GB"),
+                            onPressedAmerican: () => speaka2114("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) ئاسان بۆ تێگەیشتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her poetry is always very accessible."),
-                                    ExampleSentenceKurdish(
-                                        text: "شیعرەکانی بۆ گەورە و بچووکن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacc21587("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacc21587("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her poetry is always very accessible.",
+                            kurdishText: "شیعرەکانی بۆ گەورە و بچووکن.",
+                            onPressedBritish: () => speakacc21587("en-GB"),
+                            onPressedAmerican: () => speakacc21587("en-US"),
                           ),
                         ],
                       ),

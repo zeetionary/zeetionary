@@ -151,93 +151,36 @@ class EnglishEntrybulb extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بەشی شووشەی ڕۆشنکەرەوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Can you remove the bulb and replace it with an energy-efficient one?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت گڵۆپەکە لابدەیت و لەگەڵ دانەیەکی تر بیگۆڕیتەوە کە وزەی کەمتر بوێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "bulb", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulbs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulbs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Can you remove the bulb and replace it with an energy-efficient one?",
+                            kurdishText:
+                                "دەتوانیت گڵۆپەکە لابدەیت و لەگەڵ دانەیەکی تر بیگۆڕیتەوە کە وزەی کەمتر بوێت؟", // bulb", follow LX strictly
+                            onPressedBritish: () => speakbulbs1("en-GB"),
+                            onPressedAmerican: () => speakbulbs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Coloured bulbs flashed on and off around the sign."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گڵۆپی ڕەنگین بەدەوری ئاماژەکەدا پرتەیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulbs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulbs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Coloured bulbs flashed on and off around the sign.",
+                            kurdishText:
+                                "گڵۆپی ڕەنگین بەدەوری ئاماژەکەدا پرتەیان دەکرد.",
+                            onPressedBritish: () => speakbulbs2("en-GB"),
+                            onPressedAmerican: () => speakbulbs2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I think the bulb is going to go. It's been flickering all evening."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پێم‌وایە گڵۆپەکە دەسووتێت. لە دوێنێ شەوەوە پرتەپرتێتی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbulbs3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbulbs3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I think the bulb is going to go. It's been flickering all evening.",
+                                    kurdishText:
+                                        "پێم‌وایە گڵۆپەکە دەسووتێت. لە دوێنێ شەوەوە پرتەپرتێتی.",
+                                    onPressedBritish: () =>
+                                        speakbulbs3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbulbs3("en-US"),
                                   ),
                                 ],
                               ),
@@ -247,59 +190,20 @@ class EnglishEntrybulb extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) سەلکی ڕووەکێک؛ ئەو بەشەی کە ڕووەکێکی تازەی لێ دەڕوێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She usually waters the indoor bulbs once a week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەزۆری سەلکەکانی ژوورەوە ھەفتەی جارێک ئاو دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulbs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulbs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She usually waters the indoor bulbs once a week.",
+                            kurdishText:
+                                "بەزۆری سەلکەکانی ژوورەوە ھەفتەی جارێک ئاو دەدات.",
+                            onPressedBritish: () => speakbulbs4("en-GB"),
+                            onPressedAmerican: () => speakbulbs4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Place the bulbs close together."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەلکەکان نزیک لە یەکدی دابنێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulbs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulbs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Place the bulbs close together.",
+                            kurdishText: "سەلکەکان نزیک لە یەکدی دابنێ.",
+                            onPressedBritish: () => speakbulbs5("en-GB"),
+                            onPressedAmerican: () => speakbulbs5("en-US"),
                           ),
                         ],
                       ),

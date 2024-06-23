@@ -125,148 +125,53 @@ class EnglishEntryacceptance extends StatelessWidget {
                               text:
                                   "١. (ناو) کرداری پەسەندکردنی دیارییەک، میواندارییەک، یان پێشنیارێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "So far we have had one refusal and three acceptances."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاوەکو ئێستا یەک ڕەتکردنەوە و سێ پەسەندکردنمان ھەبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka5814("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka5814("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "So far we have had one refusal and three acceptances.",
+                            kurdishText:
+                                "تاوەکو ئێستا یەک ڕەتکردنەوە و سێ پەسەندکردنمان ھەبووە.",
+                            onPressedBritish: () => speaka5814("en-GB"),
+                            onPressedAmerican: () => speaka5814("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please confirm your acceptance of this offer in writing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە بە نووسراو دڵنیایی بکەوە کە ئەم پێشنیازە پەسەند دەکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka5814("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka5814("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please confirm your acceptance of this offer in writing.",
+                            kurdishText:
+                                "تکایە بە نووسراو دڵنیایی بکەوە کە ئەم پێشنیازە پەسەند دەکەیت.",
+                            onPressedBritish: () => speaka5814("en-GB"),
+                            onPressedAmerican: () => speaka5814("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕازیبوون بە شتێک و پەسەندکردنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new laws have gained widespread acceptance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاسا نوێیەکان بە فراوانی پەسەندکراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac3591("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac3591("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new laws have gained widespread acceptance.",
+                            kurdishText:
+                                "یاسا نوێیەکان بە فراوانی پەسەندکراون.",
+                            onPressedBritish: () => speakac3591("en-GB"),
+                            onPressedAmerican: () => speakac3591("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The idea was slow to gain general acceptance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیرۆکەکە بەھێواشی لەلایەن ڕای گشتییەوە پەسەند دەکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac2522("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac2522("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The idea was slow to gain general acceptance.",
+                            kurdishText:
+                                "بیرۆکەکە بەھێواشی لەلایەن ڕای گشتییەوە پەسەند دەکرا.",
+                            onPressedBritish: () => speakac2522("en-GB"),
+                            onPressedAmerican: () => speakac2522("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) پڕۆسەی ڕێگەدان بە کەسێک کە پەیوەندی بکات بە گرووپێکەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your acceptance into the union is guaranteed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگەدانپێتان بۆ چوونە ناو یەکێتییەکە دەستەبەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka24699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka24699("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your acceptance into the union is guaranteed.",
+                            kurdishText:
+                                "ڕێگەدانپێتان بۆ چوونە ناو یەکێتییەکە دەستەبەرە.",
+                            onPressedBritish: () => speaka24699("en-GB"),
+                            onPressedAmerican: () => speaka24699("en-US"),
                           ),
                         ],
                       ),

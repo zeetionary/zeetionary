@@ -112,64 +112,26 @@ class EnglishEntryagreeably extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بە ھاوڕایی و بێ کێشە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were agreeably surprised by the quality of the food."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو تێکڕا سەرسام بوون بە کوالێتی خواردنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagr35222("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagr35222(
-                                        // REPLACE: agreeably /əˈɡriːəbli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were agreeably surprised by the quality of the food.",
+                            kurdishText:
+                                "ھەموو تێکڕا سەرسام بوون بە کوالێتی خواردنەکە.",
+                            onPressedBritish: () => speakagr35222("en-GB"),
+                            onPressedAmerican: () => speakagr35222(
+                                // REPLACE: agreeably /əˈɡriːəbli/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The day was agreeably warm after the cool night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژەکە خۆش و خۆرەتاو بوو لە دوای ئەو شەوە ساردە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagreea35744("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagreea35744(
-                                        // REPLACE: agreeably /əˈɡriːəbli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The day was agreeably warm after the cool night.",
+                            kurdishText:
+                                "ڕۆژەکە خۆش و خۆرەتاو بوو لە دوای ئەو شەوە ساردە.",
+                            onPressedBritish: () => speakagreea35744("en-GB"),
+                            onPressedAmerican: () => speakagreea35744(
+                                // REPLACE: agreeably /əˈɡriːəbli/
+                                "en-US"),
                           ),
                         ],
                       ),

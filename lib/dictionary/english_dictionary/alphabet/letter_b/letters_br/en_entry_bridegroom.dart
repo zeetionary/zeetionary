@@ -144,58 +144,20 @@ class EnglishEntrybridegroom extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پیاوێک لە ڕۆژی ھاوسەرگیرییدا، یان ماوەیەکی کەم لە پێش یان پاشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I enjoyed the bridegroom’s speech."),
-                                    ExampleSentenceKurdish(
-                                        text: "وتاری زاواکەم بەدڵبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bridegroom" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridegrooms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridegrooms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I enjoyed the bridegroom’s speech.",
+                            kurdishText:
+                                "وتاری زاواکەم بەدڵبوو.", // bridegroom" as
+                            onPressedBritish: () => speakbridegrooms1("en-GB"),
+                            onPressedAmerican: () => speakbridegrooms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bridegroom was late for the ceremony."),
-                                    ExampleSentenceKurdish(
-                                        text: "زاواکە درەنگ گەشتە ئاھەنگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridegrooms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridegrooms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bridegroom was late for the ceremony.",
+                            kurdishText: "زاواکە درەنگ گەشتە ئاھەنگەکە.",
+                            onPressedBritish: () => speakbridegrooms2("en-GB"),
+                            onPressedAmerican: () => speakbridegrooms2("en-US"),
                           ),
                         ],
                       ),

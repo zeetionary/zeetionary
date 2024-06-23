@@ -115,62 +115,24 @@ class EnglishEntryaccustomto extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کاری لێکدراو) خۆگونجاندن لەگەڵ شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It took him a while to accustom himself to the idea."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماوەیەکی پێچوو تا خۆی بە بیرۆکەکە ڕابێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac25469("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac25469(
-                                        "en-US"), // REPLACE: accustom
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It took him a while to accustom himself to the idea.",
+                            kurdishText:
+                                "ماوەیەکی پێچوو تا خۆی بە بیرۆکەکە ڕابێنێت.",
+                            onPressedBritish: () => speakac25469("en-GB"),
+                            onPressedAmerican: () =>
+                                speakac25469("en-US"), // REPLACE: accustom
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Education should accustom children to thinking for themselves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندن دەبێت منداڵان ڕابێنێت لەسەر بیرکردنەوەی خۆیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac25467("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac25467(
-                                        "en-US"), // REPLACE: accustom
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Education should accustom children to thinking for themselves.",
+                            kurdishText:
+                                "خوێندن دەبێت منداڵان ڕابێنێت لەسەر بیرکردنەوەی خۆیان.",
+                            onPressedBritish: () => speakac25467("en-GB"),
+                            onPressedAmerican: () =>
+                                speakac25467("en-US"), // REPLACE: accustom
                           ),
                         ],
                       ),

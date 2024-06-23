@@ -159,34 +159,15 @@ class EnglishEntryavaricious extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی حەزێکی زۆر بۆ پارە و سامان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She turned out to be a crafty and avaricious politician."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وادەرچوو سیاسەتوانێکی زۆرزان و چاوچنۆک بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavariciouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavariciouss1(// REPLACE: avaricious
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She turned out to be a crafty and avaricious politician.",
+                            kurdishText:
+                                "وادەرچوو سیاسەتوانێکی زۆرزان و چاوچنۆک بێت.",
+                            onPressedBritish: () => speakavariciouss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavariciouss1(// REPLACE: avaricious
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

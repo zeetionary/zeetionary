@@ -177,220 +177,85 @@ class EnglishEntryage extends StatelessWidget {
                               text:
                                   "١. (ناو) ژمارەی ئەو ساڵانەی کەسێک ژیاوە یان شتێک بوونی ھەبووە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When I was your age I was already married."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە لە تەمەنی تۆ بووم ماوەیەک بوو ھاوسەرگیریم کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakage938665("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakage938665(// REPLACE: age /eɪdʒ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When I was your age I was already married.",
+                            kurdishText:
+                                "کە لە تەمەنی تۆ بووم ماوەیەک بوو ھاوسەرگیریم کردبوو.",
+                            onPressedBritish: () => speakage938665("en-GB"),
+                            onPressedAmerican: () =>
+                                speakage938665(// REPLACE: age /eɪdʒ/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children range in age from 5 to 10."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان تەمەنیان لە نێوان ٥ بۆ ١٠ ساڵانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakage28225("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakage28225(// REPLACE: age /eɪdʒ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children range in age from 5 to 10.",
+                            kurdishText:
+                                "منداڵەکان تەمەنیان لە نێوان ٥ بۆ ١٠ ساڵانە.",
+                            onPressedBritish: () => speakage28225("en-GB"),
+                            onPressedAmerican: () =>
+                                speakage28225(// REPLACE: age /eɪdʒ/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بۆ ماوەیەکی زۆر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I waited for ages."),
-                                    ExampleSentenceKurdish(
-                                        text: "بۆ ماوەیەکی زۆر چاوەڕێ بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakage45562("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakage45562(// REPLACE: age /eɪdʒ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I waited for ages.",
+                            kurdishText: "بۆ ماوەیەکی زۆر چاوەڕێ بووم.",
+                            onPressedBritish: () => speakage45562("en-GB"),
+                            onPressedAmerican: () =>
+                                speakage45562(// REPLACE: age /eɪdʒ/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کاتێکی دیاریکراو لە تەمەنی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She dreaded old age."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە پیرێتی دەترسا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakage41663("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakage41663(// REPLACE: age /eɪdʒ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She dreaded old age.",
+                            kurdishText: "لە پیرێتی دەترسا.",
+                            onPressedBritish: () => speakage41663("en-GB"),
+                            onPressedAmerican: () =>
+                                speakage41663(// REPLACE: age /eɪdʒ/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) سەردەمێکی دیاریکراو لە مێژوودا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He lived during the Elizabethan age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە سەردەمی دەسەڵاتداریی ئیلیزابێس ژیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakage955887("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakage955887(// REPLACE: age /eɪdʒ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He lived during the Elizabethan age.",
+                            kurdishText:
+                                "لە سەردەمی دەسەڵاتداریی ئیلیزابێس ژیا.",
+                            onPressedBritish: () => speakage955887("en-GB"),
+                            onPressedAmerican: () =>
+                                speakage955887(// REPLACE: age /eɪdʒ/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) تەمەنکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As he aged, his memory got worse."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە تەمەنی دەکرد بیر و ھۆشی خراپتر دەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakage471114("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakage471114(// REPLACE: age /eɪdʒ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "As he aged, his memory got worse.",
+                            kurdishText:
+                                "کە تەمەنی دەکرد بیر و ھۆشی خراپتر دەبوو.",
+                            onPressedBritish: () => speakage471114("en-GB"),
+                            onPressedAmerican: () =>
+                                speakage471114(// REPLACE: age /eɪdʒ/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) پیر دەرکەوتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My mother has really aged since she became ill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایکم ڕەنگی پیربووە لەوەتەی نەخۆش کەوتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakage25221("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakage25221(// REPLACE: age /eɪdʒ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My mother has really aged since she became ill.",
+                            kurdishText:
+                                "دایکم ڕەنگی پیربووە لەوەتەی نەخۆش کەوتووە.",
+                            onPressedBritish: () => speakage25221("en-GB"),
+                            onPressedAmerican: () =>
+                                speakage25221(// REPLACE: age /eɪdʒ/
+                                    "en-US"),
                           ),
                         ],
                       ),

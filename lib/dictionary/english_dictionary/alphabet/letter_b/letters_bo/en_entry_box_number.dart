@@ -147,32 +147,13 @@ class EnglishEntryboxnumber extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژمارەیەک کە بەکاریدێنیت بۆ ئەوەی خەڵکی پەیوەندیت پێوە بکات لە جیاتی ئەوەی ناونیشان بدەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He asked for cheques to be sent to a postal box number."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوای کرد چەکەکان بنێردرێن بۆ ژمارەی سنووقی پۆستەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxnumbers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxnumbers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He asked for cheques to be sent to a postal box number.",
+                            kurdishText:
+                                "داوای کرد چەکەکان بنێردرێن بۆ ژمارەی سنووقی پۆستەکەی.",
+                            onPressedBritish: () => speakboxnumbers1("en-GB"),
+                            onPressedAmerican: () => speakboxnumbers1("en-US"),
                           ),
                         ],
                       ),

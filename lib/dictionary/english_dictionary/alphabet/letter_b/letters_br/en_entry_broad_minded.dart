@@ -146,64 +146,23 @@ class EnglishEntrybroadminded extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ئامادە بۆ گوێگرتن لە کەسانی تر و قبووڵکردنی ھەڵسوکەوت کە جیاوازە لە ھی خۆت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My grandparents were surprisingly broad-minded."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوانم بە شێوەیەکی چاوەڕواننەکراو بیرفراوان بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broad-minded" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbroadmindeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbroadmindeds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My grandparents were surprisingly broad-minded.",
+                            kurdishText:
+                                "باوانم بە شێوەیەکی چاوەڕواننەکراو بیرفراوان بوون.", // broad-minded" as
+                            onPressedBritish: () => speakbroadmindeds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbroadmindeds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are supposed to be a broad-minded society."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێمە دەبێت کۆمەڵگایەکی تێگەشتوو بین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbroadmindeds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbroadmindeds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are supposed to be a broad-minded society.",
+                            kurdishText: "ئێمە دەبێت کۆمەڵگایەکی تێگەشتوو بین.",
+                            onPressedBritish: () => speakbroadmindeds2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbroadmindeds2("en-US"),
                           ),
                         ],
                       ),

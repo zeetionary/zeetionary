@@ -141,62 +141,23 @@ class EnglishEntryBuddhist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) باوەڕدار یان پەیوەندیدار بە ئایینی بودیزم"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In Thailand, many embrace the Buddhist faith."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تایلەندا ژمارەیەکی زۆر شوێنکەوتووی ئایینی بودیزم ھەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "Buddhist", follow LX strictly.
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuddhists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuddhists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In Thailand, many embrace the Buddhist faith.",
+                            kurdishText:
+                                "لە تایلەندا ژمارەیەکی زۆر شوێنکەوتووی ئایینی بودیزم ھەن.", // Buddhist", follow LX strictly.
+                            onPressedBritish: () => speakbuddhists1("en-GB"),
+                            onPressedAmerican: () => speakbuddhists1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شوێنکەوتووی ئایینی بودیزم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She conversed with a knowledgeable Buddhist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گفتوگۆی لەگەڵ بودییەکی شارەزا کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuddhists2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuddhists2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She conversed with a knowledgeable Buddhist.",
+                            kurdishText: "گفتوگۆی لەگەڵ بودییەکی شارەزا کرد.",
+                            onPressedBritish: () => speakbuddhists2("en-GB"),
+                            onPressedAmerican: () => speakbuddhists2("en-US"),
                           ),
                         ],
                       ),

@@ -158,34 +158,15 @@ class EnglishEntryanorexia extends StatelessWidget {
                               text:
                                   "١. (ناو) نەخۆشییەکی دەروونی کە تێیدا کەسێک بە ھەڵە پێێ‌وایە کە کێشی زیادە بۆیە خواردنی کەم دەخوات و دەبێتە ھۆی کێش‌کەمی بە ئاستێکی مەترسیدار"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Reports of anorexia and other eating disorders are on the increase."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاپۆرت لەسەر بێ‌ئیشتیایی و نەخۆشییەکانی دیکەی پەیوەندیدار بە خواردن لە زیادبووندان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanorexia848("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanorexia848(
-                                        // REPLACE: anorexia /ˌænəˈreksiə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Reports of anorexia and other eating disorders are on the increase.",
+                            kurdishText:
+                                "ڕاپۆرت لەسەر بێ‌ئیشتیایی و نەخۆشییەکانی دیکەی پەیوەندیدار بە خواردن لە زیادبووندان.",
+                            onPressedBritish: () => speakanorexia848("en-GB"),
+                            onPressedAmerican: () => speakanorexia848(
+                                // REPLACE: anorexia /ˌænəˈreksiə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -158,67 +158,29 @@ class EnglishEntryapplaud extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) دەربڕینی بەدڵبوونت بۆ کەسێک بە چەپڵەلێدان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He started to applaud and the others joined in."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی بە چەپڵەلێدان کرد و ئەوانی تریش بەدوایدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapplaud517("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapplaud517(
-                                        // REPLACE: applaud /əˈplɔːd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He started to applaud and the others joined in.",
+                            kurdishText:
+                                "دەستی بە چەپڵەلێدان کرد و ئەوانی تریش بەدوایدا.",
+                            onPressedBritish: () => speakapplaud517("en-GB"),
+                            onPressedAmerican: () => speakapplaud517(
+                                // REPLACE: applaud /əˈplɔːd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) پەسندانی کەسێک بەھۆی بەدڵبوونی کارەکەیان لات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His efforts to improve the situation are to be applauded."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵەکانی بۆ باشترکردنی دۆخەکە جێگەی دەستخۆشییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapplaud520("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapplaud520(
-                                        // REPLACE: applaud /əˈplɔːd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His efforts to improve the situation are to be applauded.",
+                            kurdishText:
+                                "ھەوڵەکانی بۆ باشترکردنی دۆخەکە جێگەی دەستخۆشییە.",
+                            onPressedBritish: () => speakapplaud520("en-GB"),
+                            onPressedAmerican: () => speakapplaud520(
+                                // REPLACE: applaud /əˈplɔːd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

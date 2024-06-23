@@ -164,35 +164,16 @@ class EnglishEntryarithmetical extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە کۆکردنەوە، لێدەرکردن، لێکدان، دابەش، ھتد. لە بیرکاریدا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Figuring the amount is a simple arithmetical calculation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆزینەوەی بڕەکە لێکدانەوەیەکی سادەی ژمێریارییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarithmetical100("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarithmetical100(
-                                        // REPLACE: arithmetical /ˌærɪθˈmetɪkl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Figuring the amount is a simple arithmetical calculation.",
+                            kurdishText:
+                                "دۆزینەوەی بڕەکە لێکدانەوەیەکی سادەی ژمێریارییە.",
+                            onPressedBritish: () =>
+                                speakarithmetical100("en-GB"),
+                            onPressedAmerican: () => speakarithmetical100(
+                                // REPLACE: arithmetical /ˌærɪθˈmetɪkl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

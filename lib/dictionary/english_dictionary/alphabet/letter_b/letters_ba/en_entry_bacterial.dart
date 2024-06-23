@@ -152,34 +152,15 @@ class EnglishEntrybacterial extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پەیوەندیدار بە بەکتریا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My sore throat came from a bacterial infection."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵئاوسانی قوڕگم بەھۆی تووشبوون بە بەکتریاوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbacterials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbacterials1(// REPLACE: bacterial
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My sore throat came from a bacterial infection.",
+                            kurdishText:
+                                "ھەڵئاوسانی قوڕگم بەھۆی تووشبوون بە بەکتریاوە بوو.",
+                            onPressedBritish: () => speakbacterials1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbacterials1(// REPLACE: bacterial
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

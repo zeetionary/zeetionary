@@ -116,35 +116,14 @@ class EnglishEntryalarmclock extends StatelessWidget {
                               text:
                                   "١. (ناو) کاتژمێرێکی زەنگدار کە دەتوانێت لە کاتێکی دیاریکراو زەنگ لێبدات و لە خەو ھەڵت بسێنێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I set the alarm clock for 7 o'clock."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەنگی کاتژمێرەکەم بۆ کاتژمێر ٧ چالاککرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalarmclock349("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalarmclock349(
-                                        // REPLACE: alarm clock /əˈlɑːrm klɑːk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I set the alarm clock for 7 o'clock.",
+                            kurdishText:
+                                "زەنگی کاتژمێرەکەم بۆ کاتژمێر ٧ چالاککرد.",
+                            onPressedBritish: () => speakalarmclock349("en-GB"),
+                            onPressedAmerican: () => speakalarmclock349(
+                                // REPLACE: alarm clock /əˈlɑːrm klɑːk/
+                                "en-US"),
                           ),
                         ],
                       ),

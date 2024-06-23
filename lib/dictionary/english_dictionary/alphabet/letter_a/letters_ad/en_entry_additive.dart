@@ -114,34 +114,15 @@ class EnglishEntryadditive extends StatelessWidget {
                               text:
                                   "١. (ناو) مادەیەک کە زیاد دەکرێت بۆ شتێک بۆ ئەوەی ڕەنگ یان تامی پێبدات، یان بۆ ئەوەی وا بکات زیاتر سوودی ھەبێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This beverage is full of additives - just look at the label!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم خواردنەوەیە پڕە لە مادەی زیادکراو. سەیری نووسراوەکەی سەری بکە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaddit699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaddit699(
-                                        // REPLACE: additive /ˈædətɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This beverage is full of additives - just look at the label!",
+                            kurdishText:
+                                "ئەم خواردنەوەیە پڕە لە مادەی زیادکراو. سەیری نووسراوەکەی سەری بکە!",
+                            onPressedBritish: () => speakaddit699("en-GB"),
+                            onPressedAmerican: () => speakaddit699(
+                                // REPLACE: additive /ˈædətɪv/
+                                "en-US"),
                           ),
                         ],
                       ),

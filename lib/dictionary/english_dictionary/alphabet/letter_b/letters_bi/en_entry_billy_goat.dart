@@ -147,32 +147,13 @@ class EnglishEntrybillygoat extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بزنی نێر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The farmer led the billy goat away from the ewes to prevent further breeding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاژەڵدارەکە بزنە نێرەکەی دوورخستەوە لە مەڕەکان بۆ ڕێگری لە زاوزێی زیاتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbillygoats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbillygoats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The farmer led the billy goat away from the ewes to prevent further breeding.",
+                            kurdishText:
+                                "ئاژەڵدارەکە بزنە نێرەکەی دوورخستەوە لە مەڕەکان بۆ ڕێگری لە زاوزێی زیاتر.",
+                            onPressedBritish: () => speakbillygoats1("en-GB"),
+                            onPressedAmerican: () => speakbillygoats1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

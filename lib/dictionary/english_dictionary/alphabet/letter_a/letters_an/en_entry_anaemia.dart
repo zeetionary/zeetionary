@@ -157,34 +157,15 @@ class EnglishEntryanaemia extends StatelessWidget {
                               text:
                                   "١. (ناو) بارودۆخێکی تەندرووستی کە تێیدا کەسێک خڕۆکەی سوور یان ھیمۆگلۆبینی کەمە و دەبێتە ھۆی لاوازی و ڕەنگ‌پەڕیوی "
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The main symptoms of anaemia are tiredness and pallor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیشانە سەرەکییەکانی ئەنیمیا ماندوێتی و ڕەنگ‌پەڕیویە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanaemia558("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanaemia558(
-                                        // REPLACE: anaemia /əˈniːmiə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The main symptoms of anaemia are tiredness and pallor.",
+                            kurdishText:
+                                "نیشانە سەرەکییەکانی ئەنیمیا ماندوێتی و ڕەنگ‌پەڕیویە.",
+                            onPressedBritish: () => speakanaemia558("en-GB"),
+                            onPressedAmerican: () => speakanaemia558(
+                                // REPLACE: anaemia /əˈniːmiə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

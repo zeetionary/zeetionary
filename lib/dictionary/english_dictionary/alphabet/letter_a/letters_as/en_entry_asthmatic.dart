@@ -165,69 +165,29 @@ class EnglishEntryasthmatic extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) تووشبوو بە ھەناسەتوندی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The asthmatic patient was admitted to the hospital for treatment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو بردرا بۆ نەخۆشخانە بۆ چارەسەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakasthmatic1021("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakasthmatic1021(// REPLACE: asthmatic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The asthmatic patient was admitted to the hospital for treatment.",
+                            kurdishText:
+                                "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو بردرا بۆ نەخۆشخانە بۆ چارەسەر.",
+                            onPressedBritish: () => speakasthmatic1021("en-GB"),
+                            onPressedAmerican: () =>
+                                speakasthmatic1021(// REPLACE: asthmatic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێکی تووشبوو بە ھەناسەتوندی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The asthmatic was unable to participate in strenuous activities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو نەیدەتوانی لە چالاکی سەخت بەژداری بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakasthmatic1024("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakasthmatic1024(// REPLACE: asthmatic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The asthmatic was unable to participate in strenuous activities.",
+                            kurdishText:
+                                "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو نەیدەتوانی لە چالاکی سەخت بەژداری بکات.",
+                            onPressedBritish: () => speakasthmatic1024("en-GB"),
+                            onPressedAmerican: () =>
+                                speakasthmatic1024(// REPLACE: asthmatic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

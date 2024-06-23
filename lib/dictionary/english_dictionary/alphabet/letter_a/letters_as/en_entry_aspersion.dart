@@ -163,34 +163,15 @@ class EnglishEntryaspersion extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) بڕیار یان لێدوانی نابەجێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I wouldn't want to cast aspersions on your honesty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەوێ لێدوانی نابەجێ بدەم لەسەر سەرڕاستیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaspersion518("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspersion518(
-                                        // REPLACE: aspersion /əˈspɜːrʒnz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I wouldn't want to cast aspersions on your honesty.",
+                            kurdishText:
+                                "نامەوێ لێدوانی نابەجێ بدەم لەسەر سەرڕاستیت.",
+                            onPressedBritish: () => speakaspersion518("en-GB"),
+                            onPressedAmerican: () => speakaspersion518(
+                                // REPLACE: aspersion /əˈspɜːrʒnz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

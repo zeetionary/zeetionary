@@ -127,127 +127,49 @@ class EnglishEntryadd extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) زیادکردنی شتێک بۆ شتێکی تر" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Shall I add your name to the list?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ناوت زیادبکەم بۆ لیستەکە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadd4257("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakadd4257(// REPLACE: add /æd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Shall I add your name to the list?",
+                            kurdishText: "ناوت زیادبکەم بۆ لیستەکە؟",
+                            onPressedBritish: () => speakadd4257("en-GB"),
+                            onPressedAmerican: () =>
+                                speakadd4257(// REPLACE: add /æd/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Chlorine is added to the water to kill bacteria."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadd45698("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakadd45698(// REPLACE: add /æd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Chlorine is added to the water to kill bacteria.",
+                            kurdishText:
+                                "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا.",
+                            onPressedBritish: () => speakadd45698("en-GB"),
+                            onPressedAmerican: () =>
+                                speakadd45698(// REPLACE: add /æd/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) کۆکردنەوەی ژمارە پێکەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He knew how to add and subtract."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیزانی چۆن کۆکرنەوە و لێدەرکردن بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadd241("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakadd241(// REPLACE: add /æd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He knew how to add and subtract.",
+                            kurdishText:
+                                "دەیزانی چۆن کۆکرنەوە و لێدەرکردن بکات.",
+                            onPressedBritish: () => speakadd241("en-GB"),
+                            onPressedAmerican: () =>
+                                speakadd241(// REPLACE: add /æd/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) زیادکردنی قسەیەک بۆ شتێک کە پێشتر وتووتە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have nothing to add to my earlier statement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچم نییە بۆ وتن زیاتر لەوەی پێشتر وتم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadd459224("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakadd459224(// REPLACE: add /æd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I have nothing to add to my earlier statement.",
+                            kurdishText:
+                                "ھیچم نییە بۆ وتن زیاتر لەوەی پێشتر وتم.",
+                            onPressedBritish: () => speakadd459224("en-GB"),
+                            onPressedAmerican: () =>
+                                speakadd459224(// REPLACE: add /æd/
+                                    "en-US"),
                           ),
                         ],
                       ),

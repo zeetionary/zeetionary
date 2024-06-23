@@ -165,35 +165,16 @@ class EnglishEntryarraignment extends StatelessWidget {
                               text:
                                   "١. (ناو) ھێنانی کەسێک بۆ دادگا بۆ بەفەرمی تاوانبارکردنیان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A date for her arraignment has not yet been set."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتێک بۆ گوناھبارکردنەکەی دیاریکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarraignment1250("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarraignment1250(
-                                        // REPLACE: arraignment /əˈreɪnmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A date for her arraignment has not yet been set.",
+                            kurdishText:
+                                "ڕێککەوتێک بۆ گوناھبارکردنەکەی دیاریکرا.",
+                            onPressedBritish: () =>
+                                speakarraignment1250("en-GB"),
+                            onPressedAmerican: () => speakarraignment1250(
+                                // REPLACE: arraignment /əˈreɪnmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

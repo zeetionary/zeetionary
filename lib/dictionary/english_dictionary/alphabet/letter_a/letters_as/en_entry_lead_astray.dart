@@ -162,35 +162,16 @@ class EnglishEntryleadastray extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ئیدیەم) وا لە کەسێک بکەیت کاری ھەڵە بکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jack's parents thought the other boys might lead him astray."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایک و باوکی جاک وایان دەفکری کوڕەکانی دیکە لەوانەیە گومڕای بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaeadastray1140("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaeadastray1140(
-                                        // REPLACE: lead astray
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Jack's parents thought the other boys might lead him astray.",
+                            kurdishText:
+                                "دایک و باوکی جاک وایان دەفکری کوڕەکانی دیکە لەوانەیە گومڕای بکەن.",
+                            onPressedBritish: () =>
+                                speakaeadastray1140("en-GB"),
+                            onPressedAmerican: () => speakaeadastray1140(
+                                // REPLACE: lead astray
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -151,91 +151,34 @@ class EnglishEntrybomber extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) فڕۆکەیەک کە بۆمب ھەڵدەگرێت و بەری دەداتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The invasion on land was supported by bombers in the air."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێرشە زەمینییەکە لەلایەن بۆمباوێژەوە پشتگیری دەکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The invasion on land was supported by bombers in the air.",
+                            kurdishText:
+                                "ھێرشە زەمینییەکە لەلایەن بۆمباوێژەوە پشتگیری دەکرا.",
+                            onPressedBritish: () => speakbombers1("en-GB"),
+                            onPressedAmerican: () => speakbombers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە بەشێوەیەکی نایاسایی بۆمبێک دەباتە شوێنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The suicide bomber blew himself up in a crowded restaurant, killing twelve people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێرشکارە خۆکوژییەکە خۆی تەقاندەوە لە چێشتخانەیەکی قەرەباڵغدا و دوازدە کەسی کوشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The suicide bomber blew himself up in a crowded restaurant, killing twelve people.",
+                            kurdishText:
+                                "ھێرشکارە خۆکوژییەکە خۆی تەقاندەوە لە چێشتخانەیەکی قەرەباڵغدا و دوازدە کەسی کوشت.",
+                            onPressedBritish: () => speakbombers2("en-GB"),
+                            onPressedAmerican: () => speakbombers2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Seventeen people were killed this morning by bombers who targeted a shopping centre."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەڤدە کەس ئەم بەیانییە کوژران لەلایەن بۆمب‌چنەوە کە سەنتەرێکی بازاڕکردنیان کردە ئامانج."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Seventeen people were killed this morning by bombers who targeted a shopping centre.",
+                            kurdishText:
+                                "حەڤدە کەس ئەم بەیانییە کوژران لەلایەن بۆمب‌چنەوە کە سەنتەرێکی بازاڕکردنیان کردە ئامانج.",
+                            onPressedBritish: () => speakbombers3("en-GB"),
+                            onPressedAmerican: () => speakbombers3("en-US"),
                           ),
                         ],
                       ),

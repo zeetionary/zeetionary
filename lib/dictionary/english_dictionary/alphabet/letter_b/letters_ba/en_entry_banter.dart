@@ -156,34 +156,14 @@ class EnglishEntrybanter extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) نوکتە و گاڵتەوگەپ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He enjoyed exchanging banter with the customers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزی لە شۆخیکردن لەگەڵ کڕیاران بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanters1(// REPLACE: banter
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He enjoyed exchanging banter with the customers.",
+                            kurdishText: "حەزی لە شۆخیکردن لەگەڵ کڕیاران بوو.",
+                            onPressedBritish: () => speakbanters1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanters1(// REPLACE: banter
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -191,34 +171,15 @@ class EnglishEntrybanter extends StatelessWidget {
 کوردی: شۆخی، گاڵتە، جەفەنگ، حەنەک
 
 ٢. (کردار) شۆخیکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bantered with reporters and posed for photographers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆخی لەگەڵ پەیامنێران کرد و بۆ وێنەگران وەستا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanters2(// REPLACE: banter
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He bantered with reporters and posed for photographers.",
+                            kurdishText:
+                                "شۆخی لەگەڵ پەیامنێران کرد و بۆ وێنەگران وەستا.",
+                            onPressedBritish: () => speakbanters2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanters2(// REPLACE: banter
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -115,34 +115,15 @@ class EnglishEntryalarming extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) بە ئاستێک کە جێگەی نیگەرانی و ترسە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rainforests are disappearing at an alarming rate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دارستانەکان بە ئاستێکی ترسێنەر کەمدەبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalarming7488("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalarming7488(
-                                        // REPLACE: alarming /əˈlɑːrmɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The rainforests are disappearing at an alarming rate.",
+                            kurdishText:
+                                "دارستانەکان بە ئاستێکی ترسێنەر کەمدەبن.",
+                            onPressedBritish: () => speakalarming7488("en-GB"),
+                            onPressedAmerican: () => speakalarming7488(
+                                // REPLACE: alarming /əˈlɑːrmɪŋ/
+                                "en-US"),
                           ),
                         ],
                       ),

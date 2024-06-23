@@ -152,62 +152,23 @@ class EnglishEntryberserk extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) زۆر تووڕە، بەشێوەیەکی توندوتیژ و بەبێ جڵەو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He went berserk when he found out where I'd been."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر تووڕە بوو کە زانی لە کوێ بوومە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakberserks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakberserks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He went berserk when he found out where I'd been.",
+                            kurdishText: "زۆر تووڕە بوو کە زانی لە کوێ بوومە.",
+                            onPressedBritish: () => speakberserks1("en-GB"),
+                            onPressedAmerican: () => speakberserks1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) زۆر خرۆشاو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People were going berserk with happiness."),
-                                    ExampleSentenceKurdish(
-                                        text: "خەڵکی خرۆشاو بوون لە خۆشیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakberserks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakberserks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People were going berserk with happiness.",
+                            kurdishText: "خەڵکی خرۆشاو بوون لە خۆشیدا.",
+                            onPressedBritish: () => speakberserks2("en-GB"),
+                            onPressedAmerican: () => speakberserks2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -131,96 +131,39 @@ class EnglishEntryaffinity extends StatelessWidget {
                               text:
                                   "١. (ناو) بوونی ھەستێکی بەھێز کە لە شتێک تێدەگەیت و حەزت بۆی ھەیە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sam was born in the country and had a deep affinity with nature."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سام لە لادێ لەدایکبووبوو و ھۆگرییەکی قووڵی بۆ سرووشت ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffi5699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffi5699(
-                                        // REPLACE: affinity /əˈfɪnəti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sam was born in the country and had a deep affinity with nature.",
+                            kurdishText:
+                                "سام لە لادێ لەدایکبووبوو و ھۆگرییەکی قووڵی بۆ سرووشت ھەبوو.",
+                            onPressedBritish: () => speakaffi5699("en-GB"),
+                            onPressedAmerican: () => speakaffi5699(
+                                // REPLACE: affinity /əˈfɪnəti/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Humans have a special affinity for dolphins."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مرۆڤ ھۆگرییەکی تایبەتی بۆ دۆڵفین ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaf155("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaf155(
-                                        // REPLACE: affinity /əˈfɪnəti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Humans have a special affinity for dolphins.",
+                            kurdishText:
+                                "مرۆڤ ھۆگرییەکی تایبەتی بۆ دۆڵفین ھەیە.",
+                            onPressedBritish: () => speakaf155("en-GB"),
+                            onPressedAmerican: () => speakaf155(
+                                // REPLACE: affinity /əˈfɪnəti/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بوونی خاسیەتی لێکچوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a close affinity between Italian and Spanish."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێکچوونی زۆر ھەیە لەنێوان زمانەکانی ئیسپانی و ئیتالی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffinity145("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffinity145(
-                                        // REPLACE: affinity /əˈfɪnəti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a close affinity between Italian and Spanish.",
+                            kurdishText:
+                                "لێکچوونی زۆر ھەیە لەنێوان زمانەکانی ئیسپانی و ئیتالی.",
+                            onPressedBritish: () => speakaffinity145("en-GB"),
+                            onPressedAmerican: () => speakaffinity145(
+                                // REPLACE: affinity /əˈfɪnəti/
+                                "en-US"),
                           ),
                         ],
                       ),

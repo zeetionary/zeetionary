@@ -156,34 +156,13 @@ class EnglishEntryannually extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) ئەنجامدانی شتێک ساڵی جارێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The exhibition is held annually."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشانگاکە ساڵی جارێک ئەنجام‌دەدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannually840("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannually840(
-                                        // REPLACE: annually /ˈænjuəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The exhibition is held annually.",
+                            kurdishText: "پێشانگاکە ساڵی جارێک ئەنجام‌دەدرێت.",
+                            onPressedBritish: () => speakannually840("en-GB"),
+                            onPressedAmerican: () => speakannually840(
+                                // REPLACE: annually /ˈænjuəli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

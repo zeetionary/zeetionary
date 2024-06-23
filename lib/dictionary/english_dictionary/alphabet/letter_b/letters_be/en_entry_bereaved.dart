@@ -151,63 +151,24 @@ class EnglishEntrybereaved extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەسێک کا تازەگی ئەندامێکی خێزانێکی یان کەسێکی نزیکی مردووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bereaved parents wept openly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایک و باوکە جەرگ‌سووتاوەکە بە کراوەیی دەگریان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbereaveds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbereaveds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The bereaved parents wept openly.",
+                            kurdishText:
+                                "دایک و باوکە جەرگ‌سووتاوەکە بە کراوەیی دەگریان.",
+                            onPressedBritish: () => speakbereaveds1("en-GB"),
+                            onPressedAmerican: () => speakbereaveds1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کا تازەگی ئەندامێکی خێزانێکی یان کەسێکی نزیکی مردووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is generally accepted that the bereaved benefit from counselling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەکی گشتی پەسەندکراوە کەسانی جەرگ‌سووتاو سوود لە ڕاوێژ ببینن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbereaveds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbereaveds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is generally accepted that the bereaved benefit from counselling.",
+                            kurdishText:
+                                "بەشێوەیەکی گشتی پەسەندکراوە کەسانی جەرگ‌سووتاو سوود لە ڕاوێژ ببینن.",
+                            onPressedBritish: () => speakbereaveds2("en-GB"),
+                            onPressedAmerican: () => speakbereaveds2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

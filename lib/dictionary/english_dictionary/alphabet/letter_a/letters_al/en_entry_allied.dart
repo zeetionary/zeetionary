@@ -116,98 +116,41 @@ class EnglishEntryallied extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پەیوەندیدار بە چەند وڵاتێکی ھاوپەیمان لە جەنگدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many civilians died as a result of allied bombing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر ھاوڵاتی مەدەنی گیانیان لەدەستدا لە ئەنجامی بۆردوومانی ھاوپەیمانان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallied425("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallied425(
-                                        // REPLACE: allied /ˈælaɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many civilians died as a result of allied bombing.",
+                            kurdishText:
+                                "زۆر ھاوڵاتی مەدەنی گیانیان لەدەستدا لە ئەنجامی بۆردوومانی ھاوپەیمانان.",
+                            onPressedBritish: () => speakallied425("en-GB"),
+                            onPressedAmerican: () => speakallied425(
+                                // REPLACE: allied /ˈælaɪd/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پەیوەندیدار بە وڵاتانی ھاوپەیمان لە جەنگی یەکەم و دووەمی جیھانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Italy joined the war on the Allied side in 1915."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئیتالیا لە ساڵی ١٩١٥ لە بەرەی ھاوپەیمانان پەیوەندی بە جەنگەکەوە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallied459("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallied459(
-                                        // REPLACE: allied /ˈælaɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Italy joined the war on the Allied side in 1915.",
+                            kurdishText:
+                                "ئیتالیا لە ساڵی ١٩١٥ لە بەرەی ھاوپەیمانان پەیوەندی بە جەنگەکەوە کرد.",
+                            onPressedBritish: () => speakallied459("en-GB"),
+                            onPressedAmerican: () => speakallied459(
+                                // REPLACE: allied /ˈælaɪd/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) پەیوەندیدار بە یەکدی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Computer science and allied subjects are not taught here."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانستی کۆمپیوتەر و بابەتە پەیوەندیدارەکانی لێرە ناوترێنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallied4399("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallied4399(
-                                        // REPLACE: allied /ˈælaɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Computer science and allied subjects are not taught here.",
+                            kurdishText:
+                                "زانستی کۆمپیوتەر و بابەتە پەیوەندیدارەکانی لێرە ناوترێنەوە.",
+                            onPressedBritish: () => speakallied4399("en-GB"),
+                            onPressedAmerican: () => speakallied4399(
+                                // REPLACE: allied /ˈælaɪd/
+                                "en-US"),
                           ),
                         ],
                       ),

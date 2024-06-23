@@ -149,32 +149,13 @@ class EnglishEntryblacksmith extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە کاری ئاسنگەری دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In medieval times, the blacksmith played a crucial role in producing weapons for the kingdom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە سەردەمی ناوەڕاستدا، ئاسنگەران ڕۆڵی گرنگیان دەبینی لە بەرھەمھێنانی چەک بۆ شانشینەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblacksmiths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblacksmiths1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In medieval times, the blacksmith played a crucial role in producing weapons for the kingdom.",
+                            kurdishText:
+                                "لە سەردەمی ناوەڕاستدا، ئاسنگەران ڕۆڵی گرنگیان دەبینی لە بەرھەمھێنانی چەک بۆ شانشینەکە.",
+                            onPressedBritish: () => speakblacksmiths1("en-GB"),
+                            onPressedAmerican: () => speakblacksmiths1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

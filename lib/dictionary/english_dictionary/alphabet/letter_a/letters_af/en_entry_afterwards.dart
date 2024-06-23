@@ -111,34 +111,14 @@ class EnglishEntryafterwards extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) لە کاتێکی دواتر" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Afterwards she was sorry for what she'd said."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دواتر زۆر پەشیمان بۆ ئەوەی گوتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafter259("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafter259(
-                                        // REPLACE: afterwards /ˈɑːftərwədz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Afterwards she was sorry for what she'd said.",
+                            kurdishText: "دواتر زۆر پەشیمان بۆ ئەوەی گوتی.",
+                            onPressedBritish: () => speakafter259("en-GB"),
+                            onPressedAmerican: () => speakafter259(
+                                // REPLACE: afterwards /ˈɑːftərwədz/
+                                "en-US"),
                           ),
                         ],
                       ),

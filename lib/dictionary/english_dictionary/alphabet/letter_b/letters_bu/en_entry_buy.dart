@@ -192,150 +192,50 @@ class EnglishEntrybuy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) کڕین، سەندن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Where did you buy that dress?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەو جلەت لە کوێ کڕی؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "buy", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Where did you buy that dress?",
+                            kurdishText:
+                                "ئەو جلەت لە کوێ کڕی؟", // buy", follow LX strictly
+                            onPressedBritish: () => speakbuys1("en-GB"),
+                            onPressedAmerican: () => speakbuys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had no money to buy a ticket."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ پارەی نەبوو بلیتێک بکڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She had no money to buy a ticket.",
+                            kurdishText: "ھیچ پارەی نەبوو بلیتێک بکڕێت.",
+                            onPressedBritish: () => speakbuys2("en-GB"),
+                            onPressedAmerican: () => speakbuys2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "They can't afford to buy school books."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پارەیان نییە کتێبی قوتابخانە بکڕن."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbuys3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbuys3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "They can't afford to buy school books.",
+                                    kurdishText:
+                                        "پارەیان نییە کتێبی قوتابخانە بکڕن.",
+                                    onPressedBritish: () => speakbuys3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbuys3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "If you're thinking of getting a new car, now is a good time to buy."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەگەر بیر لە کڕینی ئۆتۆمبێلێکی تازە دەکەیتەوە، ئێستا کاتێکی باشە بکڕیت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbuys4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbuys4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "If you're thinking of getting a new car, now is a good time to buy.",
+                                    kurdishText:
+                                        "ئەگەر بیر لە کڕینی ئۆتۆمبێلێکی تازە دەکەیتەوە، ئێستا کاتێکی باشە بکڕیت.",
+                                    onPressedBritish: () => speakbuys4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbuys4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I bought my car second-hand."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئۆتۆمبێلێکی دەستی دووم کڕی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbuys5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbuys5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "I bought my car second-hand.",
+                                    kurdishText: "ئۆتۆمبێلێکی دەستی دووم کڕی.",
+                                    onPressedBritish: () => speakbuys5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbuys5("en-US"),
                                   ),
                                 ],
                               ),
@@ -345,212 +245,77 @@ class EnglishEntrybuy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بڕە پارەیەک کە بەسە بۆ کڕینی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gave his children the best education that money can buy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترین خوێندنی دا بە منداڵەکانی کە پارە دابینی بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He gave his children the best education that money can buy.",
+                            kurdishText:
+                                "باشترین خوێندنی دا بە منداڵەکانی کە پارە دابینی بکات.",
+                            onPressedBritish: () => speakbuys6("en-GB"),
+                            onPressedAmerican: () => speakbuys6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Five pounds doesn't buy much nowadays."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێنج پاوەند زۆر شت ناکات لە ئێستادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuys7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuys7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Five pounds doesn't buy much nowadays.",
+                            kurdishText: "پێنج پاوەند زۆر شت ناکات لە ئێستادا.",
+                            onPressedBritish: () => speakbuys7("en-GB"),
+                            onPressedAmerican: () => speakbuys7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) ڕازیکردنی کەسێک بۆ کردنی کارێکی خراپ لە بەرامبەر پارەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He can't be bought (= he's too honest to accept money in this way)."),
-                                    ExampleSentenceKurdish(
-                                        text: "ناتوانرێت بکڕدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuys8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuys8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He can't be bought (= he's too honest to accept money in this way).",
+                            kurdishText: "ناتوانرێت بکڕدرێت.",
+                            onPressedBritish: () => speakbuys8("en-GB"),
+                            onPressedAmerican: () => speakbuys8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) بەدەستھێنانی شتێک بە لەدەستدانی شتێکی دیکەی بەنرختر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her fame was bought at the expense of her marriage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوبانگەکەی بەدەستھێندرا بە لەدەستدانی ھاوسەرگیرییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuys9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuys9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her fame was bought at the expense of her marriage.",
+                            kurdishText:
+                                "ناوبانگەکەی بەدەستھێندرا بە لەدەستدانی ھاوسەرگیرییەکەی.",
+                            onPressedBritish: () => speakbuys9("en-GB"),
+                            onPressedAmerican: () => speakbuys9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) باوەڕکردن بەوەی شتێک ڕاستە، بەتایبەتی لەکاتێکدا ئەگەری کەمە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You could say you were ill but I don't think they'd buy it (= accept the explanation)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت بڵێیت نەخۆش بووم، بەڵام باوەڕ ناکەم باوەڕ بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuys10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuys10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You could say you were ill but I don't think they'd buy it (= accept the explanation).",
+                            kurdishText:
+                                "دەتوانیت بڵێیت نەخۆش بووم، بەڵام باوەڕ ناکەم باوەڕ بکەن.",
+                            onPressedBritish: () => speakbuys10("en-GB"),
+                            onPressedAmerican: () => speakbuys10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) شتێک کە شایەنی ئەو پارەیە کە بۆت داوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That jacket was a really good buy."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەو چاکەتە کڕینێکی باش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuys11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuys11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That jacket was a really good buy.",
+                            kurdishText: "ئەو چاکەتە کڕینێکی باش بوو.",
+                            onPressedBritish: () => speakbuys11("en-GB"),
+                            onPressedAmerican: () => speakbuys11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ناو) شتێک کە دەکڕدرێت یان بۆ فرۆشتنە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The club has made some great buys this season (= it has bought good new players)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یانەکە چەند کڕینێکی باشی ئەنجام داوە ئەم وەرزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuys12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuys12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The club has made some great buys this season (= it has bought good new players).",
+                            kurdishText:
+                                "یانەکە چەند کڕینێکی باشی ئەنجام داوە ئەم وەرزە.",
+                            onPressedBritish: () => speakbuys12("en-GB"),
+                            onPressedAmerican: () => speakbuys12("en-US"),
                           ),
                         ],
                       ),

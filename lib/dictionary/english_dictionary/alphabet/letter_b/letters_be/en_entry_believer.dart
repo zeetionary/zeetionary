@@ -152,61 +152,23 @@ class EnglishEntrybeliever extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە باوەڕی بە بوون یان ڕاستییەتی شتێک ھەیە، بەتایبەتی یەکێک کە باوەڕی بە بوونی خودا یان ئایینێک ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's been a believer since she survived a terrible car accident."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بووە بە باوەڕدارێک لەوەتەی لە ڕووداوێکی خراپ ڕزگاری بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelievers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelievers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's been a believer since she survived a terrible car accident.",
+                            kurdishText:
+                                "بووە بە باوەڕدارێک لەوەتەی لە ڕووداوێکی خراپ ڕزگاری بووە.",
+                            onPressedBritish: () => speakbelievers1("en-GB"),
+                            onPressedAmerican: () => speakbelievers1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm a great believer in allowing people to make their own mistakes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕدارێکی تەواوم بەوەی کە دەبێت ڕێگە بە خەڵکی دبرێت ھەڵەی خۆیان بکەن (تا لێیانەوە فێربن)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelievers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelievers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm a great believer in allowing people to make their own mistakes.",
+                            kurdishText:
+                                "باوەڕدارێکی تەواوم بەوەی کە دەبێت ڕێگە بە خەڵکی دبرێت ھەڵەی خۆیان بکەن (تا لێیانەوە فێربن).",
+                            onPressedBritish: () => speakbelievers2("en-GB"),
+                            onPressedAmerican: () => speakbelievers2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

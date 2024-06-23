@@ -150,31 +150,11 @@ class EnglishEntrybelatedly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە درەنگتر لە کاتی خۆی ڕوودەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He apologized belatedly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "درەنگ‌وەختە داوای لێبووردنی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelatedlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelatedlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He apologized belatedly.",
+                            kurdishText: "درەنگ‌وەختە داوای لێبووردنی کرد.",
+                            onPressedBritish: () => speakbelatedlys1("en-GB"),
+                            onPressedAmerican: () => speakbelatedlys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

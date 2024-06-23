@@ -167,163 +167,67 @@ class EnglishEntryaspect extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) یەک لایەنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book aims to cover all aspects of city life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە ئامانجیەتی ھەموو لایەنەکانی ژیانی شار باس‌بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaspect455("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspect455(
-                                        // REPLACE: aspect /ˈæspekt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book aims to cover all aspects of city life.",
+                            kurdishText:
+                                "کتێبەکە ئامانجیەتی ھەموو لایەنەکانی ژیانی شار باس‌بکات.",
+                            onPressedBritish: () => speakaspect455("en-GB"),
+                            onPressedAmerican: () => speakaspect455(
+                                // REPLACE: aspect /ˈæspekt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She felt she had looked at the problem from every aspect."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وای ھەست‌کرد لە ھەموو لایەنێکەوە لە کێشەکەی ڕوانیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaspect456("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspect456(
-                                        // REPLACE: aspect /ˈæspekt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She felt she had looked at the problem from every aspect.",
+                            kurdishText:
+                                "وای ھەست‌کرد لە ھەموو لایەنێکەوە لە کێشەکەی ڕوانیوە.",
+                            onPressedBritish: () => speakaspect456("en-GB"),
+                            onPressedAmerican: () => speakaspect456(
+                                // REPLACE: aspect /ˈæspekt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢ (ناو) شێوەی دەرکەوتنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The glasses and the beard lend him a rather scholarly aspect."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاویلکە و ڕیشەکەی ڕواڵەتی پسپۆڕێکیان پێ‌بەخشی‌بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaspect458("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspect458(
-                                        // REPLACE: aspect /ˈæspekt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The glasses and the beard lend him a rather scholarly aspect.",
+                            kurdishText:
+                                "چاویلکە و ڕیشەکەی ڕواڵەتی پسپۆڕێکیان پێ‌بەخشی‌بوو.",
+                            onPressedBritish: () => speakaspect458("en-GB"),
+                            onPressedAmerican: () => speakaspect458(
+                                // REPLACE: aspect /ˈæspekt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣ (ناو) ئەو ئاراستەیەی شتێک ڕووی تێکردووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Our room had a western aspect."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژوورەکەمان ڕووی لە ڕۆژئاوا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaspect500("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspect500(
-                                        // REPLACE: aspect /ˈæspekt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Our room had a western aspect.",
+                            kurdishText: "ژوورەکەمان ڕووی لە ڕۆژئاوا بوو.",
+                            onPressedBritish: () => speakaspect500("en-GB"),
+                            onPressedAmerican: () => speakaspect500(
+                                // REPLACE: aspect /ˈæspekt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤ (ناو) شێوەی کردارێک کە دەری‌دەخات ئایا یەک جار ڕوودەدات یان دووبارە و دووبارە، کە ئایا تەواو بووە یان ھێشتا بەردەوامە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In 'They were laughing', the verb is in the progressive aspect and shows that the action is continuing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕستەی 'They were laughing' کردارەکە لە شێوەی بەردەوامییە و دەرخەری ئەوەیە کارەکە ھێشتا بەرداوامە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaspect508("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspect508(
-                                        // REPLACE: aspect /ˈæspekt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In 'They were laughing', the verb is in the progressive aspect and shows that the action is continuing.",
+                            kurdishText:
+                                "لە ڕستەی 'They were laughing' کردارەکە لە شێوەی بەردەوامییە و دەرخەری ئەوەیە کارەکە ھێشتا بەرداوامە.",
+                            onPressedBritish: () => speakaspect508("en-GB"),
+                            onPressedAmerican: () => speakaspect508(
+                                // REPLACE: aspect /ˈæspekt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

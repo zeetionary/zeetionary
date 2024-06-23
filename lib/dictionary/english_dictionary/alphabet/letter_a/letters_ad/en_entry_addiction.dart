@@ -111,34 +111,15 @@ class EnglishEntryaddiction extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئاڵوودەیی بە شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is now fighting his addiction to alcohol."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئێستادا ھەوڵ دەدات کۆتایی بە ئاڵوودەییەکەی بە کحوول بھێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaddict2541("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaddict2541(
-                                        // REPLACE: addiction /əˈdɪkʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is now fighting his addiction to alcohol.",
+                            kurdishText:
+                                "لە ئێستادا ھەوڵ دەدات کۆتایی بە ئاڵوودەییەکەی بە کحوول بھێنێت.",
+                            onPressedBritish: () => speakaddict2541("en-GB"),
+                            onPressedAmerican: () => speakaddict2541(
+                                // REPLACE: addiction /əˈdɪkʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

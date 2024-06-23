@@ -152,94 +152,37 @@ class EnglishEntrybattered extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شتێکی کۆن کە زۆر بەکارھاتووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The battered car was still running, but it was barely roadworthy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلە شڕەکە ھێشتا بەڕێدا دەچوو، بەڵام بەئەستەم ھی ئەوە بوو بچێتە سەر شەقام."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbattereds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbattereds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The battered car was still running, but it was barely roadworthy.",
+                            kurdishText:
+                                "ئۆتۆمبێلە شڕەکە ھێشتا بەڕێدا دەچوو، بەڵام بەئەستەم ھی ئەوە بوو بچێتە سەر شەقام.",
+                            onPressedBritish: () => speakbattereds1("en-GB"),
+                            onPressedAmerican: () => speakbattereds1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) کەسێک کە ئازاری ھەیە بەھۆی لێدانی بەردەوام """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She set up a sanctuary for battered wives."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەناگەیەکی درووستکرد بۆ ئەو ژنانەی لێیاندراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbattereds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbattereds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She set up a sanctuary for battered wives.",
+                            kurdishText:
+                                "پەناگەیەکی درووستکرد بۆ ئەو ژنانەی لێیاندراوە.",
+                            onPressedBritish: () => speakbattereds2("en-GB"),
+                            onPressedAmerican: () => speakbattereds2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) شتێک کە لە دۆخێکی خراپدایە بەھۆی ھێرشی چەکەوە یان کەشوھەواوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Rockets and shells continued to hit the battered port."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆکێت و گوللەتۆپەوە بەردەوامبوون لە لێدان لە بەندەرە لەبەریەک‌ھەڵوەشاوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbattereds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbattereds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Rockets and shells continued to hit the battered port.",
+                            kurdishText:
+                                "ڕۆکێت و گوللەتۆپەوە بەردەوامبوون لە لێدان لە بەندەرە لەبەریەک‌ھەڵوەشاوەکە.",
+                            onPressedBritish: () => speakbattereds3("en-GB"),
+                            onPressedAmerican: () => speakbattereds3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

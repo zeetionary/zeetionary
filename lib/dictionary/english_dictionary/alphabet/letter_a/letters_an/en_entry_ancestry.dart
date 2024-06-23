@@ -156,65 +156,27 @@ class EnglishEntryancestry extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕەچەڵەکی کەسێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was able to trace his ancestry back over 1 000 years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیتوانی ڕەچەڵەکی بەدرێژایی ١٠٠٠ ساڵ بگێڕێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakancestry1520("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakancestry1520(
-                                        // REPLACE: ancestry /ˈænsestri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was able to trace his ancestry back over 1 000 years.",
+                            kurdishText:
+                                "دەیتوانی ڕەچەڵەکی بەدرێژایی ١٠٠٠ ساڵ بگێڕێتەوە.",
+                            onPressedBritish: () => speakancestry1520("en-GB"),
+                            onPressedAmerican: () => speakancestry1520(
+                                // REPLACE: ancestry /ˈænsestri/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "According to science, humans share a common ancestry with chimpanzees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەپێی زانست مرۆڤ و شیمپانزی ھەمان باوانی ھاوبەشیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakancestry4955("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakancestry4955(
-                                        // REPLACE: ancestry /ˈænsestri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "According to science, humans share a common ancestry with chimpanzees.",
+                            kurdishText:
+                                "بەپێی زانست مرۆڤ و شیمپانزی ھەمان باوانی ھاوبەشیان ھەیە.",
+                            onPressedBritish: () => speakancestry4955("en-GB"),
+                            onPressedAmerican: () => speakancestry4955(
+                                // REPLACE: ancestry /ˈænsestri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

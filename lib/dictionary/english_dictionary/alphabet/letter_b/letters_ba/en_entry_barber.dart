@@ -150,61 +150,22 @@ class EnglishEntrybarber extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە کاری بڕینی پرچی پیاوانە لەگەڵ کاری تاشین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He used to work as a barber."),
-                                    ExampleSentenceKurdish(
-                                        text: "جاران وەک سەرتاشێک کاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarbers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarbers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He used to work as a barber.",
+                            kurdishText: "جاران وەک سەرتاشێک کاری دەکرد.",
+                            onPressedBritish: () => speakbarbers1("en-GB"),
+                            onPressedAmerican: () => speakbarbers1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) سەرتاشخانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The barber was closed on Sundays."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرتاشخانەکە ڕۆژانی یەکشەممان داخراوبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarbers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarbers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The barber was closed on Sundays.",
+                            kurdishText:
+                                "سەرتاشخانەکە ڕۆژانی یەکشەممان داخراوبوو.",
+                            onPressedBritish: () => speakbarbers2("en-GB"),
+                            onPressedAmerican: () => speakbarbers2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

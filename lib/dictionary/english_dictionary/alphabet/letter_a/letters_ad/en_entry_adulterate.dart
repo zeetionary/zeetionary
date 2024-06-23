@@ -115,34 +115,15 @@ class EnglishEntryadulterate extends StatelessWidget {
                               text:
                                   "١. (کردار) پیسبوونی خواردن یان خواردنەوە بەھۆی زیادبوونی شتی تر بۆی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The water supply had been adulterated with chemicals from the soil."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرچاوەی ئاوەکە پیسبووە بە مادەی کیمیایی لە خاکەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadulte658134("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadulte658134(
-                                        // REPLACE: adulterate /əˈdʌltəreɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The water supply had been adulterated with chemicals from the soil.",
+                            kurdishText:
+                                "سەرچاوەی ئاوەکە پیسبووە بە مادەی کیمیایی لە خاکەکەوە.",
+                            onPressedBritish: () => speakadulte658134("en-GB"),
+                            onPressedAmerican: () => speakadulte658134(
+                                // REPLACE: adulterate /əˈdʌltəreɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

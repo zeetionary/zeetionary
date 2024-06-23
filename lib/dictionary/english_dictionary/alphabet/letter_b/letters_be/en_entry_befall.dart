@@ -148,90 +148,33 @@ class EnglishEntrybefall extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بەسەرداھاتن؛ ڕوودان بەسەر کەسێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were unaware of the fate that was to befall them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێ ئاگا بوون لەو چارەنووسەی بەسەریان دەھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbefalls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbefalls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were unaware of the fate that was to befall them.",
+                            kurdishText:
+                                "بێ ئاگا بوون لەو چارەنووسەی بەسەریان دەھات.",
+                            onPressedBritish: () => speakbefalls1("en-GB"),
+                            onPressedAmerican: () => speakbefalls1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Should any harm befall me on my journey, you may open this letter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر ھەر شتێکی خراپ ڕوویدا بەسەر گەشتەکەمدا، ئەتوانی ئەم نامەیە بکەیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbefalls2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbefalls2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Should any harm befall me on my journey, you may open this letter.",
+                            kurdishText:
+                                "ئەگەر ھەر شتێکی خراپ ڕوویدا بەسەر گەشتەکەمدا، ئەتوانی ئەم نامەیە بکەیتەوە.",
+                            onPressedBritish: () => speakbefalls2("en-GB"),
+                            onPressedAmerican: () => speakbefalls2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many natural disasters have befallen that region."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر ڕووداوی سرووشتی بەسەر ناوچەکە ھاتوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbefalls3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbefalls3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many natural disasters have befallen that region.",
+                            kurdishText:
+                                "زۆر ڕووداوی سرووشتی بەسەر ناوچەکە ھاتوون.",
+                            onPressedBritish: () => speakbefalls3("en-GB"),
+                            onPressedAmerican: () => speakbefalls3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

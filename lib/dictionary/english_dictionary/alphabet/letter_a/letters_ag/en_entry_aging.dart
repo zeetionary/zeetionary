@@ -113,65 +113,26 @@ class EnglishEntryaging extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) پڕۆسەی پیربوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are lots of skin care products which claim to halt the aging process."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆر پارێزەری پێسی ھەیە کە بانگەشەی ئەوە دەکەن تەمەنکردن بوەستێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaging35699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaging35699(
-                                        // REPLACE: aging (or aging) /ˈeɪdʒɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are lots of skin care products which claim to halt the aging process.",
+                            kurdishText:
+                                "ژمارەیەکی زۆر پارێزەری پێسی ھەیە کە بانگەشەی ئەوە دەکەن تەمەنکردن بوەستێنن.",
+                            onPressedBritish: () => speakaging35699("en-GB"),
+                            onPressedAmerican: () => speakaging35699(
+                                // REPLACE: aging (or aging) /ˈeɪdʒɪŋ/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پیربوون و لەدەستدانت توانا و تەندرووستی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He takes care of his aging mother."),
-                                    ExampleSentenceKurdish(
-                                        text: "چاودێری دایکە پیرەکەی دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaging148825("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaging148825(
-                                        // REPLACE: aging (or aging) /ˈeɪdʒɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He takes care of his aging mother.",
+                            kurdishText: "چاودێری دایکە پیرەکەی دەکات.",
+                            onPressedBritish: () => speakaging148825("en-GB"),
+                            onPressedAmerican: () => speakaging148825(
+                                // REPLACE: aging (or aging) /ˈeɪdʒɪŋ/
+                                "en-US"),
                           ),
                         ],
                       ),

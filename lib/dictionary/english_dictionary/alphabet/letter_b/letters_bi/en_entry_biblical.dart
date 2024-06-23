@@ -148,63 +148,25 @@ class EnglishEntrybiblical extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پەیوەندیدار بە ئینجیل، کتێبی پیرۆزی ئایینی مەسیحییەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They named their son Isaac after the biblical figure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکەیان ناونا ئیسحاق بەناوی ئەو کەسایەتییەی ئینجیلەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiblicals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiblicals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They named their son Isaac after the biblical figure.",
+                            kurdishText:
+                                "منداڵەکەیان ناونا ئیسحاق بەناوی ئەو کەسایەتییەی ئینجیلەوە.",
+                            onPressedBritish: () => speakbiblicals1("en-GB"),
+                            onPressedAmerican: () => speakbiblicals1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) زۆر گەورە؛ بە ئاستێکی زۆر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After rain of biblical proportions, the match was cancelled."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای باران بارین بە ئاستێکی زۆر، یارییەکە ھەڵوەشێندرایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiblicals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiblicals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After rain of biblical proportions, the match was cancelled.",
+                            kurdishText:
+                                "لە دوای باران بارین بە ئاستێکی زۆر، یارییەکە ھەڵوەشێندرایەوە.",
+                            onPressedBritish: () => speakbiblicals2("en-GB"),
+                            onPressedAmerican: () => speakbiblicals2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

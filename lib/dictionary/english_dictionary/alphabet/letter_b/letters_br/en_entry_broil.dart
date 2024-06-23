@@ -140,61 +140,23 @@ class EnglishEntrybroil extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) برژاندنی گۆشت و ماسی لەسەر ئاگر یان بە شیش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'll broil the chicken rather than fry it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆشتەکە دەبرژێنم لەجیاتی ئەوەی سووری بکەمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broil" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroils1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroils1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'll broil the chicken rather than fry it.",
+                            kurdishText:
+                                "گۆشتەکە دەبرژێنم لەجیاتی ئەوەی سووری بکەمەوە.", // broil" as
+                            onPressedBritish: () => speakbroils1("en-GB"),
+                            onPressedAmerican: () => speakbroils1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) وا لە کەسێک بکەیت گەرمای ببێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They lay broiling in the sun."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بەر خۆرەکە ڕاکشابوون و گەرمایان دەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroils2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroils2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They lay broiling in the sun.",
+                            kurdishText:
+                                "لە بەر خۆرەکە ڕاکشابوون و گەرمایان دەبوو.",
+                            onPressedBritish: () => speakbroils2("en-GB"),
+                            onPressedAmerican: () => speakbroils2("en-US"),
                           ),
                         ],
                       ),

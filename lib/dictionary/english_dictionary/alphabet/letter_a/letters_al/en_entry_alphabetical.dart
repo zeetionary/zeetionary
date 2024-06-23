@@ -111,35 +111,16 @@ class EnglishEntryalphabetical extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) بە ئەلفوبێیی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The names on the list are in alphabetical order."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوەکان لە لیستەکەدا بە ڕیزبەندین (ئەلفوبێن)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalphabetical365("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalphabetical365(
-                                        // REPLACE: alphabetical /ˌælfəˈbetɪkl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The names on the list are in alphabetical order.",
+                            kurdishText:
+                                "ناوەکان لە لیستەکەدا بە ڕیزبەندین (ئەلفوبێن).",
+                            onPressedBritish: () =>
+                                speakalphabetical365("en-GB"),
+                            onPressedAmerican: () => speakalphabetical365(
+                                // REPLACE: alphabetical /ˌælfəˈbetɪkl/
+                                "en-US"),
                           ),
                         ],
                       ),

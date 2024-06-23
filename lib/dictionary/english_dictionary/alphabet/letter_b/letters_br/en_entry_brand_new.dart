@@ -145,60 +145,21 @@ class EnglishEntrybrandnew extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) تەواو تازە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How can he afford to buy himself a brand new car?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن دەتوانێت ئۆتۆمبێلێکی تەواو تازە بکڕێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrandnews1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrandnews1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How can he afford to buy himself a brand new car?",
+                            kurdishText:
+                                "چۆن دەتوانێت ئۆتۆمبێلێکی تەواو تازە بکڕێت؟",
+                            onPressedBritish: () => speakbrandnews1("en-GB"),
+                            onPressedAmerican: () => speakbrandnews1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her coat looked as if it was brand new."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاڵتاوەکەی وادیاربوو تەواو تازە بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrandnews2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrandnews2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her coat looked as if it was brand new.",
+                            kurdishText: "پاڵتاوەکەی وادیاربوو تەواو تازە بێت.",
+                            onPressedBritish: () => speakbrandnews2("en-GB"),
+                            onPressedAmerican: () => speakbrandnews2("en-US"),
                           ),
                         ],
                       ),

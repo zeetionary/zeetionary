@@ -152,94 +152,36 @@ class EnglishEntrybeaver extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئاژەڵیک کە کلکێکی بڵاو و پانی ھەیە لەگەڵ ددانی بەھێز. ئاژەڵەکە لە ئاو و وشکانی دەژی و دەتوانێت بەربەست لە ئاودا درووست بکات کە لە دار و قوڕ درووست کرابێت. ئاژەڵەکە سمبولی فەرمی کەنەدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Beavers are excellent swimmers and use their broad, flat tails to propel themselves through the water."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگاوی مەلەوانی زۆر باشە و کلکە پان و بڵاوەکەیان بەکاردێنن بۆ ئەوەی پاڵی خۆیان بنێن لە ئاودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeavers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeavers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Beavers are excellent swimmers and use their broad, flat tails to propel themselves through the water.",
+                            kurdishText:
+                                "سەگاوی مەلەوانی زۆر باشە و کلکە پان و بڵاوەکەیان بەکاردێنن بۆ ئەوەی پاڵی خۆیان بنێن لە ئاودا.",
+                            onPressedBritish: () => speakbeavers1("en-GB"),
+                            onPressedAmerican: () => speakbeavers1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) فەرووی سەگاوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the past, beaver fur was used to make hats, coats, and other garments."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران فەرووی سەگاوی بەکاردەھات بۆ درووستکردنی کڵاو و پاڵتاو و جلوبەرگی تر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeavers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeavers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the past, beaver fur was used to make hats, coats, and other garments.",
+                            kurdishText:
+                                "جاران فەرووی سەگاوی بەکاردەھات بۆ درووستکردنی کڵاو و پاڵتاو و جلوبەرگی تر.",
+                            onPressedBritish: () => speakbeavers2("en-GB"),
+                            onPressedAmerican: () => speakbeavers2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ناوچەی دەوری ئەندامی زاوزێی ژنان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was staring at her beaver the whole time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ماوەکە سەیری عەورەتی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeavers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeavers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was staring at her beaver the whole time.",
+                            kurdishText: "تەواوی ماوەکە سەیری عەورەتی دەکرد.",
+                            onPressedBritish: () => speakbeavers3("en-GB"),
+                            onPressedAmerican: () => speakbeavers3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -151,67 +151,26 @@ class EnglishEntrybattlefield extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شوێنی ڕوودانی شەڕی نێوان دوو سوپا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was wounded on the battlefield."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە مەیدانی شەڕدا بریندار کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbattlefields1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbattlefields1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was wounded on the battlefield.",
+                            kurdishText: "لە مەیدانی شەڕدا بریندار کرا.",
+                            onPressedBritish: () => speakbattlefields1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbattlefields1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دۆخێک یان بابەتێک کە تێیدا خەڵکی دژ بە یەکن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The issue has become a political battlefield in recent years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بابەتەکە بووە بە ئامرازێکی سیاسی لەم ساڵانەی دواییدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbattlefields2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbattlefields2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The issue has become a political battlefield in recent years.",
+                            kurdishText:
+                                "بابەتەکە بووە بە ئامرازێکی سیاسی لەم ساڵانەی دواییدا.",
+                            onPressedBritish: () => speakbattlefields2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbattlefields2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -149,91 +149,33 @@ class EnglishEntrybreadline extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەمترین بڕی داھات کە ژیان پێی بەڕێوەدەچێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many people without jobs are living on the breadline (= are very poor)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر خەڵک لە ھێڵی ھەژاریدا دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreadlines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreadlines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many people without jobs are living on the breadline (= are very poor).",
+                            kurdishText: "زۆر خەڵک لە ھێڵی ھەژاریدا دەژین.",
+                            onPressedBritish: () => speakbreadlines1("en-GB"),
+                            onPressedAmerican: () => speakbreadlines1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most students are on/close to/below the breadline."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر خوێندکار لە/نزیک لە/لە ژێر ھێڵی ھەژاریدا دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreadlines2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreadlines2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most students are on/close to/below the breadline.",
+                            kurdishText:
+                                "زۆر خوێندکار لە/نزیک لە/لە ژێر ھێڵی ھەژاریدا دەژین.",
+                            onPressedBritish: () => speakbreadlines2("en-GB"),
+                            onPressedAmerican: () => speakbreadlines2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ژمارەیەک خەڵک کە ڕیزیان بەستووە لە شوێنێک بۆ ئەوەی خواردنیان پێ بدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You'll see breadlines outside many New York churches at lunchtime."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتی نانی نیوەڕۆدا زۆر ڕیزی خێروەرگران دەبینیت لە دەرەوەی کڵێساکان لە نیویۆرک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreadlines3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreadlines3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You'll see breadlines outside many New York churches at lunchtime.",
+                            kurdishText:
+                                "لە کاتی نانی نیوەڕۆدا زۆر ڕیزی خێروەرگران دەبینیت لە دەرەوەی کڵێساکان لە نیویۆرک.",
+                            onPressedBritish: () => speakbreadlines3("en-GB"),
+                            onPressedAmerican: () => speakbreadlines3("en-US"),
                           ),
                         ],
                       ),

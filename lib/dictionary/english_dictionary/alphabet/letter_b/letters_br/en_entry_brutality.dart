@@ -145,63 +145,23 @@ class EnglishEntrybrutality extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ھەڵسوکەوتی دڕندانە و توندوتیژانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The brutality of the dictator's regime shocked the international community."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڕندەیی ڕژێمی دیکتاتۆرەکە کۆمەڵگەی نێودەوڵەتی حەپەساند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brutality" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutalitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutalitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The brutality of the dictator's regime shocked the international community.",
+                            kurdishText:
+                                "دڕندەیی ڕژێمی دیکتاتۆرەکە کۆمەڵگەی نێودەوڵەتی حەپەساند.", // brutality" as
+                            onPressedBritish: () => speakbrutalitys1("en-GB"),
+                            onPressedAmerican: () => speakbrutalitys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕوون و ئاشکرا لەسەر شتێکی ناخۆش؛ بەبێ گرنگیدان بە ھەستی خەڵکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The comedian's humor had brutality."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گاڵتەکانی کۆمیدیانەکە توند بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutalitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutalitys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The comedian's humor had brutality.",
+                            kurdishText: "گاڵتەکانی کۆمیدیانەکە توند بوون.",
+                            onPressedBritish: () => speakbrutalitys2("en-GB"),
+                            onPressedAmerican: () => speakbrutalitys2("en-US"),
                           ),
                         ],
                       ),

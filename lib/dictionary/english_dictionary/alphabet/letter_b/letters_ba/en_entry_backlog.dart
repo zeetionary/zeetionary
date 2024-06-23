@@ -157,34 +157,15 @@ class EnglishEntrybacklog extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژمارەیەک کار کە دەبوو پێشتر بکرابان، بەڵام ھێشتا نەکراون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When she eventually returned to work, there was a tremendous backlog of paperwork to catch up on."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتێک لە کۆتاییدا گەڕایەوە سەر کار، ژمارەیەکی زۆر کەڵەکەبوونی کاغەزکاری ھەبوو کە دەبوو پێی ڕابگات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s1(// REPLACE: backlog
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When she eventually returned to work, there was a tremendous backlog of paperwork to catch up on.",
+                            kurdishText:
+                                "کاتێک لە کۆتاییدا گەڕایەوە سەر کار، ژمارەیەکی زۆر کەڵەکەبوونی کاغەزکاری ھەبوو کە دەبوو پێی ڕابگات.",
+                            onPressedBritish: () => speakb3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s1(// REPLACE: backlog
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

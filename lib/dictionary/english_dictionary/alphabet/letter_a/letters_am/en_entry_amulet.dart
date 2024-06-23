@@ -157,34 +157,15 @@ class EnglishEntryamulet extends StatelessWidget {
                               text:
                                   "١. (ناو) خشڵێک کە کەسێک دەیبەستێت‌ لەخۆی چونکە باوەڕی وایە لە خراپە دەیپارێزێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The child was wearing a shiny amulet around his neck for good luck."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکە چاوەزارێکی لە دەوری ملی بەستبوو بۆ ھێنانی بەختی باش."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamulet44018("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamulet44018(
-                                        // REPLACE: amulet /ˈæmjʊlət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The child was wearing a shiny amulet around his neck for good luck.",
+                            kurdishText:
+                                "منداڵەکە چاوەزارێکی لە دەوری ملی بەستبوو بۆ ھێنانی بەختی باش.",
+                            onPressedBritish: () => speakamulet44018("en-GB"),
+                            onPressedAmerican: () => speakamulet44018(
+                                // REPLACE: amulet /ˈæmjʊlət/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -179,34 +179,13 @@ class EnglishEntryamicable extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) بە ھاوڕێیانە و بێ‌مشتومڕ" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An amicable settlement was reached."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتنێکی بێ‌مشتومڕ بەدەستھێنرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamicable4477("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamicable4477(
-                                        // REPLACE: amicable /ˈæmɪkəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "An amicable settlement was reached.",
+                            kurdishText: "ڕێککەوتنێکی بێ‌مشتومڕ بەدەستھێنرا.",
+                            onPressedBritish: () => speakamicable4477("en-GB"),
+                            onPressedAmerican: () => speakamicable4477(
+                                // REPLACE: amicable /ˈæmɪkəbl/
+                                "en-US"),
                           ),
                         ],
                       ),

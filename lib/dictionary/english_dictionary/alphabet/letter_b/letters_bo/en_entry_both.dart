@@ -254,203 +254,66 @@ class EnglishEntryboth extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (پێشناو، جێناو) لەگەڵ ناوی کۆ بەکاردێت بۆ ئاماژە بە دوو شت، یان بە شتێک و شتێکی تریش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Both women were French."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەردوو ژنەکە فەرەنسی بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboths1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Both women were French.",
+                            kurdishText: "ھەردوو ژنەکە فەرەنسی بوون.",
+                            onPressedBritish: () => speakboths1("en-GB"),
+                            onPressedAmerican: () => speakboths1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Both the women were French."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەردوو ژنەکە فەرەنسی بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboths2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboths2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Both the women were French.",
+                            kurdishText: "ھەردوو ژنەکە فەرەنسی بوون.",
+                            onPressedBritish: () => speakboths2("en-GB"),
+                            onPressedAmerican: () => speakboths2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Both of the women were French."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەردوو ژنەکە فەرەنسی بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboths3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboths3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Both of the women were French.",
+                            kurdishText: "ھەردوو ژنەکە فەرەنسی بوون.",
+                            onPressedBritish: () => speakboths3("en-GB"),
+                            onPressedAmerican: () => speakboths3("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text: "I liked them both."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "حەزم لە ھەردووکیان بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboths4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboths4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "I liked them both.",
+                                    kurdishText: "حەزم لە ھەردووکیان بوو.",
+                                    onPressedBritish: () =>
+                                        speakboths4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboths4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text: "Both of us were tired."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەردووکمان ماندوو بووین."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboths5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboths5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "Both of us were tired.",
+                                    kurdishText: "ھەردووکمان ماندوو بووین.",
+                                    onPressedBritish: () =>
+                                        speakboths5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboths5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We have both seen the movie."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەردووکمان فیلمەکەمان دیوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboths6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboths6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "We have both seen the movie.",
+                                    kurdishText: "ھەردووکمان فیلمەکەمان دیوە.",
+                                    onPressedBritish: () =>
+                                        speakboths6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboths6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She has written two novels, both of which have been made into television series."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دوو ڕۆمانی نووسیوە، ھەردووکیان کراون بە درامای تەلەفیزیۆنی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakboths7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakboths7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She has written two novels, both of which have been made into television series.",
+                                    kurdishText:
+                                        "دوو ڕۆمانی نووسیوە، ھەردووکیان کراون بە درامای تەلەفیزیۆنی.",
+                                    onPressedBritish: () =>
+                                        speakboths7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakboths7("en-US"),
                                   ),
                                 ],
                               ),

@@ -145,93 +145,36 @@ class EnglishEntrybridle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ژمارەیەک لەتە پەڕۆ کە لە جڵەوی ملی ئەسپێک دەبەسترێت لە سەری ئەسپدا بۆ کۆنترۆڵکردنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She held his stirrup for him while Adam took the bridle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کچەکە ئاوزەنگەکەی بۆ گرتبوو لەکاتێکدا ئادەم ھەوسارەکەی بۆ گرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bridle" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She held his stirrup for him while Adam took the bridle.",
+                            kurdishText:
+                                "کچەکە ئاوزەنگەکەی بۆ گرتبوو لەکاتێکدا ئادەم ھەوسارەکەی بۆ گرتبوو.", // bridle" as
+                            onPressedBritish: () => speakbridles1("en-GB"),
+                            onPressedAmerican: () => speakbridles1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) دانانی ھەوسار لە دەوری سەری ئەسپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Polly saddled and bridled her favourite horse."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆڵی زین و ھەوساری لە ئەسپی دڵخوازی پۆشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Polly saddled and bridled her favourite horse.",
+                            kurdishText:
+                                "پۆڵی زین و ھەوساری لە ئەسپی دڵخوازی پۆشی.",
+                            onPressedBritish: () => speakbridles2("en-GB"),
+                            onPressedAmerican: () => speakbridles2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) تووڕەبوونی لەناکاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She bridled at the suggestion that she was lying."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تووڕەبوو بەو بۆچوونەی کە کچەکە درۆی کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She bridled at the suggestion that she was lying.",
+                            kurdishText:
+                                "تووڕەبوو بەو بۆچوونەی کە کچەکە درۆی کردووە.",
+                            onPressedBritish: () => speakbridles3("en-GB"),
+                            onPressedAmerican: () => speakbridles3("en-US"),
                           ),
                         ],
                       ),

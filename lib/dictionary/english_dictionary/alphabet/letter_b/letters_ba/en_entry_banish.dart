@@ -158,67 +158,29 @@ class EnglishEntrybanish extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) دوورخستنەوەی کەسێک لە شوێنێک یان وڵاتێک وەک سزا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was banished to Australia, where he died five years later."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوورخرایەوە بە ئوسترالیا، شوێنێک کە دوای پێنج ساڵ تێیدا مرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanishs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanishs1(// REPLACE: banish
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was banished to Australia, where he died five years later.",
+                            kurdishText:
+                                "دوورخرایەوە بە ئوسترالیا، شوێنێک کە دوای پێنج ساڵ تێیدا مرد.",
+                            onPressedBritish: () => speakbanishs1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanishs1(// REPLACE: banish
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) وا لە شتێک بکەیت نەمێنێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sight of food banished all other thoughts from my mind."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیمەنی خواردن ھەموو بیرێکی تری لە مێشکی دەرکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanishs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanishs2(// REPLACE: banish
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sight of food banished all other thoughts from my mind.",
+                            kurdishText:
+                                "دیمەنی خواردن ھەموو بیرێکی تری لە مێشکی دەرکرد.",
+                            onPressedBritish: () => speakbanishs2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanishs2(// REPLACE: banish
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -115,34 +115,15 @@ class EnglishEntryaftermath extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) دەرئەنجامی ڕووداوێک یان جەنگ" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The president visited the region in the immediate aftermath of the disaster."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک سەردانی ھەرێمەکەی کرد لە دەرئەنجامی کارەساتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafterm92483("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafterm92483(
-                                        // REPLACE: aftermath /ˈɑːftərmæθ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The president visited the region in the immediate aftermath of the disaster.",
+                            kurdishText:
+                                "سەرۆک سەردانی ھەرێمەکەی کرد لە دەرئەنجامی کارەساتەکە.",
+                            onPressedBritish: () => speakafterm92483("en-GB"),
+                            onPressedAmerican: () => speakafterm92483(
+                                // REPLACE: aftermath /ˈɑːftərmæθ/
+                                "en-US"),
                           ),
                         ],
                       ),

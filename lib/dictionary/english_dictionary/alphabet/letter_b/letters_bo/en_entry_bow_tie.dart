@@ -145,32 +145,13 @@ class EnglishEntrybowtie extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بۆینباخێکی پیاوانە کە لە ملدا دەبەسترێت و شۆڕنابێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wore a stylish black bow tie to the gala."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆینباخێکی جوانی ڕەشی بەست بۆ میھرەجانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowties1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowties1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wore a stylish black bow tie to the gala.",
+                            kurdishText:
+                                "بۆینباخێکی جوانی ڕەشی بەست بۆ میھرەجانەکە.",
+                            onPressedBritish: () => speakbowties1("en-GB"),
+                            onPressedAmerican: () => speakbowties1("en-US"),
                           ),
                         ],
                       ),

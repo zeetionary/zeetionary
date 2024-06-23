@@ -114,34 +114,15 @@ class EnglishEntryadvertising extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چالاکی یان پیشەسازی ڕیکلامکرن" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Paid advertising on social media is an assured way to reach out to customers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕیکلامکردن لەسەر سۆشیال میدیا ڕێگایەکی زۆرباشە بۆ گەشتن بە کڕیاران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadver2537("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadver2537(
-                                        // REPLACE: advertising /ˈædvərtaɪzɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Paid advertising on social media is an assured way to reach out to customers.",
+                            kurdishText:
+                                "ڕیکلامکردن لەسەر سۆشیال میدیا ڕێگایەکی زۆرباشە بۆ گەشتن بە کڕیاران.",
+                            onPressedBritish: () => speakadver2537("en-GB"),
+                            onPressedAmerican: () => speakadver2537(
+                                // REPLACE: advertising /ˈædvərtaɪzɪŋ/
+                                "en-US"),
                           ),
                         ],
                       ),

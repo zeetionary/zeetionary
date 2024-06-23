@@ -164,35 +164,16 @@ class EnglishEntryapologetically extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە پیشانی دەدات پەشیمانیت بۆ شتێکی ھەڵە کە کردووتە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘I'm sorry I'm late,’ he murmured apologetically."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە پەشیمانییەوە چرپاندی 'ببوورە کە دواکەوتووم'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapologetically512("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapologetically512(
-                                        // REPLACE: apologetically /əˌpɑːləˈdʒetɪkli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘I'm sorry I'm late,’ he murmured apologetically.",
+                            kurdishText:
+                                "بە پەشیمانییەوە چرپاندی 'ببوورە کە دواکەوتووم'.",
+                            onPressedBritish: () =>
+                                speakapologetically512("en-GB"),
+                            onPressedAmerican: () => speakapologetically512(
+                                // REPLACE: apologetically /əˌpɑːləˈdʒetɪkli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -160,35 +160,16 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) یەکێک لە ھێڵەکانی درێژی کە بە نزیکەیی ٧٠ پلە لە باشووری زەوییە و دەوری خولگەی جەمسەری باشووری داوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Penguins live near the Antarctic Circle where it's very cold."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنگوینەکان نزیک لە سووڕگەی ئەنتارکتیک دەژین کە زۆر ساردە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantarcticcircle156("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantarcticcircle156(
-                                        // REPLACE: Antarctic Circle /ði ænˌtɑːrktɪk ˈsɜːekl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Penguins live near the Antarctic Circle where it's very cold.",
+                            kurdishText:
+                                "پەنگوینەکان نزیک لە سووڕگەی ئەنتارکتیک دەژین کە زۆر ساردە.",
+                            onPressedBritish: () =>
+                                speakantarcticcircle156("en-GB"),
+                            onPressedAmerican: () => speakantarcticcircle156(
+                                // REPLACE: Antarctic Circle /ði ænˌtɑːrktɪk ˈsɜːekl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

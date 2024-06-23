@@ -146,31 +146,11 @@ class EnglishEntrybiceps extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ماسوولکەی سەرەکی پێشەوەی بەشی سەرەوەی باڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He showed off his bulging biceps."),
-                                    ExampleSentenceKurdish(
-                                        text: "عەزەڵاتە پڕەکەی دەرخست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbicepss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbicepss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He showed off his bulging biceps.",
+                            kurdishText: "عەزەڵاتە پڕەکەی دەرخست.",
+                            onPressedBritish: () => speakbicepss1("en-GB"),
+                            onPressedAmerican: () => speakbicepss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

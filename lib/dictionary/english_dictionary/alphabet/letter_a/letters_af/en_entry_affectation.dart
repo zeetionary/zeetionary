@@ -114,64 +114,25 @@ class EnglishEntryaffectation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) گفت و ڕەفتار کە سرووشتی نییە و ئامانج لێی ئەوەیە کەسانی تر سەرسام بکەی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has many annoying little affectations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆر مەکربازیی بچووکی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffecta25699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffecta25699(
-                                        // REPLACE: affectation /ˌæfekˈteɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has many annoying little affectations.",
+                            kurdishText: "ژمارەیەکی زۆر مەکربازیی بچووکی ھەیە.",
+                            onPressedBritish: () => speakaffecta25699("en-GB"),
+                            onPressedAmerican: () => speakaffecta25699(
+                                // REPLACE: affectation /ˌæfekˈteɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He raised his eyebrows with an affectation of surprise (= pretending to be surprised)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "برۆیەکانی بەرزکردەوە بە خۆنواندنی ئەوەی کە سەرسامە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffect6277("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffect6277(
-                                        // REPLACE: affectation /ˌæfekˈteɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He raised his eyebrows with an affectation of surprise (= pretending to be surprised).",
+                            kurdishText:
+                                "برۆیەکانی بەرزکردەوە بە خۆنواندنی ئەوەی کە سەرسامە.",
+                            onPressedBritish: () => speakaffect6277("en-GB"),
+                            onPressedAmerican: () => speakaffect6277(
+                                // REPLACE: affectation /ˌæfekˈteɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

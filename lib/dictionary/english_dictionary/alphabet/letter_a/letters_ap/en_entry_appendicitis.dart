@@ -164,35 +164,16 @@ class EnglishEntryappendicitis extends StatelessWidget {
                               text:
                                   "١. (ناو) دۆخێکی تەندرووستی کە تێیدا پەلەڕیخۆڵە تووشی ئازار و ھەوکردن دەبێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The doctor has cured numerous people of appendicitis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دکتۆرەکە ژمارەیەکی زۆر نەخۆشی ھەوکردنی پەلەڕیخۆڵەی چارەسەرکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappendicitis142("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappendicitis142(
-                                        // REPLACE: appendicitis /əˌpendəˈsaɪtɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The doctor has cured numerous people of appendicitis.",
+                            kurdishText:
+                                "دکتۆرەکە ژمارەیەکی زۆر نەخۆشی ھەوکردنی پەلەڕیخۆڵەی چارەسەرکردووە.",
+                            onPressedBritish: () =>
+                                speakappendicitis142("en-GB"),
+                            onPressedAmerican: () => speakappendicitis142(
+                                // REPLACE: appendicitis /əˌpendəˈsaɪtɪs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

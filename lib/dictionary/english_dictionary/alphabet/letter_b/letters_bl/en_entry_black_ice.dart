@@ -148,32 +148,13 @@ class EnglishEntryblackice extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) توێژی باریکی سەھۆڵ لەسەر ڕێگا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Motorists have been warned about black ice on the roads."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆفێران ئاگادارکراونەتەوە سەبارەت بە سەھۆڵەڕيشە لەسەر ڕێگاکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackices1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackices1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Motorists have been warned about black ice on the roads.",
+                            kurdishText:
+                                "شۆفێران ئاگادارکراونەتەوە سەبارەت بە سەھۆڵەڕيشە لەسەر ڕێگاکان.",
+                            onPressedBritish: () => speakblackices1("en-GB"),
+                            onPressedAmerican: () => speakblackices1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

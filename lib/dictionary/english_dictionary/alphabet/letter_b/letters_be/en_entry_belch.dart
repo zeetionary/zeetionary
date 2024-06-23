@@ -150,94 +150,35 @@ class EnglishEntrybelch extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) قرقێنە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wiped his hand across his mouth, then belched loudly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی نا بە دەمییەوە و قرقێنەیەکی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelchs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelchs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wiped his hand across his mouth, then belched loudly.",
+                            kurdishText:
+                                "دەستی نا بە دەمییەوە و قرقێنەیەکی دا.",
+                            onPressedBritish: () => speakbelchs1("en-GB"),
+                            onPressedAmerican: () => speakbelchs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) دەردانی ڕێژەیەکی زۆر لە شتێک (دووکەڵ، بڵێسە، ھتد)"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The exhaust pipe belched out dense black smoke."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لوولەی ئەکسۆزەکە ڕێژەیەکی زۆر لە دووکەڵی چڕی دەردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelchs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelchs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The exhaust pipe belched out dense black smoke.",
+                            kurdishText:
+                                "لوولەی ئەکسۆزەکە ڕێژەیەکی زۆر لە دووکەڵی چڕی دەردا.",
+                            onPressedBritish: () => speakbelchs2("en-GB"),
+                            onPressedAmerican: () => speakbelchs2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) قرقێنە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He sat back and gave a loud belch."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاڵیدایەوە و قرقێنەیەکی بەرزی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelchs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelchs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He sat back and gave a loud belch.",
+                            kurdishText: "پاڵیدایەوە و قرقێنەیەکی بەرزی دا.",
+                            onPressedBritish: () => speakbelchs3("en-GB"),
+                            onPressedAmerican: () => speakbelchs3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

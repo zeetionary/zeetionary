@@ -155,35 +155,15 @@ class EnglishEntryanaerobic extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ناپێویست بە ئۆکسجین" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some bacteria can only live in anaerobic conditions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک بەکتریا تەنھا لە شوێنی بێ‌ئۆکسجیندا دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanaerobic0896("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanaerobic0896(
-                                        // REPLACE: anaerobic /ˌænəˈrəʊbɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some bacteria can only live in anaerobic conditions.",
+                            kurdishText:
+                                "ھەندێک بەکتریا تەنھا لە شوێنی بێ‌ئۆکسجیندا دەژین.",
+                            onPressedBritish: () => speakanaerobic0896("en-GB"),
+                            onPressedAmerican: () => speakanaerobic0896(
+                                // REPLACE: anaerobic /ˌænəˈrəʊbɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -114,34 +114,15 @@ class EnglishEntryaground extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) کاتێک کەشتییەک بنکەکەی لە بنی دەریا دەدات بەھۆی ئەوەی قووڵی کەمە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The oil tanker ran/went aground off the Spanish coast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشتییە نەوتییەکە چەقی لە کەناراوەکانی ئیسپانیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagro3441("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagro3441(
-                                        // REPLACE: aground /əˈɡraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The oil tanker ran/went aground off the Spanish coast.",
+                            kurdishText:
+                                "کەشتییە نەوتییەکە چەقی لە کەناراوەکانی ئیسپانیا.",
+                            onPressedBritish: () => speakagro3441("en-GB"),
+                            onPressedAmerican: () => speakagro3441(
+                                // REPLACE: aground /əˈɡraʊnd/
+                                "en-US"),
                           ),
                         ],
                       ),

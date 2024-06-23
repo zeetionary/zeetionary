@@ -112,98 +112,41 @@ class EnglishEntryadminister extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بەڕێوەبردنی کۆمپانیایەک، دامەزراوەیەک، یان وڵاتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country has to face up to the high cost of administering medical services."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتەکە دەبێت مامەڵە لەگەڵ بەرزی نرخی بەڕێوەبردنی خزمەتگوزارییە تەندرووستییەکان بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmini75988("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmini75988(
-                                        // REPLACE: administer /ədˈmɪnɪstər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The country has to face up to the high cost of administering medical services.",
+                            kurdishText:
+                                "وڵاتەکە دەبێت مامەڵە لەگەڵ بەرزی نرخی بەڕێوەبردنی خزمەتگوزارییە تەندرووستییەکان بکات.",
+                            onPressedBritish: () => speakadmini75988("en-GB"),
+                            onPressedAmerican: () => speakadmini75988(
+                                // REPLACE: administer /ədˈmɪnɪstər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) دڵنیاییکردنی ئەوەی شتێک بەشێوەیەکی دادپەروەرانە دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is the function of the courts to administer the laws which Parliament has enacted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەرکی دادگاکانە ئەو یاسایانە جێبەجێبکەن کە پەرلەمان تێیپەڕاندوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmin2568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmin2568(
-                                        // REPLACE: administer /ədˈmɪnɪstər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is the function of the courts to administer the laws which Parliament has enacted.",
+                            kurdishText:
+                                "ئەرکی دادگاکانە ئەو یاسایانە جێبەجێبکەن کە پەرلەمان تێیپەڕاندوون.",
+                            onPressedBritish: () => speakadmin2568("en-GB"),
+                            onPressedAmerican: () => speakadmin2568(
+                                // REPLACE: administer /ədˈmɪnɪstər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) پێدانی شتێک بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A taxi driver administered first aid to the victims."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆفێری تەکسییەک فریاگوزاری سەرەتایی بۆ قوربانیان ئەنجامدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadm2564("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadm2564(
-                                        // REPLACE: administer /ədˈmɪnɪstər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A taxi driver administered first aid to the victims.",
+                            kurdishText:
+                                "شۆفێری تەکسییەک فریاگوزاری سەرەتایی بۆ قوربانیان ئەنجامدا.",
+                            onPressedBritish: () => speakadm2564("en-GB"),
+                            onPressedAmerican: () => speakadm2564(
+                                // REPLACE: administer /ədˈmɪnɪstər/
+                                "en-US"),
                           ),
                         ],
                       ),

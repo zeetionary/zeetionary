@@ -150,66 +150,26 @@ class EnglishEntryblackmarket extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شێوەی نایاسایی بازرگانی کە تێیدا پارەی بیانی یان ئەو کەلوپەلانەی ئاسان دەستناکەون کڕین و فرۆشتنیان پێوە دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can buy anything you needed on the black market."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانی ھەر شتێک کە دەتەوێت بیکڕی لە بازاڕی ڕەشدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakblackmarkets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakblackmarkets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can buy anything you needed on the black market.",
+                            kurdishText:
+                                "دەتوانی ھەر شتێک کە دەتەوێت بیکڕی لە بازاڕی ڕەشدا.",
+                            onPressedBritish: () => speakblackmarkets1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakblackmarkets1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "During the war, there was a thriving black market in food."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتی جەنگەکەدا بازاری ڕەشی بەبرەو ھەبوو بۆ خۆراک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakblackmarkets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakblackmarkets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "During the war, there was a thriving black market in food.",
+                            kurdishText:
+                                "لە کاتی جەنگەکەدا بازاری ڕەشی بەبرەو ھەبوو بۆ خۆراک.",
+                            onPressedBritish: () => speakblackmarkets2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakblackmarkets2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

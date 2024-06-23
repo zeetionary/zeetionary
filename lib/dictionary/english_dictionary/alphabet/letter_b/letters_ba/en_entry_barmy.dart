@@ -149,30 +149,11 @@ class EnglishEntrybarmy extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) کەمێک بێزار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The music is driving me barmy."),
-                                    ExampleSentenceKurdish(
-                                        text: "میوزیکەکە وەڕەسم دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarmys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarmys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The music is driving me barmy.",
+                            kurdishText: "میوزیکەکە وەڕەسم دەکات.",
+                            onPressedBritish: () => speakbarmys1("en-GB"),
+                            onPressedAmerican: () => speakbarmys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

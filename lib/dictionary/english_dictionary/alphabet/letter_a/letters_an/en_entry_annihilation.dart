@@ -157,69 +157,31 @@ class EnglishEntryannihilation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) لەناوبردنی تەواوەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "During the Cold War the threat of nuclear annihilation was always on people's minds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە سەردەمی جەنگی سارد ھەڕەشەی قڕبوونی ئەتۆمی ھەمیشە لە ھزری خەڵکیدا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakannihilation126("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannihilation126(
-                                        // REPLACE: annihilation /əˌnaɪəˈleɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "During the Cold War the threat of nuclear annihilation was always on people's minds.",
+                            kurdishText:
+                                "لە سەردەمی جەنگی سارد ھەڕەشەی قڕبوونی ئەتۆمی ھەمیشە لە ھزری خەڵکیدا بوو.",
+                            onPressedBritish: () =>
+                                speakannihilation126("en-GB"),
+                            onPressedAmerican: () => speakannihilation126(
+                                // REPLACE: annihilation /əˌnaɪəˈleɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) تێکشکاندنی تەواوی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Brazilian needed just 82 minutes to complete the annihilation of his opponent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاریزانە بەرازیلییەکە پێویستی تەنھا بە ٨٢ خولەک بوو بۆ تێکشکاندنی تەواوی ڕکابەرەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakannihilation136("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannihilation136(
-                                        // REPLACE: annihilation /əˌnaɪəˈleɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Brazilian needed just 82 minutes to complete the annihilation of his opponent.",
+                            kurdishText:
+                                "یاریزانە بەرازیلییەکە پێویستی تەنھا بە ٨٢ خولەک بوو بۆ تێکشکاندنی تەواوی ڕکابەرەکەی.",
+                            onPressedBritish: () =>
+                                speakannihilation136("en-GB"),
+                            onPressedAmerican: () => speakannihilation136(
+                                // REPLACE: annihilation /əˌnaɪəˈleɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -165,34 +165,15 @@ class EnglishEntryasparagus extends StatelessWidget {
                               text:
                                   "١. (ناو) ڕووەکێکە کە قەدی سپی یان سەوزی ھەیە کە دەکوڵێندرێن و دەخورێن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Asparagus is a good source of vitamins A, C, and K, as well as fiber and potassium."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەسپارگس ڤیتامین A و C و K تێدایە لەگەڵ ڕیشاڵ و پۆتاسیۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasparagus444("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasparagus444(
-                                        // REPLACE: asparagus /əˈspærəɡəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Asparagus is a good source of vitamins A, C, and K, as well as fiber and potassium.",
+                            kurdishText:
+                                "ئەسپارگس ڤیتامین A و C و K تێدایە لەگەڵ ڕیشاڵ و پۆتاسیۆم.",
+                            onPressedBritish: () => speakasparagus444("en-GB"),
+                            onPressedAmerican: () => speakasparagus444(
+                                // REPLACE: asparagus /əˈspærəɡəs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

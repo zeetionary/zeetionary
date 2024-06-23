@@ -114,68 +114,29 @@ class EnglishEntryaggressiveness extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) شەڕەنخوازی و توندوتیژی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our addiction to oil feeds belligerence, aggressiveness, and war. Wherever oil is drilled, people are killed for profit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خووگرتنمان بە نەوت تەنھا دوژمنایەتی و توندوتیژی و شەڕی لێ دەکەوێتەوە. لە ھەرکوێ نەوت دەربھێندرێت، خەڵکی بۆ پارە دەکوژرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaggressiv3749("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggressiv3749(
-                                        // REPLACE: aggressiveness /əˈɡresɪvnəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our addiction to oil feeds belligerence, aggressiveness, and war. Wherever oil is drilled, people are killed for profit.",
+                            kurdishText:
+                                "خووگرتنمان بە نەوت تەنھا دوژمنایەتی و توندوتیژی و شەڕی لێ دەکەوێتەوە. لە ھەرکوێ نەوت دەربھێندرێت، خەڵکی بۆ پارە دەکوژرێن.",
+                            onPressedBritish: () => speakaggressiv3749("en-GB"),
+                            onPressedAmerican: () => speakaggressiv3749(
+                                // REPLACE: aggressiveness /əˈɡresɪvnəs/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) سەرسەختی لە ھەوڵدان بۆ سەرکەوتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her talent and aggressiveness make her a tennis star of the future."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھرە و سەرسەختیی بۆ سەرکەوتن وا دەکات ببێت بە ئەستێرەیەکی تێنس لە داھاتوودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaggressive4699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggressive4699(
-                                        // REPLACE: aggressiveness /əˈɡresɪvnəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her talent and aggressiveness make her a tennis star of the future.",
+                            kurdishText:
+                                "بەھرە و سەرسەختیی بۆ سەرکەوتن وا دەکات ببێت بە ئەستێرەیەکی تێنس لە داھاتوودا.",
+                            onPressedBritish: () =>
+                                speakaggressive4699("en-GB"),
+                            onPressedAmerican: () => speakaggressive4699(
+                                // REPLACE: aggressiveness /əˈɡresɪvnəs/
+                                "en-US"),
                           ),
                         ],
                       ),

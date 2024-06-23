@@ -114,34 +114,14 @@ class EnglishEntryamazement extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ناو) ھەستی باوەڕنەکردن بەوەی ڕوویداوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She looked at him in amazement."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە سەرسامییەوە سەیری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamazement41121("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamazement41121(
-                                        // REPLACE: amazement /əˈmeɪzmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She looked at him in amazement.",
+                            kurdishText: "بە سەرسامییەوە سەیری دەکرد.",
+                            onPressedBritish: () =>
+                                speakamazement41121("en-GB"),
+                            onPressedAmerican: () => speakamazement41121(
+                                // REPLACE: amazement /əˈmeɪzmənt/
+                                "en-US"),
                           ),
                         ],
                       ),

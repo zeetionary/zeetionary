@@ -118,66 +118,28 @@ class EnglishEntryadministrator extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە ئەرکی بەڕێوەبردنی دامەزراوەیەکی ھەیە، یان کەسێک کە کار لەگەڵ تۆمارەکان دەکات لە ئۆفیسێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Such decisions are made by the hospital administrators."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیاری لەم شێوەیە لەلایەن بەڕێوەبەرانی نەخۆشخانەکەوە دەدرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmini5288("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmini5288(
-                                        // REPLACE: administrator /ədˈmɪnɪstreɪtər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Such decisions are made by the hospital administrators.",
+                            kurdishText:
+                                "بڕیاری لەم شێوەیە لەلایەن بەڕێوەبەرانی نەخۆشخانەکەوە دەدرێن.",
+                            onPressedBritish: () => speakadmini5288("en-GB"),
+                            onPressedAmerican: () => speakadmini5288(
+                                // REPLACE: administrator /ədˈmɪnɪstreɪtər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە ئەرکی بەڕێوەبردنی سیستەمێکی کۆمپیوتەری بەدەستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you are unable to access the site, contact your system administrator."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر ناتوانی بچیتە ناو سایتەکەوە پەیوەندی بە بەڕێوەبەری سیستەمەکەتەوە بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmi25688("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmi25688(
-                                        // REPLACE: administrator /ədˈmɪnɪstreɪtər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you are unable to access the site, contact your system administrator.",
+                            kurdishText:
+                                "ئەگەر ناتوانی بچیتە ناو سایتەکەوە پەیوەندی بە بەڕێوەبەری سیستەمەکەتەوە بکە.",
+                            onPressedBritish: () => speakadmi25688("en-GB"),
+                            onPressedAmerican: () => speakadmi25688(
+                                // REPLACE: administrator /ədˈmɪnɪstreɪtər/
+                                "en-US"),
                           ),
                         ],
                       ),

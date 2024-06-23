@@ -149,154 +149,57 @@ class EnglishEntrybleed extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) خوێن‌لێچوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She slowly bled to death."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەھێواشی خوێنی لێچوو تا مردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleeds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She slowly bled to death.",
+                            kurdishText: "بەھێواشی خوێنی لێچوو تا مردن.",
+                            onPressedBritish: () => speakbleeds1("en-GB"),
+                            onPressedAmerican: () => speakbleeds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was bleeding from a gash on his head."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێنی لێدەچۆڕا لە برینێکی گەورە لە سەریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleeds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleeds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was bleeding from a gash on his head.",
+                            kurdishText:
+                                "خوێنی لێدەچۆڕا لە برینێکی گەورە لە سەریدا.",
+                            onPressedBritish: () => speakbleeds2("en-GB"),
+                            onPressedAmerican: () => speakbleeds2("en-US"),
                           ),
                           // const DividerDefinition(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) دەرکردنی خوێن لە کەسێکدا لە کۆندا وەک چارەسەری نەخۆشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bled his patients with leeches."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە کرم خوێنی لە نەخۆشەکانی دەردەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleeds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleeds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He bled his patients with leeches.",
+                            kurdishText: "بە کرم خوێنی لە نەخۆشەکانی دەردەکرد.",
+                            onPressedBritish: () => speakbleeds3("en-GB"),
+                            onPressedAmerican: () => speakbleeds3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) زۆر لە کەسێک بکەیت پارەیەکی زۆر بدات لە ماوەیەکی کەمدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company seems intent on bleeding us for every penny we have."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە ئامانجییەتی قڕان بە قڕانمان لێ بسێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleeds4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleeds4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company seems intent on bleeding us for every penny we have.",
+                            kurdishText:
+                                "کۆمپانیاکە ئامانجییەتی قڕان بە قڕانمان لێ بسێنێت.",
+                            onPressedBritish: () => speakbleeds4("en-GB"),
+                            onPressedAmerican: () => speakbleeds4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) بڵاوبوونەوە مەرەکەب یان بۆیە بەدەر لە شوێنی خۆی و بۆ شوێنی ڕەنگێکی تر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Keep the paint fairly dry so that the colours don't bleed into each other."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆیەکە بە وشکی بھێڵەوە بۆ ئەوەی ڕەنگەکان تێکەڵی یەکدی نەبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleeds5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleeds5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Keep the paint fairly dry so that the colours don't bleed into each other.",
+                            kurdishText:
+                                "بۆیەکە بە وشکی بھێڵەوە بۆ ئەوەی ڕەنگەکان تێکەڵی یەکدی نەبن.",
+                            onPressedBritish: () => speakbleeds5("en-GB"),
+                            onPressedAmerican: () => speakbleeds5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

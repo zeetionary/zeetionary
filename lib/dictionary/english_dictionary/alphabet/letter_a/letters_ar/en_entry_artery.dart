@@ -160,34 +160,15 @@ class EnglishEntryartery extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) خوێنبەر؛ مولوولەی خوێن کە خوێن لە لەشەوە دەگوازنەوە بۆ بەشەکانی تری جەستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hardening of the coronary arteries can lead to a heart attack."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەقبوونی خوێنبەرەکانی ناو دڵ دەکرێت ببێتە ھۆی جەڵدەی دڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakartery148("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartery148(
-                                        // REPLACE: artery /ˈɑːrtəri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Hardening of the coronary arteries can lead to a heart attack.",
+                            kurdishText:
+                                "ڕەقبوونی خوێنبەرەکانی ناو دڵ دەکرێت ببێتە ھۆی جەڵدەی دڵ.",
+                            onPressedBritish: () => speakartery148("en-GB"),
+                            onPressedAmerican: () => speakartery148(
+                                // REPLACE: artery /ˈɑːrtəri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

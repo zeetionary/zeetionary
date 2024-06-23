@@ -157,168 +157,72 @@ class EnglishEntryanticipate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) پێشبینی‌کردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our anticipated arrival time is 8.30."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتی پێشبینیکراوی گەشتنمان ٨:٣٠ یە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanticipate1032("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanticipate1032(
-                                        // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our anticipated arrival time is 8.30.",
+                            kurdishText: "کاتی پێشبینیکراوی گەشتنمان ٨:٣٠ یە.",
+                            onPressedBritish: () =>
+                                speakanticipate1032("en-GB"),
+                            onPressedAmerican: () => speakanticipate1032(
+                                // REPLACE: anticipate /ænˈtɪsɪpeɪt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't anticipate it being a problem."),
-                                    ExampleSentenceKurdish(
-                                        text: "پێشبینی ناکەم ببێتە کێشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanticipate1033("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanticipate1033(
-                                        // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't anticipate it being a problem.",
+                            kurdishText: "پێشبینی ناکەم ببێتە کێشە.",
+                            onPressedBritish: () =>
+                                speakanticipate1033("en-GB"),
+                            onPressedAmerican: () => speakanticipate1033(
+                                // REPLACE: anticipate /ænˈtɪsɪpeɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) پێشبینی‌کردنی ڕوودانی شتێک و کردنی ئامادەکاری بۆ مامەڵە لەگەڵی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Try and anticipate what the interviewers will ask."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ‌بدە پێشبینی بکە دیدارکاران چی پرسیارێک دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanticipate1036("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanticipate1036(
-                                        // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Try and anticipate what the interviewers will ask.",
+                            kurdishText:
+                                "ھەوڵ‌بدە پێشبینی بکە دیدارکاران چی پرسیارێک دەکەن.",
+                            onPressedBritish: () =>
+                                speakanticipate1036("en-GB"),
+                            onPressedAmerican: () => speakanticipate1036(
+                                // REPLACE: anticipate /ænˈtɪsɪpeɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) بە کەیف‌سازی بیرکردنەوە لە شتێک کە ڕوودەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We eagerly anticipated the day we would leave school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە خۆشییەوە بیرمان لەو ڕۆژە دەکردەوە کە قوتابخانە جێدێڵین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanticipate1038("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanticipate1038(
-                                        // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We eagerly anticipated the day we would leave school.",
+                            kurdishText:
+                                "بە خۆشییەوە بیرمان لەو ڕۆژە دەکردەوە کە قوتابخانە جێدێڵین.",
+                            onPressedBritish: () =>
+                                speakanticipate1038("en-GB"),
+                            onPressedAmerican: () => speakanticipate1038(
+                                // REPLACE: anticipate /ænˈtɪsɪpeɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) کردنی شتێک پێش کەسێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When Scott reached the South Pole he found that Amundsen had anticipated him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە سکۆت گەشتە جەمسەری باشوور زانی ئامندسن پێشی دابوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanticipate1040("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanticipate1040(
-                                        // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When Scott reached the South Pole he found that Amundsen had anticipated him.",
+                            kurdishText:
+                                "کە سکۆت گەشتە جەمسەری باشوور زانی ئامندسن پێشی دابوویەوە.",
+                            onPressedBritish: () =>
+                                speakanticipate1040("en-GB"),
+                            onPressedAmerican: () => speakanticipate1040(
+                                // REPLACE: anticipate /ænˈtɪsɪpeɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

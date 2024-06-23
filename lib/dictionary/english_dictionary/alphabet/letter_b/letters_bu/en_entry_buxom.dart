@@ -192,32 +192,13 @@ class EnglishEntrybuxom extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) گەورە بەشێوەیەکی جوان و لەگەڵ مەمکی گەورەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Renaissance art often featured buxom women."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھونەری ڕینێسانس زۆرجار ژنانی بەقەڵافەتی لەخۆ دەگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "buxom", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuxoms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuxoms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Renaissance art often featured buxom women.",
+                            kurdishText:
+                                "ھونەری ڕینێسانس زۆرجار ژنانی بەقەڵافەتی لەخۆ دەگرت.", // buxom", follow LX strictly
+                            onPressedBritish: () => speakbuxoms1("en-GB"),
+                            onPressedAmerican: () => speakbuxoms1("en-US"),
                           ),
                         ],
                       ),

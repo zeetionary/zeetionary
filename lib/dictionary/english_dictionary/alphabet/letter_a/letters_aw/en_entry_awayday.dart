@@ -153,34 +153,15 @@ class EnglishEntryawayday extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ڕۆژێک کە کۆمەڵێک کارمەند پێکەوەبەسەری دەبەن بۆ باسکردنی پلان و بیرۆکەکانیان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The management are having an away day to discuss strategy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمی بەڕێوەبردن ڕۆژێکی گفتوگۆیان ھەیە بۆ باسکردنی ستراتیژییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawaydays1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawaydays1(// REPLACE: awayday
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The management are having an away day to discuss strategy.",
+                            kurdishText:
+                                "تیمی بەڕێوەبردن ڕۆژێکی گفتوگۆیان ھەیە بۆ باسکردنی ستراتیژییەکە.",
+                            onPressedBritish: () => speakawaydays1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawaydays1(// REPLACE: awayday
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

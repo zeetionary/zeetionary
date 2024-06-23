@@ -151,63 +151,24 @@ class EnglishEntrybeefy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەسێکی گەورە، قەڵەو، و بەھێز """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The player had a beefy physique from years of training."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاریزانەکە ھەیکەلێکی بەھێزی ھەبوو بەھۆی چەندین ساڵ لە ڕاھێنان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeefys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeefys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The player had a beefy physique from years of training.",
+                            kurdishText:
+                                "یاریزانەکە ھەیکەلێکی بەھێزی ھەبوو بەھۆی چەندین ساڵ لە ڕاھێنان.",
+                            onPressedBritish: () => speakbeefys1("en-GB"),
+                            onPressedAmerican: () => speakbeefys1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێکی بەھێز """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I want to buy myself a beefier computer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمەوێت کۆمپیوتەرێکی بەھێزتر بکڕم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeefys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeefys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I want to buy myself a beefier computer.",
+                            kurdishText: "دەمەوێت کۆمپیوتەرێکی بەھێزتر بکڕم.",
+                            onPressedBritish: () => speakbeefys2("en-GB"),
+                            onPressedAmerican: () => speakbeefys2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

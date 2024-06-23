@@ -146,90 +146,33 @@ class EnglishEntrybreathless extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی سەختی لە ھەناسەداندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He arrived breathless at the top of the stairs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ھەناسەبڕکێوە گەشتە سەرەوەی پلەکانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "breathless" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreathlesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathlesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He arrived breathless at the top of the stairs.",
+                            kurdishText:
+                                "بە ھەناسەبڕکێوە گەشتە سەرەوەی پلەکانەکە.", // breathless" as
+                            onPressedBritish: () => speakbreathlesss1("en-GB"),
+                            onPressedAmerican: () => speakbreathlesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They maintained a breathless (= very fast) pace for half an hour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ نزیکەی نیو کاتژمێر بەبێ ھەناسەبڕکێ (= بە خێرایی) ڕایان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreathlesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathlesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They maintained a breathless (= very fast) pace for half an hour.",
+                            kurdishText:
+                                "بۆ نزیکەی نیو کاتژمێر بەبێ ھەناسەبڕکێ (= بە خێرایی) ڕایان کرد.",
+                            onPressedBritish: () => speakbreathlesss2("en-GB"),
+                            onPressedAmerican: () => speakbreathlesss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) ھەبوونی ھەستێکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children peered through the open door, breathless with excitement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان لە دەرگا کراوەکە دەیانڕوانی بە خرۆشاوی زۆرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreathlesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathlesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children peered through the open door, breathless with excitement.",
+                            kurdishText:
+                                "منداڵەکان لە دەرگا کراوەکە دەیانڕوانی بە خرۆشاوی زۆرەوە.",
+                            onPressedBritish: () => speakbreathlesss3("en-GB"),
+                            onPressedAmerican: () => speakbreathlesss3("en-US"),
                           ),
                         ],
                       ),

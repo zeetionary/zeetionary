@@ -303,153 +303,58 @@ class EnglishEntrybridge extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ڕێگایەک کە بەسەر ڕێگایەکی تر، ڕووبارێک، ھتد درووست دەکرێت بۆ پەڕینەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We crossed the bridge over the River Windrush."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەسەر پردەکەی سەر ڕووباری ویندڕەش پەڕینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bridge" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We crossed the bridge over the River Windrush.",
+                            kurdishText:
+                                "بەسەر پردەکەی سەر ڕووباری ویندڕەش پەڕینەوە.", // bridge" as
+                            onPressedBritish: () => speakbridges1("en-GB"),
+                            onPressedAmerican: () => speakbridges1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The river was spanned by a railway bridge."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووبارەکە پردێکی سکەی شەمەندەفەری بەسەردا درووست کرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridges2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The river was spanned by a railway bridge.",
+                            kurdishText:
+                                "ڕووبارەکە پردێکی سکەی شەمەندەفەری بەسەردا درووست کرابوو.",
+                            onPressedBritish: () => speakbridges2("en-GB"),
+                            onPressedAmerican: () => speakbridges2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Cross the bridge and turn right into the town."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بەسەر پردەکەدا بپەڕەوە و بەلای ڕاستدا بچۆ بۆ چوونە شارۆچکەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbridges3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbridges3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Cross the bridge and turn right into the town.",
+                                    kurdishText:
+                                        "بەسەر پردەکەدا بپەڕەوە و بەلای ڕاستدا بچۆ بۆ چوونە شارۆچکەکە.",
+                                    onPressedBritish: () =>
+                                        speakbridges3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbridges3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Floods washed away several bridges."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لافاو ژمارەیەک پردی ڕووخاندبوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbridges4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbridges4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Floods washed away several bridges.",
+                                    kurdishText:
+                                        "لافاو ژمارەیەک پردی ڕووخاندبوو.",
+                                    onPressedBritish: () =>
+                                        speakbridges4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbridges4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The road goes under the old bridge."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕێگاکە بە ژێر پردەکەدا دەچێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbridges5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbridges5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The road goes under the old bridge.",
+                                    kurdishText:
+                                        "ڕێگاکە بە ژێر پردەکەدا دەچێت.",
+                                    onPressedBritish: () =>
+                                        speakbridges5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbridges5("en-US"),
                                   ),
                                 ],
                               ),
@@ -459,270 +364,97 @@ class EnglishEntrybridge extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شتێک کە دوو شتی جیاواز پێکە دەبەستێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book serves as a bridge between ancient wisdom and modern science."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە خزمەت دەکات وەک پردێک لە نێوان ژیریی کۆن و زانستی سەردەمدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridges6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridges6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book serves as a bridge between ancient wisdom and modern science.",
+                            kurdishText:
+                                "کتێبەکە خزمەت دەکات وەک پردێک لە نێوان ژیریی کۆن و زانستی سەردەمدا.",
+                            onPressedBritish: () => speakbridges6("en-GB"),
+                            onPressedAmerican: () => speakbridges6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cultural exchanges are a way of building bridges between countries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاڵوگۆڕی کەلتووری ڕێگایەکە بۆ ئاشنابوونی وڵاتان بە یەکدی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridges7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridges7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cultural exchanges are a way of building bridges between countries.",
+                            kurdishText:
+                                "ئاڵوگۆڕی کەلتووری ڕێگایەکە بۆ ئاشنابوونی وڵاتان بە یەکدی.",
+                            onPressedBritish: () => speakbridges7("en-GB"),
+                            onPressedAmerican: () => speakbridges7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەو بەشەی کەشتی کە کاپتن و ئەفسەرەکان لەسەری دەوەستن کە کۆنترۆڵی کەشتییەکە دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who was on the bridge when the collision took place?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێ لەسەر سەکۆی کەشتی‌یەوانییەکە بوو کە پێکدادانەکە ڕوویدا؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridges8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridges8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Who was on the bridge when the collision took place?",
+                            kurdishText:
+                                "کێ لەسەر سەکۆی کەشتی‌یەوانییەکە بوو کە پێکدادانەکە ڕوویدا؟",
+                            onPressedBritish: () => speakbridges8("en-GB"),
+                            onPressedAmerican: () => speakbridges8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) یارییەکی دوو کەسی کە دەبێت بە سەرکەوتووی پێشبینی خاڵی بردنەوەیان بکەن و بەپێچەوانەوە خاڵ لەدەست دەدەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I enjoy a game of bridge occasionally."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماوە ماوە حەز بە یاریی کۆنکان دەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridges9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridges9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I enjoy a game of bridge occasionally.",
+                            kurdishText: "ماوە ماوە حەز بە یاریی کۆنکان دەکەم.",
+                            onPressedBritish: () => speakbridges9("en-GB"),
+                            onPressedAmerican: () => speakbridges9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) بەشی سەرەوەی لووت کە دەکەوێتە نێوان چاوەوە، یان ئەو بەشەی چاویلکە کە لەسەری دەوەستێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The blow caught him right on the bridge of his nose."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێدانەکە ڕێک لە بەرزایی لووتی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridges10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridges10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The blow caught him right on the bridge of his nose.",
+                            kurdishText: "لێدانەکە ڕێک لە بەرزایی لووتی دا.",
+                            onPressedBritish: () => speakbridges10("en-GB"),
+                            onPressedAmerican: () => speakbridges10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) درووستکردنی پرد لەسەر شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The valley was originally bridged by the Romans."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆڵەکە لە سەرەتادا لەلایەن ڕۆمەکانەوە پردی لەسەر درووستکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridges11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridges11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The valley was originally bridged by the Romans.",
+                            kurdishText:
+                                "دۆڵەکە لە سەرەتادا لەلایەن ڕۆمەکانەوە پردی لەسەر درووستکرا.",
+                            onPressedBritish: () => speakbridges11("en-GB"),
+                            onPressedAmerican: () => speakbridges11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The river had been bridged at its narrowest point."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووبارەکە لە باریکترین خاڵیدا پردی لەسەر درووستکرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridges12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridges12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The river had been bridged at its narrowest point.",
+                            kurdishText:
+                                "ڕووبارەکە لە باریکترین خاڵیدا پردی لەسەر درووستکرابوو.",
+                            onPressedBritish: () => speakbridges12("en-GB"),
+                            onPressedAmerican: () => speakbridges12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) نەھێشتن یان کەمکردنەوەی ناکۆکی یان جیاوازی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We must bridge the gap between employees and management."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت ناکۆکی نێوان کارمەندان و بەڕێوبەرایەتی کەم بکەینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridges13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridges13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We must bridge the gap between employees and management.",
+                            kurdishText:
+                                "دەبێت ناکۆکی نێوان کارمەندان و بەڕێوبەرایەتی کەم بکەینەوە.",
+                            onPressedBritish: () => speakbridges13("en-GB"),
+                            onPressedAmerican: () => speakbridges13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The university aims to bridge the gulf between education and industry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانکۆکە ئامانجیەتی پەیوەندی درووست بکات لە نێوان خوێندن و دەستی کاردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridges14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridges14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The university aims to bridge the gulf between education and industry.",
+                            kurdishText:
+                                "زانکۆکە ئامانجیەتی پەیوەندی درووست بکات لە نێوان خوێندن و دەستی کاردا.",
+                            onPressedBritish: () => speakbridges14("en-GB"),
+                            onPressedAmerican: () => speakbridges14("en-US"),
                           ),
                         ],
                       ),

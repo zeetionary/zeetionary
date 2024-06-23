@@ -154,154 +154,59 @@ class EnglishEntrybasictwo extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) پێکھێنەری بەشێکی شتێک کە گرنگترە لە ھەموو بەشەکانی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a basic fault in the design of the engine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵەیەکی بنچینەیی ھەیە لە دیزاینی بزوێنەرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasictwos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasictwos1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a basic fault in the design of the engine.",
+                            kurdishText:
+                                "ھەڵەیەکی بنچینەیی ھەیە لە دیزاینی بزوێنەرەکە.",
+                            onPressedBritish: () => speakbasictwos1("en-GB"),
+                            onPressedAmerican: () => speakbasictwos1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They haven't even given us the most basic information we need."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا سەرەتاییترین زانیارییان پێ‌نەداوین کە پێویستمانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasictwos2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasictwos2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They haven't even given us the most basic information we need.",
+                            kurdishText:
+                                "ھێشتا سەرەتاییترین زانیارییان پێ‌نەداوین کە پێویستمانە.",
+                            onPressedBritish: () => speakbasictwos2("en-GB"),
+                            onPressedAmerican: () => speakbasictwos2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) لە ئاستێکی سادە و سەرەتایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My knowledge of French is pretty basic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانیاریم لە زمانی فەرەنسی لە ئاستێکی سەرەتاییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasictwos3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasictwos3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My knowledge of French is pretty basic.",
+                            kurdishText:
+                                "زانیاریم لە زمانی فەرەنسی لە ئاستێکی سەرەتاییە.",
+                            onPressedBritish: () => speakbasictwos3("en-GB"),
+                            onPressedAmerican: () => speakbasictwos3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) شتێک کە بۆ ھەموو کەسێک گرنگە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The crisis has led to price rises in basic foodstuffs, such as meat, cheese, and sugar."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەیرانەکە بووە بەھۆی بەرزبوونەوەی نرخی خواردەمەنی سەرەتایی وەک گۆشت و پەنیر و شەکر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasictwos4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasictwos4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The crisis has led to price rises in basic foodstuffs, such as meat, cheese, and sugar.",
+                            kurdishText:
+                                "قەیرانەکە بووە بەھۆی بەرزبوونەوەی نرخی خواردەمەنی سەرەتایی وەک گۆشت و پەنیر و شەکر.",
+                            onPressedBritish: () => speakbasictwos4("en-GB"),
+                            onPressedAmerican: () => speakbasictwos4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) پێش زیادکردنی ھیچ شتێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The basic pay of the average worker has risen by 3 per cent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مووچەی بنەڕەتی کرێکاری ئاسایی بە ڕێژەی ٣٪ زیادیکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasictwos5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasictwos5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The basic pay of the average worker has risen by 3 per cent.",
+                            kurdishText:
+                                "مووچەی بنەڕەتی کرێکاری ئاسایی بە ڕێژەی ٣٪ زیادیکردووە.",
+                            onPressedBritish: () => speakbasictwos5("en-GB"),
+                            onPressedAmerican: () => speakbasictwos5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

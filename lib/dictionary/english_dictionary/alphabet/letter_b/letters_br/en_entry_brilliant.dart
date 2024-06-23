@@ -275,121 +275,46 @@ class EnglishEntrybrilliant extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) تەواو زیرەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "What a brilliant idea!"),
-                                    ExampleSentenceKurdish(
-                                        text: "چی بیرۆکەیەکی بلیمەیانەیە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brilliant" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrilliants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrilliants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "What a brilliant idea!",
+                            kurdishText:
+                                "چی بیرۆکەیەکی بلیمەیانەیە!", // brilliant" as
+                            onPressedBritish: () => speakbrilliants1("en-GB"),
+                            onPressedAmerican: () => speakbrilliants1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He made two brilliant saves to keep his side in the match."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو گەڕانەوەی بلیمەتانەی ئەنجامدا بۆ ھێشتنەوەی لایەنەکەی لە یارییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrilliants2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrilliants2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He made two brilliant saves to keep his side in the match.",
+                            kurdishText:
+                                "دوو گەڕانەوەی بلیمەتانەی ئەنجامدا بۆ ھێشتنەوەی لایەنەکەی لە یارییەکەدا.",
+                            onPressedBritish: () => speakbrilliants2("en-GB"),
+                            onPressedAmerican: () => speakbrilliants2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Her performance was technically brilliant but lacked feeling."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "نمایشەکەی لە ڕووی تەکنیکییەوە بلیمەتانە بوو بەڵام بەدەر لە ھەست و سۆز بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrilliants3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrilliants3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Her performance was technically brilliant but lacked feeling.",
+                                    kurdishText:
+                                        "نمایشەکەی لە ڕووی تەکنیکییەوە بلیمەتانە بوو بەڵام بەدەر لە ھەست و سۆز بوو.",
+                                    onPressedBritish: () =>
+                                        speakbrilliants3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrilliants3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "This is a brilliant and fascinating piece of writing."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەمە پارچە نووسراوێکی بلیمەتانە و سەرجڕاکێشە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrilliants4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrilliants4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "This is a brilliant and fascinating piece of writing.",
+                                    kurdishText:
+                                        "ئەمە پارچە نووسراوێکی بلیمەتانە و سەرجڕاکێشە.",
+                                    onPressedBritish: () =>
+                                        speakbrilliants4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrilliants4("en-US"),
                                   ),
                                 ],
                               ),
@@ -398,174 +323,56 @@ class EnglishEntrybrilliant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) زۆر باش؛ نایاب"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Thanks. You've been brilliant (= very helpful)."),
-                                    ExampleSentenceKurdish(
-                                        text: "سوپاس، زۆر یارمەتیدەر بوویت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrilliants5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrilliants5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Thanks. You've been brilliant (= very helpful).",
+                            kurdishText: "سوپاس، زۆر یارمەتیدەر بوویت.",
+                            onPressedBritish: () => speakbrilliants5("en-GB"),
+                            onPressedAmerican: () => speakbrilliants5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Winning that race was just brilliant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بردنەوەی ئەو پێشبڕکێیە ناوازە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrilliants6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrilliants6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Winning that race was just brilliant.",
+                            kurdishText: "بردنەوەی ئەو پێشبڕکێیە ناوازە بوو.",
+                            onPressedBritish: () => speakbrilliants6("en-GB"),
+                            onPressedAmerican: () => speakbrilliants6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) زۆر زیرەک و بەھرەدار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's a brilliant young scientist."),
-                                    ExampleSentenceKurdish(
-                                        text: "زانایەکی گەنجی بلیمەتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrilliants7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrilliants7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's a brilliant young scientist.",
+                            kurdishText: "زانایەکی گەنجی بلیمەتە.",
+                            onPressedBritish: () => speakbrilliants7("en-GB"),
+                            onPressedAmerican: () => speakbrilliants7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has one of the most brilliant minds in the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاوەن یەکێک لە باشترین مێشکەکانی وڵاتەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrilliants8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrilliants8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has one of the most brilliant minds in the country.",
+                            kurdishText:
+                                "خاوەن یەکێک لە باشترین مێشکەکانی وڵاتەکەیە.",
+                            onPressedBritish: () => speakbrilliants8("en-GB"),
+                            onPressedAmerican: () => speakbrilliants8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ھاوەڵناو) زۆر سەرکەوتوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The play was a brilliant success."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یارییەکە سەرکەوتنێکی ناوازە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrilliants9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrilliants9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The play was a brilliant success.",
+                            kurdishText: "یارییەکە سەرکەوتنێکی ناوازە بوو.",
+                            onPressedBritish: () => speakbrilliants9("en-GB"),
+                            onPressedAmerican: () => speakbrilliants9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ھاوەڵناو) زۆر ڕۆشن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The sky was a brilliant blue."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئاسمان شینی درەوشاوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrilliants10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrilliants10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The sky was a brilliant blue.",
+                            kurdishText: "ئاسمان شینی درەوشاوە بوو.",
+                            onPressedBritish: () => speakbrilliants10("en-GB"),
+                            onPressedAmerican: () => speakbrilliants10("en-US"),
                           ),
                         ],
                       ),

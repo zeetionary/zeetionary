@@ -149,32 +149,13 @@ class EnglishEntryblackberrytwo extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) میوەیەکی نەرمی ڕەشی بچووک کە لەسەر ھێشوویەک دەڕوێت لە باخچەیەکدا "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children eagerly picked blackberries from the bushes during their summer outing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان بە پەرۆشییەوە تووەڕەشەیان لە ھێشووەکان لێ دەکردەوە لە کاتی جوونەدەرەوەی ھاوینەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackberrys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackberrys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children eagerly picked blackberries from the bushes during their summer outing.",
+                            kurdishText:
+                                "منداڵەکان بە پەرۆشییەوە تووەڕەشەیان لە ھێشووەکان لێ دەکردەوە لە کاتی جوونەدەرەوەی ھاوینەیان.",
+                            onPressedBritish: () => speakblackberrys1("en-GB"),
+                            onPressedAmerican: () => speakblackberrys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -167,133 +167,55 @@ class EnglishEntryausterity extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دۆخی ئابووری خراپ بەھۆی سیاسەتی حکومەتەوە لە کاتی جەنگدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "War was followed by many years of austerity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەنگ چەندین ساڵی نەبوونی بەدواداھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakausterity518("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakausterity518(// REPLACE: austerity
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "War was followed by many years of austerity.",
+                            kurdishText: "جەنگ چەندین ساڵی نەبوونی بەدواداھات.",
+                            onPressedBritish: () => speakausterity518("en-GB"),
+                            onPressedAmerican: () =>
+                                speakausterity518(// REPLACE: austerity
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) سادە و ساکار لە دەرکەوتندا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The house was decorated in an austere style, with white walls and minimal furniture."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووەکە ستایلێکی بە ساکاری دیکۆرات کرابوو، بە دیواری سپی و کەمترین شتومەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakausterity523("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakausterity523(// REPLACE: austerity
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The house was decorated in an austere style, with white walls and minimal furniture.",
+                            kurdishText:
+                                "خانووەکە ستایلێکی بە ساکاری دیکۆرات کرابوو، بە دیواری سپی و کەمترین شتومەک.",
+                            onPressedBritish: () => speakausterity523("en-GB"),
+                            onPressedAmerican: () =>
+                                speakausterity523(// REPLACE: austerity
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) دەرکەوتن بەشێوەی توند و دژوار"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was noted for his austerity and authoritarianism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەناسرا بۆ دژواری و سەرکوتکەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakausterity524("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakausterity524(// REPLACE: austerity
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was noted for his austerity and authoritarianism.",
+                            kurdishText: "دەناسرا بۆ دژواری و سەرکوتکەری.",
+                            onPressedBritish: () => speakausterity524("en-GB"),
+                            onPressedAmerican: () =>
+                                speakausterity524(// REPLACE: austerity
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) خۆگرتنەوە لە خۆشی و چێژی ژیان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The monks lived a life of austerity, with few possessions and simple meals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەبەنەکان ژیانێکی لەخواترسی دەژیان بە کەلوپەلی کەم و خواردنی سادە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakausterity527("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakausterity527(// REPLACE: austerity
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The monks lived a life of austerity, with few possessions and simple meals.",
+                            kurdishText:
+                                "ڕەبەنەکان ژیانێکی لەخواترسی دەژیان بە کەلوپەلی کەم و خواردنی سادە.",
+                            onPressedBritish: () => speakausterity527("en-GB"),
+                            onPressedAmerican: () =>
+                                speakausterity527(// REPLACE: austerity
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

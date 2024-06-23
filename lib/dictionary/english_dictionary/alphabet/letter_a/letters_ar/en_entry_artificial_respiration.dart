@@ -164,35 +164,16 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پڕۆسەی یارمەتیدانی کەسێک کە لە ھەناسەدان کەوتووە دووبارە ھەناسە بداتەوە، زۆرجار بە پێدانی ھەوا پێیان لە ڕێگەی دەم یان لووتەوە، یان بە بەکارھێنانی ئامێری تایبەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Rescuers pulled the child from the river, and she was given artificial respiration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕزگارکەران منداڵەکەیان لە ڕووبارەکە ھێنایە دەرەوە و ھەناسەدانی دەستکردیان بۆ کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakartificialrespiration943("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartificialrespiration943(
-                                        // REPLACE: artificial respiration /ˌɑːrtɪfɪʃl respəˈreɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Rescuers pulled the child from the river, and she was given artificial respiration.",
+                            kurdishText:
+                                "ڕزگارکەران منداڵەکەیان لە ڕووبارەکە ھێنایە دەرەوە و ھەناسەدانی دەستکردیان بۆ کرد.",
+                            onPressedBritish: () =>
+                                speakartificialrespiration943("en-GB"),
+                            onPressedAmerican: () => speakartificialrespiration943(
+                                // REPLACE: artificial respiration /ˌɑːrtɪfɪʃl respəˈreɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

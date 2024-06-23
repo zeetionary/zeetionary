@@ -115,34 +115,15 @@ class EnglishEntryalms extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پارە و خواردن و خۆراک کە دەدرێت بە ھەژاران"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the past, people thought it was their religious duty to give alms to the poor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران خەڵکی وایان دەزانی ئەرکی ئاینییانە پارە بە ھەژاران بدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalms4266("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakalms4266(// REPLACE: alms /ɑːmz/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the past, people thought it was their religious duty to give alms to the poor.",
+                            kurdishText:
+                                "جاران خەڵکی وایان دەزانی ئەرکی ئاینییانە پارە بە ھەژاران بدەن.",
+                            onPressedBritish: () => speakalms4266("en-GB"),
+                            onPressedAmerican: () =>
+                                speakalms4266(// REPLACE: alms /ɑːmz/
+                                    "en-US"),
                           ),
                         ],
                       ),

@@ -157,65 +157,26 @@ class EnglishEntryanguish extends StatelessWidget {
                               text:
                                   "١. (ناو) ئازار، ناڕەحەتی، یان ناخۆشییەکی زۆری دەروونی یان جەستەیی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Tears of anguish filled her eyes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فرمێسکی ئازار و ناڕەحەتی ھێینابوویە قوڵپی گریان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanguish958("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanguish958(
-                                        // REPLACE: anguish /ˈæŋɡwɪʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Tears of anguish filled her eyes.",
+                            kurdishText:
+                                "فرمێسکی ئازار و ناڕەحەتی ھێینابوویە قوڵپی گریان.",
+                            onPressedBritish: () => speakanguish958("en-GB"),
+                            onPressedAmerican: () => speakanguish958(
+                                // REPLACE: anguish /ˈæŋɡwɪʃ/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He suffered the anguish of watching his son go to prison."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ناڕەحەتی بینینی بردنی کوڕەکەی بۆ زیندان تێپەڕبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanguish1000("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanguish1000(
-                                        // REPLACE: anguish /ˈæŋɡwɪʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He suffered the anguish of watching his son go to prison.",
+                            kurdishText:
+                                "بە ناڕەحەتی بینینی بردنی کوڕەکەی بۆ زیندان تێپەڕبوو.",
+                            onPressedBritish: () => speakanguish1000("en-GB"),
+                            onPressedAmerican: () => speakanguish1000(
+                                // REPLACE: anguish /ˈæŋɡwɪʃ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

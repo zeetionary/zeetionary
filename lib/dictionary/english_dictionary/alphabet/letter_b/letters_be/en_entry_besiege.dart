@@ -153,94 +153,37 @@ class EnglishEntrybesiege extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) دەوردانی شوێنێک (بینایەک، شارێک، ھتد.) کە سەربازی تێدایە تاوەکو خەڵکی ناوی ڕێگە دەدەن بچیتە ژوورەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Paris was besieged for four months and forced to surrender."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاریس بۆ چوار ڕۆژ گەمارۆدرا و خەڵکەی ناچارکران خۆیان بدەن بەدەستەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbesieges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbesieges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Paris was besieged for four months and forced to surrender.",
+                            kurdishText:
+                                "پاریس بۆ چوار ڕۆژ گەمارۆدرا و خەڵکەی ناچارکران خۆیان بدەن بەدەستەوە.",
+                            onPressedBritish: () => speakbesieges1("en-GB"),
+                            onPressedAmerican: () => speakbesieges1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) دەوردانی کەسێک/شتێک بە ژمارەیەکی زۆر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The actress was besieged by reporters at the airport."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانمە ئەکتەرەکە لەلایەن پەیامنێرانەوە دەوردرا لە فڕۆکەخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbesieges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbesieges2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The actress was besieged by reporters at the airport.",
+                            kurdishText:
+                                "خانمە ئەکتەرەکە لەلایەن پەیامنێرانەوە دەوردرا لە فڕۆکەخانەکە.",
+                            onPressedBritish: () => speakbesieges2("en-GB"),
+                            onPressedAmerican: () => speakbesieges2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ناردنی ژمارەیەکی زۆر نامە، یان پرسیارکردنی زۆر بەشیوەیەک مامەڵەکردن لەگەڵیان ئاسان نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The radio station was besieged with calls from angry listeners."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێستگە ڕادیۆییەکە ژمارەیەکی زۆر پەیوەندی پێوەکرا لەلایەن گوێگرانی تووڕەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbesieges3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbesieges3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The radio station was besieged with calls from angry listeners.",
+                            kurdishText:
+                                "وێستگە ڕادیۆییەکە ژمارەیەکی زۆر پەیوەندی پێوەکرا لەلایەن گوێگرانی تووڕەوە.",
+                            onPressedBritish: () => speakbesieges3("en-GB"),
+                            onPressedAmerican: () => speakbesieges3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

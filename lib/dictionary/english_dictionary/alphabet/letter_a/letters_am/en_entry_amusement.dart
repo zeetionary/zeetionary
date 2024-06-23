@@ -156,103 +156,43 @@ class EnglishEntryamusement extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) کەیف و خۆشحاڵی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She could not hide her amusement at the way he was dancing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەیدەتوانی خۆشحاڵیی خۆی بشارێتەوە بە شێوازی سەماکردنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamusement440963("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamusement440963(
-                                        // REPLACE: amusement /əˈmjuːzmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She could not hide her amusement at the way he was dancing.",
+                            kurdishText:
+                                "نەیدەتوانی خۆشحاڵیی خۆی بشارێتەوە بە شێوازی سەماکردنی.",
+                            onPressedBritish: () =>
+                                speakamusement440963("en-GB"),
+                            onPressedAmerican: () => speakamusement440963(
+                                // REPLACE: amusement /əˈmjuːzmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) یارییەک یان چالاکییەک کە کەیفت پێی دێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the past, people had very few amusements to choose from. There was no radio, or television."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران خەڵکی کەم کەرەستەی سەرگەرمییان ھەبوو ھەڵیبژێرن. ھیچ ڕادیۆ و تەلەفیزیۆن نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamusement4418("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamusement4418(
-                                        // REPLACE: amusement /əˈmjuːzmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the past, people had very few amusements to choose from. There was no radio, or television.",
+                            kurdishText:
+                                "جاران خەڵکی کەم کەرەستەی سەرگەرمییان ھەبوو ھەڵیبژێرن. ھیچ ڕادیۆ و تەلەفیزیۆن نەبوو.",
+                            onPressedBritish: () => speakamusement4418("en-GB"),
+                            onPressedAmerican: () => speakamusement4418(
+                                // REPLACE: amusement /əˈmjuːzmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) سەرقاڵبوون و ڕابواردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What do you do for amusement in this town?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەم شارەدا چی دەکەن بۆ ڕابواردن؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamusement5903("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamusement5903(
-                                        // REPLACE: amusement /əˈmjuːzmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What do you do for amusement in this town?",
+                            kurdishText: "لەم شارەدا چی دەکەن بۆ ڕابواردن؟",
+                            onPressedBritish: () => speakamusement5903("en-GB"),
+                            onPressedAmerican: () => speakamusement5903(
+                                // REPLACE: amusement /əˈmjuːzmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

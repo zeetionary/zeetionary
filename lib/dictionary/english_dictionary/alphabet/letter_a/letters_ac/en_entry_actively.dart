@@ -112,63 +112,24 @@ class EnglishEntryactively extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بەشێوەیەک کە کاری لەسەر دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your proposal is being actively considered."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشنیارەکەت بەڕشتی کاری لەسەر دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactiv2537("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakactiv2537(
-                                        "en-US"), // REPLACE actively /ˈæktɪvli/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your proposal is being actively considered.",
+                            kurdishText:
+                                "پێشنیارەکەت بەڕشتی کاری لەسەر دەکرێت.",
+                            onPressedBritish: () => speakactiv2537("en-GB"),
+                            onPressedAmerican: () => speakactiv2537(
+                                "en-US"), // REPLACE actively /ˈæktɪvli/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەشێوەیەک کە ھەوڵی بۆ دەدەیت و چاوەڕێی شانس ناکەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was actively looking for a job."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە جدییانە بۆ کارێک دەگەڕا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakact2534("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakact2534(
-                                        "en-US"), // REPLACE actively /ˈæktɪvli/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was actively looking for a job.",
+                            kurdishText: "بە جدییانە بۆ کارێک دەگەڕا.",
+                            onPressedBritish: () => speakact2534("en-GB"),
+                            onPressedAmerican: () => speakact2534(
+                                "en-US"), // REPLACE actively /ˈæktɪvli/
                           ),
                         ],
                       ),

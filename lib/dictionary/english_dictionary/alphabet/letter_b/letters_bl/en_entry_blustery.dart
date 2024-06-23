@@ -148,30 +148,11 @@ class EnglishEntryblustery extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەشوھەوایەک کە بای توندی لەگەڵە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The day was cold and blustery."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕۆژەکە سارد و پڕبا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblusterys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblusterys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The day was cold and blustery.",
+                            kurdishText: "ڕۆژەکە سارد و پڕبا بوو.",
+                            onPressedBritish: () => speakblusterys1("en-GB"),
+                            onPressedAmerican: () => speakblusterys1("en-US"),
                           ),
                         ],
                       ),

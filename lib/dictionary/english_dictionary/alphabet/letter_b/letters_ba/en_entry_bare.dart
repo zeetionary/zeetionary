@@ -203,360 +203,128 @@ class EnglishEntrybare extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) ڕووت، دانەپۆشراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She likes to walk around in bare feet."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text: "حەزدەکات بە پێی پەتی ڕێ بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbares1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbares1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She likes to walk around in bare feet.",
+                            kurdishText: "حەزدەکات بە پێی پەتی ڕێ بکات.",
+                            onPressedBritish: () => speakbares1("en-GB"),
+                            onPressedAmerican: () => speakbares1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's no carpet in the room, just bare floorboards."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ فەرش لە ژوورەکە نییە، تەنھا زەوییە دانەپۆشراوەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbares2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbares2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's no carpet in the room, just bare floorboards.",
+                            kurdishText:
+                                "ھیچ فەرش لە ژوورەکە نییە، تەنھا زەوییە دانەپۆشراوەکەیە.",
+                            onPressedBritish: () => speakbares2("en-GB"),
+                            onPressedAmerican: () => speakbares2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) دارێک کە گەڵای پێوە نییە، یان زەوییەک کە دار و ڕووەکی تێدا نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The winter sun filtered through the bare branches of the trees."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆری زستان بە ناو لقە ڕووتەڵەکانی دارەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbares3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbares3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The winter sun filtered through the bare branches of the trees.",
+                            kurdishText:
+                                "خۆری زستان بە ناو لقە ڕووتەڵەکانی دارەکان.",
+                            onPressedBritish: () => speakbares3("en-GB"),
+                            onPressedAmerican: () => speakbares3("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The windows looked out onto a bare field."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجەرەکان بەسەر کێڵگەیەکی ڕووتدا دەیانڕوانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbares4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbares4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The windows looked out onto a bare field.",
+                            kurdishText:
+                                "پەنجەرەکان بەسەر کێڵگەیەکی ڕووتدا دەیانڕوانی.",
+                            onPressedBritish: () => speakbares4("en-GB"),
+                            onPressedAmerican: () => speakbares4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) دانەپۆشراو یان نەپارێزراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bare wires were sticking out of the cable."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وایەری ڕووت لە کێبڵەکانەوە دەرچووبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbares5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbares5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bare wires were sticking out of the cable.",
+                            kurdishText:
+                                "وایەری ڕووت لە کێبڵەکانەوە دەرچووبوون.",
+                            onPressedBritish: () => speakbares5("en-GB"),
+                            onPressedAmerican: () => speakbares5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) بەتاڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The fridge was completely bare."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساردکەرەوەکە بە تەواوی بەتاڵ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbares6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbares6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The fridge was completely bare.",
+                            kurdishText: "ساردکەرەوەکە بە تەواوی بەتاڵ بوو.",
+                            onPressedBritish: () => speakbares6("en-GB"),
+                            onPressedAmerican: () => speakbares6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵناو) سەرەتاییترین یان سادەترین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He did the bare minimum of work but still passed the exam."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمترین ھەوڵی دا بەڵام ھێشتا تاقیکردنەوەکەی تێپەڕاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbares7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbares7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He did the bare minimum of work but still passed the exam.",
+                            kurdishText:
+                                "کەمترین ھەوڵی دا بەڵام ھێشتا تاقیکردنەوەکەی تێپەڕاند.",
+                            onPressedBritish: () => speakbares7("en-GB"),
+                            onPressedAmerican: () => speakbares7("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Nothing more is known apart from the bare statement issued to the press."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ نازانرێت جگە لەو لێدوانەی سادەیەی درا بە ڕۆژنامەوانان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbares8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbares8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Nothing more is known apart from the bare statement issued to the press.",
+                            kurdishText:
+                                "ھیچ نازانرێت جگە لەو لێدوانەی سادەیەی درا بە ڕۆژنامەوانان.",
+                            onPressedBritish: () => speakbares8("en-GB"),
+                            onPressedAmerican: () => speakbares8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) لابردنی شتێک کە شتێکی تری داپۆشیوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was paid several thousand dollars to bare all (= take all her clothes off) for the magazine."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەند ھەزار دۆلارێکی پێدرا بۆ ئەوەی ھەموو جلەکانی دابکەنێت بۆ گۆڤارەکە (بۆ ئەوەی وێنەی بگرن)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbares9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbares9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was paid several thousand dollars to bare all (= take all her clothes off) for the magazine.",
+                            kurdishText:
+                                "چەند ھەزار دۆلارێکی پێدرا بۆ ئەوەی ھەموو جلەکانی دابکەنێت بۆ گۆڤارەکە (بۆ ئەوەی وێنەی بگرن).",
+                            onPressedBritish: () => speakbares9("en-GB"),
+                            onPressedAmerican: () => speakbares9("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The men bared their heads (= took their hats off as a sign of respect) as they entered the church."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوان کڵاوەکانیان داکەند کە چوونە ناو کڵێساکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbares10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbares10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The men bared their heads (= took their hats off as a sign of respect) as they entered the church.",
+                            kurdishText:
+                                "پیاوان کڵاوەکانیان داکەند کە چوونە ناو کڵێساکەوە.",
+                            onPressedBritish: () => speakbares10("en-GB"),
+                            onPressedAmerican: () => speakbares10("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ھاوەڵکار) زۆر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The party on Saturday was bare good!"), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text: "ئاھەنگەکەی شەممە زۆر خۆش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbares11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbares11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The party on Saturday was bare good!",
+                            kurdishText: "ئاھەنگەکەی شەممە زۆر خۆش بوو.",
+                            onPressedBritish: () => speakbares11("en-GB"),
+                            onPressedAmerican: () => speakbares11("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The questions are bare difficult."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text: "پرسیارەکان زۆر گرانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbares12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbares12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The questions are bare difficult.",
+                            kurdishText: "پرسیارەکان زۆر گرانن.",
+                            onPressedBritish: () => speakbares12("en-GB"),
+                            onPressedAmerican: () => speakbares12("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

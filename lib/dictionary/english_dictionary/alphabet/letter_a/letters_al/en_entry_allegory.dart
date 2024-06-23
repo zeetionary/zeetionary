@@ -115,34 +115,13 @@ class EnglishEntryallegory extends StatelessWidget {
                               text:
                                   "١. (ناو) چیرۆکێک کە تێیدا ھەر کارەکتەرێک سمبولە بۆ بیرۆکەیەک یان چەمکێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The play can be read as allegory."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شانۆکە دەکرێت وەک ھێرۆک ببینرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallegory3566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallegory3566(
-                                        // REPLACE: allegory /ˈæləɡɔːri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The play can be read as allegory.",
+                            kurdishText: "شانۆکە دەکرێت وەک ھێرۆک ببینرێت.",
+                            onPressedBritish: () => speakallegory3566("en-GB"),
+                            onPressedAmerican: () => speakallegory3566(
+                                // REPLACE: allegory /ˈæləɡɔːri/
+                                "en-US"),
                           ),
                         ],
                       ),

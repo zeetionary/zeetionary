@@ -150,32 +150,13 @@ class EnglishEntrybouncer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە لە پێش باڕێک یان یانەیەکی شەوانە دەوەستێت بۆ ئەوەی ڕێگری لەو کەسانە بکات کە ڕێگەپێ‌نەدراون بچنە ژوورەوە، یان ئەو کەسانە دەربکات کە کێشە درووست دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bouncers threw him out when he became aggressive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاسەوانەکان فڕێیان دایە دەرەوە کە دەستی بە توندوتیژی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbouncers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbouncers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bouncers threw him out when he became aggressive.",
+                            kurdishText:
+                                "پاسەوانەکان فڕێیان دایە دەرەوە کە دەستی بە توندوتیژی کرد.",
+                            onPressedBritish: () => speakbouncers1("en-GB"),
+                            onPressedAmerican: () => speakbouncers1("en-US"),
                           ),
                         ],
                       ),

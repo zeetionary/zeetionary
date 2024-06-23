@@ -117,35 +117,16 @@ class EnglishEntryalleviation extends StatelessWidget {
                               text:
                                   "١. (ناو) وا لە سەختی شتێک بکەیت کەم ببێتەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Acupuncture might help with the alleviation of headaches."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرزی ئاژنین لەوانەیە یارمەتیدەر بێت لە سوککردنی سەرێشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalleviation47114("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalleviation47114(
-                                        // REPLACE: alleviation /əˌliːviˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Acupuncture might help with the alleviation of headaches.",
+                            kurdishText:
+                                "دەرزی ئاژنین لەوانەیە یارمەتیدەر بێت لە سوککردنی سەرێشە.",
+                            onPressedBritish: () =>
+                                speakalleviation47114("en-GB"),
+                            onPressedAmerican: () => speakalleviation47114(
+                                // REPLACE: alleviation /əˌliːviˈeɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

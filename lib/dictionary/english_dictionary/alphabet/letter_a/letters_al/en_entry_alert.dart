@@ -168,224 +168,89 @@ class EnglishEntryalert extends StatelessWidget {
                               text:
                                   "١. (کردار) وریاکردنەوەی کەسێک لەسەر بارودۆخێکی مەترسیدار، یان یەکێک کە پێویستە بەپەلە مامەڵەی لەگەڵ بکرێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An anonymous letter alerted police to the possibility of a terrorist attack at the airport."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەیەکی نھێنی پۆلیسی ئاگادارکردەوە لە ئەگەری ھێرشێکی تیرۆریستی لە فڕۆکەخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalert3524("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalert3524(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An anonymous letter alerted police to the possibility of a terrorist attack at the airport.",
+                            kurdishText:
+                                "نامەیەکی نھێنی پۆلیسی ئاگادارکردەوە لە ئەگەری ھێرشێکی تیرۆریستی لە فڕۆکەخانەکە.",
+                            onPressedBritish: () => speakalert3524("en-GB"),
+                            onPressedAmerican: () => speakalert3524(
+                                // REPLACE: alert /əˈlɜːrt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Neighbours quickly alerted the emergency services."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دراوسێیەکان بەپەلە تیمە فریاگوزارییەکانیان ئاگادارکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalert352("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalert352(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Neighbours quickly alerted the emergency services.",
+                            kurdishText:
+                                "دراوسێیەکان بەپەلە تیمە فریاگوزارییەکانیان ئاگادارکردەوە.",
+                            onPressedBritish: () => speakalert352("en-GB"),
+                            onPressedAmerican: () => speakalert352(
+                                // REPLACE: alert /əˈlɜːrt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ئاگادارکردنەوەی کەسێک لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They had been alerted to the possibility of further price rises."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگادارکرابوونەوە لە ئەگەری زیادبوونی زیاتری نرخ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalert29637("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalert29637(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They had been alerted to the possibility of further price rises.",
+                            kurdishText:
+                                "ئاگادارکرابوونەوە لە ئەگەری زیادبوونی زیاتری نرخ.",
+                            onPressedBritish: () => speakalert29637("en-GB"),
+                            onPressedAmerican: () => speakalert29637(
+                                // REPLACE: alert /əˈlɜːrt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بارودۆخێک کە تێیدا خەڵکی ئاگادارکراون بۆ مەترسی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "More than 5 000 troops have been placed on (full) alert."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیاتر لە ٥٠٠٠ سەرباز خراونەتە ئامادابەشیی تەواو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalert6277("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalert6277(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "More than 5 000 troops have been placed on (full) alert.",
+                            kurdishText:
+                                "زیاتر لە ٥٠٠٠ سەرباز خراونەتە ئامادابەشیی تەواو.",
+                            onPressedBritish: () => speakalert6277("en-GB"),
+                            onPressedAmerican: () => speakalert6277(
+                                // REPLACE: alert /əˈlɜːrt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ئاگادارکەرەوە بۆ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I get text alerts when I have used 80% of my mobile data."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگادارکەرەوەیەکی نووسراوم پێدەگات کە زیاتر لە ٨٠٪ ئینتەرنێتی موبایلەکەم بەکاربێنم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalert96526("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalert96526(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I get text alerts when I have used 80% of my mobile data.",
+                            kurdishText:
+                                "ئاگادارکەرەوەیەکی نووسراوم پێدەگات کە زیاتر لە ٨٠٪ ئینتەرنێتی موبایلەکەم بەکاربێنم.",
+                            onPressedBritish: () => speakalert96526("en-GB"),
+                            onPressedAmerican: () => speakalert96526(
+                                // REPLACE: alert /əˈlɜːrt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵناو) ھەبوونی توانای بیرکردنەوە بەخێرایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Two alert scientists spotted the mistake."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو زانای وریا تێبینی ھەڵەکەیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalert34655("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalert34655(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Two alert scientists spotted the mistake.",
+                            kurdishText: "دوو زانای وریا تێبینی ھەڵەکەیان کرد.",
+                            onPressedBritish: () => speakalert34655("en-GB"),
+                            onPressedAmerican: () => speakalert34655(
+                                // REPLACE: alert /əˈlɜːrt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ھاوەڵناو) ئاگاداربوون لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We must be alert to the possibility of danger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستە چاوکراوە بین بۆ مەترسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalert3566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalert3566(
-                                        // REPLACE: alert /əˈlɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We must be alert to the possibility of danger.",
+                            kurdishText: "پێویستە چاوکراوە بین بۆ مەترسی.",
+                            onPressedBritish: () => speakalert3566("en-GB"),
+                            onPressedAmerican: () => speakalert3566(
+                                // REPLACE: alert /əˈlɜːrt/
+                                "en-US"),
                           ),
                         ],
                       ),

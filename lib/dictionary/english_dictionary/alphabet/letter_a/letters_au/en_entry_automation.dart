@@ -166,35 +166,15 @@ class EnglishEntryautomation extends StatelessWidget {
                               text:
                                   "١. (ناو) بەکارھێنانی ئامێر و کۆمپیوتەر بۆ کردنی ئەو کارانەی کە پێشتر لەلایەن مرۆڤەوە دەکران"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Automation meant the loss of many factory jobs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەخۆکارکردن لەدەستچوونی زۆر کاری لە کارگەکاندا بەدواداھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautomation838("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakautomation838(
-                                        // REPLACE: automation
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Automation meant the loss of many factory jobs.",
+                            kurdishText:
+                                "بەخۆکارکردن لەدەستچوونی زۆر کاری لە کارگەکاندا بەدواداھات.",
+                            onPressedBritish: () => speakautomation838("en-GB"),
+                            onPressedAmerican: () => speakautomation838(
+                                // REPLACE: automation
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

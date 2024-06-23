@@ -277,241 +277,88 @@ class EnglishEntrybosom extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) سنگ یان مەمکی ژن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She pressed her baby to her bosom."),
-                                    ExampleSentenceKurdish(
-                                        text: "منداڵەکەیی نا بە سنگییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbosoms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbosoms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She pressed her baby to her bosom.",
+                            kurdishText: "منداڵەکەیی نا بە سنگییەوە.",
+                            onPressedBritish: () => speakbosoms1("en-GB"),
+                            onPressedAmerican: () => speakbosoms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dress showed the top of her bosoms."),
-                                    ExampleSentenceKurdish(
-                                        text: "جلەکە سەرسنگی دەرخستبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbosoms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbosoms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dress showed the top of her bosoms.",
+                            kurdishText: "جلەکە سەرسنگی دەرخستبوو.",
+                            onPressedBritish: () => speakbosoms2("en-GB"),
+                            onPressedAmerican: () => speakbosoms2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She clutched her baby tightly to her bosom."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "منداڵەکەی بە توندی گرت بە سنگییەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbosoms3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbosoms3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She clutched her baby tightly to her bosom.",
+                                    kurdishText:
+                                        "منداڵەکەی بە توندی گرت بە سنگییەوە.",
+                                    onPressedBritish: () =>
+                                        speakbosoms3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbosoms3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "As she walked into the room, all eyes were drawn to her ample bosom, accentuated by the elegant silk blouse."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کە چووە ژوورەکە ھەموو چاوەکان لەسەر مەمکە پڕەکانی بوون کە جوان دەرخرابوون لە بلووزە ئاوریشمە شۆخ‌وشەنگەکەیدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbosoms4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbosoms4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "As she walked into the room, all eyes were drawn to her ample bosom, accentuated by the elegant silk blouse.",
+                                    kurdishText:
+                                        "کە چووە ژوورەکە ھەموو چاوەکان لەسەر مەمکە پڕەکانی بوون کە جوان دەرخرابوون لە بلووزە ئاوریشمە شۆخ‌وشەنگەکەیدا.",
+                                    onPressedBritish: () =>
+                                        speakbosoms4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbosoms4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The dress left the bosom bare."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "جلەکە سنگی بە دانەپۆشراوی دەھێشتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbosoms5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbosoms5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The dress left the bosom bare.",
+                                    kurdishText:
+                                        "جلەکە سنگی بە دانەپۆشراوی دەھێشتەوە.",
+                                    onPressedBritish: () =>
+                                        speakbosoms5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbosoms5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Her bosoms heaved as she breathed heavily."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سنگی پڕبوو کە بە قووڵی ھەناسەی دا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbosoms6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbosoms6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Her bosoms heaved as she breathed heavily.",
+                                    kurdishText:
+                                        "سنگی پڕبوو کە بە قووڵی ھەناسەی دا.",
+                                    onPressedBritish: () =>
+                                        speakbosoms6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbosoms6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She was slender, but with a voluptuous bosom."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "باریکەڵە بوو بەڵام مەمکەکانی زل بوون."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbosoms7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbosoms7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She was slender, but with a voluptuous bosom.",
+                                    kurdishText:
+                                        "باریکەڵە بوو بەڵام مەمکەکانی زل بوون.",
+                                    onPressedBritish: () =>
+                                        speakbosoms7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbosoms7("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Clasp your child to your bosom and give him a big kiss!"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "منداڵەکەت بکە باوەشەوە و ماچێکی توندی بکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbosoms9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbosoms9("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Clasp your child to your bosom and give him a big kiss!",
+                                    kurdishText:
+                                        "منداڵەکەت بکە باوەشەوە و ماچێکی توندی بکە.",
+                                    onPressedBritish: () =>
+                                        speakbosoms9("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbosoms9("en-US"),
                                   ),
                                 ],
                               ),
@@ -521,61 +368,22 @@ class EnglishEntrybosom extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو بەشەی جل کە سنگی ژنان دادەپۆشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She pinned a rose to her bosom."),
-                                    ExampleSentenceKurdish(
-                                        text: "گوڵێکی کردبوو بە یەقەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbosoms8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbosoms8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She pinned a rose to her bosom.",
+                            kurdishText: "گوڵێکی کردبوو بە یەقەیەوە.",
+                            onPressedBritish: () => speakbosoms8("en-GB"),
+                            onPressedAmerican: () => speakbosoms8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەو دۆخەی کە لەگەڵ ئەو کەسانەی کە خۆشیان دەوێیت و دەتپارێزن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was living in the bosom of his family"),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ئارامیی خێزانەکەیدا دەژیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbosoms10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbosoms10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was living in the bosom of his family",
+                            kurdishText: "لە ئارامیی خێزانەکەیدا دەژیا.",
+                            onPressedBritish: () => speakbosoms10("en-GB"),
+                            onPressedAmerican: () => speakbosoms10("en-US"),
                           ),
                         ],
                       ),

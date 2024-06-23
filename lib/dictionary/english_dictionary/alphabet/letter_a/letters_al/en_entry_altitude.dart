@@ -113,33 +113,14 @@ class EnglishEntryaltitude extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بەرزایی لە سەروو ئاستی دەریا" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are flying at an altitude of 6 000 metres."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە بەرزی ٦٠٠٠ مەتردا دەفڕین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaltitude222("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaltitude222(
-                                        // REPLACE: altitude /ˈæltɪtuːd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are flying at an altitude of 6 000 metres.",
+                            kurdishText: "لە بەرزی ٦٠٠٠ مەتردا دەفڕین.",
+                            onPressedBritish: () => speakaltitude222("en-GB"),
+                            onPressedAmerican: () => speakaltitude222(
+                                // REPLACE: altitude /ˈæltɪtuːd/
+                                "en-US"),
                           ),
                         ],
                       ),

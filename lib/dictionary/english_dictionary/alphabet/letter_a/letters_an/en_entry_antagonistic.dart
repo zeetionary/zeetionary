@@ -159,35 +159,16 @@ class EnglishEntryantagonistic extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پیشاندانی دژبەری و دوژمنایەتی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The interview made her antagonistic towards journalists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوپێکەوتنەکە وای‌کرد دژبەرانە بێت بەرامبەر ڕۆژنامەنووسان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantagonistic105("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantagonistic105(
-                                        // REPLACE: antagonistic /ænˌtæɡəˈnɪstɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The interview made her antagonistic towards journalists.",
+                            kurdishText:
+                                "چاوپێکەوتنەکە وای‌کرد دژبەرانە بێت بەرامبەر ڕۆژنامەنووسان.",
+                            onPressedBritish: () =>
+                                speakantagonistic105("en-GB"),
+                            onPressedAmerican: () => speakantagonistic105(
+                                // REPLACE: antagonistic /ænˌtæɡəˈnɪstɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

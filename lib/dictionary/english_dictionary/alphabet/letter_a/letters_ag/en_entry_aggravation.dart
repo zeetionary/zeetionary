@@ -114,66 +114,26 @@ class EnglishEntryaggravation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) خراپتربوونی بارودۆخێکی خراپ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'd complain to the manager but it's not worth the aggravation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەلای بەڕێوبەر سکاڵا دەکەن، بەڵام ئەوە ناھێنێ (ئەو سەرئێشە تووشی خۆم بکەم)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaggrava685435("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggrava685435(
-                                        // REPLACE: aggravation /ˌæɡrəˈveɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'd complain to the manager but it's not worth the aggravation.",
+                            kurdishText:
+                                "لەلای بەڕێوبەر سکاڵا دەکەن، بەڵام ئەوە ناھێنێ (ئەو سەرئێشە تووشی خۆم بکەم).",
+                            onPressedBritish: () => speakaggrava685435("en-GB"),
+                            onPressedAmerican: () => speakaggrava685435(
+                                // REPLACE: aggravation /ˌæɡrəˈveɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Rest the affected leg to avoid further aggravation of the condition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لاقە تووشبووەکەت بحەسێنەوە بۆ ئەوەی بارودۆخەکە خراپتر نەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaggravat37814("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggravat37814(
-                                        // REPLACE: aggravation /ˌæɡrəˈveɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Rest the affected leg to avoid further aggravation of the condition.",
+                            kurdishText:
+                                "لاقە تووشبووەکەت بحەسێنەوە بۆ ئەوەی بارودۆخەکە خراپتر نەبێت.",
+                            onPressedBritish: () => speakaggravat37814("en-GB"),
+                            onPressedAmerican: () => speakaggravat37814(
+                                // REPLACE: aggravation /ˌæɡrəˈveɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

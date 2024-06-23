@@ -113,33 +113,14 @@ class EnglishEntryacquisitive extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر ئەزکەر لە شتی تازە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is an acquisitive company looking for ways to expand."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیایەکی زۆرخوازە کە بەشوێن ڕێگادا دەگەڕێت بۆ فراوانبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacq12469("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacq12469(
-                                        "en-US"), // REPLACE acquisitive /əˈkwɪzətɪv/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is an acquisitive company looking for ways to expand.",
+                            kurdishText:
+                                "کۆمپانیایەکی زۆرخوازە کە بەشوێن ڕێگادا دەگەڕێت بۆ فراوانبوون.",
+                            onPressedBritish: () => speakacq12469("en-GB"),
+                            onPressedAmerican: () => speakacq12469(
+                                "en-US"), // REPLACE acquisitive /əˈkwɪzətɪv/
                           ),
                         ],
                       ),

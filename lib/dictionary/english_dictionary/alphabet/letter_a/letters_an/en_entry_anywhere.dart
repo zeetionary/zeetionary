@@ -159,64 +159,25 @@ class EnglishEntryanywhere extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) لە ڕستەی نەرێ و پرسیاری بۆ ئاماژە بۆ شوێن بەکاردێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I can't see it anywhere."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ھیچ شوێنێک نایبینم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanywhere949("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanywhere949(
-                                        // REPLACE: anywhere /ˈeniwer/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I can't see it anywhere.",
+                            kurdishText: "لە ھیچ شوێنێک نایبینم.",
+                            onPressedBritish: () => speakanywhere949("en-GB"),
+                            onPressedAmerican: () => speakanywhere949(
+                                // REPLACE: anywhere /ˈeniwer/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) لە ھەر شوێنێک، گرنگ نییە کوێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Put the box down anywhere."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سنووقەکە لە ھەر کوێ دادەنێی دایبنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanywhere951("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanywhere951(
-                                        // REPLACE: anywhere /ˈeniwer/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Put the box down anywhere.",
+                            kurdishText: "سنووقەکە لە ھەر کوێ دادەنێی دایبنە.",
+                            onPressedBritish: () => speakanywhere951("en-GB"),
+                            onPressedAmerican: () => speakanywhere951(
+                                // REPLACE: anywhere /ˈeniwer/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

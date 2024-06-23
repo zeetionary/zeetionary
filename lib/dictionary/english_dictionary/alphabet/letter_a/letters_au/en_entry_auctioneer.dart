@@ -166,35 +166,16 @@ class EnglishEntryauctioneer extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە لە زیادکردنی ئاشکرادا شت دەفرۆشێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘Yours for £200,’ said the auctioneer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەڵاڵەکە وتی 'ھی تۆیە بە ٢٠٠ پاوەند'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauctioneer1221("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauctioneer1221(
-                                        // REPLACE: auctioneer
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘Yours for £200,’ said the auctioneer.",
+                            kurdishText:
+                                "دەڵاڵەکە وتی 'ھی تۆیە بە ٢٠٠ پاوەند'.",
+                            onPressedBritish: () =>
+                                speakauctioneer1221("en-GB"),
+                            onPressedAmerican: () => speakauctioneer1221(
+                                // REPLACE: auctioneer
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

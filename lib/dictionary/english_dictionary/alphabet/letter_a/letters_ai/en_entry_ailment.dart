@@ -111,34 +111,14 @@ class EnglishEntryailment extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) نەخۆشییەکی سووک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I got all the usual childhood ailments."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو دەردە باوەکانی منداڵیم گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakailment1249("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakailment1249(
-                                        // REPLACE: ailment /ˈeɪlmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I got all the usual childhood ailments.",
+                            kurdishText: "ھەموو دەردە باوەکانی منداڵیم گرت.",
+                            onPressedBritish: () => speakailment1249("en-GB"),
+                            onPressedAmerican: () => speakailment1249(
+                                // REPLACE: ailment /ˈeɪlmənt/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -163,34 +163,15 @@ class EnglishEntryaskew extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو و ھاوەڵکار) شتێک کە ڕاست نییە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His glasses had been knocked askew by the blow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاویلکەکەی خواروخێچ بووبوو بەھۆی باکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaskew813("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaskew813(
-                                        // REPLACE: askew /əˈskjuː/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His glasses had been knocked askew by the blow.",
+                            kurdishText:
+                                "چاویلکەکەی خواروخێچ بووبوو بەھۆی باکەوە.",
+                            onPressedBritish: () => speakaskew813("en-GB"),
+                            onPressedAmerican: () => speakaskew813(
+                                // REPLACE: askew /əˈskjuː/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

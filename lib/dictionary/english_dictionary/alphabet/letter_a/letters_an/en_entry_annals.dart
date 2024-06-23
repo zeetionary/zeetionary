@@ -157,65 +157,27 @@ class EnglishEntryannals extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) تۆماری مێژوویی؛ تۆماری فەرمی ڕووداو و چالاکیی ساڵانە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His deeds went down in the annals of British history."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکانی چوونە تۆماری مێژووی بەریتانیاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannals1123("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannals1123(
-                                        // REPLACE: annals /ˈænlz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His deeds went down in the annals of British history.",
+                            kurdishText:
+                                "کارەکانی چوونە تۆماری مێژووی بەریتانیاوە.",
+                            onPressedBritish: () => speakannals1123("en-GB"),
+                            onPressedAmerican: () => speakannals1123(
+                                // REPLACE: annals /ˈænlz/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is a historic day in the annals of the team."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە ڕۆژێکی مێژووییە لە مێژوونامەی تیمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannals1125("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannals1125(
-                                        // REPLACE: annals /ˈænlz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is a historic day in the annals of the team.",
+                            kurdishText:
+                                "ئەمە ڕۆژێکی مێژووییە لە مێژوونامەی تیمەکە.",
+                            onPressedBritish: () => speakannals1125("en-GB"),
+                            onPressedAmerican: () => speakannals1125(
+                                // REPLACE: annals /ˈænlz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

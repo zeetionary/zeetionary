@@ -178,295 +178,124 @@ class EnglishEntryangle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) گۆشە؛ بۆشایی نێوان دوو ھێڵ لەو خاڵەی بە یەکدی دەگەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The interior angles of a square are right angles or angles of 90 degrees."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆشەکانی ناوەوەی چوارگۆشەیەک تەواون یان گۆشەی ٩٠ پلەیین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangle11480("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangle11480(
-                                        // REPLACE: angle /ˈæŋɡl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The interior angles of a square are right angles or angles of 90 degrees.",
+                            kurdishText:
+                                "گۆشەکانی ناوەوەی چوارگۆشەیەک تەواون یان گۆشەی ٩٠ پلەیین.",
+                            onPressedBritish: () => speakangle11480("en-GB"),
+                            onPressedAmerican: () => speakangle11480(
+                                // REPLACE: angle /ˈæŋɡl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) سووچەکانی ناوەوە یان دەرەوەی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's a modern building, all brick and glass and sharp angles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بینایەکی سەردەمیانەیە، ھەموو خشت و شووشە و گۆشەی تیژە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangle46055("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangle46055(
-                                        // REPLACE: angle /ˈæŋɡl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's a modern building, all brick and glass and sharp angles.",
+                            kurdishText:
+                                "بینایەکی سەردەمیانەیە، ھەموو خشت و شووشە و گۆشەی تیژە.",
+                            onPressedBritish: () => speakangle46055("en-GB"),
+                            onPressedAmerican: () => speakangle46055(
+                                // REPLACE: angle /ˈæŋɡl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ئاراستەی شتێک کە نە بەرەو سەرەوە یان خوارەوە، نە بەرەو ڕاست یان چەپە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She adjusted the angle of the legs to make the table stand more firmly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاراستەی لاقەکانی ڕێکخست بۆ ئەوەی مێزەکە قایمتر بوەستێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangle45906("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangle45906(
-                                        // REPLACE: angle /ˈæŋɡl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She adjusted the angle of the legs to make the table stand more firmly.",
+                            kurdishText:
+                                "ئاراستەی لاقەکانی ڕێکخست بۆ ئەوەی مێزەکە قایمتر بوەستێ.",
+                            onPressedBritish: () => speakangle45906("en-GB"),
+                            onPressedAmerican: () => speakangle45906(
+                                // REPLACE: angle /ˈæŋɡl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Venus and the Earth orbit the Sun at a slight angle to each other."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زووھرە و زەوی بەدەوری خۆردا دەسووڕێنەوە بە ئاراستەیەک کەمێک بەلای یەکتردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangle440("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakangle440(// REPLACE: angle /ˈæŋɡl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Venus and the Earth orbit the Sun at a slight angle to each other.",
+                            kurdishText:
+                                "زووھرە و زەوی بەدەوری خۆردا دەسووڕێنەوە بە ئاراستەیەک کەمێک بەلای یەکتردا.",
+                            onPressedBritish: () => speakangle440("en-GB"),
+                            onPressedAmerican: () =>
+                                speakangle440(// REPLACE: angle /ˈæŋɡl/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) گۆشەنیگا؛ شوێنی سەیرکردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The painting changes slightly when seen from different angles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تابلۆکە کەمێک دەگۆڕێت کە لە گۆشەنیگای دیکەوە سەیردەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangle450("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakangle450(// REPLACE: angle /ˈæŋɡl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The painting changes slightly when seen from different angles.",
+                            kurdishText:
+                                "تابلۆکە کەمێک دەگۆڕێت کە لە گۆشەنیگای دیکەوە سەیردەکرێت.",
+                            onPressedBritish: () => speakangle450("en-GB"),
+                            onPressedAmerican: () =>
+                                speakangle450(// REPLACE: angle /ˈæŋɡl/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) گۆشەنیگا؛ شێوازی ڕوانین یان بیرکردنەوە لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can look at the issue from many different angles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بابەتەکە دەتوانرێت لە زۆر گۆشەنیگای جیاوازەوە سەیربکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangle905("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakangle905(// REPLACE: angle /ˈæŋɡl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can look at the issue from many different angles.",
+                            kurdishText:
+                                "بابەتەکە دەتوانرێت لە زۆر گۆشەنیگای جیاوازەوە سەیربکرێت.",
+                            onPressedBritish: () => speakangle905("en-GB"),
+                            onPressedAmerican: () =>
+                                speakangle905(// REPLACE: angle /ˈæŋɡl/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) دانانی شتێک بەشێوەیەک کە ڕاستەوخۆ ڕووی لە شتێک نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He angled his chair so that he could sit and watch her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کورسییەکەی بەلاداخست بۆ ئەوەی دابنیشێت و سەیری بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangle225870("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangle225870(
-                                        // REPLACE: angle /ˈæŋɡl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He angled his chair so that he could sit and watch her.",
+                            kurdishText:
+                                "کورسییەکەی بەلاداخست بۆ ئەوەی دابنیشێت و سەیری بکات.",
+                            onPressedBritish: () => speakangle225870("en-GB"),
+                            onPressedAmerican: () => speakangle225870(
+                                // REPLACE: angle /ˈæŋɡl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (کردار) پێشکەشکردنی زانیاری یان ڕاپۆرتێک بە شێوازێک یان بۆ کەسانێکی دیاریکراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The programme is angled towards younger viewers."),
-                                    ExampleSentenceKurdish(
-                                        text: "پڕۆگرامەکە بۆ بیسەرانی گەنجە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangle5401("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakangle5401(// REPLACE: angle /ˈæŋɡl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The programme is angled towards younger viewers.",
+                            kurdishText: "پڕۆگرامەکە بۆ بیسەرانی گەنجە.",
+                            onPressedBritish: () => speakangle5401("en-GB"),
+                            onPressedAmerican: () =>
+                                speakangle5401(// REPLACE: angle /ˈæŋɡl/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (کردار) ماسیگرتن بە قولاب"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "On weekends, they often go angling by the lake."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕۆژانی کۆتایی ھەفتە دەچن بۆ ماسیگرتن لە دەریاچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangle5580("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakangle5580(// REPLACE: angle /ˈæŋɡl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "On weekends, they often go angling by the lake.",
+                            kurdishText:
+                                "لە ڕۆژانی کۆتایی ھەفتە دەچن بۆ ماسیگرتن لە دەریاچەکە.",
+                            onPressedBritish: () => speakangle5580("en-GB"),
+                            onPressedAmerican: () =>
+                                speakangle5580(// REPLACE: angle /ˈæŋɡl/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

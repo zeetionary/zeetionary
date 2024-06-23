@@ -157,69 +157,29 @@ class EnglishEntryancillary extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) پێدانی یارمەتی پێویست بە کار و چالاکییەکانی ڕێکخراوێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ancillary workers support the hospital staff in various non-medical roles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارمەندە ئاریکارەکان یارمەتی ستافی نەخۆشخانەکە دەدەن لە ژمارەیەک لایەنی نا-تەندرووستییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakancillary1140("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakancillary1140(
-                                        // REPLACE: ancillary /ˈænsəleri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ancillary workers support the hospital staff in various non-medical roles.",
+                            kurdishText:
+                                "کارمەندە ئاریکارەکان یارمەتی ستافی نەخۆشخانەکە دەدەن لە ژمارەیەک لایەنی نا-تەندرووستییەوە.",
+                            onPressedBritish: () => speakancillary1140("en-GB"),
+                            onPressedAmerican: () => speakancillary1140(
+                                // REPLACE: ancillary /ˈænsəleri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) لەگەڵ شتێکی تر کە زیاتر گرنگە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ancillary rights are often included in entertainment industry contracts for creators."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مافە لاوەکییەکان زۆرجار لە گرێبەستەکانی پیشەسازی فیلم و میوزیک ھەن بۆ بەرھەمھێنەران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakancillary0958("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakancillary0958(
-                                        // REPLACE: ancillary /ˈænsəleri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ancillary rights are often included in entertainment industry contracts for creators.",
+                            kurdishText:
+                                "مافە لاوەکییەکان زۆرجار لە گرێبەستەکانی پیشەسازی فیلم و میوزیک ھەن بۆ بەرھەمھێنەران.",
+                            onPressedBritish: () => speakancillary0958("en-GB"),
+                            onPressedAmerican: () => speakancillary0958(
+                                // REPLACE: ancillary /ˈænsəleri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

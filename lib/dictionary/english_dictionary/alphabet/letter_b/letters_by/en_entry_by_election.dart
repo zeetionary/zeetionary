@@ -188,32 +188,13 @@ class EnglishEntrybyelection extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھەڵبژاردنێک بۆ ئەندامێکی تازەی پەرلەمان بۆ شوێنگرتنەوەی یەکێک کە مردووە یان دەستی لەکارکێشاوەتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She resigned as an MP, triggering a by-election."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک ئەندام پەرلەمان دەستی لەکارکێشایەوە و ھەڵبژاردنێک بەدوایدا ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "by-election", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbyelections1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbyelections1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She resigned as an MP, triggering a by-election.",
+                            kurdishText:
+                                "وەک ئەندام پەرلەمان دەستی لەکارکێشایەوە و ھەڵبژاردنێک بەدوایدا ھات.", // by-election", follow LX strictly
+                            onPressedBritish: () => speakbyelections1("en-GB"),
+                            onPressedAmerican: () => speakbyelections1("en-US"),
                           ),
                         ],
                       ),

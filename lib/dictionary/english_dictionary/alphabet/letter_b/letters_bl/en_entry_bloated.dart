@@ -150,63 +150,25 @@ class EnglishEntrybloated extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) پڕ لە شلە یان ھەوا کە وادەکات گەورەتر لە ئاسایی دەربکەوێت بەشێوەیەک کە ناشرینە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A bloated body floating in the river and police were called."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەرمێکی پەنەمیاو لە ڕووبارەکە دۆزرایەوە و پۆلیس بانگ کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloateds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloateds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A bloated body floating in the river and police were called.",
+                            kurdishText:
+                                "تەرمێکی پەنەمیاو لە ڕووبارەکە دۆزرایەوە و پۆلیس بانگ کرا.",
+                            onPressedBritish: () => speakbloateds2("en-GB"),
+                            onPressedAmerican: () => speakbloateds2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) پڕ لە خۆراک و ھەستکردن بە ناڕەحەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After the heavy meal, he felt bloated and uncomfortable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەدوای ژەمە قوورسەکە، ھەستی بە باکردووی و ناڕەحەتی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloateds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloateds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After the heavy meal, he felt bloated and uncomfortable.",
+                            kurdishText:
+                                "لەدوای ژەمە قوورسەکە، ھەستی بە باکردووی و ناڕەحەتی کرد.",
+                            onPressedBritish: () => speakbloateds1("en-GB"),
+                            onPressedAmerican: () => speakbloateds1("en-US"),
                           ),
                         ],
                       ),

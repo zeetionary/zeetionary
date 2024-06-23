@@ -337,192 +337,77 @@ class EnglishEntryallow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ڕێگەدان بە ڕوودانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His parents won't allow him to stay out late."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایک و باوکی ڕێگەی پێ نادەن تا درەنگ لە دەرەوە بمێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallow3255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakallow3255(// REPLACE: allow /əˈlaʊ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His parents won't allow him to stay out late.",
+                            kurdishText:
+                                "دایک و باوکی ڕێگەی پێ نادەن تا درەنگ لە دەرەوە بمێنێتەوە.",
+                            onPressedBritish: () => speakallow3255("en-GB"),
+                            onPressedAmerican: () =>
+                                speakallow3255(// REPLACE: allow /əˈlaʊ/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The law allowed companies to dismiss workers without any reason."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاساکە ڕێگە بە کۆمپانیاکان دەدات کرێکاران بەبێ ھیچ ھۆکارێک دەربکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallow535("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakallow535(// REPLACE: allow /əˈlaʊ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The law allowed companies to dismiss workers without any reason.",
+                            kurdishText:
+                                "یاساکە ڕێگە بە کۆمپانیاکان دەدات کرێکاران بەبێ ھیچ ھۆکارێک دەربکەن.",
+                            onPressedBritish: () => speakallow535("en-GB"),
+                            onPressedAmerican: () =>
+                                speakallow535(// REPLACE: allow /əˈlaʊ/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ڕێگەدان بە کەسێک شتێکی ھەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You're allowed an hour to complete the test."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەک کاتژمێر کاتت ھەیە بۆ وەڵامدانەوەی تاقیکردنەوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallow369("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakallow369(// REPLACE: allow /əˈlaʊ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You're allowed an hour to complete the test.",
+                            kurdishText:
+                                "یەک کاتژمێر کاتت ھەیە بۆ وەڵامدانەوەی تاقیکردنەوەکە.",
+                            onPressedBritish: () => speakallow369("en-GB"),
+                            onPressedAmerican: () =>
+                                speakallow369(// REPLACE: allow /əˈlaʊ/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ڕێگەدان بە کەسێک بچێتە شوێنێک یان جێی بھێڵێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They weren't allowed into the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگەیان پێنەدرا بچنە ناو وڵاتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallow4721("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakallow4721(// REPLACE: allow /əˈlaʊ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They weren't allowed into the country.",
+                            kurdishText: "ڕێگەیان پێنەدرا بچنە ناو وڵاتەکە.",
+                            onPressedBritish: () => speakallow4721("en-GB"),
+                            onPressedAmerican: () =>
+                                speakallow4721(// REPLACE: allow /əˈlaʊ/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) گونجاندنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The system allows people the opportunity to browse a wide selection of books."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیستەمەکە ھەلی ئەوە دەگونجێنێت کە خەڵکی لەناو ژمارەیەکی زۆر جیاوازی پەرتووکدا بگەڕێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallow36541("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallow36541(
-                                        // REPLACE: allow /əˈlaʊ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The system allows people the opportunity to browse a wide selection of books.",
+                            kurdishText:
+                                "سیستەمەکە ھەلی ئەوە دەگونجێنێت کە خەڵکی لەناو ژمارەیەکی زۆر جیاوازی پەرتووکدا بگەڕێن.",
+                            onPressedBritish: () => speakallow36541("en-GB"),
+                            onPressedAmerican: () => speakallow36541(
+                                // REPLACE: allow /əˈlaʊ/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) پەسەندکردن یان داننان بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was very helpful when my mother was ill—I'll allow you that."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر یارمەتیدەر بوو کە دایکم نەخۆش بوو، دان بەوەدا دەنێم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallow2341("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakallow2341(// REPLACE: allow /əˈlaʊ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was very helpful when my mother was ill—I'll allow you that.",
+                            kurdishText:
+                                "زۆر یارمەتیدەر بوو کە دایکم نەخۆش بوو، دان بەوەدا دەنێم.",
+                            onPressedBritish: () => speakallow2341("en-GB"),
+                            onPressedAmerican: () =>
+                                speakallow2341(// REPLACE: allow /əˈlaʊ/
+                                    "en-US"),
                           ),
                         ],
                       ),

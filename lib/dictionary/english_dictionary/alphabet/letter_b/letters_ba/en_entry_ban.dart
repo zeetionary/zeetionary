@@ -157,129 +157,53 @@ class EnglishEntryban extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) قەدەغەکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The law bans smoking in all public places."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاساکە جگەرەکێشان لە شوێنە گشتییەکان قەدەغەدەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbans1(// REPLACE: ban
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The law bans smoking in all public places.",
+                            kurdishText:
+                                "یاساکە جگەرەکێشان لە شوێنە گشتییەکان قەدەغەدەکات.",
+                            onPressedBritish: () => speakbans1("en-GB"),
+                            onPressedAmerican: () => speakbans1(// REPLACE: ban
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ڕێگریکردن لە کەسێک لە کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's been banned from leaving the country while the allegations are investigated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو بەربەستکراوە لە جێھێشتنی وڵاتەکە لەکاتێکدا تۆمەتەکان لێکۆڵینەوەیان لێ دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbans2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbans2(// REPLACE: ban
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's been banned from leaving the country while the allegations are investigated.",
+                            kurdishText:
+                                "ئەو بەربەستکراوە لە جێھێشتنی وڵاتەکە لەکاتێکدا تۆمەتەکان لێکۆڵینەوەیان لێ دەکرێت.",
+                            onPressedBritish: () => speakbans2("en-GB"),
+                            onPressedAmerican: () => speakbans2(// REPLACE: ban
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بڕیارێکی فەرمی کە شتێک قەدەغەدەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A majority of people are against the ban."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی خەڵکی دژی بڕیاری قەدەغەکردنەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbans3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbans3(// REPLACE: ban
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A majority of people are against the ban.",
+                            kurdishText:
+                                "زۆرینەی خەڵکی دژی بڕیاری قەدەغەکردنەکەن.",
+                            onPressedBritish: () => speakbans3("en-GB"),
+                            onPressedAmerican: () => speakbans3(// REPLACE: ban
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) بڕیارێکی فەرمی کە کردنی شتێک لە کەسێک قەدەغەدەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His behaviour led to a life ban from international football."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەفتارەکەی بوو بەھۆی سڕکردنی ھەمیشەیی لە تۆپێنی نێودەوڵەتیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbans4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbans4(// REPLACE: ban
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His behaviour led to a life ban from international football.",
+                            kurdishText:
+                                "ڕەفتارەکەی بوو بەھۆی سڕکردنی ھەمیشەیی لە تۆپێنی نێودەوڵەتیدا.",
+                            onPressedBritish: () => speakbans4("en-GB"),
+                            onPressedAmerican: () => speakbans4(// REPLACE: ban
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

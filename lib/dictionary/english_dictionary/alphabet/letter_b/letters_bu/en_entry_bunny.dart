@@ -189,32 +189,13 @@ class EnglishEntrybunny extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەروێشک بە زمانی منداڵان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children giggled with delight as they spotted a fluffy bunny in the garden."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان شاگەشکەبوو بوون لە خۆشیدا کە کەروێشکێکیان لە باخچەکەدا بینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bunny", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunnys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunnys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children giggled with delight as they spotted a fluffy bunny in the garden.",
+                            kurdishText:
+                                "منداڵەکان شاگەشکەبوو بوون لە خۆشیدا کە کەروێشکێکیان لە باخچەکەدا بینی.", // bunny", follow LX strictly
+                            onPressedBritish: () => speakbunnys1("en-GB"),
+                            onPressedAmerican: () => speakbunnys1("en-US"),
                           ),
                         ],
                       ),

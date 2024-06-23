@@ -113,34 +113,14 @@ class EnglishEntryadamant extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) بەردەوامبوون لەسەر بۆچوونی خۆت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Eva was adamant that she would not come."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێڤا سوور بوو لەسەر ئەوەی کە نایەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadam35871("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadam35871(
-                                        // REPLACE: adamant /ˈædəmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Eva was adamant that she would not come.",
+                            kurdishText: "ئێڤا سوور بوو لەسەر ئەوەی کە نایەت.",
+                            onPressedBritish: () => speakadam35871("en-GB"),
+                            onPressedAmerican: () => speakadam35871(
+                                // REPLACE: adamant /ˈædəmənt/
+                                "en-US"),
                           ),
                         ],
                       ),

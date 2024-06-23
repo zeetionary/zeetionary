@@ -152,91 +152,33 @@ class EnglishEntrybicycle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئامێرێکی گوێزەرەوە کە کە دوو ویلی ھەیە و لێیدەخوڕی بە پاڵنانی پایدەرەکانی بە پێیەکانت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He got on his bicycle and rode off."),
-                                    ExampleSentenceKurdish(
-                                        text: "سواری پاسکیلەکەی بوو و چوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbicycles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbicycles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He got on his bicycle and rode off.",
+                            kurdishText: "سواری پاسکیلەکەی بوو و چوو.",
+                            onPressedBritish: () => speakbicycles1("en-GB"),
+                            onPressedAmerican: () => speakbicycles1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I dismounted and began to push my bicycle up the hill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پاسکیلەکەم دابەزیم و بە گردەکەدا پاڵمنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbicycles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbicycles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I dismounted and began to push my bicycle up the hill.",
+                            kurdishText:
+                                "لە پاسکیلەکەم دابەزیم و بە گردەکەدا پاڵمنا.",
+                            onPressedBritish: () => speakbicycles2("en-GB"),
+                            onPressedAmerican: () => speakbicycles2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) چوونە شوێنێک بە پاسکیل"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bicycles to work through the heart of Amsterdam."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ناوجەرگەی ئەمستردامدا بە پاسکیل دەچێتە سەر کار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbicycles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbicycles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He bicycles to work through the heart of Amsterdam.",
+                            kurdishText:
+                                "بە ناوجەرگەی ئەمستردامدا بە پاسکیل دەچێتە سەر کار.",
+                            onPressedBritish: () => speakbicycles3("en-GB"),
+                            onPressedAmerican: () => speakbicycles3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

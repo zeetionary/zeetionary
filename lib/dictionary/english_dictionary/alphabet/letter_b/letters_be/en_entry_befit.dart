@@ -150,61 +150,23 @@ class EnglishEntrybefit extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) گونجاو بۆ کەسێک/شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a lavish reception as befitted a visitor of her status."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشوازییەکی گەورە بوو شیاو بە میوانێک لە ئاستی ئەودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbefits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbefits1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was a lavish reception as befitted a visitor of her status.",
+                            kurdishText:
+                                "پێشوازییەکی گەورە بوو شیاو بە میوانێک لە ئاستی ئەودا.",
+                            onPressedBritish: () => speakbefits1("en-GB"),
+                            onPressedAmerican: () => speakbefits1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He lived in the style befitting a gentleman."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەک دەژیا کە لە جوامێرێکی وەک ئەو بوەشێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbefits2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbefits2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He lived in the style befitting a gentleman.",
+                            kurdishText:
+                                "بەشێوەیەک دەژیا کە لە جوامێرێکی وەک ئەو بوەشێتەوە.",
+                            onPressedBritish: () => speakbefits2("en-GB"),
+                            onPressedAmerican: () => speakbefits2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

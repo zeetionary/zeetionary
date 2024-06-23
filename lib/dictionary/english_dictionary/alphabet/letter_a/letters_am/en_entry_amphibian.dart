@@ -158,68 +158,29 @@ class EnglishEntryamphibian extends StatelessWidget {
                               text:
                                   "١. (ناو) گیانەوەرێک کە لە ھەردوو وشکانی و ئاودا دەژی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Salamanders, frogs, and other amphibian life are particularly sensitive to extreme pH levels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەلەمەندەر و بۆق گیانەوەرە دووژینەکانی دیکە بەتایبەتی ھەستیارن بە ژینگەی ڕەنووسی ھایدرۆجینی بەرز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamphibian4410("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamphibian4410(
-                                        // REPLACE: amphibian /æmˈfɪbiən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Salamanders, frogs, and other amphibian life are particularly sensitive to extreme pH levels.",
+                            kurdishText:
+                                "سەلەمەندەر و بۆق گیانەوەرە دووژینەکانی دیکە بەتایبەتی ھەستیارن بە ژینگەی ڕەنووسی ھایدرۆجینی بەرز.",
+                            onPressedBritish: () => speakamphibian4410("en-GB"),
+                            onPressedAmerican: () => speakamphibian4410(
+                                // REPLACE: amphibian /æmˈfɪbiən/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئۆتۆمبێلێک یان فڕۆکەیەکی سەربازی کە لە وشکانی و ئاودا کاردەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He flew an amphibian, which he could set down on water in case of an engine problem."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەیەکی جووتفڕی لێدەخوڕی، کە دەیتوانی لەسەر ئاو بینیشێنێتەوە لە حاڵەتی کێشە لە بزوێنەرەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamphibian44588("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamphibian44588(
-                                        // REPLACE: amphibian /æmˈfɪbiən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He flew an amphibian, which he could set down on water in case of an engine problem.",
+                            kurdishText:
+                                "فڕۆکەیەکی جووتفڕی لێدەخوڕی، کە دەیتوانی لەسەر ئاو بینیشێنێتەوە لە حاڵەتی کێشە لە بزوێنەرەکانی.",
+                            onPressedBritish: () =>
+                                speakamphibian44588("en-GB"),
+                            onPressedAmerican: () => speakamphibian44588(
+                                // REPLACE: amphibian /æmˈfɪbiən/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -112,34 +112,15 @@ class EnglishEntryadvisory extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ھەبوونی ڕۆڵی ڕاوێژکاری" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is employed by the president in an advisory capacity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ سەرۆک کاردەکات لە ئاستی ڕاوێژکاری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvi36511("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvi36511(
-                                        // REPLACE: advisory /ədˈvaɪzəri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is employed by the president in an advisory capacity.",
+                            kurdishText:
+                                "بۆ سەرۆک کاردەکات لە ئاستی ڕاوێژکاری.",
+                            onPressedBritish: () => speakadvi36511("en-GB"),
+                            onPressedAmerican: () => speakadvi36511(
+                                // REPLACE: advisory /ədˈvaɪzəri/
+                                "en-US"),
                           ),
                         ],
                       ),

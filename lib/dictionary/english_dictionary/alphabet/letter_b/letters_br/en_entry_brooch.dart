@@ -145,32 +145,13 @@ class EnglishEntrybrooch extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچە خشڵێک کە لە پشتەوە دەرزییەکی پێوەیە و دەبەسترێت بە جلوبەرگەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She pinned a large amethyst brooch to her lapel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسنگەیەکی گەورەی ئەمیتیستی بەست بە ملیوانی چاکەتەکەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brooch" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroochs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroochs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She pinned a large amethyst brooch to her lapel.",
+                            kurdishText:
+                                "سەرسنگەیەکی گەورەی ئەمیتیستی بەست بە ملیوانی چاکەتەکەیەوە.", // brooch" as
+                            onPressedBritish: () => speakbroochs1("en-GB"),
+                            onPressedAmerican: () => speakbroochs1("en-US"),
                           ),
                         ],
                       ),

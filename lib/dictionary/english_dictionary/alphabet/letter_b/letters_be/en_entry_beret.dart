@@ -147,32 +147,13 @@ class EnglishEntryberet extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کڵاوی بێرێ؛ کڵاوێکی تەخت کە لە پارچەی نەرم درووستکراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soldier was wearing the light blue beret of the United Nations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکە بێرێی شینی کاڵی نەتەوە یەکگرتووەکانی لەسەر بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakberets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakberets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soldier was wearing the light blue beret of the United Nations.",
+                            kurdishText:
+                                "سەربازەکە بێرێی شینی کاڵی نەتەوە یەکگرتووەکانی لەسەر بوو.",
+                            onPressedBritish: () => speakberets1("en-GB"),
+                            onPressedAmerican: () => speakberets1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

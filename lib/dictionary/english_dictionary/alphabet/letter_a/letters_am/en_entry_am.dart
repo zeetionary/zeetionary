@@ -104,34 +104,15 @@ class EnglishEntryam extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کورتکراوە) یەکێک لە ڕێگا باوەکانی گواستنەوەی دەنگی ڕادیۆیی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You're listening to Radio Gold, broadcasting 24 hours a day on 909 AM."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیسەری ڕادیۆی گۆڵدی، پەخشی ٢٤ کاتژمێری لەسەر شەپۆلی ٩٠٩ ئەی ئێم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakam795888("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakam795888(
-                                        // REPLACE: am /əm/, /æm/, /ˌeɪ ˈem/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You're listening to Radio Gold, broadcasting 24 hours a day on 909 AM.",
+                            kurdishText:
+                                "بیسەری ڕادیۆی گۆڵدی، پەخشی ٢٤ کاتژمێری لەسەر شەپۆلی ٩٠٩ ئەی ئێم.",
+                            onPressedBritish: () => speakam795888("en-GB"),
+                            onPressedAmerican: () => speakam795888(
+                                // REPLACE: am /əm/, /æm/, /ˌeɪ ˈem/
+                                "en-US"),
                           ),
                         ],
                       ),

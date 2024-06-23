@@ -152,124 +152,47 @@ class EnglishEntrybinder extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بەرگێکی بەھێز بۆ گرتنی پەڕە یان گۆڤار پێکەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's filled five binders with notes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێنج بەرگ (مەحفەزە؟)ی پڕکرد لە تێبینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's filled five binders with notes.",
+                            kurdishText:
+                                "پێنج بەرگ (مەحفەزە؟)ی پڕکرد لە تێبینی.",
+                            onPressedBritish: () => speakbinders1("en-GB"),
+                            onPressedAmerican: () => speakbinders1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە بەرگ دەگرێت لە کتێب"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A binder skillfully repaired the antique leather cover."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرگتێگرێک بە شارەزاییەوە بەرگی چەرمە کۆنەکەی چاککردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinders2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinders2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A binder skillfully repaired the antique leather cover.",
+                            kurdishText:
+                                "بەرگتێگرێک بە شارەزاییەوە بەرگی چەرمە کۆنەکەی چاککردەوە.",
+                            onPressedBritish: () => speakbinders2("en-GB"),
+                            onPressedAmerican: () => speakbinders2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) مادەیەک کە وەک نووسێنەر بەکاردێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You can use egg as a binder."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت ھێلکە وەک نووسێنەر بەکاربێنیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinders3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinders3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You can use egg as a binder.",
+                            kurdishText:
+                                "دەتوانیت ھێلکە وەک نووسێنەر بەکاربێنیت.",
+                            onPressedBritish: () => speakbinders3("en-GB"),
+                            onPressedAmerican: () => speakbinders3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ئامێرێک کە دانەوێڵە خڕدەکاتەوە لە دوای دوورینەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The way to harvest cereals 50 years ago was to use a binder, that cut the crop and tied it up in sheaves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێوازی دروێنەی خەلە ٥٠ ساڵ پێش ئێستا ئەوە بوو چەقچەقە بەکاربێت کە بەروبووەکەی دەبڕی و کۆیدەکردەوە لە چەپکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinders4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinders4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The way to harvest cereals 50 years ago was to use a binder, that cut the crop and tied it up in sheaves.",
+                            kurdishText:
+                                "شێوازی دروێنەی خەلە ٥٠ ساڵ پێش ئێستا ئەوە بوو چەقچەقە بەکاربێت کە بەروبووەکەی دەبڕی و کۆیدەکردەوە لە چەپکدا.",
+                            onPressedBritish: () => speakbinders4("en-GB"),
+                            onPressedAmerican: () => speakbinders4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

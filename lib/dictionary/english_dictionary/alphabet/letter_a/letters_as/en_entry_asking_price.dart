@@ -160,35 +160,16 @@ class EnglishEntryaskingprice extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) نرخی داواکراوی فرۆشتنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The asking price for the house was £250,000."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخی داواکراو بۆ خانووەکە ٢٥٠,٠٠٠ پاوەند بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaskingprice756("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaskingprice756(
-                                        // REPLACE: asking price /ˈæskɪŋ praɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The asking price for the house was £250,000.",
+                            kurdishText:
+                                "نرخی داواکراو بۆ خانووەکە ٢٥٠,٠٠٠ پاوەند بوو.",
+                            onPressedBritish: () =>
+                                speakaskingprice756("en-GB"),
+                            onPressedAmerican: () => speakaskingprice756(
+                                // REPLACE: asking price /ˈæskɪŋ praɪs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -140,60 +140,22 @@ class EnglishEntrybriefs extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شۆرتی ژێرەوەی پیاوان و ژنان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He usually wears regular black cotton briefs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرجار شۆرتی کەتانی ئاسایی ڕەش لەبەردەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "briefs" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He usually wears regular black cotton briefs.",
+                            kurdishText:
+                                "زۆرجار شۆرتی کەتانی ئاسایی ڕەش لەبەردەکات.", // briefs" as
+                            onPressedBritish: () => speakbriefss1("en-GB"),
+                            onPressedAmerican: () => speakbriefss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm looking for some plain cotton briefs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشوێن ھەندێک شۆرتی سادەی کەتاندا دەگەڕێم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm looking for some plain cotton briefs.",
+                            kurdishText:
+                                "بەشوێن ھەندێک شۆرتی سادەی کەتاندا دەگەڕێم.",
+                            onPressedBritish: () => speakbriefss2("en-GB"),
+                            onPressedAmerican: () => speakbriefss2("en-US"),
                           ),
                         ],
                       ),

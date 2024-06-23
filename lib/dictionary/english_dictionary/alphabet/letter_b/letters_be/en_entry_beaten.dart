@@ -146,32 +146,12 @@ class EnglishEntrybeaten extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) زێڕ یان کانزایەکی تر کە پانکراوەتەوە بە کوتران"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was wearing a necklace of beaten gold."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ملوانکەیەکی زێڕی کوتراوی لە مل بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeatens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeatens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was wearing a necklace of beaten gold.",
+                            kurdishText: "ملوانکەیەکی زێڕی کوتراوی لە مل بوو.",
+                            onPressedBritish: () => speakbeatens1("en-GB"),
+                            onPressedAmerican: () => speakbeatens1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

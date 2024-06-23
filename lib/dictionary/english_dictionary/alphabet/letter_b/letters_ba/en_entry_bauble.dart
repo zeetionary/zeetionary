@@ -148,63 +148,25 @@ class EnglishEntrybauble extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پارچە خشڵێکی کەم نرخ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a £50 000 antique diamond ring—not a mere ‘bauble’ as the judge said."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەڵقەیەکی ئەڵماسی ئەنتیکی ٥٠٠٠٠ پاوەندی بوو، نەک تەنھا خشڵێکی کەم نرخ وەک ئەوەی دادوەرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaubles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaubles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was a £50 000 antique diamond ring—not a mere ‘bauble’ as the judge said.",
+                            kurdishText:
+                                "ئەڵقەیەکی ئەڵماسی ئەنتیکی ٥٠٠٠٠ پاوەندی بوو، نەک تەنھا خشڵێکی کەم نرخ وەک ئەوەی دادوەرەکە.",
+                            onPressedBritish: () => speakbaubles1("en-GB"),
+                            onPressedAmerican: () => speakbaubles1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئامرازێکی ڕازاندنەوە لە شێوەی تۆپێکدا بۆ داری کریسمس"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Christmas tree was adorned with colorful baubles and sparkling lights."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دار کریسمسەکە بە گڵۆپی ڕەنگین و ڕۆشنایی بریسکەدار ڕازێندرابوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaubles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaubles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Christmas tree was adorned with colorful baubles and sparkling lights.",
+                            kurdishText:
+                                "دار کریسمسەکە بە گڵۆپی ڕەنگین و ڕۆشنایی بریسکەدار ڕازێندرابوویەوە.",
+                            onPressedBritish: () => speakbaubles2("en-GB"),
+                            onPressedAmerican: () => speakbaubles2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

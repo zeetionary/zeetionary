@@ -163,32 +163,13 @@ class EnglishEntryastound extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) سەرسامکردنی زۆری کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His arrogance astounded her."),
-                                    ExampleSentenceKurdish(
-                                        text: "خۆبەزلزانییەکەی سەرسامی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakastound1101("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakastound1101(// REPLACE: astound
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His arrogance astounded her.",
+                            kurdishText: "خۆبەزلزانییەکەی سەرسامی کرد.",
+                            onPressedBritish: () => speakastound1101("en-GB"),
+                            onPressedAmerican: () =>
+                                speakastound1101(// REPLACE: astound
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

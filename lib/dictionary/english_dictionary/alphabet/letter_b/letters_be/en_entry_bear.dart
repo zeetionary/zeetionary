@@ -337,630 +337,226 @@ class EnglishEntrybear extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ورچ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A little bear cub ran right across the road in front of us."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەچکە ورچێکی بچکۆلە بە ڕێگاکەدا پەڕییەوە بە ڕاکردن لە پێشمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A little bear cub ran right across the road in front of us.",
+                            kurdishText:
+                                "بەچکە ورچێکی بچکۆلە بە ڕێگاکەدا پەڕییەوە بە ڕاکردن لە پێشمان.",
+                            onPressedBritish: () => speakbears1("en-GB"),
+                            onPressedAmerican: () => speakbears1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) داننان و مامەڵەکردن بە شتێکی ناخۆش کە ڕوویداوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The pain was almost more than he could bear."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئازارەکە تاڕادەیەکی زۆر زیاتر لەوە بوو کە دەیتوانی بەرگەی بگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The pain was almost more than he could bear.",
+                            kurdishText:
+                                "ئازارەکە تاڕادەیەکی زۆر زیاتر لەوە بوو کە دەیتوانی بەرگەی بگرێت.",
+                            onPressedBritish: () => speakbears2("en-GB"),
+                            onPressedAmerican: () => speakbears2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She bore it all with her usual patience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرگەی ھەمووی گرت بە پشوودرێژی ھەمیشەییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She bore it all with her usual patience.",
+                            kurdishText:
+                                "بەرگەی ھەمووی گرت بە پشوودرێژی ھەمیشەییەوە.",
+                            onPressedBritish: () => speakbears3("en-GB"),
+                            onPressedAmerican: () => speakbears3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ھەڵگرتنی بەرپرسیاریەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She bore the responsibility for most of the changes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسیاریەتی بۆ زۆرینەی گۆڕانکارییەکان ھەڵگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She bore the responsibility for most of the changes.",
+                            kurdishText:
+                                "بەرپرسیاریەتی بۆ زۆرینەی گۆڕانکارییەکان ھەڵگرت.",
+                            onPressedBritish: () => speakbears4("en-GB"),
+                            onPressedAmerican: () => speakbears4("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the end it's consumers who bear the burden of higher prices."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەکۆتاییدا ئەوە کڕیارانن بارگرانی بەرزبوونەوەی نرخ ھەڵدەگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the end it's consumers who bear the burden of higher prices.",
+                            kurdishText:
+                                "لەکۆتاییدا ئەوە کڕیارانن بارگرانی بەرزبوونەوەی نرخ ھەڵدەگرن.",
+                            onPressedBritish: () => speakbears5("en-GB"),
+                            onPressedAmerican: () => speakbears5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) ھەڵگرتنی کێشی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ice is too thin to bear your weight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەھۆڵەکە زۆر باریکە کە بتوانێت کە بتوانێت بەرگەت بگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ice is too thin to bear your weight.",
+                            kurdishText:
+                                "سەھۆڵەکە زۆر باریکە کە بتوانێت کە بتوانێت بەرگەت بگرێت.",
+                            onPressedBritish: () => speakbears6("en-GB"),
+                            onPressedAmerican: () => speakbears6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) پیشاندان یان لەخۆگرتنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The document bore her signature."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆکیومێنتەکە واژۆی ئەوی پێوەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The document bore her signature.",
+                            kurdishText: "دۆکیومێنتەکە واژۆی ئەوی پێوەبوو.",
+                            onPressedBritish: () => speakbears7("en-GB"),
+                            onPressedAmerican: () => speakbears7("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was badly wounded in the war and still bears the scars."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە جەنگەکەدا بەخراپی برینداربوو و ھێشتا برینەکانی پێوەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was badly wounded in the war and still bears the scars.",
+                            kurdishText:
+                                "لە جەنگەکەدا بەخراپی برینداربوو و ھێشتا برینەکانی پێوەیە.",
+                            onPressedBritish: () => speakbears8("en-GB"),
+                            onPressedAmerican: () => speakbears8("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She bears little resemblance to her mother."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر کەم لە دایکی دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She bears little resemblance to her mother.",
+                            kurdishText: "زۆر کەم لە دایکی دەکات.",
+                            onPressedBritish: () => speakbears9("en-GB"),
+                            onPressedAmerican: () => speakbears9("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) نەگونجاو بۆشتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her later work does not bear comparison with her earlier novels (= because it is not nearly as good)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرھەمی دواتری بەراورد ناکرێت بە ڕۆمانەکانی پێشووتری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her later work does not bear comparison with her earlier novels (= because it is not nearly as good).",
+                            kurdishText:
+                                "بەرھەمی دواتری بەراورد ناکرێت بە ڕۆمانەکانی پێشووتری.",
+                            onPressedBritish: () => speakbears10("en-GB"),
+                            onPressedAmerican: () => speakbears10("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plan won't bear close inspection (= it will be found to be unacceptable when carefully examined)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانەکە ناتوانێت بە پشکنینی ورددا دەربچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The plan won't bear close inspection (= it will be found to be unacceptable when carefully examined).",
+                            kurdishText:
+                                "پلانەکە ناتوانێت بە پشکنینی ورددا دەربچێت.",
+                            onPressedBritish: () => speakbears11("en-GB"),
+                            onPressedAmerican: () => speakbears11("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The joke doesn't bear repeating (= because it is not funny or may offend people)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نوکتەکە بە کەڵکی دووبارەکردنەوە نایەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The joke doesn't bear repeating (= because it is not funny or may offend people).",
+                            kurdishText:
+                                "نوکتەکە بە کەڵکی دووبارەکردنەوە نایەت.",
+                            onPressedBritish: () => speakbears12("en-GB"),
+                            onPressedAmerican: () => speakbears12("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (کردار) ھەبوونی ھەستێکی نەرێنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bears no resentment towards them."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ ڕقێکی بەرامبەریان نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He bears no resentment towards them.",
+                            kurdishText: "ھیچ ڕقێکی بەرامبەریان نییە.",
+                            onPressedBritish: () => speakbears13("en-GB"),
+                            onPressedAmerican: () => speakbears13("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's borne a grudge against me ever since that day."),
-                                    ExampleSentenceKurdish(
-                                        text: "لەو ڕۆژەوە بوغزێکی دژم ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's borne a grudge against me ever since that day.",
+                            kurdishText: "لەو ڕۆژەوە بوغزێکی دژم ھەیە.",
+                            onPressedBritish: () => speakbears14("en-GB"),
+                            onPressedAmerican: () => speakbears14("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (کردار) ھەبوونی ناوێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The stone plaque bearing his name was smashed to pieces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو پارچەیەی کە ناوی ھەڵگرتبوو وردوخاش کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The stone plaque bearing his name was smashed to pieces.",
+                            kurdishText:
+                                "ئەو پارچەیەی کە ناوی ھەڵگرتبوو وردوخاش کرا.",
+                            onPressedBritish: () => speakbears15("en-GB"),
+                            onPressedAmerican: () => speakbears15("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (کردار) ھەڵگرتنی کەسێک/شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He returned bearing a basket of vegetables."),
-                                    ExampleSentenceKurdish(
-                                        text: "گەڕایەوە بە سەبەتەیەک سەوزەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He returned bearing a basket of vegetables.",
+                            kurdishText: "گەڕایەوە بە سەبەتەیەک سەوزەوە.",
+                            onPressedBritish: () => speakbears16("en-GB"),
+                            onPressedAmerican: () => speakbears16("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her two sons helped bear the coffin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو کوڕەکەی تابووتەکەیان ھەڵگرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her two sons helped bear the coffin.",
+                            kurdishText: "دوو کوڕەکەی تابووتەکەیان ھەڵگرتبوو.",
+                            onPressedBritish: () => speakbears17("en-GB"),
+                            onPressedAmerican: () => speakbears17("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٠. (کردار) مامەڵە و ڕەفتارکردن بەشێوەیەکی دیاریکراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bears himself (= stands, walks, etc.) proudly, like a soldier."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە شانازییەوە ڕەفتار دەکات، وەک سەربازێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He bears himself (= stands, walks, etc.) proudly, like a soldier.",
+                            kurdishText:
+                                "بە شانازییەوە ڕەفتار دەکات، وەک سەربازێک.",
+                            onPressedBritish: () => speakbears18("en-GB"),
+                            onPressedAmerican: () => speakbears18("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١١. (کردار) منداڵبوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She had borne him six sons."),
-                                    ExampleSentenceKurdish(
-                                        text: "شەش کوڕی پێبەخشیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She had borne him six sons.",
+                            kurdishText: "شەش کوڕی پێبەخشیوە.",
+                            onPressedBritish: () => speakbears19("en-GB"),
+                            onPressedAmerican: () => speakbears19("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٢. (کردار) درووستکردنی گوڵ و میوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These trees take a long time to bear fruit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم دارانە کاتێکی زۆریان پێدەچێت تا بەر بگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears20("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears20("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These trees take a long time to bear fruit.",
+                            kurdishText:
+                                "ئەم دارانە کاتێکی زۆریان پێدەچێت تا بەر بگرن.",
+                            onPressedBritish: () => speakbears20("en-GB"),
+                            onPressedAmerican: () => speakbears20("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٣. (کردار) ڕۆشتن یان لادان بە ئاراستەیەکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When you get to the fork in the road, bear right."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە دەگەیت بە دووڕیانەکە لە ڕێگاکەدا، بە ڕاستدا بچۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbears21("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbears21("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When you get to the fork in the road, bear right.",
+                            kurdishText:
+                                "کە دەگەیت بە دووڕیانەکە لە ڕێگاکەدا، بە ڕاستدا بچۆ.",
+                            onPressedBritish: () => speakbears21("en-GB"),
+                            onPressedAmerican: () => speakbears21("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -97,32 +97,13 @@ class EnglishEntryabysmally extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە شێوەیەکی زۆر خراپ" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government has failed abysmally to deliver on its promises."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت بەخراپی شکستیھێناوە لە جێبەجێکردنی بەڵێنەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakab2147("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakab2147("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government has failed abysmally to deliver on its promises.",
+                            kurdishText:
+                                "حکومەت بەخراپی شکستیھێناوە لە جێبەجێکردنی بەڵێنەکانی.",
+                            onPressedBritish: () => speakab2147("en-GB"),
+                            onPressedAmerican: () => speakab2147("en-US"),
                           ),
                         ],
                       ),

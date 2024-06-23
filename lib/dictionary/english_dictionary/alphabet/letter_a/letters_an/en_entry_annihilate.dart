@@ -156,69 +156,29 @@ class EnglishEntryannihilate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) لەناوبردنی شتێک بە تەواوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The human race has enough weapons to annihilate itself."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مرۆڤایەتی ھێندە چەکی ھەیە بە تەواوی خۆی لەناو ببات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakannihilate113("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannihilate113(
-                                        // REPLACE: annihilate /əˈnaɪəleɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The human race has enough weapons to annihilate itself.",
+                            kurdishText:
+                                "مرۆڤایەتی ھێندە چەکی ھەیە بە تەواوی خۆی لەناو ببات.",
+                            onPressedBritish: () => speakannihilate113("en-GB"),
+                            onPressedAmerican: () => speakannihilate113(
+                                // REPLACE: annihilate /əˈnaɪəleɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بردنەوە لە کەسێک و تێکشکاندنی بە تەواوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She annihilated her opponent, who failed to win a single game."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕکابەرەکەی تێکشکاند کە نەیتوانی ھیچ یارییەک بباتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakannihilate116("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannihilate116(
-                                        // REPLACE: annihilate /əˈnaɪəleɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She annihilated her opponent, who failed to win a single game.",
+                            kurdishText:
+                                "ڕکابەرەکەی تێکشکاند کە نەیتوانی ھیچ یارییەک بباتەوە.",
+                            onPressedBritish: () => speakannihilate116("en-GB"),
+                            onPressedAmerican: () => speakannihilate116(
+                                // REPLACE: annihilate /əˈnaɪəleɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

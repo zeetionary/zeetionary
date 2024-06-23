@@ -146,60 +146,22 @@ class EnglishEntrybrainwave extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بیرۆکەیەکی باشی لەناکاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I've had a brainwave!"),
-                                    ExampleSentenceKurdish(
-                                        text: "بیرۆکەیەکی تازەم ھەیە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrainwaves1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrainwaves1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I've had a brainwave!",
+                            kurdishText: "بیرۆکەیەکی تازەم ھەیە!",
+                            onPressedBritish: () => speakbrainwaves1("en-GB"),
+                            onPressedAmerican: () => speakbrainwaves1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شەپۆپۆلێکی کارەبایی مێشک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The scan showed that he exhibited abnormal brainwave patterns."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سکانەکە پیشانی دا کە شێوە شەپۆلی مێشکی نائاسایی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrainwaves2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrainwaves2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The scan showed that he exhibited abnormal brainwave patterns.",
+                            kurdishText:
+                                "سکانەکە پیشانی دا کە شێوە شەپۆلی مێشکی نائاسایی ھەیە.",
+                            onPressedBritish: () => speakbrainwaves2("en-GB"),
+                            onPressedAmerican: () => speakbrainwaves2("en-US"),
                           ),
                         ],
                       ),

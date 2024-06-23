@@ -157,65 +157,27 @@ class EnglishEntrybaker extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە پیشەی فرۆشتنی نان و کێکی برژاوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has to get up at 4 a.m. for his job as a baker."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت کاتژمێر ٤ی بەرەبەیان لە خەو ھەڵبستێت بۆ کارەکەی وەک نانەوایەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbakers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbakers1(// REPLACE: baker
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has to get up at 4 a.m. for his job as a baker.",
+                            kurdishText:
+                                "دەبێت کاتژمێر ٤ی بەرەبەیان لە خەو ھەڵبستێت بۆ کارەکەی وەک نانەوایەک.",
+                            onPressedBritish: () => speakbakers1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbakers1(// REPLACE: baker
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) نانەواخانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'm just going to the baker's."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەنھا دەچم بۆ نانەواخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbakers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbakers2(// REPLACE: baker
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'm just going to the baker's.",
+                            kurdishText: "تەنھا دەچم بۆ نانەواخانەکە.",
+                            onPressedBritish: () => speakbakers2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbakers2(// REPLACE: baker
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

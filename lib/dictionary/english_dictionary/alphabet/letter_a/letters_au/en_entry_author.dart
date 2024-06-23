@@ -165,129 +165,52 @@ class EnglishEntryauthor extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) کەسێک کە کتێبێک دەنووسێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is the author of three books on art."),
-                                    ExampleSentenceKurdish(
-                                        text: "نووسەری سێ کتێبە لەسەر ھونەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthor717("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthor717(// REPLACE: author
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is the author of three books on art.",
+                            kurdishText: "نووسەری سێ کتێبە لەسەر ھونەر.",
+                            onPressedBritish: () => speakauthor717("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthor717(// REPLACE: author
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The film is based on a novel written by a female author."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە پشتی بە ڕۆمانێک بەستووە کە ھی ژنەنووسەرێکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthor719("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthor719(// REPLACE: author
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The film is based on a novel written by a female author.",
+                            kurdishText:
+                                "فیلمەکە پشتی بە ڕۆمانێک بەستووە کە ھی ژنەنووسەرێکە.",
+                            onPressedBritish: () => speakauthor719("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthor719(// REPLACE: author
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە پلانێک یان بیرۆکەیەک دادەڕێژێت یان دەستی‌پێدەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As the author of the proposal I cannot agree with you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک خاوەنی پێشنیارەکە ناتوانم لەگەڵم ڕازی بم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthor721("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthor721(// REPLACE: author
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As the author of the proposal I cannot agree with you.",
+                            kurdishText:
+                                "وەک خاوەنی پێشنیارەکە ناتوانم لەگەڵم ڕازی بم.",
+                            onPressedBritish: () => speakauthor721("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthor721(// REPLACE: author
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) بوون بە نووسەری کتێبێک، وتارێک، ھتد"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has authored more than 30 books."),
-                                    ExampleSentenceKurdish(
-                                        text: "زیاتر لە ٣٠ کتێبی نووسیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakauthor722("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakauthor722(// REPLACE: author
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He has authored more than 30 books.",
+                            kurdishText: "زیاتر لە ٣٠ کتێبی نووسیوە.",
+                            onPressedBritish: () => speakauthor722("en-GB"),
+                            onPressedAmerican: () =>
+                                speakauthor722(// REPLACE: author
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -110,68 +110,29 @@ class EnglishEntryairmarshal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەفسەرێکی باڵا لە ھێزی ئاسمانیی بەریتانیا و ژمارەیەک وڵاتی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her father was an air marshal in the Australian Air Force."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوکی ئەفسەری باڵای ھێزی ئاسمانیی ئوسترالیا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakairmarshal524("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairmarshal524(
-                                        // REPLACE: air marshal /ˈer mɑːrʃl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her father was an air marshal in the Australian Air Force.",
+                            kurdishText:
+                                "باوکی ئەفسەری باڵای ھێزی ئاسمانیی ئوسترالیا بوو.",
+                            onPressedBritish: () => speakairmarshal524("en-GB"),
+                            onPressedAmerican: () => speakairmarshal524(
+                                // REPLACE: air marshal /ˈer mɑːrʃl/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێکی ڕاھێنراو کە وەک سەرنشینێکی ئاسایی لە فڕۆکەیەکە بۆ حاڵەتی نەخوازراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "New security measures included increasing the number of air marshals and fortifying cockpit doors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێکارە تازەکانی ئەمنییەت زیادکردنی ژمارەی ئەفسەرە نھێنییەکان و توندکردنی دەرگای ژووری فڕۆکەوانەکان لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakairmarshal3528("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairmarshal3528(
-                                        // REPLACE: air marshal /ˈer mɑːrʃl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "New security measures included increasing the number of air marshals and fortifying cockpit doors.",
+                            kurdishText:
+                                "ڕێکارە تازەکانی ئەمنییەت زیادکردنی ژمارەی ئەفسەرە نھێنییەکان و توندکردنی دەرگای ژووری فڕۆکەوانەکان لەخۆدەگرێت.",
+                            onPressedBritish: () =>
+                                speakairmarshal3528("en-GB"),
+                            onPressedAmerican: () => speakairmarshal3528(
+                                // REPLACE: air marshal /ˈer mɑːrʃl/
+                                "en-US"),
                           ),
                         ],
                       ),

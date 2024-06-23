@@ -156,34 +156,15 @@ class EnglishEntrybaddy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کارەکتەرێکی خراپ لە فیلمێک، کتێبێک، شانۆیەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As usual, the cops get the baddies in the end."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک ھەمیشە، پۆلیس لەکۆتاییدا کەسە خراپەکان دەگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaddys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaddys1(// REPLACE: baddy
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As usual, the cops get the baddies in the end.",
+                            kurdishText:
+                                "وەک ھەمیشە، پۆلیس لەکۆتاییدا کەسە خراپەکان دەگرن.",
+                            onPressedBritish: () => speakbaddys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaddys1(// REPLACE: baddy
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

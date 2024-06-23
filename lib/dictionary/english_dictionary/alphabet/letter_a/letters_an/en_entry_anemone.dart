@@ -156,34 +156,14 @@ class EnglishEntryanemone extends StatelessWidget {
                               text:
                                   "١. (ناو) ڕووەکێک کە گوڵی سوور و سپی و شین و مۆریان ھەیە، شێوەیان وەک پیاڵەیە و ناوەڕاستیان ڕەشە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We saw wild anemones in the woods."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوڵاڵەی دەشتیمان بینی لە دارستانەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanemone588("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanemone588(
-                                        // REPLACE: anemone /əˈneməni/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We saw wild anemones in the woods.",
+                            kurdishText:
+                                "گوڵاڵەی دەشتیمان بینی لە دارستانەکان.",
+                            onPressedBritish: () => speakanemone588("en-GB"),
+                            onPressedAmerican: () => speakanemone588(
+                                // REPLACE: anemone /əˈneməni/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

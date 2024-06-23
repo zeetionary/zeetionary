@@ -149,32 +149,13 @@ class EnglishEntryblackbird extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) باڵندەیەکی ئەورووپی کە نێرەکانیان ڕەشن و دەنووکیان زەردە، و مێینەکانیان قاوەیین و دەنووکیشیان قاوەییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Flocks of blackbirds filled the sky, creating intricate patterns as they migrated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستە ڕەشیشە ئاسمانیان پڕکرد و شێوەی ئاڵۆزیان درووستکرد کە کۆچیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackbirds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackbirds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Flocks of blackbirds filled the sky, creating intricate patterns as they migrated.",
+                            kurdishText:
+                                "دەستە ڕەشیشە ئاسمانیان پڕکرد و شێوەی ئاڵۆزیان درووستکرد کە کۆچیان دەکرد.",
+                            onPressedBritish: () => speakblackbirds1("en-GB"),
+                            onPressedAmerican: () => speakblackbirds1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

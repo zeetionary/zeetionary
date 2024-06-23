@@ -149,32 +149,12 @@ class EnglishEntrybedstead extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) چوارچێوەی جێگەی خەوی کۆن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bedstead is much about my size."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوارچێوەی جێخەوەکە گونجاوە بۆ ئەندازەی من."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedsteads1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedsteads1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The bedstead is much about my size.",
+                            kurdishText:
+                                "چوارچێوەی جێخەوەکە گونجاوە بۆ ئەندازەی من.",
+                            onPressedBritish: () => speakbedsteads1("en-GB"),
+                            onPressedAmerican: () => speakbedsteads1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -150,61 +150,22 @@ class EnglishEntrybefitting extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) گونجاو بۆ کەسێک/شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were greeted with befitting courtesy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ماریفەتی گونجاو بەخێرھاتنیان کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbefittings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbefittings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were greeted with befitting courtesy.",
+                            kurdishText: "بە ماریفەتی گونجاو بەخێرھاتنیان کرا.",
+                            onPressedBritish: () => speakbefittings1("en-GB"),
+                            onPressedAmerican: () => speakbefittings1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A land area of more than 140 million people deserves a befitting transport network."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوچەیەکی ١٤٠ ملیۆن کەسی شایەنی ھێڵێکی گواستنەوەی شایستەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbefittings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbefittings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A land area of more than 140 million people deserves a befitting transport network.",
+                            kurdishText:
+                                "ناوچەیەکی ١٤٠ ملیۆن کەسی شایەنی ھێڵێکی گواستنەوەی شایستەیە.",
+                            onPressedBritish: () => speakbefittings2("en-GB"),
+                            onPressedAmerican: () => speakbefittings2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

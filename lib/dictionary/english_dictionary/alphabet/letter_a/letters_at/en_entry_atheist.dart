@@ -166,34 +166,15 @@ class EnglishEntryatheist extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە باوەڕی بە بوونی خودا نییە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As an atheist, I do not accept this religious argument."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک بێ‌دینێک گفتوگۆ ئاینییەکەی پەسەند ناکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakatheist743("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakatheist743(// REPLACE: atheist
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As an atheist, I do not accept this religious argument.",
+                            kurdishText:
+                                "وەک بێ‌دینێک گفتوگۆ ئاینییەکەی پەسەند ناکەم.",
+                            onPressedBritish: () => speakatheist743("en-GB"),
+                            onPressedAmerican: () =>
+                                speakatheist743(// REPLACE: atheist
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -114,64 +114,24 @@ class EnglishEntryadequate extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) بە پێی پێویست باش یان زۆر بۆ مەبەستێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The room was small but adequate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژوورەکە بچووک بوو، بەڵام بەشمانی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadequa44855("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadequa44855(
-                                        // REPLACE: adequate /ˈædɪkwət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The room was small but adequate.",
+                            kurdishText:
+                                "ژوورەکە بچووک بوو، بەڵام بەشمانی دەکرد.",
+                            onPressedBritish: () => speakadequa44855("en-GB"),
+                            onPressedAmerican: () => speakadequa44855(
+                                // REPLACE: adequate /ˈædɪkwət/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He didn't give an adequate answer to the question."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەڵامێکی تەواوی پرسیارەکەی نەداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadequ99965("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadequ99965(
-                                        // REPLACE: adequate /ˈædɪkwət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He didn't give an adequate answer to the question.",
+                            kurdishText: "وەڵامێکی تەواوی پرسیارەکەی نەداوە.",
+                            onPressedBritish: () => speakadequ99965("en-GB"),
+                            onPressedAmerican: () => speakadequ99965(
+                                // REPLACE: adequate /ˈædɪkwət/
+                                "en-US"),
                           ),
                         ],
                       ),

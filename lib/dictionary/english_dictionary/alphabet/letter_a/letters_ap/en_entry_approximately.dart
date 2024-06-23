@@ -162,67 +162,29 @@ class EnglishEntryapproximately extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بەنزیکەیی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The journey took approximately seven hours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشتەکە بە نزیکەیی حەوت کاتژمێری پێچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapproximately1010("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproximately1010(
-                                        // REPLACE: approximately /əˈprɑːksɪmətli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The journey took approximately seven hours.",
+                            kurdishText:
+                                "گەشتەکە بە نزیکەیی حەوت کاتژمێری پێچوو.",
+                            onPressedBritish: () =>
+                                speakapproximately1010("en-GB"),
+                            onPressedAmerican: () => speakapproximately1010(
+                                // REPLACE: approximately /əˈprɑːksɪmətli/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two buildings were approximately equal in size."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیناکان بە نزیکەیی یەکسان بوون لە ئەندازەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapproximately1011("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproximately1011(
-                                        // REPLACE: approximately /əˈprɑːksɪmətli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two buildings were approximately equal in size.",
+                            kurdishText:
+                                "بیناکان بە نزیکەیی یەکسان بوون لە ئەندازەدا.",
+                            onPressedBritish: () =>
+                                speakapproximately1011("en-GB"),
+                            onPressedAmerican: () => speakapproximately1011(
+                                // REPLACE: approximately /əˈprɑːksɪmətli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

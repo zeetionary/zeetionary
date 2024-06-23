@@ -145,32 +145,13 @@ class EnglishEntrybudgerigar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) باڵندەیەکی بچووک کە وەک تووتی وایە و لە قەفەزدا ڕادەگیرێت وەک باڵندەی ماڵی """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The colorful budgerigar chirped merrily."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەجییە ڕەنگینەکە بەدڵخۆشییەوە جریوەی دەھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "budgerigar", follow LX strictly.
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudgerigars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudgerigars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The colorful budgerigar chirped merrily.",
+                            kurdishText:
+                                "بەجییە ڕەنگینەکە بەدڵخۆشییەوە جریوەی دەھات.", // budgerigar", follow LX strictly.
+                            onPressedBritish: () => speakbudgerigars1("en-GB"),
+                            onPressedAmerican: () => speakbudgerigars1("en-US"),
                           ),
                         ],
                       ),

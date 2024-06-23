@@ -165,160 +165,63 @@ class EnglishEntryashamed extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) ھەستکردن بە شەرمەزاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was deeply ashamed of her behaviour at the party."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر شەرمەزاربوو بە ڕەفتاری لە ئاھەنگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakashamed516("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakashamed516(
-                                        // REPLACE: ashamed /əˈʃeɪmd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was deeply ashamed of her behaviour at the party.",
+                            kurdishText:
+                                "زۆر شەرمەزاربوو بە ڕەفتاری لە ئاھەنگەکە.",
+                            onPressedBritish: () => speakashamed516("en-GB"),
+                            onPressedAmerican: () => speakashamed516(
+                                // REPLACE: ashamed /əˈʃeɪmd/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We must stop being afraid or ashamed of what we are."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت وازبێنین لە ترسان یان شەرمەزاربوون لە بوون بەوەی کە ھەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakashamed518("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakashamed518(
-                                        // REPLACE: ashamed /əˈʃeɪmd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We must stop being afraid or ashamed of what we are.",
+                            kurdishText:
+                                "دەبێت وازبێنین لە ترسان یان شەرمەزاربوون لە بوون بەوەی کە ھەین.",
+                            onPressedBritish: () => speakashamed518("en-GB"),
+                            onPressedAmerican: () => speakashamed518(
+                                // REPLACE: ashamed /əˈʃeɪmd/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You ought to be thoroughly ashamed of yourselves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت تەواو شەرم لە خۆتان بکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakashamed519("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakashamed519(
-                                        // REPLACE: ashamed /əˈʃeɪmd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You ought to be thoroughly ashamed of yourselves.",
+                            kurdishText: "دەبێت تەواو شەرم لە خۆتان بکەنەوە.",
+                            onPressedBritish: () => speakashamed519("en-GB"),
+                            onPressedAmerican: () => speakashamed519(
+                                // REPLACE: ashamed /əˈʃeɪmd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) نەکردنی شتێکەوە بەھۆی ھەستکردن بە شەرم یان ترس"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm ashamed to say that I lied to her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەرم دەکەم بڵێم درۆم لەگەڵ کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakashamed527("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakashamed527(
-                                        // REPLACE: ashamed /əˈʃeɪmd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm ashamed to say that I lied to her.",
+                            kurdishText: "شەرم دەکەم بڵێم درۆم لەگەڵ کرد.",
+                            onPressedBritish: () => speakashamed527("en-GB"),
+                            onPressedAmerican: () => speakashamed527(
+                                // REPLACE: ashamed /əˈʃeɪmd/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I cried at the end and I'm not ashamed to admit it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەکۆتاییدا گریام و شەرمەزر نیم بە وتنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakashamed528("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakashamed528(
-                                        // REPLACE: ashamed /əˈʃeɪmd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I cried at the end and I'm not ashamed to admit it.",
+                            kurdishText:
+                                "لەکۆتاییدا گریام و شەرمەزر نیم بە وتنی.",
+                            onPressedBritish: () => speakashamed528("en-GB"),
+                            onPressedAmerican: () => speakashamed528(
+                                // REPLACE: ashamed /əˈʃeɪmd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

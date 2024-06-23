@@ -100,32 +100,12 @@ class EnglishEntryaccomplish extends StatelessWidget {
                               text:
                                   "١. (ناو) سەرکەوتن لە کردن یان تەواوکردنی شتێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The first part of the plan has been accomplished."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەم بەشی پلانەکە بەدەستھێندراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac26934("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac26934("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The first part of the plan has been accomplished.",
+                            kurdishText: "یەکەم بەشی پلانەکە بەدەستھێندراوە.",
+                            onPressedBritish: () => speakac26934("en-GB"),
+                            onPressedAmerican: () => speakac26934("en-US"),
                           ),
                         ],
                       ),

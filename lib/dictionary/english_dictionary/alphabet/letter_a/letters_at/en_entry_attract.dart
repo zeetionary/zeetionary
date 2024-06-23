@@ -168,194 +168,79 @@ class EnglishEntryattract extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) حەزکردن لە ھەبوون یان کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had always been attracted by the idea of working abroad."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە حەزم بە بیرۆکەی کارکردن لە دەرەوە بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattract1005("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattract1005(// REPLACE: attract
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had always been attracted by the idea of working abroad.",
+                            kurdishText:
+                                "ھەمیشە حەزم بە بیرۆکەی کارکردن لە دەرەوە بووە.",
+                            onPressedBritish: () => speakattract1005("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattract1005(// REPLACE: attract
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What first attracted me to her was her sense of humour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوەی سەرەتا حەزی لام درووستکرد بۆی گاڵتەوگەپەکەی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattract1006("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattract1006(// REPLACE: attract
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What first attracted me to her was her sense of humour.",
+                            kurdishText:
+                                "ئەوەی سەرەتا حەزی لام درووستکرد بۆی گاڵتەوگەپەکەی بوو.",
+                            onPressedBritish: () => speakattract1006("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattract1006(// REPLACE: attract
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) حەزی بوونی پەیوەندی ڕۆمانسی یان سێکسی لەگەڵ کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I am not attracted to him at all."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ پێی سەرسام نیم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattract1007("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattract1007(// REPLACE: attract
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I am not attracted to him at all.",
+                            kurdishText: "ھیچ پێی سەرسام نیم.",
+                            onPressedBritish: () => speakattract1007("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattract1007(// REPLACE: attract
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) سەرنجڕاکێشانی خەڵکی بۆ ھاتنە شوێنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Officials hope to attract more tourists to the area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسان ھیواخوازن گەشتیاری زیاتر ڕابکیشن بۆ ناوچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattract1009("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattract1009(// REPLACE: attract
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Officials hope to attract more tourists to the area.",
+                            kurdishText:
+                                "بەرپرسان ھیواخوازن گەشتیاری زیاتر ڕابکیشن بۆ ناوچەکە.",
+                            onPressedBritish: () => speakattract1009("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattract1009(// REPLACE: attract
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The exhibition has attracted thousands of visitors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشانگاکە ھەزاران سەردانیکەری ھەبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattract1010("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattract1010(// REPLACE: attract
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The exhibition has attracted thousands of visitors.",
+                            kurdishText:
+                                "پێشانگاکە ھەزاران سەردانیکەری ھەبووە.",
+                            onPressedBritish: () => speakattract1010("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattract1010(// REPLACE: attract
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) وا لە خەڵکی بکەیت کاردانەوەی ھەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His comments were bound to attract criticism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێدوانەکانی شکی تێدانەبوو ڕەخنەی بەدوادا دێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattract1013("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattract1013(// REPLACE: attract
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His comments were bound to attract criticism.",
+                            kurdishText:
+                                "لێدوانەکانی شکی تێدانەبوو ڕەخنەی بەدوادا دێت.",
+                            onPressedBritish: () => speakattract1013("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattract1013(// REPLACE: attract
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

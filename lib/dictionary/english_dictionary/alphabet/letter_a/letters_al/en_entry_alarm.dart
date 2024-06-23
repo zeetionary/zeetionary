@@ -180,191 +180,76 @@ class EnglishEntryalarm extends StatelessWidget {
                               text:
                                   "١. (ناو) دەنگێکی بەرز کە خەڵکی لە کێشە ئاگادار دەکاتەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She decided to sound the alarm (= warn people that the situation was dangerous)."),
-                                    ExampleSentenceKurdish(
-                                        text: "بڕیاریدا زەنگی مەترسی لێبدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalarm355("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalarm355(
-                                        // REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She decided to sound the alarm (= warn people that the situation was dangerous).",
+                            kurdishText: "بڕیاریدا زەنگی مەترسی لێبدا.",
+                            onPressedBritish: () => speakalarm355("en-GB"),
+                            onPressedAmerican: () => speakalarm355(
+                                // REPLACE: alarm /əˈlɑːrm/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I hammered on all the doors to raise the alarm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ھەموو دەرگاکانم دا بۆ ئاگادارکردنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalarm466("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalarm466(
-                                        // REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I hammered on all the doors to raise the alarm.",
+                            kurdishText:
+                                "لە ھەموو دەرگاکانم دا بۆ ئاگادارکردنەوە.",
+                            onPressedBritish: () => speakalarm466("en-GB"),
+                            onPressedAmerican: () => speakalarm466(
+                                // REPLACE: alarm /əˈlɑːrm/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئامێرێک کە زەنگی مەترسی لێدەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A car alarm went off in the middle of the night (= started ringing)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەنگی ئاگادارکەرەوەی ئۆتۆمبێلێک لە نیوە شەودا دەستی بە لێدان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalarm4255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalarm4255(
-                                        // REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A car alarm went off in the middle of the night (= started ringing).",
+                            kurdishText:
+                                "زەنگی ئاگادارکەرەوەی ئۆتۆمبێلێک لە نیوە شەودا دەستی بە لێدان کرد.",
+                            onPressedBritish: () => speakalarm4255("en-GB"),
+                            onPressedAmerican: () => speakalarm4255(
+                                // REPLACE: alarm /əˈlɑːrm/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) زەنگێک کە دیاری دەکەیت لەسەر کاتژمێرێک یان موبایل بۆ ئەوەی لە کاتێکی دیاریکراو لێبدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The alarm went off at 7 o'clock."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەنگەکە لە کاتژمێر ٧ دەستی بە لێدان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalarm4522("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalarm4522(
-                                        // REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The alarm went off at 7 o'clock.",
+                            kurdishText:
+                                "زەنگەکە لە کاتژمێر ٧ دەستی بە لێدان کرد.",
+                            onPressedBritish: () => speakalarm4522("en-GB"),
+                            onPressedAmerican: () => speakalarm4522(
+                                // REPLACE: alarm /əˈlɑːrm/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ترس و نیگەرانی لە کاتی مەترسی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The doctor said there was no cause for alarm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پزیشکەکە وتی ھیچ ھۆکارێک نییە بۆ دڵەخورپە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalarm4277("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalarm4277(
-                                        // REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The doctor said there was no cause for alarm.",
+                            kurdishText:
+                                "پزیشکەکە وتی ھیچ ھۆکارێک نییە بۆ دڵەخورپە.",
+                            onPressedBritish: () => speakalarm4277("en-GB"),
+                            onPressedAmerican: () => speakalarm4277(
+                                // REPLACE: alarm /əˈlɑːrm/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) درووستکردنی نیگەرانی یان مەترسی لای کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It alarms me that nobody takes this problem seriously."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تووشی دڵەخورپە دەبم کە ھیچ کەس ئەم کێشەیە بە جدی وەرناگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalarm7692("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalarm7692(
-                                        // REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It alarms me that nobody takes this problem seriously.",
+                            kurdishText:
+                                "تووشی دڵەخورپە دەبم کە ھیچ کەس ئەم کێشەیە بە جدی وەرناگرێت.",
+                            onPressedBritish: () => speakalarm7692("en-GB"),
+                            onPressedAmerican: () => speakalarm7692(
+                                // REPLACE: alarm /əˈlɑːrm/
+                                "en-US"),
                           ),
                         ],
                       ),

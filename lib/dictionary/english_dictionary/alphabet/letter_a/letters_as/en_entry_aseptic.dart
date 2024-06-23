@@ -163,34 +163,15 @@ class EnglishEntryaseptic extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بەبێ ھیچ بەکتریایەک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The surgeon used aseptic techniques to prevent infection during the operation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەشتەرگەرەکە تەکنیکی خاوێن لە بەکتریای بەکارھێنا بۆ ڕێگری لە بڵاوبوونەوەی نەخۆشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaseptic157("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaseptic157(
-                                        // REPLACE: aseptic /ˌeɪˈseptɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The surgeon used aseptic techniques to prevent infection during the operation.",
+                            kurdishText:
+                                "نەشتەرگەرەکە تەکنیکی خاوێن لە بەکتریای بەکارھێنا بۆ ڕێگری لە بڵاوبوونەوەی نەخۆشی.",
+                            onPressedBritish: () => speakaseptic157("en-GB"),
+                            onPressedAmerican: () => speakaseptic157(
+                                // REPLACE: aseptic /ˌeɪˈseptɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

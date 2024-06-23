@@ -145,67 +145,29 @@ class EnglishEntrybloodstained extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) داپۆشراو بە قەترە خوێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bloodstained clothing was found near the scene."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلوبەرگی خوێناوی دۆزرایەوە لە شوێنی تاوانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodstaineds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodstaineds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bloodstained clothing was found near the scene.",
+                            kurdishText:
+                                "جلوبەرگی خوێناوی دۆزرایەوە لە شوێنی تاوانەکە.",
+                            onPressedBritish: () =>
+                                speakbloodstaineds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodstaineds1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) بەرپرس بە مەرگ یان برینی ژمارەیەکی زۆر خەڵک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had been regarded for decades as a bloodstained terrorist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ چەندین دەیەیە وەک تیرۆریستێکی ترسناک دانراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodstaineds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodstaineds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had been regarded for decades as a bloodstained terrorist.",
+                            kurdishText:
+                                "بۆ چەندین دەیەیە وەک تیرۆریستێکی ترسناک دانراوە.",
+                            onPressedBritish: () =>
+                                speakbloodstaineds2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodstaineds2("en-US"),
                           ),
                         ],
                       ),

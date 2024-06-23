@@ -158,132 +158,55 @@ class EnglishEntryancestor extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) باوان؛ کەسێکی بنەماڵەکەت کە زۆر لەمەوپێش ژیاوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His ancestors had come to America from Ireland."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوانی لە ئێرلەنداوە ھات‌بوون بۆ ئەمریکا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakancestor7690("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakancestor7690(
-                                        // REPLACE: ancestor /ˈænsestər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His ancestors had come to America from Ireland.",
+                            kurdishText:
+                                "باوانی لە ئێرلەنداوە ھات‌بوون بۆ ئەمریکا.",
+                            onPressedBritish: () => speakancestor7690("en-GB"),
+                            onPressedAmerican: () => speakancestor7690(
+                                // REPLACE: ancestor /ˈænsestər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were portraits of his ancestors on the walls of the room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێنەی باوانی لەسەر دیواری ژوورەکە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakancestor4800("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakancestor4800(
-                                        // REPLACE: ancestor /ˈænsestər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were portraits of his ancestors on the walls of the room.",
+                            kurdishText:
+                                "وێنەی باوانی لەسەر دیواری ژوورەکە بوو.",
+                            onPressedBritish: () => speakancestor4800("en-GB"),
+                            onPressedAmerican: () => speakancestor4800(
+                                // REPLACE: ancestor /ˈænsestər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئاژەڵێک کە لە کۆندا ژیاوە و لە ئێستادا ئاژەڵێکی تر لێوەی گەشەی کردووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These bones come from an animal that is the ancestor of the modern horse."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ئێسکانە ھی ئاژەڵێکن کە باوانی ئەسپی ئێستایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakancestor02560("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakancestor02560(
-                                        // REPLACE: ancestor /ˈænsestər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These bones come from an animal that is the ancestor of the modern horse.",
+                            kurdishText:
+                                "ئەم ئێسکانە ھی ئاژەڵێکن کە باوانی ئەسپی ئێستایە.",
+                            onPressedBritish: () => speakancestor02560("en-GB"),
+                            onPressedAmerican: () => speakancestor02560(
+                                // REPLACE: ancestor /ˈænsestər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) شێوەیەکی سەرەتایی کەرەستەیەک کە لە ئێستادا زیاتر بەرەوپێش‌چووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This wooden instrument is the ancestor of the modern metal flute."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ئامێرە دارینە شێوەی سەرەتایی فلوتی ئاسنی ئەم سەردەمەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakancestor0805("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakancestor0805(
-                                        // REPLACE: ancestor /ˈænsestər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This wooden instrument is the ancestor of the modern metal flute.",
+                            kurdishText:
+                                "ئەم ئامێرە دارینە شێوەی سەرەتایی فلوتی ئاسنی ئەم سەردەمەیە.",
+                            onPressedBritish: () => speakancestor0805("en-GB"),
+                            onPressedAmerican: () => speakancestor0805(
+                                // REPLACE: ancestor /ˈænsestər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

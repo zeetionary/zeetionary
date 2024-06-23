@@ -114,66 +114,27 @@ class EnglishEntryadlib extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) پێشکەشکردنی شتێک بەبێ ئامادەکاریی پێشوەختە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She delivered her speech ad lib."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکەی بەبێ ئامادەکاریی پێشوەختە پێشکەشکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadlib4587("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadlib4587(
-                                        // REPLACE: ad lib /ˌæd ˈlɪb/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She delivered her speech ad lib.",
+                            kurdishText:
+                                "وتارەکەی بەبێ ئامادەکاریی پێشوەختە پێشکەشکرد.",
+                            onPressedBritish: () => speakadlib4587("en-GB"),
+                            onPressedAmerican: () => speakadlib4587(
+                                // REPLACE: ad lib /ˌæd ˈlɪb/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) وتنی شتێک بەبێ ئامادەکاریی پێشوەختە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I lost my notes and had to ad-lib the whole speech."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێبینییەکانمم ونکرد و ناچاربووم تەواوی وتارەکە لەخۆوە پێشکەش بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadlib42587("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadlib42587(
-                                        // REPLACE: ad lib /ˌæd ˈlɪb/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I lost my notes and had to ad-lib the whole speech.",
+                            kurdishText:
+                                "تێبینییەکانمم ونکرد و ناچاربووم تەواوی وتارەکە لەخۆوە پێشکەش بکەم.",
+                            onPressedBritish: () => speakadlib42587("en-GB"),
+                            onPressedAmerican: () => speakadlib42587(
+                                // REPLACE: ad lib /ˌæd ˈlɪb/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -155,34 +155,15 @@ class EnglishEntryantler extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) شاخی گاکێوی یان نێراسک (نێرە ئاسک)"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Poachers in search of antlers prey on red deer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ڕاوچیانەی بەشوێن شاخی نێراسک دەگەڕێن سوورئاسک ڕاودەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantler101("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantler101(
-                                        // REPLACE: antler /ˈæntlər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Poachers in search of antlers prey on red deer.",
+                            kurdishText:
+                                "ئەو ڕاوچیانەی بەشوێن شاخی نێراسک دەگەڕێن سوورئاسک ڕاودەکەن.",
+                            onPressedBritish: () => speakantler101("en-GB"),
+                            onPressedAmerican: () => speakantler101(
+                                // REPLACE: antler /ˈæntlər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

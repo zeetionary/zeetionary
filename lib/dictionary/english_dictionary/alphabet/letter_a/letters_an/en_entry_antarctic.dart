@@ -155,67 +155,29 @@ class EnglishEntryantarctic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھەرێمی خولگەی جەمسەری باشووری زەوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The protection of the Antarctic from commercial exploitation is an important goal of environmentalists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاراستنی خولگەی جەمسەری باشوری زەوی لە بەکارھێنانی بە مەبەستی بازرگانی یەکێکە لە ئامانجە سەرەکییەکانی ژینگەپارێزان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantarctic134("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantarctic134(
-                                        // REPLACE: Antarctic /ænˈtɑːrktɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The protection of the Antarctic from commercial exploitation is an important goal of environmentalists.",
+                            kurdishText:
+                                "پاراستنی خولگەی جەمسەری باشوری زەوی لە بەکارھێنانی بە مەبەستی بازرگانی یەکێکە لە ئامانجە سەرەکییەکانی ژینگەپارێزان.",
+                            onPressedBritish: () => speakantarctic134("en-GB"),
+                            onPressedAmerican: () => speakantarctic134(
+                                // REPLACE: Antarctic /ænˈtɑːrktɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بە ھەرێمی خولگەی جەمسەری باشووری زەوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scientists went on an Antarctic expedition to study penguins and ice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاناکان دەستیان گە گەڕانێکی خولگەی جەمسەری باشوور کرد بۆ لێکۆڵینەوە لە پەنگوینەکان و سەھۆڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantarctic136("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantarctic136(
-                                        // REPLACE: Antarctic /ænˈtɑːrktɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scientists went on an Antarctic expedition to study penguins and ice.",
+                            kurdishText:
+                                "زاناکان دەستیان گە گەڕانێکی خولگەی جەمسەری باشوور کرد بۆ لێکۆڵینەوە لە پەنگوینەکان و سەھۆڵ.",
+                            onPressedBritish: () => speakantarctic136("en-GB"),
+                            onPressedAmerican: () => speakantarctic136(
+                                // REPLACE: Antarctic /ænˈtɑːrktɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

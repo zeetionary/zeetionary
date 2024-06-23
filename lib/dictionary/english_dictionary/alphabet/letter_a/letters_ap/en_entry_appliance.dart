@@ -162,34 +162,15 @@ class EnglishEntryappliance extends StatelessWidget {
                               text:
                                   "١. (ناو) ئامێرێکی ماڵەوە کە دیزاین کراوە بۆ کردنی کارێک، بۆ نموونە ئامادەکردنی خۆراک، گەرمکردنەوە، یان پاککردنەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Always switch off appliances that are not in use."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە ئەو ئامێرانە بکوژێنەوە کە لە کاردا نین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappliance623("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappliance623(
-                                        // REPLACE: appliance /əˈplaɪəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Always switch off appliances that are not in use.",
+                            kurdishText:
+                                "ھەمیشە ئەو ئامێرانە بکوژێنەوە کە لە کاردا نین.",
+                            onPressedBritish: () => speakappliance623("en-GB"),
+                            onPressedAmerican: () => speakappliance623(
+                                // REPLACE: appliance /əˈplaɪəns/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -105,61 +105,23 @@ class EnglishEntryabundantly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) تا ئاستێکی زۆر" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She made her wishes abundantly clear."),
-                                    ExampleSentenceKurdish(
-                                        text: "خۆزگەکانی تەواو ئاشکرا کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakab25963("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakab25963("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She made her wishes abundantly clear.",
+                            kurdishText: "خۆزگەکانی تەواو ئاشکرا کرد.",
+                            onPressedBritish: () => speakab25963("en-GB"),
+                            onPressedAmerican: () => speakab25963("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بە ژمارەیەکی زۆر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Calcium is found most abundantly in milk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کالسیۆم بە ژمارەیەکی زۆر لە شیردا ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka15247("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka15247("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Calcium is found most abundantly in milk.",
+                            kurdishText:
+                                "کالسیۆم بە ژمارەیەکی زۆر لە شیردا ھەیە.",
+                            onPressedBritish: () => speaka15247("en-GB"),
+                            onPressedAmerican: () => speaka15247("en-US"),
                           ),
                         ],
                       ),

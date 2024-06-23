@@ -159,129 +159,50 @@ class EnglishEntryanything extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (جێناو) بەکاردێت بۆ ئاماژە بۆ شتێک لە ڕستەی نەرێ و پرسیاری، لە دوای if و whether، و لە دوای ھەندێک کردار، بۆ نموونە prevent و ban و avoid"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Would you like anything else?"),
-                                    ExampleSentenceKurdish(
-                                        text: "حەزت لە ھیچی ترە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanything1010("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanything1010(
-                                        // REPLACE: anything /ˈeniθɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Would you like anything else?",
+                            kurdishText: "حەزت لە ھیچی ترە؟",
+                            onPressedBritish: () => speakanything1010("en-GB"),
+                            onPressedAmerican: () => speakanything1010(
+                                // REPLACE: anything /ˈeniθɪŋ/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's never anything worth watching on TV."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز ھیچ لەسەر تەلەفیزیۆن نییە شایەنی سەیرکردن بێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanything1012("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanything1010(
-                                        // REPLACE: anything /ˈeniθɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's never anything worth watching on TV.",
+                            kurdishText:
+                                "ھەرگیز ھیچ لەسەر تەلەفیزیۆن نییە شایەنی سەیرکردن بێ.",
+                            onPressedBritish: () => speakanything1012("en-GB"),
+                            onPressedAmerican: () => speakanything1010(
+                                // REPLACE: anything /ˈeniθɪŋ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (جێناو) ھەرشتێک، گرنگ نییە چی بێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm so hungry, I'll eat anything."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرم برسییە، ھەرچی ھەبێت ئەیخۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanything1013("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanything1013(
-                                        // REPLACE: anything /ˈeniθɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'm so hungry, I'll eat anything.",
+                            kurdishText: "زۆرم برسییە، ھەرچی ھەبێت ئەیخۆم.",
+                            onPressedBritish: () => speakanything1013("en-GB"),
+                            onPressedAmerican: () => speakanything1013(
+                                // REPLACE: anything /ˈeniθɪŋ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (جێناو) شتێکی گرنگ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Is there anything (= any truth) in these rumours?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ شتێکی گرنگ لەم دەنگۆیانە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanything1015("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanything1015(
-                                        // REPLACE: anything /ˈeniθɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Is there anything (= any truth) in these rumours?",
+                            kurdishText: "ھیچ شتێکی گرنگ لەم دەنگۆیانە ھەیە.",
+                            onPressedBritish: () => speakanything1015("en-GB"),
+                            onPressedAmerican: () => speakanything1015(
+                                // REPLACE: anything /ˈeniθɪŋ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

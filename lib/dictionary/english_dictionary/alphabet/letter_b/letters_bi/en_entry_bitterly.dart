@@ -148,121 +148,43 @@ class EnglishEntrybitterly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە ھەست بە دڵتەنگی و تووڕەیی دەکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They complained bitterly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ناڕەحەتییەوە گازەندەیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitterlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitterlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They complained bitterly.",
+                            kurdishText: "بە ناڕەحەتییەوە گازەندەیان دەکرد.",
+                            onPressedBritish: () => speakbitterlys1("en-GB"),
+                            onPressedAmerican: () => speakbitterlys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She wept bitterly."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە دڵتەنگییەوە دەگریا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitterlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitterlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She wept bitterly.",
+                            kurdishText: "بە دڵتەنگییەوە دەگریا.",
+                            onPressedBritish: () => speakbitterlys2("en-GB"),
+                            onPressedAmerican: () => speakbitterlys2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵکار) ئێجگار زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was bitterly disappointed not to get the job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر نائومێد بوو کە کارەکەی وەرنەگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitterlys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitterlys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was bitterly disappointed not to get the job.",
+                            kurdishText: "زۆر نائومێد بوو کە کارەکەی وەرنەگرت.",
+                            onPressedBritish: () => speakbitterlys3("en-GB"),
+                            onPressedAmerican: () => speakbitterlys3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵکار) زۆر سارد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I remember it was a bitterly cold December night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بیرمە شەوێکی تەزێنەری کانوونی یەکەم بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitterlys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitterlys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I remember it was a bitterly cold December night.",
+                            kurdishText:
+                                "لە بیرمە شەوێکی تەزێنەری کانوونی یەکەم بوو.",
+                            onPressedBritish: () => speakbitterlys4("en-GB"),
+                            onPressedAmerican: () => speakbitterlys4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

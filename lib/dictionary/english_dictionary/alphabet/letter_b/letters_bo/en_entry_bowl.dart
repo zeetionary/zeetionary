@@ -255,263 +255,90 @@ class EnglishEntrybowl extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دەورییەکی قووڵ کە زیاتر بۆ تێکردنی شلە، بۆ نموونە شۆربا، بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I refilled the dog's water bowl."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەفری ئاوی سەگەکەم پڕکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I refilled the dog's water bowl.",
+                            kurdishText: "دەفری ئاوی سەگەکەم پڕکردەوە.",
+                            onPressedBritish: () => speakbowls1("en-GB"),
+                            onPressedAmerican: () => speakbowls1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Sieve the flour into a bowl."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئاردەکە ببێژە ناو دەفرێکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowls2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowls2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Sieve the flour into a bowl.",
+                            kurdishText: "ئاردەکە ببێژە ناو دەفرێکەوە.",
+                            onPressedBritish: () => speakbowls2("en-GB"),
+                            onPressedAmerican: () => speakbowls2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I helped myself to an apple from the bowl."),
-                                    ExampleSentenceKurdish(
-                                        text: "سێوێکم لە جامەکە ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowls3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowls3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I helped myself to an apple from the bowl.",
+                            kurdishText: "سێوێکم لە جامەکە ھێنا.",
+                            onPressedBritish: () => speakbowls3("en-GB"),
+                            onPressedAmerican: () => speakbowls3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو ڕێژەیەی لە دەفرێکدا جێی دەبێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I ate a bowl of rice."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەورییەک برنجم خوارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowls4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowls4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I ate a bowl of rice.",
+                            kurdishText: "دەورییەک برنجم خوارد.",
+                            onPressedBritish: () => speakbowls4("en-GB"),
+                            onPressedAmerican: () => speakbowls4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەو بەشەی ھەندێک شت کە لە شێوەی دەفرێکی قووڵە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The spoon has a shallow bowl."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەمی کەوچکەکە کەم‌قووڵە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowls5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowls5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The spoon has a shallow bowl.",
+                            kurdishText: "دەمی کەوچکەکە کەم‌قووڵە.",
+                            onPressedBritish: () => speakbowls5("en-GB"),
+                            onPressedAmerican: () => speakbowls5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) یاری بۆوڵینگ یان تۆپەکەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bowls is one of the most popular sports in the UK."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاری بۆوڵینگ یەکێکە لە وەرزشە ھەرە بەناوبانگەکان لە شانشینی یەکگرتوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowls6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowls6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bowls is one of the most popular sports in the UK.",
+                            kurdishText:
+                                "یاری بۆوڵینگ یەکێکە لە وەرزشە ھەرە بەناوبانگەکان لە شانشینی یەکگرتوو.",
+                            onPressedBritish: () => speakbowls6("en-GB"),
+                            onPressedAmerican: () => speakbowls6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) تەقاندنی تۆپ لە یاری بۆوڵینگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It was Peter's turn to bowl."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نۆرەی پیتەر بوو تۆپەکە بتەقێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowls7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowls7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It was Peter's turn to bowl.",
+                            kurdishText: "نۆرەی پیتەر بوو تۆپەکە بتەقێنێت.",
+                            onPressedBritish: () => speakbowls7("en-GB"),
+                            onPressedAmerican: () => speakbowls7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) لە (یاری کریکیتدا) ھاویشتنی تۆپەکە بۆ ئەو کەسەی لە تۆپەکە دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Tim was tired after bowling for an hour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیم شەکەت بوو لە دوای ھەڵدنی تۆپەکە بۆ یەک کاتژمێر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowls8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowls8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Tim was tired after bowling for an hour.",
+                            kurdishText:
+                                "تیم شەکەت بوو لە دوای ھەڵدنی تۆپەکە بۆ یەک کاتژمێر.",
+                            onPressedBritish: () => speakbowls8("en-GB"),
+                            onPressedAmerican: () => speakbowls8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) ڕۆشتن بەخێرایی بە ئاراستەیەکی دیاریکراودا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The horse bowled past the finish line in a gallop."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەسپەکە بە غاردان بە ھێڵی بردنەوەدا تێپەڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowls9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowls9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The horse bowled past the finish line in a gallop.",
+                            kurdishText:
+                                "ئەسپەکە بە غاردان بە ھێڵی بردنەوەدا تێپەڕی.",
+                            onPressedBritish: () => speakbowls9("en-GB"),
+                            onPressedAmerican: () => speakbowls9("en-US"),
                           ),
                         ],
                       ),

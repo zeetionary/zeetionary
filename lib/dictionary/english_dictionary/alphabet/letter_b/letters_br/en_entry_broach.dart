@@ -146,60 +146,22 @@ class EnglishEntrybroach extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) قسەکردن لەسەر شتێک کە سەختە زۆرجار بەھۆی ئەوەی خەڵکی پێی شەرمەزار دەبن یان ناکۆکی ھەیە لەسەری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was dreading having to broach the subject of money to her father."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەترسا لەوەی پێویست بکات بابەتی پارە لای باوکی باس بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broach" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroachs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroachs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was dreading having to broach the subject of money to her father.",
+                            kurdishText:
+                                "دەترسا لەوەی پێویست بکات بابەتی پارە لای باوکی باس بکات.", // broach" as
+                            onPressedBritish: () => speakbroachs1("en-GB"),
+                            onPressedAmerican: () => speakbroachs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The report fails to broach some important questions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاپۆرتەکە شکستی ھێناوە لە باسکردنی ھەندێک پرسیاری گرنگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroachs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroachs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The report fails to broach some important questions.",
+                            kurdishText:
+                                "ڕاپۆرتەکە شکستی ھێناوە لە باسکردنی ھەندێک پرسیاری گرنگ.",
+                            onPressedBritish: () => speakbroachs2("en-GB"),
+                            onPressedAmerican: () => speakbroachs2("en-US"),
                           ),
                         ],
                       ),

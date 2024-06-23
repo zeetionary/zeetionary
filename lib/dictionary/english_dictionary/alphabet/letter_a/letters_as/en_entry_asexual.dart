@@ -165,99 +165,41 @@ class EnglishEntryasexual extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) بەبێ چالاکی سێکسی یان بەبێ بوونی ھەستی سێکسی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She led an asexual life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژیانێکی دوور لە سێکسی بەسەربرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasexual353("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasexual353(
-                                        // REPLACE: asexual /ˌeɪˈsekʃuəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She led an asexual life.",
+                            kurdishText: "ژیانێکی دوور لە سێکسی بەسەربرد.",
+                            onPressedBritish: () => speakasexual353("en-GB"),
+                            onPressedAmerican: () => speakasexual353(
+                                // REPLACE: asexual /ˌeɪˈsekʃuəl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) کەسێک کە ھەستی سێکسی نییە، یان حەزی پێی نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An asexual individual may choose to engage in sexual activity even while not experiencing sexual attraction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێکی سێکسنەخواز ئەتوانێت سێکس بکات ئەگەرچی دڵیشی نەچێت لە سێکس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasexual401("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasexual401(
-                                        // REPLACE: asexual /ˌeɪˈsekʃuəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An asexual individual may choose to engage in sexual activity even while not experiencing sexual attraction.",
+                            kurdishText:
+                                "کەسێکی سێکسنەخواز ئەتوانێت سێکس بکات ئەگەرچی دڵیشی نەچێت لە سێکس.",
+                            onPressedBritish: () => speakasexual401("en-GB"),
+                            onPressedAmerican: () => speakasexual401(
+                                // REPLACE: asexual /ˌeɪˈsekʃuəl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) بەبێ زاوزێ یان ھەبوونی ئەندامی زاوزێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Algae reproduce by both sexual and asexual reproduction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەوزە دەکرێت زاوزێ بکەن بە زۆربوونی سێکسی و بە ناسێکسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasexuals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasexuals3(
-                                        // REPLACE: asexual /ˌeɪˈsekʃuəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Algae reproduce by both sexual and asexual reproduction.",
+                            kurdishText:
+                                "قەوزە دەکرێت زاوزێ بکەن بە زۆربوونی سێکسی و بە ناسێکسی.",
+                            onPressedBritish: () => speakasexuals3("en-GB"),
+                            onPressedAmerican: () => speakasexuals3(
+                                // REPLACE: asexual /ˌeɪˈsekʃuəl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -111,34 +111,14 @@ class EnglishEntryafoot extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) شتێک کە لە پلاندایە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are plans afoot to increase taxation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلان لە ئارادایە بۆ زیادکردنی باج"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafoo4599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakafoo4599(// REPLACE: afoot /əˈfʊt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are plans afoot to increase taxation.",
+                            kurdishText: "پلان لە ئارادایە بۆ زیادکردنی باج",
+                            onPressedBritish: () => speakafoo4599("en-GB"),
+                            onPressedAmerican: () =>
+                                speakafoo4599(// REPLACE: afoot /əˈfʊt/
+                                    "en-US"),
                           ),
                         ],
                       ),

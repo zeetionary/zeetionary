@@ -107,60 +107,21 @@ class EnglishEntryaccumulate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) کۆکردنەوەی شتێک بە تێپەڕبوونی کات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I seem to have accumulated a lot of books."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وادیارە کتێبی زۆرم خڕکردووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka92574("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka92574("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I seem to have accumulated a lot of books.",
+                            kurdishText: "وادیارە کتێبی زۆرم خڕکردووەتەوە.",
+                            onPressedBritish: () => speaka92574("en-GB"),
+                            onPressedAmerican: () => speaka92574("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Dust and dirt soon accumulate if a house is not cleaned regularly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەپوتۆز ھەرزوو زیاددەکەن ئەگەر خانوویەک بە بەردەوامی پاکنەکرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka1547("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka1547("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Dust and dirt soon accumulate if a house is not cleaned regularly.",
+                            kurdishText:
+                                "تەپوتۆز ھەرزوو زیاددەکەن ئەگەر خانوویەک بە بەردەوامی پاکنەکرێتەوە.",
+                            onPressedBritish: () => speaka1547("en-GB"),
+                            onPressedAmerican: () => speaka1547("en-US"),
                           ),
                         ],
                       ),

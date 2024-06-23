@@ -161,34 +161,15 @@ class EnglishEntryatlas extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کتێبێک کە نەخشەی تێدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ئەو کەسانەی کە ئەتڵەسێکیان لەبەردەست نییە، نیوکاسڵ دەکەوێتە باکووری خۆرھەڵاتی ئینگلتەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakatlas839("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakatlas839(// REPLACE: atlas
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England.",
+                            kurdishText:
+                                "بۆ ئەو کەسانەی کە ئەتڵەسێکیان لەبەردەست نییە، نیوکاسڵ دەکەوێتە باکووری خۆرھەڵاتی ئینگلتەرە.",
+                            onPressedBritish: () => speakatlas839("en-GB"),
+                            onPressedAmerican: () =>
+                                speakatlas839(// REPLACE: atlas
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

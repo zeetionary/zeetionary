@@ -111,32 +111,12 @@ class EnglishEntryacrid extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) ھەبوونی بۆنێکی ناخۆش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "acrid smoke from burning tyres"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووکەڵی بۆنناخۆش لە تایەی سووتاوەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaac4281id("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaac4281id(
-                                        "en-US"), // REPLACE acrid /ˈækrɪd/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "acrid smoke from burning tyres",
+                            kurdishText: "دووکەڵی بۆنناخۆش لە تایەی سووتاوەوە.",
+                            onPressedBritish: () => speakaac4281id("en-GB"),
+                            onPressedAmerican: () => speakaac4281id(
+                                "en-US"), // REPLACE acrid /ˈækrɪd/
                           ),
                         ],
                       ),

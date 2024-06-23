@@ -152,34 +152,14 @@ class EnglishEntryballpoint extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پێنووسێک کە تۆپێکی ئاسنینی بچووک بە نوکەکەیەوەیە کە مڕەکەب دەڕێژێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The letter was written in blue ballpoint pen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەکە بە جافێکی شین نووسرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballpoints1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballpoints1(// REPLACE: ballpoint
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The letter was written in blue ballpoint pen.",
+                            kurdishText: "نامەکە بە جافێکی شین نووسرابوو.",
+                            onPressedBritish: () => speakballpoints1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballpoints1(// REPLACE: ballpoint
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

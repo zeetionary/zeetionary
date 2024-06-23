@@ -150,32 +150,13 @@ class EnglishEntrybazooka extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چەکێکی درێژ کە شیوەی لوولەیی ھەیە و دەخرێتە سەر شان بۆ ھاویشتنی دژ بە تانک و ئۆتۆمبێلی سەربازی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He knocked out an enemy tank with his bazooka."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تانکێکی دوژمنی تەقاندەوە بە دژەتانکەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbazookas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbazookas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He knocked out an enemy tank with his bazooka.",
+                            kurdishText:
+                                "تانکێکی دوژمنی تەقاندەوە بە دژەتانکەکەی.",
+                            onPressedBritish: () => speakbazookas1("en-GB"),
+                            onPressedAmerican: () => speakbazookas1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

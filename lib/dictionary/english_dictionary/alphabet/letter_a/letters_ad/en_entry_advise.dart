@@ -109,96 +109,39 @@ class EnglishEntryadvise extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) پێدانی ڕاوێژ و ئامۆژگاری بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They advised me against visiting the south of the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاوێژیان پێدام دژ بە سەردانیکردنی باشووری وڵاتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadv399865("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadv399865(
-                                        // REPLACE: advise /ədˈvaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They advised me against visiting the south of the country.",
+                            kurdishText:
+                                "ڕاوێژیان پێدام دژ بە سەردانیکردنی باشووری وڵاتەکە.",
+                            onPressedBritish: () => speakadv399865("en-GB"),
+                            onPressedAmerican: () => speakadv399865(
+                                // REPLACE: advise /ədˈvaɪz/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her mother was away and couldn't advise her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایکی دوور بوو لێی و نەیدەتوانی ئامۆژگاری بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvise259935("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvise259935(
-                                        // REPLACE: advise /ədˈvaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her mother was away and couldn't advise her.",
+                            kurdishText:
+                                "دایکی دوور بوو لێی و نەیدەتوانی ئامۆژگاری بکات.",
+                            onPressedBritish: () => speakadvise259935("en-GB"),
+                            onPressedAmerican: () => speakadvise259935(
+                                // REPLACE: advise /ədˈvaɪz/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) یارمەتیدانی کەسێک لە شتێکدا کە زۆری لەسەر دەزانیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We employ an expert to advise on new technology."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەزایەک دادەمەزرێنین بۆپێدانی ڕاوێژ لەسەر تەکنەلۆژیای تازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvi789255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvi789255(
-                                        // REPLACE: advise /ədˈvaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We employ an expert to advise on new technology.",
+                            kurdishText:
+                                "شارەزایەک دادەمەزرێنین بۆپێدانی ڕاوێژ لەسەر تەکنەلۆژیای تازە.",
+                            onPressedBritish: () => speakadvi789255("en-GB"),
+                            onPressedAmerican: () => speakadvi789255(
+                                // REPLACE: advise /ədˈvaɪz/
+                                "en-US"),
                           ),
                         ],
                       ),

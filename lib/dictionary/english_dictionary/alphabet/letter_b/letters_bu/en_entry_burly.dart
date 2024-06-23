@@ -192,32 +192,13 @@ class EnglishEntryburly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) گەورە و بەھێز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The burly construction worker effortlessly lifted the heavy beam into place."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرێکارە کەتەکە بە ئاسانی کاریتەکەی خستە شوێنی خۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burly", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The burly construction worker effortlessly lifted the heavy beam into place.",
+                            kurdishText:
+                                "کرێکارە کەتەکە بە ئاسانی کاریتەکەی خستە شوێنی خۆی.", // burly", follow LX strictly
+                            onPressedBritish: () => speakburlys1("en-GB"),
+                            onPressedAmerican: () => speakburlys1("en-US"),
                           ),
                         ],
                       ),

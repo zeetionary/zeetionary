@@ -156,128 +156,49 @@ class EnglishEntrybail extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بڕە پارەیەک کە دەدرێت بۆ ئەوەی تاوانبارێک ئازادبکرێت تا ڕۆژی دادگایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Can anyone put up bail for you?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ کەس دەتوانێت ببێتە کەفیلت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbails1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbails1(// REPLACE: bail
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can anyone put up bail for you?",
+                            kurdishText: "ھیچ کەس دەتوانێت ببێتە کەفیلت؟",
+                            onPressedBritish: () => speakbails1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbails1(// REPLACE: bail
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was released on £2 000 bail."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە کەفیلی ٢٠٠٠ پاوەند ئازادکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbails2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbails2(// REPLACE: bail
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was released on £2 000 bail.",
+                            kurdishText: "بە کەفیلی ٢٠٠٠ پاوەند ئازادکرا.",
+                            onPressedBritish: () => speakbails2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbails2(// REPLACE: bail
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ئازادکردنی کەسێک بە کەفالەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was bailed to appear in court on 15 March."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە کەفالەت ئازادکرا تا دەرکەوتنی لە دادگا لە ڕۆژی ١٥ی ئادار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbails3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbails3(// REPLACE: bail
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was bailed to appear in court on 15 March.",
+                            kurdishText:
+                                "بە کەفالەت ئازادکرا تا دەرکەوتنی لە دادگا لە ڕۆژی ١٥ی ئادار.",
+                            onPressedBritish: () => speakbails3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbails3(// REPLACE: bail
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) جێھێشتنی شوێنێک بەخێرایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Sorry, I really have to bail."),
-                                    ExampleSentenceKurdish(
-                                        text: "ببوورە، بەڕاستی دەبێت بڕۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbails4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbails4(// REPLACE: bail
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Sorry, I really have to bail.",
+                            kurdishText: "ببوورە، بەڕاستی دەبێت بڕۆم.",
+                            onPressedBritish: () => speakbails4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbails4(// REPLACE: bail
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

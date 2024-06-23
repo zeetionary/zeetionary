@@ -144,32 +144,12 @@ class EnglishEntrybornagain extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) کەسێک کە باوەڕی توندی بە مەسیحییەتی ئینجیلی ھێناوە، بەتایبەتی لە دوای ئەزموونێکی ڕۆحی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Richard is a born-again Christian."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕیچارد مەسیحییەکی ئینجیلییە باوەڕی وایە (ئینجیل دەبێت فێری کەسانی تر بکرێت بۆ ئەوەی باوەڕ بێنن)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbornagains1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbornagains1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Richard is a born-again Christian.",
+                            kurdishText:
+                                "ڕیچارد مەسیحییەکی ئینجیلییە باوەڕی وایە (ئینجیل دەبێت فێری کەسانی تر بکرێت بۆ ئەوەی باوەڕ بێنن).",
+                            onPressedBritish: () => speakbornagains1("en-GB"),
+                            onPressedAmerican: () => speakbornagains1("en-US"),
                           ),
                         ],
                       ),

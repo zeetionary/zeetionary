@@ -325,205 +325,74 @@ class EnglishEntrybrother extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کوڕێک یان پیاوێک کە ھەمان دایک و باوکی کەسێکی تری ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We're brothers."),
-                                    ExampleSentenceKurdish(text: "ئێمە براین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brother" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrothers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrothers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We're brothers.",
+                            kurdishText: "ئێمە براین.", // brother" as
+                            onPressedBritish: () => speakbrothers1("en-GB"),
+                            onPressedAmerican: () => speakbrothers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He's my brother."),
-                                    ExampleSentenceKurdish(text: "ئەو برامە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrothers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrothers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's my brother.",
+                            kurdishText: "ئەو برامە.",
+                            onPressedBritish: () => speakbrothers2("en-GB"),
+                            onPressedAmerican: () => speakbrothers2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Does she have any brothers and sisters?"),
-                                            ExampleSentenceKurdish(
-                                                text: "ھیچ برا و خوشکی ھەیە؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrothers3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrothers3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Does she have any brothers and sisters?",
+                                    kurdishText: "ھیچ برا و خوشکی ھەیە؟",
+                                    onPressedBritish: () =>
+                                        speakbrothers3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrothers3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Edward was the youngest of the Kennedy brothers."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئێدوارد بچووکترین بوو لەناو براکانی خێزانی کەنەدیدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrothers4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrothers4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Edward was the youngest of the Kennedy brothers.",
+                                    kurdishText:
+                                        "ئێدوارد بچووکترین بوو لەناو براکانی خێزانی کەنەدیدا.",
+                                    onPressedBritish: () =>
+                                        speakbrothers4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrothers4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He was like a brother to me (= very close)."),
-                                            ExampleSentenceKurdish(
-                                                text: "وەک برا وابوو بۆم."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrothers5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrothers5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He was like a brother to me (= very close).",
+                                    kurdishText: "وەک برا وابوو بۆم.",
+                                    onPressedBritish: () =>
+                                        speakbrothers5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrothers5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "My son really wanted a little brother."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کوڕەکەم زۆر حەزی لە برایەکی بچووک بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrothers6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrothers6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "My son really wanted a little brother.",
+                                    kurdishText:
+                                        "کوڕەکەم زۆر حەزی لە برایەکی بچووک بوو.",
+                                    onPressedBritish: () =>
+                                        speakbrothers6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrothers6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Henry VIII married the wife of his late brother."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھێنری ھەشتەم ژنی برا کۆچکردووەکەی خواست."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrothers7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrothers7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Henry VIII married the wife of his late brother.",
+                                    kurdishText:
+                                        "ھێنری ھەشتەم ژنی برا کۆچکردووەکەی خواست.",
+                                    onPressedBritish: () =>
+                                        speakbrothers7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrothers7("en-US"),
                                   ),
                                 ],
                               ),
@@ -533,144 +402,49 @@ class EnglishEntrybrother extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پیاوانی دامەزراوەیەک یان پیاوانێک کە ھەمان باوەڕ و بیرۆکەیان ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We must work together, brothers!"),
-                                    ExampleSentenceKurdish(
-                                        text: "برایان، دەبێت پێکەوە کاربکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrothers8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrothers8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We must work together, brothers!",
+                            kurdishText: "برایان، دەبێت پێکەوە کاربکەین.",
+                            onPressedBritish: () => speakbrothers8("en-GB"),
+                            onPressedAmerican: () => speakbrothers8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are all brothers in the fight against injustice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموومان برای یەکین لە شەڕی دژ بە نادادیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrothers9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrothers9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are all brothers in the fight against injustice.",
+                            kurdishText:
+                                "ھەموومان برای یەکین لە شەڕی دژ بە نادادیدا.",
+                            onPressedBritish: () => speakbrothers9("en-GB"),
+                            onPressedAmerican: () => speakbrothers9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We must support our weaker brethren."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت پشتگیری برا لاوازەکانمان بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrothers10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrothers10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We must support our weaker brethren.",
+                            kurdishText:
+                                "دەبێت پشتگیری برا لاوازەکانمان بکەین.",
+                            onPressedBritish: () => speakbrothers10("en-GB"),
+                            onPressedAmerican: () => speakbrothers10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) پیاوانی گرووپێکی ئاینی، بەتایبەتی ڕەبەنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Brethren meet regularly for prayer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندامەکان زووزوو یەکیان دەدی بۆ نزاکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrothers11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrothers11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Brethren meet regularly for prayer.",
+                            kurdishText:
+                                "ئەندامەکان زووزوو یەکیان دەدی بۆ نزاکردن.",
+                            onPressedBritish: () => speakbrothers11("en-GB"),
+                            onPressedAmerican: () => speakbrothers11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (سەرسوڕمان) بۆ دەبڕینی بێزاری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(text: "Oh brother!"),
-                                    ExampleSentenceKurdish(text: "ئەھ برا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrothers12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrothers12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Oh brother!",
+                            kurdishText: "ئەھ برا.",
+                            onPressedBritish: () => speakbrothers12("en-GB"),
+                            onPressedAmerican: () => speakbrothers12("en-US"),
                           ),
                         ],
                       ),

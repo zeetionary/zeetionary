@@ -146,118 +146,42 @@ class EnglishEntryboycott extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ڕەتکردنەوەی ئەوەی شتێک بکڕیت، بەکاری بێنیت، یان بەژداری تێدا بکەیت وەک ناڕەزایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are asking people to boycott goods from companies that use child labour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوا لە خەڵکی دەکەین بایکۆتی ئەو کۆمپانیانە بکەن کە ھێزی کاری منداڵان بەکاردێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboycotts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboycotts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are asking people to boycott goods from companies that use child labour.",
+                            kurdishText:
+                                "داوا لە خەڵکی دەکەین بایکۆتی ئەو کۆمپانیانە بکەن کە ھێزی کاری منداڵان بەکاردێنن.",
+                            onPressedBritish: () => speakboycotts1("en-GB"),
+                            onPressedAmerican: () => speakboycotts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have urged people to boycott foreign products."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوایان لە خەڵکی کردووە کاڵای بیانی بایکۆت بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboycotts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboycotts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have urged people to boycott foreign products.",
+                            kurdishText:
+                                "داوایان لە خەڵکی کردووە کاڵای بیانی بایکۆت بکەن.",
+                            onPressedBritish: () => speakboycotts2("en-GB"),
+                            onPressedAmerican: () => speakboycotts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کردەی بایکۆتی شتێک یان کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Opposition groups declared a boycott of the elections."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرووپە ئۆپۆزسیۆنەکان بایکۆتی ھەڵبژاردنەکانیان ڕاگەیاندووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboycotts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboycotts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Opposition groups declared a boycott of the elections.",
+                            kurdishText:
+                                "گرووپە ئۆپۆزسیۆنەکان بایکۆتی ھەڵبژاردنەکانیان ڕاگەیاندووە.",
+                            onPressedBritish: () => speakboycotts3("en-GB"),
+                            onPressedAmerican: () => speakboycotts3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The US has imposed a boycott on some European goods."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمریکا بایکۆتی سەپاندووە بەسەر ھەندێک کاڵای ئەورووپیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboycotts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboycotts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The US has imposed a boycott on some European goods.",
+                            kurdishText:
+                                "ئەمریکا بایکۆتی سەپاندووە بەسەر ھەندێک کاڵای ئەورووپیدا.",
+                            onPressedBritish: () => speakboycotts4("en-GB"),
+                            onPressedAmerican: () => speakboycotts4("en-US"),
                           ),
                         ],
                       ),

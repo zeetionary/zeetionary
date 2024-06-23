@@ -144,154 +144,55 @@ class EnglishEntrybum extends StatelessWidget {
 کوردی:  سمت، پاشڵ، کنگ، ڕوونەک، کۆم، سواڵکەر، مفتەخۆر، ئاوارە، بێ‌ماڵ‌وحاڵ، تەرە، ھەڵوەدا، کەسێکی تەمەڵ و بێکارە، ئاوارەیی، ھەڵوەدایی، تەرەیی، بێ‌ماڵ‌وحاڵی، بێ‌قازانج، بەکارنەھاتوو، ئایەخ، خراپ، بێ‌کەڵک، سەرەندەرنەکردوو
 """),
                           const DefinitionKurdish(text: "١. (ناو) سمت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They've been sitting on their bums all day, doing nothing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ڕۆژەکە لەسەر کنگیان دانیشتوون و ھیچیان نەکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bum", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbums1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbums1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They've been sitting on their bums all day, doing nothing.",
+                            kurdishText:
+                                "ھەموو ڕۆژەکە لەسەر کنگیان دانیشتوون و ھیچیان نەکردووە.", // bum", follow LX strictly
+                            onPressedBritish: () => speakbums1("en-GB"),
+                            onPressedAmerican: () => speakbums1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کەسێک کە سواڵکەر و بێ‌لانەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He dropped out of college and became a bum."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وازی لە زانکۆ ھێنا و بوو بە سواڵکەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbums2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbums2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He dropped out of college and became a bum.",
+                            kurdishText: "وازی لە زانکۆ ھێنا و بوو بە سواڵکەر.",
+                            onPressedBritish: () => speakbums2("en-GB"),
+                            onPressedAmerican: () => speakbums2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەسێک کە سوودی بۆ کەسانی دیکە و کۆمەڵگا نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's nothing but a no-good bum!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ نییە جگە لە تەوەزەلێکی بێسوود!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbums3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbums3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's nothing but a no-good bum!",
+                            kurdishText: "ھیچ نییە جگە لە تەوەزەلێکی بێسوود!",
+                            onPressedBritish: () => speakbums3("en-GB"),
+                            onPressedAmerican: () => speakbums3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) وەرگرتنی شتێک لە کەسێک بە داواکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bummed a ride home from a friend."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوای لە ھاوڕێکەی کرد بیگەیەنێت بە ماڵەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbums4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbums4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He bummed a ride home from a friend.",
+                            kurdishText:
+                                "داوای لە ھاوڕێکەی کرد بیگەیەنێت بە ماڵەوە.",
+                            onPressedBritish: () => speakbums4("en-GB"),
+                            onPressedAmerican: () => speakbums4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ھاوەڵناو) شتێکی بێسوود"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gave us bum directions, but we eventually found the place."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناونیشانی بێسوودی پێداین، بەڵام لەکۆتاییدا شوێنەکەمان دۆزییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbums5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbums5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He gave us bum directions, but we eventually found the place.",
+                            kurdishText:
+                                "ناونیشانی بێسوودی پێداین، بەڵام لەکۆتاییدا شوێنەکەمان دۆزییەوە.",
+                            onPressedBritish: () => speakbums5("en-GB"),
+                            onPressedAmerican: () => speakbums5("en-US"),
                           ),
                         ],
                       ),

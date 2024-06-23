@@ -191,57 +191,19 @@ class EnglishEntrybye extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (سەرسوڕمان) بۆ ماڵاوایی کردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Bye! See you next week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بای! ھەفتەی داھاتوو دەتبینمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bye", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbyes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbyes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Bye! See you next week.",
+                            kurdishText:
+                                "بای! ھەفتەی داھاتوو دەتبینمەوە.", // bye", follow LX strictly
+                            onPressedBritish: () => speakbyes1("en-GB"),
+                            onPressedAmerican: () => speakbyes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Bye for now Dad!"),
-                                    ExampleSentenceKurdish(
-                                        text: "خوات لەگەڵ بۆ ئێستا باوکە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbyes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbyes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Bye for now Dad!",
+                            kurdishText: "خوات لەگەڵ بۆ ئێستا باوکە!",
+                            onPressedBritish: () => speakbyes2("en-GB"),
+                            onPressedAmerican: () => speakbyes2("en-US"),
                           ),
                         ],
                       ),

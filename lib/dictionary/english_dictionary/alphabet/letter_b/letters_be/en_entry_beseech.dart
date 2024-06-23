@@ -146,31 +146,11 @@ class EnglishEntrybeseech extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) پاڕانەوە لە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Let him go, I beseech you!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وازی لێ بێنە بڕوا، لێت دەپاڕێمەوە!."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeseechs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeseechs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Let him go, I beseech you!",
+                            kurdishText: "وازی لێ بێنە بڕوا، لێت دەپاڕێمەوە!.",
+                            onPressedBritish: () => speakbeseechs1("en-GB"),
+                            onPressedAmerican: () => speakbeseechs1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

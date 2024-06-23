@@ -161,35 +161,15 @@ class EnglishEntryapathetic extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) نەبوونی حەز و تامەزرۆیی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The illness made her apathetic and unwilling to meet people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشییەکە وای‌کرد ساردوسڕ بێ و مەیلی بینینی خەڵکی نەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapathetic1229("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapathetic1229(
-                                        // REPLACE: apathetic /ˌæpəˈθetɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The illness made her apathetic and unwilling to meet people.",
+                            kurdishText:
+                                "نەخۆشییەکە وای‌کرد ساردوسڕ بێ و مەیلی بینینی خەڵکی نەبێت.",
+                            onPressedBritish: () => speakapathetic1229("en-GB"),
+                            onPressedAmerican: () => speakapathetic1229(
+                                // REPLACE: apathetic /ˌæpəˈθetɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

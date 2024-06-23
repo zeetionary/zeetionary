@@ -159,34 +159,15 @@ class EnglishEntryanthem extends StatelessWidget {
                               text:
                                   "١. (ناو) گۆرانییەک کە تایبەتمەندییەکی گرنگی ھەیە وڵاتێک، ڕێکخراوێک، یان کۆمەڵە کەسێک و لە بۆنە تایبەتەکاندا دەوترێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The European anthem was played at the opening and closing ceremonies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەنزیمی ئەورووپا لێدرا لە سەرەتا و کۆتایی بۆنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanthem542("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanthem542(
-                                        // REPLACE: anthem /ˈænθəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The European anthem was played at the opening and closing ceremonies.",
+                            kurdishText:
+                                "ئەنزیمی ئەورووپا لێدرا لە سەرەتا و کۆتایی بۆنەکە.",
+                            onPressedBritish: () => speakanthem542("en-GB"),
+                            onPressedAmerican: () => speakanthem542(
+                                // REPLACE: anthem /ˈænθəm/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

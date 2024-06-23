@@ -112,66 +112,28 @@ class EnglishEntryaesthetically extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بەشێوەیەکی پەیوەندیدار بە جوانی و ھونەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The film is technically and aesthetically brilliant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە لەڕووی تەکنیکی و ھونەرییەوە نایاب بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaestheti1255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaestheti1255(
-                                        // REPLACE: aesthetically /esˈθetɪkli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The film is technically and aesthetically brilliant.",
+                            kurdishText:
+                                "فیلمەکە لەڕووی تەکنیکی و ھونەرییەوە نایاب بوو.",
+                            onPressedBritish: () => speakaestheti1255("en-GB"),
+                            onPressedAmerican: () => speakaestheti1255(
+                                // REPLACE: aesthetically /esˈθetɪkli/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەشێوەیەک کە جوانە بۆ سەیرکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The interior has been aesthetically decorated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشی ناوەوە بەشێوەیەکی جوان دیزاین کرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaesth3669941("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaesth3669941(
-                                        // REPLACE: aesthetically /esˈθetɪkli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The interior has been aesthetically decorated.",
+                            kurdishText:
+                                "بەشی ناوەوە بەشێوەیەکی جوان دیزاین کرابوو.",
+                            onPressedBritish: () => speakaesth3669941("en-GB"),
+                            onPressedAmerican: () => speakaesth3669941(
+                                // REPLACE: aesthetically /esˈθetɪkli/
+                                "en-US"),
                           ),
                         ],
                       ),

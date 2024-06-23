@@ -164,193 +164,78 @@ class EnglishEntryaside extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵکار) بۆ لایەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She pulled the curtain aside."),
-                                    ExampleSentenceKurdish(
-                                        text: "پەردەکەی لادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaside625("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaside625(// REPLACE: aside /əˈsaɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She pulled the curtain aside.",
+                            kurdishText: "پەردەکەی لادا.",
+                            onPressedBritish: () => speakaside625("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaside625(// REPLACE: aside /əˈsaɪd/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Stand aside and let these people pass."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بچۆ ئەولاوە و بھێڵە ئەم خەڵکە تێپەڕن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaside626("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaside626(// REPLACE: aside /əˈsaɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Stand aside and let these people pass.",
+                            kurdishText:
+                                "بچۆ ئەولاوە و بھێڵە ئەم خەڵکە تێپەڕن.",
+                            onPressedBritish: () => speakaside626("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaside626(// REPLACE: aside /əˈsaɪd/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بۆ دواتر بەکارھێنان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We set aside some money for repairs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک پارەمان خستە لاوە بۆ کاری چاککردنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaside628("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaside628(// REPLACE: aside /əˈsaɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We set aside some money for repairs.",
+                            kurdishText:
+                                "ھەندێک پارەمان خستە لاوە بۆ کاری چاککردنەوە.",
+                            onPressedBritish: () => speakaside628("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaside628(// REPLACE: aside /əˈsaɪd/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) شتێک کە کارەکتەرێک لەسەر شانۆ بە ئامادەبووان دەڵێت کە کارەکتەرەکانی تر نابێت گوێیان لێ بێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The actor paused mid-scene to deliver a whispered aside to the audience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەکتەرەکە لە ناوەڕاستی دیمەنەکە وەستا بۆ گەیاندنی 'لاپاڵێک' بە ئامادەبووان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaside633("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaside633(// REPLACE: aside /əˈsaɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The actor paused mid-scene to deliver a whispered aside to the audience.",
+                            kurdishText:
+                                "ئەکتەرەکە لە ناوەڕاستی دیمەنەکە وەستا بۆ گەیاندنی 'لاپاڵێک' بە ئامادەبووان.",
+                            onPressedBritish: () => speakaside633("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaside633(// REPLACE: aside /əˈsaɪd/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) قسەیەک بە دەنگی نزم کە مەبەست لێی نییە کەسانی تر بیبیستن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He made several mocking asides about the inadequacy of women."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک توانجی وەشاند لە بێ‌توانایی ژنان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaside642("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaside642(// REPLACE: aside /əˈsaɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He made several mocking asides about the inadequacy of women.",
+                            kurdishText:
+                                "ھەندێک توانجی وەشاند لە بێ‌توانایی ژنان.",
+                            onPressedBritish: () => speakaside642("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaside642(// REPLACE: aside /əˈsaɪd/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) قسەیەک کە مەبەست لێی نییە بەشێک بێت لە بابەتی سەرەکیی گفتوگۆیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I mention it only as an aside."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەنھا وەک قەوسێک باسی دەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaside644("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaside644(// REPLACE: aside /əˈsaɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I mention it only as an aside.",
+                            kurdishText: "تەنھا وەک قەوسێک باسی دەکەم.",
+                            onPressedBritish: () => speakaside644("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaside644(// REPLACE: aside /əˈsaɪd/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

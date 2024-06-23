@@ -162,34 +162,15 @@ class EnglishEntryarable extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زەوییەک کە بەپیتە بۆ کشتوکاڵ"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The small village centre is surrounded by arable farms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوەڕاستی گوندە بچووکەکە بە زەویی بەپیت دەوردراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarable1042("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarable1042(
-                                        // REPLACE: arable /ˈærəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The small village centre is surrounded by arable farms.",
+                            kurdishText:
+                                "ناوەڕاستی گوندە بچووکەکە بە زەویی بەپیت دەوردراوە.",
+                            onPressedBritish: () => speakarable1042("en-GB"),
+                            onPressedAmerican: () => speakarable1042(
+                                // REPLACE: arable /ˈærəbl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

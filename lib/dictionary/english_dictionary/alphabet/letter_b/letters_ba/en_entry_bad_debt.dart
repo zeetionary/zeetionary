@@ -157,34 +157,15 @@ class EnglishEntrybaddebt extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) قەرزێک کە ئەگەری کەمە بدرێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bank expects to lose £703 million of last year's profits as a result of bad debts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانکەکە پێشبینی لەدەستدانی ٧٠٣ ملیۆن یۆرۆ دەکات لە قازانجەکانی ساڵی ڕابردوو بەھۆی قەرزی لەدەستچووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaddebts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaddebts1(// REPLACE: bad debt
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bank expects to lose £703 million of last year's profits as a result of bad debts.",
+                            kurdishText:
+                                "بانکەکە پێشبینی لەدەستدانی ٧٠٣ ملیۆن یۆرۆ دەکات لە قازانجەکانی ساڵی ڕابردوو بەھۆی قەرزی لەدەستچووەوە.",
+                            onPressedBritish: () => speakbaddebts1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaddebts1(// REPLACE: bad debt
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

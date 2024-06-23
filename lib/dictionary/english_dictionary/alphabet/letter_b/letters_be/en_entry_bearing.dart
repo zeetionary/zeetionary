@@ -152,123 +152,46 @@ class EnglishEntrybearing extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شێوەی پەیوەندی شتێک بە شتێکی ترەوە یان شیوەی کاریگەرییەکەی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Recent events had no bearing on our decision."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووداوەکانی ئەم دواییە ھیچ کاریگەری لەسەر بڕیارەکەمان نابێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbearings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbearings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Recent events had no bearing on our decision.",
+                            kurdishText:
+                                "ڕووداوەکانی ئەم دواییە ھیچ کاریگەری لەسەر بڕیارەکەمان نابێت.",
+                            onPressedBritish: () => speakbearings1("en-GB"),
+                            onPressedAmerican: () => speakbearings1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Regular exercise has a direct bearing on fitness and health."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاھێنانی بەردەوام کاریگەری ڕاستەوخۆی ھەیە لەسەر ھەیکەل و تەندرووستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbearings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbearings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Regular exercise has a direct bearing on fitness and health.",
+                            kurdishText:
+                                "ڕاھێنانی بەردەوام کاریگەری ڕاستەوخۆی ھەیە لەسەر ھەیکەل و تەندرووستی.",
+                            onPressedBritish: () => speakbearings2("en-GB"),
+                            onPressedAmerican: () => speakbearings2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شێوازی ڕێکردن، وەستان، یان ڕەفتارکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had a proud, distinguished bearing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەیکەلێکی بەشکۆ و ھەڵکەوتووی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbearings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbearings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had a proud, distinguished bearing.",
+                            kurdishText: "ھەیکەلێکی بەشکۆ و ھەڵکەوتووی ھەبوو.",
+                            onPressedBritish: () => speakbearings3("en-GB"),
+                            onPressedAmerican: () => speakbearings3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) زانیاری لەسەر شوێنەکەت بە لەبەرچاوگرتنی دەورووبەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He paused at the top of the hill, trying to get his bearings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر گردەکە وەستابوو بۆ دۆزینەوەی شوێنەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbearings4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbearings4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He paused at the top of the hill, trying to get his bearings.",
+                            kurdishText:
+                                "لەسەر گردەکە وەستابوو بۆ دۆزینەوەی شوێنەکەی.",
+                            onPressedBritish: () => speakbearings4("en-GB"),
+                            onPressedAmerican: () => speakbearings4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

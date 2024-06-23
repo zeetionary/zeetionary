@@ -164,33 +164,14 @@ class EnglishEntryarrogant extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ڕەفتارکردن بە شێوەیەکی ناشرین و بەفیزانە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I found him arrogant and rude."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە کەسێکی بێ‌ڕێز و لەخۆڕازی ھاتە پێش چاوم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrogant708("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrogant708(
-                                        // REPLACE: arrogant /ˈærəɡənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I found him arrogant and rude.",
+                            kurdishText:
+                                "بە کەسێکی بێ‌ڕێز و لەخۆڕازی ھاتە پێش چاوم.",
+                            onPressedBritish: () => speakarrogant708("en-GB"),
+                            onPressedAmerican: () => speakarrogant708(
+                                // REPLACE: arrogant /ˈærəɡənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

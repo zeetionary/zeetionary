@@ -150,120 +150,43 @@ class EnglishEntryblossom extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گوڵێک یان ژۆمەڵە گوڵێک، بەتایبەتی لەسەر رووەکێک کە میوە دەگرێت یان بنجدارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She loved the spring, when the blossom was out."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزی لە بەھار بوو کە گوڵ بەدەرەوەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblossoms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblossoms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She loved the spring, when the blossom was out.",
+                            kurdishText: "حەزی لە بەھار بوو کە گوڵ بەدەرەوەیە.",
+                            onPressedBritish: () => speakblossoms1("en-GB"),
+                            onPressedAmerican: () => speakblossoms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hopefully the tree will produce some blossom next year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ھیواوە دارەکە ھەندێک بەردەگرێت ساڵی داھاتوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblossoms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblossoms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Hopefully the tree will produce some blossom next year.",
+                            kurdishText:
+                                "بە ھیواوە دارەکە ھەندێک بەردەگرێت ساڵی داھاتوو.",
+                            onPressedBritish: () => speakblossoms2("en-GB"),
+                            onPressedAmerican: () => speakblossoms2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) بەرگرتنی دارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cherry trees blossomed early this year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دار گێلاسەکان سەرەتای ئەمساڵ بەریان گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblossoms3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblossoms3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cherry trees blossomed early this year.",
+                            kurdishText:
+                                "دار گێلاسەکان سەرەتای ئەمساڵ بەریان گرت.",
+                            onPressedBritish: () => speakblossoms3("en-GB"),
+                            onPressedAmerican: () => speakblossoms3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) تەندرووست یان دڵخۆش بوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has visibly blossomed over the last few months."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیار بوو لە ماوەی چەند مانگی ڕابردوودا ھۆشی کردبووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblossoms4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblossoms4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has visibly blossomed over the last few months.",
+                            kurdishText:
+                                "دیار بوو لە ماوەی چەند مانگی ڕابردوودا ھۆشی کردبووەوە.",
+                            onPressedBritish: () => speakblossoms4("en-GB"),
+                            onPressedAmerican: () => speakblossoms4("en-US"),
                           ),
                         ],
                       ),

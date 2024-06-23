@@ -113,64 +113,26 @@ class EnglishEntryaddictive extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) شتێک کە ئاسان نییە لە بەکارھێنانی بوەستی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The game is very addictive."),
-                                    ExampleSentenceKurdish(
-                                        text: "یارییەکە زۆر ئاڵوودەکەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaddic427("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaddic427(
-                                        // REPLACE: addictive /əˈdɪktɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The game is very addictive.",
+                            kurdishText: "یارییەکە زۆر ئاڵوودەکەرە.",
+                            onPressedBritish: () => speakaddic427("en-GB"),
+                            onPressedAmerican: () => speakaddic427(
+                                // REPLACE: addictive /əˈdɪktɪv/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) کەسێک کە بە ئاسانی ئاڵوودە دەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some people have an addictive personality."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کەس ھەر بە کەسایەتی گیرۆدەی شت دەبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaddict241("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaddict241(
-                                        // REPLACE: addictive /əˈdɪktɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some people have an addictive personality.",
+                            kurdishText:
+                                "ھەندێک کەس ھەر بە کەسایەتی گیرۆدەی شت دەبن.",
+                            onPressedBritish: () => speakaddict241("en-GB"),
+                            onPressedAmerican: () => speakaddict241(
+                                // REPLACE: addictive /əˈdɪktɪv/
+                                "en-US"),
                           ),
                         ],
                       ),

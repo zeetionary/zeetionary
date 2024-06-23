@@ -161,99 +161,39 @@ class EnglishEntryarid extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) وشک و بێ‌باران"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Nothing grows in these arid regions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ گەشە ناکات لەم ناوچە بێ‌بارانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarid1126("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarid1126(// REPLACE: arid /ˈærɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Nothing grows in these arid regions.",
+                            kurdishText: "ھیچ گەشە ناکات لەم ناوچە بێ‌بارانە.",
+                            onPressedBritish: () => speakarid1126("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarid1126(// REPLACE: arid /ˈærɪd/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک کە ھیچی تازە و سەرجڕاکێشی تێدا نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I found his writing extremely arid."),
-                                    ExampleSentenceKurdish(
-                                        text: "نووسینەکانی وشک‌بوون بەلامەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarid1129("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarid1129(// REPLACE: arid /ˈærɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I found his writing extremely arid.",
+                            kurdishText: "نووسینەکانی وشک‌بوون بەلامەوە.",
+                            onPressedBritish: () => speakarid1129("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarid1129(// REPLACE: arid /ˈærɪd/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) سەرکەوتوونەبوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After several arid years, the company has started to become successful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای چەند ساڵێکی بێ‌قازانج، کۆمپانیاکە دەستی‌کردووە بە سەرکەوتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarid1131("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarid1131(// REPLACE: arid /ˈærɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After several arid years, the company has started to become successful.",
+                            kurdishText:
+                                "لە دوای چەند ساڵێکی بێ‌قازانج، کۆمپانیاکە دەستی‌کردووە بە سەرکەوتن.",
+                            onPressedBritish: () => speakarid1131("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarid1131(// REPLACE: arid /ˈærɪd/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

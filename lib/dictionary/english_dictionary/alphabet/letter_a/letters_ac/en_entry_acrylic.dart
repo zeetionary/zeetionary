@@ -113,58 +113,20 @@ class EnglishEntryacrylic extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) درووستکراو لە مادەیەک کە بە پڕۆسەی کیمیایی درووستکراوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "an acrylic sweater"),
-                                    ExampleSentenceKurdish(
-                                        text: "فانیلەیەلی ئەکریلیک"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacryl1256("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacryl1256(
-                                        "en-US"), // REPLACE acrylic /əˈkrɪlɪk/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "an acrylic sweater",
+                            kurdishText: "فانیلەیەلی ئەکریلیک",
+                            onPressedBritish: () => speakacryl1256("en-GB"),
+                            onPressedAmerican: () => speakacryl1256(
+                                "en-US"), // REPLACE acrylic /əˈkrɪlɪk/
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "acrylic paint"),
-                                    ExampleSentenceKurdish(
-                                        text: "بۆیەی ئەکریلیک"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacry4289("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacry4289(
-                                        "en-US"), // REPLACE acrylic /əˈkrɪlɪk/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "acrylic paint",
+                            kurdishText: "بۆیەی ئەکریلیک",
+                            onPressedBritish: () => speakacry4289("en-GB"),
+                            onPressedAmerican: () => speakacry4289(
+                                "en-US"), // REPLACE acrylic /əˈkrɪlɪk/
                           ),
                         ],
                       ),

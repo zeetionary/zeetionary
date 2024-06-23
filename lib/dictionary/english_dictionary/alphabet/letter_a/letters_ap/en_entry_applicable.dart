@@ -165,67 +165,26 @@ class EnglishEntryapplicable extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) شتێک کە دەکرێت ڕاست بێت یان بگونجێت بۆ کەسێک/شتێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Much of the form was not applicable (= did not apply) to me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی فۆرمەکە پەیوەندی بە منەوە نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapplicable646("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapplicable646(
-                                        // REPLACE: applicable /ˈæplɪkəbl/, /əˈplɪkəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Much of the form was not applicable (= did not apply) to me.",
+                            kurdishText:
+                                "زۆرینەی فۆرمەکە پەیوەندی بە منەوە نەبوو.",
+                            onPressedBritish: () => speakapplicable646("en-GB"),
+                            onPressedAmerican: () => speakapplicable646(
+                                // REPLACE: applicable /ˈæplɪkəbl/, /əˈplɪkəbl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The law is applicable to everyone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاساکە بەسەر ھەموواندا جێبەجێ‌دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapplicable648("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapplicable648(
-                                        // REPLACE: applicable /ˈæplɪkəbl/, /əˈplɪkəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The law is applicable to everyone.",
+                            kurdishText:
+                                "یاساکە بەسەر ھەموواندا جێبەجێ‌دەکرێت.",
+                            onPressedBritish: () => speakapplicable648("en-GB"),
+                            onPressedAmerican: () => speakapplicable648(
+                                // REPLACE: applicable /ˈæplɪkəbl/, /əˈplɪkəbl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

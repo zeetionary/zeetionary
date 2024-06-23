@@ -207,9 +207,10 @@ class EntryAndIPA extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  TitleOfEntry(),
+                  EntryTitle(word: "aback"),
                 ],
               ),
+              AlsoEnglish(word: "also: abacus"),
               IpaUK(),
               IpaUS(),
             ],

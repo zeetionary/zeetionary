@@ -149,32 +149,13 @@ class EnglishEntryblackeye extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوچەیەکی دەوری چاو کە شیندەبێتەوە لە کاتی لێدان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had a fight at school and came home with a black eye."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە قوتابخانە شەڕی کرد و چاوی کرا بە قۆخ (لێیدرا و چاوی شینکرایەوە)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackeyes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackeyes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had a fight at school and came home with a black eye.",
+                            kurdishText:
+                                "لە قوتابخانە شەڕی کرد و چاوی کرا بە قۆخ (لێیدرا و چاوی شینکرایەوە).",
+                            onPressedBritish: () => speakblackeyes1("en-GB"),
+                            onPressedAmerican: () => speakblackeyes1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

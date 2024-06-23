@@ -147,62 +147,22 @@ class EnglishEntrybotch extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) کردنی شتێک بە خراپی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He completely botched up the interview."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تەواوی چاوپێکەوتنەکەی شێواند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbotchs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbotchs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He completely botched up the interview.",
+                            kurdishText: "بە تەواوی چاوپێکەوتنەکەی شێواند.",
+                            onPressedBritish: () => speakbotchs1("en-GB"),
+                            onPressedAmerican: () => speakbotchs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کارێک کە خراپ کراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've made a real botch of the decorating."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕازاندنەوەکەم بە تەواوی شێواندووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbotchs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbotchs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've made a real botch of the decorating.",
+                            kurdishText: "ڕازاندنەوەکەم بە تەواوی شێواندووە.",
+                            onPressedBritish: () => speakbotchs2("en-GB"),
+                            onPressedAmerican: () => speakbotchs2("en-US"),
                           ),
                         ],
                       ),

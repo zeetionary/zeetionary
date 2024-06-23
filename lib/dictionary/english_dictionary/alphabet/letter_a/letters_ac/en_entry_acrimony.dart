@@ -113,33 +113,13 @@ class EnglishEntryacrimony extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) دەربڕینی بیر یان ھەست بە توندی و توڕەیی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dispute was settled without acrimony."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بابەتەکە بەبێ ناخۆشی چارەسەرکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacrimo1254("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacrimo1254(
-                                        "en-US"), // REPLACE acrimony /ˈækrɪməni/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dispute was settled without acrimony.",
+                            kurdishText: "بابەتەکە بەبێ ناخۆشی چارەسەرکرا.",
+                            onPressedBritish: () => speakacrimo1254("en-GB"),
+                            onPressedAmerican: () => speakacrimo1254(
+                                "en-US"), // REPLACE acrimony /ˈækrɪməni/
                           ),
                         ],
                       ),

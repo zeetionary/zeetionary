@@ -165,65 +165,26 @@ class EnglishEntryasset extends StatelessWidget {
                               text:
                                   "١. (ناو) شتێکی بەنرخ یان بەسوود بۆ کەسێک/شتێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In his job, patience is an invaluable asset."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کارەکەیدا پشوودرێژی گەوھەرێکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasset632("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakasset632(// REPLACE: asset /ˈæset/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In his job, patience is an invaluable asset.",
+                            kurdishText: "لە کارەکەیدا پشوودرێژی گەوھەرێکە.",
+                            onPressedBritish: () => speakasset632("en-GB"),
+                            onPressedAmerican: () =>
+                                speakasset632(// REPLACE: asset /ˈæset/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Being able to speak a foreign language is a major asset."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەبوونی توانای قسەکردن بە زمانێکی بیانی نیعمەتێکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasset633("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakasset633(
-                                        // REPLACE: asset /ˈæset/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Being able to speak a foreign language is a major asset.",
+                            kurdishText:
+                                "ھەبوونی توانای قسەکردن بە زمانێکی بیانی نیعمەتێکە.",
+                            onPressedBritish: () => speakasset633("en-GB"),
+                            onPressedAmerican: () => speakasset633(
+                                // REPLACE: asset /ˈæset/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

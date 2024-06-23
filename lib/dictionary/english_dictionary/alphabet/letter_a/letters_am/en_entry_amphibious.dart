@@ -157,101 +157,44 @@ class EnglishEntryamphibious extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) گیانەوەرێک کە توانای ھەیە لە وشکانی و ئاودا بژێ"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most species of frogs are amphibious."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆرینەی بۆقەکان دووژینەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamphibious3344("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamphibious3344(
-                                        // REPLACE: amphibious /æmˈfɪbiəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most species of frogs are amphibious.",
+                            kurdishText: "زۆرینەی بۆقەکان دووژینەن.",
+                            onPressedBritish: () =>
+                                speakamphibious3344("en-GB"),
+                            onPressedAmerican: () => speakamphibious3344(
+                                // REPLACE: amphibious /æmˈfɪbiəs/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ئۆپەراسیۆنێکی سەربازی کە سەربازان لە دەریاوە دێنەسەر وشکانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A third brigade is at sea, ready for an amphibious assault."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێیەم لیوا لە دەریان و ئامادەی ھێرشی ئاوین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamphibious496002("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamphibious496002(
-                                        // REPLACE: Dopsum1 /haʊ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A third brigade is at sea, ready for an amphibious assault.",
+                            kurdishText:
+                                "سێیەم لیوا لە دەریان و ئامادەی ھێرشی ئاوین.",
+                            onPressedBritish: () =>
+                                speakamphibious496002("en-GB"),
+                            onPressedAmerican: () => speakamphibious496002(
+                                // REPLACE: Dopsum1 /haʊ/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           // const DividerSentences(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) ئۆتۆمبێلێک یان فڕۆکەیەک کە توانای ھەبێت لەسەر ئاو و وشکانیش کاربکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I saw an amphibious plane at the lake yesterday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوێنێ فڕۆکەیەکی جووتفڕم بینی لە دەریاچەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamphibious44952("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamphibious44952(
-                                        // REPLACE: Dopsum1 /haʊ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              )
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I saw an amphibious plane at the lake yesterday.",
+                            kurdishText:
+                                "دوێنێ فڕۆکەیەکی جووتفڕم بینی لە دەریاچەکەدا.",
+                            onPressedBritish: () =>
+                                speakamphibious44952("en-GB"),
+                            onPressedAmerican: () => speakamphibious44952(
+                                // REPLACE: Dopsum1 /haʊ/
+                                "en-US"),
                           ),
                           // const DividerDefinition(),
                           // const DividerSentences(),

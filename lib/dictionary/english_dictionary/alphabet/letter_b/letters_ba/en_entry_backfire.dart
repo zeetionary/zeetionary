@@ -156,67 +156,28 @@ class EnglishEntrybackfire extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) ھەبوونی ئەنجامێک کە پێچەوانەی ئەوەیە کە چاوەڕواندەکرا."""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Unfortunately the plan backfired."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەداخەوە پلانەکە لێکەوتەی پێچەوانەی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s1(// REPLACE: backfire
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Unfortunately the plan backfired.",
+                            kurdishText:
+                                "بەداخەوە پلانەکە لێکەوتەی پێچەوانەی ھەبوو.",
+                            onPressedBritish: () => speakb3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s1(// REPLACE: backfire
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بزوێنەرێک دەنگێکی بەرز دەربکات بەھۆی ئەوەی زوو سوتەمەنی دەسووتێنێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was woken by the sound of a truck backfiring."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەبەرم‌بووەوە بە دەنگی ئۆتۆمبێلێک کە پێشەسووتەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s2(// REPLACE: backfire
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was woken by the sound of a truck backfiring.",
+                            kurdishText:
+                                "خەبەرم‌بووەوە بە دەنگی ئۆتۆمبێلێک کە پێشەسووتەی دەکرد.",
+                            onPressedBritish: () => speakb3s2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s2(// REPLACE: backfire
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -158,100 +158,43 @@ class EnglishEntrybailiff extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئەفسەرێکی کە کاری بردنی ماڵ و سامانی ئەو کەسانەیە کە ناتوانن قەرز بدەنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bailiffs seized the car and house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەفسەرەکان ئۆتۆمبێل و خانووەکەیان دەستبەسەرکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbailiffs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbailiffs1(// REPLACE: bailiff
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bailiffs seized the car and house.",
+                            kurdishText:
+                                "ئەفسەرەکان ئۆتۆمبێل و خانووەکەیان دەستبەسەرکرد.",
+                            onPressedBritish: () => speakbailiffs1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbailiffs1(// REPLACE: bailiff
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە بە کرێ دەگیردرێت بۆ بەڕێوەبردنی زەوی‌زاری کەسێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bailiff managed the sale of the farm's produce."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێڵگەگێڕەکە سەرپەرشتی فرۆشتنی بەرھەمەکانی کێڵگەکەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbailiffs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbailiffs2(// REPLACE: bailiff
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bailiff managed the sale of the farm's produce.",
+                            kurdishText:
+                                "کێڵگەگێڕەکە سەرپەرشتی فرۆشتنی بەرھەمەکانی کێڵگەکەی دەکرد.",
+                            onPressedBritish: () => speakbailiffs2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbailiffs2(// REPLACE: bailiff
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کەسێک کە دانیشتنی دادگا ڕێکدەخات بە بردنی خەڵکی بۆ کوورسییەکانیان و چاودێری زیندانیان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bailiff escorted the defendant out of the courtroom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرگاوانەکە گومان‌لێ‌کراوی لە ژووری دادگا بردە دەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbailiffs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbailiffs3(// REPLACE: bailiff
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bailiff escorted the defendant out of the courtroom.",
+                            kurdishText:
+                                "دەرگاوانەکە گومان‌لێ‌کراوی لە ژووری دادگا بردە دەرەوە.",
+                            onPressedBritish: () => speakbailiffs3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbailiffs3(// REPLACE: bailiff
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

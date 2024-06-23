@@ -140,130 +140,52 @@ class EnglishEntryaltogether extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە تەواوی؛ ھەموو پێکەوە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The train went slower and slower until it stopped altogether."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەمەندەفەرەکە ھێواشتر و ھێواشتر چوو تا بە تەواوی وەستا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaltogether588("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaltogether588(
-                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The train went slower and slower until it stopped altogether.",
+                            kurdishText:
+                                "شەمەندەفەرەکە ھێواشتر و ھێواشتر چوو تا بە تەواوی وەستا.",
+                            onPressedBritish: () => speakaltogether588("en-GB"),
+                            onPressedAmerican: () => speakaltogether588(
+                                // REPLACE: altogether /ˌɔːltəˈɡeðər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was an altogether different situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تەواوی بارودۆخێکی گونجاو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaltogether45666("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaltogether45666(
-                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was an altogether different situation.",
+                            kurdishText: "بە تەواوی بارودۆخێکی گونجاو بوو.",
+                            onPressedBritish: () =>
+                                speakaltogether45666("en-GB"),
+                            onPressedAmerican: () => speakaltogether45666(
+                                // REPLACE: altogether /ˌɔːltəˈɡeðər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) کۆی گشتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You owe me £68 altogether."),
-                                    ExampleSentenceKurdish(
-                                        text: "کۆی گشتی ٦٨ پاوەند قەرزارمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaltogether523333("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaltogether523333(
-                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You owe me £68 altogether.",
+                            kurdishText: "کۆی گشتی ٦٨ پاوەند قەرزارمی.",
+                            onPressedBritish: () =>
+                                speakaltogether523333("en-GB"),
+                            onPressedAmerican: () => speakaltogether523333(
+                                // REPLACE: altogether /ˌɔːltəˈɡeðər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) بەکورتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The food was good and we loved the music. Altogether it was a great evening."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواردنەکە باش بوو. حەزیشمان بە میوزیکەکە بوو. بەکورتی، شەوێکی خۆش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaltogether4144("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaltogether4144(
-                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The food was good and we loved the music. Altogether it was a great evening.",
+                            kurdishText:
+                                "خواردنەکە باش بوو. حەزیشمان بە میوزیکەکە بوو. بەکورتی، شەوێکی خۆش بوو.",
+                            onPressedBritish: () =>
+                                speakaltogether4144("en-GB"),
+                            onPressedAmerican: () => speakaltogether4144(
+                                // REPLACE: altogether /ˌɔːltəˈɡeðər/
+                                "en-US"),
                           ),
                         ],
                       ),

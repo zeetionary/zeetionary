@@ -116,35 +116,15 @@ class EnglishEntryalleluia extends StatelessWidget {
                               text:
                                   "١. (ناو) وشەیەک بۆ دەربڕینی سوپاسگوزاری بۆ خودا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When the news of their victory came, there was an 'alleluia' of happiness among the team."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتێک ھەواڵی سەرکەوتنیان گەشت، شوکرانەیەکی زۆری دڵخۆشی ھەبوو لەناو تیمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalleluia35288("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalleluia35288(
-                                        // REPLACE: alleluia /ˌælɪˈluːjə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When the news of their victory came, there was an 'alleluia' of happiness among the team.",
+                            kurdishText:
+                                "کاتێک ھەواڵی سەرکەوتنیان گەشت، شوکرانەیەکی زۆری دڵخۆشی ھەبوو لەناو تیمەکە.",
+                            onPressedBritish: () => speakalleluia35288("en-GB"),
+                            onPressedAmerican: () => speakalleluia35288(
+                                // REPLACE: alleluia /ˌælɪˈluːjə/
+                                "en-US"),
                           ),
                         ],
                       ),

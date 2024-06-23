@@ -150,93 +150,35 @@ class EnglishEntrybeating extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کردەی لێدان لە کەسێک بە توندی و بەردەوامی """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They caught him and gave him a violent beating."),
-                                    ExampleSentenceKurdish(
-                                        text: "گرتیان و لێدانێکی سەختیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeatings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeatings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They caught him and gave him a violent beating.",
+                            kurdishText: "گرتیان و لێدانێکی سەختیان کرد.",
+                            onPressedBritish: () => speakbeatings1("en-GB"),
+                            onPressedAmerican: () => speakbeatings1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شکستێکی قوورس """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team has taken a few beatings this season."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە ئەم وەرزە چەند شکستێکی قورسیان ھەبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeatings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeatings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The team has taken a few beatings this season.",
+                            kurdishText:
+                                "تیمەکە ئەم وەرزە چەند شکستێکی قورسیان ھەبووە.",
+                            onPressedBritish: () => speakbeatings2("en-GB"),
+                            onPressedAmerican: () => speakbeatings2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) زنجیرەیەک لە لێدان، بۆ نموونە لێدانی دەھۆڵ یان دڵ """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He could hear the beating of his own heart."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیتوانی گوێی لە ترپی دڵی خۆی بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeatings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeatings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He could hear the beating of his own heart.",
+                            kurdishText: "دەیتوانی گوێی لە ترپی دڵی خۆی بێت.",
+                            onPressedBritish: () => speakbeatings3("en-GB"),
+                            onPressedAmerican: () => speakbeatings3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

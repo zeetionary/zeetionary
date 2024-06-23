@@ -123,96 +123,37 @@ class EnglishEntryacutely extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) تێبینی و ھەستکردن بە شتێک زۆر بە باشی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I am acutely aware of the difficulties we face."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرباش ئاگاداری ئەو ناڕەحەتییانەم کە تووشیان دەبین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacu427("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacu427(
-                                        // REPLACE: acutely /əˈkjuːtli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I am acutely aware of the difficulties we face.",
+                            kurdishText:
+                                "زۆرباش ئاگاداری ئەو ناڕەحەتییانەم کە تووشیان دەبین.",
+                            onPressedBritish: () => speakacu427("en-GB"),
+                            onPressedAmerican: () => speakacu427("en-US"),
                           ),
                           const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She acutely identified all the main problems."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیرەکانە ھەموو کێشە سەرەکییەکانی دەستنیشانکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacute7481("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacute7481(
-                                        // REPLACE: acutely /əˈkjuːtli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She acutely identified all the main problems.",
+                            kurdishText:
+                                "زیرەکانە ھەموو کێشە سەرەکییەکانی دەستنیشانکرد.",
+                            onPressedBritish: () => speakacute7481("en-GB"),
+                            onPressedAmerican: () => speakacute7481(
+                                // REPLACE: acutely /əˈkjuːtli/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) دەرکەوتنی ھەستێکی خراپ زۆر بە زەقی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Another scandal would be acutely embarrassing for the government."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئابڕووچوونێکی تر زۆر شەرمھێنەر دەبێت بۆ حکومەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacute666632("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacute666632(
-                                        // REPLACE: acutely /əˈkjuːtli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Another scandal would be acutely embarrassing for the government.",
+                            kurdishText:
+                                "ئابڕووچوونێکی تر زۆر شەرمھێنەر دەبێت بۆ حکومەت.",
+                            onPressedBritish: () => speakacute666632("en-GB"),
+                            onPressedAmerican: () => speakacute666632(
+                                // REPLACE: acutely /əˈkjuːtli/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -145,122 +145,44 @@ class EnglishEntrybreakfast extends StatelessWidget {
 کوردی: ژەمی بەیانی، نان‌وچا، بەرقلیان، بەیانی‌یانە، نانی بەیانی، بەرچایی
 """),
                           const DefinitionKurdish(text: "١. (ناو) نانی بەیانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were having breakfast when I arrived."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نانی بەیانیان دەخوارد کە گەشتم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakfasts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakfasts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were having breakfast when I arrived.",
+                            kurdishText: "نانی بەیانیان دەخوارد کە گەشتم.",
+                            onPressedBritish: () => speakbreakfasts1("en-GB"),
+                            onPressedAmerican: () => speakbreakfasts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She doesn't eat much breakfast."),
-                                    ExampleSentenceKurdish(
-                                        text: "نانی بەیانی زۆر ناخوات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakfasts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakfasts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She doesn't eat much breakfast.",
+                            kurdishText: "نانی بەیانی زۆر ناخوات.",
+                            onPressedBritish: () => speakbreakfasts2("en-GB"),
+                            onPressedAmerican: () => speakbreakfasts2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Do you want bacon and eggs for breakfast?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گۆشتی بەراز و ھێلکە بۆ نانی بەیانی دەخۆیت؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreakfasts3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreakfasts3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Do you want bacon and eggs for breakfast?",
+                                    kurdishText:
+                                        "گۆشتی بەراز و ھێلکە بۆ نانی بەیانی دەخۆیت؟",
+                                    onPressedBritish: () =>
+                                        speakbreakfasts3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreakfasts3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He's in the kitchen cooking us breakfast."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە چێشتخانەکەیە نانی بەیانیمان بۆ ئامادە دەکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreakfasts4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreakfasts4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He's in the kitchen cooking us breakfast.",
+                                    kurdishText:
+                                        "لە چێشتخانەکەیە نانی بەیانیمان بۆ ئامادە دەکات.",
+                                    onPressedBritish: () =>
+                                        speakbreakfasts4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreakfasts4("en-US"),
                                   ),
                                 ],
                               ),
@@ -269,59 +191,20 @@ class EnglishEntrybreakfast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) خواردنی نانی بەیانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many of the hotel’s guests had already breakfasted and departed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرێک لە میوانەکانی ھوتێلەکە پێشوەختە نانی بەیانییان خواردبوو و ڕۆشتبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakfasts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakfasts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many of the hotel’s guests had already breakfasted and departed.",
+                            kurdishText:
+                                "زۆرێک لە میوانەکانی ھوتێلەکە پێشوەختە نانی بەیانییان خواردبوو و ڕۆشتبوون.",
+                            onPressedBritish: () => speakbreakfasts5("en-GB"),
+                            onPressedAmerican: () => speakbreakfasts5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She usually breakfasts alone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرجار بە تەنھا نانی بەیانی دەخوات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakfasts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakfasts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She usually breakfasts alone.",
+                            kurdishText: "زۆرجار بە تەنھا نانی بەیانی دەخوات.",
+                            onPressedBritish: () => speakbreakfasts6("en-GB"),
+                            onPressedAmerican: () => speakbreakfasts6("en-US"),
                           ),
                         ],
                       ),

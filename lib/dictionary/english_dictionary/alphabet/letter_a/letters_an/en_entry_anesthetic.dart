@@ -157,34 +157,14 @@ class EnglishEntryanesthetic extends StatelessWidget {
                               text:
                                   "١. (ناو) بەنج؛ دەرمانێک کە وا دەکات بەشێک یان تەواوی جەستەی کەسێک ھەست بە ھیچ نەکات، بەتایبەتی ئازار"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How long will I be under anesthetic?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چەندە لەژێر بەنج دەبم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanesthetic8505("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanesthetic8505(
-                                        // REPLACE: anesthetic /ˌænəsˈθetɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "How long will I be under anesthetic?",
+                            kurdishText: "چەندە لەژێر بەنج دەبم؟",
+                            onPressedBritish: () =>
+                                speakanesthetic8505("en-GB"),
+                            onPressedAmerican: () => speakanesthetic8505(
+                                // REPLACE: anesthetic /ˌænəsˈθetɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

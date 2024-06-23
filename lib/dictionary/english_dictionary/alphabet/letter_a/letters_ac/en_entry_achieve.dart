@@ -122,124 +122,48 @@ class EnglishEntryachieve extends StatelessWidget {
                               text:
                                   "١. (کردار) بەدەستھێنانی شتێک لە دوای ھەوڵێکی زۆر"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has worked hard to achieve her goal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە زەحمەتەوە کاریکرد بۆ بەدەستھێنانی ئامانجەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac1528("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac1528(
-                                        "en-US"), // REPLACE achieve /əˈtʃiːv/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has worked hard to achieve her goal.",
+                            kurdishText:
+                                "بە زەحمەتەوە کاریکرد بۆ بەدەستھێنانی ئامانجەکەی.",
+                            onPressedBritish: () => speakac1528("en-GB"),
+                            onPressedAmerican: () => speakac1528(
+                                "en-US"), // REPLACE achieve /əˈtʃiːv/
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sooner or later our efforts will achieve results."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زوو یان درەنگ ھەوڵەکانمان دەگات بە ئامانج"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac25647("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac25647(
-                                        "en-US"), // REPLACE achieve /əˈtʃiːv/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sooner or later our efforts will achieve results.",
+                            kurdishText:
+                                "زوو یان درەنگ ھەوڵەکانمان دەگات بە ئامانج",
+                            onPressedBritish: () => speakac25647("en-GB"),
+                            onPressedAmerican: () => speakac25647(
+                                "en-US"), // REPLACE achieve /əˈtʃiːv/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) سەرکەوتن لە کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All you've achieved is to upset my parents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ئەوەی کردووتە بێزارکردنی دایک و باوکمانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka1527("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka1527(
-                                        "en-US"), // REPLACE achieve /əˈtʃiːv/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All you've achieved is to upset my parents.",
+                            kurdishText:
+                                "ھەموو ئەوەی کردووتە بێزارکردنی دایک و باوکمانە.",
+                            onPressedBritish: () => speaka1527("en-GB"),
+                            onPressedAmerican: () => speaka1527(
+                                "en-US"), // REPLACE achieve /əˈtʃiːv/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) سەرکەوتووبوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Students need to achieve academically in order to enter the labour market."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندکاران دەبێت لەلایەنی خوێندنەوە سەرکەوتووبن بۆ ئەوەی بچنە ناو بازاڕی کارەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka149873("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka149873(
-                                        "en-US"), // REPLACE achieve /əˈtʃiːv/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Students need to achieve academically in order to enter the labour market.",
+                            kurdishText:
+                                "خوێندکاران دەبێت لەلایەنی خوێندنەوە سەرکەوتووبن بۆ ئەوەی بچنە ناو بازاڕی کارەوە.",
+                            onPressedBritish: () => speaka149873("en-GB"),
+                            onPressedAmerican: () => speaka149873(
+                                "en-US"), // REPLACE achieve /əˈtʃiːv/
                           ),
                         ],
                       ),

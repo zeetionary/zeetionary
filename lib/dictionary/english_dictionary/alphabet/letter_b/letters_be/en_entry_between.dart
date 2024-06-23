@@ -294,510 +294,182 @@ class EnglishEntrybetween extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ئامراز) لە نێوان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Q comes between P and R in the English alphabet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "Q لە نێوان P و R دێت لە ئەلفوبێی ئینگلیزیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Q comes between P and R in the English alphabet.",
+                            kurdishText:
+                                "Q لە نێوان P و R دێت لە ئەلفوبێی ئینگلیزیدا.",
+                            onPressedBritish: () => speakbetweens1("en-GB"),
+                            onPressedAmerican: () => speakbetweens1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I sat down between Jim and Diana."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە نێوان جیم و دایانا دانیشتم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I sat down between Jim and Diana.",
+                            kurdishText: "لە نێوان جیم و دایانا دانیشتم.",
+                            onPressedBritish: () => speakbetweens2("en-GB"),
+                            onPressedAmerican: () => speakbetweens2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Switzerland lies between France, Germany, Austria and Italy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سویسرا لە نێوان فەرەنسا و ئەڵمانیا و نەمسا و ئیتالیایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Switzerland lies between France, Germany, Austria and Italy.",
+                            kurdishText:
+                                "سویسرا لە نێوان فەرەنسا و ئەڵمانیا و نەمسا و ئیتالیایە.",
+                            onPressedBritish: () => speakbetweens3("en-GB"),
+                            onPressedAmerican: () => speakbetweens3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ئامراز) لە ماوەی کاتێکدا کە دوو ڕۆژ، ساڵ، ڕووداو، ھتد جیادەکاتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Don't eat between meals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە نێوان ژەمە خواردنەکان شت مەخۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don't eat between meals.",
+                            kurdishText: "لە نێوان ژەمە خواردنەکان شت مەخۆ.",
+                            onPressedBritish: () => speakbetweens4("en-GB"),
+                            onPressedAmerican: () => speakbetweens4("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Children must attend school between the ages of 5 and 16."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵان دەبێت بچنە قوتابخانە لە نێوان تەمەنی ٥ بۆ ١٦ ساڵی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Children must attend school between the ages of 5 and 16.",
+                            kurdishText:
+                                "منداڵان دەبێت بچنە قوتابخانە لە نێوان تەمەنی ٥ بۆ ١٦ ساڵی.",
+                            onPressedBritish: () => speakbetweens5("en-GB"),
+                            onPressedAmerican: () => speakbetweens5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ئامراز) ماوەی نێوان دوو خاڵ لە ڕێژەیەک، کێش، دووری، ھتد"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It weighed between nine and ten kilos."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشی لە نێوان نۆ بۆ دە کیلۆ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It weighed between nine and ten kilos.",
+                            kurdishText: "کێشی لە نێوان نۆ بۆ دە کیلۆ بوو.",
+                            onPressedBritish: () => speakbetweens6("en-GB"),
+                            onPressedAmerican: () => speakbetweens6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ئامراز) ھێڵێک کە شوێنێک لە یەکێکی تر جیادەکاتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a long border between United States and Canada."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سنوورێکی درێژ ھەیە لە نێوان ئەمریکا و کەنەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a long border between United States and Canada.",
+                            kurdishText:
+                                "سنوورێکی درێژ ھەیە لە نێوان ئەمریکا و کەنەدا.",
+                            onPressedBritish: () => speakbetweens7("en-GB"),
+                            onPressedAmerican: () => speakbetweens7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ئامراز) لە شوێنێک بۆ یەکێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We fly between Rome and Paris twice daily."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ڕۆژێک دوو جار لە نێوان ڕۆما و پاریسدا گەشت دەکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We fly between Rome and Paris twice daily.",
+                            kurdishText:
+                                "ھەموو ڕۆژێک دوو جار لە نێوان ڕۆما و پاریسدا گەشت دەکەین.",
+                            onPressedBritish: () => speakbetweens8("en-GB"),
+                            onPressedAmerican: () => speakbetweens8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ئامراز) بۆ پیشاندانی پەیوەندی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's a lot of animosity between them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوژمنکاری زۆر لە نێوانیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's a lot of animosity between them.",
+                            kurdishText: "دوژمنکاری زۆر لە نێوانیان ھەیە.",
+                            onPressedBritish: () => speakbetweens9("en-GB"),
+                            onPressedAmerican: () => speakbetweens9("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What’s the difference between this £100 watch and the £500 one?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جیاوازی چییە لە نێوان ئەم کاتژمێرە ١٠٠ پاوەندییە و ئەوەی ٥٠٠ پاوەندە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What’s the difference between this £100 watch and the £500 one?",
+                            kurdishText:
+                                "جیاوازی چییە لە نێوان ئەم کاتژمێرە ١٠٠ پاوەندییە و ئەوەی ٥٠٠ پاوەندە؟",
+                            onPressedBritish: () => speakbetweens10("en-GB"),
+                            onPressedAmerican: () => speakbetweens10("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ئامراز) شتێک کە ھاوبەشە لە نێوان دوو کەسدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We ate a pizza between us."),
-                                    ExampleSentenceKurdish(
-                                        text: "پیتزاکەمان بە ھاوبەشی خوارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We ate a pizza between us.",
+                            kurdishText: "پیتزاکەمان بە ھاوبەشی خوارد.",
+                            onPressedBritish: () => speakbetweens11("en-GB"),
+                            onPressedAmerican: () => speakbetweens11("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is just between you and me/between ourselves (= it is a secret)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە لە نێوان خۆم و خۆتە/لە نێوان خۆمانە (نھێنییە)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is just between you and me/between ourselves (= it is a secret).",
+                            kurdishText:
+                                "ئەمە لە نێوان خۆم و خۆتە/لە نێوان خۆمانە (نھێنییە).",
+                            onPressedBritish: () => speakbetweens12("en-GB"),
+                            onPressedAmerican: () => speakbetweens12("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (ئامراز) بە یەکخستنی ھەوڵ یان کاری نێوان دوو کەس یان زیاتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We ought to be able to manage it between us."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت بتوانین پێکەوە بەڕێوەی ببەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We ought to be able to manage it between us.",
+                            kurdishText: "دەبێت بتوانین پێکەوە بەڕێوەی ببەین.",
+                            onPressedBritish: () => speakbetweens13("en-GB"),
+                            onPressedAmerican: () => speakbetweens13("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "China and India between them account for a third of the world's population."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چین و ھندستان پێکەوە پێکھێنەری یەک لە سێی دانیشتوانی جیھانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "China and India between them account for a third of the world's population.",
+                            kurdishText:
+                                "چین و ھندستان پێکەوە پێکھێنەری یەک لە سێی دانیشتوانی جیھانن.",
+                            onPressedBritish: () => speakbetweens14("en-GB"),
+                            onPressedAmerican: () => speakbetweens14("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (ئامراز) بەکاردێت بۆ دەرخستنی ئەوەی ژمارەیەک چالاکی ئەنجام دراون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Between working full-time and taking care of the kids, he didn't have much time for hobbies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە نێوان کارکردنی ڕۆژپڕ و چاودێری منداڵەکانی ھیچ کاتی نەبوو بۆ خولیاکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Between working full-time and taking care of the kids, he didn't have much time for hobbies.",
+                            kurdishText:
+                                "لە نێوان کارکردنی ڕۆژپڕ و چاودێری منداڵەکانی ھیچ کاتی نەبوو بۆ خولیاکانی.",
+                            onPressedBritish: () => speakbetweens15("en-GB"),
+                            onPressedAmerican: () => speakbetweens15("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٠. (ھاوەڵکار) لە مەودا یان ماوەی نێوان دوو یان زیاتر لە خاڵ، شت، بەروار، ڕووداو، ھتد"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The house was near a park but there was a road in between."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماڵەکە لە نزیک پارکێک بوو، بەڵام ڕێگایەک لە نێوانیان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The house was near a park but there was a road in between.",
+                            kurdishText:
+                                "ماڵەکە لە نزیک پارکێک بوو، بەڵام ڕێگایەک لە نێوانیان بوو.",
+                            onPressedBritish: () => speakbetweens16("en-GB"),
+                            onPressedAmerican: () => speakbetweens16("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I see her most weekends but not very often in between."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕۆژانی کۆتایی ھەفتە زۆرجار دەیبینم، بەڵام زۆرنا لە نێوانیاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetweens17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetweens17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I see her most weekends but not very often in between.",
+                            kurdishText:
+                                "لە ڕۆژانی کۆتایی ھەفتە زۆرجار دەیبینم، بەڵام زۆرنا لە نێوانیاندا.",
+                            onPressedBritish: () => speakbetweens17("en-GB"),
+                            onPressedAmerican: () => speakbetweens17("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

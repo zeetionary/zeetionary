@@ -151,94 +151,35 @@ class EnglishEntrybeak extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) دەنووکی باڵندە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The gull held the fish in its beak."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەورەسەکە ماسییەکەی لە دەنووکیدا گرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeaks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeaks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The gull held the fish in its beak.",
+                            kurdishText:
+                                "نەورەسەکە ماسییەکەی لە دەنووکیدا گرتبوو.",
+                            onPressedBritish: () => speakbeaks1("en-GB"),
+                            onPressedAmerican: () => speakbeaks1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) لووتی لزل"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He'd be handsome if it wasn't for that huge beak of his."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوان دەبوو ئەگەر ئەو لمۆزەی نەبوایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeaks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeaks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He'd be handsome if it wasn't for that huge beak of his.",
+                            kurdishText: "جوان دەبوو ئەگەر ئەو لمۆزەی نەبوایە.",
+                            onPressedBritish: () => speakbeaks2("en-GB"),
+                            onPressedAmerican: () => speakbeaks2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) لەسێکی کە دەسەڵاتی ھەیە، بەتایبەتی دادوەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The defendant appeared before the beak for a bail hearing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گومان‌لێ‌کراو لەپێش دادوەر دەرکەوت بۆ دادگایی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeaks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeaks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The defendant appeared before the beak for a bail hearing.",
+                            kurdishText:
+                                "گومان‌لێ‌کراو لەپێش دادوەر دەرکەوت بۆ دادگایی.",
+                            onPressedBritish: () => speakbeaks3("en-GB"),
+                            onPressedAmerican: () => speakbeaks3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

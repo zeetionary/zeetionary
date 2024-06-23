@@ -99,32 +99,13 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. زیاتر لە نیوەی دەنگدەران" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "280 seats are needed for an absolute majority in the National Assembly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەی ٢٨٠ کورسی پێویستن بۆ بردنەوەی زۆرینەی ڕەھا لە ئەنجوومەنی نیشتیمانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2147("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2147("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "280 seats are needed for an absolute majority in the National Assembly.",
+                            kurdishText:
+                                "ڕێژەی ٢٨٠ کورسی پێویستن بۆ بردنەوەی زۆرینەی ڕەھا لە ئەنجوومەنی نیشتیمانی.",
+                            onPressedBritish: () => speaka2147("en-GB"),
+                            onPressedAmerican: () => speaka2147("en-US"),
                           ),
                         ],
                       ),

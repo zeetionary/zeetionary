@@ -149,67 +149,26 @@ class EnglishEntrybombardment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھێرشێک کە تێیدا چەکی قورس ئاراستەی شوێنێک دەکرێت یان بۆمب بەسەریدا بەردەدرێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The city came under heavy bombardment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەکە کەوتە ژێر بۆمبارانی توند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbombardments1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbombardments1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The city came under heavy bombardment.",
+                            kurdishText: "شارەکە کەوتە ژێر بۆمبارانی توند.",
+                            onPressedBritish: () => speakbombardments1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbombardments1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دۆخێک کە تێیدا کەسێک ڕووبەڕووی ڕەخنە و پرسیاری زۆر دەبێتەوە یان زانیارییەکی زۆری پێدەدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A president is under constant bombardment from every direction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆکەکان ھەمیشە لەژێر ڕەخنە و پرسیاری بەردەوامن بۆ ھەر ھەنگاوێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbombardments2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbombardments2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A president is under constant bombardment from every direction.",
+                            kurdishText:
+                                "سەرۆکەکان ھەمیشە لەژێر ڕەخنە و پرسیاری بەردەوامن بۆ ھەر ھەنگاوێک.",
+                            onPressedBritish: () => speakbombardments2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbombardments2("en-US"),
                           ),
                         ],
                       ),

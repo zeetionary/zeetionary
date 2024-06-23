@@ -151,124 +151,46 @@ class EnglishEntrybluff extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ھەوڵدان بۆ قایلکردنی کەسێک کە شتێک دەکەیت کە لە ڕاستیدا ناتەوێت بیکەیت، یان ئەوەی شتێک دەزانیت کە نایزایت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't think he'll shoot—I think he's just bluffing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێم وانییە تەقە بکات، تەنھا لاف لێدەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbluffs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbluffs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't think he'll shoot—I think he's just bluffing.",
+                            kurdishText:
+                                "پێم وانییە تەقە بکات، تەنھا لاف لێدەدات.",
+                            onPressedBritish: () => speakbluffs1("en-GB"),
+                            onPressedAmerican: () => speakbluffs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھەوڵدانێک بۆ بۆ قایلکردنی کەسێک کە شتێک دەکەیت کە لە ڕاستیدا ناتەوێت بیکەیت، یان ئەوەی شتێک دەزانیت کە نایزایت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He said he would resign if he didn't get more money, but it was only a bluff."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتی دەست لەکاردەکێشێتەوە ئەگەر پارەی زیاتری پێ نەدرێت، بەڵام تەنھا لاف‌لێدان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbluffs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbluffs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He said he would resign if he didn't get more money, but it was only a bluff.",
+                            kurdishText:
+                                "وتی دەست لەکاردەکێشێتەوە ئەگەر پارەی زیاتری پێ نەدرێت، بەڵام تەنھا لاف‌لێدان بوو.",
+                            onPressedBritish: () => speakbluffs2("en-GB"),
+                            onPressedAmerican: () => speakbluffs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) قەدپاڵێک کە نزیکی ئاوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The eagles nested on the bluff."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داڵەکان لەسەر ھەڵدێرەکە نیشتنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbluffs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbluffs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The eagles nested on the bluff.",
+                            kurdishText: "داڵەکان لەسەر ھەڵدێرەکە نیشتنەوە.",
+                            onPressedBritish: () => speakbluffs3("en-GB"),
+                            onPressedAmerican: () => speakbluffs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) قسەلەڕوو یان زۆر ڕاستگۆ، بەشێوەیەک کە خەڵکی بە بێ‌ڕێزی دەبینن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Despite her bluff manner, she's actually a very kind woman."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەڕای ھەڵسوکەوتی قسەلەڕوویی، لەڕاستیدا ژنێکی زۆر میھرەبان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbluffs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbluffs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Despite her bluff manner, she's actually a very kind woman.",
+                            kurdishText:
+                                "سەرەڕای ھەڵسوکەوتی قسەلەڕوویی، لەڕاستیدا ژنێکی زۆر میھرەبان بوو.",
+                            onPressedBritish: () => speakbluffs4("en-GB"),
+                            onPressedAmerican: () => speakbluffs4("en-US"),
                           ),
                         ],
                       ),

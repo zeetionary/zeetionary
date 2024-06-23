@@ -162,34 +162,15 @@ class EnglishEntryapiece extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) بوونی بڕێک لەلایەن ھەریەکێک نەک پێکەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sterling and Walcott scored a goal apiece."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستێرلینگ و واڵکۆت یەکی گۆڵێکیان تۆمارکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapiece237("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapiece237(
-                                        // REPLACE: apiece /əˈpiːs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sterling and Walcott scored a goal apiece.",
+                            kurdishText:
+                                "ستێرلینگ و واڵکۆت یەکی گۆڵێکیان تۆمارکرد.",
+                            onPressedBritish: () => speakapiece237("en-GB"),
+                            onPressedAmerican: () => speakapiece237(
+                                // REPLACE: apiece /əˈpiːs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

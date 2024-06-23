@@ -164,103 +164,43 @@ class EnglishEntryaquamarine extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بەردێکی سەوزی شین‌باوی گران‌بەھا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Beads made of aquamarine can bring luck in love."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مورووی زومروود دەکرێت بەخت‌ھێنەر بێت لە خۆشەویستیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaquamarine857("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaquamarine857(
-                                        // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Beads made of aquamarine can bring luck in love.",
+                            kurdishText:
+                                "مورووی زومروود دەکرێت بەخت‌ھێنەر بێت لە خۆشەویستیدا.",
+                            onPressedBritish: () => speakaquamarine857("en-GB"),
+                            onPressedAmerican: () => speakaquamarine857(
+                                // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕەنگی سەوزی شین‌باوی ڕۆشن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The television screen became a rectangle of icy aquamarine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شاشەی تەلەفیزیۆنەکە بوو بە پارچە لاکێشەیەکی سەھۆڵی سەوزی شین‌باو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaquamarine902("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaquamarine902(
-                                        // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The television screen became a rectangle of icy aquamarine.",
+                            kurdishText:
+                                "شاشەی تەلەفیزیۆنەکە بوو بە پارچە لاکێشەیەکی سەھۆڵی سەوزی شین‌باو.",
+                            onPressedBritish: () => speakaquamarine902("en-GB"),
+                            onPressedAmerican: () => speakaquamarine902(
+                                // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) ڕەنگی سەوزی شین‌باوی ڕۆشن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The aquamarine sea sparkled under the bright sun, creating a breathtaking view."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەریا سەوزە شین‌باوەکە ئەدرەوشایەوە لەژێج خۆرە ڕۆشنەکەدا و دیمەنێکی دڵ‌ڕفێنەری درووستکردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaquamarine905("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaquamarine905(
-                                        // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The aquamarine sea sparkled under the bright sun, creating a breathtaking view.",
+                            kurdishText:
+                                "دەریا سەوزە شین‌باوەکە ئەدرەوشایەوە لەژێج خۆرە ڕۆشنەکەدا و دیمەنێکی دڵ‌ڕفێنەری درووستکردبوو.",
+                            onPressedBritish: () => speakaquamarine905("en-GB"),
+                            onPressedAmerican: () => speakaquamarine905(
+                                // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

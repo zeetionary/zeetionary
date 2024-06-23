@@ -110,32 +110,13 @@ class EnglishEntryairless extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) بێ ھەوا و ناخۆش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The night was hot and airless."),
-                                    ExampleSentenceKurdish(
-                                        text: "شەوەکە گەرم و بێ با بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairless4562("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairless4562(
-                                        // REPLACE: airless /ˈerləs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The night was hot and airless.",
+                            kurdishText: "شەوەکە گەرم و بێ با بوو.",
+                            onPressedBritish: () => speakairless4562("en-GB"),
+                            onPressedAmerican: () => speakairless4562(
+                                // REPLACE: airless /ˈerləs/
+                                "en-US"),
                           ),
                         ],
                       ),

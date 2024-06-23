@@ -110,66 +110,28 @@ class EnglishEntryacuteness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ڕێژەی کوشندەیی و سەختی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The choice of drug depends upon the severity, acuteness and cause of the pain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵبژاردنی دەرمانەکە دەکەوێتە سەرکوشندەیی، دژواری، و ھۆکاری ئازارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacute2471("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacute2471(
-                                        // REPLACE: acuteness /əˈkjuːtnəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The choice of drug depends upon the severity, acuteness and cause of the pain.",
+                            kurdishText:
+                                "ھەڵبژاردنی دەرمانەکە دەکەوێتە سەرکوشندەیی، دژواری، و ھۆکاری ئازارەکە.",
+                            onPressedBritish: () => speakacute2471("en-GB"),
+                            onPressedAmerican: () => speakacute2471(
+                                // REPLACE: acuteness /əˈkjuːtnəs/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕێژەی ھەستیاریی ھەستێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is remembered for the acuteness of his intellect."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاد دەکرێتەوە بۆ بوونی داناییەکی زۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacuten524("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacuten524(
-                                        // REPLACE: acuteness /əˈkjuːtnəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is remembered for the acuteness of his intellect.",
+                            kurdishText:
+                                "یاد دەکرێتەوە بۆ بوونی داناییەکی زۆر.",
+                            onPressedBritish: () => speakacuten524("en-GB"),
+                            onPressedAmerican: () => speakacuten524(
+                                // REPLACE: acuteness /əˈkjuːtnəs/
+                                "en-US"),
                           ),
                         ],
                       ),

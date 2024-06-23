@@ -165,100 +165,41 @@ class EnglishEntryatomic extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) پەیوەندیدار بە گەردیلە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Atomic physics is the study of the structure and properties of atoms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیزیای گەردیلە بریتییە لە لێکۆڵینەوە لە پێکھاتە و خاسیەتەکانی گەردیلە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakatomic1217("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakatomic1217(// REPLACE: atomic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Atomic physics is the study of the structure and properties of atoms.",
+                            kurdishText:
+                                "فیزیای گەردیلە بریتییە لە لێکۆڵینەوە لە پێکھاتە و خاسیەتەکانی گەردیلە.",
+                            onPressedBritish: () => speakatomic1217("en-GB"),
+                            onPressedAmerican: () =>
+                                speakatomic1217(// REPLACE: atomic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بەو وزەیەی درووست دەبێت لە کاتی کەرتکردنی گەردیلە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Atomic energy is a powerful and versatile source of energy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وزەی ناوەکی سەرچاوەیەکی بەھێز و فرەکارەی وزەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakatomic1221("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakatomic1221(// REPLACE: atomic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Atomic energy is a powerful and versatile source of energy.",
+                            kurdishText:
+                                "وزەی ناوەکی سەرچاوەیەکی بەھێز و فرەکارەی وزەیە.",
+                            onPressedBritish: () => speakatomic1221("en-GB"),
+                            onPressedAmerican: () =>
+                                speakatomic1221(// REPLACE: atomic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) پەیوەندیدار بە چەکی ئەتۆمی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Atomic weapons are very destructive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەکە ئەتۆمییەکان زۆر وێرانکەرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakatomic1223("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakatomic1223(// REPLACE: atomic
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Atomic weapons are very destructive.",
+                            kurdishText: "چەکە ئەتۆمییەکان زۆر وێرانکەرن.",
+                            onPressedBritish: () => speakatomic1223("en-GB"),
+                            onPressedAmerican: () =>
+                                speakatomic1223(// REPLACE: atomic
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

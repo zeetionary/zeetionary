@@ -149,142 +149,45 @@ class EnglishEntrybored extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھەستکردن بە ماندووی و نەمانی پشوودرێژیبەھۆی ئەوەی حەزت بۆ شتێک یان کەسێک نەماوە یان بەھۆی ئەوەی ھیچ نییە بیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a bored expression on her face."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەربڕینی بێزاری لەسەر ڕووخساری بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboreds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboreds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a bored expression on her face.",
+                            kurdishText: "دەربڕینی بێزاری لەسەر ڕووخساری بوو.",
+                            onPressedBritish: () => speakboreds1("en-GB"),
+                            onPressedAmerican: () => speakboreds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I am beginning to get bored with eating salad."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەریکە بێزار دەبم لە خواردنی زەڵاتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboreds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboreds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I am beginning to get bored with eating salad.",
+                            kurdishText: "خەریکە بێزار دەبم لە خواردنی زەڵاتە.",
+                            onPressedBritish: () => speakboreds2("en-GB"),
+                            onPressedAmerican: () => speakboreds2("en-US"),
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She plays the role of a bored housewife."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆڵی ژیانی ژیانێکی بێزاری ماڵەوە دەبینێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboreds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboreds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She plays the role of a bored housewife.",
+                            kurdishText:
+                                "ڕۆڵی ژیانی ژیانێکی بێزاری ماڵەوە دەبینێت.",
+                            onPressedBritish: () => speakboreds3("en-GB"),
+                            onPressedAmerican: () => speakboreds3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was rather bored with her life in a small town."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێزاربوو لە ژیانکردنی لە شارۆچکەیەکی بچووکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboreds4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboreds4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was rather bored with her life in a small town.",
+                            kurdishText:
+                                "بێزاربوو لە ژیانکردنی لە شارۆچکەیەکی بچووکدا.",
+                            onPressedBritish: () => speakboreds4("en-GB"),
+                            onPressedAmerican: () => speakboreds4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was bored with their conversation."),
-                                    ExampleSentenceKurdish(
-                                        text: "بێزاربوو لە گفتوگۆکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboreds5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboreds5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was bored with their conversation.",
+                            kurdishText: "بێزاربوو لە گفتوگۆکەیان.",
+                            onPressedBritish: () => speakboreds5("en-GB"),
+                            onPressedAmerican: () => speakboreds5("en-US"),
                           ),
                         ],
                       ),

@@ -113,34 +113,15 @@ class EnglishEntryairborne extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بوونی توانای جوڵان لە ھەوادا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do not leave your seat until the plane is airborne."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کورسییەکەت جێ مەھێڵە تا فڕۆکە دەچێتە ئاسمان (بارودۆخی فڕین)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairborne4237("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairborne4237(
-                                        // REPLACE: airborne /ˈeəbɔːrn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do not leave your seat until the plane is airborne.",
+                            kurdishText:
+                                "کورسییەکەت جێ مەھێڵە تا فڕۆکە دەچێتە ئاسمان (بارودۆخی فڕین).",
+                            onPressedBritish: () => speakairborne4237("en-GB"),
+                            onPressedAmerican: () => speakairborne4237(
+                                // REPLACE: airborne /ˈeəbɔːrn/
+                                "en-US"),
                           ),
                         ],
                       ),

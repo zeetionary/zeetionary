@@ -145,88 +145,32 @@ class EnglishEntrybrevity extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەکارھێنانی وشەی کەم لە قسەکردندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The report is a masterpiece of brevity."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕاپۆرتەکە شاکارێکی پوختییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brevity" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrevitys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrevitys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The report is a masterpiece of brevity.",
+                            kurdishText:
+                                "ڕاپۆرتەکە شاکارێکی پوختییە.", // brevity" as
+                            onPressedBritish: () => speakbrevitys1("en-GB"),
+                            onPressedAmerican: () => speakbrevitys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Charles Dickens was not known for his brevity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چارڵس دیکنز ناسراو نەبوو بۆ بۆ کەمدووی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrevitys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrevitys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Charles Dickens was not known for his brevity.",
+                            kurdishText:
+                                "چارڵس دیکنز ناسراو نەبوو بۆ بۆ کەمدووی.",
+                            onPressedBritish: () => speakbrevitys2("en-GB"),
+                            onPressedAmerican: () => speakbrevitys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) کورتخایەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Despite the brevity of the meeting, important decisions were made."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەڕای کورتخایەنی کۆبوونەوەکە، بڕیاری گرنگ دران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrevitys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrevitys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Despite the brevity of the meeting, important decisions were made.",
+                            kurdishText:
+                                "سەرەڕای کورتخایەنی کۆبوونەوەکە، بڕیاری گرنگ دران.",
+                            onPressedBritish: () => speakbrevitys3("en-GB"),
+                            onPressedAmerican: () => speakbrevitys3("en-US"),
                           ),
                         ],
                       ),

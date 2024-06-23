@@ -112,64 +112,25 @@ class EnglishEntryafflict extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) تووشبوون بە شتێکی خراپ" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our city has been afflicted with a high crime rate for decades."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەکەمان بۆ چەندین دەیەیە گیرۆدە بووە بە ڕێژەیەکی زۆری تاوان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffl455("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffl455(
-                                        // REPLACE: afflict /əˈflɪkt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our city has been afflicted with a high crime rate for decades.",
+                            kurdishText:
+                                "شارەکەمان بۆ چەندین دەیەیە گیرۆدە بووە بە ڕێژەیەکی زۆری تاوان.",
+                            onPressedBritish: () => speakaffl455("en-GB"),
+                            onPressedAmerican: () => speakaffl455(
+                                // REPLACE: afflict /əˈflɪkt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Severe drought has afflicted the region."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وشکەساڵی سەخت ھەرێمەکەی گرتووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffli994("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffli994(
-                                        // REPLACE: afflict /əˈflɪkt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Severe drought has afflicted the region.",
+                            kurdishText: "وشکەساڵی سەخت ھەرێمەکەی گرتووەتەوە.",
+                            onPressedBritish: () => speakaffli994("en-GB"),
+                            onPressedAmerican: () => speakaffli994(
+                                // REPLACE: afflict /əˈflɪkt/
+                                "en-US"),
                           ),
                         ],
                       ),

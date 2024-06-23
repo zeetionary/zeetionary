@@ -117,35 +117,16 @@ class EnglishEntryalternatively extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) بۆ ناساندنی ھەڵبژاردەیەکی تر کە دەکرێت بەکاربێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The agency will make travel arrangements for you. Alternatively, you can organize your own transport."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاژانسەکە کاری ڕێکخستنی گەشتەکەت بۆ دەکات. بەجێی‌ئەوە، خۆت دەتوانیت سەفەرەکەت ڕێک بخەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalternatively5244("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalternatively5244(
-                                        // REPLACE: alternatively /ɔːlˈtɜːrnətɪvli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The agency will make travel arrangements for you. Alternatively, you can organize your own transport.",
+                            kurdishText:
+                                "ئاژانسەکە کاری ڕێکخستنی گەشتەکەت بۆ دەکات. بەجێی‌ئەوە، خۆت دەتوانیت سەفەرەکەت ڕێک بخەیت.",
+                            onPressedBritish: () =>
+                                speakalternatively5244("en-GB"),
+                            onPressedAmerican: () => speakalternatively5244(
+                                // REPLACE: alternatively /ɔːlˈtɜːrnətɪvli/
+                                "en-US"),
                           ),
                         ],
                       ),

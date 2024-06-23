@@ -150,32 +150,12 @@ class EnglishEntrybinoculars extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دووربین؛ ئامێرێک کە کە وەک دوو تەلیسکۆبی بچووکی بەستراو بە یەک وایە لە ڕێگەیەوە سەیری شتی دوور دەکەیت و نزیکی دەکاتەوە "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We looked at the birds through binoculars."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەیری باڵندەکانمان کرد بە دووربین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinocularss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinocularss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We looked at the birds through binoculars.",
+                            kurdishText: "سەیری باڵندەکانمان کرد بە دووربین.",
+                            onPressedBritish: () => speakbinocularss1("en-GB"),
+                            onPressedAmerican: () => speakbinocularss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -151,61 +151,23 @@ class EnglishEntrybenevolent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەسێکی میھرەبان، یارمەتیدەر، و دەستکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The officer was benevolent, but not stupid."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەفسەرەکە میھرەبان بوو، بەڵام گەمژە نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbenevolents1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbenevolents1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The officer was benevolent, but not stupid.",
+                            kurdishText:
+                                "ئەفسەرەکە میھرەبان بوو، بەڵام گەمژە نەبوو.",
+                            onPressedBritish: () => speakbenevolents1("en-GB"),
+                            onPressedAmerican: () => speakbenevolents1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a benevolent old man and wouldn't hurt a fly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیرێکی میھرەبان بوو کە ئازاری مێشێکیشی نەدەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbenevolents2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbenevolents2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a benevolent old man and wouldn't hurt a fly.",
+                            kurdishText:
+                                "پیرێکی میھرەبان بوو کە ئازاری مێشێکیشی نەدەدا.",
+                            onPressedBritish: () => speakbenevolents2("en-GB"),
+                            onPressedAmerican: () => speakbenevolents2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

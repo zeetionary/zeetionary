@@ -155,32 +155,13 @@ class EnglishEntrybaffle extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) شتێک کە ئاڵۆزە بۆ تێگەشتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His behaviour baffles me."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕەفتارەکانی سەرم دەسوڕمێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaffles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaffles1(// REPLACE: baffle
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His behaviour baffles me.",
+                            kurdishText: "ڕەفتارەکانی سەرم دەسوڕمێنن.",
+                            onPressedBritish: () => speakbaffles1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaffles1(// REPLACE: baffle
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

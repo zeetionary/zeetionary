@@ -153,63 +153,23 @@ class EnglishEntrybosomfriend extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ھاوڕێیەکی زۆر نزیک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two girls had become bosom friends."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو کچەکە بووبوون بە ھاوڕێی گیانی بە گیانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbosomfriends1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbosomfriends1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two girls had become bosom friends.",
+                            kurdishText:
+                                "دوو کچەکە بووبوون بە ھاوڕێی گیانی بە گیانی.",
+                            onPressedBritish: () => speakbosomfriends1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbosomfriends1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We soon became bosom pals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرزوو بووین بە دۆستی گەوموگوڕی یەکدی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbosomfriends2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbosomfriends2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We soon became bosom pals.",
+                            kurdishText:
+                                "ھەرزوو بووین بە دۆستی گەوموگوڕی یەکدی.",
+                            onPressedBritish: () => speakbosomfriends2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbosomfriends2("en-US"),
                           ),
                         ],
                       ),

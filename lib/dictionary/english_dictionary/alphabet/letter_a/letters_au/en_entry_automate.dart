@@ -166,34 +166,15 @@ class EnglishEntryautomate extends StatelessWidget {
                               text:
                                   "١. (کردار) بەکارھێنانی ئامێر و کۆمپیوتەر بۆ کردنی کار لە جیاتی مرۆڤ"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The entire manufacturing process has been automated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی پڕۆسەی بەرھەمھێنانەکە کراوە بە خۆکارانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakautomate1012("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautomate1012(// REPLACE: automate
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The entire manufacturing process has been automated.",
+                            kurdishText:
+                                "تەواوی پڕۆسەی بەرھەمھێنانەکە کراوە بە خۆکارانە.",
+                            onPressedBritish: () => speakautomate1012("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautomate1012(// REPLACE: automate
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

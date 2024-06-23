@@ -150,98 +150,37 @@ class EnglishEntrybarbecue extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پارچە ئاسنێک کە لەسەر فڕن یان ئاگر گۆشتی پێ دەبرژێندرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I put another steak on the barbecue."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارچە گۆشتێکی ترم خستەسەر مەقاڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarbecues1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarbecues1(// REPLACE: barbecue
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I put another steak on the barbecue.",
+                            kurdishText: "پارچە گۆشتێکی ترم خستەسەر مەقاڵەکە.",
+                            onPressedBritish: () => speakbarbecues1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarbecues1(// REPLACE: barbecue
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ژەمە خواردنێک کە لە دەرەوە دەیخۆیت و خواردن لەسەر مەقاڵە دەکەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Let's have a barbecue!"),
-                                    ExampleSentenceKurdish(
-                                        text: "با لە دەرەوە نان بخۆین!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarbecues2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarbecues2(// REPLACE: barbecue
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Let's have a barbecue!",
+                            kurdishText: "با لە دەرەوە نان بخۆین!",
+                            onPressedBritish: () => speakbarbecues2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarbecues2(// REPLACE: barbecue
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ئامادەکردنی خواردن لەسەر مەقاڵە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We had barbecued chicken wings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سنگی مریشکی لە مەقاڵەدراومان ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarbecues3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarbecues3(// REPLACE: barbecue
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We had barbecued chicken wings.",
+                            kurdishText: "سنگی مریشکی لە مەقاڵەدراومان ھەبوو.",
+                            onPressedBritish: () => speakbarbecues3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarbecues3(// REPLACE: barbecue
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

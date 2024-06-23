@@ -163,35 +163,15 @@ class EnglishEntryautomobile extends StatelessWidget {
 کوردی: ئۆتۆمبێل، خۆڕەو، ئۆتۆمبیل
 """),
                           const DefinitionKurdish(text: "١. (ناو) ئۆتۆمبیل" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Learning to drive an automobile is not easy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فێربوونی لێخوڕینی ئۆتۆمبێل ئاسان نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautomobile847("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakautomobile847(
-                                        // REPLACE: automobile
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Learning to drive an automobile is not easy.",
+                            kurdishText:
+                                "فێربوونی لێخوڕینی ئۆتۆمبێل ئاسان نییە.",
+                            onPressedBritish: () => speakautomobile847("en-GB"),
+                            onPressedAmerican: () => speakautomobile847(
+                                // REPLACE: automobile
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

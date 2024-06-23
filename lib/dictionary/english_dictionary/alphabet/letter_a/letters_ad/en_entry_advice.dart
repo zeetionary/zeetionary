@@ -113,63 +113,24 @@ class EnglishEntryadvice extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) بۆچوونێک یان پێشنیارێک لەسەر ئەوەی کەسێک دەبێت چی بکات لە بارودۆخێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ask your teacher's advice on how to prepare for the exam."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوای ئامۆژگاری لە مامۆستاکەت بکە لەسەر چۆنیەتی خۆ ئامادەکردن بۆ تاقیکردنەوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvi4986("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvi4986(
-                                        // REPLACE: advice /ədˈvaɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ask your teacher's advice on how to prepare for the exam.",
+                            kurdishText:
+                                "داوای ئامۆژگاری لە مامۆستاکەت بکە لەسەر چۆنیەتی خۆ ئامادەکردن بۆ تاقیکردنەوەکە.",
+                            onPressedBritish: () => speakadvi4986("en-GB"),
+                            onPressedAmerican: () => speakadvi4986(
+                                // REPLACE: advice /ədˈvaɪs/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let me give you a piece of advice."),
-                                    ExampleSentenceKurdish(
-                                        text: "با کەمێک ئامۆژگاریت بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadv64187("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadv64187(
-                                        // REPLACE: advice /ədˈvaɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Let me give you a piece of advice.",
+                            kurdishText: "با کەمێک ئامۆژگاریت بکەم.",
+                            onPressedBritish: () => speakadv64187("en-GB"),
+                            onPressedAmerican: () => speakadv64187(
+                                // REPLACE: advice /ədˈvaɪs/
+                                "en-US"),
                           ),
                         ],
                       ),

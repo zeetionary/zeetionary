@@ -147,88 +147,31 @@ class EnglishEntrybridal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە بووک یان شایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She spent the afternoon trying on bridal gowns for her wedding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیوەڕۆی بەسەربرد بە تاقیکردنەوەی جلە بووکێنییەکانی بۆ ئاھەنگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bridal" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She spent the afternoon trying on bridal gowns for her wedding.",
+                            kurdishText:
+                                "نیوەڕۆی بەسەربرد بە تاقیکردنەوەی جلە بووکێنییەکانی بۆ ئاھەنگەکە.", // bridal" as
+                            onPressedBritish: () => speakbridals1("en-GB"),
+                            onPressedAmerican: () => speakbridals1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The members of the bridal party posed for photographs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەژداربووانی ئاھەنگی بووک وێنەیەکیان گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The members of the bridal party posed for photographs.",
+                            kurdishText:
+                                "بەژداربووانی ئاھەنگی بووک وێنەیەکیان گرت.",
+                            onPressedBritish: () => speakbridals2("en-GB"),
+                            onPressedAmerican: () => speakbridals2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The magazine had a section on bridal wear (= the clothes that a woman wears at her marriage)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆڤارەکە بەشێکی ھەبوو تایبەت بە جلی بووکێنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The magazine had a section on bridal wear (= the clothes that a woman wears at her marriage).",
+                            kurdishText:
+                                "گۆڤارەکە بەشێکی ھەبوو تایبەت بە جلی بووکێنی.",
+                            onPressedBritish: () => speakbridals3("en-GB"),
+                            onPressedAmerican: () => speakbridals3("en-US"),
                           ),
                         ],
                       ),

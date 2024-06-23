@@ -163,100 +163,39 @@ class EnglishEntryaustere extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) سادە و ساکار"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their clothes were always austere."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلەکانیان ھەمیشە سادە و ساکار بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaustere453("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaustere453(// REPLACE: austere
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Their clothes were always austere.",
+                            kurdishText: "جلەکانیان ھەمیشە سادە و ساکار بوون.",
+                            onPressedBritish: () => speakaustere453("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaustere453(// REPLACE: austere
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) کەسێکی جدی و دژوار لە دەرکەوتن و ڕەفتاردا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His father was a tall, austere man."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوکی پیاوێکی درێژی ڕووگرژ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaustere456("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaustere456(// REPLACE: austere
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His father was a tall, austere man.",
+                            kurdishText: "باوکی پیاوێکی درێژی ڕووگرژ بوو.",
+                            onPressedBritish: () => speakaustere456("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaustere456(// REPLACE: austere
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) ژیانێکی دژوار و بەتاڵ لەھەر شتێکی خۆشی‌بەخش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They had an austere childhood during the war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتی جەنگەکەدا ژیانێکی دژواریان ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaustere458("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaustere458(// REPLACE: austere
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They had an austere childhood during the war.",
+                            kurdishText:
+                                "لە کاتی جەنگەکەدا ژیانێکی دژواریان ھەبوو.",
+                            onPressedBritish: () => speakaustere458("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaustere458(// REPLACE: austere
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

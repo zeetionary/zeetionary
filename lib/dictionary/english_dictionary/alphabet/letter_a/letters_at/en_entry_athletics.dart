@@ -164,34 +164,15 @@ class EnglishEntryathletics extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) یارییە وەرزشییەکانی وەک ڕاکردن و بازدان و ھەڵدان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My daughter wants to compete in athletics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کچەکەم دەیەوێت بەژداری لە یارییە وەرزشییەکاندا بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakathletics825("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakathletics825(// REPLACE: athletics
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My daughter wants to compete in athletics.",
+                            kurdishText:
+                                "کچەکەم دەیەوێت بەژداری لە یارییە وەرزشییەکاندا بکات.",
+                            onPressedBritish: () => speakathletics825("en-GB"),
+                            onPressedAmerican: () =>
+                                speakathletics825(// REPLACE: athletics
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

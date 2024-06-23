@@ -144,116 +144,39 @@ class EnglishEntrybudge extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) جوڵان بە کەمی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She pushed at the door but it wouldn't budge."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرگاکەی پاڵنا بەڵام نسقەی نەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "budge", follow LX strictly.
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She pushed at the door but it wouldn't budge.",
+                            kurdishText:
+                                "دەرگاکەی پاڵنا بەڵام نسقەی نەکرد.", // budge", follow LX strictly.
+                            onPressedBritish: () => speakbudges1("en-GB"),
+                            onPressedAmerican: () => speakbudges1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The dog refused to budge."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەگەکە نەدەجووڵا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudges2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The dog refused to budge.",
+                            kurdishText: "سەگەکە نەدەجووڵا.",
+                            onPressedBritish: () => speakbudges2("en-GB"),
+                            onPressedAmerican: () => speakbudges2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) گۆڕینی بۆچوونت لەسەر شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Company executives refused to budge from their position."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێوبەرانی کۆمپانیاکە ڕەتیان کردەوە بۆچوونی خۆیان بگۆڕن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudges3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudges3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Company executives refused to budge from their position.",
+                            kurdishText:
+                                "بەڕێوبەرانی کۆمپانیاکە ڕەتیان کردەوە بۆچوونی خۆیان بگۆڕن.",
+                            onPressedBritish: () => speakbudges3("en-GB"),
+                            onPressedAmerican: () => speakbudges3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was not to be budged on the issue."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر بابەتەکە بۆچوونی نەگۆڕ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbudges4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbudges4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was not to be budged on the issue.",
+                            kurdishText: "لەسەر بابەتەکە بۆچوونی نەگۆڕ بوو.",
+                            onPressedBritish: () => speakbudges4("en-GB"),
+                            onPressedAmerican: () => speakbudges4("en-US"),
                           ),
                         ],
                       ),

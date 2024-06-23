@@ -143,32 +143,13 @@ class EnglishEntrybranding extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چالاکی درووستکردنی ناو یان وێنا بۆ شتێک بۆ کەلوپەل یان خزمەتگوزاری بۆ ئەوەی سەرنج ڕابکێشێت و خەڵکی بیکڕن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The successful branding and marketing of the new beverage has boosted sales."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەبازاڕکردن و ناساندنی سەرکەوتووی خواردنەوە تازەکە فرۆشی زیادکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrandings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrandings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The successful branding and marketing of the new beverage has boosted sales.",
+                            kurdishText:
+                                "بەبازاڕکردن و ناساندنی سەرکەوتووی خواردنەوە تازەکە فرۆشی زیادکردووە.",
+                            onPressedBritish: () => speakbrandings1("en-GB"),
+                            onPressedAmerican: () => speakbrandings1("en-US"),
                           ),
                         ],
                       ),

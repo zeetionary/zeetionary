@@ -111,91 +111,34 @@ class EnglishEntryalmost extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) نزیکەی، لە دەوروبەری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I like almost all of them."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە نزیکەیی حەزم لە ھەموویانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalmost4211("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalmost4211(
-                                        // REPLACE: almost /ˈɔːlməʊst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I like almost all of them.",
+                            kurdishText: "بە نزیکەیی حەزم لە ھەموویانە.",
+                            onPressedBritish: () => speakalmost4211("en-GB"),
+                            onPressedAmerican: () => speakalmost4211(
+                                // REPLACE: almost /ˈɔːlməʊst/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The castle is almost entirely surrounded by water."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەڵاکە بە نزیکەیی تەواو بە ئاو دەوردراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalmost2489("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalmost2489(
-                                        // REPLACE: almost /ˈɔːlməʊst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The castle is almost entirely surrounded by water.",
+                            kurdishText:
+                                "قەڵاکە بە نزیکەیی تەواو بە ئاو دەوردراوە.",
+                            onPressedBritish: () => speakalmost2489("en-GB"),
+                            onPressedAmerican: () => speakalmost2489(
+                                // REPLACE: almost /ˈɔːlməʊst/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The painting is almost certainly a forgery."),
-                                    ExampleSentenceKurdish(
-                                        text: "تابلۆکە بە ئەگەری زۆر ساختەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalmost4958("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalmost4958(
-                                        // REPLACE: almost /ˈɔːlməʊst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The painting is almost certainly a forgery.",
+                            kurdishText: "تابلۆکە بە ئەگەری زۆر ساختەیە.",
+                            onPressedBritish: () => speakalmost4958("en-GB"),
+                            onPressedAmerican: () => speakalmost4958(
+                                // REPLACE: almost /ˈɔːlməʊst/
+                                "en-US"),
                           ),
                         ],
                       ),

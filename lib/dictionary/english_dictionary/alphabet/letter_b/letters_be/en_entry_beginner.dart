@@ -150,30 +150,11 @@ class EnglishEntrybeginner extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە تازە دەستی بە فێربوونی شتێک کردووە و ھیشتا بە باشی لێی نازانێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She's in the beginners' class."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە پۆلی تازەکارانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeginners1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeginners1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's in the beginners' class.",
+                            kurdishText: "لە پۆلی تازەکارانە.",
+                            onPressedBritish: () => speakbeginners1("en-GB"),
+                            onPressedAmerican: () => speakbeginners1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

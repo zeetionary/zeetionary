@@ -156,127 +156,49 @@ class EnglishEntryangel extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بوونێک کە باوەڕوایە خزمەتگوزاری خودان و دەنێردرێن بۆ گەیاندنی پەیامێک یان بەجێھێنانی ئەرکێک. زۆرجار فریشتە بە جلی سپی و باڵەوە پیشان‌دەدرێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She looks like an angel."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەڵێی فریشتەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangel405("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangel405(
-                                        // REPLACE: angel /ˈeɪndʒl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She looks like an angel.",
+                            kurdishText: "ئەڵێی فریشتەیە.",
+                            onPressedBritish: () => speakangel405("en-GB"),
+                            onPressedAmerican: () => speakangel405(
+                                // REPLACE: angel /ˈeɪndʒl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wore a white costume with big furry angel wings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلێکی سپی لەبەرکرد بە باڵی فریشتەیی پەڕدارەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangel407("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangel407(
-                                        // REPLACE: angel /ˈeɪndʒl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wore a white costume with big furry angel wings.",
+                            kurdishText:
+                                "جلێکی سپی لەبەرکرد بە باڵی فریشتەیی پەڕدارەوە.",
+                            onPressedBritish: () => speakangel407("en-GB"),
+                            onPressedAmerican: () => speakangel407(
+                                // REPLACE: angel /ˈeɪndʒl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێکی زۆرباش و میھرەبان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Mary’s children are little angels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکانی ماری فریشتەی وردیلەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangel9963("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangel9963(
-                                        // REPLACE: angel /ˈeɪndʒl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Mary’s children are little angels.",
+                            kurdishText: "منداڵەکانی ماری فریشتەی وردیلەن.",
+                            onPressedBritish: () => speakangel9963("en-GB"),
+                            onPressedAmerican: () => speakangel9963(
+                                // REPLACE: angel /ˈeɪndʒl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بۆ ناوھێنانی کەسێک کە سوپاسگوزاری بۆی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Thanks Dad, you're an angel."),
-                                    ExampleSentenceKurdish(
-                                        text: "سوپاس باوکە، تۆ فریشتەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangel4850("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangel4850(
-                                        // REPLACE: angel /ˈeɪndʒl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Thanks Dad, you're an angel.",
+                            kurdishText: "سوپاس باوکە، تۆ فریشتەیت.",
+                            onPressedBritish: () => speakangel4850("en-GB"),
+                            onPressedAmerican: () => speakangel4850(
+                                // REPLACE: angel /ˈeɪndʒl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

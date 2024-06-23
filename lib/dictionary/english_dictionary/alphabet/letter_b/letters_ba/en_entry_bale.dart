@@ -157,100 +157,42 @@ class EnglishEntrybale extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ڕێژەیەکی زۆر لە شتێکی سووک کە پێکەوە کەڵەکەکراون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The fire destroyed 500 bales of hay."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگرەکە ٥٠٠ گورزە وێنجەی وشکی لەناوبرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbales1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbales1(// REPLACE: bale
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The fire destroyed 500 bales of hay.",
+                            kurdishText:
+                                "ئاگرەکە ٥٠٠ گورزە وێنجەی وشکی لەناوبرد.",
+                            onPressedBritish: () => speakbales1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbales1(// REPLACE: bale
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) کەڵەکەکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The waste paper is baled, then sent for recycling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاغەزی زیادە دەکرێت بە گورزەیەک و دەنێردرێت بۆ دووبارە بەکارھێنان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbales2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbales2(// REPLACE: bale
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The waste paper is baled, then sent for recycling.",
+                            kurdishText:
+                                "کاغەزی زیادە دەکرێت بە گورزەیەک و دەنێردرێت بۆ دووبارە بەکارھێنان.",
+                            onPressedBritish: () => speakbales2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbales2(// REPLACE: bale
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ئازادکردنی کەسێک بە کەفالەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was yesterday baled for three weeks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوێنی بۆ سێ ھەفتە بە کەفالەت ئازادکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbales3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbales3(// REPLACE: bale
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was yesterday baled for three weeks.",
+                            kurdishText:
+                                "دوێنی بۆ سێ ھەفتە بە کەفالەت ئازادکرا.",
+                            onPressedBritish: () => speakbales3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbales3(// REPLACE: bale
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

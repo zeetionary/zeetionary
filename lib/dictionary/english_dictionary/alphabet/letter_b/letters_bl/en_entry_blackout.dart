@@ -150,128 +150,52 @@ class EnglishEntryblackout extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ماوەی تاریکی بەھۆی بێ کارەبایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The storm caused blackouts in many areas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زریانەکە بوو بەھۆی بێ کارەبایی لە ژمارەیەکی زۆر ناوچە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackouts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackouts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The storm caused blackouts in many areas.",
+                            kurdishText:
+                                "زریانەکە بوو بەھۆی بێ کارەبایی لە ژمارەیەکی زۆر ناوچە.",
+                            onPressedBritish: () => speakblackouts1("en-GB"),
+                            onPressedAmerican: () => speakblackouts1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دۆخێک کە تێیدا حکومەت یاب پۆلیس ڕێگا نادەن ھیچ زانیارییەک بدرێت بە ڕای گشتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government imposed a news blackout during the crisis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت سانسۆری لەسەر ھەواڵ دانا لە کاتی قەیرانەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackouts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackouts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government imposed a news blackout during the crisis.",
+                            kurdishText:
+                                "حکومەت سانسۆری لەسەر ھەواڵ دانا لە کاتی قەیرانەکەدا.",
+                            onPressedBritish: () => speakblackouts2("en-GB"),
+                            onPressedAmerican: () => speakblackouts2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ماوەیەک لە کاتی جەنگدا کە ھەموو ڕۆشناییەک دەبێت بکوژێنرێتەوە لە شەودا بۆ ئەوەی دوژمن لە ئاسمانەوە سوودی لێ نەبینێت بۆ ھێرش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It used to take hours to travel home in the blackout."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران چەندین کاتژمێری پێ دەچوو بۆ ئەوەی بگەڕێیتەوە ماڵەوە لە بێ کارەباییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackouts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackouts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It used to take hours to travel home in the blackout.",
+                            kurdishText:
+                                "جاران چەندین کاتژمێری پێ دەچوو بۆ ئەوەی بگەڕێیتەوە ماڵەوە لە بێ کارەباییەکەدا.",
+                            onPressedBritish: () => speakblackouts3("en-GB"),
+                            onPressedAmerican: () => speakblackouts3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) لەبیرچوونەوە، لەدەستدانی بینایی، یان ھزر بۆ ماوەیەکی کاتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had a blackout and couldn't remember anything about the accident."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەھۆشچوونی بەسەر ھات و نەیدەتوانی ھیچی لەسەر ڕووداوەکە بیربێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackouts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackouts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had a blackout and couldn't remember anything about the accident.",
+                            kurdishText:
+                                "لەھۆشچوونی بەسەر ھات و نەیدەتوانی ھیچی لەسەر ڕووداوەکە بیربێتەوە.",
+                            onPressedBritish: () => speakblackouts4("en-GB"),
+                            onPressedAmerican: () => speakblackouts4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -145,34 +145,14 @@ class EnglishEntrybrusqueness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەڵسوکەوتێک یان قسەکردنێک کە خێرا و بێ‌ڕێزانەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "New Yorkers have a reputation for brusqueness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیویۆرکییەکان ناسراون بۆ پەلەکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brusqueness" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbrusquenesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbrusquenesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "New Yorkers have a reputation for brusqueness.",
+                            kurdishText:
+                                "نیویۆرکییەکان ناسراون بۆ پەلەکردن.", // brusqueness" as
+                            onPressedBritish: () => speakbrusquenesss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbrusquenesss1("en-US"),
                           ),
                         ],
                       ),

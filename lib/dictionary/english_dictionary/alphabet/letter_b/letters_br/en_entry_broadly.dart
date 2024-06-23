@@ -145,91 +145,31 @@ class EnglishEntrybroadly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەکی گشتی، بەبێ وردەکاری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Broadly speaking, I agree with you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەکی گشتی، لەگەڵت ھاوڕام."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broadly" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Broadly speaking, I agree with you.",
+                            kurdishText:
+                                "بەشێوەیەکی گشتی، لەگەڵت ھاوڕام.", // broadly" as
+                            onPressedBritish: () => speakbroadlys1("en-GB"),
+                            onPressedAmerican: () => speakbroadlys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many of the findings in this study are broadly similar to those of earlier experts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرێک لەم دۆزینەوەیانە بەشێوەیەکی گشتی وەک ئەوانەی شارەزایان پێشووترن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many of the findings in this study are broadly similar to those of earlier experts.",
+                            kurdishText:
+                                "زۆرێک لەم دۆزینەوەیانە بەشێوەیەکی گشتی وەک ئەوانەی شارەزایان پێشووترن.",
+                            onPressedBritish: () => speakbroadlys2("en-GB"),
+                            onPressedAmerican: () => speakbroadlys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بزەیەکی گەورە و بە دەم پانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He jumped up, grinning broadly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستایە سەر پێ و زەردەخەنەی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadlys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadlys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He jumped up, grinning broadly.",
+                            kurdishText: "ھەستایە سەر پێ و زەردەخەنەی بوو.",
+                            onPressedBritish: () => speakbroadlys3("en-GB"),
+                            onPressedAmerican: () => speakbroadlys3("en-US"),
                           ),
                         ],
                       ),

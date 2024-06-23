@@ -158,128 +158,52 @@ class EnglishEntrybackwards extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵکار) بەرەو دواوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He took a step backwards."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەنگاوێکی بەرەو دواوە نا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbackwardss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbackwardss1(// REPLACE: backwards
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He took a step backwards.",
+                            kurdishText: "ھەنگاوێکی بەرەو دواوە نا.",
+                            onPressedBritish: () => speakbackwardss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbackwardss1(// REPLACE: backwards
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) پێچەوانەی دۆخی ئاسایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘Ambulance’ is written backwards so you can read it in the mirror."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وشەی ‘Ambulance’ بەپێچەوانەوە دەنووسرێت بۆ ئەوەی بتوانی بیخوێنیتەوە لە ئاوێنەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbackwardss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbackwardss2(// REPLACE: backward
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘Ambulance’ is written backwards so you can read it in the mirror.",
+                            kurdishText:
+                                "وشەی ‘Ambulance’ بەپێچەوانەوە دەنووسرێت بۆ ئەوەی بتوانی بیخوێنیتەوە لە ئاوێنەدا.",
+                            onPressedBritish: () => speakbackwardss2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbackwardss2(// REPLACE: backward
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the movie they take a journey backward through time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە فیلمەکەدا بەرەو دواوە گەشت بە کاتدا دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbackwardss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbackwardss3(// REPLACE: backward
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the movie they take a journey backward through time.",
+                            kurdishText:
+                                "لە فیلمەکەدا بەرەو دواوە گەشت بە کاتدا دەکەن.",
+                            onPressedBritish: () => speakbackwardss3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbackwardss3(// REPLACE: backward
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) بۆ دۆخێکی خراپتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I felt that going to live with my parents would be a step backward."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستمکرد گەڕانەوە بۆ ژیانکردن لەگەڵ دایک و باوکم ھەنگاوێک بۆ دواوە دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbackwardss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbackwardss4(// REPLACE: backward
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I felt that going to live with my parents would be a step backward.",
+                            kurdishText:
+                                "ھەستمکرد گەڕانەوە بۆ ژیانکردن لەگەڵ دایک و باوکم ھەنگاوێک بۆ دواوە دەبێت.",
+                            onPressedBritish: () => speakbackwardss4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbackwardss4(// REPLACE: backward
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

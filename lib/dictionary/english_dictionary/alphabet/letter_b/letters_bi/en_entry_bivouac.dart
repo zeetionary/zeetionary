@@ -146,63 +146,25 @@ class EnglishEntrybivouac extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پەناگە یان کەمپێکی بچووک کە بەشێوەی کاتی دادەنرێت لەلایەن سەربازەوە یان شاخەوانان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soldiers hastily set up a bivouac in the forest for the night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکان بەخێرایی پەناگەیەکیان ھەڵخست بۆ شەوەکە لە دارستانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbivouacs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbivouacs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soldiers hastily set up a bivouac in the forest for the night.",
+                            kurdishText:
+                                "سەربازەکان بەخێرایی پەناگەیەکیان ھەڵخست بۆ شەوەکە لە دارستانەکە.",
+                            onPressedBritish: () => speakbivouacs1("en-GB"),
+                            onPressedAmerican: () => speakbivouacs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بەسەربردنی شەو لە پەناگە یان کەمپێکی بچووک کە بەشێوەی کاتی دادەنرێت لەلایەن سەربازەوە یان شاخەوانان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After a long day of hiking, they decided to bivouac."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای ڕۆژێکی درێژ لە شاخەوانی، بڕیاریاندا پەناگەیەک دابنەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbivouacs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbivouacs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After a long day of hiking, they decided to bivouac.",
+                            kurdishText:
+                                "لە دوای ڕۆژێکی درێژ لە شاخەوانی، بڕیاریاندا پەناگەیەک دابنەن.",
+                            onPressedBritish: () => speakbivouacs2("en-GB"),
+                            onPressedAmerican: () => speakbivouacs2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

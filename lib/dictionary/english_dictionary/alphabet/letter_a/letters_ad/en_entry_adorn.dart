@@ -108,34 +108,14 @@ class EnglishEntryadorn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) خۆجوانکردن بە شتی جوان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children adorned themselves with flowers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان خۆیان بە گوڵ ڕازاندەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakador59631("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakador59631(
-                                        // REPLACE: adorn /əˈdɔːrn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children adorned themselves with flowers.",
+                            kurdishText: "منداڵەکان خۆیان بە گوڵ ڕازاندەوە.",
+                            onPressedBritish: () => speakador59631("en-GB"),
+                            onPressedAmerican: () => speakador59631(
+                                // REPLACE: adorn /əˈdɔːrn/
+                                "en-US"),
                           ),
                         ],
                       ),

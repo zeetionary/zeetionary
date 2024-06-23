@@ -193,60 +193,21 @@ class EnglishEntryburial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کردار یان مەراسیمی ناشتنی جەستەیەکی مردوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her body was sent home for burial."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لاشەکەی نێردرایەوە ماڵەوە/وڵاتی خۆی بۆ ناشتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burial", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her body was sent home for burial.",
+                            kurdishText:
+                                "لاشەکەی نێردرایەوە ماڵەوە/وڵاتی خۆی بۆ ناشتن.", // burial", follow LX strictly
+                            onPressedBritish: () => speakburials1("en-GB"),
+                            onPressedAmerican: () => speakburials1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His family insisted he should be given a proper burial."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێزانەکەی پێداگیربوون لەسەر ئەوەی ناشتنێکی شایستەی بۆ بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburials2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburials2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His family insisted he should be given a proper burial.",
+                            kurdishText:
+                                "خێزانەکەی پێداگیربوون لەسەر ئەوەی ناشتنێکی شایستەی بۆ بکرێت.",
+                            onPressedBritish: () => speakburials2("en-GB"),
+                            onPressedAmerican: () => speakburials2("en-US"),
                           ),
                         ],
                       ),

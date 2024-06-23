@@ -114,33 +114,14 @@ class EnglishEntryadjournment extends StatelessWidget {
                               text:
                                   "١. (ناو) وەستانی کۆبوونەوەیەک یان دانیشتنێکی دادگا بۆ ماوەیەک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The judge granted us a short adjournment."),
-                                    ExampleSentenceKurdish(
-                                        text: "دادوەرەکە وچانێکی کاتی بەخشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadjou2547("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadjou2547(
-                                        // REPLACE: adjournment /əˈdʒɜːrnmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The judge granted us a short adjournment.",
+                            kurdishText: "دادوەرەکە وچانێکی کاتی بەخشی.",
+                            onPressedBritish: () => speakadjou2547("en-GB"),
+                            onPressedAmerican: () => speakadjou2547(
+                                // REPLACE: adjournment /əˈdʒɜːrnmənt/
+                                "en-US"),
                           ),
                         ],
                       ),

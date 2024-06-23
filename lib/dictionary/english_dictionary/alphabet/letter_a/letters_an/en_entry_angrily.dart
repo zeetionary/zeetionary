@@ -153,65 +153,27 @@ class EnglishEntryangrily extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) توند، بە توندی، بە تووڕەیی‌یەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some senators reacted angrily to the president's remarks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک سیناتۆر بەتوڕەییەوە کاردانەوەیان ھەبوو بۆ وتەکانی سەرۆک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangrily12980("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangrily12980(
-                                        // REPLACE: angrily /ˈæŋɡrəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some senators reacted angrily to the president's remarks.",
+                            kurdishText:
+                                "ھەندێک سیناتۆر بەتوڕەییەوە کاردانەوەیان ھەبوو بۆ وتەکانی سەرۆک.",
+                            onPressedBritish: () => speakangrily12980("en-GB"),
+                            onPressedAmerican: () => speakangrily12980(
+                                // REPLACE: angrily /ˈæŋɡrəli/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The president angrily denounced the coup as illegal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک بەتوڕەییەوە کودەتاکەی بە نایاسایی سەرکۆنەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangrily25610("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangrily25610(
-                                        // REPLACE: angrily /ˈæŋɡrəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The president angrily denounced the coup as illegal.",
+                            kurdishText:
+                                "سەرۆک بەتوڕەییەوە کودەتاکەی بە نایاسایی سەرکۆنەکرد.",
+                            onPressedBritish: () => speakangrily25610("en-GB"),
+                            onPressedAmerican: () => speakangrily25610(
+                                // REPLACE: angrily /ˈæŋɡrəli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

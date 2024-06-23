@@ -653,243 +653,90 @@ class EnglishEntrybreak extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) شکان یان شکاندن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All the windows broke with the force of the blast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو پەنجەرەکان بە ھێزی تەقینەوەکە شکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All the windows broke with the force of the blast.",
+                            kurdishText:
+                                "ھەموو پەنجەرەکان بە ھێزی تەقینەوەکە شکان.",
+                            onPressedBritish: () => speakbreaks1("en-GB"),
+                            onPressedAmerican: () => speakbreaks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She dropped the plate and it broke into pieces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەورییەکەی بەردایەوە و پارچەپارچە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She dropped the plate and it broke into pieces.",
+                            kurdishText:
+                                "دەورییەکەی بەردایەوە و پارچەپارچە بوو.",
+                            onPressedBritish: () => speakbreaks2("en-GB"),
+                            onPressedAmerican: () => speakbreaks2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The boat hit a rock and broke in half."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بەلەمەکە لە تاشە بەردێکی دا و دووکەرت بوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreaks3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreaks3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The boat hit a rock and broke in half.",
+                                    kurdishText:
+                                        "بەلەمەکە لە تاشە بەردێکی دا و دووکەرت بوو.",
+                                    onPressedBritish: () =>
+                                        speakbreaks3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreaks3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She fell off a ladder and broke her arm."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "لە پەیژەیەک کەوتە خوارەوە و دەستی شکا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreaks4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreaks4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She fell off a ladder and broke her arm.",
+                                    kurdishText:
+                                        "لە پەیژەیەک کەوتە خوارەوە و دەستی شکا.",
+                                    onPressedBritish: () =>
+                                        speakbreaks4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreaks4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He broke the chocolate in two."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "چکلێتەکەی کرد بە دوو کەرتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreaks5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreaks5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He broke the chocolate in two.",
+                                    kurdishText:
+                                        "چکلێتەکەی کرد بە دوو کەرتەوە.",
+                                    onPressedBritish: () =>
+                                        speakbreaks5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreaks5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The glass broke into hundreds of pieces."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "شووشەکە بوو بە سەدان پارچەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreaks6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreaks6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The glass broke into hundreds of pieces.",
+                                    kurdishText:
+                                        "شووشەکە بوو بە سەدان پارچەوە.",
+                                    onPressedBritish: () =>
+                                        speakbreaks6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreaks6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I didn't mean to break the window."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "مەبەستم نەبوو پەنجەرەکە بشکێنم."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreaks7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreaks7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I didn't mean to break the window.",
+                                    kurdishText:
+                                        "مەبەستم نەبوو پەنجەرەکە بشکێنم.",
+                                    onPressedBritish: () =>
+                                        speakbreaks7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreaks7("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Charles is always breaking things."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "چارڵس ھەمیشە شت دەشکێنێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreaks8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreaks8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Charles is always breaking things.",
+                                    kurdishText: "چارڵس ھەمیشە شت دەشکێنێت.",
+                                    onPressedBritish: () =>
+                                        speakbreaks8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreaks8("en-US"),
                                   ),
                                 ],
                               ),
@@ -898,239 +745,86 @@ class EnglishEntrybreak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) وەستان لە کارکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "My watch has broken."),
-                                    ExampleSentenceKurdish(
-                                        text: "کاتژمێرەکەم وەستاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My watch has broken.",
+                            kurdishText: "کاتژمێرەکەم وەستاوە.",
+                            onPressedBritish: () => speakbreaks9("en-GB"),
+                            onPressedAmerican: () => speakbreaks9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think I've broken the washing machine."),
-                                    ExampleSentenceKurdish(
-                                        text: "پێم‌وایە جلشۆرەکەم شکاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I think I've broken the washing machine.",
+                            kurdishText: "پێم‌وایە جلشۆرەکەم شکاند.",
+                            onPressedBritish: () => speakbreaks10("en-GB"),
+                            onPressedAmerican: () => speakbreaks10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) بڕینی پێست و خوێن‌لێ‌ھێنانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dog bit me but didn't break the skin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگەکە گازی لێ گرتم بەڵام پێستمی نەدڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dog bit me but didn't break the skin.",
+                            kurdishText:
+                                "سەگەکە گازی لێ گرتم بەڵام پێستمی نەدڕی.",
+                            onPressedBritish: () => speakbreaks11("en-GB"),
+                            onPressedAmerican: () => speakbreaks11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) کردنی شتێک کە دژە بە یاسا، بەڵین، ڕێککەوتن، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had broken the law and deserved to be punished."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یاسام شکاندبوو و شایەنی سزا بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had broken the law and deserved to be punished.",
+                            kurdishText: "یاسام شکاندبوو و شایەنی سزا بووم.",
+                            onPressedBritish: () => speakbreaks12("en-GB"),
+                            onPressedAmerican: () => speakbreaks12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People should not be allowed to break the rules."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی نابێت ڕێگایان پێ بدرێت یاساکان بشکێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People should not be allowed to break the rules.",
+                            kurdishText:
+                                "خەڵکی نابێت ڕێگایان پێ بدرێت یاساکان بشکێنن.",
+                            onPressedBritish: () => speakbreaks13("en-GB"),
+                            onPressedAmerican: () => speakbreaks13("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He was breaking the speed limit (= travelling faster than the law allows)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "خێراتر لە خێرایی ڕێگەپێدراو دەچوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreaks14("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreaks14("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He was breaking the speed limit (= travelling faster than the law allows).",
+                                    kurdishText:
+                                        "خێراتر لە خێرایی ڕێگەپێدراو دەچوو.",
+                                    onPressedBritish: () =>
+                                        speakbreaks14("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreaks14("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She had broken the conditions of her bail."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "مەرجەکانی ئازادکردنی بە کەفالەتی پێشێلکردبوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreaks15("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreaks15("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She had broken the conditions of her bail.",
+                                    kurdishText:
+                                        "مەرجەکانی ئازادکردنی بە کەفالەتی پێشێلکردبوو.",
+                                    onPressedBritish: () =>
+                                        speakbreaks15("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreaks15("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "I've never broken my word; why should I do it now?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەرگیز قسەی خۆمم نەشکاندووە، بۆچی ئێستا بیکەم؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreaks16("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreaks16("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "I've never broken my word; why should I do it now?",
+                                    kurdishText:
+                                        "ھەرگیز قسەی خۆمم نەشکاندووە، بۆچی ئێستا بیکەم؟",
+                                    onPressedBritish: () =>
+                                        speakbreaks16("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreaks16("en-US"),
                                   ),
                                 ],
                               ),
@@ -1140,1336 +834,464 @@ class EnglishEntrybreak extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) وەستان لە کردنی شتێک بۆ ماوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Let's break for lunch."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با پشوویەک بۆ نانی نیوەڕۆ وەربگرین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Let's break for lunch.",
+                            kurdishText: "با پشوویەک بۆ نانی نیوەڕۆ وەربگرین.",
+                            onPressedBritish: () => speakbreaks17("en-GB"),
+                            onPressedAmerican: () => speakbreaks17("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Parliament breaks for recess next week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرلەمان پشووی ساڵانەی وەردەگرێت ھەفتەی داھاتوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Parliament breaks for recess next week.",
+                            kurdishText:
+                                "پەرلەمان پشووی ساڵانەی وەردەگرێت ھەفتەی داھاتوو.",
+                            onPressedBritish: () => speakbreaks18("en-GB"),
+                            onPressedAmerican: () => speakbreaks18("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their sleep was broken by noise from the street."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە خەو ڕاپەڕین بە دەنگەدەنگی سەر شەقامەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their sleep was broken by noise from the street.",
+                            kurdishText:
+                                "لە خەو ڕاپەڕین بە دەنگەدەنگی سەر شەقامەکە.",
+                            onPressedBritish: () => speakbreaks19("en-GB"),
+                            onPressedAmerican: () => speakbreaks19("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) وەستاندنی شتێک لە ناکاو بەشێوەیەک کە کۆتایی پێ دێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She broke the silence by coughing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە کۆکەیەک کۆتایی بە بێ‌دەنگییەکە ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks20("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks20("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She broke the silence by coughing.",
+                            kurdishText:
+                                "بە کۆکەیەک کۆتایی بە بێ‌دەنگییەکە ھێنا.",
+                            onPressedBritish: () => speakbreaks20("en-GB"),
+                            onPressedAmerican: () => speakbreaks20("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The phone rang, breaking my concentration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "موبایلەکە زەنگی لێدا و سەرنجمی برد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks21("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks21("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The phone rang, breaking my concentration.",
+                            kurdishText: "موبایلەکە زەنگی لێدا و سەرنجمی برد.",
+                            onPressedBritish: () => speakbreaks21("en-GB"),
+                            onPressedAmerican: () => speakbreaks21("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They decided to break their journey in Singapore."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیاریاندا لە سەنگاپوورە کۆتایی بە گەشتەکەیان بێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks22("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks22("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They decided to break their journey in Singapore.",
+                            kurdishText:
+                                "بڕیاریاندا لە سەنگاپوورە کۆتایی بە گەشتەکەیان بێنن.",
+                            onPressedBritish: () => speakbreaks22("en-GB"),
+                            onPressedAmerican: () => speakbreaks22("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کردار) کۆتایی ھێنانی شتێک بە ھێز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Management has not succeeded in breaking the strike."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێوبەرایەتییەکە نەیتوانی مانگرتنەکە کۆتایی پێ‌بھێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks23("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks23("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Management has not succeeded in breaking the strike.",
+                            kurdishText:
+                                "بەڕێوبەرایەتییەکە نەیتوانی مانگرتنەکە کۆتایی پێ‌بھێنێت.",
+                            onPressedBritish: () => speakbreaks23("en-GB"),
+                            onPressedAmerican: () => speakbreaks23("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The thieves broke the safe open and stole the diamonds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دزەکان قاسەکەیان شکاندبوو و ئەڵماسەکانیان دزی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks24("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks24("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The thieves broke the safe open and stole the diamonds.",
+                            kurdishText:
+                                "دزەکان قاسەکەیان شکاندبوو و ئەڵماسەکانیان دزی بوو.",
+                            onPressedBritish: () => speakbreaks24("en-GB"),
+                            onPressedAmerican: () => speakbreaks24("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (کردار) پچڕانی پەیوەندی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He broke all ties with his parents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو پەیوەندییەکی لەگەڵ دایک و باوکی پچڕاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks25("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks25("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He broke all ties with his parents.",
+                            kurdishText:
+                                "ھەموو پەیوەندییەکی لەگەڵ دایک و باوکی پچڕاند.",
+                            onPressedBritish: () => speakbreaks25("en-GB"),
+                            onPressedAmerican: () => speakbreaks25("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) ھەڵھاتن لە شوێنێک یان لەدەست کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He finally managed to break free from his attacker."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتاییدا توانی لەدەست ھێرشکارەکەی ھەڵبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks26("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks26("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He finally managed to break free from his attacker.",
+                            kurdishText:
+                                "لە کۆتاییدا توانی لەدەست ھێرشکارەکەی ھەڵبێت.",
+                            onPressedBritish: () => speakbreaks26("en-GB"),
+                            onPressedAmerican: () => speakbreaks26("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The horse tried to break free from its stable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەسپەکە ھەوڵیدا لە تەویلەکە ھەڵبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks27("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks27("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The horse tried to break free from its stable.",
+                            kurdishText: "ئەسپەکە ھەوڵیدا لە تەویلەکە ھەڵبێت.",
+                            onPressedBritish: () => speakbreaks27("en-GB"),
+                            onPressedAmerican: () => speakbreaks27("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (کردار) لاوازکردن یان لاوازبوون؛ وێرانبوون یان وێرانکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The scandal broke him (= ruined his reputation and destroyed his confidence)."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئابڕووچوونەکە کۆتایی پێھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks28("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks28("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The scandal broke him (= ruined his reputation and destroyed his confidence).",
+                            kurdishText: "ئابڕووچوونەکە کۆتایی پێھێنا.",
+                            onPressedBritish: () => speakbreaks28("en-GB"),
+                            onPressedAmerican: () => speakbreaks28("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She broke under questioning (= was no longer able to bear it) and confessed to everything."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەکەت بوو بەدەست پرسیارەوە و دانی بە ھەموو شتێکدا نا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks29("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks29("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She broke under questioning (= was no longer able to bear it) and confessed to everything.",
+                            kurdishText:
+                                "شەکەت بوو بەدەست پرسیارەوە و دانی بە ھەموو شتێکدا نا.",
+                            onPressedBritish: () => speakbreaks29("en-GB"),
+                            onPressedAmerican: () => speakbreaks29("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١١. (کردار) (لە تێنسدا) بردنەوەی یارییەک ھەرکە ڕکابەرەکە یەکەم سێرڤ لێدەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Williams broke her opponent's serve five times."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ولیام پێنج جار وەڵامی سێرڤی بەرامبەرەکەی دایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks30("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks30("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Williams broke her opponent's serve five times.",
+                            kurdishText:
+                                "ولیام پێنج جار وەڵامی سێرڤی بەرامبەرەکەی دایەوە.",
+                            onPressedBritish: () => speakbreaks30("en-GB"),
+                            onPressedAmerican: () => speakbreaks30("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٢. (کردار) وا لە کەسێک بکەیت ھەست بە بێزاری، تەنھایی، ھتد بکات و ژیانێکی ئاسایی نەژی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The death of his wife broke him completely."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مردنی ھاوژینەکەی بەتەواوی تێکیشکاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks31("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks31("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The death of his wife broke him completely.",
+                            kurdishText: "مردنی ھاوژینەکەی بەتەواوی تێکیشکاند.",
+                            onPressedBritish: () => speakbreaks31("en-GB"),
+                            onPressedAmerican: () => speakbreaks31("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٣. (کردار) کەشوھەوایەک کە دەگۆڕێت، بەتایبەتی لە دوای ماوەیەک لە باشبوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "On the third day the weather broke and they had a violent storm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕۆژی سێیەمدا کەشەکە گۆڕا و زریانێکی بەھێز ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks32("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks32("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "On the third day the weather broke and they had a violent storm.",
+                            kurdishText:
+                                "لە ڕۆژی سێیەمدا کەشەکە گۆڕا و زریانێکی بەھێز ھات.",
+                            onPressedBritish: () => speakbreaks32("en-GB"),
+                            onPressedAmerican: () => speakbreaks32("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٤. (کردار) ھەورێک کە شەقێکی تێدەکەوێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The clouds broke and the sun came out."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەورەکان شەقبوون و خۆرەکە دەرکەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks33("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks33("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The clouds broke and the sun came out.",
+                            kurdishText: "ھەورەکان شەقبوون و خۆرەکە دەرکەوت.",
+                            onPressedBritish: () => speakbreaks33("en-GB"),
+                            onPressedAmerican: () => speakbreaks33("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٥. (کردار) ھاتنە دەرەوە لە دەریایەک، مەلەوانگەیەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When his head broke the surface he took in deep gulps of air."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە سەری دەرکرد لە ئاوەکە ھەناسەی قووڵی ھەڵمژی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks34("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks34("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When his head broke the surface he took in deep gulps of air.",
+                            kurdishText:
+                                "کە سەری دەرکرد لە ئاوەکە ھەناسەی قووڵی ھەڵمژی.",
+                            onPressedBritish: () => speakbreaks34("en-GB"),
+                            onPressedAmerican: () => speakbreaks34("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٦. (کردار) کە ڕۆژ، بەیانی، یان زریانێک دەستپێ‌دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Dawn was breaking when they finally left."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرەبەیان دەستی‌‌پێکرد کە لەکۆتاییدا ڕۆشتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks35("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks35("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Dawn was breaking when they finally left.",
+                            kurdishText:
+                                "بەرەبەیان دەستی‌‌پێکرد کە لەکۆتاییدا ڕۆشتن.",
+                            onPressedBritish: () => speakbreaks35("en-GB"),
+                            onPressedAmerican: () => speakbreaks35("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We arrived just as a storm was breaking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشتین کە زریانێک دەستی‌پێدەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks36("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks36("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We arrived just as a storm was breaking.",
+                            kurdishText: "گەشتین کە زریانێک دەستی‌پێدەکرد.",
+                            onPressedBritish: () => speakbreaks36("en-GB"),
+                            onPressedAmerican: () => speakbreaks36("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٧. (کردار) ئاشکراکردنی ھەواڵێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a public outcry when the scandal broke."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناڕەزاییەکی زۆر ھەبوو کە ئابڕووچوونەکە ئاشکرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks37("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks37("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a public outcry when the scandal broke.",
+                            kurdishText:
+                                "ناڕەزاییەکی زۆر ھەبوو کە ئابڕووچوونەکە ئاشکرابوو.",
+                            onPressedBritish: () => speakbreaks37("en-GB"),
+                            onPressedAmerican: () => speakbreaks37("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٨. (کردار) بوون بە یەکەم کەس ھەواڵێکی ناخۆش بە کەسێک بڵێیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who's going to break it to her?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کێ ھەواڵەکەی پێ‌ دەڵێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks38("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks38("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Who's going to break it to her?",
+                            kurdishText: "کێ ھەواڵەکەی پێ‌ دەڵێت؟",
+                            onPressedBritish: () => speakbreaks38("en-GB"),
+                            onPressedAmerican: () => speakbreaks38("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm sorry to be the one to break the news to you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەداخەوەم کە دەبم بەو کەسەی ھەواڵەکەت پێ ڕادەگەیەنم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks39("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks39("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm sorry to be the one to break the news to you.",
+                            kurdishText:
+                                "بەداخەوەم کە دەبم بەو کەسەی ھەواڵەکەت پێ ڕادەگەیەنم.",
+                            onPressedBritish: () => speakbreaks39("en-GB"),
+                            onPressedAmerican: () => speakbreaks39("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٩. (کردار) گۆڕانی تۆنی دەنگ بەھۆی ھەستو سۆزەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her voice broke as she told us the dreadful news."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگی دەلەرزی کە ھەواڵە ناخۆشەکەی پێ گوتین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks40("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks40("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her voice broke as she told us the dreadful news.",
+                            kurdishText:
+                                "دەنگی دەلەرزی کە ھەواڵە ناخۆشەکەی پێ گوتین.",
+                            onPressedBritish: () => speakbreaks40("en-GB"),
+                            onPressedAmerican: () => speakbreaks40("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢٠. (کردار) کە دەنگی کوڕێک وەک دەنگی پیاوی لێ دێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His voice broke when he was 13."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەنگی گڕ بوو کە ١٣ ساڵان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks41("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks41("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His voice broke when he was 13.",
+                            kurdishText: "دەنگی گڕ بوو کە ١٣ ساڵان بوو.",
+                            onPressedBritish: () => speakbreaks41("en-GB"),
+                            onPressedAmerican: () => speakbreaks41("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢١. (کردار) شکاندنی ڕیکۆردێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie broke all box-office records."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە ھەموو ڕیکۆردەکانی بۆکس ئۆفیسی شکاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks42("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks42("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie broke all box-office records.",
+                            kurdishText:
+                                "فیلمەکە ھەموو ڕیکۆردەکانی بۆکس ئۆفیسی شکاند.",
+                            onPressedBritish: () => speakbreaks42("en-GB"),
+                            onPressedAmerican: () => speakbreaks42("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢٢. (کردار) کە شەپۆلێک دەکێشێت بە شتێکدا، و دەکەوێت و نامێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A huge wave broke against the rocks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەپۆلێکی گەورە کێشای بە تاشە بەردەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks43("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks43("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A huge wave broke against the rocks.",
+                            kurdishText:
+                                "شەپۆلێکی گەورە کێشای بە تاشە بەردەکاندا.",
+                            onPressedBritish: () => speakbreaks43("en-GB"),
+                            onPressedAmerican: () => speakbreaks43("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢٣. (کردار) زانینی واتای شتێکی نھێنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The enemy were unable to break the code (= understand it and so make it useless)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوژمن نەیانتوانی واتای کۆدەکە بزانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks44("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks44("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The enemy were unable to break the code (= understand it and so make it useless).",
+                            kurdishText: "دوژمن نەیانتوانی واتای کۆدەکە بزانن.",
+                            onPressedBritish: () => speakbreaks44("en-GB"),
+                            onPressedAmerican: () => speakbreaks44("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢٤. (کردار) دراوێکی دۆلار بگۆڕیت بۆ دراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Can you break a twenty-dollar bill?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت ٢٠ دۆلارییەک ورد بکەیتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks45("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks45("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can you break a twenty-dollar bill?",
+                            kurdishText: "دەتوانیت ٢٠ دۆلارییەک ورد بکەیتەوە؟",
+                            onPressedBritish: () => speakbreaks45("en-GB"),
+                            onPressedAmerican: () => speakbreaks45("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢٥. (ناو) وچانێکی کەم بۆ حەسانەوە، نان خواردن، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She was on her lunch break."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە پشووی نانی نیوەڕۆی بوو؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks46("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks46("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was on her lunch break.",
+                            kurdishText: "لە پشووی نانی نیوەڕۆی بوو؟",
+                            onPressedBritish: () => speakbreaks46("en-GB"),
+                            onPressedAmerican: () => speakbreaks46("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She worked all day without a break."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی ڕۆژەکە بەبێ پشوو کاری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks47("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks47("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She worked all day without a break.",
+                            kurdishText: "تەواوی ڕۆژەکە بەبێ پشوو کاری کرد.",
+                            onPressedBritish: () => speakbreaks47("en-GB"),
+                            onPressedAmerican: () => speakbreaks47("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢٦. (ناو) پشووی نێوان وانەکانی خوێندنگە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Come and see me at break."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە پشووەکەدا وەرە بۆ لام."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks48("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks48("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Come and see me at break.",
+                            kurdishText: "لە پشووەکەدا وەرە بۆ لام.",
+                            onPressedBritish: () => speakbreaks48("en-GB"),
+                            onPressedAmerican: () => speakbreaks48("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢٧. (ناو) ماوەیەک کە شتێک دەوەستێت پێش ئەوەی دووبارە دەستپێ‌بکاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Employees can take a career break of up to one year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارمەندان دەتوانن دابڕانک لە کارکردن وەربگرن بۆ ماوەی یەک ساڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks49("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks49("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Employees can take a career break of up to one year.",
+                            kurdishText:
+                                "کارمەندان دەتوانن دابڕانک لە کارکردن وەربگرن بۆ ماوەی یەک ساڵ.",
+                            onPressedBritish: () => speakbreaks49("en-GB"),
+                            onPressedAmerican: () => speakbreaks49("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team have been taking a break in Spain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە پشوو لە ئیسپانیا وەردەگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks50("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks50("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The team have been taking a break in Spain.",
+                            kurdishText: "تیمەکە پشوو لە ئیسپانیا وەردەگرن.",
+                            onPressedBritish: () => speakbreaks50("en-GB"),
+                            onPressedAmerican: () => speakbreaks50("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢٨. (ناو) ماوەیەکی کەم کە پڕۆگرامێکی تەلەفیزیۆنی یان ڕادیۆ دەوەستێت بۆ پیشاندانی سپۆنسەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'll make us a cup of tea in the next break."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێڵایەک چا بۆ ھەردووکمان ئامادە دەکەم لە وچانی دواتردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks51("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks51("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'll make us a cup of tea in the next break.",
+                            kurdishText:
+                                "پێڵایەک چا بۆ ھەردووکمان ئامادە دەکەم لە وچانی دواتردا.",
+                            onPressedBritish: () => speakbreaks51("en-GB"),
+                            onPressedAmerican: () => speakbreaks51("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢٩. (ناو) پشوویەکی کورت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's a great city for a weekend break."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارێکی خۆشە بۆ پشوویەکی کۆتایی ھەفتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks52("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks52("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's a great city for a weekend break.",
+                            kurdishText:
+                                "شارێکی خۆشە بۆ پشوویەکی کۆتایی ھەفتە.",
+                            onPressedBritish: () => speakbreaks52("en-GB"),
+                            onPressedAmerican: () => speakbreaks52("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣٠. (ناو) ئەو ساتەی کە دۆخێک یان پەیوەندییەک کە بۆ ماوەیەکی درێژە بوونی ھەیە دەگۆڕێت، کۆتایی دێت، یان دەپچڕێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He needed to make a complete break with the past."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستی بوو دابڕانێکی تەواو لە ڕابردوو وەربگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks53("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks53("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He needed to make a complete break with the past.",
+                            kurdishText:
+                                "پێویستی بوو دابڕانێکی تەواو لە ڕابردوو وەربگرێت.",
+                            onPressedBritish: () => speakbreaks53("en-GB"),
+                            onPressedAmerican: () => speakbreaks53("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their decision to not name their daughter Jane was a break with family tradition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارەکەیان کە منداڵەکەیان ناو نەنێن جەین دابڕانێک بوو لە نەریتی خێزانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks54("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks54("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their decision to not name their daughter Jane was a break with family tradition.",
+                            kurdishText:
+                                "بڕیارەکەیان کە منداڵەکەیان ناو نەنێن جەین دابڕانێک بوو لە نەریتی خێزانەکە.",
+                            onPressedBritish: () => speakbreaks54("en-GB"),
+                            onPressedAmerican: () => speakbreaks54("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣١. (ناو) شەقێک یان بۆشاییەک لە نێوان دوو شت یان زیاتر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We could see the moon through a break in the clouds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمانتوانی مانگ ببینین لە شەقێکەوە لە ھەورەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks55("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks55("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We could see the moon through a break in the clouds.",
+                            kurdishText:
+                                "دەمانتوانی مانگ ببینین لە شەقێکەوە لە ھەورەکاندا.",
+                            onPressedBritish: () => speakbreaks55("en-GB"),
+                            onPressedAmerican: () => speakbreaks55("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Wait for a break in the traffic before crossing the road."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوەستە بەینێک بکەوێتە ترافیکەوە پێش ئەوەی بپەڕیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks56("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks56("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Wait for a break in the traffic before crossing the road.",
+                            kurdishText:
+                                "بوەستە بەینێک بکەوێتە ترافیکەوە پێش ئەوەی بپەڕیتەوە.",
+                            onPressedBritish: () => speakbreaks56("en-GB"),
+                            onPressedAmerican: () => speakbreaks56("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣٢. (ناو) بەختێک، دەرفەتێک بۆ کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We've had a few bad breaks (= pieces of bad luck) along the way."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تووشی ھەندێک بەختی خراپ بووین لە پڕۆسەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks57("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks57("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We've had a few bad breaks (= pieces of bad luck) along the way.",
+                            kurdishText:
+                                "تووشی ھەندێک بەختی خراپ بووین لە پڕۆسەکەدا.",
+                            onPressedBritish: () => speakbreaks57("en-GB"),
+                            onPressedAmerican: () => speakbreaks57("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you just give me a break, you won’t regret it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر دەرفەتێکم پێ بدەیت پەشیمان نابی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks58("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks58("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you just give me a break, you won’t regret it.",
+                            kurdishText:
+                                "ئەگەر دەرفەتێکم پێ بدەیت پەشیمان نابی.",
+                            onPressedBritish: () => speakbreaks58("en-GB"),
+                            onPressedAmerican: () => speakbreaks58("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣٣. (ناو) شوێنی شکان، بەتایبەتی لە ئێسکی جەستەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The X-ray showed there was no break in his leg."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیشکە ئێکسەکە دەریخست ھیچ شکانێک لە لاقیدا نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks59("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks59("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The X-ray showed there was no break in his leg.",
+                            kurdishText:
+                                "تیشکە ئێکسەکە دەریخست ھیچ شکانێک لە لاقیدا نییە.",
+                            onPressedBritish: () => speakbreaks59("en-GB"),
+                            onPressedAmerican: () => speakbreaks59("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣٤. (ناو) لە تێنسدا بردنەوە لە یارییەکە کە ڕکابەرەکەت یەکەم سێرڤ لێ دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Murray must get another break to win."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆرای دەبێت بردنەوەیەکی دیکەی ھەبێت بۆ ئەوەی بباتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks60("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks60("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Murray must get another break to win.",
+                            kurdishText:
+                                "مۆرای دەبێت بردنەوەیەکی دیکەی ھەبێت بۆ ئەوەی بباتەوە.",
+                            onPressedBritish: () => speakbreaks60("en-GB"),
+                            onPressedAmerican: () => speakbreaks60("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣٥. (ناو) لە بلیارددا ژمارەی ئەو خاڵانەیە کە بە زنجیرەیەک لە لێدانی سەرکەوتووانە لەلایەن یاریزانێکەوە لە یەک نۆرەدا بەدەست دێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The champion began with breaks of 74 and 58."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاڵەوانەکە دەستی پێکرد بە بردنەوەی خاڵی ٧٤ و ٥٨ی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaks61("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaks61("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The champion began with breaks of 74 and 58.",
+                            kurdishText:
+                                "پاڵەوانەکە دەستی پێکرد بە بردنەوەی خاڵی ٧٤ و ٥٨ی.",
+                            onPressedBritish: () => speakbreaks61("en-GB"),
+                            onPressedAmerican: () => speakbreaks61("en-US"),
                           ),
                         ],
                       ),

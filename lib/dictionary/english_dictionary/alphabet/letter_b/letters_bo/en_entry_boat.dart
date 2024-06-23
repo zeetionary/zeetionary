@@ -150,118 +150,41 @@ class EnglishEntryboat extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئامرازێکی گواستنەوە کە گەشت دەکات لەسەر ئاو و دەجوڵێندرێت بە سەوڵ، چارۆکە، یان بزوێنەرێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can take a boat trip along the coast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانی گەشتێک بە بەلەم بکەیت بەدرێژایی کەنارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboats1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboats1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can take a boat trip along the coast.",
+                            kurdishText:
+                                "دەتوانی گەشتێک بە بەلەم بکەیت بەدرێژایی کەنارەکە.",
+                            onPressedBritish: () => speakboats1("en-GB"),
+                            onPressedAmerican: () => speakboats1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A boat carrying more than 60 people capsized and sank."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەلەمێک کە زیاتر لە ٦٠ کەسی لەسەربوو وەرگەڕا و نغرۆبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboats2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboats2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A boat carrying more than 60 people capsized and sank.",
+                            kurdishText:
+                                "بەلەمێک کە زیاتر لە ٦٠ کەسی لەسەربوو وەرگەڕا و نغرۆبوو.",
+                            onPressedBritish: () => speakboats2("en-GB"),
+                            onPressedAmerican: () => speakboats2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ھە جۆرێکی کەشتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Beth had gone down to Bombay to meet the boat on which her sister was arriving."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێس چووبوو بۆ مۆمبای بۆ ئەوەی ئەو کەشتییە ببینێت کە خوشکەکەی پێی دەگەیشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboats3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboats3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Beth had gone down to Bombay to meet the boat on which her sister was arriving.",
+                            kurdishText:
+                                "بێس چووبوو بۆ مۆمبای بۆ ئەوەی ئەو کەشتییە ببینێت کە خوشکەکەی پێی دەگەیشت.",
+                            onPressedBritish: () => speakboats3("en-GB"),
+                            onPressedAmerican: () => speakboats3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Are you travelling by boat or by air?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە کەشتی یان فڕۆکە گەشت دەکەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboats4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboats4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Are you travelling by boat or by air?",
+                            kurdishText: "بە کەشتی یان فڕۆکە گەشت دەکەیت؟",
+                            onPressedBritish: () => speakboats4("en-GB"),
+                            onPressedAmerican: () => speakboats4("en-US"),
                           ),
                         ],
                       ),

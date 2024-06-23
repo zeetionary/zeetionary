@@ -161,35 +161,15 @@ class EnglishEntryauspiciously extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بەشێوەیەک کە ئاماژە پیشان دەدات کە شتێک لە داھاتوودا سەرکەوتوو دەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The day did not begin auspiciously."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژەکە بە ئاماژەیەکی باشەوە دەستی‌پێنەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauspiciously446("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauspiciously446(
-                                        // REPLACE: auspiciously
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The day did not begin auspiciously.",
+                            kurdishText:
+                                "ڕۆژەکە بە ئاماژەیەکی باشەوە دەستی‌پێنەکرد.",
+                            onPressedBritish: () =>
+                                speakauspiciously446("en-GB"),
+                            onPressedAmerican: () => speakauspiciously446(
+                                // REPLACE: auspiciously
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

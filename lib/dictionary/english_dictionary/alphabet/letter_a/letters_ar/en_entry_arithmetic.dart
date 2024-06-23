@@ -162,34 +162,14 @@ class EnglishEntryarithmetic extends StatelessWidget {
                               text:
                                   "١. (ناو) کۆکردنەوە، لێدەرکردن، لێکدان، دابەش، ھتد. لە بیرکاریدا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's not very good at arithmetic."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ژمێرەناسیدا زۆر باش نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarithmetic1223("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarithmetic1223(
-                                        // REPLACE: arithmetic /əˈrɪθmətɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's not very good at arithmetic.",
+                            kurdishText: "لە ژمێرەناسیدا زۆر باش نییە.",
+                            onPressedBritish: () =>
+                                speakarithmetic1223("en-GB"),
+                            onPressedAmerican: () => speakarithmetic1223(
+                                // REPLACE: arithmetic /əˈrɪθmətɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

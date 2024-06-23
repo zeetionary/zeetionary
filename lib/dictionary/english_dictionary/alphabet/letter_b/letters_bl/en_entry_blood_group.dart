@@ -153,58 +153,20 @@ class EnglishEntrybloodgroup extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جۆرەکانی خوێنی مرۆڤ کە بۆ مەبەستی پزیشکی جیاکراونەتەوە "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "(British English) What blood group are you?"),
-                                    ExampleSentenceKurdish(
-                                        text: "سەر بە چی جۆرێکی خوێنی؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodgroups1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodgroups1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "(British English) What blood group are you?",
+                            kurdishText: "سەر بە چی جۆرێکی خوێنی؟",
+                            onPressedBritish: () => speakbloodgroups1("en-GB"),
+                            onPressedAmerican: () => speakbloodgroups1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "(North American English) What blood type do you have?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چی کۆمەڵەیەکی خوێنت ھەیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodgroups2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodgroups2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "(North American English) What blood type do you have?",
+                            kurdishText: "چی کۆمەڵەیەکی خوێنت ھەیە؟",
+                            onPressedBritish: () => speakbloodgroups2("en-GB"),
+                            onPressedAmerican: () => speakbloodgroups2("en-US"),
                           ),
                         ],
                       ),

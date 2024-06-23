@@ -149,62 +149,24 @@ class EnglishEntrybleakly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە ھیچ ھۆکارێک نادات بۆ ئەوەی ئومێدت ھەبێت یان پێشبینی شتی باش بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She thought of herself, bleakly, as having no chance of success."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیری لە خۆی دەکردەوە بە بێ ھیوایەوە کە ھیچ ھیوای سەرکەوتنی نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleaklys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleaklys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She thought of herself, bleakly, as having no chance of success.",
+                            kurdishText:
+                                "بیری لە خۆی دەکردەوە بە بێ ھیوایەوە کە ھیچ ھیوای سەرکەوتنی نییە.",
+                            onPressedBritish: () => speakbleaklys1("en-GB"),
+                            onPressedAmerican: () => speakbleaklys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵکار) بەشێوەیەک کە بەتاڵ و ساردە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The wintry vistas are bleakly beautiful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەشتە زستانەییەکان جوانن بە بەتاڵی و ساردییانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleaklys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleaklys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The wintry vistas are bleakly beautiful.",
+                            kurdishText:
+                                "دەشتە زستانەییەکان جوانن بە بەتاڵی و ساردییانەوە.",
+                            onPressedBritish: () => speakbleaklys2("en-GB"),
+                            onPressedAmerican: () => speakbleaklys2("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

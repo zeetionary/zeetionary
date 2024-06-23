@@ -138,128 +138,52 @@ class EnglishEntryactually extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) بەکاردێت بۆ پیشاندانی ئەوەی شتێک ڕاستە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are lots of people there who can actually help you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆر خەڵک ھەن لەوێ کە بەڕاستی دەتوانن یارمەتیت بدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactual7618("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakactual7618(
-                                        // REPLACE: actually /ˈæktʃuəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are lots of people there who can actually help you.",
+                            kurdishText:
+                                "ژمارەیەکی زۆر خەڵک ھەن لەوێ کە بەڕاستی دەتوانن یارمەتیت بدەن.",
+                            onPressedBritish: () => speakactual7618("en-GB"),
+                            onPressedAmerican: () => speakactual7618(
+                                // REPLACE: actually /ˈæktʃuəli/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book was never actually published."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە لەڕاستیدا ھەرگیز بڵاونەکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactua9487("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakactua9487(
-                                        // REPLACE: actually /ˈæktʃuəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book was never actually published.",
+                            kurdishText:
+                                "کتێبەکە لەڕاستیدا ھەرگیز بڵاونەکراوە.",
+                            onPressedBritish: () => speakactua9487("en-GB"),
+                            onPressedAmerican: () => speakactua9487(
+                                // REPLACE: actually /ˈæktʃuəli/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەکاردێت بۆ وتنی ڕاستی بابەتێک و بەراوردکردنی لەگەڵ باوەڕی کەسێک لەسەری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The food was not actually all that expensive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەڕاستیدا خواردنەکە ئەوەنەش گران نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactu35269("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakactu35269(
-                                        // REPLACE: actually /ˈæktʃuəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The food was not actually all that expensive.",
+                            kurdishText:
+                                "لەڕاستیدا خواردنەکە ئەوەنەش گران نەبوو.",
+                            onPressedBritish: () => speakactu35269("en-GB"),
+                            onPressedAmerican: () => speakactu35269(
+                                // REPLACE: actually /ˈæktʃuəli/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) بەکاردێت بۆ بە ڕێزەوە ڕاستکردنەوەی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We're not American, actually. We're Canadian."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێمە ئەمریکی نین لەڕاستیدا. ئێمە کەنەدین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactu4562("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakactu4562(
-                                        // REPLACE: actually /ˈæktʃuəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We're not American, actually. We're Canadian.",
+                            kurdishText:
+                                "ئێمە ئەمریکی نین لەڕاستیدا. ئێمە کەنەدین.",
+                            onPressedBritish: () => speakactu4562("en-GB"),
+                            onPressedAmerican: () => speakactu4562(
+                                // REPLACE: actually /ˈæktʃuəli/
+                                "en-US"),
                           ),
                         ],
                       ),

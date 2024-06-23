@@ -146,124 +146,48 @@ class EnglishEntrybreeze extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) بایەکی نەرم و کز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The flowers were gently swaying in the breeze."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوڵەکان بە ئارامی لە سریوەکەدا دەڕاژان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "breeze" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreezes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreezes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The flowers were gently swaying in the breeze.",
+                            kurdishText:
+                                "گوڵەکان بە ئارامی لە سریوەکەدا دەڕاژان.", // breeze" as
+                            onPressedBritish: () => speakbreezes1("en-GB"),
+                            onPressedAmerican: () => speakbreezes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شتێکی زۆر ئاسان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Going down the hill would be a breeze after the long climb up!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوونە خوارەوە بە گردەکەدا فشە دەبێت لە دوای سەرکەوتنێکی درێژ پێیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreezes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreezes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Going down the hill would be a breeze after the long climb up!",
+                            kurdishText:
+                                "چوونە خوارەوە بە گردەکەدا فشە دەبێت لە دوای سەرکەوتنێکی درێژ پێیدا.",
+                            onPressedBritish: () => speakbreezes2("en-GB"),
+                            onPressedAmerican: () => speakbreezes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) جوڵان بە بە دڵخۆشی و متمانەوە بەبێ ئەوەی ھەست بە شەرم بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She just breezed in as if she'd only been away a day instead of a year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی کرد بە ژووردا وەک ئەوەی ڕۆژێک ڕۆشتبێت لەجیاتی ساڵێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreezes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreezes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She just breezed in as if she'd only been away a day instead of a year.",
+                            kurdishText:
+                                "خۆی کرد بە ژووردا وەک ئەوەی ڕۆژێک ڕۆشتبێت لەجیاتی ساڵێک.",
+                            onPressedBritish: () => speakbreezes3("en-GB"),
+                            onPressedAmerican: () => speakbreezes3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) بە ئاسانی تەواوکردن یان بردنەوەی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He breezed to victory with 78 percent of the vote."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکەوتنی تۆمارکرد بە ٧٨ لە سەدی دەنگەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreezes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreezes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He breezed to victory with 78 percent of the vote.",
+                            kurdishText:
+                                "سەرکەوتنی تۆمارکرد بە ٧٨ لە سەدی دەنگەکان.",
+                            onPressedBritish: () => speakbreezes4("en-GB"),
+                            onPressedAmerican: () => speakbreezes4("en-US"),
                           ),
                         ],
                       ),

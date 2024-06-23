@@ -156,100 +156,43 @@ class EnglishEntrybackbone extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) بڕبڕەی پشت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The doctor examined the patient's backbone for signs of injury."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دکتۆرەکە پشکنینی بۆ بڕبڕەی پشتی نەخۆشەکە کرد بۆ ئاماژەی برین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s1(// REPLACE: backbone
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The doctor examined the patient's backbone for signs of injury.",
+                            kurdishText:
+                                "دکتۆرەکە پشکنینی بۆ بڕبڕەی پشتی نەخۆشەکە کرد بۆ ئاماژەی برین.",
+                            onPressedBritish: () => speakb3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s1(// REPLACE: backbone
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) گرنگترین بەشی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Farming is the backbone of the country's economy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کشتوکاڵ بڕبڕەی پشتی ئابووری وڵاتەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s2(// REPLACE: backbone
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Farming is the backbone of the country's economy.",
+                            kurdishText:
+                                "کشتوکاڵ بڕبڕەی پشتی ئابووری وڵاتەکەیە.",
+                            onPressedBritish: () => speakb3s2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s2(// REPLACE: backbone
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ھێزی پێویست بۆ کردنی شتێکی گران"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He doesn't have the backbone to face the truth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوێری ئەوەی نییە ڕووبەڕووی ڕاستییەکە ببێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s3(// REPLACE: backbone
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He doesn't have the backbone to face the truth.",
+                            kurdishText:
+                                "بوێری ئەوەی نییە ڕووبەڕووی ڕاستییەکە ببێتەوە.",
+                            onPressedBritish: () => speakb3s3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s3(// REPLACE: backbone
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

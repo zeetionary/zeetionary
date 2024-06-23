@@ -142,34 +142,15 @@ class EnglishEntrybuildingsociety extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ڕێکخراوی خانووبەرە یان خانووکڕین؛ دامەزراوەیەک کەپارە بە خەڵک دەدات بۆ کڕینی خانوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She opened an account at the building society."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەژمارێکی لە ڕێکخراوی خانووبەرە کردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "building society", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbuildingsocietys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbuildingsocietys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She opened an account at the building society.",
+                            kurdishText:
+                                "ھەژمارێکی لە ڕێکخراوی خانووبەرە کردەوە.", // building society", follow LX strictly
+                            onPressedBritish: () =>
+                                speakbuildingsocietys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbuildingsocietys1("en-US"),
                           ),
                         ],
                       ),

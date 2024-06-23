@@ -126,66 +126,28 @@ class EnglishEntryalthough extends StatelessWidget {
                               text:
                                   "١. (لێکدەر) بۆ وتنی شتێک کە وا دەکات خاڵی سەرەکی ڕستەکە ببێت بە سوپرایز"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Although the sun was shining, it wasn't very warm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەرچی خۆرەکە دەدرەوشایەوە، ھێندە گەرم نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalthough4596("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalthough4596(
-                                        // REPLACE: although /ɔːlˈðəʊ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Although the sun was shining, it wasn't very warm.",
+                            kurdishText:
+                                "ئەگەرچی خۆرەکە دەدرەوشایەوە، ھێندە گەرم نەبوو.",
+                            onPressedBritish: () => speakalthough4596("en-GB"),
+                            onPressedAmerican: () => speakalthough4596(
+                                // REPLACE: although /ɔːlˈðəʊ/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (لێکدەر) بۆ وتنی بەڵام"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I felt he was wrong, although I didn't say so at the time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستم کرد ھەڵەبوو، بەڵام/ئەگەرچی ئەوکاتە ئەوەم نەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalthough566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalthough566(
-                                        // REPLACE: although /ɔːlˈðəʊ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I felt he was wrong, although I didn't say so at the time.",
+                            kurdishText:
+                                "ھەستم کرد ھەڵەبوو، بەڵام/ئەگەرچی ئەوکاتە ئەوەم نەوت.",
+                            onPressedBritish: () => speakalthough566("en-GB"),
+                            onPressedAmerican: () => speakalthough566(
+                                // REPLACE: although /ɔːlˈðəʊ/
+                                "en-US"),
                           ),
                         ],
                       ),

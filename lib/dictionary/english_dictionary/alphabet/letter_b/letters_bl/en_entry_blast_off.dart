@@ -148,30 +148,11 @@ class EnglishEntryblastoff extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ساتەوەختی ھەڵدانی کەشتییەکی ئاسمانی بۆ بۆشایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Blast-off is in 30 seconds."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەڵدان لە ٣٠ چرکەدا دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblastoffs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblastoffs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Blast-off is in 30 seconds.",
+                            kurdishText: "ھەڵدان لە ٣٠ چرکەدا دەبێت.",
+                            onPressedBritish: () => speakblastoffs1("en-GB"),
+                            onPressedAmerican: () => speakblastoffs1("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

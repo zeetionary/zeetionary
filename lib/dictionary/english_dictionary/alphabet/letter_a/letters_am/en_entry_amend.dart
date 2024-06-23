@@ -112,65 +112,27 @@ class EnglishEntryamend extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) دەستکاریکردنی یاسایەک یان لێدوانێک بۆ چاککردنی ھەڵەیەک یان باشترکردنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Parliament will vote to amend the constitution."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرلەمان دەنگ لەسەر ھەموارکردنی دەستوور دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamend466("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakamend466(// REPLACE: amend /əˈmend/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Parliament will vote to amend the constitution.",
+                            kurdishText:
+                                "پەرلەمان دەنگ لەسەر ھەموارکردنی دەستوور دەدات.",
+                            onPressedBritish: () => speakamend466("en-GB"),
+                            onPressedAmerican: () =>
+                                speakamend466(// REPLACE: amend /əˈmend/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "MPs were urged to amend the law to prevent another oil tanker disaster."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرلەمانتاران ھاندران گۆڕانکاری لە یاساکە بکەن بۆ ڕێگری لە کارەساتێکی دیکەی تەنکەری نەوتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamend49996("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamend49996(
-                                        // REPLACE: amend /əˈmend/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "MPs were urged to amend the law to prevent another oil tanker disaster.",
+                            kurdishText:
+                                "پەرلەمانتاران ھاندران گۆڕانکاری لە یاساکە بکەن بۆ ڕێگری لە کارەساتێکی دیکەی تەنکەری نەوتی.",
+                            onPressedBritish: () => speakamend49996("en-GB"),
+                            onPressedAmerican: () => speakamend49996(
+                                // REPLACE: amend /əˈmend/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

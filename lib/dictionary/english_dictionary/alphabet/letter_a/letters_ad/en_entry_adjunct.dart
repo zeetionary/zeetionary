@@ -116,34 +116,15 @@ class EnglishEntryadjunct extends StatelessWidget {
                                   ""),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شتێک کە زیاددەکرێت بۆ شتێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The course would be a useful adjunct to my studies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆرسەکە سەرخستەیەکی باش دەبێت بۆ خوێندنەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadj58692("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadj58692(
-                                        // REPLACE: adjunct /ˈædʒʌŋkt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The course would be a useful adjunct to my studies.",
+                            kurdishText:
+                                "کۆرسەکە سەرخستەیەکی باش دەبێت بۆ خوێندنەکەم.",
+                            onPressedBritish: () => speakadj58692("en-GB"),
+                            onPressedAmerican: () => speakadj58692(
+                                // REPLACE: adjunct /ˈædʒʌŋkt/
+                                "en-US"),
                           ),
                         ],
                       ),

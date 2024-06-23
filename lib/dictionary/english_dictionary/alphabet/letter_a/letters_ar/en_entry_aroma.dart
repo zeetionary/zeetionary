@@ -162,34 +162,15 @@ class EnglishEntryaroma extends StatelessWidget {
                               text:
                                   "١. (ناو) بۆنێکی خۆش کە بە ئاسانی ھەستی پێ دەکرێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A delicious aroma was coming from the kitchen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆن و بەرامەیەکی بەلەزەت لە چێشتخانەکەوە دەھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaroma822("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaroma822(
-                                        // REPLACE: aroma /əˈrəʊmə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A delicious aroma was coming from the kitchen.",
+                            kurdishText:
+                                "بۆن و بەرامەیەکی بەلەزەت لە چێشتخانەکەوە دەھات.",
+                            onPressedBritish: () => speakaroma822("en-GB"),
+                            onPressedAmerican: () => speakaroma822(
+                                // REPLACE: aroma /əˈrəʊmə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

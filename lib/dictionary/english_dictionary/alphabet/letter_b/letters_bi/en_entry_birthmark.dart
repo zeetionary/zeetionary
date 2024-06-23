@@ -150,32 +150,13 @@ class EnglishEntrybirthmark extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) خاڵێکی قاوەیی یان سوور کە لەسەر پێستی کەسێکە لە زگماکییەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Baby's birthmark looked like a tiny strawberry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاڵە زگماکییەکەی منداڵەکە لە لە شلیکێکی بچووک دەچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirthmarks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirthmarks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Baby's birthmark looked like a tiny strawberry.",
+                            kurdishText:
+                                "خاڵە زگماکییەکەی منداڵەکە لە لە شلیکێکی بچووک دەچوو.",
+                            onPressedBritish: () => speakbirthmarks1("en-GB"),
+                            onPressedAmerican: () => speakbirthmarks1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

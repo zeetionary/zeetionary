@@ -145,32 +145,13 @@ class EnglishEntrybrickwork extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو خشتانەی بەکارھێنراون بۆ درووستکردنی بینایەک، دیوارێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Plaster had fallen away in places, exposing the brickwork."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلاستەر لەملاولا لێبووەوە و خشتەکان دەرکەوتبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brickwork" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrickworks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrickworks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Plaster had fallen away in places, exposing the brickwork.",
+                            kurdishText:
+                                "پلاستەر لەملاولا لێبووەوە و خشتەکان دەرکەوتبوون.", // brickwork" as
+                            onPressedBritish: () => speakbrickworks1("en-GB"),
+                            onPressedAmerican: () => speakbrickworks1("en-US"),
                           ),
                         ],
                       ),

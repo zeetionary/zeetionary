@@ -146,64 +146,24 @@ class EnglishEntrybodewellill extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ئیدیەم) بوون بە ئاماژەیەکی باش یان خراپ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These figures do not bode well for the company's future."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ئامارانە ئاماژەی باش نین بۆ داھاتووی کۆمپانیاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbodewellills1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbodewellills1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These figures do not bode well for the company's future.",
+                            kurdishText:
+                                "ئەم ئامارانە ئاماژەی باش نین بۆ داھاتووی کۆمپانیاکە.",
+                            onPressedBritish: () => speakbodewellills1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbodewellills1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The look on her face boded ill for anyone who crossed her path that day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووی سەر ڕووخساری خراپ بوو بۆ ھەر کەسێک کە بە ھەمان ڕێگای ئەودا چوو ئەو ڕۆژە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbodewellills2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbodewellills2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The look on her face boded ill for anyone who crossed her path that day.",
+                            kurdishText:
+                                "ڕووی سەر ڕووخساری خراپ بوو بۆ ھەر کەسێک کە بە ھەمان ڕێگای ئەودا چوو ئەو ڕۆژە.",
+                            onPressedBritish: () => speakbodewellills2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbodewellills2("en-US"),
                           ),
                         ],
                       ),

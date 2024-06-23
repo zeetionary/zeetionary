@@ -148,62 +148,22 @@ class EnglishEntrybonnet extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کڵاوێک کە لەژێر چەناگەدا دەبەسترێت و بۆ منداڵان دەبەسترێت، و لە ڕابردوودا بۆ ژنان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The baby had a cute bonnet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکە کڵاوێکی جوانی پۆشیبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonnets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonnets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The baby had a cute bonnet.",
+                            kurdishText: "منداڵەکە کڵاوێکی جوانی پۆشیبوو.",
+                            onPressedBritish: () => speakbonnets1("en-GB"),
+                            onPressedAmerican: () => speakbonnets1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو پارچەیەی کە لەسەر پێشەوەی ئۆتۆمبێلە و مەکینەکەی دادەپۆشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Lift the bonnet to check the oil."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆنیتەکە بەرزبکەوە بۆ پشکنینی ڕۆنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonnets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonnets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Lift the bonnet to check the oil.",
+                            kurdishText:
+                                "بۆنیتەکە بەرزبکەوە بۆ پشکنینی ڕۆنەکە.",
+                            onPressedBritish: () => speakbonnets2("en-GB"),
+                            onPressedAmerican: () => speakbonnets2("en-US"),
                           ),
                         ],
                       ),

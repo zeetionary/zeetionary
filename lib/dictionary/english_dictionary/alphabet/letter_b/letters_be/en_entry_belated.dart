@@ -150,61 +150,23 @@ class EnglishEntrybelated extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) درەنگتر لە کاتی خۆی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This increase in funding suggests a belated acknowledgement of the project’s value."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیادکردنی بودجە ئاماژەیە بۆ دانپێانانێکی درەنگ بە گرنگی پڕۆژەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelateds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelateds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This increase in funding suggests a belated acknowledgement of the project’s value.",
+                            kurdishText:
+                                "زیادکردنی بودجە ئاماژەیە بۆ دانپێانانێکی درەنگ بە گرنگی پڕۆژەکە.",
+                            onPressedBritish: () => speakbelateds1("en-GB"),
+                            onPressedAmerican: () => speakbelateds1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He did make a belated attempt to apologize."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵێکی زۆردرەنگی دا بۆ داواکردن بۆ لێبووردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelateds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelateds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He did make a belated attempt to apologize.",
+                            kurdishText:
+                                "ھەوڵێکی زۆردرەنگی دا بۆ داواکردن بۆ لێبووردن.",
+                            onPressedBritish: () => speakbelateds2("en-GB"),
+                            onPressedAmerican: () => speakbelateds2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

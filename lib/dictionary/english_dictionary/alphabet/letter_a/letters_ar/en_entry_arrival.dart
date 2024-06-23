@@ -164,194 +164,79 @@ class EnglishEntryarrival extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) گەشتنە شوێنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We apologize for the late arrival of the train."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوای لێبووردن ئەکەین بۆ درەنگ گەشتنی شەمەندەفەرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrival504("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrival504(
-                                        // REPLACE: arrival /əˈraɪvl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We apologize for the late arrival of the train.",
+                            kurdishText:
+                                "داوای لێبووردن ئەکەین بۆ درەنگ گەشتنی شەمەندەفەرەکە.",
+                            onPressedBritish: () => speakarrival504("en-GB"),
+                            onPressedAmerican: () => speakarrival504(
+                                // REPLACE: arrival /əˈraɪvl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our estimated time of arrival is 7.15."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتی پێشبینیکراوی گەشتنمان ٧:١٥ خولەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrival506("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrival506(
-                                        // REPLACE: arrival /əˈraɪvl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our estimated time of arrival is 7.15.",
+                            kurdishText:
+                                "کاتی پێشبینیکراوی گەشتنمان ٧:١٥ خولەکە.",
+                            onPressedBritish: () => speakarrival506("en-GB"),
+                            onPressedAmerican: () => speakarrival506(
+                                // REPLACE: arrival /əˈraɪvl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئەو بەشەی فڕۆکەخانە کە پێیدا تێدەپەڕی کاتێک دەگەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I made my way through arrivals."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە بەشی گەشتندا تێپەڕیم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrival508("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrival508(
-                                        // REPLACE: arrival /əˈraɪvl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I made my way through arrivals.",
+                            kurdishText: "بە بەشی گەشتندا تێپەڕیم.",
+                            onPressedBritish: () => speakarrival508("en-GB"),
+                            onPressedAmerican: () => speakarrival508(
+                                // REPLACE: arrival /əˈraɪvl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کەس یان شتی ھاتوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We're expecting a new arrival (= a baby) in the family soon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشبینی ئەندامێکی تازە بۆ خێزانەکە دەکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrival509("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrival509(
-                                        // REPLACE: arrival /əˈraɪvl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We're expecting a new arrival (= a baby) in the family soon.",
+                            kurdishText:
+                                "پێشبینی ئەندامێکی تازە بۆ خێزانەکە دەکەین.",
+                            onPressedBritish: () => speakarrival509("en-GB"),
+                            onPressedAmerican: () => speakarrival509(
+                                // REPLACE: arrival /əˈraɪvl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The first arrivals at the concert got the best seats."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو کەسانەی سەرەتا گەشتنە کۆنسێرتەکە باشترین جێگاکانیان بەرکەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrival512("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrival512(
-                                        // REPLACE: arrival /əˈraɪvl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The first arrivals at the concert got the best seats.",
+                            kurdishText:
+                                "ئەو کەسانەی سەرەتا گەشتنە کۆنسێرتەکە باشترین جێگاکانیان بەرکەوت.",
+                            onPressedBritish: () => speakarrival512("en-GB"),
+                            onPressedAmerican: () => speakarrival512(
+                                // REPLACE: arrival /əˈraɪvl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کاتی دەرکەوتنی تەکنەلۆژیایەکی تازە یان ناساندنی بیرۆکەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The arrival (= introduction) of satellite television changed the face of broadcasting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرکەوتنی سەتەلایت شێوازی پەخشکردنی تەلەفیزیۆنی گۆڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrival515("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarrival515(
-                                        // REPLACE: arrival /əˈraɪvl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The arrival (= introduction) of satellite television changed the face of broadcasting.",
+                            kurdishText:
+                                "دەرکەوتنی سەتەلایت شێوازی پەخشکردنی تەلەفیزیۆنی گۆڕی.",
+                            onPressedBritish: () => speakarrival515("en-GB"),
+                            onPressedAmerican: () => speakarrival515(
+                                // REPLACE: arrival /əˈraɪvl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

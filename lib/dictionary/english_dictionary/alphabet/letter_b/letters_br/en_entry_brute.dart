@@ -146,210 +146,76 @@ class EnglishEntrybrute extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) کەسێکی دڕندە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His father was a drunken brute."),
-                                    ExampleSentenceKurdish(
-                                        text: "باوکی دڕندەیەکی سەرخۆش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brute" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His father was a drunken brute.",
+                            kurdishText:
+                                "باوکی دڕندەیەکی سەرخۆش بوو.", // brute" as
+                            onPressedBritish: () => speakbrutes1("en-GB"),
+                            onPressedAmerican: () => speakbrutes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You've forgotten my birthday again, you brute!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووبارە ڕۆژی لەدایکبوونمت بیرچووە، ھەی بێ‌ھەست!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You've forgotten my birthday again, you brute!",
+                            kurdishText:
+                                "دووبارە ڕۆژی لەدایکبوونمت بیرچووە، ھەی بێ‌ھەست!",
+                            onPressedBritish: () => speakbrutes2("en-GB"),
+                            onPressedAmerican: () => speakbrutes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) نامرۆڤ؛ ئاژەڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We, unlike dumb brutes, can reflect on our experiences."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێمە، بەپێچەوانەی حاژەڵە نەزانەکان، دەتوانین لە ئەزموونمان فێربین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We, unlike dumb brutes, can reflect on our experiences.",
+                            kurdishText:
+                                "ئێمە، بەپێچەوانەی حاژەڵە نەزانەکان، دەتوانین لە ئەزموونمان فێربین.",
+                            onPressedBritish: () => speakbrutes3("en-GB"),
+                            onPressedAmerican: () => speakbrutes3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) شتێکی گران و ناخۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That was a brute of an exam paper."),
-                                    ExampleSentenceKurdish(
-                                        text: "تاقیکردنەوەیەکی زۆر گران بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That was a brute of an exam paper.",
+                            kurdishText: "تاقیکردنەوەیەکی زۆر گران بوو.",
+                            onPressedBritish: () => speakbrutes4("en-GB"),
+                            onPressedAmerican: () => speakbrutes4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) شتێک کە پێویستی تەنھا بەھێزە نەک بیرکردنەوە و زیرەکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the end she used brute force to push him out."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتاییدا ھێزی جەستەیی بەکارھێنا بۆ ئەوەی بیکاتە دەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutes5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the end she used brute force to push him out.",
+                            kurdishText:
+                                "لە کۆتاییدا ھێزی جەستەیی بەکارھێنا بۆ ئەوەی بیکاتە دەرەوە.",
+                            onPressedBritish: () => speakbrutes5("en-GB"),
+                            onPressedAmerican: () => speakbrutes5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ھاوەڵناو) سەخت و ناخۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their desire for independence has to do with brute economics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئارەزوویان بۆ سەربەخۆیی پەیوەندی بە ئابووری سەخت ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutes6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutes6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their desire for independence has to do with brute economics.",
+                            kurdishText:
+                                "ئارەزوویان بۆ سەربەخۆیی پەیوەندی بە ئابووری سەخت ھەیە.",
+                            onPressedBritish: () => speakbrutes6("en-GB"),
+                            onPressedAmerican: () => speakbrutes6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ھاوەڵناو) نەبوونی توانای بیرکردنەوە و ھەستکردن، وەک ئاژەڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What distinguishes humans from the rest of the brute creation?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چی مرۆڤ جیادەکاتەوە لە گیانلەبەرە بێ‌زمانەکانی دیکە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrutes7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrutes7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What distinguishes humans from the rest of the brute creation?",
+                            kurdishText:
+                                "چی مرۆڤ جیادەکاتەوە لە گیانلەبەرە بێ‌زمانەکانی دیکە؟",
+                            onPressedBritish: () => speakbrutes7("en-GB"),
+                            onPressedAmerican: () => speakbrutes7("en-US"),
                           ),
                         ],
                       ),

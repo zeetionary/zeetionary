@@ -157,66 +157,27 @@ class EnglishEntrybanker extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە خاوەنی بانکێکە، یان پۆستێکی باڵای تێدا ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was a successful banker by the time she was 40."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تا تەمەنی ٤٠ ساڵی بووبوو بە خاوەن بانکێکی سەرکەوتوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbankers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbankers1(// REPLACE: banker
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was a successful banker by the time she was 40.",
+                            kurdishText:
+                                "تا تەمەنی ٤٠ ساڵی بووبوو بە خاوەن بانکێکی سەرکەوتوو.",
+                            onPressedBritish: () => speakbankers1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbankers1(// REPLACE: banker
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە لە یاری و قوماردا پارەکەی لا دەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The banker collected the bets."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاودێرەکە پارەی گرەوەکانی کۆکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbankers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbankers2(// REPLACE: banker
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The banker collected the bets.",
+                            kurdishText: "چاودێرەکە پارەی گرەوەکانی کۆکردەوە.",
+                            onPressedBritish: () => speakbankers2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbankers2(// REPLACE: banker
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -160,162 +160,67 @@ class EnglishEntryapart extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) جیایی لە یەک بەھۆی دووری یان کات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two houses stood 500 metres apart."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو خانووەکە ٥٠٠ مەتر لە یەکدی دووربوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapart1105("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapart1105(
-                                        // REPLACE: apart /əˈpɑːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two houses stood 500 metres apart.",
+                            kurdishText:
+                                "دوو خانووەکە ٥٠٠ مەتر لە یەکدی دووربوون.",
+                            onPressedBritish: () => speakapart1105("en-GB"),
+                            onPressedAmerican: () => speakapart1105(
+                                // REPLACE: apart /əˈpɑːrt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their birthdays are only three days apart."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژی لەدایکبوونیان تەنھا سێ ڕۆژی جیاوازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapart1106("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapart1106(
-                                        // REPLACE: apart /əˈpɑːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their birthdays are only three days apart.",
+                            kurdishText:
+                                "ڕۆژی لەدایکبوونیان تەنھا سێ ڕۆژی جیاوازە.",
+                            onPressedBritish: () => speakapart1106("en-GB"),
+                            onPressedAmerican: () => speakapart1106(
+                                // REPLACE: apart /əˈpɑːrt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەجیا، نەک پێکەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We're living apart now."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئێستا بە جیا دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapart1108("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapart1108(
-                                        // REPLACE: apart /əˈpɑːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We're living apart now.",
+                            kurdishText: "ئێستا بە جیا دەژین.",
+                            onPressedBritish: () => speakapart1108("en-GB"),
+                            onPressedAmerican: () => speakapart1108(
+                                // REPLACE: apart /əˈpɑːrt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) پارچە پارچە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Within minutes the ship began to break apart."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەماوەی چەند خولەکێکدا کەشتییەکە دەستی بە پارچە پارچە بوون کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapart1110("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapart1110(
-                                        // REPLACE: apart /əˈpɑːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Within minutes the ship began to break apart.",
+                            kurdishText:
+                                "لەماوەی چەند خولەکێکدا کەشتییەکە دەستی بە پارچە پارچە بوون کرد.",
+                            onPressedBritish: () => speakapart1110("en-GB"),
+                            onPressedAmerican: () => speakapart1110(
+                                // REPLACE: apart /əˈpɑːrt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵکار) بەکاردێت بۆ وتنە ئەوەی کەسێک بەشێک نییە لەوەی دەیڵێیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Victoria apart, not one of them seems suitable for the job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جگە لە ڤیکتۆریا، کەسی تریان گونجاو نین بۆ کارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapart1112("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapart1112(
-                                        // REPLACE: apart /əˈpɑːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Victoria apart, not one of them seems suitable for the job.",
+                            kurdishText:
+                                "جگە لە ڤیکتۆریا، کەسی تریان گونجاو نین بۆ کارەکە.",
+                            onPressedBritish: () => speakapart1112("en-GB"),
+                            onPressedAmerican: () => speakapart1112(
+                                // REPLACE: apart /əˈpɑːrt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -153,92 +153,35 @@ class EnglishEntrybaron extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پیاوێک کە لە نزمترین ئاستی گەورەزادەکانە. لە بەریتانیا پێیان دەوترێت لۆرد، لە وڵاتانی تر پێیان دەوترێت بارۆن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The young baron pledged his sword to the king and rode off to war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەگزاندە گەنجەکە وەفاداری دا بە پاشا و غاریدا بۆ جەنگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The young baron pledged his sword to the king and rode off to war.",
+                            kurdishText:
+                                "بەگزاندە گەنجەکە وەفاداری دا بە پاشا و غاریدا بۆ جەنگ.",
+                            onPressedBritish: () => speakbarons1("en-GB"),
+                            onPressedAmerican: () => speakbarons1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە بەشێکی زۆری پیشەسازییەکی قۆرخکردووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The press baron controlled several newspapers, influencing public opinion through his editorials."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قۆرخکارەکەی میدیا چەندین ڕۆژنامەی کۆنترۆڵکردبوو، و لە ڕێگای بڵاوکردنەوەکانەوە کاریگەری لە ڕای گشتی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The press baron controlled several newspapers, influencing public opinion through his editorials.",
+                            kurdishText:
+                                "قۆرخکارەکەی میدیا چەندین ڕۆژنامەی کۆنترۆڵکردبوو، و لە ڕێگای بڵاوکردنەوەکانەوە کاریگەری لە ڕای گشتی دەکرد.",
+                            onPressedBritish: () => speakbarons2("en-GB"),
+                            onPressedAmerican: () => speakbarons2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The oil barons struck a deal, dividing up the newly discovered oil fields among themselves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەدەسەڵاتەکانی نەوت ڕێککەوتنێکیان کرد و کێڵگە نەوتییە تازەدۆزراوەکانیان لەنێوان خۆیان دابەشکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarons3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarons3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The oil barons struck a deal, dividing up the newly discovered oil fields among themselves.",
+                            kurdishText:
+                                "بەدەسەڵاتەکانی نەوت ڕێککەوتنێکیان کرد و کێڵگە نەوتییە تازەدۆزراوەکانیان لەنێوان خۆیان دابەشکرد.",
+                            onPressedBritish: () => speakbarons3("en-GB"),
+                            onPressedAmerican: () => speakbarons3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

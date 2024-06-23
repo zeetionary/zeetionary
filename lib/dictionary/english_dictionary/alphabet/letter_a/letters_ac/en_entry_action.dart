@@ -213,276 +213,102 @@ class EnglishEntryaction extends StatelessWidget {
                               text:
                                   "١. (ناو) پڕۆسەی کردنی شتێک نۆ بەدیھێنانی شتێک یان مامەڵە لەگەڵ بارودۆخێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Firefighters took action immediately to stop the blaze spreading."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگرکوژێنەوەکان بەپەلە ھەنگاویان نا بۆ وەستاندنی بڵوبوونەوەی ئاگرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakact25473("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakact25473(
-                                        "en-US"), // REPLACE action /ˈækʃn/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Firefighters took action immediately to stop the blaze spreading.",
+                            kurdishText:
+                                "ئاگرکوژێنەوەکان بەپەلە ھەنگاویان نا بۆ وەستاندنی بڵوبوونەوەی ئاگرەکە.",
+                            onPressedBritish: () => speakact25473("en-GB"),
+                            onPressedAmerican: () => speakact25473(
+                                "en-US"), // REPLACE action /ˈækʃn/
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government is taking strong action on tax fraud."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت لێپێچینەوەی توند دەگرێتە بەر بۆ ڕێگری لە خۆدزینەوە لە باج"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaction241("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaction241(
-                                        "en-US"), // REPLACE action /ˈækʃn/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government is taking strong action on tax fraud.",
+                            kurdishText:
+                                "حکومەت لێپێچینەوەی توند دەگرێتە بەر بۆ ڕێگری لە خۆدزینەوە لە باج",
+                            onPressedBritish: () => speakaction241("en-GB"),
+                            onPressedAmerican: () => speakaction241(
+                                "en-US"), // REPLACE action /ˈækʃn/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شتێک کە کەسێک دەیکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Each of us must take responsibility for our own actions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاک بە تاکمان دەبێت بەرپرسیاریەتی ھەڵبگرێت بۆ کردارەکانی خۆمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaction9652("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaction9652(
-                                        "en-US"), // REPLACE action /ˈækʃn/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Each of us must take responsibility for our own actions.",
+                            kurdishText:
+                                "تاک بە تاکمان دەبێت بەرپرسیاریەتی ھەڵبگرێت بۆ کردارەکانی خۆمان.",
+                            onPressedBritish: () => speakaction9652("en-GB"),
+                            onPressedAmerican: () => speakaction9652(
+                                "en-US"), // REPLACE action /ˈækʃn/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ئەو ھەنگاوانەی کە کرێکاران دەینێن بۆ دەربڕینی ناڕەزایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Workers voted in favour of strike action."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرێکاران دەنگیان دا لە بەرژەوەندی مانگرتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaction53874("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaction53874(
-                                        "en-US"), // REPLACE action /ˈækʃn/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Workers voted in favour of strike action.",
+                            kurdishText:
+                                "کرێکاران دەنگیان دا لە بەرژەوەندی مانگرتن.",
+                            onPressedBritish: () => speakaction53874("en-GB"),
+                            onPressedAmerican: () => speakaction53874(
+                                "en-US"), // REPLACE action /ˈækʃn/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کەیسێکی یاسایی دژ بە کۆمپانیایەک یان دامەزراوەیەک بۆ وەستاندنی لە کردنی شتێکدا، یان ناچارکردنی بە پارەدان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A libel action is being brought against the magazine that published the article."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سکاڵایەکی ناوزڕاندن تۆمار دەکرێت دژ بە ئەو گۆڤارەی وتارەکەی بڵاوکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaction42567("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaction42567(
-                                        "en-US"), // REPLACE action /ˈækʃn/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A libel action is being brought against the magazine that published the article.",
+                            kurdishText:
+                                "سکاڵایەکی ناوزڕاندن تۆمار دەکرێت دژ بە ئەو گۆڤارەی وتارەکەی بڵاوکردەوە.",
+                            onPressedBritish: () => speakaction42567("en-GB"),
+                            onPressedAmerican: () => speakaction42567(
+                                "en-US"), // REPLACE action /ˈækʃn/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) ڕووبەڕووبوونەوە لە شەڕێک یان جەنگێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I never saw action during the war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز ڕووبەڕووبوونەوەم نەبینی لە کاتی جەنگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaction4387("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaction4387(
-                                        "en-US"), // REPLACE action /ˈækʃn/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I never saw action during the war.",
+                            kurdishText:
+                                "ھەرگیز ڕووبەڕووبوونەوەم نەبینی لە کاتی جەنگەکە.",
+                            onPressedBritish: () => speakaction4387("en-GB"),
+                            onPressedAmerican: () => speakaction4387(
+                                "en-US"), // REPLACE action /ˈækʃn/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ناو) ئەو ڕووداوانەی لە چیرۆکێک یان شانۆیەک ڕوودەدەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The action takes place in France."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕووداوەکان لە فەرەنسا ڕوودەدن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaction8691("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaction8691(
-                                        "en-US"), // REPLACE action /ˈækʃn/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The action takes place in France.",
+                            kurdishText: "ڕووداوەکان لە فەرەنسا ڕوودەدن.",
+                            onPressedBritish: () => speakaction8691("en-GB"),
+                            onPressedAmerican: () => speakaction8691(
+                                "en-US"), // REPLACE action /ˈækʃn/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ناو) ڕووداوی خرووشێنەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I like films with plenty of action."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزم لەو فیلمانەیە کە زۆر ڕووداوی خرووشێنەریان تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaction35971("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaction35971(
-                                        "en-US"), // REPLACE action /ˈækʃn/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I like films with plenty of action.",
+                            kurdishText:
+                                "حەزم لەو فیلمانەیە کە زۆر ڕووداوی خرووشێنەریان تێدایە.",
+                            onPressedBritish: () => speakaction35971("en-GB"),
+                            onPressedAmerican: () => speakaction35971(
+                                "en-US"), // REPLACE action /ˈækʃn/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (کردار) دڵنیاییکردنەوە لەوەی شتێک مامەڵەی لەگەڵ دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Your request will be actioned."),
-                                    ExampleSentenceKurdish(
-                                        text: "داواکەت مامەڵەی لەگەڵ دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaction55555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaction55555(
-                                        "en-US"), // REPLACE action /ˈækʃn/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Your request will be actioned.",
+                            kurdishText: "داواکەت مامەڵەی لەگەڵ دەکرێت.",
+                            onPressedBritish: () => speakaction55555("en-GB"),
+                            onPressedAmerican: () => speakaction55555(
+                                "en-US"), // REPLACE action /ˈækʃn/
                           ),
                         ],
                       ),

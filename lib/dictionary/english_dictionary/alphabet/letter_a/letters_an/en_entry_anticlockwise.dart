@@ -156,67 +156,29 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو، ھاوەڵکار) پێچەوانەی سووڕانی میلەکانی سەعات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "'How do I get the top off this bottle?'' 'Push it down and twist it anticlockwise.'"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "«چۆن سەری ئەم بوتڵە بکەمەوە؟» «پاڵی‌بنە خوار و بە پێچەوانەی میلی کاتژمێر بیسووڕێنە»"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanticlockwise856("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanticlockwise856(
-                                        // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/, /ˌæntaɪˈklɑːkwaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "'How do I get the top off this bottle?'' 'Push it down and twist it anticlockwise.'",
+                            kurdishText:
+                                "«چۆن سەری ئەم بوتڵە بکەمەوە؟» «پاڵی‌بنە خوار و بە پێچەوانەی میلی کاتژمێر بیسووڕێنە»",
+                            onPressedBritish: () =>
+                                speakanticlockwise856("en-GB"),
+                            onPressedAmerican: () => speakanticlockwise856(
+                                // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/, /ˌæntaɪˈklɑːkwaɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Turn the key anticlockwise/in an anticlockwise direction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلیلەکە بە ئاراستەی پێچيوانەی میلی کاتژمێر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanticlockwise859("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanticlockwise859(
-                                        // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/, /ˌæntaɪˈklɑːkwaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Turn the key anticlockwise/in an anticlockwise direction.",
+                            kurdishText:
+                                "کلیلەکە بە ئاراستەی پێچيوانەی میلی کاتژمێر.",
+                            onPressedBritish: () =>
+                                speakanticlockwise859("en-GB"),
+                            onPressedAmerican: () => speakanticlockwise859(
+                                // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/, /ˌæntaɪˈklɑːkwaɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

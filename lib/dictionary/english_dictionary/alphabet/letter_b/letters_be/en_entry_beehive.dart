@@ -151,63 +151,24 @@ class EnglishEntrybeehive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شوێنی ژیانی ھەنگ کە درووست دەکرێت لە شێوەی سنووقێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children watched the beekeeper carefully remove the honey from the beehive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان سەیری ھەنگەوانەکەیان دەکرد کە بە وریاییەوە ھەنگوینەکەی لە کەلووەکە دەردەھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeehives1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeehives1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children watched the beekeeper carefully remove the honey from the beehive.",
+                            kurdishText:
+                                "منداڵەکان سەیری ھەنگەوانەکەیان دەکرد کە بە وریاییەوە ھەنگوینەکەی لە کەلووەکە دەردەھێنا.",
+                            onPressedBritish: () => speakbeehives1("en-GB"),
+                            onPressedAmerican: () => speakbeehives1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ستایلێکی قژ کە لە ساڵانی ١٩٦٠ ەکان بەربڵاو بوو بەشێوەیەک کە قژ تۆپەڵ دەکرێت لەسەر سەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She styled her hair in a beehive for the party."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ئاھەنگەکە قژی بە کەلوویی داھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeehives2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeehives2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She styled her hair in a beehive for the party.",
+                            kurdishText: "بۆ ئاھەنگەکە قژی بە کەلوویی داھێنا.",
+                            onPressedBritish: () => speakbeehives2("en-GB"),
+                            onPressedAmerican: () => speakbeehives2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

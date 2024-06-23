@@ -162,61 +162,23 @@ class EnglishEntryapril extends StatelessWidget {
                               text:
                                   "١. (ناو) چوارەمین مانگی ساڵ کە دەکەوێتە نێوان ئادار و مایس"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She was born in April."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە نیسان لەدایکبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapril1055("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapril1055(
-                                        // REPLACE: April /ˈeɪprəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was born in April.",
+                            kurdishText: "لە نیسان لەدایکبوو.",
+                            onPressedBritish: () => speakapril1055("en-GB"),
+                            onPressedAmerican: () => speakapril1055(
+                                // REPLACE: April /ˈeɪprəl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We went to Japan last April."),
-                                    ExampleSentenceKurdish(
-                                        text: "نیسانی ڕابردوو چووین بۆ ژاپۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapril1056("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapril1056(
-                                        // REPLACE: April /ˈeɪprəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We went to Japan last April.",
+                            kurdishText: "نیسانی ڕابردوو چووین بۆ ژاپۆن.",
+                            onPressedBritish: () => speakapril1056("en-GB"),
+                            onPressedAmerican: () => speakapril1056(
+                                // REPLACE: April /ˈeɪprəl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

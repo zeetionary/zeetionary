@@ -221,291 +221,117 @@ class EnglishEntrybadly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بەشێوەیەکی نەشارەزایانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The event was really badly organized."),
-                                    ExampleSentenceKurdish(
-                                        text: "بۆنەکە لەڕاستیدا خراپ ڕێکخرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadlys1(// REPLACE: badly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The event was really badly organized.",
+                            kurdishText: "بۆنەکە لەڕاستیدا خراپ ڕێکخرا.",
+                            onPressedBritish: () => speakbadlys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadlys1(// REPLACE: badly
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەشێوەیەک کە سەرکەوتوو نەبووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Things have been going badly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شتەکان ئەم ماوە زۆر خراپ بەڕێوەچوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadlys2(// REPLACE: badly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Things have been going badly.",
+                            kurdishText:
+                                "شتەکان ئەم ماوە زۆر خراپ بەڕێوەچوونە.",
+                            onPressedBritish: () => speakbadlys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadlys2(// REPLACE: badly
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) بەشێوەیەک کە گونجاو نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I think he behaved very badly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێموایە کە زۆر ناشرین ڕەفتاری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadlys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadlys3(// REPLACE: badly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I think he behaved very badly.",
+                            kurdishText: "پێموایە کە زۆر ناشرین ڕەفتاری کرد.",
+                            onPressedBritish: () => speakbadlys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadlys3(// REPLACE: badly
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think he was treated very badly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێموایە زۆر خراپ مامەڵەی لەگەڵ کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadlys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadlys4(// REPLACE: badly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I think he was treated very badly.",
+                            kurdishText: "پێموایە زۆر خراپ مامەڵەی لەگەڵ کرا.",
+                            onPressedBritish: () => speakbadlys4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadlys4(// REPLACE: badly
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The kids took the dog's death very badly (= they were very unhappy)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان زۆر خراپ مامەڵەیان لەگەڵ مردنی سەگەکە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadlys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadlys5(// REPLACE: badly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The kids took the dog's death very badly (= they were very unhappy).",
+                            kurdishText:
+                                "منداڵەکان زۆر خراپ مامەڵەیان لەگەڵ مردنی سەگەکە کرد.",
+                            onPressedBritish: () => speakbadlys5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadlys5(// REPLACE: badly
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لە دژواری دۆخێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country has been badly affected by recession."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتەکە زۆر خراپ گیرۆدەی قەیرانی دارایی بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadlys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadlys6(// REPLACE: badly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The country has been badly affected by recession.",
+                            kurdishText:
+                                "وڵاتەکە زۆر خراپ گیرۆدەی قەیرانی دارایی بووە.",
+                            onPressedBritish: () => speakbadlys6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadlys6(// REPLACE: badly
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لەوەی کارێک دەبێت ڕووبدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The building is badly in need of repair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیناکە بەخراپی پێویستی بە نۆژەنکردنەوە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadlys7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadlys7(// REPLACE: badly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The building is badly in need of repair.",
+                            kurdishText:
+                                "بیناکە بەخراپی پێویستی بە نۆژەنکردنەوە ھەیە.",
+                            onPressedBritish: () => speakbadlys7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadlys7(// REPLACE: badly
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ھاوەڵکار) بەشێوەیەک کە وادەکات کاریگەری نەرێنی لەسەر بۆچوونی خەڵکی ھەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The economic crisis reflects badly on the government's policies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەیرانە ئابوورییەکە وێنایەکی خراپ بۆ سیاسەتی حکومەت درووست‌دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadlys8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadlys8(// REPLACE: badly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The economic crisis reflects badly on the government's policies.",
+                            kurdishText:
+                                "قەیرانە ئابوورییەکە وێنایەکی خراپ بۆ سیاسەتی حکومەت درووست‌دەکات.",
+                            onPressedBritish: () => speakbadlys8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadlys8(// REPLACE: badly
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ھاوەڵکار) ھەستکردن بە داخ یان شەرمەزاری سەبارەت بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She felt badly about what she had done."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە داخ کرد سەبارەت بەوەی کردبووی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadlys9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadlys9(// REPLACE: badly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She felt badly about what she had done.",
+                            kurdishText:
+                                "ھەستی بە داخ کرد سەبارەت بەوەی کردبووی.",
+                            onPressedBritish: () => speakbadlys9("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadlys9(// REPLACE: badly
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

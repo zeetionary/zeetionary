@@ -111,34 +111,14 @@ class EnglishEntryadversity extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) دۆخێکی سەخت و ناخۆش" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He overcame many personal adversities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەسەر زۆر نەھامەتیی کەسیدا زاڵ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadversity632("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadversity632(
-                                        // REPLACE: adversity /ədˈvɜːrsəti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He overcame many personal adversities.",
+                            kurdishText: "بەسەر زۆر نەھامەتیی کەسیدا زاڵ بوو.",
+                            onPressedBritish: () => speakadversity632("en-GB"),
+                            onPressedAmerican: () => speakadversity632(
+                                // REPLACE: adversity /ədˈvɜːrsəti/
+                                "en-US"),
                           ),
                         ],
                       ),

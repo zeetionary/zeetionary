@@ -157,65 +157,27 @@ class EnglishEntryarms extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەو چەکانەی لەلایەن سوپاوە بەکاردێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The UN imposed an arms embargo on the country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەتەوە یەکگرتووەکان گەمارۆی چەک و تەقەمەنی بەسەر وڵاتەکەدا سەپاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarms705("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarms705(// REPLACE: arms /ɑːrmz/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The UN imposed an arms embargo on the country.",
+                            kurdishText:
+                                "نەتەوە یەکگرتووەکان گەمارۆی چەک و تەقەمەنی بەسەر وڵاتەکەدا سەپاند.",
+                            onPressedBritish: () => speakarms705("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarms705(// REPLACE: arms /ɑːrmz/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's the world's most notorious arms dealer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەناوبانگترین بازرگانی چەک و تەقەمەنییە لە جیھاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarms706("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarms706(
-                                        // REPLACE: arms /ɑːrmz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's the world's most notorious arms dealer.",
+                            kurdishText:
+                                "بەناوبانگترین بازرگانی چەک و تەقەمەنییە لە جیھاندا.",
+                            onPressedBritish: () => speakarms706("en-GB"),
+                            onPressedAmerican: () => speakarms706(
+                                // REPLACE: arms /ɑːrmz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

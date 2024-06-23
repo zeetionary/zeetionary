@@ -116,96 +116,38 @@ class EnglishEntryairy extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) شوێنێک کە جەنجاڵی کەمە و ھەوای پاکی زۆرە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The office was light and airy."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئۆفیسەکە ڕۆشن و ھەواخۆش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairy7352("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakairy7352(// REPLACE: airy /ˈeri/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The office was light and airy.",
+                            kurdishText: "ئۆفیسەکە ڕۆشن و ھەواخۆش بوو.",
+                            onPressedBritish: () => speakairy7352("en-GB"),
+                            onPressedAmerican: () =>
+                                speakairy7352(// REPLACE: airy /ˈeri/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ڕەفتارکردن یان کردنی شتێک بە شێوەیەک کە گرنگ نەبێ لات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He dismissed her with an airy wave."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماڵئاوایی لێ‌کرد بە دەستڕاوەشاندنێکی سادە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairy748("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakairy748(// REPLACE: airy /ˈeri/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He dismissed her with an airy wave.",
+                            kurdishText:
+                                "ماڵئاوایی لێ‌کرد بە دەستڕاوەشاندنێکی سادە.",
+                            onPressedBritish: () => speakairy748("en-GB"),
+                            onPressedAmerican: () =>
+                                speakairy748(// REPLACE: airy /ˈeri/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) شتێک کە بە جدی نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The airy promises proved empty in practical implementation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵێنە دەستکردەکانی پڕووپووچ بوون بە کرداری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairy4255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakairy4255(// REPLACE: airy /ˈeri/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The airy promises proved empty in practical implementation.",
+                            kurdishText:
+                                "بەڵێنە دەستکردەکانی پڕووپووچ بوون بە کرداری.",
+                            onPressedBritish: () => speakairy4255("en-GB"),
+                            onPressedAmerican: () =>
+                                speakairy4255(// REPLACE: airy /ˈeri/
+                                    "en-US"),
                           ),
                         ],
                       ),

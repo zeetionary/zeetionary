@@ -250,93 +250,36 @@ class EnglishEntrybreathe extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ھەڵکێشانی ھەوا بۆ ناو سینەت و دانەوەی لە ڕێگەی دەم یان لووتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He breathed deeply before speaking again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە قووڵی ھەناسەی دا پێش ئەوەی دووبارە قسەبکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "breathe" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreathes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He breathed deeply before speaking again.",
+                            kurdishText:
+                                "بە قووڵی ھەناسەی دا پێش ئەوەی دووبارە قسەبکاتەوە.", // breathe" as
+                            onPressedBritish: () => speakbreathes1("en-GB"),
+                            onPressedAmerican: () => speakbreathes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The air was so cold we could hardly breathe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشەکە ھێندە سارد بوو بە ئەستەم ھەناسەمان دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreathes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The air was so cold we could hardly breathe.",
+                            kurdishText:
+                                "کەشەکە ھێندە سارد بوو بە ئەستەم ھەناسەمان دەدا.",
+                            onPressedBritish: () => speakbreathes2("en-GB"),
+                            onPressedAmerican: () => speakbreathes2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She was beginning to breathe more easily."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دەستیدەکرد بە ھەناسەدانی ئاسانتر."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreathes3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreathes3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She was beginning to breathe more easily.",
+                                    kurdishText:
+                                        "دەستیدەکرد بە ھەناسەدانی ئاسانتر.",
+                                    onPressedBritish: () =>
+                                        speakbreathes3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreathes3("en-US"),
                                   ),
                                 ],
                               ),
@@ -346,181 +289,66 @@ class EnglishEntrybreathe extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ھەبوونی ھەناسەیەکی دیاریکراو لە دەمدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm sorry if I'm breathing (= blowing out air containing) garlic fumes all over you!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوای لێبووردن دەکەم ئەگەر بۆنی سیر بەسەرتدا دەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreathes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm sorry if I'm breathing (= blowing out air containing) garlic fumes all over you!",
+                            kurdishText:
+                                "داوای لێبووردن دەکەم ئەگەر بۆنی سیر بەسەرتدا دەکەم.",
+                            onPressedBritish: () => speakbreathes4("en-GB"),
+                            onPressedAmerican: () => speakbreathes4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She rushed into my office breathing fire and threatening me with a lawyer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراوی) ھاتە ئۆفیسەکەم، ئاگری لێ دەباری و ھەڕەشەی گرتنی پارێزەری دژم دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreathes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathes5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She rushed into my office breathing fire and threatening me with a lawyer.",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی) ھاتە ئۆفیسەکەم، ئاگری لێ دەباری و ھەڕەشەی گرتنی پارێزەری دژم دەکرد.",
+                            onPressedBritish: () => speakbreathes5("en-GB"),
+                            onPressedAmerican: () => speakbreathes5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) وتنی شتێک بە ھێمنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He breathed the words against her ear."),
-                                    ExampleSentenceKurdish(
-                                        text: "وشەکانی چرپاند بە گوێیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreathes6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathes6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He breathed the words against her ear.",
+                            kurdishText: "وشەکانی چرپاند بە گوێیدا.",
+                            onPressedBritish: () => speakbreathes6("en-GB"),
+                            onPressedAmerican: () => speakbreathes6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) کردنەوەی بوتڵی بیرە بۆ ئەوەی ھەوا ھەڵبژمێت پێش خواردنەوەی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Letting a wine breathe allows oxygen to enter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانانی بیرە لە ھەوادا ڕێگە دەدات ئۆکسجین ھەڵبکێشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreathes7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathes7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Letting a wine breathe allows oxygen to enter.",
+                            kurdishText:
+                                "دانانی بیرە لە ھەوادا ڕێگە دەدات ئۆکسجین ھەڵبکێشێت.",
+                            onPressedBritish: () => speakbreathes7("en-GB"),
+                            onPressedAmerican: () => speakbreathes7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) جلێک کە ڕێگە بە ھەواگۆڕکێ دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cotton clothing allows your skin to breathe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلی لۆکە ڕێگە بە جەستە دەدات ھەناسە بکێشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreathes8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathes8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cotton clothing allows your skin to breathe.",
+                            kurdishText:
+                                "جلی لۆکە ڕێگە بە جەستە دەدات ھەناسە بکێشێت.",
+                            onPressedBritish: () => speakbreathes8("en-GB"),
+                            onPressedAmerican: () => speakbreathes8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) پڕ لە خاسیەتێک یان ھەستێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her performance breathed wit and charm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نمایشەکەی پڕ لە دانایی و جوانی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreathes9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreathes9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her performance breathed wit and charm.",
+                            kurdishText: "نمایشەکەی پڕ لە دانایی و جوانی بوو.",
+                            onPressedBritish: () => speakbreathes9("en-GB"),
+                            onPressedAmerican: () => speakbreathes9("en-US"),
                           ),
                         ],
                       ),

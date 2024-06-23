@@ -109,34 +109,15 @@ class EnglishEntryairforce extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھێزی ئاسمانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His parents discouraged him from joining the airforce."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایک و باوکی ساردیان کردەوە لە پەیوەندیکردن بە ھێزی ئاسمانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairforce3528("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairforce3528(
-                                        // REPLACE: speakAirforce /ˈer fɔːrs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His parents discouraged him from joining the airforce.",
+                            kurdishText:
+                                "دایک و باوکی ساردیان کردەوە لە پەیوەندیکردن بە ھێزی ئاسمانی.",
+                            onPressedBritish: () => speakairforce3528("en-GB"),
+                            onPressedAmerican: () => speakairforce3528(
+                                // REPLACE: speakAirforce /ˈer fɔːrs/
+                                "en-US"),
                           ),
                         ],
                       ),

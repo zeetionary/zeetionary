@@ -113,34 +113,15 @@ class EnglishEntryadvancement extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پڕۆسەی بەرەوپێشچوون" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All she was interested in was the advancement of her own career."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ئەوەی گرنگ بوو بۆی بەرەوپێشچوونی کارەکەی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvanc3598("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvanc3598(
-                                        // REPLACE: advancement /ədˈvænsmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All she was interested in was the advancement of her own career.",
+                            kurdishText:
+                                "ھەموو ئەوەی گرنگ بوو بۆی بەرەوپێشچوونی کارەکەی بوو.",
+                            onPressedBritish: () => speakadvanc3598("en-GB"),
+                            onPressedAmerican: () => speakadvanc3598(
+                                // REPLACE: advancement /ədˈvænsmənt/
+                                "en-US"),
                           ),
                         ],
                       ),

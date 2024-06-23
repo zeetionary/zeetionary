@@ -111,64 +111,26 @@ class EnglishEntryamaze extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) سەرسامکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Just the size of the place amazed her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەورەیی شوێنەکە بە تەنھا سەرسامی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamaze6222("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamaze6222(
-                                        // REPLACE: amaze /əˈmeɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Just the size of the place amazed her.",
+                            kurdishText:
+                                "گەورەیی شوێنەکە بە تەنھا سەرسامی کرد.",
+                            onPressedBritish: () => speakamaze6222("en-GB"),
+                            onPressedAmerican: () => speakamaze6222(
+                                // REPLACE: amaze /əˈmeɪz/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What amazes me is how long she managed to hide it from us."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوەی سەرسامم دەکات ئەوەیە کە چەند زۆر توانی لێمان بشارێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamaze4211("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamaze4211(
-                                        // REPLACE: amaze /əˈmeɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What amazes me is how long she managed to hide it from us.",
+                            kurdishText:
+                                "ئەوەی سەرسامم دەکات ئەوەیە کە چەند زۆر توانی لێمان بشارێتەوە.",
+                            onPressedBritish: () => speakamaze4211("en-GB"),
+                            onPressedAmerican: () => speakamaze4211(
+                                // REPLACE: amaze /əˈmeɪz/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -146,30 +146,11 @@ class EnglishEntrybrandy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خواردنەوەیەکی توندی کحوولی کە لە شەراب درووست دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Do you drink brandy?"),
-                                    ExampleSentenceKurdish(
-                                        text: "براندی دەخۆیتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrandys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrandys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Do you drink brandy?",
+                            kurdishText: "براندی دەخۆیتەوە؟",
+                            onPressedBritish: () => speakbrandys1("en-GB"),
+                            onPressedAmerican: () => speakbrandys1("en-US"),
                           ),
                         ],
                       ),

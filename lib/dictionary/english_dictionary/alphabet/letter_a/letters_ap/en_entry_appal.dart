@@ -157,34 +157,15 @@ class EnglishEntryappal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) کەسێک بە تەواوی بتاسێنی و ھەست بکات شتێک خراپە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The idea of sharing a room appalled her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیرۆکەی ھاوبەشی‌کردنی ژوورەکە تاساندی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappal737("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakappal737(// REPLACE: appal /əˈpɔːl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The idea of sharing a room appalled her.",
+                            kurdishText:
+                                "بیرۆکەی ھاوبەشی‌کردنی ژوورەکە تاساندی.",
+                            onPressedBritish: () => speakappal737("en-GB"),
+                            onPressedAmerican: () =>
+                                speakappal737(// REPLACE: appal /əˈpɔːl/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

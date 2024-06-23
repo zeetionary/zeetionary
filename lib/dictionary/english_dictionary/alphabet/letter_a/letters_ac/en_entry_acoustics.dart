@@ -114,33 +114,13 @@ class EnglishEntryacoustics extends StatelessWidget {
                               text:
                                   "١. (ناو) گونجانی دیزاینی بینایەک لەگەڵ گواستنەوەی دەنگ بەناویدا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The acoustics of the concert hall are excellent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھۆڵی کۆنسێرتەکە زۆر گونجاوە بۆ دەنگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaco4527("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaco4527(
-                                        "en-US"), // REPLACE acoustics /əˈkuːstɪks/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The acoustics of the concert hall are excellent.",
+                            kurdishText: "ھۆڵی کۆنسێرتەکە زۆر گونجاوە بۆ دەنگ.",
+                            onPressedBritish: () => speakaco4527("en-GB"),
+                            onPressedAmerican: () => speakaco4527(
+                                "en-US"), // REPLACE acoustics /əˈkuːstɪks/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """

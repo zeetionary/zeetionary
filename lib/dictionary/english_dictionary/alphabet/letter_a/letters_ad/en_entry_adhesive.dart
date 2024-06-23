@@ -114,66 +114,28 @@ class EnglishEntryadhesive extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) مادەیەک کە دەلکێت بە شتەوە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The adhesive takes at least an hour to set."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەزگەکە نزیکەی یەک کاتژمێری دەوێت تاوەکو شوێنی خۆی بگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadhesive471("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadhesive471(
-                                        // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The adhesive takes at least an hour to set.",
+                            kurdishText:
+                                "لەزگەکە نزیکەی یەک کاتژمێری دەوێت تاوەکو شوێنی خۆی بگرێت.",
+                            onPressedBritish: () => speakadhesive471("en-GB"),
+                            onPressedAmerican: () => speakadhesive471(
+                                // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ھەبوونی خاسیەتی لکان بە شتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The labels are easy to apply and very adhesive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نووسراوەکان بە ئاسانی لێدەدرێن و باش دەنووسێن پێوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadhesive6355("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadhesive6355(
-                                        // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The labels are easy to apply and very adhesive.",
+                            kurdishText:
+                                "نووسراوەکان بە ئاسانی لێدەدرێن و باش دەنووسێن پێوە.",
+                            onPressedBritish: () => speakadhesive6355("en-GB"),
+                            onPressedAmerican: () => speakadhesive6355(
+                                // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
+                                "en-US"),
                           ),
                         ],
                       ),

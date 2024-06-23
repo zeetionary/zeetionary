@@ -150,89 +150,30 @@ class EnglishEntrybowel extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو جۆگەیەی کە خواردن پێیدا دەچێت بۆ کۆم لە دوای جێھێشتنی گەدە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Patients are asked to report any change in bowel habit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشان پرسیاریان لێ دەکرێت بۆ ھەر گۆڕانێک لە کارکردنی ڕیخۆڵەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowels1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowels1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Patients are asked to report any change in bowel habit.",
+                            kurdishText:
+                                "نەخۆشان پرسیاریان لێ دەکرێت بۆ ھەر گۆڕانێک لە کارکردنی ڕیخۆڵەیان.",
+                            onPressedBritish: () => speakbowels1("en-GB"),
+                            onPressedAmerican: () => speakbowels1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has trouble with his bowels."),
-                                    ExampleSentenceKurdish(
-                                        text: "کێشەی لە ڕیخۆڵەیدا ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowels2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowels2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He has trouble with his bowels.",
+                            kurdishText: "کێشەی لە ڕیخۆڵەیدا ھەیە.",
+                            onPressedBritish: () => speakbowels2("en-GB"),
+                            onPressedAmerican: () => speakbowels2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) قووڵترین بەش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A rumble came from the bowels of the earth (= deep underground)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرمەیەک لە قووڵایی زەوییەوە ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowels3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowels3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A rumble came from the bowels of the earth (= deep underground).",
+                            kurdishText: "گرمەیەک لە قووڵایی زەوییەوە ھات.",
+                            onPressedBritish: () => speakbowels3("en-GB"),
+                            onPressedAmerican: () => speakbowels3("en-US"),
                           ),
                         ],
                       ),

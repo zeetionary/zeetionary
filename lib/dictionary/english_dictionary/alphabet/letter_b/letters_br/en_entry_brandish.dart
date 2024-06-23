@@ -143,32 +143,13 @@ class EnglishEntrybrandish extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھەڵگرتن یان ڕاوەشاندنی شتێک، بەتایبەتی چەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She brandished a saucepan at me so I ran out of the kitchen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قابلەمەیەکی لێم ڕادەوەشاند بۆیە لە ژوورەکە ڕامکردە دەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrandishs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrandishs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She brandished a saucepan at me so I ran out of the kitchen.",
+                            kurdishText:
+                                "قابلەمەیەکی لێم ڕادەوەشاند بۆیە لە ژوورەکە ڕامکردە دەرەوە.",
+                            onPressedBritish: () => speakbrandishs1("en-GB"),
+                            onPressedAmerican: () => speakbrandishs1("en-US"),
                           ),
                         ],
                       ),

@@ -152,34 +152,14 @@ class EnglishEntrybaldness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەچەڵی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wore a hat to hide his baldness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڵاوێکی لەسەرکردبوو بۆ شاردنەوەی کەچەڵییەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaldnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaldnesss1(// REPLACE: baldness
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He wore a hat to hide his baldness.",
+                            kurdishText:
+                                "کڵاوێکی لەسەرکردبوو بۆ شاردنەوەی کەچەڵییەکەی.",
+                            onPressedBritish: () => speakbaldnesss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaldnesss1(// REPLACE: baldness
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

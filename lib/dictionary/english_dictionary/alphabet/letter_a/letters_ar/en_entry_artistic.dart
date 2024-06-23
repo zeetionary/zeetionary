@@ -165,100 +165,43 @@ class EnglishEntryartistic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) پەیوەندیدار بە ھونەر یان ھونەرمەندان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The artistic talents of the Renaissance painters were truly remarkable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانا ھونەرییەکانی نیگارکێشانی سەردەمی بوژانەوە بەڕاستی ناوازە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakartistic902("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartistic902(
-                                        // REPLACE: artistic /ɑːrˈtɪstɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The artistic talents of the Renaissance painters were truly remarkable.",
+                            kurdishText:
+                                "توانا ھونەرییەکانی نیگارکێشانی سەردەمی بوژانەوە بەڕاستی ناوازە بوون.",
+                            onPressedBritish: () => speakartistic902("en-GB"),
+                            onPressedAmerican: () => speakartistic902(
+                                // REPLACE: artistic /ɑːrˈtɪstɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ھەبوونی توانای سرووشتی لە ھونەردا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His friends are all artistic - they're painters, musicians, and writers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوڕێکانی ھەموویان دەسڕەنگینن، نیگارکێش و میوزیکژەن و نووسەرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakartistic904("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartistic904(
-                                        // REPLACE: artistic /ɑːrˈtɪstɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His friends are all artistic - they're painters, musicians, and writers.",
+                            kurdishText:
+                                "ھاوڕێکانی ھەموویان دەسڕەنگینن، نیگارکێش و میوزیکژەن و نووسەرن.",
+                            onPressedBritish: () => speakartistic904("en-GB"),
+                            onPressedAmerican: () => speakartistic904(
+                                // REPLACE: artistic /ɑːrˈtɪstɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) شتێک کە بە ھونەرییانە ئەنجام‌دراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The decor inside the house was very artistic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیکۆری ناو خانووەکە زۆر ھونەرکارانە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakartistic906("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartistic906(
-                                        // REPLACE: artistic /ɑːrˈtɪstɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The decor inside the house was very artistic.",
+                            kurdishText:
+                                "دیکۆری ناو خانووەکە زۆر ھونەرکارانە بوو.",
+                            onPressedBritish: () => speakartistic906("en-GB"),
+                            onPressedAmerican: () => speakartistic906(
+                                // REPLACE: artistic /ɑːrˈtɪstɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

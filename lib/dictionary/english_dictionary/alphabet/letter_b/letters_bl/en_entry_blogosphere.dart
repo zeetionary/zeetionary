@@ -144,34 +144,14 @@ class EnglishEntryblogosphere extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) تەواوی وێبسایتەکانی سەر ئینتەرنێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's one of the top stories in the blogosphere."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لەو چیرۆکانەی زۆرترین باسی لێوە کراو لەسەر ئینتەرنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakblogospheres1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakblogospheres1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's one of the top stories in the blogosphere.",
+                            kurdishText:
+                                "یەکێک لەو چیرۆکانەی زۆرترین باسی لێوە کراو لەسەر ئینتەرنێت.",
+                            onPressedBritish: () => speakblogospheres1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakblogospheres1("en-US"),
                           ),
                         ],
                       ),

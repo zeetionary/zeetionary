@@ -147,32 +147,13 @@ class EnglishEntrybiro extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ناوی براندێکە کە پێنووسێکی پلاستیکی درووست دەکات کە تۆپێکی ئاسنینی بچووک بە نوکەکەیەوەیە کە مڕەکەب دەڕێژێت؛ وشەکە بۆ ناوی پێنووسێکی بەکاردێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I always keep a Biro handy for taking notes during lectures."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە پێنووسێکی بایرۆ لە نزیک خۆم ڕادەگرم بۆ نووسینی تێبینی لە وانەکاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiros1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiros1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I always keep a Biro handy for taking notes during lectures.",
+                            kurdishText:
+                                "ھەمیشە پێنووسێکی بایرۆ لە نزیک خۆم ڕادەگرم بۆ نووسینی تێبینی لە وانەکاندا.",
+                            onPressedBritish: () => speakbiros1("en-GB"),
+                            onPressedAmerican: () => speakbiros1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

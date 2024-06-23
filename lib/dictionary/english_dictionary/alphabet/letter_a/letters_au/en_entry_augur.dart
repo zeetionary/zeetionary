@@ -166,34 +166,15 @@ class EnglishEntryaugur extends StatelessWidget {
                               text:
                                   "١. (کردار) بوون بە ئاماژەیەک بەوەی شتێک سەرکەوتوو دەبێت یان نا لە داھاتوودا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Conflicts among the various groups do not augur well for the future of the peace talks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکدادان لە نێوان لایەنەکاندا ئاماژەیەکی باش نابێت بۆ داھاتووی گفتوگۆی ئاشتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaugur315("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaugur315(// REPLACE: augur
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Conflicts among the various groups do not augur well for the future of the peace talks.",
+                            kurdishText:
+                                "پێکدادان لە نێوان لایەنەکاندا ئاماژەیەکی باش نابێت بۆ داھاتووی گفتوگۆی ئاشتی.",
+                            onPressedBritish: () => speakaugur315("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaugur315(// REPLACE: augur
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

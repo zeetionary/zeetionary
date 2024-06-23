@@ -145,34 +145,14 @@ class EnglishEntryblueblooded extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) کەسانی پلە باڵا و خانەدان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wrote a novel about the secret lives of the blue-blooded elite."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆمانێکی نووسی دەربارەی ژیانی نھێنیی کەسانی پلە باڵا و خانەدان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbluebloodeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbluebloodeds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wrote a novel about the secret lives of the blue-blooded elite.",
+                            kurdishText:
+                                "ڕۆمانێکی نووسی دەربارەی ژیانی نھێنیی کەسانی پلە باڵا و خانەدان.",
+                            onPressedBritish: () => speakbluebloodeds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbluebloodeds1("en-US"),
                           ),
                         ],
                       ),

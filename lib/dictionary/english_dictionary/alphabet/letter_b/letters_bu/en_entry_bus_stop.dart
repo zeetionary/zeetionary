@@ -191,58 +191,21 @@ class EnglishEntrybusstop extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێنناسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I was waiting at the bus stop."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە وێستگەی پاسەکە چاوەڕێ بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bus stop", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusstops1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusstops1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I was waiting at the bus stop.",
+                            kurdishText:
+                                "لە وێستگەی پاسەکە چاوەڕێ بووم.", // bus stop", follow LX strictly
+                            onPressedBritish: () => speakbusstops1("en-GB"),
+                            onPressedAmerican: () => speakbusstops1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's a bus stop just outside the hotel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێستگەیەکی پاسێک لە دەرەوەی ھوتێلەکە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusstops2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusstops2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There's a bus stop just outside the hotel.",
+                            kurdishText:
+                                "وێستگەیەکی پاسێک لە دەرەوەی ھوتێلەکە ھەیە.",
+                            onPressedBritish: () => speakbusstops2("en-GB"),
+                            onPressedAmerican: () => speakbusstops2("en-US"),
                           ),
                         ],
                       ),

@@ -157,34 +157,15 @@ class EnglishEntryangst extends StatelessWidget {
                               text:
                                   "١. (ناو) ھەستی نیگەرانییەکی زۆر سەبارەت بە بارودۆخێک یان ژیانت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The boy’s mysterious disappearance has caused angst and guilt for the family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیارنەمانی نادیاری کوڕەکە بووە بەھۆی نیگەرانی و ھەستی خەتاباری بۆ خێزانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangst250("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangst250(
-                                        // REPLACE: angst /æŋst/, /ɑːŋst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The boy’s mysterious disappearance has caused angst and guilt for the family.",
+                            kurdishText:
+                                "دیارنەمانی نادیاری کوڕەکە بووە بەھۆی نیگەرانی و ھەستی خەتاباری بۆ خێزانەکە.",
+                            onPressedBritish: () => speakangst250("en-GB"),
+                            onPressedAmerican: () => speakangst250(
+                                // REPLACE: angst /æŋst/, /ɑːŋst/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

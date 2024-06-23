@@ -153,34 +153,14 @@ class EnglishEntryanti extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ئامراز) دژ بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They’re completely anti the new proposals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تەواوی دژ بە پێشنیازە تازەکانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanti908("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanti908(
-                                        // REPLACE: anti /ˈænti/, /ˈæntaɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They’re completely anti the new proposals.",
+                            kurdishText: "بە تەواوی دژ بە پێشنیازە تازەکانن.",
+                            onPressedBritish: () => speakanti908("en-GB"),
+                            onPressedAmerican: () => speakanti908(
+                                // REPLACE: anti /ˈænti/, /ˈæntaɪ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

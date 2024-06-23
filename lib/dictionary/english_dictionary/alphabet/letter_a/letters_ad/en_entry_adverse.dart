@@ -114,34 +114,15 @@ class EnglishEntryadverse extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) شتێک کە ئەنجامی باشی نابێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This drug is known to have adverse side effects."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم دەرمانە ناسراوە بەوەی کاریگەری لاوەکیی خراپی دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakad3658("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakad3658(
-                                        // REPLACE: adverse /ˈædvɜːrs/, /ədˈvɜːrs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This drug is known to have adverse side effects.",
+                            kurdishText:
+                                "ئەم دەرمانە ناسراوە بەوەی کاریگەری لاوەکیی خراپی دەبێت.",
+                            onPressedBritish: () => speakad3658("en-GB"),
+                            onPressedAmerican: () => speakad3658(
+                                // REPLACE: adverse /ˈædvɜːrs/, /ədˈvɜːrs/
+                                "en-US"),
                           ),
                         ],
                       ),

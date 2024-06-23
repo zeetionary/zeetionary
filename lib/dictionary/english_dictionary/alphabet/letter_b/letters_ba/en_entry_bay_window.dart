@@ -147,32 +147,13 @@ class EnglishEntrybaywindow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ناوچەیەکی چەماوەی ژوورێک یان بینایەک کە پەنجەرەیەکی تێدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bay window provided a beautiful view of the garden."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجەرە دەرپەڕیوەکە دەیڕوانی بەسەر دیمەنێکی جوانی باخچەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaywindows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaywindows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bay window provided a beautiful view of the garden.",
+                            kurdishText:
+                                "پەنجەرە دەرپەڕیوەکە دەیڕوانی بەسەر دیمەنێکی جوانی باخچەکەدا.",
+                            onPressedBritish: () => speakbaywindows1("en-GB"),
+                            onPressedAmerican: () => speakbaywindows1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

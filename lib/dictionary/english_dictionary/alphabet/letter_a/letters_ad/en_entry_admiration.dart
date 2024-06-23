@@ -112,34 +112,14 @@ class EnglishEntryadmiration extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ھەبوونی ڕێزگرتن بۆ کەسێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have great admiration for her as a writer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێزی زۆرم بۆی وەک نووسەرێک ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmira85971("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmira85971(
-                                        // REPLACE: admiration /ˌædməˈreɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I have great admiration for her as a writer.",
+                            kurdishText: "ڕێزی زۆرم بۆی وەک نووسەرێک ھەیە.",
+                            onPressedBritish: () => speakadmira85971("en-GB"),
+                            onPressedAmerican: () => speakadmira85971(
+                                // REPLACE: admiration /ˌædməˈreɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -142,97 +142,40 @@ class EnglishEntrybreathlessly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بە ھەناسەبڕکێ، بەھاسکەھاسک؛ بەشێوەیەک ھەناسەدان توند دەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He ran breathlessly into the house and burst into the room without knocking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ھەناسەبڕکێوە ڕایکردە ماڵەکە و خۆی کرد بە ژوورەکەدا بەبێ لە دەرگادان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "breathlessly" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreathlesslys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreathlesslys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He ran breathlessly into the house and burst into the room without knocking.",
+                            kurdishText:
+                                "بە ھەناسەبڕکێوە ڕایکردە ماڵەکە و خۆی کرد بە ژوورەکەدا بەبێ لە دەرگادان.", // breathlessly" as
+                            onPressedBritish: () =>
+                                speakbreathlesslys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbreathlesslys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Inside the tent it was breathlessly hot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناو خێوەتەکە تەنگەنەفەسکەرانە گەرم بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreathlesslys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreathlesslys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Inside the tent it was breathlessly hot.",
+                            kurdishText:
+                                "ناو خێوەتەکە تەنگەنەفەسکەرانە گەرم بوو.",
+                            onPressedBritish: () =>
+                                speakbreathlesslys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbreathlesslys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە خرۆشاوی و شڵەژاوی زۆری تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They waited breathlessly for the arrival of the Prince."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەخرۆشاوییەوە چاوەڕێی گەشتنی شازادەکە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreathlesslys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreathlesslys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They waited breathlessly for the arrival of the Prince.",
+                            kurdishText:
+                                "بەخرۆشاوییەوە چاوەڕێی گەشتنی شازادەکە بوون.",
+                            onPressedBritish: () =>
+                                speakbreathlesslys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbreathlesslys3("en-US"),
                           ),
                         ],
                       ),

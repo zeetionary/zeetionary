@@ -108,33 +108,13 @@ class EnglishEntryamorously extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە حەزی سێکسی و خۆشەویستی پیشان دەدات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He looked at her amorously."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە ئەویندارانە سەیری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamorously5555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamorously5555(
-                                        // REPLACE: amorously /ˈæmərəsli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He looked at her amorously.",
+                            kurdishText: "بە ئەویندارانە سەیری دەکرد.",
+                            onPressedBritish: () => speakamorously5555("en-GB"),
+                            onPressedAmerican: () => speakamorously5555(
+                                // REPLACE: amorously /ˈæmərəsli/
+                                "en-US"),
                           ),
                         ],
                       ),

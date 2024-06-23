@@ -151,210 +151,75 @@ class EnglishEntrybet extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) گرەوکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You have to be over 16 to bet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت تەمەنت لە ١٦ ساڵ زیاتر بێت بۆ ئەوەی گرەو بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You have to be over 16 to bet.",
+                            kurdishText:
+                                "دەبێت تەمەنت لە ١٦ ساڵ زیاتر بێت بۆ ئەوەی گرەو بکەیت.",
+                            onPressedBritish: () => speakbets1("en-GB"),
+                            onPressedAmerican: () => speakbets1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Not many people are betting against France retaining their title."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکێکی زۆر دژ بەوە گرەو ناکەن کە فەرەنسا نازناوەکە دەپارێزێت (پێیان وایە فەرەنسا نازناوەکە دەبات)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Not many people are betting against France retaining their title.",
+                            kurdishText:
+                                "خەڵکێکی زۆر دژ بەوە گرەو ناکەن کە فەرەنسا نازناوەکە دەپارێزێت (پێیان وایە فەرەنسا نازناوەکە دەبات).",
+                            onPressedBritish: () => speakbets2("en-GB"),
+                            onPressedAmerican: () => speakbets2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She bet me £20 (that) I wouldn't do it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "٢٠ پاوەندی کردە گرەو لەگەڵم کە ئەوە ناکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbets3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbets3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She bet me £20 (that) I wouldn't do it.",
+                            kurdishText:
+                                "٢٠ پاوەندی کردە گرەو لەگەڵم کە ئەوە ناکەم.",
+                            onPressedBritish: () => speakbets3("en-GB"),
+                            onPressedAmerican: () => speakbets3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بۆ وتنی ئەوەی بەنزیکەیی دڵنیایت لەوەی شتێک ڕاستە یان ڕوودەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I bet (that) we’re too late."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیام لەوەی زۆر درەنگ کەوتووی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbets4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbets4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I bet (that) we’re too late.",
+                            kurdishText: "دڵنیام لەوەی زۆر درەنگ کەوتووی.",
+                            onPressedBritish: () => speakbets4("en-GB"),
+                            onPressedAmerican: () => speakbets4("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm willing to bet (that) the analysts will be wrong."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەتوانم گرەو بکەم کە شیکاران ھەڵە دەردەچن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbets5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbets5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm willing to bet (that) the analysts will be wrong.",
+                            kurdishText:
+                                "ئەتوانم گرەو بکەم کە شیکاران ھەڵە دەردەچن.",
+                            onPressedBritish: () => speakbets5("en-GB"),
+                            onPressedAmerican: () => speakbets5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) گرەو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We've got a bet on who's going to arrive first."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرەومان کردووە لەسەر ئەوەی کێ زووتر دەگات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbets6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbets6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We've got a bet on who's going to arrive first.",
+                            kurdishText:
+                                "گرەومان کردووە لەسەر ئەوەی کێ زووتر دەگات.",
+                            onPressedBritish: () => speakbets6("en-GB"),
+                            onPressedAmerican: () => speakbets6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) بۆچوونێک لەسەر شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My bet is that they've been held up in traffic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆچوونم وایە لە ترافیک ماونەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbets7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbets7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My bet is that they've been held up in traffic.",
+                            kurdishText: "بۆچوونم وایە لە ترافیک ماونەتەوە.",
+                            onPressedBritish: () => speakbets7("en-GB"),
+                            onPressedAmerican: () => speakbets7("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

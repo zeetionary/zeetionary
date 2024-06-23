@@ -157,34 +157,15 @@ class EnglishEntrybagpipes extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئامێرێکی میوزیکە کە زیاتر لە سکۆتلەندا باوە. ژەنیارەکە فوو دەکات بە کیسەیەکدا کە لەژێر باڵی گریویەتی، و دواتر پەستان دەخاتە سەر لوولەکان بۆ درووستکردنی دەنگ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She started learning the bagpipes three years ago."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێ ساڵ پێش ئێستا دەستیکرد بە فێربوونی باگ‌پایپس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbagpipess1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbagpipess1(// REPLACE: bagpipes
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She started learning the bagpipes three years ago.",
+                            kurdishText:
+                                "سێ ساڵ پێش ئێستا دەستیکرد بە فێربوونی باگ‌پایپس.",
+                            onPressedBritish: () => speakbagpipess1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbagpipess1(// REPLACE: bagpipes
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

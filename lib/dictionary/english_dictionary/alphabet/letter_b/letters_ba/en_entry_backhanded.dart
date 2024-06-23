@@ -158,34 +158,15 @@ class EnglishEntrybackhanded extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە دەکرێت واتایەکی شاراوەی ھەبێت کە پێچەوانەی واتا ڕوونەکەی بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In a backhanded compliment she said he looked very good for his age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پەسنێکی دڵپاکانەدا وتی زۆر گەنجە بەپێی تەمەنی خۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbackhandeds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbackhandeds2(// REPLACE: backhanded
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In a backhanded compliment she said he looked very good for his age.",
+                            kurdishText:
+                                "لە پەسنێکی دڵپاکانەدا وتی زۆر گەنجە بەپێی تەمەنی خۆی.",
+                            onPressedBritish: () => speakbackhandeds2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbackhandeds2(// REPLACE: backhanded
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

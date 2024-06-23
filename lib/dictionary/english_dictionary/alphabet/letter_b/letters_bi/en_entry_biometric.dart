@@ -151,32 +151,13 @@ class EnglishEntrybiometric extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بەکارھێنانی خاسیەتەکانی مرۆڤ، وەک چاو و پەنجە، بۆ ناسینەوەی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Biometric devices work by matching an individual’s features to those recorded in the device’s memory."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامێرە بایۆمەترییەکان کاردەکەن بە نەراوردکردنی تایبەیمەندییەکانی مرۆڤێک لەگەڵ ئەوەی لە یادگەی ئامێرەکەدا تۆمارکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiometrics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiometrics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Biometric devices work by matching an individual’s features to those recorded in the device’s memory.",
+                            kurdishText:
+                                "ئامێرە بایۆمەترییەکان کاردەکەن بە نەراوردکردنی تایبەیمەندییەکانی مرۆڤێک لەگەڵ ئەوەی لە یادگەی ئامێرەکەدا تۆمارکراوە.",
+                            onPressedBritish: () => speakbiometrics1("en-GB"),
+                            onPressedAmerican: () => speakbiometrics1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

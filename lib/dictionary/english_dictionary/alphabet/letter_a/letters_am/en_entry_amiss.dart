@@ -180,64 +180,26 @@ class EnglishEntryamiss extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ھەڵە، نامۆ؛ جیاواز لە ئاسایی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She sensed something was amiss and called the police."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستیان‌کرد شتێک گوماناوییە و پەیوەندییان بە پۆلیسەوە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamiss7741("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakamiss7741(// REPLACE: amiss /əˈmɪs/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She sensed something was amiss and called the police.",
+                            kurdishText:
+                                "ھەستیان‌کرد شتێک گوماناوییە و پەیوەندییان بە پۆلیسەوە کرد.",
+                            onPressedBritish: () => speakamiss7741("en-GB"),
+                            onPressedAmerican: () =>
+                                speakamiss7741(// REPLACE: amiss /əˈmɪs/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He shone a light inside and saw nothing amiss."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لایتێکی بۆ ژوورەوە لێدا و ھیچی نائاسایی نەدی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamiss8899("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakamiss8899(// REPLACE: amiss /əˈmɪs/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He shone a light inside and saw nothing amiss.",
+                            kurdishText:
+                                "لایتێکی بۆ ژوورەوە لێدا و ھیچی نائاسایی نەدی.",
+                            onPressedBritish: () => speakamiss8899("en-GB"),
+                            onPressedAmerican: () =>
+                                speakamiss8899(// REPLACE: amiss /əˈmɪs/
+                                    "en-US"),
                           ),
                         ],
                       ),

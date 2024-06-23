@@ -179,34 +179,15 @@ class EnglishEntryamiably extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بەشێوەیەکی ھاوڕێیانە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were chatting quite amiably on the phone last night so I assumed everything was okay."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوێنێ شەو بە تەلەفۆن زۆر بە ڕووخۆشانە قسەیان دەکرد، بۆیە وام‌دانا ھەموو شتێک باشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamiably44557("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamiably44557(
-                                        // REPLACE: amiably /ˈeɪmiəbli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were chatting quite amiably on the phone last night so I assumed everything was okay.",
+                            kurdishText:
+                                "دوێنێ شەو بە تەلەفۆن زۆر بە ڕووخۆشانە قسەیان دەکرد، بۆیە وام‌دانا ھەموو شتێک باشە.",
+                            onPressedBritish: () => speakamiably44557("en-GB"),
+                            onPressedAmerican: () => speakamiably44557(
+                                // REPLACE: amiably /ˈeɪmiəbli/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -146,63 +146,25 @@ class EnglishEntryblinker extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) لایتی سەر ئۆتۆمبێلێک کە دادەگیرسێنرێت و پرتەپرت دەکات بۆ ئاماژە بەوەی شۆفێرەکە لادەدات بەو ئاراستەیەدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The driver forgot to use the blinker, causing confusion for others."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆفێرەکە بیری چوو سەکن لایتەکانی داگیرسێنێت و شڵەژاوی بۆ ئەوانی دیکە درووستکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinkers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinkers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The driver forgot to use the blinker, causing confusion for others.",
+                            kurdishText:
+                                "شۆفێرەکە بیری چوو سەکن لایتەکانی داگیرسێنێت و شڵەژاوی بۆ ئەوانی دیکە درووستکرد.",
+                            onPressedBritish: () => speakblinkers1("en-GB"),
+                            onPressedAmerican: () => speakblinkers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) پارچە قوماشێک کە لە تەنیشتی چاوەکانی ئەسپ دەبەسترێت بۆ ئەوەی ڕێگری لێ بکات سەیری دەورووبەر بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We need to have a fresh look at the plan, without blinkers (= we need to consider every aspect of it)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراوی)دەبێت چاوێکی تر لە پلانەکە بکەین بە لەبەرچاوگرتنی ھەموو لایەنێکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinkers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinkers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We need to have a fresh look at the plan, without blinkers (= we need to consider every aspect of it).",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی)دەبێت چاوێکی تر لە پلانەکە بکەین بە لەبەرچاوگرتنی ھەموو لایەنێکی.",
+                            onPressedBritish: () => speakblinkers2("en-GB"),
+                            onPressedAmerican: () => speakblinkers2("en-US"),
                           ),
                         ],
                       ),

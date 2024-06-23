@@ -153,63 +153,24 @@ class EnglishEntryaverse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) حەزنەکردن لە شتێک یان نەبوونی ویستی کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I mentioned it to Kate and she wasn't averse to the idea."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ کەیتم باسکرد و لاری‌لێی‌نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaverses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaverses1(// REPLACE: averse
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I mentioned it to Kate and she wasn't averse to the idea.",
+                            kurdishText: "بۆ کەیتم باسکرد و لاری‌لێی‌نەبوو.",
+                            onPressedBritish: () => speakaverses1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaverses1(// REPLACE: averse
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was averse to any change."),
-                                    ExampleSentenceKurdish(
-                                        text: "دژی ھەموو گۆڕانکارییەک بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaverses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaverses2(// REPLACE: averse
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was averse to any change.",
+                            kurdishText: "دژی ھەموو گۆڕانکارییەک بوو.",
+                            onPressedBritish: () => speakaverses2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaverses2(// REPLACE: averse
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

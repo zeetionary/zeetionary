@@ -144,146 +144,49 @@ class EnglishEntrybulldoze extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ڕووخاندن بە خاکماڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The trees are being bulldozed to make way for a new factory."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دارەکان خاکماڵ دەکرێن بۆ درووستکردنی ڕێگا بۆ کارگەیەکی تازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulldoze", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulldozes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulldozes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The trees are being bulldozed to make way for a new factory.",
+                            kurdishText:
+                                "دارەکان خاکماڵ دەکرێن بۆ درووستکردنی ڕێگا بۆ کارگەیەکی تازە.", // bulldoze", follow LX strictly
+                            onPressedBritish: () => speakbulldozes1("en-GB"),
+                            onPressedAmerican: () => speakbulldozes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The town was bulldozed in the 1950s."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارۆچکەکە تەختکرا لە ساڵانی ١٩٥٠ کاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulldozes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulldozes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The town was bulldozed in the 1950s.",
+                            kurdishText:
+                                "شارۆچکەکە تەختکرا لە ساڵانی ١٩٥٠ کاندا.",
+                            onPressedBritish: () => speakbulldozes2("en-GB"),
+                            onPressedAmerican: () => speakbulldozes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) بەزۆر چوونە شوێنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They bulldozed the tax through Parliament."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆژە یاسای باجدانیان بەزۆر بە پەرلەماندا تێپەڕاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulldozes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulldozes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They bulldozed the tax through Parliament.",
+                            kurdishText:
+                                "پڕۆژە یاسای باجدانیان بەزۆر بە پەرلەماندا تێپەڕاند.",
+                            onPressedBritish: () => speakbulldozes3("en-GB"),
+                            onPressedAmerican: () => speakbulldozes3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bulldozed his way to victory."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەزۆر خۆی گەیاندە سەرکەوتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulldozes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulldozes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He bulldozed his way to victory.",
+                            kurdishText: "بەزۆر خۆی گەیاندە سەرکەوتن.",
+                            onPressedBritish: () => speakbulldozes4("en-GB"),
+                            onPressedAmerican: () => speakbulldozes4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "ژممارە. (کردار) زۆرکردن لە کەسێک بۆ کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "speakbulldozes55"),
-                                    ExampleSentenceKurdish(
-                                        text: "ناچار بە فرۆشتنیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulldozes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulldozes5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "speakbulldozes55",
+                            kurdishText: "ناچار بە فرۆشتنیان کرد.",
+                            onPressedBritish: () => speakbulldozes5("en-GB"),
+                            onPressedAmerican: () => speakbulldozes5("en-US"),
                           ),
                         ],
                       ),

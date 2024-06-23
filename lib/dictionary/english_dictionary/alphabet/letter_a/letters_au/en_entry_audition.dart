@@ -160,100 +160,42 @@ class EnglishEntryaudition extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کورتە نمایشێک لەلایەن ئەکتەرێک یان گۆرانیبێژێک بۆ ئەوەی بڕیار لەسەر تواناکانیان بدرێت بۆ بەژداری لە بەرھەمێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Auditions will be held from 9–12 on Friday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نمایشەکان لە کاتژمێر ٩-١٢ لە رۆژی ھەینی دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudition238("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudition238(// REPLACE: audition
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Auditions will be held from 9–12 on Friday.",
+                            kurdishText:
+                                "نمایشەکان لە کاتژمێر ٩-١٢ لە رۆژی ھەینی دەبێت.",
+                            onPressedBritish: () => speakaudition238("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudition238(// REPLACE: audition
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) پیشاندانی کورتە نمایشێک لەلایەن ئەکتەرێک یان گۆرانیبێژێک بۆ ئەوەی بڕیار لەسەر تواناکانیان بدرێت بۆ بەژداری لە بەرھەمێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was auditioning for the role of Lady Macbeth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاقیکرایەوە بۆ ڕۆڵی خاتوو ماکبێس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudition240("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudition240(// REPLACE: audition
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was auditioning for the role of Lady Macbeth.",
+                            kurdishText: "تاقیکرایەوە بۆ ڕۆڵی خاتوو ماکبێس.",
+                            onPressedBritish: () => speakaudition240("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudition240(// REPLACE: audition
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) بەژداریکردن وەک دادوەرێک بۆ بڕیاردان لە کورتە نمایشێک کە لەلایەن ئەکتەرێک یان گۆرانیبێژێکەوە پێشکەش دەکرێت بۆ ئەوەی بڕیار لەسەر تواناکانیان بدرێت بۆ بەژداری لە بەرھەمێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We auditioned over 200 children for the part."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیاتر لە ٢٠٠ منداڵمان تاقیکردەوە بۆ ڕۆڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaudition243("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudition243(// REPLACE: audition
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We auditioned over 200 children for the part.",
+                            kurdishText:
+                                "زیاتر لە ٢٠٠ منداڵمان تاقیکردەوە بۆ ڕۆڵەکە.",
+                            onPressedBritish: () => speakaudition243("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudition243(// REPLACE: audition
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

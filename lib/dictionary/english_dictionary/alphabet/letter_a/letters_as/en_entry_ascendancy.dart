@@ -166,99 +166,42 @@ class EnglishEntryascendancy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ھەبوونی دەسەڵات یان ھێز بەسەر کەسێک/شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Manchester United gained the ascendancy after half-time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مانچستەر یونایتید یارییەکەی کۆنترۆڵ کرد لە دوای گێمی یەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakascendancy1157("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakascendancy1157(
-                                        // REPLACE: ascendancy /əˈsendənsi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Manchester United gained the ascendancy after half-time.",
+                            kurdishText:
+                                "مانچستەر یونایتید یارییەکەی کۆنترۆڵ کرد لە دوای گێمی یەکەم.",
+                            onPressedBritish: () =>
+                                speakascendancy1157("en-GB"),
+                            onPressedAmerican: () => speakascendancy1157(
+                                // REPLACE: ascendancy /əˈsendənsi/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The opposition party was in the ascendancy (= gaining control)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارتی ئۆپۆزیسیۆن دەسەڵاتی زیادی‌دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakascendancy1158("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakascendancy1158(
-                                        // REPLACE: ascendancy /əˈsendənsi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The opposition party was in the ascendancy (= gaining control).",
+                            kurdishText:
+                                "پارتی ئۆپۆزیسیۆن دەسەڵاتی زیادی‌دەکرد.",
+                            onPressedBritish: () =>
+                                speakascendancy1158("en-GB"),
+                            onPressedAmerican: () => speakascendancy1158(
+                                // REPLACE: ascendancy /əˈsendənsi/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new CEO quickly gained ascendancy over the company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێوبەرە تازەکە بەزوویی دەسەڵاتی بەسەر کۆمپانیایەکەدا سەپاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakascendancy1201("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakascendancy1201(
-                                        // REPLACE: ascendancy /əˈsendənsi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new CEO quickly gained ascendancy over the company.",
+                            kurdishText:
+                                "بەڕێوبەرە تازەکە بەزوویی دەسەڵاتی بەسەر کۆمپانیایەکەدا سەپاند.",
+                            onPressedBritish: () =>
+                                speakascendancy1201("en-GB"),
+                            onPressedAmerican: () => speakascendancy1201(
+                                // REPLACE: ascendancy /əˈsendənsi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

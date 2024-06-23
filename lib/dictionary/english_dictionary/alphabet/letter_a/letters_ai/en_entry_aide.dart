@@ -113,34 +113,15 @@ class EnglishEntryaide extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە یارمەتی کەسێکی تر دەدات بۆ کردنی شتێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He served as an aide to the former president."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک یاریدەدەری سەرۆکی پێشوو کاری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaid3596484("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaid3596484(// REPLACE: aide /eɪd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He served as an aide to the former president.",
+                            kurdishText:
+                                "وەک یاریدەدەری سەرۆکی پێشوو کاری کرد.",
+                            onPressedBritish: () => speakaid3596484("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaid3596484(// REPLACE: aide /eɪd/
+                                    "en-US"),
                           ),
                         ],
                       ),

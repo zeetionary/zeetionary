@@ -156,190 +156,74 @@ class EnglishEntryamount extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕێژە یان بڕ" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was amazed at the amount he could eat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسام‌بووم بەوەی دەتوانێت چەندە بخوات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamount4447("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamount4447(
-                                        // REPLACE: amount /əˈmaʊnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was amazed at the amount he could eat.",
+                            kurdishText:
+                                "سەرسام‌بووم بەوەی دەتوانێت چەندە بخوات.",
+                            onPressedBritish: () => speakamount4447("en-GB"),
+                            onPressedAmerican: () => speakamount4447(
+                                // REPLACE: amount /əˈmaʊnt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Try to reduce the amount of energy and water you use at home."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ‌بدە بڕی وزە و ئاوی بەکارھێندراو لە مەڵەوە کەم‌بکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamount49652("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamount49652(
-                                        // REPLACE: amount /əˈmaʊnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Try to reduce the amount of energy and water you use at home.",
+                            kurdishText:
+                                "ھەوڵ‌بدە بڕی وزە و ئاوی بەکارھێندراو لە مەڵەوە کەم‌بکەوە.",
+                            onPressedBritish: () => speakamount49652("en-GB"),
+                            onPressedAmerican: () => speakamount49652(
+                                // REPLACE: amount /əˈmaʊnt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بڕە پارەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everyone has paid the same amount."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەمووان ھەمان بڕیان داوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamount3522("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamount3522(
-                                        // REPLACE: amount /əˈmaʊnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Everyone has paid the same amount.",
+                            kurdishText: "ھەمووان ھەمان بڕیان داوە.",
+                            onPressedBritish: () => speakamount3522("en-GB"),
+                            onPressedAmerican: () => speakamount3522(
+                                // REPLACE: amount /əˈmaʊnt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) کۆی‌گشتی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His earnings are said to amount to £300 000 per annum."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قازانجەکانی دەبن بە ٣٠٠٠٠٠ پاوەند لە ساڵێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamount5523("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamount5523(
-                                        // REPLACE: amount /əˈmaʊnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His earnings are said to amount to £300 000 per annum.",
+                            kurdishText:
+                                "قازانجەکانی دەبن بە ٣٠٠٠٠٠ پاوەند لە ساڵێکدا.",
+                            onPressedBritish: () => speakamount5523("en-GB"),
+                            onPressedAmerican: () => speakamount5523(
+                                // REPLACE: amount /əˈmaʊnt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) ھاوتابوون بە شتێک """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their actions in the war amount to genocide."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کردەوەکانیان لە جەنگەکەدا ھاوتایە بە جینۆساید."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamount5622("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamount5622(
-                                        // REPLACE: amount /əˈmaʊnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their actions in the war amount to genocide.",
+                            kurdishText:
+                                "کردەوەکانیان لە جەنگەکەدا ھاوتایە بە جینۆساید.",
+                            onPressedBritish: () => speakamount5622("en-GB"),
+                            onPressedAmerican: () => speakamount5622(
+                                // REPLACE: amount /əˈmaʊnt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) بوون بە شتێک """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You'll never amount to anything."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەرگیز نابیت بە ھیچ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamount514("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamount514(
-                                        // REPLACE: amount /əˈmaʊnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You'll never amount to anything.",
+                            kurdishText: "ھەرگیز نابیت بە ھیچ.",
+                            onPressedBritish: () => speakamount514("en-GB"),
+                            onPressedAmerican: () => speakamount514(
+                                // REPLACE: amount /əˈmaʊnt/
+                                "en-US"),
                           ),
                         ],
                       ),

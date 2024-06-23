@@ -116,34 +116,15 @@ class EnglishEntryairport extends StatelessWidget {
                               text:
                                   "١. (ناو) فڕۆکەخانە؛ شوێنێک کە تێیدا فڕۆکە دەفڕن و دەنیشنەوە بۆ گواستنەوەی گەشتیاران"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She arrived at Sao Paulo international airport on Friday to begin her journey."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژی ھەینی گەشتە فڕۆکەخانەی نێودەڵەتیی ساوپاولۆ بۆ دەستپێکردنی گەشتەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairport45288("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairport45288(
-                                        // REPLACE: airport /ˈerpɔːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She arrived at Sao Paulo international airport on Friday to begin her journey.",
+                            kurdishText:
+                                "ڕۆژی ھەینی گەشتە فڕۆکەخانەی نێودەڵەتیی ساوپاولۆ بۆ دەستپێکردنی گەشتەکەی.",
+                            onPressedBritish: () => speakairport45288("en-GB"),
+                            onPressedAmerican: () => speakairport45288(
+                                // REPLACE: airport /ˈerpɔːrt/
+                                "en-US"),
                           ),
                         ],
                       ),

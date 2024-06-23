@@ -165,127 +165,51 @@ class EnglishEntryascend extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) بەرزبوونەوە و سەرکەوتن" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The air became colder as we ascended."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشەکە ساردتر بوو کە زیاتر سەرکەوتین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakascend1126("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakascend1126(
-                                        // REPLACE: ascend /əˈsend/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The air became colder as we ascended.",
+                            kurdishText:
+                                "کەشەکە ساردتر بوو کە زیاتر سەرکەوتین.",
+                            onPressedBritish: () => speakascend1126("en-GB"),
+                            onPressedAmerican: () => speakascend1126(
+                                // REPLACE: ascend /əˈsend/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her heart was thumping as she ascended the stairs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵی بەخێرایی لێی‌دەدا کە بە پەیژەکەدا دەچووە سەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakascend1129("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakascend1129(
-                                        // REPLACE: ascend /əˈsend/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her heart was thumping as she ascended the stairs.",
+                            kurdishText:
+                                "دڵی بەخێرایی لێی‌دەدا کە بە پەیژەکەدا دەچووە سەرەوە.",
+                            onPressedBritish: () => speakascend1129("en-GB"),
+                            onPressedAmerican: () => speakascend1129(
+                                // REPLACE: ascend /əˈsend/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They slowly ascended the steep path up the mountain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھێواشی بە ڕێگا لێژەکەی سەرەوەی شاخەکەدا چوونەسەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakascend1132("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakascend1132(
-                                        // REPLACE: ascend /əˈsend/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They slowly ascended the steep path up the mountain.",
+                            kurdishText:
+                                "بەھێواشی بە ڕێگا لێژەکەی سەرەوەی شاخەکەدا چوونەسەرەوە.",
+                            onPressedBritish: () => speakascend1132("en-GB"),
+                            onPressedAmerican: () => speakascend1132(
+                                // REPLACE: ascend /əˈsend/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The young prince ascended the throne after the death of his father."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شازادە گەنجەکە چووەسەر تەختی شاھانە لە دوای مەرگی باوکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakascend1136("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakascend1136(
-                                        // REPLACE: ascend /əˈsend/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The young prince ascended the throne after the death of his father.",
+                            kurdishText:
+                                "شازادە گەنجەکە چووەسەر تەختی شاھانە لە دوای مەرگی باوکی.",
+                            onPressedBritish: () => speakascend1136("en-GB"),
+                            onPressedAmerican: () => speakascend1136(
+                                // REPLACE: ascend /əˈsend/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

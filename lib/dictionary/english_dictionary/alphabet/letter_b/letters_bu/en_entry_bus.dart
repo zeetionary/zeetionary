@@ -188,91 +188,33 @@ class EnglishEntrybus extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پاس"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Shall we walk or go by bus?"),
-                                    ExampleSentenceKurdish(
-                                        text: "بە پێ بچین یان بە پاس؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bus", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Shall we walk or go by bus?",
+                            kurdishText:
+                                "بە پێ بچین یان بە پاس؟", // bus", follow LX strictly
+                            onPressedBritish: () => speakbuss1("en-GB"),
+                            onPressedAmerican: () => speakbuss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I didn't want to get on the wrong bus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەمدەویست بچمە ناو پاسێکی ھەڵە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I didn't want to get on the wrong bus.",
+                            kurdishText: "نەمدەویست بچمە ناو پاسێکی ھەڵە.",
+                            onPressedBritish: () => speakbuss2("en-GB"),
+                            onPressedAmerican: () => speakbuss2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Many students board the school bus before 7 a.m."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "زۆر خوێندکار دەچنە ناو پاسی قوتابخانە پێش ٧ی بەیانی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbuss3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbuss3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Many students board the school bus before 7 a.m.",
+                                    kurdishText:
+                                        "زۆر خوێندکار دەچنە ناو پاسی قوتابخانە پێش ٧ی بەیانی.",
+                                    onPressedBritish: () => speakbuss3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbuss3("en-US"),
                                   ),
                                 ],
                               ),
@@ -281,63 +223,25 @@ class EnglishEntrybus extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) گواستنەوە بە پاس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We were bussed from the airport to our hotel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە فڕۆکەخانەکەوە گواستراینەوە بۆ ھوتێلەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We were bussed from the airport to our hotel.",
+                            kurdishText:
+                                "لە فڕۆکەخانەکەوە گواستراینەوە بۆ ھوتێلەکەوە.",
+                            onPressedBritish: () => speakbuss4("en-GB"),
+                            onPressedAmerican: () => speakbuss4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) لابردنی دەوری پیس لەسەر مێز لە چێشتخانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He buses tables to help finance his tuition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێز پاکدەکاتەوە بۆ یارمەتیدانی لە خەرجی خوێندنەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuss5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuss5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He buses tables to help finance his tuition.",
+                            kurdishText:
+                                "مێز پاکدەکاتەوە بۆ یارمەتیدانی لە خەرجی خوێندنەکەی.",
+                            onPressedBritish: () => speakbuss5("en-GB"),
+                            onPressedAmerican: () => speakbuss5("en-US"),
                           ),
                         ],
                       ),

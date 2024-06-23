@@ -336,586 +336,195 @@ class EnglishEntryblind extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) کوێر؛ نەبوونی توانای بینین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Doctors think he will go blind."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دکتۆرەکان پێیان وایە کوێر دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Doctors think he will go blind.",
+                            kurdishText: "دکتۆرەکان پێیان وایە کوێر دەبێت.",
+                            onPressedBritish: () => speakblinds1("en-GB"),
+                            onPressedAmerican: () => speakblinds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She went blind at the age of ten."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تەمەنی ١٠ ساڵیدا بینایی لەدەستدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She went blind at the age of ten.",
+                            kurdishText: "لە تەمەنی ١٠ ساڵیدا بینایی لەدەستدا.",
+                            onPressedBritish: () => speakblinds2("en-GB"),
+                            onPressedAmerican: () => speakblinds2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She was born blind."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە نابینایی لەدایکبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was born blind.",
+                            kurdishText: "بە نابینایی لەدایکبوو.",
+                            onPressedBritish: () => speakblinds3("en-GB"),
+                            onPressedAmerican: () => speakblinds3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) کەسانی نابینا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She trains dogs for the blind."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەگ ڕادەھێنێت بۆ نابینایان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She trains dogs for the blind.",
+                            kurdishText: "سەگ ڕادەھێنێت بۆ نابینایان.",
+                            onPressedBritish: () => speakblinds4("en-GB"),
+                            onPressedAmerican: () => speakblinds4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) ھەستنەکردن بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is blind to her husband's faults."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوی کوێرە لە ئاستی ھەڵەکانی ھاوژینەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is blind to her husband's faults.",
+                            kurdishText:
+                                "چاوی کوێرە لە ئاستی ھەڵەکانی ھاوژینەکەی.",
+                            onPressedBritish: () => speakblinds5("en-GB"),
+                            onPressedAmerican: () => speakblinds5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They seem to be totally blind to reality."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەواو بێ ئاگایە لە ڕاستییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They seem to be totally blind to reality.",
+                            kurdishText: "تەواو بێ ئاگایە لە ڕاستییەکە.",
+                            onPressedBritish: () => speakblinds6("en-GB"),
+                            onPressedAmerican: () => speakblinds6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) شتێک کە باوەڕی پێکراوە بە بێ ھۆکار یان بە بێ لێکۆڵینەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was blind with fury (= so angry that he could not behave reasonably)."),
-                                    ExampleSentenceKurdish(
-                                        text: "چاوی کوێر بووبوو لە تووڕەییدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was blind with fury (= so angry that he could not behave reasonably).",
+                            kurdishText: "چاوی کوێر بووبوو لە تووڕەییدا.",
+                            onPressedBritish: () => speakblinds7("en-GB"),
+                            onPressedAmerican: () => speakblinds7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a moment of blind panic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساتێکی تاسانی کوێرانە بوو (بە بێ ھۆ ترسان)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It was a moment of blind panic.",
+                            kurdishText:
+                                "ساتێکی تاسانی کوێرانە بوو (بە بێ ھۆ ترسان).",
+                            onPressedBritish: () => speakblinds8("en-GB"),
+                            onPressedAmerican: () => speakblinds8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ھاوەڵناو) دۆخێک یان ڕووداوێک کە ناتوانرێت تێگەشتنی بۆ بکرێت "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The earthquake, with the blind force of nature, shook the region, leaving buildings in ruins."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بومەلەرزەکە بە ھێزی بێ سنووری سرووشتەوە ھەرێمەکەی ھەژاند و بیناکانی کرد بە وێرانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The earthquake, with the blind force of nature, shook the region, leaving buildings in ruins.",
+                            kurdishText:
+                                "بومەلەرزەکە بە ھێزی بێ سنووری سرووشتەوە ھەرێمەکەی ھەژاند و بیناکانی کرد بە وێرانە.",
+                            onPressedBritish: () => speakblinds9("en-GB"),
+                            onPressedAmerican: () => speakblinds9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ھاوەڵناو) شوێنێک کە شۆفێرێک ناتوانێت بیبینێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The accident happened on a blind bend."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووداوەکە لە لادانێکی ناوچەی کوێردا ڕوویدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The accident happened on a blind bend.",
+                            kurdishText:
+                                "ڕووداوەکە لە لادانێکی ناوچەی کوێردا ڕوویدا.",
+                            onPressedBritish: () => speakblinds10("en-GB"),
+                            onPressedAmerican: () => speakblinds10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ھاوەڵناو) شتێک کە ھیچ جیاوازی لە ڕووی ئەو خاسیەتەی کە باس دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is very suspicious of anyone who claims to be race-blind."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر بە گومانە بەرامبەر ھەر کەسێک کە بانگەشەی ئەوە دەکات ڕەگەز لای گرنگ نەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is very suspicious of anyone who claims to be race-blind.",
+                            kurdishText:
+                                "زۆر بە گومانە بەرامبەر ھەر کەسێک کە بانگەشەی ئەوە دەکات ڕەگەز لای گرنگ نەبێت.",
+                            onPressedBritish: () => speakblinds11("en-GB"),
+                            onPressedAmerican: () => speakblinds11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (کردار) کوێرکردنی کەسێک بۆ ھەمیشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was blinded in the explosion."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە تەقینەوەکەدا کوێر بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was blinded in the explosion.",
+                            kurdishText: "لە تەقینەوەکەدا کوێر بوو.",
+                            onPressedBritish: () => speakblinds12("en-GB"),
+                            onPressedAmerican: () => speakblinds12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The attackers blinded him with acid."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێرشکارەکان بە ئەسید نابینایان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The attackers blinded him with acid.",
+                            kurdishText: "ھێرشکارەکان بە ئەسید نابینایان کرد.",
+                            onPressedBritish: () => speakblinds13("en-GB"),
+                            onPressedAmerican: () => speakblinds13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) سەختکردنی توانای بینین بۆ کەسێک بۆ ماوەیەکی کاتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His eyes were blinded by tears."),
-                                    ExampleSentenceKurdish(
-                                        text: "چاوەکانی پڕبوون لە فرمێسک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His eyes were blinded by tears.",
+                            kurdishText: "چاوەکانی پڕبوون لە فرمێسک.",
+                            onPressedBritish: () => speakblinds14("en-GB"),
+                            onPressedAmerican: () => speakblinds14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When she went outside she was temporarily blinded by the sun."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە لە دەرەوە بوو بۆ ماوەیەکی کاتی بینایی لەدەستدا بەھۆی خۆرەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When she went outside she was temporarily blinded by the sun.",
+                            kurdishText:
+                                "کە لە دەرەوە بوو بۆ ماوەیەکی کاتی بینایی لەدەستدا بەھۆی خۆرەکەوە.",
+                            onPressedBritish: () => speakblinds15("en-GB"),
+                            onPressedAmerican: () => speakblinds15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (کردار) وا لە کەسێک بکەیت چی تر بە ڕوونی بیرنەکاتەوە یان ڕەفتار بەشێوەیەکی ئاقڵانە بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His sense of loyalty blinded him to the truth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی وەفاداریی کوێری کرد لا ئاستی ڕاستییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His sense of loyalty blinded him to the truth.",
+                            kurdishText:
+                                "ھەستی وەفاداریی کوێری کرد لا ئاستی ڕاستییەکەدا.",
+                            onPressedBritish: () => speakblinds16("en-GB"),
+                            onPressedAmerican: () => speakblinds16("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We shouldn't let our prejudices blind us to the facts of the situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نابێت ڕێگا بدەین ڕقەکانمان کوێرمان بکات لە ئاستی دۆخەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We shouldn't let our prejudices blind us to the facts of the situation.",
+                            kurdishText:
+                                "نابێت ڕێگا بدەین ڕقەکانمان کوێرمان بکات لە ئاستی دۆخەکەدا.",
+                            onPressedBritish: () => speakblinds17("en-GB"),
+                            onPressedAmerican: () => speakblinds17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١١. (ناو) پەردەیەک کە بەرز و نزم دەکرێتەوە بە سووڕدانی لە بەشی سەرەوەی چوارچێوەی پەنجەرەکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She saw a figure through the blinds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێکی بینی لە بەینی پەردەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She saw a figure through the blinds.",
+                            kurdishText: "کەسێکی بینی لە بەینی پەردەکەوە.",
+                            onPressedBritish: () => speakblinds18("en-GB"),
+                            onPressedAmerican: () => speakblinds18("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Pull up the blinds and let some light in."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەردەکان بکەرەوە و ڕێگا بدە ھەندێک ڕۆشنایی بێتە ژوورەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Pull up the blinds and let some light in.",
+                            kurdishText:
+                                "پەردەکان بکەرەوە و ڕێگا بدە ھەندێک ڕۆشنایی بێتە ژوورەوە.",
+                            onPressedBritish: () => speakblinds19("en-GB"),
+                            onPressedAmerican: () => speakblinds19("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٢. (ھاوەڵکار) بە بێ ھەبوونی توانای بینین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Navigating through the thick fog, the plane's captain steered blind, relying on radar and experience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دەرچوون بەناو تەمە ئەستوورەکەدا، کاپتنی فڕۆکەکە بە کوێرانە بایدەدایەوە بە پشت بەستن بە ڕادار و ئەزموونی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblinds20("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblinds20("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Navigating through the thick fog, the plane's captain steered blind, relying on radar and experience.",
+                            kurdishText:
+                                "لە دەرچوون بەناو تەمە ئەستوورەکەدا، کاپتنی فڕۆکەکە بە کوێرانە بایدەدایەوە بە پشت بەستن بە ڕادار و ئەزموونی.",
+                            onPressedBritish: () => speakblinds20("en-GB"),
+                            onPressedAmerican: () => speakblinds20("en-US"),
                           ),
                         ],
                       ),

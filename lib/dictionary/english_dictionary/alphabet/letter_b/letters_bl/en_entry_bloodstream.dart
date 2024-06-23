@@ -150,64 +150,24 @@ class EnglishEntrybloodstream extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو خوێنەی بە جەستەدا سووڕدەخوات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They injected the drug directly into her bloodstream."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرمانەکەیان ڕاستەوخۆ کردە ناو سووڕی خوێنییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodstreams1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodstreams1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They injected the drug directly into her bloodstream.",
+                            kurdishText:
+                                "دەرمانەکەیان ڕاستەوخۆ کردە ناو سووڕی خوێنییەوە.",
+                            onPressedBritish: () => speakbloodstreams1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodstreams1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Red blood cells transport oxygen through the bloodstream."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جڕۆکە سوورەکان ئۆکسجین بە سووڕی خوێندا دەگوانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodstreams2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodstreams2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Red blood cells transport oxygen through the bloodstream.",
+                            kurdishText:
+                                "جڕۆکە سوورەکان ئۆکسجین بە سووڕی خوێندا دەگوانەوە.",
+                            onPressedBritish: () => speakbloodstreams2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodstreams2("en-US"),
                           ),
                         ],
                       ),

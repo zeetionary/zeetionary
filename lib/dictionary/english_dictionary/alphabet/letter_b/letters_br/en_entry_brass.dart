@@ -147,63 +147,24 @@ class EnglishEntrybrass extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کانزایەکی ڕۆشنی زەرد کە لە مس و زینک درووست بووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The door handles were made of brass."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەسکەکانی دەرگاکە لە مسی زەرد درووستکرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrasss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrasss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The door handles were made of brass.",
+                            kurdishText:
+                                "دەسکەکانی دەرگاکە لە مسی زەرد درووستکرابوون.",
+                            onPressedBritish: () => speakbrasss1("en-GB"),
+                            onPressedAmerican: () => speakbrasss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو ئامێرە میوزیکیانەی لە مسی درووستکراون، یان ئەو کەسانەی دەیانژەنن لە ئۆرکێسترایەک یان باندێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The brass seems to me to be too loud in this recording."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەم تۆمارەدا ئامێرە میوزیکییەکان وادەردەکەون دەنگیان زۆر بەرز بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrasss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrasss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The brass seems to me to be too loud in this recording.",
+                            kurdishText:
+                                "لەم تۆمارەدا ئامێرە میوزیکییەکان وادەردەکەون دەنگیان زۆر بەرز بێت.",
+                            onPressedBritish: () => speakbrasss2("en-GB"),
+                            onPressedAmerican: () => speakbrasss2("en-US"),
                           ),
                         ],
                       ),

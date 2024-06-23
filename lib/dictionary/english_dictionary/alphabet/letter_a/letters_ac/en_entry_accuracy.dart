@@ -115,60 +115,21 @@ class EnglishEntryaccuracy extends StatelessWidget {
                               text:
                                   "١. (ناو) ڕاستی و درووستی شتێک و ئایا تا چەند تەواوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They questioned the accuracy of the information in the file."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گومانیان خستەسەر ئەو زانیارییانەی لە فایلەکە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka25498("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka25498("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They questioned the accuracy of the information in the file.",
+                            kurdishText:
+                                "گومانیان خستەسەر ئەو زانیارییانەی لە فایلەکە بوون.",
+                            onPressedBritish: () => speaka25498("en-GB"),
+                            onPressedAmerican: () => speaka25498("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She hits the ball with great accuracy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تۆپەکە دەدات بە وردیی زۆرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka21547("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka21547("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She hits the ball with great accuracy.",
+                            kurdishText: "لە تۆپەکە دەدات بە وردیی زۆرەوە.",
+                            onPressedBritish: () => speaka21547("en-GB"),
+                            onPressedAmerican: () => speaka21547("en-US"),
                           ),
                         ],
                       ),

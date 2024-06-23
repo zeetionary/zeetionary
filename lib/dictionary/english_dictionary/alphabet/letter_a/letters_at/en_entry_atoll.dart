@@ -166,34 +166,15 @@ class EnglishEntryatoll extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) دوورگەیەک کە لە شیلانە لە شێوەی ئەڵقەیەکدا پێکھاتووە لەگەڵ دەریاچەیەک لە ناوەڕاستیدا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Maldives is a group of atolls in the Indian Ocean."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماڵدیف کۆمەڵە شیلانەدوورگەیەکە لە زەریای ھندی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakatoll1156("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakatoll1156(// REPLACE: atoll
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Maldives is a group of atolls in the Indian Ocean.",
+                            kurdishText:
+                                "ماڵدیف کۆمەڵە شیلانەدوورگەیەکە لە زەریای ھندی.",
+                            onPressedBritish: () => speakatoll1156("en-GB"),
+                            onPressedAmerican: () =>
+                                speakatoll1156(// REPLACE: atoll
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -142,193 +142,74 @@ class EnglishEntryagree extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ھاوڕابوون لەگەڵ کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When he said that, I had to agree."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە ئەوەی گوت، ناچاربووم ھاوڕابم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagree6778("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagree6778(
-                                        // REPLACE: agree /əˈɡriː/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "When he said that, I had to agree.",
+                            kurdishText: "کە ئەوەی گوت، ناچاربووم ھاوڕابم.",
+                            onPressedBritish: () => speakagree6778("en-GB"),
+                            onPressedAmerican: () => speakagree6778(
+                                // REPLACE: agree /əˈɡriː/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) پەسەندکردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't agree with hitting children as a punishment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێدانی مناڵ وەک سزادان پەسەند ناکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakag2256("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakag2256(// REPLACE: agree /əˈɡriː/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't agree with hitting children as a punishment.",
+                            kurdishText: "لێدانی مناڵ وەک سزادان پەسەند ناکەم.",
+                            onPressedBritish: () => speakag2256("en-GB"),
+                            onPressedAmerican: () =>
+                                speakag2256(// REPLACE: agree /əˈɡriː/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) کردن یان ڕێگەدان بە شتێک کە کەسێک دەیەوێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I asked for a pay rise and she agreed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوای زیادکردنی مووچەکەمم کرد و ئەویش ڕازی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagree2344("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagree2344(
-                                        // REPLACE: agree /əˈɡriː/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I asked for a pay rise and she agreed.",
+                            kurdishText:
+                                "داوای زیادکردنی مووچەکەمم کرد و ئەویش ڕازی بوو.",
+                            onPressedBritish: () => speakagree2344("en-GB"),
+                            onPressedAmerican: () => speakagree2344(
+                                // REPLACE: agree /əˈɡriː/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) ڕێککەوتن لەگەڵ کەسێک بۆ کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We agreed to meet on Thursday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتین پێنجشەممە چاومان بە یەک بکەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagre3555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakagre3555(// REPLACE: agree /əˈɡriː/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We agreed to meet on Thursday.",
+                            kurdishText:
+                                "ڕێککەوتین پێنجشەممە چاومان بە یەک بکەوێت.",
+                            onPressedBritish: () => speakagre3555("en-GB"),
+                            onPressedAmerican: () =>
+                                speakagre3555(// REPLACE: agree /əˈɡriː/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) پەسەندکردنی پلانێک یان داوایەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Next year's budget has been agreed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بودجەی ساڵی داھاتوو پەسەندکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagree37859("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagree37859(
-                                        // REPLACE: agree /əˈɡriː/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Next year's budget has been agreed.",
+                            kurdishText: "بودجەی ساڵی داھاتوو پەسەندکراوە.",
+                            onPressedBritish: () => speakagree37859("en-GB"),
+                            onPressedAmerican: () => speakagree37859(
+                                // REPLACE: agree /əˈɡriː/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) دوو شت یەکبگرنەوە لەگەڵ یەک و ھەمان شت بن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your account of the accident does not agree with hers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گێڕانەوەت بۆ ڕووداوەکە یەکناگرێتەوە لەگەڵ گێڕانەوەی ئەو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagr3544("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakagr3544(// REPLACE: agree /əˈɡriː/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your account of the accident does not agree with hers.",
+                            kurdishText:
+                                "گێڕانەوەت بۆ ڕووداوەکە یەکناگرێتەوە لەگەڵ گێڕانەوەی ئەو.",
+                            onPressedBritish: () => speakagr3544("en-GB"),
+                            onPressedAmerican: () =>
+                                speakagr3544(// REPLACE: agree /əˈɡriː/
+                                    "en-US"),
                           ),
                         ],
                       ),

@@ -166,69 +166,31 @@ class EnglishEntryauthoritatively extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بەشێوەیەک کە چاوەڕێی گێڕایەڵی و ڕێز دەکەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He authoritatively stated that classic literature was irrelevant to the poor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەدەستووردەرانەوە وتی ئەدەبی کلاسیک پەیوەندی بە ھەژارانەوە نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthoritatively753("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthoritatively753(
-                                        // REPLACE: authoritatively
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He authoritatively stated that classic literature was irrelevant to the poor.",
+                            kurdishText:
+                                "بەدەستووردەرانەوە وتی ئەدەبی کلاسیک پەیوەندی بە ھەژارانەوە نییە.",
+                            onPressedBritish: () =>
+                                speakauthoritatively753("en-GB"),
+                            onPressedAmerican: () => speakauthoritatively753(
+                                // REPLACE: authoritatively
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەشێوەیەک کە جێگەی باوەڕە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She can speak authoritatively on these issues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر ئەم بابەتانە دەتوانێت بەجێگەی باوەڕەوە قسەبکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthoritatively755("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthoritatively755(
-                                        // REPLACE: authoritatively
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She can speak authoritatively on these issues.",
+                            kurdishText:
+                                "لەسەر ئەم بابەتانە دەتوانێت بەجێگەی باوەڕەوە قسەبکات.",
+                            onPressedBritish: () =>
+                                speakauthoritatively755("en-GB"),
+                            onPressedAmerican: () => speakauthoritatively755(
+                                // REPLACE: authoritatively
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

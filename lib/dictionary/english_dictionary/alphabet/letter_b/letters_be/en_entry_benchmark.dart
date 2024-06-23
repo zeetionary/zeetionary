@@ -151,32 +151,13 @@ class EnglishEntrybenchmark extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە دەکرێت وەک پێوەری ستاندارد بەکاربێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The German recycling system is seen as a benchmark for schemes throughout Europe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیستەمی ڕیسایکڵی ئەڵمانیا وەک نموونەیەک دەبینرێت بۆ پلانەکان لە سەرانسەری ئەورووپا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbenchmarks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbenchmarks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The German recycling system is seen as a benchmark for schemes throughout Europe.",
+                            kurdishText:
+                                "سیستەمی ڕیسایکڵی ئەڵمانیا وەک نموونەیەک دەبینرێت بۆ پلانەکان لە سەرانسەری ئەورووپا.",
+                            onPressedBritish: () => speakbenchmarks1("en-GB"),
+                            onPressedAmerican: () => speakbenchmarks1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

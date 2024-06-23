@@ -156,34 +156,15 @@ class EnglishEntryavian extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پەیوەندیدار بە باڵندە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Avian eggs are a nutritious and versatile food source for humans and other animals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێلکەی باڵندە سەرچاوەیەکی خۆراکی وزەبەخش و فرەکارەن بۆ مرۆڤ و ئاژەڵەکانی تر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavians1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavians1(// REPLACE: avian
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Avian eggs are a nutritious and versatile food source for humans and other animals.",
+                            kurdishText:
+                                "ھێلکەی باڵندە سەرچاوەیەکی خۆراکی وزەبەخش و فرەکارەن بۆ مرۆڤ و ئاژەڵەکانی تر.",
+                            onPressedBritish: () => speakavians1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavians1(// REPLACE: avian
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -152,149 +152,54 @@ class EnglishEntryboast extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) قسەکردن بە شێوەیەک کە پیشانی دەدات زۆر شانازی بە شتێکەوە دەکەیت کە ھەتە یان دەتوانی بیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't want to boast, but I can actually speak six languages."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەوێت خۆم‌ھەڵکێشم بەڵام لە ڕاستیدا دەتوانم بە شەش زمان قسە بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboasts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboasts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't want to boast, but I can actually speak six languages.",
+                            kurdishText:
+                                "نامەوێت خۆم‌ھەڵکێشم بەڵام لە ڕاستیدا دەتوانم بە شەش زمان قسە بکەم.",
+                            onPressedBritish: () => speakboasts1("en-GB"),
+                            onPressedAmerican: () => speakboasts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is always boasting about how wonderful her children are."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە فڕوفیشاڵیەتی سەبارەت بەوەی منداڵەکانیان چەندە جوانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboasts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboasts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is always boasting about how wonderful her children are.",
+                            kurdishText:
+                                "ھەمیشە فڕوفیشاڵیەتی سەبارەت بەوەی منداڵەکانیان چەندە جوانن.",
+                            onPressedBritish: () => speakboasts2("en-GB"),
+                            onPressedAmerican: () => speakboasts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) ھەبوونی شتێکی سەرسوڕھێنەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Rhodes boasts 300 days of sunshine a year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوورگەی ڕەودز ٣٠٠ ڕۆژی لە تیشکی خۆر ھەیە لە ساڵێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboasts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboasts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Rhodes boasts 300 days of sunshine a year.",
+                            kurdishText:
+                                "دوورگەی ڕەودز ٣٠٠ ڕۆژی لە تیشکی خۆر ھەیە لە ساڵێکدا.",
+                            onPressedBritish: () => speakboasts3("en-GB"),
+                            onPressedAmerican: () => speakboasts3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is a region which proudly boasts its own distinct culture."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە ھەرێمێکە کە بە شانازییەوە کەلتووری جیاوازی خۆی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboasts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboasts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is a region which proudly boasts its own distinct culture.",
+                            kurdishText:
+                                "ئەمە ھەرێمێکە کە بە شانازییەوە کەلتووری جیاوازی خۆی ھەیە.",
+                            onPressedBritish: () => speakboasts4("en-GB"),
+                            onPressedAmerican: () => speakboasts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شتێک کە کەسێک قسەی لەسەر دەکات بە شانازییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Despite his boasts that his children were brilliant, neither of them went to college."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەڕای لاف‌لێدانی کە منداڵەکانی بلیمەت بوون، ھیچیان نەگەشتن بە کۆلێژ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboasts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboasts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Despite his boasts that his children were brilliant, neither of them went to college.",
+                            kurdishText:
+                                "سەرەڕای لاف‌لێدانی کە منداڵەکانی بلیمەت بوون، ھیچیان نەگەشتن بە کۆلێژ.",
+                            onPressedBritish: () => speakboasts5("en-GB"),
+                            onPressedAmerican: () => speakboasts5("en-US"),
                           ),
                         ],
                       ),

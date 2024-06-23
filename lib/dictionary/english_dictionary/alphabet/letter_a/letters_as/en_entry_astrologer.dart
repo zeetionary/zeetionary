@@ -167,35 +167,15 @@ class EnglishEntryastrologer extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) کەسێک کە لە شوێنی ئەستێرە و جوڵەی ھەسارەکان دەکۆڵێتەوە بۆ پێشبینی ڕووداوەکان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The astrologer consulted her charts to determine the best time for the job interview."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فەلەکناسەکە سەیری ھێڵکارییەکانی کرد بۆ دیاریکردنی باشترین کات بۆ چاوپێکەوتنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakastrologer424("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakastrologer424(
-                                        // REPLACE: astrologer
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The astrologer consulted her charts to determine the best time for the job interview.",
+                            kurdishText:
+                                "فەلەکناسەکە سەیری ھێڵکارییەکانی کرد بۆ دیاریکردنی باشترین کات بۆ چاوپێکەوتنەکە.",
+                            onPressedBritish: () => speakastrologer424("en-GB"),
+                            onPressedAmerican: () => speakastrologer424(
+                                // REPLACE: astrologer
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

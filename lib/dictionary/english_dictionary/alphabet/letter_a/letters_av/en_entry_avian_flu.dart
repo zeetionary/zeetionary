@@ -156,34 +156,15 @@ class EnglishEntryavianflu extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەنفلۆنزای باڵندە؛ نەخۆشییەکی کوشندە کە تووشی باڵندە، بەتایبەتی مریشک، دەبێت و ئەگەری ھەیە بگوازرێتەوە بۆ مرۆڤ و ببێتەھۆی مردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Veterinarians closely monitored the birds for signs of avian flu."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پزیشکی ئاژەڵان بەوردی چاودێری باڵندەکانیان دەکرد بۆ ئاماژەی ئەنفلۆنزای باڵندە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavianflus1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavianflus1(// REPLACE: avian flu
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Veterinarians closely monitored the birds for signs of avian flu.",
+                            kurdishText:
+                                "پزیشکی ئاژەڵان بەوردی چاودێری باڵندەکانیان دەکرد بۆ ئاماژەی ئەنفلۆنزای باڵندە.",
+                            onPressedBritish: () => speakavianflus1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavianflus1(// REPLACE: avian flu
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

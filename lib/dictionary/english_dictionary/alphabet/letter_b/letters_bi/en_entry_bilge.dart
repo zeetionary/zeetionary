@@ -151,61 +151,23 @@ class EnglishEntrybilge extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بەشی تەختی خوارەوەی کەشتییەک یان بەلەمێک کە تێیدا ئاوی پیس کۆدەبێتەوە، یان ئەو ئاوەی تێیدا کۆدەبێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bilges had been pumped and the ship was ready to set sail once again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بنەکەشتییەکە بەتاڵکرایەوە و کەشتییەکە ئامادەبوو بۆ دووبارە گەشتکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbilges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbilges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bilges had been pumped and the ship was ready to set sail once again.",
+                            kurdishText:
+                                "بنەکەشتییەکە بەتاڵکرایەوە و کەشتییەکە ئامادەبوو بۆ دووبارە گەشتکردن.",
+                            onPressedBritish: () => speakbilges1("en-GB"),
+                            onPressedAmerican: () => speakbilges1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) قسەی ھیچ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Don't talk such bilge!"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھێندە قسەی ھیج مەکە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbilges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbilges2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don't talk such bilge!",
+                            kurdishText: "ھێندە قسەی ھیج مەکە!",
+                            onPressedBritish: () => speakbilges2("en-GB"),
+                            onPressedAmerican: () => speakbilges2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

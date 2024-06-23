@@ -112,66 +112,26 @@ class EnglishEntryagitation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ناڕەحەتی و نیگەرانی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was trying not to show her agitation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵیدەدا ناڕەحەتیی پیشان نەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagita2477("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagita2477(
-                                        // REPLACE: agitation /ˌædʒɪˈteɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was trying not to show her agitation.",
+                            kurdishText: "ھەوڵیدەدا ناڕەحەتیی پیشان نەدات.",
+                            onPressedBritish: () => speakagita2477("en-GB"),
+                            onPressedAmerican: () => speakagita2477(
+                                // REPLACE: agitation /ˌædʒɪˈteɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ناڕەزایی جەماوەری بۆ گۆڕانکاریی سیاسی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There has been mass agitation against the president."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناڕەزایی زۆر بەرامبەر سەرۆک ھەبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagi3514("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagi3514(
-                                        // REPLACE: agitation /ˌædʒɪˈteɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There has been mass agitation against the president.",
+                            kurdishText: "ناڕەزایی زۆر بەرامبەر سەرۆک ھەبووە.",
+                            onPressedBritish: () => speakagi3514("en-GB"),
+                            onPressedAmerican: () => speakagi3514(
+                                // REPLACE: agitation /ˌædʒɪˈteɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """

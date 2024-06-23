@@ -115,35 +115,16 @@ class EnglishEntryalternation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕودانی دوو شت بەدوای یەکدا" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The alternation of sun and snow continued for the rest of the week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نۆرەکاری خۆرەتاو و بەفربارین بەردەوام بوو تا کۆتایی ھەفتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalternation4577("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalternation4577(
-                                        // REPLACE: alternation /ˌɔːltərˈneɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The alternation of sun and snow continued for the rest of the week.",
+                            kurdishText:
+                                "نۆرەکاری خۆرەتاو و بەفربارین بەردەوام بوو تا کۆتایی ھەفتەکە.",
+                            onPressedBritish: () =>
+                                speakalternation4577("en-GB"),
+                            onPressedAmerican: () => speakalternation4577(
+                                // REPLACE: alternation /ˌɔːltərˈneɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

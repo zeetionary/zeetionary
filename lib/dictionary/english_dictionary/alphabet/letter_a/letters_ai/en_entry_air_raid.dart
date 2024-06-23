@@ -110,34 +110,15 @@ class EnglishEntryairraid extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھێرشی ئاسمانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The family was killed in an air raid."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێزانەکە لە ھێرشێکی ئاسمانیدا کوژران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairraid5377("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairraid5377(
-                                        // REPLACE: air raid /ˈer reɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The family was killed in an air raid.",
+                            kurdishText:
+                                "خێزانەکە لە ھێرشێکی ئاسمانیدا کوژران.",
+                            onPressedBritish: () => speakairraid5377("en-GB"),
+                            onPressedAmerican: () => speakairraid5377(
+                                // REPLACE: air raid /ˈer reɪd/
+                                "en-US"),
                           ),
                         ],
                       ),

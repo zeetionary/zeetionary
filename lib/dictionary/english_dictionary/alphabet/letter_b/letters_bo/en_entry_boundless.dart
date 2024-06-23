@@ -148,32 +148,12 @@ class EnglishEntryboundless extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بێ سنوور"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has boundless energy and enthusiasm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جۆش‌وخرۆشی و وزەی بێ سنووری ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboundlesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboundlesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has boundless energy and enthusiasm.",
+                            kurdishText: "جۆش‌وخرۆشی و وزەی بێ سنووری ھەیە.",
+                            onPressedBritish: () => speakboundlesss1("en-GB"),
+                            onPressedAmerican: () => speakboundlesss1("en-US"),
                           ),
                         ],
                       ),

@@ -156,161 +156,64 @@ class EnglishEntryballoon extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) فودانکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "My balloon has burst!"),
-                                    ExampleSentenceKurdish(
-                                        text: "فودانکەکەم تەقی!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballoons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballoons1(// REPLACE: balloon
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My balloon has burst!",
+                            kurdishText: "فودانکەکەم تەقی!",
+                            onPressedBritish: () => speakballoons1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballoons1(// REPLACE: balloon
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) باڵۆنێکی گەورە کە لە مادەی بەھێز پێکھاتووە کە پڕکراوە لە گاس یان ھەوای گەرم بۆ ئەوەی بەرزبێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We went up in a balloon."),
-                                    ExampleSentenceKurdish(
-                                        text: "سواری باڵۆنێک بووین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballoons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballoons2(// REPLACE: balloon
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We went up in a balloon.",
+                            kurdishText: "سواری باڵۆنێک بووین.",
+                            onPressedBritish: () => speakballoons2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballoons2(// REPLACE: balloon
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) درووستکردنی شێوەیەکی خڕ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her skirt ballooned out in the wind."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنوورەکەی لە بایەکەدا خڕبوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballoons3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballoons3(// REPLACE: balloon
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her skirt ballooned out in the wind.",
+                            kurdishText: "تەنوورەکەی لە بایەکەدا خڕبوویەوە.",
+                            onPressedBritish: () => speakballoons3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballoons3(// REPLACE: balloon
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) بەرزبوونەوە بەخێرایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Unemployment ballooned to fourteen per cent."),
-                                    ExampleSentenceKurdish(
-                                        text: "بێکاری ھەڵبەزی بۆ ١٤٪."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballoons4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballoons4(// REPLACE: balloon
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Unemployment ballooned to fourteen per cent.",
+                            kurdishText: "بێکاری ھەڵبەزی بۆ ١٤٪.",
+                            onPressedBritish: () => speakballoons4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballoons4(// REPLACE: balloon
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) گەشتکردن بە باڵۆن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He planned to become the first person to balloon over the North Pole."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانی بوو بێت بە یەکەم کەس بەسەر خولگەی باکووری زەویدا بە باڵۆن گەشت بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballoons5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballoons5(// REPLACE: balloon
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He planned to become the first person to balloon over the North Pole.",
+                            kurdishText:
+                                "پلانی بوو بێت بە یەکەم کەس بەسەر خولگەی باکووری زەویدا بە باڵۆن گەشت بکات.",
+                            onPressedBritish: () => speakballoons5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballoons5(// REPLACE: balloon
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

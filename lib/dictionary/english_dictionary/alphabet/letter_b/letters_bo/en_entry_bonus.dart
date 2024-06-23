@@ -150,63 +150,25 @@ class EnglishEntrybonus extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارەیەکی زیادە کە زیاددەکرێت بۆ مووچەی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All employees get an annual bonus before the summer holidays."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو کارمەندان بەخشیشێکی ساڵانە وەردەگرن پێش پشووی ھاوین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonuss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonuss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All employees get an annual bonus before the summer holidays.",
+                            kurdishText:
+                                "ھەموو کارمەندان بەخشیشێکی ساڵانە وەردەگرن پێش پشووی ھاوین.",
+                            onPressedBritish: () => speakbonuss1("en-GB"),
+                            onPressedAmerican: () => speakbonuss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ھەر شتێکی خۆش کە بە زیادەوە دەدرێت و باشترە لەوەی کە چاوەڕێت دەکرد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As a bonus, club members can get free tickets for all the family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک زیادییەک، ھەموو ئەندامانی یانەکە دەتوانن بلیتی بێبەرامبەر وەربگرن بۆ تەواوی خێزانەکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonuss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonuss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As a bonus, club members can get free tickets for all the family.",
+                            kurdishText:
+                                "وەک زیادییەک، ھەموو ئەندامانی یانەکە دەتوانن بلیتی بێبەرامبەر وەربگرن بۆ تەواوی خێزانەکەیان.",
+                            onPressedBritish: () => speakbonuss2("en-GB"),
+                            onPressedAmerican: () => speakbonuss2("en-US"),
                           ),
                         ],
                       ),

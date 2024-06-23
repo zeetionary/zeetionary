@@ -147,32 +147,13 @@ class EnglishEntrybawdy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) مامەڵەکردن لەگەڵ سێکس بەشێوەیەک کە بێ‌ڕێزانە و پێکەنیناوییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bawdy jokes of the comedian made the audience blush."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نوکتە ھەرزەکانی ئەکتەرە کۆمیدییەکە گوێگرانی خستە پێکەنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbawdys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbawdys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bawdy jokes of the comedian made the audience blush.",
+                            kurdishText:
+                                "نوکتە ھەرزەکانی ئەکتەرە کۆمیدییەکە گوێگرانی خستە پێکەنین.",
+                            onPressedBritish: () => speakbawdys1("en-GB"),
+                            onPressedAmerican: () => speakbawdys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -160,34 +160,15 @@ class EnglishEntryaplomb extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) باوەڕبەخۆبوون و متمانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He delivered the speech with his usual aplomb."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکەی پێشکەش‌کرد بە باوەڕبەخۆبوونی ھەردەمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaplomb246("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaplomb246(
-                                        // REPLACE: aplomb /əˈplɒm/av
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He delivered the speech with his usual aplomb.",
+                            kurdishText:
+                                "وتارەکەی پێشکەش‌کرد بە باوەڕبەخۆبوونی ھەردەمی.",
+                            onPressedBritish: () => speakaplomb246("en-GB"),
+                            onPressedAmerican: () => speakaplomb246(
+                                // REPLACE: aplomb /əˈplɒm/av
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

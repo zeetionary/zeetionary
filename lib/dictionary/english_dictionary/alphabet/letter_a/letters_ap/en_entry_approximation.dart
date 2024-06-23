@@ -165,101 +165,44 @@ class EnglishEntryapproximation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ژمارەیەک کە خەمڵاندنە و تەواو نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An approximation of the numbers expected to attend would be 350."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەی خەمڵێندراوی بەژداربووان پێشبینی‌دەکرێت بگاتە ٣٥٠ کەس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapproximation1020("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproximation1020(
-                                        // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An approximation of the numbers expected to attend would be 350.",
+                            kurdishText:
+                                "ڕێژەی خەمڵێندراوی بەژداربووان پێشبینی‌دەکرێت بگاتە ٣٥٠ کەس.",
+                            onPressedBritish: () =>
+                                speakapproximation1020("en-GB"),
+                            onPressedAmerican: () => speakapproximation1020(
+                                // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We do not have the true figures so we will have to make some approximations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەی تەواومان لەبەردەست نییە، بۆیە دەبێت خەمڵاندن بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapproximation1021("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproximation1021(
-                                        // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We do not have the true figures so we will have to make some approximations.",
+                            kurdishText:
+                                "ژمارەی تەواومان لەبەردەست نییە، بۆیە دەبێت خەمڵاندن بکەین.",
+                            onPressedBritish: () =>
+                                speakapproximation1021("en-GB"),
+                            onPressedAmerican: () => speakapproximation1021(
+                                // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شتێک بە نزیکەیی وەک شتێکی تر وایە، بەڵام بە تەواوی لێکچووی نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our results should be a good approximation of the true state of affairs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەنجامەکانمان دەبێت ھاوشێوەیەکی باشی ڕاستی بارودۆخەکە بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapproximation1026("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproximation1026(
-                                        // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our results should be a good approximation of the true state of affairs.",
+                            kurdishText:
+                                "ئەنجامەکانمان دەبێت ھاوشێوەیەکی باشی ڕاستی بارودۆخەکە بێت.",
+                            onPressedBritish: () =>
+                                speakapproximation1026("en-GB"),
+                            onPressedAmerican: () => speakapproximation1026(
+                                // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

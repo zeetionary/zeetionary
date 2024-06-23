@@ -192,60 +192,21 @@ class EnglishEntrybygone extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شتێک کە ماوەیەکی زۆر پێش ئێستا بوونی ھەبووبێت یان ڕوویدا بێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The horse and cart belongs to a bygone era."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەسپ و عارەبانە سەر بە سەردەمی کۆنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bygone", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbygones1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbygones1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The horse and cart belongs to a bygone era.",
+                            kurdishText:
+                                "ئەسپ و عارەبانە سەر بە سەردەمی کۆنە.", // bygone", follow LX strictly
+                            onPressedBritish: () => speakbygones1("en-GB"),
+                            onPressedAmerican: () => speakbygones1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The story is set in a bygone India."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیرۆکەکە لە ھنسدستانی کۆندا ڕوودەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbygones2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbygones2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The story is set in a bygone India.",
+                            kurdishText:
+                                "چیرۆکەکە لە ھنسدستانی کۆندا ڕوودەدات.",
+                            onPressedBritish: () => speakbygones2("en-GB"),
+                            onPressedAmerican: () => speakbygones2("en-US"),
                           ),
                         ],
                       ),

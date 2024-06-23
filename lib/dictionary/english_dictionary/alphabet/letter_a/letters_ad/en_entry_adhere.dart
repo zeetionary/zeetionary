@@ -110,64 +110,26 @@ class EnglishEntryadhere extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) لکان بە شتێکەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Clean the surface first, or the paint will not adhere."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەتا ڕووەکەی پاکبکەوە ئەگەرنا بۆیەکە پێوەی نالکێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadhe55661("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadhe55661(
-                                        // REPLACE: adhere /ədˈhɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Clean the surface first, or the paint will not adhere.",
+                            kurdishText:
+                                "سەرەتا ڕووەکەی پاکبکەوە ئەگەرنا بۆیەکە پێوەی نالکێنێت.",
+                            onPressedBritish: () => speakadhe55661("en-GB"),
+                            onPressedAmerican: () => speakadhe55661(
+                                // REPLACE: adhere /ədˈhɪr/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Once in the bloodstream, the bacteria adhere to the surface of the red cells."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرکە بچێتە ناو سووڕی خوێن، بەکتریا دەلکێت بە خڕۆکە سوورەکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadhe2537("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadhe2537(
-                                        // REPLACE: adhere /ədˈhɪr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Once in the bloodstream, the bacteria adhere to the surface of the red cells.",
+                            kurdishText:
+                                "ھەرکە بچێتە ناو سووڕی خوێن، بەکتریا دەلکێت بە خڕۆکە سوورەکانەوە.",
+                            onPressedBritish: () => speakadhe2537("en-GB"),
+                            onPressedAmerican: () => speakadhe2537(
+                                // REPLACE: adhere /ədˈhɪr/
+                                "en-US"),
                           ),
                         ],
                       ),

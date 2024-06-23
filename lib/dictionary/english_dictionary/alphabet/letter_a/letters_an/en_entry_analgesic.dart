@@ -157,66 +157,27 @@ class EnglishEntryanalgesic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) ھەبوونی خاسیەتی ئازارشکێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This cream contains a mild analgesic to soothe stings and bites."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم کرێمە ئازارشکێنێکی سووکی تێدایە کە پێوەدان و گەستن ھێوردەکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanalgesic5802("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalgesic5802(
-                                        // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This cream contains a mild analgesic to soothe stings and bites.",
+                            kurdishText:
+                                "ئەم کرێمە ئازارشکێنێکی سووکی تێدایە کە پێوەدان و گەستن ھێوردەکاتەوە.",
+                            onPressedBritish: () => speakanalgesic5802("en-GB"),
+                            onPressedAmerican: () => speakanalgesic5802(
+                                // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئازارشکێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Aspirin is a mild analgesic."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەسپرین ئازارشکێنێکی سووکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanalgesic101("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalgesic101(
-                                        // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Aspirin is a mild analgesic.",
+                            kurdishText: "ئەسپرین ئازارشکێنێکی سووکە.",
+                            onPressedBritish: () => speakanalgesic101("en-GB"),
+                            onPressedAmerican: () => speakanalgesic101(
+                                // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -95,31 +95,12 @@ class EnglishEntryabsentminded extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. کەسێکە خەیاڵپڵاو کە بیر لە شتی تر دەکاتەوە وەک لەوەی کە لە دەوروبەریەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Grandpa’s becoming quite absent-minded."),
-                                    ExampleSentenceKurdish(
-                                        text: "باپیرە خەریکە خەیاڵپڵاو دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3254("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka3254("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Grandpa’s becoming quite absent-minded.",
+                            kurdishText: "باپیرە خەریکە خەیاڵپڵاو دەبێت.",
+                            onPressedBritish: () => speaka3254("en-GB"),
+                            onPressedAmerican: () => speaka3254("en-US"),
                           ),
                         ],
                       ),

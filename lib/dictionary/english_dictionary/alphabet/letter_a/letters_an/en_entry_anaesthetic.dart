@@ -157,34 +157,15 @@ class EnglishEntryanaesthetic extends StatelessWidget {
                               text:
                                   "١. (ناو) بەنج؛ دەرمانێک کە وا دەکات بەشێک یان تەواوی جەستەی کەسێک ھەست بە ھیچ نەکات، بەتایبەتی ئازار"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How long will I be under anaesthetic?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چەندە لەژێر بەنج دەبم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanaesthetic8505("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanaesthetic8505(
-                                        // REPLACE: anaesthetic /ˌænəsˈθetɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How long will I be under anaesthetic?",
+                            kurdishText: "چەندە لەژێر بەنج دەبم؟",
+                            onPressedBritish: () =>
+                                speakanaesthetic8505("en-GB"),
+                            onPressedAmerican: () => speakanaesthetic8505(
+                                // REPLACE: anaesthetic /ˌænəsˈθetɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

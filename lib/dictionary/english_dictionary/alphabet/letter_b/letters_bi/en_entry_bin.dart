@@ -150,63 +150,25 @@ class EnglishEntrybin extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) تەنەکەی زباڵە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Put the bottles in the recycling bin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوتڵەکان بخە تەنەکەی دووبارە بەکارھێنانەوەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbins1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbins1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Put the bottles in the recycling bin.",
+                            kurdishText:
+                                "بوتڵەکان بخە تەنەکەی دووبارە بەکارھێنانەوەوە.",
+                            onPressedBritish: () => speakbins1("en-GB"),
+                            onPressedAmerican: () => speakbins1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) جێگەیەک کە سەرێکی ھەیە و شتی تێدەخەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All their toys are kept in plastic storage bins under the bed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو یارییە منداڵانەکانیان ھەڵدەگیرێن لە سنووقی پلاستیکی لەژێر جێخەوەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbins2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbins2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All their toys are kept in plastic storage bins under the bed.",
+                            kurdishText:
+                                "ھەموو یارییە منداڵانەکانیان ھەڵدەگیرێن لە سنووقی پلاستیکی لەژێر جێخەوەکەدا.",
+                            onPressedBritish: () => speakbins2("en-GB"),
+                            onPressedAmerican: () => speakbins2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -109,34 +109,15 @@ class EnglishEntryairbag extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئامێرێکە لە ئۆتۆمبێلدا کە پڕ دەبێت لە ھەوا بۆ پاراستنی شۆفێرەکە لە کاتی پێکداداندا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the event of a collision, the airbag stops the driver of the car from hitting his or her chest on the steering wheel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە حاڵەتی پێکداداندا ئێرباگەکە شۆفێرەکە دەوەستێنێت لە کێشانی سنگی بە سوکانەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairbag46282("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairbag46282(
-                                        // REPLACE: airbag /ˈerbæɡ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the event of a collision, the airbag stops the driver of the car from hitting his or her chest on the steering wheel.",
+                            kurdishText:
+                                "لە حاڵەتی پێکداداندا ئێرباگەکە شۆفێرەکە دەوەستێنێت لە کێشانی سنگی بە سوکانەکەدا.",
+                            onPressedBritish: () => speakairbag46282("en-GB"),
+                            onPressedAmerican: () => speakairbag46282(
+                                // REPLACE: airbag /ˈerbæɡ/
+                                "en-US"),
                           ),
                         ],
                       ),

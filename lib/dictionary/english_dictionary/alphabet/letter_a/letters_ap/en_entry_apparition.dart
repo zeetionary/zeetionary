@@ -161,35 +161,15 @@ class EnglishEntryapparition extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) تارمایی کەسێکی مردوو" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Apparitions of a woman in white robes have been reported."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تارمایی ژنێک بە ڕۆبەی سپییەوە ڕاگەیەندراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapparition917("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapparition917(
-                                        // REPLACE: apparition /ˌæpəˈrɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Apparitions of a woman in white robes have been reported.",
+                            kurdishText:
+                                "تارمایی ژنێک بە ڕۆبەی سپییەوە ڕاگەیەندراوە.",
+                            onPressedBritish: () => speakapparition917("en-GB"),
+                            onPressedAmerican: () => speakapparition917(
+                                // REPLACE: apparition /ˌæpəˈrɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

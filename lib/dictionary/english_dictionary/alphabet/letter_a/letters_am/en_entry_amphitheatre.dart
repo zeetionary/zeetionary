@@ -157,34 +157,15 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                               text:
                                   "١. (ناو) بینایەکی بازنەیی کە سەقفی نییە و ڕیزە جێگای پلەپلەی دانیشتنی ھەیە بە دەوری گۆڕەپانێک لە ناوەڕاستی بیناکەدا. ئەم بینایانە زیاتر لە یۆنان و ڕۆمی کۆندا بەکاردەھاتن بۆ ئاھەنگە چێژبەخشەکان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The amphitheatre is well worth a visit."),
-                                    ExampleSentenceKurdish(
-                                        text: "شانۆپانەکە شایەنی سەردانییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamphitheatre150089("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamphitheatre150089(
-                                        // REPLACE: amphitheatre /ˈæmfɪθiːətər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The amphitheatre is well worth a visit.",
+                            kurdishText: "شانۆپانەکە شایەنی سەردانییەکە.",
+                            onPressedBritish: () =>
+                                speakamphitheatre150089("en-GB"),
+                            onPressedAmerican: () => speakamphitheatre150089(
+                                // REPLACE: amphitheatre /ˈæmfɪθiːətər/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           // const DividerSentences(),

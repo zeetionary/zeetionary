@@ -114,98 +114,41 @@ class EnglishEntryaddition extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ناو) شتێک کە زیاد دەکرێت بۆ شتێکی تر"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All of these technologies are fairly recent additions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ئەم تەکنۆلۆژییانە تازە زیادکراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaddi14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaddi14(
-                                        // REPLACE: addition /əˈdɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All of these technologies are fairly recent additions.",
+                            kurdishText:
+                                "ھەموو ئەم تەکنۆلۆژییانە تازە زیادکراون.",
+                            onPressedBritish: () => speakaddi14("en-GB"),
+                            onPressedAmerican: () => speakaddi14(
+                                // REPLACE: addition /əˈdɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کردەی زیادکردنی شتێک بۆ شتێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Add salt, tasting with every addition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێی تێبکە و لەگەڵ ھەر تێکردنێک تامی بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadditi769("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadditi769(
-                                        // REPLACE: addition /əˈdɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Add salt, tasting with every addition.",
+                            kurdishText:
+                                "خوێی تێبکە و لەگەڵ ھەر تێکردنێک تامی بکە.",
+                            onPressedBritish: () => speakadditi769("en-GB"),
+                            onPressedAmerican: () => speakadditi769(
+                                // REPLACE: addition /əˈdɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بەشیکی تازە کە زیاددەکرێت بۆ بینایەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The addition should match the architecture of the house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشە زیادکراوەکە دەبێت بگونجێت لەگەڵ نەخشەی خانووەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaddit445("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaddit445(
-                                        // REPLACE: addition /əˈdɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The addition should match the architecture of the house.",
+                            kurdishText:
+                                "بەشە زیادکراوەکە دەبێت بگونجێت لەگەڵ نەخشەی خانووەکە.",
+                            onPressedBritish: () => speakaddit445("en-GB"),
+                            onPressedAmerican: () => speakaddit445(
+                                // REPLACE: addition /əˈdɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

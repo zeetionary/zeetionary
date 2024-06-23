@@ -153,34 +153,15 @@ class EnglishEntrybanjo extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بانجۆ؛ ئامێرێکی میوزیکە وەک گیتار، لە دەسکێکی درێژ پێکھاتووە و بەشی خوارەوەی خڕە، و چوار تەڵ یان زیاتری پێوەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The banjo is often used to accompany singing, and its distinctive sound can add a lively feel to a song."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانجۆ زۆرجار لەگەڵ گۆرانیدا بەکاردێت، و دەنگە تایبەتەکەی دەکرێت ھەستێکی بەتین بۆ گۆرانییەک زیاد بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanjos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanjos1(// REPLACE: banjo
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The banjo is often used to accompany singing, and its distinctive sound can add a lively feel to a song.",
+                            kurdishText:
+                                "بانجۆ زۆرجار لەگەڵ گۆرانیدا بەکاردێت، و دەنگە تایبەتەکەی دەکرێت ھەستێکی بەتین بۆ گۆرانییەک زیاد بکات.",
+                            onPressedBritish: () => speakbanjos1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanjos1(// REPLACE: banjo
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

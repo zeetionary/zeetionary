@@ -149,120 +149,41 @@ class EnglishEntrybooking extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ئامادەکارییەک کە پێشوەختە دەیکەیت بۆ گەشتکردن، چوون بۆ سینەما، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Can I make a booking for Friday?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەتوانم بۆ ھەینی جێ‌ڕابگرم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can I make a booking for Friday?",
+                            kurdishText: "ئەتوانم بۆ ھەینی جێ‌ڕابگرم؟",
+                            onPressedBritish: () => speakbookings1("en-GB"),
+                            onPressedAmerican: () => speakbookings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Early booking is recommended."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێ‌ڕاگرتن بەزوویی پێشنیارکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Early booking is recommended.",
+                            kurdishText: "جێ‌ڕاگرتن بەزوویی پێشنیارکراوە.",
+                            onPressedBritish: () => speakbookings2("en-GB"),
+                            onPressedAmerican: () => speakbookings2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئامادەکاری بۆ کەسێک نمایش بکات لە شانۆ، کۆنسێرت، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His bookings rise around Christmas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرتنەکانی بەرزدەبێتەوە لە نزیکی کریسمس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His bookings rise around Christmas.",
+                            kurdishText:
+                                "گرتنەکانی بەرزدەبێتەوە لە نزیکی کریسمس.",
+                            onPressedBritish: () => speakbookings3("en-GB"),
+                            onPressedAmerican: () => speakbookings3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئاگادارکردنەوەیەک کە یاریزانێک وەریدەگرێت (کارتی زەرد) لە کاتی ئەنجامدانی ھەڵەیەک لە یاری تۆپی پێدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When a defender gets a booking, he has to be careful not to get another and be sent off."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتێک کە بەرگریکارێک کارتێکی زەرد وەردەگرێت، دەبێت ئاگاداربێت یەکێکی دیکە وەرنەگرێت و دەربکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookings4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookings4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When a defender gets a booking, he has to be careful not to get another and be sent off.",
+                            kurdishText:
+                                "کاتێک کە بەرگریکارێک کارتێکی زەرد وەردەگرێت، دەبێت ئاگاداربێت یەکێکی دیکە وەرنەگرێت و دەربکرێت.",
+                            onPressedBritish: () => speakbookings4("en-GB"),
+                            onPressedAmerican: () => speakbookings4("en-US"),
                           ),
                         ],
                       ),

@@ -140,32 +140,13 @@ class EnglishEntrybrunette extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ژنێکی سپی پێستی کە قژێکی قاوەیی تاریکی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her wife was a plump, blue-eyed brunette."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنەکەی خرپنێکی چاو شینی قژ قاوەیی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brunette" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrunettes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrunettes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her wife was a plump, blue-eyed brunette.",
+                            kurdishText:
+                                "ژنەکەی خرپنێکی چاو شینی قژ قاوەیی بوو.", // brunette" as
+                            onPressedBritish: () => speakbrunettes1("en-GB"),
+                            onPressedAmerican: () => speakbrunettes1("en-US"),
                           ),
                         ],
                       ),

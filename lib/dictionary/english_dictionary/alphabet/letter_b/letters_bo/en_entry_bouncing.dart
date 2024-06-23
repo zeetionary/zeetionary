@@ -149,32 +149,13 @@ class EnglishEntrybouncing extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) تەندرووست و پڕ لە وزە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We've got two grandchildren - a three-year-old girl and a bouncing baby boy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو نەوەمان ھەیە، کچێکی سێ ساڵان و کوڕێکی تەندرووست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbouncings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbouncings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We've got two grandchildren - a three-year-old girl and a bouncing baby boy.",
+                            kurdishText:
+                                "دوو نەوەمان ھەیە، کچێکی سێ ساڵان و کوڕێکی تەندرووست.",
+                            onPressedBritish: () => speakbouncings1("en-GB"),
+                            onPressedAmerican: () => speakbouncings1("en-US"),
                           ),
                         ],
                       ),

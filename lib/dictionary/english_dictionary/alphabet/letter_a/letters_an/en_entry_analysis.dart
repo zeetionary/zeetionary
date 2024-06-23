@@ -158,98 +158,41 @@ class EnglishEntryanalysis extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) توێژینەوەی ورد لەسەر شتێک بۆ زیاتر تێگەشتن لێی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Further analysis revealed significant regional variations in the results."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژینەوەی زیاتر جیاوازیی بەرچاوی ھەرێمی لە ئەنجامەکان دەرخست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanalysis000("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalysis000(
-                                        // REPLACE: analysis /əˈnæləsɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Further analysis revealed significant regional variations in the results.",
+                            kurdishText:
+                                "توێژینەوەی زیاتر جیاوازیی بەرچاوی ھەرێمی لە ئەنجامەکان دەرخست.",
+                            onPressedBritish: () => speakanalysis000("en-GB"),
+                            onPressedAmerican: () => speakanalysis000(
+                                // REPLACE: analysis /əˈnæləsɪs/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We made the decision based on our analysis of the situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارەکەمان‌دا لە دوای لەبەرچاوگرتنی لێکدانەوەمان بۆ بارودۆخەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanalysis7499("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalysis7499(
-                                        // REPLACE: analysis /əˈnæləsɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We made the decision based on our analysis of the situation.",
+                            kurdishText:
+                                "بڕیارەکەمان‌دا لە دوای لەبەرچاوگرتنی لێکدانەوەمان بۆ بارودۆخەکە.",
+                            onPressedBritish: () => speakanalysis7499("en-GB"),
+                            onPressedAmerican: () => speakanalysis7499(
+                                // REPLACE: analysis /əˈnæləsɪs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) لێکۆڵینەوەی ورد لە شتێک بۆ ئەوەی بزانی لە چی پێکھاتووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The blood samples are sent to the laboratory for analysis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سامپڵەکانی خوێنەکە نێردران بۆ تاقیگە بۆ لێکۆڵینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanalysis7066("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalysis7066(
-                                        // REPLACE: analysis /əˈnæləsɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The blood samples are sent to the laboratory for analysis.",
+                            kurdishText:
+                                "سامپڵەکانی خوێنەکە نێردران بۆ تاقیگە بۆ لێکۆڵینەوە.",
+                            onPressedBritish: () => speakanalysis7066("en-GB"),
+                            onPressedAmerican: () => speakanalysis7066(
+                                // REPLACE: analysis /əˈnæləsɪs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

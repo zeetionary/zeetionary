@@ -115,35 +115,15 @@ class EnglishEntryalternator extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئامێرێک کە توزووی گۆڕاوی کارەبا درووست دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The alternator fails to generate electricity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داینەمۆکە تەزووی گۆڕاو درووست ناکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalternator4599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalternator4599(
-                                        // REPLACE: alternator /ˈɔːltəneɪtər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The alternator fails to generate electricity.",
+                            kurdishText: "داینەمۆکە تەزووی گۆڕاو درووست ناکات.",
+                            onPressedBritish: () =>
+                                speakalternator4599("en-GB"),
+                            onPressedAmerican: () => speakalternator4599(
+                                // REPLACE: alternator /ˈɔːltəneɪtər/
+                                "en-US"),
                           ),
                         ],
                       ),

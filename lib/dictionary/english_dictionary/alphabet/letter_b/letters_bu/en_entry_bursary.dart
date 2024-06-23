@@ -189,32 +189,13 @@ class EnglishEntrybursary extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بڕە پارەیەک کە دەدرێت بە کەسێک بۆ ئەوەی پێی بخوێنن لە زانکۆ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The student received a bursary to help cover the costs of tuition and books."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندکارەکە بڕە پارەیەکی وەرگرت بۆ یارمەتیدانی لە دابینکردنی خەرجی تێچوو و کتێبەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bursary", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbursarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbursarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The student received a bursary to help cover the costs of tuition and books.",
+                            kurdishText:
+                                "خوێندکارەکە بڕە پارەیەکی وەرگرت بۆ یارمەتیدانی لە دابینکردنی خەرجی تێچوو و کتێبەکانی.", // bursary", follow LX strictly
+                            onPressedBritish: () => speakbursarys1("en-GB"),
+                            onPressedAmerican: () => speakbursarys1("en-US"),
                           ),
                         ],
                       ),

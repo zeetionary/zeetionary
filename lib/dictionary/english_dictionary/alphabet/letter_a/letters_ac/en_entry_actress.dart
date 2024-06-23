@@ -114,34 +114,15 @@ class EnglishEntryactress extends StatelessWidget {
                               text:
                                   "١. (ناو) ژنێک کە کاری ڕۆڵگێڕان لە شانۆ و فیلم ئەکات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Oscar-winning actress has taken a break from acting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانمە ئەکتەرەکەی براوەی خەڵاتی ئۆسکار بۆ ماوەیەک پشووی لە ڕۆڵگێڕان وەرگرتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactress527("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakactress527(// REPLACE: actress
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Oscar-winning actress has taken a break from acting.",
+                            kurdishText:
+                                "خانمە ئەکتەرەکەی براوەی خەڵاتی ئۆسکار بۆ ماوەیەک پشووی لە ڕۆڵگێڕان وەرگرتووە.",
+                            onPressedBritish: () => speakactress527("en-GB"),
+                            onPressedAmerican: () =>
+                                speakactress527(// REPLACE: actress
+                                    "en-US"),
                           ),
                         ],
                       ),

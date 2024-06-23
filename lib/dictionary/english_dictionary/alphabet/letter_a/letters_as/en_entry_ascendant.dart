@@ -164,35 +164,15 @@ class EnglishEntryascendant extends StatelessWidget {
                               text:
                                   "١. (ناو) (فەلەکناسی) ئەو بەشەی ناوچەی کەلووەکان کە دەکەوێتە ئاسۆی ڕۆژھەڵات لە کات و شوێنی ڕووداوێکدا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I’m a Capricorn but my ascendant is Leo."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بورجی بزنم، بەڵام کەلووگەم بورجی شێرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakascendant1217("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakascendant1217(
-                                        // REPLACE: ascendant /əˈsendənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I’m a Capricorn but my ascendant is Leo.",
+                            kurdishText:
+                                "لە بورجی بزنم، بەڵام کەلووگەم بورجی شێرە.",
+                            onPressedBritish: () => speakascendant1217("en-GB"),
+                            onPressedAmerican: () => speakascendant1217(
+                                // REPLACE: ascendant /əˈsendənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

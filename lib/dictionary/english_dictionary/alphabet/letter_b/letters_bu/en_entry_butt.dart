@@ -193,181 +193,68 @@ class EnglishEntrybutt extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) لێدان لە کەسێک بە سەرت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The goat butted the door to open it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بزنەکە کێشای بە دەرگاکەدا بۆ ئەوەی بیکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "butt", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutts1("en-GB"),
+                          SentencesRow(
+  englishText:
+                                            "The goat butted the door to open it.",
+kurdishText:
+                                            "بزنەکە کێشای بە دەرگاکەدا بۆ ئەوەی بیکاتەوە.", // butt", follow LX strictly
+                              onPressedBritish: () => speakbutts1("en-GB"),
+onPressedAmerican: () => speakbutts1("en-US"),
                                   ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He butted his opponent in the wrestling match."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەلەیەکی کێشا بە ڕکابەرەکەیدا لە یاری زۆرانبازییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutts2("en-GB"),
+                          SentencesRow(
+  englishText:
+                                            "He butted his opponent in the wrestling match.",
+kurdishText:
+                                            "کەلەیەکی کێشا بە ڕکابەرەکەیدا لە یاری زۆرانبازییەکەدا.",
+onPressedBritish: () => speakbutts2("en-GB"),
+onPressedAmerican: () => speakbutts2("en-US"),
                                   ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) دەسکی چەکێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They struck him with their rifle butts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە دەسکە دەمانچەکانیان لێیان دان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutts3("en-GB"),
+                          SentencesRow(
+  englishText:
+                                            "They struck him with their rifle butts.",
+kurdishText:
+                                            "بە دەسکە دەمانچەکانیان لێیان دان.",
+onPressedBritish: () => speakbutts3("en-GB"),
+onPressedAmerican: () => speakbutts3("en-US"),
                                   ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەو بەشەی جگەرە کە ناسووتێت و فڕێ دەدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He flicked the butt of his cigarette into the ashtray."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بنەجگەرەکەی فڕێدایە ناو تەپڵەکێکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutts4("en-GB"),
+                          SentencesRow(
+  englishText:
+                                            "He flicked the butt of his cigarette into the ashtray.",
+kurdishText:
+                                            "بنەجگەرەکەی فڕێدایە ناو تەپڵەکێکەوە.",
+onPressedBritish: () => speakbutts4("en-GB"),
+onPressedAmerican: () => speakbutts4("en-US"),
                                   ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
                           // skipped_meaning 3rd oxford
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٤. (ناو) سمت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Get your butt over here! (= Come here!)"),
-                                    ExampleSentenceKurdish(text: "وەرە ئێرە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutts5("en-GB"),
+                          SentencesRow(
+  englishText:
+                                            "Get your butt over here! (= Come here!)",
+kurdishText: "وەرە ئێرە!",
+onPressedBritish: () => speakbutts5("en-GB"),
+onPressedAmerican: () => speakbutts5("en-US"),
                                   ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ناو) لێدان لە کەسێک بە سەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A butt from his head left him momentarily disorientated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەللەیەک لەسەری بۆ ماوەی گێژی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutts6("en-US"),
+                          SentencesRow(
+  englishText:
+                                            "A butt from his head left him momentarily disorientated.",
+kurdishText:
+                                            "کەللەیەک لەسەری بۆ ماوەی گێژی کرد.",
+onPressedBritish: () => speakbutts6("en-GB"),
+onPressedAmerican: () => speakbutts6("en-US"),
                                   ),
                                 ],
                               ),
-                            ],
-                          ),
-                        ],
-                      ),
                     ),
                     const YouTubeScroller(
                       children: [

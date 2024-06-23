@@ -152,94 +152,36 @@ class EnglishEntrybatch extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کۆمەڵە کەسێک/شتێک کە وەک گرووپێک سەیردەکرێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Each summer a new batch of students tries to find work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ھاوینێک دەستەیەکی تازە لە خوێندکاران ھەوڵ دەدەن کار بدۆزنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatchs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatchs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Each summer a new batch of students tries to find work.",
+                            kurdishText:
+                                "ھەموو ھاوینێک دەستەیەکی تازە لە خوێندکاران ھەوڵ دەدەن کار بدۆزنەوە.",
+                            onPressedBritish: () => speakbatchs1("en-GB"),
+                            onPressedAmerican: () => speakbatchs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بڕێک لە خواردن یان دەرمان کە پێکەوە درووست دەکرێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Shall I make another batch of cookies?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی تر بسکیت درووست بکەم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatchs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatchs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Shall I make another batch of cookies?",
+                            kurdishText: "ژمارەیەکی تر بسکیت درووست بکەم؟",
+                            onPressedBritish: () => speakbatchs2("en-GB"),
+                            onPressedAmerican: () => speakbatchs2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) کردن بە گرووپەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The teacher batched the students into groups of four for the activity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستاکە خوێندکارەکانی کرد بە دەستەی چوارییەوە بۆ چالاکییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatchs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatchs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The teacher batched the students into groups of four for the activity.",
+                            kurdishText:
+                                "مامۆستاکە خوێندکارەکانی کرد بە دەستەی چوارییەوە بۆ چالاکییەکە.",
+                            onPressedBritish: () => speakbatchs3("en-GB"),
+                            onPressedAmerican: () => speakbatchs3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

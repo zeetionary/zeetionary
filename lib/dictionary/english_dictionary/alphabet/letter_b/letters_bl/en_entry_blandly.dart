@@ -149,64 +149,26 @@ class EnglishEntryblandly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە ڕەنگ، جۆشوخرۆشی، یان حەز و ئارەزوو بە کەمی پیشان دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their home is blandly but expensively decorated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماڵەکەیان بە سادەیی بەڵام گرانبەھایی دیکۆرات کراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblandlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblandlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their home is blandly but expensively decorated.",
+                            kurdishText:
+                                "ماڵەکەیان بە سادەیی بەڵام گرانبەھایی دیکۆرات کراوە.",
+                            onPressedBritish: () => speakblandlys1("en-GB"),
+                            onPressedAmerican: () => speakblandlys1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەبێ پیشاندانی ھەست و جۆشوخرۆشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He blandly declared that he could not be held responsible."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە وشکی و لەسەرخۆیی وتی کە ناکرێت بە بەرپرسیار دابنرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblandlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblandlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He blandly declared that he could not be held responsible.",
+                            kurdishText:
+                                "بە وشکی و لەسەرخۆیی وتی کە ناکرێت بە بەرپرسیار دابنرێت.",
+                            onPressedBritish: () => speakblandlys2("en-GB"),
+                            onPressedAmerican: () => speakblandlys2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

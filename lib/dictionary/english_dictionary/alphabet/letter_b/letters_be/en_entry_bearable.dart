@@ -147,61 +147,23 @@ class EnglishEntrybearable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) کەسێک/شتێک کە دەتوانیت بەرگەی بگریت و مامەڵەی لەگەڵ بکەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was the only thing that made life bearable for me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا شت بوو کە وایکردبوو بەرگەی ژیان بگرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbearables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbearables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was the only thing that made life bearable for me.",
+                            kurdishText:
+                                "تەنھا شت بوو کە وایکردبوو بەرگەی ژیان بگرم.",
+                            onPressedBritish: () => speakbearables1("en-GB"),
+                            onPressedAmerican: () => speakbearables1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The money made life more bearable for her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارەکە وایکرد زیاتر بەرگەی ژیان بگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbearables2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbearables2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The money made life more bearable for her.",
+                            kurdishText:
+                                "پارەکە وایکرد زیاتر بەرگەی ژیان بگرێت.",
+                            onPressedBritish: () => speakbearables2("en-GB"),
+                            onPressedAmerican: () => speakbearables2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

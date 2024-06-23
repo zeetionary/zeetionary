@@ -154,214 +154,79 @@ class EnglishEntrybattery extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئامێرێک کە لەناو ئۆتۆمبێلێک، کاتژمێرێک، ڕادیۆیەک، ھتد دادەنرێت کە یارمەتی دەدات کاربکات بە پێدانی وزە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The battery is flat (= it is no longer producing electricity)."),
-                                    ExampleSentenceKurdish(
-                                        text: "باترییەکە مردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatterys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatterys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The battery is flat (= it is no longer producing electricity).",
+                            kurdishText: "باترییەکە مردووە.",
+                            onPressedBritish: () => speakbatterys1("en-GB"),
+                            onPressedAmerican: () => speakbatterys1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھێزی کارەبایی باترییەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My phone ran out of battery, so I plugged it in to charge."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "موبایلەکەم شەحنی نەما، بۆیە کردم بە شەحنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatterys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatterys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My phone ran out of battery, so I plugged it in to charge.",
+                            kurdishText:
+                                "موبایلەکەم شەحنی نەما، بۆیە کردم بە شەحنەوە.",
+                            onPressedBritish: () => speakbatterys2("en-GB"),
+                            onPressedAmerican: () => speakbatterys2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ڕێژەیەکی زۆر لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He faced a battery of questions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووبەڕووی زنجیرەیەک پرسیار بوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatterys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatterys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He faced a battery of questions.",
+                            kurdishText: "ڕووبەڕووی زنجیرەیەک پرسیار بوویەوە.",
+                            onPressedBritish: () => speakbatterys3("en-GB"),
+                            onPressedAmerican: () => speakbatterys3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) تۆپخانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The shore battery opened fire."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆپخانەی کەناراواکە دەستی بە تۆپباران کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatterys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatterys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The shore battery opened fire.",
+                            kurdishText:
+                                "تۆپخانەی کەناراواکە دەستی بە تۆپباران کرد.",
+                            onPressedBritish: () => speakbatterys4("en-GB"),
+                            onPressedAmerican: () => speakbatterys4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) ڕێژەیەکی زۆر لە قەفەزی بچووک کە بەکاردێت بۆ ڕاگرتنی مریشک لە دەواجین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The supermarket has pledged to stop selling eggs from battery hens by 2025."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەپەرمارکێتەکە بەڵێنی داوە کە بوەستێت لە فرۆشتنی ھێلکەی مریشکی مەسلاحە پێش ساڵی ٢٠٢٥."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatterys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatterys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The supermarket has pledged to stop selling eggs from battery hens by 2025.",
+                            kurdishText:
+                                "سەپەرمارکێتەکە بەڵێنی داوە کە بوەستێت لە فرۆشتنی ھێلکەی مریشکی مەسلاحە پێش ساڵی ٢٠٢٥.",
+                            onPressedBritish: () => speakbatterys5("en-GB"),
+                            onPressedAmerican: () => speakbatterys5("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Battery eggs are the cheapest type of eggs, but they are also the most cruel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێلکەی مەسلاحە ھەرزانترین جۆری ھێلکەن، بەڵام بە دڕندەترین شێوە بەرھەم دەھێنرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatterys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatterys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Battery eggs are the cheapest type of eggs, but they are also the most cruel.",
+                            kurdishText:
+                                "ھێلکەی مەسلاحە ھەرزانترین جۆری ھێلکەن، بەڵام بە دڕندەترین شێوە بەرھەم دەھێنرێن.",
+                            onPressedBritish: () => speakbatterys6("en-GB"),
+                            onPressedAmerican: () => speakbatterys6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ناو) تاوانی ھێرشی جەستەیی بۆسەر کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was charged with battery after a fight at a night club."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاوانبارکرا بە کوتەک‌کاری دوابەداوی شەڕێک لە یانەیەکی شەوانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbatterys6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbatterys6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was charged with battery after a fight at a night club.",
+                            kurdishText:
+                                "تاوانبارکرا بە کوتەک‌کاری دوابەداوی شەڕێک لە یانەیەکی شەوانە.",
+                            onPressedBritish: () => speakbatterys6("en-GB"),
+                            onPressedAmerican: () => speakbatterys6("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

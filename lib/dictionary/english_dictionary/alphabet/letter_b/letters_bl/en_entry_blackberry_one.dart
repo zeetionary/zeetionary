@@ -144,32 +144,13 @@ class EnglishEntryblackberryone extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جۆرە موبایلێکی زیرەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Check your emails via your BlackBerry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەیری ئیمەیڵەکانت بکە لە بلاکبێرییەکەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackBerrys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackBerrys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Check your emails via your BlackBerry.",
+                            kurdishText:
+                                "سەیری ئیمەیڵەکانت بکە لە بلاکبێرییەکەتەوە.",
+                            onPressedBritish: () => speakblackBerrys1("en-GB"),
+                            onPressedAmerican: () => speakblackBerrys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

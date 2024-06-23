@@ -141,34 +141,14 @@ class EnglishEntrybulletpoint extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خاڵێکە کە دەکرێت بازنە، سێگۆشە، یان چوارگۆشە بێت لە نووسیندا لە پێش ڕستەیەک دادەنرێت وەک ئاماژە بەوەی کە گرنگە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please see the first and second bullet points on the first page."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە سەیری خاڵەکانی یەکەم و دووەم بکە لە پەڕەی یەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bullet point", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbulletpoints1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbulletpoints1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please see the first and second bullet points on the first page.",
+                            kurdishText:
+                                "تکایە سەیری خاڵەکانی یەکەم و دووەم بکە لە پەڕەی یەکەم.", // bullet point", follow LX strictly
+                            onPressedBritish: () => speakbulletpoints1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbulletpoints1("en-US"),
                           ),
                         ],
                       ),

@@ -152,32 +152,13 @@ class EnglishEntrybirdofprey extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) باڵندەیەک کە گیانلەبەری تر دەکوژێت و دەیخوات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many birds of prey have powerful wings for hunting and soaring effortlessly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرێک باڵندەی ڕاوی باڵی بەھێزیان ھەیە بۆ ڕاوکردن و بەرزبوونەوە بە ساناھی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbirdofpreys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbirdofpreys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many birds of prey have powerful wings for hunting and soaring effortlessly.",
+                            kurdishText:
+                                "زۆرێک باڵندەی ڕاوی باڵی بەھێزیان ھەیە بۆ ڕاوکردن و بەرزبوونەوە بە ساناھی.",
+                            onPressedBritish: () => speakbirdofpreys1("en-GB"),
+                            onPressedAmerican: () => speakbirdofpreys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

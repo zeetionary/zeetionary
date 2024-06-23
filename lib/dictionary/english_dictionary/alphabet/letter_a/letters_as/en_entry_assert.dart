@@ -166,131 +166,55 @@ class EnglishEntryassert extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) وتن بە ڕوونی و دڵنیایی کە شتێک ڕاستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She continued to assert that she was innocent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەردەوام بوو لە جەختکردنەوە لە بێ‌تاوانیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassert1024("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassert1024(
-                                        // REPLACE: assert /əˈsɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She continued to assert that she was innocent.",
+                            kurdishText:
+                                "بەردەوام بوو لە جەختکردنەوە لە بێ‌تاوانیی.",
+                            onPressedBritish: () => speakassert1024("en-GB"),
+                            onPressedAmerican: () => speakassert1024(
+                                // REPLACE: assert /əˈsɜːrt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The German Chancellor was anxious to assert her government's commitment to European unity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاوێژکاری ئەڵمانیا دوودڵ بوو لە جەختکردنەوە لە پابەندیی حکومەتەکەی بە یەکگرتوویی ئەورووپا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassert1026("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassert1026(
-                                        // REPLACE: assert /əˈsɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The German Chancellor was anxious to assert her government's commitment to European unity.",
+                            kurdishText:
+                                "ڕاوێژکاری ئەڵمانیا دوودڵ بوو لە جەختکردنەوە لە پابەندیی حکومەتەکەی بە یەکگرتوویی ئەورووپا.",
+                            onPressedBritish: () => speakassert1026("en-GB"),
+                            onPressedAmerican: () => speakassert1026(
+                                // REPLACE: assert /əˈsɜːrt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ڕەفتارکردن بە متمانەبەخۆبوونی زیاترەوە بۆ ئەوەی خەڵکی زیاتر حسابت بۆ بکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You’re too timid—you must try to assert yourself more."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر شەرمن و لەرزۆکی، دەبێت زیاتر خۆت دەربخەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassert1030("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassert1030(
-                                        // REPLACE: assert /əˈsɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You’re too timid—you must try to assert yourself more.",
+                            kurdishText:
+                                "زۆر شەرمن و لەرزۆکی، دەبێت زیاتر خۆت دەربخەیت.",
+                            onPressedBritish: () => speakassert1030("en-GB"),
+                            onPressedAmerican: () => speakassert1030(
+                                // REPLACE: assert /əˈsɜːrt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) مامەڵەکردن بەشێوەیەک کە خەڵکی مافەکانت بناسێنن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wished to assert her independence from her parents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیویست سەربەخۆیی لە دایک و باوکی بسەپێنێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassert1032("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassert1032(
-                                        // REPLACE: assert /əˈsɜːrt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wished to assert her independence from her parents.",
+                            kurdishText:
+                                "دەیویست سەربەخۆیی لە دایک و باوکی بسەپێنێ.",
+                            onPressedBritish: () => speakassert1032("en-GB"),
+                            onPressedAmerican: () => speakassert1032(
+                                // REPLACE: assert /əˈsɜːrt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

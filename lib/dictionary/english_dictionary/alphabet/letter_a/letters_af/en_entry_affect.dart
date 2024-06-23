@@ -127,128 +127,51 @@ class EnglishEntryaffect extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) کاریگەری درووستکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The article deals with issues affecting the lives of children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکە مامەڵە لەگەڵ ئەو کێشانە دەکات کە کاریگەری لەسەر ژیانی منداڵان درووست دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffe5699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffe5699(
-                                        // REPLACE: affect /əˈfekt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The article deals with issues affecting the lives of children.",
+                            kurdishText:
+                                "وتارەکە مامەڵە لەگەڵ ئەو کێشانە دەکات کە کاریگەری لەسەر ژیانی منداڵان درووست دەکەن.",
+                            onPressedBritish: () => speakaffe5699("en-GB"),
+                            onPressedAmerican: () => speakaffe5699(
+                                // REPLACE: affect /əˈfekt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your opinion will not affect my decision."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆچوونت کاریگەری لەسەر بڕیارەکەم ناکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffe741("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaffe741(// REPLACE: affect /əˈfekt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your opinion will not affect my decision.",
+                            kurdishText:
+                                "بۆچوونت کاریگەری لەسەر بڕیارەکەم ناکات.",
+                            onPressedBritish: () => speakaffe741("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaffe741(// REPLACE: affect /əˈfekt/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) نەخۆشییەک کە کاریگەری دەبێت لەسەر جەستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The disease is more likely to affect women than men."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشییەکە ئەگەری زیاترە تووشی ژنان بێت وەک لە پیاوان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffe25699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffe25699(
-                                        // REPLACE: affect /əˈfekt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The disease is more likely to affect women than men.",
+                            kurdishText:
+                                "نەخۆشییەکە ئەگەری زیاترە تووشی ژنان بێت وەک لە پیاوان.",
+                            onPressedBritish: () => speakaffe25699("en-GB"),
+                            onPressedAmerican: () => speakaffe25699(
+                                // REPLACE: affect /əˈfekt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) وا لە کەسێک بکەیت ھەست بە دڵتەنگی بکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were deeply affected by the news of her death."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر ناڕەحەت بوون بە ھەواڵی مردنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaff2566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaff2566(// REPLACE: affect /əˈfekt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were deeply affected by the news of her death.",
+                            kurdishText: "زۆر ناڕەحەت بوون بە ھەواڵی مردنی.",
+                            onPressedBritish: () => speakaff2566("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaff2566(// REPLACE: affect /əˈfekt/
+                                    "en-US"),
                           ),
                         ],
                       ),

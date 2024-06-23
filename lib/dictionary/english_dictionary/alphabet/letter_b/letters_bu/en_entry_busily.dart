@@ -192,60 +192,22 @@ class EnglishEntrybusily extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەسەربردنی کاتێکی زۆر بە شتێکەوە کە پێویستی بە تەواوی سەرنجتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was busily engaged repairing his bike."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێ‌وچان خەریک بوو بە چاککردنەوەی پاسکیلەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "busily", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusilys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusilys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was busily engaged repairing his bike.",
+                            kurdishText:
+                                "بێ‌وچان خەریک بوو بە چاککردنەوەی پاسکیلەکەی.", // busily", follow LX strictly
+                            onPressedBritish: () => speakbusilys1("en-GB"),
+                            onPressedAmerican: () => speakbusilys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was busily preparing for their arrival."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە سەرقاڵییەوە ئامادەکاریم بۆ گەشتنیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbusilys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbusilys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was busily preparing for their arrival.",
+                            kurdishText:
+                                "بە سەرقاڵییەوە ئامادەکاریم بۆ گەشتنیان دەکرد.",
+                            onPressedBritish: () => speakbusilys2("en-GB"),
+                            onPressedAmerican: () => speakbusilys2("en-US"),
                           ),
                         ],
                       ),

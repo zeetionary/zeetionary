@@ -152,34 +152,15 @@ class EnglishEntrybarmaid extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مەیگێڕێکی ژن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was working as a barmaid in a pub."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک ژنەمەیگێڕێک لە باڕێکدا کاریدەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarmaids1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarmaids1(// REPLACE: barmaid
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was working as a barmaid in a pub.",
+                            kurdishText:
+                                "وەک ژنەمەیگێڕێک لە باڕێکدا کاریدەکرد.",
+                            onPressedBritish: () => speakbarmaids1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarmaids1(// REPLACE: barmaid
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

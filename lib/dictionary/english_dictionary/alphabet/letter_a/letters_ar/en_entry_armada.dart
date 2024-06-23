@@ -161,34 +161,15 @@ class EnglishEntryarmada extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ژمارەیەکی زۆری کەشتی جەنگی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Spanish Armada was sent to attack England in 1588."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشتی‌گەلی ئیسپانیا نێردرا بۆ ھێرشکردنە سەر ئینگلتەرە لە ساڵی ١٥٨٨."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmada423("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmada423(
-                                        // REPLACE: armada /ɑːrˈmɑːdə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Spanish Armada was sent to attack England in 1588.",
+                            kurdishText:
+                                "کەشتی‌گەلی ئیسپانیا نێردرا بۆ ھێرشکردنە سەر ئینگلتەرە لە ساڵی ١٥٨٨.",
+                            onPressedBritish: () => speakarmada423("en-GB"),
+                            onPressedAmerican: () => speakarmada423(
+                                // REPLACE: armada /ɑːrˈmɑːdə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

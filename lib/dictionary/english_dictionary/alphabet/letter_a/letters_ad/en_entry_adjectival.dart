@@ -113,32 +113,13 @@ class EnglishEntryadjectival extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) پەیوەندیدار بە ھاوەڵناو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "an adjectival phrase"),
-                                    ExampleSentenceKurdish(
-                                        text: "گرێی ھاوەڵناوی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadjec2547("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadjec2547(
-                                        // REPLACE: adjectival /ˌædʒekˈtaɪvl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "an adjectival phrase",
+                            kurdishText: "گرێی ھاوەڵناوی.",
+                            onPressedBritish: () => speakadjec2547("en-GB"),
+                            onPressedAmerican: () => speakadjec2547(
+                                // REPLACE: adjectival /ˌædʒekˈtaɪvl/
+                                "en-US"),
                           ),
                         ],
                       ),

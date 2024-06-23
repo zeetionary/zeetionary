@@ -148,120 +148,41 @@ class EnglishEntryblonde extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) قژی ئاڵتوونی کاڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She had long blonde hair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قژێکی درێژی ئاڵتوونی کاڵی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblondes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblondes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She had long blonde hair.",
+                            kurdishText: "قژێکی درێژی ئاڵتوونی کاڵی ھەبوو.",
+                            onPressedBritish: () => speakblondes1("en-GB"),
+                            onPressedAmerican: () => speakblondes1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The child had short blond curls and large blue eyes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکە قژی لوولی ئاڵتوونی کاڵی کورتی ھەبوو و چاوی شینی گەورە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblondes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblondes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The child had short blond curls and large blue eyes.",
+                            kurdishText:
+                                "منداڵەکە قژی لوولی ئاڵتوونی کاڵی کورتی ھەبوو و چاوی شینی گەورە.",
+                            onPressedBritish: () => speakblondes2("en-GB"),
+                            onPressedAmerican: () => speakblondes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) ھەبوونی قژی ئاڵتوونی کاڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A blonde-haired girl walked in."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کچێکی قا ئاڵتوونی کاڵ ھاتە ژوورەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblondes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblondes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A blonde-haired girl walked in.",
+                            kurdishText: "کچێکی قا ئاڵتوونی کاڵ ھاتە ژوورەوە.",
+                            onPressedBritish: () => speakblondes3("en-GB"),
+                            onPressedAmerican: () => speakblondes3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کەسێک، بەتایبەتی ژنێک، کە قژی ئاڵتوونی کاڵی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Is she a natural blonde (= Is her hair naturally blonde)?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەی سرووشتی قژی ئاڵتوونی کاڵی ھەیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblondes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblondes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Is she a natural blonde (= Is her hair naturally blonde)?",
+                            kurdishText:
+                                "بەشێوەی سرووشتی قژی ئاڵتوونی کاڵی ھەیە؟",
+                            onPressedBritish: () => speakblondes4("en-GB"),
+                            onPressedAmerican: () => speakblondes4("en-US"),
                           ),
                         ],
                       ),

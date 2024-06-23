@@ -194,63 +194,25 @@ class EnglishEntryburner extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو بەشەی گازی گەرمکەرەوە کە ئاگر درووست دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chef adjusted the burner to simmer the sauce slowly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێفەکە چاوی گازەکەی ڕێکخست بۆ ئەوەی شۆرباکە بەھێواشی مێروولەکوڵ بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burner", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburners1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburners1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chef adjusted the burner to simmer the sauce slowly.",
+                            kurdishText:
+                                "شێفەکە چاوی گازەکەی ڕێکخست بۆ ئەوەی شۆرباکە بەھێواشی مێروولەکوڵ بێت.", // burner", follow LX strictly
+                            onPressedBritish: () => speakburners1("en-GB"),
+                            onPressedAmerican: () => speakburners1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) موبایلێکی ھەرزان کە بۆ ماوەیەکی کەم بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He used three different burner numbers to conceal his identity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێ موبایلی جیاوازی کاتیی بەکارھێنا بۆ شاردنەوەی ناسنامەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburners2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburners2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He used three different burner numbers to conceal his identity.",
+                            kurdishText:
+                                "سێ موبایلی جیاوازی کاتیی بەکارھێنا بۆ شاردنەوەی ناسنامەی.",
+                            onPressedBritish: () => speakburners2("en-GB"),
+                            onPressedAmerican: () => speakburners2("en-US"),
                           ),
                         ],
                       ),

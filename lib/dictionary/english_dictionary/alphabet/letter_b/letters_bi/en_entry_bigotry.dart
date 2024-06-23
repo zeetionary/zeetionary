@@ -147,32 +147,13 @@ class EnglishEntrybigotry extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھەبوون یان دەربڕینی باوەڕ و بۆچوون کە توند و نابەجێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The politician's bigotry towards immigrants led to his loss in the elections."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمارگرژی سیاسەتوانەکە دژ بە کۆچبەران بوو بەھۆی دۆڕانی لە ھەڵبژاردنەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbigotrys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbigotrys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The politician's bigotry towards immigrants led to his loss in the elections.",
+                            kurdishText:
+                                "دەمارگرژی سیاسەتوانەکە دژ بە کۆچبەران بوو بەھۆی دۆڕانی لە ھەڵبژاردنەکان.",
+                            onPressedBritish: () => speakbigotrys1("en-GB"),
+                            onPressedAmerican: () => speakbigotrys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

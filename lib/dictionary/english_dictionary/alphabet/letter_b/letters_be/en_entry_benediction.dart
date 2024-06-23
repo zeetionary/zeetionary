@@ -151,34 +151,14 @@ class EnglishEntrybenediction extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نزای داواکردن لە خودا بۆ پاراستنی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The priest offered a heartfelt benediction for the newlyweds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەشەکە نزای خۆی باراند بەسەر تازە بووک و زاواکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbenedictions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbenedictions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The priest offered a heartfelt benediction for the newlyweds.",
+                            kurdishText:
+                                "قەشەکە نزای خۆی باراند بەسەر تازە بووک و زاواکە.",
+                            onPressedBritish: () => speakbenedictions1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbenedictions1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

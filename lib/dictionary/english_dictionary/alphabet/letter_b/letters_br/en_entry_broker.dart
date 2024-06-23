@@ -146,94 +146,36 @@ class EnglishEntrybroker extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە کاری کڕین و فرۆشتن بۆ خەڵکی دیکە دەکات، یان کڕین و فرۆشتنی سەرمایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ask advice from an insurance broker."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوای ڕاوێژ بکە لە دەڵاڵێکی بیمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broker" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrokers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrokers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Ask advice from an insurance broker.",
+                            kurdishText:
+                                "داوای ڕاوێژ بکە لە دەڵاڵێکی بیمەوە.", // broker" as
+                            onPressedBritish: () => speakbrokers1("en-GB"),
+                            onPressedAmerican: () => speakbrokers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە ناوبژیکاری دوو لایەنی دژبەر دەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He offered to act as a broker between the rebels and the government."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامادەیی دەربڕی ناوبژیوان بێت لە نێوان یاخیبووەکان و حکومەتدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrokers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrokers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He offered to act as a broker between the rebels and the government.",
+                            kurdishText:
+                                "ئامادەیی دەربڕی ناوبژیوان بێت لە نێوان یاخیبووەکان و حکومەتدا.",
+                            onPressedBritish: () => speakbrokers2("en-GB"),
+                            onPressedAmerican: () => speakbrokers2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) ناوبژی کردن لە نێوان دوو لایەنی دژبەردا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The diplomats have failed in their attempts to broker a ceasefire."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیپلۆماتکارەکان شکستیان ھێناوە لە ھێنانە کایەی ئاگربەستەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrokers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrokers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The diplomats have failed in their attempts to broker a ceasefire.",
+                            kurdishText:
+                                "دیپلۆماتکارەکان شکستیان ھێناوە لە ھێنانە کایەی ئاگربەستەوە.",
+                            onPressedBritish: () => speakbrokers3("en-GB"),
+                            onPressedAmerican: () => speakbrokers3("en-US"),
                           ),
                         ],
                       ),

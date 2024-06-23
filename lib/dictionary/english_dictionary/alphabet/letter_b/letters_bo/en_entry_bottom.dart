@@ -338,183 +338,68 @@ class EnglishEntrybottom extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بەشی خوارەوەی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Footnotes are given at the bottom of each page."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەراوێز لە خوارەوەی ھەموو لاپەڕەیەک نووسراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Footnotes are given at the bottom of each page.",
+                            kurdishText:
+                                "پەراوێز لە خوارەوەی ھەموو لاپەڕەیەک نووسراوە.",
+                            onPressedBritish: () => speakbottoms1("en-GB"),
+                            onPressedAmerican: () => speakbottoms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book I want is right at the bottom (= of the pile)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو کتێبەی دەمەوێت لە خوارەوەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book I want is right at the bottom (= of the pile).",
+                            kurdishText: "ئەو کتێبەی دەمەوێت لە خوارەوەیە.",
+                            onPressedBritish: () => speakbottoms2("en-GB"),
+                            onPressedAmerican: () => speakbottoms2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The wind blew through gaps at the top and bottom of the door."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "با بە بۆشی سەرەوە و خوارەوەی دەرگاکە دەھاتە ژوورەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbottoms3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbottoms3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The wind blew through gaps at the top and bottom of the door.",
+                                    kurdishText:
+                                        "با بە بۆشی سەرەوە و خوارەوەی دەرگاکە دەھاتە ژوورەوە.",
+                                    onPressedBritish: () =>
+                                        speakbottoms3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbottoms3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He reached the bottom of the steps in no time."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بە خێرایی گەشتە خوارەوەی قادرمەکان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbottoms4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbottoms4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He reached the bottom of the steps in no time.",
+                                    kurdishText:
+                                        "بە خێرایی گەشتە خوارەوەی قادرمەکان.",
+                                    onPressedBritish: () =>
+                                        speakbottoms4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbottoms4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We rode along the bottom of the valley."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بە خوارەوەی دۆڵەکەدا لێمانخوڕی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbottoms5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbottoms5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We rode along the bottom of the valley.",
+                                    kurdishText:
+                                        "بە خوارەوەی دۆڵەکەدا لێمانخوڕی.",
+                                    onPressedBritish: () =>
+                                        speakbottoms5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbottoms5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We walked to the bottom of the hill."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بە ڕێکردن چووینە خوارەوەی گردەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbottoms6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbottoms6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We walked to the bottom of the hill.",
+                                    kurdishText:
+                                        "بە ڕێکردن چووینە خوارەوەی گردەکە.",
+                                    onPressedBritish: () =>
+                                        speakbottoms6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbottoms6("en-US"),
                                   ),
                                 ],
                               ),
@@ -524,469 +409,162 @@ class EnglishEntrybottom extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو بەشەی شتێک کە ڕووی لە خوارەوەیە و زۆرجار نابینرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            " The ingredients are listed on the bottom of the box."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەچەتەکان لە ژێرەوەی سنووقەکە لیستکراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                " The ingredients are listed on the bottom of the box.",
+                            kurdishText:
+                                "ڕەچەتەکان لە ژێرەوەی سنووقەکە لیستکراون.",
+                            onPressedBritish: () => speakbottoms7("en-GB"),
+                            onPressedAmerican: () => speakbottoms7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The manufacturer's name is on the bottom of the plate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوی درووستکارەکە لە ژێرەوەی دەورییەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The manufacturer's name is on the bottom of the plate.",
+                            kurdishText:
+                                "ناوی درووستکارەکە لە ژێرەوەی دەورییەکەیە.",
+                            onPressedBritish: () => speakbottoms8("en-GB"),
+                            onPressedAmerican: () => speakbottoms8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بەشی خوارەوەی ڕووی ناوەوەی دەفرێک یان کاسەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Line the bottom of the cage with old newspaper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوارەوەی قەفەزەکە بە ڕۆژنامەی کۆن داپۆشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Line the bottom of the cage with old newspaper.",
+                            kurdishText:
+                                "خوارەوەی قەفەزەکە بە ڕۆژنامەی کۆن داپۆشە.",
+                            onPressedBritish: () => speakbottoms9("en-GB"),
+                            onPressedAmerican: () => speakbottoms9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Allow the tea leaves to settle to the bottom of the cup."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بھێڵە گەڵا چاەییەکان بچنە بنی پێڵاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Allow the tea leaves to settle to the bottom of the cup.",
+                            kurdishText:
+                                "بھێڵە گەڵا چاەییەکان بچنە بنی پێڵاکە.",
+                            onPressedBritish: () => speakbottoms10("en-GB"),
+                            onPressedAmerican: () => speakbottoms10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) بنی دەریاچە، دەریا، حەوز، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I feel safe as long as I can touch the bottom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەست بە سەلامەتی دەکەم ئەگەر بتوانم ھەست بە بنی ئاوەکە بکەم (قووڵی لە باڵام زیاتر نەبێت)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I feel safe as long as I can touch the bottom.",
+                            kurdishText:
+                                "ھەست بە سەلامەتی دەکەم ئەگەر بتوانم ھەست بە بنی ئاوەکە بکەم (قووڵی لە باڵام زیاتر نەبێت).",
+                            onPressedBritish: () => speakbottoms11("en-GB"),
+                            onPressedAmerican: () => speakbottoms11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The boat sank to the bottom of the sea."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەلەمەکە نغرۆبووە بنکی دەریاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The boat sank to the bottom of the sea.",
+                            kurdishText: "بەلەمەکە نغرۆبووە بنکی دەریاکە.",
+                            onPressedBritish: () => speakbottoms12("en-GB"),
+                            onPressedAmerican: () => speakbottoms12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) نزمترین ئاست لە لیستێک، چین، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When the list came out, my name was near the bottom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە لیستەکە ھاتەوە ناوم لە نزیکی خواری خوارەوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When the list came out, my name was near the bottom.",
+                            kurdishText:
+                                "کە لیستەکە ھاتەوە ناوم لە نزیکی خواری خوارەوە بوو.",
+                            onPressedBritish: () => speakbottoms13("en-GB"),
+                            onPressedAmerican: () => speakbottoms13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was always bottom of the class in math."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە لە خوارترینی پۆلەکە بووم لە بیرکاریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was always bottom of the class in math.",
+                            kurdishText:
+                                "ھەمیشە لە خوارترینی پۆلەکە بووم لە بیرکاریدا.",
+                            onPressedBritish: () => speakbottoms14("en-GB"),
+                            onPressedAmerican: () => speakbottoms14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) سمت؛ ئەو بەشەی جەستە کە لەسەری دادەنیشیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She slipped and fell on her bottom."),
-                                    ExampleSentenceKurdish(
-                                        text: "پێی ھەڵکەوت و بە سمتیدا کەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She slipped and fell on her bottom.",
+                            kurdishText: "پێی ھەڵکەوت و بە سمتیدا کەوت.",
+                            onPressedBritish: () => speakbottoms15("en-GB"),
+                            onPressedAmerican: () => speakbottoms15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) بەشی خوارەوەی جلێک کە لە دوو بەش پێکھاتووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She danced on the sand in a colorful bikini bottom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر لمەکە سەمای کرد بە بەشی خوارەوەی جلەمەلێیەکی ڕەنگاوڕەنگەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She danced on the sand in a colorful bikini bottom.",
+                            kurdishText:
+                                "لەسەر لمەکە سەمای کرد بە بەشی خوارەوەی جلەمەلێیەکی ڕەنگاوڕەنگەوە.",
+                            onPressedBritish: () => speakbottoms16("en-GB"),
+                            onPressedAmerican: () => speakbottoms16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (ناو) ئەو بەشەی شتێک کە دوورترینە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a stream at the bottom of the garden."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جۆگەیەک لەوپەڕی باخچەکەوە ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a stream at the bottom of the garden.",
+                            kurdishText: "جۆگەیەک لەوپەڕی باخچەکەوە ھەبوو.",
+                            onPressedBritish: () => speakbottoms17("en-GB"),
+                            onPressedAmerican: () => speakbottoms17("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I went to the school at the bottom of our street."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوومە ئەو قوتابخانەیەی کە لە کۆتایی شەقامەکەمان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I went to the school at the bottom of our street.",
+                            kurdishText:
+                                "چوومە ئەو قوتابخانەیەی کە لە کۆتایی شەقامەکەمان بوو.",
+                            onPressedBritish: () => speakbottoms18("en-GB"),
+                            onPressedAmerican: () => speakbottoms18("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٩. (ھاوەڵناو) لە خوارترین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Put your clothes in the bottom drawer."),
-                                    ExampleSentenceKurdish(
-                                        text: "جلەکانت بخە کەشەوەکەی خوارەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Put your clothes in the bottom drawer.",
+                            kurdishText: "جلەکانت بخە کەشەوەکەی خوارەوە.",
+                            onPressedBritish: () => speakbottoms19("en-GB"),
+                            onPressedAmerican: () => speakbottoms19("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bottom shelf holds the heavy books."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەفەی خوارەوە کتێبە قوورسەکانی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms20("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms20("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bottom shelf holds the heavy books.",
+                            kurdishText:
+                                "ڕەفەی خوارەوە کتێبە قوورسەکانی تێدایە.",
+                            onPressedBritish: () => speakbottoms20("en-GB"),
+                            onPressedAmerican: () => speakbottoms20("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (ھاوەڵناو) لە کۆتایی لیستێک، پێشبڕکێیەک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We came bottom with 12 points."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە ١٢ خاڵەوە لە کۆتایی بووین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms21("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms21("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We came bottom with 12 points.",
+                            kurdishText: "بە ١٢ خاڵەوە لە کۆتایی بووین.",
+                            onPressedBritish: () => speakbottoms21("en-GB"),
+                            onPressedAmerican: () => speakbottoms21("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They finished six points ahead of bottom club Swindon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوبوون بە شەش خاڵەوە لە پێش یانەی کۆتایی کە سویندن بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottoms22("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottoms22("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They finished six points ahead of bottom club Swindon.",
+                            kurdishText:
+                                "تەواوبوون بە شەش خاڵەوە لە پێش یانەی کۆتایی کە سویندن بوو.",
+                            onPressedBritish: () => speakbottoms22("en-GB"),
+                            onPressedAmerican: () => speakbottoms22("en-US"),
                           ),
                         ],
                       ),

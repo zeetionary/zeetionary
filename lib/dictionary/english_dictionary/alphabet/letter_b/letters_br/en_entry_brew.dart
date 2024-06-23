@@ -144,209 +144,74 @@ class EnglishEntrybrew extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) درووستکردنی بیرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This beer is brewed in the Czech Republic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیرەکە لە کۆماری چیک درووستکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brew" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrews1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrews1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This beer is brewed in the Czech Republic.",
+                            kurdishText:
+                                "بیرەکە لە کۆماری چیک درووستکراوە.", // brew" as
+                            onPressedBritish: () => speakbrews1("en-GB"),
+                            onPressedAmerican: () => speakbrews1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ئامادەکردنی خواردنەوەی چا و قاوە بە تێکردنی ئاوی گەرم، یان بھێڵیت تام بداتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He brewed some coffee for us."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەندێک قاوەی بۆ ئامادەکردین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrews2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrews2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He brewed some coffee for us.",
+                            kurdishText: "ھەندێک قاوەی بۆ ئامادەکردین.",
+                            onPressedBritish: () => speakbrews2("en-GB"),
+                            onPressedAmerican: () => speakbrews2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Always let tea brew for a few minutes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە بھێڵە چایەکە بۆ چەند خولەکێک تام بداتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrews3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrews3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Always let tea brew for a few minutes.",
+                            kurdishText:
+                                "ھەمیشە بھێڵە چایەکە بۆ چەند خولەکێک تام بداتەوە.",
+                            onPressedBritish: () => speakbrews3("en-GB"),
+                            onPressedAmerican: () => speakbrews3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) شتێک کە ئەگەری ڕوودانی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A storm was brewing up out at sea."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زریانێک لە دەریاکەوە خەریک بوو ھەڵیدەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrews4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrews4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A storm was brewing up out at sea.",
+                            kurdishText:
+                                "زریانێک لە دەریاکەوە خەریک بوو ھەڵیدەکرد.",
+                            onPressedBritish: () => speakbrews4("en-GB"),
+                            onPressedAmerican: () => speakbrews4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) جۆرە بیرەیەک کە لە شوێنێک درووستکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I thought I'd try the local brew."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیرم لەوە کردەوە بیرە لۆکاڵییەکە تاقیبکەمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrews5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrews5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I thought I'd try the local brew.",
+                            kurdishText:
+                                "بیرم لەوە کردەوە بیرە لۆکاڵییەکە تاقیبکەمەوە.",
+                            onPressedBritish: () => speakbrews5("en-GB"),
+                            onPressedAmerican: () => speakbrews5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ناو) بڕێک چای ئامادەکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Let's have a brew."),
-                                    ExampleSentenceKurdish(
-                                        text: "با چایەک ئامادە بکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrews6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrews6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Let's have a brew.",
+                            kurdishText: "با چایەک ئامادە بکەین.",
+                            onPressedBritish: () => speakbrews6("en-GB"),
+                            onPressedAmerican: () => speakbrews6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) تێکەڵەیەک لە کۆمەڵە بیرۆکەیەک، ڕووداوێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie is a potent brew of adventure, sex and comedy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە تێکەڵەیەک لە سەرکێشی و سێکس و درامایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrews7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrews7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie is a potent brew of adventure, sex and comedy.",
+                            kurdishText:
+                                "فیلمەکە تێکەڵەیەک لە سەرکێشی و سێکس و درامایە.",
+                            onPressedBritish: () => speakbrews7("en-GB"),
+                            onPressedAmerican: () => speakbrews7("en-US"),
                           ),
                         ],
                       ),

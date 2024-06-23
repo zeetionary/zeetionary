@@ -336,121 +336,43 @@ class EnglishEntrybroad extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) فراوان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He's got broad shoulders."),
-                                    ExampleSentenceKurdish(
-                                        text: "شانی پانی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broad" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroads1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroads1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's got broad shoulders.",
+                            kurdishText: "شانی پانی ھەیە.", // broad" as
+                            onPressedBritish: () => speakbroads1("en-GB"),
+                            onPressedAmerican: () => speakbroads1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is tall, broad and muscular."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرز و پان و پۆڕ و بە ماسولکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroads2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroads2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He is tall, broad and muscular.",
+                            kurdishText: "بەرز و پان و پۆڕ و بە ماسولکەیە.",
+                            onPressedBritish: () => speakbroads2("en-GB"),
+                            onPressedAmerican: () => speakbroads2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He turned to me with a broad smile."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بە بزەیەکی فراوانەوە ڕووی لێم کرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbroads3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbroads3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He turned to me with a broad smile.",
+                                    kurdishText:
+                                        "بە بزەیەکی فراوانەوە ڕووی لێم کرد.",
+                                    onPressedBritish: () =>
+                                        speakbroads3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbroads3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We drove down a broad avenue lined with trees."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بە ڕێگایەکی فراواندا چووین کە بە ڕیزە دار دەوردرابوو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbroads4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbroads4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We drove down a broad avenue lined with trees.",
+                                    kurdishText:
+                                        "بە ڕێگایەکی فراواندا چووین کە بە ڕیزە دار دەوردرابوو.",
+                                    onPressedBritish: () =>
+                                        speakbroads4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbroads4("en-US"),
                                   ),
                                 ],
                               ),
@@ -460,154 +382,59 @@ class EnglishEntrybroad extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) لە دوای پێوانەی دووری بەکاربێت بۆ پیشاندانی فراوانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The wardrobe stands at one metre broad and two metres high."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆڵابەکە یەک مەتر پانە و دوو مەتر بەرزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroads5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroads5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The wardrobe stands at one metre broad and two metres high.",
+                            kurdishText:
+                                "دۆڵابەکە یەک مەتر پانە و دوو مەتر بەرزە.",
+                            onPressedBritish: () => speakbroads5("en-GB"),
+                            onPressedAmerican: () => speakbroads5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) لە خۆگرتنی ژمارەیەکی زۆر لە خەڵکی و شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The course caters for a broad spectrum of interests."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆرسەکە گونجاوە ژمارەیەکی زۆر لە حەز و ئارەزوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroads6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroads6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The course caters for a broad spectrum of interests.",
+                            kurdishText:
+                                "کۆرسەکە گونجاوە ژمارەیەکی زۆر لە حەز و ئارەزوو.",
+                            onPressedBritish: () => speakbroads6("en-GB"),
+                            onPressedAmerican: () => speakbroads6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is broad support for the government's policies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشتیوانی فراوان ھەیە بۆ سیاسەتەکانی حکومەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroads7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroads7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is broad support for the government's policies.",
+                            kurdishText:
+                                "پشتیوانی فراوان ھەیە بۆ سیاسەتەکانی حکومەت.",
+                            onPressedBritish: () => speakbroads7("en-GB"),
+                            onPressedAmerican: () => speakbroads7("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She took a broad view of the duties of being a teacher (= she believed her duties included a wide range of things)."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ڕوانگەیەکی فراوانی ھەبوو بۆ ئەرکەکانی (مامۆستا پێی وابوو ئەرکی زۆرە)."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbroads8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbroads8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She took a broad view of the duties of being a teacher (= she believed her duties included a wide range of things).",
+                                    kurdishText:
+                                        "ڕوانگەیەکی فراوانی ھەبوو بۆ ئەرکەکانی (مامۆستا پێی وابوو ئەرکی زۆرە).",
+                                    onPressedBritish: () =>
+                                        speakbroads8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbroads8("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The promotion helped the company reach a much broader audience."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "بانگەشەکە یارمەتی کۆمپانیاکەی دا بگات بە ھاوڵاتی زیاتر."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbroads9("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbroads9("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The promotion helped the company reach a much broader audience.",
+                                    kurdishText:
+                                        "بانگەشەکە یارمەتی کۆمپانیاکەی دا بگات بە ھاوڵاتی زیاتر.",
+                                    onPressedBritish: () =>
+                                        speakbroads9("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbroads9("en-US"),
                                   ),
                                 ],
                               ),
@@ -617,152 +444,57 @@ class EnglishEntrybroad extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) شتێک کە بە گشتییە و ناچێتە ناو وردەکارییەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The negotiators were in broad agreement on the main issues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دراوسێیەکان لە ڕێککەوتنێکی گشتیدا بوون لەسەر کێشە سەرەکییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroads10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroads10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The negotiators were in broad agreement on the main issues.",
+                            kurdishText:
+                                "دراوسێیەکان لە ڕێککەوتنێکی گشتیدا بوون لەسەر کێشە سەرەکییەکان.",
+                            onPressedBritish: () => speakbroads10("en-GB"),
+                            onPressedAmerican: () => speakbroads10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In broad terms, the paper argues that each country should develop its own policy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەکی گشتی، توێژینەوەکە پێی‌وایە ھەر وڵاتێک دەبێت سیاسەتی خۆی ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroads11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroads11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In broad terms, the paper argues that each country should develop its own policy.",
+                            kurdishText:
+                                "بەشێوەیەکی گشتی، توێژینەوەکە پێی‌وایە ھەر وڵاتێک دەبێت سیاسەتی خۆی ھەبێت.",
+                            onPressedBritish: () => speakbroads11("en-GB"),
+                            onPressedAmerican: () => speakbroads11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ھاوەڵناو) ناوچەیەکی فراوان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The broad plains of the American West are hard to cross."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕینی دەشتە فراوانەکانی ڕۆژئاوای ئەمریکا گرانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroads12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroads12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The broad plains of the American West are hard to cross.",
+                            kurdishText:
+                                "بڕینی دەشتە فراوانەکانی ڕۆژئاوای ئەمریکا گرانە.",
+                            onPressedBritish: () => speakbroads12("en-GB"),
+                            onPressedAmerican: () => speakbroads12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ھاوەڵناو) شێوازێکی قسەکردن کە ھێندە ڕوونە دەتوانی شوێنی ژیانی کەسەکەی پێ دیاری بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He spoke with a broad Australian accent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئەکسێنتێکی خەستی ئوسترالی قسەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroads13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroads13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He spoke with a broad Australian accent.",
+                            kurdishText:
+                                "بە ئەکسێنتێکی خەستی ئوسترالی قسەی دەکرد.",
+                            onPressedBritish: () => speakbroads13("en-GB"),
+                            onPressedAmerican: () => speakbroads13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ھاوەڵناو) ئاماژەیەکی کە ڕوونە و ئاسانە بۆ تێگەشتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She avoided details but gave broad hints of what were the plans."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی بە دوورگرت لە وردەکارییەکان بەڵام ئاماژەی ڕوونی دا سەبارەت بەوەی پلانەکان چی بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroads14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroads14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She avoided details but gave broad hints of what were the plans.",
+                            kurdishText:
+                                "خۆی بە دوورگرت لە وردەکارییەکان بەڵام ئاماژەی ڕوونی دا سەبارەت بەوەی پلانەکان چی بوون.",
+                            onPressedBritish: () => speakbroads14("en-GB"),
+                            onPressedAmerican: () => speakbroads14("en-US"),
                           ),
                         ],
                       ),

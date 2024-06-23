@@ -194,94 +194,36 @@ class EnglishEntrybureau extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆڵابێکی جلوبەرگ، یان مێزێک کە چەکمەجەی ھەیە و بەشێکی سەرەوەی ھەیە کە دەکرێتەوە بۆ ئەوەی لەسەری بنووسیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was just enough space for a fold-up bed, washstand and bureau."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا ھێندە شوێن ھەبوو بەشی جێگەیەکی نووستن بکات، لەگەڵ مێزێکی نووسین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bureau", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbureaus1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbureaus1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was just enough space for a fold-up bed, washstand and bureau.",
+                            kurdishText:
+                                "تەنھا ھێندە شوێن ھەبوو بەشی جێگەیەکی نووستن بکات، لەگەڵ مێزێکی نووسین.", // bureau", follow LX strictly
+                            onPressedBritish: () => speakbureaus1("en-GB"),
+                            onPressedAmerican: () => speakbureaus1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئۆفیسێک یان دامەزراوەیەک کە زانیاریی لەسەر بابەتێکی دیاریکراو ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She works for an employment bureau."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ دامەزراوەیەکی دامەزراندن کاردەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbureaus2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbureaus2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She works for an employment bureau.",
+                            kurdishText:
+                                "بۆ دامەزراوەیەکی دامەزراندن کاردەکات.",
+                            onPressedBritish: () => speakbureaus2("en-GB"),
+                            onPressedAmerican: () => speakbureaus2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) بەڕێوبەرایەتییەک لە حکومەتی ئەمریکادا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Federal Bureau of Investigation (FBI) was founded on July 26, 1908."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێوبەرایەتیی لێکۆڵینەوەی نیشتیمانی لە ٢٦ی تەممووزی ١٩٠٨ دامەزرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbureaus3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbureaus3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Federal Bureau of Investigation (FBI) was founded on July 26, 1908.",
+                            kurdishText:
+                                "بەڕێوبەرایەتیی لێکۆڵینەوەی نیشتیمانی لە ٢٦ی تەممووزی ١٩٠٨ دامەزرا.",
+                            onPressedBritish: () => speakbureaus3("en-GB"),
+                            onPressedAmerican: () => speakbureaus3("en-US"),
                           ),
                         ],
                       ),

@@ -115,35 +115,16 @@ class EnglishEntryambiguity extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ھەبوونی ناڕوونی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Write clear definitions in order to avoid ambiguity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێناسەی ڕوون بنووسە بۆ ئەوەی لە ناڕوونی بەدوور بیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakambiguity23555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambiguity23555(
-                                        // REPLACE: ambiguity /ˌæmbɪˈɡjuːəti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Write clear definitions in order to avoid ambiguity.",
+                            kurdishText:
+                                "پێناسەی ڕوون بنووسە بۆ ئەوەی لە ناڕوونی بەدوور بیت.",
+                            onPressedBritish: () =>
+                                speakambiguity23555("en-GB"),
+                            onPressedAmerican: () => speakambiguity23555(
+                                // REPLACE: ambiguity /ˌæmbɪˈɡjuːəti/
+                                "en-US"),
                           ),
                         ],
                       ),

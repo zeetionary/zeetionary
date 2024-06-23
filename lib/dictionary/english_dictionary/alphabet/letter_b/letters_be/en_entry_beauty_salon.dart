@@ -151,34 +151,13 @@ class EnglishEntrybeautysalon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ساڵۆنی جوان‌کردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She went to a beauty salon for a permanent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوو بۆ ساڵۆنەکە بۆ لوولکردنی قژی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbeautysalons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbeautysalons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She went to a beauty salon for a permanent.",
+                            kurdishText: "چوو بۆ ساڵۆنەکە بۆ لوولکردنی قژی.",
+                            onPressedBritish: () => speakbeautysalons1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbeautysalons1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

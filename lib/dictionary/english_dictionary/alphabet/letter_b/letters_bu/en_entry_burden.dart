@@ -198,123 +198,47 @@ class EnglishEntryburden extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەرک و بەرپرسیاریەتی کە دەبێتەھۆی نیگەرانی، گرفت، و کاری قورس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The main burden of caring for old people falls on the state."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بارگرانیی سەرەکیی چاودێری کەسانی بەتەمەن دەکەوێتە سەر حکومەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burden", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburdens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The main burden of caring for old people falls on the state.",
+                            kurdishText:
+                                "بارگرانیی سەرەکیی چاودێری کەسانی بەتەمەن دەکەوێتە سەر حکومەت.", // burden", follow LX strictly
+                            onPressedBritish: () => speakburdens1("en-GB"),
+                            onPressedAmerican: () => speakburdens1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't want to become a burden to my children when I'm old."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەوێت ببم بە بارگرانی بۆ منداڵەکانم کە پیر دەبم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburdens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't want to become a burden to my children when I'm old.",
+                            kurdishText:
+                                "نامەوێت ببم بە بارگرانی بۆ منداڵەکانم کە پیر دەبم.",
+                            onPressedBritish: () => speakburdens2("en-GB"),
+                            onPressedAmerican: () => speakburdens2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We need to avoid putting a burden on taxpayers with this project."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دەبێت دووربکەوینەوە لە دانانی بارگرانی زۆر لەسەر باجدەران بەم پڕۆژەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakburdens4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakburdens4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We need to avoid putting a burden on taxpayers with this project.",
+                                    kurdishText:
+                                        "دەبێت دووربکەوینەوە لە دانانی بارگرانی زۆر لەسەر باجدەران بەم پڕۆژەیە.",
+                                    onPressedBritish: () =>
+                                        speakburdens4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakburdens4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Buying a house often places a large financial burden on young couples."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کڕینی خانوویەک بارگرانییەکی ئابووری گەورە دەبێت زۆرجار لەسەر ئەویندارە گەنجەکان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakburdens5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakburdens5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Buying a house often places a large financial burden on young couples.",
+                                    kurdishText:
+                                        "کڕینی خانوویەک بارگرانییەکی ئابووری گەورە دەبێت زۆرجار لەسەر ئەویندارە گەنجەکان.",
+                                    onPressedBritish: () =>
+                                        speakburdens5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakburdens5("en-US"),
                                   ),
                                 ],
                               ),
@@ -323,92 +247,35 @@ class EnglishEntryburden extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) بارێکی قورس کە ھەڵیدەگریت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The little donkey struggled under its heavy burden."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێدرێژە بچووکەکە دەیناڵاند لەژێر بارە قورسەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburdens3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The little donkey struggled under its heavy burden.",
+                            kurdishText:
+                                "گوێدرێژە بچووکەکە دەیناڵاند لەژێر بارە قورسەکەیدا.",
+                            onPressedBritish: () => speakburdens3("en-GB"),
+                            onPressedAmerican: () => speakburdens3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) پێدانی بارگرانییەک بە کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't want to burden you with my worries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەوێت بە نیگەرانییەکانم بارگرانیت بۆ درووست بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburdens6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't want to burden you with my worries.",
+                            kurdishText:
+                                "نامەوێت بە نیگەرانییەکانم بارگرانیت بۆ درووست بکەم.",
+                            onPressedBritish: () => speakburdens6("en-GB"),
+                            onPressedAmerican: () => speakburdens6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) ھەڵگرتنی شتێکی قورس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She got off the bus, burdened with two heavy suitcases."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە پاسەکە دابەزی و دوو جانتای قورسی بەدەستەوەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburdens7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburdens7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She got off the bus, burdened with two heavy suitcases.",
+                            kurdishText:
+                                "لە پاسەکە دابەزی و دوو جانتای قورسی بەدەستەوەبوو.",
+                            onPressedBritish: () => speakburdens7("en-GB"),
+                            onPressedAmerican: () => speakburdens7("en-US"),
                           ),
                         ],
                       ),

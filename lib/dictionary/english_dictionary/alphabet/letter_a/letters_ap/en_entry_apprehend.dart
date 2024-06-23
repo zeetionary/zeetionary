@@ -158,66 +158,27 @@ class EnglishEntryapprehend extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) دەستگیرکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police apprehended an armed suspect near the scene of the crime."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس گومانلێکراوێکیان بە چەکەوە دەستگیرکرد لە شوێنی تاوانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapprehend922("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapprehend922(
-                                        // REPLACE: apprehend /ˌæprɪˈhend/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police apprehended an armed suspect near the scene of the crime.",
+                            kurdishText:
+                                "پۆلیس گومانلێکراوێکیان بە چەکەوە دەستگیرکرد لە شوێنی تاوانەکە.",
+                            onPressedBritish: () => speakapprehend922("en-GB"),
+                            onPressedAmerican: () => speakapprehend922(
+                                // REPLACE: apprehend /ˌæprɪˈhend/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) تێگەشتن و ھەست‌کردن بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was slow to apprehend danger."),
-                                    ExampleSentenceKurdish(
-                                        text: "درەنگ ھەستی بە مەترسی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapprehend924("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapprehend924(
-                                        // REPLACE: apprehend /ˌæprɪˈhend/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was slow to apprehend danger.",
+                            kurdishText: "درەنگ ھەستی بە مەترسی دەکرد.",
+                            onPressedBritish: () => speakapprehend924("en-GB"),
+                            onPressedAmerican: () => speakapprehend924(
+                                // REPLACE: apprehend /ˌæprɪˈhend/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

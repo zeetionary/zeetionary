@@ -147,32 +147,13 @@ class EnglishEntrybemoan extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ناڕەزایی دەربڕین لەسەر شتێک، یان وتنی ئەوەی دڵخۆش نیت بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Researchers at universities are always bemoaning their lack of funds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژەرانی زانکۆکان ھەمیشە نیگەرانن لە کەمی بودجەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbemoans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbemoans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Researchers at universities are always bemoaning their lack of funds.",
+                            kurdishText:
+                                "توێژەرانی زانکۆکان ھەمیشە نیگەرانن لە کەمی بودجەیان.",
+                            onPressedBritish: () => speakbemoans1("en-GB"),
+                            onPressedAmerican: () => speakbemoans1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

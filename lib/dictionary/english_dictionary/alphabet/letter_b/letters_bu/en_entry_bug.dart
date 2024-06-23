@@ -145,212 +145,74 @@ class EnglishEntrybug extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ھەر مێروویەکی بچووک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's a bug crawling up your arm."),
-                                    ExampleSentenceKurdish(
-                                        text: "مێروویەک لەسەر باڵت ڕێ دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bug" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbugs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbugs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "There's a bug crawling up your arm.",
+                            kurdishText:
+                                "مێروویەک لەسەر باڵت ڕێ دەکات.", // bug" as
+                            onPressedBritish: () => speakbugs1("en-GB"),
+                            onPressedAmerican: () => speakbugs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) نەخۆشییەک کە سووکە بەڵام ئاسان بڵاودەبێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I picked up a bug in the office."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سووکە نەخۆشییەکم لە ئۆفیوەکەوە گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbugs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbugs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I picked up a bug in the office.",
+                            kurdishText: "سووکە نەخۆشییەکم لە ئۆفیوەکەوە گرت.",
+                            onPressedBritish: () => speakbugs2("en-GB"),
+                            onPressedAmerican: () => speakbugs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) حەزێکی زۆر بۆ شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's been bitten by the travel bug."),
-                                    ExampleSentenceKurdish(
-                                        text: "مەیلی بۆ گەشتکردن چووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbugs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbugs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's been bitten by the travel bug.",
+                            kurdishText: "مەیلی بۆ گەشتکردن چووە.",
+                            onPressedBritish: () => speakbugs3("en-GB"),
+                            onPressedAmerican: () => speakbugs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ھەڵەیەک لە ئامێرێکدا، بەتایبەتی سیستەمێکی کۆمپیوتەر یان پڕۆگرامێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My computer's really slow at the moment—it must be some kind of bug."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپیوتەرەکەم زۆر خاوە، دەبێت تووشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbugs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbugs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My computer's really slow at the moment—it must be some kind of bug.",
+                            kurdishText: "کۆمپیوتەرەکەم زۆر خاوە، دەبێت تووشی.",
+                            onPressedBritish: () => speakbugs4("en-GB"),
+                            onPressedAmerican: () => speakbugs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) ئامێرێکی بچووک بۆ گوێگرتن لە گفتوگۆی کەسانی تر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They planted a bug in his hotel room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مایکرۆفۆنێکیان لە ژووری ھوتێلەکەی دانا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbugs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbugs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They planted a bug in his hotel room.",
+                            kurdishText:
+                                "مایکرۆفۆنێکیان لە ژووری ھوتێلەکەی دانا.",
+                            onPressedBritish: () => speakbugs5("en-GB"),
+                            onPressedAmerican: () => speakbugs5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) دانانی مایکرۆفۆنێک بۆ گوێگرتن لە کەسانی تر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They bugged her hotel room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مایکرۆفۆنێکیان لە ژووری ھوتێلەکەی دانا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbugs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbugs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They bugged her hotel room.",
+                            kurdishText:
+                                "مایکرۆفۆنێکیان لە ژووری ھوتێلەکەی دانا.",
+                            onPressedBritish: () => speakbugs6("en-GB"),
+                            onPressedAmerican: () => speakbugs6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٧. (کردار) بێزارکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What's the matter? Is there something bugging you?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشە چییە؟ شتێک ھەیە بێزارت بکات؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbugs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbugs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What's the matter? Is there something bugging you?",
+                            kurdishText: "کێشە چییە؟ شتێک ھەیە بێزارت بکات؟",
+                            onPressedBritish: () => speakbugs7("en-GB"),
+                            onPressedAmerican: () => speakbugs7("en-US"),
                           ),
                         ],
                       ),

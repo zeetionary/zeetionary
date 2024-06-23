@@ -192,32 +192,13 @@ class EnglishEntryburdensome extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) شتێک کە بارگرانییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new regulations will be burdensome for small businesses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێسا تازەکان دەکرێت ببنەھۆی بارگرانی بۆ بازرگانییە بچووکەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burdensome", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburdensomes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburdensomes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new regulations will be burdensome for small businesses.",
+                            kurdishText:
+                                "ڕێسا تازەکان دەکرێت ببنەھۆی بارگرانی بۆ بازرگانییە بچووکەکان.", // burdensome", follow LX strictly
+                            onPressedBritish: () => speakburdensomes1("en-GB"),
+                            onPressedAmerican: () => speakburdensomes1("en-US"),
                           ),
                         ],
                       ),

@@ -157,34 +157,14 @@ class EnglishEntryaperitif extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خواردنەوەیەک کە کحولی تێدایە و زۆرجار پێش نان دەخوردرێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This vermouth is a delicious aperitif."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ڤرماوسە ئیشتیاکەرەوەیەکی بەتامە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaperitif144("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaperitif144(
-                                        // REPLACE: aperitif /əˌperəˈtiːf/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This vermouth is a delicious aperitif.",
+                            kurdishText: "ئەم ڤرماوسە ئیشتیاکەرەوەیەکی بەتامە.",
+                            onPressedBritish: () => speakaperitif144("en-GB"),
+                            onPressedAmerican: () => speakaperitif144(
+                                // REPLACE: aperitif /əˌperəˈtiːf/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -115,35 +115,15 @@ class EnglishEntryambiguous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شتێک کە دەکرێت زیاتر لە یەک لێکدانەوەی ھەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The paragraph is rendered ambiguous by the writer's careless use of pronouns."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرەگرافەکە ناڕوون بووە بەھۆی کەمتەرخەمانە بەکارھێنانی جێناوەکان لەلایەن نووسەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakambiguous7666("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambiguous7666(
-                                        // REPLACE: ambiguous /æmˈbɪɡjuəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The paragraph is rendered ambiguous by the writer's careless use of pronouns.",
+                            kurdishText:
+                                "پەرەگرافەکە ناڕوون بووە بەھۆی کەمتەرخەمانە بەکارھێنانی جێناوەکان لەلایەن نووسەرەوە.",
+                            onPressedBritish: () => speakambiguous7666("en-GB"),
+                            onPressedAmerican: () => speakambiguous7666(
+                                // REPLACE: ambiguous /æmˈbɪɡjuəs/
+                                "en-US"),
                           ),
                         ],
                       ),

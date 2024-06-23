@@ -150,32 +150,13 @@ class EnglishEntrybelfry extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) قوللەیەک کە زەنگی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The belfry was struck by lightning during the storm, causing significant damage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوللەکە ھەورەبرووکە لێیدا لە کاتی زریانەکە، زیانی زۆری بەرکەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelfrys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelfrys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The belfry was struck by lightning during the storm, causing significant damage.",
+                            kurdishText:
+                                "قوللەکە ھەورەبرووکە لێیدا لە کاتی زریانەکە، زیانی زۆری بەرکەوت.",
+                            onPressedBritish: () => speakbelfrys1("en-GB"),
+                            onPressedAmerican: () => speakbelfrys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -149,120 +149,41 @@ class EnglishEntryblindfold extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە لە سەر چاو دادەنریت بۆ ئەوەی نەبینێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She used a scarf as a blindfold."),
-                                    ExampleSentenceKurdish(
-                                        text: "لەچکێکی وەک چاوبەست بەکارھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblindfolds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblindfolds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She used a scarf as a blindfold.",
+                            kurdishText: "لەچکێکی وەک چاوبەست بەکارھێنا.",
+                            onPressedBritish: () => speakblindfolds1("en-GB"),
+                            onPressedAmerican: () => speakblindfolds1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) داپۆشینی چاوی کەسێک بۆ ئەوەی نەبینێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hostages were tied up and blindfolded."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بارمتەکان بەسترانەوە و چاوبەستکران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblindfolds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblindfolds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hostages were tied up and blindfolded.",
+                            kurdishText: "بارمتەکان بەسترانەوە و چاوبەستکران.",
+                            onPressedBritish: () => speakblindfolds2("en-GB"),
+                            onPressedAmerican: () => speakblindfolds2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵکار) بە چاوبەستراوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The reporter was taken blindfold to a secret location."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیامنێرەکە بە چاوبەستراوی بردرا بۆ شوێنێکی نھێنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblindfolds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblindfolds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The reporter was taken blindfold to a secret location.",
+                            kurdishText:
+                                "پەیامنێرەکە بە چاوبەستراوی بردرا بۆ شوێنێکی نھێنی.",
+                            onPressedBritish: () => speakblindfolds3("en-GB"),
+                            onPressedAmerican: () => speakblindfolds3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I knew the way home blindfold (= because it was so familiar)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگای ماڵەوەم بە چاوبەستراوی دەزانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblindfolds4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblindfolds4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I knew the way home blindfold (= because it was so familiar).",
+                            kurdishText: "ڕێگای ماڵەوەم بە چاوبەستراوی دەزانی.",
+                            onPressedBritish: () => speakblindfolds4("en-GB"),
+                            onPressedAmerican: () => speakblindfolds4("en-US"),
                           ),
                         ],
                       ),

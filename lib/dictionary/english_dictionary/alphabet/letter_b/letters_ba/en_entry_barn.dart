@@ -150,62 +150,24 @@ class EnglishEntrybarn extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) گەوڕێکی گەورە بۆ ھەڵگرتنی گەنم، یان بەخێوکردنی ئاژەڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sheep were penned in behind the barn."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەڕەکان لە پشتەوەی گەوڕەکە خڕکرانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sheep were penned in behind the barn.",
+                            kurdishText:
+                                "مەڕەکان لە پشتەوەی گەوڕەکە خڕکرانەوە.",
+                            onPressedBritish: () => speakbarns1("en-GB"),
+                            onPressedAmerican: () => speakbarns1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بینایەکی گەورە و ناشرین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They live in a great barn of a house."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە خانوویەکی قەبەدا دەژیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They live in a great barn of a house.",
+                            kurdishText: "لە خانوویەکی قەبەدا دەژیان.",
+                            onPressedBritish: () => speakbarns2("en-GB"),
+                            onPressedAmerican: () => speakbarns2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

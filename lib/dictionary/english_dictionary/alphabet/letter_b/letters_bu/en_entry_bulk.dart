@@ -145,148 +145,51 @@ class EnglishEntrybulk extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەشی سەرەکیی شتێک؛ گرنگترین بەشی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bulk of the population lives in cities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی دانیشتوانەکە لە شارەکان دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "bulk", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bulk of the population lives in cities.",
+                            kurdishText:
+                                "زۆرینەی دانیشتوانەکە لە شارەکان دەژین.", // bulk", follow LX strictly
+                            onPressedBritish: () => speakbulks1("en-GB"),
+                            onPressedAmerican: () => speakbulks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The great bulk of the work has now been done."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی کارەکە لە ئێستادا کراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The great bulk of the work has now been done.",
+                            kurdishText: "زۆرینەی کارەکە لە ئێستادا کراوە.",
+                            onPressedBritish: () => speakbulks2("en-GB"),
+                            onPressedAmerican: () => speakbulks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ڕێژەی گەورەی بڕ یان ئەندازەی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Despite its bulk and weight, the car is extremely fast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەڕای قەبەیی و کێشی، ئۆتۆمبێلەکە زۆر خێرایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Despite its bulk and weight, the car is extremely fast.",
+                            kurdishText:
+                                "سەرەڕای قەبەیی و کێشی، ئۆتۆمبێلەکە زۆر خێرایە.",
+                            onPressedBritish: () => speakbulks3("en-GB"),
+                            onPressedAmerican: () => speakbulks3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It's cheaper to buy in bulk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرزانترە ئەگەر بە بڕێکی زۆر بیکڕیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's cheaper to buy in bulk.",
+                            kurdishText: "ھەرزانترە ئەگەر بە بڕێکی زۆر بیکڕیت.",
+                            onPressedBritish: () => speakbulks4("en-GB"),
+                            onPressedAmerican: () => speakbulks4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) کێش یان شێوەی کەسێک/شتێکی گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She eased/heaved her large bulk out of the chair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەیکەلە زلەکەی لە کورسییەکە بەرزکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulks5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulks5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She eased/heaved her large bulk out of the chair.",
+                            kurdishText:
+                                "ھەیکەلە زلەکەی لە کورسییەکە بەرزکردەوە.",
+                            onPressedBritish: () => speakbulks5("en-GB"),
+                            onPressedAmerican: () => speakbulks5("en-US"),
                           ),
                         ],
                       ),

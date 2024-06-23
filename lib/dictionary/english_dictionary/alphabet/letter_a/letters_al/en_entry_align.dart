@@ -115,64 +115,26 @@ class EnglishEntryalign extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ھاوتەریب یان ھاوئاراستەکردن" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The top and bottom line of each column on the page should align."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێڵی سەرەوە و خوارەوەی ستوونی سەر پەڕەکە دەبێت لەسەر یەک ھێڵ بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalign43659("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalign43659(
-                                        // REPLACE: align /əˈlaɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The top and bottom line of each column on the page should align.",
+                            kurdishText:
+                                "ھێڵی سەرەوە و خوارەوەی ستوونی سەر پەڕەکە دەبێت لەسەر یەک ھێڵ بن.",
+                            onPressedBritish: () => speakalign43659("en-GB"),
+                            onPressedAmerican: () => speakalign43659(
+                                // REPLACE: align /əˈlaɪn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This pillar is roughly aligned with the others."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پایەکە تاڕادەیەک تەریبە لەگەڵ ئەوانی تر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalign35255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalign35255(
-                                        // REPLACE: align /əˈlaɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This pillar is roughly aligned with the others.",
+                            kurdishText:
+                                "پایەکە تاڕادەیەک تەریبە لەگەڵ ئەوانی تر.",
+                            onPressedBritish: () => speakalign35255("en-GB"),
+                            onPressedAmerican: () => speakalign35255(
+                                // REPLACE: align /əˈlaɪn/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -162,69 +162,31 @@ class EnglishEntryapproachable extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) ڕووخۆش و کۆمەڵایەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Despite being a big star, she's very approachable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەرچی ئەستێرەیەکی گەورەیە، بەڵام کەسێکی کۆمەڵایەتییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapproachable1253("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproachable1253(
-                                        // REPLACE: approachable /əˈprəʊtʃəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Despite being a big star, she's very approachable.",
+                            kurdishText:
+                                "ئەگەرچی ئەستێرەیەکی گەورەیە، بەڵام کەسێکی کۆمەڵایەتییە.",
+                            onPressedBritish: () =>
+                                speakapproachable1253("en-GB"),
+                            onPressedAmerican: () => speakapproachable1253(
+                                // REPLACE: approachable /əˈprəʊtʃəbl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شوێنێک کە ڕێگایەک پێی‌دەگات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The summit was approachable only from the south."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لوتکەی شاخەکە تەنھا لە باشوورەوە بەردەستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapproachable1255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproachable1255(
-                                        // REPLACE: approachable /əˈprəʊtʃəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The summit was approachable only from the south.",
+                            kurdishText:
+                                "لوتکەی شاخەکە تەنھا لە باشوورەوە بەردەستە.",
+                            onPressedBritish: () =>
+                                speakapproachable1255("en-GB"),
+                            onPressedAmerican: () => speakapproachable1255(
+                                // REPLACE: approachable /əˈprəʊtʃəbl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

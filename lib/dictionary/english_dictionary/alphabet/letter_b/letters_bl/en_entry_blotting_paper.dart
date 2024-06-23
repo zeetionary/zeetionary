@@ -147,34 +147,15 @@ class EnglishEntryblottingpaper extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کاغەزی ئەستووری نەرم کە دەدرێت بەسەر کاغەزێکدا کە تازەگی لەسەری نووسراوە بۆ وشککردنەوەی مەرەکەبەکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She reached for the blotting paper to dry her letter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستی برد بۆ زوھانگەکە بۆ بۆ وشککردنەوەی نامەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakblottingpapers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakblottingpapers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She reached for the blotting paper to dry her letter.",
+                            kurdishText:
+                                "دەستی برد بۆ زوھانگەکە بۆ بۆ وشککردنەوەی نامەکەی.",
+                            onPressedBritish: () =>
+                                speakblottingpapers1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakblottingpapers1("en-US"),
                           ),
                         ],
                       ),

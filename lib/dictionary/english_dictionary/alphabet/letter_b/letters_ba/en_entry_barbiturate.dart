@@ -146,34 +146,14 @@ class EnglishEntrybarbiturate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مادەیەکی بەھێز کە ئارامت دەکاتەوە و دواتر ھۆش لەدەست دەدەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He died from an overdose of barbiturates."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھۆی ڕێژەیەکی زۆری مادەی بێھۆشکەرەوە مرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbarbiturates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarbiturates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He died from an overdose of barbiturates.",
+                            kurdishText:
+                                "بەھۆی ڕێژەیەکی زۆری مادەی بێھۆشکەرەوە مرد.",
+                            onPressedBritish: () => speakbarbiturates1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarbiturates1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

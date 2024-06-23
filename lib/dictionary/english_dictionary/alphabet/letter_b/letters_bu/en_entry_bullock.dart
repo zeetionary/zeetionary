@@ -144,32 +144,13 @@ class EnglishEntrybullock extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) نێرەگایەکی بچووک کە خەسێندراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Farmers use bullocks for plowing fields."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوتیاران گوێرەکەی یەختە بەکاردێنن بۆ کێڵانی کێڵگە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bullock", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbullocks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbullocks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Farmers use bullocks for plowing fields.",
+                            kurdishText:
+                                "جوتیاران گوێرەکەی یەختە بەکاردێنن بۆ کێڵانی کێڵگە.", // bullock", follow LX strictly
+                            onPressedBritish: () => speakbullocks1("en-GB"),
+                            onPressedAmerican: () => speakbullocks1("en-US"),
                           ),
                         ],
                       ),

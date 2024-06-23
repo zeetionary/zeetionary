@@ -113,34 +113,15 @@ class EnglishEntryallowable extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ڕێگەپێدراو" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A certain level of error is allowable (= permitted to happen)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی دیاریکراوی ھەڵە ڕێگەپێدراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallowable432("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallowable432(
-                                        // REPLACE: allowable /əˈlaʊəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A certain level of error is allowable (= permitted to happen).",
+                            kurdishText:
+                                "ڕێژەیەکی دیاریکراوی ھەڵە ڕێگەپێدراوە.",
+                            onPressedBritish: () => speakallowable432("en-GB"),
+                            onPressedAmerican: () => speakallowable432(
+                                // REPLACE: allowable /əˈlaʊəbl/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """

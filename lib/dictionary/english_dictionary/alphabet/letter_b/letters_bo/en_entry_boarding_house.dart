@@ -144,63 +144,25 @@ class EnglishEntryboardinghouse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ماڵی خێزانێک کە خەڵکی دەتوانن تێدا بمێننەوە و خواردن بخۆن بە پارەدان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His parents kept a boarding house in Miami."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایک و باوکی میوانخانەیەکیان ھەبوو لە میامی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakboardinghouses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakboardinghouses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His parents kept a boarding house in Miami.",
+                            kurdishText:
+                                "دایک و باوکی میوانخانەیەکیان ھەبوو لە میامی.",
+                            onPressedBritish: () =>
+                                speakboardinghouses1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakboardinghouses1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had been the landlady of a seaside boarding house."),
-                                    ExampleSentenceKurdish(
-                                        text: "خانچی خانێکی پاڵ دەریا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakboardinghouses2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakboardinghouses2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had been the landlady of a seaside boarding house.",
+                            kurdishText: "خانچی خانێکی پاڵ دەریا بوو.",
+                            onPressedBritish: () =>
+                                speakboardinghouses2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakboardinghouses2("en-US"),
                           ),
                         ],
                       ),

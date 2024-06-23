@@ -165,101 +165,44 @@ class EnglishEntryapprehension extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) نیگەرانی یان ترس لەوەی شتێکی خراپ لەوانەیە ڕووبدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is growing apprehension that fighting will begin again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵەخورپەی زیاتر و زیاتر ھەیە کە شەڕ لەوانەیە دووبارە دەست‌پێ‌بکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapprehension933("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapprehension933(
-                                        // REPLACE: apprehension /ˌæprɪˈhenʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is growing apprehension that fighting will begin again.",
+                            kurdishText:
+                                "دڵەخورپەی زیاتر و زیاتر ھەیە کە شەڕ لەوانەیە دووبارە دەست‌پێ‌بکاتەوە.",
+                            onPressedBritish: () =>
+                                speakapprehension933("en-GB"),
+                            onPressedAmerican: () => speakapprehension933(
+                                // REPLACE: apprehension /ˌæprɪˈhenʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He watched the election results with apprehension."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە دڵەخورپەوە سەیری ئەنجامی ھەڵبژاردنەکانی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapprehension935("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapprehension935(
-                                        // REPLACE: apprehension /ˌæprɪˈhenʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He watched the election results with apprehension.",
+                            kurdishText:
+                                "بە دڵەخورپەوە سەیری ئەنجامی ھەڵبژاردنەکانی دەکرد.",
+                            onPressedBritish: () =>
+                                speakapprehension935("en-GB"),
+                            onPressedAmerican: () => speakapprehension935(
+                                // REPLACE: apprehension /ˌæprɪˈhenʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) دەستگیرکردنی کەسێک کە پابەندی یاسا نەبووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Both the army and the police were involved in the apprehension of the terrorists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو سوپا و پۆلیس بەژداربوون لە دەستگیرکردنی تیرۆریستەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapprehension939("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapprehension939(
-                                        // REPLACE: apprehension /ˌæprɪˈhenʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Both the army and the police were involved in the apprehension of the terrorists.",
+                            kurdishText:
+                                "ھەردوو سوپا و پۆلیس بەژداربوون لە دەستگیرکردنی تیرۆریستەکان.",
+                            onPressedBritish: () =>
+                                speakapprehension939("en-GB"),
+                            onPressedAmerican: () => speakapprehension939(
+                                // REPLACE: apprehension /ˌæprɪˈhenʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

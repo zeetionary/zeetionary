@@ -144,58 +144,20 @@ class EnglishEntrybullshit extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بیرۆکە، باوەڕ، یان قسە کە پێتوایە گەمژانەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "That's just bullshit."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەواو ھەڵیت‌وپڵیتانەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bullshit", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbullshits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbullshits1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That's just bullshit.",
+                            kurdishText:
+                                "تەواو ھەڵیت‌وپڵیتانەیە.", // bullshit", follow LX strictly
+                            onPressedBritish: () => speakbullshits1("en-GB"),
+                            onPressedAmerican: () => speakbullshits1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't listen to him—he's full of bullshit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێی لێ مەگرە، پڕ لە قسەی ھیچە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbullshits2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbullshits2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Don't listen to him—he's full of bullshit.",
+                            kurdishText: "گوێی لێ مەگرە، پڕ لە قسەی ھیچە.",
+                            onPressedBritish: () => speakbullshits2("en-GB"),
+                            onPressedAmerican: () => speakbullshits2("en-US"),
                           ),
                         ],
                       ),

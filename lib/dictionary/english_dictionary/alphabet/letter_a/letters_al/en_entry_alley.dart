@@ -115,34 +115,15 @@ class EnglishEntryalley extends StatelessWidget {
                               text:
                                   "١. (ناو) ڕێگایەکی باریک لە نێوان خانوو و باڵەخانە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car was hidden down a narrow alley."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە لە کۆڵانێکی باریک شاردرابوویەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalley452("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakalley452(// REPLACE: alley /ˈæli/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The car was hidden down a narrow alley.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە لە کۆڵانێکی باریک شاردرابوویەوە.",
+                            onPressedBritish: () => speakalley452("en-GB"),
+                            onPressedAmerican: () =>
+                                speakalley452(// REPLACE: alley /ˈæli/
+                                    "en-US"),
                           ),
                         ],
                       ),

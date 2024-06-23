@@ -164,131 +164,54 @@ class EnglishEntryash extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پاشماوەی جێماوی شتێکی سووتاو، بۆ نموونە تۆباکۆ، دار، یان خەڵووز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He carefully tapped the cigarette ash into the ashtray."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەوریاییەوە سووتووی جگەرەکەی وەراندە ناو تەپڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakash446("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakash446(// REPLACE: ash /æʃ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He carefully tapped the cigarette ash into the ashtray.",
+                            kurdishText:
+                                "بەوریاییەوە سووتووی جگەرەکەی وەراندە ناو تەپڵەکە.",
+                            onPressedBritish: () => speakash446("en-GB"),
+                            onPressedAmerican: () =>
+                                speakash446(// REPLACE: ash /æʃ/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ash from the volcano fell over a wide area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆڵەمێشی گڕکانەکە دابارییە سەر ناوچەیەکی فراوان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakash447("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakash447(// REPLACE: ash /æʃ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ash from the volcano fell over a wide area.",
+                            kurdishText:
+                                "خۆڵەمێشی گڕکانەکە دابارییە سەر ناوچەیەکی فراوان.",
+                            onPressedBritish: () => speakash447("en-GB"),
+                            onPressedAmerican: () =>
+                                speakash447(// REPLACE: ash /æʃ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پاشماوەی شتێک کە بە تەواوی وێران‌بووە یان سووتاوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The town was reduced to ashes in the fighting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارۆچکەکە بوو بە وێرانە لە شەڕەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakash454("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakash454(// REPLACE: ash /æʃ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The town was reduced to ashes in the fighting.",
+                            kurdishText: "شارۆچکەکە بوو بە وێرانە لە شەڕەکەدا.",
+                            onPressedBritish: () => speakash454("en-GB"),
+                            onPressedAmerican: () =>
+                                speakash454(// REPLACE: ash /æʃ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) پاشماوەی لەشی مردوویەک لە دوای سوتانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wanted her ashes to be scattered at sea."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیویست خۆڵەمێشەکەی بڕژێنرێتەوە دەریاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakash456("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakash456(// REPLACE: ash /æʃ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wanted her ashes to be scattered at sea.",
+                            kurdishText:
+                                "دەیویست خۆڵەمێشەکەی بڕژێنرێتەوە دەریاوە.",
+                            onPressedBritish: () => speakash456("en-GB"),
+                            onPressedAmerican: () =>
+                                speakash456(// REPLACE: ash /æʃ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

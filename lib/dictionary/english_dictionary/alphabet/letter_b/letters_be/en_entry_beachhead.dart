@@ -147,32 +147,13 @@ class EnglishEntrybeachhead extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ناوچەیەکی کەناراوێک کە سوپایەک کۆنترۆڵی کردووە و ھێرشی لێوە دەستپێ‌دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The troops quickly established a beachhead and were preparing to advance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکان بەزوویی ناوچەیەکی باڵادەستیان دامەزراند ئامادەکارییان بۆ پێشڕوەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeachheads1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeachheads1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The troops quickly established a beachhead and were preparing to advance.",
+                            kurdishText:
+                                "سەربازەکان بەزوویی ناوچەیەکی باڵادەستیان دامەزراند ئامادەکارییان بۆ پێشڕوەی دەکرد.",
+                            onPressedBritish: () => speakbeachheads1("en-GB"),
+                            onPressedAmerican: () => speakbeachheads1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -146,121 +146,44 @@ class EnglishEntrybrick extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچە قوڕی گەرمکراو کە بەکاردێت بۆ درووستنکردنی دیوار، خانوو، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The school is built of brick."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوتابخانەکە لە خشت درووستکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brick" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbricks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbricks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The school is built of brick.",
+                            kurdishText:
+                                "قوتابخانەکە لە خشت درووستکراوە.", // brick" as
+                            onPressedBritish: () => speakbricks1("en-GB"),
+                            onPressedAmerican: () => speakbricks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We rebuilt the fireplace using bricks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگردانەکەمان درووستکردەوە بە خشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbricks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbricks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We rebuilt the fireplace using bricks.",
+                            kurdishText: "ئاگردانەکەمان درووستکردەوە بە خشت.",
+                            onPressedBritish: () => speakbricks2("en-GB"),
+                            onPressedAmerican: () => speakbricks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئامێرێکی کارەبایی کە سووتاوە و بەکارنایەت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Without a fast connection, your tablet turns into a brick."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەبی ئینتەرنێتی خێرا، تابلێتەکەت دەبێتە کوتە خشتێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbricks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbricks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Without a fast connection, your tablet turns into a brick.",
+                            kurdishText:
+                                "بەبی ئینتەرنێتی خێرا، تابلێتەکەت دەبێتە کوتە خشتێک.",
+                            onPressedBritish: () => speakbricks3("en-GB"),
+                            onPressedAmerican: () => speakbricks3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ھاوڕێیەک کە دەکرێت پشتی پێ ببەستیت کە پێویستیت بە یارمەتییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Thanks for looking after the children today—you're a real brick."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوپاس بۆ چاودێری منداڵەکان بۆ ئەمڕۆ، ھاوڕێی تەنگانەی ڕاستیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbricks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbricks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Thanks for looking after the children today—you're a real brick.",
+                            kurdishText:
+                                "سوپاس بۆ چاودێری منداڵەکان بۆ ئەمڕۆ، ھاوڕێی تەنگانەی ڕاستیت.",
+                            onPressedBritish: () => speakbricks4("en-GB"),
+                            onPressedAmerican: () => speakbricks4("en-US"),
                           ),
                         ],
                       ),

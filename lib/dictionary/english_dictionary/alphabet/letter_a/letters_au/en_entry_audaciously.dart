@@ -167,35 +167,16 @@ class EnglishEntryaudaciously extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) بەشێوەیەک کە ئامادەی سەرکێشی ئەنجام بدەیت بەشێوەیەک خەڵکی سەرسام بکات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He audaciously applied for a promotion after only two months on the job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاونەترسانە داوای پلەبەرزکردنەوەی کرد تەنھا دوای دوو مانگ لە بوون لە کارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaudaciously1239("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaudaciously1239(
-                                        // REPLACE: audaciously
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He audaciously applied for a promotion after only two months on the job.",
+                            kurdishText:
+                                "چاونەترسانە داوای پلەبەرزکردنەوەی کرد تەنھا دوای دوو مانگ لە بوون لە کارەکە.",
+                            onPressedBritish: () =>
+                                speakaudaciously1239("en-GB"),
+                            onPressedAmerican: () => speakaudaciously1239(
+                                // REPLACE: audaciously
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

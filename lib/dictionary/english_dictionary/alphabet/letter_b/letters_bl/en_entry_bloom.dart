@@ -149,176 +149,61 @@ class EnglishEntrybloom extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گوڵ، بەتایبەتی گوڵێک کە لەسەر ڕووەکێکە کە خەڵکی زیاتر بەھۆی گوڵەکەی حەزیان پێیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plant produced a single white bloom."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕووەکەکە تاکە گوڵێکی لێ ڕووا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblooms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblooms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The plant produced a single white bloom.",
+                            kurdishText: "ڕووەکەکە تاکە گوڵێکی لێ ڕووا.",
+                            onPressedBritish: () => speakblooms1("en-GB"),
+                            onPressedAmerican: () => speakblooms1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The small pink blooms appear in May."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خونچە پەمەییە بچووکەکان لە مایسدا دەپشکوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblooms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblooms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The small pink blooms appear in May.",
+                            kurdishText:
+                                "خونچە پەمەییە بچووکەکان لە مایسدا دەپشکوون.",
+                            onPressedBritish: () => speakblooms2("en-GB"),
+                            onPressedAmerican: () => speakblooms2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕواڵەتێکی تەندرووست و وزەدار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was 19, in the full bloom of youth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەمەنی ١٩ ساڵان بوو لە ھەڕەتی تەواوی لاوییدا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblooms3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblooms3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was 19, in the full bloom of youth.",
+                            kurdishText:
+                                "تەمەنی ١٩ ساڵان بوو لە ھەڕەتی تەواوی لاوییدا بوو.",
+                            onPressedBritish: () => speakblooms3("en-GB"),
+                            onPressedAmerican: () => speakblooms3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٣. (کردار) گوڵگرتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most roses will begin to bloom from late May."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی گوڵەکان دەست بە گوڵگرتن دەکەن لە مایسدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblooms4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblooms4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most roses will begin to bloom from late May.",
+                            kurdishText:
+                                "زۆرینەی گوڵەکان دەست بە گوڵگرتن دەکەن لە مایسدا.",
+                            onPressedBritish: () => speakblooms4("en-GB"),
+                            onPressedAmerican: () => speakblooms4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Tulips were blooming as far as the eye could see."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوڵباخ گاڵی دەگرت ھەڕچەندە چاو بڕی بکردایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblooms5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblooms5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Tulips were blooming as far as the eye could see.",
+                            kurdishText:
+                                "گوڵباخ گاڵی دەگرت ھەڕچەندە چاو بڕی بکردایە.",
+                            onPressedBritish: () => speakblooms5("en-GB"),
+                            onPressedAmerican: () => speakblooms5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) تەندرووست یان دڵخۆش بوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children had bloomed during their stay on the farm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان ھۆشیان کردبووەوە لەکاتی مانەوەیان لە کێڵگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblooms6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblooms6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children had bloomed during their stay on the farm.",
+                            kurdishText:
+                                "منداڵەکان ھۆشیان کردبووەوە لەکاتی مانەوەیان لە کێڵگەکە.",
+                            onPressedBritish: () => speakblooms6("en-GB"),
+                            onPressedAmerican: () => speakblooms6("en-US"),
                           ),
                         ],
                       ),

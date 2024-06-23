@@ -149,34 +149,15 @@ class EnglishEntrybloodpoisoning extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) نەخۆشییەک کە تێیدا بەکتریا دەچێتە ناو خوێنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The wound became infected, leading to a severe blood poisoning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "برینەکە تووشی ھەوکردن بوو و بوو بەھۆی ژەھراویبوونی توندی خوێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodpoisonings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodpoisonings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The wound became infected, leading to a severe blood poisoning.",
+                            kurdishText:
+                                "برینەکە تووشی ھەوکردن بوو و بوو بەھۆی ژەھراویبوونی توندی خوێن.",
+                            onPressedBritish: () =>
+                                speakbloodpoisonings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodpoisonings1("en-US"),
                           ),
                         ],
                       ),

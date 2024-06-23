@@ -164,67 +164,29 @@ class EnglishEntryassent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ڕەزامەندی یان ڕازیبوونی فەرمی لەسەر شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The director has given her assent to the proposals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێوبەرەکە ڕەزامەندی لەسەر پێشنیارەکان دەربڕیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassent1012("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassent1012(
-                                        // REPLACE: assent /əˈsent/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The director has given her assent to the proposals.",
+                            kurdishText:
+                                "بەڕێوبەرەکە ڕەزامەندی لەسەر پێشنیارەکان دەربڕیوە.",
+                            onPressedBritish: () => speakassent1012("en-GB"),
+                            onPressedAmerican: () => speakassent1012(
+                                // REPLACE: assent /əˈsent/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ڕازیبوون بە داوایەک، بیرۆکەیەک، یان پێشنیارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Nobody would assent to the terms they proposed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ کەس ڕازی‌نابێت بەو مەرجانەی پێشنیاریان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassent1015("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassent1015(
-                                        // REPLACE: assent /əˈsent/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Nobody would assent to the terms they proposed.",
+                            kurdishText:
+                                "ھیچ کەس ڕازی‌نابێت بەو مەرجانەی پێشنیاریان کرد.",
+                            onPressedBritish: () => speakassent1015("en-GB"),
+                            onPressedAmerican: () => speakassent1015(
+                                // REPLACE: assent /əˈsent/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

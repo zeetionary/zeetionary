@@ -164,34 +164,15 @@ class EnglishEntryastrology extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) لێکۆڵینەوە لە شوێنی ئەستێرەکان و جوڵەی ھەسارەکان بە باوەڕی ئەوەی کە کاریگەری لەسەر ژیانی مرۆڤ درووست دەکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some people still believe in astrology."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کەس ھێشتا باوەڕیان بە فەلەکناسی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakastrology408("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakastrology408(// REPLACE: astrology
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some people still believe in astrology.",
+                            kurdishText:
+                                "ھەندێک کەس ھێشتا باوەڕیان بە فەلەکناسی ھەیە.",
+                            onPressedBritish: () => speakastrology408("en-GB"),
+                            onPressedAmerican: () =>
+                                speakastrology408(// REPLACE: astrology
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

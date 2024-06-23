@@ -152,92 +152,35 @@ class EnglishEntrybarometer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئەمێرێکی بۆ پێوانی پەستانی ھەوا و دیاریکردنی گۆڕانی کەشوھەوا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The barometer has been steady for three days now."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تا ئێستا پەستان‌پێوەکە سێ ڕۆژ دەبێت نەگۆڕاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarometers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarometers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The barometer has been steady for three days now.",
+                            kurdishText:
+                                "تا ئێستا پەستان‌پێوەکە سێ ڕۆژ دەبێت نەگۆڕاوە.",
+                            onPressedBritish: () => speakbarometers1("en-GB"),
+                            onPressedAmerican: () => speakbarometers1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شتێک کە پیشانی دەدات گۆڕان لە دۆخێکدا ڕوودەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Infant mortality is a reliable barometer of socio-economic conditions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گیان لەدەستندانی منداڵی ساوا پێوەرێکی باشە بۆ زانینی دۆخی ئابووری و کۆمەڵایەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarometers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarometers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Infant mortality is a reliable barometer of socio-economic conditions.",
+                            kurdishText:
+                                "گیان لەدەستندانی منداڵی ساوا پێوەرێکی باشە بۆ زانینی دۆخی ئابووری و کۆمەڵایەتی.",
+                            onPressedBritish: () => speakbarometers2("en-GB"),
+                            onPressedAmerican: () => speakbarometers2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The skin is an accurate barometer of your state of health."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێست پێوەرێکی درووستە بۆ زانینی دۆخی تەندرووستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarometers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarometers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The skin is an accurate barometer of your state of health.",
+                            kurdishText:
+                                "پێست پێوەرێکی درووستە بۆ زانینی دۆخی تەندرووستی.",
+                            onPressedBritish: () => speakbarometers3("en-GB"),
+                            onPressedAmerican: () => speakbarometers3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

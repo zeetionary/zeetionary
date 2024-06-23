@@ -108,34 +108,15 @@ class EnglishEntryaffably extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بەشێوەیەکی ڕووخۆشی و ھاوڕێیانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We chatted affably for a few minutes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ چەند خولەکێك بە ھاوڕێیانە قسەمان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaf3658("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaf3658(
-                                        // REPLACE: affably /ˈæfəbli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We chatted affably for a few minutes.",
+                            kurdishText:
+                                "بۆ چەند خولەکێك بە ھاوڕێیانە قسەمان کرد.",
+                            onPressedBritish: () => speakaf3658("en-GB"),
+                            onPressedAmerican: () => speakaf3658(
+                                // REPLACE: affably /ˈæfəbli/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -145,32 +145,13 @@ class EnglishEntrybridgehead extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شوێنێکی بەھێز کە سوپایەک کۆنترۆڵی کردووە لە خاکی دوژمندا و لێیەوە دەتوانێت پێشڕەوی بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The advance troops established a bridgehead early in the fighting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزە پێشڕەوەکان سەنگەرێکیان قایمکرد لە سەرەتای جەنگەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bridgehead" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbridgeheads1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbridgeheads1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The advance troops established a bridgehead early in the fighting.",
+                            kurdishText:
+                                "ھێزە پێشڕەوەکان سەنگەرێکیان قایمکرد لە سەرەتای جەنگەکەدا.", // bridgehead" as
+                            onPressedBritish: () => speakbridgeheads1("en-GB"),
+                            onPressedAmerican: () => speakbridgeheads1("en-US"),
                           ),
                         ],
                       ),

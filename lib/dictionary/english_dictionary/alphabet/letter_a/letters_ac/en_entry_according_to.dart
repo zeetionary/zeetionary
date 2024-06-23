@@ -106,62 +106,23 @@ class EnglishEntryaccordingto extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. بە گوێرەی شتێک یان وتەی کەسێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You've been absent six times according to our records."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەپێی تۆمارەکانمان شەش جار نەھاتوو بوویتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac59173("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac59173("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You've been absent six times according to our records.",
+                            kurdishText:
+                                "بەپێی تۆمارەکانمان شەش جار نەھاتوو بوویتە.",
+                            onPressedBritish: () => speakac59173("en-GB"),
+                            onPressedAmerican: () => speakac59173("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. بە پێی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The work was done according to her instructions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکە کرا بەپێی ڕێنماییەکانی ئەو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac65874("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac65874("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The work was done according to her instructions.",
+                            kurdishText: "کارەکە کرا بەپێی ڕێنماییەکانی ئەو.",
+                            onPressedBritish: () => speakac65874("en-GB"),
+                            onPressedAmerican: () => speakac65874("en-US"),
                           ),
                         ],
                       ),

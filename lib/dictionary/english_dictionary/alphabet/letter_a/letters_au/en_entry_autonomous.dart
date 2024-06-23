@@ -168,103 +168,43 @@ class EnglishEntryautonomous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) خاکێک یان دامەزراوەیەک کە خۆی بەڕێوەدەبات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country now has 17 autonomous regions, each with a distinct culture."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتەکە ئێستا ١٧ ھەرێمی خۆبەڕێوەبەری ھەیە و ھەریەکەیان کەلتووری بۆ خۆی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautonomous909("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakautonomous909(
-                                        // REPLACE: autonomous
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The country now has 17 autonomous regions, each with a distinct culture.",
+                            kurdishText:
+                                "وڵاتەکە ئێستا ١٧ ھەرێمی خۆبەڕێوەبەری ھەیە و ھەریەکەیان کەلتووری بۆ خۆی ھەیە.",
+                            onPressedBritish: () => speakautonomous909("en-GB"),
+                            onPressedAmerican: () => speakautonomous909(
+                                // REPLACE: autonomous
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) کەسێک کە خۆی دەژێنێت بەبێ یارمەتی کەسانی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Teachers aim to help children become autonomous learners."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستایان ئامانجیانە یارمەتی خوێندکاران بدەن ببن بە فێرخوازی سەربەخۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautonomous912("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakautonomous912(
-                                        // REPLACE: autonomous
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Teachers aim to help children become autonomous learners.",
+                            kurdishText:
+                                "مامۆستایان ئامانجیانە یارمەتی خوێندکاران بدەن ببن بە فێرخوازی سەربەخۆ.",
+                            onPressedBritish: () => speakautonomous912("en-GB"),
+                            onPressedAmerican: () => speakautonomous912(
+                                // REPLACE: autonomous
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) ئۆتۆمبێلێک کە بە یارمەتیی تەکنەلۆژیا توانای خۆ کۆنترۆڵکردنی ھەیە و پێویستی بە شۆفێر نییە """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The development of autonomous vehicles has the potential to revolutionize transportation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرەپێدانی ئۆتۆمبێلی خۆلێخوڕ لەتوانادایە شۆڕشێک درووست بکات لە گواستنەوەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautonomous916("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakautonomous916(
-                                        // REPLACE: autonomous
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The development of autonomous vehicles has the potential to revolutionize transportation.",
+                            kurdishText:
+                                "پەرەپێدانی ئۆتۆمبێلی خۆلێخوڕ لەتوانادایە شۆڕشێک درووست بکات لە گواستنەوەدا.",
+                            onPressedBritish: () => speakautonomous916("en-GB"),
+                            onPressedAmerican: () => speakautonomous916(
+                                // REPLACE: autonomous
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

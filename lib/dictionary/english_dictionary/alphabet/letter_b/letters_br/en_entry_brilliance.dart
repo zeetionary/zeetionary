@@ -145,62 +145,24 @@ class EnglishEntrybrilliance extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خاسیەتی ھەبوونی یان زیرەکی تەواو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her first novel showed signs of brilliance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەم ڕۆمانی ئاماژەی بلیمەتی تێدابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brilliance" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrilliances1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrilliances1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her first novel showed signs of brilliance.",
+                            kurdishText:
+                                "یەکەم ڕۆمانی ئاماژەی بلیمەتی تێدابوو.", // brilliance" as
+                            onPressedBritish: () => speakbrilliances1("en-GB"),
+                            onPressedAmerican: () => speakbrilliances1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) درەوشاوەیی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had never seen diamonds shine with such brilliance before."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز پێشووتر ئەڵماسم نەدیوە بەو ڕۆشناییە زۆرەوە بدرەوشێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrilliances2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrilliances2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had never seen diamonds shine with such brilliance before.",
+                            kurdishText:
+                                "ھەرگیز پێشووتر ئەڵماسم نەدیوە بەو ڕۆشناییە زۆرەوە بدرەوشێتەوە.",
+                            onPressedBritish: () => speakbrilliances2("en-GB"),
+                            onPressedAmerican: () => speakbrilliances2("en-US"),
                           ),
                         ],
                       ),

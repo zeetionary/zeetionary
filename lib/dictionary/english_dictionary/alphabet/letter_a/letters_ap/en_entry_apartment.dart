@@ -161,67 +161,26 @@ class EnglishEntryapartment extends StatelessWidget {
                               text:
                                   "١. (ناو) ژمارەیەک ژوور بۆ ژیان تێیدا، زۆرجار لە نھۆمێکی بینایەکی گەورە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was renting a two-bedroom apartment in an old building."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستەژوورێکی دوو ژووریم بە کرێ گرت‌بوو لە باڵەخانەیەکی کۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapartment1150("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapartment1150(
-                                        // REPLACE: apartment /əˈpɑːrtmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was renting a two-bedroom apartment in an old building.",
+                            kurdishText:
+                                "دەستەژوورێکی دوو ژووریم بە کرێ گرت‌بوو لە باڵەخانەیەکی کۆن.",
+                            onPressedBritish: () => speakapartment1150("en-GB"),
+                            onPressedAmerican: () => speakapartment1150(
+                                // REPLACE: apartment /əˈpɑːrtmənt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was evicted from his Manhattan apartment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دەستەژوورەکەی لە مانھاتن دەرکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapartment1152("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapartment1152(
-                                        // REPLACE: apartment /əˈpɑːrtmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was evicted from his Manhattan apartment.",
+                            kurdishText: "لە دەستەژوورەکەی لە مانھاتن دەرکرا.",
+                            onPressedBritish: () => speakapartment1152("en-GB"),
+                            onPressedAmerican: () => speakapartment1152(
+                                // REPLACE: apartment /əˈpɑːrtmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

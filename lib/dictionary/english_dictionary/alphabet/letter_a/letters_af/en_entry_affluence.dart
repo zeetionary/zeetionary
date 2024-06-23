@@ -113,64 +113,26 @@ class EnglishEntryaffluence extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بوونی پارەی زۆر و گوزەرانی باش" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The 1950s were an age of affluence in America."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ساڵانی ١٩٥٠ یەکان سەردەمی زۆر و زەبەندی بوو لە ئەمریکا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafflue752("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafflue752(
-                                        // REPLACE: affluence /ˈæfluəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The 1950s were an age of affluence in America.",
+                            kurdishText:
+                                "ساڵانی ١٩٥٠ یەکان سەردەمی زۆر و زەبەندی بوو لە ئەمریکا.",
+                            onPressedBritish: () => speakafflue752("en-GB"),
+                            onPressedAmerican: () => speakafflue752(
+                                // REPLACE: affluence /ˈæfluəns/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The nation's affluence has made two- and even three-car families the norm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەوڵەمەندی وڵاتەکە وایکردووە بوونی دوو و سێ ئۆتۆمبێل لە خێزانێکدا شتێکی ئاسایی بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafflue7566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafflue7566(
-                                        // REPLACE: affluence /ˈæfluəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The nation's affluence has made two- and even three-car families the norm.",
+                            kurdishText:
+                                "دەوڵەمەندی وڵاتەکە وایکردووە بوونی دوو و سێ ئۆتۆمبێل لە خێزانێکدا شتێکی ئاسایی بێت.",
+                            onPressedBritish: () => speakafflue7566("en-GB"),
+                            onPressedAmerican: () => speakafflue7566(
+                                // REPLACE: affluence /ˈæfluəns/
+                                "en-US"),
                           ),
                         ],
                       ),

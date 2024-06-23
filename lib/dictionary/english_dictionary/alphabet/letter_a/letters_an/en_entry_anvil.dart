@@ -160,34 +160,14 @@ class EnglishEntryanvil extends StatelessWidget {
                               text:
                                   "١. (ناو) پارچە ئاسنێک کە ئاسنگەرێک پارچە کانزا دادەنا و بە چەکوش لێیان دەدات بۆ ڕێکخستنی شێوەکەیان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A good anvil does not fear the hammer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سندانێکی باش باکی بە چەکوش نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanvil208("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakanvil208(// REPLACE: anvil /ˈænvɪl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A good anvil does not fear the hammer.",
+                            kurdishText: "سندانێکی باش باکی بە چەکوش نییە.",
+                            onPressedBritish: () => speakanvil208("en-GB"),
+                            onPressedAmerican: () =>
+                                speakanvil208(// REPLACE: anvil /ˈænvɪl/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

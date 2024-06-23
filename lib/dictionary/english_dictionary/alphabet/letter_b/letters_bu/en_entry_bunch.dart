@@ -194,205 +194,71 @@ class EnglishEntrybunch extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژمارەیەک شتی ھەمان جۆر کە پێکەوە گرێدراون یان پێکەوە گەشە دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She bought me a bunch of flowers."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەستە گوڵێکی بۆ کڕیم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bunch", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunchs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunchs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She bought me a bunch of flowers.",
+                            kurdishText:
+                                "دەستە گوڵێکی بۆ کڕیم.", // bunch", follow LX strictly
+                            onPressedBritish: () => speakbunchs1("en-GB"),
+                            onPressedAmerican: () => speakbunchs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She put all the flowers together in one big bunch."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو گوڵەکانی نا بە یەکەوە لە چەپکێکی گەورەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunchs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunchs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She put all the flowers together in one big bunch.",
+                            kurdishText:
+                                "ھەموو گوڵەکانی نا بە یەکەوە لە چەپکێکی گەورەدا.",
+                            onPressedBritish: () => speakbunchs2("en-GB"),
+                            onPressedAmerican: () => speakbunchs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕێژەیەکی زۆر لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have a whole bunch of stuff to do this morning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر کارم ھەیە ئەم بەیانییە بیکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunchs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunchs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I have a whole bunch of stuff to do this morning.",
+                            kurdishText:
+                                "ڕێژەیەکی زۆر کارم ھەیە ئەم بەیانییە بیکەم.",
+                            onPressedBritish: () => speakbunchs3("en-GB"),
+                            onPressedAmerican: () => speakbunchs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) گرووپێک لە خەڵک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The people that I work with are a great bunch."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو کەسانەی کارم لەگەڵ کردن گرووپێکی ناوازەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunchs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunchs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The people that I work with are a great bunch.",
+                            kurdishText:
+                                "ئەو کەسانەی کارم لەگەڵ کردن گرووپێکی ناوازەن.",
+                            onPressedBritish: () => speakbunchs4("en-GB"),
+                            onPressedAmerican: () => speakbunchs4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The members were a genuinely friendly and open bunch."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندامەکان کەسانێکی تەواو دۆستانە و کراوە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunchs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunchs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The members were a genuinely friendly and open bunch.",
+                            kurdishText:
+                                "ئەندامەکان کەسانێکی تەواو دۆستانە و کراوە بوون.",
+                            onPressedBritish: () => speakbunchs5("en-GB"),
+                            onPressedAmerican: () => speakbunchs5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) قژی درێژ کە کراوە بە دوو بەشەوە و لە ھەردوو لای سەرەوە بەستراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She wore her hair in bunches."),
-                                    ExampleSentenceKurdish(
-                                        text: "قژی کردبوو بە کەروێشکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunchs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunchs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She wore her hair in bunches.",
+                            kurdishText: "قژی کردبوو بە کەروێشکی.",
+                            onPressedBritish: () => speakbunchs6("en-GB"),
+                            onPressedAmerican: () => speakbunchs6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٥. (کردار) توندبوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His muscles bunched under his shirt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماسولکەکانی توندبوو بوون لەژێر جلەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunchs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunchs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His muscles bunched under his shirt.",
+                            kurdishText:
+                                "ماسولکەکانی توندبوو بوون لەژێر جلەکەی.",
+                            onPressedBritish: () => speakbunchs7("en-GB"),
+                            onPressedAmerican: () => speakbunchs7("en-US"),
                           ),
                         ],
                       ),

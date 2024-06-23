@@ -145,32 +145,13 @@ class EnglishEntryblancmange extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شیرینییەک کە شێوەی لە جەلی دەچێت و بە شیر درووست دەکرێت لەگەڵ میوەدا کە تامی پێدەدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Traditional English blancmange recipes include milk, sugar, and vanilla for flavor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەچەتەی کۆنی ئینگلیز بۆ بلەمانژ شیر و شەکر و ڤانێلا بۆ تام لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblancmanges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblancmanges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Traditional English blancmange recipes include milk, sugar, and vanilla for flavor.",
+                            kurdishText:
+                                "ڕەچەتەی کۆنی ئینگلیز بۆ بلەمانژ شیر و شەکر و ڤانێلا بۆ تام لەخۆدەگرێت.",
+                            onPressedBritish: () => speakblancmanges1("en-GB"),
+                            onPressedAmerican: () => speakblancmanges1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

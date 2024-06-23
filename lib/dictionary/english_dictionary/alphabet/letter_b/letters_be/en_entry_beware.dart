@@ -151,61 +151,23 @@ class EnglishEntrybeware extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ئاگادارکردنەوە لە مەترسی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Motorists have been warned to beware of icy roads."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆفێران ھۆشیارکراونەتەوە ئاگاداربن بۆ ڕێگای سەھۆڵین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbewares1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbewares1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Motorists have been warned to beware of icy roads.",
+                            kurdishText:
+                                "شۆفێران ھۆشیارکراونەتەوە ئاگاداربن بۆ ڕێگای سەھۆڵین.",
+                            onPressedBritish: () => speakbewares1("en-GB"),
+                            onPressedAmerican: () => speakbewares1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Beware of saying anything that might reveal where you live."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگاداربە لە وتنی ھەرشتێک کە ئاشکرای بکات لە کوێ دەژیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbewares2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbewares2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Beware of saying anything that might reveal where you live.",
+                            kurdishText:
+                                "ئاگاداربە لە وتنی ھەرشتێک کە ئاشکرای بکات لە کوێ دەژیت.",
+                            onPressedBritish: () => speakbewares2("en-GB"),
+                            onPressedAmerican: () => speakbewares2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

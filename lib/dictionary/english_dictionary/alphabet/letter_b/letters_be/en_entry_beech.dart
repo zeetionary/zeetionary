@@ -150,63 +150,24 @@ class EnglishEntrybeech extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دارێژی بەرزی ناو دارستان کە توێکڵی سەوزی لووسی ھەیە لەگەڵ گەڵای بریقەدار"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The great beeches towered up towards the sky."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دار نارەوەنە گەورەکان بە ئاسماندا درێژبووبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeechs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeechs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The great beeches towered up towards the sky.",
+                            kurdishText:
+                                "دار نارەوەنە گەورەکان بە ئاسماندا درێژبووبوون.",
+                            onPressedBritish: () => speakbeechs1("en-GB"),
+                            onPressedAmerican: () => speakbeechs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) تەختەی دار نارەوەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The table was made of solid beech."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێزەکە لە تەختەی نارەوەنی قایم درووستکرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeechs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeechs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The table was made of solid beech.",
+                            kurdishText:
+                                "مێزەکە لە تەختەی نارەوەنی قایم درووستکرابوو.",
+                            onPressedBritish: () => speakbeechs2("en-GB"),
+                            onPressedAmerican: () => speakbeechs2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

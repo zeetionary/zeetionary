@@ -193,32 +193,13 @@ class EnglishEntrybystander extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە شتێک دەبینێت ڕووددات بەڵام بەشێک نییە لێی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Three innocent bystanders were killed in the crossfire."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تەقەکەدا سێ سەیرکەری بێ‌تاوان کوژران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bystander", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbystanders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbystanders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Three innocent bystanders were killed in the crossfire.",
+                            kurdishText:
+                                "لە تەقەکەدا سێ سەیرکەری بێ‌تاوان کوژران.", // bystander", follow LX strictly
+                            onPressedBritish: () => speakbystanders1("en-GB"),
+                            onPressedAmerican: () => speakbystanders1("en-US"),
                           ),
                         ],
                       ),

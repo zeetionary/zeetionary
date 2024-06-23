@@ -152,123 +152,46 @@ class EnglishEntrybargain extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شتێک کە دەکڕدرێت ھەرزانتر لە نرخی ئاسایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I picked up a few good bargains in the sale."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک شتی ھەرزانم کڕی لە ھەڕاجییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbargains1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbargains1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I picked up a few good bargains in the sale.",
+                            kurdishText:
+                                "ھەندێک شتی ھەرزانم کڕی لە ھەڕاجییەکەدا.",
+                            onPressedBritish: () => speakbargains1("en-GB"),
+                            onPressedAmerican: () => speakbargains1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕێککەوتنی نێوان دوو کەس یان زیاتر بۆ کردنی کارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He and his partner had made a bargain to tell each other everything."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو و ھاوژینەکەی ڕێککەوتنێکیان کردبوو کە ھەموو شتێک بە یەکدی بڵێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbargains2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbargains2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He and his partner had made a bargain to tell each other everything.",
+                            kurdishText:
+                                "ئەو و ھاوژینەکەی ڕێککەوتنێکیان کردبوو کە ھەموو شتێک بە یەکدی بڵێن.",
+                            onPressedBritish: () => speakbargains2("en-GB"),
+                            onPressedAmerican: () => speakbargains2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Finally the two sides struck a bargain (= reached an agreement)."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتاییدا ھەردوو لایەن ڕێککەوتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbargains3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbargains3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Finally the two sides struck a bargain (= reached an agreement).",
+                            kurdishText: "لە کۆتاییدا ھەردوو لایەن ڕێککەوتن.",
+                            onPressedBritish: () => speakbargains3("en-GB"),
+                            onPressedAmerican: () => speakbargains3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) مامەڵەکردن لەگەڵ کەسێک بۆ گەشتنە ڕێككەوتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the market dealers were bargaining with growers over the price of coffee."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بازاڕەکە فرۆشیاران لەگەڵ بەرھەمھێنەران مامەڵەیان بوو لەسەر نرخی قاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbargains4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbargains4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the market dealers were bargaining with growers over the price of coffee.",
+                            kurdishText:
+                                "لە بازاڕەکە فرۆشیاران لەگەڵ بەرھەمھێنەران مامەڵەیان بوو لەسەر نرخی قاوە.",
+                            onPressedBritish: () => speakbargains4("en-GB"),
+                            onPressedAmerican: () => speakbargains4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

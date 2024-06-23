@@ -221,245 +221,92 @@ class EnglishEntrybitter extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) تاڵ؛ تامێکی توندی ناخۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Black coffee leaves a bitter taste in the mouth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قاوەی ڕەش تامێکی تاڵ لە دەمدا جێدێڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Black coffee leaves a bitter taste in the mouth.",
+                            kurdishText:
+                                "قاوەی ڕەش تامێکی تاڵ لە دەمدا جێدێڵێت.",
+                            onPressedBritish: () => speakbitters1("en-GB"),
+                            onPressedAmerican: () => speakbitters1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This plant is ignored by livestock because of the bitter taste."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەڕوماڵات ڕووەکەکە ناخۆن بەھۆی تامە تاڵەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This plant is ignored by livestock because of the bitter taste.",
+                            kurdishText:
+                                "مەڕوماڵات ڕووەکەکە ناخۆن بەھۆی تامە تاڵەی.",
+                            onPressedBritish: () => speakbitters2("en-GB"),
+                            onPressedAmerican: () => speakbitters2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) مشتومڕێک یان ناکۆکییەک کە کە توندە و ڕق و تووڕەیی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were bitter foes for many years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕکابەری سەرسەختی یەکدی بوون بۆ ساڵانێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitters3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were bitter foes for many years.",
+                            kurdishText:
+                                "ڕکابەری سەرسەختی یەکدی بوون بۆ ساڵانێک.",
+                            onPressedBritish: () => speakbitters3("en-GB"),
+                            onPressedAmerican: () => speakbitters3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They had a bitter divorce."),
-                                    ExampleSentenceKurdish(
-                                        text: "جیابوونەوەیەکی تاڵیان ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => ("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitters4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They had a bitter divorce.",
+                            kurdishText: "جیابوونەوەیەکی تاڵیان ھەبوو.",
+                            onPressedBritish: () => ("en-GB"),
+                            onPressedAmerican: () => speakbitters4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) ھەستکردن بە دڵتەنگی و تووڕەیی چونکە پێت وایە خراپ مامەڵەت لەگەڵ کراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is very bitter about losing her job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر ناڕەحەتە بە لەدەستدانی کارەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitters5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitters5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is very bitter about losing her job.",
+                            kurdishText: "زۆر ناڕەحەتە بە لەدەستدانی کارەکەی.",
+                            onPressedBritish: () => speakbitters5("en-GB"),
+                            onPressedAmerican: () => speakbitters5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) شتێک کە وات لێ دەکات ناڕەحەت بیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Losing the match was a bitter disappointment for the team."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆڕاندنی یارییەکە نائومێدییەکی ناخۆش بوو بۆ تیمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitters6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitters6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Losing the match was a bitter disappointment for the team.",
+                            kurdishText:
+                                "دۆڕاندنی یارییەکە نائومێدییەکی ناخۆش بوو بۆ تیمەکە.",
+                            onPressedBritish: () => speakbitters6("en-GB"),
+                            onPressedAmerican: () => speakbitters6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ھاوەڵناو) سارد و ناخۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It's really bitter out today."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەمڕۆ دەرەوە تەواو ساردە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitters7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitters7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's really bitter out today.",
+                            kurdishText: "ئەمڕۆ دەرەوە تەواو ساردە.",
+                            onPressedBritish: () => speakbitters7("en-GB"),
+                            onPressedAmerican: () => speakbitters7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) بیرەیەک کە تامێکی تاڵی توندی ھەیە لەگەڵ ڕەنگێکی تۆخ، و لە ئینگلتەرە و وێڵز بەناوبانگە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "A can of bitter, please."),
-                                    ExampleSentenceKurdish(
-                                        text: "قوتوویەک ئاوجۆی تاڵ، بێزەحمەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitters8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitters8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A can of bitter, please.",
+                            kurdishText: "قوتوویەک ئاوجۆی تاڵ، بێزەحمەت.",
+                            onPressedBritish: () => speakbitters8("en-GB"),
+                            onPressedAmerican: () => speakbitters8("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

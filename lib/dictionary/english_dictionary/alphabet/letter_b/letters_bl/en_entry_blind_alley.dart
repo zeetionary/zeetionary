@@ -149,32 +149,13 @@ class EnglishEntryblindalley extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شێوازی کردنی شتێک کە لە سەرەتادا بەسوود دیارە بەڵام دواتر بێ ئەنجام دەبێت، بۆ نموونە گرتنەبەری ڕێگایەکی بێ کۆتایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Progress in science cannot be made without exploring blind alleys."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشکەوتن لە زانستدا ڕوونادات بەبێ گرتنەبەری ڕێگا بێ‌سەرەدەرەکان (دەبێت ڕێگا ھەڵەکان تاقیبکرێنەوە بۆ سەرکەوتنی ڕێگا ڕاستەکان)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblindalleys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblindalleys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Progress in science cannot be made without exploring blind alleys.",
+                            kurdishText:
+                                "پێشکەوتن لە زانستدا ڕوونادات بەبێ گرتنەبەری ڕێگا بێ‌سەرەدەرەکان (دەبێت ڕێگا ھەڵەکان تاقیبکرێنەوە بۆ سەرکەوتنی ڕێگا ڕاستەکان).",
+                            onPressedBritish: () => speakblindalleys1("en-GB"),
+                            onPressedAmerican: () => speakblindalleys1("en-US"),
                           ),
                         ],
                       ),

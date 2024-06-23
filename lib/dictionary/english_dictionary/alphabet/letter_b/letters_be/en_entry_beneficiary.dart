@@ -151,67 +151,27 @@ class EnglishEntrybeneficiary extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە لە ئەنجامی شتێکدا سوود دەبینێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her wife was the chief beneficiary of her will."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنەکەی سوودمەندی سەرەکی وەسیەتەکەی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbeneficiarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbeneficiarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her wife was the chief beneficiary of her will.",
+                            kurdishText:
+                                "ژنەکەی سوودمەندی سەرەکی وەسیەتەکەی بوو.",
+                            onPressedBritish: () => speakbeneficiarys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbeneficiarys1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە سەروەت و سامانی کەسێکی دیکە وەردەگرێت کە دەمرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was the sole beneficiary of her father’s will."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا کەسی میراتگر بوو لە وەسیەتەکەی باوکیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbeneficiarys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbeneficiarys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was the sole beneficiary of her father’s will.",
+                            kurdishText:
+                                "تەنھا کەسی میراتگر بوو لە وەسیەتەکەی باوکیدا.",
+                            onPressedBritish: () => speakbeneficiarys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbeneficiarys2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

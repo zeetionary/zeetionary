@@ -150,32 +150,12 @@ class EnglishEntrybedclothes extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پێخەف و بەشەکانی تری جێگەی نووستن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She pulled the bedclothes up over her head."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێخەف و بەتانیەکەی دا بە خۆیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedclothess1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedclothess1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She pulled the bedclothes up over her head.",
+                            kurdishText: "پێخەف و بەتانیەکەی دا بە خۆیدا.",
+                            onPressedBritish: () => speakbedclothess1("en-GB"),
+                            onPressedAmerican: () => speakbedclothess1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

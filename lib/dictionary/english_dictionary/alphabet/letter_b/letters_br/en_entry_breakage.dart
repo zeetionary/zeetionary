@@ -146,60 +146,22 @@ class EnglishEntrybreakage extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) شتێکی شکاو، یان شکانی شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The last time we moved house there were very few breakages."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆتا جار کە ماڵمان گواستەوە شکانی شت کەم ڕوویدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The last time we moved house there were very few breakages.",
+                            kurdishText:
+                                "کۆتا جار کە ماڵمان گواستەوە شکانی شت کەم ڕوویدا.",
+                            onPressedBritish: () => speakbreakages1("en-GB"),
+                            onPressedAmerican: () => speakbreakages1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Wrap it up carefully to protect against breakage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەوریاییەوە بیپێچەوە بۆ پاراستن لە شکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakages2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Wrap it up carefully to protect against breakage.",
+                            kurdishText:
+                                "بەوریاییەوە بیپێچەوە بۆ پاراستن لە شکان.",
+                            onPressedBritish: () => speakbreakages2("en-GB"),
+                            onPressedAmerican: () => speakbreakages2("en-US"),
                           ),
                         ],
                       ),

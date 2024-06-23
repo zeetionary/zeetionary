@@ -148,31 +148,12 @@ class EnglishEntryblender extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئەمێرێکی کارەبایی کە بۆ تێکەڵکردنی خواردنی نەرم و شلە بەکاردێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Combine the milk and eggs in a blender."),
-                                    ExampleSentenceKurdish(
-                                        text: "شیر و ھێلکەکە بکە عەسارەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblenders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblenders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Combine the milk and eggs in a blender.",
+                            kurdishText: "شیر و ھێلکەکە بکە عەسارەکەوە.",
+                            onPressedBritish: () => speakblenders1("en-GB"),
+                            onPressedAmerican: () => speakblenders1("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

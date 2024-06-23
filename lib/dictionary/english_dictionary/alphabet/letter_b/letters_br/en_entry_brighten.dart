@@ -147,206 +147,72 @@ class EnglishEntrybrighten extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ڕۆشنکردنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the distance, the sky was beginning to brighten."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوورەوە ئاسمان دەستی بە درەوشانەوە دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brighten" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrightens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrightens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the distance, the sky was beginning to brighten.",
+                            kurdishText:
+                                "لە دوورەوە ئاسمان دەستی بە درەوشانەوە دەکرد.", // brighten" as
+                            onPressedBritish: () => speakbrightens1("en-GB"),
+                            onPressedAmerican: () => speakbrightens1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The morning sunshine brightened the room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەتاوی بەیانی ژوورەوەی ڕووناککردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrightens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrightens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The morning sunshine brightened the room.",
+                            kurdishText: "ھەتاوی بەیانی ژوورەوەی ڕووناککردەوە.",
+                            onPressedBritish: () => speakbrightens2("en-GB"),
+                            onPressedAmerican: () => speakbrightens2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) دڵخۆشبوون یان دڵخۆشکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Her eyes brightened."),
-                                    ExampleSentenceKurdish(
-                                        text: "چاوەکانی گەشانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrightens3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrightens3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her eyes brightened.",
+                            kurdishText: "چاوەکانی گەشانەوە.",
+                            onPressedBritish: () => speakbrightens3("en-GB"),
+                            onPressedAmerican: () => speakbrightens3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "A smile brightened her face."),
-                                    ExampleSentenceKurdish(
-                                        text: "بزەیەک ڕووخساری گەشاندەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrightens4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrightens4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A smile brightened her face.",
+                            kurdishText: "بزەیەک ڕووخساری گەشاندەوە.",
+                            onPressedBritish: () => speakbrightens4("en-GB"),
+                            onPressedAmerican: () => speakbrightens4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) ھێنانی ھیوا و گەشبینی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A personal letter will usually brighten up a person's day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەیەکی کەسی زۆرجار ڕۆژی کەسێک گەشدەکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrightens5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrightens5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A personal letter will usually brighten up a person's day.",
+                            kurdishText:
+                                "نامەیەکی کەسی زۆرجار ڕۆژی کەسێک گەشدەکاتەوە.",
+                            onPressedBritish: () => speakbrightens5("en-GB"),
+                            onPressedAmerican: () => speakbrightens5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) وا لە شتێک بکەیت بدرەوشێتەوە لە ڕەنگدا یان چوان بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Fresh flowers will brighten up any room in the house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوڵی تازە ھەر ژوورێکی ماڵەکە دەدرەوشێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrightens6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrightens6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Fresh flowers will brighten up any room in the house.",
+                            kurdishText:
+                                "گوڵی تازە ھەر ژوورێکی ماڵەکە دەدرەوشێنێتەوە.",
+                            onPressedBritish: () => speakbrightens6("en-GB"),
+                            onPressedAmerican: () => speakbrightens6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) خۆشتربوونی کەشووھەوا، یان ڕووناک ببێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "According to the forecast, it should brighten up later."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەپێی پێشبینییەکان دەبێت دواتر خۆش ببێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrightens7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrightens7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "According to the forecast, it should brighten up later.",
+                            kurdishText:
+                                "بەپێی پێشبینییەکان دەبێت دواتر خۆش ببێت.",
+                            onPressedBritish: () => speakbrightens7("en-GB"),
+                            onPressedAmerican: () => speakbrightens7("en-US"),
                           ),
                         ],
                       ),

@@ -152,95 +152,38 @@ class EnglishEntrybloodyminded extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) سوور لەسەر ئەوەی دەتەوێت و ڕەتی بکەیتەوە وازبێنیت، بیرۆکەت بگۆڕیت، یان ئەوە بکەیت کە ئەوانی تر دەیانەوێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Don’t be so bloody-minded!"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھێندە کەللەڕەق مەبە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodymindeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodymindeds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don’t be so bloody-minded!",
+                            kurdishText: "ھێندە کەللەڕەق مەبە.",
+                            onPressedBritish: () =>
+                                speakbloodymindeds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodymindeds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had the kind of bloody-minded determination necessary to succeed in the industry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ویستە سەرسەختانەی ھەبوو کە پێویست بوو بۆ سەرکەوتن لە پیشەسازییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodymindeds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodymindeds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had the kind of bloody-minded determination necessary to succeed in the industry.",
+                            kurdishText:
+                                "ئەو ویستە سەرسەختانەی ھەبوو کە پێویست بوو بۆ سەرکەوتن لە پیشەسازییەکەدا.",
+                            onPressedBritish: () =>
+                                speakbloodymindeds2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodymindeds2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) حەزکردن لە یان ڕێخۆشکەر بۆ توندوتیژی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you believe that your government could be bloody-minded enough to kill 300 innocent civilians?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕت وایە حکومەتەکەت ھێندە خوێنخۆر بێت ٣٠٠ ھاوڵاتیی مەدەنی بێ‌تاوان بکوژێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodymindeds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodymindeds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do you believe that your government could be bloody-minded enough to kill 300 innocent civilians?",
+                            kurdishText:
+                                "باوەڕت وایە حکومەتەکەت ھێندە خوێنخۆر بێت ٣٠٠ ھاوڵاتیی مەدەنی بێ‌تاوان بکوژێت؟",
+                            onPressedBritish: () =>
+                                speakbloodymindeds3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodymindeds3("en-US"),
                           ),
                         ],
                       ),

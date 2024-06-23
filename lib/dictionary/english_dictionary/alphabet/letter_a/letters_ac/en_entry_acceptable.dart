@@ -127,120 +127,44 @@ class EnglishEntryacceptable extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) شتێک کە زۆرینەی خەڵک لە کۆمەڵگا پێیان گونجاوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is perfectly acceptable for you as an employee to say no."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شتێکی تەواو ئاساییە بۆ تۆ وەک کرێکارێک بڵێیت نەخێر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaa231564("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaa231564("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is perfectly acceptable for you as an employee to say no.",
+                            kurdishText:
+                                "شتێکی تەواو ئاساییە بۆ تۆ وەک کرێکارێک بڵێیت نەخێر.",
+                            onPressedBritish: () => speakaa231564("en-GB"),
+                            onPressedAmerican: () => speakaa231564("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Children must learn socially acceptable behaviour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵان دەبێت فێری ڕەفتاری لەگەڵ کۆمەڵگە گونجاو ببن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka56482("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka56482("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Children must learn socially acceptable behaviour.",
+                            kurdishText:
+                                "منداڵان دەبێت فێری ڕەفتاری لەگەڵ کۆمەڵگە گونجاو ببن.",
+                            onPressedBritish: () => speaka56482("en-GB"),
+                            onPressedAmerican: () => speaka56482("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک کە جێگەی قبووڵکردنە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is possible to find a solution that is acceptable to both sides."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێی تێ ئەچێ ڕێگەچارەیەک بدۆزینەوە کە ھەردوو لا لەسەری کۆکبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2548("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka2548("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is possible to find a solution that is acceptable to both sides.",
+                            kurdishText:
+                                "ڕێی تێ ئەچێ ڕێگەچارەیەک بدۆزینەوە کە ھەردوو لا لەسەری کۆکبن.",
+                            onPressedBritish: () => speaka2548("en-GB"),
+                            onPressedAmerican: () => speaka2548("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) شتێک کە زۆر باش نییە، بەڵام خراپیش نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Inspectors found that teaching standards were acceptable, but could be improved."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاودێران بۆیان دەرکەوت کە ستانداردەکانی وانەوتنەوە خراپ نەبوون، بەڵام دەکرا باشتر کرابان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka51976("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka51976("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Inspectors found that teaching standards were acceptable, but could be improved.",
+                            kurdishText:
+                                "چاودێران بۆیان دەرکەوت کە ستانداردەکانی وانەوتنەوە خراپ نەبوون، بەڵام دەکرا باشتر کرابان.",
+                            onPressedBritish: () => speaka51976("en-GB"),
+                            onPressedAmerican: () => speaka51976("en-US"),
                           ),
                         ],
                       ),

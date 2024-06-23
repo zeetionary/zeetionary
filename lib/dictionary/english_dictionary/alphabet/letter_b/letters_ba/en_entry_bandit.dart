@@ -157,34 +157,15 @@ class EnglishEntrybandit extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕێگر؛ ئەندامێکی گرووپێک لە دز کە ھێرش دەکەنە سەر گەشتیاران"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Buses driving through the mountains have been attacked by bandits."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو پاسانەی کە بە شاخەکاندا گەشت دەکەن لەلایەن ڕێگرەکانەوە ھێرشیان کراوەتەسەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbandits1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbandits1(// REPLACE: bandit
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Buses driving through the mountains have been attacked by bandits.",
+                            kurdishText:
+                                "ئەو پاسانەی کە بە شاخەکاندا گەشت دەکەن لەلایەن ڕێگرەکانەوە ھێرشیان کراوەتەسەر.",
+                            onPressedBritish: () => speakbandits1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbandits1(// REPLACE: bandit
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

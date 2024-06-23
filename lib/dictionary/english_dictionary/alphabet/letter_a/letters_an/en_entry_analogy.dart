@@ -157,98 +157,39 @@ class EnglishEntryanalogy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بەراوردکارییەک لەگەڵ شتێک کە خاسیەتی لێکچووی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The teacher drew an analogy between the human heart and a pump."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستاکە دڵی مرۆڤی چواند بە پەمپێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanalogy4805("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalogy4805(
-                                        // REPLACE: analogy /əˈnælədʒi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The teacher drew an analogy between the human heart and a pump.",
+                            kurdishText: "مامۆستاکە دڵی مرۆڤی چواند بە پەمپێک.",
+                            onPressedBritish: () => speakanalogy4805("en-GB"),
+                            onPressedAmerican: () => speakanalogy4805(
+                                // REPLACE: analogy /əˈnælədʒi/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The computer is a useful analogy for the brain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپیوتەر لێکچوویەکی باشە بۆ مێشک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanalogy8540("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalogy8540(
-                                        // REPLACE: analogy /əˈnælədʒi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The computer is a useful analogy for the brain.",
+                            kurdishText: "کۆمپیوتەر لێکچوویەکی باشە بۆ مێشک.",
+                            onPressedBritish: () => speakanalogy8540("en-GB"),
+                            onPressedAmerican: () => speakanalogy8540(
+                                // REPLACE: analogy /əˈnælədʒi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پڕۆسەی بەراوردکردنی دوو شتی لێكچوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We can understand this theory by analogy with human beings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەتوانین لەم بیردۆزە تێ‌بگەین بە بەراوردکردنی بە مرۆڤ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanalogy8704("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalogy8704(
-                                        // REPLACE: analogy /əˈnælədʒi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We can understand this theory by analogy with human beings.",
+                            kurdishText:
+                                "ئەتوانین لەم بیردۆزە تێ‌بگەین بە بەراوردکردنی بە مرۆڤ.",
+                            onPressedBritish: () => speakanalogy8704("en-GB"),
+                            onPressedAmerican: () => speakanalogy8704(
+                                // REPLACE: analogy /əˈnælədʒi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -164,35 +164,16 @@ class EnglishEntryarbitration extends StatelessWidget {
                               text:
                                   "١. (ناو) پڕۆسەی دادوەری‌کردن لە ناکۆکی نێوان دوو لایەن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Both sides in the dispute have agreed to go to arbitration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو لا ڕازی‌بوونە پەنا ببەنەبەر دادوەری‌کردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarbitration1158("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarbitration1158(
-                                        // REPLACE: arbitration /ˌɑːrbɪˈtreɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Both sides in the dispute have agreed to go to arbitration.",
+                            kurdishText:
+                                "ھەردوو لا ڕازی‌بوونە پەنا ببەنەبەر دادوەری‌کردن.",
+                            onPressedBritish: () =>
+                                speakarbitration1158("en-GB"),
+                            onPressedAmerican: () => speakarbitration1158(
+                                // REPLACE: arbitration /ˌɑːrbɪˈtreɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

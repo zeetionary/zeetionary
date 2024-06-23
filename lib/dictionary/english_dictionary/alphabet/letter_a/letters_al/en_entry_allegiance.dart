@@ -113,35 +113,15 @@ class EnglishEntryallegiance extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) دڵسۆزی و وەفاداری" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He affirmed his allegiance to the president."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەفاداری خۆی بۆ سەرۆک دووپاتکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallegiance12566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallegiance12566(
-                                        // REPLACE: allegiance /əˈliːdʒəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He affirmed his allegiance to the president.",
+                            kurdishText: "وەفاداری خۆی بۆ سەرۆک دووپاتکردەوە.",
+                            onPressedBritish: () =>
+                                speakallegiance12566("en-GB"),
+                            onPressedAmerican: () => speakallegiance12566(
+                                // REPLACE: allegiance /əˈliːdʒəns/
+                                "en-US"),
                           ),
                         ],
                       ),

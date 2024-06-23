@@ -157,164 +157,68 @@ class EnglishEntrybankrupt extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) بەبێ پارەی پێویست بۆ دانەوەی ئەوەی قەرزاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She lost the house after she was made bankrupt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووەکەی لەدەستدا لە دوای ئەوەی مایەپووچ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbankrupts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbankrupts1(// REPLACE: bankrupt
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She lost the house after she was made bankrupt.",
+                            kurdishText:
+                                "خانووەکەی لەدەستدا لە دوای ئەوەی مایەپووچ بوو.",
+                            onPressedBritish: () => speakbankrupts1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbankrupts1(// REPLACE: bankrupt
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After the war, Britain was weary and bankrupt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای جەنگەکە بەریتانیا شەکەت و مایەپووچ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbankrupts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbankrupts2(// REPLACE: bankrupt
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After the war, Britain was weary and bankrupt.",
+                            kurdishText:
+                                "لە دوای جەنگەکە بەریتانیا شەکەت و مایەپووچ بوو.",
+                            onPressedBritish: () => speakbankrupts2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbankrupts2(// REPLACE: bankrupt
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) نەبوونی ھیچ خاسیەتێکی باش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He believes that modern society is morally bankrupt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕی وایە کۆمەڵگەی ئێستا لەلایەنی ئەخلاقییەوە مایەپووچە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbankrupts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbankrupts3(// REPLACE: bankrupt
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He believes that modern society is morally bankrupt.",
+                            kurdishText:
+                                "باوەڕی وایە کۆمەڵگەی ئێستا لەلایەنی ئەخلاقییەوە مایەپووچە.",
+                            onPressedBritish: () => speakbankrupts3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbankrupts3(// REPLACE: bankrupt
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کەسێک کە دادگا بڕیاری داوە توانای نییە قەرزەکانی بداتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He later became Britain’s biggest bankrupt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دواتر بوو بە گەورەترین مایەپووچی بەریتانیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbankrupts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbankrupts4(// REPLACE: bankrupt
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He later became Britain’s biggest bankrupt.",
+                            kurdishText:
+                                "دواتر بوو بە گەورەترین مایەپووچی بەریتانیا.",
+                            onPressedBritish: () => speakbankrupts4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbankrupts4(// REPLACE: bankrupt
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) مایەپووچکردنی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They feared that the loss would bankrupt them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ترسان زیانەکە مایەپووچیان بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbankrupts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbankrupts5(// REPLACE: bankrupt
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They feared that the loss would bankrupt them.",
+                            kurdishText: "ترسان زیانەکە مایەپووچیان بکات.",
+                            onPressedBritish: () => speakbankrupts5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbankrupts5(// REPLACE: bankrupt
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

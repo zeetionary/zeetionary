@@ -162,35 +162,16 @@ class EnglishEntryantiquated extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) شتێکی کۆن کە چی‌تر گونجاو نییە بۆ ئەم سەردەمە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The antiquated heating system barely heats the larger rooms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیستەمی گەرمییە کۆنەکە بە ئەستەم ژووری گەورە گەرم‌دەکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantiquated1125("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantiquated1125(
-                                        // REPLACE: antiquated /ˈæntɪkweɪtɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The antiquated heating system barely heats the larger rooms.",
+                            kurdishText:
+                                "سیستەمی گەرمییە کۆنەکە بە ئەستەم ژووری گەورە گەرم‌دەکاتەوە.",
+                            onPressedBritish: () =>
+                                speakantiquated1125("en-GB"),
+                            onPressedAmerican: () => speakantiquated1125(
+                                // REPLACE: antiquated /ˈæntɪkweɪtɪd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

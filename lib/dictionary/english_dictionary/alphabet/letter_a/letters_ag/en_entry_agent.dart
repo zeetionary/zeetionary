@@ -138,130 +138,52 @@ class EnglishEntryagent extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە نوێنەری کەسێکی ترە لە بزنسێک یان سیاسەت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our agent in New York deals with all US sales."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نوێنەرەکەمان لە نیویۆرک مامەڵە لەگەڵ ھەموو فرۆشتنەکانمان لە ئەمریکا دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagen25966("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagen25966(
-                                        // REPLACE: agent /ˈeɪdʒənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our agent in New York deals with all US sales.",
+                            kurdishText:
+                                "نوێنەرەکەمان لە نیویۆرک مامەڵە لەگەڵ ھەموو فرۆشتنەکانمان لە ئەمریکا دەکات.",
+                            onPressedBritish: () => speakagen25966("en-GB"),
+                            onPressedAmerican: () => speakagen25966(
+                                // REPLACE: agent /ˈeɪdʒənt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە ڕێکخەری کاری گۆەانیبێژێک یان یاریزانێکە، یان بڵاوکەرەوە دەدۆزێتەوە بۆ نووسەرێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She got the work through an agent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕێگەی بریکارێکەوە کارەکەی وەرگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakag15224("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakag15224(
-                                        // REPLACE: agent /ˈeɪdʒənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She got the work through an agent.",
+                            kurdishText: "لە ڕێگەی بریکارێکەوە کارەکەی وەرگرت.",
+                            onPressedBritish: () => speakag15224("en-GB"),
+                            onPressedAmerican: () => speakag15224(
+                                // REPLACE: agent /ˈeɪdʒənt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کەسێک کە بە نھێنی زانیاری بۆ حکومەتێک یان دامەزراوەیەک کۆدەکاتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was operating as an undercover agent in London."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک سیخوڕێکی نھێنی کاری دەکرد لە لەندەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakage256999("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakage256999(
-                                        // REPLACE: agent /ˈeɪdʒənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was operating as an undercover agent in London.",
+                            kurdishText:
+                                "وەک سیخوڕێکی نھێنی کاری دەکرد لە لەندەن.",
+                            onPressedBritish: () => speakage256999("en-GB"),
+                            onPressedAmerican: () => speakage256999(
+                                // REPLACE: agent /ˈeɪdʒənt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کەسێک/شتێک کە کاریگەرییەکی گرنگی لەسەر بارودۆخێک ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The charity has been an agent for social change."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێکخراوەکە وەسیلەیەکی باش بووە بۆ گۆڕانکاری کۆمەڵایەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagent56922("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagent56922(
-                                        // REPLACE: agent /ˈeɪdʒənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The charity has been an agent for social change.",
+                            kurdishText:
+                                "ڕێکخراوەکە وەسیلەیەکی باش بووە بۆ گۆڕانکاری کۆمەڵایەتی.",
+                            onPressedBritish: () => speakagent56922("en-GB"),
+                            onPressedAmerican: () => speakagent56922(
+                                // REPLACE: agent /ˈeɪdʒənt/
+                                "en-US"),
                           ),
                         ],
                       ),

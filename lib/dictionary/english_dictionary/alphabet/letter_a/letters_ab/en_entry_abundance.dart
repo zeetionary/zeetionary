@@ -99,32 +99,13 @@ class EnglishEntryabundance extends StatelessWidget {
                               text:
                                   "١. (ناو) کاتێک شتێک بوونی ھەیە زیاد لە پێویست"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country has an abundance of natural resources."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتەکە ڕێژەیەکی زۆر سامانی سرووشتی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka15967("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka15967("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The country has an abundance of natural resources.",
+                            kurdishText:
+                                "وڵاتەکە ڕێژەیەکی زۆر سامانی سرووشتی ھەیە.",
+                            onPressedBritish: () => speaka15967("en-GB"),
+                            onPressedAmerican: () => speaka15967("en-US"),
                           ),
                         ],
                       ),

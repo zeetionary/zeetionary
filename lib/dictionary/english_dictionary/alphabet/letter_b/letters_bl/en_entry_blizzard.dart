@@ -151,90 +151,33 @@ class EnglishEntryblizzard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەفربارینێکی زۆر لەگەڵ بای بەھێزدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The blizzard struck the north-east yesterday, causing serious damage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوبۆرانەکە لە باکووری ڕۆژھەڵاتی دا دوێنێ و بووە ھۆی زیانی زۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblizzards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblizzards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The blizzard struck the north-east yesterday, causing serious damage.",
+                            kurdishText:
+                                "باوبۆرانەکە لە باکووری ڕۆژھەڵاتی دا دوێنێ و بووە ھۆی زیانی زۆر.",
+                            onPressedBritish: () => speakblizzards1("en-GB"),
+                            onPressedAmerican: () => speakblizzards1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕێژەیەکی زۆر لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her social media post attracted a blizzard of likes and shares."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆستەکەی لە سۆشیال میدیا ژمارەیەکی زۆر لایک و ھاوبەشکردنی بۆ ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblizzards2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblizzards2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her social media post attracted a blizzard of likes and shares.",
+                            kurdishText:
+                                "پۆستەکەی لە سۆشیال میدیا ژمارەیەکی زۆر لایک و ھاوبەشکردنی بۆ ھات.",
+                            onPressedBritish: () => speakblizzards2("en-GB"),
+                            onPressedAmerican: () => speakblizzards2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chef received a blizzard of compliments for the delicious meal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێفەکە ژمارەیەکی زۆر دەستخۆشی پێگەیشت بۆ ژەمە خواردنە خۆشەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblizzards3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblizzards3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chef received a blizzard of compliments for the delicious meal.",
+                            kurdishText:
+                                "شێفەکە ژمارەیەکی زۆر دەستخۆشی پێگەیشت بۆ ژەمە خواردنە خۆشەکە.",
+                            onPressedBritish: () => speakblizzards3("en-GB"),
+                            onPressedAmerican: () => speakblizzards3("en-US"),
                           ),
                         ],
                       ),

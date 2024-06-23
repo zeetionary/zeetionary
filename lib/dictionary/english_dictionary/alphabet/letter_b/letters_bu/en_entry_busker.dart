@@ -193,32 +193,13 @@ class EnglishEntrybusker extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە لەسەر شەقام میوزیک دەژەنێت و ڕێبواران دەتوانن پارەی پێ‌بدەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A busker was playing violin on the train platform."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوزیکژەنێکی گەڕۆک کەمانچەی دەژەنی لەسەر سەکۆی شەمەندەفەرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "busker", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuskers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuskers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A busker was playing violin on the train platform.",
+                            kurdishText:
+                                "میوزیکژەنێکی گەڕۆک کەمانچەی دەژەنی لەسەر سەکۆی شەمەندەفەرەکە.", // busker", follow LX strictly
+                            onPressedBritish: () => speakbuskers1("en-GB"),
+                            onPressedAmerican: () => speakbuskers1("en-US"),
                           ),
                         ],
                       ),

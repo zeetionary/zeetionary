@@ -151,32 +151,13 @@ class EnglishEntrybigamy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تاوانی ھاوسەرگیری لەگەڵ کەسێک لە کاتێکدا ھاوسەرێکی دیکەت ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In court, he admitted that he had committed bigamy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دادگا دانی پێدا نا کە تاوانی ھەبوونی ھاوسەری دووەمی ئەنجامداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbigamys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbigamys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In court, he admitted that he had committed bigamy.",
+                            kurdishText:
+                                "لە دادگا دانی پێدا نا کە تاوانی ھەبوونی ھاوسەری دووەمی ئەنجامداوە.",
+                            onPressedBritish: () => speakbigamys1("en-GB"),
+                            onPressedAmerican: () => speakbigamys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

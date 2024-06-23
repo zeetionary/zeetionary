@@ -153,35 +153,16 @@ class EnglishEntryanesthetist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پسپۆڕی بێ‌ھۆشی، کەسێک کە شارەزایی لە بەنج‌کردن ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The anesthetist tried three times to insert the anaesthetic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پسپۆڕی بێ‌ھۆشی سێ جار ھەوڵی‌دا بەنجەکە بکوتێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanesthetist4805("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanesthetist4805(
-                                        // REPLACE: anesthetist /əˈnesθətɪst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The anesthetist tried three times to insert the anaesthetic.",
+                            kurdishText:
+                                "پسپۆڕی بێ‌ھۆشی سێ جار ھەوڵی‌دا بەنجەکە بکوتێ.",
+                            onPressedBritish: () =>
+                                speakanesthetist4805("en-GB"),
+                            onPressedAmerican: () => speakanesthetist4805(
+                                // REPLACE: anesthetist /əˈnesθətɪst/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

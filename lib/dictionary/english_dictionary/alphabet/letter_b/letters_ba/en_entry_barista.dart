@@ -149,32 +149,13 @@ class EnglishEntrybarista extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە لە قاوەخانەیەک کاردەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One of their baristas also won national and international honors."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە کارمەندەکانی قاوەخانەکە ناوبانگی ناوخۆیی و نێودەڵەتی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaristas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaristas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One of their baristas also won national and international honors.",
+                            kurdishText:
+                                "یەکێک لە کارمەندەکانی قاوەخانەکە ناوبانگی ناوخۆیی و نێودەڵەتی ھەبوو.",
+                            onPressedBritish: () => speakbaristas1("en-GB"),
+                            onPressedAmerican: () => speakbaristas1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

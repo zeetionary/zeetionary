@@ -151,32 +151,13 @@ class EnglishEntrybib extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچەیەک کە لە ملی منداڵ دەبەسترێت لەکاتی خواردن بۆ ئەوەی جلەکانی پیس نەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bib caught all the spilled milk, saving my shirt from a stain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەروانکەکە ھەموو شیرە ڕژاوەکەی بەرکەوت و جلەکانمی لە پیسبوون پاراست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbibs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbibs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bib caught all the spilled milk, saving my shirt from a stain.",
+                            kurdishText:
+                                "بەروانکەکە ھەموو شیرە ڕژاوەکەی بەرکەوت و جلەکانمی لە پیسبوون پاراست.",
+                            onPressedBritish: () => speakbibs1("en-GB"),
+                            onPressedAmerican: () => speakbibs1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

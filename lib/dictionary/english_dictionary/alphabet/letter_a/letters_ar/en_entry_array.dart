@@ -163,131 +163,55 @@ class EnglishEntryarray extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) کۆمەڵە کەسێک/شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her writing covers a wide array of topics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نووسینەکانی کۆمەڵە بابەتێکی زۆر لەخۆیان‌دەگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarray145("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarray145(// REPLACE: array /əˈreɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her writing covers a wide array of topics.",
+                            kurdishText:
+                                "نووسینەکانی کۆمەڵە بابەتێکی زۆر لەخۆیان‌دەگرن.",
+                            onPressedBritish: () => speakarray145("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarray145(// REPLACE: array /əˈreɪ/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The city has the usual array of social problems."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەکە کێشە دەستەیەک لە کێشەی باوی کۆمەڵایەتی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarray147("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarray147(// REPLACE: array /əˈreɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The city has the usual array of social problems.",
+                            kurdishText:
+                                "شارەکە کێشە دەستەیەک لە کێشەی باوی کۆمەڵایەتی ھەیە.",
+                            onPressedBritish: () => speakarray147("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarray147(// REPLACE: array /əˈreɪ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ڕێکخستنی کۆمەڵە شتێک بە شێوەیەکی جوان و ڕیزکراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Jars of all shapes and sizes were arrayed on the shelves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆڵکەی ھەموو جۆر و قەبارەیەک لەسەر ڕەفەکان ڕیزکرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarray151("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarray151(// REPLACE: array /əˈreɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Jars of all shapes and sizes were arrayed on the shelves.",
+                            kurdishText:
+                                "دۆڵکەی ھەموو جۆر و قەبارەیەک لەسەر ڕەفەکان ڕیزکرابوون.",
+                            onPressedBritish: () => speakarray151("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarray151(// REPLACE: array /əˈreɪ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ڕێکخستنی کۆمەڵە سەربازێک بەشێوەیەک کە ئامادەی ھێرشن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The enemy forces arrayed against them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزەکانی دوژمن لەدژیان کەوتنە ئامادەباشییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarray154("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarray154(// REPLACE: array /əˈreɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The enemy forces arrayed against them.",
+                            kurdishText:
+                                "ھێزەکانی دوژمن لەدژیان کەوتنە ئامادەباشییەوە.",
+                            onPressedBritish: () => speakarray154("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarray154(// REPLACE: array /əˈreɪ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -145,32 +145,13 @@ class EnglishEntrybricklayer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە دیوار درووست دەکات، بە تایبەتی بە خشت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The experienced bricklayer meticulously arranged the bricks for the new wall."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەستا بە ئەزموونەکە بە وردییەوە خشتەکانی دانا بۆ بۆ دیوارە تازەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bricklayer" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbricklayers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbricklayers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The experienced bricklayer meticulously arranged the bricks for the new wall.",
+                            kurdishText:
+                                "وەستا بە ئەزموونەکە بە وردییەوە خشتەکانی دانا بۆ بۆ دیوارە تازەکە.", // bricklayer" as
+                            onPressedBritish: () => speakbricklayers1("en-GB"),
+                            onPressedAmerican: () => speakbricklayers1("en-US"),
                           ),
                         ],
                       ),

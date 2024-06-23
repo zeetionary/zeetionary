@@ -326,180 +326,62 @@ class EnglishEntrybring extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ھێنانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't forget to bring your books with you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیرت نەچێت کتێبەکانت لەگەڵ خۆت بێنیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bring" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Don't forget to bring your books with you.",
+                            kurdishText:
+                                "بیرت نەچێت کتێبەکانت لەگەڵ خۆت بێنیت.", // bring" as
+                            onPressedBritish: () => speakbrings1("en-GB"),
+                            onPressedAmerican: () => speakbrings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can we bring the children?"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەتوانین منداڵەکان بێنین؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can we bring the children?",
+                            kurdishText: "دەتوانین منداڵەکان بێنین؟",
+                            onPressedBritish: () => speakbrings2("en-GB"),
+                            onPressedAmerican: () => speakbrings2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She brought her boyfriend to the party."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دۆستە کوڕەکەی لەگەڵ خۆی ھێنا بۆ ئاھەنگەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrings3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrings3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She brought her boyfriend to the party.",
+                                    kurdishText:
+                                        "دۆستە کوڕەکەی لەگەڵ خۆی ھێنا بۆ ئاھەنگەکە.",
+                                    onPressedBritish: () =>
+                                        speakbrings3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrings3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Bring a present for Helen."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دیارییەک بۆ ھێلین بھێنە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrings4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrings4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "Bring a present for Helen.",
+                                    kurdishText: "دیارییەک بۆ ھێلین بھێنە.",
+                                    onPressedBritish: () =>
+                                        speakbrings4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrings4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text: "Bring Helen a present."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "دیارییەک بۆ ھێلین بھێنە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrings5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrings5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "Bring Helen a present.",
+                                    kurdishText: "دیارییەک بۆ ھێلین بھێنە.",
+                                    onPressedBritish: () =>
+                                        speakbrings5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrings5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Did you bring anything back with you?"),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھیچت لەگەڵ خۆت ھێنایەوە؟"),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrings6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrings6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Did you bring anything back with you?",
+                                    kurdishText: "ھیچت لەگەڵ خۆت ھێنایەوە؟",
+                                    onPressedBritish: () =>
+                                        speakbrings6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrings6("en-US"),
                                   ),
                                 ],
                               ),
@@ -508,436 +390,148 @@ class EnglishEntrybring extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) پێدانی شتێک بە کەسێک/شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They brought us some good news."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەندێک ھەواڵی خۆشیان پێداین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They brought us some good news.",
+                            kurdishText: "ھەندێک ھەواڵی خۆشیان پێداین.",
+                            onPressedBritish: () => speakbrings7("en-GB"),
+                            onPressedAmerican: () => speakbrings7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We'll bring you the election results as soon as we have them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەنجامەکانی ھەڵبژاردنتان پێدەدەین ھەرکە بەدەستمان بگات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We'll bring you the election results as soon as we have them.",
+                            kurdishText:
+                                "ئەنجامەکانی ھەڵبژاردنتان پێدەدەین ھەرکە بەدەستمان بگات.",
+                            onPressedBritish: () => speakbrings8("en-GB"),
+                            onPressedAmerican: () => speakbrings8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His writing brings him £10 000 a year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نووسینەکانی ١٠,٠٠٠ پاوەندی ساڵانەی بۆ دەھێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His writing brings him £10 000 a year.",
+                            kurdishText:
+                                "نووسینەکانی ١٠,٠٠٠ پاوەندی ساڵانەی بۆ دەھێنێت.",
+                            onPressedBritish: () => speakbrings9("en-GB"),
+                            onPressedAmerican: () => speakbrings9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) بوون بە ھۆکاری شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The revolution brought many changes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆڕشەکە گۆڕانکاری زۆری بەدوای خۆیدا ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The revolution brought many changes.",
+                            kurdishText:
+                                "شۆڕشەکە گۆڕانکاری زۆری بەدوای خۆیدا ھێنا.",
+                            onPressedBritish: () => speakbrings10("en-GB"),
+                            onPressedAmerican: () => speakbrings10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The news brought tears to his eyes (= made him cry)."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەواڵەکە گریاندی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The news brought tears to his eyes (= made him cry).",
+                            kurdishText: "ھەواڵەکە گریاندی.",
+                            onPressedBritish: () => speakbrings11("en-GB"),
+                            onPressedAmerican: () => speakbrings11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Retirement often brings with it a massive drop in income."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانەنشین بوون زۆرجار دەبێتەھۆی کەمبوونێکی زۆری داھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Retirement often brings with it a massive drop in income.",
+                            kurdishText:
+                                "خانەنشین بوون زۆرجار دەبێتەھۆی کەمبوونێکی زۆری داھات.",
+                            onPressedBritish: () => speakbrings12("en-GB"),
+                            onPressedAmerican: () => speakbrings12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) وا لە شتێک بکەیت لە شوێنێک بێت یان بکەوێتە دۆخێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "No one has worked harder to bring peace to the region."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ کەس زیاتر (لە ئەو) ھەوڵی نەداوە ئاشتی بۆ ھەرێمەکە بێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "No one has worked harder to bring peace to the region.",
+                            kurdishText:
+                                "ھیچ کەس زیاتر (لە ئەو) ھەوڵی نەداوە ئاشتی بۆ ھەرێمەکە بێنێت.",
+                            onPressedBritish: () => speakbrings13("en-GB"),
+                            onPressedAmerican: () => speakbrings13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Bring the water to the boil."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئاوەکە بکوڵێنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Bring the water to the boil.",
+                            kurdishText: "ئاوەکە بکوڵێنە.",
+                            onPressedBritish: () => speakbrings14("en-GB"),
+                            onPressedAmerican: () => speakbrings14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have taken on six more staff, bringing the total to 45."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەش ستافی دیکەیان گرتووە کە کۆی گشتی کردووە بە ٤٥."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have taken on six more staff, bringing the total to 45.",
+                            kurdishText:
+                                "شەش ستافی دیکەیان گرتووە کە کۆی گشتی کردووە بە ٤٥.",
+                            onPressedBritish: () => speakbrings15("en-GB"),
+                            onPressedAmerican: () => speakbrings15("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The issue was only brought to my attention this morning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بابەتەکەم تەنھا ئەمڕۆ پێڕاگەیەندرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The issue was only brought to my attention this morning.",
+                            kurdishText: "بابەتەکەم تەنھا ئەمڕۆ پێڕاگەیەندرا.",
+                            onPressedBritish: () => speakbrings16("en-GB"),
+                            onPressedAmerican: () => speakbrings16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) لە کاتی قسەکردن یان نووسین بەکاردێت بۆ چوونە خاڵی دواتر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This brings me to the second point I'd like to make, which is freedom of expression."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمەش دەمھێنێتە سەر خاڵی دووەم کە دەمەوێت باسی بکەم، ئەویش ئازادی ڕادەربڕینە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This brings me to the second point I'd like to make, which is freedom of expression.",
+                            kurdishText:
+                                "ئەمەش دەمھێنێتە سەر خاڵی دووەم کە دەمەوێت باسی بکەم، ئەویش ئازادی ڕادەربڕینە.",
+                            onPressedBritish: () => speakbrings17("en-GB"),
+                            onPressedAmerican: () => speakbrings17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) وا لە شتێک یان کەسێک بکەیت بجوڵێت بە ئاراستەیەک یان ڕێگایەکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The judge brought his hammer down on the table."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دادوەرەکە چەکووشەکەی کێشا بە مێزەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The judge brought his hammer down on the table.",
+                            kurdishText:
+                                "دادوەرەکە چەکووشەکەی کێشا بە مێزەکەدا.",
+                            onPressedBritish: () => speakbrings18("en-GB"),
+                            onPressedAmerican: () => speakbrings18("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her cries brought the neighbours running (= made them run to her)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قیژانەکەی دراوسێیەکانی بە ڕاکردن ھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her cries brought the neighbours running (= made them run to her).",
+                            kurdishText:
+                                "قیژانەکەی دراوسێیەکانی بە ڕاکردن ھێنا.",
+                            onPressedBritish: () => speakbrings19("en-GB"),
+                            onPressedAmerican: () => speakbrings19("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) گرتنەبەری ڕێکاری یاسایی دژ بە کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was arrested for fighting, but the police have decided not to bring charges."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ شەڕکردن دەستگیرکرا، بەڵام پۆلیس بڕیاری داوە سکاڵا تۆمار نەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings20("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings20("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was arrested for fighting, but the police have decided not to bring charges.",
+                            kurdishText:
+                                "بۆ شەڕکردن دەستگیرکرا، بەڵام پۆلیس بڕیاری داوە سکاڵا تۆمار نەکات.",
+                            onPressedBritish: () => speakbrings20("en-GB"),
+                            onPressedAmerican: () => speakbrings20("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (کردار) زۆرکردن لە خۆت بۆ کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She could not bring herself to tell him the news."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەیدەتوانی وا لە خۆی بکات ھەواڵەکەی پێ بڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrings21("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrings21("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She could not bring herself to tell him the news.",
+                            kurdishText:
+                                "نەیدەتوانی وا لە خۆی بکات ھەواڵەکەی پێ بڵێت.",
+                            onPressedBritish: () => speakbrings21("en-GB"),
+                            onPressedAmerican: () => speakbrings21("en-US"),
                           ),
                         ],
                       ),

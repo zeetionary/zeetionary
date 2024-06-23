@@ -116,34 +116,15 @@ class EnglishEntryambulance extends StatelessWidget {
                               text:
                                   "١. (ناو) ئۆتۆمبێلێک کە کەرەستەی تایبەتی تێدایە و نەخۆشی پێ دەبردرێت بۆ نەخۆشخانە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ambulance crew rushed her to the hospital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستافی ئەمبولانسەکە خێرا بردیان بۆ نەخۆشخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakambulanc7955("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambulanc7955(
-                                        // REPLACE: ambulance /ˈæmbjələns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ambulance crew rushed her to the hospital.",
+                            kurdishText:
+                                "ستافی ئەمبولانسەکە خێرا بردیان بۆ نەخۆشخانە.",
+                            onPressedBritish: () => speakambulanc7955("en-GB"),
+                            onPressedAmerican: () => speakambulanc7955(
+                                // REPLACE: ambulance /ˈæmbjələns/
+                                "en-US"),
                           ),
                           // const DividerSentences()
                           // const DividerDefinition()

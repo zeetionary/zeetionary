@@ -150,31 +150,11 @@ class EnglishEntrybedspread extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕووپۆشێکی جوان کە دەدرێت بەسەر پێخەف و داپۆشەرەکانی دیکەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Mary is stitching a bedspread."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماری خەریکە بەرگەجێخەوێک دەچنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedspreads1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedspreads1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Mary is stitching a bedspread.",
+                            kurdishText: "ماری خەریکە بەرگەجێخەوێک دەچنێت.",
+                            onPressedBritish: () => speakbedspreads1("en-GB"),
+                            onPressedAmerican: () => speakbedspreads1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

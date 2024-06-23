@@ -150,122 +150,46 @@ class EnglishEntryblessed extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە بە پیرۆز سەیر دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The old relic was considered blessed by the entire community."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شوێنەوارە کۆنەکە بە پیرۆز دەبینرا لەلایەن تەواوی دانیشتووانەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblesseds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblesseds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The old relic was considered blessed by the entire community.",
+                            kurdishText:
+                                "شوێنەوارە کۆنەکە بە پیرۆز دەبینرا لەلایەن تەواوی دانیشتووانەکەوە.",
+                            onPressedBritish: () => speakblesseds1("en-GB"),
+                            onPressedAmerican: () => speakblesseds1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) (لە زمانی ئایینیدا) بە بەخت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Blessed are the poor."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەبەخت ھەژارانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblesseds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblesseds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Blessed are the poor.",
+                            kurdishText: "بەبەخت ھەژارانن.",
+                            onPressedBritish: () => speakblesseds2("en-GB"),
+                            onPressedAmerican: () => speakblesseds2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) شتێک کە ھەستی ئارامی یان بێ لە خەم و ئازارت پێدەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Finding a lost rabbit after days of searching was a truly blessed moment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆزینەوەی کەروێشکە ونبووەکەی لە دوای چەندین ڕۆژ لە گەڕان ساتێکی حەسێنەرەوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblesseds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblesseds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Finding a lost rabbit after days of searching was a truly blessed moment.",
+                            kurdishText:
+                                "دۆزینەوەی کەروێشکە ونبووەکەی لە دوای چەندین ڕۆژ لە گەڕان ساتێکی حەسێنەرەوە بوو.",
+                            onPressedBritish: () => speakblesseds3("en-GB"),
+                            onPressedAmerican: () => speakblesseds3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ھاوەڵناو) بۆ پیشاندانی کەمێک تووڕەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't see a blessed thing without my glasses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم یەک تۆزیش شت ببینم بەبێ چاولکەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblesseds4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblesseds4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't see a blessed thing without my glasses.",
+                            kurdishText:
+                                "ناتوانم یەک تۆزیش شت ببینم بەبێ چاولکەکەم.",
+                            onPressedBritish: () => speakblesseds4("en-GB"),
+                            onPressedAmerican: () => speakblesseds4("en-US"),
                           ),
                         ],
                       ),

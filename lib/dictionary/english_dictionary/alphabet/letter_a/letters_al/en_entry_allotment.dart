@@ -116,67 +116,27 @@ class EnglishEntryallotment extends StatelessWidget {
                               text:
                                   "١. (ناو) پارچە زەوییەکی بچووک کە کەسێک بە کرێی دەگرێت بە مەبەستی چاندن لەسەری"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They eat fresh vegetables from their allotment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوەی تازەی زەوییەکەی خۆیان دەخۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallotmen1234("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallotmen1234(
-                                        // REPLACE: allotment /əˈlɑːtmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They eat fresh vegetables from their allotment.",
+                            kurdishText: "میوەی تازەی زەوییەکەی خۆیان دەخۆن.",
+                            onPressedBritish: () => speakallotmen1234("en-GB"),
+                            onPressedAmerican: () => speakallotmen1234(
+                                // REPLACE: allotment /əˈlɑːtmənt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕێژەیەک لە شتێک کە کەسێک پێی دەدرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Water allotments to farmers were cut back in the drought."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشکی ئاو بە جوتیاران کەمکرایەوە لە وشکەساڵییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallotment3652("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallotment3652(
-                                        // REPLACE: allotment /əˈlɑːtmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Water allotments to farmers were cut back in the drought.",
+                            kurdishText:
+                                "پشکی ئاو بە جوتیاران کەمکرایەوە لە وشکەساڵییەکە.",
+                            onPressedBritish: () => speakallotment3652("en-GB"),
+                            onPressedAmerican: () => speakallotment3652(
+                                // REPLACE: allotment /əˈlɑːtmənt/
+                                "en-US"),
                           ),
                         ],
                       ),

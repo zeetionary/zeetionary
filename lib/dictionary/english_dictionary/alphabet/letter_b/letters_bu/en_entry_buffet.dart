@@ -146,63 +146,24 @@ class EnglishEntrybuffet extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژەمە خواردنێک کە خەڵکئ لەسەر مێزێک خواردنی خۆیان تێ‌دەکەن و لە شوێنێکی تردا دەیخۆن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Breakfast is served buffet style."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نانی بەیانی بەشێوەی بووفە دەخورێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "buffet", follow LX strictly.
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuffets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuffets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Breakfast is served buffet style.",
+                            kurdishText:
+                                "نانی بەیانی بەشێوەی بووفە دەخورێت.", // buffet", follow LX strictly.
+                            onPressedBritish: () => speakbuffets1("en-GB"),
+                            onPressedAmerican: () => speakbuffets1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) لێدان بە ھێزێکی زۆرەوە بە بەردەوامئ؛ پاڵنانی کەسێک/شتێک لە لایەک بۆ لایەکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The little boat was buffeted mercilessly by the waves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەپۆلەکان بێ‌بەزەییانە لە بەلەمە بچووکەکەیان دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuffets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuffets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The little boat was buffeted mercilessly by the waves.",
+                            kurdishText:
+                                "شەپۆلەکان بێ‌بەزەییانە لە بەلەمە بچووکەکەیان دەدا.",
+                            onPressedBritish: () => speakbuffets2("en-GB"),
+                            onPressedAmerican: () => speakbuffets2("en-US"),
                           ),
                         ],
                       ),

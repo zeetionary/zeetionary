@@ -117,34 +117,14 @@ class EnglishEntryalgae extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) خانەی زۆر سەرەتایی کە ھیچ ڕەگ و قەد و بنەچەیان نییە و لە نزیک ئاو دەژین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Algae has clogged the intake to the water stem."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەوزە ڕێگای ڕێڕەوی ئاوەکەی گرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalgae4524("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalgae4524(
-                                        // REPLACE: algae /ˈældʒiː/, /ˈælɡiː/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Algae has clogged the intake to the water stem.",
+                            kurdishText: "قەوزە ڕێگای ڕێڕەوی ئاوەکەی گرتبوو.",
+                            onPressedBritish: () => speakalgae4524("en-GB"),
+                            onPressedAmerican: () => speakalgae4524(
+                                // REPLACE: algae /ˈældʒiː/, /ˈælɡiː/
+                                "en-US"),
                           ),
                         ],
                       ),

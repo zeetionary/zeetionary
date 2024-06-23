@@ -157,34 +157,15 @@ class EnglishEntrybacklash extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کاردانەوەی توندی کۆمەڵێک خەڵک بەرامبەر شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government is facing an angry backlash from voters over the new tax."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت ڕووبەڕووی کاردانەوەی توندی دەنگدەران بووە بەھۆی باجە نوێیەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakb3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakb3s1(// REPLACE: backlash
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government is facing an angry backlash from voters over the new tax.",
+                            kurdishText:
+                                "حکومەت ڕووبەڕووی کاردانەوەی توندی دەنگدەران بووە بەھۆی باجە نوێیەکەوە.",
+                            onPressedBritish: () => speakb3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakb3s1(// REPLACE: backlash
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -116,66 +116,26 @@ class EnglishEntryallegation extends StatelessWidget {
                               text:
                                   "١. (ناو) تۆمەت کە تەنھا دەنگۆیە و بێ بەڵگەیە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several newspapers made allegations of corruption in the city's police department."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک ڕۆژنامە ئیدعای گەندەڵییان کرد لە پۆلیسخانەی شارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallegation534("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallegation534(
-                                        // REPLACE: allegation /ˌæləˈɡeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several newspapers made allegations of corruption in the city's police department.",
+                            kurdishText:
+                                "ژمارەیەک ڕۆژنامە ئیدعای گەندەڵییان کرد لە پۆلیسخانەی شارەکە.",
+                            onPressedBritish: () => speakallegation534("en-GB"),
+                            onPressedAmerican: () => speakallegation534(
+                                // REPLACE: allegation /ˌæləˈɡeɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She refused to admit the allegations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەتیکردەوە دان بە تۆمەتەکان بنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallegation36911("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallegation36911(
-                                        // REPLACE: allegation /ˌæləˈɡeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She refused to admit the allegations.",
+                            kurdishText: "ڕەتیکردەوە دان بە تۆمەتەکان بنێت.",
+                            onPressedBritish: () =>
+                                speakallegation36911("en-GB"),
+                            onPressedAmerican: () => speakallegation36911(
+                                // REPLACE: allegation /ˌæləˈɡeɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -116,34 +116,15 @@ class EnglishEntryairstrip extends StatelessWidget {
                               text:
                                   "١. (ناو) پارچە زەوییەک کە فڕۆکە دەتوانێت لەسەری بنیشێتەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We landed at a tiny airstrip in the middle of the jungle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر نەختە زەوییەک لە ناوەڕاستی جەنگەڵەکە نیشتینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairstrip7655("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairstrip7655(
-                                        // REPLACE: airstrip /ˈerstrɪp/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We landed at a tiny airstrip in the middle of the jungle.",
+                            kurdishText:
+                                "لەسەر نەختە زەوییەک لە ناوەڕاستی جەنگەڵەکە نیشتینەوە.",
+                            onPressedBritish: () => speakairstrip7655("en-GB"),
+                            onPressedAmerican: () => speakairstrip7655(
+                                // REPLACE: airstrip /ˈerstrɪp/
+                                "en-US"),
                           ),
                         ],
                       ),

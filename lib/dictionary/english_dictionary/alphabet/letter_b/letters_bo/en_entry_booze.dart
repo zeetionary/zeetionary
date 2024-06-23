@@ -147,63 +147,24 @@ class EnglishEntrybooze extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) خواردنەوەی کحولی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Now he’s off the booze (= he has given up drinking alcohol), he’s a different person."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێستا کە وازی لە خواردنەوە ھێناوە کەسێکی جیاوازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboozes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboozes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Now he’s off the booze (= he has given up drinking alcohol), he’s a different person.",
+                            kurdishText:
+                                "ئێستا کە وازی لە خواردنەوە ھێناوە کەسێکی جیاوازە.",
+                            onPressedBritish: () => speakboozes1("en-GB"),
+                            onPressedAmerican: () => speakboozes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) خواردنەوەی خواردنەوە کحوولییەکان، بەتایبەتی بە ئاستێکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's out boozing with his mates."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دەرەوەیە لەگەڵ ھاوڕێکانی دەخواتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboozes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboozes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's out boozing with his mates.",
+                            kurdishText:
+                                "لە دەرەوەیە لەگەڵ ھاوڕێکانی دەخواتەوە.",
+                            onPressedBritish: () => speakboozes2("en-GB"),
+                            onPressedAmerican: () => speakboozes2("en-US"),
                           ),
                         ],
                       ),

@@ -151,63 +151,25 @@ class EnglishEntrybee extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ھەنگ؛ مێروویەکی فڕیوی ڕەش و زەرد کە دەچزێت. ھەنگ بە گرووپی گەورە دەژین و ھەنگوین درووست دەکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bees were buzzing outside the window."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەنگ لە دەرەوەی پەنجەرەکە گیزەگیزی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbees1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbees1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bees were buzzing outside the window.",
+                            kurdishText:
+                                "ھەنگ لە دەرەوەی پەنجەرەکە گیزەگیزی بوو.",
+                            onPressedBritish: () => speakbees1("en-GB"),
+                            onPressedAmerican: () => speakbees1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) چاوپێکەوتنی گرووپێک لە خەڵک بۆ بەژداری لە چالاکییەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The school held a spelling bee to see who could spell the most words correctly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوتابخانەکە پێشبڕکێیەکی ڕێنووسکردنی ڕێکخست بۆ زانینی ئەوەی کێ دەتوانێت زۆرترین وشە بەدرووستی ڕێنووس بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbees2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbees2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The school held a spelling bee to see who could spell the most words correctly.",
+                            kurdishText:
+                                "قوتابخانەکە پێشبڕکێیەکی ڕێنووسکردنی ڕێکخست بۆ زانینی ئەوەی کێ دەتوانێت زۆرترین وشە بەدرووستی ڕێنووس بکات.",
+                            onPressedBritish: () => speakbees2("en-GB"),
+                            onPressedAmerican: () => speakbees2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

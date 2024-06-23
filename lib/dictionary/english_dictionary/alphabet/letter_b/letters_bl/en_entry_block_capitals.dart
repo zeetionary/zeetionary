@@ -151,34 +151,15 @@ class EnglishEntryblockcapitals extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شێوازێکی نووسین کە تێیدا ھەر پیتێک بە پیتی گەورە و بە ڕوونی و جیایی دەنووسرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please print your name and address in block capitals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە ناو و ناونیشانت بە پیتی گەورە بنووسە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakblockcapitalss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakblockcapitalss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please print your name and address in block capitals.",
+                            kurdishText:
+                                "تکایە ناو و ناونیشانت بە پیتی گەورە بنووسە.",
+                            onPressedBritish: () =>
+                                speakblockcapitalss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakblockcapitalss1("en-US"),
                           ),
                         ],
                       ),

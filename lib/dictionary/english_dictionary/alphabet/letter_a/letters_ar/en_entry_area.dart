@@ -188,226 +188,93 @@ class EnglishEntryarea extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بەشێکی شوێنێک، ھەرێمێک، یان وڵاتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The farm and surrounding area were flooded."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێڵگەکە و ناوچەکەی دەورووبەری بەر لافاو کەوتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarea957("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarea957(// REPLACE: area /ˈeriə/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The farm and surrounding area were flooded.",
+                            kurdishText:
+                                "کێڵگەکە و ناوچەکەی دەورووبەری بەر لافاو کەوتن.",
+                            onPressedBritish: () => speakarea957("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarea957(// REPLACE: area /ˈeriə/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Large areas of the city were destroyed in the earthquake."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوچەیەکی زۆری شارەکە لە بومەلەرزەکەدا وێران‌بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarea1002("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarea1002(// REPLACE: area /ˈeriə/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Large areas of the city were destroyed in the earthquake.",
+                            kurdishText:
+                                "ناوچەیەکی زۆری شارەکە لە بومەلەرزەکەدا وێران‌بوون.",
+                            onPressedBritish: () => speakarea1002("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarea1002(// REPLACE: area /ˈeriə/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بەشێکی ژوورێک، بینایەک، یان شوێنێکی دیاریکراو کۆ مەبەستێک بەکاردێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can smoke in only designated areas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانی جگەرە بکێشی تەنھا لە شوێنی دیاریکراوی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarea1005("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarea1005(// REPLACE: area /ˈeriə/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can smoke in only designated areas.",
+                            kurdishText:
+                                "دەتوانی جگەرە بکێشی تەنھا لە شوێنی دیاریکراوی.",
+                            onPressedBritish: () => speakarea1005("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarea1005(// REPLACE: area /ˈeriə/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) شوێنێکی دیاریکراوی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The tumour had not spread to other areas of his body."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لووەکە ھێشتا بڵاونەبووبووە بە بەشەکانی تری جەستەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarea1015("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarea1015(// REPLACE: area /ˈeriə/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The tumour had not spread to other areas of his body.",
+                            kurdishText:
+                                "لووەکە ھێشتا بڵاونەبووبووە بە بەشەکانی تری جەستەیدا.",
+                            onPressedBritish: () => speakarea1015("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarea1015(// REPLACE: area /ˈeriə/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) بابەتێکی دیاریکراو یان چالاکییەک، یان لایەنێکی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That's outside my specific area of expertise."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەوە لە دەرەوەی شارەزایی منە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarea1018("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarea1018(// REPLACE: area /ˈeriə/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That's outside my specific area of expertise.",
+                            kurdishText: "ئەوە لە دەرەوەی شارەزایی منە.",
+                            onPressedBritish: () => speakarea1018("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarea1018(// REPLACE: area /ˈeriə/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "More research is needed in this area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژینەوەی تر پێویستن لەم ڕوانگەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarea1020("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarea1020(// REPLACE: area /ˈeriə/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "More research is needed in this area.",
+                            kurdishText:
+                                "توێژینەوەی تر پێویستن لەم ڕوانگەیەوە.",
+                            onPressedBritish: () => speakarea1020("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarea1020(// REPLACE: area /ˈeriə/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) ڕووبەری ناوچەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Britain occupies a total area of 88,798 square miles."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕووبەری بەریتانیا ٨٨,٧٩٨ میلە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarea1022("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarea1022(// REPLACE: area /ˈeriə/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Britain occupies a total area of 88,798 square miles.",
+                            kurdishText: "ڕووبەری بەریتانیا ٨٨,٧٩٨ میلە.",
+                            onPressedBritish: () => speakarea1022("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarea1022(// REPLACE: area /ˈeriə/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

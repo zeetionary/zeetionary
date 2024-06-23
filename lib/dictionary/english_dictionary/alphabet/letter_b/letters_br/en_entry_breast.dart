@@ -301,183 +301,67 @@ class EnglishEntrybreast extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) مەمکی ژن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She put the baby to her breast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکەی نا بە مەمکییەوە (شیری پێدا)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "breast" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreasts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreasts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She put the baby to her breast.",
+                            kurdishText:
+                                "منداڵەکەی نا بە مەمکییەوە (شیری پێدا).", // breast" as
+                            onPressedBritish: () => speakbreasts1("en-GB"),
+                            onPressedAmerican: () => speakbreasts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The protective benefits of breast milk are numerous for both mother and baby."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوودە پارێزەرەکانی شیری دایک زەبەندن بۆ دایک و منداڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreasts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreasts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The protective benefits of breast milk are numerous for both mother and baby.",
+                            kurdishText:
+                                "سوودە پارێزەرەکانی شیری دایک زەبەندن بۆ دایک و منداڵ.",
+                            onPressedBritish: () => speakbreasts2("en-GB"),
+                            onPressedAmerican: () => speakbreasts2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She had breast-augmentation surgery."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "نەشتەرگەری گەورەکردنی مەمکی کرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreasts3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreasts3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She had breast-augmentation surgery.",
+                                    kurdishText:
+                                        "نەشتەرگەری گەورەکردنی مەمکی کرد.",
+                                    onPressedBritish: () =>
+                                        speakbreasts3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreasts3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Getting breast implants entails major surgery."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کردنی چاندنی مەمک نەشتەرگەری دژواری دەوێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreasts4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreasts4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Getting breast implants entails major surgery.",
+                                    kurdishText:
+                                        "کردنی چاندنی مەمک نەشتەرگەری دژواری دەوێت.",
+                                    onPressedBritish: () =>
+                                        speakbreasts4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreasts4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The book promoted the benefits of breast feeding to child health."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "کتێبەکە سوودەکانی شیری دایکی بۆ تەندرووستی منداڵ دەخستە بەرچاو."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreasts5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreasts5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The book promoted the benefits of breast feeding to child health.",
+                                    kurdishText:
+                                        "کتێبەکە سوودەکانی شیری دایکی بۆ تەندرووستی منداڵ دەخستە بەرچاو.",
+                                    onPressedBritish: () =>
+                                        speakbreasts5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreasts5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She discovered a lump in her breast."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "زانی گرێیەک لە مەمکیدایە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbreasts6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbreasts6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She discovered a lump in her breast.",
+                                    kurdishText: "زانی گرێیەک لە مەمکیدایە.",
+                                    onPressedBritish: () =>
+                                        speakbreasts6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbreasts6("en-US"),
                                   ),
                                 ],
                               ),
@@ -485,241 +369,88 @@ class EnglishEntrybreast extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) سنگی مرۆڤ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He cradled the child against his breast."),
-                                    ExampleSentenceKurdish(
-                                        text: "منداڵەکەی گوشی بە سنگییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreasts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreasts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He cradled the child against his breast.",
+                            kurdishText: "منداڵەکەی گوشی بە سنگییەوە.",
+                            onPressedBritish: () => speakbreasts7("en-GB"),
+                            onPressedAmerican: () => speakbreasts7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ئەو بەشەی جل کە سنگ دادەپۆشێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A row of medals was pinned to the breast of his coat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕیزێک لە مەدالیا لکێندرابوو بە سنگی قەمسەڵەکەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreasts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreasts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A row of medals was pinned to the breast of his coat.",
+                            kurdishText:
+                                "ڕیزێک لە مەدالیا لکێندرابوو بە سنگی قەمسەڵەکەیەوە.",
+                            onPressedBritish: () => speakbreasts8("en-GB"),
+                            onPressedAmerican: () => speakbreasts8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٤. (ناو) سنگی باڵندە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The robin has a red breast."),
-                                    ExampleSentenceKurdish(
-                                        text: "باڵندەی ڕۆبن سنگی سوورە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreasts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreasts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The robin has a red breast.",
+                            kurdishText: "باڵندەی ڕۆبن سنگی سوورە.",
+                            onPressedBritish: () => speakbreasts9("en-GB"),
+                            onPressedAmerican: () => speakbreasts9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) گۆشتی سنگی باڵندەیەک یان ئاژەڵێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had a cold chicken breast and a salad for lunch."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سنگە مریشکێکی سارد و زەڵاتەم بۆ نانی نیوەڕۆ خوارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreasts10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreasts10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had a cold chicken breast and a salad for lunch.",
+                            kurdishText:
+                                "سنگە مریشکێکی سارد و زەڵاتەم بۆ نانی نیوەڕۆ خوارد.",
+                            onPressedBritish: () => speakbreasts10("en-GB"),
+                            onPressedAmerican: () => speakbreasts10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) ھەبوونی ئەو جۆرە سنگ یان مەمکەی کە باسکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The fashion industry features both small-breasted and full-breasted models."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیشەسازی فاشن نمایشکارانی ھەردوو مەمک بچووک و مەمک زل لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreasts11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreasts11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The fashion industry features both small-breasted and full-breasted models.",
+                            kurdishText:
+                                "پیشەسازی فاشن نمایشکارانی ھەردوو مەمک بچووک و مەمک زل لەخۆدەگرێت.",
+                            onPressedBritish: () => speakbreasts11("en-GB"),
+                            onPressedAmerican: () => speakbreasts11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) ئەو بەشەی جەستە کە باوەڕ وایە ھەست و سۆزی تێدایە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A feeling of love surged in his breast."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی خۆشەویستی لە دەروونیدا پەرەی‌سەند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreasts12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreasts12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A feeling of love surged in his breast.",
+                            kurdishText:
+                                "ھەستی خۆشەویستی لە دەروونیدا پەرەی‌سەند.",
+                            onPressedBritish: () => speakbreasts12("en-GB"),
+                            onPressedAmerican: () => speakbreasts12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کردار) گەشتنە لوتکەی گردێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As they breasted the hill, they saw the valley and lake before them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە سەرکەوتن بە گردەکەدا، دۆڵەکە و دەریاچەکەیان لە پێشیان دیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreasts13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreasts13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As they breasted the hill, they saw the valley and lake before them.",
+                            kurdishText:
+                                "کە سەرکەوتن بە گردەکەدا، دۆڵەکە و دەریاچەکەیان لە پێشیان دیت.",
+                            onPressedBritish: () => speakbreasts13("en-GB"),
+                            onPressedAmerican: () => speakbreasts13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) ڕۆشتن بۆ پێشەوە دژ یان بەناو شتێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I watched him breast the wave."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەیریم کرد بە شەپۆلەکەدا دەچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreasts14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreasts14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I watched him breast the wave.",
+                            kurdishText: "سەیریم کرد بە شەپۆلەکەدا دەچوو.",
+                            onPressedBritish: () => speakbreasts14("en-GB"),
+                            onPressedAmerican: () => speakbreasts14("en-US"),
                           ),
                         ],
                       ),

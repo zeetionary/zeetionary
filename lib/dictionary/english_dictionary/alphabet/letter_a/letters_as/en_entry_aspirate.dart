@@ -164,133 +164,57 @@ class EnglishEntryaspirate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) (ناو) دەنگێکی نەبزوێن کە بە ھەناسەیەکەوە دەریدەبڕی کە بیسراوە، بۆ نموونە دەنگی /h/ لە وشەی 'house' لە ئینگلیزیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The word ‘hour’ is pronounced without an initial aspirate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وشەی ‘hour’ بەبێ ئەسپیرەیتی سەرەتا دەخوێندرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaspirate643("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspirate643(
-                                        // REPLACE: aspirate /ˈæspərət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The word ‘hour’ is pronounced without an initial aspirate.",
+                            kurdishText:
+                                "وشەی ‘hour’ بەبێ ئەسپیرەیتی سەرەتا دەخوێندرێتەوە.",
+                            onPressedBritish: () => speakaspirate643("en-GB"),
+                            onPressedAmerican: () => speakaspirate643(
+                                // REPLACE: aspirate /ˈæspərət/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) خوێندنەوەی دەنگێک بە ھەناسەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The teacher instructed the student to aspirate their 't's more forcefully."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستاکە داوای لە خوێندکارەکانی کرد پیتی 'ت' بە ھەناسەی زیاترەوە بخوێننەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaspirate648("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspirate648(
-                                        // REPLACE: aspirate /ˈæspərət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The teacher instructed the student to aspirate their 't's more forcefully.",
+                            kurdishText:
+                                "مامۆستاکە داوای لە خوێندکارەکانی کرد پیتی 'ت' بە ھەناسەی زیاترەوە بخوێننەوە.",
+                            onPressedBritish: () => speakaspirate648("en-GB"),
+                            onPressedAmerican: () => speakaspirate648(
+                                // REPLACE: aspirate /ˈæspərət/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ھەڵمژینی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The drowning victim aspirated water into their lungs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوربانییە نقومبووەکە ئاوی مژییە ناو سنگەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaspirate651("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspirate651(
-                                        // REPLACE: aspirate /ˈæspərət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The drowning victim aspirated water into their lungs.",
+                            kurdishText:
+                                "قوربانییە نقومبووەکە ئاوی مژییە ناو سنگەکانی.",
+                            onPressedBritish: () => speakaspirate651("en-GB"),
+                            onPressedAmerican: () => speakaspirate651(
+                                // REPLACE: aspirate /ˈæspərət/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) سڕینەوەی لە لاشەی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The doctor aspirated the fluid from the patient's lungs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پزیشکەکە شلەکەی لە لەشی نەخۆشەکە دەرکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaspirate653("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspirate653(
-                                        // REPLACE: aspirate /ˈæspərət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The doctor aspirated the fluid from the patient's lungs.",
+                            kurdishText:
+                                "پزیشکەکە شلەکەی لە لەشی نەخۆشەکە دەرکرد.",
+                            onPressedBritish: () => speakaspirate653("en-GB"),
+                            onPressedAmerican: () => speakaspirate653(
+                                // REPLACE: aspirate /ˈæspərət/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

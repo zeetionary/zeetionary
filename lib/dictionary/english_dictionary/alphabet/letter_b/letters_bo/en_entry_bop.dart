@@ -147,90 +147,31 @@ class EnglishEntrybop extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) سەما لەگەڵ میوزیکی پۆپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Fancy a bop?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزت بە سەمایەکە لەگەڵ میوزیکی پۆپ؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbops1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbops1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Fancy a bop?",
+                            kurdishText: "حەزت بە سەمایەکە لەگەڵ میوزیکی پۆپ؟",
+                            onPressedBritish: () => speakbops1("en-GB"),
+                            onPressedAmerican: () => speakbops1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) سەماکردن لەگەڵ میوزیکی پۆپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were all bopping to the music."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموویان سەمایان دەکرد لەگەڵ میوزیکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbops2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbops2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They were all bopping to the music.",
+                            kurdishText:
+                                "ھەموویان سەمایان دەکرد لەگەڵ میوزیکەکە.",
+                            onPressedBritish: () => speakbops2("en-GB"),
+                            onPressedAmerican: () => speakbops2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) لێدان لە کەسێک بەھێواشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I accidentally bopped her on the head."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە ڕێکەوت کێشام بە سەریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbops3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbops3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I accidentally bopped her on the head.",
+                            kurdishText: "بە ڕێکەوت کێشام بە سەریدا.",
+                            onPressedBritish: () => speakbops3("en-GB"),
+                            onPressedAmerican: () => speakbops3("en-US"),
                           ),
                         ],
                       ),

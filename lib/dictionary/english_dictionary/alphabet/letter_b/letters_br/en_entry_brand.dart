@@ -252,292 +252,99 @@ class EnglishEntrybrand extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) خامەتگوزارییەک یان بەرھەمێک کە لەژێر ناوێکی دیاریکراودا لەلایەن کۆمپانیایەکەوە پێشکەش دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You pay less for the supermarket's own brand."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارەی کەمتر دەدەیت بۆ بەرھەمەکانی کۆمپانیاکە خۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrands1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrands1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You pay less for the supermarket's own brand.",
+                            kurdishText:
+                                "پارەی کەمتر دەدەیت بۆ بەرھەمەکانی کۆمپانیاکە خۆی.",
+                            onPressedBritish: () => speakbrands1("en-GB"),
+                            onPressedAmerican: () => speakbrands1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Google is one of the world's most prominent brands."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گووگڵ یەکێکە لە بەرھەمە ناودارەکانی جیھان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrands2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrands2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Google is one of the world's most prominent brands.",
+                            kurdishText:
+                                "گووگڵ یەکێکە لە بەرھەمە ناودارەکانی جیھان.",
+                            onPressedBritish: () => speakbrands2("en-GB"),
+                            onPressedAmerican: () => speakbrands2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "How can we build our brand?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن دەتوانین ناوی بەرھەمەکەمان بناسێنین؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrands3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrands3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "How can we build our brand?",
+                            kurdishText:
+                                "چۆن دەتوانین ناوی بەرھەمەکەمان بناسێنین؟",
+                            onPressedBritish: () => speakbrands3("en-GB"),
+                            onPressedAmerican: () => speakbrands3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) جۆرێکی دیاریکراو لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They developed their own brand of communism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمیونیزمی جۆری خۆیان گەشەپێدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrands4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrands4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They developed their own brand of communism.",
+                            kurdishText: "کۆمیونیزمی جۆری خۆیان گەشەپێدا.",
+                            onPressedBritish: () => speakbrands4("en-GB"),
+                            onPressedAmerican: () => speakbrands4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has her own unique brand of humour."),
-                                    ExampleSentenceKurdish(
-                                        text: "جۆری خۆی بۆ گاڵتەوگەپ ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrands5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrands5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has her own unique brand of humour.",
+                            kurdishText: "جۆری خۆی بۆ گاڵتەوگەپ ھەیە.",
+                            onPressedBritish: () => speakbrands5("en-GB"),
+                            onPressedAmerican: () => speakbrands5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) نیشانەیەک کە داخ دەکرێت لەسەر پێستی ئاژەڵیک بۆ پیشاندانی ئەوەی کێ خاوەنداری دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The brand was still visible on the animal's hide."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیشانەکە ھێشتا دیار بوو لەسەر پێستی ئاژەڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrands6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrands6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The brand was still visible on the animal's hide.",
+                            kurdishText:
+                                "نیشانەکە ھێشتا دیار بوو لەسەر پێستی ئاژەڵەکە.",
+                            onPressedBritish: () => speakbrands6("en-GB"),
+                            onPressedAmerican: () => speakbrands6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) لکاندنی ناوێک، ناسنامەیەک، یان وێنایەک بە شتێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The website was not doing a very good job of branding the company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێبسایتەکە سەرکەوتوو نەبوو لە ناساندنی ناوی کۆمپانیاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrands7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrands7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The website was not doing a very good job of branding the company.",
+                            kurdishText:
+                                "وێبسایتەکە سەرکەوتوو نەبوو لە ناساندنی ناوی کۆمپانیاکە.",
+                            onPressedBritish: () => speakbrands7("en-GB"),
+                            onPressedAmerican: () => speakbrands7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their products are branded as organic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرھەمەکانیان وەک ئەندامی ناوزەد دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrands8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrands8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their products are branded as organic.",
+                            kurdishText:
+                                "بەرھەمەکانیان وەک ئەندامی ناوزەد دەکرێن.",
+                            onPressedBritish: () => speakbrands8("en-GB"),
+                            onPressedAmerican: () => speakbrands8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) ناوھێنانی کەسێک/شتێک بە خراپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were branded as liars and cheats."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک درۆزن و ساختەچی ناوزەدکران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrands9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrands9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were branded as liars and cheats.",
+                            kurdishText: "وەک درۆزن و ساختەچی ناوزەدکران.",
+                            onPressedBritish: () => speakbrands9("en-GB"),
+                            onPressedAmerican: () => speakbrands9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The newspapers branded her a hypocrite."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژنامەکان وەک دووڕوو ناوزەدیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrands10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrands10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The newspapers branded her a hypocrite.",
+                            kurdishText: "ڕۆژنامەکان وەک دووڕوو ناوزەدیان کرد.",
+                            onPressedBritish: () => speakbrands10("en-GB"),
+                            onPressedAmerican: () => speakbrands10("en-US"),
                           ),
                         ],
                       ),

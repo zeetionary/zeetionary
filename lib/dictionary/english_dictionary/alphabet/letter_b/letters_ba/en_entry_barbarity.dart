@@ -157,34 +157,15 @@ class EnglishEntrybarbarity extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕەفتاری دڕندانە کە بەئەنقەست زۆر ئازاربەخشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The barbarity of the old regime was eventually exposed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڕندەیی ڕژێمی پێشوو لەکۆتاییدا ئاشکرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarbaritys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarbaritys1(// REPLACE: barbarity
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The barbarity of the old regime was eventually exposed.",
+                            kurdishText:
+                                "دڕندەیی ڕژێمی پێشوو لەکۆتاییدا ئاشکرابوو.",
+                            onPressedBritish: () => speakbarbaritys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarbaritys1(// REPLACE: barbarity
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

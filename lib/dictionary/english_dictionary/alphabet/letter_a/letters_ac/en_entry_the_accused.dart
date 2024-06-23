@@ -114,62 +114,21 @@ class EnglishEntrytheaccused extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە لە دادگا گومانلێکراوە بە تاوانێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The accused was found innocent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گومانلێکراو بە بێتاوان ناسێندرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakTh1547("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakTh1547("en-US"), // find Dopsum1
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The accused was found innocent.",
+                            kurdishText: "گومانلێکراو بە بێتاوان ناسێندرا.",
+                            onPressedBritish: () => speakTh1547("en-GB"),
+                            onPressedAmerican: () =>
+                                speakTh1547("en-US"), // find Dopsum1
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All the accused have pleaded guilty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو گومانلێکراوان دانیان بە تاوانەکەدا نا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakT21536("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakT21536("en-US"), // find Dopsum1
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "All the accused have pleaded guilty.",
+                            kurdishText:
+                                "ھەموو گومانلێکراوان دانیان بە تاوانەکەدا نا.",
+                            onPressedBritish: () => speakT21536("en-GB"),
+                            onPressedAmerican: () =>
+                                speakT21536("en-US"), // find Dopsum1
                           ),
                         ],
                       ),

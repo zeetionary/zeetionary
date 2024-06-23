@@ -152,34 +152,15 @@ class EnglishEntrybanns extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ڕاگەیاندنی فەرمی کڵێسا کە دوو کەس ھاوسەرگیری دەکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The banns were published in their parish church."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاگەیاندنی ھاوسەرگیرییەکە بڵاوکرایەوە لە کڵێسای ناوچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbannss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbannss1(// REPLACE: banns
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The banns were published in their parish church.",
+                            kurdishText:
+                                "ڕاگەیاندنی ھاوسەرگیرییەکە بڵاوکرایەوە لە کڵێسای ناوچەکە.",
+                            onPressedBritish: () => speakbannss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbannss1(// REPLACE: banns
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

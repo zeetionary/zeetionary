@@ -151,93 +151,36 @@ class EnglishEntrybogey extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شتێک کە دەبێتە ھۆی ترس"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The looming deadline was a constant bogey for the student."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوامۆڵەتە نزیکبووەکە دێوەزمەیەکی بەردەوام بوو بەسەر سەری خوێندکارەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbogeys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbogeys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The looming deadline was a constant bogey for the student.",
+                            kurdishText:
+                                "دوامۆڵەتە نزیکبووەکە دێوەزمەیەکی بەردەوام بوو بەسەر سەری خوێندکارەکەوە.",
+                            onPressedBritish: () => speakbogeys1("en-GB"),
+                            onPressedAmerican: () => speakbogeys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پارچە چڵمێکی وشکبوو لە لووتدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The child picked a bogey from his nose."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکە پارچە چڵمێکی وشکی لە لووتی دەرھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbogeys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbogeys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The child picked a bogey from his nose.",
+                            kurdishText:
+                                "منداڵەکە پارچە چڵمێکی وشکی لە لووتی دەرھێنا.",
+                            onPressedBritish: () => speakbogeys2("en-GB"),
+                            onPressedAmerican: () => speakbogeys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) دێو، دێوەزمە؛ بوونەوەرێکی خەیاڵی کە بەکاردێت بۆ ترساندنی منداڵان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children believed in the friendly bogey that lived under the bed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان باوەڕیان ھەبوو بە دێوەزمە دۆستەکەی کە لەژێر جێ‌خەوەکە دەژیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbogeys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbogeys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children believed in the friendly bogey that lived under the bed.",
+                            kurdishText:
+                                "منداڵەکان باوەڕیان ھەبوو بە دێوەزمە دۆستەکەی کە لەژێر جێ‌خەوەکە دەژیا.",
+                            onPressedBritish: () => speakbogeys3("en-GB"),
+                            onPressedAmerican: () => speakbogeys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(

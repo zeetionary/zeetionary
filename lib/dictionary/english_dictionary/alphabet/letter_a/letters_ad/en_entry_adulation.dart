@@ -112,34 +112,15 @@ class EnglishEntryadulation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پیاھەڵدانی زیاد لە پێویست" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The band enjoy the adulation of their fans wherever they go."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باندەکە بۆ ھەرکوێ بچن خۆشی لە پیاھەڵدانی ھەوادارانیان دەبینن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadu2534("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadu2534(
-                                        // REPLACE: adulation /ˌædʒəˈleɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The band enjoy the adulation of their fans wherever they go.",
+                            kurdishText:
+                                "باندەکە بۆ ھەرکوێ بچن خۆشی لە پیاھەڵدانی ھەوادارانیان دەبینن.",
+                            onPressedBritish: () => speakadu2534("en-GB"),
+                            onPressedAmerican: () => speakadu2534(
+                                // REPLACE: adulation /ˌædʒəˈleɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

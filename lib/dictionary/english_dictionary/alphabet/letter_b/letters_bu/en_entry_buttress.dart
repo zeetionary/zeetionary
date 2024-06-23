@@ -194,63 +194,25 @@ class EnglishEntrybuttress extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پێکھاتەیەک کە لە بەرد یان خشت درووستکراوە بۆ ڕاگرتنی دیوارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was necessary to strengthen the building with large external buttresses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرنگ بوو بیناکە بەھێز بکرێت بە پاڵپشتی گەورەی دەرەکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "buttress", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuttresss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuttresss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was necessary to strengthen the building with large external buttresses.",
+                            kurdishText:
+                                "گرنگ بوو بیناکە بەھێز بکرێت بە پاڵپشتی گەورەی دەرەکی.", // buttress", follow LX strictly
+                            onPressedBritish: () => speakbuttresss1("en-GB"),
+                            onPressedAmerican: () => speakbuttresss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) پشتگیری یان وزە دان بە کەسێک/شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sharp increase in crime seems to buttress the argument for more police officers on the street."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەی زۆری زیادبوونی تاوان پشتگیری دەدات بەو بۆچوونەی کە دەبێت پۆلیسی زیاتر لەسەر شەقام بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuttresss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuttresss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sharp increase in crime seems to buttress the argument for more police officers on the street.",
+                            kurdishText:
+                                "ڕێژەی زۆری زیادبوونی تاوان پشتگیری دەدات بەو بۆچوونەی کە دەبێت پۆلیسی زیاتر لەسەر شەقام بن.",
+                            onPressedBritish: () => speakbuttresss2("en-GB"),
+                            onPressedAmerican: () => speakbuttresss2("en-US"),
                           ),
                         ],
                       ),

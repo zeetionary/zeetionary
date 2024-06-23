@@ -116,60 +116,22 @@ class EnglishEntryaccusation extends StatelessWidget {
                               text:
                                   "١. (ناو) کاتێک کەسێک بە کردنی کارێکی ھەڵە تۆمەتبار دەکەیت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a hint of accusation in her voice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاماژەیەکی گومان لێ‌کردن ھەبوو لە دەنگیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka125698("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka125698("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a hint of accusation in her voice.",
+                            kurdishText:
+                                "ئاماژەیەکی گومان لێ‌کردن ھەبوو لە دەنگیدا.",
+                            onPressedBritish: () => speaka125698("en-GB"),
+                            onPressedAmerican: () => speaka125698("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At the time, no one believed her accusations against him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتی خۆی ھیچ کەس باوەڕی بە تۆمەتەکانی دژ بە ئەو نەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka147296("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka147296("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At the time, no one believed her accusations against him.",
+                            kurdishText:
+                                "کاتی خۆی ھیچ کەس باوەڕی بە تۆمەتەکانی دژ بە ئەو نەکرد.",
+                            onPressedBritish: () => speaka147296("en-GB"),
+                            onPressedAmerican: () => speaka147296("en-US"),
                           ),
                         ],
                       ),

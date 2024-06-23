@@ -111,34 +111,15 @@ class EnglishEntryadjacent extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) نزیک لە شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our farm land was adjacent to the river."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەوییە جوتیارییەکەمان نزیک بوو لە ڕووبارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadj255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadj255(
-                                        // REPLACE: adjacent /əˈdʒeɪsnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our farm land was adjacent to the river.",
+                            kurdishText:
+                                "زەوییە جوتیارییەکەمان نزیک بوو لە ڕووبارەکە.",
+                            onPressedBritish: () => speakadj255("en-GB"),
+                            onPressedAmerican: () => speakadj255(
+                                // REPLACE: adjacent /əˈdʒeɪsnt/
+                                "en-US"),
                           ),
                         ],
                       ),

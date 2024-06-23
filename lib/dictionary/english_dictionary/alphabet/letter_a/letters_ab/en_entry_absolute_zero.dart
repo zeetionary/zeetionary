@@ -101,32 +101,13 @@ class EnglishEntryabsolutezero extends StatelessWidget {
                               text:
                                   "١. (ناو) ئەو پلەی ساردییەی کە باوەڕ وایە نزمترینە بتوانرێت بەدەستبھێندرێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We repeat the process until we reache the value of absolute zero."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆسەکە دووبارە دەکەینەوە تا دەگەین بە سفری ڕەھا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakabs2531("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakabs2531("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We repeat the process until we reache the value of absolute zero.",
+                            kurdishText:
+                                "پڕۆسەکە دووبارە دەکەینەوە تا دەگەین بە سفری ڕەھا.",
+                            onPressedBritish: () => speakabs2531("en-GB"),
+                            onPressedAmerican: () => speakabs2531("en-US"),
                           ),
                         ],
                       ),

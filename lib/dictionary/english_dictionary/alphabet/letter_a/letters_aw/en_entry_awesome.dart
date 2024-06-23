@@ -153,97 +153,38 @@ class EnglishEntryawesome extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) زۆر سەرسوڕھێنەر، یان زۆر قورس"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As night fell, the volcano presented an awesome sight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە شەو دایدا، گڕکانەکە فیمەنێکی ئەفسووناوی پۆشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawesomes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawesomes1(// REPLACE: awesome
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As night fell, the volcano presented an awesome sight.",
+                            kurdishText:
+                                "کە شەو دایدا، گڕکانەکە فیمەنێکی ئەفسووناوی پۆشی.",
+                            onPressedBritish: () => speakawesomes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawesomes1(// REPLACE: awesome
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They had an awesome task ahead."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەرکێکی قورسیان لەپێشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawesomes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawesomes2(// REPLACE: awesome
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They had an awesome task ahead.",
+                            kurdishText: "ئەرکێکی قورسیان لەپێشە.",
+                            onPressedBritish: () => speakawesomes2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawesomes2(// REPLACE: awesome
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) زۆرخۆش و چێژبەخش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hey, come look at this! It's awesome!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێی، وەرە ئەمە ببینە! زۆرخۆشە!."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawesomes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawesomes3(// REPLACE: awesome
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Hey, come look at this! It's awesome!",
+                            kurdishText: "ھێی، وەرە ئەمە ببینە! زۆرخۆشە!.",
+                            onPressedBritish: () => speakawesomes3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawesomes3(// REPLACE: awesome
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -143,32 +143,13 @@ class EnglishEntrybreakin extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چوونە ناو بینایەک بەزۆر بۆ دزی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Police were called to three break-ins in the same area last night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس بانگکران بۆ سێ ڕووداوی دزەکردن لە ھەمان ناوچە شەوی ڕابردوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakins1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakins1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Police were called to three break-ins in the same area last night.",
+                            kurdishText:
+                                "پۆلیس بانگکران بۆ سێ ڕووداوی دزەکردن لە ھەمان ناوچە شەوی ڕابردوو.",
+                            onPressedBritish: () => speakbreakins1("en-GB"),
+                            onPressedAmerican: () => speakbreakins1("en-US"),
                           ),
                         ],
                       ),

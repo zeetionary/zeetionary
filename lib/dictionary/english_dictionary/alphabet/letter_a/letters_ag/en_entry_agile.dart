@@ -114,97 +114,39 @@ class EnglishEntryagile extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی توانای خێرا و ئاسان جوڵان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Monkeys are very agile climbers."),
-                                    ExampleSentenceKurdish(
-                                        text: "مەیموون پیاھەڵگژی گورجە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagile15621("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagile15621(
-                                        // REPLACE: agile /ˈædʒl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Monkeys are very agile climbers.",
+                            kurdishText: "مەیموون پیاھەڵگژی گورجە.",
+                            onPressedBritish: () => speakagile15621("en-GB"),
+                            onPressedAmerican: () => speakagile15621(
+                                // REPLACE: agile /ˈædʒl/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ھەبوونی توانای بیرکردنەوە بەخێرایی و زیرەکانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For a man of 80, he has a remarkably agile mind."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەگەڵ ئەوەی ٨٠ ساڵە، ھێشتا بیر و ھۆشێکی زرنگی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagi1778("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakagi1778(// REPLACE: agile /ˈædʒl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For a man of 80, he has a remarkably agile mind.",
+                            kurdishText:
+                                "لەگەڵ ئەوەی ٨٠ ساڵە، ھێشتا بیر و ھۆشێکی زرنگی ھەیە.",
+                            onPressedBritish: () => speakagi1778("en-GB"),
+                            onPressedAmerican: () =>
+                                speakagi1778(// REPLACE: agile /ˈædʒl/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) جۆرێکی کارکردن کە تێیدا کارێک بەش بەش لەگەڵ ناوبڕ لانێوانیاندا بۆ ھەڵسەنگاندن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They used agile methods to complete difficult tasks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆمپانیاکە کارەکانیان بەش بەش دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagil56663("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakagil56663(// REPLACE: agile /ˈædʒl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They used agile methods to complete difficult tasks.",
+                            kurdishText:
+                                "لە کۆمپانیاکە کارەکانیان بەش بەش دەکرد.",
+                            onPressedBritish: () => speakagil56663("en-GB"),
+                            onPressedAmerican: () =>
+                                speakagil56663(// REPLACE: agile /ˈædʒl/
+                                    "en-US"),
                           ),
                         ],
                       ),

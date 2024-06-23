@@ -149,32 +149,13 @@ class EnglishEntrybiodata extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) زانیاری لەسەر کەسێک و ئەوەی کردوویانە لە ژیاندا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The website displayed the biodata of all team members, showcasing their individual roles and contributions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێبسایتەکە کورتە ژیانی ھەموو ئاندامانی تیمەکەی تێدابوو، لەگەڵ پیشاندانی ئەرکیان و کارەکانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiodatas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiodatas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The website displayed the biodata of all team members, showcasing their individual roles and contributions.",
+                            kurdishText:
+                                "وێبسایتەکە کورتە ژیانی ھەموو ئاندامانی تیمەکەی تێدابوو، لەگەڵ پیشاندانی ئەرکیان و کارەکانیان.",
+                            onPressedBritish: () => speakbiodatas1("en-GB"),
+                            onPressedAmerican: () => speakbiodatas1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

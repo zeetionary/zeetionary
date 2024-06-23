@@ -163,191 +163,75 @@ class EnglishEntryarmy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ژمارەیەکی زۆر سەرباز کە ڕاھێنراون بۆ شەڕکردن لەسەر زەوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two opposing armies faced each other across the battlefield."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو سوپاکە ڕووبەڕووی یەکدی بوونەوە لە مەیدانی شەڕدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmy747("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarmy747(// REPLACE: army /ˈɑːrmi/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two opposing armies faced each other across the battlefield.",
+                            kurdishText:
+                                "دوو سوپاکە ڕووبەڕووی یەکدی بوونەوە لە مەیدانی شەڕدا.",
+                            onPressedBritish: () => speakarmy747("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarmy747(// REPLACE: army /ˈɑːrmi/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A huge army marched on the city."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوپایەکی گەورە دای بەسەر شارەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmy749("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmy749(
-                                        // REPLACE: army /ˈɑːrmi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A huge army marched on the city.",
+                            kurdishText: "سوپایەکی گەورە دای بەسەر شارەکەدا.",
+                            onPressedBritish: () => speakarmy749("en-GB"),
+                            onPressedAmerican: () => speakarmy749(
+                                // REPLACE: army /ˈɑːrmi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) سوپای زەمینی وڵاتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Her sister is in the army."),
-                                    ExampleSentenceKurdish(
-                                        text: "خوشکەکەی لە سوپادایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmy751("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarmy751(// REPLACE: army /ˈɑːrmi/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her sister is in the army.",
+                            kurdishText: "خوشکەکەی لە سوپادایە.",
+                            onPressedBritish: () => speakarmy751("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarmy751(// REPLACE: army /ˈɑːrmi/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            " He served in the French army during the First World War."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە سوپای فەرەنسادا خزمەتی کرد لە جەنگی یەکەمی جیھانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmy752("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmy752(
-                                        // REPLACE: army /ˈɑːrmi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                " He served in the French army during the First World War.",
+                            kurdishText:
+                                "لە سوپای فەرەنسادا خزمەتی کرد لە جەنگی یەکەمی جیھانی.",
+                            onPressedBritish: () => speakarmy752("en-GB"),
+                            onPressedAmerican: () => speakarmy752(
+                                // REPLACE: army /ˈɑːrmi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ژمارەیەکی زۆر لە خەڵک یان شت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "NASA maintains a small army of engineers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناسا ژمارەیەکی زۆر لە ئەندازیار ڕادەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmy800("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarmy800(// REPLACE: army /ˈɑːrmi/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "NASA maintains a small army of engineers.",
+                            kurdishText:
+                                "ناسا ژمارەیەکی زۆر لە ئەندازیار ڕادەگرێت.",
+                            onPressedBritish: () => speakarmy800("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarmy800(// REPLACE: army /ˈɑːrmi/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An army of ants marched across the path."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوپایەک لە مێروولە بە ڕێگاکەدا تێپەڕین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmy801("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmy801(
-                                        // REPLACE: army /ˈɑːrmi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An army of ants marched across the path.",
+                            kurdishText:
+                                "سوپایەک لە مێروولە بە ڕێگاکەدا تێپەڕین.",
+                            onPressedBritish: () => speakarmy801("en-GB"),
+                            onPressedAmerican: () => speakarmy801(
+                                // REPLACE: army /ˈɑːrmi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

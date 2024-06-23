@@ -157,130 +157,51 @@ class EnglishEntryangry extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) تووڕە؛ بوونی ھەستی توند دەربارەی شتێک کە ڕقت لێیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her behaviour really made me angry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەفتارەکانی بەڕاستی تووڕەیان کردم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangry4102("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangry4102(
-                                        // REPLACE: angry /ˈæŋɡri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her behaviour really made me angry.",
+                            kurdishText: "ڕەفتارەکانی بەڕاستی تووڕەیان کردم.",
+                            onPressedBritish: () => speakangry4102("en-GB"),
+                            onPressedAmerican: () => speakangry4102(
+                                // REPLACE: angry /ˈæŋɡri/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Thousands of angry demonstrators filled the square."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەزاران خۆپیشاندەری تووڕە چوونە گۆڕەپانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangry0158("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangry0158(
-                                        // REPLACE: angry /ˈæŋɡri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Thousands of angry demonstrators filled the square.",
+                            kurdishText:
+                                "ھەزاران خۆپیشاندەری تووڕە چوونە گۆڕەپانەکە.",
+                            onPressedBritish: () => speakangry0158("en-GB"),
+                            onPressedAmerican: () => speakangry0158(
+                                // REPLACE: angry /ˈæŋɡri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) برینێک کە سووربووەتەوە و بەئازارە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "On her leg was an angry sore."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاوساوییەکی بەئازار لەسەر لاقی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangry4952("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangry4952(
-                                        // REPLACE: angry /ˈæŋɡri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "On her leg was an angry sore.",
+                            kurdishText: "ئاوساوییەکی بەئازار لەسەر لاقی بوو.",
+                            onPressedBritish: () => speakangry4952("en-GB"),
+                            onPressedAmerican: () => speakangry4952(
+                                // REPLACE: angry /ˈæŋɡri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) تاریک و شەپۆلاوی و بەزریان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The angry sea with its terrible waves crashed against the rocky shore."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەریا بەزریانەکە بە شەپۆلە ترسناکەکانییەوە کێشای بە کەناراوە بەردەڵانییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangry4506("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangry4506(
-                                        // REPLACE: angry /ˈæŋɡri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The angry sea with its terrible waves crashed against the rocky shore.",
+                            kurdishText:
+                                "دەریا بەزریانەکە بە شەپۆلە ترسناکەکانییەوە کێشای بە کەناراوە بەردەڵانییەکە.",
+                            onPressedBritish: () => speakangry4506("en-GB"),
+                            onPressedAmerican: () => speakangry4506(
+                                // REPLACE: angry /ˈæŋɡri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

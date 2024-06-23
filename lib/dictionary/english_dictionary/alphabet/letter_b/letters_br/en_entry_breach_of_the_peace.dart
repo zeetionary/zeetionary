@@ -146,64 +146,26 @@ class EnglishEntrybreachofthepeace extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) تێکدان یان شێواندنی ئاسایشی گشتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This, she said, constituted a serious breach of the peace."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوتی ئەمە یەکسانە بە شێواندنێکی خراپی ئاسایشی گشتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreachofthepeaces1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreachofthepeaces1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This, she said, constituted a serious breach of the peace.",
+                            kurdishText:
+                                "گوتی ئەمە یەکسانە بە شێواندنێکی خراپی ئاسایشی گشتی.",
+                            onPressedBritish: () =>
+                                speakbreachofthepeaces1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbreachofthepeaces1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was arrested to prevent a further breach of the peace."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستگیرکرا بۆ ڕێگری زیاتر لە شێواندنی ئاسایشی گشتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreachofthepeaces2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreachofthepeaces2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was arrested to prevent a further breach of the peace.",
+                            kurdishText:
+                                "دەستگیرکرا بۆ ڕێگری زیاتر لە شێواندنی ئاسایشی گشتی.",
+                            onPressedBritish: () =>
+                                speakbreachofthepeaces2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbreachofthepeaces2("en-US"),
                           ),
                         ],
                       ),

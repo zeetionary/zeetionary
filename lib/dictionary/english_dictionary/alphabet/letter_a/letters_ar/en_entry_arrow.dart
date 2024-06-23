@@ -164,96 +164,39 @@ class EnglishEntryarrow extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) تیر کە لە کەوانێکە دەھاوێژرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She aimed carefully at the tree but the arrow missed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە وریاییەوە ئامانجی لە دارەکە گرتەوە بەڵام تیرەکە لێی‌نەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrow745("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarrow745(// REPLACE: arrow /ˈærəʊ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She aimed carefully at the tree but the arrow missed.",
+                            kurdishText:
+                                "بە وریاییەوە ئامانجی لە دارەکە گرتەوە بەڵام تیرەکە لێی‌نەدا.",
+                            onPressedBritish: () => speakarrow745("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarrow745(// REPLACE: arrow /ˈærəʊ/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The people used bows and arrows for hunting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی تیر و کەوانیان بەکاردەھێنا بۆ ڕاوکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrow746("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarrow746(// REPLACE: arrow /ˈærəʊ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The people used bows and arrows for hunting.",
+                            kurdishText:
+                                "خەڵکی تیر و کەوانیان بەکاردەھێنا بۆ ڕاوکردن.",
+                            onPressedBritish: () => speakarrow746("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarrow746(// REPLACE: arrow /ˈærəʊ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھێمایەک کە وەک تیرێک (←) وایە بۆ پیشاندانی ئاراستە بەکاردێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Follow the arrows."),
-                                    ExampleSentenceKurdish(
-                                        text: "پابەندی ھێماکان بە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarrow750("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarrow750(// REPLACE: arrow /ˈærəʊ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Follow the arrows.",
+                            kurdishText: "پابەندی ھێماکان بە.",
+                            onPressedBritish: () => speakarrow750("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarrow750(// REPLACE: arrow /ˈærəʊ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

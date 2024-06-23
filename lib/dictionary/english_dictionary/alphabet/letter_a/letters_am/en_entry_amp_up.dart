@@ -153,98 +153,41 @@ class EnglishEntryampup extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) زیادکردنی دەنگی میوزیک کە لە بڵیندگۆیەکەوە لێدەدرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He knew exactly when to amp the music up."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرباش دەیزانی کەی دەنگی میوزیکەکە زیادبکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakampup4414("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakampup4414(
-                                        // REPLACE: amp up /æmp ʌp/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He knew exactly when to amp the music up.",
+                            kurdishText:
+                                "زۆرباش دەیزانی کەی دەنگی میوزیکەکە زیادبکات.",
+                            onPressedBritish: () => speakampup4414("en-GB"),
+                            onPressedAmerican: () => speakampup4414(
+                                // REPLACE: amp up /æmp ʌp/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کاری لێکدراو) زیادکردنی ڕێژە یان بڕی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We're always looking for ways to amp up productivity in the workplace."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە ھەوڵ دەدەین ڕێگا بدۆزینەوە بۆ زیادکردنی بەرھەمھێنان لە شوێن‌کارەکەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakampup5560("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakampup5560(
-                                        // REPLACE: amp up /æmp ʌp/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We're always looking for ways to amp up productivity in the workplace.",
+                            kurdishText:
+                                "ھەمیشە ھەوڵ دەدەین ڕێگا بدۆزینەوە بۆ زیادکردنی بەرھەمھێنان لە شوێن‌کارەکەمان.",
+                            onPressedBritish: () => speakampup5560("en-GB"),
+                            onPressedAmerican: () => speakampup5560(
+                                // REPLACE: amp up /æmp ʌp/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کاری لێکدراو) پێدانی جۆش‌وخرۆش بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After amping the crowd up with an impressive light show, the band took to the stage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای ئەوەی جەماوەرەکەیان خرۆشاند بە نمایشی لایتەکان، باندەکە چوونە سەر ستەیج"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakampup44855("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakampup44855(
-                                        // REPLACE: amp up /æmp ʌp/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After amping the crowd up with an impressive light show, the band took to the stage.",
+                            kurdishText:
+                                "لە دوای ئەوەی جەماوەرەکەیان خرۆشاند بە نمایشی لایتەکان، باندەکە چوونە سەر ستەیج",
+                            onPressedBritish: () => speakampup44855("en-GB"),
+                            onPressedAmerican: () => speakampup44855(
+                                // REPLACE: amp up /æmp ʌp/
+                                "en-US"),
                           ),
                         ],
                       ),

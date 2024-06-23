@@ -150,67 +150,29 @@ class EnglishEntrybiochemistry extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) لێکۆڵینەوەی زانستی لە پێکھاتە و ڕەفتاری کیمیایی زیندەوەران"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Researchers are studying the biochemistry of cancer cells to identify potential targets for novel therapies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژەران لە بایۆکیمیای خانەکانی شێرپەنجە دەکۆڵنەوە بۆ دۆزینەوەی ئەو خانانەی کە دەکرێت ئامانج بن لە دۆزینەوەی چارەسەری تازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbiochemistrys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbiochemistrys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Researchers are studying the biochemistry of cancer cells to identify potential targets for novel therapies.",
+                            kurdishText:
+                                "توێژەران لە بایۆکیمیای خانەکانی شێرپەنجە دەکۆڵنەوە بۆ دۆزینەوەی ئەو خانانەی کە دەکرێت ئامانج بن لە دۆزینەوەی چارەسەری تازە.",
+                            onPressedBritish: () =>
+                                speakbiochemistrys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbiochemistrys1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پێکھاتە و ڕەفتاری کیمیایی زیندەوەران"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Human's biochemistry is almost identical to that of a cat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بایۆکیمیای مرۆڤ تا ڕادەیەک لێکچووە لەگەڵ ھی پشیلە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbiochemistrys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbiochemistrys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Human's biochemistry is almost identical to that of a cat.",
+                            kurdishText:
+                                "بایۆکیمیای مرۆڤ تا ڕادەیەک لێکچووە لەگەڵ ھی پشیلە.",
+                            onPressedBritish: () =>
+                                speakbiochemistrys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbiochemistrys2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

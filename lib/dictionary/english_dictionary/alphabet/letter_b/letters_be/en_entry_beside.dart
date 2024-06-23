@@ -149,93 +149,35 @@ class EnglishEntrybeside extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ئامراز) لە نزیک یان لە شانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He sat beside her all night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی شەوەکە لە تەنیشتی دانیشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbesides1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbesides1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He sat beside her all night.",
+                            kurdishText: "تەواوی شەوەکە لە تەنیشتی دانیشت.",
+                            onPressedBritish: () => speakbesides1("en-GB"),
+                            onPressedAmerican: () => speakbesides1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ئامراز) بەراورد بە شتێک یان کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My painting looks childish beside yours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تابلۆکەم منداڵانە دیارە بەراورد بەوەی تۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbesides2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbesides2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My painting looks childish beside yours.",
+                            kurdishText:
+                                "تابلۆکەم منداڵانە دیارە بەراورد بەوەی تۆ.",
+                            onPressedBritish: () => speakbesides2("en-GB"),
+                            onPressedAmerican: () => speakbesides2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ئامراز) بەراورد بە شتێک یان کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My painting looks childish beside yours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تابلۆکەم منداڵانە دیارە بەراورد بەوەی تۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbesides2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbesides2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My painting looks childish beside yours.",
+                            kurdishText:
+                                "تابلۆکەم منداڵانە دیارە بەراورد بەوەی تۆ.",
+                            onPressedBritish: () => speakbesides2("en-GB"),
+                            onPressedAmerican: () => speakbesides2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

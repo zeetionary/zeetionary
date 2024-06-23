@@ -149,124 +149,47 @@ class EnglishEntryblame extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) لۆمەکردنی کەسێک بە شتێکی خراپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She doesn't blame anyone for her father's death."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لۆمەی کەس ناکات بۆ مەرگی باوکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblames1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblames1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She doesn't blame anyone for her father's death.",
+                            kurdishText: "لۆمەی کەس ناکات بۆ مەرگی باوکی.",
+                            onPressedBritish: () => speakblames1("en-GB"),
+                            onPressedAmerican: () => speakblames1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Why is he blaming others for his problems?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆچی لۆمەی کەسانی تر دەکات بۆ کێشەکانی؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblames2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblames2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Why is he blaming others for his problems?",
+                            kurdishText:
+                                "بۆچی لۆمەی کەسانی تر دەکات بۆ کێشەکانی؟",
+                            onPressedBritish: () => speakblames2("en-GB"),
+                            onPressedAmerican: () => speakblames2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەرپرسیاریەتی بۆ شتێکی بە خراپی یان ھەڵە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Why do I always get the blame for everything that goes wrong?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆچی ھەمیشە سەرزەنشت دەخرێتە سەر من بۆ ھەر شتێک کە ھەڵە ڕوودەدات؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblames3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblames3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Why do I always get the blame for everything that goes wrong?",
+                            kurdishText:
+                                "بۆچی ھەمیشە سەرزەنشت دەخرێتە سەر من بۆ ھەر شتێک کە ھەڵە ڕوودەدات؟",
+                            onPressedBritish: () => speakblames3("en-GB"),
+                            onPressedAmerican: () => speakblames3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government will have to take the blame for the riots."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت دەبێت بەرپرسیاریەتی ھەڵبگرێت بۆ ئاژاوەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblames4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblames4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government will have to take the blame for the riots.",
+                            kurdishText:
+                                "حکومەت دەبێت بەرپرسیاریەتی ھەڵبگرێت بۆ ئاژاوەکان.",
+                            onPressedBritish: () => speakblames4("en-GB"),
+                            onPressedAmerican: () => speakblames4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

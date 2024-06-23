@@ -146,92 +146,32 @@ class EnglishEntrybarge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەلەمێکی گەورە کە ڕووەکەی فلاتە و بەکاردێت بۆ ھەڵگرتنی کەلوپەل یان گەشتکردن لەسەری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The fuel was transported by barge."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوتەمەنییەکە بە بەلەمی بارھەڵگر گواسترایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The fuel was transported by barge.",
+                            kurdishText:
+                                "سوتەمەنییەکە بە بەلەمی بارھەڵگر گواسترایەوە.",
+                            onPressedBritish: () => speakbarges1("en-GB"),
+                            onPressedAmerican: () => speakbarges1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) چوونە شوێنێک بەتێپەڕبوون بەناو خەڵکی تردا بەزۆر و بەشێوەیەکی ناشرین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He barged past me to get to the bar."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەزۆر بەلامدا تێپەڕی بۆ ئەوەی بچێتە مەیخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarges2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He barged past me to get to the bar.",
+                            kurdishText:
+                                "بەزۆر بەلامدا تێپەڕی بۆ ئەوەی بچێتە مەیخانەکە.",
+                            onPressedBritish: () => speakbarges2("en-GB"),
+                            onPressedAmerican: () => speakbarges2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They barged their way through the crowds."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەزۆر بەناو خەڵکەکەدا تێپەڕبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarges3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarges3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They barged their way through the crowds.",
+                            kurdishText: "بەزۆر بەناو خەڵکەکەدا تێپەڕبوون.",
+                            onPressedBritish: () => speakbarges3("en-GB"),
+                            onPressedAmerican: () => speakbarges3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

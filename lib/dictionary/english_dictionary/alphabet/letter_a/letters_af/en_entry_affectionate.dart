@@ -114,33 +114,14 @@ class EnglishEntryaffectionate extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی خاسیەتی ھەست و سۆز پیشاندان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is very affectionate towards his children."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر بەسۆزە لەگەڵ منداڵەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffect25699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffect25699(
-                                        // REPLACE: affectionate /əˈfekʃənət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is very affectionate towards his children.",
+                            kurdishText: "زۆر بەسۆزە لەگەڵ منداڵەکانی.",
+                            onPressedBritish: () => speakaffect25699("en-GB"),
+                            onPressedAmerican: () => speakaffect25699(
+                                // REPLACE: affectionate /əˈfekʃənət/
+                                "en-US"),
                           ),
                         ],
                       ),

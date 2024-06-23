@@ -146,32 +146,13 @@ class EnglishEntrybrazier extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئاگردانێک کە بەکاردێت وەک گەرمکەرەوە یان بۆ خواردن درووستکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He stood warming his hands by the brazier."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەستابوو دەستی گەرم دەکردەوە لای ئاگردانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraziers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraziers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He stood warming his hands by the brazier.",
+                            kurdishText:
+                                "وەستابوو دەستی گەرم دەکردەوە لای ئاگردانەکە.",
+                            onPressedBritish: () => speakbraziers1("en-GB"),
+                            onPressedAmerican: () => speakbraziers1("en-US"),
                           ),
                         ],
                       ),

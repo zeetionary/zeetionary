@@ -114,66 +114,28 @@ class EnglishEntryadjustment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) گۆڕانکاریی بچووک بۆ چاکترکردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've made a few adjustments to the design."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک گۆڕانکاریی بچووکم کردووە بۆ باشترکردنی دیزاینەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadjus56911("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadjus56911(
-                                        // REPLACE: adjustment /əˈdʒʌstmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've made a few adjustments to the design.",
+                            kurdishText:
+                                "ھەندێک گۆڕانکاریی بچووکم کردووە بۆ باشترکردنی دیزاینەکە.",
+                            onPressedBritish: () => speakadjus56911("en-GB"),
+                            onPressedAmerican: () => speakadjus56911(
+                                // REPLACE: adjustment /əˈdʒʌstmənt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) گۆڕانکاری لە ڕەفتار یان بیرکردنەوەی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The process of adjustment to life in another country can be very difficult."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆسەی ڕاھاتن بە ژیانکردن لە وڵاتێکی تر ئەکرێت زۆر قوورس بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadjust5568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadjust5568(
-                                        // REPLACE: adjustment /əˈdʒʌstmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The process of adjustment to life in another country can be very difficult.",
+                            kurdishText:
+                                "پڕۆسەی ڕاھاتن بە ژیانکردن لە وڵاتێکی تر ئەکرێت زۆر قوورس بێت.",
+                            onPressedBritish: () => speakadjust5568("en-GB"),
+                            onPressedAmerican: () => speakadjust5568(
+                                // REPLACE: adjustment /əˈdʒʌstmənt/
+                                "en-US"),
                           ),
                         ],
                       ),

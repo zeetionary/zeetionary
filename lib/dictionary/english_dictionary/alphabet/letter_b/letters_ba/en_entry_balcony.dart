@@ -156,66 +156,26 @@ class EnglishEntrybalcony extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شوێنێک کە لە بینایەکدا کە لە دەرەوەی نھۆمی سەرەوەوە درووست دەکرێت و سیاجی پارێزەری ھەیە بۆ ڕێگری لە کەوتنەخوارەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We had drinks on the hotel balcony."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە بەرھەیوانەکە خواردمانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalconys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalconys1(// REPLACE: balcony
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We had drinks on the hotel balcony.",
+                            kurdishText: "لە بەرھەیوانەکە خواردمانەوە.",
+                            onPressedBritish: () => speakbalconys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalconys1(// REPLACE: balcony
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بەشی سەرەوەی کوورسییەکانی سینەمایەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our seats are in row F of the balcony."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێگاکانمان لە ڕیزی Fی لۆژی سەرەوەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalconys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalconys2(// REPLACE: balcony
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our seats are in row F of the balcony.",
+                            kurdishText: "جێگاکانمان لە ڕیزی Fی لۆژی سەرەوەیە.",
+                            onPressedBritish: () => speakbalconys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalconys2(// REPLACE: balcony
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

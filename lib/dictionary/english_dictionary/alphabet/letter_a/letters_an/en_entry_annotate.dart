@@ -152,34 +152,14 @@ class EnglishEntryannotate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) تێبینی‌نووسین لەسەر لەسەر کتێبێک یان نووسراوێک """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The text was annotated with her own comments."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە ڕاڤەکرابوو بە کۆمێنتی خۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannotate158("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannotate158(
-                                        // REPLACE: annotate /ˈænəteɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The text was annotated with her own comments.",
+                            kurdishText: "کتێبەکە ڕاڤەکرابوو بە کۆمێنتی خۆی.",
+                            onPressedBritish: () => speakannotate158("en-GB"),
+                            onPressedAmerican: () => speakannotate158(
+                                // REPLACE: annotate /ˈænəteɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

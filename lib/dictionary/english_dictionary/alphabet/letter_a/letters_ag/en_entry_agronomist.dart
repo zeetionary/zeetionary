@@ -115,34 +115,15 @@ class EnglishEntryagronomist extends StatelessWidget {
                               text:
                                   "١. (ناو) شارەزایەکی کە زانستی کە کاردەکات لەسەر پەیوەندی نێوان کشتوکاڵ و ژینگە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Agronomists were working on new ways to create healthier food."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەزایانی کشتوکاڵ کاریان لەسەر ڕێگای تازە دەکرد بۆ بەرھەمھێنانی خواردنی تەندرووستتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagronom35111("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagronom35111(
-                                        // REPLACE: agronomist /əˈɡrɑːnəmɪst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Agronomists were working on new ways to create healthier food.",
+                            kurdishText:
+                                "شارەزایانی کشتوکاڵ کاریان لەسەر ڕێگای تازە دەکرد بۆ بەرھەمھێنانی خواردنی تەندرووستتر.",
+                            onPressedBritish: () => speakagronom35111("en-GB"),
+                            onPressedAmerican: () => speakagronom35111(
+                                // REPLACE: agronomist /əˈɡrɑːnəmɪst/
+                                "en-US"),
                           ),
                         ],
                       ),

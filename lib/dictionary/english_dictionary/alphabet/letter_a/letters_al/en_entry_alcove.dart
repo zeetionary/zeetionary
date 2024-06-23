@@ -115,34 +115,15 @@ class EnglishEntryalcove extends StatelessWidget {
                               text:
                                   "١. (ناو) تاق؛ بەشێکی دیوارێک کە لە دواتر درووستکراوە وەک لە بەشەکانی تر"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bookcase fits neatly into the alcove."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێ‌کتێبەکە بە تەواوی لە تاقەکە جێیدەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalcove3477("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalcove3477(
-                                        // REPLACE: alcove /ˈælkəʊv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bookcase fits neatly into the alcove.",
+                            kurdishText:
+                                "جێ‌کتێبەکە بە تەواوی لە تاقەکە جێیدەبێتەوە.",
+                            onPressedBritish: () => speakalcove3477("en-GB"),
+                            onPressedAmerican: () => speakalcove3477(
+                                // REPLACE: alcove /ˈælkəʊv/
+                                "en-US"),
                           ),
                         ],
                       ),

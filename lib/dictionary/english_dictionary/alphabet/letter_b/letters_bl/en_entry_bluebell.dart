@@ -144,32 +144,13 @@ class EnglishEntrybluebell extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گوڵێک کە لە باخچەدا یان بە سرووشتی دەڕوێت و قەدێکی کورتی ھەیە و گوڵی بچووکی شین و سپی دەگرێت کە لە شێوەی زەنگدان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bluebell carpeted the forest floor in spring."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوڵە گەزیزە دارستانەکەی داپۆشیبوو لە بەھاردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbluebells1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbluebells1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bluebell carpeted the forest floor in spring.",
+                            kurdishText:
+                                "گوڵە گەزیزە دارستانەکەی داپۆشیبوو لە بەھاردا.",
+                            onPressedBritish: () => speakbluebells1("en-GB"),
+                            onPressedAmerican: () => speakbluebells1("en-US"),
                           ),
                         ],
                       ),

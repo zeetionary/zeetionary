@@ -157,161 +157,64 @@ class EnglishEntrybadge extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پارچەیەکی بچووک ئاسن یان پلاستیک کە دیزاین یان وشەی لەسەرە و کەسێک دەیپۆشێت یان ھەڵیدەگرێت بۆ پیشاندانی ئەندامێتی لە دامەزراوەیەک، براوەی شتێک، یان بۆ پیشاندانی پلە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wore a badge saying ‘Vote for Obama’."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باجێکی پۆشیبوو کە لەسەری نووسرابوو 'دەنگ بدە بە ئۆباما'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadges1(// REPLACE: badge
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wore a badge saying ‘Vote for Obama’.",
+                            kurdishText:
+                                "باجێکی پۆشیبوو کە لەسەری نووسرابوو 'دەنگ بدە بە ئۆباما'.",
+                            onPressedBritish: () => speakbadges1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadges1(// REPLACE: badge
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He pulled out a badge and said he was a cop."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باجێکی دەرھێنا و وتی کەوا پۆلیسە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadges2(// REPLACE: badge
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He pulled out a badge and said he was a cop.",
+                            kurdishText: "باجێکی دەرھێنا و وتی کەوا پۆلیسە.",
+                            onPressedBritish: () => speakbadges2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadges2(// REPLACE: badge
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پارچەیەک کە دەیدووریت بە جلی یەکپۆشی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He sewed the school badge neatly onto his uniform."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باجی قوتابخانەکەی بەجوانی دووری بە جلەکەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadges3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadges3(// REPLACE: badge
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He sewed the school badge neatly onto his uniform.",
+                            kurdishText:
+                                "باجی قوتابخانەکەی بەجوانی دووری بە جلەکەیەوە.",
+                            onPressedBritish: () => speakbadges3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadges3(// REPLACE: badge
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) سمبولی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His gun was a badge of power for him."),
-                                    ExampleSentenceKurdish(
-                                        text: "چەکەکەی ھێمای دەسەڵاتی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadges4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadges4(// REPLACE: badge
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His gun was a badge of power for him.",
+                            kurdishText: "چەکەکەی ھێمای دەسەڵاتی بوو.",
+                            onPressedBritish: () => speakbadges4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadges4(// REPLACE: badge
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He saw his injuries as a badge of honour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "برینەکانی وەک سمبولی شکۆداری دەبینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadges5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadges5(// REPLACE: badge
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He saw his injuries as a badge of honour.",
+                            kurdishText: "برینەکانی وەک سمبولی شکۆداری دەبینی.",
+                            onPressedBritish: () => speakbadges5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadges5(// REPLACE: badge
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

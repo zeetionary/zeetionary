@@ -156,63 +156,25 @@ class EnglishEntryanalyst extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە کاری لێکۆڵینەوە و توێژینەوەیە بۆ تێگەشتن لە بابەتێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "City analysts forecast huge profits this year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژەرانی شارەکە ئەمساڵ پێشبینی قازانجی زەبەلاح دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanalyst45888("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalyst45888(
-                                        // REPLACE: analyst /ˈænəlɪst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "City analysts forecast huge profits this year.",
+                            kurdishText:
+                                "توێژەرانی شارەکە ئەمساڵ پێشبینی قازانجی زەبەلاح دەکەن.",
+                            onPressedBritish: () => speakanalyst45888("en-GB"),
+                            onPressedAmerican: () => speakanalyst45888(
+                                // REPLACE: analyst /ˈænəlɪst/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She is a financial analyst."),
-                                    ExampleSentenceKurdish(
-                                        text: "لێکۆڵەرێکی ئابوورییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanalyst7401("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanalyst7401(
-                                        // REPLACE: analyst /ˈænəlɪst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She is a financial analyst.",
+                            kurdishText: "لێکۆڵەرێکی ئابوورییە.",
+                            onPressedBritish: () => speakanalyst7401("en-GB"),
+                            onPressedAmerican: () => speakanalyst7401(
+                                // REPLACE: analyst /ˈænəlɪst/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

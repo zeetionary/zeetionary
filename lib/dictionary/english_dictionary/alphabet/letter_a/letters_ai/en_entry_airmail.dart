@@ -108,32 +108,13 @@ class EnglishEntryairmail extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پۆستەی ئاسمانی؛ ناردنی نامە لە ڕێگەی فڕۆکەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Send it airmail/by airmail."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە پۆستەی ئاسمانی بینێرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairmail4699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairmail4699(
-                                        // REPLACE: airmail /ˈermeɪl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Send it airmail/by airmail.",
+                            kurdishText: "بە پۆستەی ئاسمانی بینێرە.",
+                            onPressedBritish: () => speakairmail4699("en-GB"),
+                            onPressedAmerican: () => speakairmail4699(
+                                // REPLACE: airmail /ˈermeɪl/
+                                "en-US"),
                           ),
                         ],
                       ),

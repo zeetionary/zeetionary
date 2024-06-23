@@ -108,34 +108,14 @@ class EnglishEntryadmonish extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) لۆمەکردنی کەسێک بەتوندی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was admonished for chewing gum in class."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لۆمەکرا بۆ جوینی بنێشت لە پۆلدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmon2568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmon2568(
-                                        // REPLACE: admonish /ədˈmɒnɪʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was admonished for chewing gum in class.",
+                            kurdishText: "لۆمەکرا بۆ جوینی بنێشت لە پۆلدا.",
+                            onPressedBritish: () => speakadmon2568("en-GB"),
+                            onPressedAmerican: () => speakadmon2568(
+                                // REPLACE: admonish /ədˈmɒnɪʃ/
+                                "en-US"),
                           ),
                         ],
                       ),

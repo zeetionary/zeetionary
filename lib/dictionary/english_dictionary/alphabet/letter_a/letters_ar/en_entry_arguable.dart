@@ -163,65 +163,25 @@ class EnglishEntryarguable extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) باوەڕێک کە دەتوانی لە بەرژەوەندیی مشتومڕ بکەیت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is arguable that giving too much detail may actually be confusing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەکرێت بوترێت بەدەستەوەدانی وردەکاری زۆر دەکرێت سەرلێشێوێنەر بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarguable1011("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarguable1011(
-                                        // REPLACE: arguable /ˈɑːrɡjuəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is arguable that giving too much detail may actually be confusing.",
+                            kurdishText:
+                                "دەکرێت بوترێت بەدەستەوەدانی وردەکاری زۆر دەکرێت سەرلێشێوێنەر بێت.",
+                            onPressedBritish: () => speakarguable1011("en-GB"),
+                            onPressedAmerican: () => speakarguable1011(
+                                // REPLACE: arguable /ˈɑːrɡjuəbl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is arguable which way is quicker."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کام ڕێگەیان خێراترە قسەھەڵدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarguable1013("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarguable1013(
-                                        // REPLACE: arguable /ˈɑːrɡjuəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It is arguable which way is quicker.",
+                            kurdishText: "کام ڕێگەیان خێراترە قسەھەڵدەگرێت.",
+                            onPressedBritish: () => speakarguable1013("en-GB"),
+                            onPressedAmerican: () => speakarguable1013(
+                                // REPLACE: arguable /ˈɑːrɡjuəbl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

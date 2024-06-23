@@ -156,35 +156,15 @@ class EnglishEntrybadtempered extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆرجار تووڕە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She gets very bad-tempered when she's tired."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر بێ تەحەمول دەبێت کە ماندوو دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbadtempereds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbadtempereds1(
-                                        // REPLACE: bad-tempered
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She gets very bad-tempered when she's tired.",
+                            kurdishText:
+                                "زۆر بێ تەحەمول دەبێت کە ماندوو دەبێت.",
+                            onPressedBritish: () => speakbadtempereds1("en-GB"),
+                            onPressedAmerican: () => speakbadtempereds1(
+                                // REPLACE: bad-tempered
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

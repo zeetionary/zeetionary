@@ -151,165 +151,67 @@ class EnglishEntryalternate extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) کردنی شتێک سەرەتا بە یەکەم شت، دواتر بە شتێکی تر، و ئینجا دووبارە بە یەکەم شت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Stretch up 30 times with alternate arms as a warm-up exercise."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک خۆگەرمکردنەوەیەک ٣٠ جار سترێچ بکە، ھەرجارە و بە دەستێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalternate4599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalternate4599(
-                                        // REPLACE: alternate /ɔːlˈtɜːnət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Stretch up 30 times with alternate arms as a warm-up exercise.",
+                            kurdishText:
+                                "وەک خۆگەرمکردنەوەیەک ٣٠ جار سترێچ بکە، ھەرجارە و بە دەستێک.",
+                            onPressedBritish: () => speakalternate4599("en-GB"),
+                            onPressedAmerican: () => speakalternate4599(
+                                // REPLACE: alternate /ɔːlˈtɜːnət/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ڕۆژ نا ڕۆژ، جار نا جار، ساڵ نا ساڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He and I clean our room on alternate days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "من و ئەو ژوورەکەمان ڕۆژ نا ڕۆژێک پاکدەکەینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalternate492("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalternate492(
-                                        // REPLACE: alternate /ɔːlˈtɜːnət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He and I clean our room on alternate days.",
+                            kurdishText:
+                                "من و ئەو ژوورەکەمان ڕۆژ نا ڕۆژێک پاکدەکەینەوە.",
+                            onPressedBritish: () => speakalternate492("en-GB"),
+                            onPressedAmerican: () => speakalternate492(
+                                // REPLACE: alternate /ɔːlˈtɜːnət/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ڕوودان بەدوای یەکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She alternated between cheerfulness and deep despair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەردەوام لە نێوان دڵخۆشی و نائومێدی قووڵ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalternate4588("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalternate4588(
-                                        // REPLACE: alternate /ɔːlˈtɜːnət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She alternated between cheerfulness and deep despair.",
+                            kurdishText:
+                                "بەردەوام لە نێوان دڵخۆشی و نائومێدی قووڵ بوو.",
+                            onPressedBritish: () => speakalternate4588("en-GB"),
+                            onPressedAmerican: () => speakalternate4588(
+                                // REPLACE: alternate /ɔːlˈtɜːnət/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) ڕوودان بە بەردەوامی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ambulance crews alternate between emergency and routine work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکانی فریاگوزاری بەردەوام لەنێوان کاری ئاسایی ڕۆژانەیان و حاڵەتی نەخوازراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalternate385("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalternate385(
-                                        // REPLACE: alternate /ɔːlˈtɜːnət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ambulance crews alternate between emergency and routine work.",
+                            kurdishText:
+                                "تیمەکانی فریاگوزاری بەردەوام لەنێوان کاری ئاسایی ڕۆژانەیان و حاڵەتی نەخوازراون.",
+                            onPressedBritish: () => speakalternate385("en-GB"),
+                            onPressedAmerican: () => speakalternate385(
+                                // REPLACE: alternate /ɔːlˈtɜːnət/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) کەسێکی جێگرەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "David was too sick to attend, so Janet served as his alternate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیڤد زۆر نەخۆش بوو کە بتوانێت بەژداربێت، بۆیە جانێت وەک جێگرەوەی کاری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalternate5266("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalternate5266(
-                                        // REPLACE: alternate /ɔːlˈtɜːnət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "David was too sick to attend, so Janet served as his alternate.",
+                            kurdishText:
+                                "دەیڤد زۆر نەخۆش بوو کە بتوانێت بەژداربێت، بۆیە جانێت وەک جێگرەوەی کاری کرد.",
+                            onPressedBritish: () => speakalternate5266("en-GB"),
+                            onPressedAmerican: () => speakalternate5266(
+                                // REPLACE: alternate /ɔːlˈtɜːnət/
+                                "en-US"),
                           ),
                         ],
                       ),

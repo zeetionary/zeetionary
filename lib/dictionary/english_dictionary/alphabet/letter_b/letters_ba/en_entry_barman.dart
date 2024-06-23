@@ -153,34 +153,15 @@ class EnglishEntrybarman extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پیاوێک کە لە باڕێک کاردەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The restaurant's barman was renowned for his ability to make a perfect martini."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەیگێڕی چێشتخانەکە ناسرابوو بۆ توانای لە درووستکردنی باشترین مارتینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarmans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarmans1(// REPLACE: barman
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The restaurant's barman was renowned for his ability to make a perfect martini.",
+                            kurdishText:
+                                "مەیگێڕی چێشتخانەکە ناسرابوو بۆ توانای لە درووستکردنی باشترین مارتینی.",
+                            onPressedBritish: () => speakbarmans1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarmans1(// REPLACE: barman
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

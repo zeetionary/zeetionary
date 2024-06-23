@@ -145,91 +145,34 @@ class EnglishEntrybroaden extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) پانبوون، فراوانبوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Her smile broadened."),
-                                    ExampleSentenceKurdish(
-                                        text: "بزەکەی گەورەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broaden" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her smile broadened.",
+                            kurdishText: "بزەکەی گەورەبوو.", // broaden" as
+                            onPressedBritish: () => speakbroadens1("en-GB"),
+                            onPressedAmerican: () => speakbroadens1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) زیادبوونی کاریگەری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This seems to be an attempt to broaden his political appeal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە وەک ھەوڵێک دیارە بۆ فراوانکردنی وێنای سیاسیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This seems to be an attempt to broaden his political appeal.",
+                            kurdishText:
+                                "ئەمە وەک ھەوڵێک دیارە بۆ فراوانکردنی وێنای سیاسیی.",
+                            onPressedBritish: () => speakbroadens2("en-GB"),
+                            onPressedAmerican: () => speakbroadens2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) زیادکردنی ئەزموون، شارەزایی، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Spending a year working in the city helped to broaden his horizons."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەسەربردنی ساڵیک لە شار بە کارکردنەوە تێگەشتنی فراوان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadens3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadens3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Spending a year working in the city helped to broaden his horizons.",
+                            kurdishText:
+                                "بەسەربردنی ساڵیک لە شار بە کارکردنەوە تێگەشتنی فراوان کرد.",
+                            onPressedBritish: () => speakbroadens3("en-GB"),
+                            onPressedAmerican: () => speakbroadens3("en-US"),
                           ),
                         ],
                       ),

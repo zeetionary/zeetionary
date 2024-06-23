@@ -160,131 +160,55 @@ class EnglishEntryannual extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شتێک کە ساڵی جارێک ڕووبدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She organized this year's annual Christmas dinner dance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەمای ساڵانەی ئێوارەی کریسمسی بۆ ئەمساڵ ڕێکخست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannual817("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannual817(
-                                        // REPLACE: annual /ˈænjuəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She organized this year's annual Christmas dinner dance.",
+                            kurdishText:
+                                "سەمای ساڵانەی ئێوارەی کریسمسی بۆ ئەمساڵ ڕێکخست.",
+                            onPressedBritish: () => speakannual817("en-GB"),
+                            onPressedAmerican: () => speakannual817(
+                                // REPLACE: annual /ˈænjuəl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Companies publish annual reports to inform the public about the previous year's activities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکان ڕاپۆرتی ساڵانە بڵاودەکەنەوە بۆ ئەوەی ڕای‌ گشتی ئاگاداربکەنەوە سەبارەت بە چالاکییەکانی ساڵی پێشوویان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannual819("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannual819(
-                                        // REPLACE: annual /ˈænjuəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Companies publish annual reports to inform the public about the previous year's activities.",
+                            kurdishText:
+                                "کۆمپانیاکان ڕاپۆرتی ساڵانە بڵاودەکەنەوە بۆ ئەوەی ڕای‌ گشتی ئاگاداربکەنەوە سەبارەت بە چالاکییەکانی ساڵی پێشوویان.",
+                            onPressedBritish: () => speakannual819("en-GB"),
+                            onPressedAmerican: () => speakannual819(
+                                // REPLACE: annual /ˈænjuəl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بۆ ماوەی یەک ساڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have decided to take my annual leave to be with my wife and baby."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارم‌داوە مۆڵەتی ساڵانەم وەربگرم بۆ ئەوەی لەگەڵ ژنەکەم و منداڵەکەم بم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannual821("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannual821(
-                                        // REPLACE: annual /ˈænjuəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I have decided to take my annual leave to be with my wife and baby.",
+                            kurdishText:
+                                "بڕیارم‌داوە مۆڵەتی ساڵانەم وەربگرم بۆ ئەوەی لەگەڵ ژنەکەم و منداڵەکەم بم.",
+                            onPressedBritish: () => speakannual821("en-GB"),
+                            onPressedAmerican: () => speakannual821(
+                                // REPLACE: annual /ˈænjuəl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کتێبێک کە بۆ منداڵانە و ساڵی جارێک بە ھەمان ناونیشان بەڵام ناوەڕۆکی جیاواز بڵاودەبێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children usually asked for comic or sporting annuals for Christmas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان زۆرجار داوای کتێبی کۆمیک یان وەرزشییان دەکرد بۆ کریسمس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannual829("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannual829(
-                                        // REPLACE: annual /ˈænjuəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children usually asked for comic or sporting annuals for Christmas.",
+                            kurdishText:
+                                "منداڵەکان زۆرجار داوای کتێبی کۆمیک یان وەرزشییان دەکرد بۆ کریسمس.",
+                            onPressedBritish: () => speakannual829("en-GB"),
+                            onPressedAmerican: () => speakannual829(
+                                // REPLACE: annual /ˈænjuəl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

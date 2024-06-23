@@ -96,30 +96,11 @@ class EnglishEntryabysmal extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) شتێک کە زۆر خراپ بێت" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His manners are abysmal."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەڵسوکەوتی زۆر خراپە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka1547("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka1547("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His manners are abysmal.",
+                            kurdishText: "ھەڵسوکەوتی زۆر خراپە.",
+                            onPressedBritish: () => speaka1547("en-GB"),
+                            onPressedAmerican: () => speaka1547("en-US"),
                           ),
                         ],
                       ),

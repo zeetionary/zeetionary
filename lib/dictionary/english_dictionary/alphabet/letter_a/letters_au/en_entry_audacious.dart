@@ -163,35 +163,15 @@ class EnglishEntryaudacious extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بوێرانە و چاونەترس" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He described the plan as ambitious and audacious."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانەکەی بە تەماحکارانە و چاونەترسی ناوھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaudacious1231("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaudacious1231(// REPLACE: audacious
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He described the plan as ambitious and audacious.",
+                            kurdishText:
+                                "پلانەکەی بە تەماحکارانە و چاونەترسی ناوھێنا.",
+                            onPressedBritish: () => speakaudacious1231("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaudacious1231(// REPLACE: audacious
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

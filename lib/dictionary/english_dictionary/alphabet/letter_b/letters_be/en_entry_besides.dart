@@ -153,123 +153,47 @@ class EnglishEntrybesides extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ئامراز) سەرەڕای شتێک؛ ھەروەھا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Besides working as a doctor, he also writes novels in his spare time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەڕای کارکردن وەک دکتۆرێک، لە کاتی بەتاڵیدا ڕۆمان دەنووسێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbesidess1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbesidess1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Besides working as a doctor, he also writes novels in his spare time.",
+                            kurdishText:
+                                "سەرەڕای کارکردن وەک دکتۆرێک، لە کاتی بەتاڵیدا ڕۆمان دەنووسێت.",
+                            onPressedBritish: () => speakbesidess1("en-GB"),
+                            onPressedAmerican: () => speakbesidess1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She won't mind if you're late - besides, it's hardly your fault."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشەی نابێت کە درەنگ کەوتوویت، و ھەروەھا، بە ئاستەنگ ھەڵەی تۆ بووە (ھیچت لە دەست نەھاتووە)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbesidess2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbesidess2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She won't mind if you're late - besides, it's hardly your fault.",
+                            kurdishText:
+                                "کێشەی نابێت کە درەنگ کەوتوویت، و ھەروەھا، بە ئاستەنگ ھەڵەی تۆ بووە (ھیچت لە دەست نەھاتووە).",
+                            onPressedBritish: () => speakbesidess2("en-GB"),
+                            onPressedAmerican: () => speakbesidess2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەکاردێت بۆ زیادکردن لێدوانێکی تر بۆ ئەوەی پێشوەختە وتووتە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't really want to go. Besides, it's too late now."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕاستی نامەوێت بچم، و زۆر درەنگیشە ئێستا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbesidess3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbesidess3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't really want to go. Besides, it's too late now.",
+                            kurdishText:
+                                "بەڕاستی نامەوێت بچم، و زۆر درەنگیشە ئێستا.",
+                            onPressedBritish: () => speakbesidess3("en-GB"),
+                            onPressedAmerican: () => speakbesidess3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ئامراز) سەرەڕای شتێک؛ ھەروەھا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm capable of doing the work, and a lot more besides."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانای کردنی کارەکەم ھەیە، و ھەروەھا زۆری تریش."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbesidess4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbesidess4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm capable of doing the work, and a lot more besides.",
+                            kurdishText:
+                                "توانای کردنی کارەکەم ھەیە، و ھەروەھا زۆری تریش.",
+                            onPressedBritish: () => speakbesidess4("en-GB"),
+                            onPressedAmerican: () => speakbesidess4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

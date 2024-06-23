@@ -193,62 +193,24 @@ class EnglishEntrybunk extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) جێگەی نووستن کە بە دیوارێکەوە لکاوە، بۆ نموونە لەسەر شەمەندەفەر، یان دوو نھۆمی بۆ منداڵان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I slept in the bottom bunk of a set of bunk beds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە جێگە نووستنەکەی خوارەوە نووستم لە تەختە دوونھۆمییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bunk", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I slept in the bottom bunk of a set of bunk beds.",
+                            kurdishText:
+                                "لە جێگە نووستنەکەی خوارەوە نووستم لە تەختە دوونھۆمییەکەدا.", // bunk", follow LX strictly
+                            onPressedBritish: () => speakbunks1("en-GB"),
+                            onPressedAmerican: () => speakbunks1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) بیرۆکە و قسەی پڕووپووچ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most economists think his theories are sheer bunk."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر ئابووریناس وابیردەکەنەوە قسەکانی ھەڵیت‌وپەڵیت بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most economists think his theories are sheer bunk.",
+                            kurdishText:
+                                "زۆر ئابووریناس وابیردەکەنەوە قسەکانی ھەڵیت‌وپەڵیت بن.",
+                            onPressedBritish: () => speakbunks2("en-GB"),
+                            onPressedAmerican: () => speakbunks2("en-US"),
                           ),
                         ],
                       ),

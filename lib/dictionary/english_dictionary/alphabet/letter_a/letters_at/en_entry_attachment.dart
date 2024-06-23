@@ -169,169 +169,69 @@ class EnglishEntryattachment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دۆکیومێنتێک کە بە ئیمەیڵ نێردراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "No attachment was included."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ دۆکیومێنتێک نەنێردرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattachment356("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattachment356(
-                                        // REPLACE: attachment
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "No attachment was included.",
+                            kurdishText: "ھیچ دۆکیومێنتێک نەنێردرابوو.",
+                            onPressedBritish: () => speakattachment356("en-GB"),
+                            onPressedAmerican: () => speakattachment356(
+                                // REPLACE: attachment
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پێکەوەلکاندن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They had to check the strength of the seat attachments to the floor of the plane."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویست بوو پشکنین بکەن بۆ توانای لکێنەری کوورسییەکان بە زەویی فڕۆکەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattachment401("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattachment401(
-                                        // REPLACE: attachment
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They had to check the strength of the seat attachments to the floor of the plane.",
+                            kurdishText:
+                                "پێویست بوو پشکنین بکەن بۆ توانای لکێنەری کوورسییەکان بە زەویی فڕۆکەکەوە.",
+                            onPressedBritish: () => speakattachment401("en-GB"),
+                            onPressedAmerican: () => speakattachment401(
+                                // REPLACE: attachment
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) سۆز و خۆشەویستی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Prisoners can develop attachments to their guards."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیندانییان ئەکرێت سۆزیان لا درووستبێت بۆ پاسەوانەکانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattachment403("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattachment403(
-                                        // REPLACE: attachment
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Prisoners can develop attachments to their guards.",
+                            kurdishText:
+                                "زیندانییان ئەکرێت سۆزیان لا درووستبێت بۆ پاسەوانەکانیان.",
+                            onPressedBritish: () => speakattachment403("en-GB"),
+                            onPressedAmerican: () => speakattachment403(
+                                // REPLACE: attachment
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) پشتیوانی بۆ باوەڕێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is unlikely to give up her lifelong attachment to feminist ideas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەری کەمە واز لە پشتیوانیی لەمێژینەی بھێنێت بۆ فێمینیزم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattachment405("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattachment405(
-                                        // REPLACE: attachment
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is unlikely to give up her lifelong attachment to feminist ideas.",
+                            kurdishText:
+                                "ئەگەری کەمە واز لە پشتیوانیی لەمێژینەی بھێنێت بۆ فێمینیزم.",
+                            onPressedBritish: () => speakattachment405("en-GB"),
+                            onPressedAmerican: () => speakattachment405(
+                                // REPLACE: attachment
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) پارچەیەک کە بۆ ئامێرێک زیاد دەکرێت بۆ کردنی کارێکی دیکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This food processor has a special attachment for grinding coffee."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم عەسارەی خواردنە پارچەیەکی تایبەتی ھەیە بۆ ھاڕینی قاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattachment419("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattachment419(
-                                        // REPLACE: attachment
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This food processor has a special attachment for grinding coffee.",
+                            kurdishText:
+                                "ئەم عەسارەی خواردنە پارچەیەکی تایبەتی ھەیە بۆ ھاڕینی قاوە.",
+                            onPressedBritish: () => speakattachment419("en-GB"),
+                            onPressedAmerican: () => speakattachment419(
+                                // REPLACE: attachment
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

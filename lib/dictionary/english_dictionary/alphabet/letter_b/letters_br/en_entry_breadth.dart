@@ -146,119 +146,41 @@ class EnglishEntrybreadth extends StatelessWidget {
 کوردی: پانایی، پانی، ھەراوی، کشان، بەرینی، بەربڵاوی، پانتایی، بەرینایی، ڕاخستە
 """),
                           const DefinitionKurdish(text: "١. (ناو) پانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She estimated the breadth of the lake to be 500 metres."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پانتایی دەریاچەکەی بە ٥٠٠ مەتر خەملاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreadths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreadths1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She estimated the breadth of the lake to be 500 metres.",
+                            kurdishText:
+                                "پانتایی دەریاچەکەی بە ٥٠٠ مەتر خەملاند.",
+                            onPressedBritish: () => speakbreadths1("en-GB"),
+                            onPressedAmerican: () => speakbreadths1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The boat measures 100 feet in length and 27 in breadth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەلەمە ١٠٠ پێ درێژە و ٢٧ پێ پانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreadths2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreadths2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The boat measures 100 feet in length and 27 in breadth.",
+                            kurdishText: "بەلەمە ١٠٠ پێ درێژە و ٢٧ پێ پانە.",
+                            onPressedBritish: () => speakbreadths2("en-GB"),
+                            onPressedAmerican: () => speakbreadths2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕێژەیەکی زۆر لە زانیاری، حەز، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was surprised at her breadth of reading."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسام بوو بە بەرینایی خوێندنەوەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreadths3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreadths3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was surprised at her breadth of reading.",
+                            kurdishText: "سەرسام بوو بە بەرینایی خوێندنەوەی.",
+                            onPressedBritish: () => speakbreadths3("en-GB"),
+                            onPressedAmerican: () => speakbreadths3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The curriculum needs breadth and balance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرنامەی خوێندنەکە (مەنھەج) پێویستی بە بەرفراوانی و ھاوسەنگی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreadths4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreadths4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The curriculum needs breadth and balance.",
+                            kurdishText:
+                                "بەرنامەی خوێندنەکە (مەنھەج) پێویستی بە بەرفراوانی و ھاوسەنگی ھەیە.",
+                            onPressedBritish: () => speakbreadths4("en-GB"),
+                            onPressedAmerican: () => speakbreadths4("en-US"),
                           ),
                         ],
                       ),

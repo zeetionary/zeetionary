@@ -149,32 +149,13 @@ class EnglishEntrybeery extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ھەبوونی بۆنی بیرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She leaned away from his beery breath."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی دوورخست لە ھەناسەکەی کە بۆنی بیرەی لێ دەھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeerys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeerys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She leaned away from his beery breath.",
+                            kurdishText:
+                                "خۆی دوورخست لە ھەناسەکەی کە بۆنی بیرەی لێ دەھات.",
+                            onPressedBritish: () => speakbeerys1("en-GB"),
+                            onPressedAmerican: () => speakbeerys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

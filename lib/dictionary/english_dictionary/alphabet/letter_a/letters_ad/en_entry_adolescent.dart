@@ -111,34 +111,14 @@ class EnglishEntryadolescent extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) کەسێکی ھەرزەکار" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Stop acting like an adolescent!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وازبێنە لە ڕەفتارکردن وەک ھەرزەکارێک!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadol12589("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadol12589(
-                                        // REPLACE: adolescent /ˌædəˈlesnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Stop acting like an adolescent!",
+                            kurdishText:
+                                "وازبێنە لە ڕەفتارکردن وەک ھەرزەکارێک!",
+                            onPressedBritish: () => speakadol12589("en-GB"),
+                            onPressedAmerican: () => speakadol12589(
+                                // REPLACE: adolescent /ˌædəˈlesnt/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -115,34 +115,15 @@ class EnglishEntryadventurer extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە حەزی بە ئەزموونی تازە و بەجۆشھێنەرە، بەتایبەتی ڕۆیشتن بۆ شوێنی تازە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was something of an adventurer, living most of his life abroad."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێکی تا ڕادەیەک سەرکێش بوو کە زۆرینەی ژیانی لە دەرەوە بەسەر دەبرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadve3566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadve3566(
-                                        // REPLACE: adventurer /ədˈventʃərər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was something of an adventurer, living most of his life abroad.",
+                            kurdishText:
+                                "کەسێکی تا ڕادەیەک سەرکێش بوو کە زۆرینەی ژیانی لە دەرەوە بەسەر دەبرد.",
+                            onPressedBritish: () => speakadve3566("en-GB"),
+                            onPressedAmerican: () => speakadve3566(
+                                // REPLACE: adventurer /ədˈventʃərər/
+                                "en-US"),
                           ),
                         ],
                       ),

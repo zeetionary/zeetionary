@@ -213,428 +213,179 @@ class EnglishEntrybalance extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دۆخێک کە تێیدا ژمارەیەک شت بوونیان ھەیە پێکەوە بە ھەمان بڕ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This newspaper maintains a good balance in its presentation of different opinions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ڕۆژنامە بێ‌لایەنی خۆی بە باشی دەپارێزێت لە وێناکردنی بەچوونی جیاوازدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalances1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalances1(// REPLACE: balance
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This newspaper maintains a good balance in its presentation of different opinions.",
+                            kurdishText:
+                                "ئەم ڕۆژنامە بێ‌لایەنی خۆی بە باشی دەپارێزێت لە وێناکردنی بەچوونی جیاوازدا.",
+                            onPressedBritish: () => speakbalances1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalances1(// REPLACE: balance
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Try to keep a balance between work and relaxation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵبدە ھاوسەنگی بپارێزی لەنێوان کارکردن و حەسانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalances2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalances2(// REPLACE: balance
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Try to keep a balance between work and relaxation.",
+                            kurdishText:
+                                "ھەوڵبدە ھاوسەنگی بپارێزی لەنێوان کارکردن و حەسانەوە.",
+                            onPressedBritish: () => speakbalances2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalances2(// REPLACE: balance
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) توانای وەستان لەکاتێکدا کێشی جیاواز لەسەر لایەکانی جەستەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He set his feet wider and adjusted his balance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێیەکانی بڵاوکردەوە و ھاوسەنگیی ڕێکخست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalances3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalances3(// REPLACE: balance
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He set his feet wider and adjusted his balance.",
+                            kurdishText:
+                                "پێیەکانی بڵاوکردەوە و ھاوسەنگیی ڕێکخست.",
+                            onPressedBritish: () => speakbalances3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalances3(// REPLACE: balance
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بڕی ماوە لە دوای بەکارھێنانی پارە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He asked the cashier for the balance of his current account."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوای لە کاشیەرەکە کرد باڵانسی ھەژمارەکەی ئێستای پێ بڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalances4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalances4(// REPLACE: balance
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He asked the cashier for the balance of his current account.",
+                            kurdishText:
+                                "داوای لە کاشیەرەکە کرد باڵانسی ھەژمارەکەی ئێستای پێ بڵێت.",
+                            onPressedBritish: () => speakbalances4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalances4(// REPLACE: balance
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) بڕی قەرزی ماوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The balance of £500 must be paid within 90 days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕی قەرزی ماوەی ٥٠٠ پاوەند دەبێت لە ماوەی ٩٠ ڕۆژدا بدرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalances5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalances5(// REPLACE: balance
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The balance of £500 must be paid within 90 days.",
+                            kurdishText:
+                                "بڕی قەرزی ماوەی ٥٠٠ پاوەند دەبێت لە ماوەی ٩٠ ڕۆژدا بدرێتەوە.",
+                            onPressedBritish: () => speakbalances5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalances5(// REPLACE: balance
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) گەورەترین بەشی گرووپێک یان بڕێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He argues that the balance has swung too far in favour of capitalism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێی‌وایە تەوازن زۆر بەلای سەرمایەداریدا چووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalances6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalances6(// REPLACE: balance
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He argues that the balance has swung too far in favour of capitalism.",
+                            kurdishText:
+                                "پێی‌وایە تەوازن زۆر بەلای سەرمایەداریدا چووە.",
+                            onPressedBritish: () => speakbalances6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalances6(// REPLACE: balance
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ناو) تەرازوویەک کە لە دوو دەفر پێکھاتووە کە دەبێت وەکو یەکدی بن لە بەرزیدا بۆ ئەوەی ھەردوو دەفرەکە ھەمان کێشیان ھەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The scientist used a balance to measure the weight of the sample."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاناکە تەرازوویەکی بەکارھێنا بۆ پێوانی کێشی نموونەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalances7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalances7(// REPLACE: balance
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The scientist used a balance to measure the weight of the sample.",
+                            kurdishText:
+                                "زاناکە تەرازوویەکی بەکارھێنا بۆ پێوانی کێشی نموونەکە.",
+                            onPressedBritish: () => speakbalances7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalances7(// REPLACE: balance
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (کردار) ھاوسەنگی ڕاگرتنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How long can you balance on one leg?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەندە دەتوانی لەسەر یەک پێ بوەستیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalances8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalances8(// REPLACE: balance
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "How long can you balance on one leg?",
+                            kurdishText: "چەندە دەتوانی لەسەر یەک پێ بوەستیت؟",
+                            onPressedBritish: () => speakbalances8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalances8(// REPLACE: balance
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (کردار) گرنگیدانی یەکسان بە دوو شتی جیاواز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The song perfectly balances melody and rhythm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆرانییەکە بە تەواوی ھاوسەنگی دەپارێزێت لەنێوان ئاواز و ڕیتم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalances9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalances9(// REPLACE: balance
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The song perfectly balances melody and rhythm.",
+                            kurdishText:
+                                "گۆرانییەکە بە تەواوی ھاوسەنگی دەپارێزێت لەنێوان ئاواز و ڕیتم.",
+                            onPressedBritish: () => speakbalances9("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalances9(// REPLACE: balance
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (کردار) یەکسان بوون لە بڕ یان نرخدا لەگەڵ شتێکی تری پێچەوانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This year's profits will balance out our previous losses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قازانجەکانی ئەمساڵ زیانەکانی پار قەرەبوو دەکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalances10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalances10(// REPLACE: balance
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This year's profits will balance out our previous losses.",
+                            kurdishText:
+                                "قازانجەکانی ئەمساڵ زیانەکانی پار قەرەبوو دەکەنەوە.",
+                            onPressedBritish: () => speakbalances10("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalances10(// REPLACE: balance
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٠. (کردار) بەراوردکردنی گرنگی ڕێژەیی دوو شتی جیاواز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cost of obtaining legal advice needs to be balanced against its benefits."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێچووی وەرگرتنی ڕاوێژی یاسایی دەبێت لەبەرچاو بگیردرێت لەگەڵ سوودەکانی (ڕاوێژەکە)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalances11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalances11(// REPLACE: balance
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cost of obtaining legal advice needs to be balanced against its benefits.",
+                            kurdishText:
+                                "تێچووی وەرگرتنی ڕاوێژی یاسایی دەبێت لەبەرچاو بگیردرێت لەگەڵ سوودەکانی (ڕاوێژەکە).",
+                            onPressedBritish: () => speakbalances11("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalances11(// REPLACE: balance
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١١. (کردار) سەرپەرشتی خەرجکردنی پارە بۆ ئەوەی بڕی پارەی خەرجکراو و وەرگیردراو یەکسان بن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In order to balance the budget severe spending cuts had to be made."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ھەڵسوڕاندنی بودجە، دەبوو ڕێژەی خەرجی بە ئاستێکی زۆر کەمبکرێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalances12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalances12(// REPLACE: balance
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In order to balance the budget severe spending cuts had to be made.",
+                            kurdishText:
+                                "بۆ ھەڵسوڕاندنی بودجە، دەبوو ڕێژەی خەرجی بە ئاستێکی زۆر کەمبکرێتەوە.",
+                            onPressedBritish: () => speakbalances12("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalances12(// REPLACE: balance
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٢. (کردار) ھەبوونی ھەمان ڕێژە لە پارەی خەرجکراو و وەرگیردراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I tried to work out why the books wouldn't balance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەمدەتوانی تێبگەم بۆچی خەرجی و قازانج یەکناگرنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalances13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalances13(// REPLACE: balance
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I tried to work out why the books wouldn't balance.",
+                            kurdishText:
+                                "نەمدەتوانی تێبگەم بۆچی خەرجی و قازانج یەکناگرنەوە.",
+                            onPressedBritish: () => speakbalances13("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalances13(// REPLACE: balance
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

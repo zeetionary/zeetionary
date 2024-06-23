@@ -147,32 +147,13 @@ class EnglishEntrybasicone extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) زمانێک بە ئینگلیزییەکی ئاسان بۆ نووسینی پڕۆگرامی کۆمپیوتەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "BASIC was one of the first programming languages that I learned."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەیسیک یەکێک لە یەکەمین زمانەکانی پڕۆگرامسازی بوو کە فێری بووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasicones1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasicones1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "BASIC was one of the first programming languages that I learned.",
+                            kurdishText:
+                                "بەیسیک یەکێک لە یەکەمین زمانەکانی پڕۆگرامسازی بوو کە فێری بووم.",
+                            onPressedBritish: () => speakbasicones1("en-GB"),
+                            onPressedAmerican: () => speakbasicones1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

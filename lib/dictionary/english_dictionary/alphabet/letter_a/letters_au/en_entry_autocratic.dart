@@ -166,69 +166,29 @@ class EnglishEntryautocratic extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) ھەبوونی دەسەڵاتی تەواو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The president resigned after 30 years of autocratic rule."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک دەستی لەکارکێشایەوە لە دوای ٣٠ ساڵ لە حوکمی سەرکوتکەرانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautocratic944("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakautocratic944(
-                                        // REPLACE: autocratic
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The president resigned after 30 years of autocratic rule.",
+                            kurdishText:
+                                "سەرۆک دەستی لەکارکێشایەوە لە دوای ٣٠ ساڵ لە حوکمی سەرکوتکەرانە.",
+                            onPressedBritish: () => speakautocratic944("en-GB"),
+                            onPressedAmerican: () => speakautocratic944(
+                                // REPLACE: autocratic
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ھەبوونی چاوەڕوانی گوێڕایەڵیی تەواو و گرنگینەدان بە بۆچوونی کەسانی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The autocratic boss micromanaged his employees and refused to consider their suggestions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆکە تاکڕەوەکە کارمەندەکانی بەوردی بەڕێوەدەبرد و ھیچ گرنگی بە پێشنیارەکانیان نەدەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautocratic952("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakautocratic952(
-                                        // REPLACE: autocratic
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The autocratic boss micromanaged his employees and refused to consider their suggestions.",
+                            kurdishText:
+                                "سەرۆکە تاکڕەوەکە کارمەندەکانی بەوردی بەڕێوەدەبرد و ھیچ گرنگی بە پێشنیارەکانیان نەدەدا.",
+                            onPressedBritish: () => speakautocratic952("en-GB"),
+                            onPressedAmerican: () => speakautocratic952(
+                                // REPLACE: autocratic
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

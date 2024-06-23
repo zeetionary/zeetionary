@@ -129,120 +129,43 @@ class EnglishEntryache extends StatelessWidget {
                               text:
                                   "١. (کردار) ھەستکردن بە ئێشێکی زۆر کە بە ئازار نییە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her eyes ached from lack of sleep."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوەکانم ژانیان دەکرد بەھۆی کەمخەوییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka125698("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka125698("en-US"), // REPLACE /eɪk/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her eyes ached from lack of sleep.",
+                            kurdishText:
+                                "چاوەکانم ژانیان دەکرد بەھۆی کەمخەوییەوە.",
+                            onPressedBritish: () => speaka125698("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka125698("en-US"), // REPLACE /eɪk/
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It makes my heart ache (= it makes me sad) to see her suffer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵم دێتە ژان کە دەبینم ئازار دەکێشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka4973256("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka4973256("en-US"), // REPLACE /eɪk/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It makes my heart ache (= it makes me sad) to see her suffer.",
+                            kurdishText:
+                                "دڵم دێتە ژان کە دەبینم ئازار دەکێشێت.",
+                            onPressedBritish: () => speaka4973256("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka4973256("en-US"), // REPLACE /eɪk/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بوونی حەزێکی زۆر بۆ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I was aching for home."),
-                                    ExampleSentenceKurdish(
-                                        text: "خەریکبوو دڵی دەتەقا بۆ ماڵەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka456268("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka456268("en-US"), // REPLACE /eɪk/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I was aching for home.",
+                            kurdishText: "خەریکبوو دڵی دەتەقا بۆ ماڵەوە.",
+                            onPressedBritish: () => speaka456268("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka456268("en-US"), // REPLACE /eɪk/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) لەگەڵ بەشەکانی جەستە بەکاردێت بۆ ئاماژە بەوەی لەو بەشە ئازاری ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Mummy, I've got a tummy ache."),
-                                    ExampleSentenceKurdish(
-                                        text: "دایکە، سکم ژان ئەکا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka14568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka14568("en-US"), // REPLACE /eɪk/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Mummy, I've got a tummy ache.",
+                            kurdishText: "دایکە، سکم ژان ئەکا.",
+                            onPressedBritish: () => speaka14568("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka14568("en-US"), // REPLACE /eɪk/
                           ),
                         ],
                       ),

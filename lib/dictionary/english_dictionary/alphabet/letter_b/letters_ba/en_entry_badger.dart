@@ -157,66 +157,28 @@ class EnglishEntrybadger extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئاژەڵێکە کە فەرووی خۆڵەمێشی ھەیە لەگەڵ ھێڵی ڕەش و سپی لەسەر سەری. ئاژەڵەکە زیاتر لە شەودا چالاکە و لە کوندا دەژین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The owl's predators include hawks, larger owls, snakes, and badgers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاژەڵە ڕاوکەرەکانی کوندەپەپوو بریتین لە ھەڵۆ، کوندەپەپووی گەورەتر، مار، و گۆڕھەڵکەنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadgers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadgers1(// REPLACE: badger
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The owl's predators include hawks, larger owls, snakes, and badgers.",
+                            kurdishText:
+                                "ئاژەڵە ڕاوکەرەکانی کوندەپەپوو بریتین لە ھەڵۆ، کوندەپەپووی گەورەتر، مار، و گۆڕھەڵکەنە.",
+                            onPressedBritish: () => speakbadgers1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadgers1(// REPLACE: badger
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) پەستان خستنەسەر کەسێک بە دووبارە و دووبارە پرسیارکردن یان داواکردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I finally badgered him into coming with us."),
-                                    ExampleSentenceKurdish(
-                                        text: "لەکۆتاییدا ناچار بە ھاتنم کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadgers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadgers2(// REPLACE: badger
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I finally badgered him into coming with us.",
+                            kurdishText: "لەکۆتاییدا ناچار بە ھاتنم کرد.",
+                            onPressedBritish: () => speakbadgers2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadgers2(// REPLACE: badger
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -107,62 +107,24 @@ class EnglishEntryaccord extends StatelessWidget {
                               text:
                                   "١. (ناو) ڕێککەوتنێکی فەرمی نێوان دوو وڵات/دامەزراوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two sides signed a peace accord last July."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو لا ڕێککەوتنێکی ئاشتییان واژۆکرد لە تەممووزی ڕابردوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac48962("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac48962("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two sides signed a peace accord last July.",
+                            kurdishText:
+                                "ھەردوو لا ڕێککەوتنێکی ئاشتییان واژۆکرد لە تەممووزی ڕابردوو.",
+                            onPressedBritish: () => speakac48962("en-GB"),
+                            onPressedAmerican: () => speakac48962("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) پێدانی گرنگی تایبەت بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our society accords great importance to the family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمەڵگاکەمان گرنگی تایبەت دەدات بە خێزان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka15874("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka15874("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our society accords great importance to the family.",
+                            kurdishText:
+                                "کۆمەڵگاکەمان گرنگی تایبەت دەدات بە خێزان.",
+                            onPressedBritish: () => speaka15874("en-GB"),
+                            onPressedAmerican: () => speaka15874("en-US"),
                           ),
                         ],
                       ),

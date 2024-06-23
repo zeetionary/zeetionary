@@ -150,32 +150,13 @@ class EnglishEntrybenefactor extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە پارە یان شتومەک دەبەخشێت بە کەسێک یان دامەزراوەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An anonymous benefactor donated £20 000."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاکەکارێکی نەناسراو ٢٠٠٠٠ پاوەندی بەخشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbenefactors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbenefactors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An anonymous benefactor donated £20 000.",
+                            kurdishText:
+                                "چاکەکارێکی نەناسراو ٢٠٠٠٠ پاوەندی بەخشی.",
+                            onPressedBritish: () => speakbenefactors1("en-GB"),
+                            onPressedAmerican: () => speakbenefactors1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

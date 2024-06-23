@@ -99,34 +99,14 @@ class EnglishEntryaccolade extends StatelessWidget {
                               text:
                                   "١. (ناو) ستایش یان خەڵاتکردنی کەسێک بەھۆی دەستکەوتەکانی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's been granted the ultimate accolade - his face on a postage stamp."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوپەڕی ستایشی پێدرا بە دانانی وێنەکەی لەسەر پوولی پۆستەیەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaccolade85566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaccolade85566("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's been granted the ultimate accolade - his face on a postage stamp.",
+                            kurdishText:
+                                "ئەوپەڕی ستایشی پێدرا بە دانانی وێنەکەی لەسەر پوولی پۆستەیەک.",
+                            onPressedBritish: () => speakaccolade85566("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaccolade85566("en-US"),
                           ),
                         ],
                       ),

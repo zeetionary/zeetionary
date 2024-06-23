@@ -108,34 +108,15 @@ class EnglishEntryadmiral extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەفسەرێکی زۆر پایەبەرزی ھێزی دەریایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The admiral visited the ships under his command."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەدمیراڵەکە سەردانی کەشتییەکانی ژێر دەسەڵاتی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmi2568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmi2568(
-                                        // REPLACE: admiral /ˈædmərəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The admiral visited the ships under his command.",
+                            kurdishText:
+                                "ئەدمیراڵەکە سەردانی کەشتییەکانی ژێر دەسەڵاتی کرد.",
+                            onPressedBritish: () => speakadmi2568("en-GB"),
+                            onPressedAmerican: () => speakadmi2568(
+                                // REPLACE: admiral /ˈædmərəl/
+                                "en-US"),
                           ),
                         ],
                       ),

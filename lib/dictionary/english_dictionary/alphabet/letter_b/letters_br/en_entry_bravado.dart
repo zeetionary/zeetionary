@@ -147,32 +147,13 @@ class EnglishEntrybravado extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەڵسوکەوت کردن بە متمانەوە بۆ ئەوەی سەرنجی خەڵکی ڕابکێشی، زۆرجار بە کردنی شتێک کە پێویست ناکات بیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was an act of bravado to tell his boss to resign."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەنگاوێکی بوێرانە بوو کە بە بەڕێوبەری گوت دەست‌لەکاربکێشێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbravados1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbravados1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was an act of bravado to tell his boss to resign.",
+                            kurdishText:
+                                "ھەنگاوێکی بوێرانە بوو کە بە بەڕێوبەری گوت دەست‌لەکاربکێشێتەوە.",
+                            onPressedBritish: () => speakbravados1("en-GB"),
+                            onPressedAmerican: () => speakbravados1("en-US"),
                           ),
                         ],
                       ),

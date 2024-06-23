@@ -146,148 +146,50 @@ class EnglishEntrybrow extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ناوچاوان؛ تەوێڵ؛ ئەو بەشە تەختەی ڕووخسار کە لە نێوان چاوان و قژە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The nurse mopped his fevered brow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرستارەکە ناوچاوانە تێ‌گرتووەکەی سڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brow" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The nurse mopped his fevered brow.",
+                            kurdishText:
+                                "پەرستارەکە ناوچاوانە تێ‌گرتووەکەی سڕی.", // brow" as
+                            onPressedBritish: () => speakbrows1("en-GB"),
+                            onPressedAmerican: () => speakbrows1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her brow furrowed in concentration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوچاوانی گرژبوو لە سەرنجداندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrows2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrows2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her brow furrowed in concentration.",
+                            kurdishText: "ناوچاوانی گرژبوو لە سەرنجداندا.",
+                            onPressedBritish: () => speakbrows2("en-GB"),
+                            onPressedAmerican: () => speakbrows2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) برۆ؛ مووی سەر چاوان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His brows drew together in a worried frown when he heard the remark."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "برۆیەکانی چوون بە یەکدا لە گرژیدا کە قسەکەی بیست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrows3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrows3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His brows drew together in a worried frown when he heard the remark.",
+                            kurdishText:
+                                "برۆیەکانی چوون بە یەکدا لە گرژیدا کە قسەکەی بیست.",
+                            onPressedBritish: () => speakbrows3("en-GB"),
+                            onPressedAmerican: () => speakbrows3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His brows snapped together ferociously when he heard the remark."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "برۆیەکانی بە توندی چوون بە یەکدا کە قسەکەی بیست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrows4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrows4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His brows snapped together ferociously when he heard the remark.",
+                            kurdishText:
+                                "برۆیەکانی بە توندی چوون بە یەکدا کە قسەکەی بیست.",
+                            onPressedBritish: () => speakbrows4("en-GB"),
+                            onPressedAmerican: () => speakbrows4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) بەشی سەرەوەی گردێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The path disappeared over the brow of the hill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگاکە دیار نەما لەسەر نووچکەی گردەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrows5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrows5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The path disappeared over the brow of the hill.",
+                            kurdishText:
+                                "ڕێگاکە دیار نەما لەسەر نووچکەی گردەکە.",
+                            onPressedBritish: () => speakbrows5("en-GB"),
+                            onPressedAmerican: () => speakbrows5("en-US"),
                           ),
                         ],
                       ),

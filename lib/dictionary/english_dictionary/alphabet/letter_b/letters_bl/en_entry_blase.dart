@@ -149,32 +149,13 @@ class EnglishEntryblase extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە پێی سەرسام یان نیگەران نابیت چونکە زۆرجار دیوتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Kids have become blasé about violence on television."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵان بە توندوتیژی لەسەر تەلەفیزیۆن ڕاھاتوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblases1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblases1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Kids have become blasé about violence on television.",
+                            kurdishText:
+                                "منداڵان بە توندوتیژی لەسەر تەلەفیزیۆن ڕاھاتوون.",
+                            onPressedBritish: () => speakblases1("en-GB"),
+                            onPressedAmerican: () => speakblases1("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

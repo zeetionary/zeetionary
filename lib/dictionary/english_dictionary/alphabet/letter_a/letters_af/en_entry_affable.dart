@@ -113,34 +113,14 @@ class EnglishEntryaffable extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) کەسێکی ڕووخۆش و ئێسکسووک کە ئاسانە قسەی لەگەڵ بکرێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He struck me as an affable sort of a man."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک پیاوێکی ڕووخۆش ھاتە بەرچاوم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffab2569("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffab2569(
-                                        // REPLACE: affable /ˈæfəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He struck me as an affable sort of a man.",
+                            kurdishText: "وەک پیاوێکی ڕووخۆش ھاتە بەرچاوم.",
+                            onPressedBritish: () => speakaffab2569("en-GB"),
+                            onPressedAmerican: () => speakaffab2569(
+                                // REPLACE: affable /ˈæfəbl/
+                                "en-US"),
                           ),
                         ],
                       ),

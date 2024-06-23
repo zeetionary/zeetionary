@@ -144,32 +144,13 @@ class EnglishEntrybulldozer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئامێرێکی بەھێز کە دەمێکی پانی ھەیە و بەکاردێت بۆ ڕاماڵینی خۆڵ یان ڕووخاندنی خانوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They used a bulldozer to level the ground."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاکماڵێکیان بەکارھێنا بۆ ڕاماڵینی زەوییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulldozer", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulldozers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulldozers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They used a bulldozer to level the ground.",
+                            kurdishText:
+                                "خاکماڵێکیان بەکارھێنا بۆ ڕاماڵینی زەوییەکە.", // bulldozer", follow LX strictly
+                            onPressedBritish: () => speakbulldozers1("en-GB"),
+                            onPressedAmerican: () => speakbulldozers1("en-US"),
                           ),
                         ],
                       ),

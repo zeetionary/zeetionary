@@ -145,32 +145,13 @@ class EnglishEntrybogof extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کورتکراوە) کورتکراوەیەکە بە واتای یەکێک بکڕە و یەکێک بە دیاری وەربگرە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The store is running a BOGOF sale on selected shoes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فرۆشگاکە ھەڕاجی یەکێک بکڕە و یەکێک بە دیاری وەربگرەی ڕاگەیاندووە بۆ ژمارەیەک پێڵاوی دیاریکراو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbogofs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbogofs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The store is running a BOGOF sale on selected shoes.",
+                            kurdishText:
+                                "فرۆشگاکە ھەڕاجی یەکێک بکڕە و یەکێک بە دیاری وەربگرەی ڕاگەیاندووە بۆ ژمارەیەک پێڵاوی دیاریکراو.",
+                            onPressedBritish: () => speakbogofs1("en-GB"),
+                            onPressedAmerican: () => speakbogofs1("en-US"),
                           ),
                         ],
                       ),

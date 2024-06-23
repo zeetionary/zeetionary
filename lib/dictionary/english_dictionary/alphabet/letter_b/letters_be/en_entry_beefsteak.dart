@@ -147,32 +147,13 @@ class EnglishEntrybeefsteak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پارچەیەکی کوالێتی باشی ئەستوور لە گۆشتی گا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hamburger steaks consist of finely minced beefsteak seasoned with salt and pepper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارچە گۆشتی ھەمبەرگر پێکدێت لە پارچە گۆشتی گا جوان کراو بە قیمە کە تامی سوێری و بیبەری پێوەکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeefsteaks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeefsteaks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Hamburger steaks consist of finely minced beefsteak seasoned with salt and pepper.",
+                            kurdishText:
+                                "پارچە گۆشتی ھەمبەرگر پێکدێت لە پارچە گۆشتی گا جوان کراو بە قیمە کە تامی سوێری و بیبەری پێوەکراوە.",
+                            onPressedBritish: () => speakbeefsteaks1("en-GB"),
+                            onPressedAmerican: () => speakbeefsteaks1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

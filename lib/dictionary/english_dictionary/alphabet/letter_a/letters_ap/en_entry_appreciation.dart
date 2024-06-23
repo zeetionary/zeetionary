@@ -165,200 +165,86 @@ class EnglishEntryappreciation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئەو خۆشیەی کە ھەتە لە کاتی چێژ بینین لە شتێکی باش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She shows little appreciation of good music."),
-                                    ExampleSentenceKurdish(
-                                        text: "قەدری میوزیکی خۆش نازانێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciation814("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciation814(
-                                        // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She shows little appreciation of good music.",
+                            kurdishText: "قەدری میوزیکی خۆش نازانێ.",
+                            onPressedBritish: () =>
+                                speakappreciation814("en-GB"),
+                            onPressedAmerican: () => speakappreciation814(
+                                // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have now developed an appreciation of poetry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستم‌کردووە بە چێژ وەرگرتن لە ھۆنراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciation815("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciation815(
-                                        // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I have now developed an appreciation of poetry.",
+                            kurdishText:
+                                "دەستم‌کردووە بە چێژ وەرگرتن لە ھۆنراوە.",
+                            onPressedBritish: () =>
+                                speakappreciation815("en-GB"),
+                            onPressedAmerican: () => speakappreciation815(
+                                // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) تێگەشتنی تەواو بۆ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had no appreciation of the problems they faced."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواو بێ ئاگا بووم لەو کێشانەی ڕووبەڕووی دەبوونەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciation817("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciation817(
-                                        // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had no appreciation of the problems they faced.",
+                            kurdishText:
+                                "تەواو بێ ئاگا بووم لەو کێشانەی ڕووبەڕووی دەبوونەوە.",
+                            onPressedBritish: () =>
+                                speakappreciation817("en-GB"),
+                            onPressedAmerican: () => speakappreciation817(
+                                // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a growing appreciation of the need for change."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێگەشتنی زیاتر و زیاتر ھەیە بۆ پێویستیی گۆڕانکاری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciation818("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciation818(
-                                        // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a growing appreciation of the need for change.",
+                            kurdishText:
+                                "تێگەشتنی زیاتر و زیاتر ھەیە بۆ پێویستیی گۆڕانکاری.",
+                            onPressedBritish: () =>
+                                speakappreciation818("en-GB"),
+                            onPressedAmerican: () => speakappreciation818(
+                                // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ھەستی سوپاسگوزری و پێزانین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I would like to express my appreciation and thanks to you all."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمەوێت پێزانین و سوپاسگوزاریم بۆ ھەمووتان دەرببڕم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciation820("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciation820(
-                                        // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I would like to express my appreciation and thanks to you all.",
+                            kurdishText:
+                                "دەمەوێت پێزانین و سوپاسگوزاریم بۆ ھەمووتان دەرببڕم.",
+                            onPressedBritish: () =>
+                                speakappreciation820("en-GB"),
+                            onPressedAmerican: () => speakappreciation820(
+                                // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) زیادبوونی نرخی شتێک لە دوای ماوەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The appreciation in the value of the house has brought joy to the homeowners."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرزبوونی نرخی خانووەکان خۆشی ھێناوە بۆ خاوەنەکانیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciation824("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciation824(
-                                        // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The appreciation in the value of the house has brought joy to the homeowners.",
+                            kurdishText:
+                                "بەرزبوونی نرخی خانووەکان خۆشی ھێناوە بۆ خاوەنەکانیان.",
+                            onPressedBritish: () =>
+                                speakappreciation824("en-GB"),
+                            onPressedAmerican: () => speakappreciation824(
+                                // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

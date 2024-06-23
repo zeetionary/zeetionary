@@ -150,59 +150,21 @@ class EnglishEntrybounds extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) سنووری یاسایی یان کۆمەڵایەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I am afraid your behaviour was beyond the bounds of decency."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەداخەوەم کە ھەڵسوکەوتت لە دەرەوەی سنوورەکانی داب و دەستوور بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboundss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboundss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I am afraid your behaviour was beyond the bounds of decency.",
+                            kurdishText:
+                                "بەداخەوەم کە ھەڵسوکەوتت لە دەرەوەی سنوورەکانی داب و دەستوور بوو.",
+                            onPressedBritish: () => speakboundss1("en-GB"),
+                            onPressedAmerican: () => speakboundss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His enthusiasm knew no bounds (= was very great)."),
-                                    ExampleSentenceKurdish(
-                                        text: "جۆش‌وخرۆشییەکەی سنووری نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboundss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboundss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His enthusiasm knew no bounds (= was very great).",
+                            kurdishText: "جۆش‌وخرۆشییەکەی سنووری نەبوو.",
+                            onPressedBritish: () => speakboundss2("en-GB"),
+                            onPressedAmerican: () => speakboundss2("en-US"),
                           ),
                         ],
                       ),

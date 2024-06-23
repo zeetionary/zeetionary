@@ -222,331 +222,120 @@ class EnglishEntrybolt extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کێلۆنە دەرگا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He slid back the bolt on the door."),
-                                    ExampleSentenceKurdish(
-                                        text: "کێلۆنی دەرگاکەی کردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He slid back the bolt on the door.",
+                            kurdishText: "کێلۆنی دەرگاکەی کردەوە.",
+                            onPressedBritish: () => speakbolts1("en-GB"),
+                            onPressedAmerican: () => speakbolts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I closed the window and drew the bolt (= slid the bolt across)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجەرەکەم گرت و کێلۆنەکەم داخست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I closed the window and drew the bolt (= slid the bolt across).",
+                            kurdishText: "پەنجەرەکەم گرت و کێلۆنەکەم داخست.",
+                            onPressedBritish: () => speakbolts2("en-GB"),
+                            onPressedAmerican: () => speakbolts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بورغوو؛ پارچە ئاسنێک کە لەگەڵ نەتێک بەکاردێت بۆ بەستنی شت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Use a bolt and nut to fasten the parts together."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بورغوو و نەت بەکاربێنە بۆ بەستنی پارچەکان پێکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Use a bolt and nut to fasten the parts together.",
+                            kurdishText:
+                                "بورغوو و نەت بەکاربێنە بۆ بەستنی پارچەکان پێکەوە.",
+                            onPressedBritish: () => speakbolts3("en-GB"),
+                            onPressedAmerican: () => speakbolts3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ھەورەتریشقەیەکی لەناکاو لە ئاسماندا لە شێوەی ھێڵێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Thunder rumbled after a bright bolt of lightning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تریشقە گرماندی لە دوای چەخماخەیەکی ھەورەبرووسکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Thunder rumbled after a bright bolt of lightning.",
+                            kurdishText:
+                                "تریشقە گرماندی لە دوای چەخماخەیەکی ھەورەبرووسکە.",
+                            onPressedBritish: () => speakbolts4("en-GB"),
+                            onPressedAmerican: () => speakbolts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) تیرێکی کورتی قورس کە لە کەوانێکەوە دەھاوێژرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The archer loaded a bolt into his crossbow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیرھاوێژەکە تیرێکی کورتی خستە کەوانەکەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The archer loaded a bolt into his crossbow.",
+                            kurdishText:
+                                "تیرھاوێژەکە تیرێکی کورتی خستە کەوانەکەیەوە.",
+                            onPressedBritish: () => speakbolts5("en-GB"),
+                            onPressedAmerican: () => speakbolts5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) بەستنی دەرگایەک یان پەنجەرەیەک بە کێلۆنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Don't forget to bolt the door."),
-                                    ExampleSentenceKurdish(
-                                        text: "بیرت نەچێت دەرگاکە کێلۆن بدە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don't forget to bolt the door.",
+                            kurdishText: "بیرت نەچێت دەرگاکە کێلۆن بدە.",
+                            onPressedBritish: () => speakbolts6("en-GB"),
+                            onPressedAmerican: () => speakbolts6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) بەستنی شت پێکەوە بە بورغوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The various parts of the car are then bolted together."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارچە جیاوازەکانی ئۆتۆمبێلەکە دواتر پێکەوە دەبەسترێن بە بورغوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolts7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolts7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The various parts of the car are then bolted together.",
+                            kurdishText:
+                                "پارچە جیاوازەکانی ئۆتۆمبێلەکە دواتر پێکەوە دەبەسترێن بە بورغوو.",
+                            onPressedBritish: () => speakbolts7("en-GB"),
+                            onPressedAmerican: () => speakbolts7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) ڕاکردنی ئاژەڵێک، بەتایبەتی ئەسپ، بەھۆی ئەوەی ترساوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plane swooped down low and the horses bolted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەکە نزمبووەوە و ئەسپەکان ھەڵھاتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The plane swooped down low and the horses bolted.",
+                            kurdishText:
+                                "فڕۆکەکە نزمبووەوە و ئەسپەکان ھەڵھاتن.",
+                            onPressedBritish: () => speakbolts8("en-GB"),
+                            onPressedAmerican: () => speakbolts8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٨. (کردار) ڕاکردن، بەتایبەتی بۆ ھەڵھاتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When he saw the police arrive, he bolted down an alley."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە بینی پۆلیس گەشتن، بە کۆڵانێکدا ھەڵھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When he saw the police arrive, he bolted down an alley.",
+                            kurdishText:
+                                "کە بینی پۆلیس گەشتن، بە کۆڵانێکدا ھەڵھات.",
+                            onPressedBritish: () => speakbolts9("en-GB"),
+                            onPressedAmerican: () => speakbolts9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٩. (ناو) خواردنی شتێک بە خێرایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Don't bolt your food!"),
-                                    ExampleSentenceKurdish(
-                                        text: "خواردنەکە ھەڵمەلووشە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolts10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolts10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don't bolt your food!",
+                            kurdishText: "خواردنەکە ھەڵمەلووشە!",
+                            onPressedBritish: () => speakbolts10("en-GB"),
+                            onPressedAmerican: () => speakbolts10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (کردار) وەستان لە پشتگیری گرووپێک یان پارتێکی سیاسی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many Democrats bolted the party to vote Republican."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆر دەنگدەری دیموکراتەکان وازیان لە پارتەکە ھێنا بۆ دەنگدان بە کۆمارییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolts11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolts11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many Democrats bolted the party to vote Republican.",
+                            kurdishText:
+                                "ژمارەیەکی زۆر دەنگدەری دیموکراتەکان وازیان لە پارتەکە ھێنا بۆ دەنگدان بە کۆمارییەکان.",
+                            onPressedBritish: () => speakbolts11("en-GB"),
+                            onPressedAmerican: () => speakbolts11("en-US"),
                           ),
                         ],
                       ),

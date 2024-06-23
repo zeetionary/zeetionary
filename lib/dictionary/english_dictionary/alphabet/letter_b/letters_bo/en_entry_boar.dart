@@ -149,32 +149,13 @@ class EnglishEntryboar extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەرازێکی نێرە کە بۆ زاوزێ بەکاردێت لە کێڵگەیەکدا، یان بەرازێکی کێوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A boar's diet consists of roots, fruits, and small animals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواردنی بەرازی نێرە پێکدێت لە ڕەگی دار و میوە و ئاژیڵی بچووک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A boar's diet consists of roots, fruits, and small animals.",
+                            kurdishText:
+                                "خواردنی بەرازی نێرە پێکدێت لە ڕەگی دار و میوە و ئاژیڵی بچووک.",
+                            onPressedBritish: () => speakboars1("en-GB"),
+                            onPressedAmerican: () => speakboars1("en-US"),
                           ),
                         ],
                       ),

@@ -116,96 +116,39 @@ class EnglishEntryaffirmation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) بە فەرمی ڕاگەیاندنی ئەوەی شتێک ڕاستە، یان ئەوەی کە پشتگیری شتێک بە تەواوی دەکەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We welcome the government's affirmation of its intention to act."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشوازی دەکەین لە پشت‌ڕاست‌کردنەوەی حکومەت لەوەی کەوا نیازی ھەیە ھەنگاو بنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffirmat144("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffirmat144(
-                                        // REPLACE: affirmation /ˌæfərˈmeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We welcome the government's affirmation of its intention to act.",
+                            kurdishText:
+                                "پێشوازی دەکەین لە پشت‌ڕاست‌کردنەوەی حکومەت لەوەی کەوا نیازی ھەیە ھەنگاو بنێت.",
+                            onPressedBritish: () => speakaffirmat144("en-GB"),
+                            onPressedAmerican: () => speakaffirmat144(
+                                // REPLACE: affirmation /ˌæfərˈmeɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some people need frequent affirmations of love from their partners."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کەس ماوە ماوە پێویستیان بە سەلماندنی خۆشەویستی لە ھاوسەرەکانیانەوە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffir25("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffir25(
-                                        // REPLACE: affirmation /ˌæfərˈmeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some people need frequent affirmations of love from their partners.",
+                            kurdishText:
+                                "ھەندێک کەس ماوە ماوە پێویستیان بە سەلماندنی خۆشەویستی لە ھاوسەرەکانیانەوە ھەیە.",
+                            onPressedBritish: () => speakaffir25("en-GB"),
+                            onPressedAmerican: () => speakaffir25(
+                                // REPLACE: affirmation /ˌæfərˈmeɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پشتیوانی سۆزداری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children were constantly looking for affirmation from their parents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان بەردەوام داوای ھەست و سۆزی دایک و باوکیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaff677("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaff677(
-                                        // REPLACE: affirmation /ˌæfərˈmeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children were constantly looking for affirmation from their parents.",
+                            kurdishText:
+                                "منداڵەکان بەردەوام داوای ھەست و سۆزی دایک و باوکیان دەکرد.",
+                            onPressedBritish: () => speakaff677("en-GB"),
+                            onPressedAmerican: () => speakaff677(
+                                // REPLACE: affirmation /ˌæfərˈmeɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

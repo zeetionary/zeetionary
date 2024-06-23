@@ -150,96 +150,39 @@ class EnglishEntryblackmail extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) تاوانی وەرگرتنی پارە لە کەسێک بە ھەڕەشە لێ کردنی بەوەی نھێنییەک لەسەری بە کەسێکی تر دەڵێیت """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you are in a position of authority, any weakness leaves you open to blackmail."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر لە پلەی دەسەڵاتداری بیت، ھەر لاوازییەک دەکرێت گەفکردن پێت ئاسان بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackmails1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackmails1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you are in a position of authority, any weakness leaves you open to blackmail.",
+                            kurdishText:
+                                "ئەگەر لە پلەی دەسەڵاتداری بیت، ھەر لاوازییەک دەکرێت گەفکردن پێت ئاسان بکات.",
+                            onPressedBritish: () => speakblackmails1("en-GB"),
+                            onPressedAmerican: () => speakblackmails1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کردەی پەستان خستنەسەر کەسێک یان گرووپێک بۆ کردنی شتێک کە نایانەوێت بیکەن، بۆ نموونە بە ھەڕەشەکردن لێیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We can’t let them practise this blackmail on us."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نابێت ڕێگەیان پی بدەین بەردەوام بن لەم کەڵەگاییە بەسەرمانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackmails2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackmails2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We can’t let them practise this blackmail on us.",
+                            kurdishText:
+                                "نابێت ڕێگەیان پی بدەین بەردەوام بن لەم کەڵەگاییە بەسەرمانەوە.",
+                            onPressedBritish: () => speakblackmails2("en-GB"),
+                            onPressedAmerican: () => speakblackmails2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) زۆرکردن لە کەسێک کە پارەت پێ بدات یان شتێکت بۆ بکات بە ھەڕەشەکردن لێی، بۆ نموونە بەوەی نھێنییەکانی ئەدرکێنی لەلای خەڵکی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She blackmailed him for years by threatening to tell the newspapers about their affair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ چەندین ساڵ گەفی پێ دەگێڕا بە ھەڕەشەکردنی ئەوەی ڕۆژنامەکان ئاگادار دەکاتەوە لە پەیوەندییەکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackmails3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackmails3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She blackmailed him for years by threatening to tell the newspapers about their affair.",
+                            kurdishText:
+                                "بۆ چەندین ساڵ گەفی پێ دەگێڕا بە ھەڕەشەکردنی ئەوەی ڕۆژنامەکان ئاگادار دەکاتەوە لە پەیوەندییەکەیان.",
+                            onPressedBritish: () => speakblackmails3("en-GB"),
+                            onPressedAmerican: () => speakblackmails3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

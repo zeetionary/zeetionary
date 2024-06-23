@@ -148,56 +148,18 @@ class EnglishEntryboring extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە بێزارکەرە و شەکەت و پشووت ناھیڵێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He's such a boring man!"),
-                                    ExampleSentenceKurdish(
-                                        text: "پیاوێکی زۆر بێزارکەرە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's such a boring man!",
+                            kurdishText: "پیاوێکی زۆر بێزارکەرە!",
+                            onPressedBritish: () => speakborings1("en-GB"),
+                            onPressedAmerican: () => speakborings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "That film was dead boring."),
-                                    ExampleSentenceKurdish(
-                                        text: "فیلمەکە تەواو ناخۆش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That film was dead boring.",
+                            kurdishText: "فیلمەکە تەواو ناخۆش بوو.",
+                            onPressedBritish: () => speakborings2("en-GB"),
+                            onPressedAmerican: () => speakborings2("en-US"),
                           ),
                         ],
                       ),

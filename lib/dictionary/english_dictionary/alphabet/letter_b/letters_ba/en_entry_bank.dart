@@ -231,493 +231,208 @@ class EnglishEntrybank extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دامەزراوەیەک کە ژمارەیەک خزمەتگوزاری دارایی پێشکەش دەکات، بۆ نموونە ھەڵگرتن و بەقەرزدانی پارە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't have much money in the bank at the end of the month."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتایی مانگەکەدا پارەم زۆر لە بانک نامێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks1(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't have much money in the bank at the end of the month.",
+                            kurdishText:
+                                "لە کۆتایی مانگەکەدا پارەم زۆر لە بانک نامێنێت.",
+                            onPressedBritish: () => speakbanks1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks1(// REPLACE: bank
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) لە قوماردا ئەو پارەیە کە خاوەنەکەی دەیخاتە گرەو و بەژداربووان دەتوانن بیبەنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The player's bank was dwindling after several losses."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارەی یاریزانەکە بەرەو کەمبوون دەچوو لە دوای ژمارەیەک دۆڕان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks2(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The player's bank was dwindling after several losses.",
+                            kurdishText:
+                                "پارەی یاریزانەکە بەرەو کەمبوون دەچوو لە دوای ژمارەیەک دۆڕان.",
+                            onPressedBritish: () => speakbanks2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks2(// REPLACE: bank
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ڕێژەیەک لە شت کە بەردەستە، یان ئەو شوێنەی کە تێیدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They intend to establish a bank of information which will be accessible to the public."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیانەوێت بانکێکی زانیاری درووست بکەن کە بەردەستبێت بۆ خەڵکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks3(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They intend to establish a bank of information which will be accessible to the public.",
+                            kurdishText:
+                                "دەیانەوێت بانکێکی زانیاری درووست بکەن کە بەردەستبێت بۆ خەڵکی.",
+                            onPressedBritish: () => speakbanks3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks3(// REPLACE: bank
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The blood bank is always in need of donations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانکی خوێنەکە ھەمیشە پێویستی بە بەخشینە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks4(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The blood bank is always in need of donations.",
+                            kurdishText:
+                                "بانکی خوێنەکە ھەمیشە پێویستی بە بەخشینە.",
+                            onPressedBritish: () => speakbanks4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks4(// REPLACE: bank
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) شوێنێک کە شتی تێدا دادەنرێت بۆ دووبارە بەکارھێنانەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Take old clothes and shoes to the recycling bank."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جل و پێڵاوی کۆن ببە بۆ بانکی دووبارەبەکارھێنانەوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks5(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Take old clothes and shoes to the recycling bank.",
+                            kurdishText:
+                                "جل و پێڵاوی کۆن ببە بۆ بانکی دووبارەبەکارھێنانەوەکە.",
+                            onPressedBritish: () => speakbanks5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks5(// REPLACE: bank
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) قەراخی ڕووبارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The river burst its banks after heavy rain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووبارەکە قەراخەکانی پڕکرد لە دوای بارانی خەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks6(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The river burst its banks after heavy rain.",
+                            kurdishText:
+                                "ڕووبارەکە قەراخەکانی پڕکرد لە دوای بارانی خەست.",
+                            onPressedBritish: () => speakbanks6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks6(// REPLACE: bank
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ناو) تەپۆلکە؛ ناوچەیەکی بەرز کە لە لاکەشەکانییەوە دادەبەزێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were low banks of earth between the rice fields."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەپۆلکەی نزمی زەوی ھەبوو لەنێوان کێڵگە برنجەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks7(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were low banks of earth between the rice fields.",
+                            kurdishText:
+                                "تەپۆلکەی نزمی زەوی ھەبوو لەنێوان کێڵگە برنجەکان.",
+                            onPressedBritish: () => speakbanks7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks7(// REPLACE: bank
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ناو) لێژاییەکی دەستکرد لە قەراخی ڕێگایەک کە لێژبووە بەرەو ناوەوە بۆ ڕێگری لە خلیسکان لە کاتی پێچکردنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The driver carefully navigated the sharp bend on the banked road."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆفێرەکە بەوریاییەوە دەرچوو بە پێچکردنەوە تیژەکە لەسەر ڕێگا لێژبووەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks8(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The driver carefully navigated the sharp bend on the banked road.",
+                            kurdishText:
+                                "شۆفێرەکە بەوریاییەوە دەرچوو بە پێچکردنەوە تیژەکە لەسەر ڕێگا لێژبووەکە.",
+                            onPressedBritish: () => speakbanks8("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks8(// REPLACE: bank
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (ناو) تۆپەڵێک لە ھەور، بەفر، ھتد، بەتایبەتی ئەگەر درووست بووبێت بەھۆی باوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sun disappeared behind a bank of clouds."),
-                                    ExampleSentenceKurdish(
-                                        text: "خۆر کەوتە پشت تۆپەڵە ھەورێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks9(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sun disappeared behind a bank of clouds.",
+                            kurdishText: "خۆر کەوتە پشت تۆپەڵە ھەورێک.",
+                            onPressedBritish: () => speakbanks9("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks9(// REPLACE: bank
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (ناو) زنجیرەیەک لە ھەمان شت، بەتایبەتی ئامێر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was faced with a huge bank of switches and buttons."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر لە سویچ و دووگمەی لەپێش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks10(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was faced with a huge bank of switches and buttons.",
+                            kurdishText:
+                                "ڕێژەیەکی زۆر لە سویچ و دووگمەی لەپێش بوو.",
+                            onPressedBritish: () => speakbanks10("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks10(// REPLACE: bank
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٠. (کردار) پارە خستنە بانک (لە دوای قازانجکردن)"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is believed to have banked (= been paid) £10 million in two years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕوایە ١٠ ملیۆن یۆرۆی قازانج کردبێت (خستبێتە بانک) لە دوو ساڵدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks11(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is believed to have banked (= been paid) £10 million in two years.",
+                            kurdishText:
+                                "باوەڕوایە ١٠ ملیۆن یۆرۆی قازانج کردبێت (خستبێتە بانک) لە دوو ساڵدا.",
+                            onPressedBritish: () => speakbanks11("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks11(// REPLACE: bank
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١١. (کردار) ھەبوونی ھەژمارێک بانکێکی دیاریکراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The family had banked with Bank of America for generations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێزانەکە بۆ چەندین نەوەیە ھەژماریان لە بانکی ئەمریکا ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks12(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The family had banked with Bank of America for generations.",
+                            kurdishText:
+                                "خێزانەکە بۆ چەندین نەوەیە ھەژماریان لە بانکی ئەمریکا ھەیە.",
+                            onPressedBritish: () => speakbanks12("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks12(// REPLACE: bank
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٢. (کردار) (فڕۆکە) گەشتکردن لەکاتێکدا لایەک بەرزترە لە لایەکی ترە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The pilot banked the plane to give passengers a better look at the mountain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەوانەکە فڕۆکەکەی خست بە لادا بۆ ئەوەی دیمەنێکی باشتری شاخەکە بدات بە گەشتیاران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks13(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The pilot banked the plane to give passengers a better look at the mountain.",
+                            kurdishText:
+                                "فڕۆکەوانەکە فڕۆکەکەی خست بە لادا بۆ ئەوەی دیمەنێکی باشتری شاخەکە بدات بە گەشتیاران.",
+                            onPressedBritish: () => speakbanks13("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks13(// REPLACE: bank
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٣. (کردار) درووستکردنی کەڵەکەیەک لە شت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The snow had banked up in the corner of the garden."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەفرەکە کەڵەکەی کردبوو لە سووچی باخچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks14(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The snow had banked up in the corner of the garden.",
+                            kurdishText:
+                                "بەفرەکە کەڵەکەی کردبوو لە سووچی باخچەکە.",
+                            onPressedBritish: () => speakbanks14("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks14(// REPLACE: bank
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٤. (کردار) کەڵەکەکردنی خەڵووز، ھتد لەسەر ئاگر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We banked up the fire (= put more coal on it) to keep it burning all night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگرەکەمان خۆشکردەوە بۆ ئەوەی تەواوی شەوەکە بسوتێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanks15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanks15(// REPLACE: bank
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We banked up the fire (= put more coal on it) to keep it burning all night.",
+                            kurdishText:
+                                "ئاگرەکەمان خۆشکردەوە بۆ ئەوەی تەواوی شەوەکە بسوتێت.",
+                            onPressedBritish: () => speakbanks15("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanks15(// REPLACE: bank
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

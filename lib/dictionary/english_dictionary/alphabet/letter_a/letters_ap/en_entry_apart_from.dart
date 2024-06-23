@@ -160,69 +160,28 @@ class EnglishEntryapartfrom extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ئامراز) جگە لە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've finished apart from the last question."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمووم تەواوکردە جگە لە کۆتا پرسیار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapartfrom1125("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapartfrom1125(
-                                        // REPLACE: apart from /əˈpɑːrt frəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've finished apart from the last question.",
+                            kurdishText: "ھەمووم تەواوکردە جگە لە کۆتا پرسیار.",
+                            onPressedBritish: () => speakapartfrom1125("en-GB"),
+                            onPressedAmerican: () => speakapartfrom1125(
+                                // REPLACE: apart from /əˈpɑːrt frəm/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ئامراز) سەرەڕای شتێک، ھەروەھا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Apart from their house in London, they also have a villa in Spain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جگە لە ماڵەکەیان لە لەندەن، ڤێلایەکیشیان لە ئیسپانیا ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapartfrom1127("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapartfrom1127(
-                                        // REPLACE: apart from /əˈpɑːrt frəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Apart from their house in London, they also have a villa in Spain.",
+                            kurdishText:
+                                "جگە لە ماڵەکەیان لە لەندەن، ڤێلایەکیشیان لە ئیسپانیا ھەبوو.",
+                            onPressedBritish: () => speakapartfrom1127("en-GB"),
+                            onPressedAmerican: () => speakapartfrom1127(
+                                // REPLACE: apart from /əˈpɑːrt frəm/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

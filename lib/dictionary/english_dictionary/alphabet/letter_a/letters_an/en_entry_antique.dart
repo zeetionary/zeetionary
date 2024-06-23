@@ -158,67 +158,29 @@ class EnglishEntryantique extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) شتی کۆن و گران‌بەھا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Priceless antiques were destroyed in the fire."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارچە ئەنتیکی گران‌بەھا لە ئاگرەکەدا لەناوچوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantique1140("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantique1140(
-                                        // REPLACE: antique /ænˈtiːk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Priceless antiques were destroyed in the fire.",
+                            kurdishText:
+                                "پارچە ئەنتیکی گران‌بەھا لە ئاگرەکەدا لەناوچوون.",
+                            onPressedBritish: () => speakantique1140("en-GB"),
+                            onPressedAmerican: () => speakantique1140(
+                                // REPLACE: antique /ænˈtiːk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) کۆن و گران‌بەھا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some antique jewelry sparkles and shines."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک خشڵی ئەنتیکە ھێشتا بریسکە و درەوشانەوەیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakantique1138("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantique1138(
-                                        // REPLACE: antique /ænˈtiːk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some antique jewelry sparkles and shines.",
+                            kurdishText:
+                                "ھەندێک خشڵی ئەنتیکە ھێشتا بریسکە و درەوشانەوەیان ھەیە.",
+                            onPressedBritish: () => speakantique1138("en-GB"),
+                            onPressedAmerican: () => speakantique1138(
+                                // REPLACE: antique /ænˈtiːk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

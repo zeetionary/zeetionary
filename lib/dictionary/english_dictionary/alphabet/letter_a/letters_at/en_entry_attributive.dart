@@ -162,35 +162,16 @@ class EnglishEntryattributive extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) ھاوەڵناوێک کە لە پێش ئەو ناوە بەکاردێت کە دەیناسێنێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In ‘the blue sky’ and ‘a family business’, ‘blue’ and ‘family’ are attributive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ‘the blue sky’ و ‘a family business’, ‘blue’ و ‘family’ ھاوەڵناوی پاڵدەرانەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattributive1121("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattributive1121(
-                                        // REPLACE: attributive
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In ‘the blue sky’ and ‘a family business’, ‘blue’ and ‘family’ are attributive.",
+                            kurdishText:
+                                "لە ‘the blue sky’ و ‘a family business’, ‘blue’ و ‘family’ ھاوەڵناوی پاڵدەرانەن.",
+                            onPressedBritish: () =>
+                                speakattributive1121("en-GB"),
+                            onPressedAmerican: () => speakattributive1121(
+                                // REPLACE: attributive
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

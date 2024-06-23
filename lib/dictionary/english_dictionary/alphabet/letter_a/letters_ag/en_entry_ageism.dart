@@ -114,34 +114,15 @@ class EnglishEntryageism extends StatelessWidget {
                               text:
                                   "١. (ناو) مامەڵەی خراپ لەگەڵ کەسانی بەتەمەن، زۆرجار لە شوێنی کارکردن، بەھۆی ئەوەی پیرن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At 56, no one would hire her, and she felt she was a victim of ageism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تەمەنی ٥٦ ساڵی کەس کاری پێنەدەدا، و ھەستی دەکرد قوربانیەکی تەمەنگەرییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagei148885("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagei148885(
-                                        // REPLACE: ageism /ˈeɪdʒɪzəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At 56, no one would hire her, and she felt she was a victim of ageism.",
+                            kurdishText:
+                                "لە تەمەنی ٥٦ ساڵی کەس کاری پێنەدەدا، و ھەستی دەکرد قوربانیەکی تەمەنگەرییە.",
+                            onPressedBritish: () => speakagei148885("en-GB"),
+                            onPressedAmerican: () => speakagei148885(
+                                // REPLACE: ageism /ˈeɪdʒɪzəm/
+                                "en-US"),
                           ),
                         ],
                       ),

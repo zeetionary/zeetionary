@@ -148,64 +148,25 @@ class EnglishEntryblacken extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ڕەشکردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their faces were blackened with soot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووخساریان لە دووکەڵدا ڕەشبوو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their faces were blackened with soot.",
+                            kurdishText: "ڕووخساریان لە دووکەڵدا ڕەشبوو بوو.",
+                            onPressedBritish: () => speakblackens1("en-GB"),
+                            onPressedAmerican: () => speakblackens1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) وتنی شتی خراپ لەسەر خەڵکی کە دەبێتە ھۆی ناشرینبوونی وێنایان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He accused the newspaper of trying to blacken his name."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆژنامەکەی تاوانبارکرد بە ھەوڵدان بۆ ناوزڕاندنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblackens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblackens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He accused the newspaper of trying to blacken his name.",
+                            kurdishText:
+                                "ڕۆژنامەکەی تاوانبارکرد بە ھەوڵدان بۆ ناوزڕاندنی.",
+                            onPressedBritish: () => speakblackens2("en-GB"),
+                            onPressedAmerican: () => speakblackens2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

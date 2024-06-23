@@ -151,32 +151,13 @@ class EnglishEntrybiologist extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە کاری لێکۆڵینەوەیە لە زانستی ژیان و پێکھاتەی ئاژەڵ و ڕووەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She’s a research biologist for a pharmaceutical company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیندەناسێکی توێژەرە بۆ کۆمپانیایەکی دەوا و دەرمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiologists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiologists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She’s a research biologist for a pharmaceutical company.",
+                            kurdishText:
+                                "زیندەناسێکی توێژەرە بۆ کۆمپانیایەکی دەوا و دەرمان.",
+                            onPressedBritish: () => speakbiologists1("en-GB"),
+                            onPressedAmerican: () => speakbiologists1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -149,63 +149,25 @@ class EnglishEntrybeige extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) ڕەنگی قاوەیی کاڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The walls are white and the ceiling is beige."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیوارەکان سپین و سەقفەکە قاوەیی کاڵە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeiges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeiges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The walls are white and the ceiling is beige.",
+                            kurdishText:
+                                "دیوارەکان سپین و سەقفەکە قاوەیی کاڵە.",
+                            onPressedBritish: () => speakbeiges1("en-GB"),
+                            onPressedAmerican: () => speakbeiges1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕەنگی قاوەیی کاڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The shoes are available in red or beige."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێڵاوەکان بەردەستن بە ڕەنگی سوور و قاوەیی کاڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeiges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeiges2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The shoes are available in red or beige.",
+                            kurdishText:
+                                "پێڵاوەکان بەردەستن بە ڕەنگی سوور و قاوەیی کاڵ.",
+                            onPressedBritish: () => speakbeiges2("en-GB"),
+                            onPressedAmerican: () => speakbeiges2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

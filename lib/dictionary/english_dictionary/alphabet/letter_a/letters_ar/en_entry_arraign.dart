@@ -159,33 +159,14 @@ class EnglishEntryarraign extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ھێنانی کەسێک بۆ دادگا بۆ ئەوەی بە فەرمی تاوانبار بکرێت بە تاوانێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He was arraigned for murder."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێنرایە دادگا بۆ تاوانبارکردنی بە تۆمەتی کووشتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarraign1239("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarraign1239(
-                                        // REPLACE: arraign /əˈreɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was arraigned for murder.",
+                            kurdishText:
+                                "ھێنرایە دادگا بۆ تاوانبارکردنی بە تۆمەتی کووشتن.",
+                            onPressedBritish: () => speakarraign1239("en-GB"),
+                            onPressedAmerican: () => speakarraign1239(
+                                // REPLACE: arraign /əˈreɪn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -161,67 +161,28 @@ class EnglishEntryaperture extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) کونێکی بچووک لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soldier fired the rifle through a narrow aperture in a pile of sandbags."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکە فیشەکێکی تەقاند لە کونێکی بچووکەوە لە کەڵەکەیەک کیسەلمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaperture201("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaperture201(
-                                        // REPLACE: aperture /ˈæpərtʃʊr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soldier fired the rifle through a narrow aperture in a pile of sandbags.",
+                            kurdishText:
+                                "سەربازەکە فیشەکێکی تەقاند لە کونێکی بچووکەوە لە کەڵەکەیەک کیسەلمەوە.",
+                            onPressedBritish: () => speakaperture201("en-GB"),
+                            onPressedAmerican: () => speakaperture201(
+                                // REPLACE: aperture /ˈæpərtʃʊr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کونێکی بچووک کە ڕێگە بە ڕووناکی دەدات بگات بە لێنزێک، بەتایبەتی لە کامێرادا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Binoculars of this aperture are very expensive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووربینەکانی ئەم دەرچەیە زۆر گرانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaperture204("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaperture204(
-                                        // REPLACE: aperture /ˈæpərtʃʊr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Binoculars of this aperture are very expensive.",
+                            kurdishText: "دووربینەکانی ئەم دەرچەیە زۆر گرانن.",
+                            onPressedBritish: () => speakaperture204("en-GB"),
+                            onPressedAmerican: () => speakaperture204(
+                                // REPLACE: aperture /ˈæpərtʃʊr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

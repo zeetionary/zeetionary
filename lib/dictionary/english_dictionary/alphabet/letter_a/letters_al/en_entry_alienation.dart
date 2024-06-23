@@ -116,68 +116,29 @@ class EnglishEntryalienation extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) دوورەپەرێزبوون" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new policy resulted in the alienation of many voters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیاسەتە تازەکە زۆر دەنگدەری وەلاخست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalienation73555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalienation73555(
-                                        // REPLACE: alienation /ˌeɪliəˈneɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new policy resulted in the alienation of many voters.",
+                            kurdishText: "سیاسەتە تازەکە زۆر دەنگدەری وەلاخست.",
+                            onPressedBritish: () =>
+                                speakalienation73555("en-GB"),
+                            onPressedAmerican: () => speakalienation73555(
+                                // REPLACE: alienation /ˌeɪliəˈneɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھەستی نامۆیی؛ ئەوەی کە لە شوێنی گونجاوی خۆت نیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many young people suffer from a sense of alienation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر کەسی گەنج بەدەست ھەستی نامۆیی دەناڵێنن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalienation422121("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalienation422121(
-                                        // REPLACE: alienation /ˌeɪliəˈneɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many young people suffer from a sense of alienation.",
+                            kurdishText:
+                                "زۆر کەسی گەنج بەدەست ھەستی نامۆیی دەناڵێنن.",
+                            onPressedBritish: () =>
+                                speakalienation422121("en-GB"),
+                            onPressedAmerican: () => speakalienation422121(
+                                // REPLACE: alienation /ˌeɪliəˈneɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

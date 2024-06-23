@@ -142,193 +142,78 @@ class EnglishEntryalien extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە خەڵکی ئەو وڵاتە نییە کە تێیدا دەژی یان کاردەکات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "During the war, he was imprisoned as an enemy alien."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتی جەنگەکەدا وەک ھاوڵاتییەکی دوژمن زیندانی کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalien46588("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalien46588(
-                                        // REPLACE: alien /ˈeɪliən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "During the war, he was imprisoned as an enemy alien.",
+                            kurdishText:
+                                "لە کاتی جەنگەکەدا وەک ھاوڵاتییەکی دوژمن زیندانی کرا.",
+                            onPressedBritish: () => speakalien46588("en-GB"),
+                            onPressedAmerican: () => speakalien46588(
+                                // REPLACE: alien /ˈeɪliən/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بوونەوەری ھەسارەیەک جگە لە زەوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Few movies represent intelligent aliens as physically different from humans."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەم فیلم بوونەوەری ئاسمانی لە ڕووی جەستەییەوە جیاواز لە مرۆڤ پیشان دەدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalien369222("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalien369222(
-                                        // REPLACE: alien /ˈeɪliən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Few movies represent intelligent aliens as physically different from humans.",
+                            kurdishText:
+                                "کەم فیلم بوونەوەری ئاسمانی لە ڕووی جەستەییەوە جیاواز لە مرۆڤ پیشان دەدەن.",
+                            onPressedBritish: () => speakalien369222("en-GB"),
+                            onPressedAmerican: () => speakalien369222(
+                                // REPLACE: alien /ˈeɪliən/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) نامۆ و ترسێنەر، جیاواز لەوەی ئاساییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In a world that had suddenly become alien and dangerous, he was her only security."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە جیھانێکدا کە جیاواز و ترسێنەرە، ئەو تەنھا پارێزەریەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalien49255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalien49255(
-                                        // REPLACE: alien /ˈeɪliən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In a world that had suddenly become alien and dangerous, he was her only security.",
+                            kurdishText:
+                                "لە جیھانێکدا کە جیاواز و ترسێنەرە، ئەو تەنھا پارێزەریەتی.",
+                            onPressedBritish: () => speakalien49255("en-GB"),
+                            onPressedAmerican: () => speakalien49255(
+                                // REPLACE: alien /ˈeɪliən/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) بیانی؛ خەڵکی وڵاتێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A part of me still feels alien in this country."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێکم ھێشتا ھەست بە بێگانەیی دەکات لەم وڵاتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalien3411("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalien3411(
-                                        // REPLACE: alien /ˈeɪliən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A part of me still feels alien in this country.",
+                            kurdishText:
+                                "بەشێکم ھێشتا ھەست بە بێگانەیی دەکات لەم وڵاتە.",
+                            onPressedBritish: () => speakalien3411("en-GB"),
+                            onPressedAmerican: () => speakalien3411(
+                                // REPLACE: alien /ˈeɪliən/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵناو) شتێکی نائاسایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The idea is alien to our religion."),
-                                    ExampleSentenceKurdish(
-                                        text: "بیرۆکەکە نامۆیە بە ئاینەکەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalien34177("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalien34177(
-                                        // REPLACE: alien /ˈeɪliən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The idea is alien to our religion.",
+                            kurdishText: "بیرۆکەکە نامۆیە بە ئاینەکەمان.",
+                            onPressedBritish: () => speakalien34177("en-GB"),
+                            onPressedAmerican: () => speakalien34177(
+                                // REPLACE: alien /ˈeɪliən/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ھاوەڵناو) پەیوەندیدار بە بوونەوەری دەرەوەی زەوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An alien spacecraft crashed into Earth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشتییەکی ئاسمانی بوونەوەری دیکە کێشای بە زەویدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalien35288("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalien35288(
-                                        // REPLACE: alien /ˈeɪliən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An alien spacecraft crashed into Earth.",
+                            kurdishText:
+                                "کەشتییەکی ئاسمانی بوونەوەری دیکە کێشای بە زەویدا.",
+                            onPressedBritish: () => speakalien35288("en-GB"),
+                            onPressedAmerican: () => speakalien35288(
+                                // REPLACE: alien /ˈeɪliən/
+                                "en-US"),
                           ),
                         ],
                       ),

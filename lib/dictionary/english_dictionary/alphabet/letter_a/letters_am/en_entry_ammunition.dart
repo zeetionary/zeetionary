@@ -178,68 +178,29 @@ class EnglishEntryammunition extends StatelessWidget {
 کوردی: تەقەمەنی، جبەخانە، بەھانە، پەڵپ، بیانوو
 """),
                           const DefinitionKurdish(text: "١. (ناو) تەقەمەنی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A few of the men had run out of ammunition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک لە پیاوەکان تەقەمەنییان پێ‌نەماوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakammunition8895("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakammunition8895(
-                                        // REPLACE: ammunition /ˌæmjəˈnɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A few of the men had run out of ammunition.",
+                            kurdishText:
+                                "ھەندێک لە پیاوەکان تەقەمەنییان پێ‌نەماوە.",
+                            onPressedBritish: () =>
+                                speakammunition8895("en-GB"),
+                            onPressedAmerican: () => speakammunition8895(
+                                // REPLACE: ammunition /ˌæmjəˈnɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) زانیاری کە دەکرێت بەکاربھێنرێت دژ بە کەسێک لە مشتومڕێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The letter gave her all the ammunition she needed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەکە ھەموو زانیارییەکی پێدا کە پێویستی‌ بوو لە دژی ئەو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakammunition411("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakammunition411(
-                                        // REPLACE: ammunition /ˌæmjəˈnɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The letter gave her all the ammunition she needed.",
+                            kurdishText:
+                                "نامەکە ھەموو زانیارییەکی پێدا کە پێویستی‌ بوو لە دژی ئەو.",
+                            onPressedBritish: () => speakammunition411("en-GB"),
+                            onPressedAmerican: () => speakammunition411(
+                                // REPLACE: ammunition /ˌæmjəˈnɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

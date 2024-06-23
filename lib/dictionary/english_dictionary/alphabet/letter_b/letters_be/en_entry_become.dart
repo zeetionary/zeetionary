@@ -150,174 +150,58 @@ class EnglishEntrybecome extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) بوون بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It soon became apparent that no one was going to come."),
-                                    ExampleSentenceKurdish(
-                                        text: "زوو ڕوونبوویەوە کە کەس نایەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbecomes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbecomes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It soon became apparent that no one was going to come.",
+                            kurdishText: "زوو ڕوونبوویەوە کە کەس نایەت.",
+                            onPressedBritish: () => speakbecomes1("en-GB"),
+                            onPressedAmerican: () => speakbecomes1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When did you first become aware of the problem?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەی بۆ یەکەمجار ئاگاداری کێشەکە بوویت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbecomes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbecomes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When did you first become aware of the problem?",
+                            kurdishText:
+                                "کەی بۆ یەکەمجار ئاگاداری کێشەکە بوویت؟",
+                            onPressedBritish: () => speakbecomes2("en-GB"),
+                            onPressedAmerican: () => speakbecomes2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She became queen in 1952."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ساڵی ١٩٥٢ بوو بە شاژن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbecomes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbecomes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She became queen in 1952.",
+                            kurdishText: "لە ساڵی ١٩٥٢ بوو بە شاژن.",
+                            onPressedBritish: () => speakbecomes3("en-GB"),
+                            onPressedAmerican: () => speakbecomes3("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His job has become his whole life."),
-                                    ExampleSentenceKurdish(
-                                        text: "کارەکەی بوو بە تەواوی ژیانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbecomes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbecomes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His job has become his whole life.",
+                            kurdishText: "کارەکەی بوو بە تەواوی ژیانی.",
+                            onPressedBritish: () => speakbecomes4("en-GB"),
+                            onPressedAmerican: () => speakbecomes4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) گونجاو بۆ کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Such behaviour did not become her."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕەفتاری وا لەو نەدەوەشاوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbecomes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbecomes5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Such behaviour did not become her.",
+                            kurdishText: "ڕەفتاری وا لەو نەدەوەشاوە.",
+                            onPressedBritish: () => speakbecomes5("en-GB"),
+                            onPressedAmerican: () => speakbecomes5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) جوان دەرکەوتن لە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Short hair really becomes you."),
-                                    ExampleSentenceKurdish(
-                                        text: "قژی کورتت لێ دێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbecomes6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbecomes6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Short hair really becomes you.",
+                            kurdishText: "قژی کورتت لێ دێت.",
+                            onPressedBritish: () => speakbecomes6("en-GB"),
+                            onPressedAmerican: () => speakbecomes6("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

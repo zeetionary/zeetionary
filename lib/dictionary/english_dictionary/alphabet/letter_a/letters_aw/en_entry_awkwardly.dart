@@ -157,132 +157,53 @@ class EnglishEntryawkwardly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بەشێوەیەک کە وات لێ‌دەکات شەرمەزار بیت، یان شەرمەزاری پیشان دەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘I'm sorry,’ he said awkwardly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە شەرمەزارییەوە وتی 'بمبوورە'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawkwardlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawkwardlys1(// REPLACE: awkwardly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "‘I'm sorry,’ he said awkwardly.",
+                            kurdishText: "بە شەرمەزارییەوە وتی 'بمبوورە'.",
+                            onPressedBritish: () => speakawkwardlys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawkwardlys1(// REPLACE: awkwardly
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەشێوەیەک کە ئاسان نییە مامەڵەی لەگەڵ بکەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The publication of the economic statistics was awkwardly timed for the government."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڵاوکردنەوەی ئامارە ئابوورییەکان لەکاتێکی نالەبار بوو بۆ حکومەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawkwardlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawkwardlys2(// REPLACE: awkwardly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The publication of the economic statistics was awkwardly timed for the government.",
+                            kurdishText:
+                                "بڵاوکردنەوەی ئامارە ئابوورییەکان لەکاتێکی نالەبار بوو بۆ حکومەت.",
+                            onPressedBritish: () => speakawkwardlys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawkwardlys2(// REPLACE: awkwardly
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) بەشێوەیەک کە مەترستدارە یان ئاسان نییە مامەڵەی لەگەڵ بکەیت بەھۆی شێوە یان دیزاین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The car was parked awkwardly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە بەشێوەیەکی خراپ پارک کرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawkwardlys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawkwardlys3(// REPLACE: awkwardly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The car was parked awkwardly.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە بەشێوەیەکی خراپ پارک کرابوو.",
+                            onPressedBritish: () => speakawkwardlys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawkwardlys3(// REPLACE: awkwardly
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵکار) جوڵان بەشێوەیەکی نائاسوودە یان ناسرووشتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She fell awkwardly and broke her ankle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەکی نائاسایی کەوت و لاقی شکا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawkwardlys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawkwardlys4(// REPLACE: awkwardly
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She fell awkwardly and broke her ankle.",
+                            kurdishText: "بەشێوەیەکی نائاسایی کەوت و لاقی شکا.",
+                            onPressedBritish: () => speakawkwardlys4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawkwardlys4(// REPLACE: awkwardly
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

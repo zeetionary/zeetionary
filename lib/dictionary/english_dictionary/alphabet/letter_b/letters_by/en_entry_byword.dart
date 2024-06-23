@@ -193,91 +193,33 @@ class EnglishEntrybyword extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک/شتێک کە زۆر باش ناسراوە و نموونەی بەرچاوی شتێکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The name Chanel became a byword for elegance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوی شانێل بوو بە ھێمای کەشخەیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "byword", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbywords1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbywords1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The name Chanel became a byword for elegance.",
+                            kurdishText:
+                                "ناوی شانێل بوو بە ھێمای کەشخەیی.", // byword", follow LX strictly
+                            onPressedBritish: () => speakbywords1("en-GB"),
+                            onPressedAmerican: () => speakbywords1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their products are a byword for good value."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرھەمەکانیان نموونەی کوالێتی باشن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbywords2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbywords2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their products are a byword for good value.",
+                            kurdishText: "بەرھەمەکانیان نموونەی کوالێتی باشن.",
+                            onPressedBritish: () => speakbywords2("en-GB"),
+                            onPressedAmerican: () => speakbywords2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) وشەیەک یان زاراوەیەک کە باش زانراوە و زۆرجار بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "'Actions speak louder than words' is often used as a byword for emphasizing the importance of deeds over speech."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "'کردار شەرتە' زۆرجار وەک وتەی سەرزار بەکاردێت بۆ جەختکردنەوە لە گرنگی کردار وەک لە قسە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbywords3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbywords3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "'Actions speak louder than words' is often used as a byword for emphasizing the importance of deeds over speech.",
+                            kurdishText:
+                                "'کردار شەرتە' زۆرجار وەک وتەی سەرزار بەکاردێت بۆ جەختکردنەوە لە گرنگی کردار وەک لە قسە.",
+                            onPressedBritish: () => speakbywords3("en-GB"),
+                            onPressedAmerican: () => speakbywords3("en-US"),
                           ),
                         ],
                       ),

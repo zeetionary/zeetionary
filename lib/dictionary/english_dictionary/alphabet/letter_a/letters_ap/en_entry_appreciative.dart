@@ -162,69 +162,30 @@ class EnglishEntryappreciative extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) ھەبوونی ھەستی پێزانین و سوپاسگوزاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company was very appreciative of my efforts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە پێزانینی ھەبوو بۆ ھەوڵەکانم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciative833("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciative833(
-                                        // REPLACE: appreciative /əˈpriːʃətɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company was very appreciative of my efforts.",
+                            kurdishText:
+                                "کۆمپانیاکە پێزانینی ھەبوو بۆ ھەوڵەکانم.",
+                            onPressedBritish: () =>
+                                speakappreciative833("en-GB"),
+                            onPressedAmerican: () => speakappreciative833(
+                                // REPLACE: appreciative /əˈpriːʃətɪv/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پیشاندانی چێژ و خۆشی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The audience was highly appreciative."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەماوەرەکە زۆر بە حەماسەت بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciative835("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciative835(
-                                        // REPLACE: appreciative /əˈpriːʃətɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The audience was highly appreciative.",
+                            kurdishText: "جەماوەرەکە زۆر بە حەماسەت بوون.",
+                            onPressedBritish: () =>
+                                speakappreciative835("en-GB"),
+                            onPressedAmerican: () => speakappreciative835(
+                                // REPLACE: appreciative /əˈpriːʃətɪv/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

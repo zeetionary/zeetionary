@@ -147,32 +147,13 @@ class EnglishEntrybough extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) لقێکی گەورەی دارێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Birds rested on the sturdy oak bough."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باڵندە لەسەر شالقە پتەوەکانی دارەکە دەنیشتنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboughs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboughs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Birds rested on the sturdy oak bough.",
+                            kurdishText:
+                                "باڵندە لەسەر شالقە پتەوەکانی دارەکە دەنیشتنەوە.",
+                            onPressedBritish: () => speakboughs1("en-GB"),
+                            onPressedAmerican: () => speakboughs1("en-US"),
                           ),
                         ],
                       ),

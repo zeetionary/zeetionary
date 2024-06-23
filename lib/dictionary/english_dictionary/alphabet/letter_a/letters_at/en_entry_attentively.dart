@@ -165,69 +165,30 @@ class EnglishEntryattentively extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بەوریاییەوە، بەشێوەیەک کە حەزی زۆر پیشاندەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children listened attentively to the story."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان بەوریاییەوە گوێیان دەگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattentively913("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattentively913(
-                                        // REPLACE: attentively
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children listened attentively to the story.",
+                            kurdishText: "منداڵەکان بەوریاییەوە گوێیان دەگرت.",
+                            onPressedBritish: () =>
+                                speakattentively913("en-GB"),
+                            onPressedAmerican: () => speakattentively913(
+                                // REPLACE: attentively
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) خەمخۆرانە، بەشێوەیەک ھەرشتێک پێویست بێت بەردەستی دەخەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The landlady cared attentively for her residents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاوەنەکە خەمخۆرانە گرنگی دەدا بە کرێچییەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattentively917("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattentively917(
-                                        // REPLACE: attentively
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The landlady cared attentively for her residents.",
+                            kurdishText:
+                                "خاوەنەکە خەمخۆرانە گرنگی دەدا بە کرێچییەکانی.",
+                            onPressedBritish: () =>
+                                speakattentively917("en-GB"),
+                            onPressedAmerican: () => speakattentively917(
+                                // REPLACE: attentively
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

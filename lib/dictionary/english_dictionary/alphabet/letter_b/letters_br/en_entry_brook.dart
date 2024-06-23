@@ -143,118 +143,40 @@ class EnglishEntrybrook extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕووبارێکی بچووک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We'll have to cross the brook to get to the road."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت لە جۆگەکە بپەڕینەوە بۆ ئەوەی بگەین بە ڕێگاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brook" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrooks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrooks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We'll have to cross the brook to get to the road.",
+                            kurdishText:
+                                "دەبێت لە جۆگەکە بپەڕینەوە بۆ ئەوەی بگەین بە ڕێگاکە.", // brook" as
+                            onPressedBritish: () => speakbrooks1("en-GB"),
+                            onPressedAmerican: () => speakbrooks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The road goes over a small brook."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگاکە بەسەر جۆگەیەکی بچووکدا دەچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrooks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrooks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The road goes over a small brook.",
+                            kurdishText: "ڕێگاکە بەسەر جۆگەیەکی بچووکدا دەچێت.",
+                            onPressedBritish: () => speakbrooks2("en-GB"),
+                            onPressedAmerican: () => speakbrooks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) ڕێگەنەدان بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The tone in his voice brooked no argument."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆنی قسەکردنی ھیچ ڕێگەی بە ناڕەزایی دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrooks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrooks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The tone in his voice brooked no argument.",
+                            kurdishText:
+                                "تۆنی قسەکردنی ھیچ ڕێگەی بە ناڕەزایی دەدا.",
+                            onPressedBritish: () => speakbrooks3("en-GB"),
+                            onPressedAmerican: () => speakbrooks3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She would brook no criticism of her son."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگەی بە ھیچ سەرزەنشتێکی کوڕەکەی نەدەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrooks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrooks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She would brook no criticism of her son.",
+                            kurdishText:
+                                "ڕێگەی بە ھیچ سەرزەنشتێکی کوڕەکەی نەدەدا.",
+                            onPressedBritish: () => speakbrooks4("en-GB"),
+                            onPressedAmerican: () => speakbrooks4("en-US"),
                           ),
                         ],
                       ),

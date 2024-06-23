@@ -116,34 +116,15 @@ class EnglishEntryadministrative extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە بەڕێوەبردنی شوێنێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your responsibilities will be mainly administrative."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسیاریەتییەکانتان زیاتر کارگێڕی دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmin25687("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmin25687(
-                                        // REPLACE: administrative /ədˈmɪnɪstreɪtɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your responsibilities will be mainly administrative.",
+                            kurdishText:
+                                "بەرپرسیاریەتییەکانتان زیاتر کارگێڕی دەبێت.",
+                            onPressedBritish: () => speakadmin25687("en-GB"),
+                            onPressedAmerican: () => speakadmin25687(
+                                // REPLACE: administrative /ədˈmɪnɪstreɪtɪv/
+                                "en-US"),
                           ),
                         ],
                       ),

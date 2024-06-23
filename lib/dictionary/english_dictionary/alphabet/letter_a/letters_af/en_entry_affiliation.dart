@@ -115,34 +115,15 @@ class EnglishEntryaffiliation extends StatelessWidget {
                               text:
                                   "١. (ناو) پەیوەندی لەگەڵ پارتێک یان ڕێکخراوێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The group has affiliations with several organizations abroad."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرووپەکە پەیوەندی ھەیە لەگەڵ ژمارەیەک ڕێکخراوی بیانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffili628("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffili628(
-                                        // REPLACE: affiliation /əˌfɪliˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The group has affiliations with several organizations abroad.",
+                            kurdishText:
+                                "گرووپەکە پەیوەندی ھەیە لەگەڵ ژمارەیەک ڕێکخراوی بیانی.",
+                            onPressedBritish: () => speakaffili628("en-GB"),
+                            onPressedAmerican: () => speakaffili628(
+                                // REPLACE: affiliation /əˌfɪliˈeɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

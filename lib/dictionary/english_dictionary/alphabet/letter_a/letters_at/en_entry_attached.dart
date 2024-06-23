@@ -164,133 +164,56 @@ class EnglishEntryattached extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) لکێندراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Make sure all the wires remain firmly attached."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیابەرەوە ھەموو وایەرەکان بەتوندی پێکەوەنووساون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattached340("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattached340(// REPLACE: attached
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Make sure all the wires remain firmly attached.",
+                            kurdishText:
+                                "دڵنیابەرەوە ھەموو وایەرەکان بەتوندی پێکەوەنووساون.",
+                            onPressedBritish: () => speakattached340("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattached340(// REPLACE: attached
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) حەزکردن لە شتێک بە ئاستێکی زۆر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We've grown very attached to this house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەورەبووینە بەوەی زۆر دڵبەستەی ئەم ماڵە بووینە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattached342("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattached342(// REPLACE: attached
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We've grown very attached to this house.",
+                            kurdishText:
+                                "گەورەبووینە بەوەی زۆر دڵبەستەی ئەم ماڵە بووینە.",
+                            onPressedBritish: () => speakattached342("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattached342(// REPLACE: attached
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) لە پەیوەندی ھاوسەرگیری یان ڕۆمانسیدا لەگەڵ کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It would be nice to meet some more guys who aren't attached."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆش ئەبێت ئەگەر ھەندێک پیاوی دیکە ببینین کە ھاوسەرگیریان نەکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattached345("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattached345(// REPLACE: attached
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It would be nice to meet some more guys who aren't attached.",
+                            kurdishText:
+                                "خۆش ئەبێت ئەگەر ھەندێک پیاوی دیکە ببینین کە ھاوسەرگیریان نەکردووە.",
+                            onPressedBritish: () => speakattached345("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattached345(// REPLACE: attached
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) کارکردن بۆ ڕێکخراوێک، یان بوون بە بەشێک لێی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The research unit is attached to the university."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکەی توێژینەوەکە بەشێکە لە زانکۆکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattached346("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattached346(// REPLACE: attached
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The research unit is attached to the university.",
+                            kurdishText: "یەکەی توێژینەوەکە بەشێکە لە زانکۆکە.",
+                            onPressedBritish: () => speakattached346("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattached346(// REPLACE: attached
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

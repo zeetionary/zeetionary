@@ -159,129 +159,51 @@ class EnglishEntryanyone extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (جێناو) بەکاردێت بۆ ئاماژە بۆ کەسێک لە ڕستەی نەرێ و پرسیاری، لە دوای if و whether، و لە دوای ھەندێک کردار، بۆ نموونە prevent و forbid و avoid"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Does anyone else want to come?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کەسی تر دەیەوێت بێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanyone926("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanyone926(
-                                        // REPLACE: anyone /ˈeniwʌn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Does anyone else want to come?",
+                            kurdishText: "کەسی تر دەیەوێت بێت؟",
+                            onPressedBritish: () => speakanyone926("en-GB"),
+                            onPressedAmerican: () => speakanyone926(
+                                // REPLACE: anyone /ˈeniwʌn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I forbid anyone to touch that clock."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگە بە کەس نادەم دەست لەو کاتژمێرە بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanyone927("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanyone927(
-                                        // REPLACE: anyone /ˈeniwʌn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I forbid anyone to touch that clock.",
+                            kurdishText:
+                                "ڕێگە بە کەس نادەم دەست لەو کاتژمێرە بدات.",
+                            onPressedBritish: () => speakanyone927("en-GB"),
+                            onPressedAmerican: () => speakanyone927(
+                                // REPLACE: anyone /ˈeniwʌn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (جێناو) ھەرکەس بێ، گرنگ نییە کێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Anyone can see that it's wrong."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو کەس دەتوانێ ببینێت ئەوە ھەڵەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanyone929("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanyone929(
-                                        // REPLACE: anyone /ˈeniwʌn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Anyone can see that it's wrong.",
+                            kurdishText:
+                                "ھەموو کەس دەتوانێ ببینێت ئەوە ھەڵەیە.",
+                            onPressedBritish: () => speakanyone929("en-GB"),
+                            onPressedAmerican: () => speakanyone929(
+                                // REPLACE: anyone /ˈeniwʌn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (جێناو) لە ڕستەی نەرێدا بە واتای کەسێکی گرنگ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wasn't anyone before she got that job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێکی گرنگ نەبوو پێش وەرگرتنی کارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanyone931("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanyone931(
-                                        // REPLACE: anyone /ˈeniwʌn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She wasn't anyone before she got that job.",
+                            kurdishText:
+                                "کەسێکی گرنگ نەبوو پێش وەرگرتنی کارەکە.",
+                            onPressedBritish: () => speakanyone931("en-GB"),
+                            onPressedAmerican: () => speakanyone931(
+                                // REPLACE: anyone /ˈeniwʌn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

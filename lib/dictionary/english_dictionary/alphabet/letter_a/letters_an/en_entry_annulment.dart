@@ -157,34 +157,15 @@ class EnglishEntryannulment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کرداری بەفەرمی ناساندنی ئەوەی شتێک، بەتایبەتی ھاوسەرگیری، لەڕووی یاساییەوە نەناسراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Henry VIII sought an annulment of his marriage to Catherine of Aragon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاشا ھەوڵی‌دا ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆندا ھەڵبوەشێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannulment917("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannulment917(
-                                        // REPLACE: annulment /əˈnʌlmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Henry VIII sought an annulment of his marriage to Catherine of Aragon.",
+                            kurdishText:
+                                "پاشا ھەوڵی‌دا ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆندا ھەڵبوەشێنێتەوە.",
+                            onPressedBritish: () => speakannulment917("en-GB"),
+                            onPressedAmerican: () => speakannulment917(
+                                // REPLACE: annulment /əˈnʌlmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

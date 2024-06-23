@@ -156,35 +156,15 @@ class EnglishEntryancestral extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پەیوەندیدار بە باوانی کەسێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They had long planned to visit the family's ancestral homeland in the Philippines."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماوەیەکی زۆر بوو پلانیان بوو سەردانی نیشتیمانی باوانیان بکەن کە لە فلیپین بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakancestral4609("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakancestral4609(
-                                        // REPLACE: ancestral /ænˈsestrəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They had long planned to visit the family's ancestral homeland in the Philippines.",
+                            kurdishText:
+                                "ماوەیەکی زۆر بوو پلانیان بوو سەردانی نیشتیمانی باوانیان بکەن کە لە فلیپین بوو.",
+                            onPressedBritish: () => speakancestral4609("en-GB"),
+                            onPressedAmerican: () => speakancestral4609(
+                                // REPLACE: ancestral /ænˈsestrəl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

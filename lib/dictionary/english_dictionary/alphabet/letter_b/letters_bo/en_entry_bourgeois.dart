@@ -152,124 +152,47 @@ class EnglishEntrybourgeois extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە لە چینی ناوەڕاستە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hat identified him as a bourgeois."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڵاوەکەی پیشانی دا کە سەر بە بورژوایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbourgeoiss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbourgeoiss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hat identified him as a bourgeois.",
+                            kurdishText:
+                                "کڵاوەکەی پیشانی دا کە سەر بە بورژوایە.",
+                            onPressedBritish: () => speakbourgeoiss1("en-GB"),
+                            onPressedAmerican: () => speakbourgeoiss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە گرنگی بە سەروەت و سامان و پێگەی کۆمەڵایەتی دەدات لەگەڵ پشتگیری بەھا کۆنەکان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'd forgotten what a bourgeois you are."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەبیرم چووبوو کە چەندە بورژوایت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbourgeoiss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbourgeoiss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'd forgotten what a bourgeois you are.",
+                            kurdishText: "لەبیرم چووبوو کە چەندە بورژوایت.",
+                            onPressedBritish: () => speakbourgeoiss2("en-GB"),
+                            onPressedAmerican: () => speakbourgeoiss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) سەر بە چینی ناوەڕاست"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's a bit bourgeois, isn't it, joining a golf club?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیوەندیکردن بە یانەیەکی گۆڵفەوە کەمێک بورژوایانەیە، وانییە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbourgeoiss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbourgeoiss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's a bit bourgeois, isn't it, joining a golf club?",
+                            kurdishText:
+                                "پەیوەندیکردن بە یانەیەکی گۆڵفەوە کەمێک بورژوایانەیە، وانییە؟",
+                            onPressedBritish: () => speakbourgeoiss3("en-GB"),
+                            onPressedAmerican: () => speakbourgeoiss3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) حەز بۆ سەروەت و سامان و پێگەی کۆمەڵایەتی و پشتگیری بەھا کۆنەکان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They've become very bourgeois since they got married."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەوەتەی ھاوسەرگیریان کردووە زۆر بورژوا بوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbourgeoiss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbourgeoiss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They've become very bourgeois since they got married.",
+                            kurdishText:
+                                "لەوەتەی ھاوسەرگیریان کردووە زۆر بورژوا بوونە.",
+                            onPressedBritish: () => speakbourgeoiss4("en-GB"),
+                            onPressedAmerican: () => speakbourgeoiss4("en-US"),
                           ),
                         ],
                       ),

@@ -146,60 +146,22 @@ class EnglishEntrybloodbath extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دۆخێک کە تێیدا ژمارەیەکی زۆر خەڵک بە دڕندەیی دەکوژرێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have threatened a bloodbath if he does not resign."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڕەشەی گۆماوی خوێنیان کردووە ئەگەر دەستلەکارنەکێشێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodbaths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodbaths1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have threatened a bloodbath if he does not resign.",
+                            kurdishText:
+                                "ھەڕەشەی گۆماوی خوێنیان کردووە ئەگەر دەستلەکارنەکێشێتەوە.",
+                            onPressedBritish: () => speakbloodbaths1("en-GB"),
+                            onPressedAmerican: () => speakbloodbaths1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Is there nothing that the outside world can do to prevent a bloodbath?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ شتێک نییە جیھانی دەرەوە بیکات بۆ ڕێگری لە کۆمەڵکوژی؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodbaths2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodbaths2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Is there nothing that the outside world can do to prevent a bloodbath?",
+                            kurdishText:
+                                "ھیچ شتێک نییە جیھانی دەرەوە بیکات بۆ ڕێگری لە کۆمەڵکوژی؟",
+                            onPressedBritish: () => speakbloodbaths2("en-GB"),
+                            onPressedAmerican: () => speakbloodbaths2("en-US"),
                           ),
                         ],
                       ),

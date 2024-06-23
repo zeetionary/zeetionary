@@ -113,34 +113,15 @@ class EnglishEntryaerosol extends StatelessWidget {
                               text:
                                   "١. (ناو) شلەیەک کە لەناو بوتڵێک دەخرێت و وەک سپرەی دەڕژێنرێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Aerosol cans are banned from aircraft cabins."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوتووە پرژێنە قەدەغەیە لەناو فڕۆکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaero63844("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaero63844(
-                                        // REPLACE: aerosol /ˈerəsɒl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Aerosol cans are banned from aircraft cabins.",
+                            kurdishText:
+                                "قوتووە پرژێنە قەدەغەیە لەناو فڕۆکەدا.",
+                            onPressedBritish: () => speakaero63844("en-GB"),
+                            onPressedAmerican: () => speakaero63844(
+                                // REPLACE: aerosol /ˈerəsɒl/
+                                "en-US"),
                           ),
                         ],
                       ),

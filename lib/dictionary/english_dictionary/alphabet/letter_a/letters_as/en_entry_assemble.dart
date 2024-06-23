@@ -163,98 +163,40 @@ class EnglishEntryassemble extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) کۆکردنەوە یان کۆبوونەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All the students were asked to assemble in the main hall."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو خوێندکاران داوایان لێ‌کرا لە ھۆڵە سەرەکییەکە کۆببنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassemble925("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassemble925(
-                                        // REPLACE: assemble /əˈsembl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All the students were asked to assemble in the main hall.",
+                            kurdishText:
+                                "ھەموو خوێندکاران داوایان لێ‌کرا لە ھۆڵە سەرەکییەکە کۆببنەوە.",
+                            onPressedBritish: () => speakassemble925("en-GB"),
+                            onPressedAmerican: () => speakassemble925(
+                                // REPLACE: assemble /əˈsembl/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She then addressed the assembled company (= all the people there)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دواتر قسەی بۆ تەواوی کۆمپانیاکە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassemble926("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassemble926(
-                                        // REPLACE: assemble /əˈsembl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She then addressed the assembled company (= all the people there).",
+                            kurdishText: "دواتر قسەی بۆ تەواوی کۆمپانیاکە کرد.",
+                            onPressedBritish: () => speakassemble926("en-GB"),
+                            onPressedAmerican: () => speakassemble926(
+                                // REPLACE: assemble /əˈsembl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) کۆکردنەوە یان کۆبوونەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I spent an hour assembling the furniture."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەک کاتژمێرم بەسەربرد بە پێکەوەنانی کەلوپەلەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassemble929("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassemble929(
-                                        // REPLACE: assemble /əˈsembl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I spent an hour assembling the furniture.",
+                            kurdishText:
+                                "یەک کاتژمێرم بەسەربرد بە پێکەوەنانی کەلوپەلەکان.",
+                            onPressedBritish: () => speakassemble929("en-GB"),
+                            onPressedAmerican: () => speakassemble929(
+                                // REPLACE: assemble /əˈsembl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

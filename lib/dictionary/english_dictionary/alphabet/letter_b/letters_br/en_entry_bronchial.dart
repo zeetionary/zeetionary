@@ -140,32 +140,13 @@ class EnglishEntrybronchial extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پەیوەندیدار بەو بۆڕیچکانەی کە لە قوڕگەوە ھەوا دەگوازنەوە بۆ سنگ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had bronchial pneumonia as a child."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە منداڵ بوو ھەوکردنی لە لقە بۆرییەکانی ھەوای ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bronchial" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbronchials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbronchials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had bronchial pneumonia as a child.",
+                            kurdishText:
+                                "کە منداڵ بوو ھەوکردنی لە لقە بۆرییەکانی ھەوای ھەبوو.", // bronchial" as
+                            onPressedBritish: () => speakbronchials1("en-GB"),
+                            onPressedAmerican: () => speakbronchials1("en-US"),
                           ),
                         ],
                       ),

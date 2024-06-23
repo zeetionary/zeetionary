@@ -231,422 +231,173 @@ class EnglishEntryapproach extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ڕێگای مامەڵەکردن لەگەڵ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She took the wrong approach in her dealings with them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگایەکی ھەڵەی گرتە بەر بۆ مامەڵەکردن لەگەڵیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproach1026("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproach1026(
-                                        // REPLACE: approach /əˈprəʊtʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She took the wrong approach in her dealings with them.",
+                            kurdishText:
+                                "ڕێگایەکی ھەڵەی گرتە بەر بۆ مامەڵەکردن لەگەڵیان.",
+                            onPressedBritish: () => speakapproach1026("en-GB"),
+                            onPressedAmerican: () => speakapproach1026(
+                                // REPLACE: approach /əˈprəʊtʃ/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The approach they were using no longer seemed to work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ڕێگایەی بەکاریان دەھێنا چی دیکە گونجاو نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproach1028("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproach1028(
-                                        // REPLACE: approach /əˈprəʊtʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The approach they were using no longer seemed to work.",
+                            kurdishText:
+                                "ئەو ڕێگایەی بەکاریان دەھێنا چی دیکە گونجاو نەبوو.",
+                            onPressedBritish: () => speakapproach1028("en-GB"),
+                            onPressedAmerican: () => speakapproach1028(
+                                // REPLACE: approach /əˈprəʊtʃ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) نزیکبوونەوە لە شتێک لەڕووی دورییەوە یان کات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They felt apprehensive about the approach of war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیگەران‌بوون سەبارەت بە نزیکبوونەوە لە جەنگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproach1030("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproach1030(
-                                        // REPLACE: approach /əˈprəʊtʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They felt apprehensive about the approach of war.",
+                            kurdishText:
+                                "نیگەران‌بوون سەبارەت بە نزیکبوونەوە لە جەنگ.",
+                            onPressedBritish: () => speakapproach1030("en-GB"),
+                            onPressedAmerican: () => speakapproach1030(
+                                // REPLACE: approach /əˈprəʊtʃ/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children fell silent at the approach of their teacher."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان بێ‌دەنگ بوون بە نزیکبوونەوەی مامۆستاکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproach1031("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproach1031(
-                                        // REPLACE: approach /əˈprəʊtʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children fell silent at the approach of their teacher.",
+                            kurdishText:
+                                "منداڵەکان بێ‌دەنگ بوون بە نزیکبوونەوەی مامۆستاکەیان.",
+                            onPressedBritish: () => speakapproach1031("en-GB"),
+                            onPressedAmerican: () => speakapproach1031(
+                                // REPLACE: approach /əˈprəʊtʃ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) قسەکردن لەگەڵ کەسێک سەبارەت بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The club has made an approach to a local company for sponsorship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یانەکە قسەی لەگەڵ کۆمپانیایەکی ناوخۆیی کردووە بۆ ڕیکلام‌کردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproach1034("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproach1034(
-                                        // REPLACE: approach /əˈprəʊtʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The club has made an approach to a local company for sponsorship.",
+                            kurdishText:
+                                "یانەکە قسەی لەگەڵ کۆمپانیایەکی ناوخۆیی کردووە بۆ ڕیکلام‌کردن.",
+                            onPressedBritish: () => speakapproach1034("en-GB"),
+                            onPressedAmerican: () => speakapproach1034(
+                                // REPLACE: approach /əˈprəʊtʃ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ھەوڵدان بۆ دەستپێکردنی پەیوەندی لەگەڵ کەسێک، بۆ نموونە پەیوەندی سێکسی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She resented his persistent approaches."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرھەڵستی نزیکبوونەوە پێ‌داگیرەکانیی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproach1038("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproach1038(
-                                        // REPLACE: approach /əˈprəʊtʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She resented his persistent approaches.",
+                            kurdishText:
+                                "بەرھەڵستی نزیکبوونەوە پێ‌داگیرەکانیی کرد.",
+                            onPressedBritish: () => speakapproach1038("en-GB"),
+                            onPressedAmerican: () => speakapproach1038(
+                                // REPLACE: approach /əˈprəʊtʃ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) ڕێگای گەشتن بە شوێنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All the approaches to the palace were guarded by troops."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ڕێگاکانی گەشتن بە کۆشکەکە لەلایەن سەربازەکانەوە پاسەوانی دەکران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproach1039("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproach1039(
-                                        // REPLACE: approach /əˈprəʊtʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All the approaches to the palace were guarded by troops.",
+                            kurdishText:
+                                "ھەموو ڕێگاکانی گەشتن بە کۆشکەکە لەلایەن سەربازەکانەوە پاسەوانی دەکران.",
+                            onPressedBritish: () => speakapproach1039("en-GB"),
+                            onPressedAmerican: () => speakapproach1039(
+                                // REPLACE: approach /əˈprəʊtʃ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ناو) کۆتا قۆناغی گەشتێکی فڕۆکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please fasten your seat belts, the plane is now making its final approach (in)to (= is coming near to and preparing to land at) Heathrow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە پشتێنی سەلامەتی ببەستن، فڕۆکەکە ئێستا کۆتا فڕینی ئەنجام‌دەدا بۆ فڕۆکەخانەی ھیسرۆو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproach1044("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproach1044(
-                                        // REPLACE: approach /əˈprəʊtʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please fasten your seat belts, the plane is now making its final approach (in)to (= is coming near to and preparing to land at) Heathrow.",
+                            kurdishText:
+                                "تکایە پشتێنی سەلامەتی ببەستن، فڕۆکەکە ئێستا کۆتا فڕینی ئەنجام‌دەدا بۆ فڕۆکەخانەی ھیسرۆو.",
+                            onPressedBritish: () => speakapproach1044("en-GB"),
+                            onPressedAmerican: () => speakapproach1044(
+                                // REPLACE: approach /əˈprəʊtʃ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (کردار) نزیکبوونەوە لە کەسێک/شتێک لە کاتدا یان بەپێی دووری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We could hear the train approaching."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێمان لە دەنگی نزیکبوونەوەی شەمەندەفەرەکە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproach1047("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproach1047(
-                                        // REPLACE: approach /əˈprəʊtʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We could hear the train approaching.",
+                            kurdishText:
+                                "گوێمان لە دەنگی نزیکبوونەوەی شەمەندەفەرەکە بوو.",
+                            onPressedBritish: () => speakapproach1047("en-GB"),
+                            onPressedAmerican: () => speakapproach1047(
+                                // REPLACE: approach /əˈprəʊtʃ/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Winter is approaching."),
-                                    ExampleSentenceKurdish(
-                                        text: "زستان خەریکە نزیک‌دەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproach1048("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproach1048(
-                                        // REPLACE: approach /əˈprəʊtʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Winter is approaching.",
+                            kurdishText: "زستان خەریکە نزیک‌دەبێتەوە.",
+                            onPressedBritish: () => speakapproach1048("en-GB"),
+                            onPressedAmerican: () => speakapproach1048(
+                                // REPLACE: approach /əˈprəʊtʃ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (کردار) نزیکبوونەوە لە کەسێک/شتێک لە کاتدا یان بەپێی دووری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'd like to ask his opinion but I find him difficult to approach (= not easy to talk to in a friendly way)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەز دەکەم بۆچوونی بخوازم، بەڵام نزیکبوونەوە لێی بە ئاسان نابینم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproach1050("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproach1050(
-                                        // REPLACE: approach /əˈprəʊtʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'd like to ask his opinion but I find him difficult to approach (= not easy to talk to in a friendly way).",
+                            kurdishText:
+                                "حەز دەکەم بۆچوونی بخوازم، بەڵام نزیکبوونەوە لێی بە ئاسان نابینم.",
+                            onPressedBritish: () => speakapproach1050("en-GB"),
+                            onPressedAmerican: () => speakapproach1050(
+                                // REPLACE: approach /əˈprəʊtʃ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (کردار) نزیکبوونەوە لە شتێک لە ڕووی بڕ، ئاست، یان کوالێتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Interest rates are approaching zero."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەی سوو خەریکە نزیک لە سفر دەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproach1053("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproach1053(
-                                        // REPLACE: approach /əˈprəʊtʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Interest rates are approaching zero.",
+                            kurdishText:
+                                "ڕێژەی سوو خەریکە نزیک لە سفر دەبێتەوە.",
+                            onPressedBritish: () => speakapproach1053("en-GB"),
+                            onPressedAmerican: () => speakapproach1053(
+                                // REPLACE: approach /əˈprəʊtʃ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٠. (کردار) دەستکردن بە مامەڵەکردن لەگەڵ کێشەیەک یان ئەرکێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What's the best way to approach this problem?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترین ڕێگا چییە بۆ مامەڵەکردن لەگەڵ ئەم کێشەیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapproach1055("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapproach1055(
-                                        // REPLACE: approach /əˈprəʊtʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What's the best way to approach this problem?",
+                            kurdishText:
+                                "باشترین ڕێگا چییە بۆ مامەڵەکردن لەگەڵ ئەم کێشەیە؟",
+                            onPressedBritish: () => speakapproach1055("en-GB"),
+                            onPressedAmerican: () => speakapproach1055(
+                                // REPLACE: approach /əˈprəʊtʃ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

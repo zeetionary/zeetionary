@@ -153,64 +153,25 @@ class EnglishEntrybacon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گۆشتی پشت یان تەنیشتەکانی بەراز بەشێوەی قاژ قاژ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This bacon is too salty for me."),
-                                    ExampleSentenceKurdish(
-                                        text: "گۆشتە بەرازەکە زۆر شۆرە بۆ من."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbacons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbacons1(// REPLACE: bacon
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This bacon is too salty for me.",
+                            kurdishText: "گۆشتە بەرازەکە زۆر شۆرە بۆ من.",
+                            onPressedBritish: () => speakbacons1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbacons1(// REPLACE: bacon
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The meat produced from a pig is called pork, bacon or ham."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆشتی بەراز پێی دەوترێت pork, bacon یان ham."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbacons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbacons2(// REPLACE: bacon
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The meat produced from a pig is called pork, bacon or ham.",
+                            kurdishText:
+                                "گۆشتی بەراز پێی دەوترێت pork, bacon یان ham.",
+                            onPressedBritish: () => speakbacons2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbacons2(// REPLACE: bacon
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

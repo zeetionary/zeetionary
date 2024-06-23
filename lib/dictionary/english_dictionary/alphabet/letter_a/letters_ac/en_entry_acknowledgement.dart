@@ -117,96 +117,37 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) داننان بە بوون یان ڕاستی شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is acknowledgement on his part that he was to blame."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانیپێداناوە کە ئەو بەرپرسیارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakackno5387("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakackno5387(
-                                        "en-US"), // REPLACE acknowledgement /əkˈnɑːlɪdʒmənt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is acknowledgement on his part that he was to blame.",
+                            kurdishText: "دانیپێداناوە کە ئەو بەرپرسیارە.",
+                            onPressedBritish: () => speakackno5387("en-GB"),
+                            onPressedAmerican: () => speakackno5387(
+                                "en-US"), // REPLACE acknowledgement /əkˈnɑːlɪdʒmənt/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) دەربڕینی سوپاسگوزاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The flowers were a small acknowledgement of your kindness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوڵەکان ناساندنێکی بچووکی میھرەبانیتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakacknowle65899("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacknowle65899(
-                                        "en-US"), // REPLACE acknowledgement /əkˈnɑːlɪdʒmənt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The flowers were a small acknowledgement of your kindness.",
+                            kurdishText:
+                                "گوڵەکان ناساندنێکی بچووکی میھرەبانیتە.",
+                            onPressedBritish: () => speakacknowle65899("en-GB"),
+                            onPressedAmerican: () => speakacknowle65899(
+                                "en-US"), // REPLACE acknowledgement /əkˈnɑːlɪdʒmənt/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) نامەیەک یان ئیمەیڵێک بۆ دڵنیاکردنەوەی ئەوەی شتێک گەیشتووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I wrote to them but never got any acknowledgement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەم بۆ نووسین بەڵام ھیچ وەڵامم وەرنەگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacknowl5674("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacknowl5674(
-                                        "en-US"), // REPLACE acknowledgement /əkˈnɑːlɪdʒmənt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I wrote to them but never got any acknowledgement.",
+                            kurdishText:
+                                "نامەم بۆ نووسین بەڵام ھیچ وەڵامم وەرنەگرت.",
+                            onPressedBritish: () => speakacknowl5674("en-GB"),
+                            onPressedAmerican: () => speakacknowl5674(
+                                "en-US"), // REPLACE acknowledgement /əkˈnɑːlɪdʒmənt/
                           ),
                         ],
                       ),

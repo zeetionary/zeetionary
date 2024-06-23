@@ -154,65 +154,27 @@ class EnglishEntrybacteria extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەکتریا؛ بچووکترین خانەی زیندوو. بەکتریا بە ژمارەیەکی زۆرەوە ھەن لە ھەوا و ئاو و خاک و خانەی زیندوو و مردوو و ڕووەکدا، و زۆرجار دەبنەھۆی نەخۆشی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Food that is contaminated with bacteria may not look or smell bad."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواردنێک کە بە بەکتریا پیس بووە مەرج نییە شێوە و تامی خراپ بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbacterias1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbacterias1(// REPLACE: bacteria
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Food that is contaminated with bacteria may not look or smell bad.",
+                            kurdishText:
+                                "خواردنێک کە بە بەکتریا پیس بووە مەرج نییە شێوە و تامی خراپ بێت.",
+                            onPressedBritish: () => speakbacterias1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbacterias1(// REPLACE: bacteria
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These beneficial bacteria naturally reside in the intestines."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم بەکتریا سوودبەخشانە بەشێوەیەکی سرووشتی لە ڕیخۆڵەدا دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbacterias2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbacterias2(// REPLACE: bacteria
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These beneficial bacteria naturally reside in the intestines.",
+                            kurdishText:
+                                "ئەم بەکتریا سوودبەخشانە بەشێوەیەکی سرووشتی لە ڕیخۆڵەدا دەژین.",
+                            onPressedBritish: () => speakbacterias2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbacterias2(// REPLACE: bacteria
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

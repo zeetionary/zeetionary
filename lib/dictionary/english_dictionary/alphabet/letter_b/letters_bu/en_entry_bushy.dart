@@ -192,62 +192,23 @@ class EnglishEntrybushy extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) قژ یان فەرووی پڕ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was short and stocky, with thick bushy eyebrows."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کورتەباڵا و خڕوخۆڵ بوو لەگەڵ ھەبوونی برۆی ئەستووری پڕدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bushy", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbushys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbushys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was short and stocky, with thick bushy eyebrows.",
+                            kurdishText:
+                                "کورتەباڵا و خڕوخۆڵ بوو لەگەڵ ھەبوونی برۆی ئەستووری پڕدا.", // bushy", follow LX strictly
+                            onPressedBritish: () => speakbushys1("en-GB"),
+                            onPressedAmerican: () => speakbushys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) ڕووەکێک کە پڕ و گەڵا زۆرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It grows into a bushy plant, with soft leaves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێتە ڕووەکێکی پڕ بە گەڵای نەرمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbushys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbushys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It grows into a bushy plant, with soft leaves.",
+                            kurdishText: "دەبێتە ڕووەکێکی پڕ بە گەڵای نەرمەوە.",
+                            onPressedBritish: () => speakbushys2("en-GB"),
+                            onPressedAmerican: () => speakbushys2("en-US"),
                           ),
                         ],
                       ),

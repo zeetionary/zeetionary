@@ -115,35 +115,16 @@ class EnglishEntryambivalence extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) ھەبوونی دوودڵی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've never lied about my feelings, including my ambivalence about getting married again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز درۆم سەبارەت بە ھەستەکانم نەکردووە، لەنێوانیاندا دوودڵیم سەبارەت بە دووبارە ھاوسەرگیری کردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakambivalence444722("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambivalence444722(
-                                        // REPLACE: ambivalence /æmˈbɪvələns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've never lied about my feelings, including my ambivalence about getting married again.",
+                            kurdishText:
+                                "ھەرگیز درۆم سەبارەت بە ھەستەکانم نەکردووە، لەنێوانیاندا دوودڵیم سەبارەت بە دووبارە ھاوسەرگیری کردن.",
+                            onPressedBritish: () =>
+                                speakambivalence444722("en-GB"),
+                            onPressedAmerican: () => speakambivalence444722(
+                                // REPLACE: ambivalence /æmˈbɪvələns/
+                                "en-US"),
                           ),
                         ],
                       ),

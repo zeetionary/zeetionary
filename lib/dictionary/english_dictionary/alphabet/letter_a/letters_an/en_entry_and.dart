@@ -179,256 +179,101 @@ class EnglishEntryand extends StatelessWidget {
 کوردی: و، وە، لەگەڵ، تا، ھەتا، کە، ھەروەھا
 """),
                           const DefinitionKurdish(text: """١. (لێکدەر) و"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Sue and I left early."),
-                                    ExampleSentenceKurdish(
-                                        text: "من و سوو زوو ڕۆشتین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakand15005("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakand15005(
-                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Sue and I left early.",
+                            kurdishText: "من و سوو زوو ڕۆشتین.",
+                            onPressedBritish: () => speakand15005("en-GB"),
+                            onPressedAmerican: () => speakand15005(
+                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (لێکدەر) دواتر، لە دوای شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She came in and took her coat off."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاتە ژوورەوە و پاڵتاوەکەی داکەند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakand5044("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakand5044(
-                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She came in and took her coat off.",
+                            kurdishText: "ھاتە ژوورەوە و پاڵتاوەکەی داکەند.",
+                            onPressedBritish: () => speakand5044("en-GB"),
+                            onPressedAmerican: () => speakand5044(
+                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (لێکدەر) لە دوای ھەندێک کردار بەکاردێت بەمەبەستی پیشاندانی ھۆکاری ئەنجام‌دانی کردارەکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Go and get me a pen please."),
-                                    ExampleSentenceKurdish(
-                                        text: "تکایە بچۆ و پێنووسێکم بۆ بێنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakand2205("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakand2205(
-                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Go and get me a pen please.",
+                            kurdishText: "تکایە بچۆ و پێنووسێکم بۆ بێنە.",
+                            onPressedBritish: () => speakand2205("en-GB"),
+                            onPressedAmerican: () => speakand2205(
+                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (لێکدەر) بەکاردێت بۆ ناساندنی لێدوانێک یان پرسیارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘We talked for hours.’ ‘And what did you decide?’"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "«بۆ چەندین کاتژمێر گفتوگۆمان کرد.» «ئەی چی بڕیارێکتان دا؟»"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakand0258("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakand0258(
-                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘We talked for hours.’ ‘And what did you decide?’",
+                            kurdishText:
+                                "«بۆ چەندین کاتژمێر گفتوگۆمان کرد.» «ئەی چی بڕیارێکتان دا؟»",
+                            onPressedBritish: () => speakand0258("en-GB"),
+                            onPressedAmerican: () => speakand0258(
+                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (لێکدەر) بۆ پیشاندانی ئەنجام"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Miss another class and you'll fail."),
-                                    ExampleSentenceKurdish(
-                                        text: "یەک وانەی تر نەیەی دەرناچیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakand8854("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakand8854(
-                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Miss another class and you'll fail.",
+                            kurdishText: "یەک وانەی تر نەیەی دەرناچیت.",
+                            onPressedBritish: () => speakand8854("en-GB"),
+                            onPressedAmerican: () => speakand8854(
+                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (لێکدەر) کۆ؛ لە کۆکردنەوەدا بو وتنی ژمارەیەک زیادبکرێت بۆ ژمارەیەکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "What's 47 and 16?"),
-                                    ExampleSentenceKurdish(
-                                        text: "٤٧ کۆی ١٦ چەند دەکات؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakand5560("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakand5560(
-                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "What's 47 and 16?",
+                            kurdishText: "٤٧ کۆی ١٦ چەند دەکات؟",
+                            onPressedBritish: () => speakand5560("en-GB"),
+                            onPressedAmerican: () => speakand5560(
+                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (لێکدەر) لەگەڵ وشەی دووبارەدا بەکاردێت بۆ پیشاندانی دووبارەبوونەوە و بەردەوامی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The pain got worse and worse."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئازارەکە خراپتر و خراپتر بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakand22410("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakand22410(
-                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The pain got worse and worse.",
+                            kurdishText: "ئازارەکە خراپتر و خراپتر بوو.",
+                            onPressedBritish: () => speakand22410("en-GB"),
+                            onPressedAmerican: () => speakand22410(
+                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (لێکدەر) لەگەڵ وشەی دووبارەدا بەکاردێت وتنی ئەوەی دوو شت دەکرێت یەک خاسیەتیان ھەبێت بەڵام زۆر جیاواز بن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I like city life but there are cities and cities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزم لە ژیانی شارە، بەڵام شار ھەیە و شاری تریش ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakand5570("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakand5570(
-                                        // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I like city life but there are cities and cities.",
+                            kurdishText:
+                                "حەزم لە ژیانی شارە، بەڵام شار ھەیە و شاری تریش ھەیە.",
+                            onPressedBritish: () => speakand5570("en-GB"),
+                            onPressedAmerican: () => speakand5570(
+                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

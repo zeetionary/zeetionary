@@ -167,164 +167,69 @@ class EnglishEntryassembly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) گرووپێک لە خەڵکی کە ھەڵبژێردراون بۆ ئەوەی بەشێوەی بەردەوام کۆببنەوە و بڕیار و یاسا بۆ ناوچەیەک دەربکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Power has been handed over to provincial and regional assemblies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەسەڵات ڕادەستی ئەنجوومەنی پارێزگا و ھەرێمەکان کراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassembly940("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassembly940(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Power has been handed over to provincial and regional assemblies.",
+                            kurdishText:
+                                "دەسەڵات ڕادەستی ئەنجوومەنی پارێزگا و ھەرێمەکان کراوە.",
+                            onPressedBritish: () => speakassembly940("en-GB"),
+                            onPressedAmerican: () => speakassembly940(
+                                // REPLACE: assembly /əˈsembli/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a whole school assembly every Friday morning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ھەینییەک کۆبوونەوەی گشتی خوێندنگەکە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassembly943("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassembly943(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a whole school assembly every Friday morning.",
+                            kurdishText:
+                                "ھەموو ھەینییەک کۆبوونەوەی گشتی خوێندنگەکە ھەیە.",
+                            onPressedBritish: () => speakassembly943("en-GB"),
+                            onPressedAmerican: () => speakassembly943(
+                                // REPLACE: assembly /əˈsembli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) گردبوونەوەی کۆمەڵە کەسێک بۆ ھۆکارێکی دیاریکراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was to address a public assembly on the issue."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وابڕیاربوو قسە بۆ جەماوەرێکی گشتی لەسەر بابەتەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassembly946("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassembly946(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was to address a public assembly on the issue.",
+                            kurdishText:
+                                "وابڕیاربوو قسە بۆ جەماوەرێکی گشتی لەسەر بابەتەکە.",
+                            onPressedBritish: () => speakassembly946("en-GB"),
+                            onPressedAmerican: () => speakassembly946(
+                                // REPLACE: assembly /əˈsembli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کۆبوونەوەی مامۆستایان و خوێندکاران لە سەرەتای ڕۆژدا بۆباسکردنی مەراسیمەکانی خوێندنگە، پێدانی زانیاری، یان وتنەوەی سروود سروود و نزا خوێندن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The deputy head was taking (= leading) school assembly that day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جێگری بەڕێوبەرەکە ئەو ڕۆژە سەرپەرشتی کۆبوونەوەی قوتابخانەی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassembly950("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassembly950(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The deputy head was taking (= leading) school assembly that day.",
+                            kurdishText:
+                                "جێگری بەڕێوبەرەکە ئەو ڕۆژە سەرپەرشتی کۆبوونەوەی قوتابخانەی دەکرد.",
+                            onPressedBritish: () => speakassembly950("en-GB"),
+                            onPressedAmerican: () => speakassembly950(
+                                // REPLACE: assembly /əˈsembli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) پێکەوەنانی پارچەکانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Putting the bookcase together should be a simple assembly job."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکەوەنانی پارچەکانی کتێبخانەکە دەبێت کارێکی ئاسان بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassembly952("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassembly952(
-                                        // REPLACE: assembly /əˈsembli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Putting the bookcase together should be a simple assembly job.",
+                            kurdishText:
+                                "پێکەوەنانی پارچەکانی کتێبخانەکە دەبێت کارێکی ئاسان بێت.",
+                            onPressedBritish: () => speakassembly952("en-GB"),
+                            onPressedAmerican: () => speakassembly952(
+                                // REPLACE: assembly /əˈsembli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

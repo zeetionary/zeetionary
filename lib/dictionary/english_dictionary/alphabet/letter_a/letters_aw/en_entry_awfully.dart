@@ -153,34 +153,15 @@ class EnglishEntryawfully extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) یەکجار زۆر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'm awfully sorry about that problem the other day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر زۆر بەداخەوەم بۆ ئەو کێشەیەی ئەو ڕۆژەی تر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawfullys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawfullys1(// REPLACE: awfully
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'm awfully sorry about that problem the other day.",
+                            kurdishText:
+                                "زۆر زۆر بەداخەوەم بۆ ئەو کێشەیەی ئەو ڕۆژەی تر.",
+                            onPressedBritish: () => speakawfullys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawfullys1(// REPLACE: awfully
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

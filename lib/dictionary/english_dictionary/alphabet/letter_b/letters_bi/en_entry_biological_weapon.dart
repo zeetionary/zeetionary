@@ -153,34 +153,15 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چەکێکی جەنگی کە نەخۆشی بڵاودەکاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some reports claim the Chinese government deliberately created the corona virus as a biological weapon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک ڕاپۆرت بانگەشەی ئەوە دەکەن کە حکومەتی چین ڤایرۆسی کۆرۆنای وەک چەکێکی بایۆلۆژی درووستکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbiologicalweapons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbiologicalweapons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some reports claim the Chinese government deliberately created the corona virus as a biological weapon.",
+                            kurdishText:
+                                "ھەندێک ڕاپۆرت بانگەشەی ئەوە دەکەن کە حکومەتی چین ڤایرۆسی کۆرۆنای وەک چەکێکی بایۆلۆژی درووستکرد.",
+                            onPressedBritish: () =>
+                                speakbiologicalweapons1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbiologicalweapons1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

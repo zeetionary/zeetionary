@@ -166,35 +166,16 @@ class EnglishEntryassassination extends StatelessWidget {
                               text:
                                   "١. (ناو) کوشتنی کەسێکی بەناوبانگ یان سیاسی، بەتایبەتی بۆ پارە یان ھۆکاری سیاسی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The president survived a number of assassination attempts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆکەکە لە ژمارەیەک ھەوڵی تیرۆرکردن ڕزگاری‌بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassassination1017("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassassination1017(
-                                        // REPLACE: assassination /əˌsæsɪˈneɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The president survived a number of assassination attempts.",
+                            kurdishText:
+                                "سەرۆکەکە لە ژمارەیەک ھەوڵی تیرۆرکردن ڕزگاری‌بوو.",
+                            onPressedBritish: () =>
+                                speakassassination1017("en-GB"),
+                            onPressedAmerican: () => speakassassination1017(
+                                // REPLACE: assassination /əˌsæsɪˈneɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

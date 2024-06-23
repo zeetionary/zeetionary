@@ -163,67 +163,29 @@ class EnglishEntryarmament extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) چەک، بەتایبەتی چەکی قورسی وەک بۆمب و دەبابە و ھتد"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The armaments industry is a major force in the global economy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیشەسازی چەک و تەقەمەنی بەشێکی گرنگی ئابووری جیھانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmament455("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmament455(
-                                        // REPLACE: armament /ˈɑːrməmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The armaments industry is a major force in the global economy.",
+                            kurdishText:
+                                "پیشەسازی چەک و تەقەمەنی بەشێکی گرنگی ئابووری جیھانە.",
+                            onPressedBritish: () => speakarmament455("en-GB"),
+                            onPressedAmerican: () => speakarmament455(
+                                // REPLACE: armament /ˈɑːrməmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پڕۆسەی زیادکردنی ڕێژەی چەک و تەقەمەنی سوپا یان وڵاتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As the country prepares for war, more and more money is being spent on armament."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھۆی ئەوەی وڵاتەکە ئامادەکاری بۆ جەنگ دەکات، پارەی زیاتر و زیاتر بۆ خۆپڕچەککردن تەرخان‌دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmament458("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmament458(
-                                        // REPLACE: armament /ˈɑːrməmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As the country prepares for war, more and more money is being spent on armament.",
+                            kurdishText:
+                                "بەھۆی ئەوەی وڵاتەکە ئامادەکاری بۆ جەنگ دەکات، پارەی زیاتر و زیاتر بۆ خۆپڕچەککردن تەرخان‌دەکرێت.",
+                            onPressedBritish: () => speakarmament458("en-GB"),
+                            onPressedAmerican: () => speakarmament458(
+                                // REPLACE: armament /ˈɑːrməmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

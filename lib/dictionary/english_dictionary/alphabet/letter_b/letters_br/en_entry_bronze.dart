@@ -147,153 +147,57 @@ class EnglishEntrybronze extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کانزایەکی سووری قاوەیی باو درووست دەکرێت بە تێکەڵکردنی مس و قەڵای"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The figure was cast in bronze."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیکەرەکە لە برۆنز درووست کرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bronze" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbronzes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbronzes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The figure was cast in bronze.",
+                            kurdishText:
+                                "پەیکەرەکە لە برۆنز درووست کرابوو.", // bronze" as
+                            onPressedBritish: () => speakbronzes1("en-GB"),
+                            onPressedAmerican: () => speakbronzes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕەنگی برۆنزی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The artist mixed red and yellow to create a stunning shade of bronze on the canvas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێوەکارەکە سوور و زەردی تێکەڵ کرد بۆ درووستکردنی ڕەنگێکی برۆنزی لەسەر کانڤسەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbronzes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbronzes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The artist mixed red and yellow to create a stunning shade of bronze on the canvas.",
+                            kurdishText:
+                                "شێوەکارەکە سوور و زەردی تێکەڵ کرد بۆ درووستکردنی ڕەنگێکی برۆنزی لەسەر کانڤسەکە.",
+                            onPressedBritish: () => speakbronzes2("en-GB"),
+                            onPressedAmerican: () => speakbronzes2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) کارێکی ھونەری کە لە برۆنز درووست کراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The museum exhibits an array of bronze statues depicting historical figures."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆزەخانەکە ژمارەیەکی زۆر لە کاری برۆنز نمایش دەکات کە کەسایەتییە مێژوویەکان پیشان دەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbronzes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbronzes3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The museum exhibits an array of bronze statues depicting historical figures.",
+                            kurdishText:
+                                "مۆزەخانەکە ژمارەیەکی زۆر لە کاری برۆنز نمایش دەکات کە کەسایەتییە مێژوویەکان پیشان دەدات.",
+                            onPressedBritish: () => speakbronzes3("en-GB"),
+                            onPressedAmerican: () => speakbronzes3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) مەدالیایەک کە دەدرێت بە براوەی سێیەم لە پێشبڕکێیەکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She got a bronze in the long jump."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە بازی درێژدا برۆنزی وەرگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbronzes4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbronzes4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She got a bronze in the long jump.",
+                            kurdishText: "لە بازی درێژدا برۆنزی وەرگرت.",
+                            onPressedBritish: () => speakbronzes4("en-GB"),
+                            onPressedAmerican: () => speakbronzes4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ھاوەڵناو) بوونی ڕەنگی سووری قاوەیی باو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The evening sky took on a bronze hue as the sun set over the horizon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاسمانی ئێوارە ڕەنگێکی برۆنزی پۆشی کە خۆر کەوتە خوار ئاسۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbronzes5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbronzes5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The evening sky took on a bronze hue as the sun set over the horizon.",
+                            kurdishText:
+                                "ئاسمانی ئێوارە ڕەنگێکی برۆنزی پۆشی کە خۆر کەوتە خوار ئاسۆ.",
+                            onPressedBritish: () => speakbronzes5("en-GB"),
+                            onPressedAmerican: () => speakbronzes5("en-US"),
                           ),
                         ],
                       ),

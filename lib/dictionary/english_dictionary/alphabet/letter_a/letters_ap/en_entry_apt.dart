@@ -163,131 +163,55 @@ class EnglishEntryapt extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) گونجاو لە دۆخێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a particularly apt name for someone with his skills."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوێکی لێوەشاوەی ھەبوو بەپێی شارەزاییەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapt739("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakapt739(// REPLACE: apt /æpt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was a particularly apt name for someone with his skills.",
+                            kurdishText:
+                                "ناوێکی لێوەشاوەی ھەبوو بەپێی شارەزاییەکانی.",
+                            onPressedBritish: () => speakapt739("en-GB"),
+                            onPressedAmerican: () =>
+                                speakapt739(// REPLACE: apt /æpt/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A skilled writer uses apt descriptions to create a rich and immersive narrative."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نووسەری بەھرەمەند باسکردنی بەجێ بەکاردێنی بۆ بەرھەمھێنانی گێڕانەوەی دەوڵەمەند کە خوێنەر تێیدا ڕۆبچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapt745("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakapt745(// REPLACE: apt /æpt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A skilled writer uses apt descriptions to create a rich and immersive narrative.",
+                            kurdishText:
+                                "نووسەری بەھرەمەند باسکردنی بەجێ بەکاردێنی بۆ بەرھەمھێنانی گێڕانەوەی دەوڵەمەند کە خوێنەر تێیدا ڕۆبچێت.",
+                            onPressedBritish: () => speakapt745("en-GB"),
+                            onPressedAmerican: () =>
+                                speakapt745(// REPLACE: apt /æpt/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ویستی سرووشتی بۆ کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Babies are apt to put objects into their mouths."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵی بچووک خووی ئەوەیان ھەیە شت بخەنە دەمیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapt754("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakapt754(// REPLACE: apt /æpt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Babies are apt to put objects into their mouths.",
+                            kurdishText:
+                                "منداڵی بچووک خووی ئەوەیان ھەیە شت بخەنە دەمیان.",
+                            onPressedBritish: () => speakapt754("en-GB"),
+                            onPressedAmerican: () =>
+                                speakapt754(// REPLACE: apt /æpt/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) کەسێک کە توانای سرووشتی بۆ فێربوون و تێگەشتن ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have some particularly apt students in the class this year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمساڵ چەند خوێندکارێکی بەتایبەت زرنگمان ھەیە لە پۆلدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapt757("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakapt757(// REPLACE: apt /æpt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have some particularly apt students in the class this year.",
+                            kurdishText:
+                                "ئەمساڵ چەند خوێندکارێکی بەتایبەت زرنگمان ھەیە لە پۆلدا.",
+                            onPressedBritish: () => speakapt757("en-GB"),
+                            onPressedAmerican: () =>
+                                speakapt757(// REPLACE: apt /æpt/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

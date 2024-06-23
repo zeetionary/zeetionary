@@ -150,32 +150,13 @@ class EnglishEntrybookshop extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) فرۆشگایەک کە کتێب دەفرۆشێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I asked the bookshop to order several titles which were not in stock."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوام لە کتێب‌فرۆشەکە کرد ژمارەیەک کتێب بێنن کە لە فرۆشگاکە نەبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookshops1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookshops1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I asked the bookshop to order several titles which were not in stock.",
+                            kurdishText:
+                                "داوام لە کتێب‌فرۆشەکە کرد ژمارەیەک کتێب بێنن کە لە فرۆشگاکە نەبوون.",
+                            onPressedBritish: () => speakbookshops1("en-GB"),
+                            onPressedAmerican: () => speakbookshops1("en-US"),
                           ),
                         ],
                       ),

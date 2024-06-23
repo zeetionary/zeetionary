@@ -165,34 +165,15 @@ class EnglishEntryartful extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) زیرەک لە بەدەستھێنانی ئەوەی دەتەوێت، زۆرجار بە بەکارھێنانی درۆ"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was artful and cunning, and I didn’t really trust him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێکی پڕفێڵ و تەڵەکەباز بوو، و لەڕاستیدا باوەڕم پێی‌نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakartful209("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartful209(
-                                        // REPLACE: artful /ˈɑːrtfl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was artful and cunning, and I didn’t really trust him.",
+                            kurdishText:
+                                "کەسێکی پڕفێڵ و تەڵەکەباز بوو، و لەڕاستیدا باوەڕم پێی‌نەبوو.",
+                            onPressedBritish: () => speakartful209("en-GB"),
+                            onPressedAmerican: () => speakartful209(
+                                // REPLACE: artful /ˈɑːrtfl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

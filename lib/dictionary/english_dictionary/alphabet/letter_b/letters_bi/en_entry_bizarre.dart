@@ -147,31 +147,12 @@ class EnglishEntrybizarre extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) نامۆ و نائاسایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He made some totally bizarre comments."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەندێک لێدوانی تەواو سەیری دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbizarres1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbizarres1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He made some totally bizarre comments.",
+                            kurdishText: "ھەندێک لێدوانی تەواو سەیری دا.",
+                            onPressedBritish: () => speakbizarres1("en-GB"),
+                            onPressedAmerican: () => speakbizarres1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -151,61 +151,23 @@ class EnglishEntrybewilder extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) سەرلێشێواندن لە کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was totally bewildered by his sudden change of mood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تەواوی سەریلێشێوا بە گۆڕانی لەناکاوی حەوسەلەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbewilders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbewilders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was totally bewildered by his sudden change of mood.",
+                            kurdishText:
+                                "بە تەواوی سەریلێشێوا بە گۆڕانی لەناکاوی حەوسەلەی.",
+                            onPressedBritish: () => speakbewilders1("en-GB"),
+                            onPressedAmerican: () => speakbewilders1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His complete lack of interest in money bewilders his family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەبوونی تەواوی حەزی بۆ پارە دایک و باوکی حەپەساندبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbewilders2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbewilders2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His complete lack of interest in money bewilders his family.",
+                            kurdishText:
+                                "نەبوونی تەواوی حەزی بۆ پارە دایک و باوکی حەپەساندبوو.",
+                            onPressedBritish: () => speakbewilders2("en-GB"),
+                            onPressedAmerican: () => speakbewilders2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -165,101 +165,41 @@ class EnglishEntryarbitrary extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شتێک کە پشتی بە ھیچ سیستەمێک یان پلانێک نەبەستووە و بە نادادپەروەر دەردەکەوێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He makes unpredictable, arbitrary decisions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیاری پێش‌بینی‌نەکراو و خۆحەزی دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarbitrary1119("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarbitrary1119(
-                                        // REPLACE: arbitrary /ˈɑːrbɪtreri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He makes unpredictable, arbitrary decisions.",
+                            kurdishText:
+                                "بڕیاری پێش‌بینی‌نەکراو و خۆحەزی دەدا.",
+                            onPressedBritish: () => speakarbitrary1119("en-GB"),
+                            onPressedAmerican: () => speakarbitrary1119(
+                                // REPLACE: arbitrary /ˈɑːrbɪtreri/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The choice of players for the team seemed completely arbitrary."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵبژاردنی یاریزانەکان بۆ تیمەکە بە تەواوی ھەڕەمەکی دیاربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarbitrary1120("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarbitrary1120(
-                                        // REPLACE: arbitrary /ˈɑːrbɪtreri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The choice of players for the team seemed completely arbitrary.",
+                            kurdishText:
+                                "ھەڵبژاردنی یاریزانەکان بۆ تیمەکە بە تەواوی ھەڕەمەکی دیاربوو.",
+                            onPressedBritish: () => speakarbitrary1120("en-GB"),
+                            onPressedAmerican: () => speakarbitrary1120(
+                                // REPLACE: arbitrary /ˈɑːrbɪtreri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بەکارھێنانی دەسەڵات بە بێ‌سنووری و بە بێ گرنگیدان بە کەسانی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People will question the arbitrary powers of officials in a democratic society."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی دژی بەکارھێنانی دەسەڵاتی زۆردارانەی دەسەڵاتداران دەوەستنەوە لە کۆمەڵگایەکی دیموکراسیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarbitrary1125("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarbitrary1125(
-                                        // REPLACE: arbitrary /ˈɑːrbɪtreri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People will question the arbitrary powers of officials in a democratic society.",
+                            kurdishText:
+                                "خەڵکی دژی بەکارھێنانی دەسەڵاتی زۆردارانەی دەسەڵاتداران دەوەستنەوە لە کۆمەڵگایەکی دیموکراسیدا.",
+                            onPressedBritish: () => speakarbitrary1125("en-GB"),
+                            onPressedAmerican: () => speakarbitrary1125(
+                                // REPLACE: arbitrary /ˈɑːrbɪtreri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

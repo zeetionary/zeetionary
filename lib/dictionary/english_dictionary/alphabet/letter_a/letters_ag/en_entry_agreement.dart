@@ -138,126 +138,50 @@ class EnglishEntryagreement extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ڕێککەوتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They had an agreement never to talk about work at home."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتنێکیان ھەبوو کە ھەرگیز لە ماڵەوە باسی کار نەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagre45669("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagre45669(
-                                        // REPLACE: agreement /əˈɡriːmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They had an agreement never to talk about work at home.",
+                            kurdishText:
+                                "ڕێککەوتنێکیان ھەبوو کە ھەرگیز لە ماڵەوە باسی کار نەکەن.",
+                            onPressedBritish: () => speakagre45669("en-GB"),
+                            onPressedAmerican: () => speakagre45669(
+                                // REPLACE: agreement /əˈɡriːmənt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The agreement (= the document recording the agreement) was signed during a meeting at the UN."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتنەکە واژۆکرا لە کۆبوونەوەیەکدا لە نەتەوە یەکگرتووەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagre35666("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagre35666(
-                                        // REPLACE: agreement /əˈɡriːmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The agreement (= the document recording the agreement) was signed during a meeting at the UN.",
+                            kurdishText:
+                                "ڕێککەوتنەکە واژۆکرا لە کۆبوونەوەیەکدا لە نەتەوە یەکگرتووەکان.",
+                            onPressedBritish: () => speakagre35666("en-GB"),
+                            onPressedAmerican: () => speakagre35666(
+                                // REPLACE: agreement /əˈɡriːmənt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھاوڕایی لەگەڵ کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Is everybody in agreement now?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەمووان ئێستا ھاوڕان؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagreem3544("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagreem3544(
-                                        // REPLACE: agreement /əˈɡriːmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Is everybody in agreement now?",
+                            kurdishText: "ھەمووان ئێستا ھاوڕان؟",
+                            onPressedBritish: () => speakagreem3544("en-GB"),
+                            onPressedAmerican: () => speakagreem3544(
+                                // REPLACE: agreement /əˈɡriːmənt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) مۆڵەتپێدان بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You'll have to get your parents' agreement if you want to go on the trip."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستە مۆڵەتی دایک و باوکت وەربگری پێش ئەوەی گەشتەکە بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagreeme25699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagreeme25699(
-                                        // REPLACE: agreement /əˈɡriːmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You'll have to get your parents' agreement if you want to go on the trip.",
+                            kurdishText:
+                                "پێویستە مۆڵەتی دایک و باوکت وەربگری پێش ئەوەی گەشتەکە بکەیت.",
+                            onPressedBritish: () => speakagreeme25699("en-GB"),
+                            onPressedAmerican: () => speakagreeme25699(
+                                // REPLACE: agreement /əˈɡriːmənt/
+                                "en-US"),
                           ),
                         ],
                       ),

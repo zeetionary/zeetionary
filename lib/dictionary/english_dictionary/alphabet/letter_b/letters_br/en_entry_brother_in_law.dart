@@ -145,34 +145,15 @@ class EnglishEntrybrotherinlaw extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) برای ھاوسەرەکەت یان ژنەکەت؛ ھاوسەری خوشک یان براکەت؛ ھاوسەری خوشک و برای ھاوژینەکەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My brother-in-law is coming over for dinner tonight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شووبراکەم بۆ نانی ئێوارە دێت بۆ ماڵمان ئەمشەو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brother-in-law" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbrotherinlaws1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbrotherinlaws1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My brother-in-law is coming over for dinner tonight.",
+                            kurdishText:
+                                "شووبراکەم بۆ نانی ئێوارە دێت بۆ ماڵمان ئەمشەو.", // brother-in-law" as
+                            onPressedBritish: () =>
+                                speakbrotherinlaws1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbrotherinlaws1("en-US"),
                           ),
                         ],
                       ),

@@ -140,34 +140,13 @@ class EnglishEntrybronzemedal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) نیشان یان میداڵی مەفرەخ؛ خەڵاتێکە بۆ کەسی سێیەم لە پێشبڕکێیەکدا)"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She won (a) bronze at the Olympics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ئۆڵۆمپیاددا خەڵاتی برۆنزی بردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bronze medal" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbronzemedals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbronzemedals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She won (a) bronze at the Olympics.",
+                            kurdishText:
+                                "لە ئۆڵۆمپیاددا خەڵاتی برۆنزی بردەوە.", // bronze medal" as
+                            onPressedBritish: () => speakbronzemedals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbronzemedals1("en-US"),
                           ),
                         ],
                       ),

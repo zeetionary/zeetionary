@@ -149,32 +149,13 @@ class EnglishEntryboathouse extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بینایەک لە تەنیشت ڕووبارێک یان دەریاچەیەک بۆ دانانی بەلەم تێیدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The boathouse provides a secure place to store the fishing boats."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەلەم‌خانەکە شوێنێکی پارێزراو بۆ ھەڵگرتنی بەلەمەکانی ماسیگرتن دابین دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboathouses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboathouses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The boathouse provides a secure place to store the fishing boats.",
+                            kurdishText:
+                                "بەلەم‌خانەکە شوێنێکی پارێزراو بۆ ھەڵگرتنی بەلەمەکانی ماسیگرتن دابین دەکات.",
+                            onPressedBritish: () => speakboathouses1("en-GB"),
+                            onPressedAmerican: () => speakboathouses1("en-US"),
                           ),
                         ],
                       ),

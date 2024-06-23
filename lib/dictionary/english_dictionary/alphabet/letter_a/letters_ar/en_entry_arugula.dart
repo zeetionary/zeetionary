@@ -159,34 +159,15 @@ class EnglishEntryarugula extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سەوزەیەک کە گەڵای درێژ و بۆنی تیژی ھەیە و ھایە بە تەنھا لەناو زەڵاتەدا دەخورێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I love the peppery flavor of arugula in salads."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزم لە چێژی توونی ئوروگولایە لە زەڵاتەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarugula1018("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarugula1018(
-                                        // REPLACE: arugula /əˈruːɡələ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I love the peppery flavor of arugula in salads.",
+                            kurdishText:
+                                "حەزم لە چێژی توونی ئوروگولایە لە زەڵاتەدا.",
+                            onPressedBritish: () => speakarugula1018("en-GB"),
+                            onPressedAmerican: () => speakarugula1018(
+                                // REPLACE: arugula /əˈruːɡələ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -155,32 +155,13 @@ class EnglishEntrybettor extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە گرەو دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bettors wagered a total of £67 million on the game."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرەوکاران بە تێکڕا ٦٧ ملیۆن پاوەندیان خستە گرەوەوە لەسەر یارییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbettors1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbettors1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bettors wagered a total of £67 million on the game.",
+                            kurdishText:
+                                "گرەوکاران بە تێکڕا ٦٧ ملیۆن پاوەندیان خستە گرەوەوە لەسەر یارییەکە.",
+                            onPressedBritish: () => speakbettors1("en-GB"),
+                            onPressedAmerican: () => speakbettors1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

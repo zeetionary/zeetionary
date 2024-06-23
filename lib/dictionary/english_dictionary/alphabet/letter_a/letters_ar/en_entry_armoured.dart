@@ -160,33 +160,13 @@ class EnglishEntryarmoured extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) پارێزراو بە زرێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The tank was heavily armoured."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تانکەکە بە سەختی زرێپۆش‌کرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarmoured618("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmoured618(
-                                        // REPLACE: armoured /ˈɑːrmərd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The tank was heavily armoured.",
+                            kurdishText: "تانکەکە بە سەختی زرێپۆش‌کرابوو.",
+                            onPressedBritish: () => speakarmoured618("en-GB"),
+                            onPressedAmerican: () => speakarmoured618(
+                                // REPLACE: armoured /ˈɑːrmərd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -144,64 +144,26 @@ class EnglishEntrybreathtaking extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر سەرنجڕاکێش و ناوازە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The scene was one of breathtaking beauty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیمەنەکە جوانییەکی ناوازەی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "breathtaking" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreathtakings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreathtakings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The scene was one of breathtaking beauty.",
+                            kurdishText:
+                                "دیمەنەکە جوانییەکی ناوازەی بوو.", // breathtaking" as
+                            onPressedBritish: () =>
+                                speakbreathtakings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbreathtakings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The birds pinpoint their prey with breathtaking accuracy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باڵندەکان نێچیر بە درووستی ناوازەوە دەدۆزنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreathtakings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreathtakings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The birds pinpoint their prey with breathtaking accuracy.",
+                            kurdishText:
+                                "باڵندەکان نێچیر بە درووستی ناوازەوە دەدۆزنەوە.",
+                            onPressedBritish: () =>
+                                speakbreathtakings2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbreathtakings2("en-US"),
                           ),
                         ],
                       ),

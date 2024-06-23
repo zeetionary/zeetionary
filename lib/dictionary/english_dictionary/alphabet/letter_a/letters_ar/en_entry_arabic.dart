@@ -162,98 +162,40 @@ class EnglishEntryarabic extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) زمانی خەڵکی عەرەب"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Arabic is very difficult to learn for many people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ زۆر خەڵک عەرەبی گرانە بۆ فێربوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarabic1010("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarabic1010(
-                                        // REPLACE: arabic /ˈærəbɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Arabic is very difficult to learn for many people.",
+                            kurdishText: "بۆ زۆر خەڵک عەرەبی گرانە بۆ فێربوون.",
+                            onPressedBritish: () => speakarabic1010("en-GB"),
+                            onPressedAmerican: () => speakarabic1010(
+                                // REPLACE: arabic /ˈærəbɪk/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hebrew and Arabic are Semitic languages."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "عیبری و عەرەبی ھەردووکیان زمانی سامین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarabic1012("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarabic1012(
-                                        // REPLACE: arabic /ˈærəbɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Hebrew and Arabic are Semitic languages.",
+                            kurdishText:
+                                "عیبری و عەرەبی ھەردووکیان زمانی سامین.",
+                            onPressedBritish: () => speakarabic1012("en-GB"),
+                            onPressedAmerican: () => speakarabic1012(
+                                // REPLACE: arabic /ˈærəbɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بە زمان و ئەدەبی عەرەبی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The themes in Arabic poetry often revolve around love, nature, and cultural identity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بابەتەکانی ھۆنراوەی عەرەبی زۆرجار باسی خۆشەویستی و سرووشت و ناسنامەی نەتەوەیین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarabic1017("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarabic1017(
-                                        // REPLACE: arabic /ˈærəbɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The themes in Arabic poetry often revolve around love, nature, and cultural identity.",
+                            kurdishText:
+                                "بابەتەکانی ھۆنراوەی عەرەبی زۆرجار باسی خۆشەویستی و سرووشت و ناسنامەی نەتەوەیین.",
+                            onPressedBritish: () => speakarabic1017("en-GB"),
+                            onPressedAmerican: () => speakarabic1017(
+                                // REPLACE: arabic /ˈærəbɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

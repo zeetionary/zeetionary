@@ -147,63 +147,25 @@ class EnglishEntrybrash extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) نەترس و متمانەبەخۆبوو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Beneath his brash exterior, he's still a little boy inside."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ژێر ڕووکەشە نەترسەکەیەوە، لەناخەوە ھێشتا منداڵێکی بچووکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrashs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrashs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Beneath his brash exterior, he's still a little boy inside.",
+                            kurdishText:
+                                "لە ژێر ڕووکەشە نەترسەکەیەوە، لەناخەوە ھێشتا منداڵێکی بچووکە.",
+                            onPressedBritish: () => speakbrashs1("en-GB"),
+                            onPressedAmerican: () => speakbrashs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) شتێک کە زۆر درەوشایەوە کە وادەکات جوان نەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't you think that suit's a bit brash for a funeral?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەست ناکەیت ئەو جلە زۆر درەوشایەوە بۆ مەراسیمی ناشتن؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrashs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrashs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Don't you think that suit's a bit brash for a funeral?",
+                            kurdishText:
+                                "ھەست ناکەیت ئەو جلە زۆر درەوشایەوە بۆ مەراسیمی ناشتن؟",
+                            onPressedBritish: () => speakbrashs2("en-GB"),
+                            onPressedAmerican: () => speakbrashs2("en-US"),
                           ),
                         ],
                       ),

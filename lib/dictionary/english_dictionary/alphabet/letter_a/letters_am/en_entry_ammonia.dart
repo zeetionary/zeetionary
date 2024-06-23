@@ -180,34 +180,14 @@ class EnglishEntryammonia extends StatelessWidget {
                               text:
                                   "١. (ناو) گاسێک کە بۆنێکی تیژی ھەیە و لە مادەی پاککەرەوە، پەیین، و تەقەمەنی‌دا بەکاردێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is dangerous to inhale ammonia fumes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵمژینی دووکەڵی ئەمۆنیا زیانبەخشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakammonia74555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakammonia74555(
-                                        // REPLACE: ammonia /əˈməʊniə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is dangerous to inhale ammonia fumes.",
+                            kurdishText: "ھەڵمژینی دووکەڵی ئەمۆنیا زیانبەخشە.",
+                            onPressedBritish: () => speakammonia74555("en-GB"),
+                            onPressedAmerican: () => speakammonia74555(
+                                // REPLACE: ammonia /əˈməʊniə/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -157,34 +157,15 @@ class EnglishEntryavarice extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) حەزێکی زۆر بۆ پارە و سامان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her business empire brought her wealth beyond the dreams of avarice (= an extremely large amount of money)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئیمپراتۆریەتییە بازرگانییەکەی سامانێکی ھێندە گەورەی پێدا کە زیاتر بێت لەوەی ھەرگیز خەونی پێوەدیبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavarices1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavarices1(// REPLACE: avarice
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her business empire brought her wealth beyond the dreams of avarice (= an extremely large amount of money).",
+                            kurdishText:
+                                "ئیمپراتۆریەتییە بازرگانییەکەی سامانێکی ھێندە گەورەی پێدا کە زیاتر بێت لەوەی ھەرگیز خەونی پێوەدیبێت.",
+                            onPressedBritish: () => speakavarices1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavarices1(// REPLACE: avarice
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

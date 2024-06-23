@@ -145,34 +145,15 @@ class EnglishEntryboardingschool extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خوێندنگەیەک کە خوێندکار دەتوانێت تێیدا بمێنێتەوە لە ماوەی وەرزی خوێندن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He missed his family during his first term at boarding school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیری خێزانەکەی دەکرد لە ماوەی خولی یەکەمی لە خوێندنگە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakboardingschools1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakboardingschools1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He missed his family during his first term at boarding school.",
+                            kurdishText:
+                                "بیری خێزانەکەی دەکرد لە ماوەی خولی یەکەمی لە خوێندنگە.",
+                            onPressedBritish: () =>
+                                speakboardingschools1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakboardingschools1("en-US"),
                           ),
                         ],
                       ),

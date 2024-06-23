@@ -282,351 +282,121 @@ class EnglishEntrybreach extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) نەکردنی شتێک کە بەپێی یاسا دەبێت بکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They are in breach of Article 119."),
-                                    ExampleSentenceKurdish(
-                                        text: "پێشێلی مادەی ١١٩ یان کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreachs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreachs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They are in breach of Article 119.",
+                            kurdishText: "پێشێلی مادەی ١١٩ یان کردووە.",
+                            onPressedBritish: () => speakbreachs1("en-GB"),
+                            onPressedAmerican: () => speakbreachs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was sued for breach of contract."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سکاڵای لەسەر تۆمارکرا بۆ پێشێلی ڕێککەوتنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreachs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreachs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was sued for breach of contract.",
+                            kurdishText:
+                                "سکاڵای لەسەر تۆمارکرا بۆ پێشێلی ڕێککەوتنەکە.",
+                            onPressedBritish: () => speakbreachs2("en-GB"),
+                            onPressedAmerican: () => speakbreachs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕەفتارێک کە پێچەوانەی ڕێککەوتن و نەریتە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He refused to shake hands, in deliberate breach of etiquette."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەتیکردەوە تەوقە بکات بەپێچەوانەی ئەوەی ئەتەکیەتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreachs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreachs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He refused to shake hands, in deliberate breach of etiquette.",
+                            kurdishText:
+                                "ڕەتیکردەوە تەوقە بکات بەپێچەوانەی ئەوەی ئەتەکیەتە.",
+                            onPressedBritish: () => speakbreachs3("en-GB"),
+                            onPressedAmerican: () => speakbreachs3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Such actions constitute a breach of confidentiality."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەفتاری وەھا یەکسانە بە لادان لە متمانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreachs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreachs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Such actions constitute a breach of confidentiality.",
+                            kurdishText:
+                                "ڕەفتاری وەھا یەکسانە بە لادان لە متمانە.",
+                            onPressedBritish: () => speakbreachs4("en-GB"),
+                            onPressedAmerican: () => speakbreachs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) نەمانی پەیوەندی نێوان دوو کەس یان وڵات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The disagreement caused a serious breach in Franco-German relations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناکۆکییەکە بەوو بەھۆی پچڕانێکی توندی پەیوەندییەکانی نێوان فەرەنسا و ئەڵمانیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreachs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreachs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The disagreement caused a serious breach in Franco-German relations.",
+                            kurdishText:
+                                "ناکۆکییەکە بەوو بەھۆی پچڕانێکی توندی پەیوەندییەکانی نێوان فەرەنسا و ئەڵمانیا.",
+                            onPressedBritish: () => speakbreachs5("en-GB"),
+                            onPressedAmerican: () => speakbreachs5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) شوێنێکی کراوە، بۆ نموونە شوێنێک کە لێیەوە ھێرش دەکرێت یان با و شەپۆل دێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They escaped through a breach in the wire fence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵھاتن بە کەلێنێک لە پەرژینە وایەرییەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreachs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreachs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They escaped through a breach in the wire fence.",
+                            kurdishText:
+                                "ھەڵھاتن بە کەلێنێک لە پەرژینە وایەرییەکەدا.",
+                            onPressedBritish: () => speakbreachs6("en-GB"),
+                            onPressedAmerican: () => speakbreachs6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The mortars blew a large breach in the castle walls."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوەنەکان کەلێنێکی گەورەیان کردە دیوارەکانی قەڵاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreachs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreachs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The mortars blew a large breach in the castle walls.",
+                            kurdishText:
+                                "ھاوەنەکان کەلێنێکی گەورەیان کردە دیوارەکانی قەڵاکە.",
+                            onPressedBritish: () => speakbreachs7("en-GB"),
+                            onPressedAmerican: () => speakbreachs7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A breach in the mountain wall permits warm sea air to penetrate inland."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەلێنێک لە بەرزایی شاخەکەدا ڕێگە بە ھەوای گەرمی دەریاکە دەدات بۆ ناو ناوچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreachs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreachs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A breach in the mountain wall permits warm sea air to penetrate inland.",
+                            kurdishText:
+                                "کەلێنێک لە بەرزایی شاخەکەدا ڕێگە بە ھەوای گەرمی دەریاکە دەدات بۆ ناو ناوچەکە.",
+                            onPressedBritish: () => speakbreachs8("en-GB"),
+                            onPressedAmerican: () => speakbreachs8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (کردار) شکاندنی بەڵێن یان ڕێککەوتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government is accused of breaching the terms of the treaty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت تۆمەتبارکراوە بە شکاندنی مەرجەکانی ڕێککەوتنەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreachs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreachs9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government is accused of breaching the terms of the treaty.",
+                            kurdishText:
+                                "حکومەت تۆمەتبارکراوە بە شکاندنی مەرجەکانی ڕێککەوتنەکە.",
+                            onPressedBritish: () => speakbreachs9("en-GB"),
+                            onPressedAmerican: () => speakbreachs9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They breached the agreement they had made with their employer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو بەڵێنەیان شکاند کە دایان بوو بە خاوەنکارەکەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreachs10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreachs10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They breached the agreement they had made with their employer.",
+                            kurdishText:
+                                "ئەو بەڵێنەیان شکاند کە دایان بوو بە خاوەنکارەکەیان.",
+                            onPressedBritish: () => speakbreachs10("en-GB"),
+                            onPressedAmerican: () => speakbreachs10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) درووستکردنی کەلێنێک لە شوێنێکدا بۆ تێپەڕین بە ناویدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The dam had been breached."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەنداوەکە شەقبووبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreachs11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreachs11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The dam had been breached.",
+                            kurdishText: "بەنداوەکە شەقبووبوو.",
+                            onPressedBritish: () => speakbreachs11("en-GB"),
+                            onPressedAmerican: () => speakbreachs11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Demonstrators breached police lines around the embassy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆپیشاندەران ڕیزەکانی پۆلیسیان تێپەڕاند بە دەوری باڵیۆزخانەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreachs12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreachs12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Demonstrators breached police lines around the embassy.",
+                            kurdishText:
+                                "خۆپیشاندەران ڕیزەکانی پۆلیسیان تێپەڕاند بە دەوری باڵیۆزخانەکەدا.",
+                            onPressedBritish: () => speakbreachs12("en-GB"),
+                            onPressedAmerican: () => speakbreachs12("en-US"),
                           ),
                         ],
                       ),

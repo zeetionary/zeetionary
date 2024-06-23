@@ -114,94 +114,37 @@ class EnglishEntryactual extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە لە ڕاستییەتی شتێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The actual cost was higher than we expected."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێچووی ڕاستی زیاتر لەوە بوو کە چاوەڕێمان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactual4528("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakactual4528(// REPLACE: actual
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The actual cost was higher than we expected.",
+                            kurdishText:
+                                "تێچووی ڕاستی زیاتر لەوە بوو کە چاوەڕێمان دەکرد.",
+                            onPressedBritish: () => speakactual4528("en-GB"),
+                            onPressedAmerican: () =>
+                                speakactual4528(// REPLACE: actual
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "What were his actual words?"),
-                                    ExampleSentenceKurdish(
-                                        text: "قسەکانی بە دەقیقی چی بوون؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactual4967("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakactual4967(// REPLACE: actual
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "What were his actual words?",
+                            kurdishText: "قسەکانی بە دەقیقی چی بوون؟",
+                            onPressedBritish: () => speakactual4967("en-GB"),
+                            onPressedAmerican: () =>
+                                speakactual4967(// REPLACE: actual
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە لە گرنگترین بەشی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The wedding preparations take weeks but the actual ceremony takes less than an hour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامادەکاریی ھاوسەرگیرییەکە چەندین ھەفتەی پێدەچوو، بەڵام ئاھەنگەکە خۆی کەمتر لە یەک کاتژمێری دەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactu437("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakactu437(// REPLACE: actual
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The wedding preparations take weeks but the actual ceremony takes less than an hour.",
+                            kurdishText:
+                                "ئامادەکاریی ھاوسەرگیرییەکە چەندین ھەفتەی پێدەچوو، بەڵام ئاھەنگەکە خۆی کەمتر لە یەک کاتژمێری دەوێت.",
+                            onPressedBritish: () => speakactu437("en-GB"),
+                            onPressedAmerican: () =>
+                                speakactu437(// REPLACE: actual
+                                    "en-US"),
                           ),
                         ],
                       ),

@@ -151,32 +151,13 @@ class EnglishEntrybellows extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئامێرێک کە بۆ پاڵنانی ھەوا بەکاردێت، بەتایبەتی بۆ خۆشکردنی ئاگر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The blacksmith used the bellows to fan the flames of his forge."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاسنگەرەکە مووشەدەمەی بەکارھێنا بۆ خۆشکردنی ئاگری کورەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbellowss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbellowss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The blacksmith used the bellows to fan the flames of his forge.",
+                            kurdishText:
+                                "ئاسنگەرەکە مووشەدەمەی بەکارھێنا بۆ خۆشکردنی ئاگری کورەکەی.",
+                            onPressedBritish: () => speakbellowss1("en-GB"),
+                            onPressedAmerican: () => speakbellowss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -146,32 +146,13 @@ class EnglishEntrybraise extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) لێنانی گۆشت و سەوزە زۆر بەھێواشی لە کەمێک شلەدا (ئاو) لە دەفرێکی داخراودا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The liver is then braised in olive oil."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جگەرەکە دواتر دەکوڵێندرێت بەھێواشی لە زەیتی زەیتووندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraises1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraises1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The liver is then braised in olive oil.",
+                            kurdishText:
+                                "جگەرەکە دواتر دەکوڵێندرێت بەھێواشی لە زەیتی زەیتووندا.",
+                            onPressedBritish: () => speakbraises1("en-GB"),
+                            onPressedAmerican: () => speakbraises1("en-US"),
                           ),
                         ],
                       ),

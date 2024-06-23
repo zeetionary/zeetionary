@@ -150,145 +150,50 @@ class EnglishEntrybloody extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) وشەیەک کە زۆر کەس بە ناپەسەندی دەبینن و بەکاردێت بۆ جەختکردنەووە لە لێدوانێک یان یان دەربڕینێکی تووڕە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Don't be such a bloody fool."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھێندە گەمژە مەبە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don't be such a bloody fool.",
+                            kurdishText: "ھێندە گەمژە مەبە.",
+                            onPressedBritish: () => speakbloodys1("en-GB"),
+                            onPressedAmerican: () => speakbloodys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "That was a bloody good meal!"),
-                                    ExampleSentenceKurdish(
-                                        text: "خواردنێکی تەواو خۆش بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That was a bloody good meal!",
+                            kurdishText: "خواردنێکی تەواو خۆش بوو.",
+                            onPressedBritish: () => speakbloodys2("en-GB"),
+                            onPressedAmerican: () => speakbloodys2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She did bloody well to win that race."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر باش ھەوڵیدا بۆ بردنەوەی پێشبڕکێیەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She did bloody well to win that race.",
+                            kurdishText:
+                                "زۆر باش ھەوڵیدا بۆ بردنەوەی پێشبڕکێیەکە.",
+                            onPressedBritish: () => speakbloodys3("en-GB"),
+                            onPressedAmerican: () => speakbloodys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) لەخۆگرتنی توندوتیژی و کوشتنی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The terrorists have halted their bloody campaign of violence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیرۆریستەکان کەمپینی خوێناویی توندوتیژیان وەستاندووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The terrorists have halted their bloody campaign of violence.",
+                            kurdishText:
+                                "تیرۆریستەکان کەمپینی خوێناویی توندوتیژیان وەستاندووە.",
+                            onPressedBritish: () => speakbloodys4("en-GB"),
+                            onPressedAmerican: () => speakbloodys4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) داپۆشراو بە خوێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The injured soldier's uniform was torn and bloody."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلی سەربازە بریندارەکە دڕابوو و خوێناوی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbloodys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbloodys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The injured soldier's uniform was torn and bloody.",
+                            kurdishText:
+                                "جلی سەربازە بریندارەکە دڕابوو و خوێناوی بوو.",
+                            onPressedBritish: () => speakbloodys5("en-GB"),
+                            onPressedAmerican: () => speakbloodys5("en-US"),
                           ),
                         ],
                       ),

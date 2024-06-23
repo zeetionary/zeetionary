@@ -192,123 +192,46 @@ class EnglishEntryburst extends StatelessWidget {
 کوردی: تەقینەوە، تەق، لێک‌بوونەوە، پەقین، دەربوون، ترەکین، درگاکردن، بڵاوبوونەوە، تەنینەوە، تەشەنە، ھەڵچوون، فیشقەکردن، گوڕبوون، لە پڕمەدان (گریان یان پێکەنین)، گوللەخستن، تەقاندن، پێوەنان، دەسپێک یان دەرکەوتنی ناکاو، جووڵانی توند و کت‌وپڕ، گڕ، سۆڵە، ڕەھێڵە، ڕێژنە
 """),
                           const DefinitionKurdish(text: "١. (کردار) تەقین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That balloon will burst if you blow it up any more."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فودانکەکە دەتەقێت ئەگەر ھەوای زیاتری تێ بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burst", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbursts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbursts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That balloon will burst if you blow it up any more.",
+                            kurdishText:
+                                "فودانکەکە دەتەقێت ئەگەر ھەوای زیاتری تێ بکەیت.", // burst", follow LX strictly
+                            onPressedBritish: () => speakbursts1("en-GB"),
+                            onPressedAmerican: () => speakbursts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dam burst under the weight of water."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەنداوەکە تەقی لەژێر پەستانی ئاودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbursts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbursts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dam burst under the weight of water.",
+                            kurdishText: "بەنداوەکە تەقی لەژێر پەستانی ئاودا.",
+                            onPressedBritish: () => speakbursts2("en-GB"),
+                            onPressedAmerican: () => speakbursts2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Shells were bursting (= exploding) all around us."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گوللەتۆپ دەتەقی لە دەوروبەرمان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbursts3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbursts3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Shells were bursting (= exploding) all around us.",
+                                    kurdishText:
+                                        "گوللەتۆپ دەتەقی لە دەوروبەرمان.",
+                                    onPressedBritish: () =>
+                                        speakbursts3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbursts3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He felt he would burst with anger and shame."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "(بەکارھێنانی خوازراوی) ھەستی دەکرد لە تووڕەیی و شەرمەزاریدا دەتەقێتەوە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbursts4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbursts4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He felt he would burst with anger and shame.",
+                                    kurdishText:
+                                        "(بەکارھێنانی خوازراوی) ھەستی دەکرد لە تووڕەیی و شەرمەزاریدا دەتەقێتەوە.",
+                                    onPressedBritish: () =>
+                                        speakbursts4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbursts4("en-US"),
                                   ),
                                 ],
                               ),
@@ -317,93 +240,34 @@ class EnglishEntryburst extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) چوون بۆ شوێنێک بە خێرایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He burst into the room without knocking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆی کرد بە ژوورەکەدا بەبێ دان لە دەرگا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbursts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbursts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He burst into the room without knocking.",
+                            kurdishText:
+                                "خۆی کرد بە ژوورەکەدا بەبێ دان لە دەرگا.",
+                            onPressedBritish: () => speakbursts5("en-GB"),
+                            onPressedAmerican: () => speakbursts5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sun burst through the clouds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆرەکە لە ھەورەکانەوە دەدرەوشایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbursts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbursts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The sun burst through the clouds.",
+                            kurdishText: "خۆرەکە لە ھەورەکانەوە دەدرەوشایەوە.",
+                            onPressedBritish: () => speakbursts6("en-GB"),
+                            onPressedAmerican: () => speakbursts6("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The words burst from her in an angry rush."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "وشە لە دەمییەوە دەھاتە خوارەوە لە تووڕەییدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbursts7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbursts7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The words burst from her in an angry rush.",
+                                    kurdishText:
+                                        "وشە لە دەمییەوە دەھاتە خوارەوە لە تووڕەییدا.",
+                                    onPressedBritish: () =>
+                                        speakbursts7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbursts7("en-US"),
                                   ),
                                 ],
                               ),
@@ -412,175 +276,58 @@ class EnglishEntryburst extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) پڕ لە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The roads are bursting with cars."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕێگاکان پڕن لە ئۆتۆمبێل."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbursts8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbursts8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The roads are bursting with cars.",
+                            kurdishText: "ڕێگاکان پڕن لە ئۆتۆمبێل.",
+                            onPressedBritish: () => speakbursts8("en-GB"),
+                            onPressedAmerican: () => speakbursts8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I’m bursting (for a pee)! (= I need to use the toilet right now)."),
-                                    ExampleSentenceKurdish(
-                                        text: "خەریکە ئەتەقم بۆ میزکردن!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbursts9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbursts9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I’m bursting (for a pee)! (= I need to use the toilet right now).",
+                            kurdishText: "خەریکە ئەتەقم بۆ میزکردن!",
+                            onPressedBritish: () => speakbursts9("en-GB"),
+                            onPressedAmerican: () => speakbursts9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ماوەیەکی کەم لە چالاکییەکی دیاریکراو یان ھەستێکی بەھێز کەلەناکاو دەستپێ‌دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I tend to work in bursts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواستم وایە لە کت‌وپڕیدا کار بکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbursts10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbursts10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I tend to work in bursts.",
+                            kurdishText: "خواستم وایە لە کت‌وپڕیدا کار بکەم.",
+                            onPressedBritish: () => speakbursts10("en-GB"),
+                            onPressedAmerican: () => speakbursts10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a spontaneous burst of applause."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەپڵەڕێزانێکی لەناکاو دەستی پێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbursts11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbursts11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a spontaneous burst of applause.",
+                            kurdishText: "چەپڵەڕێزانێکی لەناکاو دەستی پێکرد.",
+                            onPressedBritish: () => speakbursts11("en-GB"),
+                            onPressedAmerican: () => speakbursts11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٥. (ناو) تەقین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A burst in the water pipe flooded the floor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەقینێک لە بۆری ئاوەکەدا نھۆمەکانی پڕئاو کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbursts12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbursts12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A burst in the water pipe flooded the floor.",
+                            kurdishText:
+                                "تەقینێک لە بۆری ئاوەکەدا نھۆمەکانی پڕئاو کرد.",
+                            onPressedBritish: () => speakbursts12("en-GB"),
+                            onPressedAmerican: () => speakbursts12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ناو) زنجیرەیەک لە تەقەی چەکێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Pedestrians scattered as a rapid burst of gunfire erupted unexpectedly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێبواران پەرشوبڵاوبوون کە زنجیرەیەک لە تەقەکردن لەناکاو دەستی پێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbursts13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbursts13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Pedestrians scattered as a rapid burst of gunfire erupted unexpectedly.",
+                            kurdishText:
+                                "ڕێبواران پەرشوبڵاوبوون کە زنجیرەیەک لە تەقەکردن لەناکاو دەستی پێکرد.",
+                            onPressedBritish: () => speakbursts13("en-GB"),
+                            onPressedAmerican: () => speakbursts13("en-US"),
                           ),
                         ],
                       ),

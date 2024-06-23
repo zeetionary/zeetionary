@@ -162,34 +162,13 @@ class EnglishEntryarchbishop extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) قەشەیەکی پلە بەرز کە بەرپرسیاری ھەموو کڵێساکانی شوێنێکی گەورەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was made Archbishop of Milan."),
-                                    ExampleSentenceKurdish(
-                                        text: "کرا بە قەشەی گەورەی میلان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarchbishop315("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarchbishop315(
-                                        // REPLACE: archbishop /ˌɑːrtʃˈbɪʃəp/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was made Archbishop of Milan.",
+                            kurdishText: "کرا بە قەشەی گەورەی میلان.",
+                            onPressedBritish: () => speakarchbishop315("en-GB"),
+                            onPressedAmerican: () => speakarchbishop315(
+                                // REPLACE: archbishop /ˌɑːrtʃˈbɪʃəp/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

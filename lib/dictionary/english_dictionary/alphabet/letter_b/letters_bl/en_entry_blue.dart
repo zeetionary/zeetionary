@@ -301,316 +301,105 @@ class EnglishEntryblue extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ڕەنگی شین؛ ڕەنگی ئاسمانی ساماڵ یان دەریا لە ڕۆژێکی پاکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sun shone brilliantly in the clear blue sky."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆر بە ڕۆشنی لە ئاسمانی ساماڵدا دەگەشایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblues1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblues1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sun shone brilliantly in the clear blue sky.",
+                            kurdishText:
+                                "خۆر بە ڕۆشنی لە ئاسمانی ساماڵدا دەگەشایەوە.",
+                            onPressedBritish: () => speakblues1("en-GB"),
+                            onPressedAmerican: () => speakblues1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His eyes were dark blue."),
-                                    ExampleSentenceKurdish(
-                                        text: "چاوەکانی شینی تاری بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblues2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblues2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His eyes were dark blue.",
+                            kurdishText: "چاوەکانی شینی تاری بوون.",
+                            onPressedBritish: () => speakblues2("en-GB"),
+                            onPressedAmerican: () => speakblues2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She wanted to dye her hair blue."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەیویست پرچی بۆیەی شین بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblues3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblues3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She wanted to dye her hair blue.",
+                            kurdishText: "دەیویست پرچی بۆیەی شین بکات.",
+                            onPressedBritish: () => speakblues3("en-GB"),
+                            onPressedAmerican: () => speakblues3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) کەسێک کە ڕەنگی شین بووەتەوە بەھۆی تەنگەنەفەسی یان سەرما"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His lips were turning blue."),
-                                    ExampleSentenceKurdish(
-                                        text: "لێوەکانی شین دەبوونەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblues4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblues4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His lips were turning blue.",
+                            kurdishText: "لێوەکانی شین دەبوونەوە.",
+                            onPressedBritish: () => speakblues4("en-GB"),
+                            onPressedAmerican: () => speakblues4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٣. (ھاوەڵناو) دڵتەنگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He'd been feeling blue all week."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەواوی ھەفتەکە دڵتەنگ بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblues5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblues5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He'd been feeling blue all week.",
+                            kurdishText: "تەواوی ھەفتەکە دڵتەنگ بووە.",
+                            onPressedBritish: () => speakblues5("en-GB"),
+                            onPressedAmerican: () => speakblues5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) فیلم، نووکتە، یان چیرۆک کە دەربارەی سێکسە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The movie is a bit too blue for children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیلمەکە کەمێک بەدەر لە سنوور بۆ منداڵان باسی سێکس دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblues6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblues6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The movie is a bit too blue for children.",
+                            kurdishText:
+                                "فیلمەکە کەمێک بەدەر لە سنوور بۆ منداڵان باسی سێکس دەکات.",
+                            onPressedBritish: () => speakblues6("en-GB"),
+                            onPressedAmerican: () => speakblues6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ھاوەڵناو) ناوچەیەکی ئەمریکا کە دەنگدەری پارتی دیموکرات تێیدا زیاترە وەک لە کۆماری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "California has mostly been a blue state in recent history."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەمێژووی نزیکدا کالیفۆرنیا زۆرجار ویلایەتێکی دەنگدەری دیموکراتەکان بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblues7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblues7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "California has mostly been a blue state in recent history.",
+                            kurdishText:
+                                "لەمێژووی نزیکدا کالیفۆرنیا زۆرجار ویلایەتێکی دەنگدەری دیموکراتەکان بووە.",
+                            onPressedBritish: () => speakblues7("en-GB"),
+                            onPressedAmerican: () => speakblues7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) ڕەنگی شین؛ ڕەنگی ئاسمانی ساماڵ یان دەریا لە ڕۆژێکی پاکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The room was decorated in blues and yellows."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژوورەکە بە شین و زەرد دیکۆراتی بۆ کرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblues8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblues8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The room was decorated in blues and yellows.",
+                            kurdishText:
+                                "ژوورەکە بە شین و زەرد دیکۆراتی بۆ کرابوو.",
+                            onPressedBritish: () => speakblues8("en-GB"),
+                            onPressedAmerican: () => speakblues8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She was dressed in blue."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕەنگی شینی لەبەرکردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblues9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblues9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was dressed in blue.",
+                            kurdishText: "ڕەنگی شینی لەبەرکردبوو.",
+                            onPressedBritish: () => speakblues9("en-GB"),
+                            onPressedAmerican: () => speakblues9("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'm very fond of blue."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆرم حەز بە شینە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblues10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblues10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'm very fond of blue.",
+                            kurdishText: "زۆرم حەز بە شینە.",
+                            onPressedBritish: () => speakblues10("en-GB"),
+                            onPressedAmerican: () => speakblues10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) کەسێک کە یارییەکی وەرزشی دیاریکراوی بۆ زانکۆی ئۆکسفۆرد یان کامبریج کردووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He’s an Oxford rugby blue."),
-                                    ExampleSentenceKurdish(
-                                        text: "یاریزانێکی ڕەگبی ئۆکسفۆردە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblues11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblues11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He’s an Oxford rugby blue.",
+                            kurdishText: "یاریزانێکی ڕەگبی ئۆکسفۆردە.",
+                            onPressedBritish: () => speakblues11("en-GB"),
+                            onPressedAmerican: () => speakblues11("en-US"),
                           ),
                         ],
                       ),

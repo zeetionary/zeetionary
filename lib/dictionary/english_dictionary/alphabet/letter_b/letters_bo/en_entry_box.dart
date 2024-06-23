@@ -325,360 +325,125 @@ class EnglishEntrybox extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک لە شێوەی بۆ نموونە پارچە کارتؤنێک یان سنووقێک کە شتی تێدەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She kept all the letters in a box."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی نامەکانی لە کارتۆنێکدا ھەڵگرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She kept all the letters in a box.",
+                            kurdishText:
+                                "تەواوی نامەکانی لە کارتۆنێکدا ھەڵگرتبوو.",
+                            onPressedBritish: () => speakboxs1("en-GB"),
+                            onPressedAmerican: () => speakboxs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you know what is inside the box?"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەزانی چی لەم بۆکسەدایە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Do you know what is inside the box?",
+                            kurdishText: "دەزانی چی لەم بۆکسەدایە؟",
+                            onPressedBritish: () => speakboxs2("en-GB"),
+                            onPressedAmerican: () => speakboxs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) بۆکسێک و ئەو شتانەی لە ناویەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He ate a whole box of chocolates."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەک کارتۆنی تەواو چکلێتی خوارد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He ate a whole box of chocolates.",
+                            kurdishText: "یەک کارتۆنی تەواو چکلێتی خوارد.",
+                            onPressedBritish: () => speakboxs3("en-GB"),
+                            onPressedAmerican: () => speakboxs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) چوارچێوەیەکی چوارگۆشە یان لاکێشە لەسەر پەڕەیەک یان شاشەی کۆمپیوتەر بۆ ئەوەی شتی تێدا بنووسرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Put a cross in the appropriate box."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیشانەیەکی X بھێنە بە بۆکسی گونجاودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Put a cross in the appropriate box.",
+                            kurdishText:
+                                "نیشانەیەکی X بھێنە بە بۆکسی گونجاودا.",
+                            onPressedBritish: () => speakboxs4("en-GB"),
+                            onPressedAmerican: () => speakboxs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ناوچەیەکی بچووک لە سینەمایەک، دادگا، یاریگای وەرزشی، ھتد کە جیاکراوەیە لە شوێنی دانیشنی کەسانی خەڵکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They drank champagne as they watched the game from the executive box."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شامپەینیان دەخواردەوە کە لە جێگەی بەڕێوبەرەکەوە سەیری یارییەکەیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They drank champagne as they watched the game from the executive box.",
+                            kurdishText:
+                                "شامپەینیان دەخواردەوە کە لە جێگەی بەڕێوبەرەکەوە سەیری یارییەکەیان دەکرد.",
+                            onPressedBritish: () => speakboxs5("en-GB"),
+                            onPressedAmerican: () => speakboxs5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) پەناگەیەکی بچووک کە بۆ مەبەستێکی دیاریکراو بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their new house is just a box (= very small)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماڵە تازەکەیان تەنھا تەنھا چواردیوارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their new house is just a box (= very small).",
+                            kurdishText:
+                                "ماڵە تازەکەیان تەنھا تەنھا چواردیوارە.",
+                            onPressedBritish: () => speakboxs6("en-GB"),
+                            onPressedAmerican: () => speakboxs6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I called him from the phone box."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کیوسکی تەلەفۆنی سەرشەقامەکەوە پەیوەندیم پێوەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxs9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I called him from the phone box.",
+                            kurdishText:
+                                "لە کیوسکی تەلەفۆنی سەرشەقامەکەوە پەیوەندیم پێوەکرد.",
+                            onPressedBritish: () => speakboxs9("en-GB"),
+                            onPressedAmerican: () => speakboxs9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٦. (ناو) تەلەفیزیۆن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "What's on the box tonight?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چی لەسەر تەلەفیزیۆنە ئەمشەو؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "What's on the box tonight?",
+                            kurdishText: "چی لەسەر تەلەفیزیۆنە ئەمشەو؟",
+                            onPressedBritish: () => speakboxs7("en-GB"),
+                            onPressedAmerican: () => speakboxs7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) شوێنێک کە تێیدا دوو ڕێگا یەک دەگرن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Only traffic turning right may enter the box junction."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا ئەو ئۆتۆمبێلانەی کە بۆ ڕاست پێچدەکەنەوە دەبێت بچنە یەکتربڕەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Only traffic turning right may enter the box junction.",
+                            kurdishText:
+                                "تەنھا ئەو ئۆتۆمبێلانەی کە بۆ ڕاست پێچدەکەنەوە دەبێت بچنە یەکتربڕەکەوە.",
+                            onPressedBritish: () => speakboxs8("en-GB"),
+                            onPressedAmerican: () => speakboxs8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (ناو) لە یاریگای وەرزشیدا ئەو بەشانەیە کە بە ھێڵ کێشراون و بۆ مەبەستی دیاریکراو بەکاردێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was fouled in the box (= the penalty box)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فاوڵی لەسەر گیردرا لە ناوچەی سزا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxs12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxs12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was fouled in the box (= the penalty box).",
+                            kurdishText: "فاوڵی لەسەر گیردرا لە ناوچەی سزا.",
+                            onPressedBritish: () => speakboxs12("en-GB"),
+                            onPressedAmerican: () => speakboxs12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) شەڕکردن لەگەڵ کەسێک لە زۆرانبازیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He boxed for Ireland in the Olympics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرانبازی بۆ ئێرلەندا دەکرد لە ئۆڵۆمپیاددا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxs10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxs10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He boxed for Ireland in the Olympics.",
+                            kurdishText:
+                                "زۆرانبازی بۆ ئێرلەندا دەکرد لە ئۆڵۆمپیاددا.",
+                            onPressedBritish: () => speakboxs10("en-GB"),
+                            onPressedAmerican: () => speakboxs10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٠. (کردار) خستنە بۆکسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I boxed up some clothes and books to donate to charity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک جل و کتێبم خستە بۆکسێکەوە بۆ بەخشین بە ڕێکخراوی خێرخوازی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboxs11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboxs11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I boxed up some clothes and books to donate to charity.",
+                            kurdishText:
+                                "ھەندێک جل و کتێبم خستە بۆکسێکەوە بۆ بەخشین بە ڕێکخراوی خێرخوازی.",
+                            onPressedBritish: () => speakboxs11("en-GB"),
+                            onPressedAmerican: () => speakboxs11("en-US"),
                           ),
                         ],
                       ),

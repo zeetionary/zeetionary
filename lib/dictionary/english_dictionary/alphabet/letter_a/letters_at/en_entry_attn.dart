@@ -161,34 +161,15 @@ class EnglishEntryattn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کورتکراوە) لە نامەدا بەکاردێت لەپێش ناوی ئەو کەسەی پەیامەکەی بۆ نووسراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please send all submissions via email attn: Bill Simms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە ھەموو دۆکیومێنتەکان بە ئیمەیڵ بنێرە، ئاگاداربە بیڵ سیمس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattn1050("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattn1050(// REPLACE: attn
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please send all submissions via email attn: Bill Simms.",
+                            kurdishText:
+                                "تکایە ھەموو دۆکیومێنتەکان بە ئیمەیڵ بنێرە، ئاگاداربە بیڵ سیمس.",
+                            onPressedBritish: () => speakattn1050("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattn1050(// REPLACE: attn
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

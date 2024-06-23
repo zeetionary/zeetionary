@@ -113,34 +113,15 @@ class EnglishEntryadditional extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زیاتر لەوەی سەرەتا باسکراوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He provided additional information about this incident."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانیاریی زیادەی لەسەر ڕووداوەکە باسکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadditi77("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadditi77(
-                                        // REPLACE: additional /əˈdɪʃənl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He provided additional information about this incident.",
+                            kurdishText:
+                                "زانیاریی زیادەی لەسەر ڕووداوەکە باسکرد.",
+                            onPressedBritish: () => speakadditi77("en-GB"),
+                            onPressedAmerican: () => speakadditi77(
+                                // REPLACE: additional /əˈdɪʃənl/
+                                "en-US"),
                           ),
                         ],
                       ),

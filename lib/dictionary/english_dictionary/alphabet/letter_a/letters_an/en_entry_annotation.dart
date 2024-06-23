@@ -158,66 +158,26 @@ class EnglishEntryannotation extends StatelessWidget {
                               text:
                                   "١. (ناو) تێبینییەک کە زیاد دەکرێت بۆ کتێبێک، نووسراوێک، یان شتێک کە ڕوونکردنەوەی لەسەر دەدات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It will be published with annotations."),
-                                    ExampleSentenceKurdish(
-                                        text: "بڵاودەکرێتەوە لەگەڵ پەراوێزدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakannotation210("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannotation210(
-                                        // REPLACE: annotation /ˌænəˈteɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It will be published with annotations.",
+                            kurdishText: "بڵاودەکرێتەوە لەگەڵ پەراوێزدا.",
+                            onPressedBritish: () => speakannotation210("en-GB"),
+                            onPressedAmerican: () => speakannotation210(
+                                // REPLACE: annotation /ˌænəˈteɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The annotation of literary texts makes them more accessible."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڵاوکردنەوەی نووسراوی ئەدەبی بە ڕوونکردنەوەوە وادەکات خەڵکی زیاتر بیانخوێننەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakannotation212("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannotation212(
-                                        // REPLACE: annotation /ˌænəˈteɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The annotation of literary texts makes them more accessible.",
+                            kurdishText:
+                                "بڵاوکردنەوەی نووسراوی ئەدەبی بە ڕوونکردنەوەوە وادەکات خەڵکی زیاتر بیانخوێننەوە.",
+                            onPressedBritish: () => speakannotation212("en-GB"),
+                            onPressedAmerican: () => speakannotation212(
+                                // REPLACE: annotation /ˌænəˈteɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

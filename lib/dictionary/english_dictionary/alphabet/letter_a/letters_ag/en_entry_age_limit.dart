@@ -114,34 +114,15 @@ class EnglishEntryagelimit extends StatelessWidget {
                               text:
                                   "١. (ناو) کەمترین یان زۆرترین تەمەن کە کەسێک دەتوانێت شتێک بکات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The lower age limit for buying cigarettes in the UK is 16."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمترین تەمەن بۆ کڕینی جگەرە لە شانشینی یەکگرتوو ١٦ ساڵییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakageli1665892("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakageli1665892(
-                                        // REPLACE: age limit /ˈeɪdʒ lɪmɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The lower age limit for buying cigarettes in the UK is 16.",
+                            kurdishText:
+                                "کەمترین تەمەن بۆ کڕینی جگەرە لە شانشینی یەکگرتوو ١٦ ساڵییە.",
+                            onPressedBritish: () => speakageli1665892("en-GB"),
+                            onPressedAmerican: () => speakageli1665892(
+                                // REPLACE: age limit /ˈeɪdʒ lɪmɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

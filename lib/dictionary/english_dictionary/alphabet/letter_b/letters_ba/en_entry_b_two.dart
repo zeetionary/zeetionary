@@ -151,32 +151,12 @@ class EnglishEntrybtwo extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کورتکراوە) کورتکراوە بۆ born"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Emily Clifton, b. 1800"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێمیڵی کلیفتۆن، لەدایکبووی ١٨٠٠."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbtwos1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbtwos1(// REPLACE: b.
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Emily Clifton, b. 1800",
+                            kurdishText: "ئێمیڵی کلیفتۆن، لەدایکبووی ١٨٠٠.",
+                            onPressedBritish: () => speakbtwos1("en-GB"),
+                            onPressedAmerican: () => speakbtwos1(// REPLACE: b.
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

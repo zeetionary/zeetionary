@@ -256,301 +256,109 @@ class EnglishEntrybind extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) بەستنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She was bound to a chair."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەسترا بە کورسییەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was bound to a chair.",
+                            kurdishText: "بەسترا بە کورسییەکەوە.",
+                            onPressedBritish: () => speakbinds1("en-GB"),
+                            onPressedAmerican: () => speakbinds1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They bound his hands together."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەستەکانییان بەست بە یەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They bound his hands together.",
+                            kurdishText: "دەستەکانییان بەست بە یەکەوە.",
+                            onPressedBritish: () => speakbinds2("en-GB"),
+                            onPressedAmerican: () => speakbinds2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The prisoner was bound hand and foot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیندانییەکە دەست و قاچی بەسترایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The prisoner was bound hand and foot.",
+                            kurdishText: "زیندانییەکە دەست و قاچی بەسترایەوە.",
+                            onPressedBritish: () => speakbinds3("en-GB"),
+                            onPressedAmerican: () => speakbinds3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بەستنی قوماشێکی نەرمی درێژ لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She bound up his wounds."),
-                                    ExampleSentenceKurdish(
-                                        text: "برینەکانی بەستەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinds4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinds4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She bound up his wounds.",
+                            kurdishText: "برینەکانی بەستەوە.",
+                            onPressedBritish: () => speakbinds4("en-GB"),
+                            onPressedAmerican: () => speakbinds4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) وا لە خەڵکی یان دەمەزراوەیەک بکەیت کە ھەست بە یەکگرتوویی بکەن بۆ ئەوەی پێکەوە بژین و باشتر و خۆشگوزەرانتر کار بکەن پێکەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She thought that having his child would bind him to her forever."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وای بیرکردەوە کە ھەبوونی منداڵەکەی زیاتر بۆ ھەمیشە ئەوی پێوە دەبەستێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinds5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinds5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She thought that having his child would bind him to her forever.",
+                            kurdishText:
+                                "وای بیرکردەوە کە ھەبوونی منداڵەکەی زیاتر بۆ ھەمیشە ئەوی پێوە دەبەستێتەوە.",
+                            onPressedBritish: () => speakbinds5("en-GB"),
+                            onPressedAmerican: () => speakbinds5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) زۆر لە کەسێک بکەیت شتێک بکات بەوەی بەڵێنی لێ وەربگریت یان بیکەیت بە ئەرک بەسەرییەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had been bound to secrecy (= made to promise not to tell people about something)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵێنی دابوو بە نھێنی بیپارێزێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinds6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinds6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had been bound to secrecy (= made to promise not to tell people about something).",
+                            kurdishText: "بەڵێنی دابوو بە نھێنی بیپارێزێت.",
+                            onPressedBritish: () => speakbinds6("en-GB"),
+                            onPressedAmerican: () => speakbinds6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) وا لە شت بکەیت پێکەوە بنووسێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Add an egg yolk to make the mixture bind."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەردێنە ھێلکەیەک زیاد بکە بۆ ئەوەی تێکەڵەکە پێکەوە بنووسێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinds7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinds7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Add an egg yolk to make the mixture bind.",
+                            kurdishText:
+                                "زەردێنە ھێلکەیەک زیاد بکە بۆ ئەوەی تێکەڵەکە پێکەوە بنووسێت.",
+                            onPressedBritish: () => speakbinds7("en-GB"),
+                            onPressedAmerican: () => speakbinds7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (کردار) پێکەوەنانی پەڕاکانی کتێبێک و دانانیان لە بەرگە کتێبێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are several different ways to bind a book, for example you can stitch or stick the pages together."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک ڕێگای جیاواز ھەیە بۆ پێکەوەنانی کتێبێک، بۆ نموونە دەتوانی پەڕەکان بدووری یان بنووسێنی بە یەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinds8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinds8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are several different ways to bind a book, for example you can stitch or stick the pages together.",
+                            kurdishText:
+                                "ژمارەیەک ڕێگای جیاواز ھەیە بۆ پێکەوەنانی کتێبێک، بۆ نموونە دەتوانی پەڕەکان بدووری یان بنووسێنی بە یەکەوە.",
+                            onPressedBritish: () => speakbinds8("en-GB"),
+                            onPressedAmerican: () => speakbinds8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (کردار) دوورینی قوماش بە قەراغەکانی شتێکەوە بۆ جوانی یان بەھێزی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The edges of the carpet are bound to stop them fraying."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەراغەکانی فەرشەکە دووراون بۆ ئەوەی لێک‌ھەڵنەوەشێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinds9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinds9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The edges of the carpet are bound to stop them fraying.",
+                            kurdishText:
+                                "قەراغەکانی فەرشەکە دووراون بۆ ئەوەی لێک‌ھەڵنەوەشێ.",
+                            onPressedBritish: () => speakbinds9("en-GB"),
+                            onPressedAmerican: () => speakbinds9("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (ناو) دۆخێکی ناخۆش کە تێیدا ناتوانی چۆنت بوێت ڕەفتار بکەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Borrowing money may put you in a real bind."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قەرزکردنی پارە ڕەنگە بتخاتە دەردەسەری تەواوەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinds10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinds10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Borrowing money may put you in a real bind.",
+                            kurdishText:
+                                "قەرزکردنی پارە ڕەنگە بتخاتە دەردەسەری تەواوەوە.",
+                            onPressedBritish: () => speakbinds10("en-GB"),
+                            onPressedAmerican: () => speakbinds10("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

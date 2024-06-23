@@ -109,64 +109,24 @@ class EnglishEntryaggravate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) خراپترکردنی بارودۆخێکی خراپ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Pollution can aggravate asthma."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیسبوونی ژینگە ڕبۆ توندتر دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaggrav25189("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggrav25189(
-                                        // REPLACE: aggravate /ˈæɡrəveɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Pollution can aggravate asthma.",
+                            kurdishText: "پیسبوونی ژینگە ڕبۆ توندتر دەکات.",
+                            onPressedBritish: () => speakaggrav25189("en-GB"),
+                            onPressedAmerican: () => speakaggrav25189(
+                                // REPLACE: aggravate /ˈæɡrəveɪt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Military intervention will only aggravate the conflict even further."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستوەردانی سەربازی تەنھا پێکدادانەکە ئاڵۆزتر دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaggrav3744("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggrav3744(
-                                        // REPLACE: aggravate /ˈæɡrəveɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Military intervention will only aggravate the conflict even further.",
+                            kurdishText:
+                                "دەستوەردانی سەربازی تەنھا پێکدادانەکە ئاڵۆزتر دەکات.",
+                            onPressedBritish: () => speakaggrav3744("en-GB"),
+                            onPressedAmerican: () => speakaggrav3744(
+                                // REPLACE: aggravate /ˈæɡrəveɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

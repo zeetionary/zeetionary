@@ -125,120 +125,43 @@ class EnglishEntryaccent extends StatelessWidget {
                               text:
                                   "١. (ناو) شێوازی خوێندنەوەی وشەکانی زمانێک کە دەریدەخات کەسێک خەڵکی کوێیە یان کاری چییە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Americans had learned Korean and spoke with a good accent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمریکییەکان کۆری فێربووبوون و بە لەھجەیەکی باشەوە قسەیان پێدەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac25469("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac25469("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Americans had learned Korean and spoke with a good accent.",
+                            kurdishText:
+                                "ئەمریکییەکان کۆری فێربووبوون و بە لەھجەیەکی باشەوە قسەیان پێدەکرد.",
+                            onPressedBritish: () => speakac25469("en-GB"),
+                            onPressedAmerican: () => speakac25469("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Where are you from? I can't place your accent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی کوێی؟ بە لەھجەکەتدا نازانم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac56412("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac56412("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Where are you from? I can't place your accent.",
+                            kurdishText: "خەڵکی کوێی؟ بە لەھجەکەتدا نازانم.",
+                            onPressedBritish: () => speakac56412("en-GB"),
+                            onPressedAmerican: () => speakac56412("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئەو ھێزەی کە دەیخەیتە سەر بەشێکی وشەیەک لە کاتی وتنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "On which syllable do you place the accent in this word?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەم وشەیەدا ھێز دەخەیتە سەر کام بڕگە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac25663("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac25663("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "On which syllable do you place the accent in this word?",
+                            kurdishText:
+                                "لەم وشەیەدا ھێز دەخەیتە سەر کام بڕگە؟",
+                            onPressedBritish: () => speakac25663("en-GB"),
+                            onPressedAmerican: () => speakac25663("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) جەختکردنەوە سەر شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The women accent their eyes with make-up."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنان بە مەیکئەپ گرنگی تایبەت بە چاویان دەدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac2544799("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac2544799("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The women accent their eyes with make-up.",
+                            kurdishText:
+                                "ژنان بە مەیکئەپ گرنگی تایبەت بە چاویان دەدەن.",
+                            onPressedBritish: () => speakac2544799("en-GB"),
+                            onPressedAmerican: () => speakac2544799("en-US"),
                           ),
                         ],
                       ),

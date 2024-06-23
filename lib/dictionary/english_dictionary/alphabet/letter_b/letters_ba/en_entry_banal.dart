@@ -157,34 +157,15 @@ class EnglishEntrybanal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێکی ئاسایی کە ھیچی سەرنجڕاکێشی تێدا نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He knew how banal the question was as soon as he had asked it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیزانی پرسیارەکە چەندە ھیچ بوو ھەرکە پرسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbanals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbanals1(// REPLACE: banal
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He knew how banal the question was as soon as he had asked it.",
+                            kurdishText:
+                                "دەیزانی پرسیارەکە چەندە ھیچ بوو ھەرکە پرسی.",
+                            onPressedBritish: () => speakbanals1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbanals1(// REPLACE: banal
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

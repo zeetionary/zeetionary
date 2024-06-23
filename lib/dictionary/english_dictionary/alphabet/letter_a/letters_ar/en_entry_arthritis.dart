@@ -164,34 +164,15 @@ class EnglishEntryarthritis extends StatelessWidget {
                               text:
                                   "١. (ناو) ھەڵئاوسانی جومگەیەک یان زیاتری جەستە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is unclear why some people develop arthritis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھۆکاری بوونی جومگەماسێ لە ھەندێک کەسدا نەزانراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarthritis450("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarthritis450(
-                                        // REPLACE: arthritis /ɑːrˈθraɪtɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is unclear why some people develop arthritis.",
+                            kurdishText:
+                                "ھۆکاری بوونی جومگەماسێ لە ھەندێک کەسدا نەزانراوە.",
+                            onPressedBritish: () => speakarthritis450("en-GB"),
+                            onPressedAmerican: () => speakarthritis450(
+                                // REPLACE: arthritis /ɑːrˈθraɪtɪs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

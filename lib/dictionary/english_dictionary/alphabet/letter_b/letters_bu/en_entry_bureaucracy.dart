@@ -189,67 +189,26 @@ class EnglishEntrybureaucracy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سیستەمی یاسا فەرمییەکان و شێوازی ئەنجامدانی ئەو کارانەی حکومەتێک یان دامەزراوەیەک ھەیەتی، بەتایبەتی کاتێک ئەمە زۆر ئاڵۆزە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The organization has promised to eliminate unnecessary bureaucracy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دامەزراوەکە بەڵێنی داوە بیرۆکراسیی ناپێویست نەھێڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bureaucracy", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbureaucracys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbureaucracys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The organization has promised to eliminate unnecessary bureaucracy.",
+                            kurdishText:
+                                "دامەزراوەکە بەڵێنی داوە بیرۆکراسیی ناپێویست نەھێڵێت.", // bureaucracy", follow LX strictly
+                            onPressedBritish: () => speakbureaucracys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbureaucracys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) سیستەمێکی حکومەت کە ژمارەیەکی زۆر بەرپرسی ھەیە کە ڕاستەوخۆ ھەڵنەبژێردراون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We are living in a modern bureaucracy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بیرۆکڕاسییەکی سەردەمیانەدا دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbureaucracys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbureaucracys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We are living in a modern bureaucracy.",
+                            kurdishText: "لە بیرۆکڕاسییەکی سەردەمیانەدا دەژین.",
+                            onPressedBritish: () => speakbureaucracys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbureaucracys2("en-US"),
                           ),
                         ],
                       ),

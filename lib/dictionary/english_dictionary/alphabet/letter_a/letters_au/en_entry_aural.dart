@@ -166,34 +166,15 @@ class EnglishEntryaural extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە بیستن و گوێگرتن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She doesn’t speak English well, but her aural comprehension is good."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانێ بە باشی بە ئینگلیزی قسەبکات، بەڵام توانای بیستنی باشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaural422("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaural422(// REPLACE: aural
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She doesn’t speak English well, but her aural comprehension is good.",
+                            kurdishText:
+                                "ناتوانێ بە باشی بە ئینگلیزی قسەبکات، بەڵام توانای بیستنی باشە.",
+                            onPressedBritish: () => speakaural422("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaural422(// REPLACE: aural
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

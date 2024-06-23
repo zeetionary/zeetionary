@@ -144,32 +144,13 @@ class EnglishEntryboattrain extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شەمەندەفەرێک کە گەشتیار دەگوازێتەوە بۆ شوێنێک یان لێیەوە کە بەلەم دەگەن یان جێیدێڵن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We will take the 7.30 p.m. boat train to Harwich."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەچینە ئەو شەمەندەفەرەی کە ٧:٣٠ ی ئێوارە دەچێت بۆ ھارویچ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboattrains1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboattrains1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We will take the 7.30 p.m. boat train to Harwich.",
+                            kurdishText:
+                                "دەچینە ئەو شەمەندەفەرەی کە ٧:٣٠ ی ئێوارە دەچێت بۆ ھارویچ.",
+                            onPressedBritish: () => speakboattrains1("en-GB"),
+                            onPressedAmerican: () => speakboattrains1("en-US"),
                           ),
                         ],
                       ),

@@ -164,67 +164,29 @@ class EnglishEntryattest extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (کردار) پیشاندانی ڕاستی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Contemporary accounts attest to his courage and determination."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرچاوە ھاوسەردەمەکان گەواھی دەدەن بۆ بوێری و کۆڵنەدانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattest927("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattest927(// REPLACE: attest
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Contemporary accounts attest to his courage and determination.",
+                            kurdishText:
+                                "سەرچاوە ھاوسەردەمەکان گەواھی دەدەن بۆ بوێری و کۆڵنەدانی.",
+                            onPressedBritish: () => speakattest927("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattest927(// REPLACE: attest
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) شایەتیدان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can attest that this treatment really works."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانم شایەتی بدەم کە ئەم چارەسەر کاردەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattest928("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattest928(// REPLACE: attest
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can attest that this treatment really works.",
+                            kurdishText:
+                                "دەتوانم شایەتی بدەم کە ئەم چارەسەر کاردەکات.",
+                            onPressedBritish: () => speakattest928("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattest928(// REPLACE: attest
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

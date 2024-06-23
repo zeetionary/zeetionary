@@ -155,67 +155,27 @@ class EnglishEntryanimosity extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕق‌وکینە بەرامبەر کەسێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He felt no animosity towards his critics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە ھیچ ڕقێک بەرامبەر بە ڕەخنەگرانی نەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanimosity1055("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimosity1055(
-                                        // REPLACE: animosity /ˌænɪˈmɑːsəti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He felt no animosity towards his critics.",
+                            kurdishText:
+                                "ھەستی بە ھیچ ڕقێک بەرامبەر بە ڕەخنەگرانی نەکرد.",
+                            onPressedBritish: () => speakanimosity1055("en-GB"),
+                            onPressedAmerican: () => speakanimosity1055(
+                                // REPLACE: animosity /ˌænɪˈmɑːsəti/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They managed to discuss their past disagreements without animosity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توانیان بەبێ ڕق‌وکینە باسی ناکۆکییەکانی ڕابردوویان بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanimosity1057("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimosity1057(
-                                        // REPLACE: animosity /ˌænɪˈmɑːsəti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They managed to discuss their past disagreements without animosity.",
+                            kurdishText:
+                                "توانیان بەبێ ڕق‌وکینە باسی ناکۆکییەکانی ڕابردوویان بکەن.",
+                            onPressedBritish: () => speakanimosity1057("en-GB"),
+                            onPressedAmerican: () => speakanimosity1057(
+                                // REPLACE: animosity /ˌænɪˈmɑːsəti/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

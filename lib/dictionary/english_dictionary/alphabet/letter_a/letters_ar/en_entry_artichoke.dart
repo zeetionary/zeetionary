@@ -167,34 +167,15 @@ class EnglishEntryartichoke extends StatelessWidget {
                               text:
                                   "١. (ناو) سەوزەیەکی خڕ کە کە گەڵای ئەستووری زۆری ھەیە. بەشی خوارەوەی گەڵاکان و ناوەوەی سەوزەکە دەکرێت بخورێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cut the artichoke into long quarters and remove the choke (the purple spikes and blond fluff)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئارتیشۆکەکە بکە چوار بەشی یەکسانەوە و ناوەکەی لابدە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakartichoke510("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartichoke510(
-                                        // REPLACE: artichoke /ˈɑːrtɪtʃəʊk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cut the artichoke into long quarters and remove the choke (the purple spikes and blond fluff).",
+                            kurdishText:
+                                "ئارتیشۆکەکە بکە چوار بەشی یەکسانەوە و ناوەکەی لابدە.",
+                            onPressedBritish: () => speakartichoke510("en-GB"),
+                            onPressedAmerican: () => speakartichoke510(
+                                // REPLACE: artichoke /ˈɑːrtɪtʃəʊk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -152,63 +152,25 @@ class EnglishEntrybattalion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ژمارەیەکی زۆر سەرباز کە بەشێکن لە لیوایەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soldiers of the battalion trained rigorously for months before being sent into battle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازانی یەکەکە بەسەختی مەشقیان دەکرد بۆ چەندین مانگ پێش ئەوەی بنێردرێن بۆ جەنگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbattalions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbattalions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soldiers of the battalion trained rigorously for months before being sent into battle.",
+                            kurdishText:
+                                "سەربازانی یەکەکە بەسەختی مەشقیان دەکرد بۆ چەندین مانگ پێش ئەوەی بنێردرێن بۆ جەنگەکە.",
+                            onPressedBritish: () => speakbattalions1("en-GB"),
+                            onPressedAmerican: () => speakbattalions1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ژمارەیەکی زۆر لە خەڵک کە زۆرجار ڕێکخراون و ئامانجێکیان ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The battalion of scientists made a discovery that changed the world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمە زانستییەکە دۆزینەوەیەکیان ئەنجامدا کە جیھانی گۆڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbattalions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbattalions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The battalion of scientists made a discovery that changed the world.",
+                            kurdishText:
+                                "تیمە زانستییەکە دۆزینەوەیەکیان ئەنجامدا کە جیھانی گۆڕی.",
+                            onPressedBritish: () => speakbattalions2("en-GB"),
+                            onPressedAmerican: () => speakbattalions2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

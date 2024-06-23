@@ -119,35 +119,16 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە بە ڕادیۆ ڕێنمایی دەدات بە فڕۆکەوانان بۆ ئەوەی بزانن لە کوێ بفڕن و بنیشنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ron Connolly sometimes had to function on four hours of sleep or less when he worked as an air traffic controller."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆن کۆنۆڵی پێویست بوو چوار کاتژمێر یان کەمتر بخەوێت کاتێک وەک کۆنترۆڵوانی فڕۆکە کاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakairtrafficcontroller4255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairtrafficcontroller4255(
-                                        // REPLACE: air traffic controller /ˌer træfɪk kənˈtrəʊlər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ron Connolly sometimes had to function on four hours of sleep or less when he worked as an air traffic controller.",
+                            kurdishText:
+                                "ڕۆن کۆنۆڵی پێویست بوو چوار کاتژمێر یان کەمتر بخەوێت کاتێک وەک کۆنترۆڵوانی فڕۆکە کاری دەکرد.",
+                            onPressedBritish: () =>
+                                speakairtrafficcontroller4255("en-GB"),
+                            onPressedAmerican: () => speakairtrafficcontroller4255(
+                                // REPLACE: air traffic controller /ˌer træfɪk kənˈtrəʊlər/
+                                "en-US"),
                           ),
                         ],
                       ),

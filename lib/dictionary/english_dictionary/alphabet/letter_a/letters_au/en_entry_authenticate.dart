@@ -163,69 +163,31 @@ class EnglishEntryauthenticate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) سەلماندنی ئەوەی شتێک ڕاستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The letter has been authenticated by handwriting experts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەکە دڵنیایی‌لێکراوەتەوە لەلایەن شارەزایانی دەستوخەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthenticate628("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthenticate628(
-                                        // REPLACE: authenticate
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The letter has been authenticated by handwriting experts.",
+                            kurdishText:
+                                "نامەکە دڵنیایی‌لێکراوەتەوە لەلایەن شارەزایانی دەستوخەتەوە.",
+                            onPressedBritish: () =>
+                                speakauthenticate628("en-GB"),
+                            onPressedAmerican: () => speakauthenticate628(
+                                // REPLACE: authenticate
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) دڵنیایی‌کردنەوەی ناسنامە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Users must authenticate with their credentials to gain access to the internet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکارھێنەران دەبێت ناسنامەیان پشڕاستبکەنەوە بە زانیارییەکانیان بۆ بەکارھێنانی ئینتەرنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthenticate632("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthenticate632(
-                                        // REPLACE: authenticate
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Users must authenticate with their credentials to gain access to the internet.",
+                            kurdishText:
+                                "بەکارھێنەران دەبێت ناسنامەیان پشڕاستبکەنەوە بە زانیارییەکانیان بۆ بەکارھێنانی ئینتەرنێت.",
+                            onPressedBritish: () =>
+                                speakauthenticate632("en-GB"),
+                            onPressedAmerican: () => speakauthenticate632(
+                                // REPLACE: authenticate
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

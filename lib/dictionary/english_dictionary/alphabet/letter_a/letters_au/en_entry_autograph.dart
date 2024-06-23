@@ -164,67 +164,27 @@ class EnglishEntryautograph extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ئیمزای کەسێکی بەناوبانگ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Could I have your autograph?"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەتوانی ئیمزایەکم بۆ بکەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautograph1002("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautograph1002(// REPLACE: autograph
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Could I have your autograph?",
+                            kurdishText: "دەتوانی ئیمزایەکم بۆ بکەیت؟",
+                            onPressedBritish: () => speakautograph1002("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautograph1002(// REPLACE: autograph
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) کێشانی ئیمزا لەلایەن کەسێکی بەناوبانگەوە لەسەر شتێک بۆ کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The whole team has autographed a football, which will be used as a prize."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی تیمەکە ئیمزایان لەسەر تۆپێک کردووە کە وەک دیارییەک بەکاردێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakautograph1005("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautograph1005(// REPLACE: autograph
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The whole team has autographed a football, which will be used as a prize.",
+                            kurdishText:
+                                "تەواوی تیمەکە ئیمزایان لەسەر تۆپێک کردووە کە وەک دیارییەک بەکاردێت.",
+                            onPressedBritish: () => speakautograph1005("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautograph1005(// REPLACE: autograph
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -157,63 +157,25 @@ class EnglishEntryawe extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ھەستی زۆر سەرسامبوون بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He speaks of her with awe."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە ھەیبەتەوە باسی دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakawes1(// REPLACE: awe
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He speaks of her with awe.",
+                            kurdishText: "بە ھەیبەتەوە باسی دەکات.",
+                            onPressedBritish: () => speakawes1("en-GB"),
+                            onPressedAmerican: () => speakawes1(// REPLACE: awe
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) وا لە کەسێک بکەیت ھەست بە سەرسامی زۆر بکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She seemed awed by the presence of so many famous people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر سەرسام بوو بە ئامادەبوونی ئەو ھەموو کەسە بەناوبانگانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakawes2(// REPLACE: awe
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She seemed awed by the presence of so many famous people.",
+                            kurdishText:
+                                "زۆر سەرسام بوو بە ئامادەبوونی ئەو ھەموو کەسە بەناوبانگانە.",
+                            onPressedBritish: () => speakawes2("en-GB"),
+                            onPressedAmerican: () => speakawes2(// REPLACE: awe
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

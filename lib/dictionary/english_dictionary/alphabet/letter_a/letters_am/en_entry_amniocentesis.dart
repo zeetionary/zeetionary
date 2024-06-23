@@ -178,35 +178,16 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) ئەمنیۆسێنتێسیس؛ تاقی‌کردنەوەیەکی پزیشکی بۆ ژنانی سکپڕ، بەمەبەستی دیاریکردنی بوونی نەخۆشییەکی تایبەتی یا کێشەیەکی تەندرووستی لە ئاوەڵمەدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Pregnant women over the age of 35 will be offered (an) amniocentesis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنانی سکپڕی سەروو ٣٥ ساڵان ئەمنیۆسێنتێسیسیان بۆ دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamniocentesis4799("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamniocentesis4799(
-                                        // REPLACE: amniocentesis /ˌæmniəʊsenˈtiːsɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Pregnant women over the age of 35 will be offered (an) amniocentesis.",
+                            kurdishText:
+                                "ژنانی سکپڕی سەروو ٣٥ ساڵان ئەمنیۆسێنتێسیسیان بۆ دەکرێت.",
+                            onPressedBritish: () =>
+                                speakamniocentesis4799("en-GB"),
+                            onPressedAmerican: () => speakamniocentesis4799(
+                                // REPLACE: amniocentesis /ˌæmniəʊsenˈtiːsɪs/
+                                "en-US"),
                           ),
                         ],
                       ),

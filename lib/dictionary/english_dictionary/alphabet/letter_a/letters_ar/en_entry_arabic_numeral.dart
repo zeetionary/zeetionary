@@ -159,33 +159,14 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ژمارەکانی 0، 1، 2، 3، 4، 5، ھتد کە بەکاردێن لە زۆر وڵاتدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "1 and 2 are Arabic numerals."),
-                                    ExampleSentenceKurdish(
-                                        text: "1 و 2 ژمارەی عەرەبین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarabicnumeral1032("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarabicnumeral1032(
-                                        // REPLACE: Arabic numeral /ˌærəbɪk ˈnuːmərəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "1 and 2 are Arabic numerals.",
+                            kurdishText: "1 و 2 ژمارەی عەرەبین.",
+                            onPressedBritish: () =>
+                                speakarabicnumeral1032("en-GB"),
+                            onPressedAmerican: () => speakarabicnumeral1032(
+                                // REPLACE: Arabic numeral /ˌærəbɪk ˈnuːmərəl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

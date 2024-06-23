@@ -157,34 +157,15 @@ class EnglishEntryanomaly extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) شتێک یان بارودۆخێک کە نائاساییە وەک لەوەی چاوەڕوانکراوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are areas of anomaly in the report."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک بەشی نائاسایی لە ڕاپۆرتەکە ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanomaly1003("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanomaly1003(
-                                        // REPLACE: anomaly /əˈnɑːməli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are areas of anomaly in the report.",
+                            kurdishText:
+                                "ھەندێک بەشی نائاسایی لە ڕاپۆرتەکە ھەیە.",
+                            onPressedBritish: () => speakanomaly1003("en-GB"),
+                            onPressedAmerican: () => speakanomaly1003(
+                                // REPLACE: anomaly /əˈnɑːməli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

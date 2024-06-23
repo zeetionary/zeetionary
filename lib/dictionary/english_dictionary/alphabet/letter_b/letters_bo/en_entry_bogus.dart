@@ -149,32 +149,13 @@ class EnglishEntrybogus extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) واپیشاندانی ئەوەی کە ڕاست و درووستە بەڵام وانییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bogus claims of injury by workers are costing companies thousands of pounds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانگەشەی درۆی برینداری لەلایەن کرێکارانەوە ھەزاران پاوەند لەسەر کۆمپانیاکان دەکەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboguss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboguss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bogus claims of injury by workers are costing companies thousands of pounds.",
+                            kurdishText:
+                                "بانگەشەی درۆی برینداری لەلایەن کرێکارانەوە ھەزاران پاوەند لەسەر کۆمپانیاکان دەکەوێت.",
+                            onPressedBritish: () => speakboguss1("en-GB"),
+                            onPressedAmerican: () => speakboguss1("en-US"),
                           ),
                         ],
                       ),

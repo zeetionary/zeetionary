@@ -158,67 +158,29 @@ class EnglishEntryballast extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) مادەی قورس کە دەخرێتە کەشتی بۆ ئەوەی بە جێگیری بیھێڵێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The submarine took in water as ballast to submerge itself fully beneath the surface."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژێردەریاکە ئاوی ھێنایە ژوورەوە بۆ بەکارھێنانی وەک ھاوسەنگێنە بۆ ئەوەی بە تەواوی خۆی داپۆشێت لەژێر ڕووی دەریاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballasts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballasts1(// REPLACE: ballast
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The submarine took in water as ballast to submerge itself fully beneath the surface.",
+                            kurdishText:
+                                "ژێردەریاکە ئاوی ھێنایە ژوورەوە بۆ بەکارھێنانی وەک ھاوسەنگێنە بۆ ئەوەی بە تەواوی خۆی داپۆشێت لەژێر ڕووی دەریاکە.",
+                            onPressedBritish: () => speakballasts1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballasts1(// REPLACE: ballast
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) چینێک لە زیخ کە لە سەرەوەی ڕێگا درووست دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The workers laid a layer of ballast before paving the road with asphalt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرێکارەکان چینێک لە چەوڕێژیان دانا پێش ئەوەی ڕێگاکە قیرتاو بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballasts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballasts2(// REPLACE: ballast
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The workers laid a layer of ballast before paving the road with asphalt.",
+                            kurdishText:
+                                "کرێکارەکان چینێک لە چەوڕێژیان دانا پێش ئەوەی ڕێگاکە قیرتاو بکەن.",
+                            onPressedBritish: () => speakballasts2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballasts2(// REPLACE: ballast
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

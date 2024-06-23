@@ -150,59 +150,21 @@ class EnglishEntrybeastly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ناخۆش، ناشرین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This car’s been nothing but trouble—I wish I’d never bought the beastly thing!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە جگە لە کێشە ھیچی تر نەبووە، خۆزگە ھەرگیز ئەو شتە ھیچەم نەکڕیایە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeastlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeastlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This car’s been nothing but trouble—I wish I’d never bought the beastly thing!",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە جگە لە کێشە ھیچی تر نەبووە، خۆزگە ھەرگیز ئەو شتە ھیچەم نەکڕیایە!",
+                            onPressedBritish: () => speakbeastlys1("en-GB"),
+                            onPressedAmerican: () => speakbeastlys1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Don’t be so beastly to him!"),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر دڵڕەق مەبە بەرامبەری!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeastlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeastlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don’t be so beastly to him!",
+                            kurdishText: "زۆر دڵڕەق مەبە بەرامبەری!",
+                            onPressedBritish: () => speakbeastlys2("en-GB"),
+                            onPressedAmerican: () => speakbeastlys2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

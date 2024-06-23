@@ -115,66 +115,27 @@ class EnglishEntryadaptation extends StatelessWidget {
                               text:
                                   "١. (ناو) پڕۆسەی ڕاھاتن لەگەڵ بارودۆخێکی تازە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The process of adaptation to a new school is difficult for some children."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پڕۆسەی ڕاھاتن بە قوتابخانەیەکی تازە بۆ ھەندێک منداڵ ئاسان نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadapt3254("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadapt3254(
-                                        // REPLACE: adaptation /ˌædæpˈteɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The process of adaptation to a new school is difficult for some children.",
+                            kurdishText:
+                                "پڕۆسەی ڕاھاتن بە قوتابخانەیەکی تازە بۆ ھەندێک منداڵ ئاسان نییە.",
+                            onPressedBritish: () => speakadapt3254("en-GB"),
+                            onPressedAmerican: () => speakadapt3254(
+                                // REPLACE: adaptation /ˌædæpˈteɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) فیلمێک، درامەیەک، یان شانۆیەک کە پشتی ب کتێبێک یان شانۆیەک بەستووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "a screen adaptation of Shakespeare’s ‘Macbeth’"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سازاندنی فیلمیی ماکبێسی شکسپیر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadaptat2489("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadaptat2489(
-                                        // REPLACE: adaptation /ˌædæpˈteɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "a screen adaptation of Shakespeare’s ‘Macbeth’",
+                            kurdishText: "سازاندنی فیلمیی ماکبێسی شکسپیر.",
+                            onPressedBritish: () => speakadaptat2489("en-GB"),
+                            onPressedAmerican: () => speakadaptat2489(
+                                // REPLACE: adaptation /ˌædæpˈteɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

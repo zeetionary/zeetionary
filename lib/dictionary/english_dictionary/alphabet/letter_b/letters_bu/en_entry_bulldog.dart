@@ -144,31 +144,12 @@ class EnglishEntrybulldog extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) سەگێکی بچووک کە لاقی کورتی ھەیە لەگەڵ ڕووخسارێکی وارگۆشە دەکرێت ترسێنەر و بەھێز بێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Courage is inherent in bulldogs."),
-                                    ExampleSentenceKurdish(
-                                        text: "بوێری بەشێکی سەرەکیی گاسەگە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulldog", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulldogs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulldogs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Courage is inherent in bulldogs.",
+                            kurdishText:
+                                "بوێری بەشێکی سەرەکیی گاسەگە.", // bulldog", follow LX strictly
+                            onPressedBritish: () => speakbulldogs1("en-GB"),
+                            onPressedAmerican: () => speakbulldogs1("en-US"),
                           ),
                         ],
                       ),

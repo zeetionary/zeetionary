@@ -145,32 +145,13 @@ class EnglishEntrybugle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئامێرێکی میوزیکی کە وەک زوڕنا وایە و لە سوپادا بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As the sun set, the bugle called the troops back to the barracks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە خۆر ئاوابوو، زوڕناکە لێدرا بۆ ئەوەی سەربازەکان بگەڕێنەوە سەربازگەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "bugle", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbugles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbugles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As the sun set, the bugle called the troops back to the barracks.",
+                            kurdishText:
+                                "کە خۆر ئاوابوو، زوڕناکە لێدرا بۆ ئەوەی سەربازەکان بگەڕێنەوە سەربازگەکان.", // bugle", follow LX strictly
+                            onPressedBritish: () => speakbugles1("en-GB"),
+                            onPressedAmerican: () => speakbugles1("en-US"),
                           ),
                         ],
                       ),

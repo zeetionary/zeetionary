@@ -114,34 +114,15 @@ class EnglishEntryadmittedly extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) زۆرجار لە سەرەتای ڕستە بەکاردێت بۆ داننان بەوەی شتێک ڕاستە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Admittedly, I could have tried harder but I still don't think all this criticism is fair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دان بەوەدا دەنێم دەکرا ھەوڵی زیاترم دابا، بەڵام ھێشتا باوەڕم وانییە ئەم ھەموو لۆمەیە دادپەروەرییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmit37894("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmit37894(
-                                        // REPLACE: admittedly /ədˈmɪtɪdli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Admittedly, I could have tried harder but I still don't think all this criticism is fair.",
+                            kurdishText:
+                                "دان بەوەدا دەنێم دەکرا ھەوڵی زیاترم دابا، بەڵام ھێشتا باوەڕم وانییە ئەم ھەموو لۆمەیە دادپەروەرییە.",
+                            onPressedBritish: () => speakadmit37894("en-GB"),
+                            onPressedAmerican: () => speakadmit37894(
+                                // REPLACE: admittedly /ədˈmɪtɪdli/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -150,60 +150,22 @@ class EnglishEntryboggle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) ھێواشبوون لە کردن یان پەسەندکردنی شتێک بەھۆی ئەوەی سەرسام یان شۆکیت پێی """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The mind boggles at the amount of money they spend on food."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێشک تێڕادەمێنێت لە ڕێژەی ئەو پارەیەی لە خواردندا خەرجی دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboggles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboggles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The mind boggles at the amount of money they spend on food.",
+                            kurdishText:
+                                "مێشک تێڕادەمێنێت لە ڕێژەی ئەو پارەیەی لە خواردندا خەرجی دەکەن.",
+                            onPressedBritish: () => speakboggles1("en-GB"),
+                            onPressedAmerican: () => speakboggles1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was boggled by the idea that people could hate one another just because of the colour of their skin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسام بوو بەو بیرکردنەوەیەی کە خەڵکی دەکرێت ڕقیان لە یەکدی تەنھا بەھۆی ڕەنگی پێستیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboggles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboggles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was boggled by the idea that people could hate one another just because of the colour of their skin.",
+                            kurdishText:
+                                "سەرسام بوو بەو بیرکردنەوەیەی کە خەڵکی دەکرێت ڕقیان لە یەکدی تەنھا بەھۆی ڕەنگی پێستیان.",
+                            onPressedBritish: () => speakboggles2("en-GB"),
+                            onPressedAmerican: () => speakboggles2("en-US"),
                           ),
                         ],
                       ),

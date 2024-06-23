@@ -163,34 +163,14 @@ class EnglishEntryassertive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) دەربڕینی بۆچوون و ویستەکان و بەتوندی بۆ ئەوەی کەسانی تر ھەستی پێ‌بکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You should try and be more assertive."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەبێت زیاتر خۆسەپێنەر بیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassertive1059("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassertive1059(
-                                        // REPLACE: assertive /əˈsɜːrtɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You should try and be more assertive.",
+                            kurdishText: "دەبێت زیاتر خۆسەپێنەر بیت.",
+                            onPressedBritish: () => speakassertive1059("en-GB"),
+                            onPressedAmerican: () => speakassertive1059(
+                                // REPLACE: assertive /əˈsɜːrtɪv/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

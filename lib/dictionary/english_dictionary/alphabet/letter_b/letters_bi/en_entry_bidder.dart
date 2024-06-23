@@ -150,63 +150,25 @@ class EnglishEntrybidder extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک یان گرووپێک کە بڕێک پارە پێشنیاز دەکات بۆ کڕینی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The painting went to the highest bidder (= the person who offered the most money)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تابلۆکە درا بەو کەسەی کە زۆرترین بڕی پێشنیاز کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbidders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbidders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The painting went to the highest bidder (= the person who offered the most money).",
+                            kurdishText:
+                                "تابلۆکە درا بەو کەسەی کە زۆرترین بڕی پێشنیاز کرد.",
+                            onPressedBritish: () => speakbidders1("en-GB"),
+                            onPressedAmerican: () => speakbidders1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک یان گرووپێک کە کارێک دەکات یان خزمەتگوزارییەک پێشکەش دەکات بە بڕێکی دیاریکراو وەک ڕکابەری لەگەڵ کۆمپانیاکانی تر """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were six bidders for the cleaning contract."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەش پاڵێوراو ھەبوون بۆ گرێبەستی پاککردنەوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbidders2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbidders2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were six bidders for the cleaning contract.",
+                            kurdishText:
+                                "شەش پاڵێوراو ھەبوون بۆ گرێبەستی پاککردنەوەکە.",
+                            onPressedBritish: () => speakbidders2("en-GB"),
+                            onPressedAmerican: () => speakbidders2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -123,131 +123,55 @@ class EnglishEntryaggressive extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) تووڕە و شەڕەنگێز" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He became increasingly aggressive as the evening wore on."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە شەوەکە زیاتر تێپەڕی زیاتر شەڕەنخواز بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaggressive51114("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggressive51114(
-                                        // REPLACE: aggressive /əˈɡresɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He became increasingly aggressive as the evening wore on.",
+                            kurdishText:
+                                "کە شەوەکە زیاتر تێپەڕی زیاتر شەڕەنخواز بوو.",
+                            onPressedBritish: () =>
+                                speakaggressive51114("en-GB"),
+                            onPressedAmerican: () => speakaggressive51114(
+                                // REPLACE: aggressive /əˈɡresɪv/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) سەرسەخت لەسەر سەرکەوتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We need to get more aggressive in fighting terrorism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستە سەرسەختتر بین لە شەڕی دژ بە تیرۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaggre2256("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggre2256(
-                                        // REPLACE: aggressive /əˈɡresɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We need to get more aggressive in fighting terrorism.",
+                            kurdishText:
+                                "پێویستە سەرسەختتر بین لە شەڕی دژ بە تیرۆر.",
+                            onPressedBritish: () => speakaggre2256("en-GB"),
+                            onPressedAmerican: () => speakaggre2256(
+                                // REPLACE: aggressive /əˈɡresɪv/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) نەخۆشییەک کە بەخێرایی پەرەدەسێنێت و چارەسەری سەختە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Doctors diagnosed her with a rare and aggressive cancer, which was feared to be incurable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دکتۆرەکان نەخۆشییەکەیان دەستنیشانکرد بە جۆرێکی سەختی شێرپەنجە کە ترس ھەیە چارەسەری نەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaggr45999("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggr45999(
-                                        // REPLACE: aggressive /əˈɡresɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Doctors diagnosed her with a rare and aggressive cancer, which was feared to be incurable.",
+                            kurdishText:
+                                "دکتۆرەکان نەخۆشییەکەیان دەستنیشانکرد بە جۆرێکی سەختی شێرپەنجە کە ترس ھەیە چارەسەری نەبێت.",
+                            onPressedBritish: () => speakaggr45999("en-GB"),
+                            onPressedAmerican: () => speakaggr45999(
+                                // REPLACE: aggressive /əˈɡresɪv/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) چارەسەرێکی نەخۆشی کە ئامانج لێی ئەوەیە زۆرترین ماوە بەردەوامی بە کەسێک بدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Nicholas was diagnosed with the rare disease in November and has undergone aggressive treatments since then."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشییەکەی نیکۆلاس لە تشرینی دووەم بە یەکێکی دەگمەن دەستنیشانکرا و لەو کاتەوە ھەموو چارەسەرێکی وەرگرتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaggr5222("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggr5222(
-                                        // REPLACE: aggressive /əˈɡresɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Nicholas was diagnosed with the rare disease in November and has undergone aggressive treatments since then.",
+                            kurdishText:
+                                "نەخۆشییەکەی نیکۆلاس لە تشرینی دووەم بە یەکێکی دەگمەن دەستنیشانکرا و لەو کاتەوە ھەموو چارەسەرێکی وەرگرتووە.",
+                            onPressedBritish: () => speakaggr5222("en-GB"),
+                            onPressedAmerican: () => speakaggr5222(
+                                // REPLACE: aggressive /əˈɡresɪv/
+                                "en-US"),
                           ),
                         ],
                       ),

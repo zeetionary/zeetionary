@@ -149,32 +149,13 @@ class EnglishEntrybodywork extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پێکھاتەی سەرەکیی دەرەوەی ئامرازێکی گواستنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The car had damaged bodywork but a very good engine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکە لاشەکەی بەرکەوتنی ھەبوو، بەڵام بزوێنەری زۆر باشی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbodyworks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbodyworks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The car had damaged bodywork but a very good engine.",
+                            kurdishText:
+                                "ئۆتۆمبێلەکە لاشەکەی بەرکەوتنی ھەبوو، بەڵام بزوێنەری زۆر باشی ھەبوو.",
+                            onPressedBritish: () => speakbodyworks1("en-GB"),
+                            onPressedAmerican: () => speakbodyworks1("en-US"),
                           ),
                         ],
                       ),

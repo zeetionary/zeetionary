@@ -115,66 +115,28 @@ class EnglishEntryadvanced extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی شتی سەردەمی و بیردۆز و ئایدیای تازە پەرەپێدراو"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scientists are working on highly advanced technology to replace fossil fuels."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاناکان کار دەکەن لەسەر تەکنۆلۆژیای زۆر پێشکەوتوو بۆ شوێنگرتنەوەی سوتەمەنی بەبەردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvanc2534("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvanc2534(
-                                        // REPLACE: advanced /ədˈvænst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scientists are working on highly advanced technology to replace fossil fuels.",
+                            kurdishText:
+                                "زاناکان کار دەکەن لەسەر تەکنۆلۆژیای زۆر پێشکەوتوو بۆ شوێنگرتنەوەی سوتەمەنی بەبەردبوو.",
+                            onPressedBritish: () => speakadvanc2534("en-GB"),
+                            onPressedAmerican: () => speakadvanc2534(
+                                // REPLACE: advanced /ədˈvænst/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) لە ئاستێکی بەرزدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He hopes to pursue an advanced degree in economics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیواخوازە بڕوانامەیەکی بەرز لە ئابووریدا بەدەستبھێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvan2546("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvan2546(
-                                        // REPLACE: advanced /ədˈvænst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He hopes to pursue an advanced degree in economics.",
+                            kurdishText:
+                                "ھیواخوازە بڕوانامەیەکی بەرز لە ئابووریدا بەدەستبھێنێت.",
+                            onPressedBritish: () => speakadvan2546("en-GB"),
+                            onPressedAmerican: () => speakadvan2546(
+                                // REPLACE: advanced /ədˈvænst/
+                                "en-US"),
                           ),
                         ],
                       ),

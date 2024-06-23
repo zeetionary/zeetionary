@@ -151,61 +151,22 @@ class EnglishEntrybeneficial extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێکی بەسوود کە کاریگەری ئەرێنی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A good diet is beneficial to health."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژەمە خواردنی باش بەسوودە بۆ تەندرووستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeneficials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeneficials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A good diet is beneficial to health.",
+                            kurdishText:
+                                "ژەمە خواردنی باش بەسوودە بۆ تەندرووستی.",
+                            onPressedBritish: () => speakbeneficials1("en-GB"),
+                            onPressedAmerican: () => speakbeneficials1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They finally came to a mutually beneficial agreement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆتاییدا گەشتنە ڕێککەوتنێک کە بۆ ھەردوو لا بەسوود بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeneficials2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeneficials2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They finally came to a mutually beneficial agreement.",
+                            kurdishText:
+                                "لە کۆتاییدا گەشتنە ڕێککەوتنێک کە بۆ ھەردوو لا بەسوود بوو.",
+                            onPressedBritish: () => speakbeneficials2("en-GB"),
+                            onPressedAmerican: () => speakbeneficials2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

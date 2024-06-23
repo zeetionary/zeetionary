@@ -148,67 +148,29 @@ class EnglishEntrybicentennial extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ساڵێک یان ڕۆژێک کە ٢٠٠ ساڵ تێپەڕیوە بەسەر ڕووداوێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A statue was erected to mark the bicentennial of the composer's birth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیکەرێک دانرا بۆ وەبیرھێنانەوەی دووسەدھەمین ساڵیادی لەدایکبوونی ئاوازدانەرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbicentennials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbicentennials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A statue was erected to mark the bicentennial of the composer's birth.",
+                            kurdishText:
+                                "پەیکەرێک دانرا بۆ وەبیرھێنانەوەی دووسەدھەمین ساڵیادی لەدایکبوونی ئاوازدانەرەکە.",
+                            onPressedBritish: () =>
+                                speakbicentennials1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbicentennials1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بەو ساڵە یان ڕۆژە کە ٢٠٠ ساڵ تێپەڕیوە بەسەر ڕووداوێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The city organized a series of bicentennial events throughout the year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارەکە زنجیرەیەک لە ئاھەنگی بۆ دووسەدھەمین ساڵیادی ڕێکخست بەدرێژایی ساڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbicentennials2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbicentennials2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The city organized a series of bicentennial events throughout the year.",
+                            kurdishText:
+                                "شارەکە زنجیرەیەک لە ئاھەنگی بۆ دووسەدھەمین ساڵیادی ڕێکخست بەدرێژایی ساڵەکە.",
+                            onPressedBritish: () =>
+                                speakbicentennials2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbicentennials2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

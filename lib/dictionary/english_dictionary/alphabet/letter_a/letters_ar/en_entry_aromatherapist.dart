@@ -161,35 +161,16 @@ class EnglishEntryaromatherapist extends StatelessWidget {
                           const DefinitionKurdish(text: """
 ١. (ناو) ئێرۆماسێراپیست؛ کەسێک کە شارەزایی ھەیە لە بەکارھێنانی جۆرە جیاوازەکانی ڕۆنی سرووشتی کە بۆنیان خۆشە بۆ بەھێزکردنی لەش لە لایەنی جەستەیی و دەروونی بە ساوینی ڕۆنەکە بە لەشدا یان بۆنکردنیان
  """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was interested in alternative medicine and becoming an aromatherapist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزم لە چارەسەری سرووشتی و گیادەرمانی بوو و بوون بە ئێرۆماسێراپیست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaromatherapist1046("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaromatherapist1046(
-                                        // REPLACE: aromatherapist /əˌrəʊməˈθerəpɪst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was interested in alternative medicine and becoming an aromatherapist.",
+                            kurdishText:
+                                "حەزم لە چارەسەری سرووشتی و گیادەرمانی بوو و بوون بە ئێرۆماسێراپیست.",
+                            onPressedBritish: () =>
+                                speakaromatherapist1046("en-GB"),
+                            onPressedAmerican: () => speakaromatherapist1046(
+                                // REPLACE: aromatherapist /əˌrəʊməˈθerəpɪst/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

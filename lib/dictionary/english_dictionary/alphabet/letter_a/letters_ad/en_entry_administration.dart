@@ -135,163 +135,67 @@ class EnglishEntryadministration extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) بەڕێوەبردنی شوێنێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The university loses a lot of money through poor administration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانکۆکە پارەیەکی زۆر لەدەستدەدات بەھۆی خراپ بەڕێوەبردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadminis2547("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadminis2547(
-                                        // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The university loses a lot of money through poor administration.",
+                            kurdishText:
+                                "زانکۆکە پارەیەکی زۆر لەدەستدەدات بەھۆی خراپ بەڕێوەبردن.",
+                            onPressedBritish: () => speakadminis2547("en-GB"),
+                            onPressedAmerican: () => speakadminis2547(
+                                // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) حکومەتی وڵاتێک، بەتایبەتی ئەمریکا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was Secretary of Education in Obama's first administration."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەزیری پەروەردە بوو لە کابینەکەی ئۆباما."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadminist3547("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadminist3547(
-                                        // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was Secretary of Education in Obama's first administration.",
+                            kurdishText:
+                                "وەزیری پەروەردە بوو لە کابینەکەی ئۆباما.",
+                            onPressedBritish: () => speakadminist3547("en-GB"),
+                            onPressedAmerican: () => speakadminist3547(
+                                // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) پڕۆسەی ڕێکخستنی شێوازی کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The administration of justice involves making sure that people are treated fairly in legal matters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسووڕاندنی کاری دادپەروەری ئەوە لەخۆدەگرێت کە دڵنیایی بدەیت کە خەڵکی بە یەکسانی مامەڵەیان لەگەڵ دەکرێت لە کێشە یاساییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakadministr2222("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadministr2222(
-                                        // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The administration of justice involves making sure that people are treated fairly in legal matters.",
+                            kurdishText:
+                                "ھەڵسووڕاندنی کاری دادپەروەری ئەوە لەخۆدەگرێت کە دڵنیایی بدەیت کە خەڵکی بە یەکسانی مامەڵەیان لەگەڵ دەکرێت لە کێشە یاساییەکان.",
+                            onPressedBritish: () => speakadministr2222("en-GB"),
+                            onPressedAmerican: () => speakadministr2222(
+                                // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ئەو کەسانەی کە شوێنێک بەڕێوەدەبەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hospital administration can refuse patients' access to their own records."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسانی نەخۆشخانەکە دەتوانن ڕێگری لە نەخۆشان بکەن داتای خودی خۆیان ببینن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmi25682("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmi25682(
-                                        // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hospital administration can refuse patients' access to their own records.",
+                            kurdishText:
+                                "بەرپرسانی نەخۆشخانەکە دەتوانن ڕێگری لە نەخۆشان بکەن داتای خودی خۆیان ببینن.",
+                            onPressedBritish: () => speakadmi25682("en-GB"),
+                            onPressedAmerican: () => speakadmi25682(
+                                // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) پێدانی دەرمان بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are strict controls on the administration of drugs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆنترۆڵی توند ھەیە لەسەر پێدانی دەرمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadm25589("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadm25589(
-                                        // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are strict controls on the administration of drugs.",
+                            kurdishText:
+                                "کۆنترۆڵی توند ھەیە لەسەر پێدانی دەرمان.",
+                            onPressedBritish: () => speakadm25589("en-GB"),
+                            onPressedAmerican: () => speakadm25589(
+                                // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

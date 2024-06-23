@@ -158,100 +158,41 @@ class EnglishEntryappraise extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) وردبوونەوە لە شتێک بۆ تێگەشتن لێی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The architect gave the exterior an appraising glance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندازیارەکە نیگایەکی کرد لە دەرەوەی بیناکە بۆ نرخاندنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappraise910("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappraise910(
-                                        // REPLACE: appraise /əˈpreɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The architect gave the exterior an appraising glance.",
+                            kurdishText:
+                                "ئەندازیارەکە نیگایەکی کرد لە دەرەوەی بیناکە بۆ نرخاندنی.",
+                            onPressedBritish: () => speakappraise910("en-GB"),
+                            onPressedAmerican: () => speakappraise910(
+                                // REPLACE: appraise /əˈpreɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) وردبوونەوە لە شتێک بۆ دانانی نرخێک لەسەری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They appraised the painting at £200 000."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تابلۆکەیان بە ٢٠٠٠٠٠ پاوەند نرخاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappraise913("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappraise913(
-                                        // REPLACE: appraise /əˈpreɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They appraised the painting at £200 000.",
+                            kurdishText: "تابلۆکەیان بە ٢٠٠٠٠٠ پاوەند نرخاند.",
+                            onPressedBritish: () => speakappraise913("en-GB"),
+                            onPressedAmerican: () => speakappraise913(
+                                // REPLACE: appraise /əˈpreɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ھەڵسەنگاندنی کاری کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Managers must appraise all staff."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێوبەران دەبێت ھەڵسەنگاندن بۆ تەواوی ستافەکەیان بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappraise915("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappraise915(
-                                        // REPLACE: appraise /əˈpreɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Managers must appraise all staff.",
+                            kurdishText:
+                                "بەڕێوبەران دەبێت ھەڵسەنگاندن بۆ تەواوی ستافەکەیان بکەن.",
+                            onPressedBritish: () => speakappraise915("en-GB"),
+                            onPressedAmerican: () => speakappraise915(
+                                // REPLACE: appraise /əˈpreɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

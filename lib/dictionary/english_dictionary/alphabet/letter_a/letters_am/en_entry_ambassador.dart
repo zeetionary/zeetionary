@@ -117,65 +117,27 @@ class EnglishEntryambassador extends StatelessWidget {
                               text:
                                   "١. (ناو) باڵیۆز؛ نوێنەری وڵاتێک لە وڵاتێکی تر"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The US ambassador to Egypt was recalled to Washington in protest."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باڵیۆزی ئەمریکا لە ناڕەزاییدا کشێندرایەوە لە میسر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakambassador56661("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambassador56661(
-                                        // REPLACE: ambassador /æmˈbæsədər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The US ambassador to Egypt was recalled to Washington in protest.",
+                            kurdishText:
+                                "باڵیۆزی ئەمریکا لە ناڕەزاییدا کشێندرایەوە لە میسر.",
+                            onPressedBritish: () =>
+                                speakambassador56661("en-GB"),
+                            onPressedAmerican: () => speakambassador56661(
+                                // REPLACE: ambassador /æmˈbæsədər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's former ambassador of Germany to the UN."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نێردەی پێشووتری ئەڵمانیایە بۆ نەتەوە یەکگرتووەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakambassador8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambassador8(
-                                        // REPLACE: ambassador /æmˈbæsədər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's former ambassador of Germany to the UN.",
+                            kurdishText:
+                                "نێردەی پێشووتری ئەڵمانیایە بۆ نەتەوە یەکگرتووەکان.",
+                            onPressedBritish: () => speakambassador8("en-GB"),
+                            onPressedAmerican: () => speakambassador8(
+                                // REPLACE: ambassador /æmˈbæsədər/
+                                "en-US"),
                           ),
                         ],
                       ),

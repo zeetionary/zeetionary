@@ -145,60 +145,22 @@ class EnglishEntrybrazen extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ئاشکرا و بێ‌شەرمانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had become brazen about the whole affair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێ‌شەرم بووبوو سەبارەت بە تەواوی ڕووداوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrazens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrazens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had become brazen about the whole affair.",
+                            kurdishText:
+                                "بێ‌شەرم بووبوو سەبارەت بە تەواوی ڕووداوەکە.",
+                            onPressedBritish: () => speakbrazens1("en-GB"),
+                            onPressedAmerican: () => speakbrazens1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They showed a brazen disregard for the law."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بایەخ‌نەدانی ئاشکرایان بۆ یاسا پیشان دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrazens2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrazens2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They showed a brazen disregard for the law.",
+                            kurdishText:
+                                "بایەخ‌نەدانی ئاشکرایان بۆ یاسا پیشان دەدا.",
+                            onPressedBritish: () => speakbrazens2("en-GB"),
+                            onPressedAmerican: () => speakbrazens2("en-US"),
                           ),
                         ],
                       ),

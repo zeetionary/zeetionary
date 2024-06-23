@@ -164,34 +164,13 @@ class EnglishEntryassassin extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە کەسێکی بەناوبانگ یان گرنگ دەکوژێت بۆ پارە یان ھۆکاری سیاسی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was killed by a hired assassin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەلایەن بکوژێکی بەکرێگیراو کوژرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassassin958("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassassin958(
-                                        // REPLACE: assassin /əˈsæsn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He was killed by a hired assassin.",
+                            kurdishText: "لەلایەن بکوژێکی بەکرێگیراو کوژرا.",
+                            onPressedBritish: () => speakassassin958("en-GB"),
+                            onPressedAmerican: () => speakassassin958(
+                                // REPLACE: assassin /əˈsæsn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

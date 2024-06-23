@@ -145,60 +145,22 @@ class EnglishEntryboon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شتێک کە زۆر سوودبەخشە و ژیانت بۆ ئاسان دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The device will prove a boon to home cooks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامێرەکە نیعمەتێک ئەبێت بۆ درووستکردنی خواردن لە ماڵەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The device will prove a boon to home cooks.",
+                            kurdishText:
+                                "ئامێرەکە نیعمەتێک ئەبێت بۆ درووستکردنی خواردن لە ماڵەوە.",
+                            onPressedBritish: () => speakboons1("en-GB"),
+                            onPressedAmerican: () => speakboons1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Online classes proved a boon to students during this period."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وانەی ئۆنلاین زۆر بەسوود بوون بۆ خوێندکاران لەم ماوەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboons2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboons2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Online classes proved a boon to students during this period.",
+                            kurdishText:
+                                "وانەی ئۆنلاین زۆر بەسوود بوون بۆ خوێندکاران لەم ماوەدا.",
+                            onPressedBritish: () => speakboons2("en-GB"),
+                            onPressedAmerican: () => speakboons2("en-US"),
                           ),
                         ],
                       ),

@@ -162,65 +162,26 @@ class EnglishEntryapology extends StatelessWidget {
                               text:
                                   "١. (ناو) داوای لێبووردن کردن، دەربڕینی پەشیمانی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You owe him an apology for what you said."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێبور‌دن‌خوازییەک بە ئەو قەرزاری بۆ ئەوەی وتت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapology552("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapology552(
-                                        // REPLACE: apology /əˈpɑːlədʒi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You owe him an apology for what you said.",
+                            kurdishText:
+                                "لێبور‌دن‌خوازییەک بە ئەو قەرزاری بۆ ئەوەی وتت.",
+                            onPressedBritish: () => speakapology552("en-GB"),
+                            onPressedAmerican: () => speakapology552(
+                                // REPLACE: apology /əˈpɑːlədʒi/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please accept my sincere apologies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە عوزرماییە پڕ بەدڵەکەم پەسەند بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapology555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapology555(
-                                        // REPLACE: apology /əˈpɑːlədʒi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Please accept my sincere apologies.",
+                            kurdishText:
+                                "تکایە عوزرماییە پڕ بەدڵەکەم پەسەند بکە.",
+                            onPressedBritish: () => speakapology555("en-GB"),
+                            onPressedAmerican: () => speakapology555(
+                                // REPLACE: apology /əˈpɑːlədʒi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

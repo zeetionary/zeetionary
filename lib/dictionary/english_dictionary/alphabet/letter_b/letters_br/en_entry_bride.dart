@@ -145,113 +145,37 @@ class EnglishEntrybride extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ژنێک لە ڕۆژی ھاوسەرگیرییدا، یان ماوەیەکی کەم لە پێش یان پاشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He introduced his new bride."),
-                                    ExampleSentenceKurdish(
-                                        text: "بووکە تازەکەی ناساند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bride" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrides1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrides1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He introduced his new bride.",
+                            kurdishText: "بووکە تازەکەی ناساند.", // bride" as
+                            onPressedBritish: () => speakbrides1("en-GB"),
+                            onPressedAmerican: () => speakbrides1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bride looked radiant in her white gown."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بووکەکە دڵخۆش دیاربوو لە جلە سپییەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrides2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrides2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bride looked radiant in her white gown.",
+                            kurdishText:
+                                "بووکەکە دڵخۆش دیاربوو لە جلە سپییەکەیدا.",
+                            onPressedBritish: () => speakbrides2("en-GB"),
+                            onPressedAmerican: () => speakbrides2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You may now kiss the bride."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێستا دەتوانی ماچی بووکەکە بکەیت (پیر و خەڕۆ بن پێکەوە)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrides3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrides3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You may now kiss the bride.",
+                            kurdishText:
+                                "ئێستا دەتوانی ماچی بووکەکە بکەیت (پیر و خەڕۆ بن پێکەوە).",
+                            onPressedBritish: () => speakbrides3("en-GB"),
+                            onPressedAmerican: () => speakbrides3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bride and groom posed for pictures outside the church."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بووک و زاواکە وێنەیان لە دەرەوەی کڵێساکە گرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrides4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrides4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bride and groom posed for pictures outside the church.",
+                            kurdishText:
+                                "بووک و زاواکە وێنەیان لە دەرەوەی کڵێساکە گرت.",
+                            onPressedBritish: () => speakbrides4("en-GB"),
+                            onPressedAmerican: () => speakbrides4("en-US"),
                           ),
                         ],
                       ),

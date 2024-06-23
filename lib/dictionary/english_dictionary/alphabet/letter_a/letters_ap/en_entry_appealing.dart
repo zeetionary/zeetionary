@@ -163,69 +163,29 @@ class EnglishEntryappealing extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) سەرسوڕھێنەر یان سەرنجڕاکێش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The large salary made their offer even more appealing to him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مووچە بەرزەکە وایکرد ئۆفەرەکەیان زیاتر شیرین بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappealing1011("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappealing1011(
-                                        // REPLACE: appealing /əˈpiːlɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The large salary made their offer even more appealing to him.",
+                            kurdishText:
+                                "مووچە بەرزەکە وایکرد ئۆفەرەکەیان زیاتر شیرین بێت.",
+                            onPressedBritish: () => speakappealing1011("en-GB"),
+                            onPressedAmerican: () => speakappealing1011(
+                                // REPLACE: appealing /əˈpiːlɪŋ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پیشاندانی ئەوەی دەتەوێت خەڵکی یارمەتیت بدەن یان بەزەییت پیشان بدەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "‘Would you really help?’ he said with an appealing look."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ڕووخسارێکی داوێن‌گیرانە وتی 'بەڕاست یارمەتیم دەدەیت؟'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappealing1015("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappealing1015(
-                                        // REPLACE: appealing /əˈpiːlɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "‘Would you really help?’ he said with an appealing look.",
+                            kurdishText:
+                                "بە ڕووخسارێکی داوێن‌گیرانە وتی 'بەڕاست یارمەتیم دەدەیت؟'.",
+                            onPressedBritish: () => speakappealing1015("en-GB"),
+                            onPressedAmerican: () => speakappealing1015(
+                                // REPLACE: appealing /əˈpiːlɪŋ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

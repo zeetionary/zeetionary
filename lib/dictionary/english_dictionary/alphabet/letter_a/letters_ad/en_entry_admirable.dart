@@ -111,35 +111,14 @@ class EnglishEntryadmirable extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) شتێک کە شایەنی ڕێزە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her dedication to her work was admirable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆتەرخانکردنی بۆ کارەکەی جێی ڕێزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakadmirable4258("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmirable4258(
-                                        // REPLACE: admirable /ˈædmərəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her dedication to her work was admirable.",
+                            kurdishText: "خۆتەرخانکردنی بۆ کارەکەی جێی ڕێزە.",
+                            onPressedBritish: () => speakadmirable4258("en-GB"),
+                            onPressedAmerican: () => speakadmirable4258(
+                                // REPLACE: admirable /ˈædmərəbl/
+                                "en-US"),
                           ),
                         ],
                       ),

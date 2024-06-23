@@ -164,70 +164,30 @@ class EnglishEntryaspiration extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) خواست و ئارەزوو" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I didn't realize you had political aspirations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەمزانی بوو ئارەزووت بۆ سیاسەت ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaspiration709("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspiration709(
-                                        // REPLACE: aspiration /ˌæspəˈreɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I didn't realize you had political aspirations.",
+                            kurdishText:
+                                "نەمزانی بوو ئارەزووت بۆ سیاسەت ھەبوو.",
+                            onPressedBritish: () => speakaspiration709("en-GB"),
+                            onPressedAmerican: () => speakaspiration709(
+                                // REPLACE: aspiration /ˌæspəˈreɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کرداری خوێندنەوەی وشە بە ھەناسەیەکەوە کە بیسراوە، بۆ نموونە دەنگی /h/ لە وشەی 'house' لە ئینگلیزیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The teacher instructed the student to pay attention to their aspiration when pronouncing certain words."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستاکە داوای لە خوێندکارەکانی کرد سەرنج بدەن بە ئەسپیرەیشنیان لە خوێندنەوەی ھەندێک وشەی دیاریکراو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaspiration722("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaspiration722(
-                                        // REPLACE: aspiration /ˌæspəˈreɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The teacher instructed the student to pay attention to their aspiration when pronouncing certain words.",
+                            kurdishText:
+                                "مامۆستاکە داوای لە خوێندکارەکانی کرد سەرنج بدەن بە ئەسپیرەیشنیان لە خوێندنەوەی ھەندێک وشەی دیاریکراو.",
+                            onPressedBritish: () => speakaspiration722("en-GB"),
+                            onPressedAmerican: () => speakaspiration722(
+                                // REPLACE: aspiration /ˌæspəˈreɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

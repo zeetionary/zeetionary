@@ -144,34 +144,15 @@ class EnglishEntrybodyboarding extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) وەرزش یان چالاکی مەلەکردن لەسەر یەکێک لە جۆرەکانی تەختەی شەپۆل‌سواری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Both are good beaches for bodyboarding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردووکیان کانەراوی باشن بۆ شەپۆل‌سواری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbodyboardings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbodyboardings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Both are good beaches for bodyboarding.",
+                            kurdishText:
+                                "ھەردووکیان کانەراوی باشن بۆ شەپۆل‌سواری.",
+                            onPressedBritish: () =>
+                                speakbodyboardings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbodyboardings1("en-US"),
                           ),
                         ],
                       ),

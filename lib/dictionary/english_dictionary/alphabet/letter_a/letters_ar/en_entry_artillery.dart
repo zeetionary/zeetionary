@@ -163,69 +163,28 @@ class EnglishEntryartillery extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) تۆپخانە؛ چەکی قورس کە زۆرجار بە بەکارھێنانی ویل دەجوڵێنرێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The town is under heavy artillery fire."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارۆچکەکە لەژێر ھێرشی تۆپخانەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakartillery1010("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartillery1010(
-                                        // REPLACE: artillery /ɑːrˈtɪləri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The town is under heavy artillery fire.",
+                            kurdishText: "شارۆچکەکە لەژێر ھێرشی تۆپخانەیە.",
+                            onPressedBritish: () => speakartillery1010("en-GB"),
+                            onPressedAmerican: () => speakartillery1010(
+                                // REPLACE: artillery /ɑːrˈtɪləri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) یەکەی تۆپخانەی سوپایەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He served in the artillery for twenty years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ماوەی ٢٠ ساڵ لە یەکەی تۆپخانە خزمەتی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakartillery1014("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartillery1014(
-                                        // REPLACE: artillery /ɑːrˈtɪləri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He served in the artillery for twenty years.",
+                            kurdishText:
+                                "بۆ ماوەی ٢٠ ساڵ لە یەکەی تۆپخانە خزمەتی کرد.",
+                            onPressedBritish: () => speakartillery1014("en-GB"),
+                            onPressedAmerican: () => speakartillery1014(
+                                // REPLACE: artillery /ɑːrˈtɪləri/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -191,62 +191,23 @@ class EnglishEntrybuyer extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کڕیار؛ کەسێک کە شتێک دەکڕێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Have you found a buyer for your house?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کڕیارێکت بۆ خانووەکەت دۆزیوەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "buyer", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuyers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuyers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Have you found a buyer for your house?",
+                            kurdishText:
+                                "کڕیارێکت بۆ خانووەکەت دۆزیوەتەوە.", // buyer", follow LX strictly
+                            onPressedBritish: () => speakbuyers1("en-GB"),
+                            onPressedAmerican: () => speakbuyers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە ئەو کاڵایانە ھەڵدەبژێرێت کە لە فرۆشگایەکی گەورەدا دەفرۆشرێن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was a fashion buyer for a store."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەرپرسی کڕین بوو بۆ کۆگایەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuyers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuyers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was a fashion buyer for a store.",
+                            kurdishText: "بەرپرسی کڕین بوو بۆ کۆگایەک.",
+                            onPressedBritish: () => speakbuyers2("en-GB"),
+                            onPressedAmerican: () => speakbuyers2("en-US"),
                           ),
                         ],
                       ),

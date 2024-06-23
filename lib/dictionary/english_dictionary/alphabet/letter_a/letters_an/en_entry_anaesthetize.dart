@@ -153,35 +153,16 @@ class EnglishEntryanaesthetize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بەنجکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My doctor said I will not need to be anaesthetized during the procedure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پزیشکەکەم پێی‌وتم پێویست ناکات لە پڕۆسەکەدا بەنج‌بکرێم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanaesthetize8590("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanaesthetize8590(
-                                        // REPLACE: anaesthetize /əˈnesθətaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My doctor said I will not need to be anaesthetized during the procedure.",
+                            kurdishText:
+                                "پزیشکەکەم پێی‌وتم پێویست ناکات لە پڕۆسەکەدا بەنج‌بکرێم.",
+                            onPressedBritish: () =>
+                                speakanaesthetize8590("en-GB"),
+                            onPressedAmerican: () => speakanaesthetize8590(
+                                // REPLACE: anaesthetize /əˈnesθətaɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

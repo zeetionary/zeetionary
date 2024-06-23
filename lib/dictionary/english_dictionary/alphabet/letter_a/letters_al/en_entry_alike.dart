@@ -130,97 +130,39 @@ class EnglishEntryalike extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) وەک یەک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They tried to treat all their children alike."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵیان دا وەک یەک مامەڵە لەگەڵ منداڵەکانیان بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalike76522("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalike76522(
-                                        // REPLACE: alike /əˈlaɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They tried to treat all their children alike.",
+                            kurdishText:
+                                "ھەوڵیان دا وەک یەک مامەڵە لەگەڵ منداڵەکانیان بکەن.",
+                            onPressedBritish: () => speakalike76522("en-GB"),
+                            onPressedAmerican: () => speakalike76522(
+                                // REPLACE: alike /əˈlaɪk/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بە یەکسان بۆ ھەردوولا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Good management benefits employers and employees alike."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێوەبردنی باش سوود بە خاوەنکاران و کرێکاران دەگەیەنێت بە یەکسانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalike46789("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalike46789(
-                                        // REPLACE: alike /əˈlaɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Good management benefits employers and employees alike.",
+                            kurdishText:
+                                "بەڕێوەبردنی باش سوود بە خاوەنکاران و کرێکاران دەگەیەنێت بە یەکسانی.",
+                            onPressedBritish: () => speakalike46789("en-GB"),
+                            onPressedAmerican: () => speakalike46789(
+                                // REPLACE: alike /əˈlaɪk/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) لێکچوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Airports are all alike to me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەخانەکان ھەموو وەکیەکن بۆم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalike3632("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalike3632(
-                                        // REPLACE: alike /əˈlaɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Airports are all alike to me.",
+                            kurdishText: "فڕۆکەخانەکان ھەموو وەکیەکن بۆم.",
+                            onPressedBritish: () => speakalike3632("en-GB"),
+                            onPressedAmerican: () => speakalike3632(
+                                // REPLACE: alike /əˈlaɪk/
+                                "en-US"),
                           ),
                         ],
                       ),

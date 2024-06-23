@@ -149,147 +149,50 @@ class EnglishEntrybone extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئێسک، ھەریەک لە بەشە سەختەکانی جەستەی مرۆڤ کە ئێسکەپەیکەری مرۆڤێک یان ئاژەڵێک پێکدێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He survived the accident with no broken bones."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕووداوەکە ڕزگاری بوو بەبێ ئەوەی ھیچ ئێسک شکاوییەکی ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbones1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbones1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He survived the accident with no broken bones.",
+                            kurdishText:
+                                "لە ڕووداوەکە ڕزگاری بوو بەبێ ئەوەی ھیچ ئێسک شکاوییەکی ھەبێت.",
+                            onPressedBritish: () => speakbones1("en-GB"),
+                            onPressedAmerican: () => speakbones1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This fish has a lot of bones in it."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم ماسییە زۆر ئێسکی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbones2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbones2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This fish has a lot of bones in it.",
+                            kurdishText: "ئەم ماسییە زۆر ئێسکی تێدایە.",
+                            onPressedBritish: () => speakbones2("en-GB"),
+                            onPressedAmerican: () => speakbones2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The child was so thin that you could see her bones."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکە بەشێوەیەک زۆر باریک بوو کە دەتتوانی ئێسکەکانی ببینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbones3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbones3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The child was so thin that you could see her bones.",
+                            kurdishText:
+                                "منداڵەکە بەشێوەیەک زۆر باریک بوو کە دەتتوانی ئێسکەکانی ببینی.",
+                            onPressedBritish: () => speakbones3("en-GB"),
+                            onPressedAmerican: () => speakbones3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) لێ‌کردنەوەی ئێسک لە مریشک و ماسی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can you bone a chicken?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەتوانیت ئێسکی مریشک لێ بکەیتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbones4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbones4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can you bone a chicken?",
+                            kurdishText: "ئەتوانیت ئێسکی مریشک لێ بکەیتەوە؟",
+                            onPressedBritish: () => speakbones4("en-GB"),
+                            onPressedAmerican: () => speakbones4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) سێکسکردن لەگەڵ کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's been trying to bone her for weeks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەندین ھەفتەیە ھەوڵ دەدات سێکسی لەگەڵ بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbones5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbones5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's been trying to bone her for weeks.",
+                            kurdishText:
+                                "چەندین ھەفتەیە ھەوڵ دەدات سێکسی لەگەڵ بکات.",
+                            onPressedBritish: () => speakbones5("en-GB"),
+                            onPressedAmerican: () => speakbones5("en-US"),
                           ),
                         ],
                       ),

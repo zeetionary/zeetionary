@@ -130,155 +130,57 @@ class EnglishEntryacute extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) شتێک کە بە ئاستێکی سەخت بوونی ھەیە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is an acute shortage of water."),
-                                    ExampleSentenceKurdish(
-                                        text: "کەمئاوییەکی سەخت بوونی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacute1247("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacute1247(
-                                        // REPLACE: acute /əˈkjuːt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "There is an acute shortage of water.",
+                            kurdishText: "کەمئاوییەکی سەخت بوونی ھەیە.",
+                            onPressedBritish: () => speakacute1247("en-GB"),
+                            onPressedAmerican: () => speakacute1247(
+                                // REPLACE: acute /əˈkjuːt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The scandal was an acute embarrassment for the President."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئابڕووچوونەکە شەرمەزارییەکی خراپ بوو بۆ سەرۆک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacut3749("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacut3749(
-                                        // REPLACE: acute /əˈkjuːt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The scandal was an acute embarrassment for the President.",
+                            kurdishText:
+                                "ئابڕووچوونەکە شەرمەزارییەکی خراپ بوو بۆ سەرۆک.",
+                            onPressedBritish: () => speakacut3749("en-GB"),
+                            onPressedAmerican: () => speakacut3749(
+                                // REPLACE: acute /əˈkjuːt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) نەخۆشییەک کە لەناکاو سەخت و مەترسیدار دەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "acute abdominal pains"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئازاری سەختی سک ئێشە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacute42("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakacute42(// REPLACE: acute /əˈkjuːt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "acute abdominal pains",
+                            kurdishText: "ئازاری سەختی سک ئێشە.",
+                            onPressedBritish: () => speakacute42("en-GB"),
+                            onPressedAmerican: () =>
+                                speakacute42(// REPLACE: acute /əˈkjuːt/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) ھەبوونی ھەستی تیژ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Dogs have an acute sense of smell."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگ ھەستێکی تیژی بۆنکردنی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacu5268("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakacu5268(// REPLACE: acute /əˈkjuːt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Dogs have an acute sense of smell.",
+                            kurdishText: "سەگ ھەستێکی تیژی بۆنکردنی ھەیە.",
+                            onPressedBritish: () => speakacu5268("en-GB"),
+                            onPressedAmerican: () =>
+                                speakacu5268(// REPLACE: acute /əˈkjuːt/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) زیرەک و خێرا لە تێگەشتن و بڕیاردان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Her judgement is acute."),
-                                    ExampleSentenceKurdish(
-                                        text: "بڕیاردانی وردبینانەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacu5269("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakacu5269(// REPLACE: acute /əˈkjuːt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her judgement is acute.",
+                            kurdishText: "بڕیاردانی وردبینانەیە.",
+                            onPressedBritish: () => speakacu5269("en-GB"),
+                            onPressedAmerican: () =>
+                                speakacu5269(// REPLACE: acute /əˈkjuːt/
+                                    "en-US"),
                           ),
                         ],
                       ),

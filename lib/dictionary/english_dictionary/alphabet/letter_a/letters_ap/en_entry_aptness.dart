@@ -161,34 +161,15 @@ class EnglishEntryaptness extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) گونجاوی و شیاوی لە دۆخێکدا" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The aptness of his comment was evident, as it precisely addressed the issue at hand."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گونجاوی کۆمێنتەکەی ڕوون بوو، بەھۆی ئەوەی بەڕوونی باسی لە کێشەکەی بەردەستمان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaptness815("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaptness815(
-                                        // REPLACE: aptness /ˈæptnəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The aptness of his comment was evident, as it precisely addressed the issue at hand.",
+                            kurdishText:
+                                "گونجاوی کۆمێنتەکەی ڕوون بوو، بەھۆی ئەوەی بەڕوونی باسی لە کێشەکەی بەردەستمان کرد.",
+                            onPressedBritish: () => speakaptness815("en-GB"),
+                            onPressedAmerican: () => speakaptness815(
+                                // REPLACE: aptness /ˈæptnəs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

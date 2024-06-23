@@ -145,32 +145,13 @@ class EnglishEntrybobbin extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئامێرێکە کە دەزووی لێ دەئاڵێندرێت و دەبەسترێت لە مەکینەی دروومان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Wind the thread slowly and evenly onto the bobbin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەزووەکە بەھێواشی و یەکسانی بئاڵێنە لە قڕقڕەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbobbins1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbobbins1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Wind the thread slowly and evenly onto the bobbin.",
+                            kurdishText:
+                                "دەزووەکە بەھێواشی و یەکسانی بئاڵێنە لە قڕقڕەکە.",
+                            onPressedBritish: () => speakbobbins1("en-GB"),
+                            onPressedAmerican: () => speakbobbins1("en-US"),
                           ),
                         ],
                       ),

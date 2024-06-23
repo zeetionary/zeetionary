@@ -148,211 +148,78 @@ class EnglishEntrybreed extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) جووتبوون و وەچەخستنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many animals breed only at certain times of the year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر ئاژەڵ تەنھا لە ھەندێک کاتی دیاریکراوی ساڵدا وەچە دەخەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "breed" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreeds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many animals breed only at certain times of the year.",
+                            kurdishText:
+                                "زۆر ئاژەڵ تەنھا لە ھەندێک کاتی دیاریکراوی ساڵدا وەچە دەخەنەوە.", // breed" as
+                            onPressedBritish: () => speakbreeds1("en-GB"),
+                            onPressedAmerican: () => speakbreeds1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بەخێوکردنی ئاژەڵ بۆ ئەوەی وەچە بخەنەوە بۆ مەبەستێکی دیاریکراو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rabbits are bred for their long coats."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەروێشک بۆ تووکە درێژەکەیان بەخێودەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreeds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreeds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The rabbits are bred for their long coats.",
+                            kurdishText:
+                                "کەروێشک بۆ تووکە درێژەکەیان بەخێودەکرێن.",
+                            onPressedBritish: () => speakbreeds2("en-GB"),
+                            onPressedAmerican: () => speakbreeds2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) بوون بە ھۆکاری شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some teachers believe that early failures can later breed success."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک مامۆستا باوەڕیان وایە شکستھێنانی سەرەتا دەبێتەھۆی سەرکەوتن لە داھاتوودا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreeds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreeds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some teachers believe that early failures can later breed success.",
+                            kurdishText:
+                                "ھەندێک مامۆستا باوەڕیان وایە شکستھێنانی سەرەتا دەبێتەھۆی سەرکەوتن لە داھاتوودا.",
+                            onPressedBritish: () => speakbreeds3("en-GB"),
+                            onPressedAmerican: () => speakbreeds3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) پەروەردەکردنی کەسێک بەشێوەیەکی تایبەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Fear of failure was bred into him at an early age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ترسی شکست لە تەمەنی منداڵییەوە تێدا چێنرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreeds4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreeds4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Fear of failure was bred into him at an early age.",
+                            kurdishText:
+                                "ترسی شکست لە تەمەنی منداڵییەوە تێدا چێنرا.",
+                            onPressedBritish: () => speakbreeds4("en-GB"),
+                            onPressedAmerican: () => speakbreeds4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) جۆرێکی تایبەتی ئاژەڵ کە لەلایەن خۆڵکییەوە بە جۆرێکی تایبەت گەورەکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This breed is used for both milk and meat production."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم چەشنە بەکاردێت بۆ بەرھەمھێنانی شیر و گۆشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreeds5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreeds5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This breed is used for both milk and meat production.",
+                            kurdishText:
+                                "ئەم چەشنە بەکاردێت بۆ بەرھەمھێنانی شیر و گۆشت.",
+                            onPressedBritish: () => speakbreeds5("en-GB"),
+                            onPressedAmerican: () => speakbreeds5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٦. (ناو) جۆرە کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He represents a new breed of politician."),
-                                    ExampleSentenceKurdish(
-                                        text: "جۆرێکی تازەی سیاسەتمەدارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreeds6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreeds6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He represents a new breed of politician.",
+                            kurdishText: "جۆرێکی تازەی سیاسەتمەدارە.",
+                            onPressedBritish: () => speakbreeds6("en-GB"),
+                            onPressedAmerican: () => speakbreeds6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It takes a special breed of person to be a surgeon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جۆرە کەسێکی تایبەت دەتوانێت ببێت بە نەشتەرگەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreeds7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreeds7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It takes a special breed of person to be a surgeon.",
+                            kurdishText:
+                                "جۆرە کەسێکی تایبەت دەتوانێت ببێت بە نەشتەرگەر.",
+                            onPressedBritish: () => speakbreeds7("en-GB"),
+                            onPressedAmerican: () => speakbreeds7("en-US"),
                           ),
                         ],
                       ),

@@ -164,35 +164,16 @@ class EnglishEntryappreciable extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) بەشی ھێندە گەورە بێت کە ببینرێت یان بە گرنگ دابنرێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There has been an appreciable increase in profits."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیادبوونێکی بەرچاو لە قازانجەکان ھەبووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappreciable944("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappreciable944(
-                                        // REPLACE: appreciable /əˈpriːʃəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There has been an appreciable increase in profits.",
+                            kurdishText:
+                                "زیادبوونێکی بەرچاو لە قازانجەکان ھەبووە.",
+                            onPressedBritish: () =>
+                                speakappreciable944("en-GB"),
+                            onPressedAmerican: () => speakappreciable944(
+                                // REPLACE: appreciable /əˈpriːʃəbl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

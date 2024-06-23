@@ -150,61 +150,21 @@ class EnglishEntrybarefoot extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بەبێ لەپێکردنی ھیچ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He danced barefoot on the carpet."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە پێی پەتی لەسەر فەرشەکە سەمای کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarefoots1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarefoots1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He danced barefoot on the carpet.",
+                            kurdishText: "بە پێی پەتی لەسەر فەرشەکە سەمای کرد.",
+                            onPressedBritish: () => speakbarefoots1("en-GB"),
+                            onPressedAmerican: () => speakbarefoots1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children had to go barefoot because there was no money for shoes."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان ناچاربوون بە پێ‌پەتییانە بچن چونکە پارە بۆ پێڵاو نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarefoots2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarefoots2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children had to go barefoot because there was no money for shoes.",
+                            kurdishText:
+                                "منداڵەکان ناچاربوون بە پێ‌پەتییانە بچن چونکە پارە بۆ پێڵاو نەبوو.",
+                            onPressedBritish: () => speakbarefoots2("en-GB"),
+                            onPressedAmerican: () => speakbarefoots2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

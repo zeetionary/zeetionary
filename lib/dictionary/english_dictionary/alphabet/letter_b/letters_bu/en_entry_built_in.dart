@@ -145,91 +145,34 @@ class EnglishEntrybuiltin extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە لەگەڵ شتێکی تردایە و بە دابڕاوی لەگەڵی نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Both bedrooms have built-in wardrobes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو ژووری نووستنەکە دۆڵابی جلوبەرگی خۆیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "built-in", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuiltins1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuiltins1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Both bedrooms have built-in wardrobes.",
+                            kurdishText:
+                                "ھەردوو ژووری نووستنەکە دۆڵابی جلوبەرگی خۆیان ھەیە.", // built-in", follow LX strictly
+                            onPressedBritish: () => speakbuiltins1("en-GB"),
+                            onPressedAmerican: () => speakbuiltins1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The device has a built-in microphone and speakers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئامێرەکە مایکرۆفۆن و بڵندگۆی ناوەکی خۆی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuiltins2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuiltins2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The device has a built-in microphone and speakers.",
+                            kurdishText:
+                                "ئامێرەکە مایکرۆفۆن و بڵندگۆی ناوەکی خۆی ھەیە.",
+                            onPressedBritish: () => speakbuiltins2("en-GB"),
+                            onPressedAmerican: () => speakbuiltins2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) شتێک کە بەشێکی سەرەکیی شتێکی ترە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The system has a built-in resistance to change."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیستەمەکە خۆڕاگرییەکی خودایی ھەیە بەرامبەر گۆڕان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuiltins3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuiltins3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The system has a built-in resistance to change.",
+                            kurdishText:
+                                "سیستەمەکە خۆڕاگرییەکی خودایی ھەیە بەرامبەر گۆڕان.",
+                            onPressedBritish: () => speakbuiltins3("en-GB"),
+                            onPressedAmerican: () => speakbuiltins3("en-US"),
                           ),
                         ],
                       ),

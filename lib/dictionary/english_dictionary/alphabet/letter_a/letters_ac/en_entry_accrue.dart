@@ -85,32 +85,13 @@ class EnglishEntryaccrue extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) زیادکردنی بەتێپەڕبوونی کات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "By the time they leave, they'll have accrued a year's holiday pay."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تا ئەوکاتەی دەڕۆن، بەشی پشوویەکی یەک ساڵە پارە کۆدەکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaccrue("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaccrue("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "By the time they leave, they'll have accrued a year's holiday pay.",
+                            kurdishText:
+                                "تا ئەوکاتەی دەڕۆن، بەشی پشوویەکی یەک ساڵە پارە کۆدەکەنەوە.",
+                            onPressedBritish: () => speakaccrue("en-GB"),
+                            onPressedAmerican: () => speakaccrue("en-US"),
                           ),
                         ],
                       ),

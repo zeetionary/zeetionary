@@ -114,33 +114,14 @@ class EnglishEntryaccuser extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە کەسێک بە تۆمەتباری ڕووداوێک دەزانێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He demanded the right to face his accusers at a public hearing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داوای مافی ڕووبەڕووبوونەوەی لە گفتوگۆیەکی گشتی کرد بەرامبەر بە سکاڵالێکەرانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka91573("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka91573(
-                                        "en-US"), // FIND: /əˈkjuːzər/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He demanded the right to face his accusers at a public hearing.",
+                            kurdishText:
+                                "داوای مافی ڕووبەڕووبوونەوەی لە گفتوگۆیەکی گشتی کرد بەرامبەر بە سکاڵالێکەرانی.",
+                            onPressedBritish: () => speaka91573("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka91573("en-US"), // FIND: /əˈkjuːzər/
                           ),
                         ],
                       ),

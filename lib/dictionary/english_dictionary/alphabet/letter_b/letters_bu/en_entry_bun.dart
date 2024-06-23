@@ -193,90 +193,33 @@ class EnglishEntrybun extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کێک یان نانێکی بچووکی خڕ و شیرین"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She enjoyed a cinnamon bun with her coffee."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێکێکی سینمنی خوارد لەگەڵ قاوەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bun", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuns1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She enjoyed a cinnamon bun with her coffee.",
+                            kurdishText:
+                                "کێکێکی سینمنی خوارد لەگەڵ قاوەکەیدا.", // bun", follow LX strictly
+                            onPressedBritish: () => speakbuns1("en-GB"),
+                            onPressedAmerican: () => speakbuns1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) قژ کە تۆپەڵ کراوە لە سەرەوە یان پشتەوەی سەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She wore her hair in a bun."),
-                                    ExampleSentenceKurdish(
-                                        text: "قوتکەقژێکی دانا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuns2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuns2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She wore her hair in a bun.",
+                            kurdishText: "قوتکەقژێکی دانا.",
+                            onPressedBritish: () => speakbuns2("en-GB"),
+                            onPressedAmerican: () => speakbuns2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٣. (ناو) سمت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sitting on a hard surface for long periods can lead to sore buns."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانیشتن لەسەر ڕوویەکی ڕەق بۆ ماوەیەکی زۆر دەکرێت ببێتە ھۆی ئێشی سمت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuns3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuns3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sitting on a hard surface for long periods can lead to sore buns.",
+                            kurdishText:
+                                "دانیشتن لەسەر ڕوویەکی ڕەق بۆ ماوەیەکی زۆر دەکرێت ببێتە ھۆی ئێشی سمت.",
+                            onPressedBritish: () => speakbuns3("en-GB"),
+                            onPressedAmerican: () => speakbuns3("en-US"),
                           ),
                         ],
                       ),

@@ -146,62 +146,23 @@ class EnglishEntrybinge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ماوەیەکی کەم کە تێیدا کەسێک شتێک زۆردەکات، بۆ نموونە خواردن یان خواردنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One of the symptoms is binge eating."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە نیشانەکان زۆرخواردنی کاتییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "One of the symptoms is binge eating.",
+                            kurdishText:
+                                "یەکێک لە نیشانەکان زۆرخواردنی کاتییە.",
+                            onPressedBritish: () => speakbinges1("en-GB"),
+                            onPressedAmerican: () => speakbinges1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) خواردن و خواردنەوەی زۆر، بەتایبەتی کە ناتوانیت کۆنترۆڵی خۆت بکەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When she's depressed she binges on chocolate."),
-                                    ExampleSentenceKurdish(
-                                        text: "کە بێزارە چکلێت ھەڵدەلووشێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbinges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbinges2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When she's depressed she binges on chocolate.",
+                            kurdishText: "کە بێزارە چکلێت ھەڵدەلووشێت.",
+                            onPressedBritish: () => speakbinges2("en-GB"),
+                            onPressedAmerican: () => speakbinges2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

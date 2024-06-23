@@ -114,35 +114,15 @@ class EnglishEntryalternately extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) ڕوودان بەدوای یەکدا" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He felt alternately hot and cold."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جار نا جار ھەستی بە گەرما و سەرما دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalternately45866("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalternately45866(
-                                        // REPLACE: alternately /ˈɔːltərnətli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He felt alternately hot and cold.",
+                            kurdishText:
+                                "جار نا جار ھەستی بە گەرما و سەرما دەکرد.",
+                            onPressedBritish: () =>
+                                speakalternately45866("en-GB"),
+                            onPressedAmerican: () => speakalternately45866(
+                                // REPLACE: alternately /ˈɔːltərnətli/
+                                "en-US"),
                           ),
                         ],
                       ),

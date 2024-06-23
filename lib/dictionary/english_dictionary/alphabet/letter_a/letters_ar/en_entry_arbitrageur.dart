@@ -159,35 +159,16 @@ class EnglishEntryarbitrageur extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) ئاربیتراژۆر؛ کەسێک کە شتێک لە شوێنێک دەکڕێت و لە شوێنێکی تر بە نرخێکی زیاتر دەیفرۆشێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is one of Wall Street’s most famous arbitrageurs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو یەکێکە لە بەناوبانگترین ئاربیتراژۆرەکانی وۆڵ ستریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarbitrageur1107("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarbitrageur1107(
-                                        // REPLACE: arbitrageur /ˌɑːrbɪtrɑːˈʒɜːr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is one of Wall Street’s most famous arbitrageurs.",
+                            kurdishText:
+                                "ئەو یەکێکە لە بەناوبانگترین ئاربیتراژۆرەکانی وۆڵ ستریت.",
+                            onPressedBritish: () =>
+                                speakarbitrageur1107("en-GB"),
+                            onPressedAmerican: () => speakarbitrageur1107(
+                                // REPLACE: arbitrageur /ˌɑːrbɪtrɑːˈʒɜːr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

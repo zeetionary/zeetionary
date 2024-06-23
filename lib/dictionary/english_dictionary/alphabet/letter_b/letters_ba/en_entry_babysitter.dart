@@ -153,34 +153,14 @@ class EnglishEntrybabysitter extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە چاودێری منداڵان دەکات لەکاتێکدا دایک و باوکیان لە ماڵەوە نین، و زۆرجار پارە وەردەگرن بۆی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't find a babysitter for tonight."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم چاودێرێک بۆ ئەمشەو بدۆزمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka3s1(// REPLACE: babysitter
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't find a babysitter for tonight.",
+                            kurdishText: "ناتوانم چاودێرێک بۆ ئەمشەو بدۆزمەوە.",
+                            onPressedBritish: () => speaka3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka3s1(// REPLACE: babysitter
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

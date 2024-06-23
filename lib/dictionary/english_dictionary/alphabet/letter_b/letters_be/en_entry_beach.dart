@@ -151,149 +151,54 @@ class EnglishEntrybeach extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ناوچەیەکی خۆڵاوی یان وردە زیخ لە نزیک دەریایەک یان دەریاچەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He decided to go to the beach for a swim."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیاری دا بۆ مەکەیەک بچێتە کەناراوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeachs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeachs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He decided to go to the beach for a swim.",
+                            kurdishText:
+                                "بڕیاری دا بۆ مەکەیەک بچێتە کەناراوەکە.",
+                            onPressedBritish: () => speakbeachs1("en-GB"),
+                            onPressedAmerican: () => speakbeachs1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He walked along the beach."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە کەنار دەریاکەدا پیاسەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeachs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeachs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He walked along the beach.",
+                            kurdishText: "بە کەنار دەریاکەدا پیاسەی کرد.",
+                            onPressedBritish: () => speakbeachs2("en-GB"),
+                            onPressedAmerican: () => speakbeachs2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She lay on the beach and read her book."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کەناراوەکە پاڵکەوت و کتێبەکەی خوێندەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeachs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeachs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She lay on the beach and read her book.",
+                            kurdishText:
+                                "لە کەناراوەکە پاڵکەوت و کتێبەکەی خوێندەوە.",
+                            onPressedBritish: () => speakbeachs3("en-GB"),
+                            onPressedAmerican: () => speakbeachs3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ھێنانی بەلەمێک لە دەریاوە بۆ کەناراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He beached the boat and lifted the boy onto the shore."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەلەمەکەی ھێنایە کەناراوەکە و منداڵەکەی بەرزکردەوە و خستیە گوێ‌ئاوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeachs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeachs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He beached the boat and lifted the boy onto the shore.",
+                            kurdishText:
+                                "بەلەمەکەی ھێنایە کەناراوەکە و منداڵەکەی بەرزکردەوە و خستیە گوێ‌ئاوەکە.",
+                            onPressedBritish: () => speakbeachs4("en-GB"),
+                            onPressedAmerican: () => speakbeachs4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) گیرخواردن لەسەر وشکانی و نەبوونی توانای گەڕانەوە بۆ ناو دەریا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We don't know what causes whales to beach."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نازانین چی دەبێتەھۆی ئەوەی نەھەنگەکان لە وشکانی گیربخۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeachs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeachs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We don't know what causes whales to beach.",
+                            kurdishText:
+                                "نازانین چی دەبێتەھۆی ئەوەی نەھەنگەکان لە وشکانی گیربخۆن.",
+                            onPressedBritish: () => speakbeachs5("en-GB"),
+                            onPressedAmerican: () => speakbeachs5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

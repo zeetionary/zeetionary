@@ -144,61 +144,22 @@ class EnglishEntrybreezy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەشێک کە ھەوایەکی بەھێز بەڵام خۆشی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It was a bright, breezy day."),
-                                    ExampleSentenceKurdish(
-                                        text: "ڕۆژێکی ڕۆشنی پڕکزەبا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "breezy" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreezys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreezys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It was a bright, breezy day.",
+                            kurdishText:
+                                "ڕۆژێکی ڕۆشنی پڕکزەبا بوو.", // breezy" as
+                            onPressedBritish: () => speakbreezys1("en-GB"),
+                            onPressedAmerican: () => speakbreezys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) پیشاندانی دڵخۆشی و ئاسوودەیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You're very bright and breezy today!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمڕۆ زۆر دڵخۆش و خۆشحاڵ دیاریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreezys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreezys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You're very bright and breezy today!",
+                            kurdishText: "ئەمڕۆ زۆر دڵخۆش و خۆشحاڵ دیاریت.",
+                            onPressedBritish: () => speakbreezys2("en-GB"),
+                            onPressedAmerican: () => speakbreezys2("en-US"),
                           ),
                         ],
                       ),

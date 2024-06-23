@@ -151,125 +151,49 @@ class EnglishEntryblot extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) وشککردنەوەی شوێنێکی تەڕ، نووسین بە بۆیە، یان سووراو، بە دانانی شتێکی نەرم لەسەری"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She put on her lipstick and then carefully blotted her lips with a tissue."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سووراوەکەی کرد و بەوریاییەوە لێوەکانی وشککردەوە بە کلێنسێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblots1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblots1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She put on her lipstick and then carefully blotted her lips with a tissue.",
+                            kurdishText:
+                                "سووراوەکەی کرد و بەوریاییەوە لێوەکانی وشککردەوە بە کلێنسێک.",
+                            onPressedBritish: () => speakblots1("en-GB"),
+                            onPressedAmerican: () => speakblots1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ڕژاندنی دڵۆپێک لە مەرەکەب بەسەر پەڕەیەکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The spilled ink blotted the pristine white tablecloth."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەرەکەبە ڕژاوەکە مێزپۆشە سپییە خاوێنەکەی خاڵ خاڵ کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblots2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblots2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The spilled ink blotted the pristine white tablecloth.",
+                            kurdishText:
+                                "مەرەکەبە ڕژاوەکە مێزپۆشە سپییە خاوێنەکەی خاڵ خاڵ کرد.",
+                            onPressedBritish: () => speakblots2("en-GB"),
+                            onPressedAmerican: () => speakblots2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) خاڵێک یان لەکەیەکی ناشرین لە مەرەکەب لەسەر شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were ink blots all over the paper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاڵ خاڵی مەرەکەب لەسەر ھەموو پەڕەکە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblots3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblots3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were ink blots all over the paper.",
+                            kurdishText:
+                                "خاڵ خاڵی مەرەکەب لەسەر ھەموو پەڕەکە بوو.",
+                            onPressedBritish: () => speakblots3("en-GB"),
+                            onPressedAmerican: () => speakblots3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) شتێک کە کاریگەری خراپی دەبێت لەسەر بۆچوونی خەڵکی لەسەر کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her involvement in the fraud has left a serious blot on her character."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێوەگلانی لە فێڵبازییەکە خەوشێکی گرنگی لەسەر کەسایەتیی جێھێشتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblots4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblots4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her involvement in the fraud has left a serious blot on her character.",
+                            kurdishText:
+                                "تێوەگلانی لە فێڵبازییەکە خەوشێکی گرنگی لەسەر کەسایەتیی جێھێشتووە.",
+                            onPressedBritish: () => speakblots4("en-GB"),
+                            onPressedAmerican: () => speakblots4("en-US"),
                           ),
                         ],
                       ),

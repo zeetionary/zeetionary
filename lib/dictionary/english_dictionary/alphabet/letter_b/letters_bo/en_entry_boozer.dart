@@ -146,63 +146,25 @@ class EnglishEntryboozer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مەیخانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We decided to meet at the local boozer after work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارماندا لە مەیخانە لۆکاڵییەکە یەکدی ببینین لە دوای کارکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboozers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboozers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We decided to meet at the local boozer after work.",
+                            kurdishText:
+                                "بڕیارماندا لە مەیخانە لۆکاڵییەکە یەکدی ببینین لە دوای کارکردن.",
+                            onPressedBritish: () => speakboozers1("en-GB"),
+                            onPressedAmerican: () => speakboozers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە دەخواتەوە، بەتایبەتی تا ئاستێکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's trying to help her brother, who's become a boozer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ دەدات یارمەتی براکەی بدات کە بووە بە ئارەق‌خۆرێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboozers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboozers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's trying to help her brother, who's become a boozer.",
+                            kurdishText:
+                                "ھەوڵ دەدات یارمەتی براکەی بدات کە بووە بە ئارەق‌خۆرێک.",
+                            onPressedBritish: () => speakboozers2("en-GB"),
+                            onPressedAmerican: () => speakboozers2("en-US"),
                           ),
                         ],
                       ),

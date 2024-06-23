@@ -111,32 +111,13 @@ class EnglishEntryadorable extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر جوان و خۆشەویست" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "What an adorable child!"),
-                                    ExampleSentenceKurdish(
-                                        text: "چی منداڵێکی ژیکەڵەیە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadora9647("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadora9647(
-                                        // REPLACE: adorable /əˈdɔːrəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "What an adorable child!",
+                            kurdishText: "چی منداڵێکی ژیکەڵەیە!",
+                            onPressedBritish: () => speakadora9647("en-GB"),
+                            onPressedAmerican: () => speakadora9647(
+                                // REPLACE: adorable /əˈdɔːrəbl/
+                                "en-US"),
                           ),
                         ],
                       ),

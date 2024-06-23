@@ -162,67 +162,28 @@ class EnglishEntryaquarium extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پارچە گڵاسێکی گەورە کە تێیدا ماسی و گیانلەبەری دیکەی ئاوی ھەڵدەگیرێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The aquarium has some interesting specimens of unusual fish."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆژەماسییەکە ھەندێک نموونەی سەرنجڕاکێشی ماسی دەگمەنی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaquarium922("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaquarium922(
-                                        // REPLACE: aquarium /əˈkweriəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The aquarium has some interesting specimens of unusual fish.",
+                            kurdishText:
+                                "مۆژەماسییەکە ھەندێک نموونەی سەرنجڕاکێشی ماسی دەگمەنی تێدایە.",
+                            onPressedBritish: () => speakaquarium922("en-GB"),
+                            onPressedAmerican: () => speakaquarium922(
+                                // REPLACE: aquarium /əˈkweriəm/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شوێنێک کە تێیدا ژمارەیەک پارچە گڵاسی گەورە ھەیە کە ماسی و گیانلەبەری دیکەی ئاوییان تێدان و خەڵکی سەردانی دەکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We went to the aquarium last week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەفتەی ڕابردوو چووین بۆ ئەکواریەمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaquarium926("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaquarium926(
-                                        // REPLACE: aquarium /əˈkweriəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We went to the aquarium last week.",
+                            kurdishText:
+                                "ھەفتەی ڕابردوو چووین بۆ ئەکواریەمەکە.",
+                            onPressedBritish: () => speakaquarium926("en-GB"),
+                            onPressedAmerican: () => speakaquarium926(
+                                // REPLACE: aquarium /əˈkweriəm/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

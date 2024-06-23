@@ -143,124 +143,48 @@ class EnglishEntryacknowledge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) داننان بە ڕاستی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I have to acknowledge the fact that I am partly responsible."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت دان بەو ڕاستییە بنێم کە من بەرپرسیارم بۆ بەشێکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakackn1254("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakackn1254(
-                                        "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I have to acknowledge the fact that I am partly responsible.",
+                            kurdishText:
+                                "دەبێت دان بەو ڕاستییە بنێم کە من بەرپرسیارم بۆ بەشێکی.",
+                            onPressedBritish: () => speakackn1254("en-GB"),
+                            onPressedAmerican: () => speakackn1254(
+                                "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He does not acknowledge that he has done anything wrong."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دان بەوەدا نانێت کە ھیچ شتێکی ھەڵەی کردبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakackn1427("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakackn1427(
-                                        "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He does not acknowledge that he has done anything wrong.",
+                            kurdishText:
+                                "دان بەوەدا نانێت کە ھیچ شتێکی ھەڵەی کردبێت.",
+                            onPressedBritish: () => speakackn1427("en-GB"),
+                            onPressedAmerican: () => speakackn1427(
+                                "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ناساندنی شتێک وەک ڕاستی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is widely acknowledged as the best player in the world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەکی گشتی ناسێندراوە بە باشتری یاریزانی جیھان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakackn12569("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakackn12569(
-                                        "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is widely acknowledged as the best player in the world.",
+                            kurdishText:
+                                "بەشێوەیەکی گشتی ناسێندراوە بە باشتری یاریزانی جیھان.",
+                            onPressedBritish: () => speakackn12569("en-GB"),
+                            onPressedAmerican: () => speakackn12569(
+                                "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) بە کەسێک وتن کە شتێکت پێگەیشتووە کە بۆی ناردوویت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All applications will be acknowledged."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی داخوازینامەکان وەڵام دەدرێنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakackn647("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakackn647(
-                                        "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All applications will be acknowledged.",
+                            kurdishText:
+                                "تەواوی داخوازینامەکان وەڵام دەدرێنەوە.",
+                            onPressedBritish: () => speakackn647("en-GB"),
+                            onPressedAmerican: () => speakackn647(
+                                "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
                           ),
                         ],
                       ),

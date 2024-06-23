@@ -165,103 +165,46 @@ class EnglishEntryappropriation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بردنی شتی کەسێکی تر بەبێ مۆڵەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The film company sued them over their appropriation of a cartoon character."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیا فیلمییەکە سکاڵای لەسەر تۆمارکردن بەھۆی دزینی کارەکتەرێکی فیلمە کارتۆنییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappropriation425("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappropriation425(
-                                        // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The film company sued them over their appropriation of a cartoon character.",
+                            kurdishText:
+                                "کۆمپانیا فیلمییەکە سکاڵای لەسەر تۆمارکردن بەھۆی دزینی کارەکتەرێکی فیلمە کارتۆنییە.",
+                            onPressedBritish: () =>
+                                speakappropriation425("en-GB"),
+                            onPressedAmerican: () => speakappropriation425(
+                                // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) تەرخانکردنی بڕە پارەیەک بۆ مەبەستێکی دیاریکراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team scheduled a meeting to discuss the appropriation of funds for the upcoming project."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە کۆبوونەوەیەکیان ڕێکخست بۆ گفتوگۆی تەرخانکردنی پارەکە بۆ پڕۆژەکانی داھاتووی نزیک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappropriation432("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappropriation432(
-                                        // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The team scheduled a meeting to discuss the appropriation of funds for the upcoming project.",
+                            kurdishText:
+                                "تیمەکە کۆبوونەوەیەکیان ڕێکخست بۆ گفتوگۆی تەرخانکردنی پارەکە بۆ پڕۆژەکانی داھاتووی نزیک.",
+                            onPressedBritish: () =>
+                                speakappropriation432("en-GB"),
+                            onPressedAmerican: () => speakappropriation432(
+                                // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بڕە پارەیەک کە تەرخان‌دەکرێت بۆ مەبەستێکی دیاریکراو، بەتایبەتی لەلایەن حکومەتێک یان کۆمپانیایەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The committee approved an appropriation of £20,000 for the payment of debts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لیژنەکە سەرفکردنی بڕی ٢٠,٠٠٠ پاوەندی پەسەندکرد بۆ دانەوەی قەرزەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappropriation436("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappropriation436(
-                                        // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The committee approved an appropriation of £20,000 for the payment of debts.",
+                            kurdishText:
+                                "لیژنەکە سەرفکردنی بڕی ٢٠,٠٠٠ پاوەندی پەسەندکرد بۆ دانەوەی قەرزەکان.",
+                            onPressedBritish: () =>
+                                speakappropriation436("en-GB"),
+                            onPressedAmerican: () => speakappropriation436(
+                                // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

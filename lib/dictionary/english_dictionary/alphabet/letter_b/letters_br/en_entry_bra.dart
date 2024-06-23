@@ -152,60 +152,22 @@ class EnglishEntrybra extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچە جلێکی ژێرەوە ژنان کە لەبەر دەکرێت بۆ داپۆشین و بەرزکردنەوەی مەمک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your shirt's so thin that it shows your bra."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلەکەت ھێندە تەنکە مەمک‌بەندەکەت دیارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbras1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbras1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your shirt's so thin that it shows your bra.",
+                            kurdishText:
+                                "جلەکەت ھێندە تەنکە مەمک‌بەندەکەت دیارە.",
+                            onPressedBritish: () => speakbras1("en-GB"),
+                            onPressedAmerican: () => speakbras1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You'll need a strapless bra to wear with this dress."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستت بە سووخمەیەکی بێ‌بەست دەبێت بۆ پۆشین لەگەڵ ئەم جلە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbras2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbras2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You'll need a strapless bra to wear with this dress.",
+                            kurdishText:
+                                "پێویستت بە سووخمەیەکی بێ‌بەست دەبێت بۆ پۆشین لەگەڵ ئەم جلە.",
+                            onPressedBritish: () => speakbras2("en-GB"),
+                            onPressedAmerican: () => speakbras2("en-US"),
                           ),
                         ],
                       ),

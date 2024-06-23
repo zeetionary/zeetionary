@@ -114,34 +114,15 @@ class EnglishEntryadulthood extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) تەمەنی پێگەیشتووی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her childhood problems persisted into adulthood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێشەکانی منداڵیی بەردەوام بوون لە پێگەیشتوویی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadul35729("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadul35729(
-                                        // REPLACE: adulthood /ˈædʌlthʊd/, /əˈdʌlthʊd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her childhood problems persisted into adulthood.",
+                            kurdishText:
+                                "کێشەکانی منداڵیی بەردەوام بوون لە پێگەیشتوویی.",
+                            onPressedBritish: () => speakadul35729("en-GB"),
+                            onPressedAmerican: () => speakadul35729(
+                                // REPLACE: adulthood /ˈædʌlthʊd/, /əˈdʌlthʊd/
+                                "en-US"),
                           ),
                         ],
                       ),

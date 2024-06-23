@@ -146,63 +146,24 @@ class EnglishEntrybazaar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بازاڕ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Why not visit the local bustling bazaar?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆچی سەردانی بازاڕە خۆجێییە قەرەباڵغە ناکەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbazaars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbazaars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Why not visit the local bustling bazaar?",
+                            kurdishText:
+                                "بۆچی سەردانی بازاڕە خۆجێییە قەرەباڵغە ناکەیت؟",
+                            onPressedBritish: () => speakbazaars1("en-GB"),
+                            onPressedAmerican: () => speakbazaars1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پێشانگایەکی خێرخوازی کە تێیدا شتی دەستکرد دەفرۆشرێت، زۆرجار بۆ کۆکردنەوەی پارە بۆ خێرخوازی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She got it at the church bazaar."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بازاڕە خێرخوازییەکەی کڵێساکە ھێنای."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbazaars2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbazaars2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She got it at the church bazaar.",
+                            kurdishText:
+                                "لە بازاڕە خێرخوازییەکەی کڵێساکە ھێنای.",
+                            onPressedBritish: () => speakbazaars2("en-GB"),
+                            onPressedAmerican: () => speakbazaars2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

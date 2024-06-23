@@ -113,117 +113,39 @@ class EnglishEntryaccompany extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) چوون بۆ شوێنێک لەگەڵ کەسێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was accompanied on the visit by his wife."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە گەشتەکەی ژنەکەی یاوەریکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac25877("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac25877("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was accompanied on the visit by his wife.",
+                            kurdishText: "لە گەشتەکەی ژنەکەی یاوەریکرد.",
+                            onPressedBritish: () => speakac25877("en-GB"),
+                            onPressedAmerican: () => speakac25877("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I must ask you to accompany me to the police station."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناچاردەبم داوات لێ بکەم لەگەڵم بێیت بۆ بنکەی پۆلیس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka449965("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka449965("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I must ask you to accompany me to the police station.",
+                            kurdishText:
+                                "ناچاردەبم داوات لێ بکەم لەگەڵم بێیت بۆ بنکەی پۆلیس.",
+                            onPressedBritish: () => speaka449965("en-GB"),
+                            onPressedAmerican: () => speaka449965("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Warships will accompany the convoy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەشتی جەنگی یاوەری وەفدەکە دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka25841("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka25841("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Warships will accompany the convoy.",
+                            kurdishText: "کەشتی جەنگی یاوەری وەفدەکە دەکەن.",
+                            onPressedBritish: () => speaka25841("en-GB"),
+                            onPressedAmerican: () => speaka25841("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ڕوودان لەگەڵ شتێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Shouts of protest accompanied this announcement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگی ناڕەزایی لەگەڵ ئەم ڕاگەیاندنە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac25877("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac25877("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Shouts of protest accompanied this announcement.",
+                            kurdishText:
+                                "دەنگی ناڕەزایی لەگەڵ ئەم ڕاگەیاندنە بوو.",
+                            onPressedBritish: () => speakac25877("en-GB"),
+                            onPressedAmerican: () => speakac25877("en-US"),
                           ),
                         ],
                       ),

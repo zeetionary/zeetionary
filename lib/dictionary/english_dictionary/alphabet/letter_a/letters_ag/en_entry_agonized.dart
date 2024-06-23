@@ -113,34 +113,15 @@ class EnglishEntryagonized extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) چەشتنی ئازار و پیشاندانی، یان نیگەرانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After five months of agonized debate they signed the treaty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای پێنج مانگ مشتومڕی بەسوێ ڕێککەوتنەکەیان واژۆکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagonized147("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagonized147(
-                                        // REPLACE: agonized /ˈæɡənaɪzd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After five months of agonized debate they signed the treaty.",
+                            kurdishText:
+                                "لە دوای پێنج مانگ مشتومڕی بەسوێ ڕێککەوتنەکەیان واژۆکرد.",
+                            onPressedBritish: () => speakagonized147("en-GB"),
+                            onPressedAmerican: () => speakagonized147(
+                                // REPLACE: agonized /ˈæɡənaɪzd/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -155,34 +155,14 @@ class EnglishEntryautopsy extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) توێکاری لەشی مردوو" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The autopsy revealed that he had been poisoned."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێکارییەکە دەریخست ژەھرخواردکراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakautopsys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautopsys1(// REPLACE: autopsy
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The autopsy revealed that he had been poisoned.",
+                            kurdishText: "توێکارییەکە دەریخست ژەھرخواردکراوە.",
+                            onPressedBritish: () => speakautopsys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautopsys1(// REPLACE: autopsy
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

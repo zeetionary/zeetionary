@@ -148,32 +148,13 @@ class EnglishEntrybonemarrow extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مادەیەکی نەرم کە بۆشاییەکانی ئێسک پڕدەکاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A bone marrow transplant can be risky."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاندنی مۆخی ئێسک دەکرێت مەترسیدار بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonemarrows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonemarrows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A bone marrow transplant can be risky.",
+                            kurdishText:
+                                "چاندنی مۆخی ئێسک دەکرێت مەترسیدار بێت.",
+                            onPressedBritish: () => speakbonemarrows1("en-GB"),
+                            onPressedAmerican: () => speakbonemarrows1("en-US"),
                           ),
                         ],
                       ),

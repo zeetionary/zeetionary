@@ -150,63 +150,25 @@ class EnglishEntrybereft extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) بە تەواوی بەبێ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Alone now and almost penniless, he was bereft of hope."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تەنھا و بە نزیکەیی بەبێ پارە، بە تەواوی بێ ھیوا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakberefts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakberefts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Alone now and almost penniless, he was bereft of hope.",
+                            kurdishText:
+                                "بە تەنھا و بە نزیکەیی بەبێ پارە، بە تەواوی بێ ھیوا بوو.",
+                            onPressedBritish: () => speakberefts1("en-GB"),
+                            onPressedAmerican: () => speakberefts1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) (کەسێک) ناڕەحەت و تەنھایە بەھۆی ئەوەی شتێکی لەدەستداوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was utterly bereft when his wife died."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تەواوی بێ‌کەس بوو کە ھاوژینەکەی مرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakberefts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakberefts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was utterly bereft when his wife died.",
+                            kurdishText:
+                                "بە تەواوی بێ‌کەس بوو کە ھاوژینەکەی مرد.",
+                            onPressedBritish: () => speakberefts2("en-GB"),
+                            onPressedAmerican: () => speakberefts2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

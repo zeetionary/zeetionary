@@ -145,118 +145,42 @@ class EnglishEntrybriskly extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بەخێرایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She walked briskly over to the phone and answered it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەخێرایی چوو بۆ لای تەلەفۆنەکە و وەڵامی دایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "briskly" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrisklys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrisklys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She walked briskly over to the phone and answered it.",
+                            kurdishText:
+                                "بەخێرایی چوو بۆ لای تەلەفۆنەکە و وەڵامی دایەوە.", // briskly" as
+                            onPressedBritish: () => speakbrisklys1("en-GB"),
+                            onPressedAmerican: () => speakbrisklys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The game is selling briskly."),
-                                    ExampleSentenceKurdish(
-                                        text: "یارییەکی بەخێرایی دەفرۆشرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrisklys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrisklys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The game is selling briskly.",
+                            kurdishText: "یارییەکی بەخێرایی دەفرۆشرێت.",
+                            onPressedBritish: () => speakbrisklys2("en-GB"),
+                            onPressedAmerican: () => speakbrisklys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەشێوەیەکی پراکتیکی و بە متمانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "'Let's get started,' he said, rubbing his hands briskly together."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتێکی دەستی بە یەکدا دەھێنا وتی 'با دەستپێ بکەین'."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrisklys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrisklys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "'Let's get started,' he said, rubbing his hands briskly together.",
+                            kurdishText:
+                                "لە کاتێکی دەستی بە یەکدا دەھێنا وتی 'با دەستپێ بکەین'.",
+                            onPressedBritish: () => speakbrisklys3("en-GB"),
+                            onPressedAmerican: () => speakbrisklys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵکار) کە بایەک بە ساردی بەڵام خۆشی ھەڵدەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The wind was blowing briskly."),
-                                    ExampleSentenceKurdish(
-                                        text: "بایەکە بە فێنکی ھەڵیکردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrisklys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrisklys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The wind was blowing briskly.",
+                            kurdishText: "بایەکە بە فێنکی ھەڵیکردبوو.",
+                            onPressedBritish: () => speakbrisklys4("en-GB"),
+                            onPressedAmerican: () => speakbrisklys4("en-US"),
                           ),
                         ],
                       ),

@@ -164,35 +164,16 @@ class EnglishEntryarchaeology extends StatelessWidget {
                               text:
                                   "١. (ناو) توێژینەوە لە کەلتوورە کۆنەکان و مێژوو و ھەڵکۆڵینی ئەو شوێنەوارانەی لە زەویدا دەدۆزرێنەوە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Daniel is very interested in history and archaeology, and often visits historic sites."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانیاڵ زۆری حەز بە مێژوو و شوێنەوارناسییە و زۆرجار سەردانی شوێنەوارە مێژووییەکان دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarchaeology224("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarchaeology224(
-                                        // REPLACE: archaeology /ˌɑːrkiˈɑːlədʒi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Daniel is very interested in history and archaeology, and often visits historic sites.",
+                            kurdishText:
+                                "دانیاڵ زۆری حەز بە مێژوو و شوێنەوارناسییە و زۆرجار سەردانی شوێنەوارە مێژووییەکان دەکات.",
+                            onPressedBritish: () =>
+                                speakarchaeology224("en-GB"),
+                            onPressedAmerican: () => speakarchaeology224(
+                                // REPLACE: archaeology /ˌɑːrkiˈɑːlədʒi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

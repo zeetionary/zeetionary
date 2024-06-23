@@ -152,33 +152,14 @@ class EnglishEntrybaptize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ئەنجامدانی ڕێوڕەسمی تەوفن (بۆنەیەک لە ئایینی مەسیحیدا کە تێیدا چەند دڵۆپە ئاوێک لەسەر کەسێک دەکرێت بۆ خێراتنکردنیان بۆ ناو کڵێسای مەسیحی، و زۆر جار بەپێدانی ناوێک ئەگەر منداڵ بێت)"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She was baptized Mary."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەراسیمی تەوفنی بۆ کرا و ناونرا ماری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaptizes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaptizes1(// REPLACE: baptize
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was baptized Mary.",
+                            kurdishText:
+                                "مەراسیمی تەوفنی بۆ کرا و ناونرا ماری.",
+                            onPressedBritish: () => speakbaptizes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaptizes1(// REPLACE: baptize
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

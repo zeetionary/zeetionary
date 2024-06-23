@@ -164,67 +164,29 @@ class EnglishEntrygoastray extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ئیدیەم) ونبوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several letters went astray or were not delivered."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک نامە ونبوون یان نەگەیەندران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakGoastray1127("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakGoastray1127(// REPLACE: go astray
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several letters went astray or were not delivered.",
+                            kurdishText:
+                                "ژمارەیەک نامە ونبوون یان نەگەیەندران.",
+                            onPressedBritish: () => speakGoastray1127("en-GB"),
+                            onPressedAmerican: () =>
+                                speakGoastray1127(// REPLACE: go astray
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ئیدیەم) دەرچوون لە ڕێگەی ڕاست، یان ھەبوونی ئەنجامی ھەڵە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Fortunately the gunman's shots went astray."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆشبەختانە فیشەکەکانی تەقەکەرەکە بە ھەڵە چوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakGoastray1129("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakGoastray1129(// REPLACE: go astray
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Fortunately the gunman's shots went astray.",
+                            kurdishText:
+                                "خۆشبەختانە فیشەکەکانی تەقەکەرەکە بە ھەڵە چوون.",
+                            onPressedBritish: () => speakGoastray1129("en-GB"),
+                            onPressedAmerican: () =>
+                                speakGoastray1129(// REPLACE: go astray
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

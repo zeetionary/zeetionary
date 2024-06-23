@@ -142,32 +142,13 @@ class EnglishEntrybreakneck extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) زۆر خێرا و مەترسیدار"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We drove to the hospital at breakneck speed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەخێرایی مەترسیدار چووین بۆ نەخۆشخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreaknecks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreaknecks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We drove to the hospital at breakneck speed.",
+                            kurdishText:
+                                "بەخێرایی مەترسیدار چووین بۆ نەخۆشخانەکە.",
+                            onPressedBritish: () => speakbreaknecks1("en-GB"),
+                            onPressedAmerican: () => speakbreaknecks1("en-US"),
                           ),
                         ],
                       ),

@@ -165,34 +165,15 @@ class EnglishEntryashtray extends StatelessWidget {
                               text:
                                   "١. (ناو) جێیەک کە کەسانی جگەرەکێش سووتووی جھەرەی تێ‌دەکەن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ashtrays in the restaurant were emptied and cleaned regularly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەپڵەکی چێشتخانەکان بەزوویی بەتاڵ و پاک دەکرانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakashtray509("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakashtray509(
-                                        // REPLACE: ashtray /ˈæʃtreɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ashtrays in the restaurant were emptied and cleaned regularly.",
+                            kurdishText:
+                                "تەپڵەکی چێشتخانەکان بەزوویی بەتاڵ و پاک دەکرانەوە.",
+                            onPressedBritish: () => speakashtray509("en-GB"),
+                            onPressedAmerican: () => speakashtray509(
+                                // REPLACE: ashtray /ˈæʃtreɪ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

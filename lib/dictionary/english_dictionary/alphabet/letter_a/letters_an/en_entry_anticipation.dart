@@ -160,101 +160,43 @@ class EnglishEntryanticipation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پێشبینی‌کردنی ڕوودانی شتێک لە داھاتوو و ھەوڵ‌دان بۆ کردنی کارێک دەربارەی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He bought extra food in anticipation of more people coming than he'd invited."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواردنی زیادەی کڕی لە پێشبینی ھاتنی خەڵکی زیاتر وەک لەوەی بانگھێشتی کردوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanticipation1053("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanticipation1053(
-                                        // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He bought extra food in anticipation of more people coming than he'd invited.",
+                            kurdishText:
+                                "خواردنی زیادەی کڕی لە پێشبینی ھاتنی خەڵکی زیاتر وەک لەوەی بانگھێشتی کردوون.",
+                            onPressedBritish: () =>
+                                speakanticipation1053("en-GB"),
+                            onPressedAmerican: () => speakanticipation1053(
+                                // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Parents visit the school in anticipation that action will be taken."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایکان و باوکان سەردانی قوتابخانەکە دەکەن بەھیوای ئەوەی ھەنگاو بنرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanticipation1056("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanticipation1056(
-                                        // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Parents visit the school in anticipation that action will be taken.",
+                            kurdishText:
+                                "دایکان و باوکان سەردانی قوتابخانەکە دەکەن بەھیوای ئەوەی ھەنگاو بنرێت.",
+                            onPressedBritish: () =>
+                                speakanticipation1056("en-GB"),
+                            onPressedAmerican: () => speakanticipation1056(
+                                // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھەستێکی خۆش کە ھەتە سەبارەت بە ڕوودانی شتێکی خۆش"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The courtroom was filled with anticipation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژووری دادگا پڕ بوو لە تامەزرۆیی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanticipation1059("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanticipation1059(
-                                        // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The courtroom was filled with anticipation.",
+                            kurdishText: "ژووری دادگا پڕ بوو لە تامەزرۆیی.",
+                            onPressedBritish: () =>
+                                speakanticipation1059("en-GB"),
+                            onPressedAmerican: () => speakanticipation1059(
+                                // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

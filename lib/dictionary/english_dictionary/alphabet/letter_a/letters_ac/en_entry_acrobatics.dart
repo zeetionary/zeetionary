@@ -112,32 +112,12 @@ class EnglishEntryacrobatics extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کردنی کاری گیانبازی بە جەستە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "acrobatics on the high wire"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کردنی ئاکرۆباتیکس لەسەر تەنافی بەرز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacro2354("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacro2354(
-                                        "en-US"), // REPLACE acrobatics /ˌækrəˈbætɪks/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "acrobatics on the high wire",
+                            kurdishText: "کردنی ئاکرۆباتیکس لەسەر تەنافی بەرز.",
+                            onPressedBritish: () => speakacro2354("en-GB"),
+                            onPressedAmerican: () => speakacro2354(
+                                "en-US"), // REPLACE acrobatics /ˌækrəˈbætɪks/
                           ),
                         ],
                       ),

@@ -140,98 +140,38 @@ class EnglishEntryallowance extends StatelessWidget {
                               text:
                                   "١. (ناو) بڕە پارەیەک کە بە بەردەوامی دەدرێت بە کەسێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you get an allowance for clothing?"),
-                                    ExampleSentenceKurdish(
-                                        text: "پارە وەردەگریت بۆ جلوبەرگ؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallowance1298("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallowance1298(
-                                        // REPLACE: allowance /əˈlaʊəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do you get an allowance for clothing?",
+                            kurdishText: "پارە وەردەگریت بۆ جلوبەرگ؟",
+                            onPressedBritish: () => speakallowance1298("en-GB"),
+                            onPressedAmerican: () => speakallowance1298(
+                                // REPLACE: allowance /əˈlaʊəns/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The weekly allowance for each child is £15."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەفتانەی ھەر منداڵێک ١٥ پاوەندە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallowance4251("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallowance4251(
-                                        // REPLACE: allowance /əˈlaʊəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The weekly allowance for each child is £15.",
+                            kurdishText: "ھەفتانەی ھەر منداڵێک ١٥ پاوەندە.",
+                            onPressedBritish: () => speakallowance4251("en-GB"),
+                            onPressedAmerican: () => speakallowance4251(
+                                // REPLACE: allowance /əˈlaʊəns/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕێژەی ڕێگەپێدراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The recommended daily allowance of vitamin C is 60–90 milligrams."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەی پێشنیازکراوی ڕۆژانەی ڤیتامین C ٦٠-٩٠ میلیگرامە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallowance12963("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallowance12963(
-                                        // REPLACE: allowance /əˈlaʊəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The recommended daily allowance of vitamin C is 60–90 milligrams.",
+                            kurdishText:
+                                "ڕێژەی پێشنیازکراوی ڕۆژانەی ڤیتامین C ٦٠-٩٠ میلیگرامە.",
+                            onPressedBritish: () =>
+                                speakallowance12963("en-GB"),
+                            onPressedAmerican: () => speakallowance12963(
+                                // REPLACE: allowance /əˈlaʊəns/
+                                "en-US"),
                           ),
                         ],
                       ),

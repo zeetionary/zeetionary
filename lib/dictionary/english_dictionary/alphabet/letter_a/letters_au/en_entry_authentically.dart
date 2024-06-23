@@ -166,35 +166,16 @@ class EnglishEntryauthentically extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەکی ڕاست و درووست" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These are novels that authentically represent human experience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمانە ئەو ڕۆمانەن کە بەشێوەیەکی درووست ئەزموونی ژیانی مرۆڤ پیشان دەدەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthentically622("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthentically622(
-                                        // REPLACE: authentically
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These are novels that authentically represent human experience.",
+                            kurdishText:
+                                "ئەمانە ئەو ڕۆمانەن کە بەشێوەیەکی درووست ئەزموونی ژیانی مرۆڤ پیشان دەدەن.",
+                            onPressedBritish: () =>
+                                speakauthentically622("en-GB"),
+                            onPressedAmerican: () => speakauthentically622(
+                                // REPLACE: authentically
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -113,99 +113,41 @@ class EnglishEntryamalgamate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) یەکگرتن بۆ درووستکردنی شتێکی گەورەتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A number of colleges have amalgamated to form the new university."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک کۆلێژ یەکیان گرتووە بۆ درووستکردنی زانکۆ تازەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamalgamate4444("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamalgamate4444(
-                                        // REPLACE: amalgamate /əˈmælɡəmeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A number of colleges have amalgamated to form the new university.",
+                            kurdishText:
+                                "ژمارەیەک کۆلێژ یەکیان گرتووە بۆ درووستکردنی زانکۆ تازەکە.",
+                            onPressedBritish: () =>
+                                speakamalgamate4444("en-GB"),
+                            onPressedAmerican: () => speakamalgamate4444(
+                                // REPLACE: amalgamate /əˈmælɡəmeɪt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They decided to amalgamate the two schools."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیاریاندا دوو قوتابخانەکە یەکبخەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamalgamate68552("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamalgamate68552(
-                                        // REPLACE: amalgamate /əˈmælɡəmeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They decided to amalgamate the two schools.",
+                            kurdishText: "بڕیاریاندا دوو قوتابخانەکە یەکبخەن.",
+                            onPressedBritish: () =>
+                                speakamalgamate68552("en-GB"),
+                            onPressedAmerican: () => speakamalgamate68552(
+                                // REPLACE: amalgamate /əˈmælɡəmeɪt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) یەکخستنی دوو شت یان زیاتر بۆ درووستکردنی یەک شت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This information will be amalgamated with information obtained earlier."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم زانیارییە یەکدەخرێت لەگەڵ زانیاری پێشووتر بەدەستھێنراو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamalgamate4588("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamalgamate4588(
-                                        // REPLACE: amalgamate /əˈmælɡəmeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This information will be amalgamated with information obtained earlier.",
+                            kurdishText:
+                                "ئەم زانیارییە یەکدەخرێت لەگەڵ زانیاری پێشووتر بەدەستھێنراو.",
+                            onPressedBritish: () =>
+                                speakamalgamate4588("en-GB"),
+                            onPressedAmerican: () => speakamalgamate4588(
+                                // REPLACE: amalgamate /əˈmælɡəmeɪt/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -329,121 +329,46 @@ class EnglishEntrybrief extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) بۆ ماوەیەکی کەم"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Mozart's life was brief."),
-                                    ExampleSentenceKurdish(
-                                        text: "ژیانی مۆزارت کورتخایەن بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brief" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Mozart's life was brief.",
+                            kurdishText:
+                                "ژیانی مۆزارت کورتخایەن بوو.", // brief" as
+                            onPressedBritish: () => speakbriefs1("en-GB"),
+                            onPressedAmerican: () => speakbriefs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            " He said nothing during the brief court appearance."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچی نەگوت لە ئامادەبوونە کورتەکەی لە دادگادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                " He said nothing during the brief court appearance.",
+                            kurdishText:
+                                "ھیچی نەگوت لە ئامادەبوونە کورتەکەی لە دادگادا.",
+                            onPressedBritish: () => speakbriefs2("en-GB"),
+                            onPressedAmerican: () => speakbriefs2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He died after a relatively brief period of suffering."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "گیانی لەدەستدا لە دوای ماوەیەکی کەم لە ئازارکێشان."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbriefs3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbriefs3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He died after a relatively brief period of suffering.",
+                                    kurdishText:
+                                        "گیانی لەدەستدا لە دوای ماوەیەکی کەم لە ئازارکێشان.",
+                                    onPressedBritish: () =>
+                                        speakbriefs3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbriefs3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Could you make it brief? I've got a meeting in ten minutes."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەتوانی بە کورتی بیڵێیت؟ کۆبوونەوەیەکم ھەیە لە چەند خولەکێکی تردا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbriefs4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbriefs4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Could you make it brief? I've got a meeting in ten minutes.",
+                                    kurdishText:
+                                        "ئەتوانی بە کورتی بیڵێیت؟ کۆبوونەوەیەکم ھەیە لە چەند خولەکێکی تردا.",
+                                    onPressedBritish: () =>
+                                        speakbriefs4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbriefs4("en-US"),
                                   ),
                                 ],
                               ),
@@ -452,359 +377,131 @@ class EnglishEntrybrief extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) بەکارھێنانی وشەی کەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please be brief (= say what you want to say quickly)."),
-                                    ExampleSentenceKurdish(
-                                        text: "تکایە بە کورتی/زوویی بیڵێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please be brief (= say what you want to say quickly).",
+                            kurdishText: "تکایە بە کورتی/زوویی بیڵێ.",
+                            onPressedBritish: () => speakbriefs5("en-GB"),
+                            onPressedAmerican: () => speakbriefs5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Section 1 of the book gives a brief history of Mexico."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشی یەکەمی کتێبەکە مێژووی کورتی مەکسیک دەخاتە بەردەست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Section 1 of the book gives a brief history of Mexico.",
+                            kurdishText:
+                                "بەشی یەکەمی کتێبەکە مێژووی کورتی مەکسیک دەخاتە بەردەست.",
+                            onPressedBritish: () => speakbriefs6("en-GB"),
+                            onPressedAmerican: () => speakbriefs6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) جلێکی کورت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was wearing a fairly brief skirt, as I recall."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەپێی ئەوەی بیرم بێت تەنوورەیەکی تاڕادەیەک کورتی لەبەربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was wearing a fairly brief skirt, as I recall.",
+                            kurdishText:
+                                "بەپێی ئەوەی بیرم بێت تەنوورەیەکی تاڕادەیەک کورتی لەبەربوو.",
+                            onPressedBritish: () => speakbriefs7("en-GB"),
+                            onPressedAmerican: () => speakbriefs7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) کۆمەڵێک ڕێنمایی کە بە کەسێک دەدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It wasn't part of his brief to speak to the press."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە بەشێک لە ڕێنمایەکانی نەبوو کە بە میدیاکان بڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It wasn't part of his brief to speak to the press.",
+                            kurdishText:
+                                "ئەوە بەشێک لە ڕێنمایەکانی نەبوو کە بە میدیاکان بڵێت.",
+                            onPressedBritish: () => speakbriefs8("en-GB"),
+                            onPressedAmerican: () => speakbriefs8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's not part of my brief to advise on financial matters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە بەشێک لە ڕاسپاردەکانم نییە کە ڕاوێژ کە باسی ئابووریدا بدەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's not part of my brief to advise on financial matters.",
+                            kurdishText:
+                                "ئەوە بەشێک لە ڕاسپاردەکانم نییە کە ڕاوێژ کە باسی ئابووریدا بدەم.",
+                            onPressedBritish: () => speakbriefs9("en-GB"),
+                            onPressedAmerican: () => speakbriefs9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) کەیسێکی یاسایی کە دەدرێت بە پارێزەرێک بۆ ئەوەی لە دادگا بەرگری لێ بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Will you accept this brief?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم کەیسە/دۆسیەیە وەردەگریت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Will you accept this brief?",
+                            kurdishText: "ئەم کەیسە/دۆسیەیە وەردەگریت؟",
+                            onPressedBritish: () => speakbriefs10("en-GB"),
+                            onPressedAmerican: () => speakbriefs10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) پارێزەرێک کە بەرگری لە کەیسێک دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I want to see my brief."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەمەوێت پارێزەرەکەم ببینم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I want to see my brief.",
+                            kurdishText: "دەمەوێت پارێزەرەکەم ببینم.",
+                            onPressedBritish: () => speakbriefs11("en-GB"),
+                            onPressedAmerican: () => speakbriefs11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) زانیاری و ڕێنمایی کە لە کۆبوونەوەیەکدا دەدرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We were given daily briefs by the general."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانیاری ڕۆژانەمان پێدەدرا لەلایەن ژەنەراڵەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We were given daily briefs by the general.",
+                            kurdishText:
+                                "زانیاری ڕۆژانەمان پێدەدرا لەلایەن ژەنەراڵەکەوە.",
+                            onPressedBritish: () => speakbriefs12("en-GB"),
+                            onPressedAmerican: () => speakbriefs12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) پێدانی زانیاری بە کەسێک بۆ ئەوەی ئامادە بێت مامەڵەی لەگەڵدا بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I expect to be kept fully briefed at all times."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوەڕێی ئەوە دەکەم ھەموو کات زانیاریم پێ بدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I expect to be kept fully briefed at all times.",
+                            kurdishText:
+                                "چاوەڕێی ئەوە دەکەم ھەموو کات زانیاریم پێ بدرێت.",
+                            onPressedBritish: () => speakbriefs13("en-GB"),
+                            onPressedAmerican: () => speakbriefs13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The officer briefed her on what to expect."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەفسەرەکە زانیاریی پێدا لەسەر ئەوەی چاوەڕێی چی بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The officer briefed her on what to expect.",
+                            kurdishText:
+                                "ئەفسەرەکە زانیاریی پێدا لەسەر ئەوەی چاوەڕێی چی بکات.",
+                            onPressedBritish: () => speakbriefs14("en-GB"),
+                            onPressedAmerican: () => speakbriefs14("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "We had already been briefed about/on what the job would entail."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پێشوەختە زانیاریمان پێدرابوو کە کارەکە چی لەخۆدەگرێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbriefs15("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbriefs15("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "We had already been briefed about/on what the job would entail.",
+                                    kurdishText:
+                                        "پێشوەختە زانیاریمان پێدرابوو کە کارەکە چی لەخۆدەگرێت.",
+                                    onPressedBritish: () =>
+                                        speakbriefs15("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbriefs15("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The men have been fully briefed about the mission."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سەربازەکان بە تەواوی زانیارییان پێدراوە لەسەر ئەرکەکە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbriefs16("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbriefs16("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The men have been fully briefed about the mission.",
+                                    kurdishText:
+                                        "سەربازەکان بە تەواوی زانیارییان پێدراوە لەسەر ئەرکەکە.",
+                                    onPressedBritish: () =>
+                                        speakbriefs16("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbriefs16("en-US"),
                                   ),
                                 ],
                               ),
@@ -814,32 +511,13 @@ class EnglishEntrybrief extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) ئاشکراکردنی زانیاری لەسەر کەسێک/شتێک بە مەبەستی دژایەتی یان پەسندانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "On several occasions government officials briefed against their own ministers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ژمارەیەک بۆنەدا بەرپرسانی حکومەت زانیارییان دژ بە وەزیرەکانی خۆیان ئاشکراکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriefs17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriefs17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "On several occasions government officials briefed against their own ministers.",
+                            kurdishText:
+                                "لە ژمارەیەک بۆنەدا بەرپرسانی حکومەت زانیارییان دژ بە وەزیرەکانی خۆیان ئاشکراکردووە.",
+                            onPressedBritish: () => speakbriefs17("en-GB"),
+                            onPressedAmerican: () => speakbriefs17("en-US"),
                           ),
                         ],
                       ),

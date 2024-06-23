@@ -163,66 +163,26 @@ class EnglishEntryapologetic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) ھەست‌کردن یان پیشاندانی پەشیمانی یان داخ بۆ شتێک کە کردووتە یان دەیکەیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were very apologetic about the trouble they'd caused."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر بەداخن بۆ ئەو کێشەیەی ھەڵیان‌گیرساند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapologetic255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapologetic255(
-                                        // REPLACE: apologetic /əˌpɑːləˈdʒetɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were very apologetic about the trouble they'd caused.",
+                            kurdishText:
+                                "زۆر بەداخن بۆ ئەو کێشەیەی ھەڵیان‌گیرساند.",
+                            onPressedBritish: () => speakapologetic255("en-GB"),
+                            onPressedAmerican: () => speakapologetic255(
+                                // REPLACE: apologetic /əˌpɑːləˈdʒetɪk/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was profusely apologetic about the mistake."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر بەداخ بوو بۆ ھەڵەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapologetic256("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapologetic256(
-                                        // REPLACE: apologetic /əˌpɑːləˈdʒetɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was profusely apologetic about the mistake.",
+                            kurdishText: "زۆر بەداخ بوو بۆ ھەڵەکە.",
+                            onPressedBritish: () => speakapologetic256("en-GB"),
+                            onPressedAmerican: () => speakapologetic256(
+                                // REPLACE: apologetic /əˌpɑːləˈdʒetɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

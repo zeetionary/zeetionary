@@ -93,30 +93,11 @@ class EnglishEntryacademy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. خوێندنگایەک بۆ خوێندنی تایبەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "a police/military academy"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەکادیمیای پۆلیسی/سەربازی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speak25963("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speak25963("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "a police/military academy",
+                            kurdishText: "ئەکادیمیای پۆلیسی/سەربازی.",
+                            onPressedBritish: () => speak25963("en-GB"),
+                            onPressedAmerican: () => speak25963("en-US"),
                           ),
                         ],
                       ),

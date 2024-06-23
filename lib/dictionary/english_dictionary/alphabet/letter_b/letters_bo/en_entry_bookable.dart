@@ -144,63 +144,23 @@ class EnglishEntrybookable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) بلیتێک کە پێشوەختە دەتوانرێت بکڕدرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All seats are bookable by phone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو جێگاکان دەتوانرێت پێشوەختە بگیردرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookables1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "All seats are bookable by phone.",
+                            kurdishText:
+                                "ھەموو جێگاکان دەتوانرێت پێشوەختە بگیردرێن.",
+                            onPressedBritish: () => speakbookables1("en-GB"),
+                            onPressedAmerican: () => speakbookables1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) ھەڵەیەک کە شایەنی کارتی زەردە لە تۆپی پێدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That tackle was a bookable offence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ڕووبەڕووبوونەوەیە شیاوی کارتی زەرد بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookables2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookables2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That tackle was a bookable offence.",
+                            kurdishText:
+                                "ئەو ڕووبەڕووبوونەوەیە شیاوی کارتی زەرد بوو.",
+                            onPressedBritish: () => speakbookables2("en-GB"),
+                            onPressedAmerican: () => speakbookables2("en-US"),
                           ),
                         ],
                       ),

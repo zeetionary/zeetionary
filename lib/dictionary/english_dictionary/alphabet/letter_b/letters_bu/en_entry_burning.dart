@@ -194,122 +194,46 @@ class EnglishEntryburning extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ئێجگار زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's always had a burning ambition to start his own business."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە خولیایەکی زۆری ھەبوو کە بازرگانیی خۆی دەستپێ بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burning", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburnings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburnings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's always had a burning ambition to start his own business.",
+                            kurdishText:
+                                "ھەمیشە خولیایەکی زۆری ھەبوو کە بازرگانیی خۆی دەستپێ بکات.", // burning", follow LX strictly
+                            onPressedBritish: () => speakburnings1("en-GB"),
+                            onPressedAmerican: () => speakburnings1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) کێشەیەکی زۆر گرنگ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This has quickly become the burning issue of the day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە بە زووی بووە بە مژاری گەرمی ڕۆژ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburnings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburnings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This has quickly become the burning issue of the day.",
+                            kurdishText:
+                                "ئەمە بە زووی بووە بە مژاری گەرمی ڕۆژ.",
+                            onPressedBritish: () => speakburnings2("en-GB"),
+                            onPressedAmerican: () => speakburnings2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) ئازارێکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She felt a burning sensation in her throat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە ئازارێکی زۆر دەکرد لە قوڕگیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburnings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburnings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She felt a burning sensation in her throat.",
+                            kurdishText:
+                                "ھەستی بە ئازارێکی زۆر دەکرد لە قوڕگیدا.",
+                            onPressedBritish: () => speakburnings3("en-GB"),
+                            onPressedAmerican: () => speakburnings3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ھاوەڵناو) زۆر گەرم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People enjoy basking under the burning sun at the beach."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی حەز دەکەن بە ڕاکشان لە خۆرە گەرمەکەدا لە کەناراوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburnings4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburnings4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People enjoy basking under the burning sun at the beach.",
+                            kurdishText:
+                                "خەڵکی حەز دەکەن بە ڕاکشان لە خۆرە گەرمەکەدا لە کەناراوەکە.",
+                            onPressedBritish: () => speakburnings4("en-GB"),
+                            onPressedAmerican: () => speakburnings4("en-US"),
                           ),
                         ],
                       ),

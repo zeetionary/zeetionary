@@ -148,60 +148,21 @@ class EnglishEntrybleach extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) سپی بوون بە پڕۆسەی کیمیایی یان بەرکەوتن بە خۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His hair was bleached by the sun."),
-                                    ExampleSentenceKurdish(
-                                        text: "قژی دەدرەوشایەوە لە خۆرەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleachs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleachs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His hair was bleached by the sun.",
+                            kurdishText: "قژی دەدرەوشایەوە لە خۆرەکەدا.",
+                            onPressedBritish: () => speakbleachs1("en-GB"),
+                            onPressedAmerican: () => speakbleachs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) مادەیەکی کیمیایی کە وەک سپیکەرەوە و پاککەرەوە بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I poured bleach down the loo."),
-                                    ExampleSentenceKurdish(
-                                        text: "فاسم کرد بە سەراوەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleachs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleachs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I poured bleach down the loo.",
+                            kurdishText: "فاسم کرد بە سەراوەکەدا.",
+                            onPressedBritish: () => speakbleachs2("en-GB"),
+                            onPressedAmerican: () => speakbleachs2("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

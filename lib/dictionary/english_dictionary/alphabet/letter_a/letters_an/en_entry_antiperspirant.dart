@@ -163,35 +163,16 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                               text:
                                   "١. (ناو) مادەیەک کە بەکاردێت دژ بە ئارەق، بەتایبەتی لەژێر باڵ"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Antiperspirant can make you more comfortable on hot days."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕۆژانی گەرمدا دژە-بۆن دەکرێت وابکات زیاتر ئاسوودە بیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantiperspirant1117("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantiperspirant1117(
-                                        // REPLACE: antiperspirant /ˌæntiˈpɜːrspərənt/, /ˌæntaɪˈpɜːrspərənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Antiperspirant can make you more comfortable on hot days.",
+                            kurdishText:
+                                "لە ڕۆژانی گەرمدا دژە-بۆن دەکرێت وابکات زیاتر ئاسوودە بیت.",
+                            onPressedBritish: () =>
+                                speakantiperspirant1117("en-GB"),
+                            onPressedAmerican: () => speakantiperspirant1117(
+                                // REPLACE: antiperspirant /ˌæntiˈpɜːrspərənt/, /ˌæntaɪˈpɜːrspərənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

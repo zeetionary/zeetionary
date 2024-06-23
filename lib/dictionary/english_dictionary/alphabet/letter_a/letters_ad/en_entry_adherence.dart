@@ -113,33 +113,13 @@ class EnglishEntryadherence extends StatelessWidget {
                               text:
                                   "١. (ناو) پابەندبوون بە شتێک کە باوەڕت پێی ھەیە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "strict adherence to the rules"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پابەندبوونی توند بە یاساکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadh2558("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadh2558(
-                                        // REPLACE: adherence /ədˈhɪrəns/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "strict adherence to the rules",
+                            kurdishText: "پابەندبوونی توند بە یاساکانەوە.",
+                            onPressedBritish: () => speakadh2558("en-GB"),
+                            onPressedAmerican: () => speakadh2558(
+                                // REPLACE: adherence /ədˈhɪrəns/
+                                "en-US"),
                           ),
                         ],
                       ),

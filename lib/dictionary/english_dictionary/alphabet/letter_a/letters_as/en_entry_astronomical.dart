@@ -166,67 +166,29 @@ class EnglishEntryastronomical extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) پەیوەندیدار بە ئەستێرەناسی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The astronomical observatory is located on a mountaintop."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕوانگە ئەستێرەناسییەکە لەسەر لوتکەی شاخێکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakastronomical512("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakastronomical512(
-                                        // REPLACE: astronomical
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The astronomical observatory is located on a mountaintop.",
+                            kurdishText:
+                                "ڕوانگە ئەستێرەناسییەکە لەسەر لوتکەی شاخێکە.",
+                            onPressedBritish: () =>
+                                speakastronomical512("en-GB"),
+                            onPressedAmerican: () => speakastronomical512(
+                                // REPLACE: astronomical
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) زۆر زۆر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The costs were astronomical."),
-                                    ExampleSentenceKurdish(
-                                        text: "خەرجییەکان زۆر زۆربوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakastronomical514("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakastronomical514(
-                                        // REPLACE: astronomical
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The costs were astronomical.",
+                            kurdishText: "خەرجییەکان زۆر زۆربوون.",
+                            onPressedBritish: () =>
+                                speakastronomical514("en-GB"),
+                            onPressedAmerican: () => speakastronomical514(
+                                // REPLACE: astronomical
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

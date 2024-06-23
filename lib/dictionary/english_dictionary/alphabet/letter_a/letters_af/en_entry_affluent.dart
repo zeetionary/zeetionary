@@ -111,33 +111,13 @@ class EnglishEntryaffluent extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) دەوڵەمەند و خۆشگوزەران" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We live in an affluent neighborhood."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە گەڕەکێکی دەوڵەمەند دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafflu4922("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakafflu4922(
-                                        // REPLACE: affluent /ˈæfluənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We live in an affluent neighborhood.",
+                            kurdishText: "لە گەڕەکێکی دەوڵەمەند دەژین.",
+                            onPressedBritish: () => speakafflu4922("en-GB"),
+                            onPressedAmerican: () => speakafflu4922(
+                                // REPLACE: affluent /ˈæfluənt/
+                                "en-US"),
                           ),
                         ],
                       ),

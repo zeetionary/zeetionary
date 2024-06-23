@@ -302,292 +302,96 @@ class EnglishEntrybottle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێکی پلاستیکی یان شووشە کە خڕە و لایەکانی ڕاستن و بەکاردێت بۆ ھەڵگرتنی شلە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "A bottle of water, please."),
-                                    ExampleSentenceKurdish(
-                                        text: "بێزەحمەت، بوتڵێک ئاو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A bottle of water, please.",
+                            kurdishText: "بێزەحمەت، بوتڵێک ئاو.",
+                            onPressedBritish: () => speakbottles1("en-GB"),
+                            onPressedAmerican: () => speakbottles1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "To open the bottle, you twist and pull out the stopper."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ کردنەوەی بوتڵەکە، ئەیجەڕێنیت و بانەکەی لێدەکەیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "To open the bottle, you twist and pull out the stopper.",
+                            kurdishText:
+                                "بۆ کردنەوەی بوتڵەکە، ئەیجەڕێنیت و بانەکەی لێدەکەیتەوە.",
+                            onPressedBritish: () => speakbottles2("en-GB"),
+                            onPressedAmerican: () => speakbottles2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She filled the bottle with water."),
-                                    ExampleSentenceKurdish(
-                                        text: "بوتڵەکەی پڕکرد لە ئاو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She filled the bottle with water.",
+                            kurdishText: "بوتڵەکەی پڕکرد لە ئاو.",
+                            onPressedBritish: () => speakbottles3("en-GB"),
+                            onPressedAmerican: () => speakbottles3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو ڕێژەیەی لە بوتڵێکدا جێی دەبێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He drank a whole bottle of wine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بوتڵێکی تەواوی شەرابی خواردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottles4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottles4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He drank a whole bottle of wine.",
+                            kurdishText: "بوتڵێکی تەواوی شەرابی خواردەوە.",
+                            onPressedBritish: () => speakbottles4("en-GB"),
+                            onPressedAmerican: () => speakbottles4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He handed me a bottle of beer."),
-                                    ExampleSentenceKurdish(
-                                        text: "بوتڵێک شەرابی پێمدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottles5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottles5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He handed me a bottle of beer.",
+                            kurdishText: "بوتڵێک شەرابی پێمدا.",
+                            onPressedBritish: () => speakbottles5("en-GB"),
+                            onPressedAmerican: () => speakbottles5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) خواردنەوەی کحولی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After his wife died, he really hit the bottle (= started drinking heavily)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای مردنی ژنەکەی، دەستیکرد بە ھەڵدانی بیرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottles6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottles6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After his wife died, he really hit the bottle (= started drinking heavily).",
+                            kurdishText:
+                                "لە دوای مردنی ژنەکەی، دەستیکرد بە ھەڵدانی بیرە.",
+                            onPressedBritish: () => speakbottles6("en-GB"),
+                            onPressedAmerican: () => speakbottles6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) بوتڵە شیری منداڵ، یان شیرەکەی ناوی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It's time for her bottle."),
-                                    ExampleSentenceKurdish(
-                                        text: "کاتی شیر خواردنیەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottles7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottles7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's time for her bottle.",
+                            kurdishText: "کاتی شیر خواردنیەتی.",
+                            onPressedBritish: () => speakbottles7("en-GB"),
+                            onPressedAmerican: () => speakbottles7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ناو) بوێری و متمانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It took a lot of bottle to do that."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کردنی ئەوە جەربەزەیی زۆری ویست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottles8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottles8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It took a lot of bottle to do that.",
+                            kurdishText: "کردنی ئەوە جەربەزەیی زۆری ویست.",
+                            onPressedBritish: () => speakbottles8("en-GB"),
+                            onPressedAmerican: () => speakbottles8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (کردار) تێکردنە ناو بوتڵێکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The wine is bottled at the vineyard."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەرابەکە دەخرێتە بوتڵەوە لە باخەترێیەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottles9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottles9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The wine is bottled at the vineyard.",
+                            kurdishText:
+                                "شەرابەکە دەخرێتە بوتڵەوە لە باخەترێیەکە.",
+                            onPressedBritish: () => speakbottles9("en-GB"),
+                            onPressedAmerican: () => speakbottles9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) دانانی میوە و سەوزە لە دەفری شووشە بۆ پاراستنیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Keep your empty jam jars for bottling next year’s fruit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شووشە مرەبا بەتاڵەکان بپارێزە بۆ ئەوەی ساڵی داھاتوو میوەیان تێ‌بخەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbottles10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbottles10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Keep your empty jam jars for bottling next year’s fruit.",
+                            kurdishText:
+                                "شووشە مرەبا بەتاڵەکان بپارێزە بۆ ئەوەی ساڵی داھاتوو میوەیان تێ‌بخەیت.",
+                            onPressedBritish: () => speakbottles10("en-GB"),
+                            onPressedAmerican: () => speakbottles10("en-US"),
                           ),
                         ],
                       ),

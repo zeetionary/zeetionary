@@ -112,34 +112,15 @@ class EnglishEntryalmond extends StatelessWidget {
 کوردی: بادەم، بایەم، بەھیڤ، کاکڵە بادام، چوالە، ناوکە بادام، درەخت یان داربادەم
 """),
                           const DefinitionKurdish(text: """١. (ناو) بادەم"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The almond cake is particularly sublime."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێکە بادەمەکە بەتایبەتی سەرسوڕھێنەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalmond4211("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalmond4211(
-                                        // REPLACE: almond /ˈɑːmənd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The almond cake is particularly sublime.",
+                            kurdishText:
+                                "کێکە بادەمەکە بەتایبەتی سەرسوڕھێنەرە.",
+                            onPressedBritish: () => speakalmond4211("en-GB"),
+                            onPressedAmerican: () => speakalmond4211(
+                                // REPLACE: almond /ˈɑːmənd/
+                                "en-US"),
                           ),
                         ],
                       ),

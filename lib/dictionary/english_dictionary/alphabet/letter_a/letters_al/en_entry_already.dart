@@ -147,129 +147,52 @@ class EnglishEntryalready extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) پێش کاتێک لە ڕابردوودا" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We got there early but Mike had already left."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زوو گەشتینە ئەوێ، بەڵام مایک لەمێژبوو ڕۆشتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalready125("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalready125(
-                                        // REPLACE: already /ɔːlˈredi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We got there early but Mike had already left.",
+                            kurdishText:
+                                "زوو گەشتینە ئەوێ، بەڵام مایک لەمێژبوو ڕۆشتبوو.",
+                            onPressedBritish: () => speakalready125("en-GB"),
+                            onPressedAmerican: () => speakalready125(
+                                // REPLACE: already /ɔːlˈredi/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) پێش کاتێکی چاوەڕوانکراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You're not leaving already, are you?"),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەروا زوو ناڕۆن، وایە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalready4598("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalready4598(
-                                        // REPLACE: already /ɔːlˈredi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You're not leaving already, are you?",
+                            kurdishText: "ھەروا زوو ناڕۆن، وایە؟",
+                            onPressedBritish: () => speakalready4598("en-GB"),
+                            onPressedAmerican: () => speakalready4598(
+                                // REPLACE: already /ɔːlˈredi/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) بۆ جەختکردنەوە لەوەی شتێک بوونی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new company already has an excellent reputation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیا تازەکە بەری نھا ناوودەنگێکی نایابی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalready4855("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalready4855(
-                                        // REPLACE: already /ɔːlˈredi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new company already has an excellent reputation.",
+                            kurdishText:
+                                "کۆمپانیا تازەکە بەری نھا ناوودەنگێکی نایابی ھەیە.",
+                            onPressedBritish: () => speakalready4855("en-GB"),
+                            onPressedAmerican: () => speakalready4855(
+                                // REPLACE: already /ɔːlˈredi/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵکار) بەکاردێت بۆ دەربڕینی بێزاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Just stop already, no one feels sorry for you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دە وازبێنە، کەس ھەست بە بەزەیی ناکات بۆت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalready54589("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalready54589(
-                                        // REPLACE: already /ɔːlˈredi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Just stop already, no one feels sorry for you.",
+                            kurdishText:
+                                "دە وازبێنە، کەس ھەست بە بەزەیی ناکات بۆت.",
+                            onPressedBritish: () => speakalready54589("en-GB"),
+                            onPressedAmerican: () => speakalready54589(
+                                // REPLACE: already /ɔːlˈredi/
+                                "en-US"),
                           ),
                         ],
                       ),

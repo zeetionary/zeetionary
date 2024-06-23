@@ -157,34 +157,15 @@ class EnglishEntryangular extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) کەسێک کە ھێندە زەعیفە ماسولکەکانی لەژێر پێستییەوە دیارە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her features were too angular, her face a little too long for beauty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووخساری زۆر ڕەقەڵ بوو و سەری کەمێک زۆر درێژ بوو بەوەی جوان بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakangular1029("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakangular1029(
-                                        // REPLACE: angular /ˈæŋɡjələr/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her features were too angular, her face a little too long for beauty.",
+                            kurdishText:
+                                "ڕووخساری زۆر ڕەقەڵ بوو و سەری کەمێک زۆر درێژ بوو بەوەی جوان بێت.",
+                            onPressedBritish: () => speakangular1029("en-GB"),
+                            onPressedAmerican: () => speakangular1029(
+                                // REPLACE: angular /ˈæŋɡjələr/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

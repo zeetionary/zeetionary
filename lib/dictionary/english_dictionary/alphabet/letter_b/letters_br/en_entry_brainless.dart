@@ -146,60 +146,21 @@ class EnglishEntrybrainless extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کەسێک گەمژە کە نازانێت ژیرانە بیربکاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her husband’s colleagues were brainless bores."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوکارەکانی ھاوسەرەکەی بێزارکەری گەمژە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrainlesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrainlesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her husband’s colleagues were brainless bores.",
+                            kurdishText:
+                                "ھاوکارەکانی ھاوسەرەکەی بێزارکەری گەمژە بوون.",
+                            onPressedBritish: () => speakbrainlesss1("en-GB"),
+                            onPressedAmerican: () => speakbrainlesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What sort of brainless idiot would do that?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چی گەمژەیەکی دەبەنگ ئەوە دەکات؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrainlesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrainlesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "What sort of brainless idiot would do that?",
+                            kurdishText: "چی گەمژەیەکی دەبەنگ ئەوە دەکات؟",
+                            onPressedBritish: () => speakbrainlesss2("en-GB"),
+                            onPressedAmerican: () => speakbrainlesss2("en-US"),
                           ),
                         ],
                       ),

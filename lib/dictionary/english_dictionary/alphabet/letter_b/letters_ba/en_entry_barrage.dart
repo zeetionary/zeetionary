@@ -151,94 +151,36 @@ class EnglishEntrybarrage extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ڕێژەیەکی زۆر لە ھیرشی بە ئاراستەیەکدا، بەتایبەتی بۆ پاراستنی ئەو سەربازانەی کە ھێرش دەکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Troops unleashed a barrage of grenades."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازەکان ڕێژەیەکی زۆر نارنجۆکیان ھاویشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarrages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarrages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Troops unleashed a barrage of grenades.",
+                            kurdishText:
+                                "سەربازەکان ڕێژەیەکی زۆر نارنجۆکیان ھاویشت.",
+                            onPressedBritish: () => speakbarrages1("en-GB"),
+                            onPressedAmerican: () => speakbarrages1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕێژەیەکی زۆر لە شتێک، بۆ نموونە پرسیار و ڕەخنە، ڕووبەڕووی کەسێک یەک‌ لە دوای یەک و بەخێرایی، زۆرجار بەشێوەیەکی توند"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The president is facing a barrage of criticism over his handling of the crisis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک ڕووبەڕووی ڕەخنەباران بووە بەھۆی مامەڵەکردنی لەگەڵ قەیرانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarrages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarrages2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The president is facing a barrage of criticism over his handling of the crisis.",
+                            kurdishText:
+                                "سەرۆک ڕووبەڕووی ڕەخنەباران بووە بەھۆی مامەڵەکردنی لەگەڵ قەیرانەکە.",
+                            onPressedBritish: () => speakbarrages2("en-GB"),
+                            onPressedAmerican: () => speakbarrages2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) دیوارێک کە لەسەر ڕووبارێک درووستدەکرێت بۆ کۆگاکردنی ئاو، ڕێگری لە لافاو، ھتد."""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They built a barrage across the bay."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەنباراوێکیان بەسەر کەنداوەکەدا درووستکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarrages3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarrages3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They built a barrage across the bay.",
+                            kurdishText:
+                                "ئەنباراوێکیان بەسەر کەنداوەکەدا درووستکرد.",
+                            onPressedBritish: () => speakbarrages3("en-GB"),
+                            onPressedAmerican: () => speakbarrages3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

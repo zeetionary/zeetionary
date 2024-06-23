@@ -119,131 +119,53 @@ class EnglishEntryalcoholic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پەیوەندیدار بە کحول، یان ھەبوونی کحول تێیدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The fruit juice tasted slightly alcoholic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەربەتەکە کەمێک تامی کحولی دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalcoholic459("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalcoholic459(
-                                        // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The fruit juice tasted slightly alcoholic.",
+                            kurdishText: "شەربەتەکە کەمێک تامی کحولی دەدا.",
+                            onPressedBritish: () => speakalcoholic459("en-GB"),
+                            onPressedAmerican: () => speakalcoholic459(
+                                // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بە کحول، یان ھەبوونی کحول تێیدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The guests left in an alcoholic haze."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوانەکان بە گێژخواردوویی کحولەوە ڕۆشتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalcoholic469("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalcoholic469(
-                                        // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The guests left in an alcoholic haze.",
+                            kurdishText:
+                                "میوانەکان بە گێژخواردوویی کحولەوە ڕۆشتن.",
+                            onPressedBritish: () => speakalcoholic469("en-GB"),
+                            onPressedAmerican: () => speakalcoholic469(
+                                // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) ئاڵوودەی کحول بە ڕادەی نەخۆشبوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was taking care of her alcoholic son."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاودێری کوڕە ئاڵوودەکەیی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalcoholic358("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalcoholic358(
-                                        // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was taking care of her alcoholic son.",
+                            kurdishText: "چاودێری کوڕە ئاڵوودەکەیی دەکرد.",
+                            onPressedBritish: () => speakalcoholic358("en-GB"),
+                            onPressedAmerican: () => speakalcoholic358(
+                                // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کەسێک لە ڕادەبەدەر بخواتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don’t think an alcoholic can dry out without proper medical help."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێم وانییە کەسێکی ئاڵوودە بتوانێت خواردنەوە تەرک بکات بەبێ یارمەتی گونجاوی پزیشکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalcoholic39412("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalcoholic39412(
-                                        // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don’t think an alcoholic can dry out without proper medical help.",
+                            kurdishText:
+                                "پێم وانییە کەسێکی ئاڵوودە بتوانێت خواردنەوە تەرک بکات بەبێ یارمەتی گونجاوی پزیشکی.",
+                            onPressedBritish: () =>
+                                speakalcoholic39412("en-GB"),
+                            onPressedAmerican: () => speakalcoholic39412(
+                                // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
+                                "en-US"),
                           ),
                         ],
                       ),

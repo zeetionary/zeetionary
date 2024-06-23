@@ -147,32 +147,13 @@ class EnglishEntrybreakwater extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دیوارێک کە بەرەو ناو دەریا درووست دەکرێت بۆ پاراستنی کەنار و بەندەر لە شەپۆل"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Engineers constructed a massive breakwater to shield the coastal village."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندازیاران شەپۆل‌ڕەوێنێکی زەبەلاحیان درووستکرد بۆ پاراستنی گوندە کەناراوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakwaters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakwaters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Engineers constructed a massive breakwater to shield the coastal village.",
+                            kurdishText:
+                                "ئەندازیاران شەپۆل‌ڕەوێنێکی زەبەلاحیان درووستکرد بۆ پاراستنی گوندە کەناراوەکە.",
+                            onPressedBritish: () => speakbreakwaters1("en-GB"),
+                            onPressedAmerican: () => speakbreakwaters1("en-US"),
                           ),
                         ],
                       ),

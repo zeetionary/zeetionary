@@ -129,127 +129,50 @@ class EnglishEntryadmission extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) وەرگرتنی کەسێک لە شوێنێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hospital admission is not necessary in most cases."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بردنە نەخۆشخانە لە زۆر حاڵەتدا پێویست نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmiss836541("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmiss836541(
-                                        // REPLACE: admission /ədˈmɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Hospital admission is not necessary in most cases.",
+                            kurdishText:
+                                "بردنە نەخۆشخانە لە زۆر حاڵەتدا پێویست نییە.",
+                            onPressedBritish: () => speakadmiss836541("en-GB"),
+                            onPressedAmerican: () => speakadmiss836541(
+                                // REPLACE: admission /ədˈmɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Is there any charge for admission?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ پارەیەک بۆ چوونەژوورەوە وەردەگیرێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmiss735891("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmiss735891(
-                                        // REPLACE: admission /ədˈmɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Is there any charge for admission?",
+                            kurdishText:
+                                "ھیچ پارەیەک بۆ چوونەژوورەوە وەردەگیرێت؟",
+                            onPressedBritish: () => speakadmiss735891("en-GB"),
+                            onPressedAmerican: () => speakadmiss735891(
+                                // REPLACE: admission /ədˈmɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) دانپێدانانی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has made no admission of any involvement in the plot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ دانپێدانانێکی نەناوە بە تێوەگلان لە پلانەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadm587914("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadm587914(
-                                        // REPLACE: admission /ədˈmɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has made no admission of any involvement in the plot.",
+                            kurdishText:
+                                "ھیچ دانپێدانانێکی نەناوە بە تێوەگلان لە پلانەکەوە.",
+                            onPressedBritish: () => speakadm587914("en-GB"),
+                            onPressedAmerican: () => speakadm587914(
+                                // REPLACE: admission /ədˈmɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بڕە پارەیەک کە ئەدرێت بۆ چوونەژوورەوە بۆ شوێنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is an admission fee of 10 dollars."),
-                                    ExampleSentenceKurdish(
-                                        text: "کرێی چوونەژوورەوە ١٠ دۆلارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmis912587("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmis912587(
-                                        // REPLACE: admission /ədˈmɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is an admission fee of 10 dollars.",
+                            kurdishText: "کرێی چوونەژوورەوە ١٠ دۆلارە.",
+                            onPressedBritish: () => speakadmis912587("en-GB"),
+                            onPressedAmerican: () => speakadmis912587(
+                                // REPLACE: admission /ədˈmɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

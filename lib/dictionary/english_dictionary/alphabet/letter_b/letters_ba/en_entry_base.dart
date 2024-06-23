@@ -237,397 +237,149 @@ class EnglishEntrybase extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) بەکارھێنانی شارێک، شارۆچکەیەک، ھتد وەک شوێنی سەرەکی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They decided to base the new company in New York."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیاریاندا نیویۆرک بکەنە بنکەی سەرەکی کۆمپانیا تازەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbases1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbases1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They decided to base the new company in New York.",
+                            kurdishText:
+                                "بڕیاریاندا نیویۆرک بکەنە بنکەی سەرەکی کۆمپانیا تازەکە.",
+                            onPressedBritish: () => speakbases1("en-GB"),
+                            onPressedAmerican: () => speakbases1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) نزمترین بەشی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The lamp has a heavy base."),
-                                    ExampleSentenceKurdish(
-                                        text: "گڵۆپەکە بنکێکی قوورسی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbases2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbases2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The lamp has a heavy base.",
+                            kurdishText: "گڵۆپەکە بنکێکی قوورسی ھەیە.",
+                            onPressedBritish: () => speakbases2("en-GB"),
+                            onPressedAmerican: () => speakbases2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He felt a sharp pain at the base of his spine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە ئازارێکی توند دەکرد لە بەشی خوارەوەی بڕبڕەی پشتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbases3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbases3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He felt a sharp pain at the base of his spine.",
+                            kurdishText:
+                                "ھەستی بە ئازارێکی توند دەکرد لە بەشی خوارەوەی بڕبڕەی پشتی.",
+                            onPressedBritish: () => speakbases3("en-GB"),
+                            onPressedAmerican: () => speakbases3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) شوێنی سرەکی ژیان یان کارکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I spend a lot of time in Britain but Paris is still my base."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتێکی زۆر لە پاریس بەسەر دەبەم، بەڵام ھێشتا پاریس ھەوارگەی سەرەکیمە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbases4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbases4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I spend a lot of time in Britain but Paris is still my base.",
+                            kurdishText:
+                                "کاتێکی زۆر لە پاریس بەسەر دەبەم، بەڵام ھێشتا پاریس ھەوارگەی سەرەکیمە.",
+                            onPressedBritish: () => speakbases4("en-GB"),
+                            onPressedAmerican: () => speakbases4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) بنکەی سەربازی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After the attack, they returned to base."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای ھێرشەکە گەڕانەوە بنکەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbases5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbases5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After the attack, they returned to base.",
+                            kurdishText: "لە دوای ھێرشەکە گەڕانەوە بنکەکە.",
+                            onPressedBritish: () => speakbases5("en-GB"),
+                            onPressedAmerican: () => speakbases5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) ئەو کەس و چالاکییانەی کەسێک لێیانەوە ھێز و پشتیوانی و پارە وەردەگرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These policies have a broad base of support."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم سیاسەتانە بناغەیەکی فراوانی پشتیوانیان ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbases6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbases6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These policies have a broad base of support.",
+                            kurdishText:
+                                "ئەم سیاسەتانە بناغەیەکی فراوانی پشتیوانیان ھەیە.",
+                            onPressedBritish: () => speakbases6("en-GB"),
+                            onPressedAmerican: () => speakbases6("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This course is an opportunity to expand my knowledge base."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم کۆرسە ھەلێکی بۆ فراوانکردنی بناغەی زانیاریم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbases7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbases7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This course is an opportunity to expand my knowledge base.",
+                            kurdishText:
+                                "ئەم کۆرسە ھەلێکی بۆ فراوانکردنی بناغەی زانیاریم.",
+                            onPressedBritish: () => speakbases7("en-GB"),
+                            onPressedAmerican: () => speakbases7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ناو) ئەو مووچەیەی کە وەریدەگری پێش ئەوەی ھیچی تری بۆ زیادبکرێت بۆ (نموونە بەخشیش)"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All we got was base pay—we didn't reach profitability levels to award a bonus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو ئەوەی مووچەکەی خۆمان بوو، نەگەشتین بەو ئاستەی قازانج کە بەخشیش بدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbases8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbases8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "All we got was base pay—we didn't reach profitability levels to award a bonus.",
+                            kurdishText:
+                                "ھەموو ئەوەی مووچەکەی خۆمان بوو، نەگەشتین بەو ئاستەی قازانج کە بەخشیش بدرێت.",
+                            onPressedBritish: () => speakbases8("en-GB"),
+                            onPressedAmerican: () => speakbases8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ناو) بیرۆکەیەک، زانیارییەک، یان دۆخێک کە وەک سەرچاوە بەکاردێت بۆ گەشەپێدانی شتێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She used her family's history as a base for her novel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێژووی خێزانەکەی وەک سەرچاوە و ئیلھام بۆ ڕۆمانەکەی بەکارھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbases9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbases9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She used her family's history as a base for her novel.",
+                            kurdishText:
+                                "مێژووی خێزانەکەی وەک سەرچاوە و ئیلھام بۆ ڕۆمانەکەی بەکارھێنا.",
+                            onPressedBritish: () => speakbases9("en-GB"),
+                            onPressedAmerican: () => speakbases9("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (ناو) یەکەم بەشی شتێک کە دواتر شتی تری بۆ زیاددەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Put some moisturizer on as a base before applying your make-up."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کرێمی شێدارکەرەوە بەکاربێنە وەک بناغە پێش ئەوەی مەیکەپەکەت بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbases10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbases10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Put some moisturizer on as a base before applying your make-up.",
+                            kurdishText:
+                                "ھەندێک کرێمی شێدارکەرەوە بەکاربێنە وەک بناغە پێش ئەوەی مەیکەپەکەت بکەیت.",
+                            onPressedBritish: () => speakbases10("en-GB"),
+                            onPressedAmerican: () => speakbases10("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (ناو) مادەیەکی کیمیایی کە دەتوانێت لەگەڵ ئەسید (ترشەڵۆک) یەکبگرێت بۆ درووستکردنی خوێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Sodium hydroxide (NaOH) is a strong base that is used in many industrial processes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھایدرۆکسایدی سۆدیۆم تفتێکی بەھێزە کە لە زۆر پڕۆسەی پیشەسازیدا بەکاردێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbases11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbases11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Sodium hydroxide (NaOH) is a strong base that is used in many industrial processes.",
+                            kurdishText:
+                                "ھایدرۆکسایدی سۆدیۆم تفتێکی بەھێزە کە لە زۆر پڕۆسەی پیشەسازیدا بەکاردێت.",
+                            onPressedBritish: () => speakbases11("en-GB"),
+                            onPressedAmerican: () => speakbases11("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٠. (ناو) لە بیرکاریدا بریتییە لە ژمارەیەک کە سیستەمێکی ژماردن و دەربڕینی ژمارەی لەسەر بنیاتنراوە بۆ نموونە ژمارە لە سیستەمی دەیان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The base of the decimal system is 10, which uses the digits 0-9."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بنچینەی سیستەمی دەیان بریتییە لە ١٠ و ژمارەکانی ١-٩ بەکاردێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbases12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbases12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The base of the decimal system is 10, which uses the digits 0-9.",
+                            kurdishText:
+                                "بنچینەی سیستەمی دەیان بریتییە لە ١٠ و ژمارەکانی ١-٩ بەکاردێنێت.",
+                            onPressedBritish: () => speakbases12("en-GB"),
+                            onPressedAmerican: () => speakbases12("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١١. (ھاوەڵناو) کەسێک کە ھیچ بەھا و ئەخلاقی نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He acted from base motives."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە پاڵنەری کەسی ھەنگاوی نا (بۆ بەرژەوەندی خۆی)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbases13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbases13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He acted from base motives.",
+                            kurdishText:
+                                "بە پاڵنەری کەسی ھەنگاوی نا (بۆ بەرژەوەندی خۆی).",
+                            onPressedBritish: () => speakbases13("en-GB"),
+                            onPressedAmerican: () => speakbases13("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

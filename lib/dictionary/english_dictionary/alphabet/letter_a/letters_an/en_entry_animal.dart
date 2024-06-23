@@ -158,225 +158,91 @@ class EnglishEntryanimal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئاژەڵ؛ گیانلەبەرێک کە باڵندە، ماسی، خشۆک، مێروو، یان مرۆڤ نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The animal began to sicken and soon died."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاژەڵەکە لاوازبوو و بەزووی مرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanimal858("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimal858(
-                                        // REPLACE: animal /ˈænɪml/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The animal began to sicken and soon died.",
+                            kurdishText: "ئاژەڵەکە لاوازبوو و بەزووی مرد.",
+                            onPressedBritish: () => speakanimal858("en-GB"),
+                            onPressedAmerican: () => speakanimal858(
+                                // REPLACE: animal /ˈænɪml/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "A horse is a large animal."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەسپ ئاژەڵێکی گەورەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanimal0052("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimal0052(
-                                        // REPLACE: animal /ˈænɪml/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A horse is a large animal.",
+                            kurdishText: "ئەسپ ئاژەڵێکی گەورەیە.",
+                            onPressedBritish: () => speakanimal0052("en-GB"),
+                            onPressedAmerican: () => speakanimal0052(
+                                // REPLACE: animal /ˈænɪml/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھەرشتێکی زیندوو کە مرۆڤ یان ڕووەک نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This product has not been tested on animals."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم بەرھەمە ھێشتا لەسەر ئاژەڵ تاقی‌نەکراوەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanimal440("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimal440(
-                                        // REPLACE: animal /ˈænɪml/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This product has not been tested on animals.",
+                            kurdishText:
+                                "ئەم بەرھەمە ھێشتا لەسەر ئاژەڵ تاقی‌نەکراوەتەوە.",
+                            onPressedBritish: () => speakanimal440("en-GB"),
+                            onPressedAmerican: () => speakanimal440(
+                                // REPLACE: animal /ˈænɪml/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ھەرشتێکی زیندوو، بە مرۆڤیشەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Humans are the only animals to have developed speech."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مرۆڤ تەنھا گیانلەبەرە کە توانای قسەکردنی گەشەپێدابێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanimal4608("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimal4608(
-                                        // REPLACE: animal /ˈænɪml/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Humans are the only animals to have developed speech.",
+                            kurdishText:
+                                "مرۆڤ تەنھا گیانلەبەرە کە توانای قسەکردنی گەشەپێدابێت.",
+                            onPressedBritish: () => speakanimal4608("en-GB"),
+                            onPressedAmerican: () => speakanimal4608(
+                                // REPLACE: animal /ˈænɪml/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کەسێک کە بە دڕندەیی ڕەفتار دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's a real animal when he's had too much to drink."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت بە دڕندەیەکی تەواو کە زۆر دەخواتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanimal4390("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimal4390(
-                                        // REPLACE: animal /ˈænɪml/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's a real animal when he's had too much to drink.",
+                            kurdishText:
+                                "دەبێت بە دڕندەیەکی تەواو کە زۆر دەخواتەوە.",
+                            onPressedBritish: () => speakanimal4390("en-GB"),
+                            onPressedAmerican: () => speakanimal4390(
+                                // REPLACE: animal /ˈænɪml/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵناو) پەیوەندیدار بە حەزی جەستەیی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She knew that Dave wasn't the right man for her but she couldn't deny the animal attraction between them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیزانی دەیڤ کەسێکی شیاو نییە بۆی، بەڵام نەیدەتوانی نکۆڵی بکات لە حەزی جەستەییان بۆ یەکدی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanimal4077("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimal4077(
-                                        // REPLACE: animal /ˈænɪml/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She knew that Dave wasn't the right man for her but she couldn't deny the animal attraction between them.",
+                            kurdishText:
+                                "دەیزانی دەیڤ کەسێکی شیاو نییە بۆی، بەڵام نەیدەتوانی نکۆڵی بکات لە حەزی جەستەییان بۆ یەکدی.",
+                            onPressedBritish: () => speakanimal4077("en-GB"),
+                            onPressedAmerican: () => speakanimal4077(
+                                // REPLACE: animal /ˈænɪml/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As an actor, he has a sort of animal magnetism."),
-                                    ExampleSentenceKurdish(
-                                        text: "وەک ئەکتەرێک، کەسێکی دڵبەرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanimal914("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimal914(
-                                        // REPLACE: animal /ˈænɪml/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As an actor, he has a sort of animal magnetism.",
+                            kurdishText: "وەک ئەکتەرێک، کەسێکی دڵبەرە.",
+                            onPressedBritish: () => speakanimal914("en-GB"),
+                            onPressedAmerican: () => speakanimal914(
+                                // REPLACE: animal /ˈænɪml/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

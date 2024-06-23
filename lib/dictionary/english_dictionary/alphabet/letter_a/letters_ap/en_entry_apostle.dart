@@ -163,67 +163,29 @@ class EnglishEntryapostle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ھەریەک لەو دوازدە کەسەی لەلایەن پەیامبەر عیسا ھەڵبژێردران بۆ بڵاوکردنەوەی ناوی خۆی و ئامۆژگارییەکانی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "James was beheaded in Jerusalem, the first apostle to be martyred."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەیمس لە قودس سەربڕدرا و بوو بە یەکەم حەواری کە بکوژرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapostle627("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapostle627(
-                                        // REPLACE: apostle /əˈpɑːsl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "James was beheaded in Jerusalem, the first apostle to be martyred.",
+                            kurdishText:
+                                "جەیمس لە قودس سەربڕدرا و بوو بە یەکەم حەواری کە بکوژرێت.",
+                            onPressedBritish: () => speakapostle627("en-GB"),
+                            onPressedAmerican: () => speakapostle627(
+                                // REPLACE: apostle /əˈpɑːsl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە بە پەرۆشییەوە باوەڕی بە سیاسەتێک یان بیرۆکەیەک ھەیە و ھەوڵی بڵاوکردنەوەی دەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her mother was a dedicated apostle of healthy eating."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایکی داکۆکی‌کارێکی سەرسەختی خواردنی تەندرووست بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapostle630("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapostle630(
-                                        // REPLACE: apostle /əˈpɑːsl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her mother was a dedicated apostle of healthy eating.",
+                            kurdishText:
+                                "دایکی داکۆکی‌کارێکی سەرسەختی خواردنی تەندرووست بوو.",
+                            onPressedBritish: () => speakapostle630("en-GB"),
+                            onPressedAmerican: () => speakapostle630(
+                                // REPLACE: apostle /əˈpɑːsl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

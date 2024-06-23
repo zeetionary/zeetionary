@@ -147,63 +147,25 @@ class EnglishEntrybreakup extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کۆتایی ھاتنی پەیوەندی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Family break-up increases the risk of childhood depression."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "‌ەڵوەشانەوەی خێزان تووشبوون بە خەمۆکی منداڵی زیاد دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakups1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakups1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Family break-up increases the risk of childhood depression.",
+                            kurdishText:
+                                "‌ەڵوەشانەوەی خێزان تووشبوون بە خەمۆکی منداڵی زیاد دەکات.",
+                            onPressedBritish: () => speakbreakups1("en-GB"),
+                            onPressedAmerican: () => speakbreakups1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) دابەشبوونی دامەزراوەیەک یان وڵاتێکی گەورە بۆ ھی بچووکتر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The break-up of the pop group came as no surprise."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دابەشبوونی گرووپە پۆپەکە جێگەی سەرسامی نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreakups2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreakups2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The break-up of the pop group came as no surprise.",
+                            kurdishText:
+                                "دابەشبوونی گرووپە پۆپەکە جێگەی سەرسامی نەبوو.",
+                            onPressedBritish: () => speakbreakups2("en-GB"),
+                            onPressedAmerican: () => speakbreakups2("en-US"),
                           ),
                         ],
                       ),

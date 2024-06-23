@@ -165,66 +165,27 @@ class EnglishEntryautocrat extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) سەرکردەیەک کە دەسەڵاتی تەواوی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He governed as an autocrat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک سەرکوتکەرێک دەسەڵاتداریی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakautocrat934("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautocrat934(// REPLACE: autocrat
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He governed as an autocrat.",
+                            kurdishText: "وەک سەرکوتکەرێک دەسەڵاتداریی دەکرد.",
+                            onPressedBritish: () => speakautocrat934("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautocrat934(// REPLACE: autocrat
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە چاوەڕێ دەکات کەسانی تر گوێڕایەڵی بکەن و گرنگی بە بۆچوونیان نادات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The article painted her as an autocrat, angry with her husband and out of touch with her family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکە وەک ملھوڕێک وێنای دەکات کە لە ھاوسەرەکەی تووڕەییە و دابڕاوە لە خێزانەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakautocrat937("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautocrat937(// REPLACE: autocrat
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The article painted her as an autocrat, angry with her husband and out of touch with her family.",
+                            kurdishText:
+                                "وتارەکە وەک ملھوڕێک وێنای دەکات کە لە ھاوسەرەکەی تووڕەییە و دابڕاوە لە خێزانەکەی.",
+                            onPressedBritish: () => speakautocrat937("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautocrat937(// REPLACE: autocrat
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

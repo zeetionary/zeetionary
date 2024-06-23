@@ -150,63 +150,25 @@ class EnglishEntrybasketball extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) یاری باسکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you play any other sports besides football and basketball?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ یارییەکی دیکە دەکەیت جگە لە باسکە و تۆپێن؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasketballs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasketballs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do you play any other sports besides football and basketball?",
+                            kurdishText:
+                                "ھیچ یارییەکی دیکە دەکەیت جگە لە باسکە و تۆپێن؟",
+                            onPressedBritish: () => speakbasketballs1("en-GB"),
+                            onPressedAmerican: () => speakbasketballs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) تۆپی یاری باسکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He walked along bouncing a basketball."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ پێشەوە دەچوو بە تەپتەپێنکردن بە تۆپێکی باسکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasketballs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasketballs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He walked along bouncing a basketball.",
+                            kurdishText:
+                                "بۆ پێشەوە دەچوو بە تەپتەپێنکردن بە تۆپێکی باسکەوە.",
+                            onPressedBritish: () => speakbasketballs2("en-GB"),
+                            onPressedAmerican: () => speakbasketballs2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

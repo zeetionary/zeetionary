@@ -117,92 +117,35 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شتێک کە لە دوای ھەوڵێکی زۆر بەدەستیدێنیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was one of the President's greatest accomplishments."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە یەکێک لە دەسکەوتە گەورەکانی سەرۆک بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac5789("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac5789("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was one of the President's greatest accomplishments.",
+                            kurdishText:
+                                "ئەوە یەکێک لە دەسکەوتە گەورەکانی سەرۆک بوو.",
+                            onPressedBritish: () => speakac5789("en-GB"),
+                            onPressedAmerican: () => speakac5789("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شارەزاییەک یان توانایەکی تایبەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Drawing and singing were among her many accomplishments."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێنەکێشان و گۆرانیگوتن تەنھا ژمارەیەکی کەمی تواناکانی بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka5741("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka5741("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Drawing and singing were among her many accomplishments.",
+                            kurdishText:
+                                "وێنەکێشان و گۆرانیگوتن تەنھا ژمارەیەکی کەمی تواناکانی بوون.",
+                            onPressedBritish: () => speaka5741("en-GB"),
+                            onPressedAmerican: () => speaka5741("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بە سەرکەوتووی تەواوکردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Money will be crucial to the accomplishment of our objectives."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارە زۆر گرنگ دەبێت بۆ تەواوکردنی ئامانجەکانمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka5741("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka5741("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Money will be crucial to the accomplishment of our objectives.",
+                            kurdishText:
+                                "پارە زۆر گرنگ دەبێت بۆ تەواوکردنی ئامانجەکانمان.",
+                            onPressedBritish: () => speaka5741("en-GB"),
+                            onPressedAmerican: () => speaka5741("en-US"),
                           ),
                         ],
                       ),

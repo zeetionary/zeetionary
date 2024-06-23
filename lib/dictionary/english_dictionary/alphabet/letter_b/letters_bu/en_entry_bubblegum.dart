@@ -143,32 +143,13 @@ class EnglishEntrybubblegum extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) جۆرە بنێشتێک کە گڵۆپی پێ دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children enjoyed the sweet bubblegum."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان حەزیان بە بنێشتە شیرینەکە ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bubblegum" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbubblegums1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbubblegums1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children enjoyed the sweet bubblegum.",
+                            kurdishText:
+                                "منداڵەکان حەزیان بە بنێشتە شیرینەکە ھەبوو.", // bubblegum" as
+                            onPressedBritish: () => speakbubblegums1("en-GB"),
+                            onPressedAmerican: () => speakbubblegums1("en-US"),
                           ),
                         ],
                       ),

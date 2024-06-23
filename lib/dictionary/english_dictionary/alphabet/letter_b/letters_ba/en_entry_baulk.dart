@@ -152,94 +152,37 @@ class EnglishEntrybaulk extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) ناڕازی بە کردن یان رێوەگلان لە شتێک چونکە زۆر گران یان ترسناکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many parents may baulk at the idea of paying £100 for a pair of shoes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر دایک و باوک ڕەنگە ناڕازی بن بە پێدانی ١٠٠ پاوەند بە جووتە پێڵاوێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaulks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaulks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many parents may baulk at the idea of paying £100 for a pair of shoes.",
+                            kurdishText:
+                                "زۆر دایک و باوک ڕەنگە ناڕازی بن بە پێدانی ١٠٠ پاوەند بە جووتە پێڵاوێک.",
+                            onPressedBritish: () => speakbaulks1("en-GB"),
+                            onPressedAmerican: () => speakbaulks1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) وەستانی لەناکاوی ئەسپێک لە بازدان بەسەر پەرژینێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The horse baulked at the fence, refusing to jump it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەسپەکە لە پێش پەرژینەکە وەستا و ڕەتیکردەوە بازدا بەسەریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaulks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaulks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The horse baulked at the fence, refusing to jump it.",
+                            kurdishText:
+                                "ئەسپەکە لە پێش پەرژینەکە وەستا و ڕەتیکردەوە بازدا بەسەریدا.",
+                            onPressedBritish: () => speakbaulks2("en-GB"),
+                            onPressedAmerican: () => speakbaulks2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ڕێگرتن لەوەی کەسێک شتێک بکات یان ھەیبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She looked like a lion baulked of its prey."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک شێرێک بوو کە لە نێچیرەکەی کرابێت (نێچیرەکەی دزرابێت)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaulks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbaulks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She looked like a lion baulked of its prey.",
+                            kurdishText:
+                                "وەک شێرێک بوو کە لە نێچیرەکەی کرابێت (نێچیرەکەی دزرابێت).",
+                            onPressedBritish: () => speakbaulks3("en-GB"),
+                            onPressedAmerican: () => speakbaulks3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

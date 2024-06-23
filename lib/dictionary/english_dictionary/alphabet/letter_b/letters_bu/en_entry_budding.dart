@@ -146,60 +146,22 @@ class EnglishEntrybudding extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) لە سەرەتای تەمەن یان سەرکەوتندا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The budding young star is now hot property in Hollywood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەستێرە گەنجە تازەپشکووەکە ناوێکی گەرمە لە ھۆڵیھوددا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "budding" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuddings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuddings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The budding young star is now hot property in Hollywood.",
+                            kurdishText:
+                                "ئەستێرە گەنجە تازەپشکووەکە ناوێکی گەرمە لە ھۆڵیھوددا.", // budding" as
+                            onPressedBritish: () => speakbuddings1("en-GB"),
+                            onPressedAmerican: () => speakbuddings1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "While still at school she was clearly a budding genius."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە ھێشتا لە قوتابخانە بوو ئاشکرابوو کە بلیمەتێکی ھەڵکوتوو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuddings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuddings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "While still at school she was clearly a budding genius.",
+                            kurdishText:
+                                "کە ھێشتا لە قوتابخانە بوو ئاشکرابوو کە بلیمەتێکی ھەڵکوتوو بوو.",
+                            onPressedBritish: () => speakbuddings2("en-GB"),
+                            onPressedAmerican: () => speakbuddings2("en-US"),
                           ),
                         ],
                       ),

@@ -142,126 +142,46 @@ class EnglishEntrybrilliantly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بەشێوەیەک کە ناوازە یان شارەزایانەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He seems to do everything brilliantly - piano playing, skiing, sailing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وا دەردەکەوێت ھەموو شتێک بە نایابی بکات، ژەنینی پیانۆ، خلیسکانی، بەلەمەوانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brilliantly" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbrilliantlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbrilliantlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He seems to do everything brilliantly - piano playing, skiing, sailing.",
+                            kurdishText:
+                                "وا دەردەکەوێت ھەموو شتێک بە نایابی بکات، ژەنینی پیانۆ، خلیسکانی، بەلەمەوانی.", // brilliantly" as
+                            onPressedBritish: () => speakbrilliantlys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbrilliantlys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The novel brilliantly captures the complex feel of modern life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕۆمانەکە بلیمەتانە ھەستی ئاڵۆزیی ژیانی سەردەم دەردەبڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbrilliantlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbrilliantlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The novel brilliantly captures the complex feel of modern life.",
+                            kurdishText:
+                                "ڕۆمانەکە بلیمەتانە ھەستی ئاڵۆزیی ژیانی سەردەم دەردەبڕێت.",
+                            onPressedBritish: () => speakbrilliantlys2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbrilliantlys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) زۆر باش؛ تەواو سەرکەوتووانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The plan worked brilliantly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پلانەکە تەواو سەرکەوتووانە بەڕێوەچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbrilliantlys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbrilliantlys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The plan worked brilliantly.",
+                            kurdishText:
+                                "پلانەکە تەواو سەرکەوتووانە بەڕێوەچوو.",
+                            onPressedBritish: () => speakbrilliantlys3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbrilliantlys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵکار) بە ڕۆشنی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It was brilliantly sunny."),
-                                    ExampleSentenceKurdish(
-                                        text: "خۆرەتاوێکی درەوشاوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbrilliantlys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbrilliantlys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It was brilliantly sunny.",
+                            kurdishText: "خۆرەتاوێکی درەوشاوە بوو.",
+                            onPressedBritish: () => speakbrilliantlys4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbrilliantlys4("en-US"),
                           ),
                         ],
                       ),

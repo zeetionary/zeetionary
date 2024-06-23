@@ -148,97 +148,36 @@ class EnglishEntryboilingpoint extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو پلەی گەرمییەی کە تێیدا شلە دەکوڵێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The boiling point of water is 100°C."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاڵی کوڵانی ئاو ١٠٠ پلەی سیلیزییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakboilingpoints1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakboilingpoints1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The boiling point of water is 100°C.",
+                            kurdishText: "خاڵی کوڵانی ئاو ١٠٠ پلەی سیلیزییە.",
+                            onPressedBritish: () =>
+                                speakboilingpoints1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakboilingpoints1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەو خاڵەی کە تییدا کەسێک تووڕە دەبێت یان بارودۆخێک لە دەست دەردەچێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Public frustration has reached boiling point."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیگەرانی خەڵکی خەریکە لێی دەڕژێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakboilingpoints2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakboilingpoints2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Public frustration has reached boiling point.",
+                            kurdishText: "نیگەرانی خەڵکی خەریکە لێی دەڕژێت.",
+                            onPressedBritish: () =>
+                                speakboilingpoints2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakboilingpoints2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Kate’s anger was reaching boiling point."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تووڕەیی کەیت گەشتبووە بینەقاقەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakboilingpoints3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakboilingpoints3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Kate’s anger was reaching boiling point.",
+                            kurdishText: "تووڕەیی کەیت گەشتبووە بینەقاقەی.",
+                            onPressedBritish: () =>
+                                speakboilingpoints3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakboilingpoints3("en-US"),
                           ),
                         ],
                       ),

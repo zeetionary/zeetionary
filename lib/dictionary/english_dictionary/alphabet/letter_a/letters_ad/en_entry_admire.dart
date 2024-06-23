@@ -110,64 +110,26 @@ class EnglishEntryadmire extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ڕێزگرتنی کەسێک/شتێک بەھۆی کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't agree with her, but I admire her for sticking to her principles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەگەڵی ھاوڕانیم، بەڵام ڕێزی دەگرم بۆ پابەندبوون بەوەی باوەڕی پێی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmi2561("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmi2561(
-                                        // REPLACE: admire /ədˈmaɪər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't agree with her, but I admire her for sticking to her principles.",
+                            kurdishText:
+                                "لەگەڵی ھاوڕانیم، بەڵام ڕێزی دەگرم بۆ پابەندبوون بەوەی باوەڕی پێی ھەیە.",
+                            onPressedBritish: () => speakadmi2561("en-GB"),
+                            onPressedAmerican: () => speakadmi2561(
+                                // REPLACE: admire /ədˈmaɪər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The school is widely admired for its excellent teaching."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوتابخانەکە بەشێوەیەکی بەرفراوان ڕێز لێگیراوە بۆ نایابی وانەوتنەوە تێیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadm96871("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadm96871(
-                                        // REPLACE: admire /ədˈmaɪər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The school is widely admired for its excellent teaching.",
+                            kurdishText:
+                                "قوتابخانەکە بەشێوەیەکی بەرفراوان ڕێز لێگیراوە بۆ نایابی وانەوتنەوە تێیدا.",
+                            onPressedBritish: () => speakadm96871("en-GB"),
+                            onPressedAmerican: () => speakadm96871(
+                                // REPLACE: admire /ədˈmaɪər/
+                                "en-US"),
                           ),
                         ],
                       ),

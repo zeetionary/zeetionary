@@ -123,128 +123,51 @@ class EnglishEntryactivity extends StatelessWidget {
                               text:
                                   "١. (ناو) شتێک کە دەیکەیت لەبەرئەوەی حەزی لێیە یان چێژی لێ دەبینی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Shopping is now a leisure activity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بازاڕکردن لە ئێستادا بووە بە چالاکییەکی چێژبەخش."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaactiv2537("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaactiv2537(// REPLACE: activity
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Shopping is now a leisure activity.",
+                            kurdishText:
+                                "بازاڕکردن لە ئێستادا بووە بە چالاکییەکی چێژبەخش.",
+                            onPressedBritish: () => speakaactiv2537("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaactiv2537(// REPLACE: activity
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The students were involved in a range of extracurricular activities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندکاران ژمارەیەک چالاکییان لە دەرەوەی بەرنامەی خوێندنیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaactivi4687("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaactivi4687(// REPLACE: activity
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The students were involved in a range of extracurricular activities.",
+                            kurdishText:
+                                "خوێندکاران ژمارەیەک چالاکییان لە دەرەوەی بەرنامەی خوێندنیان کرد.",
+                            onPressedBritish: () => speakaactivi4687("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaactivi4687(// REPLACE: activity
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شتێک کە کەسێک دەیکات بە مەبەستی گەشتن بە ئامانجێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has decided to focus his time and resources on his business activities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیاری داوە کات و تواناکانی تەرخان بکات بۆ کارە بازرگانییەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaactivi4584("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaactivi4584(// REPLACE: activity
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has decided to focus his time and resources on his business activities.",
+                            kurdishText:
+                                "بڕیاری داوە کات و تواناکانی تەرخان بکات بۆ کارە بازرگانییەکانی.",
+                            onPressedBritish: () => speakaactivi4584("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaactivi4584(// REPLACE: activity
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بارودۆخێک کە شتێک تێیدا ڕوودەدات، یان ژمارەیەکی زۆر شت دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The streets were noisy and full of activity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەقامەکان پڕ لە ژاوەژاو و چالاکی بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaactiv2468("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaactiv2468(// REPLACE: activity
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The streets were noisy and full of activity.",
+                            kurdishText:
+                                "شەقامەکان پڕ لە ژاوەژاو و چالاکی بوون.",
+                            onPressedBritish: () => speakaactiv2468("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaactiv2468(// REPLACE: activity
+                                    "en-US"),
                           ),
                         ],
                       ),

@@ -154,150 +154,53 @@ class EnglishEntrybehaviour extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شێوازی ھەڵسوکەوت و ڕەفتاری کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His behaviour towards her was becoming more and more aggressive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسوکەوتی بەرامبەری بەردەوام توندوتیژترانە دەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbehaviours1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbehaviours1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His behaviour towards her was becoming more and more aggressive.",
+                            kurdishText:
+                                "ھەڵسوکەوتی بەرامبەری بەردەوام توندوتیژترانە دەبوو.",
+                            onPressedBritish: () => speakbehaviours1("en-GB"),
+                            onPressedAmerican: () => speakbehaviours1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I noticed a change in his behaviour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێبینی گۆڕانێکم لە ھەڵسوکەوتی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbehaviours2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbehaviours2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I noticed a change in his behaviour.",
+                            kurdishText: "تێبینی گۆڕانێکم لە ھەڵسوکەوتی کرد.",
+                            onPressedBritish: () => speakbehaviours2("en-GB"),
+                            onPressedAmerican: () => speakbehaviours2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I know you were upset, but that doesn't excuse your behaviour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەزانم بێزار بوویت، بەڵام ئەوە نابێتە بیانوو بۆ ڕەفتاری خراپت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbehaviours3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbehaviours3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I know you were upset, but that doesn't excuse your behaviour.",
+                            kurdishText:
+                                "ئەزانم بێزار بوویت، بەڵام ئەوە نابێتە بیانوو بۆ ڕەفتاری خراپت.",
+                            onPressedBritish: () => speakbehaviours3("en-GB"),
+                            onPressedAmerican: () => speakbehaviours3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شێوازی مامەڵە یان کارکردنی کەسێک، ئاژەڵێک، ڕووەکێک، ھتد لە دۆخێکی دیاریکراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Quantum theory describes the behaviour of subatomic particles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیردۆزی کوانتەم باسی کارکردنی تەنۆلکەی ژێرگەردیلەیی دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbehaviours4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbehaviours4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Quantum theory describes the behaviour of subatomic particles.",
+                            kurdishText:
+                                "بیردۆزی کوانتەم باسی کارکردنی تەنۆلکەی ژێرگەردیلەیی دەکات.",
+                            onPressedBritish: () => speakbehaviours4("en-GB"),
+                            onPressedAmerican: () => speakbehaviours4("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Activity near the birds' nest is bound to affect their behaviour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چالاکی نزیک لە ھێلانەی باڵندەکە بە ئەگەری زۆر کاریگەری لەسەر جوڵانەوەیان جێدێڵێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbehaviours5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbehaviours5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Activity near the birds' nest is bound to affect their behaviour.",
+                            kurdishText:
+                                "چالاکی نزیک لە ھێلانەی باڵندەکە بە ئەگەری زۆر کاریگەری لەسەر جوڵانەوەیان جێدێڵێت.",
+                            onPressedBritish: () => speakbehaviours5("en-GB"),
+                            onPressedAmerican: () => speakbehaviours5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

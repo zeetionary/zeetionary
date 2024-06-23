@@ -114,33 +114,14 @@ class EnglishEntryacoustic extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە دەنگ، یان ھەستی بیستن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The microphone converts acoustic waves to electrical signals for transmission."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مایکرۆفۆنەکە شەپۆلی دەنگی دەگۆڕێت بۆ نیشانەی کارەبایی بۆ گواستنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaco1537("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaco1537(
-                                        "en-US"), // REPLACE acoustic /əˈkuːstɪk/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The microphone converts acoustic waves to electrical signals for transmission.",
+                            kurdishText:
+                                "مایکرۆفۆنەکە شەپۆلی دەنگی دەگۆڕێت بۆ نیشانەی کارەبایی بۆ گواستنەوە.",
+                            onPressedBritish: () => speakaco1537("en-GB"),
+                            onPressedAmerican: () => speakaco1537(
+                                "en-US"), // REPLACE acoustic /əˈkuːstɪk/
                           ),
                         ],
                       ),

@@ -157,34 +157,15 @@ class EnglishEntrybangle extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پارچە خشڵێک کە لە مەچەکدا دەبەسترێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bangles were a traditional part of her culture."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بازنەکان بەشێکی کۆن لە کەلتوورەکەی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbangles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbangles1(// REPLACE: bangle
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bangles were a traditional part of her culture.",
+                            kurdishText:
+                                "بازنەکان بەشێکی کۆن لە کەلتوورەکەی بوو.",
+                            onPressedBritish: () => speakbangles1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbangles1(// REPLACE: bangle
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

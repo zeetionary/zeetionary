@@ -194,34 +194,15 @@ class EnglishEntrybungeejumping extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خۆھەڵدان لە بەرزاییەوە بە تەنافێکەوە کە کێشی دێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bungee jumping would be a cool experience."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆھەڵدان لە بەرزاییەوە ئەزموونێکی خۆش دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bungee jumping", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbungeejumpings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbungeejumpings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bungee jumping would be a cool experience.",
+                            kurdishText:
+                                "خۆھەڵدان لە بەرزاییەوە ئەزموونێکی خۆش دەبێت.", // bungee jumping", follow LX strictly
+                            onPressedBritish: () =>
+                                speakbungeejumpings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbungeejumpings1("en-US"),
                           ),
                         ],
                       ),

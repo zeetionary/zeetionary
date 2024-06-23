@@ -94,32 +94,13 @@ class EnglishEntryabsolve extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بە فەرمی پاککردنەوەی کەسێک لە تۆمەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The court absolved him of all responsibility for the accident."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دادگا پاکیکردەوە/بێبەریکرد لە ھەر بەرپرسیاریەتییەک بۆ ڕووداوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakabsolve5555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakabsolve5555("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The court absolved him of all responsibility for the accident.",
+                            kurdishText:
+                                "دادگا پاکیکردەوە/بێبەریکرد لە ھەر بەرپرسیاریەتییەک بۆ ڕووداوەکە.",
+                            onPressedBritish: () => speakabsolve5555("en-GB"),
+                            onPressedAmerican: () => speakabsolve5555("en-US"),
                           ),
                         ],
                       ),

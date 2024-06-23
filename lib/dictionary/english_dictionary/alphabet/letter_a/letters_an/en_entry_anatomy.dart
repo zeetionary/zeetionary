@@ -159,133 +159,57 @@ class EnglishEntryanatomy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) وردبوونەوەی زانستی لە پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، و ڕووەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An understanding of human anatomy is important to a dancer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێگەشتن لە پێکھاتەی درووست بوونی لەشی مرۆڤ گرنگە بۆ سەماکارێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanatomy409("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanatomy409(
-                                        // REPLACE: anatomy /əˈnætəmi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An understanding of human anatomy is important to a dancer.",
+                            kurdishText:
+                                "تێگەشتن لە پێکھاتەی درووست بوونی لەشی مرۆڤ گرنگە بۆ سەماکارێک.",
+                            onPressedBritish: () => speakanatomy409("en-GB"),
+                            onPressedAmerican: () => speakanatomy409(
+                                // REPLACE: anatomy /əˈnætəmi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، یان ڕووەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The female anatomy includes organs like the ovaries and uterus."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەستەی مێینە ئەندامەکانی وەک ھێلکەدان و مناڵ‌دان لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanatomy499("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanatomy499(
-                                        // REPLACE: anatomy /əˈnætəmi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The female anatomy includes organs like the ovaries and uterus.",
+                            kurdishText:
+                                "جەستەی مێینە ئەندامەکانی وەک ھێلکەدان و مناڵ‌دان لەخۆدەگرێت.",
+                            onPressedBritish: () => speakanatomy499("en-GB"),
+                            onPressedAmerican: () => speakanatomy499(
+                                // REPLACE: anatomy /əˈnætəmi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) جەستەی مرۆڤێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Various parts of his anatomy were clearly visible."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک لە بەشەکانی جەستەی بەڕوونی دیاربوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanatomy9500("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanatomy9500(
-                                        // REPLACE: anatomy /əˈnætəmi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Various parts of his anatomy were clearly visible.",
+                            kurdishText:
+                                "ژمارەیەک لە بەشەکانی جەستەی بەڕوونی دیاربوون.",
+                            onPressedBritish: () => speakanatomy9500("en-GB"),
+                            onPressedAmerican: () => speakanatomy9500(
+                                // REPLACE: anatomy /əˈnætəmi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) لێکۆڵینەوەی ورد لە بابەتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The article explores an anatomy of the current recession's causes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکە لێکۆڵینەوەیەکی وردە لە ھۆکارەکانی ئەم قەیرانەی ئێستا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanatomy5582("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanatomy5582(
-                                        // REPLACE: anatomy /əˈnætəmi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The article explores an anatomy of the current recession's causes.",
+                            kurdishText:
+                                "وتارەکە لێکۆڵینەوەیەکی وردە لە ھۆکارەکانی ئەم قەیرانەی ئێستا.",
+                            onPressedBritish: () => speakanatomy5582("en-GB"),
+                            onPressedAmerican: () => speakanatomy5582(
+                                // REPLACE: anatomy /əˈnætəmi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

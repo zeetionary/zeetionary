@@ -159,67 +159,29 @@ class EnglishEntryannexation extends StatelessWidget {
                               text:
                                   "١. (ناو) داگیرکاری؛ جۆنترۆڵ‌کردنی وڵاتێک بە ھێز"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He mentioned the Japanese annexation of Korea in 1910."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داگیرکاریی ژاپۆنی بۆسەر کۆریا لە ساڵی ١٩١٠ ناوھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakannexation1150("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannexation1150(
-                                        // REPLACE: annexation /ˌænekˈseɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He mentioned the Japanese annexation of Korea in 1910.",
+                            kurdishText:
+                                "داگیرکاریی ژاپۆنی بۆسەر کۆریا لە ساڵی ١٩١٠ ناوھێنا.",
+                            onPressedBritish: () =>
+                                speakannexation1150("en-GB"),
+                            onPressedAmerican: () => speakannexation1150(
+                                // REPLACE: annexation /ˌænekˈseɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The country's annexation of its neighbour caused an outcry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داگیرکاریی وڵاتەکە بۆسەر دراوسێکەی کاردانەوەی توندی بەدودا ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakannexation1151("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannexation1151(
-                                        // REPLACE: annexation /ˌænekˈseɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The country's annexation of its neighbour caused an outcry.",
+                            kurdishText:
+                                "داگیرکاریی وڵاتەکە بۆسەر دراوسێکەی کاردانەوەی توندی بەدودا ھات.",
+                            onPressedBritish: () =>
+                                speakannexation1151("en-GB"),
+                            onPressedAmerican: () => speakannexation1151(
+                                // REPLACE: annexation /ˌænekˈseɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

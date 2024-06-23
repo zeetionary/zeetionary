@@ -145,66 +145,26 @@ class EnglishEntrybloodsucker extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئاژەڵێک یان مێروویەک کە خوێنی ئاژەڵانی تر دەمژێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Leeches and mosquitoes are bloodsuckers."),
-                                    ExampleSentenceKurdish(
-                                        text: "زاروو و مێشوولە خوێنمژن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodsuckers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodsuckers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Leeches and mosquitoes are bloodsuckers.",
+                            kurdishText: "زاروو و مێشوولە خوێنمژن.",
+                            onPressedBritish: () => speakbloodsuckers1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodsuckers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە کەسانی تر بەکاردێنێت بۆ قازانجی دارایی خۆی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He accused his manager of being a bloodsucker who took all the credit."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڕێوبەرەکەی تۆمەتبار کرد بە بوون بە قازانج پەرستێک لە ھەموو دەستخۆشی بۆ خۆی برد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbloodsuckers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbloodsuckers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He accused his manager of being a bloodsucker who took all the credit.",
+                            kurdishText:
+                                "بەڕێوبەرەکەی تۆمەتبار کرد بە بوون بە قازانج پەرستێک لە ھەموو دەستخۆشی بۆ خۆی برد.",
+                            onPressedBritish: () => speakbloodsuckers2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbloodsuckers2("en-US"),
                           ),
                         ],
                       ),

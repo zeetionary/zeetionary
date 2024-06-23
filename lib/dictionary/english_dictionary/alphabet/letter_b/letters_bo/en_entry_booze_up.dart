@@ -145,32 +145,13 @@ class EnglishEntryboozeup extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بۆنەیەک کە خەڵکی تێیدا ڕێژەیەکی زۆر خواردنەوە دەخۆنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The women organized a booze-up to forget all about family business for a day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنەکان بۆنەیەکی خواردنەوەیان ڕێکخست بۆ لەبیرکردنی ھەموو شتێک دەربارەی کاری خێزانییان بۆ یەک ڕۆژ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboozeups1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboozeups1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The women organized a booze-up to forget all about family business for a day.",
+                            kurdishText:
+                                "ژنەکان بۆنەیەکی خواردنەوەیان ڕێکخست بۆ لەبیرکردنی ھەموو شتێک دەربارەی کاری خێزانییان بۆ یەک ڕۆژ.",
+                            onPressedBritish: () => speakboozeups1("en-GB"),
+                            onPressedAmerican: () => speakboozeups1("en-US"),
                           ),
                         ],
                       ),

@@ -148,61 +148,23 @@ class EnglishEntrybillowy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) شتێک کە گەورە و نەرم دەردەکەوێت، یان ھەوای تێدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had a red, billowy scarf wrapped around his head."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەچکێکی سووری پفخواردووی پێچابوو لە سەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbillowys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbillowys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had a red, billowy scarf wrapped around his head.",
+                            kurdishText:
+                                "لەچکێکی سووری پفخواردووی پێچابوو لە سەری.",
+                            onPressedBritish: () => speakbillowys1("en-GB"),
+                            onPressedAmerican: () => speakbillowys1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was dressed in an abaya, a kind of billowy cloak."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "عەبایەکی پۆشیبوو کە جۆرە جبەیەکی پفخواردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbillowys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbillowys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was dressed in an abaya, a kind of billowy cloak.",
+                            kurdishText:
+                                "عەبایەکی پۆشیبوو کە جۆرە جبەیەکی پفخواردووە.",
+                            onPressedBritish: () => speakbillowys2("en-GB"),
+                            onPressedAmerican: () => speakbillowys2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

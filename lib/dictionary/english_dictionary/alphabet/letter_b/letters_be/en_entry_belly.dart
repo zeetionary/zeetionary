@@ -149,151 +149,55 @@ class EnglishEntrybelly extends StatelessWidget {
 کوردی: ، سگ، لەم، ورگ، کرش، عوور، ئەشک، ئاشک، لەمە، ئورک، (لە فڕۆکە و کەشتی‌دا) زگ، کۆن مناڵ‌دان، پزدان، (لە ئامێری میوزیکدا) کاسە
 """),
                           const DefinitionKurdish(text: """١. (ناو) سک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They crawled along on their bellies."),
-                                    ExampleSentenceKurdish(
-                                        text: "لەسەر سکیان دەڕۆشتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbellys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbellys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They crawled along on their bellies.",
+                            kurdishText: "لەسەر سکیان دەڕۆشتن.",
+                            onPressedBritish: () => speakbellys1("en-GB"),
+                            onPressedAmerican: () => speakbellys1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's so fat, his belly hangs over his trousers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر قەڵەوە، سکی دێتە سەر پانتۆڵەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbellys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbellys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's so fat, his belly hangs over his trousers.",
+                            kurdishText:
+                                "زۆر قەڵەوە، سکی دێتە سەر پانتۆڵەکەیدا.",
+                            onPressedBritish: () => speakbellys2("en-GB"),
+                            onPressedAmerican: () => speakbellys2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She felt the child in her belly kick."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی دەکرد منداڵەکەی لە سکیدا لەقە دەھاوێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbellys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbellys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She felt the child in her belly kick.",
+                            kurdishText:
+                                "ھەستی دەکرد منداڵەکەی لە سکیدا لەقە دەھاوێ.",
+                            onPressedBritish: () => speakbellys3("en-GB"),
+                            onPressedAmerican: () => speakbellys3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بەشی چەماوە یان بازنەیی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The belly of the aircraft was painted red."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سکی فڕۆکەکە (لاشەی فڕۆکەکە لە خوارەوە، لە نێوان باڵەکانی)  ڕەنگی سوور کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbellys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbellys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The belly of the aircraft was painted red.",
+                            kurdishText:
+                                "سکی فڕۆکەکە (لاشەی فڕۆکەکە لە خوارەوە، لە نێوان باڵەکانی)  ڕەنگی سوور کرا.",
+                            onPressedBritish: () => speakbellys4("en-GB"),
+                            onPressedAmerican: () => speakbellys4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) لەگەڵ ھاوەڵناو بەکاردێت بۆ وتنی ئەوەی سک ھەمان ئەو شێوەیەی ھەیە کە باسکراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The starving child's swollen belly was a stark reminder of the ongoing famine in the region."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سکی ئاوساوی منداڵەکە بیرھێنەرەوەیەکی زەقی وشکەساڵی بەردەوامی ھەرێمەکە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbellys5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbellys5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The starving child's swollen belly was a stark reminder of the ongoing famine in the region.",
+                            kurdishText:
+                                "سکی ئاوساوی منداڵەکە بیرھێنەرەوەیەکی زەقی وشکەساڵی بەردەوامی ھەرێمەکە بوو.",
+                            onPressedBritish: () => speakbellys5("en-GB"),
+                            onPressedAmerican: () => speakbellys5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -166,67 +166,29 @@ class EnglishEntryattendant extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە یارمەتی یان خزمەتی خەڵکی تر دەکات لە شوێنێکی گشتیدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Pool attendants kept a constant watch on the swimmers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارمەندانی مەلەوانگەکە بەردەوام چاویان لەسەر مەلەکەرەکان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattendant831("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattendant831(// REPLACE: attendant
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Pool attendants kept a constant watch on the swimmers.",
+                            kurdishText:
+                                "کارمەندانی مەلەوانگەکە بەردەوام چاویان لەسەر مەلەکەرەکان بوو.",
+                            onPressedBritish: () => speakattendant831("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattendant831(// REPLACE: attendant
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پەیوەندیدار بەو شتەی باسکراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are too many risks attendant on such a large investment of money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕیسکی زۆر ھەیە لەگەڵ خستنە بەرھەمھێنانی پارەیەکی وەھا زۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattendant835("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattendant835(// REPLACE: attendant
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are too many risks attendant on such a large investment of money.",
+                            kurdishText:
+                                "ڕیسکی زۆر ھەیە لەگەڵ خستنە بەرھەمھێنانی پارەیەکی وەھا زۆر.",
+                            onPressedBritish: () => speakattendant835("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattendant835(// REPLACE: attendant
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

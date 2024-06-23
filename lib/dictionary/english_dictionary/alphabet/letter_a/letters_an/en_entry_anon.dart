@@ -152,32 +152,13 @@ class EnglishEntryanon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) دەسبەجێ، لەڕێوە، زوو، بەزوویی، خێرا."""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "See you anon."),
-                                    ExampleSentenceKurdish(
-                                        text: "زوو دەتبینمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanon1058("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakanon1058(// REPLACE: anon /əˈnɑːn/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "See you anon.",
+                            kurdishText: "زوو دەتبینمەوە.",
+                            onPressedBritish: () => speakanon1058("en-GB"),
+                            onPressedAmerican: () =>
+                                speakanon1058(// REPLACE: anon /əˈnɑːn/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

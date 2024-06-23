@@ -156,34 +156,15 @@ class EnglishEntrybarbarous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پڕ لە دڕندەیی کە تووشی شۆکت بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His murder was an outrageous and barbarous act."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیرۆرەکەی کردەیەکی جەرگبڕ و دڕندانە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarbarouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarbarouss1(// REPLACE: barbarous
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His murder was an outrageous and barbarous act.",
+                            kurdishText:
+                                "تیرۆرەکەی کردەیەکی جەرگبڕ و دڕندانە بوو.",
+                            onPressedBritish: () => speakbarbarouss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarbarouss1(// REPLACE: barbarous
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

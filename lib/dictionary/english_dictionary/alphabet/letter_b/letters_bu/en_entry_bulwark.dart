@@ -146,32 +146,13 @@ class EnglishEntrybulwark extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک/شتێک کە پارێزگاری یان بەرگری لە شتێک دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At the time fascism had many supporters in the West, who saw it as a bulwark against communism."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەو کاتەدا فاشیزم زۆر بەرگریکارییان لە ڕۆژئاوا ھەبوو و وەک شوورایەک دژ بە کۆمونیزم دەیانبینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulwark", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulwarks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulwarks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At the time fascism had many supporters in the West, who saw it as a bulwark against communism.",
+                            kurdishText:
+                                "لەو کاتەدا فاشیزم زۆر بەرگریکارییان لە ڕۆژئاوا ھەبوو و وەک شوورایەک دژ بە کۆمونیزم دەیانبینی.", // bulwark", follow LX strictly
+                            onPressedBritish: () => speakbulwarks1("en-GB"),
+                            onPressedAmerican: () => speakbulwarks1("en-US"),
                           ),
                         ],
                       ),

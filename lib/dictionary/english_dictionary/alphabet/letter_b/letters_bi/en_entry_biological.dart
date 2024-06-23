@@ -152,94 +152,36 @@ class EnglishEntrybiological extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) پەیوەندیدار بە زیندەناسی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Eating is a biological necessity!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواردن پێویستییەکە لە ڕووی زیندەناسییەوە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiologicals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiologicals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Eating is a biological necessity!",
+                            kurdishText:
+                                "خواردن پێویستییەکە لە ڕووی زیندەناسییەوە!",
+                            onPressedBritish: () => speakbiologicals1("en-GB"),
+                            onPressedAmerican: () => speakbiologicals1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بەو پڕۆسانەی کە لەناو گیانلەبەردا ڕوودەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The biological effects of radiation can cause cancer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاریگەرییەکانی زیندەیی تیشکی مادە تیشکدەرەکان دەکرێت ببێتە ھۆی شێرپەنجە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiologicals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiologicals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The biological effects of radiation can cause cancer.",
+                            kurdishText:
+                                "کاریگەرییەکانی زیندەیی تیشکی مادە تیشکدەرەکان دەکرێت ببێتە ھۆی شێرپەنجە.",
+                            onPressedBritish: () => speakbiologicals2("en-GB"),
+                            onPressedAmerican: () => speakbiologicals2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) ھەبوونی پەیوەندی خوێنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She decided to search for her biological mother after her adoptive parents died."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیاریدا بگەڕێت بۆ دایکی خوێنیی کە دایک و باوکە ھەڵگرەوەکەی کۆچی دواییان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiologicals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiologicals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She decided to search for her biological mother after her adoptive parents died.",
+                            kurdishText:
+                                "بڕیاریدا بگەڕێت بۆ دایکی خوێنیی کە دایک و باوکە ھەڵگرەوەکەی کۆچی دواییان کرد.",
+                            onPressedBritish: () => speakbiologicals3("en-GB"),
+                            onPressedAmerican: () => speakbiologicals3("en-US"),
                           ),
                           // const DividerSentences(),
 //                           const DividerDefinition(),

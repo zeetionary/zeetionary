@@ -108,32 +108,12 @@ class EnglishEntryacquit extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) لێخۆشبوون لە گومانلێکراوێک لە دادگا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was acquitted on all charges."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ھەموو تۆمەتەکان بێبەریکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac12569("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac12569(
-                                        "en-US"), // REPLACE acquit /əˈkwɪt/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was acquitted on all charges.",
+                            kurdishText: "لە ھەموو تۆمەتەکان بێبەریکرا.",
+                            onPressedBritish: () => speakac12569("en-GB"),
+                            onPressedAmerican: () => speakac12569(
+                                "en-US"), // REPLACE acquit /əˈkwɪt/
                           ),
                         ],
                       ),

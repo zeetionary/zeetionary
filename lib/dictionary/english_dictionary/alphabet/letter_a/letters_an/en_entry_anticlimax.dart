@@ -160,35 +160,15 @@ class EnglishEntryanticlimax extends StatelessWidget {
                               text:
                                   "١. (ناو) شتێکی کە ڕوودەدات لە کاتێکدا شتێکی خۆش لە بەرزترین ئاستە، و دەبێتەھۆی ئەوەی شتە خۆشەکە چێژی لەدەست‌بدات یان کەمتر بێت لەوەی پێشبینیت دەکرد "
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When you really look forward to something it's often an anticlimax when it actually happens."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاتێک زۆر چاوەڕیی شتێک دەکەیت زۆرجار نائومێدییەک ھەیە کە لە ڕاستیدا ڕوودەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakanticlimax843("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanticlimax843(
-                                        // REPLACE: anticlimax /ˌæntiˈklaɪmæks/, /ˌæntaɪˈklaɪmæks/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When you really look forward to something it's often an anticlimax when it actually happens.",
+                            kurdishText:
+                                "کاتێک زۆر چاوەڕیی شتێک دەکەیت زۆرجار نائومێدییەک ھەیە کە لە ڕاستیدا ڕوودەدات.",
+                            onPressedBritish: () => speakanticlimax843("en-GB"),
+                            onPressedAmerican: () => speakanticlimax843(
+                                // REPLACE: anticlimax /ˌæntiˈklaɪmæks/, /ˌæntaɪˈklaɪmæks/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

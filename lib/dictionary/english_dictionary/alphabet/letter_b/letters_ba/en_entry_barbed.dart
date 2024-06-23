@@ -156,67 +156,29 @@ class EnglishEntrybarbed extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) ھەبوونی نووکی تیژ کە بەرەو ناوەوە چەماوەتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The barbed wire fence kept the animals out."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرژینە دڕکاوییە وایەرەکە ڕێگەی لە تاوانباران گرت ھەڵبێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarbeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarbeds1(// REPLACE: barbed
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The barbed wire fence kept the animals out.",
+                            kurdishText:
+                                "پەرژینە دڕکاوییە وایەرەکە ڕێگەی لە تاوانباران گرت ھەڵبێن.",
+                            onPressedBritish: () => speakbarbeds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarbeds1(// REPLACE: barbed
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) لێدوانێک کە توندە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Their conversation was filled with barbed banter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گفتوگۆکەیان پڕبوو لە شۆخی پڕ لە توانج."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarbeds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarbeds2(// REPLACE: barbed
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Their conversation was filled with barbed banter.",
+                            kurdishText:
+                                "گفتوگۆکەیان پڕبوو لە شۆخی پڕ لە توانج.",
+                            onPressedBritish: () => speakbarbeds2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarbeds2(// REPLACE: barbed
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

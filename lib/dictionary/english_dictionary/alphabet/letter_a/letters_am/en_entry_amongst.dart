@@ -180,98 +180,40 @@ class EnglishEntryamongst extends StatelessWidget {
                               text:
                                   "١. (ئامراز) دەوردراو بە کەسێک/شتێک، لە ناوەڕاستی کەسێک/شتێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I saw a few familiar faces amongst the crowd."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەند ڕووخسارێکی ناسیاوم بینی لەناو جەماوەرەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamongst7655("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamongst7655(
-                                        // REPLACE: amongst /əˈmʌŋst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I saw a few familiar faces amongst the crowd.",
+                            kurdishText:
+                                "چەند ڕووخسارێکی ناسیاوم بینی لەناو جەماوەرەکەدا.",
+                            onPressedBritish: () => speakamongst7655("en-GB"),
+                            onPressedAmerican: () => speakamongst7655(
+                                // REPLACE: amongst /əˈmʌŋst/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ئامراز) بوون بە بەشێک لە گرووپێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A British woman was amongst the survivors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنێکی بەریتانی لەناو ڕزگاربووان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamongst4666("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamongst4666(
-                                        // REPLACE: amongst /əˈmʌŋst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A British woman was amongst the survivors.",
+                            kurdishText: "ژنێکی بەریتانی لەناو ڕزگاربووان بوو.",
+                            onPressedBritish: () => speakamongst4666("en-GB"),
+                            onPressedAmerican: () => speakamongst4666(
+                                // REPLACE: amongst /əˈmʌŋst/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ئامراز) دابەشکردن لە نێوان سێ کەس یان زیاتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He divided the country amongst his sons."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتەکەی لە نێوان کوڕەکانی دابەش‌کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamongst4111("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamongst4111(
-                                        // REPLACE: amongst /əˈmʌŋst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He divided the country amongst his sons.",
+                            kurdishText:
+                                "وڵاتەکەی لە نێوان کوڕەکانی دابەش‌کرد.",
+                            onPressedBritish: () => speakamongst4111("en-GB"),
+                            onPressedAmerican: () => speakamongst4111(
+                                // REPLACE: amongst /əˈmʌŋst/
+                                "en-US"),
                           ),
                         ],
                       ),

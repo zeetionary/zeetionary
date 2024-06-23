@@ -109,34 +109,15 @@ class EnglishEntryairliner extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) فڕۆکەی نەفەرھەڵگر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The airliner was hijacked by a group of terrorists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەکە لەلایەن ژمارەیەک تیرۆریستەوە ڕفێندرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairliner3522("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairliner3522(
-                                        // REPLACE: airliner /ˈerlaɪnər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The airliner was hijacked by a group of terrorists.",
+                            kurdishText:
+                                "فڕۆکەکە لەلایەن ژمارەیەک تیرۆریستەوە ڕفێندرا.",
+                            onPressedBritish: () => speakairliner3522("en-GB"),
+                            onPressedAmerican: () => speakairliner3522(
+                                // REPLACE: airliner /ˈerlaɪnər/
+                                "en-US"),
                           ),
                         ],
                       ),

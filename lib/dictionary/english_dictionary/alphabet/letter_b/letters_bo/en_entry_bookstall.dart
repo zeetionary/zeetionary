@@ -145,32 +145,13 @@ class EnglishEntrybookstall extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) مێزێک یان فرۆشگایەک کە پێشەوەی کراوەیە و کتێب و گۆڤار و ڕۆژنامە دەفرۆشێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bookstall displayed a variety of genres and authors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووکانۆچکەکە ژمارەیەک ژانر و نووسەری نمایشکردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbookstalls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbookstalls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bookstall displayed a variety of genres and authors.",
+                            kurdishText:
+                                "دووکانۆچکەکە ژمارەیەک ژانر و نووسەری نمایشکردبوو.",
+                            onPressedBritish: () => speakbookstalls1("en-GB"),
+                            onPressedAmerican: () => speakbookstalls1("en-US"),
                           ),
                         ],
                       ),

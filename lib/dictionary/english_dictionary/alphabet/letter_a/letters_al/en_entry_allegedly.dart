@@ -114,35 +114,16 @@ class EnglishEntryallegedly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بەپێی ئەوەی بانگەشە دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was arrested for allegedly stealing a car."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستگیرکرا بەھۆی ئەوە بانگەشە دەکرێت ئۆتۆمبێلێکی دزی بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallegedly35266("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallegedly35266(
-                                        // REPLACE: allegedly /əˈledʒɪdli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was arrested for allegedly stealing a car.",
+                            kurdishText:
+                                "دەستگیرکرا بەھۆی ئەوە بانگەشە دەکرێت ئۆتۆمبێلێکی دزی بێت.",
+                            onPressedBritish: () =>
+                                speakallegedly35266("en-GB"),
+                            onPressedAmerican: () => speakallegedly35266(
+                                // REPLACE: allegedly /əˈledʒɪdli/
+                                "en-US"),
                           ),
                         ],
                       ),

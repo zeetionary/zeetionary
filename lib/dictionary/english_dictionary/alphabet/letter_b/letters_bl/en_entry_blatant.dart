@@ -148,58 +148,19 @@ class EnglishEntryblatant extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کارێکی خراپ کە بە ئاشکرا دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It was a blatant lie."),
-                                    ExampleSentenceKurdish(
-                                        text: "درۆیەکی ئاشکرا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblatants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblatants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It was a blatant lie.",
+                            kurdishText: "درۆیەکی ئاشکرا بوو.",
+                            onPressedBritish: () => speakblatants1("en-GB"),
+                            onPressedAmerican: () => speakblatants1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His behavior showed a blatant lack of respect."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵسوکەوتی بێ ڕێزی ئاشکرای پیشان دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblatants2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblatants2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His behavior showed a blatant lack of respect.",
+                            kurdishText: "ھەڵسوکەوتی بێ ڕێزی ئاشکرای پیشان دا.",
+                            onPressedBritish: () => speakblatants2("en-GB"),
+                            onPressedAmerican: () => speakblatants2("en-US"),
                           ),
                           // const DividerDefinition(),
                           // const DividerDefinition(),

@@ -151,34 +151,14 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئامێرێکی میوزیکی کە دەژەنرێت بە سووڕدانی دەسکێک، جاران لە شەقامەکان دەژەنرا بۆ پارە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The barrel organ's cheerful tunes filled the town square, drawing in a crowd of curious listeners."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاوازی بەگوڕی ئۆرگە دەستییەکە مەیدانی شارەکەی پڕکردبوو، جەماوەرێک لە گوێگری بەپەرۆشی کۆکردبووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbarrelorgans1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarrelorgans1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The barrel organ's cheerful tunes filled the town square, drawing in a crowd of curious listeners.",
+                            kurdishText:
+                                "ئاوازی بەگوڕی ئۆرگە دەستییەکە مەیدانی شارەکەی پڕکردبوو، جەماوەرێک لە گوێگری بەپەرۆشی کۆکردبووەوە.",
+                            onPressedBritish: () => speakbarrelorgans1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarrelorgans1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -148,114 +148,38 @@ class EnglishEntryboyfriend extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پیاوێک یان کوڕێک کە کەسێک پەیوەندی ڕۆمانسی یان سێکسی لەگەڵی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She's got a new boyfriend."),
-                                    ExampleSentenceKurdish(
-                                        text: "دۆستێکی کوڕی تازەی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboyfriends1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboyfriends1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's got a new boyfriend.",
+                            kurdishText: "دۆستێکی کوڕی تازەی ھەیە.",
+                            onPressedBritish: () => speakboyfriends1("en-GB"),
+                            onPressedAmerican: () => speakboyfriends1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My boyfriend at the time, who is now my ex-boyfriend, got me the job here."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆستە کوڕەکەی ئەو کاتەم، کە ئێستا دۆستی ڕابردوومە، کارەکەی لێرە بۆ دۆزیمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboyfriends2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboyfriends2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My boyfriend at the time, who is now my ex-boyfriend, got me the job here.",
+                            kurdishText:
+                                "دۆستە کوڕەکەی ئەو کاتەم، کە ئێستا دۆستی ڕابردوومە، کارەکەی لێرە بۆ دۆزیمەوە.",
+                            onPressedBritish: () => speakboyfriends2("en-GB"),
+                            onPressedAmerican: () => speakboyfriends2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's not my boyfriend - we're just good friends!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دۆستی کوڕم نییە، تەنھا ھاوڕێی نزیکین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboyfriends3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboyfriends3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's not my boyfriend - we're just good friends!",
+                            kurdishText:
+                                "دۆستی کوڕم نییە، تەنھا ھاوڕێی نزیکین.",
+                            onPressedBritish: () => speakboyfriends3("en-GB"),
+                            onPressedAmerican: () => speakboyfriends3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was living with my boyfriend for three years and then he dumped me."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ سێ ساڵ لەگەڵ خۆشەویستە کوڕەکەم بووم و دواتر وازی‌لێ‌ھێنام."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboyfriends4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboyfriends4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was living with my boyfriend for three years and then he dumped me.",
+                            kurdishText:
+                                "بۆ سێ ساڵ لەگەڵ خۆشەویستە کوڕەکەم بووم و دواتر وازی‌لێ‌ھێنام.",
+                            onPressedBritish: () => speakboyfriends4("en-GB"),
+                            onPressedAmerican: () => speakboyfriends4("en-US"),
                           ),
                         ],
                       ),

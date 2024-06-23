@@ -191,62 +191,24 @@ class EnglishEntrybuttonhole extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) کونی دووگمە لە جلێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His jacket had a perfectly aligned buttonhole."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاکەتەکەی کونەدوگمەی تەواو بەرامبەری ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "buttonhole", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuttonholes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuttonholes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His jacket had a perfectly aligned buttonhole.",
+                            kurdishText:
+                                "چاکەتەکەی کونەدوگمەی تەواو بەرامبەری ھەبوو.", // buttonhole", follow LX strictly
+                            onPressedBritish: () => speakbuttonholes1("en-GB"),
+                            onPressedAmerican: () => speakbuttonholes1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) وەستاندنی کەسێک بۆ ئەوەی قسەت لەگەڵ بکات، بە تایبەتی کە نایەوێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He buttonholed me just as I was going home."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھاتە سەرەڕێم کە دەچوومەوە ماڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuttonholes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuttonholes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He buttonholed me just as I was going home.",
+                            kurdishText: "ھاتە سەرەڕێم کە دەچوومەوە ماڵ.",
+                            onPressedBritish: () => speakbuttonholes2("en-GB"),
+                            onPressedAmerican: () => speakbuttonholes2("en-US"),
                           ),
                         ],
                       ),

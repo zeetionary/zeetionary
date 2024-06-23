@@ -168,233 +168,100 @@ class EnglishEntryappropriate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) گونجاو و درووست بۆ بارودۆخێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Now that the problem has been identified, appropriate action can be taken."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێستا کە کێشەکە ناسێنراوە، ھەنگاوی گونجاو دەبێت بگیردرێتە بەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappropriate348("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappropriate348(
-                                        // REPLACE: appropriate /əˈprəʊpriət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Now that the problem has been identified, appropriate action can be taken.",
+                            kurdishText:
+                                "ئێستا کە کێشەکە ناسێنراوە، ھەنگاوی گونجاو دەبێت بگیردرێتە بەر.",
+                            onPressedBritish: () =>
+                                speakappropriate348("en-GB"),
+                            onPressedAmerican: () => speakappropriate348(
+                                // REPLACE: appropriate /əˈprəʊpriət/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Is now an appropriate time to make a speech?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئایا ئێستا کاتێکی باشە بۆ پێشکەش‌کردنی وتارێک؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappropriate351("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappropriate351(
-                                        // REPLACE: appropriate /əˈprəʊpriət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Is now an appropriate time to make a speech?",
+                            kurdishText:
+                                "ئایا ئێستا کاتێکی باشە بۆ پێشکەش‌کردنی وتارێک؟",
+                            onPressedBritish: () =>
+                                speakappropriate351("en-GB"),
+                            onPressedAmerican: () => speakappropriate351(
+                                // REPLACE: appropriate /əˈprəʊpriət/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This may be an appropriate treatment for many patients."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە ڕەنگە چارەسەرێکی گونجاو بێت بۆ زۆر نەخۆش."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappropriate352("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappropriate352(
-                                        // REPLACE: appropriate /əˈprəʊpriət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This may be an appropriate treatment for many patients.",
+                            kurdishText:
+                                "ئەمە ڕەنگە چارەسەرێکی گونجاو بێت بۆ زۆر نەخۆش.",
+                            onPressedBritish: () =>
+                                speakappropriate352("en-GB"),
+                            onPressedAmerican: () => speakappropriate352(
+                                // REPLACE: appropriate /əˈprəʊpriət/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بەکارھێنانی شتی کەسێکی تر بۆ خۆت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Some of the opposition party's policies have been appropriated by the government."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک لە سیاسەتەکانی ئۆپۆزسیۆن لەلایەن حکومەتەوە دزراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappropriate355("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappropriate355(
-                                        // REPLACE: appropriate /əˈprəʊpriət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Some of the opposition party's policies have been appropriated by the government.",
+                            kurdishText:
+                                "ھەندێک لە سیاسەتەکانی ئۆپۆزسیۆن لەلایەن حکومەتەوە دزراون.",
+                            onPressedBritish: () =>
+                                speakappropriate355("en-GB"),
+                            onPressedAmerican: () => speakappropriate355(
+                                // REPLACE: appropriate /əˈprəʊpriət/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He lost his job when he was found to have appropriated some of the company's money."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کارەکەی دەرکرا لە دوای ئەوەی زانرا ھەندێک لە پارەی کۆمپانیاکەی بۆ خۆی بەکارھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappropriate357("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappropriate357(
-                                        // REPLACE: appropriate /əˈprəʊpriət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He lost his job when he was found to have appropriated some of the company's money.",
+                            kurdishText:
+                                "لە کارەکەی دەرکرا لە دوای ئەوەی زانرا ھەندێک لە پارەی کۆمپانیاکەی بۆ خۆی بەکارھێناوە.",
+                            onPressedBritish: () =>
+                                speakappropriate357("en-GB"),
+                            onPressedAmerican: () => speakappropriate357(
+                                // REPLACE: appropriate /əˈprəʊpriət/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) بردن یان پێدانی شتێک، بۆ نموونە پارە، بۆ بەکارھێنانی بۆ مەبەستێکی تایبەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Five million dollars have been appropriated for research into the disease."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێنج ملیۆن دۆلار تەرخان‌کراوە بۆ توێژینەوە لە نەخۆشییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappropriate400("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappropriate400(
-                                        // REPLACE: appropriate /əˈprəʊpriət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Five million dollars have been appropriated for research into the disease.",
+                            kurdishText:
+                                "پێنج ملیۆن دۆلار تەرخان‌کراوە بۆ توێژینەوە لە نەخۆشییەکە.",
+                            onPressedBritish: () =>
+                                speakappropriate400("en-GB"),
+                            onPressedAmerican: () => speakappropriate400(
+                                // REPLACE: appropriate /əˈprəʊpriət/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) بردنی شتێک لە کەلتوورێک و بەکارھێنانی وەک ئەوەی ھی کەلتووری خۆت بێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As the empire expanded, they eagerly appropriated the artistic styles of their sunjects."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە ئیمپراتۆریەتییەکە فراوان بوو، ستایلی ھونەریی ژێردەستەکانیان بە پەرۆشییەوە دزی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappropriate403("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappropriate403(
-                                        // REPLACE: appropriate /əˈprəʊpriət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As the empire expanded, they eagerly appropriated the artistic styles of their sunjects.",
+                            kurdishText:
+                                "کە ئیمپراتۆریەتییەکە فراوان بوو، ستایلی ھونەریی ژێردەستەکانیان بە پەرۆشییەوە دزی.",
+                            onPressedBritish: () =>
+                                speakappropriate403("en-GB"),
+                            onPressedAmerican: () => speakappropriate403(
+                                // REPLACE: appropriate /əˈprəʊpriət/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

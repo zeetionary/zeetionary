@@ -146,60 +146,22 @@ class EnglishEntrybluesky extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) لەخۆگرتنی بیرۆکەی سەرنجڕاکێش و تازە بۆ شتانێک کە ھێشتا ناکرێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government has been doing some blue-sky thinking on how to improve school standards."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت ھەندێک بیرکردنەوەی تازەگەری کردووە سەبارەت بە چۆنیەتی بەھێزکردنی ستانداردی قوتابخانەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblueskys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblueskys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government has been doing some blue-sky thinking on how to improve school standards.",
+                            kurdishText:
+                                "حکومەت ھەندێک بیرکردنەوەی تازەگەری کردووە سەبارەت بە چۆنیەتی بەھێزکردنی ستانداردی قوتابخانەکان.",
+                            onPressedBritish: () => speakblueskys1("en-GB"),
+                            onPressedAmerican: () => speakblueskys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A team of designers have been briefed to come up with blue-sky ideas to overhaul the company’s logo."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمێک لە دیزاینەران داوایان لێکراوە بۆدۆزینەوەی بیرۆکەی تازە بۆ وردبینییەکی تەواو بۆ لۆگۆی کۆمپانیاکە بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblueskys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblueskys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A team of designers have been briefed to come up with blue-sky ideas to overhaul the company’s logo.",
+                            kurdishText:
+                                "تیمێک لە دیزاینەران داوایان لێکراوە بۆدۆزینەوەی بیرۆکەی تازە بۆ وردبینییەکی تەواو بۆ لۆگۆی کۆمپانیاکە بکەن.",
+                            onPressedBritish: () => speakblueskys2("en-GB"),
+                            onPressedAmerican: () => speakblueskys2("en-US"),
                           ),
                         ],
                       ),

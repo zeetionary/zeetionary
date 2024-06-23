@@ -181,187 +181,71 @@ class EnglishEntryalways extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) ھەمیشە؛ ھەمووکات" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Always lock your car."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەمیشە ئۆتۆمبێلەکەت دابخە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalways5699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalways5699(
-                                        // REPLACE: always /ˈɔːlweɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Always lock your car.",
+                            kurdishText: "ھەمیشە ئۆتۆمبێلەکەت دابخە.",
+                            onPressedBritish: () => speakalways5699("en-GB"),
+                            onPressedAmerican: () => speakalways5699(
+                                // REPLACE: always /ˈɔːlweɪz/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The children always seem to be hungry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکان ھەمیشە برسی دەردەکەون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalways48999("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalways48999(
-                                        // REPLACE: always /ˈɔːlweɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The children always seem to be hungry.",
+                            kurdishText: "منداڵەکان ھەمیشە برسی دەردەکەون.",
+                            onPressedBritish: () => speakalways48999("en-GB"),
+                            onPressedAmerican: () => speakalways48999(
+                                // REPLACE: always /ˈɔːlweɪz/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بۆ ماوەیەکی دوور و درێژ؛ لەوەتەی لەبیرت دێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is the way we've always done it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە ئەو ڕێگایە کە ھەمیشە بەکارمان ھێناوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalways4631("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalways4631(
-                                        // REPLACE: always /ˈɔːlweɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is the way we've always done it.",
+                            kurdishText:
+                                "ئەمە ئەو ڕێگایە کە ھەمیشە بەکارمان ھێناوە.",
+                            onPressedBritish: () => speakalways4631("en-GB"),
+                            onPressedAmerican: () => speakalways4631(
+                                // REPLACE: always /ˈɔːlweɪz/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) بۆ ھەمیشە لە داھاتوودا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'll always love you."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەمیشە خۆشمدەوێیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalways3477("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalways3477(
-                                        // REPLACE: always /ˈɔːlweɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'll always love you.",
+                            kurdishText: "ھەمیشە خۆشمدەوێیت.",
+                            onPressedBritish: () => speakalways3477("en-GB"),
+                            onPressedAmerican: () => speakalways3477(
+                                // REPLACE: always /ˈɔːlweɪz/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵکار) ھێندە زۆر کە بێزارکەرە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "That phone's always ringing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو موبایلە ھەمیشە زەنگ لێدەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalways47111("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalways47111(
-                                        // REPLACE: always /ˈɔːlweɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That phone's always ringing.",
+                            kurdishText: "ئەو موبایلە ھەمیشە زەنگ لێدەدات.",
+                            onPressedBritish: () => speakalways47111("en-GB"),
+                            onPressedAmerican: () => speakalways47111(
+                                // REPLACE: always /ˈɔːlweɪz/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵکار) بۆ پێشنیارکردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If he can't help, there's always John."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر بۆی ناکرێت، جۆن ھەردەم ئامادەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalways48666("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalways48666(
-                                        // REPLACE: always /ˈɔːlweɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If he can't help, there's always John.",
+                            kurdishText:
+                                "ئەگەر بۆی ناکرێت، جۆن ھەردەم ئامادەیە.",
+                            onPressedBritish: () => speakalways48666("en-GB"),
+                            onPressedAmerican: () => speakalways48666(
+                                // REPLACE: always /ˈɔːlweɪz/
+                                "en-US"),
                           ),
                         ],
                       ),

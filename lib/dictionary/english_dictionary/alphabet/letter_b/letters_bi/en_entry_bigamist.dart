@@ -147,32 +147,13 @@ class EnglishEntrybigamist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە ھاوسەرگیری لەگەڵ کەسێک دەکات لەکاتێکدا ھێشتا ھاوسەری کەسێکی ترە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The marriage is not valid if one spouse is a bigamist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوسەرگیرییەکە بە یاسایی دانانرێت ئەگەر یەکێک لە ھاوسەرەکان پێشوەختە ھاوژینێکی ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbigamists1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbigamists1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The marriage is not valid if one spouse is a bigamist.",
+                            kurdishText:
+                                "ھاوسەرگیرییەکە بە یاسایی دانانرێت ئەگەر یەکێک لە ھاوسەرەکان پێشوەختە ھاوژینێکی ھەبێت.",
+                            onPressedBritish: () => speakbigamists1("en-GB"),
+                            onPressedAmerican: () => speakbigamists1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -161,34 +161,15 @@ class EnglishEntryapplause extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) چەپڵەڕێزان و ھاواری گرووپێک لە خەڵک بەھۆی بەدڵبوونی شتێک یان دەربڕینی خۆشی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He left the stage to thunderous applause."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستەیجەکەی جێھێشت لەگەڵ چەپڵەڕێزانێکی زۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapplause534("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapplause534(
-                                        // REPLACE: applause /əˈplɔːz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He left the stage to thunderous applause.",
+                            kurdishText:
+                                "ستەیجەکەی جێھێشت لەگەڵ چەپڵەڕێزانێکی زۆر.",
+                            onPressedBritish: () => speakapplause534("en-GB"),
+                            onPressedAmerican: () => speakapplause534(
+                                // REPLACE: applause /əˈplɔːz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

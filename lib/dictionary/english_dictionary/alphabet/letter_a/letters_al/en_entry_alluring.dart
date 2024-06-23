@@ -116,34 +116,15 @@ class EnglishEntryalluring extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) جوان و سەرنجڕاکێش بەشێوەیەکی سیحراوی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was wearing a most alluring dress at the wedding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵڕفێنەرترین جلی لە ئاھەنگی ھاوسەرگیرییەکە لەبەرکردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalluring8588("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalluring8588(
-                                        // REPLACE: alluring /əˈlʊrɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was wearing a most alluring dress at the wedding.",
+                            kurdishText:
+                                "دڵڕفێنەرترین جلی لە ئاھەنگی ھاوسەرگیرییەکە لەبەرکردبوو.",
+                            onPressedBritish: () => speakalluring8588("en-GB"),
+                            onPressedAmerican: () => speakalluring8588(
+                                // REPLACE: alluring /əˈlʊrɪŋ/
+                                "en-US"),
                           ),
                         ],
                       ),

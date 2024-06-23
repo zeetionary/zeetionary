@@ -166,69 +166,31 @@ class EnglishEntryauthentication extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) سەلماندنی ئەوەی شتێک ڕاستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When buying jewellery, make sure you get a certificate of authentication."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتی کڕینی خشڵ، دڵنیابە لەوەی سەنەدی ڕەسەنێتی خشڵەکە وەربگری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthentication643("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthentication643(
-                                        // REPLACE: authentication
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When buying jewellery, make sure you get a certificate of authentication.",
+                            kurdishText:
+                                "لە کاتی کڕینی خشڵ، دڵنیابە لەوەی سەنەدی ڕەسەنێتی خشڵەکە وەربگری.",
+                            onPressedBritish: () =>
+                                speakauthentication643("en-GB"),
+                            onPressedAmerican: () => speakauthentication643(
+                                // REPLACE: authentication
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) سەلماندنی ناسنماەی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "User authentication is often performed with passwords."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەلماندنی ناسنامە زۆرجار بە تێپڕەوشە ئەنجام دەدرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthentication645("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthentication645(
-                                        // REPLACE: authentication
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "User authentication is often performed with passwords.",
+                            kurdishText:
+                                "سەلماندنی ناسنامە زۆرجار بە تێپڕەوشە ئەنجام دەدرێت.",
+                            onPressedBritish: () =>
+                                speakauthentication645("en-GB"),
+                            onPressedAmerican: () => speakauthentication645(
+                                // REPLACE: authentication
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

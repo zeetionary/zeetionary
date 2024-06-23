@@ -117,99 +117,39 @@ class EnglishEntryallocation extends StatelessWidget {
                               text:
                                   "١. (ناو) بڕێک لە شتێک، زۆرجار پارە، کە تەرخان دەکرێت بۆ مەبەستێک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have spent our entire allocation for the year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی گوژمەی ئەم ساڵەمان خەرجکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallocation1362("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallocation1362(
-                                        // REPLACE: allocation /ˌæləˈkeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have spent our entire allocation for the year.",
+                            kurdishText:
+                                "تەواوی گوژمەی ئەم ساڵەمان خەرجکردووە.",
+                            onPressedBritish: () =>
+                                speakallocation1362("en-GB"),
+                            onPressedAmerican: () => speakallocation1362(
+                                // REPLACE: allocation /ˌæləˈkeɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The charity is trying to get its allocation increased for next year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێکخراوە خێرخوازییەکە ھەوڵ دەدات بودجەکەی بۆ ساڵی داھاتوو زیاد بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallocation342("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallocation342(
-                                        // REPLACE: allocation /ˌæləˈkeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The charity is trying to get its allocation increased for next year.",
+                            kurdishText:
+                                "ڕێکخراوە خێرخوازییەکە ھەوڵ دەدات بودجەکەی بۆ ساڵی داھاتوو زیاد بکات.",
+                            onPressedBritish: () => speakallocation342("en-GB"),
+                            onPressedAmerican: () => speakallocation342(
+                                // REPLACE: allocation /ˌæləˈkeɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کرداری پێدانی بڕێک لە شتێک، زۆرجار پارە، بۆ مەبەستێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The allocation of space in this office is unusual."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێدانی شوێن لەم ئۆفیسەدا نامۆیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallocation359("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallocation359(
-                                        // REPLACE: allocation /ˌæləˈkeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The allocation of space in this office is unusual.",
+                            kurdishText: "پێدانی شوێن لەم ئۆفیسەدا نامۆیە.",
+                            onPressedBritish: () => speakallocation359("en-GB"),
+                            onPressedAmerican: () => speakallocation359(
+                                // REPLACE: allocation /ˌæləˈkeɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

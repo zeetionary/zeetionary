@@ -158,34 +158,15 @@ class EnglishEntryballistics extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لێکۆڵینەوەی زانستی لەو شتانەی کە بە ھەوادا دەھاوێژرێن، وەک فیشەک و موشەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is a ballistics expert at the FBI lab in Quantico."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پسپۆڕێکی ھاوێژەناسییە لە تاقیگەی ئێف-بی-ئای لە کوانتیکۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballisticss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballisticss1(// REPLACE: ballistics
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is a ballistics expert at the FBI lab in Quantico.",
+                            kurdishText:
+                                "پسپۆڕێکی ھاوێژەناسییە لە تاقیگەی ئێف-بی-ئای لە کوانتیکۆ.",
+                            onPressedBritish: () => speakballisticss1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballisticss1(// REPLACE: ballistics
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

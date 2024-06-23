@@ -113,34 +113,15 @@ class EnglishEntryadept extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شارەزا لە کردنی شتێکی گران"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was extremely adept at avoiding getting caught."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر شارەزا بوو لە خۆدزینەوە لە دەستگیرکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka2588("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka2588(// REPLACE: adept /əˈdept/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was extremely adept at avoiding getting caught.",
+                            kurdishText:
+                                "زۆر شارەزا بوو لە خۆدزینەوە لە دەستگیرکردن.",
+                            onPressedBritish: () => speaka2588("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka2588(// REPLACE: adept /əˈdept/
+                                    "en-US"),
                           ),
                         ],
                       ),

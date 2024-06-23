@@ -152,64 +152,26 @@ class EnglishEntrybathrobe extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) جلێک کە لەپێش و پاش خۆشتن دەپۆشرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I stepped out of the shower and wrapped myself in a fluffy white bathrobe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە گەرماوەکە ھاتمە دەرەوە و خۆم ئاڵاند لە خاولییەکی نەرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbathrobes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbathrobes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I stepped out of the shower and wrapped myself in a fluffy white bathrobe.",
+                            kurdishText:
+                                "لە گەرماوەکە ھاتمە دەرەوە و خۆم ئاڵاند لە خاولییەکی نەرم.",
+                            onPressedBritish: () => speakbathrobes1("en-GB"),
+                            onPressedAmerican: () => speakbathrobes1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) جلی ماڵەوە کە بەسەر جلی تردا لەبەردەکرێت"""),
                           const AlsoEnglishckb(word: "ھەروەھا: dressing gown"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was wearing a bathrobe and slippers when I answered the door."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جلی ماڵەوەی لەبەربوو و سۆلی لەپێبوو کە دەرگاکەم کردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbathrobes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbathrobes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was wearing a bathrobe and slippers when I answered the door.",
+                            kurdishText:
+                                "جلی ماڵەوەی لەبەربوو و سۆلی لەپێبوو کە دەرگاکەم کردەوە.",
+                            onPressedBritish: () => speakbathrobes2("en-GB"),
+                            onPressedAmerican: () => speakbathrobes2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

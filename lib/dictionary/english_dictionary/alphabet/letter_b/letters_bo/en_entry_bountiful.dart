@@ -150,63 +150,25 @@ class EnglishEntrybountiful extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بە ئاستێکی زۆر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We found a bountiful supply of coconuts on the island."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێژەیەکی زۆر لە پێبژیوی گوێزھندمان دۆزییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbountifuls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbountifuls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We found a bountiful supply of coconuts on the island.",
+                            kurdishText:
+                                "ڕێژەیەکی زۆر لە پێبژیوی گوێزھندمان دۆزییەوە.",
+                            onPressedBritish: () => speakbountifuls1("en-GB"),
+                            onPressedAmerican: () => speakbountifuls1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) دەستکراوە و میھرەبان بەرامبەر کەسانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her bountiful donations supported various charities in the community."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەخشینە میھرەبانەکانی پشتیوانی ژمارەیەک ڕێکخراوی خێرخوازی لە کۆمەڵگەکە دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbountifuls2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbountifuls2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her bountiful donations supported various charities in the community.",
+                            kurdishText:
+                                "بەخشینە میھرەبانەکانی پشتیوانی ژمارەیەک ڕێکخراوی خێرخوازی لە کۆمەڵگەکە دەکرد.",
+                            onPressedBritish: () => speakbountifuls2("en-GB"),
+                            onPressedAmerican: () => speakbountifuls2("en-US"),
                           ),
                         ],
                       ),

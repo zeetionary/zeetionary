@@ -151,124 +151,45 @@ class EnglishEntrybarely extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بەشێوەیەک کە بە ئاستێکی کەم ڕوودەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He could barely read and write."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەزەحمەت دەیتوانی نخوێنێتەوە و بنووسێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarelys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarelys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He could barely read and write.",
+                            kurdishText:
+                                "بەزەحمەت دەیتوانی نخوێنێتەوە و بنووسێت.",
+                            onPressedBritish: () => speakbarelys1("en-GB"),
+                            onPressedAmerican: () => speakbarelys1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بەشێوەیەکی زۆر کەم"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She barely acknowledged his presence."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەئاستەنگ گرنگی بە ئامادەیی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarelys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarelys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She barely acknowledged his presence.",
+                            kurdishText: "بەئاستەنگ گرنگی بە ئامادەیی دا.",
+                            onPressedBritish: () => speakbarelys2("en-GB"),
+                            onPressedAmerican: () => speakbarelys2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) زیاتر نا لە ڕێژەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Barely 50% of the population voted."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text: "تەنھا ٥٠٪ی دانیشتووان دەنگیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarelys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarelys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Barely 50% of the population voted.",
+                            kurdishText: "تەنھا ٥٠٪ی دانیشتووان دەنگیدا.",
+                            onPressedBritish: () => speakbarelys3("en-GB"),
+                            onPressedAmerican: () => speakbarelys3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵکار) تەنھا پێش ماوەیەکی کەم"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had barely started speaking when he interrupted me."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا کەمێک بوو قسەم کردبوو کە پێی بڕیم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarelys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarelys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had barely started speaking when he interrupted me.",
+                            kurdishText:
+                                "تەنھا کەمێک بوو قسەم کردبوو کە پێی بڕیم.",
+                            onPressedBritish: () => speakbarelys4("en-GB"),
+                            onPressedAmerican: () => speakbarelys4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

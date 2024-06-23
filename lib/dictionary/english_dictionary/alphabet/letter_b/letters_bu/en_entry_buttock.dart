@@ -191,32 +191,13 @@ class EnglishEntrybuttock extends StatelessWidget {
 کوردی: ڕان، سمت، لاقوون
 """),
                           const DefinitionKurdish(text: "١. (ناو) سمت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He fell down hard on his right buttock and slid along the path."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر سمتی ڕاستی کەوت و بە ڕێگاکەدا خشا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "buttock", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuttocks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuttocks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He fell down hard on his right buttock and slid along the path.",
+                            kurdishText:
+                                "لەسەر سمتی ڕاستی کەوت و بە ڕێگاکەدا خشا.", // buttock", follow LX strictly
+                            onPressedBritish: () => speakbuttocks1("en-GB"),
+                            onPressedAmerican: () => speakbuttocks1("en-US"),
                           ),
                         ],
                       ),

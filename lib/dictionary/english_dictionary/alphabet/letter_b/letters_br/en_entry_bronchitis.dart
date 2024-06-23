@@ -140,32 +140,13 @@ class EnglishEntrybronchitis extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) نەخۆشی کە تووشی ئەو بۆڕیچکانە دەبن کە لە قوڕگەوە بۆ سنگ دەچن و دەبێتە ھۆی ئاوساوی و کۆکە و ھەناسەتەنگی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was suffering from chronic bronchitis."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تووشی ھەوکردنی درێژخایەنی لقە بۆرییەکانی ھەوای بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bronchitis" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbronchitiss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbronchitiss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was suffering from chronic bronchitis.",
+                            kurdishText:
+                                "تووشی ھەوکردنی درێژخایەنی لقە بۆرییەکانی ھەوای بوو.", // bronchitis" as
+                            onPressedBritish: () => speakbronchitiss1("en-GB"),
+                            onPressedAmerican: () => speakbronchitiss1("en-US"),
                           ),
                         ],
                       ),

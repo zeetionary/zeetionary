@@ -194,120 +194,44 @@ class EnglishEntrybush extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕووەکێک کە بە ئەستووری گەشە دەکات و چەند قەدێکی سەختی ھەیە کە لە ڕەگەکەیەوە دەردەچن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was hiding in the bushes at the side of the lane."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە قەراغ ڕێگاکەدا لەناو دەوەنەکەدا خۆی حەشاردابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bush", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbushs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbushs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was hiding in the bushes at the side of the lane.",
+                            kurdishText:
+                                "لە قەراغ ڕێگاکەدا لەناو دەوەنەکەدا خۆی حەشاردابوو.", // bush", follow LX strictly
+                            onPressedBritish: () => speakbushs1("en-GB"),
+                            onPressedAmerican: () => speakbushs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ڕێژەیەکی زۆر لە موو، بەتایبەت مووی بەشی بەرگەدەی ژنان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The baby was born with a bush of black hair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکە لەدایکبوو بە قژێکی زۆری ڕەشەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbushs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbushs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The baby was born with a bush of black hair.",
+                            kurdishText:
+                                "منداڵەکە لەدایکبوو بە قژێکی زۆری ڕەشەوە.",
+                            onPressedBritish: () => speakbushs2("en-GB"),
+                            onPressedAmerican: () => speakbushs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ناوچەیەک کە پاکنەکراوەتوە، بۆ نموونە لە دار"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They went out into the bush."),
-                                    ExampleSentenceKurdish(
-                                        text: "چوون بۆ دەشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbushs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbushs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They went out into the bush.",
+                            kurdishText: "چوون بۆ دەشت.",
+                            onPressedBritish: () => speakbushs3("en-GB"),
+                            onPressedAmerican: () => speakbushs3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Children are taught from an early age how to survive in the bush."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵان لە تەمەنێکی گەنجدا فێردەکرێن چۆن لە دەشتدا دەربازبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbushs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbushs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Children are taught from an early age how to survive in the bush.",
+                            kurdishText:
+                                "منداڵان لە تەمەنێکی گەنجدا فێردەکرێن چۆن لە دەشتدا دەربازبن.",
+                            onPressedBritish: () => speakbushs4("en-GB"),
+                            onPressedAmerican: () => speakbushs4("en-US"),
                           ),
                         ],
                       ),

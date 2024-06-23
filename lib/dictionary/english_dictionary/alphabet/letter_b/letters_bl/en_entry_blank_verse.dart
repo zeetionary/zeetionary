@@ -145,32 +145,13 @@ class EnglishEntryblankverse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھەڵبەستی سپی یان ئازاد، ھۆنراوەی یان شێعری بێ‌سەروا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The playwright chose to write the entire play in blank verse for a more natural and conversational tone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شانۆنووسەکە بڕیاریدا تەواوی شانۆکە بە ھەڵبەستی ئازاد بنووسێت بۆ پێدانی تۆنێکی سرووشتی و گفتوگۆیانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblankverses1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblankverses1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The playwright chose to write the entire play in blank verse for a more natural and conversational tone.",
+                            kurdishText:
+                                "شانۆنووسەکە بڕیاریدا تەواوی شانۆکە بە ھەڵبەستی ئازاد بنووسێت بۆ پێدانی تۆنێکی سرووشتی و گفتوگۆیانە.",
+                            onPressedBritish: () => speakblankverses1("en-GB"),
+                            onPressedAmerican: () => speakblankverses1("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

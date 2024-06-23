@@ -195,125 +195,49 @@ class EnglishEntrybuoy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچە شتێک کە سەرئاو دەکەوێت و وەک ئاماژە بەکاردێت کە کوێی ئاوەکە مەترسیدارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A series of buoys marked the underwater cable route to prevent accidental damage by boats."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک تۆپەی سەراوکەوتە شوێنی کێبڵە ژێر دەریاییەکانیان دەستنیشان دەکرد بۆ ڕێگری لە زیانی بەڕێکەوت لەلایەن بەلەمەکانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "buoy", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuoys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuoys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A series of buoys marked the underwater cable route to prevent accidental damage by boats.",
+                            kurdishText:
+                                "ژمارەیەک تۆپەی سەراوکەوتە شوێنی کێبڵە ژێر دەریاییەکانیان دەستنیشان دەکرد بۆ ڕێگری لە زیانی بەڕێکەوت لەلایەن بەلەمەکانەوە.", // buoy", follow LX strictly
+                            onPressedBritish: () => speakbuoys1("en-GB"),
+                            onPressedAmerican: () => speakbuoys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) دڵخۆشکردن یان متمانە بەخشین بە کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Buoyed by their win yesterday the team feel confident of further success."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەدڵخۆشبوون بە سەرکەوتنی دوێنێیان تیمەکە ھەست بە متمانە دەکەن بۆ سەرکەوتنی زیاتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuoys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuoys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Buoyed by their win yesterday the team feel confident of further success.",
+                            kurdishText:
+                                "بەدڵخۆشبوون بە سەرکەوتنی دوێنێیان تیمەکە ھەست بە متمانە دەکەن بۆ سەرکەوتنی زیاتر.",
+                            onPressedBritish: () => speakbuoys2("en-GB"),
+                            onPressedAmerican: () => speakbuoys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) ڕاگرتنی کەسێک/شتێک بە سەرئاوکەوتووی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The very salty water buoyed her (up) as she swam."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاوە زۆر سوێرەکە بە سەراوکەوتووی ھێشتییەوە کە مەلەوانی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuoys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuoys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The very salty water buoyed her (up) as she swam.",
+                            kurdishText:
+                                "ئاوە زۆر سوێرەکە بە سەراوکەوتووی ھێشتییەوە کە مەلەوانی دەکرد.",
+                            onPressedBritish: () => speakbuoys3("en-GB"),
+                            onPressedAmerican: () => speakbuoys3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) ھێشتنەوەی نرخ بە بەرزی یان ئاستێک کە پەسەند بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "House prices have been buoyed (up) in the area by the possibility of a new factory opening."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخی خانوو بەرزبووەتەوە لە ناوچەکە بەھۆی ئەگەری کردنەوەی کارگەیەکی تازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuoys4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuoys4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "House prices have been buoyed (up) in the area by the possibility of a new factory opening.",
+                            kurdishText:
+                                "نرخی خانوو بەرزبووەتەوە لە ناوچەکە بەھۆی ئەگەری کردنەوەی کارگەیەکی تازە.",
+                            onPressedBritish: () => speakbuoys4("en-GB"),
+                            onPressedAmerican: () => speakbuoys4("en-US"),
                           ),
                         ],
                       ),

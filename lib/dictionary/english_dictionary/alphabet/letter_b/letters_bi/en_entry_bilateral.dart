@@ -153,92 +153,35 @@ class EnglishEntrybilateral extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شتێک کە دوو گرووپ لە خەڵکی یان دوو وڵات تێیدا بەژدارن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Both nations have signed bilateral treaties with the United States."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو وڵات ڕێککەوتنی دوولایەنەیان لەگەڵ نەتەوە یەکگرتووەکان واژۆ کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbilaterals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbilaterals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Both nations have signed bilateral treaties with the United States.",
+                            kurdishText:
+                                "ھەردوو وڵات ڕێککەوتنی دوولایەنەیان لەگەڵ نەتەوە یەکگرتووەکان واژۆ کرد.",
+                            onPressedBritish: () => speakbilaterals1("en-GB"),
+                            onPressedAmerican: () => speakbilaterals1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک کە ھەردوو بەشی شتێکی جەستەی مرۆڤی گرتووەتەوە کە خۆی دوو بەشە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The doctor performed a bilateral mastectomy to remove both breasts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پزیشکەکە مەمک‌بڕی لەسەر ھەردوو مەمکی ئەنجامدا بۆ بڕینەوەیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbilaterals2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbilaterals2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The doctor performed a bilateral mastectomy to remove both breasts.",
+                            kurdishText:
+                                "پزیشکەکە مەمک‌بڕی لەسەر ھەردوو مەمکی ئەنجامدا بۆ بڕینەوەیان.",
+                            onPressedBritish: () => speakbilaterals2("en-GB"),
+                            onPressedAmerican: () => speakbilaterals2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The patient had bilateral vision loss due to glaucoma."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشەکە نەبوونی بینایی (کوێری) لە ھەردوو چاویدا ھەبوو بەھۆی گلوکۆماوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbilaterals3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbilaterals3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The patient had bilateral vision loss due to glaucoma.",
+                            kurdishText:
+                                "نەخۆشەکە نەبوونی بینایی (کوێری) لە ھەردوو چاویدا ھەبوو بەھۆی گلوکۆماوە.",
+                            onPressedBritish: () => speakbilaterals3("en-GB"),
+                            onPressedAmerican: () => speakbilaterals3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

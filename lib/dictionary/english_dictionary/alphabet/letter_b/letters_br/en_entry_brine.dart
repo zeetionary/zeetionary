@@ -145,32 +145,13 @@ class EnglishEntrybrine extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئاوێک کە خوێی زۆری تێدایە، زۆرجار بۆ پاراستنی خواردن لە ناویدا بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Fishermen use brine to preserve their catch during long sea voyages."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ماسیگران ئاووخوێ بەکاردێنن بۆ پاراستنی ئەوەی گرتوویانە لە کاتی گەشتی درێژی دەریاییدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brine" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Fishermen use brine to preserve their catch during long sea voyages.",
+                            kurdishText:
+                                "ماسیگران ئاووخوێ بەکاردێنن بۆ پاراستنی ئەوەی گرتوویانە لە کاتی گەشتی درێژی دەریاییدا.", // brine" as
+                            onPressedBritish: () => speakbrines1("en-GB"),
+                            onPressedAmerican: () => speakbrines1("en-US"),
                           ),
                         ],
                       ),

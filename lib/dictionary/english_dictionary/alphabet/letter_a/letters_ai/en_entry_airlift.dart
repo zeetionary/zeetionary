@@ -109,66 +109,28 @@ class EnglishEntryairlift extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئۆپەراسیۆنی گواستنەوەی خەڵکی بە فڕۆکە لە ناوچەیەکی مەترسیدار یان لێقەوماو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The German authorities are considering an airlift if the situation becomes critical."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەسەڵاتدارانی ئەڵمانیا بیر لە ئۆپەراسیۆنی گواستنەوەی ڕزگارکردن بە فڕۆکە دەکەنەوە لە حاڵەتی خراپبوونی دۆخەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairlift43555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairlift43555(
-                                        // REPLACE: airlift /ˈerlɪft/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The German authorities are considering an airlift if the situation becomes critical.",
+                            kurdishText:
+                                "دەسەڵاتدارانی ئەڵمانیا بیر لە ئۆپەراسیۆنی گواستنەوەی ڕزگارکردن بە فڕۆکە دەکەنەوە لە حاڵەتی خراپبوونی دۆخەکە.",
+                            onPressedBritish: () => speakairlift43555("en-GB"),
+                            onPressedAmerican: () => speakairlift43555(
+                                // REPLACE: airlift /ˈerlɪft/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) گواستنەوەی کەسێک بە فڕۆکە لە شوێنێکی مەترسیدار یان لێقەوماو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Over 200 residents were airlifted off the island."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیاتر لە ٢٠٠ کەس لە دوورگەکە بە فڕۆکە ڕزگارکران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairlift3522("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairlift3522(
-                                        // REPLACE: airlift /ˈerlɪft/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Over 200 residents were airlifted off the island.",
+                            kurdishText:
+                                "زیاتر لە ٢٠٠ کەس لە دوورگەکە بە فڕۆکە ڕزگارکران.",
+                            onPressedBritish: () => speakairlift3522("en-GB"),
+                            onPressedAmerican: () => speakairlift3522(
+                                // REPLACE: airlift /ˈerlɪft/
+                                "en-US"),
                           ),
                         ],
                       ),

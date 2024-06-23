@@ -158,34 +158,15 @@ class EnglishEntrybalustrade extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) سیاجی پلەکانە یان بەرھەیوان بۆ ڕێگری لە کەوتنەخوارەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The balustrade of the grand staircase has been painted white."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیاجی پلەکانە گەورەکە بۆیەی سپی کراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbalustrades1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbalustrades1(// REPLACE: balustrade
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The balustrade of the grand staircase has been painted white.",
+                            kurdishText:
+                                "سیاجی پلەکانە گەورەکە بۆیەی سپی کراوە.",
+                            onPressedBritish: () => speakbalustrades1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbalustrades1(// REPLACE: balustrade
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

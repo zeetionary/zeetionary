@@ -144,94 +144,36 @@ class EnglishEntrybreeding extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بەخێوکردنی ئاژەڵ بۆ وەچەخستنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The family's business was horse-breeding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیشەی خێزانەکە بەخێوکردنی ئەسپ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "breeding" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreedings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreedings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The family's business was horse-breeding.",
+                            kurdishText:
+                                "پیشەی خێزانەکە بەخێوکردنی ئەسپ بوو.", // breeding" as
+                            onPressedBritish: () => speakbreedings1("en-GB"),
+                            onPressedAmerican: () => speakbreedings1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) زاوزێکردن یان درووستکردنی وەچە یان ڕووەکی تازە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The penguins' breeding season has begun."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەرزی زاوزێی پەنگوین دەستیپێکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreedings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreedings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The penguins' breeding season has begun.",
+                            kurdishText: "وەرزی زاوزێی پەنگوین دەستیپێکردووە.",
+                            onPressedBritish: () => speakbreedings2("en-GB"),
+                            onPressedAmerican: () => speakbreedings2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) پێشینەی کۆمەڵایەتی یان خێزانی کە باوەڕوایە ھەڵسوکەوتی باش بەرھەمەکەی دەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her good breeding shows in her exquisite manners."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەروەردەی باشی لە ھەڵسوکەوتی جوانیدا دەردەکەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreedings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreedings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her good breeding shows in her exquisite manners.",
+                            kurdishText:
+                                "پەروەردەی باشی لە ھەڵسوکەوتی جوانیدا دەردەکەوێت.",
+                            onPressedBritish: () => speakbreedings3("en-GB"),
+                            onPressedAmerican: () => speakbreedings3("en-US"),
                           ),
                         ],
                       ),

@@ -159,35 +159,14 @@ class EnglishEntryantibiotic extends StatelessWidget {
                               text:
                                   "١. (ناو) مادەیەک، بۆ نموونە پێنی‌سیلین، کە دەتوانێت گەشەی بەکتریا بوەستێنێت و تووشبوون بە نەخۆشی چارەسەر بکات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The doctor put her on antibiotics (= told her to take them)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دکتۆرەکە پێی‌گوت دژەبەکتریا بخوات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantibiotic958("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantibiotic958(
-                                        // REPLACE: antibiotic /ˌæntibaɪˈɑːtɪk/, /ˌæntaɪbaɪˈɑːtɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The doctor put her on antibiotics (= told her to take them).",
+                            kurdishText: "دکتۆرەکە پێی‌گوت دژەبەکتریا بخوات.",
+                            onPressedBritish: () => speakantibiotic958("en-GB"),
+                            onPressedAmerican: () => speakantibiotic958(
+                                // REPLACE: antibiotic /ˌæntibaɪˈɑːtɪk/, /ˌæntaɪbaɪˈɑːtɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

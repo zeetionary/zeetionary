@@ -164,34 +164,15 @@ class EnglishEntryasp extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) مارێکی بچووک کە لە ڕۆژاوای ئەورووپا دەژی، و ناوێکی گشتگیر بۆ ژمارەیەک ماری بچووکی باکووری ئەفریقا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cleopatra, according to legend, committed suicide by an asp's bite."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەپێی ئەفسانەکان کلیۆپاترا بە گازی ماری ئاسپ خۆی کووشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakasp945("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakasp945(// REPLACE: asp /æsp/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Cleopatra, according to legend, committed suicide by an asp's bite.",
+                            kurdishText:
+                                "بەپێی ئەفسانەکان کلیۆپاترا بە گازی ماری ئاسپ خۆی کووشت.",
+                            onPressedBritish: () => speakasp945("en-GB"),
+                            onPressedAmerican: () =>
+                                speakasp945(// REPLACE: asp /æsp/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

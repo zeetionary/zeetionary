@@ -111,34 +111,15 @@ class EnglishEntryaffix extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) لکاندنی شتێک بە شتێکەوە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sticker must be affixed to your windshield."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ستیکەرەکە ئەبێت بلکێنرێت بە جامی ئۆتۆمبێلەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffix911("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaffix911(// REPLACE: affix /əˈfɪks/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sticker must be affixed to your windshield.",
+                            kurdishText:
+                                "ستیکەرەکە ئەبێت بلکێنرێت بە جامی ئۆتۆمبێلەکەوە.",
+                            onPressedBritish: () => speakaffix911("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaffix911(// REPLACE: affix /əˈfɪks/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """

@@ -157,67 +157,28 @@ class EnglishEntryannex extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) داگیرکردنی وڵاتێک یان ناوچەیەک بە ھێز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Germany annexed Austria in 1938."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەڵمانیا نەمسای داگیرکرد لە ساڵی ١٩٣٨."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannex1135("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannex1135(
-                                        // REPLACE: annex /ˈæneks/, /əˈneks/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Germany annexed Austria in 1938.",
+                            kurdishText:
+                                "ئەڵمانیا نەمسای داگیرکرد لە ساڵی ١٩٣٨.",
+                            onPressedBritish: () => speakannex1135("en-GB"),
+                            onPressedAmerican: () => speakannex1135(
+                                // REPLACE: annex /ˈæneks/, /əˈneks/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ژوورێکی زیادە کە زیاد دەکرێت بۆ ژوورێکی گەورەتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Delicate and valuable books are kept in an air-conditioned annex to the main library."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannex1140("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannex1140(
-                                        // REPLACE: annex /ˈæneks/, /əˈneks/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Delicate and valuable books are kept in an air-conditioned annex to the main library.",
+                            kurdishText:
+                                "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە.",
+                            onPressedBritish: () => speakannex1140("en-GB"),
+                            onPressedAmerican: () => speakannex1140(
+                                // REPLACE: annex /ˈæneks/, /əˈneks/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

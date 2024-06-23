@@ -144,124 +144,47 @@ class EnglishEntrybrisk extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) سەرقاڵ و بەبێ وەستان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ice-cream vendors were doing a brisk trade (= selling a lot of ice cream)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فرۆشیارانی ئایس کریم بازاڕی باشیان ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brisk" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrisks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrisks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ice-cream vendors were doing a brisk trade (= selling a lot of ice cream).",
+                            kurdishText:
+                                "فرۆشیارانی ئایس کریم بازاڕی باشیان ھەبوو.", // brisk" as
+                            onPressedBritish: () => speakbrisks1("en-GB"),
+                            onPressedAmerican: () => speakbrisks1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) خێرا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We went for a brisk walk before lunch."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێش نیوەڕۆ چووین بۆ پیاسەیەکی خێرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrisks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrisks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We went for a brisk walk before lunch.",
+                            kurdishText: "پێش نیوەڕۆ چووین بۆ پیاسەیەکی خێرا.",
+                            onPressedBritish: () => speakbrisks2("en-GB"),
+                            onPressedAmerican: () => speakbrisks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) کەسێک، یان دەنگ و ڕەفتاری، کە متمانەی پێوە دیارە و حەزدەکات شتەکان بەخێرایی بکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her tone on the phone was brisk (= she spoke quickly and used few words) and businesslike."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆنی دەنگی لە تەلەفۆنەکەدا خێرا و بازرگانیانە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrisks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrisks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her tone on the phone was brisk (= she spoke quickly and used few words) and businesslike.",
+                            kurdishText:
+                                "تۆنی دەنگی لە تەلەفۆنەکەدا خێرا و بازرگانیانە بوو.",
+                            onPressedBritish: () => speakbrisks3("en-GB"),
+                            onPressedAmerican: () => speakbrisks3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) کەشێک یان بایەک کە ساردە بەڵام خۆشە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A a brisk wind started once we got into the island."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بایەکی فێنک دەستیپێکرد کە گەشتینە دوورگەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrisks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrisks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A a brisk wind started once we got into the island.",
+                            kurdishText:
+                                "بایەکی فێنک دەستیپێکرد کە گەشتینە دوورگەکە.",
+                            onPressedBritish: () => speakbrisks4("en-GB"),
+                            onPressedAmerican: () => speakbrisks4("en-US"),
                           ),
                         ],
                       ),

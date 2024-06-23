@@ -141,32 +141,13 @@ class EnglishEntrybreezily extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) ئێسک‌سووکانە، دڵخۆشانە و ئاسوودانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She breezily asked her ex if he was seeing anyone now."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئاسوودەییەوە پرسی لە خۆشەویستی پێشووی ئەگەر ئێستا لەگەڵ کەس پەیوەندی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "breezily" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreezilys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreezilys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She breezily asked her ex if he was seeing anyone now.",
+                            kurdishText:
+                                "بە ئاسوودەییەوە پرسی لە خۆشەویستی پێشووی ئەگەر ئێستا لەگەڵ کەس پەیوەندی ھەیە.", // breezily" as
+                            onPressedBritish: () => speakbreezilys1("en-GB"),
+                            onPressedAmerican: () => speakbreezilys1("en-US"),
                           ),
                         ],
                       ),

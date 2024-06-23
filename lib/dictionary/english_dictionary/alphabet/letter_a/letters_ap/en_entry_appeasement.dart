@@ -165,66 +165,28 @@ class EnglishEntryappeasement extends StatelessWidget {
                               text:
                                   "١. (ناو) ئارامکردنەوە یان ڕێگری لە ناکۆکی بە پێدانی ئەوەی کەسێک دەیەوێ"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When he agreed to talks with the prime minister, he was accused of appeasement."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە ڕازیبوو بە دانیشتن لەگەڵ سەرۆک وەزیران، بە ھەوڵدان بۆ دانوستان تۆمەتبارکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappeasement("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappeasement(
-                                        // REPLACE: appeasement /əˈpiːzmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When he agreed to talks with the prime minister, he was accused of appeasement.",
+                            kurdishText:
+                                "کە ڕازیبوو بە دانیشتن لەگەڵ سەرۆک وەزیران، بە ھەوڵدان بۆ دانوستان تۆمەتبارکرا.",
+                            onPressedBritish: () => speakappeasement("en-GB"),
+                            onPressedAmerican: () => speakappeasement(
+                                // REPLACE: appeasement /əˈpiːzmənt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The statues were devoted to the glory and appeasement of the gods."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەیکەرەکان بەخشران بۆ پیاھەڵدان و دڵ‌ڕەواندنەوەی خوداکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakappeasement1242("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappeasement1242(
-                                        // REPLACE: appeasement /əˈpiːzmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The statues were devoted to the glory and appeasement of the gods.",
+                            kurdishText:
+                                "پەیکەرەکان بەخشران بۆ پیاھەڵدان و دڵ‌ڕەواندنەوەی خوداکان.",
+                            onPressedBritish: () =>
+                                speakappeasement1242("en-GB"),
+                            onPressedAmerican: () => speakappeasement1242(
+                                // REPLACE: appeasement /əˈpiːzmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -101,32 +101,13 @@ class EnglishEntryaccelerator extends StatelessWidget {
                               text:
                                   "١. ئەو بەشەی ئۆتۆمبێل کە بەکاردێت بۆ کۆنترۆڵی خێرایی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She put her foot on the accelerator and we sped through the traffic lights."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێی لەسەر بەنزین دانا و بەخێرایی بە ترافیک لایتەکە تێپەڕین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac45871("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac45871("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She put her foot on the accelerator and we sped through the traffic lights.",
+                            kurdishText:
+                                "پێی لەسەر بەنزین دانا و بەخێرایی بە ترافیک لایتەکە تێپەڕین.",
+                            onPressedBritish: () => speakac45871("en-GB"),
+                            onPressedAmerican: () => speakac45871("en-US"),
                           ),
                         ],
                       ),

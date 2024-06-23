@@ -155,34 +155,15 @@ class EnglishEntrybandy extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) لاق چەماوە و بڵاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I couldn't help laughing at his bandy legs."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەمدەتوانی خۆم بگرم لە پێکەنین بە لاقە چەماوەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbandys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbandys1(// REPLACE: bandy
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I couldn't help laughing at his bandy legs.",
+                            kurdishText:
+                                "نەمدەتوانی خۆم بگرم لە پێکەنین بە لاقە چەماوەکانی.",
+                            onPressedBritish: () => speakbandys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbandys1(// REPLACE: bandy
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

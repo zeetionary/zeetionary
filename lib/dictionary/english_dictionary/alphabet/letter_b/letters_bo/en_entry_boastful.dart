@@ -149,32 +149,13 @@ class EnglishEntryboastful extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) قسەکردن لەسەر خۆت بە شانازی و فیزەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I tried to emphasize my good points without sounding boastful."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵم دا جەخت لەسەر خاڵە باشەکان بکەمەوە بەبێ ئەوەی فیزن دەربکەوم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboastfuls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboastfuls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I tried to emphasize my good points without sounding boastful.",
+                            kurdishText:
+                                "ھەوڵم دا جەخت لەسەر خاڵە باشەکان بکەمەوە بەبێ ئەوەی فیزن دەربکەوم.",
+                            onPressedBritish: () => speakboastfuls1("en-GB"),
+                            onPressedAmerican: () => speakboastfuls1("en-US"),
                           ),
                         ],
                       ),

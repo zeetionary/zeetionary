@@ -159,34 +159,13 @@ class EnglishEntryASCII extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کۆدی ستاندارد بۆ گواستنەوەی زانیاری لە کۆمپیوتەرێک بۆ یەکێکی تر کە دوو پرۆگرامی جیاواز بەکاردێنن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Save the text as an ASCII file."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نووسراوەکە بە فایلێکی ئاسکی باربکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakascii130("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakascii130(// REPLACE: ASCII /ˈæski/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Save the text as an ASCII file.",
+                            kurdishText: "نووسراوەکە بە فایلێکی ئاسکی باربکە.",
+                            onPressedBritish: () => speakascii130("en-GB"),
+                            onPressedAmerican: () =>
+                                speakascii130(// REPLACE: ASCII /ˈæski/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

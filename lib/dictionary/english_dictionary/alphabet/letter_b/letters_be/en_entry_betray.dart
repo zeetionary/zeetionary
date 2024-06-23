@@ -149,183 +149,69 @@ class EnglishEntrybetray extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) پێدانی زانیاری بە دوژمن یان ڕکابەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was offered money to betray his colleagues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارەی پێدرا تا ناپاکی لە ھاوڕێکانی بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetrays1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetrays1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was offered money to betray his colleagues.",
+                            kurdishText:
+                                "پارەی پێدرا تا ناپاکی لە ھاوڕێکانی بکات.",
+                            onPressedBritish: () => speakbetrays1("en-GB"),
+                            onPressedAmerican: () => speakbetrays1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "For years they had been betraying state secrets to Russia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ چەندین ساڵ نھێنی وڵاتیان بە ڕووسیا دەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetrays2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetrays2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "For years they had been betraying state secrets to Russia.",
+                            kurdishText:
+                                "بۆ چەندین ساڵ نھێنی وڵاتیان بە ڕووسیا دەدا.",
+                            onPressedBritish: () => speakbetrays2("en-GB"),
+                            onPressedAmerican: () => speakbetrays2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ئازاردانی کەسێک کە متمانەی پێتە، بە تایبەتی بە درۆکردن لەگەڵیان یان درۆکردن لەسەریان، یان درکاندنی نھێنیان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She felt betrayed when she found out the truth about him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستی بە دڵشکاوی کرد کە ڕاستییەکەی لەسەری زانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetrays3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetrays3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She felt betrayed when she found out the truth about him.",
+                            kurdishText:
+                                "ھەستی بە دڵشکاوی کرد کە ڕاستییەکەی لەسەری زانی.",
+                            onPressedBritish: () => speakbetrays3("en-GB"),
+                            onPressedAmerican: () => speakbetrays3("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She betrayed his trust over and over again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دووبارە و دووبارە خیانەتی لە متمانەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetrays4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetrays4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She betrayed his trust over and over again.",
+                            kurdishText:
+                                "دووبارە و دووبارە خیانەتی لە متمانەی کرد.",
+                            onPressedBritish: () => speakbetrays4("en-GB"),
+                            onPressedAmerican: () => speakbetrays4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) خیانەتکردن لە بەھا و متمانەی خۆت لە پێناو بەدەستھێنانی شتێک یان سوودمەند بوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Critics claim he has betrayed the communist movement for his own gain."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەخنەگران بانگەشەی ئەوە دەکەن کە وازی لە جوڵانەوەی کۆمیونیزم ھێناوە بۆ بەرژەوەندی خۆی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetrays4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetrays4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Critics claim he has betrayed the communist movement for his own gain.",
+                            kurdishText:
+                                "ڕەخنەگران بانگەشەی ئەوە دەکەن کە وازی لە جوڵانەوەی کۆمیونیزم ھێناوە بۆ بەرژەوەندی خۆی.",
+                            onPressedBritish: () => speakbetrays4("en-GB"),
+                            onPressedAmerican: () => speakbetrays4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) وتن یان ئاگادارکردنەوەی کەسێک لە زانیارییەک، ھەستێک، ھتد، زۆرجار بەبێ مەبەست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His voice betrayed the worry he was trying to hide."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەنگی ئەو دڵەخورپەی ئاشکرا کرد کە دەیویست بیشارێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbetrays5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbetrays5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His voice betrayed the worry he was trying to hide.",
+                            kurdishText:
+                                "دەنگی ئەو دڵەخورپەی ئاشکرا کرد کە دەیویست بیشارێتەوە.",
+                            onPressedBritish: () => speakbetrays5("en-GB"),
+                            onPressedAmerican: () => speakbetrays5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

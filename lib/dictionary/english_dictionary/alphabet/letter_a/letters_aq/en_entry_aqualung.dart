@@ -158,34 +158,15 @@ class EnglishEntryaqualung extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دەسگایەک کە کەسێک لەسەر پشتیان دەیبەستن بۆ ھەناسەدان لەژێر ئاودا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The word 'aqualung' is a combination of 'aqua' for water and 'lung' for breathing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وشەی 'aqualung' لێکدراوی وشەکانی 'aqua' بە واتای ئاو و 'lung' بە واتای ھەناسەدانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaqualung836("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaqualung836(
-                                        // REPLACE: aqualung /ˈɑːkwəlʌŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The word 'aqualung' is a combination of 'aqua' for water and 'lung' for breathing.",
+                            kurdishText:
+                                "وشەی 'aqualung' لێکدراوی وشەکانی 'aqua' بە واتای ئاو و 'lung' بە واتای ھەناسەدانە.",
+                            onPressedBritish: () => speakaqualung836("en-GB"),
+                            onPressedAmerican: () => speakaqualung836(
+                                // REPLACE: aqualung /ˈɑːkwəlʌŋ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

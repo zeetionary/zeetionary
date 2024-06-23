@@ -166,98 +166,41 @@ class EnglishEntryattorney extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پارێزەر، بەتایبەتی یەکێک کە دەتوانێت لە دادگا کارت بۆ بکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Acting on the advice of his attorney, he remained silent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر داوای پارێزەرەکەی بێ‌دەنگ مایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattorney1101("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattorney1101(// REPLACE: attorney
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Acting on the advice of his attorney, he remained silent.",
+                            kurdishText:
+                                "لەسەر داوای پارێزەرەکەی بێ‌دەنگ مایەوە.",
+                            onPressedBritish: () => speakattorney1101("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattorney1101(// REPLACE: attorney
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The defence attorney requested an adjournment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارێزەری داوالێکراو داوای وچانێکی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattorney1103("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattorney1103(// REPLACE: attorney
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The defence attorney requested an adjournment.",
+                            kurdishText:
+                                "پارێزەری داوالێکراو داوای وچانێکی کرد.",
+                            onPressedBritish: () => speakattorney1103("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattorney1103(// REPLACE: attorney
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە دەسەڵاتی پێدەدرێت لە جێگەی کەسێکی تر بڕیار بدات لە کەیسی بازرگانی و یاساییدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was made her father's attorney when he became ill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کرا بە بریکاری باوکی کە ئەو نەخۆش کەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattorney1107("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattorney1107(// REPLACE: attorney
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was made her father's attorney when he became ill.",
+                            kurdishText:
+                                "کرا بە بریکاری باوکی کە ئەو نەخۆش کەوت.",
+                            onPressedBritish: () => speakattorney1107("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattorney1107(// REPLACE: attorney
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

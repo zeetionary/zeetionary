@@ -157,67 +157,29 @@ class EnglishEntrybarbaric extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) دڕندە و توندوتیژ بەشێوەیەک کە لە کەسانی خوێندەوار کە ڕێزی یەکدی دەگرن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The way these animals are killed is barbaric."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێوازی کووشتنی ئەم ئاژەڵانە ناشارستانیەتانەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarbarics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarbarics1(// REPLACE: barbaric
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The way these animals are killed is barbaric.",
+                            kurdishText:
+                                "شێوازی کووشتنی ئەم ئاژەڵانە ناشارستانیەتانەیە.",
+                            onPressedBritish: () => speakbarbarics1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarbarics1(// REPLACE: barbaric
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بە خەڵکی دەشتەکی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The tribe lived a barbaric existence, isolated from the rest of the world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خێڵەکە ژیانێکی ناشارستانی دەژیان، دابڕاو لە جیھانی دەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarbarics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarbarics2(// REPLACE: barbaric
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The tribe lived a barbaric existence, isolated from the rest of the world.",
+                            kurdishText:
+                                "خێڵەکە ژیانێکی ناشارستانی دەژیان، دابڕاو لە جیھانی دەرەوە.",
+                            onPressedBritish: () => speakbarbarics2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarbarics2(// REPLACE: barbaric
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

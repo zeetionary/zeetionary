@@ -112,62 +112,24 @@ class EnglishEntryaimless extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) بێ پلان و ئاراستە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "My life seemed aimless."),
-                                    ExampleSentenceKurdish(
-                                        text: "ژیانم بێ ئامانج دیاربوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaimless25388("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaimless25388(
-                                        // REPLACE: aimless /ˈeɪmləs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My life seemed aimless.",
+                            kurdishText: "ژیانم بێ ئامانج دیاربوو.",
+                            onPressedBritish: () => speakaimless25388("en-GB"),
+                            onPressedAmerican: () => speakaimless25388(
+                                // REPLACE: aimless /ˈeɪmləs/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She said that her life seemed aimless after her children left home."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوتی ژیانی بێ ئامانج بوو لە دوای ئەوەی منداڵەکانی ماڵەوەیان جێھێشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaimless4277("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaimless4277(
-                                        // REPLACE: aimless /ˈeɪmləs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She said that her life seemed aimless after her children left home.",
+                            kurdishText:
+                                "گوتی ژیانی بێ ئامانج بوو لە دوای ئەوەی منداڵەکانی ماڵەوەیان جێھێشت.",
+                            onPressedBritish: () => speakaimless4277("en-GB"),
+                            onPressedAmerican: () => speakaimless4277(
+                                // REPLACE: aimless /ˈeɪmləs/
+                                "en-US"),
                           ),
                         ],
                       ),

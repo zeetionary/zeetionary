@@ -165,34 +165,15 @@ class EnglishEntryastronaut extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە لەناو کەشتی ئاسمانی گەشت دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The astronauts trained for years for their mission to the moon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاسمانەوانەکان چەندین ساڵ ڕاھێنانیان کرد بۆ ئەرکەکەیان لە چوونە سەر مانگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakastronaut442("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakastronaut442(// REPLACE: astronaut
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The astronauts trained for years for their mission to the moon.",
+                            kurdishText:
+                                "ئاسمانەوانەکان چەندین ساڵ ڕاھێنانیان کرد بۆ ئەرکەکەیان لە چوونە سەر مانگ.",
+                            onPressedBritish: () => speakastronaut442("en-GB"),
+                            onPressedAmerican: () =>
+                                speakastronaut442(// REPLACE: astronaut
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

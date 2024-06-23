@@ -115,33 +115,13 @@ class EnglishEntryallout extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) بە بەکارھێنانی ھەموو ئەوەی بەردەستە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "We're going all out to win."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە دڵ و بە گیان دەچین بۆبردنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallout32568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallout32568(
-                                        // REPLACE: all-out /ˌɔːl ˈaʊt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "We're going all out to win.",
+                            kurdishText: "بە دڵ و بە گیان دەچین بۆبردنەوە.",
+                            onPressedBritish: () => speakallout32568("en-GB"),
+                            onPressedAmerican: () => speakallout32568(
+                                // REPLACE: all-out /ˌɔːl ˈaʊt/
+                                "en-US"),
                           ),
                         ],
                       ),

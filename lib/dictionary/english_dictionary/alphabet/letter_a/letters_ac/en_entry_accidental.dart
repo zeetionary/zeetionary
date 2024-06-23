@@ -100,32 +100,13 @@ class EnglishEntryaccidental extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) شتێک بە ڕێکەوت ڕووبدات، نەک بە پلان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I didn't think our meeting was accidental—he must have known I would be there."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وا ھەست ناکەم چاوپێکەوتنەکەمان بە ھەڵکەوت بووبێت، ئەبێت زانیبێتی من لەوێ دەبم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka1598("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka1598("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I didn't think our meeting was accidental—he must have known I would be there.",
+                            kurdishText:
+                                "وا ھەست ناکەم چاوپێکەوتنەکەمان بە ھەڵکەوت بووبێت، ئەبێت زانیبێتی من لەوێ دەبم.",
+                            onPressedBritish: () => speaka1598("en-GB"),
+                            onPressedAmerican: () => speaka1598("en-US"),
                           ),
                         ],
                       ),

@@ -151,32 +151,13 @@ class EnglishEntrybeetroot extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕووەکێکە کە ڕەگێکی سووری تۆخی ھەیە کە دەکوڵێنرێت و وەک سەوزە دەخورێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She grated the beetroot into the salad for color and crunch."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەوەندەرەکەی ڕەندکردە ناو زەڵاتەکە بۆ پێدانی ڕەنگ و خرمەخرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeetroots1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeetroots1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She grated the beetroot into the salad for color and crunch.",
+                            kurdishText:
+                                "چەوەندەرەکەی ڕەندکردە ناو زەڵاتەکە بۆ پێدانی ڕەنگ و خرمەخرم.",
+                            onPressedBritish: () => speakbeetroots1("en-GB"),
+                            onPressedAmerican: () => speakbeetroots1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -147,32 +147,13 @@ class EnglishEntrybrackish extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ئاوێک کە خوێی تێدایە و تامێکی سوێری ناخۆشی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Brackish lakes near the coast support unique aquatic life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەریاچە سوێرەکان لە نزیکی کەناراوەکە ژمارەیەکی بێ‌ھاوتای زیندەوەری ئاوی لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrackishs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrackishs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Brackish lakes near the coast support unique aquatic life.",
+                            kurdishText:
+                                "دەریاچە سوێرەکان لە نزیکی کەناراوەکە ژمارەیەکی بێ‌ھاوتای زیندەوەری ئاوی لەخۆدەگرێت.",
+                            onPressedBritish: () => speakbrackishs1("en-GB"),
+                            onPressedAmerican: () => speakbrackishs1("en-US"),
                           ),
                         ],
                       ),

@@ -149,63 +149,23 @@ class EnglishEntrybitesized extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ھێندە بچووک کە بە یەکجار بخرێتە دەم و بخورێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cut the meat into bite-sized pieces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆشتەکە وردبکە بۆ پارچەی پڕبەدەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitesizeds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitesizeds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Cut the meat into bite-sized pieces.",
+                            kurdishText: "گۆشتەکە وردبکە بۆ پارچەی پڕبەدەم.",
+                            onPressedBritish: () => speakbitesizeds1("en-GB"),
+                            onPressedAmerican: () => speakbitesizeds1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) بچووک و کورت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book breaks the information into bite-sized pieces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە زانیارییەکان دەکاتە بەش بەشی کورتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitesizeds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitesizeds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book breaks the information into bite-sized pieces.",
+                            kurdishText:
+                                "کتێبەکە زانیارییەکان دەکاتە بەش بەشی کورتەوە.",
+                            onPressedBritish: () => speakbitesizeds2("en-GB"),
+                            onPressedAmerican: () => speakbitesizeds2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -117,66 +117,28 @@ class EnglishEntryalibi extends StatelessWidget {
                               text:
                                   "١. (ناو) بەڵگەی ئەوەی گومانلێکراوێک لە کاتی ئەنجامدانی تاوانێک لە شوێنێکی تر بووە بۆیە تاوانبار نییە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The suspects all had alibis for the day of the robbery."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گومانلێکراوان ھەموویان بەڵگەی بێتاوانی خۆیان ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalibi4588("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalibi4588(
-                                        // REPLACE: alibi /ˈæləbaɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The suspects all had alibis for the day of the robbery.",
+                            kurdishText:
+                                "گومانلێکراوان ھەموویان بەڵگەی بێتاوانی خۆیان ھەبوو.",
+                            onPressedBritish: () => speakalibi4588("en-GB"),
+                            onPressedAmerican: () => speakalibi4588(
+                                // REPLACE: alibi /ˈæləbaɪ/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بیانوو بۆ خۆدزینەوە لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After eight years in power, the government can no longer use the previous government's policy as an alibi for its own failure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای ھەشت ساڵ بوون لە دەسەڵات، حکومەت چیتر ناتوانێت سیاسەتی حکومەتی پێشووتر وەک بیانوو بۆ شکستی خۆی بێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalibi499253("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalibi499253(
-                                        // REPLACE: alibi /ˈæləbaɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After eight years in power, the government can no longer use the previous government's policy as an alibi for its own failure.",
+                            kurdishText:
+                                "لە دوای ھەشت ساڵ بوون لە دەسەڵات، حکومەت چیتر ناتوانێت سیاسەتی حکومەتی پێشووتر وەک بیانوو بۆ شکستی خۆی بێنێتەوە.",
+                            onPressedBritish: () => speakalibi499253("en-GB"),
+                            onPressedAmerican: () => speakalibi499253(
+                                // REPLACE: alibi /ˈæləbaɪ/
+                                "en-US"),
                           ),
                         ],
                       ),

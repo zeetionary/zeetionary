@@ -112,34 +112,15 @@ class EnglishEntryaggressor extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک یان وڵاتێک کە سەرەتا ھێرش دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They are seen as the aggressors in the civil war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک دەساوێژ دەبینرێن لە شەڕە ناوخۆییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaggre199963("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggre199963(
-                                        // REPLACE: aggressor /əˈɡresər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They are seen as the aggressors in the civil war.",
+                            kurdishText:
+                                "وەک دەساوێژ دەبینرێن لە شەڕە ناوخۆییەکە.",
+                            onPressedBritish: () => speakaggre199963("en-GB"),
+                            onPressedAmerican: () => speakaggre199963(
+                                // REPLACE: aggressor /əˈɡresər/
+                                "en-US"),
                           ),
                         ],
                       ),

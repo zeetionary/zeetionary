@@ -165,97 +165,39 @@ class EnglishEntryastride extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ئامراز) بە ھەر قاچێک یان بەشێک لە لایەکەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She sat proudly astride her new motorbike."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە شانازییەوە گەڵاوگەڵ لەسەر ماتۆڕە تازەکەی دانیشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakastride351("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakastride351(// REPLACE: astride
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She sat proudly astride her new motorbike.",
+                            kurdishText:
+                                "بە شانازییەوە گەڵاوگەڵ لەسەر ماتۆڕە تازەکەی دانیشت.",
+                            onPressedBritish: () => speakastride351("en-GB"),
+                            onPressedAmerican: () =>
+                                speakastride351(// REPLACE: astride
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The town lies astride (= on either side of) the River Havel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارۆچکەکە لەسەر ڕووباری ھەیڤڵ ھەڵکەوتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakastride352("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakastride352(// REPLACE: astride
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The town lies astride (= on either side of) the River Havel.",
+                            kurdishText:
+                                "شارۆچکەکە لەسەر ڕووباری ھەیڤڵ ھەڵکەوتبوو.",
+                            onPressedBritish: () => speakastride352("en-GB"),
+                            onPressedAmerican: () =>
+                                speakastride352(// REPLACE: astride
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بە ھەر قاچێک لە لایەکەوە، یان بە لاق‌بڵاوی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He stood there, legs astride."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەوێ وەستابوو بە لاق‌بڵاوییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakastride354("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakastride354(// REPLACE: astride
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He stood there, legs astride.",
+                            kurdishText: "لەوێ وەستابوو بە لاق‌بڵاوییەوە.",
+                            onPressedBritish: () => speakastride354("en-GB"),
+                            onPressedAmerican: () =>
+                                speakastride354(// REPLACE: astride
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

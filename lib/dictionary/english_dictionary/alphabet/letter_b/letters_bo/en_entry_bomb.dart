@@ -268,153 +268,58 @@ class EnglishEntrybomb extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چەکێک کە دیزاین کراوە لە کاتێکی دیاریکراودا بتەقێتەوە یان کاتێک کە بەردەدرێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Hundreds of bombs were dropped on the city."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەدان بۆمب بەسەر شارەکەدا بەردرانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Hundreds of bombs were dropped on the city.",
+                            kurdishText:
+                                "سەدان بۆمب بەسەر شارەکەدا بەردرانەوە.",
+                            onPressedBritish: () => speakbombs1("en-GB"),
+                            onPressedAmerican: () => speakbombs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A terrorist bomb ripped through the town's packed shopping centre."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆمبێکی تیرۆریستی سەنتەری بازاڕکردنی قەرەباڵغی شارەکەی ھەژاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A terrorist bomb ripped through the town's packed shopping centre.",
+                            kurdishText:
+                                "بۆمبێکی تیرۆریستی سەنتەری بازاڕکردنی قەرەباڵغی شارەکەی ھەژاند.",
+                            onPressedBritish: () => speakbombs2("en-GB"),
+                            onPressedAmerican: () => speakbombs2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Police suspect terrorists planted the bomb."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پۆلیس گومان دەکەن تیرۆریستان بۆمبەکەیان چاندبێت."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbombs3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbombs3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Police suspect terrorists planted the bomb.",
+                                    kurdishText:
+                                        "پۆلیس گومان دەکەن تیرۆریستان بۆمبەکەیان چاندبێت.",
+                                    onPressedBritish: () =>
+                                        speakbombs3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbombs3("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "India started to build a nuclear bomb."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھندستان دەستیکرد بە بنیادنانی چەکی ئەتۆمی."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbombs12("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbombs12("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "India started to build a nuclear bomb.",
+                                    kurdishText:
+                                        "ھندستان دەستیکرد بە بنیادنانی چەکی ئەتۆمی.",
+                                    onPressedBritish: () =>
+                                        speakbombs12("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbombs12("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Eighty people died when bombs rained down on the city's crowded streets."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەشتا کەس گیانیان لە دەستدا کە بۆمبەکان دەستیان بە بارین کرد بەسەر شەقامە قەرەباڵغەکانی شارەکەدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbombs13("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbombs13("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Eighty people died when bombs rained down on the city's crowded streets.",
+                                    kurdishText:
+                                        "ھەشتا کەس گیانیان لە دەستدا کە بۆمبەکان دەستیان بە بارین کرد بەسەر شەقامە قەرەباڵغەکانی شارەکەدا.",
+                                    onPressedBritish: () =>
+                                        speakbombs13("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbombs13("en-US"),
                                   ),
                                 ],
                               ),
@@ -424,242 +329,89 @@ class EnglishEntrybomb extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) چەکی ناوەکی (ئەتۆمی یان ھایدرۆجینی)"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The US was the first country to have the bomb."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمریکا یەکەم وڵات بوو چەکی ناوەکی ھەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The US was the first country to have the bomb.",
+                            kurdishText:
+                                "ئەمریکا یەکەم وڵات بوو چەکی ناوەکی ھەبێت.",
+                            onPressedBritish: () => speakbombs4("en-GB"),
+                            onPressedAmerican: () => speakbombs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ژمارەیەکی زۆر پارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That dress must have cost a bomb!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو جلە دەبێت پارەیەکی زۆری تێچووبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That dress must have cost a bomb!",
+                            kurdishText:
+                                "ئەو جلە دەبێت پارەیەکی زۆری تێچووبێت.",
+                            onPressedBritish: () => speakbombs5("en-GB"),
+                            onPressedAmerican: () => speakbombs5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) شکستێکی تەواو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The play was a real bomb."),
-                                    ExampleSentenceKurdish(
-                                        text: "شانۆکە شکستێکی یەکجارەکی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The play was a real bomb.",
+                            kurdishText: "شانۆکە شکستێکی یەکجارەکی بوو.",
+                            onPressedBritish: () => speakbombs6("en-GB"),
+                            onPressedAmerican: () => speakbombs6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) ھێرشکردنە سەر شوێنێک بە چاندنی بۆمبێک یان بەردانەوەی لە فڕۆکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have deliberately bombed civilians."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئەنقەست ھاوڵاتی مەدەنییان بۆمباران کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombs7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have deliberately bombed civilians.",
+                            kurdishText:
+                                "بە ئەنقەست ھاوڵاتی مەدەنییان بۆمباران کردووە.",
+                            onPressedBritish: () => speakbombs7("en-GB"),
+                            onPressedAmerican: () => speakbombs7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Warplanes bombed targets around the capital."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکە جەنگییەکان ئامانجیان لە دەورووبەری نەخۆشخانەکە بۆمباران کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombs8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombs8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Warplanes bombed targets around the capital.",
+                            kurdishText:
+                                "فڕۆکە جەنگییەکان ئامانجیان لە دەورووبەری نەخۆشخانەکە بۆمباران کرد.",
+                            onPressedBritish: () => speakbombs8("en-GB"),
+                            onPressedAmerican: () => speakbombs8("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) جوڵان زۆر بەخێرایی بەتایبەتی لە ئامرازێکی گواستنەوەدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were bombing down the road at about 80 miles an hour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ڕێگاکەدا بەنزیکەیی خێرایی ٨٠ میل لەکاتژمێرێکدا بەخێرایی دەچوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombs9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombs9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They were bombing down the road at about 80 miles an hour.",
+                            kurdishText:
+                                "بە ڕێگاکەدا بەنزیکەیی خێرایی ٨٠ میل لەکاتژمێرێکدا بەخێرایی دەچوون.",
+                            onPressedBritish: () => speakbombs9("en-GB"),
+                            onPressedAmerican: () => speakbombs9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (کردار) شکستھێنان لە تاقیکردنەوەیەک زۆر بە خراپی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The exam was very hard! I definitely bombed it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاقیکردنەوەکە زۆر سەخت بوو! بە دڵنیاییەوە دەکەوم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombs10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombs10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The exam was very hard! I definitely bombed it.",
+                            kurdishText:
+                                "تاقیکردنەوەکە زۆر سەخت بوو! بە دڵنیاییەوە دەکەوم.",
+                            onPressedBritish: () => speakbombs10("en-GB"),
+                            onPressedAmerican: () => speakbombs10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (کردار) شانۆیەک یان نمایشێک کە زۆر خراپ دەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His latest movie bombed and lost millions of dollars."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆتا فیلمی شکستێک بوو و ملیۆنان دۆلاری لەدەستدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbombs11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbombs11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His latest movie bombed and lost millions of dollars.",
+                            kurdishText:
+                                "کۆتا فیلمی شکستێک بوو و ملیۆنان دۆلاری لەدەستدا.",
+                            onPressedBritish: () => speakbombs11("en-GB"),
+                            onPressedAmerican: () => speakbombs11("en-US"),
                           ),
                         ],
                       ),

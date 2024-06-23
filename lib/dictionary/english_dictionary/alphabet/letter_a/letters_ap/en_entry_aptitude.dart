@@ -160,34 +160,14 @@ class EnglishEntryaptitude extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) توانای سرووشتی بۆ کردنی شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She showed a natural aptitude for the work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بلیمەتیی سرووستی پیشان‌دا بۆ کارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaptitude823("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaptitude823(
-                                        // REPLACE: aptitude /ˈæptɪtuːd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She showed a natural aptitude for the work.",
+                            kurdishText: "بلیمەتیی سرووستی پیشان‌دا بۆ کارەکە.",
+                            onPressedBritish: () => speakaptitude823("en-GB"),
+                            onPressedAmerican: () => speakaptitude823(
+                                // REPLACE: aptitude /ˈæptɪtuːd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

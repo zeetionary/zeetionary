@@ -149,32 +149,13 @@ class EnglishEntrybotany extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لێکۆڵینەوەی زانستی لە ڕووەک و پێکھاتەیان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She pursued a degree in botany for her love of flora."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێندی بۆ بڕوانامەیەک لە ڕووەکناسی بەھۆی حەزی بۆ ڕووەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbotanys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbotanys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She pursued a degree in botany for her love of flora.",
+                            kurdishText:
+                                "خوێندی بۆ بڕوانامەیەک لە ڕووەکناسی بەھۆی حەزی بۆ ڕووەک.",
+                            onPressedBritish: () => speakbotanys1("en-GB"),
+                            onPressedAmerican: () => speakbotanys1("en-US"),
                           ),
                         ],
                       ),

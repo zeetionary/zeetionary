@@ -145,32 +145,13 @@ class EnglishEntryboobyprize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خەڵاتێک کە وەک گاڵتە دەدرێت بە کەسێک کە پلەی کۆتایی دەبێت لە پێشبڕکێیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The booby prize was awarded to the worst singer in the competition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵاتی گاڵتەیی درا بە خراپترین گۆرانیبێژ لە پێشبڕکێیەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboobyprizes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboobyprizes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The booby prize was awarded to the worst singer in the competition.",
+                            kurdishText:
+                                "خەڵاتی گاڵتەیی درا بە خراپترین گۆرانیبێژ لە پێشبڕکێیەکە.",
+                            onPressedBritish: () => speakboobyprizes1("en-GB"),
+                            onPressedAmerican: () => speakboobyprizes1("en-US"),
                           ),
                         ],
                       ),

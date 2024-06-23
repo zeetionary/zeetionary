@@ -147,32 +147,13 @@ class EnglishEntrybasemetal extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کانزایەکی نرخ نزم، بۆ نموونە ئاسن، کە وەک ئاڵتوون گران نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Iron, copper, and zinc are among the most common base metals in the world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاسن و مس و زینک لەناو بەربڵاوترین کانزا نرخ نزمەکانی جیھانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasemetals1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasemetals1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Iron, copper, and zinc are among the most common base metals in the world.",
+                            kurdishText:
+                                "ئاسن و مس و زینک لەناو بەربڵاوترین کانزا نرخ نزمەکانی جیھانن.",
+                            onPressedBritish: () => speakbasemetals1("en-GB"),
+                            onPressedAmerican: () => speakbasemetals1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

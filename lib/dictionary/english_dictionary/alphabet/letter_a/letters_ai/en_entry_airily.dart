@@ -116,34 +116,15 @@ class EnglishEntryairily extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە شتێک لات گرنگ نییە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "'He can do what he likes - it doesn't bother me,' she said airily."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو بە خەمساردییەوە وتی «چی دەکات با بیکات، گرنگ نییە لام»."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairily2566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairily2566(
-                                        // REPLACE: airily /ˈerəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "'He can do what he likes - it doesn't bother me,' she said airily.",
+                            kurdishText:
+                                "ئەو بە خەمساردییەوە وتی «چی دەکات با بیکات، گرنگ نییە لام».",
+                            onPressedBritish: () => speakairily2566("en-GB"),
+                            onPressedAmerican: () => speakairily2566(
+                                // REPLACE: airily /ˈerəli/
+                                "en-US"),
                           ),
                         ],
                       ),

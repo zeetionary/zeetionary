@@ -153,63 +153,25 @@ class EnglishEntrybipolar extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە تووشبووی دووجەمسەرییە (نەخۆشییەکی دەروونی کە تێیدا کەسێک ماوەیەک ھەست بە بێزاری زۆر دەکات و ماوەیەک ھەست بە چالاکی و جۆش و خرۆشی زۆردەکات بە وزەیەکی زۆرەوە)"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many bipolars find effective treatments through therapy and medication."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرێک لە تووشبووانی دووجەمسەری چارەسەری کاریگەر دەدۆزنەوە لە ڕێگەی چارەسەر و دەوا و دەرمانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbipolars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbipolars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many bipolars find effective treatments through therapy and medication.",
+                            kurdishText:
+                                "زۆرێک لە تووشبووانی دووجەمسەری چارەسەری کاریگەر دەدۆزنەوە لە ڕێگەی چارەسەر و دەوا و دەرمانەوە.",
+                            onPressedBritish: () => speakbipolars1("en-GB"),
+                            onPressedAmerican: () => speakbipolars1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) تووشبووی دووجەمسەری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has three children, including a bipolar daughter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سێ منداڵی ھەیە، لە نێوانیاندا کچێک کە دووجەمسەری ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbipolars2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbipolars2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has three children, including a bipolar daughter.",
+                            kurdishText:
+                                "سێ منداڵی ھەیە، لە نێوانیاندا کچێک کە دووجەمسەری ھەیە.",
+                            onPressedBritish: () => speakbipolars2("en-GB"),
+                            onPressedAmerican: () => speakbipolars2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

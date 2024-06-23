@@ -149,92 +149,33 @@ class EnglishEntryblemish extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) نیشانەیەک لەسەر پێست یان شتێک کە لە جوانی کەم دەکاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her skin didn't have a single blemish."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێستی ھیچ نیشانەیەکی لەسەر نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblemishs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblemishs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her skin didn't have a single blemish.",
+                            kurdishText: "پێستی ھیچ نیشانەیەکی لەسەر نەبوو.",
+                            onPressedBritish: () => speakblemishs1("en-GB"),
+                            onPressedAmerican: () => speakblemishs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His reputation is without a blemish."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراوی) ناوبانگی ھیچ خەوشێکی پێوە نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblemishs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblemishs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His reputation is without a blemish.",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی) ناوبانگی ھیچ خەوشێکی پێوە نەبوو.",
+                            onPressedBritish: () => speakblemishs2("en-GB"),
+                            onPressedAmerican: () => speakblemishs2("en-US"),
                           ),
                           // const DividerDefinition(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) کەمکردنەوە لە جوانی یان باشی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This latest revelation has seriously blemished the governor's reputation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ئاشکراکردنانەی ئەم دواییە بەخراپی ناوبانگی پارێزگارەکەی لەکەدارکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblemishs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblemishs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This latest revelation has seriously blemished the governor's reputation.",
+                            kurdishText:
+                                "ئەم ئاشکراکردنانەی ئەم دواییە بەخراپی ناوبانگی پارێزگارەکەی لەکەدارکردووە.",
+                            onPressedBritish: () => speakblemishs3("en-GB"),
+                            onPressedAmerican: () => speakblemishs3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

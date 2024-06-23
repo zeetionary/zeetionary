@@ -167,102 +167,45 @@ class EnglishEntryattractive extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەسێکی سەرنجڕاکێش و دڵڕفێنەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I like John but I don't find him attractive physically."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزم لە جۆنە بەڵام بە ڕووکەش سەرنجڕاکێشی نابینم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattractive1043("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattractive1043(
-                                        // REPLACE: attractive
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I like John but I don't find him attractive physically.",
+                            kurdishText:
+                                "حەزم لە جۆنە بەڵام بە ڕووکەش سەرنجڕاکێشی نابینم.",
+                            onPressedBritish: () =>
+                                speakattractive1043("en-GB"),
+                            onPressedAmerican: () => speakattractive1043(
+                                // REPLACE: attractive
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێکی جوان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Your new glasses are very attractive."),
-                                    ExampleSentenceKurdish(
-                                        text: "چاویلکە تازەکەت زۆر قەشەنگە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattractive1045("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattractive1045(
-                                        // REPLACE: attractive
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Your new glasses are very attractive.",
+                            kurdishText: "چاویلکە تازەکەت زۆر قەشەنگە.",
+                            onPressedBritish: () =>
+                                speakattractive1045("en-GB"),
+                            onPressedAmerican: () => speakattractive1045(
+                                // REPLACE: attractive
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) شتێک تایبەتمەندی و خاسیەتی وەھای ھەیە کە دڵگیر بێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The deal is said to be particularly attractive to investors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتنەکە وەک دەگوترێت بەتایبەتی دڵگیرە بۆ وەبەرھێنەران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattractive1047("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattractive1047(
-                                        // REPLACE: attractive
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The deal is said to be particularly attractive to investors.",
+                            kurdishText:
+                                "ڕێککەوتنەکە وەک دەگوترێت بەتایبەتی دڵگیرە بۆ وەبەرھێنەران.",
+                            onPressedBritish: () =>
+                                speakattractive1047("en-GB"),
+                            onPressedAmerican: () => speakattractive1047(
+                                // REPLACE: attractive
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

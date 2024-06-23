@@ -113,34 +113,15 @@ class EnglishEntryaloof extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) حەزنەکردن لە خەڵکی تر" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a cold man, aloof and distant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێکی ساردوسڕ و گۆشەگیر و دوورەپەرێز بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaloof457("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaloof457(// REPLACE: aloof /əˈluːf/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a cold man, aloof and distant.",
+                            kurdishText:
+                                "کەسێکی ساردوسڕ و گۆشەگیر و دوورەپەرێز بوو.",
+                            onPressedBritish: () => speakaloof457("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaloof457(// REPLACE: aloof /əˈluːf/
+                                    "en-US"),
                           ),
                         ],
                       ),

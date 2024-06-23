@@ -145,33 +145,14 @@ class EnglishEntryblackcurrant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) روویەکی ڕەشی بچووکە کە کە بە گورزە لە باخێکدا گەشە دەکات و دەخورێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "speakblackcurrants111111111111111111111111111111111"),
-                                    ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakblackcurrants1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakblackcurrants1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "speakblackcurrants111111111111111111111111111111111",
+                            kurdishText: "رستە_رستە_رستە_رستە.",
+                            onPressedBritish: () =>
+                                speakblackcurrants1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakblackcurrants1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

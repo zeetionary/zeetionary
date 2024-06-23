@@ -159,35 +159,16 @@ class EnglishEntryantifreeze extends StatelessWidget {
                               text:
                                   "١. (ناو) مادەیەکی کیمیایی کە زیاد دەکرێت بۆ سیستەمی ساردکەرەوەی ئۆتۆمبێل بۆ ئەوەی ڕێگری لە بەستن بکات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Lack of antifreeze is a major cause of highway breakdowns."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمی دژەبەستن ھۆکارێکی سەرەکی تێکچوونی ڕێگاکانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantifreeze1051("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantifreeze1051(
-                                        // REPLACE: antifreeze /ˈæntifriːz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Lack of antifreeze is a major cause of highway breakdowns.",
+                            kurdishText:
+                                "کەمی دژەبەستن ھۆکارێکی سەرەکی تێکچوونی ڕێگاکانە.",
+                            onPressedBritish: () =>
+                                speakantifreeze1051("en-GB"),
+                            onPressedAmerican: () => speakantifreeze1051(
+                                // REPLACE: antifreeze /ˈæntifriːz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

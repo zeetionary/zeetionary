@@ -148,151 +148,54 @@ class EnglishEntrybeing extends StatelessWidget {
 کوردی: بوون، ھەیەتی، گیان، ژیان، ژین، بوونەوەر، مەخلووق، ئافرێنراو، ئافەریدە، زیندەوەر, شت کەس، مرۆڤ، کەسایەتی، کەسێتی، کرۆک، خواکرد، گەوھەر، سروشت
 """),
                           const DefinitionKurdish(text: """١. (ناو) بوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Irish Free State came into being in 1922."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وڵاتی ئازادی ئێرلەندا لە ساڵی ١٩٢٢ ھاتە بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Irish Free State came into being in 1922.",
+                            kurdishText:
+                                "وڵاتی ئازادی ئێرلەندا لە ساڵی ١٩٢٢ ھاتە بوون.",
+                            onPressedBritish: () => speakbeings1("en-GB"),
+                            onPressedAmerican: () => speakbeings1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A new era was brought into being by the war."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەردەمێکی تازە ھاتە بوون بەھۆی جەنگەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A new era was brought into being by the war.",
+                            kurdishText:
+                                "سەردەمێکی تازە ھاتە بوون بەھۆی جەنگەکەوە.",
+                            onPressedBritish: () => speakbeings2("en-GB"),
+                            onPressedAmerican: () => speakbeings2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) گیانلەبەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "No living being deserves to be treated this way."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھیچ گتانلەبەرێک شایەنی ئەوە نییە بەم شێوەیە مامەڵەی لەگەڵ بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "No living being deserves to be treated this way.",
+                            kurdishText:
+                                "ھیچ گتانلەبەرێک شایەنی ئەوە نییە بەم شێوەیە مامەڵەی لەگەڵ بکرێت.",
+                            onPressedBritish: () => speakbeings3("en-GB"),
+                            onPressedAmerican: () => speakbeings3("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Dolphins are highly intelligent beings."),
-                                    ExampleSentenceKurdish(
-                                        text: "دۆڵفین گیانلەبەرێکی ژیرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeings4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeings4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Dolphins are highly intelligent beings.",
+                            kurdishText: "دۆڵفین گیانلەبەرێکی ژیرە.",
+                            onPressedBritish: () => speakbeings4("en-GB"),
+                            onPressedAmerican: () => speakbeings4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ھەست و بیر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I hated him with my whole being."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ھەموو ھۆش و بیرم ڕقم لێی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeings5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeings5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I hated him with my whole being.",
+                            kurdishText: "بە ھەموو ھۆش و بیرم ڕقم لێی بوو.",
+                            onPressedBritish: () => speakbeings5("en-GB"),
+                            onPressedAmerican: () => speakbeings5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

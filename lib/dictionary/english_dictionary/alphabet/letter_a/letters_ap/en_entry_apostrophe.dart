@@ -162,129 +162,49 @@ class EnglishEntryapostrophe extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) نیشانەی ’ وەک ئاماژەیەک بەوەی پیتێک یان زیاتر لە وشەیەکدا سڕدراونەتەوە، بۆ نموونە وەک she’s بۆ she is، یان ’63 بۆ 1963"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "'It's' with an apostrophe means 'it is' or 'it has'."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "'It's' بە کرتێنێکێکەوە دەکرێ واتای it is یان it has بێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapostrophe708("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapostrophe708(
-                                        // REPLACE: apostrophe /əˈpɑːstrəfi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "'It's' with an apostrophe means 'it is' or 'it has'.",
+                            kurdishText:
+                                "'It's' بە کرتێنێکێکەوە دەکرێ واتای it is یان it has بێ.",
+                            onPressedBritish: () => speakapostrophe708("en-GB"),
+                            onPressedAmerican: () => speakapostrophe708(
+                                // REPLACE: apostrophe /əˈpɑːstrəfi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بۆ پیشاندانی خاوەندارێتی بەکاردێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Helen's house is very large."),
-                                    ExampleSentenceKurdish(
-                                        text: "ماڵ ھێلین زۆر گەورەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapostrophe710("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapostrophe710(
-                                        // REPLACE: apostrophe /əˈpɑːstrəfi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Helen's house is very large.",
+                            kurdishText: "ماڵ ھێلین زۆر گەورەیە.",
+                            onPressedBritish: () => speakapostrophe710("en-GB"),
+                            onPressedAmerican: () => speakapostrophe710(
+                                // REPLACE: apostrophe /əˈpɑːstrəfi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) لە پێش یان پاشی پیتی s بەکاردێ بۆ دەربڕینی ژمارە یان پیت بۆ شێوەی کۆ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "How many 3’s are there in 9?"),
-                                    ExampleSentenceKurdish(
-                                        text: "چەند دانە ٣ لە ٩دا ھەیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapostrophe714("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapostrophe714(
-                                        // REPLACE: apostrophe /əˈpɑːstrəfi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "How many 3’s are there in 9?",
+                            kurdishText: "چەند دانە ٣ لە ٩دا ھەیە؟",
+                            onPressedBritish: () => speakapostrophe714("en-GB"),
+                            onPressedAmerican: () => speakapostrophe714(
+                                // REPLACE: apostrophe /əˈpɑːstrəfi/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "There are two m’s in ‘comma’."),
-                                    ExampleSentenceKurdish(
-                                        text: "دوو m لە وشەی comma دا ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapostrophe715("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapostrophe715(
-                                        // REPLACE: apostrophe /əˈpɑːstrəfi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "There are two m’s in ‘comma’.",
+                            kurdishText: "دوو m لە وشەی comma دا ھەیە.",
+                            onPressedBritish: () => speakapostrophe715("en-GB"),
+                            onPressedAmerican: () => speakapostrophe715(
+                                // REPLACE: apostrophe /əˈpɑːstrəfi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

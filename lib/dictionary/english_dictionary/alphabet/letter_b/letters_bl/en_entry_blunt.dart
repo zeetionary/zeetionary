@@ -148,179 +148,62 @@ class EnglishEntryblunt extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) کول؛ شتێک کە دەمەکەی تیژ نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "This pencil's blunt!"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەم پێنووسە کولە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblunts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblunts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This pencil's blunt!",
+                            kurdishText: "ئەم پێنووسە کولە!",
+                            onPressedBritish: () => speakblunts1("en-GB"),
+                            onPressedAmerican: () => speakblunts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The knife is blunt and needs sharpening."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەقۆکە کولە و پێویستی بە تیژکردن ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblunts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblunts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The knife is blunt and needs sharpening.",
+                            kurdishText:
+                                "چەقۆکە کولە و پێویستی بە تیژکردن ھەیە.",
+                            onPressedBritish: () => speakblunts2("en-GB"),
+                            onPressedAmerican: () => speakblunts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) کەسێک کە ئەوە دەیڵێت کە لە دڵیەتی بەبێ ئەوەی ھەوڵ بدات بەڕێز بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has a reputation for blunt speaking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوی دەرکردە بۆ قسەکردنی بێ‌پەردە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblunts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblunts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has a reputation for blunt speaking.",
+                            kurdishText: "ناوی دەرکردە بۆ قسەکردنی بێ‌پەردە.",
+                            onPressedBritish: () => speakblunts3("en-GB"),
+                            onPressedAmerican: () => speakblunts3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "To be blunt, your work is appalling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرڕاست بم لەگەڵت، کارەکەت وێرانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblunts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblunts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "To be blunt, your work is appalling.",
+                            kurdishText: "سەرڕاست بم لەگەڵت، کارەکەت وێرانە.",
+                            onPressedBritish: () => speakblunts4("en-GB"),
+                            onPressedAmerican: () => speakblunts4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) وا لە شتێک بکەیت لاوازتر بێت یان کاریگەری کەمتر بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Age hadn't blunted his passion for adventure."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەمەن حەزی بۆ سەرکێشی لاواز نەکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblunts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblunts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Age hadn't blunted his passion for adventure.",
+                            kurdishText:
+                                "تەمەن حەزی بۆ سەرکێشی لاواز نەکردووە.",
+                            onPressedBritish: () => speakblunts5("en-GB"),
+                            onPressedAmerican: () => speakblunts5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) وا لە شتێک بکەیت کەمتر تیژ بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Constant use can blunt the finest blades."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکارھێنانی بەردەوام دەکرێت باشترین دەم کول بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblunts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblunts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Constant use can blunt the finest blades.",
+                            kurdishText:
+                                "بەکارھێنانی بەردەوام دەکرێت باشترین دەم کول بکات.",
+                            onPressedBritish: () => speakblunts6("en-GB"),
+                            onPressedAmerican: () => speakblunts6("en-US"),
                           ),
                         ],
                       ),

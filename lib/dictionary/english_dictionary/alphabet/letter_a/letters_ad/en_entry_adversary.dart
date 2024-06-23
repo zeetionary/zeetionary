@@ -112,34 +112,15 @@ class EnglishEntryadversary extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە دوژمن یان ڕکابەرتە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He saw her as his main adversary within the company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک ڕکابەری یەکەمی دەیبینی لە کۆمپانیەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadver66982("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadver66982(
-                                        // REPLACE: adversary /ˈædvərsəri/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He saw her as his main adversary within the company.",
+                            kurdishText:
+                                "وەک ڕکابەری یەکەمی دەیبینی لە کۆمپانیەکەدا.",
+                            onPressedBritish: () => speakadver66982("en-GB"),
+                            onPressedAmerican: () => speakadver66982(
+                                // REPLACE: adversary /ˈædvərsəri/
+                                "en-US"),
                           ),
                         ],
                       ),

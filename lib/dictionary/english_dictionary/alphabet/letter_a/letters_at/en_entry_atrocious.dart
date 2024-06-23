@@ -164,69 +164,29 @@ class EnglishEntryatrocious extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) زۆر خراپ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She speaks French with an atrocious accent."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە زمانی فەرەنسی قسەدەکات بە ئەکسێنتێکی زۆر خراپەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakatrocious1244("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakatrocious1244(// REPLACE: atrocious
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She speaks French with an atrocious accent.",
+                            kurdishText:
+                                "بە زمانی فەرەنسی قسەدەکات بە ئەکسێنتێکی زۆر خراپەوە.",
+                            onPressedBritish: () => speakatrocious1244("en-GB"),
+                            onPressedAmerican: () =>
+                                speakatrocious1244(// REPLACE: atrocious
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) تاوانێکی قێزەون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dictator committed atrocious crimes against his own people."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیکتاتۆرەکە تاوانی قێزەونی دەرحەق بە خەڵکی خۆی ئەنجامدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakatrocious1246("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakatrocious1246(// REPLACE: atrocious
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dictator committed atrocious crimes against his own people.",
+                            kurdishText:
+                                "دیکتاتۆرەکە تاوانی قێزەونی دەرحەق بە خەڵکی خۆی ئەنجامدا.",
+                            onPressedBritish: () => speakatrocious1246("en-GB"),
+                            onPressedAmerican: () =>
+                                speakatrocious1246(// REPLACE: atrocious
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

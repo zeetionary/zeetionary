@@ -101,62 +101,24 @@ class EnglishEntryaccede extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ڕازیبوون بە داوایەک/پێشنیارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He acceded to demands for his resignation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ملیدا بۆ داواکارییەکانی دەستلەکارکێشانەوەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka25963("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka25963("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He acceded to demands for his resignation.",
+                            kurdishText:
+                                "ملیدا بۆ داواکارییەکانی دەستلەکارکێشانەوەی.",
+                            onPressedBritish: () => speaka25963("en-GB"),
+                            onPressedAmerican: () => speaka25963("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) وەرگرتنی پۆستێکی باڵا، بۆ نموونە پۆستی پاشا یان شاژنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Queen Victoria acceded to the throne in 1837."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شاژن ڤیکتۆریا چووە سەر تەختی شاھانە لە ساڵی ١٨٣٧"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka24698("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka24698("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Queen Victoria acceded to the throne in 1837.",
+                            kurdishText:
+                                "شاژن ڤیکتۆریا چووە سەر تەختی شاھانە لە ساڵی ١٨٣٧",
+                            onPressedBritish: () => speaka24698("en-GB"),
+                            onPressedAmerican: () => speaka24698("en-US"),
                           ),
                         ],
                       ),

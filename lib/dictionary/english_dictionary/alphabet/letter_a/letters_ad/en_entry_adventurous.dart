@@ -109,62 +109,24 @@ class EnglishEntryadventurous extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) ئامادەیی کردنی کاری سەرکێشی، یان تاقیکردنەوەی شتی تازە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She led an adventurous life."),
-                                    ExampleSentenceKurdish(
-                                        text: "ژیانێکی سەرکێشیانەی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadven489223("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadven489223(
-                                        // REPLACE: adventurous /ədˈventʃərəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She led an adventurous life.",
+                            kurdishText: "ژیانێکی سەرکێشیانەی ھەبوو.",
+                            onPressedBritish: () => speakadven489223("en-GB"),
+                            onPressedAmerican: () => speakadven489223(
+                                // REPLACE: adventurous /ədˈventʃərəs/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many teachers would like to be more adventurous."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر مامۆستا پێیان باشە تازەگەری بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadven365("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadven365(
-                                        // REPLACE: adventurous /ədˈventʃərəs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many teachers would like to be more adventurous.",
+                            kurdishText:
+                                "زۆر مامۆستا پێیان باشە تازەگەری بکەن.",
+                            onPressedBritish: () => speakadven365("en-GB"),
+                            onPressedAmerican: () => speakadven365(
+                                // REPLACE: adventurous /ədˈventʃərəs/
+                                "en-US"),
                           ),
                         ],
                       ),

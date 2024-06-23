@@ -112,34 +112,14 @@ class EnglishEntryagonizing extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شتێک کە دەبێتەھۆی ئازار و ناڕەحەتی زۆر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His father’s agonizing death devastated her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مردنە بەژانەکەی باوکی وێرانی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka145233("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka145233(
-                                        // REPLACE: agonizing /ˈæɡənaɪzɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His father’s agonizing death devastated her.",
+                            kurdishText: "مردنە بەژانەکەی باوکی وێرانی کرد.",
+                            onPressedBritish: () => speaka145233("en-GB"),
+                            onPressedAmerican: () => speaka145233(
+                                // REPLACE: agonizing /ˈæɡənaɪzɪŋ/
+                                "en-US"),
                           ),
                         ],
                       ),

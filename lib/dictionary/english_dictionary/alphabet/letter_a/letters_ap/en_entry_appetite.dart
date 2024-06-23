@@ -161,67 +161,29 @@ class EnglishEntryappetite extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ئیشتیا؛ ھەبوونی حەزی خواردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He suffered from headaches and loss of appetite."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تووشی سەرئێشە و نەبوونی ئیشتیا بوو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappetite227("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappetite227(
-                                        // REPLACE: appetite /ˈæpɪtaɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He suffered from headaches and loss of appetite.",
+                            kurdishText:
+                                "تووشی سەرئێشە و نەبوونی ئیشتیا بوو بوو.",
+                            onPressedBritish: () => speakappetite227("en-GB"),
+                            onPressedAmerican: () => speakappetite227(
+                                // REPLACE: appetite /ˈæpɪtaɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھەبوونی حەزێکی زۆر بۆ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The BBC recognizes the public appetite for serious information."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بی‌بی‌سی لە خواستی خەڵکی بۆ زانیاریی گرنگ تێ‌دەگات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakappetite233("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakappetite233(
-                                        // REPLACE: appetite /ˈæpɪtaɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The BBC recognizes the public appetite for serious information.",
+                            kurdishText:
+                                "بی‌بی‌سی لە خواستی خەڵکی بۆ زانیاریی گرنگ تێ‌دەگات.",
+                            onPressedBritish: () => speakappetite233("en-GB"),
+                            onPressedAmerican: () => speakappetite233(
+                                // REPLACE: appetite /ˈæpɪtaɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

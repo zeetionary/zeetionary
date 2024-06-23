@@ -148,32 +148,13 @@ class EnglishEntrybonfire extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئاگرێکی گەورە لە دەرەوە بۆ سووتاندنی پاشماوە یان ئاھەنگ گێڕان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There will be a bonfire and a firework display."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئاگرەخۆشەیەک و نمایشی یاری ئاگرین دەبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonfires1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonfires1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There will be a bonfire and a firework display.",
+                            kurdishText:
+                                "ئاگرەخۆشەیەک و نمایشی یاری ئاگرین دەبن.",
+                            onPressedBritish: () => speakbonfires1("en-GB"),
+                            onPressedAmerican: () => speakbonfires1("en-US"),
                           ),
                         ],
                       ),

@@ -157,34 +157,15 @@ class EnglishEntryarchtwo extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (پێشگر) سەرەکی، زیاتر لە ھەر شتێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's always been an arch-opponent of the project."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە دژبەرێکی سەرسەختی پڕۆژەکە بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarchtwo213("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakarchtwo213(// REPLACE: arch- /haʊ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's always been an arch-opponent of the project.",
+                            kurdishText:
+                                "ھەمیشە دژبەرێکی سەرسەختی پڕۆژەکە بووە.",
+                            onPressedBritish: () => speakarchtwo213("en-GB"),
+                            onPressedAmerican: () =>
+                                speakarchtwo213(// REPLACE: arch- /haʊ/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

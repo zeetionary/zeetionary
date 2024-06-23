@@ -149,121 +149,45 @@ class EnglishEntrybleak extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) دۆخێک کە ھیچ ھۆکارێک نییە ئومێدت پێی ھەبێت یان چاوەڕێی ھیچی باشی لێ بکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The future looks bleak for the fishing industry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "داھاتوو نائومێدکەر دیاربوو بۆ پیشەسازی ماسیگرتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleaks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleaks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The future looks bleak for the fishing industry.",
+                            kurdishText:
+                                "داھاتوو نائومێدکەر دیاربوو بۆ پیشەسازی ماسیگرتن.",
+                            onPressedBritish: () => speakbleaks1("en-GB"),
+                            onPressedAmerican: () => speakbleaks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Prospects for the industry are extremely bleak."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشبینییەکان بۆ پیشەسازییەکە تەواو ھیوابڕن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleaks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleaks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Prospects for the industry are extremely bleak.",
+                            kurdishText:
+                                "پێشبینییەکان بۆ پیشەسازییەکە تەواو ھیوابڕن.",
+                            onPressedBritish: () => speakbleaks2("en-GB"),
+                            onPressedAmerican: () => speakbleaks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) سارد و ناخۆش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "With no shelter in sight, the hikers faced a bleak night in the mountains as temperatures dropped."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەوەی ھیچ پەناگەیەک دیار نەبوو، شاخەوانان ڕووبەڕووی شەوێکی سەرماوسۆڵە بوونەوە کە پلەی گەرمی دادەبەزی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleaks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleaks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "With no shelter in sight, the hikers faced a bleak night in the mountains as temperatures dropped.",
+                            kurdishText:
+                                "بەوەی ھیچ پەناگەیەک دیار نەبوو، شاخەوانان ڕووبەڕووی شەوێکی سەرماوسۆڵە بوونەوە کە پلەی گەرمی دادەبەزی.",
+                            onPressedBritish: () => speakbleaks3("en-GB"),
+                            onPressedAmerican: () => speakbleaks3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) شوێنێکی بەتاڵ کە ھیچ خاسیەتێکی سەرنجڕاکێشی نییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The house stands on a bleak, windswept hilltop."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووەکە دەکەوێتە سەر گردێکی چۆڵی باگرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbleaks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbleaks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The house stands on a bleak, windswept hilltop.",
+                            kurdishText:
+                                "خانووەکە دەکەوێتە سەر گردێکی چۆڵی باگرەوە.",
+                            onPressedBritish: () => speakbleaks4("en-GB"),
+                            onPressedAmerican: () => speakbleaks4("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

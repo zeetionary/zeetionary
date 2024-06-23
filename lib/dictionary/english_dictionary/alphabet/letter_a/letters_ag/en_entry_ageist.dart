@@ -112,35 +112,15 @@ class EnglishEntryageist extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە مامەڵەی لەگەڵ کەسانی بە تەمەن خراپە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The fact is, we live in an ageist society."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاستییەکە ئەوەیە لە کۆمەڵگایەکدا دەژین کە مامەڵەی لەگەڵ کەسانی پیر خراپە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakageist5272316("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakageist5272316(
-                                        // REPLACE: ageist /ˈeɪdʒɪst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The fact is, we live in an ageist society.",
+                            kurdishText:
+                                "ڕاستییەکە ئەوەیە لە کۆمەڵگایەکدا دەژین کە مامەڵەی لەگەڵ کەسانی پیر خراپە.",
+                            onPressedBritish: () => speakageist5272316("en-GB"),
+                            onPressedAmerican: () => speakageist5272316(
+                                // REPLACE: ageist /ˈeɪdʒɪst/
+                                "en-US"),
                           ),
                         ],
                       ),

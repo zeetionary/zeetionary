@@ -159,34 +159,15 @@ class EnglishEntryarsenic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) زەرنیخ؛ مادەیەکی کیمیایی رەساسی کە زۆر ژەھراوییە، بەتایبەتی ئەگەر لەگەڵ مادەی دیکە یەکبگرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The doctor found traces of arsenic in his body."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پزیشکەکە پاشماوەی زەرنیخی لە لەشیدا دۆزییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarsenic900("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarsenic900(
-                                        // REPLACE: arsenic /ˈɑːrsnɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The doctor found traces of arsenic in his body.",
+                            kurdishText:
+                                "پزیشکەکە پاشماوەی زەرنیخی لە لەشیدا دۆزییەوە.",
+                            onPressedBritish: () => speakarsenic900("en-GB"),
+                            onPressedAmerican: () => speakarsenic900(
+                                // REPLACE: arsenic /ˈɑːrsnɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

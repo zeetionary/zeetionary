@@ -115,90 +115,32 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) میوزیکێک کە لەگەڵ گۆرانی لی ئەدرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "a song with piano accompaniment"),
-                                    ExampleSentenceKurdish(
-                                        text: "گۆرانییەک بە میوزیکەوە لەگەڵی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac15587("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac15587("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "a song with piano accompaniment",
+                            kurdishText: "گۆرانییەک بە میوزیکەوە لەگەڵی.",
+                            onPressedBritish: () => speakac15587("en-GB"),
+                            onPressedAmerican: () => speakac15587("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شتێک کە لەگەڵ شتێکی تر دەیخۆیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Serve plain rice as an accompaniment."),
-                                    ExampleSentenceKurdish(
-                                        text: "برنجی سادە دابنێ وەک پاشکۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka77499("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka77499("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Serve plain rice as an accompaniment.",
+                            kurdishText: "برنجی سادە دابنێ وەک پاشکۆ.",
+                            onPressedBritish: () => speaka77499("en-GB"),
+                            onPressedAmerican: () => speaka77499("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) شتێک کە لەگەڵ شتێکی تر ڕوودەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "High blood pressure is a common accompaniment to this disease."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەستانی بەرزی خوێن زۆرجار لەگەڵ ئەم نەخۆشیە دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka569222("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka569222("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "High blood pressure is a common accompaniment to this disease.",
+                            kurdishText:
+                                "پەستانی بەرزی خوێن زۆرجار لەگەڵ ئەم نەخۆشیە دەبێت.",
+                            onPressedBritish: () => speaka569222("en-GB"),
+                            onPressedAmerican: () => speaka569222("en-US"),
                           ),
                         ],
                       ),

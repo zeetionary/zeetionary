@@ -144,60 +144,21 @@ class EnglishEntrybribery extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) پێدان یان وەرگرتنی بەرتیل"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was arrested on bribery charges."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستگیرکرا بە تۆمەتی بەرتیل‌خۆری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bribery" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriberys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriberys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was arrested on bribery charges.",
+                            kurdishText:
+                                "دەستگیرکرا بە تۆمەتی بەرتیل‌خۆری.", // bribery" as
+                            onPressedBritish: () => speakbriberys1("en-GB"),
+                            onPressedAmerican: () => speakbriberys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The organization was rife with bribery and corruption."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دامەزراوەکە پڕبوو لە بەرتیل‌خۆری و گەندەڵی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbriberys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbriberys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The organization was rife with bribery and corruption.",
+                            kurdishText:
+                                "دامەزراوەکە پڕبوو لە بەرتیل‌خۆری و گەندەڵی.",
+                            onPressedBritish: () => speakbriberys2("en-GB"),
+                            onPressedAmerican: () => speakbriberys2("en-US"),
                           ),
                         ],
                       ),

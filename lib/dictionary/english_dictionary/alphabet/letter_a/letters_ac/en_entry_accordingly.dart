@@ -109,62 +109,24 @@ class EnglishEntryaccordingly extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە لەگەڵ بارودۆخەکە دەگونجێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have to discover his plans and act accordingly."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستە پلانەکانی بدۆزینەوە و بە گونجاوی کردار بنێین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac75924("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac75924("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have to discover his plans and act accordingly.",
+                            kurdishText:
+                                "پێویستە پلانەکانی بدۆزینەوە و بە گونجاوی کردار بنێین.",
+                            onPressedBritish: () => speakac75924("en-GB"),
+                            onPressedAmerican: () => speakac75924("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بۆ دەربڕینی ئەنجامی ھۆکارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cost of materials rose sharply last year. Accordingly, we were forced to increase our prices."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نرخی کەرەستەکان ساڵی ڕابردوو بەرزبوویەوە، لەبەر ئەوە ناچاربووین نرخەکان بەرزبکەینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka25143("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka25143("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cost of materials rose sharply last year. Accordingly, we were forced to increase our prices.",
+                            kurdishText:
+                                "نرخی کەرەستەکان ساڵی ڕابردوو بەرزبوویەوە، لەبەر ئەوە ناچاربووین نرخەکان بەرزبکەینەوە.",
+                            onPressedBritish: () => speaka25143("en-GB"),
+                            onPressedAmerican: () => speaka25143("en-US"),
                           ),
                         ],
                       ),

@@ -145,62 +145,24 @@ class EnglishEntrybreeder extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە ئاژەڵ بەخێودەکات بۆ وەچە خستنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was one of the country's top sheep breeders."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە گەورەترین بەخێوکارانی مەڕ بوو لە وڵاتەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "breeder" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreeders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreeders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was one of the country's top sheep breeders.",
+                            kurdishText:
+                                "یەکێک لە گەورەترین بەخێوکارانی مەڕ بوو لە وڵاتەکەدا.", // breeder" as
+                            onPressedBritish: () => speakbreeders1("en-GB"),
+                            onPressedAmerican: () => speakbreeders1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ئاژەڵیک کە وەچە دەخاتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The earliest breeders in the bird colony are likely to suffer more losses due to the cold weather."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو ئاژەڵانەی کە زووترین کات وەچە دەخەنوە ئەگەری ھەیە زیاتر لەدەست بدەن بەھۆی کەشی ساردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbreeders2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbreeders2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The earliest breeders in the bird colony are likely to suffer more losses due to the cold weather.",
+                            kurdishText:
+                                "ئەو ئاژەڵانەی کە زووترین کات وەچە دەخەنوە ئەگەری ھەیە زیاتر لەدەست بدەن بەھۆی کەشی ساردەوە.",
+                            onPressedBritish: () => speakbreeders2("en-GB"),
+                            onPressedAmerican: () => speakbreeders2("en-US"),
                           ),
                         ],
                       ),

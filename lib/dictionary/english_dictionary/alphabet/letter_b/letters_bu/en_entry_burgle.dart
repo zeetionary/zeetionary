@@ -193,31 +193,12 @@ class EnglishEntryburgle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) چوونە بینایەک بە نایاسایی و بەکارھێنانی ھێز بە مەبەستی دزیکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The house next door was burgled."),
-                                    ExampleSentenceKurdish(
-                                        text: "ماڵی دراوسێمان دزی لێکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burgle", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburgles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburgles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The house next door was burgled.",
+                            kurdishText:
+                                "ماڵی دراوسێمان دزی لێکرا.", // burgle", follow LX strictly
+                            onPressedBritish: () => speakburgles1("en-GB"),
+                            onPressedAmerican: () => speakburgles1("en-US"),
                           ),
                         ],
                       ),

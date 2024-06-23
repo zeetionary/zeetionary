@@ -109,33 +109,14 @@ class EnglishEntryactivist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە کاردەکات بۆ گۆڕانی سیاسی یان کۆمەڵایەتی، بەتایبەت وەک ئەندامی ڕێکخراوێک کە ئامانجی دیاریکراوی ھەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Thousands of environmental activists joined the march to demand action on climate change."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەزاران چالاکوانی ژینگەیی بەژداربوون لە ڕێپێوانێک بۆ داوای ھەنگاونان دژ بە گۆڕانی کەشوھەوا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakact32568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakact32568(
-                                        "en-US"), // REPLACE activist /ˈæktɪvɪst/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Thousands of environmental activists joined the march to demand action on climate change.",
+                            kurdishText:
+                                "ھەزاران چالاکوانی ژینگەیی بەژداربوون لە ڕێپێوانێک بۆ داوای ھەنگاونان دژ بە گۆڕانی کەشوھەوا.",
+                            onPressedBritish: () => speakact32568("en-GB"),
+                            onPressedAmerican: () => speakact32568(
+                                "en-US"), // REPLACE activist /ˈæktɪvɪst/
                           ),
                         ],
                       ),

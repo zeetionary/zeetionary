@@ -151,120 +151,43 @@ class EnglishEntrybell extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) زەنگ؛ شتێکی کانزایی کە ناوەکەی بۆشە و زۆرجار شیوەی کوپێکی ھەیە، و دەنگێک دەردەکات کە ئەو بەشەی ناوی دەجووڵێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The church bells rang out to welcome in the New Year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەنگەکانی کڵێساکە دەستیان بە لێدان کرد بۆ پێشوازی لە ساڵی تازە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbells1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbells1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The church bells rang out to welcome in the New Year.",
+                            kurdishText:
+                                "زەنگەکانی کڵێساکە دەستیان بە لێدان کرد بۆ پێشوازی لە ساڵی تازە.",
+                            onPressedBritish: () => speakbells1("en-GB"),
+                            onPressedAmerican: () => speakbells1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The dancers wore bells on their ankles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەماکاران زەنگۆڵەیان لە لاقیان بەستبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbells2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbells2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The dancers wore bells on their ankles.",
+                            kurdishText:
+                                "سەماکاران زەنگۆڵەیان لە لاقیان بەستبوو.",
+                            onPressedBritish: () => speakbells2("en-GB"),
+                            onPressedAmerican: () => speakbells2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) زەنگ؛ ئامێرێکی کارەبابی کە دەنگێک درووست دەکات کە لێدەدرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ring the bell to see if they're in."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەنگەکە لێبدە بۆ زانینی ئەوەی لە ماڵەوەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbells3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbells3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Ring the bell to see if they're in.",
+                            kurdishText:
+                                "زەنگەکە لێبدە بۆ زانینی ئەوەی لە ماڵەوەن.",
+                            onPressedBritish: () => speakbells3("en-GB"),
+                            onPressedAmerican: () => speakbells3("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "An alarm bell went off."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زەنگێکی ئاگادارکەرەوە دەستی بە لێدان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbells4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbells4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "An alarm bell went off.",
+                            kurdishText:
+                                "زەنگێکی ئاگادارکەرەوە دەستی بە لێدان کرد.",
+                            onPressedBritish: () => speakbells4("en-GB"),
+                            onPressedAmerican: () => speakbells4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

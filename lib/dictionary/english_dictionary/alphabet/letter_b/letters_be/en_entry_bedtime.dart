@@ -148,59 +148,19 @@ class EnglishEntrybedtime extends StatelessWidget {
 کوردی: کات یان وەختی خەو، خەوتنان
 """),
                           const DefinitionKurdish(text: "١. (ناو) کاتی خەو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It's way past your bedtime."),
-                                    ExampleSentenceKurdish(
-                                        text: "زۆر بەسەر کاتی خەوت تێپەڕیوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedtimes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedtimes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It's way past your bedtime.",
+                            kurdishText: "زۆر بەسەر کاتی خەوت تێپەڕیوە.",
+                            onPressedBritish: () => speakbedtimes1("en-GB"),
+                            onPressedAmerican: () => speakbedtimes1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Will you read me a bedtime story?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چیرۆکێکی خەوتنانم بۆ دەگێڕیتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbedtimes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbedtimes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Will you read me a bedtime story?",
+                            kurdishText: "چیرۆکێکی خەوتنانم بۆ دەگێڕیتەوە؟",
+                            onPressedBritish: () => speakbedtimes2("en-GB"),
+                            onPressedAmerican: () => speakbedtimes2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -344,684 +344,244 @@ class EnglishEntryblock extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) مادەیەکی ڕەق کە شێوەی چوارگۆشە یان لاکێشەیە و زۆرجار لاکانی تەختن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The houses are made of concrete blocks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووەکان لە بلۆکی کۆنکریت درووست کرابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The houses are made of concrete blocks.",
+                            kurdishText:
+                                "خانووەکان لە بلۆکی کۆنکریت درووست کرابوون.",
+                            onPressedBritish: () => speakblocks1("en-GB"),
+                            onPressedAmerican: () => speakblocks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The wall was made from massive blocks of stone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دیوارەکە لە بلۆکی گەورەی بەردین درووست کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The wall was made from massive blocks of stone.",
+                            kurdishText:
+                                "دیوارەکە لە بلۆکی گەورەی بەردین درووست کرا.",
+                            onPressedBritish: () => speakblocks2("en-GB"),
+                            onPressedAmerican: () => speakblocks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بینای بەرز کە شوێنی نیشتەجێبوون یان ئۆفیسن "),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She lives in a modern apartment block."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کۆمەڵگەیەکی نیشتەجێبوونی سەردەمیانە دەژی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She lives in a modern apartment block.",
+                            kurdishText:
+                                "لە کۆمەڵگەیەکی نیشتەجێبوونی سەردەمیانە دەژی.",
+                            onPressedBritish: () => speakblocks3("en-GB"),
+                            onPressedAmerican: () => speakblocks3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) دووری نێوان دوو ڕێگا کە ڕێگایەکی تر دەبڕن، یان ئەو بەشەی کە دەکەوێتە نێوان دوو ڕێگاکەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The museum is just six blocks away."),
-                                    ExampleSentenceKurdish(
-                                        text: "مۆزەخاکە شەش گەڕەک دوورە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The museum is just six blocks away.",
+                            kurdishText: "مۆزەخاکە شەش گەڕەک دوورە.",
+                            onPressedBritish: () => speakblocks4("en-GB"),
+                            onPressedAmerican: () => speakblocks4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They walked a few blocks down the street."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە درێژایی چەند ڕیزە ماڵێک بە شەقامەکەدا پیاسەیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They walked a few blocks down the street.",
+                            kurdishText:
+                                "بە درێژایی چەند ڕیزە ماڵێک بە شەقامەکەدا پیاسەیان کرد.",
+                            onPressedBritish: () => speakblocks5("en-GB"),
+                            onPressedAmerican: () => speakblocks5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ژمارەیەک بینا کە شەقام لە ھەموو لایەکیەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She took the dog for a walk around the block."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەگەکەی برد بۆ پیاسەیەک بە دەوری گەڕەکەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She took the dog for a walk around the block.",
+                            kurdishText:
+                                "سەگەکەی برد بۆ پیاسەیەک بە دەوری گەڕەکەکەدا.",
+                            onPressedBritish: () => speakblocks6("en-GB"),
+                            onPressedAmerican: () => speakblocks6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) بڕێک لە شتێک یان ڕێژەیەک لە کات کە پێکەوە وەک یەک یەکە دەبینرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The three-hour class is divided into four blocks of 45 minutes each."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وانە سێ کاتژمێرییەکە دابەشکراوە بۆ چوار بەشی ٤٥ خولەکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The three-hour class is divided into four blocks of 45 minutes each.",
+                            kurdishText:
+                                "وانە سێ کاتژمێرییەکە دابەشکراوە بۆ چوار بەشی ٤٥ خولەکی.",
+                            onPressedBritish: () => speakblocks7("en-GB"),
+                            onPressedAmerican: () => speakblocks7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) شتێک کە وادەکات جووڵە یان پێشکەوتن گران یان ئەستەم بێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Lack of training acts as a block to progress in a career."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەمی ڕاھێنان وەک بەربەست کاردەکات لەپێش بەرەوپێشچوون لە کاردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Lack of training acts as a block to progress in a career.",
+                            kurdishText:
+                                "کەمی ڕاھێنان وەک بەربەست کاردەکات لەپێش بەرەوپێشچوون لە کاردا.",
+                            onPressedBritish: () => speakblocks8("en-GB"),
+                            onPressedAmerican: () => speakblocks8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I suddenly had a mental block and couldn't remember his name."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەناکاو بیرم بەقوڕدا چوو و نەمتوانی ناویم بیربکەوێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I suddenly had a mental block and couldn't remember his name.",
+                            kurdishText:
+                                "لەناکاو بیرم بەقوڕدا چوو و نەمتوانی ناویم بیربکەوێتەوە.",
+                            onPressedBritish: () => speakblocks9("en-GB"),
+                            onPressedAmerican: () => speakblocks9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) ڕێگری لە پێشڕەوی یاریزان لە یاری وەرزشیدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The defender made a lunging block."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرگریکارەکە ڕێگرییەکی خێرای ئەنجامدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The defender made a lunging block.",
+                            kurdishText:
+                                "بەرگریکارەکە ڕێگرییەکی خێرای ئەنجامدا.",
+                            onPressedBritish: () => speakblocks10("en-GB"),
+                            onPressedAmerican: () => speakblocks10("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (ناو) پارچە دارێکی گەورە کە تاونباران لەسەری سەریان دەپەڕێنرا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He placed his neck on the block and the executioner ended his life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەری خستە سەر کۆتەکە و سەربڕەکە ژیانی کۆتایی پێھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He placed his neck on the block and the executioner ended his life.",
+                            kurdishText:
+                                "سەری خستە سەر کۆتەکە و سەربڕەکە ژیانی کۆتایی پێھێنا.",
+                            onPressedBritish: () => speakblocks11("en-GB"),
+                            onPressedAmerican: () => speakblocks11("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Anne Boleyn went to the block."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئان بلین سەری پەڕێندرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Anne Boleyn went to the block.",
+                            kurdishText: "ئان بلین سەری پەڕێندرا.",
+                            onPressedBritish: () => speakblocks12("en-GB"),
+                            onPressedAmerican: () => speakblocks12("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She went to the block with great courage and dignity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوو بەرەو سەرپەڕاندنی بە بوێری و شکۆمەندیی زۆرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She went to the block with great courage and dignity.",
+                            kurdishText:
+                                "چوو بەرەو سەرپەڕاندنی بە بوێری و شکۆمەندیی زۆرەوە.",
+                            onPressedBritish: () => speakblocks13("en-GB"),
+                            onPressedAmerican: () => speakblocks13("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (کردار) وەستاندنی شتێک لە بەرەوپێشچوون بە دانانی شتێکی تر لە پێشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After today's heavy snow, many roads are still blocked."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای بەفربارینی زۆری ئەمڕۆ، زۆر ڕێگا ھێشتا گیراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After today's heavy snow, many roads are still blocked.",
+                            kurdishText:
+                                "لە دوای بەفربارینی زۆری ئەمڕۆ، زۆر ڕێگا ھێشتا گیراون.",
+                            onPressedBritish: () => speakblocks14("en-GB"),
+                            onPressedAmerican: () => speakblocks14("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He found that the pipe was partially blocked with leaves."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانی کە بۆڕییەکە بەشێکی بە گەڵا گیرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He found that the pipe was partially blocked with leaves.",
+                            kurdishText:
+                                "زانی کە بۆڕییەکە بەشێکی بە گەڵا گیرابوو.",
+                            onPressedBritish: () => speakblocks15("en-GB"),
+                            onPressedAmerican: () => speakblocks15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (کردار) وەستاندنی کەسێک لە چوونە شوێنێک یان بینینی شتێک بە وەستان لە پێشیان یان لە ڕێگایان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "One of the guards moved to block her path."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێک لە پاسەوانەکان ڕۆشت بۆ گرتنی ڕێگای."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "One of the guards moved to block her path.",
+                            kurdishText:
+                                "یەکێک لە پاسەوانەکان ڕۆشت بۆ گرتنی ڕێگای.",
+                            onPressedBritish: () => speakblocks16("en-GB"),
+                            onPressedAmerican: () => speakblocks16("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An ugly new building blocked the view from the window."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بینایەکی تازەی ناشرین پێشی دیمەنی لە پەنجەرەکەوە گرتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An ugly new building blocked the view from the window.",
+                            kurdishText:
+                                "بینایەکی تازەی ناشرین پێشی دیمەنی لە پەنجەرەکەوە گرتبوو.",
+                            onPressedBritish: () => speakblocks17("en-GB"),
+                            onPressedAmerican: () => speakblocks17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١١. (کردار) ڕێگرتن لە ڕوودان، گەشەکردن، یان بەرەوپێشچوونی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The proposed merger has been blocked by the government."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێشنیاری یەکگرتنەکە لەلایەن حکومەتەوە پێشگیری لێکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The proposed merger has been blocked by the government.",
+                            kurdishText:
+                                "پێشنیاری یەکگرتنەکە لەلایەن حکومەتەوە پێشگیری لێکرا.",
+                            onPressedBritish: () => speakblocks18("en-GB"),
+                            onPressedAmerican: () => speakblocks18("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A court ruling blocked the plans to develop the area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارێکی دادگا ڕێگری لە پلانەکان کرد بۆ ئاوەدانکردنەوەی ناوچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A court ruling blocked the plans to develop the area.",
+                            kurdishText:
+                                "بڕیارێکی دادگا ڕێگری لە پلانەکان کرد بۆ ئاوەدانکردنەوەی ناوچەکە.",
+                            onPressedBritish: () => speakblocks19("en-GB"),
+                            onPressedAmerican: () => speakblocks19("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٢. (کردار) وەستاندنی تۆپێک یان لێدانێک لە یاری وەرزشیدا بە وەستان لە پێشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His shot was blocked by the goalie."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێدانەکەی گەڕێندرایەوە لەلایەن گۆڵپارێزەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks20("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks20("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His shot was blocked by the goalie.",
+                            kurdishText:
+                                "لێدانەکەی گەڕێندرایەوە لەلایەن گۆڵپارێزەکەوە.",
+                            onPressedBritish: () => speakblocks20("en-GB"),
+                            onPressedAmerican: () => speakblocks20("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٢. (کردار) وەستاندنی موبایلێک لە بەکارھێنان، بۆ نموونە لە دوای دزرانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Police have accused mobile networks of failing to block stolen phones."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس تۆڕەکانی موبایلی تاوانبارکردووە بەوەی شکستیان ھێناوە لە لەکارخستنی موبایلی دزراو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks21("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks21("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Police have accused mobile networks of failing to block stolen phones.",
+                            kurdishText:
+                                "پۆلیس تۆڕەکانی موبایلی تاوانبارکردووە بەوەی شکستیان ھێناوە لە لەکارخستنی موبایلی دزراو.",
+                            onPressedBritish: () => speakblocks21("en-GB"),
+                            onPressedAmerican: () => speakblocks21("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٣. (کردار) ڕێگری لەوەی کەسێک پەیوەندیت پێوە بکات لەسەر تۆڕە کۆمەڵایەتییەکان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are many reasons to block someone online."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر ھۆکار ھەیە بۆ بلۆککردنی کەسێک لەسەر ئینتەرنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks22("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks22("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are many reasons to block someone online.",
+                            kurdishText:
+                                "زۆر ھۆکار ھەیە بۆ بلۆککردنی کەسێک لەسەر ئینتەرنێت.",
+                            onPressedBritish: () => speakblocks22("en-GB"),
+                            onPressedAmerican: () => speakblocks22("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A person who has been blocked won't necessarily know that you've blocked them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەسێک کە بلۆک کراوە مەرج نییە بزانێت کە تۆ بلۆکت کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblocks23("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblocks23("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A person who has been blocked won't necessarily know that you've blocked them.",
+                            kurdishText:
+                                "کەسێک کە بلۆک کراوە مەرج نییە بزانێت کە تۆ بلۆکت کردووە.",
+                            onPressedBritish: () => speakblocks23("en-GB"),
+                            onPressedAmerican: () => speakblocks23("en-US"),
                           ),
                         ],
                       ),

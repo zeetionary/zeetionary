@@ -113,64 +113,26 @@ class EnglishEntryaddict extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە ناتوانێت دەستبەرداری شتێک بێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many young boys become computer addicts."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆر لە کوڕانی گەنج ئاڵوودەی کۆمپیوتەر دەبن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadd2354("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakadd2354(// REPLACE: addict /ˈædɪkt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many young boys become computer addicts.",
+                            kurdishText:
+                                "ژمارەیەکی زۆر لە کوڕانی گەنج ئاڵوودەی کۆمپیوتەر دەبن.",
+                            onPressedBritish: () => speakadd2354("en-GB"),
+                            onPressedAmerican: () =>
+                                speakadd2354(// REPLACE: addict /ˈædɪkt/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He used to be a drug addict for years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران بۆ ماوەیەکی زۆر ئاڵوودەی مادەی ھۆشبەر بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaddi2541("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaddi2541(
-                                        // REPLACE: addict /ˈædɪkt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He used to be a drug addict for years.",
+                            kurdishText:
+                                "جاران بۆ ماوەیەکی زۆر ئاڵوودەی مادەی ھۆشبەر بوو.",
+                            onPressedBritish: () => speakaddi2541("en-GB"),
+                            onPressedAmerican: () => speakaddi2541(
+                                // REPLACE: addict /ˈædɪkt/
+                                "en-US"),
                           ),
                         ],
                       ),

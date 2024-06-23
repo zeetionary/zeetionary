@@ -158,34 +158,15 @@ class EnglishEntryaxiom extends StatelessWidget {
                               text:
                                   "١. (ناو) بنەما یان باوەڕێک کە زۆر کەس باوەڕیان وایە ڕاستە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is a widely held axiom that governments should not negotiate with terrorists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە ڕێسایەکی بەربڵاوە کە حکومەتەکان نابێت مامەڵە لەگەڵ تیرۆریستان بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaxioms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaxioms1(// REPLACE: axiom
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is a widely held axiom that governments should not negotiate with terrorists.",
+                            kurdishText:
+                                "ئەوە ڕێسایەکی بەربڵاوە کە حکومەتەکان نابێت مامەڵە لەگەڵ تیرۆریستان بکەن.",
+                            onPressedBritish: () => speakaxioms1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaxioms1(// REPLACE: axiom
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

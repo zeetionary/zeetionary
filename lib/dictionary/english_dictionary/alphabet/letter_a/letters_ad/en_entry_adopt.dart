@@ -125,129 +125,53 @@ class EnglishEntryadopt extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ھەڵگتنەوەی منداڵێک و بەخێوکردنی وەک منداڵی خۆت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The child has now been legally adopted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکە لە ئێستادا بە یاسایی ھەڵگیراوەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakad256471("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakad256471(
-                                        // REPLACE: adopt /əˈdɑːpt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The child has now been legally adopted.",
+                            kurdishText:
+                                "منداڵەکە لە ئێستادا بە یاسایی ھەڵگیراوەتەوە.",
+                            onPressedBritish: () => speakad256471("en-GB"),
+                            onPressedAmerican: () => speakad256471(
+                                // REPLACE: adopt /əˈdɑːpt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) دەستکردن بە بەکارھێنانی شێوازێکی مامەڵەکردن یان ڕێبازێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police adopted tighter security measures."),
-                                    ExampleSentenceKurdish(
-                                        text: "پۆلیس ڕێکاری توندتری گرتەبەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakad25673("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakad25673(// REPLACE: adopt /əˈdɑːpt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police adopted tighter security measures.",
+                            kurdishText: "پۆلیس ڕێکاری توندتری گرتەبەر.",
+                            onPressedBritish: () => speakad25673("en-GB"),
+                            onPressedAmerican: () =>
+                                speakad25673(// REPLACE: adopt /əˈdɑːpt/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) بە فەرمی پەسەندکردنی بڕیارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government adopted a resolution on disarmament."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت بڕیارنامەی چەکداماڵینی پەسەندکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakado45826("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakado45826(
-                                        // REPLACE: adopt /əˈdɑːpt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government adopted a resolution on disarmament.",
+                            kurdishText:
+                                "حکومەت بڕیارنامەی چەکداماڵینی پەسەندکرد.",
+                            onPressedBritish: () => speakado45826("en-GB"),
+                            onPressedAmerican: () => speakado45826(
+                                // REPLACE: adopt /əˈdɑːpt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) دەستکردن بە بەکارھێنانی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The party adopted its current name in 1965."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارتەکە ئەم ناوەی ئێستای لە ساڵی ١٩٦٥ ھەڵگرتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakado7259("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakado7259(// REPLACE: adopt /əˈdɑːpt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The party adopted its current name in 1965.",
+                            kurdishText:
+                                "پارتەکە ئەم ناوەی ئێستای لە ساڵی ١٩٦٥ ھەڵگرتەوە.",
+                            onPressedBritish: () => speakado7259("en-GB"),
+                            onPressedAmerican: () =>
+                                speakado7259(// REPLACE: adopt /əˈdɑːpt/
+                                    "en-US"),
                           ),
                         ],
                       ),

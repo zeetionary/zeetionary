@@ -166,35 +166,15 @@ class EnglishEntryauspicious extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پیشاندانی ئاماژەی ئەوەی شتێک لە داھاتوودا سەرکەوتوو دەبێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was an auspicious date for a wedding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێکەوتێکی پیرۆز بوو بۆ ھاوسەرگیرییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauspicious438("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauspicious438(
-                                        // REPLACE: auspicious
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was an auspicious date for a wedding.",
+                            kurdishText:
+                                "ڕێکەوتێکی پیرۆز بوو بۆ ھاوسەرگیرییەکە.",
+                            onPressedBritish: () => speakauspicious438("en-GB"),
+                            onPressedAmerican: () => speakauspicious438(
+                                // REPLACE: auspicious
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

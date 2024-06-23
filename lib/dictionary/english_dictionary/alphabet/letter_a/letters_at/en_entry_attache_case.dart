@@ -167,35 +167,16 @@ class EnglishEntryattachecase extends StatelessWidget {
                               text:
                                   "١. (ناو) جانتایەکی فلاتی بەھێزی بچووک بۆ دۆکیومێنتی کارکردن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The spy stole the attaché case containing the secret documents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیخوڕەکە ئەو جانتایەی دزی کە دۆکیومێنتە نھێنییەکانی تێدابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattachecase442("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakattachecase442(
-                                        // REPLACE: attaché case
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The spy stole the attaché case containing the secret documents.",
+                            kurdishText:
+                                "سیخوڕەکە ئەو جانتایەی دزی کە دۆکیومێنتە نھێنییەکانی تێدابوو.",
+                            onPressedBritish: () =>
+                                speakattachecase442("en-GB"),
+                            onPressedAmerican: () => speakattachecase442(
+                                // REPLACE: attaché case
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

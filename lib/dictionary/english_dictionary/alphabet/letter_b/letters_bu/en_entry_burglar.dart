@@ -193,60 +193,22 @@ class EnglishEntryburglar extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە بە نایاسایی دەچێتە بینایەکەوە بۆ دزیکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Burglars broke into the gallery and stole dozens of priceless paintings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دزەکان چوونە پێشانگاکەوە ژمارەیەک تابلۆی گرانبەھایان دزی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burglar", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburglars1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburglars1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Burglars broke into the gallery and stole dozens of priceless paintings.",
+                            kurdishText:
+                                "دزەکان چوونە پێشانگاکەوە ژمارەیەک تابلۆی گرانبەھایان دزی.", // burglar", follow LX strictly
+                            onPressedBritish: () => speakburglars1("en-GB"),
+                            onPressedAmerican: () => speakburglars1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The burglar had broken in through a window."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دزەکە لە پەنجەرەیەکە ھاتبووە ژوورەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburglars2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburglars2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The burglar had broken in through a window.",
+                            kurdishText:
+                                "دزەکە لە پەنجەرەیەکە ھاتبووە ژوورەوە.",
+                            onPressedBritish: () => speakburglars2("en-GB"),
+                            onPressedAmerican: () => speakburglars2("en-US"),
                           ),
                         ],
                       ),

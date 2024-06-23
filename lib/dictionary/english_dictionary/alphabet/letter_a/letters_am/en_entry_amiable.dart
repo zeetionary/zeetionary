@@ -178,34 +178,13 @@ class EnglishEntryamiable extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) ڕووخۆش و ڕەزاسووک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her parents seemed very amiable."),
-                                    ExampleSentenceKurdish(
-                                        text: "دایک و باوکی ڕووخۆش بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakamiable455666("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamiable455666(
-                                        // REPLACE: amiable /ˈeɪmiəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her parents seemed very amiable.",
+                            kurdishText: "دایک و باوکی ڕووخۆش بوون.",
+                            onPressedBritish: () => speakamiable455666("en-GB"),
+                            onPressedAmerican: () => speakamiable455666(
+                                // REPLACE: amiable /ˈeɪmiəbl/
+                                "en-US"),
                           ),
                         ],
                       ),

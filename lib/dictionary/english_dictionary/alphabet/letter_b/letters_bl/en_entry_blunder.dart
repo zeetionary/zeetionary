@@ -148,62 +148,24 @@ class EnglishEntryblunder extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ھەڵەیەکی گەمژانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I made a blunder by getting his name wrong."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵەیەکی گەمژانەم کرد بە وتنی ناوی بە ھەڵە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblunders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblunders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I made a blunder by getting his name wrong.",
+                            kurdishText:
+                                "ھەڵەیەکی گەمژانەم کرد بە وتنی ناوی بە ھەڵە.",
+                            onPressedBritish: () => speakblunders1("en-GB"),
+                            onPressedAmerican: () => speakblunders1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) کردنی ھەڵەیەکی گەمژانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government had blundered in its handling of the affair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت ھەڵەیەکی گەمژانەی کرد لە مامەڵەکردن لەگەڵ کێشەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblunders2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblunders2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government had blundered in its handling of the affair.",
+                            kurdishText:
+                                "حکومەت ھەڵەیەکی گەمژانەی کرد لە مامەڵەکردن لەگەڵ کێشەکە.",
+                            onPressedBritish: () => speakblunders2("en-GB"),
+                            onPressedAmerican: () => speakblunders2("en-US"),
                           ),
                         ],
                       ),

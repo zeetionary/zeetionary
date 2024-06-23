@@ -148,32 +148,13 @@ class EnglishEntryboneidle extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر تەمەڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She never lifts a finger to help. She's bone idle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرگیز پەنجەشی بەرزناکاتەوە بۆ یارمەتیدان. زۆر کنگ‌گرانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboneidles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboneidles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She never lifts a finger to help. She's bone idle.",
+                            kurdishText:
+                                "ھەرگیز پەنجەشی بەرزناکاتەوە بۆ یارمەتیدان. زۆر کنگ‌گرانە.",
+                            onPressedBritish: () => speakboneidles1("en-GB"),
+                            onPressedAmerican: () => speakboneidles1("en-US"),
                           ),
                         ],
                       ),

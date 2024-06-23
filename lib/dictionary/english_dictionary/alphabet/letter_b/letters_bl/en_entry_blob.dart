@@ -150,60 +150,22 @@ class EnglishEntryblob extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕێژەیەکی کەم لە شتێک، بەتایبەتی شلە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The street lights in the distance were blobs of orange light."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لایتی شەقامەکان لە دوورەوە تنۆکەی ڕۆشنایی پرتەقاڵی بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblobs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblobs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The street lights in the distance were blobs of orange light.",
+                            kurdishText:
+                                "لایتی شەقامەکان لە دوورەوە تنۆکەی ڕۆشنایی پرتەقاڵی بوون.",
+                            onPressedBritish: () => speakblobs1("en-GB"),
+                            onPressedAmerican: () => speakblobs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She gave me a big blob of cream on my raspberries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تۆپەڵێکی گەورە کرێمی کرد بەسەر تووتڕکە سوورەکەمدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblobs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblobs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She gave me a big blob of cream on my raspberries.",
+                            kurdishText:
+                                "تۆپەڵێکی گەورە کرێمی کرد بەسەر تووتڕکە سوورەکەمدا.",
+                            onPressedBritish: () => speakblobs2("en-GB"),
+                            onPressedAmerican: () => speakblobs2("en-US"),
                           ),
                         ],
                       ),

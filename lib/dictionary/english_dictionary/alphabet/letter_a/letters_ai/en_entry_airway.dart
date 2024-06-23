@@ -114,34 +114,15 @@ class EnglishEntryairway extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕێڕەوی ھەوا بۆ سییەکان" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Prevent the tongue falling back and obstructing the airway."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگە لە قوتدانی زمان بگرە لەوەی ڕێڕەوی ھەوا بگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakairway4555("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairway4555(
-                                        // REPLACE: airway /ˈerweɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Prevent the tongue falling back and obstructing the airway.",
+                            kurdishText:
+                                "ڕێگە لە قوتدانی زمان بگرە لەوەی ڕێڕەوی ھەوا بگرێت.",
+                            onPressedBritish: () => speakairway4555("en-GB"),
+                            onPressedAmerican: () => speakairway4555(
+                                // REPLACE: airway /ˈerweɪ/
+                                "en-US"),
                           ),
                         ],
                       ),

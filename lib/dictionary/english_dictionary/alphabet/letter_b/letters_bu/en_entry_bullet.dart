@@ -143,113 +143,35 @@ class EnglishEntrybullet extends StatelessWidget {
 کوردی: گوللە، بەرک، فیشەک، تیر 
 """),
                           const DefinitionKurdish(text: """١. (ناو) فیشەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were bullet holes in the door."),
-                                    ExampleSentenceKurdish(
-                                        text: "کونی فیشەک لە دەرگاکەدا ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bullet", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbullets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbullets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "There were bullet holes in the door.",
+                            kurdishText:
+                                "کونی فیشەک لە دەرگاکەدا ھەبوو.", // bullet", follow LX strictly
+                            onPressedBritish: () => speakbullets1("en-GB"),
+                            onPressedAmerican: () => speakbullets1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was found to have a single bullet wound in his chest."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانرا کە برینێکی فیشەک لە سنگیدایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbullets2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbullets2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was found to have a single bullet wound in his chest.",
+                            kurdishText: "زانرا کە برینێکی فیشەک لە سنگیدایە.",
+                            onPressedBritish: () => speakbullets2("en-GB"),
+                            onPressedAmerican: () => speakbullets2("en-US"),
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was killed by a bullet in the head."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە فیشەکێک لە سەریدا کوژرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbullets3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbullets3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was killed by a bullet in the head.",
+                            kurdishText: "بە فیشەکێک لە سەریدا کوژرا.",
+                            onPressedBritish: () => speakbullets3("en-GB"),
+                            onPressedAmerican: () => speakbullets3("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A stray bullet whistled past his ear."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فیشەکێکی وێڵ بە لاگوێیدا تێپەڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbullets4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbullets4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A stray bullet whistled past his ear.",
+                            kurdishText: "فیشەکێکی وێڵ بە لاگوێیدا تێپەڕی.",
+                            onPressedBritish: () => speakbullets4("en-GB"),
+                            onPressedAmerican: () => speakbullets4("en-US"),
                           ),
                         ],
                       ),

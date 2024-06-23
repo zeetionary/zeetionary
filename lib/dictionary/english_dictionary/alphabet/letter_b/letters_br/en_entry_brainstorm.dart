@@ -148,93 +148,35 @@ class EnglishEntrybrainstorm extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) بیرکردنەوەی کۆمەڵێک کەس پێکەوە لە یەک کاتدا بۆ دۆزینەوەی چارەسەری کێشەیەک یان دۆزینەوەی بیرۆکەی تازە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Brainstorm as many ideas as possible."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرچەندە بیرۆکە دەزانی گردی‌بکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrainstorms1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrainstorms1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Brainstorm as many ideas as possible.",
+                            kurdishText: "ھەرچەندە بیرۆکە دەزانی گردی‌بکەوە.",
+                            onPressedBritish: () => speakbrainstorms1("en-GB"),
+                            onPressedAmerican: () => speakbrainstorms1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) وەستانی لەناکاوی بیرکردنەوە بە باشی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had a brainstorm in the exam and didn't answer a single question."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تاقیکردنەوەکە تووشی شڵەژانی دەروونی بوو و نەیتوانی وەڵامی یەک پرسیاریش بداتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrainstorms2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrainstorms2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had a brainstorm in the exam and didn't answer a single question.",
+                            kurdishText:
+                                "لە تاقیکردنەوەکە تووشی شڵەژانی دەروونی بوو و نەیتوانی وەڵامی یەک پرسیاریش بداتەوە.",
+                            onPressedBritish: () => speakbrainstorms2("en-GB"),
+                            onPressedAmerican: () => speakbrainstorms2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) بیرۆکەیەکی باشی لەناکاو"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This was a brainstorm I came up with when I was driving."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە بیرۆکەیەکی تازەیە کە بۆم ھات کاتێک شۆفێریم دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrainstorms3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrainstorms3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This was a brainstorm I came up with when I was driving.",
+                            kurdishText:
+                                "ئەمە بیرۆکەیەکی تازەیە کە بۆم ھات کاتێک شۆفێریم دەکرد.",
+                            onPressedBritish: () => speakbrainstorms3("en-GB"),
+                            onPressedAmerican: () => speakbrainstorms3("en-US"),
                           ),
                         ],
                       ),

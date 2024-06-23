@@ -144,91 +144,33 @@ class EnglishEntrybud extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) خونچەی ڕووەکێک کە دواتر دەبێتە گوڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The tree is in bud already."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دارەکە دەمێک دەبێت خونچەی گرتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bud" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The tree is in bud already.",
+                            kurdishText:
+                                "دارەکە دەمێک دەبێت خونچەی گرتووە.", // bud" as
+                            onPressedBritish: () => speakbuds1("en-GB"),
+                            onPressedAmerican: () => speakbuds1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) بۆ ناوھێنانی پیاوێک کە نایناسیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Listen, bud, enough of the wisecracks, OK?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گوێ بگرە کاکە، نوکتە بەسە، باشە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Listen, bud, enough of the wisecracks, OK?",
+                            kurdishText: "گوێ بگرە کاکە، نوکتە بەسە، باشە؟",
+                            onPressedBritish: () => speakbuds2("en-GB"),
+                            onPressedAmerican: () => speakbuds2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) خونچە گرتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In early spring the trees begin to bud."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە سەرەتای بەھاردا دارەکان دەست دەکەن بە خونچە گرتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In early spring the trees begin to bud.",
+                            kurdishText:
+                                "لە سەرەتای بەھاردا دارەکان دەست دەکەن بە خونچە گرتن.",
+                            onPressedBritish: () => speakbuds3("en-GB"),
+                            onPressedAmerican: () => speakbuds3("en-US"),
                           ),
                         ],
                       ),

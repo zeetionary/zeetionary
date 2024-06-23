@@ -152,63 +152,25 @@ class EnglishEntrybarricade extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ژمارەیەک شت کە دانراون بۆ ڕێگری لە تێپەڕبوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police stormed the barricades the demonstrators had put up."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس دای بەسەر ئەو بەربەستانەدا کە خۆپیشاندەران دایان نابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarricades1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarricades1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police stormed the barricades the demonstrators had put up.",
+                            kurdishText:
+                                "پۆلیس دای بەسەر ئەو بەربەستانەدا کە خۆپیشاندەران دایان نابوو.",
+                            onPressedBritish: () => speakbarricades1("en-GB"),
+                            onPressedAmerican: () => speakbarricades1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بەرگری کردن یان گرتنی شوێنێک بە دانانی بەربەست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They barricaded all the doors and windows."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو دەرگا و پەنجەرەکانیان بەربەست کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarricades2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarricades2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They barricaded all the doors and windows.",
+                            kurdishText:
+                                "ھەموو دەرگا و پەنجەرەکانیان بەربەست کرد.",
+                            onPressedBritish: () => speakbarricades2("en-GB"),
+                            onPressedAmerican: () => speakbarricades2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

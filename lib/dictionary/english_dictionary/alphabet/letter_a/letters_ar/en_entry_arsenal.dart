@@ -164,67 +164,29 @@ class EnglishEntryarsenal extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) چەک و تەقەمەنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The treaty requires them to reduce their nuclear arsenal by 30%."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتنەکە ناچاریان دەکات چەکی ئەتۆمییان بە ڕێژەی ٣٠٪ کەم بکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarsenal825("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarsenal825(
-                                        // REPLACE: arsenal /ˈɑːrsənl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The treaty requires them to reduce their nuclear arsenal by 30%.",
+                            kurdishText:
+                                "ڕێککەوتنەکە ناچاریان دەکات چەکی ئەتۆمییان بە ڕێژەی ٣٠٪ کەم بکەنەوە.",
+                            onPressedBritish: () => speakarsenal825("en-GB"),
+                            onPressedAmerican: () => speakarsenal825(
+                                // REPLACE: arsenal /ˈɑːrsənl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کۆگای چەک و تەقەمەنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The building was used as an arsenal until the eighteenth century."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیناکە وەک جبەخانەیەک بەکارھات تاوەکو سەدەی ھەژدە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarsenal826("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarsenal826(
-                                        // REPLACE: arsenal /ˈɑːrsənl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The building was used as an arsenal until the eighteenth century.",
+                            kurdishText:
+                                "بیناکە وەک جبەخانەیەک بەکارھات تاوەکو سەدەی ھەژدە.",
+                            onPressedBritish: () => speakarsenal826("en-GB"),
+                            onPressedAmerican: () => speakarsenal826(
+                                // REPLACE: arsenal /ˈɑːrsənl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

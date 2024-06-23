@@ -165,35 +165,16 @@ class EnglishEntryarchitectural extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) پەیوەندیدار بە بینا و بیناسازی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several architectural styles are being considered for the proposed housing development."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک ستایلی بیناسازی ڕەچاودەکرێن بۆ پڕۆژەی خانوبەرە پێشنیازکراوەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarchitectural428("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarchitectural428(
-                                        // REPLACE: architectural /ˌɑːrkɪˈtektʃərəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several architectural styles are being considered for the proposed housing development.",
+                            kurdishText:
+                                "ژمارەیەک ستایلی بیناسازی ڕەچاودەکرێن بۆ پڕۆژەی خانوبەرە پێشنیازکراوەکە.",
+                            onPressedBritish: () =>
+                                speakarchitectural428("en-GB"),
+                            onPressedAmerican: () => speakarchitectural428(
+                                // REPLACE: architectural /ˌɑːrkɪˈtektʃərəl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

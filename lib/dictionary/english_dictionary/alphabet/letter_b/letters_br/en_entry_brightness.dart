@@ -146,153 +146,58 @@ class EnglishEntrybrightness extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) درەوشاوەیی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was momentarily blinded by the brightness of the room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ماوەیەکی کەم تووشی شەوارەیی بوو بە ڕۆشنایی ژوورەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brightness" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrightnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrightnesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was momentarily blinded by the brightness of the room.",
+                            kurdishText:
+                                "بۆ ماوەیەکی کەم تووشی شەوارەیی بوو بە ڕۆشنایی ژوورەکە.", // brightness" as
+                            onPressedBritish: () => speakbrightnesss1("en-GB"),
+                            onPressedAmerican: () => speakbrightnesss1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ڕێژەیی ڕۆشنایی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As the brake is applied, the light increases in brightness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە برێک دەگریت، لایتەکە ڕۆشنایی زیاد دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrightnesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrightnesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As the brake is applied, the light increases in brightness.",
+                            kurdishText:
+                                "کە برێک دەگریت، لایتەکە ڕۆشنایی زیاد دەکات.",
+                            onPressedBritish: () => speakbrightnesss2("en-GB"),
+                            onPressedAmerican: () => speakbrightnesss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) ڕۆشنایی لە ڕەندگدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Repeated use of some washing powders can lead to a loss of brightness in colours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکارھێنانی بەردەوامی تایتی شۆردن دەکرێت ببێتە ھۆی کەمبوونی پرشنگداریی ڕەنگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrightnesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrightnesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Repeated use of some washing powders can lead to a loss of brightness in colours.",
+                            kurdishText:
+                                "بەکارھێنانی بەردەوامی تایتی شۆردن دەکرێت ببێتە ھۆی کەمبوونی پرشنگداریی ڕەنگ.",
+                            onPressedBritish: () => speakbrightnesss3("en-GB"),
+                            onPressedAmerican: () => speakbrightnesss3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ڕەفتار و ھەڵسوکەوتی بەگوڕ و بەکەیف"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her brightness and energy kept us all together."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کامەرانیی و گوڕ و تینی ھەموومانی پێکەوە ھێشربووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrightnesss4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrightnesss4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her brightness and energy kept us all together.",
+                            kurdishText:
+                                "کامەرانیی و گوڕ و تینی ھەموومانی پێکەوە ھێشربووەوە.",
+                            onPressedBritish: () => speakbrightnesss4("en-GB"),
+                            onPressedAmerican: () => speakbrightnesss4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ناو) زیرەکی و بیرتیژی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The brightness of these students isn't in doubt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیرەکی ئەم خوێندکارانە گومانی لێ ناکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrightnesss5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrightnesss5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The brightness of these students isn't in doubt.",
+                            kurdishText:
+                                "زیرەکی ئەم خوێندکارانە گومانی لێ ناکرێت.",
+                            onPressedBritish: () => speakbrightnesss5("en-GB"),
+                            onPressedAmerican: () => speakbrightnesss5("en-US"),
                           ),
                         ],
                       ),

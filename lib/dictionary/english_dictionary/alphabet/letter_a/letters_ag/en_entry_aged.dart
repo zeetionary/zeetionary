@@ -114,98 +114,41 @@ class EnglishEntryaged extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) لە تەمەنێکدا" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have two children aged six and nine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو منداڵیان ھەیە کە تەمەنیان شەش و نۆ ساڵانن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaged5628846("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaged5628846(
-                                        // REPLACE: aged /eɪdʒd/, /ˈeɪdʒɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have two children aged six and nine.",
+                            kurdishText:
+                                "دوو منداڵیان ھەیە کە تەمەنیان شەش و نۆ ساڵانن.",
+                            onPressedBritish: () => speakaged5628846("en-GB"),
+                            onPressedAmerican: () => speakaged5628846(
+                                // REPLACE: aged /eɪdʒd/, /ˈeɪdʒɪd/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) زۆر پیر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I’m not sure if my aged car can make it up that hill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیانیم کە ئەم ئۆتۆمبێلە کۆنەم بتوانێ بەو گردەدا بچێتە سەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaged4896223("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaged4896223(
-                                        // REPLACE: aged /eɪdʒd/, /ˈeɪdʒɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I’m not sure if my aged car can make it up that hill.",
+                            kurdishText:
+                                "دڵنیانیم کە ئەم ئۆتۆمبێلە کۆنەم بتوانێ بەو گردەدا بچێتە سەرەوە.",
+                            onPressedBritish: () => speakaged4896223("en-GB"),
+                            onPressedAmerican: () => speakaged4896223(
+                                // REPLACE: aged /eɪdʒd/, /ˈeɪdʒɪd/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) کەسانی زۆر پیر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hospital was built to meet the needs of the aged."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەخۆشخانەکە بنیادنرا بۆ دابینکردنی پێداویستییەکانی کەسانی بەتەمەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaged259363("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaged259363(
-                                        // REPLACE: aged /eɪdʒd/, /ˈeɪdʒɪd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hospital was built to meet the needs of the aged.",
+                            kurdishText:
+                                "نەخۆشخانەکە بنیادنرا بۆ دابینکردنی پێداویستییەکانی کەسانی بەتەمەن.",
+                            onPressedBritish: () => speakaged259363("en-GB"),
+                            onPressedAmerican: () => speakaged259363(
+                                // REPLACE: aged /eɪdʒd/, /ˈeɪdʒɪd/
+                                "en-US"),
                           ),
                         ],
                       ),

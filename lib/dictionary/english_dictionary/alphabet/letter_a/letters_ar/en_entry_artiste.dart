@@ -171,34 +171,15 @@ class EnglishEntryartiste extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ھونەرمەندێکی پڕۆفیشناڵ" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After the band broke up, Joe relaunched his career as a solo artiste."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakartist846("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakartist846(
-                                        // REPLACE: artist /ˈɑːrtɪst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After the band broke up, Joe relaunched his career as a solo artiste.",
+                            kurdishText:
+                                "لە دوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە.",
+                            onPressedBritish: () => speakartist846("en-GB"),
+                            onPressedAmerican: () => speakartist846(
+                                // REPLACE: artist /ˈɑːrtɪst/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

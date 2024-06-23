@@ -163,188 +163,73 @@ class EnglishEntryalive extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زیندوو" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had to steal food just to stay alive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویست بوو خواردن بدزێت بۆ ئەوەی بە زیندوویی بمێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalive65666("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalive65666(
-                                        // REPLACE: alive /əˈlaɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had to steal food just to stay alive.",
+                            kurdishText:
+                                "پێویست بوو خواردن بدزێت بۆ ئەوەی بە زیندوویی بمێنێتەوە.",
+                            onPressedBritish: () => speakalive65666("en-GB"),
+                            onPressedAmerican: () => speakalive65666(
+                                // REPLACE: alive /əˈlaɪv/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We don't know whether he's alive or dead."),
-                                    ExampleSentenceKurdish(
-                                        text: "نازانین زیندووە یان مردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalive69142("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalive69142(
-                                        // REPLACE: alive /əˈlaɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We don't know whether he's alive or dead.",
+                            kurdishText: "نازانین زیندووە یان مردووە.",
+                            onPressedBritish: () => speakalive69142("en-GB"),
+                            onPressedAmerican: () => speakalive69142(
+                                // REPLACE: alive /əˈlaɪv/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پڕ لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Ed was alive with happiness."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئێد پڕ بوو لە خۆشی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalive3599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalive3599(
-                                        // REPLACE: alive /əˈlaɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Ed was alive with happiness.",
+                            kurdishText: "ئێد پڕ بوو لە خۆشی.",
+                            onPressedBritish: () => speakalive3599("en-GB"),
+                            onPressedAmerican: () => speakalive3599(
+                                // REPLACE: alive /əˈlaɪv/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) بەردەوام"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The old customs are still very much alive in this region."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەریتە کۆنەکان ھێشتا زیندوون لەم ھەرێمە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalive75236("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalive75236(
-                                        // REPLACE: alive /əˈlaɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The old customs are still very much alive in this region.",
+                            kurdishText:
+                                "نەریتە کۆنەکان ھێشتا زیندوون لەم ھەرێمە.",
+                            onPressedBritish: () => speakalive75236("en-GB"),
+                            onPressedAmerican: () => speakalive75236(
+                                // REPLACE: alive /əˈlaɪv/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) پڕ لە زیندەوەر یان شتی جووڵاو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The pool was alive with goldfish."),
-                                    ExampleSentenceKurdish(
-                                        text: "حەوزەکە پڕ لە زەردەماسی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalive378514("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalive378514(
-                                        // REPLACE: alive /əˈlaɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The pool was alive with goldfish.",
+                            kurdishText: "حەوزەکە پڕ لە زەردەماسی بوو.",
+                            onPressedBritish: () => speakalive378514("en-GB"),
+                            onPressedAmerican: () => speakalive378514(
+                                // REPLACE: alive /əˈlaɪv/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵناو) ئاگادار لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They are alive to the fact that the opposing team has not lost a game this season."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باش ئاگاداری ئەو ڕاستییەن کە تیمی بەرامبەر ئەم وەرزە ھیچ یارییەکی نەدۆڕاندووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalive35961("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalive35961(
-                                        // REPLACE: alive /əˈlaɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They are alive to the fact that the opposing team has not lost a game this season.",
+                            kurdishText:
+                                "باش ئاگاداری ئەو ڕاستییەن کە تیمی بەرامبەر ئەم وەرزە ھیچ یارییەکی نەدۆڕاندووە.",
+                            onPressedBritish: () => speakalive35961("en-GB"),
+                            onPressedAmerican: () => speakalive35961(
+                                // REPLACE: alive /əˈlaɪv/
+                                "en-US"),
                           ),
                         ],
                       ),

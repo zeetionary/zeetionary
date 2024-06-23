@@ -114,34 +114,15 @@ class EnglishEntryadjoin extends StatelessWidget {
                               text:
                                   "١. (کردار) بوون لە تەنیشت شتێک، یان گرێدراو پێوەی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's at this point that these three neighbourhoods adjoin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەم خاڵەدایە کە ھەر سێ گەڕەکەکە یەکدەگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadjo77444("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadjo77444(
-                                        // REPLACE: adjoin /əˈdʒɔɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's at this point that these three neighbourhoods adjoin.",
+                            kurdishText:
+                                "لەم خاڵەدایە کە ھەر سێ گەڕەکەکە یەکدەگرن.",
+                            onPressedBritish: () => speakadjo77444("en-GB"),
+                            onPressedAmerican: () => speakadjo77444(
+                                // REPLACE: adjoin /əˈdʒɔɪn/
+                                "en-US"),
                           ),
                         ],
                       ),

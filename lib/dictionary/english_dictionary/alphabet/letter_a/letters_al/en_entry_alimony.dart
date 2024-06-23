@@ -114,34 +114,15 @@ class EnglishEntryalimony extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پارەیەک کە دەیدەیت بە ھاوژینەکەت کەدوای جیابوونەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has to pay alimony to his ex-wife."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستە نەفەقە بدات بە ھاوسەری پێشووی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalimony4625("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalimony4625(
-                                        // REPLACE: alimony /ˈælɪməʊni/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has to pay alimony to his ex-wife.",
+                            kurdishText:
+                                "پێویستە نەفەقە بدات بە ھاوسەری پێشووی.",
+                            onPressedBritish: () => speakalimony4625("en-GB"),
+                            onPressedAmerican: () => speakalimony4625(
+                                // REPLACE: alimony /ˈælɪməʊni/
+                                "en-US"),
                           ),
                         ],
                       ),

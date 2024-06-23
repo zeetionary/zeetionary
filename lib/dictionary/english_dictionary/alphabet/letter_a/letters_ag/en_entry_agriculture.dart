@@ -113,34 +113,15 @@ class EnglishEntryagriculture extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) زانست یان کاری کشتوکاڵ " ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Agriculture is still largely based on traditional methods in some countries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کشتوکاڵ لە زۆر وڵات ھێشتا ھەر پشت بە ڕێگا باوە کۆنەکان دەبەستێت بەزۆری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagri3588("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagri3588(
-                                        // REPLACE: agriculture /ˈæɡrɪkʌltʃər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Agriculture is still largely based on traditional methods in some countries.",
+                            kurdishText:
+                                "کشتوکاڵ لە زۆر وڵات ھێشتا ھەر پشت بە ڕێگا باوە کۆنەکان دەبەستێت بەزۆری.",
+                            onPressedBritish: () => speakagri3588("en-GB"),
+                            onPressedAmerican: () => speakagri3588(
+                                // REPLACE: agriculture /ˈæɡrɪkʌltʃər/
+                                "en-US"),
                           ),
                         ],
                       ),

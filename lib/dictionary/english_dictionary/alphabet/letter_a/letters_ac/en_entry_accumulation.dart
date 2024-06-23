@@ -118,60 +118,22 @@ class EnglishEntryaccumulation extends StatelessWidget {
                               text:
                                   "١. پڕۆسەی خڕبوونەوە بەھێواشی لە ماوەیەکی درێژدا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Despite this accumulation of evidence, the government persisted in doing nothing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرەڕای زیادبوونی بەڵگە، حکوومەت سووربوو لەسەر ئەوەی ھیچ نەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakac1548("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakac1548("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Despite this accumulation of evidence, the government persisted in doing nothing.",
+                            kurdishText:
+                                "سەرەڕای زیادبوونی بەڵگە، حکوومەت سووربوو لەسەر ئەوەی ھیچ نەکات.",
+                            onPressedBritish: () => speakac1548("en-GB"),
+                            onPressedAmerican: () => speakac1548("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Accumulations of sand can be formed by the action of waves on coastal beaches."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆبوونەوەی خۆڵ ئەکرێت درووستببێت بەھۆی شەپۆل لە کەنار دەریاییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka122158("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka122158("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Accumulations of sand can be formed by the action of waves on coastal beaches.",
+                            kurdishText:
+                                "کۆبوونەوەی خۆڵ ئەکرێت درووستببێت بەھۆی شەپۆل لە کەنار دەریاییەکان.",
+                            onPressedBritish: () => speaka122158("en-GB"),
+                            onPressedAmerican: () => speaka122158("en-US"),
                           ),
                         ],
                       ),

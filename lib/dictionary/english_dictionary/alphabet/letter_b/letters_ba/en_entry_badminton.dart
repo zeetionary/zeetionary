@@ -153,34 +153,15 @@ class EnglishEntrybadminton extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) یارییەکە کە وەک تێنسە و لەلایەن دوو یان چوار کەسەوە دەکرێت. یاریزانان لە تۆپێک دەدەن کە پەڕدارە بە دەسکێک بەسەر تۆڕێکی بەرزدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I enjoyed watching the badminton tournament, even though I didn't understand all the rules."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چێژم بینی لە سەیرکردنی یارییە بادمینتۆنەکە، ئەگەرچی لە ھەموو یاساکان تێنەدەگەشتم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbadmintons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbadmintons1(// REPLACE: badminton
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I enjoyed watching the badminton tournament, even though I didn't understand all the rules.",
+                            kurdishText:
+                                "چێژم بینی لە سەیرکردنی یارییە بادمینتۆنەکە، ئەگەرچی لە ھەموو یاساکان تێنەدەگەشتم.",
+                            onPressedBritish: () => speakbadmintons1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbadmintons1(// REPLACE: badminton
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -161,34 +161,15 @@ class EnglishEntryardent extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) تامەزرۆ و بەپەرۆش" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As an ardent supporter, he cheers for Manchester United in every match."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک ھەوادارێکی تامەزرۆ، لە ھەموو یارییەکدا ھاوار بۆ مانچستەر یونایتید دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakardent516("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakardent516(
-                                        // REPLACE: ardent /ˈɑːrdnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As an ardent supporter, he cheers for Manchester United in every match.",
+                            kurdishText:
+                                "وەک ھەوادارێکی تامەزرۆ، لە ھەموو یارییەکدا ھاوار بۆ مانچستەر یونایتید دەکات.",
+                            onPressedBritish: () => speakardent516("en-GB"),
+                            onPressedAmerican: () => speakardent516(
+                                // REPLACE: ardent /ˈɑːrdnt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -164,35 +164,16 @@ class EnglishEntryastonishment extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) سەرسامیی زۆر" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He stared in astonishment at the stranger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە سەرسامییەوە لە لە نەناسەکەی دەڕوانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakastonishment1053("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakastonishment1053(
-                                        // REPLACE: astonishment
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He stared in astonishment at the stranger.",
+                            kurdishText:
+                                "بە سەرسامییەوە لە لە نەناسەکەی دەڕوانی.",
+                            onPressedBritish: () =>
+                                speakastonishment1053("en-GB"),
+                            onPressedAmerican: () => speakastonishment1053(
+                                // REPLACE: astonishment
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

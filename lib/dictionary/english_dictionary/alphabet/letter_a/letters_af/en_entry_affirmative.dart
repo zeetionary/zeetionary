@@ -112,65 +112,26 @@ class EnglishEntryaffirmative extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) وەڵامێکی ئەرێنی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He gave an affirmative response to the question."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەڵامێکی ئەرێنی دا بە پرسیارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffirm556("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffirm556(
-                                        // REPLACE: affirmative /əˈfɜːrmətɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He gave an affirmative response to the question.",
+                            kurdishText: "وەڵامێکی ئەرێنی دا بە پرسیارەکە.",
+                            onPressedBritish: () => speakaffirm556("en-GB"),
+                            onPressedAmerican: () => speakaffirm556(
+                                // REPLACE: affirmative /əˈfɜːrmətɪv/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) وشەیەک کە واتای بەڵێ دەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She answered in the affirmative (= said ‘yes’)."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە بەڵێ وەڵامی داوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaffirmat899("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaffirmat899(
-                                        // REPLACE: affirmative /əˈfɜːrmətɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She answered in the affirmative (= said ‘yes’).",
+                            kurdishText: "بە بەڵێ وەڵامی داوە.",
+                            onPressedBritish: () => speakaffirmat899("en-GB"),
+                            onPressedAmerican: () => speakaffirmat899(
+                                // REPLACE: affirmative /əˈfɜːrmətɪv/
+                                "en-US"),
                           ),
                         ],
                       ),

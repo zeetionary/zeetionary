@@ -151,179 +151,65 @@ class EnglishEntryblur extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شتێک کە ناتوانیت بەڕوونی بیبینیت، زۆرجار لەبەرئەوەی زۆر خێرا دەجووڵێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Everything is a blur when I take my glasses off."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو شت لێڵاییە کە چاویلکەکەم لادەدەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblurs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblurs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Everything is a blur when I take my glasses off.",
+                            kurdishText:
+                                "ھەموو شت لێڵاییە کە چاویلکەکەم لادەدەم.",
+                            onPressedBritish: () => speakblurs1("en-GB"),
+                            onPressedAmerican: () => speakblurs1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) شتێک کە بە ڕوونی بیرت ناکەوێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The events of that day were just a blur."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووداوەکانی ئەو ڕۆژە یادەوەری ناڕوون بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblurs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblurs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The events of that day were just a blur.",
+                            kurdishText:
+                                "ڕووداوەکانی ئەو ڕۆژە یادەوەری ناڕوون بوون.",
+                            onPressedBritish: () => speakblurs2("en-GB"),
+                            onPressedAmerican: () => speakblurs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٣. (کردار) تەڵخبوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "As she drifted into sleep, the doctor's face began to blur and fade."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە دەستیکرد بە بێھۆشکەوتن، ڕووخساری پزیشکەکە دەستیکرد بە تەڵخبوون و نەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblurs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblurs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "As she drifted into sleep, the doctor's face began to blur and fade.",
+                            kurdishText:
+                                "کە دەستیکرد بە بێھۆشکەوتن، ڕووخساری پزیشکەکە دەستیکرد بە تەڵخبوون و نەمان.",
+                            onPressedBritish: () => speakblurs3("en-GB"),
+                            onPressedAmerican: () => speakblurs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) نەبوونی توانای بینین بە ڕوونی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Tears blurred her eyes."),
-                                    ExampleSentenceKurdish(
-                                        text: "فرمێسک چاوی تەڵخ کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblurs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblurs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Tears blurred her eyes.",
+                            kurdishText: "فرمێسک چاوی تەڵخ کرد.",
+                            onPressedBritish: () => speakblurs4("en-GB"),
+                            onPressedAmerican: () => speakblurs4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) وابکەیت دوو شت زۆر لێکبچن، یان دوو شت وایان لێ بێت جیاوازییان نەمێنێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The differences between art and life seem to have blurred."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جیاوازی نێوان ھونەر و ژیان وا دەردەکەوێت کە کەمبووبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblurs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblurs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The differences between art and life seem to have blurred.",
+                            kurdishText:
+                                "جیاوازی نێوان ھونەر و ژیان وا دەردەکەوێت کە کەمبووبێت.",
+                            onPressedBritish: () => speakblurs5("en-GB"),
+                            onPressedAmerican: () => speakblurs5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She tends to blur the distinction between her friends and her colleagues."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزدەکات جیاوازی لە نێوان ھاوڕێکانی و ھاوکارەکانی پیشان نەدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblurs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblurs6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She tends to blur the distinction between her friends and her colleagues.",
+                            kurdishText:
+                                "حەزدەکات جیاوازی لە نێوان ھاوڕێکانی و ھاوکارەکانی پیشان نەدات.",
+                            onPressedBritish: () => speakblurs6("en-GB"),
+                            onPressedAmerican: () => speakblurs6("en-US"),
                           ),
                         ],
                       ),

@@ -166,101 +166,41 @@ class EnglishEntryassignment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئەرکێک کە کەسێک وەک باشێک لە کارەکەی یان خوێندنی پێی‌دەدرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Students are required to complete all homework assignments."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قوتابیان دەبێت ھەموو ئەرکی ماڵەوە تەواو بکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassignment724("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassignment724(
-                                        // REPLACE: assignment /əˈsaɪnmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Students are required to complete all homework assignments.",
+                            kurdishText:
+                                "قوتابیان دەبێت ھەموو ئەرکی ماڵەوە تەواو بکەن.",
+                            onPressedBritish: () => speakassignment724("en-GB"),
+                            onPressedAmerican: () => speakassignment724(
+                                // REPLACE: assignment /əˈsaɪnmənt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is in Greece on an assignment for one of the Sunday newspapers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەسەر ئەرکە لە یۆنان بۆ یەکێک لە ڕۆژنامەکانی یەکشەممان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassignment726("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassignment726(
-                                        // REPLACE: assignment /əˈsaɪnmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is in Greece on an assignment for one of the Sunday newspapers.",
+                            kurdishText:
+                                "لەسەر ئەرکە لە یۆنان بۆ یەکێک لە ڕۆژنامەکانی یەکشەممان.",
+                            onPressedBritish: () => speakassignment726("en-GB"),
+                            onPressedAmerican: () => speakassignment726(
+                                // REPLACE: assignment /əˈsaɪnmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پێدانی شتێک بە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His two-year assignment to the Mexico office starts in September."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاسپاردنی بۆ ماوەی دوو ساڵ بۆ ئۆفیسی مەکسیک لە ئەیلوولەوە دەستپێ‌دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassignment732("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassignment732(
-                                        // REPLACE: assignment /əˈsaɪnmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His two-year assignment to the Mexico office starts in September.",
+                            kurdishText:
+                                "ڕاسپاردنی بۆ ماوەی دوو ساڵ بۆ ئۆفیسی مەکسیک لە ئەیلوولەوە دەستپێ‌دەکات.",
+                            onPressedBritish: () => speakassignment732("en-GB"),
+                            onPressedAmerican: () => speakassignment732(
+                                // REPLACE: assignment /əˈsaɪnmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

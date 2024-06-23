@@ -114,33 +114,13 @@ class EnglishEntryagricultural extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) پەیوەندیدار بە زانست و کاری کشتوکاڵی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's studying agricultural science."),
-                                    ExampleSentenceKurdish(
-                                        text: "زانستی کشتوکاڵ دەخوێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagricul35699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagricul35699(
-                                        // REPLACE: agricultural /ˌæɡrɪˈkʌltʃərəl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She's studying agricultural science.",
+                            kurdishText: "زانستی کشتوکاڵ دەخوێنێت.",
+                            onPressedBritish: () => speakagricul35699("en-GB"),
+                            onPressedAmerican: () => speakagricul35699(
+                                // REPLACE: agricultural /ˌæɡrɪˈkʌltʃərəl/
+                                "en-US"),
                           ),
                         ],
                       ),

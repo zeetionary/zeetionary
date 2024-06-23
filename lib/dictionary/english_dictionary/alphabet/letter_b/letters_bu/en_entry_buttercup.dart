@@ -192,32 +192,13 @@ class EnglishEntrybuttercup extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ڕووەکێکی دەشتی کە گوڵی زەردی بچووک دەگرێت کە وەک کوپن لە شێوەدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Children enjoy picking buttercups in spring."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵان حەزیان لە چنینی گوڵە مێلاقەیە لە بەھاردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "buttercup", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuttercups1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuttercups1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Children enjoy picking buttercups in spring.",
+                            kurdishText:
+                                "منداڵان حەزیان لە چنینی گوڵە مێلاقەیە لە بەھاردا.", // buttercup", follow LX strictly
+                            onPressedBritish: () => speakbuttercups1("en-GB"),
+                            onPressedAmerican: () => speakbuttercups1("en-US"),
                           ),
                         ],
                       ),

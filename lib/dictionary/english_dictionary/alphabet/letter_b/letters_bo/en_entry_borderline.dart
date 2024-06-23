@@ -150,63 +150,25 @@ class EnglishEntryborderline extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) لە نێوان دوو حاڵەتدا بەبێ ئەوەی بە تەواوی بۆ یەکێکیان بگەڕێتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In borderline cases teachers will take the final decision, based on the student's previous work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە حاڵەتێکدا کە خوێندکار نزیکە لە دەرچوون مامۆستا بڕیاری کۆتایی دەداتبە پێی ئاستی پێشووی خوێندکار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborderlines1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborderlines1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In borderline cases teachers will take the final decision, based on the student's previous work.",
+                            kurdishText:
+                                "لە حاڵەتێکدا کە خوێندکار نزیکە لە دەرچوون مامۆستا بڕیاری کۆتایی دەداتبە پێی ئاستی پێشووی خوێندکار.",
+                            onPressedBritish: () => speakborderlines1("en-GB"),
+                            onPressedAmerican: () => speakborderlines1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) جیاکەرەوەی نێوان دوو خاسیەت یان مەرج"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The borderline between friendship and intimacy is often hard to define."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاڵی جیاکەرەوەی نێوان ھاوڕێیەتی و سۆزداری زۆرجار سەختە دیاری بکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakborderlines2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakborderlines2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The borderline between friendship and intimacy is often hard to define.",
+                            kurdishText:
+                                "خاڵی جیاکەرەوەی نێوان ھاوڕێیەتی و سۆزداری زۆرجار سەختە دیاری بکرێت.",
+                            onPressedBritish: () => speakborderlines2("en-GB"),
+                            onPressedAmerican: () => speakborderlines2("en-US"),
                           ),
                         ],
                       ),

@@ -111,34 +111,14 @@ class EnglishEntryagreeable extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) شتێکی خۆش و دڵگیر" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She did her best to make herself agreeable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموو شتێکی کرد بۆ ئەوەی دڵگیر بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagree75888("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagree75888(
-                                        // REPLACE: agreeable /əˈɡriːəbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She did her best to make herself agreeable.",
+                            kurdishText: "ھەموو شتێکی کرد بۆ ئەوەی دڵگیر بێت.",
+                            onPressedBritish: () => speakagree75888("en-GB"),
+                            onPressedAmerican: () => speakagree75888(
+                                // REPLACE: agreeable /əˈɡriːəbl/
+                                "en-US"),
                           ),
                         ],
                       ),

@@ -99,32 +99,13 @@ class EnglishEntryabsurdity extends StatelessWidget {
                               text:
                                   "١. (ناو) شتێک کە تەواو گاڵتەجاڕانەیە و ھیچ لۆژیکی تێدا نییە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was only later that she could see the absurdity of the situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا لە دواتردا بوو کە پڕوپووچێتی بارودۆخەکەی بۆدەرکەوت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka27416("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka27416("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was only later that she could see the absurdity of the situation.",
+                            kurdishText:
+                                "تەنھا لە دواتردا بوو کە پڕوپووچێتی بارودۆخەکەی بۆدەرکەوت.",
+                            onPressedBritish: () => speaka27416("en-GB"),
+                            onPressedAmerican: () => speaka27416("en-US"),
                           ),
                         ],
                       ),

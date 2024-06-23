@@ -150,62 +150,24 @@ class EnglishEntryblockage extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێک کە جوڵە دەوەستێنێت، بۆ نموونە جوڵەی شلە لە شوێنێکی تەسکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His death was caused by a blockage in one of his arteries."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مردنەکەی ڕوویدا بەھۆی گیرانێک لە یەکێک لە خوێنبەرەکانی دڵیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblockages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblockages1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His death was caused by a blockage in one of his arteries.",
+                            kurdishText:
+                                "مردنەکەی ڕوویدا بەھۆی گیرانێک لە یەکێک لە خوێنبەرەکانی دڵیدا.",
+                            onPressedBritish: () => speakblockages1("en-GB"),
+                            onPressedAmerican: () => speakblockages1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) دۆخی گیرانی جوڵە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The doctor recommended surgery to clear the blockage in the airway."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دکتۆرەکە پێشنیاری نەشتەرگەری کرد بۆ بەردانی گیرانەکە لە ھەواڕێی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblockages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblockages2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The doctor recommended surgery to clear the blockage in the airway.",
+                            kurdishText:
+                                "دکتۆرەکە پێشنیاری نەشتەرگەری کرد بۆ بەردانی گیرانەکە لە ھەواڕێی.",
+                            onPressedBritish: () => speakblockages2("en-GB"),
+                            onPressedAmerican: () => speakblockages2("en-US"),
                           ),
                         ],
                       ),

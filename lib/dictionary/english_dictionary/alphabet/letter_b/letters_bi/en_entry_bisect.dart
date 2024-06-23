@@ -146,61 +146,21 @@ class EnglishEntrybisect extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) دوو بەش کردن، دوو کەرت کردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A busy road bisects the village."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێگایەکی قەرەباڵغ گوندەکەی دابەش دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbisects1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbisects1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A busy road bisects the village.",
+                            kurdishText:
+                                "ڕێگایەکی قەرەباڵغ گوندەکەی دابەش دەکرد.",
+                            onPressedBritish: () => speakbisects1("en-GB"),
+                            onPressedAmerican: () => speakbisects1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A circle is bisected by its diameter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بازنەیەک بە تیرەکەی کەرت دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbisects2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbisects2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A circle is bisected by its diameter.",
+                            kurdishText: "بازنەیەک بە تیرەکەی کەرت دەکرێت.",
+                            onPressedBritish: () => speakbisects2("en-GB"),
+                            onPressedAmerican: () => speakbisects2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

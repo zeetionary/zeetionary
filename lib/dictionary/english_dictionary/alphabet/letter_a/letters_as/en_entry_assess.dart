@@ -164,67 +164,29 @@ class EnglishEntryassess extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) ھەلسەنگاندن؛ سەیرکردنی شتێک و بڕیاردان لەسەری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Accurately assessing environmental impacts is very complex."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەدرووستی ھەڵسەنگاندنی کاریگەریی ژینگەیی کارێکی زۆر ئاڵۆزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassess1114("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassess1114(
-                                        // REPLACE: assess /əˈses/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Accurately assessing environmental impacts is very complex.",
+                            kurdishText:
+                                "بەدرووستی ھەڵسەنگاندنی کاریگەریی ژینگەیی کارێکی زۆر ئاڵۆزە.",
+                            onPressedBritish: () => speakassess1114("en-GB"),
+                            onPressedAmerican: () => speakassess1114(
+                                // REPLACE: assess /əˈses/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) خەمڵاندنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Damage to the building was assessed at £40 000."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیان بە بیناکە بە ٤٠,٠٠٠ پاوەند خەمڵێندرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassess1116("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassess1116(
-                                        // REPLACE: assess /əˈses/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Damage to the building was assessed at £40 000.",
+                            kurdishText:
+                                "زیان بە بیناکە بە ٤٠,٠٠٠ پاوەند خەمڵێندرا.",
+                            onPressedBritish: () => speakassess1116("en-GB"),
+                            onPressedAmerican: () => speakassess1116(
+                                // REPLACE: assess /əˈses/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -114,66 +114,28 @@ class EnglishEntryaggression extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ھەستی ڕق و شەڕانگێزی کە ڕەنگە ببێتە ھۆی توندتوتیژی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The research shows that computer games may cause aggression."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژینەوەکە دەریدەخات کە یارییە ئەلیکترۆنییەکان دەکرێت ببنەھۆی شەڕەنگێزی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaggres56322("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggres56322(
-                                        // REPLACE: aggression /əˈɡreʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The research shows that computer games may cause aggression.",
+                            kurdishText:
+                                "توێژینەوەکە دەریدەخات کە یارییە ئەلیکترۆنییەکان دەکرێت ببنەھۆی شەڕەنگێزی.",
+                            onPressedBritish: () => speakaggres56322("en-GB"),
+                            onPressedAmerican: () => speakaggres56322(
+                                // REPLACE: aggression /əˈɡreʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شەڕفرۆشتنی کەسێک یان وڵاتێک بە یەکێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The president announced that the country would not tolerate foreign aggressions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک ڕایگەیاند کە وڵاتەکە چاوپۆشی ناکات لە ھیچ دەستدرێژییەکی دەرەکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaggr35741("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaggr35741(
-                                        // REPLACE: aggression /əˈɡreʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The president announced that the country would not tolerate foreign aggressions.",
+                            kurdishText:
+                                "سەرۆک ڕایگەیاند کە وڵاتەکە چاوپۆشی ناکات لە ھیچ دەستدرێژییەکی دەرەکی.",
+                            onPressedBritish: () => speakaggr35741("en-GB"),
+                            onPressedAmerican: () => speakaggr35741(
+                                // REPLACE: aggression /əˈɡreʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

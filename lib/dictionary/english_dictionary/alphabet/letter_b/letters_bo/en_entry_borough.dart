@@ -150,60 +150,22 @@ class EnglishEntryborough extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شارۆچکەیەک یان بەشێکی شارێک کە حکومەتی خۆجێیی خۆی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Bronx is one of the five boroughs of New York."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "برۆنکس یەکێکە لە پێنج مەڵبەندەکەی نیویۆرک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboroughs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboroughs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Bronx is one of the five boroughs of New York.",
+                            kurdishText:
+                                "برۆنکس یەکێکە لە پێنج مەڵبەندەکەی نیویۆرک.",
+                            onPressedBritish: () => speakboroughs1("en-GB"),
+                            onPressedAmerican: () => speakboroughs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She served as a local councillor in the London Borough of Westminster."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک ئەندامی ئەنجوومەنی خۆجێی لە مەڵبەندی وێستمنستەری لەندەن کاری دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboroughs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboroughs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She served as a local councillor in the London Borough of Westminster.",
+                            kurdishText:
+                                "وەک ئەندامی ئەنجوومەنی خۆجێی لە مەڵبەندی وێستمنستەری لەندەن کاری دەکرد.",
+                            onPressedBritish: () => speakboroughs2("en-GB"),
+                            onPressedAmerican: () => speakboroughs2("en-US"),
                           ),
                         ],
                       ),

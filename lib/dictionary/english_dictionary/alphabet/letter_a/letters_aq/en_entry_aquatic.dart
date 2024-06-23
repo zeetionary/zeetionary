@@ -161,67 +161,29 @@ class EnglishEntryaquatic extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) گیانلەبەرێک کە لە ئاو یان نزیکی ئاو دەژی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many forms of aquatic life inhabit ponds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆری گیانلەبەری ئاوی لە گۆماوەکاندا دەژین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaquatic936("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaquatic936(
-                                        // REPLACE: aquatic /əˈkwɑːtɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many forms of aquatic life inhabit ponds.",
+                            kurdishText:
+                                "ژمارەیەکی زۆری گیانلەبەری ئاوی لە گۆماوەکاندا دەژین.",
+                            onPressedBritish: () => speakaquatic936("en-GB"),
+                            onPressedAmerican: () => speakaquatic936(
+                                // REPLACE: aquatic /əˈkwɑːtɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بە ئاو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Aquatic sports include swimming and rowing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەرزشی ئاوی مەلەکردن و بەلەمەوانی لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaquatic938("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaquatic938(
-                                        // REPLACE: aquatic /əˈkwɑːtɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Aquatic sports include swimming and rowing.",
+                            kurdishText:
+                                "وەرزشی ئاوی مەلەکردن و بەلەمەوانی لەخۆدەگرێت.",
+                            onPressedBritish: () => speakaquatic938("en-GB"),
+                            onPressedAmerican: () => speakaquatic938(
+                                // REPLACE: aquatic /əˈkwɑːtɪk/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

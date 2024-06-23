@@ -156,155 +156,60 @@ class EnglishEntrybaby extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) منداڵێک یان ئاژەڵێکی بچووک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She had a baby last year."),
-                                    ExampleSentenceKurdish(
-                                        text: "ساڵی پار منداڵێکی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka3s1(// REPLACE: baby
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She had a baby last year.",
+                            kurdishText: "ساڵی پار منداڵێکی بوو.",
+                            onPressedBritish: () => speaka3s1("en-GB"),
+                            onPressedAmerican: () => speaka3s1(// REPLACE: baby
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بچووکترین ئەندامی خێزانێک یان گرووپێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He's the baby of the team."),
-                                    ExampleSentenceKurdish(
-                                        text: "بچووکترین ئەندامی تیمەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka3s2(// REPLACE: baby
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's the baby of the team.",
+                            kurdishText: "بچووکترین ئەندامی تیمەکەیە.",
+                            onPressedBritish: () => speaka3s2("en-GB"),
+                            onPressedAmerican: () => speaka3s2(// REPLACE: baby
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) کەسێک کە وەک منداڵ ڕەفتار دەکات و بەئاسانی بێزار دەبێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Stop crying and don't be such a baby."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "واز لە گریان بێنە و ھێندە منداڵ مەبە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka3s3(// REPLACE: baby
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Stop crying and don't be such a baby.",
+                            kurdishText:
+                                "واز لە گریان بێنە و ھێندە منداڵ مەبە.",
+                            onPressedBritish: () => speaka3s3("en-GB"),
+                            onPressedAmerican: () => speaka3s3(// REPLACE: baby
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) وشەیەک کە لەلایەن پیاوێکەوە بەکاردێت بۆ بانگکردنی ژنێک کە ھاوژینیەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Oh baby, I love you."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئاھ ھەناسەکەم، خۆشمدەوێیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka3s4(// REPLACE: baby
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Oh baby, I love you.",
+                            kurdishText: "ئاھ ھەناسەکەم، خۆشمدەوێیت.",
+                            onPressedBritish: () => speaka3s4("en-GB"),
+                            onPressedAmerican: () => speaka3s4(// REPLACE: baby
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) مامەڵەکردن لەگەڵ کەسێک بە گرنگیپێدانی زۆرەوە، وەک ئەوەی منداڵ بن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The boys were now ten and twelve and didn't want their mother to baby them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کوڕەکان لە ئێستادا ١٠ ساڵان و ١٢ ساڵان بوون و نەیاندەویست دایکیان وەک منداڵ سەیریان بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka3s5(// REPLACE: baby
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The boys were now ten and twelve and didn't want their mother to baby them.",
+                            kurdishText:
+                                "کوڕەکان لە ئێستادا ١٠ ساڵان و ١٢ ساڵان بوون و نەیاندەویست دایکیان وەک منداڵ سەیریان بکات.",
+                            onPressedBritish: () => speaka3s5("en-GB"),
+                            onPressedAmerican: () => speaka3s5(// REPLACE: baby
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

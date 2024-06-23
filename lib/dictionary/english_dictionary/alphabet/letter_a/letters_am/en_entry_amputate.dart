@@ -152,34 +152,15 @@ class EnglishEntryamputate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بڕینەوەی باڵ، لاق، یان پەنجەی کەسێک بە نەشتەرگەری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her right arm became infected and had to be amputated."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باڵی ڕاستی تووشی ھەوکردن بوو و ناچاربوون بی‌بڕنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamputate5528("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamputate5528(
-                                        // REPLACE: amputate /ˈæmpjuteɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her right arm became infected and had to be amputated.",
+                            kurdishText:
+                                "باڵی ڕاستی تووشی ھەوکردن بوو و ناچاربوون بی‌بڕنەوە.",
+                            onPressedBritish: () => speakamputate5528("en-GB"),
+                            onPressedAmerican: () => speakamputate5528(
+                                // REPLACE: amputate /ˈæmpjuteɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

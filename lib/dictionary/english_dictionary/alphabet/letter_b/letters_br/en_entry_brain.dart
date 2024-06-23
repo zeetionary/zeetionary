@@ -335,239 +335,84 @@ class EnglishEntrybrain extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) مێشکی مرۆڤ و ئاژەڵ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The human brain is a complex organ."),
-                                    ExampleSentenceKurdish(
-                                        text: "مێشکی مرۆڤ ئەندامێکی ئاڵۆزە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrains1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The human brain is a complex organ.",
+                            kurdishText: "مێشکی مرۆڤ ئەندامێکی ئاڵۆزە.",
+                            onPressedBritish: () => speakbrains1("en-GB"),
+                            onPressedAmerican: () => speakbrains1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My tired brain couldn't cope with such a complex problem."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مێشکە ماندووەکەم نەیدەتوانی مامەڵە لەگەڵ کێشەیەکی وەھا ئاڵۆز بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrains2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My tired brain couldn't cope with such a complex problem.",
+                            kurdishText:
+                                "مێشکە ماندووەکەم نەیدەتوانی مامەڵە لەگەڵ کێشەیەکی وەھا ئاڵۆز بکات.",
+                            onPressedBritish: () => speakbrains2("en-GB"),
+                            onPressedAmerican: () => speakbrains2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was found to have sustained a brain injury."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانرا کە مێشکی تووشی گورز بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrains3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was found to have sustained a brain injury.",
+                            kurdishText: "زانرا کە مێشکی تووشی گورز بووە.",
+                            onPressedBritish: () => speakbrains3("en-GB"),
+                            onPressedAmerican: () => speakbrains3("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Sometimes the doctor will also do a brain scan."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ھەندێکجار دکتۆرەکە سکانێکی مێشک دەکات."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrains4("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrains4("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Sometimes the doctor will also do a brain scan.",
+                                    kurdishText:
+                                        "ھەندێکجار دکتۆرەکە سکانێکی مێشک دەکات.",
+                                    onPressedBritish: () =>
+                                        speakbrains4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrains4("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "He was found to have a blood clot on his brain."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "زانرا کە کڵۆیەک خوێن لە مێشکیدا ھەیە."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrains5("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrains5("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "He was found to have a blood clot on his brain.",
+                                    kurdishText:
+                                        "زانرا کە کڵۆیەک خوێن لە مێشکیدا ھەیە.",
+                                    onPressedBritish: () =>
+                                        speakbrains5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrains5("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She died of a brain tumour."),
-                                            ExampleSentenceKurdish(
-                                                text: "بە گرێی مێشک مرد."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrains6("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrains6("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText: "She died of a brain tumour.",
+                                    kurdishText: "بە گرێی مێشک مرد.",
+                                    onPressedBritish: () =>
+                                        speakbrains6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrains6("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "She is Britain's youngest female brain surgeon."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "ئەو گەنجترین نەشتەرگەری مێشکە لە بەریتانیادا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrains7("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrains7("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "She is Britain's youngest female brain surgeon.",
+                                    kurdishText:
+                                        "ئەو گەنجترین نەشتەرگەری مێشکە لە بەریتانیادا.",
+                                    onPressedBritish: () =>
+                                        speakbrains7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrains7("en-US"),
                                   ),
                                   const DividerSentences(),
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "The scan apparently showed no damage to the brain."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "سکانەکە ھیچ زیانێکی لە مێشکدا پیشان نەدا."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbrains8("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbrains8("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "The scan apparently showed no damage to the brain.",
+                                    kurdishText:
+                                        "سکانەکە ھیچ زیانێکی لە مێشکدا پیشان نەدا.",
+                                    onPressedBritish: () =>
+                                        speakbrains8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbrains8("en-US"),
                                   ),
                                 ],
                               ),
@@ -577,240 +422,85 @@ class EnglishEntrybrain extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) مێشکی ئاژەڵێک کە وەک خواردن دەخورێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The local market offered fresh cow brain for sale."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فرۆشگا لۆکاڵییەکە مەغزی تازەی مانگای ھەبوو بۆ فرۆشتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrains9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The local market offered fresh cow brain for sale.",
+                            kurdishText:
+                                "فرۆشگا لۆکاڵییەکە مەغزی تازەی مانگای ھەبوو بۆ فرۆشتن.",
+                            onPressedBritish: () => speakbrains9("en-GB"),
+                            onPressedAmerican: () => speakbrains9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) توانای بیرکردنەوە بەخێرایی، ژیرانە، و ئاقڵانە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It doesn't take much brain to work out that both stories can't be true."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێندە بیرکردنەوەی ناوێت کە بزانی ھەردوو چیرۆکەکە ناکرێت ڕاست بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrains10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It doesn't take much brain to work out that both stories can't be true.",
+                            kurdishText:
+                                "ھێندە بیرکردنەوەی ناوێت کە بزانی ھەردوو چیرۆکەکە ناکرێت ڕاست بن.",
+                            onPressedBritish: () => speakbrains10("en-GB"),
+                            onPressedAmerican: () => speakbrains10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Teachers spotted that he had a good brain at an early age."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستاکان لە تەمەنێکی سەرەتاوە ھەستیان کرد مێشکێکی باشی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrains11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Teachers spotted that he had a good brain at an early age.",
+                            kurdishText:
+                                "مامۆستاکان لە تەمەنێکی سەرەتاوە ھەستیان کرد مێشکێکی باشی ھەیە.",
+                            onPressedBritish: () => speakbrains11("en-GB"),
+                            onPressedAmerican: () => speakbrains11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) کەسێکی زیرەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have the best scientific brains in the country working on this."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زیرەکترینەکانی زانستمان لە وڵاتەکەدا ھەیە کە کار لەسەر ئەمە دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrains12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have the best scientific brains in the country working on this.",
+                            kurdishText:
+                                "زیرەکترینەکانی زانستمان لە وڵاتەکەدا ھەیە کە کار لەسەر ئەمە دەکەن.",
+                            onPressedBritish: () => speakbrains12("en-GB"),
+                            onPressedAmerican: () => speakbrains12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) زیرەکترین کەس لەناو کۆمەڵێکدا، کەسی بەرپرس و ڕێکخەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's always been the brains of the family."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە بلیمەتی ناو خێزانەکەی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrains13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's always been the brains of the family.",
+                            kurdishText: "ھەمیشە بلیمەتی ناو خێزانەکەی بوو.",
+                            onPressedBritish: () => speakbrains13("en-GB"),
+                            onPressedAmerican: () => speakbrains13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was the brains behind the robberies."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەرقافڵەی دزییەکان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrains14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was the brains behind the robberies.",
+                            kurdishText: "سەرقافڵەی دزییەکان بوو.",
+                            onPressedBritish: () => speakbrains14("en-GB"),
+                            onPressedAmerican: () => speakbrains14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) کووشتنی کەسێک یان ئاژەڵێک بە لێدانێکی سەخت لە سەردا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The accident could have easily brained him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووداوەکە بە ئاسانی دەکرا بیکوشتایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrains15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The accident could have easily brained him.",
+                            kurdishText: "ڕووداوەکە بە ئاسانی دەکرا بیکوشتایە.",
+                            onPressedBritish: () => speakbrains15("en-GB"),
+                            onPressedAmerican: () => speakbrains15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (کردار) لێدان لە سەری کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'll brain you if you don't keep quiet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەکێشمە سەرتا گەر بێدەنگ نەبیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrains16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrains16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'll brain you if you don't keep quiet.",
+                            kurdishText: "دەکێشمە سەرتا گەر بێدەنگ نەبیت.",
+                            onPressedBritish: () => speakbrains16("en-GB"),
+                            onPressedAmerican: () => speakbrains16("en-US"),
                           ),
                         ],
                       ),

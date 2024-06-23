@@ -108,63 +108,23 @@ class EnglishEntryadjourn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) وەستاندنی کۆبوونەوەیەک بۆ ماوەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The court adjourned for lunch."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دادگا دانیشتنەکەی ھەڵپەسارد بۆ خواردنی نانی نیوەڕۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadjo952871("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadjo952871(
-                                        // REPLACE: adjourn /əˈdʒɜːrn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The court adjourned for lunch.",
+                            kurdishText:
+                                "دادگا دانیشتنەکەی ھەڵپەسارد بۆ خواردنی نانی نیوەڕۆ.",
+                            onPressedBritish: () => speakadjo952871("en-GB"),
+                            onPressedAmerican: () => speakadjo952871(
+                                // REPLACE: adjourn /əˈdʒɜːrn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The case was adjourned for a week."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەیسەکە بۆ ھەفتەیەک ھەڵپەسێردرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakad4582("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakad4582(
-                                        // REPLACE: adjourn /əˈdʒɜːrn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The case was adjourned for a week.",
+                            kurdishText: "کەیسەکە بۆ ھەفتەیەک ھەڵپەسێردرا.",
+                            onPressedBritish: () => speakad4582("en-GB"),
+                            onPressedAmerican: () => speakad4582(
+                                // REPLACE: adjourn /əˈdʒɜːrn/
+                                "en-US"),
                           ),
                         ],
                       ),

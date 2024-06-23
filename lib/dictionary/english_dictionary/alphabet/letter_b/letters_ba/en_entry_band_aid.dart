@@ -153,34 +153,15 @@ class EnglishEntrybandaid extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) لەزگەی زاماری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The nurse applied a Band-Aid to the child's scrape after she fell off her bike."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەرستارەکە لەزگەی خستەسەر داڕووشاوی منداڵەکە لە دوای ئەوەی لە پاسکیلەکەی کەوتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbandaids1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbandaids1(// REPLACE: Band Aid
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The nurse applied a Band-Aid to the child's scrape after she fell off her bike.",
+                            kurdishText:
+                                "پەرستارەکە لەزگەی خستەسەر داڕووشاوی منداڵەکە لە دوای ئەوەی لە پاسکیلەکەی کەوتبوو.",
+                            onPressedBritish: () => speakbandaids1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbandaids1(// REPLACE: Band Aid
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

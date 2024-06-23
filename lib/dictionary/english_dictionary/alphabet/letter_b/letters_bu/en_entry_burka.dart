@@ -190,32 +190,13 @@ class EnglishEntryburka extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بورقە؛ پارچە جلێکی فش و درێژ کە تەواوی جەستە دادەپۆشێت، بە سەر و ڕووخساریشەوە، لە لایەن ژمارەیەک ئافرەتی موسڵمانەوە دەپۆشرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The burka is often associated with cultural and religious practices."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بورقە زۆرجار دەبەسترێتەوە بە ئادابی ئایینی و کەلتوورییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burka", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburkas1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburkas1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The burka is often associated with cultural and religious practices.",
+                            kurdishText:
+                                "بورقە زۆرجار دەبەسترێتەوە بە ئادابی ئایینی و کەلتوورییەوە.", // burka", follow LX strictly
+                            onPressedBritish: () => speakburkas1("en-GB"),
+                            onPressedAmerican: () => speakburkas1("en-US"),
                           ),
                         ],
                       ),

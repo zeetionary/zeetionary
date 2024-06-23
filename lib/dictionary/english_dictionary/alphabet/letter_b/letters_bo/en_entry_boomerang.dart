@@ -148,32 +148,13 @@ class EnglishEntryboomerang extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارچە تەختەیەکی چەماوە کە فڕێی دەدەیت و بە بازنەیەکدا دەگەڕێتەوە بۆ خۆت، ئەم ئامێرە سەرەتا لەلایەن دانیشتوانی ڕەسەنی ئەمریکاوە بەکارھات بۆ ڕاوکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The plan had a boomerang effect (= caused unexpected harm to the person responsible for it)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "(بەکارھێنانی خوازراوی) پلانەکە کاریگەرییەکی پێچەوانەی ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboomerangs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboomerangs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The plan had a boomerang effect (= caused unexpected harm to the person responsible for it).",
+                            kurdishText:
+                                "(بەکارھێنانی خوازراوی) پلانەکە کاریگەرییەکی پێچەوانەی ھەبوو.",
+                            onPressedBritish: () => speakboomerangs1("en-GB"),
+                            onPressedAmerican: () => speakboomerangs1("en-US"),
                           ),
                         ],
                       ),

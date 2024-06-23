@@ -113,32 +113,13 @@ class EnglishEntryallah extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ناوی خودا لای مسوڵمانان" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "It is the will of Allah."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەوە ویستی خودایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallah359999("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallah359999(
-                                        // REPLACE: Allah /ˈælə/, /ˈɑːlə/, /ɑːˈlɑː/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It is the will of Allah.",
+                            kurdishText: "ئەوە ویستی خودایە.",
+                            onPressedBritish: () => speakallah359999("en-GB"),
+                            onPressedAmerican: () => speakallah359999(
+                                // REPLACE: Allah /ˈælə/, /ˈɑːlə/, /ɑːˈlɑː/
+                                "en-US"),
                           ),
                         ],
                       ),

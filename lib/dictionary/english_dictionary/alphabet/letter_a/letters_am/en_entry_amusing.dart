@@ -154,34 +154,15 @@ class EnglishEntryamusing extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) جێگەی خۆشی و پێکەنین" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I didn't find the joke at all amusing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نوکتەکەم ھیچ بە جێگەی پێکەنین نەبینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamusing7603("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamusing7603(
-                                        // REPLACE: amusing /əˈmjuːzɪŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I didn't find the joke at all amusing.",
+                            kurdishText:
+                                "نوکتەکەم ھیچ بە جێگەی پێکەنین نەبینی.",
+                            onPressedBritish: () => speakamusing7603("en-GB"),
+                            onPressedAmerican: () => speakamusing7603(
+                                // REPLACE: amusing /əˈmjuːzɪŋ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

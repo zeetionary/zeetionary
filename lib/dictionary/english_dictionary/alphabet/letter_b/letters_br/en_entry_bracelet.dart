@@ -146,32 +146,13 @@ class EnglishEntrybracelet extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) خشڵێک کە لە مەچەک و باڵ دەبەسترێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had a charm bracelet on her wrist."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەست‌بەندێکی جوانی لە مەچەکی بەستبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbracelets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbracelets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had a charm bracelet on her wrist.",
+                            kurdishText:
+                                "دەست‌بەندێکی جوانی لە مەچەکی بەستبوو.",
+                            onPressedBritish: () => speakbracelets1("en-GB"),
+                            onPressedAmerican: () => speakbracelets1("en-US"),
                           ),
                         ],
                       ),

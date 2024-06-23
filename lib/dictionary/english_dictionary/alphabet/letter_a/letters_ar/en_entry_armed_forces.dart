@@ -159,35 +159,16 @@ class EnglishEntryarmedforces extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھێزە چەکدارەکانی وڵاتێک؛ ھێزی زەمینی و ئاسمانی و دەریایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Morale in the armed forces was at rock bottom."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ورەی ھێزە چەکدارەکان لەوپەڕی نزمیدا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarmedforces208("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarmedforces208(
-                                        // REPLACE: armed forces /ði ˌɑːrmd ˈfɔːrsɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Morale in the armed forces was at rock bottom.",
+                            kurdishText:
+                                "ورەی ھێزە چەکدارەکان لەوپەڕی نزمیدا بوو.",
+                            onPressedBritish: () =>
+                                speakarmedforces208("en-GB"),
+                            onPressedAmerican: () => speakarmedforces208(
+                                // REPLACE: armed forces /ði ˌɑːrmd ˈfɔːrsɪz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

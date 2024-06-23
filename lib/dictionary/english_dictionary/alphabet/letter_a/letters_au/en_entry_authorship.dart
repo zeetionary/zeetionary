@@ -166,68 +166,28 @@ class EnglishEntryauthorship extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ناسنامەی کەسێک کە شتێکی نووسیوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The authorship of the poem is unknown."),
-                                    ExampleSentenceKurdish(
-                                        text: "نووسەری ھۆنراوەکە نەزانراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthorship731("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthorship731(
-                                        // REPLACE: authorship
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The authorship of the poem is unknown.",
+                            kurdishText: "نووسەری ھۆنراوەکە نەزانراوە.",
+                            onPressedBritish: () => speakauthorship731("en-GB"),
+                            onPressedAmerican: () => speakauthorship731(
+                                // REPLACE: authorship
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) چالاکی نووسینی کتێبێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He published the report in joint authorship with a colleague."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاپۆرتەکەی بڵاوکردەوە بە نووسەرێتیی ھاوبەشی ھاوکارێکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthorship733("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthorship733(
-                                        // REPLACE: authorship
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He published the report in joint authorship with a colleague.",
+                            kurdishText:
+                                "ڕاپۆرتەکەی بڵاوکردەوە بە نووسەرێتیی ھاوبەشی ھاوکارێکی.",
+                            onPressedBritish: () => speakauthorship733("en-GB"),
+                            onPressedAmerican: () => speakauthorship733(
+                                // REPLACE: authorship
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

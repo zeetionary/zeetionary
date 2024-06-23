@@ -160,35 +160,16 @@ class EnglishEntryantihistamine extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دەرمانێک بۆ چارەسەری ھەستیاری، بەتایبەتی ھەستیارییەک کە تووشی دەبیت لە چاو و لوت و قوڕگدا بەھۆی ھەڵمژینی ھەڵاڵەی گوڵ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Antihistamine is often used to treat hay fever and insect bites."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دژە-ھەستیاری زۆرجار بەکاردێت بۆ چارەسەری ھەستیاری بە ھەڵاڵەی گوڵ یان گەستنی مێروو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantihistamine1105("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantihistamine1105(
-                                        // REPLACE: antihistamine /ˌæntiˈhɪstəmiːn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Antihistamine is often used to treat hay fever and insect bites.",
+                            kurdishText:
+                                "دژە-ھەستیاری زۆرجار بەکاردێت بۆ چارەسەری ھەستیاری بە ھەڵاڵەی گوڵ یان گەستنی مێروو.",
+                            onPressedBritish: () =>
+                                speakantihistamine1105("en-GB"),
+                            onPressedAmerican: () => speakantihistamine1105(
+                                // REPLACE: antihistamine /ˌæntiˈhɪstəmiːn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

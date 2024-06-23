@@ -113,34 +113,15 @@ class EnglishEntryadmirer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە سەرسامە بە کەسێک/شتێک" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is a great admirer of Picasso's early paintings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوینداری تابلۆ یەکەمینەکانی پیکاسۆیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadmi582("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadmi582(
-                                        // REPLACE: admirer /ədˈmaɪərər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is a great admirer of Picasso's early paintings.",
+                            kurdishText:
+                                "ئەوینداری تابلۆ یەکەمینەکانی پیکاسۆیە.",
+                            onPressedBritish: () => speakadmi582("en-GB"),
+                            onPressedAmerican: () => speakadmi582(
+                                // REPLACE: admirer /ədˈmaɪərər/
+                                "en-US"),
                           ),
                         ],
                       ),

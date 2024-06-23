@@ -147,32 +147,13 @@ class EnglishEntrybiohazard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شتێک، بۆ نموونە نەخۆشییەک یان مادەیەکی کیمیایی، کە دەکرێت زیان بە خەڵکی یان ئاژەڵان بگەیەنێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The threat of biohazards for workers in health-care and other human services is increasing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مەترسییە زیندەییەکان بۆ کارمەندان لە بواری تەندرووستی و خزمەتگوزارییە مرۆییەکانی دیکە لە زیادبووندایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiohazards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiohazards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The threat of biohazards for workers in health-care and other human services is increasing.",
+                            kurdishText:
+                                "مەترسییە زیندەییەکان بۆ کارمەندان لە بواری تەندرووستی و خزمەتگوزارییە مرۆییەکانی دیکە لە زیادبووندایە.",
+                            onPressedBritish: () => speakbiohazards1("en-GB"),
+                            onPressedAmerican: () => speakbiohazards1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

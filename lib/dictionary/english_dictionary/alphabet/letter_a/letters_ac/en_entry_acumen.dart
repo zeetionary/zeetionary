@@ -113,34 +113,15 @@ class EnglishEntryacumen extends StatelessWidget {
                               text:
                                   "١. (ناو) توانای تێگەشتن و بڕیاردان بە خێرایی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had demonstrated considerable business acumen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەشێوەیەکی بەرچاو بیرتیژیی لە بازرگانیدا پیشاندابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacum527("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacum527(
-                                        // REPLACE: acumen /ˈækjəmən/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had demonstrated considerable business acumen.",
+                            kurdishText:
+                                "بەشێوەیەکی بەرچاو بیرتیژیی لە بازرگانیدا پیشاندابوو.",
+                            onPressedBritish: () => speakacum527("en-GB"),
+                            onPressedAmerican: () => speakacum527(
+                                // REPLACE: acumen /ˈækjəmən/
+                                "en-US"),
                           ),
                         ],
                       ),

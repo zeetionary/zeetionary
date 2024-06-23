@@ -112,66 +112,28 @@ class EnglishEntryadvocate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) لایەنگر و داکۆکیکاری شتێک " ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Canada was one of the strongest advocates of sanctions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەنەدا یەکێک لە سەختترین داکۆکیکارانی سزاکان بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvo3569("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvo3569(
-                                        // REPLACE: advocate /ˈædvəkət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Canada was one of the strongest advocates of sanctions.",
+                            kurdishText:
+                                "کەنەدا یەکێک لە سەختترین داکۆکیکارانی سزاکان بوو.",
+                            onPressedBritish: () => speakadvo3569("en-GB"),
+                            onPressedAmerican: () => speakadvo3569(
+                                // REPLACE: advocate /ˈædvəkət/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) پشتگیریکردنی شتێک بەشێوەیەکی گشتی """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The group does not advocate the use of violence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرووپەکە پشتیوانی بەکارھێنانی توندوتیژی ناکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadvo2564("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadvo2564(
-                                        // REPLACE: advocate /ˈædvəkət/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The group does not advocate the use of violence.",
+                            kurdishText:
+                                "گرووپەکە پشتیوانی بەکارھێنانی توندوتیژی ناکات.",
+                            onPressedBritish: () => speakadvo2564("en-GB"),
+                            onPressedAmerican: () => speakadvo2564(
+                                // REPLACE: advocate /ˈædvəkət/
+                                "en-US"),
                           ),
                         ],
                       ),

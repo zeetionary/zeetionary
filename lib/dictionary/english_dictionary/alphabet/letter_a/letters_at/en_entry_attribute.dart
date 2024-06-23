@@ -167,137 +167,57 @@ class EnglishEntryattribute extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) باوەڕبوون یان وتنی ئەوەی شتێک دەرئەنجامی شتێکی ترە """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She attributes her success to hard work and a little luck."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکەوتنەکەی دەگەڕێنێتەوە بۆ ھەوڵی بەردەوام و کەمێک بەخت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattribute1100("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattribute1100(// REPLACE: attribute
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She attributes her success to hard work and a little luck.",
+                            kurdishText:
+                                "سەرکەوتنەکەی دەگەڕێنێتەوە بۆ ھەوڵی بەردەوام و کەمێک بەخت.",
+                            onPressedBritish: () => speakattribute1100("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattribute1100(// REPLACE: attribute
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) وتنی ئەوەی کەسێک بەرپرسی شتێکە، زۆرجار ئەوەی کە شتێکی وتووە، نووسیوە، یان کێشاوە """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This play is usually attributed to Shakespeare."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم شانۆیە زۆرجار دەدرێتە پاڵ شکسپیر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattribute1110("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattribute1110(// REPLACE: attribute
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This play is usually attributed to Shakespeare.",
+                            kurdishText:
+                                "ئەم شانۆیە زۆرجار دەدرێتە پاڵ شکسپیر.",
+                            onPressedBritish: () => speakattribute1110("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattribute1110(// REPLACE: attribute
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) گەڕاندنەوەی شتێک، بۆ نموونە تایبەتمەندییەک یان خاسیەتێک، بۆ کەسێک/شتێک """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The committee refused to attribute blame without further information."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لیژنەکە ڕەتیکردەوە لۆمە ببەخشێتەوە بەبێ زانیاریی زیاتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattribute1112("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattribute1112(// REPLACE: attribute
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The committee refused to attribute blame without further information.",
+                            kurdishText:
+                                "لیژنەکە ڕەتیکردەوە لۆمە ببەخشێتەوە بەبێ زانیاریی زیاتر.",
+                            onPressedBritish: () => speakattribute1112("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattribute1112(// REPLACE: attribute
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) تایبەتمەندی یان خاسیەت """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Patience is one of the most important attributes in a teacher."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سنگفراوانی یەکێکە لە خاسیەتە ھەرە گرنگەکانی مامۆستا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakattribute1114("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattribute1114(// REPLACE: attribute
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Patience is one of the most important attributes in a teacher.",
+                            kurdishText:
+                                "سنگفراوانی یەکێکە لە خاسیەتە ھەرە گرنگەکانی مامۆستا.",
+                            onPressedBritish: () => speakattribute1114("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattribute1114(// REPLACE: attribute
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

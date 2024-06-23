@@ -144,32 +144,13 @@ class EnglishEntrybullion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئاڵتوون و زیو بە ڕێژەی زۆر یان بە پارچە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Investors often purchase gold bullion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرمایەداران زۆرجار پارچە ئاڵتوون دەکڕن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bullion", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbullions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbullions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Investors often purchase gold bullion.",
+                            kurdishText:
+                                "سەرمایەداران زۆرجار پارچە ئاڵتوون دەکڕن.", // bullion", follow LX strictly
+                            onPressedBritish: () => speakbullions1("en-GB"),
+                            onPressedAmerican: () => speakbullions1("en-US"),
                           ),
                         ],
                       ),

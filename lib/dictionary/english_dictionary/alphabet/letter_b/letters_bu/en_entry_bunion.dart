@@ -189,32 +189,13 @@ class EnglishEntrybunion extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئاوسانێکی بە ئازار لەسەر ]ێ، زۆرجار لە پەنجە گەورە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She experienced difficulty walking due to the pain caused by her bunions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناڕەحەتی ھەبوو لە ڕێکردندا بەھۆی ئازاری ئاوسانەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bunion", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbunions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbunions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She experienced difficulty walking due to the pain caused by her bunions.",
+                            kurdishText:
+                                "ناڕەحەتی ھەبوو لە ڕێکردندا بەھۆی ئازاری ئاوسانەکانی.", // bunion", follow LX strictly
+                            onPressedBritish: () => speakbunions1("en-GB"),
+                            onPressedAmerican: () => speakbunions1("en-US"),
                           ),
                         ],
                       ),

@@ -149,121 +149,44 @@ class EnglishEntryblister extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ھەڵئاوسانی سەر پێست کە شلەی تێدایە و درووست بووە بۆ نموونە بەھۆی سووتانەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He’d got blisters on his feet from running."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵئاوسانی لەسەر پێی درووست بووە بەھۆی ڕاکردنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblisters1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblisters1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He’d got blisters on his feet from running.",
+                            kurdishText:
+                                "ھەڵئاوسانی لەسەر پێی درووست بووە بەھۆی ڕاکردنەوە.",
+                            onPressedBritish: () => speakblisters1("en-GB"),
+                            onPressedAmerican: () => speakblisters1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a blister on her cheek where the boiling milk had splashed her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەڵئاوسانێک لەسەر گۆنای ھەبوو لەو شوێنەی شیرە گەرمەکە پێیدا پرژابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblisters2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblisters2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a blister on her cheek where the boiling milk had splashed her.",
+                            kurdishText:
+                                "ھەڵئاوسانێک لەسەر گۆنای ھەبوو لەو شوێنەی شیرە گەرمەکە پێیدا پرژابوو.",
+                            onPressedBritish: () => speakblisters2("en-GB"),
+                            onPressedAmerican: () => speakblisters2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) درووست بوونی تلۆقان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His skin was beginning to blister."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێستی خەریک بوو دەستی بە تلۆقان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblisters3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblisters3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His skin was beginning to blister.",
+                            kurdishText:
+                                "پێستی خەریک بوو دەستی بە تلۆقان دەکرد.",
+                            onPressedBritish: () => speakblisters3("en-GB"),
+                            onPressedAmerican: () => speakblisters3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) درووست بوونی تۆپەڵ لەسەر ڕووی شتێک کە ھەوا یان شلەی تێدایە و دەتەقێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The sun blistered the the door's paintwork."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆرەکە تۆپەڵی درووستکرد لەسەر بۆیەی دەرگاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblisters4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblisters4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The sun blistered the the door's paintwork.",
+                            kurdishText:
+                                "خۆرەکە تۆپەڵی درووستکرد لەسەر بۆیەی دەرگاکە.",
+                            onPressedBritish: () => speakblisters4("en-GB"),
+                            onPressedAmerican: () => speakblisters4("en-US"),
                           ),
                         ],
                       ),

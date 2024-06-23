@@ -155,34 +155,14 @@ class EnglishEntryanew extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) کردنی شتێک لە سەرەتاوە یان بە شێوازێکی جیاواز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They started life anew in Canada."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژیانیان سەرلەنوێ لە کەنەدا دەست‌پێکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanew407("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakanew407(// REPLACE: anew /əˈnuː/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They started life anew in Canada.",
+                            kurdishText:
+                                "ژیانیان سەرلەنوێ لە کەنەدا دەست‌پێکرد.",
+                            onPressedBritish: () => speakanew407("en-GB"),
+                            onPressedAmerican: () =>
+                                speakanew407(// REPLACE: anew /əˈnuː/
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

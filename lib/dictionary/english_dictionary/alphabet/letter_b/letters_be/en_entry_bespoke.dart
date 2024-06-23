@@ -151,63 +151,25 @@ class EnglishEntrybespoke extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) شتێک کە بە تایبەتی بۆ کەسێک درووستکراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bespoke leather shoes cost an average 1,000 pounds a pair."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێڵاوی چەرمی تایبەتی جووتی دەگاتە ١٠٠٠ پاوەند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbespokes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbespokes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bespoke leather shoes cost an average 1,000 pounds a pair.",
+                            kurdishText:
+                                "پێڵاوی چەرمی تایبەتی جووتی دەگاتە ١٠٠٠ پاوەند.",
+                            onPressedBritish: () => speakbespokes1("en-GB"),
+                            onPressedAmerican: () => speakbespokes1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) درووستکردنی بەرھەم بە تایبەتی بە پێی پێویستی تاکە کڕیارێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company specializes in bespoke jewelry."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە شارەزایی ھەیە لە خشڵی تایبەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbespokes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbespokes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company specializes in bespoke jewelry.",
+                            kurdishText:
+                                "کۆمپانیاکە شارەزایی ھەیە لە خشڵی تایبەتی.",
+                            onPressedBritish: () => speakbespokes2("en-GB"),
+                            onPressedAmerican: () => speakbespokes2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

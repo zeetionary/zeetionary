@@ -157,34 +157,15 @@ class EnglishEntryautumn extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پاییز؛ وەرزی نێوان ھاوین و زستان، کە گەڵای دار دەست بە وەری دەکات و کەشوھەوا سارد دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Demand always rises during the autumn and winter months."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خواست ھەمیشە لە پاییز و زستاندا بەرزدەبێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakautumns1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakautumns1(// REPLACE: autumn
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Demand always rises during the autumn and winter months.",
+                            kurdishText:
+                                "خواست ھەمیشە لە پاییز و زستاندا بەرزدەبێتەوە.",
+                            onPressedBritish: () => speakautumns1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakautumns1(// REPLACE: autumn
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

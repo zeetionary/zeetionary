@@ -163,34 +163,15 @@ class EnglishEntryaqueduct extends StatelessWidget {
                               text:
                                   "١. (ناو) بینایەک کە لە شێوەی پردێکدایە و ئاو دەگوازێتەوە بەسەر دۆڵێکدا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many Roman generals built aqueducts for their army during battles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرێک ژەنەراڵی ڕۆم ئاوبارەیان درووست‌دەکرد بۆ سوپاکانیان لە کاتی شەڕدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaqueduct1000("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaqueduct1000(
-                                        // REPLACE: aqueduct /ˈækwɪdʌkt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many Roman generals built aqueducts for their army during battles.",
+                            kurdishText:
+                                "زۆرێک ژەنەراڵی ڕۆم ئاوبارەیان درووست‌دەکرد بۆ سوپاکانیان لە کاتی شەڕدا.",
+                            onPressedBritish: () => speakaqueduct1000("en-GB"),
+                            onPressedAmerican: () => speakaqueduct1000(
+                                // REPLACE: aqueduct /ˈækwɪdʌkt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

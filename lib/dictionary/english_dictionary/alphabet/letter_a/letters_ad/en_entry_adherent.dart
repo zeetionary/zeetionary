@@ -113,34 +113,15 @@ class EnglishEntryadherent extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ناو) کەسێک کە شوێنکەوتووی بیروباوەڕێکە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We should not show animosity to adherents of other faiths."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستە ڕقوکینە پیشان نەدەین دژ بە شوێنکەوتووانی باوەڕەکانی دیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadh24861("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadh24861(
-                                        // REPLACE: adherent /ədˈhɪrənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We should not show animosity to adherents of other faiths.",
+                            kurdishText:
+                                "پێویستە ڕقوکینە پیشان نەدەین دژ بە شوێنکەوتووانی باوەڕەکانی دیکە.",
+                            onPressedBritish: () => speakadh24861("en-GB"),
+                            onPressedAmerican: () => speakadh24861(
+                                // REPLACE: adherent /ədˈhɪrənt/
+                                "en-US"),
                           ),
                         ],
                       ),

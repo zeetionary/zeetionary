@@ -148,61 +148,22 @@ class EnglishEntrybeautify extends StatelessWidget {
 کوردی: جوان کردن، ڕازاندن، خەملاندن
 """),
                           const DefinitionKurdish(text: "١. (کردار) جوانکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Money has been raised to beautify the area."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارە کۆکراوەتەوە بۆ ڕازاندنەوەی ناوچەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeautifys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeautifys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Money has been raised to beautify the area.",
+                            kurdishText:
+                                "پارە کۆکراوەتەوە بۆ ڕازاندنەوەی ناوچەکە.",
+                            onPressedBritish: () => speakbeautifys1("en-GB"),
+                            onPressedAmerican: () => speakbeautifys1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She went upstairs to beautify herself."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چووە سەرەوە تا خۆی بڕازێنێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeautifys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeautifys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She went upstairs to beautify herself.",
+                            kurdishText: "چووە سەرەوە تا خۆی بڕازێنێتەوە.",
+                            onPressedBritish: () => speakbeautifys2("en-GB"),
+                            onPressedAmerican: () => speakbeautifys2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

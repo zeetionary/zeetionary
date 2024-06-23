@@ -159,35 +159,16 @@ class EnglishEntryantagonist extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە بە سەرسەختی دژی کەسێک/شتێکە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has always been the prime minister’s most formidable antagonist in Parliament."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantagonist1255("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantagonist1255(
-                                        // REPLACE: antagonist /ænˈtæɡənɪst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has always been the prime minister’s most formidable antagonist in Parliament.",
+                            kurdishText:
+                                "ھەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان.",
+                            onPressedBritish: () =>
+                                speakantagonist1255("en-GB"),
+                            onPressedAmerican: () => speakantagonist1255(
+                                // REPLACE: antagonist /ænˈtæɡənɪst/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

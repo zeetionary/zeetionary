@@ -151,67 +151,28 @@ class EnglishEntryamplify extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) زیادکردنی ھێزی شتێک، بەتایبەتی دەنگ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This hall seemed to trap and amplify sounds."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھۆڵەکە وادیاربوو دەنگ تێیدا پەنگبخواتەوە و بەرزی بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamplify7780("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamplify7780(
-                                        // REPLACE: amplify /ˈæmplɪfaɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This hall seemed to trap and amplify sounds.",
+                            kurdishText:
+                                "ھۆڵەکە وادیاربوو دەنگ تێیدا پەنگبخواتەوە و بەرزی بکات.",
+                            onPressedBritish: () => speakamplify7780("en-GB"),
+                            onPressedAmerican: () => speakamplify7780(
+                                // REPLACE: amplify /ˈæmplɪfaɪ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) پێدانی ڕوونکردنەوەی زیاتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You may need to amplify this point."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەنگە پێویست بکات ئەم خاڵە ڕوون‌بکەیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamplify7748("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamplify7748(
-                                        // REPLACE: amplify /ˈæmplɪfaɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You may need to amplify this point.",
+                            kurdishText:
+                                "ڕەنگە پێویست بکات ئەم خاڵە ڕوون‌بکەیتەوە.",
+                            onPressedBritish: () => speakamplify7748("en-GB"),
+                            onPressedAmerican: () => speakamplify7748(
+                                // REPLACE: amplify /ˈæmplɪfaɪ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

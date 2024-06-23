@@ -182,66 +182,28 @@ class EnglishEntryamnesty extends StatelessWidget {
                               text:
                                   "١. (ناو) لێبوردن لە زیندانیان یان ئەو کەسانەی تاوانیان کردووە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The president granted a general amnesty for all political prisoners."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک لێبووردنی گشتی بۆ ھەموو زیندانیانی سیاسی دەرکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamnesty4117("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamnesty4117(
-                                        // REPLACE: amnesty /ˈæmnəsti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The president granted a general amnesty for all political prisoners.",
+                            kurdishText:
+                                "سەرۆک لێبووردنی گشتی بۆ ھەموو زیندانیانی سیاسی دەرکرد.",
+                            onPressedBritish: () => speakamnesty4117("en-GB"),
+                            onPressedAmerican: () => speakamnesty4117(
+                                // REPLACE: amnesty /ˈæmnəsti/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ماوەیەکی دیاریکراو کە تاوانباران دەتوانن دان بە تاواندا بنێن، یان چەکەکانیان، یان کەلوپەلی دزراو بدەن‌بەدەستەوە بەبێ ئەوەی سزابدرێن """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "2 000 knives have been handed in during the month-long amnesty."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "٢٠٠٠ چەقۆ دران‌بەدەستەوە لە ماوەی مۆڵەتە یەک مانگییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamnesty4699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamnesty4699(
-                                        // REPLACE: amnesty /ˈæmnəsti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "2 000 knives have been handed in during the month-long amnesty.",
+                            kurdishText:
+                                "٢٠٠٠ چەقۆ دران‌بەدەستەوە لە ماوەی مۆڵەتە یەک مانگییەکە.",
+                            onPressedBritish: () => speakamnesty4699("en-GB"),
+                            onPressedAmerican: () => speakamnesty4699(
+                                // REPLACE: amnesty /ˈæmnəsti/
+                                "en-US"),
                           ),
                         ],
                       ),

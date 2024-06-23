@@ -156,66 +156,26 @@ class EnglishEntrybandage extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پارچەیەک کە لەسەر برین دەدرێت بۆ پاراستنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had a strip of bandage tied around his head."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارچە پەڕۆیەکی ئاڵاندووە لەسەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbandages1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbandages1(// REPLACE: bandage
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had a strip of bandage tied around his head.",
+                            kurdishText: "پارچە پەڕۆیەکی ئاڵاندووە لەسەری.",
+                            onPressedBritish: () => speakbandages1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbandages1(// REPLACE: bandage
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) دانانی پارچەیەک لەسەر برین بۆ پاراستنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't bandage the wound too tightly."),
-                                    ExampleSentenceKurdish(
-                                        text: "برینەکە توند مەبەستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbandages2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbandages2(// REPLACE: bandage
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Don't bandage the wound too tightly.",
+                            kurdishText: "برینەکە توند مەبەستە.",
+                            onPressedBritish: () => speakbandages2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbandages2(// REPLACE: bandage
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

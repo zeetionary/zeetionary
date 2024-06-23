@@ -148,62 +148,24 @@ class EnglishEntryblazing extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) زۆر گەرم و ڕۆشن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We quickly grew tired in the blazing sunshine."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرزوو بێزار بووین لە تیشکی گەرمی خۆرەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblazings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblazings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We quickly grew tired in the blazing sunshine.",
+                            kurdishText:
+                                "ھەرزوو بێزار بووین لە تیشکی گەرمی خۆرەکە.",
+                            onPressedBritish: () => speakblazings1("en-GB"),
+                            onPressedAmerican: () => speakblazings1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ھاوەڵناو) زۆر تووڕە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had a blazing row with Eddie and stormed out of the house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مشتومڕێکی زۆر توندی لەگەڵ ئێدی ھەبوو و ماڵی جێھێشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblazings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblazings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had a blazing row with Eddie and stormed out of the house.",
+                            kurdishText:
+                                "مشتومڕێکی زۆر توندی لەگەڵ ئێدی ھەبوو و ماڵی جێھێشت.",
+                            onPressedBritish: () => speakblazings2("en-GB"),
+                            onPressedAmerican: () => speakblazings2("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

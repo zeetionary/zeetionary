@@ -115,100 +115,40 @@ class EnglishEntryallergic extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) بوونی ھەستیاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I like cats but unfortunately I'm allergic to them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حەزم لە پشیلەیە بەڵام ھەستیارم پێی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallergic35699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallergic35699(
-                                        // REPLACE: allergic /əˈlɜːrdʒɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I like cats but unfortunately I'm allergic to them.",
+                            kurdishText: "حەزم لە پشیلەیە بەڵام ھەستیارم پێی.",
+                            onPressedBritish: () => speakallergic35699("en-GB"),
+                            onPressedAmerican: () => speakallergic35699(
+                                // REPLACE: allergic /əˈlɜːrdʒɪk/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) درووست بوو بەھۆی ھەستیاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had an allergic reaction after eating the kiwi."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاردانەوەیەکی ھەستیاری ھەبوو لە دوای خواردنی کیوییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallergic4692("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallergic4692(
-                                        // REPLACE: allergic /əˈlɜːrdʒɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had an allergic reaction after eating the kiwi.",
+                            kurdishText:
+                                "کاردانەوەیەکی ھەستیاری ھەبوو لە دوای خواردنی کیوییەکە.",
+                            onPressedBritish: () => speakallergic4692("en-GB"),
+                            onPressedAmerican: () => speakallergic4692(
+                                // REPLACE: allergic /əˈlɜːrdʒɪk/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) ھەبوونی ڕقێکی زۆر بۆشتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You could see he was allergic to housework."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەستت پێدەکرد ڕقی زۆری لە ئیشی ماڵەوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallergic45993("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallergic45993(
-                                        // REPLACE: allergic /əˈlɜːrdʒɪk/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You could see he was allergic to housework.",
+                            kurdishText:
+                                "ھەستت پێدەکرد ڕقی زۆری لە ئیشی ماڵەوە بوو.",
+                            onPressedBritish: () => speakallergic45993("en-GB"),
+                            onPressedAmerican: () => speakallergic45993(
+                                // REPLACE: allergic /əˈlɜːrdʒɪk/
+                                "en-US"),
                           ),
                         ],
                       ),

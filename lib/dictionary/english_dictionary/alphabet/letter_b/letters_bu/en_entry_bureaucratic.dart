@@ -190,67 +190,29 @@ class EnglishEntrybureaucratic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پەیوەندیدار بە بیرۆکراسی و کەسانی بیرۆکرات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company was inefficient because it was highly bureaucratic."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە کەم‌بەرھەم بوو بەھۆی زۆریی بیرۆکراسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "bureaucratic", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbureaucratics1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbureaucratics1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company was inefficient because it was highly bureaucratic.",
+                            kurdishText:
+                                "کۆمپانیاکە کەم‌بەرھەم بوو بەھۆی زۆریی بیرۆکراسی.", // bureaucratic", follow LX strictly
+                            onPressedBritish: () =>
+                                speakbureaucratics1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbureaucratics1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) لەخۆگرتنی بڕیار و پڕۆسەی ئاڵۆز کە وادەکات شتەکان ھێواش و گران بن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I had a lot of bureaucratic hassle trying to get the information I needed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر کێشمەکێشمی کارگێڕیانەم ھەبوو بۆ دەستکەوتنی زانیارییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbureaucratics2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbureaucratics2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I had a lot of bureaucratic hassle trying to get the information I needed.",
+                            kurdishText:
+                                "زۆر کێشمەکێشمی کارگێڕیانەم ھەبوو بۆ دەستکەوتنی زانیارییەکان.",
+                            onPressedBritish: () =>
+                                speakbureaucratics2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbureaucratics2("en-US"),
                           ),
                         ],
                       ),

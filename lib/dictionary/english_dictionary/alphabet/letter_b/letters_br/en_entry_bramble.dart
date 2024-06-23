@@ -148,62 +148,24 @@ class EnglishEntrybramble extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دەوەنێکی سرووشتی کە دڕکی ھەیە و تووتڕکی ڕەش دەگرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We carefully pushed our way through the low brambles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە وریاییەوە بە دڕکەدەوەنەکەدا چووین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrambles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrambles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We carefully pushed our way through the low brambles.",
+                            kurdishText:
+                                "بە وریاییەوە بە دڕکەدەوەنەکەدا چووین.",
+                            onPressedBritish: () => speakbrambles1("en-GB"),
+                            onPressedAmerican: () => speakbrambles1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) تووتڕکی ڕەش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We stopped to pick brambles by the side of the road."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەستاین بۆ ئەوەی چەند تووتڕکێکی ڕەش لێ‌بکەینەوە لە قەراغی شەقامەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrambles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrambles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We stopped to pick brambles by the side of the road.",
+                            kurdishText:
+                                "وەستاین بۆ ئەوەی چەند تووتڕکێکی ڕەش لێ‌بکەینەوە لە قەراغی شەقامەکە.",
+                            onPressedBritish: () => speakbrambles2("en-GB"),
+                            onPressedAmerican: () => speakbrambles2("en-US"),
                           ),
                         ],
                       ),

@@ -194,60 +194,22 @@ class EnglishEntrybuzzer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) زەنگێک کە دەنگێکی وەک گیزەگیزی ھەنگ دەردەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Put your fingers on the buzzer and be ready to answer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستتان بخەنە سەر زەنگەکە و ئامادەی وەڵامدانەوە بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "buzzer", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Put your fingers on the buzzer and be ready to answer.",
+                            kurdishText:
+                                "دەستتان بخەنە سەر زەنگەکە و ئامادەی وەڵامدانەوە بن.", // buzzer", follow LX strictly
+                            onPressedBritish: () => speakbuzzers1("en-GB"),
+                            onPressedAmerican: () => speakbuzzers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I pressed the buzzer and after a while someone came to the door."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەستم نا بە زەنگەکەدا و لە دوای ماوەیەک کەسێک وەڵامی دایەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I pressed the buzzer and after a while someone came to the door.",
+                            kurdishText:
+                                "دەستم نا بە زەنگەکەدا و لە دوای ماوەیەک کەسێک وەڵامی دایەوە.",
+                            onPressedBritish: () => speakbuzzers2("en-GB"),
+                            onPressedAmerican: () => speakbuzzers2("en-US"),
                           ),
                         ],
                       ),

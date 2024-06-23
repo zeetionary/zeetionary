@@ -337,562 +337,198 @@ class EnglishEntrybest extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) باشترین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That's the best movie I've ever seen!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوە باشترین فیلمە تا ئێستا دیبێتم!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That's the best movie I've ever seen!",
+                            kurdishText: "ئەوە باشترین فیلمە تا ئێستا دیبێتم!",
+                            onPressedBritish: () => speakbests1("en-GB"),
+                            onPressedAmerican: () => speakbests1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wrote his best songs before he was 25."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترین گۆرانییەکانی پێش تەمەنی ٢٥ ساڵی نووسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wrote his best songs before he was 25.",
+                            kurdishText:
+                                "باشترین گۆرانییەکانی پێش تەمەنی ٢٥ ساڵی نووسی.",
+                            onPressedBritish: () => speakbests2("en-GB"),
+                            onPressedAmerican: () => speakbests2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پێدانی زۆرترین خۆشی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Those were the best years of my life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوانە باشترین ساڵەکانی ژیانم بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Those were the best years of my life.",
+                            kurdishText: "ئەوانە باشترین ساڵەکانی ژیانم بوون.",
+                            onPressedBritish: () => speakbests3("en-GB"),
+                            onPressedAmerican: () => speakbests3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) گونجاوترین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He's the best man for the job."),
-                                    ExampleSentenceKurdish(
-                                        text: "گونجاوترین کەسە بۆ کارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He's the best man for the job.",
+                            kurdishText: "گونجاوترین کەسە بۆ کارەکە.",
+                            onPressedBritish: () => speakbests4("en-GB"),
+                            onPressedAmerican: () => speakbests4("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The best thing to do would be to apologize."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترین شت بیکەیت ئەوەیە داوای لێبووردن بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The best thing to do would be to apologize.",
+                            kurdishText:
+                                "باشترین شت بیکەیت ئەوەیە داوای لێبووردن بکەیت.",
+                            onPressedBritish: () => speakbests5("en-GB"),
+                            onPressedAmerican: () => speakbests5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵکار) زیاترین؛ تا بەرزترین ئاست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Which one do you like best?"),
-                                    ExampleSentenceKurdish(
-                                        text: "کامەیانت زیاترین حەز لێیە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Which one do you like best?",
+                            kurdishText: "کامەیانت زیاترین حەز لێیە؟",
+                            onPressedBritish: () => speakbests6("en-GB"),
+                            onPressedAmerican: () => speakbests6("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Which evening would suit you best for the party?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کام شەو زیاترین گونجاوە بۆت بۆ ئاھەنگەکە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Which evening would suit you best for the party?",
+                            kurdishText:
+                                "کام شەو زیاترین گونجاوە بۆت بۆ ئاھەنگەکە؟",
+                            onPressedBritish: () => speakbests7("en-GB"),
+                            onPressedAmerican: () => speakbests7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵکار) بە باشترین شێوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He works best in the mornings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بەیانییاندا باشترین کار دەکات (چالاکترینە)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He works best in the mornings.",
+                            kurdishText:
+                                "لە بەیانییاندا باشترین کار دەکات (چالاکترینە).",
+                            onPressedBritish: () => speakbests8("en-GB"),
+                            onPressedAmerican: () => speakbests8("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The beaches are beautiful, but, best of all, there are very few tourists."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەنار دەریاکان جوانن، بەڵام لە ھەمووی باشتر، گەشتیاری کەم لەوێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The beaches are beautiful, but, best of all, there are very few tourists.",
+                            kurdishText:
+                                "کەنار دەریاکان جوانن، بەڵام لە ھەمووی باشتر، گەشتیاری کەم لەوێن.",
+                            onPressedBritish: () => speakbests9("en-GB"),
+                            onPressedAmerican: () => speakbests9("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ھاوەڵکار) بە گونجاوترین شێوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Painting is best done in daylight."),
-                                    ExampleSentenceKurdish(
-                                        text: "تابلۆ باشتر لە ڕۆژدا دەکێشرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Painting is best done in daylight.",
+                            kurdishText: "تابلۆ باشتر لە ڕۆژدا دەکێشرێت.",
+                            onPressedBritish: () => speakbests10("en-GB"),
+                            onPressedAmerican: () => speakbests10("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do as you think best (= what you think is the most suitable thing to do)."),
-                                    ExampleSentenceKurdish(
-                                        text: "چیت پێ باشە بیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do as you think best (= what you think is the most suitable thing to do).",
+                            kurdishText: "چیت پێ باشە بیکە.",
+                            onPressedBritish: () => speakbests11("en-GB"),
+                            onPressedAmerican: () => speakbests11("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ناو) باشترین کەس یان شت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They only buy the best."),
-                                    ExampleSentenceKurdish(
-                                        text: "تەنھا باشترین شت دەکڕن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They only buy the best.",
+                            kurdishText: "تەنھا باشترین شت دەکڕن.",
+                            onPressedBritish: () => speakbests12("en-GB"),
+                            onPressedAmerican: () => speakbests12("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They're all good players, but she's the best of all."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەموویان یاریزانی باشن، بەڵام ئەو باشترینە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They're all good players, but she's the best of all.",
+                            kurdishText:
+                                "ھەموویان یاریزانی باشن، بەڵام ئەو باشترینە.",
+                            onPressedBritish: () => speakbests13("en-GB"),
+                            onPressedAmerican: () => speakbests13("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (ناو) بەرزترین ئاست کە کەسێک دەتوانێت پێی بگات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She always brings out the best in people."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھەمیشە باشترین خەڵکی دەردەخات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She always brings out the best in people.",
+                            kurdishText: "ھەمیشە باشترین خەڵکی دەردەخات.",
+                            onPressedBritish: () => speakbests14("en-GB"),
+                            onPressedAmerican: () => speakbests14("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Don't worry about the exam—just do your best."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نیگەرانی تاقیکردنەوەکە مەبە، تەنھا ئەوەی دەتوانی بیکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Don't worry about the exam—just do your best.",
+                            kurdishText:
+                                "نیگەرانی تاقیکردنەوەکە مەبە، تەنھا ئەوەی دەتوانی بیکە.",
+                            onPressedBritish: () => speakbests15("en-GB"),
+                            onPressedAmerican: () => speakbests15("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (ناو) شتێک کە نزیکترینە لەوەی کە دەتەوێت یان پێویستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Fifty pounds is the best I can offer you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەنجا پاوەند زۆرترینە کە بتوانم بیدەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Fifty pounds is the best I can offer you.",
+                            kurdishText:
+                                "پەنجا پاوەند زۆرترینە کە بتوانم بیدەم.",
+                            onPressedBritish: () => speakbests16("en-GB"),
+                            onPressedAmerican: () => speakbests16("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The best we can hope for in the game is a draw."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترین کە لە یارییەکە دەتوانین ھیوای بۆ بخوازین یەکسان بوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The best we can hope for in the game is a draw.",
+                            kurdishText:
+                                "باشترین کە لە یارییەکە دەتوانین ھیوای بۆ بخوازین یەکسان بوونە.",
+                            onPressedBritish: () => speakbests17("en-GB"),
+                            onPressedAmerican: () => speakbests17("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٠. (کردار) تێکشکاندن یان سەرکەوتووتر بوون لە کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was determined not to be bested by his old rival."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوور بوو لەسەر ئەوەی شکست نەخوات بە دەستی ڕکابەرە کۆنەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was determined not to be bested by his old rival.",
+                            kurdishText:
+                                "سوور بوو لەسەر ئەوەی شکست نەخوات بە دەستی ڕکابەرە کۆنەکەی.",
+                            onPressedBritish: () => speakbests18("en-GB"),
+                            onPressedAmerican: () => speakbests18("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A great colonial power was nearly bested by a few farmers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەسەڵاتێکی داگیرکەری گەورە بە نزیکەیی شکستی خوارد بە دەستی ژمارەیەکی کەم جوتیار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbests19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbests19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A great colonial power was nearly bested by a few farmers.",
+                            kurdishText:
+                                "دەسەڵاتێکی داگیرکەری گەورە بە نزیکەیی شکستی خوارد بە دەستی ژمارەیەکی کەم جوتیار.",
+                            onPressedBritish: () => speakbests19("en-GB"),
+                            onPressedAmerican: () => speakbests19("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

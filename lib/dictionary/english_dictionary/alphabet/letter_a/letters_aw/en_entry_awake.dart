@@ -156,98 +156,41 @@ class EnglishEntryawake extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) نەخەوتوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was still awake when he came to bed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتا بەخەبەر بووم کە ھات بۆ ژووری نووستنەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawakes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawakes1(// REPLACE: awake
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was still awake when he came to bed.",
+                            kurdishText:
+                                "ھێشتا بەخەبەر بووم کە ھات بۆ ژووری نووستنەکەم.",
+                            onPressedBritish: () => speakawakes1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawakes1(// REPLACE: awake
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) لەخەوھەستاندن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I awoke from a deep sleep."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە خەوێکی قووڵ ھەستام."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawakes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawakes2(// REPLACE: awake
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I awoke from a deep sleep.",
+                            kurdishText: "لە خەوێکی قووڵ ھەستام.",
+                            onPressedBritish: () => speakawakes2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawakes2(// REPLACE: awake
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) درووست بوونی یان درووستکردنی ھەستێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His speech is bound to awake old fears and hostilities."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکەی بە ئەگەری زۆر ترس و ناکۆکی کۆن ھەڵدەداتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakawakes3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakawakes3(// REPLACE: awake
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His speech is bound to awake old fears and hostilities.",
+                            kurdishText:
+                                "وتارەکەی بە ئەگەری زۆر ترس و ناکۆکی کۆن ھەڵدەداتەوە.",
+                            onPressedBritish: () => speakawakes3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakawakes3(// REPLACE: awake
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

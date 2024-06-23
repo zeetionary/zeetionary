@@ -145,32 +145,13 @@ class EnglishEntryblowbyblow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پێدانی وردەکاری تەواوی ئەوەی چی ڕوویداوە بە ڕیزبەندی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He insisted on giving us a blow-by-blow account of what had happened."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێداگری کرد لەوەی سات بە ساتی بەسەرھاتەکەمان بۆ بگێڕێتەوە کە چی ڕوویدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblowbyblows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblowbyblows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He insisted on giving us a blow-by-blow account of what had happened.",
+                            kurdishText:
+                                "پێداگری کرد لەوەی سات بە ساتی بەسەرھاتەکەمان بۆ بگێڕێتەوە کە چی ڕوویدا.",
+                            onPressedBritish: () => speakblowbyblows1("en-GB"),
+                            onPressedAmerican: () => speakblowbyblows1("en-US"),
                           ),
                         ],
                       ),

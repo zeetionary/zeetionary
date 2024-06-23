@@ -162,67 +162,29 @@ class EnglishEntryarena extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بینایەکی بازنەیی کە سەقفی نییە و ڕیزە جێگای پلەپلەی دانیشتنی ھەیە بە دەوری گۆڕەپانێک لە ناوەڕاستی بیناکەدا """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The rider has to halt the horse in the arena."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سوارەکە دەبێت ئەسپەکە لە گۆڕەپانەکەدا بوەستێنێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarena1042("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarena1042(
-                                        // REPLACE: arena /əˈriːnə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The rider has to halt the horse in the arena.",
+                            kurdishText:
+                                "سوارەکە دەبێت ئەسپەکە لە گۆڕەپانەکەدا بوەستێنێت.",
+                            onPressedBritish: () => speakarena1042("en-GB"),
+                            onPressedAmerican: () => speakarena1042(
+                                // REPLACE: arena /əˈriːnə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کایەیەکی چالاکی کە خەڵکی گرنگی پێ‌دەدەن و بەسەر لایەنەکانیدا بە بیروڕای جیاوازەوە دابەش‌دەبن """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The company has been very successful in the commercial arena."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمپانیاکە زۆر سەرکەوتوو بووە لەلایەنی بازرگانییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarena1045("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarena1045(
-                                        // REPLACE: arena /əˈriːnə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The company has been very successful in the commercial arena.",
+                            kurdishText:
+                                "کۆمپانیاکە زۆر سەرکەوتوو بووە لەلایەنی بازرگانییەوە.",
+                            onPressedBritish: () => speakarena1045("en-GB"),
+                            onPressedAmerican: () => speakarena1045(
+                                // REPLACE: arena /əˈriːnə/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

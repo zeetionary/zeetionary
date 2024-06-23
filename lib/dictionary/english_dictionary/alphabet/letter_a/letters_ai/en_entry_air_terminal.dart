@@ -116,35 +116,16 @@ class EnglishEntryairterminal extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بینای فڕۆکەخانە کە تێیدا گەشتیاران کارەکانیان ئەنجام دەدەن و چاوەڕێی فڕۆکە دەکەن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Passengers are conveyed by bus to the air terminal."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشتیاران بە پاس دەگوازرێنەوە دواوێستگەی فڕۆکەخانەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakairterminal3566("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakairterminal3566(
-                                        // REPLACE: air terminal /ˈer tɜːrmɪnl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Passengers are conveyed by bus to the air terminal.",
+                            kurdishText:
+                                "گەشتیاران بە پاس دەگوازرێنەوە دواوێستگەی فڕۆکەخانەکە.",
+                            onPressedBritish: () =>
+                                speakairterminal3566("en-GB"),
+                            onPressedAmerican: () => speakairterminal3566(
+                                // REPLACE: air terminal /ˈer tɜːrmɪnl/
+                                "en-US"),
                           ),
                         ],
                       ),

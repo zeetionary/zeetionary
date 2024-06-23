@@ -155,34 +155,14 @@ class EnglishEntrybaggy extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) جلی فش."),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My T-shirt went all baggy in the wash."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فانیلەکەم لە شۆردنەکەدا فش بووەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaggys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaggys1(// REPLACE: baggy
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My T-shirt went all baggy in the wash.",
+                            kurdishText: "فانیلەکەم لە شۆردنەکەدا فش بووەوە.",
+                            onPressedBritish: () => speakbaggys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaggys1(// REPLACE: baggy
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

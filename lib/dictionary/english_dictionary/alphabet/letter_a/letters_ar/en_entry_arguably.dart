@@ -162,34 +162,15 @@ class EnglishEntryarguably extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵکار) بەشێوەیەک کە باوەڕت وایە ئەتوانیت ئەوە بسەلمێنیت کە دەیڵێیت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is arguably the best actor of his generation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە ئەگەرێکی زۆرەوە باشترین ئەکتەری سەردەمی خۆی بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarguably1020("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarguably1020(
-                                        // REPLACE: arguably /ˈɑːrɡjuəbli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is arguably the best actor of his generation.",
+                            kurdishText:
+                                "بە ئەگەرێکی زۆرەوە باشترین ئەکتەری سەردەمی خۆی بووە.",
+                            onPressedBritish: () => speakarguably1020("en-GB"),
+                            onPressedAmerican: () => speakarguably1020(
+                                // REPLACE: arguably /ˈɑːrɡjuəbli/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

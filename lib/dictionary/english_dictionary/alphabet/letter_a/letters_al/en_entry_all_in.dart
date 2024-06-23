@@ -115,35 +115,15 @@ class EnglishEntryallin extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) لەخۆگرتنی تەواوی خەرجییەکان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The all-in holiday includes fares, full board and entrance to museums."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پشووەکە کرێی گواستنەوە و ژەمە خواردنەکان و چوونە مۆزەخانەکان لەخۆدەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallallin52471("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallallin52471(
-                                        // REPLACE: all-in /ˌɔːl ˈɪn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The all-in holiday includes fares, full board and entrance to museums.",
+                            kurdishText:
+                                "پشووەکە کرێی گواستنەوە و ژەمە خواردنەکان و چوونە مۆزەخانەکان لەخۆدەگرێت.",
+                            onPressedBritish: () => speakallallin52471("en-GB"),
+                            onPressedAmerican: () => speakallallin52471(
+                                // REPLACE: all-in /ˌɔːl ˈɪn/
+                                "en-US"),
                           ),
                         ],
                       ),

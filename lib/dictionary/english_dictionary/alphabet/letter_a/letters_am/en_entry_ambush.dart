@@ -115,66 +115,28 @@ class EnglishEntryambush extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) بۆسە؛ خۆشاردنەوە لە شوێنێک و ئەنجامدانی ھێرشی لەناکاو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Two soldiers were killed in a terrorist ambush."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو سەرباز لە بۆسەیەکی تیرۆریستی کوژران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakambush4355("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambush4355(
-                                        // REPLACE: ambush /ˈæmbʊʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Two soldiers were killed in a terrorist ambush.",
+                            kurdishText:
+                                "دوو سەرباز لە بۆسەیەکی تیرۆریستی کوژران.",
+                            onPressedBritish: () => speakambush4355("en-GB"),
+                            onPressedAmerican: () => speakambush4355(
+                                // REPLACE: ambush /ˈæmbʊʃ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) خستنە بۆسەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The guerrillas ambushed them near the bridge."),
-                                    ExampleSentenceKurdish(
-                                        text: "گەریلاکان خستنیانە بۆسەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakambush4699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambush4699(
-                                        // REPLACE: ambush /ˈæmbʊʃ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The guerrillas ambushed them near the bridge.",
+                            kurdishText: "گەریلاکان خستنیانە بۆسەوە.",
+                            onPressedBritish: () => speakambush4699("en-GB"),
+                            onPressedAmerican: () => speakambush4699(
+                                // REPLACE: ambush /ˈæmbʊʃ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

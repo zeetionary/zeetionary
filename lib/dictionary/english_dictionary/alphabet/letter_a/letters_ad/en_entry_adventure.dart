@@ -115,34 +115,15 @@ class EnglishEntryadventure extends StatelessWidget {
                               text:
                                   "١. (ناو) کارێکی مەترسیدار کە زۆرجار چێژبەخشە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They fly around in their rocket ship and go on exciting adventures."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کەشتییە ئاسمانییەکەیان دەفڕن و دەچنە گەشتی جەربەزەیی چێژبەخش."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadven356871("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadven356871(
-                                        // REPLACE: adventure /ədˈventʃər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They fly around in their rocket ship and go on exciting adventures.",
+                            kurdishText:
+                                "لە کەشتییە ئاسمانییەکەیان دەفڕن و دەچنە گەشتی جەربەزەیی چێژبەخش.",
+                            onPressedBritish: () => speakadven356871("en-GB"),
+                            onPressedAmerican: () => speakadven356871(
+                                // REPLACE: adventure /ədˈventʃər/
+                                "en-US"),
                           ),
                         ],
                       ),

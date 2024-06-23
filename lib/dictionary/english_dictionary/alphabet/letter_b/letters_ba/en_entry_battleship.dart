@@ -146,32 +146,12 @@ class EnglishEntrybattleship extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەشتی شەڕکەر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A plane sunk the battleship at sea."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەیەک کەشتییە شەڕکەرەکەی لە دەریادا نغرۆکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbattleships1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbattleships1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A plane sunk the battleship at sea.",
+                            kurdishText:
+                                "فڕۆکەیەک کەشتییە شەڕکەرەکەی لە دەریادا نغرۆکرد.",
+                            onPressedBritish: () => speakbattleships1("en-GB"),
+                            onPressedAmerican: () => speakbattleships1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

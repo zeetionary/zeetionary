@@ -113,32 +113,13 @@ class EnglishEntryajar extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) کەمێک کراوە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'll leave the door ajar."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەرگاکە بە کەمێک کراوە جێدێڵم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakajar256("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakajar256(// REPLACE: ajar /əˈdʒɑːr/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'll leave the door ajar.",
+                            kurdishText: "دەرگاکە بە کەمێک کراوە جێدێڵم.",
+                            onPressedBritish: () => speakajar256("en-GB"),
+                            onPressedAmerican: () =>
+                                speakajar256(// REPLACE: ajar /əˈdʒɑːr/
+                                    "en-US"),
                           ),
                         ],
                       ),

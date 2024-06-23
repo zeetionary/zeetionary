@@ -208,188 +208,70 @@ class EnglishEntryactive extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) سەرقاڵ بە کارکردن" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Staying physically active in later years can also keep you feeling younger."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێشتنەوەی چالاکیی جەستەیی لە کۆتاییەکانی ژیانت وات لێ دەکات ھەست بە گەنجی بکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactive1257("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakactive1257(
-                                        "en-US"), // REPLACE active /ˈæktɪv/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Staying physically active in later years can also keep you feeling younger.",
+                            kurdishText:
+                                "ھێشتنەوەی چالاکیی جەستەیی لە کۆتاییەکانی ژیانت وات لێ دەکات ھەست بە گەنجی بکەی.",
+                            onPressedBritish: () => speakactive1257("en-GB"),
+                            onPressedAmerican: () => speakactive1257(
+                                "en-US"), // REPLACE active /ˈæktɪv/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بەژداربوون لە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They were both politically active."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردووکیان لە سیاسەتدا چالاک بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactive4568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakactive4568(
-                                        "en-US"), // REPLACE active /ˈæktɪv/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They were both politically active.",
+                            kurdishText: "ھەردووکیان لە سیاسەتدا چالاک بوون.",
+                            onPressedBritish: () => speakactive4568("en-GB"),
+                            onPressedAmerican: () => speakactive4568(
+                                "en-US"), // REPLACE active /ˈæktɪv/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) کردنی شتێک بە بەردەوامی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "These animals are active only at night."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم ئاژەڵانە تەنھا لە شەودا چالاکن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacti4568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacti4568(
-                                        "en-US"), // REPLACE active /ˈæktɪv/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "These animals are active only at night.",
+                            kurdishText: "ئەم ئاژەڵانە تەنھا لە شەودا چالاکن.",
+                            onPressedBritish: () => speakacti4568("en-GB"),
+                            onPressedAmerican: () => speakacti4568(
+                                "en-US"), // REPLACE active /ˈæktɪv/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) کارا و پڕ لە بیرۆکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That child has a very active imagination."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو منداڵە خەیاڵێکی کارای ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactive5847("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakactive5847(
-                                        "en-US"), // REPLACE active /ˈæktɪv/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That child has a very active imagination.",
+                            kurdishText: "ئەو منداڵە خەیاڵێکی کارای ھەیە.",
+                            onPressedBritish: () => speakactive5847("en-GB"),
+                            onPressedAmerican: () => speakactive5847(
+                                "en-US"), // REPLACE active /ˈæktɪv/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵناو) شتێک کە ھێشتا کاردەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Ensure the website URL is an active link."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیابەوە کە لینکی وێبسایتەکە چالاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactive5374("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakactive5374(
-                                        "en-US"), // REPLACE active /ˈæktɪv/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Ensure the website URL is an active link.",
+                            kurdishText:
+                                "دڵنیابەوە کە لینکی وێبسایتەکە چالاکە.",
+                            onPressedBritish: () => speakactive5374("en-GB"),
+                            onPressedAmerican: () => speakactive5374(
+                                "en-US"), // REPLACE active /ˈæktɪv/
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ھاوەڵناو) لە ڕێزماندا ئەو کردارەیە کە بکەری ڕستەکە جێبەجێکەریەتی """),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In ‘He was driving the car’, the verb is active."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ڕستەی 'ئەو ئۆتۆمبێلەکەی لێدەخوڕی،' کردارەکە لە شێوەی دیارە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakactive2538("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakactive2538(
-                                        "en-US"), // REPLACE active /ˈæktɪv/
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In ‘He was driving the car’, the verb is active.",
+                            kurdishText:
+                                "لە ڕستەی 'ئەو ئۆتۆمبێلەکەی لێدەخوڕی،' کردارەکە لە شێوەی دیارە.",
+                            onPressedBritish: () => speakactive2538("en-GB"),
+                            onPressedAmerican: () => speakactive2538(
+                                "en-US"), // REPLACE active /ˈæktɪv/
                           ),
                         ],
                       ),

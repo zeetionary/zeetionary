@@ -253,231 +253,79 @@ class EnglishEntrybrave extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) ئازا و چاونەترس"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I wasn't brave enough to tell her what I thought of her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێندە بوێر نەبووم پێی بڵێم چۆن بیرم لێی دەکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraves1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraves1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I wasn't brave enough to tell her what I thought of her.",
+                            kurdishText:
+                                "ھێندە بوێر نەبووم پێی بڵێم چۆن بیرم لێی دەکردەوە.",
+                            onPressedBritish: () => speakbraves1("en-GB"),
+                            onPressedAmerican: () => speakbraves1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Desperation had made me brave."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەستبەستراوی بوێری کردووم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraves2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraves2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Desperation had made me brave.",
+                            kurdishText: "دەستبەستراوی بوێری کردووم.",
+                            onPressedBritish: () => speakbraves2("en-GB"),
+                            onPressedAmerican: () => speakbraves2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She has been incredibly brave."),
-                                    ExampleSentenceKurdish(
-                                        text: "کچەکە تەواو بوێر بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraves3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraves3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She has been incredibly brave.",
+                            kurdishText: "کچەکە تەواو بوێر بووە.",
+                            onPressedBritish: () => speakbraves3("en-GB"),
+                            onPressedAmerican: () => speakbraves3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) شتێک کە پێویستی بە ئازایەتییە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She took the brave decision to start her own business."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەو بڕیارە بوێرانەی دا کە کاری بازرگانی خۆی دەستپێ‌بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraves4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraves4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She took the brave decision to start her own business.",
+                            kurdishText:
+                                "ئەو بڕیارە بوێرانەی دا کە کاری بازرگانی خۆی دەستپێ‌بکات.",
+                            onPressedBritish: () => speakbraves4("en-GB"),
+                            onPressedAmerican: () => speakbraves4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She died after a brave fight against cancer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گیانی لەدەستدا لە دوای بەربەرەکانییەکی ئازایانە لەگەڵ شێرپەنجە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraves5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraves5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She died after a brave fight against cancer.",
+                            kurdishText:
+                                "گیانی لەدەستدا لە دوای بەربەرەکانییەکی ئازایانە لەگەڵ شێرپەنجە.",
+                            onPressedBritish: () => speakbraves5("en-GB"),
+                            onPressedAmerican: () => speakbraves5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) مامەڵەکردن لەگەڵ دۆخێکی ناخۆش و سەخت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Let's brave the snow and go for a walk (= go for a walk even though it is snowing)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با بەسەر بەفرەکە زاڵ‌ببین و بچین بۆ پیاسە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraves6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraves6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Let's brave the snow and go for a walk (= go for a walk even though it is snowing).",
+                            kurdishText:
+                                "با بەسەر بەفرەکە زاڵ‌ببین و بچین بۆ پیاسە.",
+                            onPressedBritish: () => speakbraves6("en-GB"),
+                            onPressedAmerican: () => speakbraves6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She braved the wrath of her parents by refusing to marry the man they had chosen."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاڵ‌بوو بەسەر تووڕەیی دایک و باوکی بە ڕەتکردنەوەی ھاوسەرگیری لەگەڵ ئەو کەسەی دیاریان کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraves7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraves7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She braved the wrath of her parents by refusing to marry the man they had chosen.",
+                            kurdishText:
+                                "زاڵ‌بوو بەسەر تووڕەیی دایک و باوکی بە ڕەتکردنەوەی ھاوسەرگیری لەگەڵ ئەو کەسەی دیاریان کردبوو.",
+                            onPressedBritish: () => speakbraves7("en-GB"),
+                            onPressedAmerican: () => speakbraves7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٤. (ناو) کەسانی ئازا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "America, the land of the free and the home of the brave"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمریکا، زەوی کەسانی ئازاد و نیشتیمانی ئازایان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbraves8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbraves8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "America, the land of the free and the home of the brave",
+                            kurdishText:
+                                "ئەمریکا، زەوی کەسانی ئازاد و نیشتیمانی ئازایان.",
+                            onPressedBritish: () => speakbraves8("en-GB"),
+                            onPressedAmerican: () => speakbraves8("en-US"),
                           ),
                         ],
                       ),

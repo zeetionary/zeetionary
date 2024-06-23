@@ -150,91 +150,32 @@ class EnglishEntryblog extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) وێبسایتێک کە تێیدا کەسێک یان کەسانێک کە نوێنەری دامەزراوەیەک دەکەن بە بەردەوامی دەنووسن دەربارەی دوایین پێشھاتەکان یان شتێک کە حەزیان پێیەتی، زۆرجار بە وێنە و ڤیدیۆ بۆ وێبسایتەکانی تر کە حەزیان پێیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is a link to the museum's blog."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە بەستەرێکە بۆ بلۆگی مۆزەخانەیەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblogs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblogs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This is a link to the museum's blog.",
+                            kurdishText: "ئەمە بەستەرێکە بۆ بلۆگی مۆزەخانەیەک.",
+                            onPressedBritish: () => speakblogs1("en-GB"),
+                            onPressedAmerican: () => speakblogs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You can post a comment on my blog here."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت لێرە کۆمێنتێک بنووسیت لەسەر بلۆگەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblogs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblogs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You can post a comment on my blog here.",
+                            kurdishText:
+                                "دەتوانیت لێرە کۆمێنتێک بنووسیت لەسەر بلۆگەکەم.",
+                            onPressedBritish: () => speakblogs2("en-GB"),
+                            onPressedAmerican: () => speakblogs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) بەڕێوەبردنی بلۆگێک؛ نووسین لە بلۆگێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Here are some reactions to the story I blogged this morning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمانە ھەندێک لەو کاردانەوانەن بۆ ئەو چیرۆکەی ئەمڕۆ بلۆگم کرد (لە بلۆگێکدا نووسیم)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblogs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblogs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Here are some reactions to the story I blogged this morning.",
+                            kurdishText:
+                                "ئەمانە ھەندێک لەو کاردانەوانەن بۆ ئەو چیرۆکەی ئەمڕۆ بلۆگم کرد (لە بلۆگێکدا نووسیم).",
+                            onPressedBritish: () => speakblogs3("en-GB"),
+                            onPressedAmerican: () => speakblogs3("en-US"),
                           ),
                         ],
                       ),

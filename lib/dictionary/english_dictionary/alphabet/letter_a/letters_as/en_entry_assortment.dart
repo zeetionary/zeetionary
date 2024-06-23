@@ -163,34 +163,14 @@ class EnglishEntryassortment extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کۆمەڵە شتێک، یان کۆمەڵە جۆرێکی جیاوازی یەک شت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was dressed in an odd assortment of clothes."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەستە جلێکی سەیری لەبەرکردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassortment832("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassortment832(
-                                        // REPLACE: assortment /əˈsɔːrtmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was dressed in an odd assortment of clothes.",
+                            kurdishText: "دەستە جلێکی سەیری لەبەرکردبوو.",
+                            onPressedBritish: () => speakassortment832("en-GB"),
+                            onPressedAmerican: () => speakassortment832(
+                                // REPLACE: assortment /əˈsɔːrtmənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

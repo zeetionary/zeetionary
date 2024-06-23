@@ -167,35 +167,15 @@ class EnglishEntryaubergine extends StatelessWidget {
                                   "١. (ناو) پێناسسەوزەیەک کە توێکڵی درەوشاوەی مۆری تاریکی ھەیە و لە ناوەوە و سپی و نەرمە"
                                   ""),
                           const AlsoEnglishckb(word: "ھەروەھا: eggplant"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chef sliced the aubergine into thin rounds and grilled them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێفەکە باینجانەکەی وەک ئەڵقە ئەڵقەی باریک پاککرد و برژاندنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaubergine1132("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaubergine1132(// REPLACE: aubergine
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chef sliced the aubergine into thin rounds and grilled them.",
+                            kurdishText:
+                                "شێفەکە باینجانەکەی وەک ئەڵقە ئەڵقەی باریک پاککرد و برژاندنی.",
+                            onPressedBritish: () => speakaubergine1132("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaubergine1132(// REPLACE: aubergine
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

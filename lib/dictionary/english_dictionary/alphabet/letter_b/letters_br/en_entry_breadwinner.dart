@@ -147,34 +147,14 @@ class EnglishEntrybreadwinner extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە خێزانێک بەڕێوە دەبات بەو پارەیەی پەیدای دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When the baby was born, I became the sole breadwinner."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە منداڵەکە ھاتە دوونیاوە، بووم بە تەنھا پەیداکەری بژێوی ماڵەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreadwinners1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreadwinners1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When the baby was born, I became the sole breadwinner.",
+                            kurdishText:
+                                "کە منداڵەکە ھاتە دوونیاوە، بووم بە تەنھا پەیداکەری بژێوی ماڵەوە.",
+                            onPressedBritish: () => speakbreadwinners1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbreadwinners1("en-US"),
                           ),
                         ],
                       ),

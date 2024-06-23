@@ -162,34 +162,14 @@ class EnglishEntryarchive extends StatelessWidget {
                               text:
                                   "١. (ناو) کۆمەڵە دۆکیومێنتێکی مێژوویی یان تۆماری حکومەت، خێزانێک، جێگایەک، یان دامەزراوەیەک؛ ئەو شوێنەی ئەم تۆمارانەی تێدا ھەڵدەگیرێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The BBC's archives are bulging with material."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەرشیفی بی‌بی‌سی پڕە لە زانیاری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakarchive1050("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarchive1050(
-                                        // REPLACE: archive /ˈɑːrkaɪv/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The BBC's archives are bulging with material.",
+                            kurdishText: "ئەرشیفی بی‌بی‌سی پڕە لە زانیاری.",
+                            onPressedBritish: () => speakarchive1050("en-GB"),
+                            onPressedAmerican: () => speakarchive1050(
+                                // REPLACE: archive /ˈɑːrkaɪv/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

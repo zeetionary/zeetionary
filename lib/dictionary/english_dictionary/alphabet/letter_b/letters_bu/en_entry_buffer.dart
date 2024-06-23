@@ -147,93 +147,36 @@ class EnglishEntrybuffer extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) شتێک کە وەک پارێزەر کاردەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She often had to act as a buffer between father and son."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرجار دەبوو وەک نێوەندگیر لەنێوان باوک و کوڕدا ڕۆڵ ببینێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "buffer", follow LX strictly.
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuffers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuffers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She often had to act as a buffer between father and son.",
+                            kurdishText:
+                                "زۆرجار دەبوو وەک نێوەندگیر لەنێوان باوک و کوڕدا ڕۆڵ ببینێت.", // buffer", follow LX strictly.
+                            onPressedBritish: () => speakbuffers1("en-GB"),
+                            onPressedAmerican: () => speakbuffers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Peacekeepers have been sent in to establish a buffer zone between the rival forces."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێزی ئاشتی‌پارێز نێردراون بۆ درووستکردنی ناوچەی ئارام لە نێوان ھێزە دژبەرەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuffers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuffers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Peacekeepers have been sent in to establish a buffer zone between the rival forces.",
+                            kurdishText:
+                                "ھێزی ئاشتی‌پارێز نێردراون بۆ درووستکردنی ناوچەی ئارام لە نێوان ھێزە دژبەرەکان.",
+                            onPressedBritish: () => speakbuffers2("en-GB"),
+                            onPressedAmerican: () => speakbuffers2("en-US"),
                           ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
-                                  Row(
-                                    children: [
-                                      const Expanded(
-                                        child: Column(
-                                          children: [
-                                            ExampleSentenceEnglish(
-                                                text:
-                                                    "Support from family and friends acts as a buffer against stress."),
-                                            ExampleSentenceKurdish(
-                                                text:
-                                                    "پشتگیری خێزان و دۆستان پارێزەر دەبێت دژ بە سترێس."),
-                                          ],
-                                        ),
-                                      ),
-                                      const CustomSizedBoxForTTS(),
-                                      Column(
-                                        children: [
-                                          CustomIconButtonBritish(
-                                            onPressed: () =>
-                                                speakbuffers3("en-GB"),
-                                          ),
-                                          CustomIconButtonAmerican(
-                                            onPressed: () =>
-                                                speakbuffers3("en-US"),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                  SentencesRow(
+                                    englishText:
+                                        "Support from family and friends acts as a buffer against stress.",
+                                    kurdishText:
+                                        "پشتگیری خێزان و دۆستان پارێزەر دەبێت دژ بە سترێس.",
+                                    onPressedBritish: () =>
+                                        speakbuffers3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakbuffers3("en-US"),
                                   ),
                                 ],
                               ),
@@ -241,116 +184,39 @@ class EnglishEntrybuffer extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) پیاوێکی پیر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Silly old buffer!"),
-                                    ExampleSentenceKurdish(text: "پیری گەوج!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuffers4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuffers4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Silly old buffer!",
+                            kurdishText: "پیری گەوج!",
+                            onPressedBritish: () => speakbuffers4("en-GB"),
+                            onPressedAmerican: () => speakbuffers4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) کەمکردنەوەی زیانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Efforts were made to buffer the effects."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ درا کاریگەرییەکان کەم بکرێنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuffers7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuffers7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Efforts were made to buffer the effects.",
+                            kurdishText: "ھەوڵ درا کاریگەرییەکان کەم بکرێنەوە.",
+                            onPressedBritish: () => speakbuffers7("en-GB"),
+                            onPressedAmerican: () => speakbuffers7("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) پاراستنی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They tried to buffer themselves against problems and uncertainties."),
-                                    ExampleSentenceKurdish(
-                                        text: "پاراستنی کەسێک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuffers6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuffers6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They tried to buffer themselves against problems and uncertainties.",
+                            kurdishText: "پاراستنی کەسێک.",
+                            onPressedBritish: () => speakbuffers6("en-GB"),
+                            onPressedAmerican: () => speakbuffers6("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He tried to buffer her from the bad news."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵی دا لە ھەواڵی خراپ بیپارێزێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuffers5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuffers5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He tried to buffer her from the bad news.",
+                            kurdishText: "ھەوڵی دا لە ھەواڵی خراپ بیپارێزێت.",
+                            onPressedBritish: () => speakbuffers5("en-GB"),
+                            onPressedAmerican: () => speakbuffers5("en-US"),
                           ),
                         ],
                       ),

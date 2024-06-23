@@ -153,34 +153,15 @@ class EnglishEntrybandwagon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چالاکییەک کە خەڵکی زیاتر و زیاتر تێیدا بەژدار دەبن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They seem to have got an anti-government bandwagon rolling."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وادیارن کە بەرەیەکی ناڕەزایی دژ بە حکومەتیان دەستپێ‌کردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbandwagons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbandwagons1(// REPLACE: bandwagon
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They seem to have got an anti-government bandwagon rolling.",
+                            kurdishText:
+                                "وادیارن کە بەرەیەکی ناڕەزایی دژ بە حکومەتیان دەستپێ‌کردووە.",
+                            onPressedBritish: () => speakbandwagons1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbandwagons1(// REPLACE: bandwagon
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

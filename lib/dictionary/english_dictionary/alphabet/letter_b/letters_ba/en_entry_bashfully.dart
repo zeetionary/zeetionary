@@ -149,30 +149,11 @@ class EnglishEntrybashfully extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) بە شەرمەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She smiled bashfully."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە شەرمەوە پێکەنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbashfullys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbashfullys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She smiled bashfully.",
+                            kurdishText: "بە شەرمەوە پێکەنی.",
+                            onPressedBritish: () => speakbashfullys1("en-GB"),
+                            onPressedAmerican: () => speakbashfullys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

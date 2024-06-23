@@ -156,63 +156,25 @@ class EnglishEntryankle extends StatelessWidget {
                               text:
                                   "١. (ناو) ئەو بەشەی جەستە کە پێ و لاق پێکەوە دەبەستێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She suffered a serious ankle injury in training."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تووشی گورزێکی کوشندە بوو لە قولەپێ‌یدا لە کاتی ڕاھێنان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakankle1112("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakankle1112(// REPLACE: ankle /ˈæŋkl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She suffered a serious ankle injury in training.",
+                            kurdishText:
+                                "تووشی گورزێکی کوشندە بوو لە قولەپێ‌یدا لە کاتی ڕاھێنان.",
+                            onPressedBritish: () => speakankle1112("en-GB"),
+                            onPressedAmerican: () =>
+                                speakankle1112(// REPLACE: ankle /ˈæŋkl/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "My ankles have swollen."),
-                                    ExampleSentenceKurdish(
-                                        text: "قولەپێ‌یەکانم ئاوساون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakankle1114("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakankle1114(
-                                        // REPLACE: ankle /ˈæŋkl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "My ankles have swollen.",
+                            kurdishText: "قولەپێ‌یەکانم ئاوساون.",
+                            onPressedBritish: () => speakankle1114("en-GB"),
+                            onPressedAmerican: () => speakankle1114(
+                                // REPLACE: ankle /ˈæŋkl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

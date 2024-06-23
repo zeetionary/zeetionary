@@ -148,30 +148,11 @@ class EnglishEntrybladder extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) ئەندامێکی جەستە کە لە شێوەی کیسەیەکدایە و میزی تێدا کۆدەبێتەوە پێش ئەوەی لە جەستە بکرێتە دەرەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He died of bladder cancer."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە شێرپەنجەی میزڵدان مرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbladders1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbladders1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He died of bladder cancer.",
+                            kurdishText: "بە شێرپەنجەی میزڵدان مرد.",
+                            onPressedBritish: () => speakbladders1("en-GB"),
+                            onPressedAmerican: () => speakbladders1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

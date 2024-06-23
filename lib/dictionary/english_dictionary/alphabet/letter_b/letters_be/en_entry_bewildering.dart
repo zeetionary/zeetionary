@@ -151,34 +151,14 @@ class EnglishEntrybewildering extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) شتێک کە سەرسامت دەکات بەھۆی ئەوەی ھەڵبژاردەی زۆری ھەیە، یان گرانە بۆ تێگەشتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There is a bewildering variety of software available."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی سەرسووڕھێنەر لە نەرمامێر بەردەستە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbewilderings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbewilderings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There is a bewildering variety of software available.",
+                            kurdishText:
+                                "ژمارەیەکی سەرسووڕھێنەر لە نەرمامێر بەردەستە.",
+                            onPressedBritish: () => speakbewilderings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbewilderings1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

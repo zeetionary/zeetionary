@@ -114,33 +114,13 @@ class EnglishEntryamble extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) ڕێکردن بەھێواشی" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Mark ambled over to the girls."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مارک بەھێواشی چوو بۆ لای کچەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamble88544("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamble88544(
-                                        // REPLACE: amble /ˈæmbl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Mark ambled over to the girls.",
+                            kurdishText: "مارک بەھێواشی چوو بۆ لای کچەکان.",
+                            onPressedBritish: () => speakamble88544("en-GB"),
+                            onPressedAmerican: () => speakamble88544(
+                                // REPLACE: amble /ˈæmbl/
+                                "en-US"),
                           ),
                           // const DividerSentences()
                           // const DividerDefinition()

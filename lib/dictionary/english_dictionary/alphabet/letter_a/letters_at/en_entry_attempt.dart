@@ -164,131 +164,53 @@ class EnglishEntryattempt extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ھەوڵی کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I passed my driving test at the first attempt."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مۆڵەتی شۆفێریمم بە یەکەم ھەوڵ دەرھێنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattempt742("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattempt742(// REPLACE: attempt
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I passed my driving test at the first attempt.",
+                            kurdishText:
+                                "مۆڵەتی شۆفێریمم بە یەکەم ھەوڵ دەرھێنا.",
+                            onPressedBritish: () => speakattempt742("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattempt742(// REPLACE: attempt
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھەوڵدان بۆ کووشتنی کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is the third attempt on the President's life."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە سێیەم ھەوڵە بۆ کووشتنی سەرۆک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattempt743("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattempt743(// REPLACE: attempt
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is the third attempt on the President's life.",
+                            kurdishText: "ئەمە سێیەم ھەوڵە بۆ کووشتنی سەرۆک.",
+                            onPressedBritish: () => speakattempt743("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattempt743(// REPLACE: attempt
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ھەوڵدان بۆ کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I will attempt to answer all your questions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ دەدەم وەڵامی ھەموو پرسیارەکانت بدەمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattempt749("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattempt749(// REPLACE: attempt
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I will attempt to answer all your questions.",
+                            kurdishText:
+                                "ھەوڵ دەدەم وەڵامی ھەموو پرسیارەکانت بدەمەوە.",
+                            onPressedBritish: () => speakattempt749("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattempt749(// REPLACE: attempt
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do not attempt to repair this yourself."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵ مەدە خۆی ئەمە چاکبکەیتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakattempt750("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakattempt750(// REPLACE: attempt
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do not attempt to repair this yourself.",
+                            kurdishText: "ھەوڵ مەدە خۆی ئەمە چاکبکەیتەوە.",
+                            onPressedBritish: () => speakattempt750("en-GB"),
+                            onPressedAmerican: () =>
+                                speakattempt750(// REPLACE: attempt
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -150,32 +150,13 @@ class EnglishEntrybestial extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) دڕندە و ترسناک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The soldiers were accused of bestial acts against unarmed civilians."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەربازان تۆمەتبارکران بە کردەی دڕندانە دژ بە ھاوڵاتیانی مەدەنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbestials1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbestials1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The soldiers were accused of bestial acts against unarmed civilians.",
+                            kurdishText:
+                                "سەربازان تۆمەتبارکران بە کردەی دڕندانە دژ بە ھاوڵاتیانی مەدەنی.",
+                            onPressedBritish: () => speakbestials1("en-GB"),
+                            onPressedAmerican: () => speakbestials1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

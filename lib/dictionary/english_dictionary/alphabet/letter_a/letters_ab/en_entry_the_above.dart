@@ -93,32 +93,13 @@ class EnglishEntrytheabove extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. شتێک یان کەسێک کە لە سەرەوە باسکراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please notify us if the above is not correct."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە ئاگادارمان بکەوە ئەگەر ئەوەی لە سەرەوە نووسراوە ڕاست نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakT3514("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakT3514("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Please notify us if the above is not correct.",
+                            kurdishText:
+                                "تکایە ئاگادارمان بکەوە ئەگەر ئەوەی لە سەرەوە نووسراوە ڕاست نییە.",
+                            onPressedBritish: () => speakT3514("en-GB"),
+                            onPressedAmerican: () => speakT3514("en-US"),
                           ),
                         ],
                       ),

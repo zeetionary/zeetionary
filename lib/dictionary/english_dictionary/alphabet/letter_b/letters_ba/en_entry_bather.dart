@@ -151,32 +151,13 @@ class EnglishEntrybather extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە لە دەریا یان ڕووباردا مەلە دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The beach was full of bathers enjoying the warm summer day."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەناراوەکە پڕبوو لە مەلێکەر کە جێژیان دەبینی لە ڕۆژە گەرمەکەی ھاوین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbathers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbathers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The beach was full of bathers enjoying the warm summer day.",
+                            kurdishText:
+                                "کەناراوەکە پڕبوو لە مەلێکەر کە جێژیان دەبینی لە ڕۆژە گەرمەکەی ھاوین.",
+                            onPressedBritish: () => speakbathers1("en-GB"),
+                            onPressedAmerican: () => speakbathers1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

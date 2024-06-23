@@ -156,67 +156,29 @@ class EnglishEntrybarbarian extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) لە سەردەمی کۆندا بە کەسێک دەگوترا کە سەر بە شارستانییەکی گەورە نەبوو، بۆ نموونە ڕۆم و یۆنان، و بە دڕندە و ناشارستانییەت دادەنران"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The walled city was attacked by barbarian hordes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شارە بە شوورا دەوردراوەکە لە لایەن خێڵە دەشتەکییەکانەوە بەر ھێرش درا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarbarians1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarbarians1(// REPLACE: barbarian
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The walled city was attacked by barbarian hordes.",
+                            kurdishText:
+                                "شارە بە شوورا دەوردراوەکە لە لایەن خێڵە دەشتەکییەکانەوە بەر ھێرش درا.",
+                            onPressedBritish: () => speakbarbarians1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarbarians1(// REPLACE: barbarian
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە خوێندنی نەکردووە و حەزی لە کەلتوور و ھونەر نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How can you call those barbarians your friends?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن ئەو ناشارستانیەتییانە بە ھاوڕێت دادەنێیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarbarians2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbarbarians2(// REPLACE: barbarian
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How can you call those barbarians your friends?",
+                            kurdishText:
+                                "چۆن ئەو ناشارستانیەتییانە بە ھاوڕێت دادەنێیت؟",
+                            onPressedBritish: () => speakbarbarians2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbarbarians2(// REPLACE: barbarian
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

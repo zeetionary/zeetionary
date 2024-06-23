@@ -114,34 +114,15 @@ class EnglishEntryadditionally extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) زیاتر لەوەی پێشووتر باسکراوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The bus service runs on weekends. Additionally, the it will run on Sundays, every two hours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھێڵی پاسەکە لە ڕۆژانی ھەفتە کارایە. جگە لەوەش، ڕۆژانی یەکشەممە ھەر دوو کاتژمێر جارێک بەردەست دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaddit2541("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaddit2541(
-                                        // REPLACE: additionally /əˈdɪʃənəli/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The bus service runs on weekends. Additionally, the it will run on Sundays, every two hours.",
+                            kurdishText:
+                                "ھێڵی پاسەکە لە ڕۆژانی ھەفتە کارایە. جگە لەوەش، ڕۆژانی یەکشەممە ھەر دوو کاتژمێر جارێک بەردەست دەبێت.",
+                            onPressedBritish: () => speakaddit2541("en-GB"),
+                            onPressedAmerican: () => speakaddit2541(
+                                // REPLACE: additionally /əˈdɪʃənəli/
+                                "en-US"),
                           ),
                         ],
                       ),

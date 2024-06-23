@@ -339,562 +339,199 @@ class EnglishEntryboard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) چوونە ناو فڕۆکەیەک، کەشتییەک، شەمەندەفەرێک، پاسێک، ھتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Passengers are waiting to board."),
-                                    ExampleSentenceKurdish(
-                                        text: "سەرنشینان چاوەڕێن سەرکەون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Passengers are waiting to board.",
+                            kurdishText: "سەرنشینان چاوەڕێن سەرکەون.",
+                            onPressedBritish: () => speakboards1("en-GB"),
+                            onPressedAmerican: () => speakboards1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She boarded a train for Philadelphia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سواری فڕۆکەیەک بوو بۆ فیلادێلفیا دەچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She boarded a train for Philadelphia.",
+                            kurdishText:
+                                "سواری فڕۆکەیەک بوو بۆ فیلادێلفیا دەچوو.",
+                            onPressedBritish: () => speakboards2("en-GB"),
+                            onPressedAmerican: () => speakboards2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) ئامادەیی کەشتییەک یان فڕۆکەیەک بۆ ئەوەی سەرنشینان سەرکەون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Flight BA193 for Paris is now boarding at Gate 37."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشتی BA193 بۆ پاریس ئێستا لە دەروازەی ٣٧ گەشتیاران سەردەخات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Flight BA193 for Paris is now boarding at Gate 37.",
+                            kurdishText:
+                                "گەشتی BA193 بۆ پاریس ئێستا لە دەروازەی ٣٧ گەشتیاران سەردەخات.",
+                            onPressedBritish: () => speakboards3("en-GB"),
+                            onPressedAmerican: () => speakboards3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) مانەوە لەگەڵ کەسێک و پارەدان بۆ ماڵەوە و خواردن لای"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She always had one or two students boarding with her."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە یەک یان دوو خوێندکاری لابوو کە لەگەڵی دەژیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She always had one or two students boarding with her.",
+                            kurdishText:
+                                "ھەمیشە یەک یان دوو خوێندکاری لابوو کە لەگەڵی دەژیان.",
+                            onPressedBritish: () => speakboards4("en-GB"),
+                            onPressedAmerican: () => speakboards4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "During his stay in England he boarded with a family in London."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە کاتی مانەوەی لە ئینگلتەرە لەگەڵ خێزانێک دەژیا لە لەندەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "During his stay in England he boarded with a family in London.",
+                            kurdishText:
+                                "لە کاتی مانەوەی لە ئینگلتەرە لەگەڵ خێزانێک دەژیا لە لەندەن.",
+                            onPressedBritish: () => speakboards5("en-GB"),
+                            onPressedAmerican: () => speakboards5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) ژیانکردن لە قوتابخانەیەک لە کاتی وەرزی خوێندن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "When you went to school were you a day student or did you board?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کە لە قوتابخانە بوویت ھاتووچۆت دەکرد ڕۆژانە یان دەمایتەوە لە قوتابخانە (داخلی)؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "When you went to school were you a day student or did you board?",
+                            kurdishText:
+                                "کە لە قوتابخانە بوویت ھاتووچۆت دەکرد ڕۆژانە یان دەمایتەوە لە قوتابخانە (داخلی)؟",
+                            onPressedBritish: () => speakboards6("en-GB"),
+                            onPressedAmerican: () => speakboards6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) پارچەیەکی درێژ و باریکی مادەیەک، بەتایبەتی تەختە، کە بەکاردێت بۆ درووستکردنی زەوی شوێنێک، دیوار و بنبانی بینایەک و درووستکردنی بەلەم"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She noticed a loose board in the fence."),
-                                    ExampleSentenceKurdish(
-                                        text: "پەنیر خرایە سەر تەختەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She noticed a loose board in the fence.",
+                            kurdishText: "پەنیر خرایە سەر تەختەکە.",
+                            onPressedBritish: () => speakboards7("en-GB"),
+                            onPressedAmerican: () => speakboards7("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She noticed a loose board in the fence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێبینی کرد کە تەختەیەک لە پەرژینەکەدا شلبوو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She noticed a loose board in the fence.",
+                            kurdishText:
+                                "تێبینی کرد کە تەختەیەک لە پەرژینەکەدا شلبوو بوو.",
+                            onPressedBritish: () => speakboards8("en-GB"),
+                            onPressedAmerican: () => speakboards8("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had ripped up the carpet, leaving only the bare boards."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فەرشەکەی لێ‌کردەوە و تەنھا تەختەکانی بە تەنھا ھێشتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He had ripped up the carpet, leaving only the bare boards.",
+                            kurdishText:
+                                "فەرشەکەی لێ‌کردەوە و تەنھا تەختەکانی بە تەنھا ھێشتەوە.",
+                            onPressedBritish: () => speakboards9("en-GB"),
+                            onPressedAmerican: () => speakboards9("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (ناو) پارچە تەختەیەک، یان مادەی تر، کە بۆ مەبەستێکی دیاریکراو بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I'll write it up on the board."),
-                                    ExampleSentenceKurdish(
-                                        text: "لەسەر سەبوورەکە دەینووسم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I'll write it up on the board.",
+                            kurdishText: "لەسەر سەبوورەکە دەینووسم.",
+                            onPressedBritish: () => speakboards10("en-GB"),
+                            onPressedAmerican: () => speakboards10("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Cheeses were laid out on a board."),
-                                    ExampleSentenceKurdish(
-                                        text: "پەنیر لەسەر تەختەیەک دانرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Cheeses were laid out on a board.",
+                            kurdishText: "پەنیر لەسەر تەختەیەک دانرا.",
+                            onPressedBritish: () => speakboards11("en-GB"),
+                            onPressedAmerican: () => speakboards11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٧. (ناو) پارچە کەرەستەیەک کە کەسێک لەسەری دەوەستێت لە ژمارەیەک لە یاری وەرزشیدا، بۆ نموونە لە سکەیتەوانی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Choose the appropriate board for skateboarding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەختەیەکی گونجاو ھەڵبژێرە بۆسەکیتەوانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards12("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards12("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Choose the appropriate board for skateboarding.",
+                            kurdishText:
+                                "تەختەیەکی گونجاو ھەڵبژێرە بۆسەکیتەوانی.",
+                            onPressedBritish: () => speakboards12("en-GB"),
+                            onPressedAmerican: () => speakboards12("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٨. (ناو) ژمارەیەک کەس کە دەسەڵاتی بڕیاردانیان ھەیە و کۆنترۆڵی کۆمپانیایەک یان دامەزراوەیەک دەکەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She has a seat on the board of directors."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کورسیەکی ھەیە لە دەستەی بەڕێوەبەرایەتی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards13("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards13("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She has a seat on the board of directors.",
+                            kurdishText:
+                                "کورسیەکی ھەیە لە دەستەی بەڕێوەبەرایەتی.",
+                            onPressedBritish: () => speakboards13("en-GB"),
+                            onPressedAmerican: () => speakboards13("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Board members will vote on the measures at their meeting tomorrow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەندامانی دەستەکە دەنگ لەسەر ھەنگاوەکان دەدەن لە کۆبوونەوەکەی سبەینێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards14("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards14("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Board members will vote on the measures at their meeting tomorrow.",
+                            kurdishText:
+                                "ئەندامانی دەستەکە دەنگ لەسەر ھەنگاوەکان دەدەن لە کۆبوونەوەکەی سبەینێ.",
+                            onPressedBritish: () => speakboards14("en-GB"),
+                            onPressedAmerican: () => speakboards14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٩. (ناو) لە ناوی ژمارەیەک دامەزراوە بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The exams are set by the Cambridge Examining Board."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاقیکردنەوەکان لەلایەن دەستەی تاقیکاری کامبریجەوە دادەنرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards15("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards15("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The exams are set by the Cambridge Examining Board.",
+                            kurdishText:
+                                "تاقیکردنەوەکان لەلایەن دەستەی تاقیکاری کامبریجەوە دادەنرێن.",
+                            onPressedBritish: () => speakboards15("en-GB"),
+                            onPressedAmerican: () => speakboards15("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (ناو) ئەو خواردنانەی کە پێشکەش دەکرێن کە لە ھوتێلێک، میوانخانەیەک، ھتد. دەمێنیتەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He pays £90 a week board and lodging."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "٩٠ پاوەند لە ھەفتەیەکدا دەدات بۆ خواردن و شوێنی مانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards16("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards16("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He pays £90 a week board and lodging.",
+                            kurdishText:
+                                "٩٠ پاوەند لە ھەفتەیەکدا دەدات بۆ خواردن و شوێنی مانەوە.",
+                            onPressedBritish: () => speakboards16("en-GB"),
+                            onPressedAmerican: () => speakboards16("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١١. (ناو) تاقیکردنەوەیەک کە ئەنجامی دەدەیت کە دەچیتە کۆلێژ لە ئەمریکا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This is my last chance to pass the boards."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە کۆتا دەرفەتمە بۆ دەرچوون لە تاقیکردنەوەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards17("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards17("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This is my last chance to pass the boards.",
+                            kurdishText:
+                                "ئەمە کۆتا دەرفەتمە بۆ دەرچوون لە تاقیکردنەوەکان.",
+                            onPressedBritish: () => speakboards17("en-GB"),
+                            onPressedAmerican: () => speakboards17("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٢. (ناو) ستەیجی شانۆ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's treading the boards (= working as an actress)."),
-                                    ExampleSentenceKurdish(
-                                        text: "وەک خانمە ئەکتەرێک کاردەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards18("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards18("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's treading the boards (= working as an actress).",
+                            kurdishText: "وەک خانمە ئەکتەرێک کاردەکات.",
+                            onPressedBritish: () => speakboards18("en-GB"),
+                            onPressedAmerican: () => speakboards18("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His play is on the boards on Broadway."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شانۆکەی لەسەر ستەیج نمایش دەکرێت لە سینەمای برۆدوەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboards19("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboards19("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "His play is on the boards on Broadway.",
+                            kurdishText:
+                                "شانۆکەی لەسەر ستەیج نمایش دەکرێت لە سینەمای برۆدوەی.",
+                            onPressedBritish: () => speakboards19("en-GB"),
+                            onPressedAmerican: () => speakboards19("en-US"),
                           ),
                         ],
                       ),

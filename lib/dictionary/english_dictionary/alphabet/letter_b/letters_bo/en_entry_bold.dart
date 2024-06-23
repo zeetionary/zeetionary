@@ -151,121 +151,44 @@ class EnglishEntrybold extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) کەسێکی ئازا کە متمانەی بەخۆی ھەیە و ناترسێت لە کردن یان وتنی ئەوەی دەیەوێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a bold move on their part to open a business in France."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جوڵەیەکی بوێرانە بوو لەلایەن ئاوانەوە کە بازرگانییەک لە فەرەنسا بکەنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was a bold move on their part to open a business in France.",
+                            kurdishText:
+                                "جوڵەیەکی بوێرانە بوو لەلایەن ئاوانەوە کە بازرگانییەک لە فەرەنسا بکەنەوە.",
+                            onPressedBritish: () => speakbolds1("en-GB"),
+                            onPressedAmerican: () => speakbolds1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Few people have been bold enough to criticize the president."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەم کەس ھێندە بوێر بوونە کە ڕەخنە لە بەڕێوبەرەکە بگرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Few people have been bold enough to criticize the president.",
+                            kurdishText:
+                                "کەم کەس ھێندە بوێر بوونە کە ڕەخنە لە بەڕێوبەرەکە بگرن.",
+                            onPressedBritish: () => speakbolds2("en-GB"),
+                            onPressedAmerican: () => speakbolds2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) تۆخ؛ نووسین بە ئەستوور و تاریک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Highlight the important words in bold type."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وشە گرنگەکان بە تۆخی دیاری بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolds3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolds3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Highlight the important words in bold type.",
+                            kurdishText: "وشە گرنگەکان بە تۆخی دیاری بکە.",
+                            onPressedBritish: () => speakbolds3("en-GB"),
+                            onPressedAmerican: () => speakbolds3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ھاوەڵناو) شتێک کە بە ئاسانی دەبینرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The furniture was painted in bold, primary colours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەلوپەلەکان بە ڕەنگی دیار و سەرەکییەکان بۆیەکران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbolds4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbolds4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The furniture was painted in bold, primary colours.",
+                            kurdishText:
+                                "کەلوپەلەکان بە ڕەنگی دیار و سەرەکییەکان بۆیەکران.",
+                            onPressedBritish: () => speakbolds4("en-GB"),
+                            onPressedAmerican: () => speakbolds4("en-US"),
                           ),
                         ],
                       ),

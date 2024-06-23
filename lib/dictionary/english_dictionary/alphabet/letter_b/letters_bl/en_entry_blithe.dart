@@ -149,32 +149,13 @@ class EnglishEntryblithe extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) پیشاندانی ئەوەی گرنگی نادەیت یان نیگەران نیت سەبارەت بەوەی دەیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He drove with blithe disregard for the rules of the road."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شۆفێری دەکرد بە کەمتەرخەمی مێشک‌سافییەوە بۆ یاساکانی ڕێگاوبان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblithes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblithes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He drove with blithe disregard for the rules of the road.",
+                            kurdishText:
+                                "شۆفێری دەکرد بە کەمتەرخەمی مێشک‌سافییەوە بۆ یاساکانی ڕێگاوبان.",
+                            onPressedBritish: () => speakblithes1("en-GB"),
+                            onPressedAmerican: () => speakblithes1("en-US"),
                           ),
                         ],
                       ),

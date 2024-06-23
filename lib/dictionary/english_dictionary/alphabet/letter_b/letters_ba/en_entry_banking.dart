@@ -152,34 +152,15 @@ class EnglishEntrybanking extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چالاکی بازرگانی بانک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's thinking about a career in banking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیر لە دۆزینەوەی کارێک لە بانکداری دەکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbankings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbankings1(// REPLACE: banking
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's thinking about a career in banking.",
+                            kurdishText:
+                                "بیر لە دۆزینەوەی کارێک لە بانکداری دەکاتەوە.",
+                            onPressedBritish: () => speakbankings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbankings1(// REPLACE: banking
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

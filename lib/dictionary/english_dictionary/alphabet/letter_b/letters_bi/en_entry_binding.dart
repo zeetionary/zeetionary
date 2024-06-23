@@ -148,94 +148,36 @@ class EnglishEntrybinding extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) شتێک کە دەبێت پەسەند بکرێت چونکە بەپێی یاسایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The decision is binding on both parties."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیارەکە بەسەر ھەردوولادا دەچەسپێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbindings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbindings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The decision is binding on both parties.",
+                            kurdishText: "بڕیارەکە بەسەر ھەردوولادا دەچەسپێت.",
+                            onPressedBritish: () => speakbindings1("en-GB"),
+                            onPressedAmerican: () => speakbindings1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بەرگی کتێب"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She took a book from the shelf, admiring the gold edges to the pages and the green leather binding."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبێکی لەسەر ڕەفەکە ھەڵگرت بەھۆی دڵچوونی لە قەراغە ئاڵتوونییەکانی پەڕەکانی و بەرگە سەوزە چەرمەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbindings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbindings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She took a book from the shelf, admiring the gold edges to the pages and the green leather binding.",
+                            kurdishText:
+                                "کتێبێکی لەسەر ڕەفەکە ھەڵگرت بەھۆی دڵچوونی لە قەراغە ئاڵتوونییەکانی پەڕەکانی و بەرگە سەوزە چەرمەکەی.",
+                            onPressedBritish: () => speakbindings2("en-GB"),
+                            onPressedAmerican: () => speakbindings2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) قوماش کە بەستراوە بە قەراغی شتێکەوە بۆ جوانی یان پاراستنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The jacket is beautifully finished, and binding on the seams and pockets adds strength."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاکەتەکە بە جوانی تەواو بووە، لەگەڵ باریکە لەسەر تەقەڵەکانی و گیرفانەکانی کە خۆڕاگری پێدەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbindings3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbindings3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The jacket is beautifully finished, and binding on the seams and pockets adds strength.",
+                            kurdishText:
+                                "چاکەتەکە بە جوانی تەواو بووە، لەگەڵ باریکە لەسەر تەقەڵەکانی و گیرفانەکانی کە خۆڕاگری پێدەدا.",
+                            onPressedBritish: () => speakbindings3("en-GB"),
+                            onPressedAmerican: () => speakbindings3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

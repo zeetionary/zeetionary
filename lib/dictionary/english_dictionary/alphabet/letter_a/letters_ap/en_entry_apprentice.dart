@@ -161,69 +161,28 @@ class EnglishEntryapprentice extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە لەلای کەسێکی شارەزا کاردەکات بۆ فێربوونی بەھرەکە، زۆرجار بە پارەیەکی کەم"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most of the work was done by apprentices."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی کارەکە لەلایەن شاگردەکان کرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapprentice956("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapprentice956(
-                                        // REPLACE: apprentice /əˈprentɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most of the work was done by apprentices.",
+                            kurdishText:
+                                "زۆرینەی کارەکە لەلایەن شاگردەکان کرا.",
+                            onPressedBritish: () => speakapprentice956("en-GB"),
+                            onPressedAmerican: () => speakapprentice956(
+                                // REPLACE: apprentice /əˈprentɪs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کارکردن وەک شاگردێک بۆ فێربوونی شارەزایی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was apprenticed to his uncle as a carpenter."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک شاگردێکی دارتاشی درا بە خاڵی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakapprentice959("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapprentice959(
-                                        // REPLACE: apprentice /əˈprentɪs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was apprenticed to his uncle as a carpenter.",
+                            kurdishText: "وەک شاگردێکی دارتاشی درا بە خاڵی.",
+                            onPressedBritish: () => speakapprentice959("en-GB"),
+                            onPressedAmerican: () => speakapprentice959(
+                                // REPLACE: apprentice /əˈprentɪs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

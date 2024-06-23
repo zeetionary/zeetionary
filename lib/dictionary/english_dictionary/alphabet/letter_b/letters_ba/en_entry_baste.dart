@@ -147,62 +147,24 @@ class EnglishEntrybaste extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ڕژاندنی شلە بەسەر گۆشتدا لە کاتی ئامادەکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Baste the turkey at regular intervals."),
-                                    ExampleSentenceKurdish(
-                                        text: "جارناجار قەلەکە خۆشبکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbastes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbastes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Baste the turkey at regular intervals.",
+                            kurdishText: "جارناجار قەلەکە خۆشبکەوە.",
+                            onPressedBritish: () => speakbastes1("en-GB"),
+                            onPressedAmerican: () => speakbastes1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) تەقەڵدانی پارچە بە شل و درێژ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The seamstress basted the fabric together before sewing it permanently."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرگدوورەکە پارچەکەی بە شلی دووریەوە پێش ئەوەی بە تەواوی تەقەڵیان بدات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbastes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbastes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The seamstress basted the fabric together before sewing it permanently.",
+                            kurdishText:
+                                "بەرگدوورەکە پارچەکەی بە شلی دووریەوە پێش ئەوەی بە تەواوی تەقەڵیان بدات.",
+                            onPressedBritish: () => speakbastes2("en-GB"),
+                            onPressedAmerican: () => speakbastes2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

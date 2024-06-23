@@ -115,34 +115,15 @@ class EnglishEntryaerobatics extends StatelessWidget {
                               text:
                                   "١. (ناو) ئەنجامدانی جوڵەی سەرکێشی بە فڕۆکە لە ئاسماندا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The crowd was entertained with a display of aerobatics."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جەماوەرەکە دڵخۆشبوون بە نمایشی فڕۆکەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaeroba35699("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaeroba35699(
-                                        // REPLACE: aerobatics /ˌerəˈbætɪks/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The crowd was entertained with a display of aerobatics.",
+                            kurdishText:
+                                "جەماوەرەکە دڵخۆشبوون بە نمایشی فڕۆکەکان.",
+                            onPressedBritish: () => speakaeroba35699("en-GB"),
+                            onPressedAmerican: () => speakaeroba35699(
+                                // REPLACE: aerobatics /ˌerəˈbætɪks/
+                                "en-US"),
                           ),
                         ],
                       ),

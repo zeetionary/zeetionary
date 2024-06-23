@@ -94,32 +94,13 @@ class EnglishEntryaccountant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. کەسێک کە کاری ژمێریاری دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We talked to the company’s chief accountant."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "قسەمان لەگەڵ ژمێریاری سەرەکیی کۆمپانیاکە کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka4582("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka4582("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We talked to the company’s chief accountant.",
+                            kurdishText:
+                                "قسەمان لەگەڵ ژمێریاری سەرەکیی کۆمپانیاکە کرد.",
+                            onPressedBritish: () => speaka4582("en-GB"),
+                            onPressedAmerican: () => speaka4582("en-US"),
                           ),
                         ],
                       ),

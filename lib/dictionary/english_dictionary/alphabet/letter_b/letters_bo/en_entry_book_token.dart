@@ -148,32 +148,13 @@ class EnglishEntrybooktoken extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کاردێک کە وەک دیاری دەبەخشرێت و نرخێکی دیاریکراوی ھەیە، و دەتوانرێت بەکاربھێندرێت تەنھا بۆ کڕینی کتێب"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I was gifted a £10 book token on my birthday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆپۆنێکی کتێبی ١٠ پاوەندیم وەک دیاری پێ بەخشرا لە ڕۆژی لەدایکبوونم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbooktokens1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbooktokens1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I was gifted a £10 book token on my birthday.",
+                            kurdishText:
+                                "کۆپۆنێکی کتێبی ١٠ پاوەندیم وەک دیاری پێ بەخشرا لە ڕۆژی لەدایکبوونم.",
+                            onPressedBritish: () => speakbooktokens1("en-GB"),
+                            onPressedAmerican: () => speakbooktokens1("en-US"),
                           ),
                         ],
                       ),

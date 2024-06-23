@@ -152,148 +152,53 @@ class EnglishEntrybellow extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) ھاوارکردن بە دەنگی بەرز بەھۆی ئەوەی تووڕەی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They bellowed at her to stop."),
-                                    ExampleSentenceKurdish(
-                                        text: "نەڕاندیان بەسەریدا تا بوەستێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbellows1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbellows1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They bellowed at her to stop.",
+                            kurdishText: "نەڕاندیان بەسەریدا تا بوەستێت.",
+                            onPressedBritish: () => speakbellows1("en-GB"),
+                            onPressedAmerican: () => speakbellows1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He fell to the floor, bellowing with pain and rage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کەوت بەسەر زەوییەکەدا و بۆڕەی دەھات لە ئازار و توڕەییدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbellows2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbellows2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He fell to the floor, bellowing with pain and rage.",
+                            kurdishText:
+                                "کەوت بەسەر زەوییەکەدا و بۆڕەی دەھات لە ئازار و توڕەییدا.",
+                            onPressedBritish: () => speakbellows2("en-GB"),
+                            onPressedAmerican: () => speakbellows2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) کە ئاژەڵێک، بۆ نموونە نێرەگایەک، دەنگێکی بەرز دەردەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The bull bellowed in pain."),
-                                    ExampleSentenceKurdish(
-                                        text: "نێرەگاکە نەڕەی بوو لە ئازاردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbellows3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbellows3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The bull bellowed in pain.",
+                            kurdishText: "نێرەگاکە نەڕەی بوو لە ئازاردا.",
+                            onPressedBritish: () => speakbellows3("en-GB"),
+                            onPressedAmerican: () => speakbellows3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ھاوارێک بە دەنگی بەرز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He gave a bellow of rage."),
-                                    ExampleSentenceKurdish(
-                                        text: "نەڕەیەکی کرد لە تووڕەییدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbellows4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbellows4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He gave a bellow of rage.",
+                            kurdishText: "نەڕەیەکی کرد لە تووڕەییدا.",
+                            onPressedBritish: () => speakbellows4("en-GB"),
+                            onPressedAmerican: () => speakbellows4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) دەنگی بەرزی ئاژەڵێک، بۆ نموونە ھی نێرەگایەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He saw blood around the cow's mouth and heard the rasp of its breath between each anguished bellow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خوێنی لە دەمی مانگاکەوە دی و گوێی لە دەنگی ھەناسەی بوو لەگەڵ ھەر نەڕەیەکی لەتاو ئازاردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbellows5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbellows5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He saw blood around the cow's mouth and heard the rasp of its breath between each anguished bellow.",
+                            kurdishText:
+                                "خوێنی لە دەمی مانگاکەوە دی و گوێی لە دەنگی ھەناسەی بوو لەگەڵ ھەر نەڕەیەکی لەتاو ئازاردا.",
+                            onPressedBritish: () => speakbellows5("en-GB"),
+                            onPressedAmerican: () => speakbellows5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -112,66 +112,28 @@ class EnglishEntryadornment extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) خشڵ و ئارایشتە جوانکاری" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A plain necklace was her only adornment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ملوانکەیەکی سادە تەنھا خشڵ بوو بەست بووی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadornm79534("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadornm79534(
-                                        // REPLACE: adornment /əˈdɔːrnmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A plain necklace was her only adornment.",
+                            kurdishText:
+                                "ملوانکەیەکی سادە تەنھا خشڵ بوو بەست بووی.",
+                            onPressedBritish: () => speakadornm79534("en-GB"),
+                            onPressedAmerican: () => speakadornm79534(
+                                // REPLACE: adornment /əˈdɔːrnmənt/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) جەانکاری و ڕازاندنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Precious stones have been used for the purposes of adornment for over 7000 years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەردی گرانبەھا بۆ ڕازاندنەوە بەکارھاتوون بۆ زیاتر لە ٧٠٠٠ ساڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakad25698("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakad25698(
-                                        // REPLACE: adornment /əˈdɔːrnmənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Precious stones have been used for the purposes of adornment for over 7000 years.",
+                            kurdishText:
+                                "بەردی گرانبەھا بۆ ڕازاندنەوە بەکارھاتوون بۆ زیاتر لە ٧٠٠٠ ساڵ.",
+                            onPressedBritish: () => speakad25698("en-GB"),
+                            onPressedAmerican: () => speakad25698(
+                                // REPLACE: adornment /əˈdɔːrnmənt/
+                                "en-US"),
                           ),
                         ],
                       ),

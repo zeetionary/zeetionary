@@ -151,63 +151,25 @@ class EnglishEntrybiology extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) لێکۆڵینەوەی زانستی لە ژیان و پێکھاتەی ئاژەڵ و ڕووەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The book deals with the reproductive biology of the lion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبەکە باس لە زیندەناسی زاوزێ دەکات لە شێردا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiologys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiologys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The book deals with the reproductive biology of the lion.",
+                            kurdishText:
+                                "کتێبەکە باس لە زیندەناسی زاوزێ دەکات لە شێردا.",
+                            onPressedBritish: () => speakbiologys1("en-GB"),
+                            onPressedAmerican: () => speakbiologys1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شێوازی ڕەفتاری جەستە و خانەکانی گیانلەبەرێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How far is human nature determined by biology?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تا چەند سرووشتی مرۆڤ بە زیندەناسی دیاری دەکرێت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbiologys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbiologys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How far is human nature determined by biology?",
+                            kurdishText:
+                                "تا چەند سرووشتی مرۆڤ بە زیندەناسی دیاری دەکرێت؟",
+                            onPressedBritish: () => speakbiologys2("en-GB"),
+                            onPressedAmerican: () => speakbiologys2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

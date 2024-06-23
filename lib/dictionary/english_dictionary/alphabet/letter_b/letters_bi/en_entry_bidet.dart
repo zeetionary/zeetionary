@@ -147,32 +147,13 @@ class EnglishEntrybidet extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) تەشتێک بۆ شوشتنی ئەندامانی زاوزێ و سمت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He preferred to use a bidet instead of toilet paper for better hygiene."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەکارھێنانی بیدێی بە باشتر دەزانی وەک لە کاغەزی دەسبەئاو بۆ خاوێنی زیاتر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbidets1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbidets1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He preferred to use a bidet instead of toilet paper for better hygiene.",
+                            kurdishText:
+                                "بەکارھێنانی بیدێی بە باشتر دەزانی وەک لە کاغەزی دەسبەئاو بۆ خاوێنی زیاتر.",
+                            onPressedBritish: () => speakbidets1("en-GB"),
+                            onPressedAmerican: () => speakbidets1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

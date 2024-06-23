@@ -161,35 +161,16 @@ class EnglishEntryantidepressant extends StatelessWidget {
                               text:
                                   "١. (ناو) دەرمانێک کە بەکاردێت بۆ چارەسەری بێزاری"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's been on antidepressants ever since her husband died."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەوەتەی ھاوسەرەکەی مردووە دژە-خەمۆکی دەخوات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakantidepressant1005("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakantidepressant1005(
-                                        // REPLACE: antidepressant /ˌæntidɪˈpresnt/, /ˌæntaɪdɪˈpresnt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's been on antidepressants ever since her husband died.",
+                            kurdishText:
+                                "لەوەتەی ھاوسەرەکەی مردووە دژە-خەمۆکی دەخوات.",
+                            onPressedBritish: () =>
+                                speakantidepressant1005("en-GB"),
+                            onPressedAmerican: () => speakantidepressant1005(
+                                // REPLACE: antidepressant /ˌæntidɪˈpresnt/, /ˌæntaɪdɪˈpresnt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

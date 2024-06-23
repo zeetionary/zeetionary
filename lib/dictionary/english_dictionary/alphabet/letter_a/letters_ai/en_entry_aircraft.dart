@@ -108,64 +108,25 @@ class EnglishEntryaircraft extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) فڕۆکە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The aircraft was flown by a young American pilot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڕۆکەکە بە دەستی فڕۆکەوانێکی گەنجی ئەمریکییەوە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaircraft32477("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaircraft32477(
-                                        // REPLACE: aircraft /ˈerkræft/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The aircraft was flown by a young American pilot.",
+                            kurdishText:
+                                "فڕۆکەکە بە دەستی فڕۆکەوانێکی گەنجی ئەمریکییەوە بوو.",
+                            onPressedBritish: () => speakaircraft32477("en-GB"),
+                            onPressedAmerican: () => speakaircraft32477(
+                                // REPLACE: aircraft /ˈerkræft/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The aircraft is due to take off at midnight."),
-                                    ExampleSentenceKurdish(
-                                        text: "فڕۆکەکە لە نیوەشەودا دەفڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaircraft3477("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaircraft3477(
-                                        // REPLACE: aircraft /ˈerkræft/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The aircraft is due to take off at midnight.",
+                            kurdishText: "فڕۆکەکە لە نیوەشەودا دەفڕێت.",
+                            onPressedBritish: () => speakaircraft3477("en-GB"),
+                            onPressedAmerican: () => speakaircraft3477(
+                                // REPLACE: aircraft /ˈerkræft/
+                                "en-US"),
                           ),
                         ],
                       ),

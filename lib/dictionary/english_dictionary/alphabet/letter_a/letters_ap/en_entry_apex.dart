@@ -160,64 +160,25 @@ class EnglishEntryapex extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) لە بەرزترین ئاستدا" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The king was at the apex of society."),
-                                    ExampleSentenceKurdish(
-                                        text: "پاشا لە لوتکەی کۆمەڵگایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapex213("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakapex213(// REPLACE: apex /ˈeɪpeks/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The king was at the apex of society.",
+                            kurdishText: "پاشا لە لوتکەی کۆمەڵگایە.",
+                            onPressedBritish: () => speakapex213("en-GB"),
+                            onPressedAmerican: () =>
+                                speakapex213(// REPLACE: apex /ˈeɪpeks/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At 37, she'd reached the apex of her career."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە تەمەنی ٣٧ ساڵی لە ترۆپکی کارکردنیدا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapex215("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapex215(
-                                        // REPLACE: apex /ˈeɪpeks/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At 37, she'd reached the apex of her career.",
+                            kurdishText:
+                                "لە تەمەنی ٣٧ ساڵی لە ترۆپکی کارکردنیدا بوو.",
+                            onPressedBritish: () => speakapex215("en-GB"),
+                            onPressedAmerican: () => speakapex215(
+                                // REPLACE: apex /ˈeɪpeks/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

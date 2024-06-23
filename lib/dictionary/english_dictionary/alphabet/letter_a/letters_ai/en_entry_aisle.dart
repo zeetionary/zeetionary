@@ -114,34 +114,15 @@ class EnglishEntryaisle extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) نێوانی ڕیزە کورسی یان شتی تر" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She looked radiant as she walked down the aisle on her father’s arm."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گەشبین دەردەکەوت کە بە ڕێڕەکەدا تێدەپەڕی دەست لەناو دەستی باوکی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaisle3888("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaisle3888(// REPLACE: aisle /aɪl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She looked radiant as she walked down the aisle on her father’s arm.",
+                            kurdishText:
+                                "گەشبین دەردەکەوت کە بە ڕێڕەکەدا تێدەپەڕی دەست لەناو دەستی باوکی.",
+                            onPressedBritish: () => speakaisle3888("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaisle3888(// REPLACE: aisle /aɪl/
+                                    "en-US"),
                           ),
                         ],
                       ),

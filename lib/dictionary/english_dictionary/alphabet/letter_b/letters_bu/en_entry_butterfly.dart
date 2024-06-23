@@ -193,61 +193,24 @@ class EnglishEntrybutterfly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پەپوولە؛ مێروویەکی فڕیو کە جەستەیەکی باریکی ھەیە لەگەڵ چوار باڵ کە زۆرجار ڕەنگاوڕەنگن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's like a butterfly. She flits in and out of people's lives."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک پەپوولە وایە. دێتە ژیانی خوڵک و دەچێتە دەرەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "butterfly", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutterflys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutterflys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's like a butterfly. She flits in and out of people's lives.",
+                            kurdishText:
+                                "وەک پەپوولە وایە. دێتە ژیانی خوڵک و دەچێتە دەرەوە.", // butterfly", follow LX strictly
+                            onPressedBritish: () => speakbutterflys1("en-GB"),
+                            onPressedAmerican: () => speakbutterflys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A butterfly alighted gently on the flower."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەپوولەیەک بە نەرمی لەسەر گوڵەکە نیشتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbutterflys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbutterflys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A butterfly alighted gently on the flower.",
+                            kurdishText:
+                                "پەپوولەیەک بە نەرمی لەسەر گوڵەکە نیشتەوە.",
+                            onPressedBritish: () => speakbutterflys2("en-GB"),
+                            onPressedAmerican: () => speakbutterflys2("en-US"),
                           ),
+
                           // skipped_meaning
                         ],
                       ),

@@ -152,32 +152,13 @@ class EnglishEntrybrandname extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو ناوەی کە دەدرێت بۆ بەرھەمێک لەلایەن کۆمپانیای بەرھەمھێنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Coca-Cola's global brand name recognition is unbeatable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناسراوی ناوی جیھانی براندی کۆکاکۆلا ڕکابەری لەگەڵ ناکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrandnames1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrandnames1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Coca-Cola's global brand name recognition is unbeatable.",
+                            kurdishText:
+                                "ناسراوی ناوی جیھانی براندی کۆکاکۆلا ڕکابەری لەگەڵ ناکرێت.",
+                            onPressedBritish: () => speakbrandnames1("en-GB"),
+                            onPressedAmerican: () => speakbrandnames1("en-US"),
                           ),
                         ],
                       ),

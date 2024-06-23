@@ -145,180 +145,66 @@ class EnglishEntrybulge extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کردار) تەواو پڕبوون"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Her pockets were bulging with presents."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گیرفانەکانی تەقیبوون لە دیاریدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "bulge", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulges1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Her pockets were bulging with presents.",
+                            kurdishText:
+                                "گیرفانەکانی تەقیبوون لە دیاریدا.", // bulge", follow LX strictly
+                            onPressedBritish: () => speakbulges1("en-GB"),
+                            onPressedAmerican: () => speakbulges1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) دەرپەڕین لە شێوەی بازنەیەکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "His eyes bulged."),
-                                    ExampleSentenceKurdish(
-                                        text: "چاوەکانی دەرپۆقین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulges2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulges2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His eyes bulged.",
+                            kurdishText: "چاوەکانی دەرپۆقین.",
+                            onPressedBritish: () => speakbulges2("en-GB"),
+                            onPressedAmerican: () => speakbulges2("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "South of Benghazi the coastline bulges out then in."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە باشووری بەنغازییەوە کەنارەوەکان دەردەپەڕن بەرەو دەرەوە و دواتر ناوەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulges3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulges3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "South of Benghazi the coastline bulges out then in.",
+                            kurdishText:
+                                "لە باشووری بەنغازییەوە کەنارەوەکان دەردەپەڕن بەرەو دەرەوە و دواتر ناوەوە.",
+                            onPressedBritish: () => speakbulges3("en-GB"),
+                            onPressedAmerican: () => speakbulges3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شێوەیەکی خڕ یان چەماوە کە لە شتێکەوە دەرچووە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I wondered what the bulge in her coat pocket was."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێ‌ڕامابووم ئەو دەرپۆقیانە چی بوو لە گیرفانی قەمسەڵەکەیەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulges4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulges4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I wondered what the bulge in her coat pocket was.",
+                            kurdishText:
+                                "تێ‌ڕامابووم ئەو دەرپۆقیانە چی بوو لە گیرفانی قەمسەڵەکەیەوە.",
+                            onPressedBritish: () => speakbulges4("en-GB"),
+                            onPressedAmerican: () => speakbulges4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (ناو) چەوری زگ کە بەرەو دەرەوە دێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That skirt's too tight. It shows all your bulges."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنوورەکە زۆر تەسکە. ھەموو ورگتی دەرخستووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulges5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulges5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "That skirt's too tight. It shows all your bulges.",
+                            kurdishText:
+                                "تەنوورەکە زۆر تەسکە. ھەموو ورگتی دەرخستووە.",
+                            onPressedBritish: () => speakbulges5("en-GB"),
+                            onPressedAmerican: () => speakbulges5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (ناو) زیادبوونێکی کاتیی لەناکاو لە ڕێژەی شتێکدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After the war there was a bulge in the birth rate."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای جەنگەکە، زۆربوونێکی گەورە لە منداڵبووندا ڕوویدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulges6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulges6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After the war there was a bulge in the birth rate.",
+                            kurdishText:
+                                "لە دوای جەنگەکە، زۆربوونێکی گەورە لە منداڵبووندا ڕوویدا.",
+                            onPressedBritish: () => speakbulges6("en-GB"),
+                            onPressedAmerican: () => speakbulges6("en-US"),
                           ),
                         ],
                       ),

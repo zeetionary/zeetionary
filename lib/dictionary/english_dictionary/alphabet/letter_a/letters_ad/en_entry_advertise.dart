@@ -110,98 +110,40 @@ class EnglishEntryadvertise extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ڕیکلامکردن بۆ کاڵایەک یان خزمەتگوزارییەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "If you want to attract customers you need to advertise."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگەر دەتەوێت کڕیار ڕابکێشیت ئەوا دەبێت ڕیکلام بکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadve2568("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadve2568(
-                                        // REPLACE: advertise /ˈædvərtaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "If you want to attract customers you need to advertise.",
+                            kurdishText:
+                                "ئەگەر دەتەوێت کڕیار ڕابکێشیت ئەوا دەبێت ڕیکلام بکەیت.",
+                            onPressedBritish: () => speakadve2568("en-GB"),
+                            onPressedAmerican: () => speakadve2568(
+                                // REPLACE: advertise /ˈædvərtaɪz/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بانگەشەکردن بۆ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The best jobs are not always advertised in newspapers."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باشترین کارەکان زۆرجار لە ڕۆژنامەکان بانگەشەیان بۆ ناکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadver6384("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadver6384(
-                                        // REPLACE: advertise /ˈædvərtaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The best jobs are not always advertised in newspapers.",
+                            kurdishText:
+                                "باشترین کارەکان زۆرجار لە ڕۆژنامەکان بانگەشەیان بۆ ناکرێت.",
+                            onPressedBritish: () => speakadver6384("en-GB"),
+                            onPressedAmerican: () => speakadver6384(
+                                // REPLACE: advertise /ˈædvərtaɪz/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) وتن یان پیشاندانی شتێک لەسەر خۆت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She coughed to advertise her presence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆکی بۆ پیشاندانی ئامادەییبوونی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadve35984("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadve35984(
-                                        // REPLACE: advertise /ˈædvərtaɪz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She coughed to advertise her presence.",
+                            kurdishText: "کۆکی بۆ پیشاندانی ئامادەییبوونی.",
+                            onPressedBritish: () => speakadve35984("en-GB"),
+                            onPressedAmerican: () => speakadve35984(
+                                // REPLACE: advertise /ˈædvərtaɪz/
+                                "en-US"),
                           ),
                         ],
                       ),

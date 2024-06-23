@@ -194,63 +194,25 @@ class EnglishEntrybuzzard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) باڵندەیەکی ڕاوکەری ئەورووپی لە خێزانی باز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "High above the forest, a buzzard circles in search of its prey."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بەرزی دارستانەکەوە باشوویەک دەسووڕێتەوە بە دوای نێچیرەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "buzzard", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "High above the forest, a buzzard circles in search of its prey.",
+                            kurdishText:
+                                "لە بەرزی دارستانەکەوە باشوویەک دەسووڕێتەوە بە دوای نێچیرەکەیدا.", // buzzard", follow LX strictly
+                            onPressedBritish: () => speakbuzzards1("en-GB"),
+                            onPressedAmerican: () => speakbuzzards1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) باڵندەیەکی گەورەی ئەمریکی کە مردوو دەخوات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The territory offers nothing but the occasional buzzard gorging on a roadkill."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناوچەکە ھیچی تێدا نییە جگە لە داڵەکەرخۆر کە ئاژەڵی کوژراوی سەر شەقام دەخۆن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbuzzards2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbuzzards2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The territory offers nothing but the occasional buzzard gorging on a roadkill.",
+                            kurdishText:
+                                "ناوچەکە ھیچی تێدا نییە جگە لە داڵەکەرخۆر کە ئاژەڵی کوژراوی سەر شەقام دەخۆن.",
+                            onPressedBritish: () => speakbuzzards2("en-GB"),
+                            onPressedAmerican: () => speakbuzzards2("en-US"),
                           ),
                         ],
                       ),

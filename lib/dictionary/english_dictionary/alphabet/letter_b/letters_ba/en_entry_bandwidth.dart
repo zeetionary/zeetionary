@@ -155,100 +155,43 @@ class EnglishEntrybandwidth extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مەودایەک لە لەرە کە بەکاردێت بۆ ناردنی شەپۆلی ئەلیکترۆنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The radio station broadcasts on a bandwidth of 92.1 MHz."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێستگەی ڕادیۆکە لەسەر مەودای ٩٢,١ MHz پەخشدەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbandwidths1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbandwidths1(// REPLACE: bandwidth
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The radio station broadcasts on a bandwidth of 92.1 MHz.",
+                            kurdishText:
+                                "وێستگەی ڕادیۆکە لەسەر مەودای ٩٢,١ MHz پەخشدەکات.",
+                            onPressedBritish: () => speakbandwidths1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbandwidths1(// REPLACE: bandwidth
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بڕێک لە زانیاری کە کۆمپیوتەرێک یان ھێڵی ئینتەرنێت دەتوانێت بینێرێت لەکاتێکی دیاریکراودا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Upgrade to a higher bandwidth to increase your download limits."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باندبەرینێکی بەرزتر بەکاربێنە بۆ زیادکردنی سنووری دابەزاندن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbandwidths2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbandwidths2(// REPLACE: bandwidth
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Upgrade to a higher bandwidth to increase your download limits.",
+                            kurdishText:
+                                "باندبەرینێکی بەرزتر بەکاربێنە بۆ زیادکردنی سنووری دابەزاندن.",
+                            onPressedBritish: () => speakbandwidths2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbandwidths2(// REPLACE: bandwidth
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) وزە یان توانای پێویست بۆ کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The team does not have the bandwidth to take on new projects at the moment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تیمەکە توانای ئەوەی نییە پڕۆژەی دیکە دەستپێ‌بکات لە ئێستادا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbandwidths3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbandwidths3(// REPLACE: bandwidth
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The team does not have the bandwidth to take on new projects at the moment.",
+                            kurdishText:
+                                "تیمەکە توانای ئەوەی نییە پڕۆژەی دیکە دەستپێ‌بکات لە ئێستادا.",
+                            onPressedBritish: () => speakbandwidths3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbandwidths3(// REPLACE: bandwidth
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

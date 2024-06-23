@@ -194,60 +194,22 @@ class EnglishEntryburglary extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) تاوانی بە نایاسایی چوونە ناو بینایەک و دزیکردن لێی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The youth was charged with three counts of burglary."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرزەکارەکە بە سێ بابەتی دزیکردن تاوانبارکرا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "burglary", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburglarys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburglarys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The youth was charged with three counts of burglary.",
+                            kurdishText:
+                                "ھەرزەکارەکە بە سێ بابەتی دزیکردن تاوانبارکرا.", // burglary", follow LX strictly
+                            onPressedBritish: () => speakburglarys1("en-GB"),
+                            onPressedAmerican: () => speakburglarys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Several men were questioned by police yesterday about the burglary."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەک پیاو لەلایەن پۆلیسەوە لێکۆڵینەوەیان لێکرا سەبارەت بە دزییەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakburglarys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakburglarys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Several men were questioned by police yesterday about the burglary.",
+                            kurdishText:
+                                "ژمارەیەک پیاو لەلایەن پۆلیسەوە لێکۆڵینەوەیان لێکرا سەبارەت بە دزییەکە.",
+                            onPressedBritish: () => speakburglarys2("en-GB"),
+                            onPressedAmerican: () => speakburglarys2("en-US"),
                           ),
                         ],
                       ),

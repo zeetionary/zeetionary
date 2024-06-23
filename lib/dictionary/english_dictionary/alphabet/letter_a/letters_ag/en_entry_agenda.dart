@@ -114,66 +114,28 @@ class EnglishEntryagenda extends StatelessWidget {
                               text:
                                   "١. (ناو) کۆمەڵە بابەتێک کە لە کۆبوونەوەیەک باسدەکرێن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have a very full agenda of issues to discuss."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارنامەمان بابەتێکی زۆر لەخۆدەگرێت بۆ باسکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagend562221("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagend562221(
-                                        // REPLACE: agenda /əˈdʒendə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have a very full agenda of issues to discuss.",
+                            kurdishText:
+                                "کارنامەمان بابەتێکی زۆر لەخۆدەگرێت بۆ باسکردن.",
+                            onPressedBritish: () => speakagend562221("en-GB"),
+                            onPressedAmerican: () => speakagend562221(
+                                // REPLACE: agenda /əˈdʒendə/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کۆمەڵە شتێک کە دەبێت بکرێن، یان کۆمەڵە کێشەیەک کە دەبێت چارەسەر بکرێن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Education is now at the top of the government's agenda (= most important)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەروەردە و فێرکردن لە گرنگترین خاڵەکانی کارنامەی حکومەتە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagenda15622("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagenda15622(
-                                        // REPLACE: agenda /əˈdʒendə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Education is now at the top of the government's agenda (= most important).",
+                            kurdishText:
+                                "پەروەردە و فێرکردن لە گرنگترین خاڵەکانی کارنامەی حکومەتە.",
+                            onPressedBritish: () => speakagenda15622("en-GB"),
+                            onPressedAmerican: () => speakagenda15622(
+                                // REPLACE: agenda /əˈdʒendə/
+                                "en-US"),
                           ),
                         ],
                       ),

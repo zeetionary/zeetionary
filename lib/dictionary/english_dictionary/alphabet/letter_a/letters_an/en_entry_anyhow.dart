@@ -203,197 +203,83 @@ class EnglishEntryanyhow extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بەکاردێت بۆ زیادکردنی ڕستەیەک وەک پشتگیری بۆ یەکێکی تر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's too expensive and anyhow the colour doesn't suit you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر گرانە، لەگەڵ ئەوەش ڕەنگەکەیت پێ ناکەوێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanyhow847("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanyhow847(
-                                        // REPLACE: anyhow /ˈeniweɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's too expensive and anyhow the colour doesn't suit you.",
+                            kurdishText:
+                                "زۆر گرانە، لەگەڵ ئەوەش ڕەنگەکەیت پێ ناکەوێ.",
+                            onPressedBritish: () => speakanyhow847("en-GB"),
+                            onPressedAmerican: () => speakanyhow847(
+                                // REPLACE: anyhow /ˈeniweɪ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) سەرەڕای شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It's going to happen anyhow, so we won't object to it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرچۆنێ بێت ھەر ڕوودەدات، بۆیە دژی نابین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanyhow849("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanyhow849(
-                                        // REPLACE: anyhow /ˈeniweɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It's going to happen anyhow, so we won't object to it.",
+                            kurdishText:
+                                "ھەرچۆنێ بێت ھەر ڕوودەدات، بۆیە دژی نابین.",
+                            onPressedBritish: () => speakanyhow849("en-GB"),
+                            onPressedAmerican: () => speakanyhow849(
+                                // REPLACE: anyhow /ˈeniweɪ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵکار) بەکاردێت لە کاتی گۆڕینی بابەتی گدتوگۆیەک، کۆتایی پێھێنانی، یان گەڕانەوە بۆی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "anyhow, I'd better go now—I'll see you tomorrow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرچۆنێ بێت، باشترە ئێستا بچم، سبەی دەتبینمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanyhow855("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanyhow855(
-                                        // REPLACE: anyhow /ˈeniweɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "anyhow, I'd better go now—I'll see you tomorrow.",
+                            kurdishText:
+                                "ھەرچۆنێ بێت، باشترە ئێستا بچم، سبەی دەتبینمەوە.",
+                            onPressedBritish: () => speakanyhow855("en-GB"),
+                            onPressedAmerican: () => speakanyhow855(
+                                // REPLACE: anyhow /ˈeniweɪ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵکار) بەکاردێت بۆ ڕاستکردنەوە یان کەمێک گۆڕین ئەوەی وتت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I think she's right. I hope so, anyhow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێم‌وایە ڕاستە. یان ھیوادارم ڕاست بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanyhow858("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanyhow858(
-                                        // REPLACE: anyhow /ˈeniweɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I think she's right. I hope so, anyhow.",
+                            kurdishText:
+                                "پێم‌وایە ڕاستە. یان ھیوادارم ڕاست بێت.",
+                            onPressedBritish: () => speakanyhow858("en-GB"),
+                            onPressedAmerican: () => speakanyhow858(
+                                // REPLACE: anyhow /ˈeniweɪ/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She works in a bank. She did when I last saw her, anyhow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بانکێک کار دەکات. ڕاستی کە کۆتا جار بینیم ئەوەی وت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanyhow900("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanyhow900(
-                                        // REPLACE: anyhow /ˈeniweɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She works in a bank. She did when I last saw her, anyhow.",
+                            kurdishText:
+                                "لە بانکێک کار دەکات. ڕاستی کە کۆتا جار بینیم ئەوەی وت.",
+                            onPressedBritish: () => speakanyhow900("en-GB"),
+                            onPressedAmerican: () => speakanyhow900(
+                                // REPLACE: anyhow /ˈeniweɪ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵکار) بە کەم‌تەرخەمانە بەبێ ڕیزبەندی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She piled the papers in a heap on her desk, just anyhow."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاغەزەکانی بە کەمتەرخەمی کەڵەکەکرد بە چین چین لەسەر مێزەکەی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanyhow908("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanyhow908(
-                                        // REPLACE: anyhow /ˈeniweɪ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She piled the papers in a heap on her desk, just anyhow.",
+                            kurdishText:
+                                "کاغەزەکانی بە کەمتەرخەمی کەڵەکەکرد بە چین چین لەسەر مێزەکەی.",
+                            onPressedBritish: () => speakanyhow908("en-GB"),
+                            onPressedAmerican: () => speakanyhow908(
+                                // REPLACE: anyhow /ˈeniweɪ/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

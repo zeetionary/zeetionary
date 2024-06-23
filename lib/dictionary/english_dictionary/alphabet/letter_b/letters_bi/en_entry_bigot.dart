@@ -150,32 +150,12 @@ class EnglishEntrybigot extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە باوەڕی توند و نابەجێی ھەیە لەسەر ڕەگەز و ئایین و سیاسەت، و بۆچوونی کەسانی دیکە قبووڵ ناکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was known to be a loud-mouthed bigot."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەک کەسێکی دەمارگرژی دەمشڕ ناسرابوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbigots1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbigots1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was known to be a loud-mouthed bigot.",
+                            kurdishText: "وەک کەسێکی دەمارگرژی دەمشڕ ناسرابوو.",
+                            onPressedBritish: () => speakbigots1("en-GB"),
+                            onPressedAmerican: () => speakbigots1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

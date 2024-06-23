@@ -153,67 +153,27 @@ class EnglishEntrybackup extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) یارمەتی زیادە کە لە کاتی پێویستی دەتوانی بەکاریبێنی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We can use him as a backup if one of the other players drops out."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانین وەک پشتیوانی بەکاریبێنین ئەگەر یەکێک لە یاریزانەکانی دیکە دابەزێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbackups1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbackups1(// REPLACE: backup
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We can use him as a backup if one of the other players drops out.",
+                            kurdishText:
+                                "دەتوانین وەک پشتیوانی بەکاریبێنین ئەگەر یەکێک لە یاریزانەکانی دیکە دابەزێت.",
+                            onPressedBritish: () => speakbackups1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbackups1(// REPLACE: backup
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کۆپییەکی فایلێک کە دەکرێت بەکاربھێنرێت ئەگەر فایلە ڕەسەنەکە لەناوبچێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Always make a backup of your work."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەمیشە کۆپییەکی کارەکانت ھەڵبگرە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbackups2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbackups2(// REPLACE: backup
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Always make a backup of your work.",
+                            kurdishText: "ھەمیشە کۆپییەکی کارەکانت ھەڵبگرە.",
+                            onPressedBritish: () => speakbackups2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbackups2(// REPLACE: backup
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

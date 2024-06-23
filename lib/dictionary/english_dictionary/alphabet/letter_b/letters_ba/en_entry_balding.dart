@@ -152,32 +152,13 @@ class EnglishEntrybalding extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) دەستکردن بە کەچەڵبوون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Jackson was plump and balding."),
-                                    ExampleSentenceKurdish(
-                                        text: "جاکسن خرپەلەیەکی کەچەڵبوو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbaldings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbaldings1(// REPLACE: balding
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Jackson was plump and balding.",
+                            kurdishText: "جاکسن خرپەلەیەکی کەچەڵبوو بوو.",
+                            onPressedBritish: () => speakbaldings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbaldings1(// REPLACE: balding
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -144,60 +144,20 @@ class EnglishEntrybrothel extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شوێنێک کە خەڵکی تێدا سێکس دەکەن بە پارە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He used to visit a brothel in Paris."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جاران سەردانی قەحبەخانەیەکی لە پاریس دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brothel" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrothels1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrothels1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He used to visit a brothel in Paris.",
+                            kurdishText:
+                                "جاران سەردانی قەحبەخانەیەکی لە پاریس دەکرد.", // brothel" as
+                            onPressedBritish: () => speakbrothels1("en-GB"),
+                            onPressedAmerican: () => speakbrothels1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She ran a brothel in Las Vegas."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرپرسی قەحبەخانەیەک بوو لە لاس ڤێگاس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrothels2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrothels2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She ran a brothel in Las Vegas.",
+                            kurdishText:
+                                "بەرپرسی قەحبەخانەیەک بوو لە لاس ڤێگاس.",
+                            onPressedBritish: () => speakbrothels2("en-GB"),
+                            onPressedAmerican: () => speakbrothels2("en-US"),
                           ),
                         ],
                       ),

@@ -161,35 +161,16 @@ class EnglishEntryassaultcourse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گۆڕەپانی مەشقی سەربازی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The recruits struggled to complete the assault course, but they were determined to succeed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تازەسەربازان بەئاستەنگ توانیان مەشقەکە تەواو بکەن، بەڵام سووربوون لەسەر سەرکەوتن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassaultcourse915("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassaultcourse915(
-                                        // REPLACE: assault course /əˈsɔːlt kɔːrs/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The recruits struggled to complete the assault course, but they were determined to succeed.",
+                            kurdishText:
+                                "تازەسەربازان بەئاستەنگ توانیان مەشقەکە تەواو بکەن، بەڵام سووربوون لەسەر سەرکەوتن.",
+                            onPressedBritish: () =>
+                                speakassaultcourse915("en-GB"),
+                            onPressedAmerican: () => speakassaultcourse915(
+                                // REPLACE: assault course /əˈsɔːlt kɔːrs/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

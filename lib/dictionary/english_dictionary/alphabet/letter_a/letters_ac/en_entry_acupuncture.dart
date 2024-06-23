@@ -116,34 +116,15 @@ class EnglishEntryacupuncture extends StatelessWidget {
                               text:
                                   "١. (ناو) ڕێگایەکی چارەسەرکردنی ئازار و نەخۆشی بە بەکارھێنانی دەرزیی تایبەتی باریک کە دەکرێن بە بەشەکانی جەستەدا"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Acupuncture has been practised in China for thousands of years."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەرزی ئاژنین ھەزاران ساڵە لە چین پەیڕەو دەکرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakacupunct457("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakacupunct457(
-                                        // REPLACE: acupuncture /ˈækjupʌŋktʃər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Acupuncture has been practised in China for thousands of years.",
+                            kurdishText:
+                                "دەرزی ئاژنین ھەزاران ساڵە لە چین پەیڕەو دەکرێت.",
+                            onPressedBritish: () => speakacupunct457("en-GB"),
+                            onPressedAmerican: () => speakacupunct457(
+                                // REPLACE: acupuncture /ˈækjupʌŋktʃər/
+                                "en-US"),
                           ),
                         ],
                       ),

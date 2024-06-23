@@ -143,58 +143,20 @@ class EnglishEntrybrigadier extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئەفسەرێکی پلە باڵا لە سوپادا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Thank you, Brigadier."),
-                                    ExampleSentenceKurdish(
-                                        text: "سوپاس، سەرلیوا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brigadier" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrigadiers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrigadiers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Thank you, Brigadier.",
+                            kurdishText: "سوپاس، سەرلیوا.", // brigadier" as
+                            onPressedBritish: () => speakbrigadiers1("en-GB"),
+                            onPressedAmerican: () => speakbrigadiers1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The brigadier inspected the military base."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرتیپەکە بارەگا سەربازییەکەی بەسەرکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbrigadiers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbrigadiers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The brigadier inspected the military base.",
+                            kurdishText:
+                                "سەرتیپەکە بارەگا سەربازییەکەی بەسەرکردەوە.",
+                            onPressedBritish: () => speakbrigadiers2("en-GB"),
+                            onPressedAmerican: () => speakbrigadiers2("en-US"),
                           ),
                         ],
                       ),

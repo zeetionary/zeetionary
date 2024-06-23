@@ -150,32 +150,13 @@ class EnglishEntrybasil extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) ڕووەکێک کە گەڵای درەوشاوەی سەوزی ھەیە، بۆنێکی خۆشی ھەیە، و لە خواردن درووستکردندا بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Basil is often used in Italian cooking."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێحانە زۆرجار لە خواردنی ئیتالیدا بەکاردێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasils1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasils1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Basil is often used in Italian cooking.",
+                            kurdishText:
+                                "ڕێحانە زۆرجار لە خواردنی ئیتالیدا بەکاردێت.",
+                            onPressedBritish: () => speakbasils1("en-GB"),
+                            onPressedAmerican: () => speakbasils1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

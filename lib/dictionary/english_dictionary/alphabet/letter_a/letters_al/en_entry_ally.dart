@@ -115,66 +115,28 @@ class EnglishEntryally extends StatelessWidget {
                               text:
                                   "١. (ناو) ھاوپەیمان، دوو لایەن کە یارمەتی یەکدی دەدەن، بەتایبەت لە کاتی جەنگ"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Portugal is a traditional ally of England."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پرتوگال بەشێوەیەکی مێژوویی ھاوپەیمانی ئینگلتەرەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakally4211("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakally4211(// REPLACE: ally /ˈælaɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Portugal is a traditional ally of England.",
+                            kurdishText:
+                                "پرتوگال بەشێوەیەکی مێژوویی ھاوپەیمانی ئینگلتەرەیە.",
+                            onPressedBritish: () => speakally4211("en-GB"),
+                            onPressedAmerican: () =>
+                                speakally4211(// REPLACE: ally /ˈælaɪ/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە لە تەنگانەدا پشتی پێ دەبەستیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had found an ally in her old teacher."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مامۆستا کۆنەکەی بووە بە دۆست و یاوەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakally4322("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakally4322(// REPLACE: ally /ˈælaɪ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had found an ally in her old teacher.",
+                            kurdishText:
+                                "مامۆستا کۆنەکەی بووە بە دۆست و یاوەری.",
+                            onPressedBritish: () => speakally4322("en-GB"),
+                            onPressedAmerican: () =>
+                                speakally4322(// REPLACE: ally /ˈælaɪ/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """

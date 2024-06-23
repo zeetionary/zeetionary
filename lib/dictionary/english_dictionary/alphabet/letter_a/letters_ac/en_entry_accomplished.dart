@@ -99,33 +99,14 @@ class EnglishEntryaccomplished extends StatelessWidget {
                               text:
                                   "١. (ھاوەڵناو) ھەبوونی ژمارەیەکی زۆر شارەزایی"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was an elegant and accomplished woman."),
-                                    ExampleSentenceKurdish(
-                                        text: "ژنێکی ڕێکپۆش و کارامە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaccomplisheds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaccomplisheds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She was an elegant and accomplished woman.",
+                            kurdishText: "ژنێکی ڕێکپۆش و کارامە بوو.",
+                            onPressedBritish: () =>
+                                speakaccomplisheds1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaccomplisheds1("en-US"),
                           ),
                         ],
                       ),

@@ -113,34 +113,13 @@ class EnglishEntryale extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) جۆرە بیرەیەک کە بڵقی نییە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This pub specializes in fine ales."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەم باڕە شارەزایە لە ئەیڵی فرەخاس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakale346("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakale346(// REPLACE: ale /eɪl/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "This pub specializes in fine ales.",
+                            kurdishText: "ئەم باڕە شارەزایە لە ئەیڵی فرەخاس.",
+                            onPressedBritish: () => speakale346("en-GB"),
+                            onPressedAmerican: () =>
+                                speakale346(// REPLACE: ale /eɪl/
+                                    "en-US"),
                           ),
                         ],
                       ),

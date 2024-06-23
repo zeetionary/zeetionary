@@ -157,33 +157,13 @@ class EnglishEntryannuity extends StatelessWidget {
                               text:
                                   "١. (ناو) بڕە پارەیەکی دیاریکراو کە دەدرێت بە کەسێک تا مردنی، زۆرجار وەک بەشێک لە بیمەنامەیەک"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She receives a small annuity."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بیمەیەکی بچووکی ساڵانە وەردەگرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannuity848("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannuity848(
-                                        // REPLACE: annuity /əˈnjuːəti/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She receives a small annuity.",
+                            kurdishText: "بیمەیەکی بچووکی ساڵانە وەردەگرێت.",
+                            onPressedBritish: () => speakannuity848("en-GB"),
+                            onPressedAmerican: () => speakannuity848(
+                                // REPLACE: annuity /əˈnjuːəti/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

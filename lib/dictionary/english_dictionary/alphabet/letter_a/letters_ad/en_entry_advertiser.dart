@@ -109,34 +109,15 @@ class EnglishEntryadvertiser extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک یان دامەزراوەیەک کە کاری ڕیکلام دەکات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Magazines need to attract advertisers to survive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆڤارەکان دەبێت سەرنجی بڵاوکاران ڕابکێشن بۆ ئەوەی بەردەوام بن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakadve3589("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakadve3589(
-                                        // REPLACE: advertiser /ˈædvətaɪzər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Magazines need to attract advertisers to survive.",
+                            kurdishText:
+                                "گۆڤارەکان دەبێت سەرنجی بڵاوکاران ڕابکێشن بۆ ئەوەی بەردەوام بن.",
+                            onPressedBritish: () => speakadve3589("en-GB"),
+                            onPressedAmerican: () => speakadve3589(
+                                // REPLACE: advertiser /ˈædvətaɪzər/
+                                "en-US"),
                           ),
                         ],
                       ),

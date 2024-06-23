@@ -114,66 +114,26 @@ class EnglishEntryalbum extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کتێبێک کە تێیدا وێنە ھەڵدەگریت" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I keep the photographs in an album."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وێنەکان لە ئەلبومێکدا ھەڵدەگرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalbum42599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalbum42599(
-                                        // REPLACE: album /ˈælbəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I keep the photographs in an album.",
+                            kurdishText: "وێنەکان لە ئەلبومێکدا ھەڵدەگرم.",
+                            onPressedBritish: () => speakalbum42599("en-GB"),
+                            onPressedAmerican: () => speakalbum42599(
+                                // REPLACE: album /ˈælbəm/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ژمارەیەک پارچە میوزیک یان گۆرانی کە پێکەوە لەسەر ئینتەرنێت یان بە سی دی بڵاودەکرێنەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They recently released their debut album."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەم نزیکانە یەکەم ئەلبومیان بڵاوکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalbum3655("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalbum3655(
-                                        // REPLACE: album /ˈælbəm/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They recently released their debut album.",
+                            kurdishText:
+                                "بەم نزیکانە یەکەم ئەلبومیان بڵاوکردەوە.",
+                            onPressedBritish: () => speakalbum3655("en-GB"),
+                            onPressedAmerican: () => speakalbum3655(
+                                // REPLACE: album /ˈælbəm/
+                                "en-US"),
                           ),
                         ],
                       ),

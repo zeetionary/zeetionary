@@ -157,100 +157,42 @@ class EnglishEntryannouncer extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) بێژەری تەلەفیزیۆن یان ڕادیۆ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The announcer advertised a few forthcoming programmes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێژەرەکە ژمارەیەک پڕۆگرامی ڕاگەیاند کە دواتر پێشکەش‌دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannouncer436("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannouncer436(
-                                        // REPLACE: announcer /əˈnaʊnsər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The announcer advertised a few forthcoming programmes.",
+                            kurdishText:
+                                "بێژەرەکە ژمارەیەک پڕۆگرامی ڕاگەیاند کە دواتر پێشکەش‌دەکرێن.",
+                            onPressedBritish: () => speakannouncer436("en-GB"),
+                            onPressedAmerican: () => speakannouncer436(
+                                // REPLACE: announcer /əˈnaʊnsər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) بانگەوازکەر؛ کەسێک کە لە وێستگەیەکدا زانیاری بە بڵیندگۆ دەدات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The station announcer warned us that the train was running late."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانگەوازکەری وێستگەکە پێی ڕاگەیاندین شەمەندەفەرەکە درەنگ دەگات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannouncer440("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannouncer440(
-                                        // REPLACE: announcer /əˈnaʊnsər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The station announcer warned us that the train was running late.",
+                            kurdishText:
+                                "بانگەوازکەری وێستگەکە پێی ڕاگەیاندین شەمەندەفەرەکە درەنگ دەگات.",
+                            onPressedBritish: () => speakannouncer440("en-GB"),
+                            onPressedAmerican: () => speakannouncer440(
+                                // REPLACE: announcer /əˈnaʊnsər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بێژەری یارییەکی وەرزشی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was the announcer for the NBA game."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بێژەری یارییەکەی ئێن-بی-ئەی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakannouncer443("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakannouncer443(
-                                        // REPLACE: announcer /əˈnaʊnsər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was the announcer for the NBA game.",
+                            kurdishText: "بێژەری یارییەکەی ئێن-بی-ئەی بوو.",
+                            onPressedBritish: () => speakannouncer443("en-GB"),
+                            onPressedAmerican: () => speakannouncer443(
+                                // REPLACE: announcer /əˈnaʊnsər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

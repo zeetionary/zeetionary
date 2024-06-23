@@ -149,62 +149,23 @@ class EnglishEntryblubber extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) چەوری نەھەنگ و گیانلەبەرە دەریاییەکانی دیکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Whale blubber was an important part of their diet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چەوری نەھەنگ بەشێک بوو لە خواردنیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblubbers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblubbers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Whale blubber was an important part of their diet.",
+                            kurdishText: "چەوری نەھەنگ بەشێک بوو لە خواردنیان.",
+                            onPressedBritish: () => speakblubbers1("en-GB"),
+                            onPressedAmerican: () => speakblubbers1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (کردار) گریان و درووستکردنی ھەرا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There he sat, blubbering like a baby."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەوێ دانیشت و نسکە نسکی دەھات وەک منداڵ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblubbers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblubbers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There he sat, blubbering like a baby.",
+                            kurdishText:
+                                "لەوێ دانیشت و نسکە نسکی دەھات وەک منداڵ.",
+                            onPressedBritish: () => speakblubbers2("en-GB"),
+                            onPressedAmerican: () => speakblubbers2("en-US"),
                           ),
                         ],
                       ),

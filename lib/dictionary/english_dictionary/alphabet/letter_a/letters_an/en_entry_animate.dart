@@ -157,100 +157,42 @@ class EnglishEntryanimate extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) وا لە شتێک بکەیت کە زیاتر کراوە و پڕ وزە بێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A smile suddenly animated her face."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێکەنینێک ڕووخساری کردەوە (گەشاندەوە)."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanimate926("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimate926(
-                                        // REPLACE: animate /ˈænɪmeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "A smile suddenly animated her face.",
+                            kurdishText:
+                                "پێکەنینێک ڕووخساری کردەوە (گەشاندەوە).",
+                            onPressedBritish: () => speakanimate926("en-GB"),
+                            onPressedAmerican: () => speakanimate926(
+                                // REPLACE: animate /ˈænɪmeɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) درووستکردنی ئەنیمەیشن (فیلمی کۆمپیوتەری یان وێنەیەکی زۆری جوڵاو بەدوای یەکدا)"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The much-loved characters have been animated in this new film."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارەکتەرە زۆر خۆشەویستەکان لەم فیلمە تازەدا وێناکراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanimate930("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimate930(
-                                        // REPLACE: animate /ˈænɪmeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The much-loved characters have been animated in this new film.",
+                            kurdishText:
+                                "کارەکتەرە زۆر خۆشەویستەکان لەم فیلمە تازەدا وێناکراون.",
+                            onPressedBritish: () => speakanimate930("en-GB"),
+                            onPressedAmerican: () => speakanimate930(
+                                // REPLACE: animate /ˈænɪmeɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) شتێکی زیندوو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Children quickly learn to distinguish between animate and inanimate motion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵان بەزووی فێردەبن جیاوازی بکەن لەنێوان جووڵەی شتی زیندوو و بێ‌گیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanimate934("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanimate934(
-                                        // REPLACE: animate /ˈænɪmeɪt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Children quickly learn to distinguish between animate and inanimate motion.",
+                            kurdishText:
+                                "منداڵان بەزووی فێردەبن جیاوازی بکەن لەنێوان جووڵەی شتی زیندوو و بێ‌گیان.",
+                            onPressedBritish: () => speakanimate934("en-GB"),
+                            onPressedAmerican: () => speakanimate934(
+                                // REPLACE: animate /ˈænɪmeɪt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

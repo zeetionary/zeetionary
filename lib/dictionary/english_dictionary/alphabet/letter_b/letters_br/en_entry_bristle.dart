@@ -144,124 +144,47 @@ class EnglishEntrybristle extends StatelessWidget {
 کوردی: موو یان قژی زبر، تووک، فڵچە، موو (قژی فرچە، ددان‌شۆر و ھتد)
 """),
                           const DefinitionKurdish(text: "١. (ناو) تاڵە قژێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The old woman had a few grey bristles sprouting from her chin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژنە پیرەکە ژمارەیەک تاڵە مووی سپی ھەبوو لە چەناگەیەوە دەرچووبوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "bristle" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbristles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbristles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The old woman had a few grey bristles sprouting from her chin.",
+                            kurdishText:
+                                "ژنە پیرەکە ژمارەیەک تاڵە مووی سپی ھەبوو لە چەناگەیەوە دەرچووبوون.", // bristle" as
+                            onPressedBritish: () => speakbristles1("en-GB"),
+                            onPressedAmerican: () => speakbristles1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) تاڵ یان دانەکانی فڵچەیەک یان شانەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My toothbrush has blue and white plastic bristles."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "فڵچەی ددانەکەم تاڵی پلاستیکی سپی و شینی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbristles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbristles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My toothbrush has blue and white plastic bristles.",
+                            kurdishText:
+                                "فڵچەی ددانەکەم تاڵی پلاستیکی سپی و شینی ھەیە.",
+                            onPressedBritish: () => speakbristles2("en-GB"),
+                            onPressedAmerican: () => speakbristles2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) لەناکاو تەواو تووڕەبوون بەوەی کەسێک وتویەتی یان کردوویەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "His lies made her bristle with rage."),
-                                    ExampleSentenceKurdish(
-                                        text: "درۆکانی لە داخدا تووڕەی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbristles3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbristles3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "His lies made her bristle with rage.",
+                            kurdishText: "درۆکانی لە داخدا تووڕەی کرد.",
+                            onPressedBritish: () => speakbristles3("en-GB"),
+                            onPressedAmerican: () => speakbristles3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (کردار) مووی ئاژەڵێک کە گیڤ بووەتەوە بەھۆی ترسەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cat's fur bristled and it arched its back."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "مووی پشیلەکە گیڤ بووەوە و پشتی چەماندەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbristles4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbristles4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cat's fur bristled and it arched its back.",
+                            kurdishText:
+                                "مووی پشیلەکە گیڤ بووەوە و پشتی چەماندەوە.",
+                            onPressedBritish: () => speakbristles4("en-GB"),
+                            onPressedAmerican: () => speakbristles4("en-US"),
                           ),
                         ],
                       ),

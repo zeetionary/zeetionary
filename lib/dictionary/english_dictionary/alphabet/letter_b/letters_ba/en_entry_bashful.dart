@@ -150,61 +150,22 @@ class EnglishEntrybashful extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ھاوەڵناو) شەرمن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was too bashful to talk about sex."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شەرمی دەکرد قسە لەسەر سێکس بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbashfuls1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbashfuls1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was too bashful to talk about sex.",
+                            kurdishText: "شەرمی دەکرد قسە لەسەر سێکس بکات.",
+                            onPressedBritish: () => speakbashfuls1("en-GB"),
+                            onPressedAmerican: () => speakbashfuls1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She looked bashful when he asked her what she wanted."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووگیر دیاربوو کە داوای ئەوەی لێدەکرد کە دەیویست."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbashfuls2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbashfuls2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She looked bashful when he asked her what she wanted.",
+                            kurdishText:
+                                "ڕووگیر دیاربوو کە داوای ئەوەی لێدەکرد کە دەیویست.",
+                            onPressedBritish: () => speakbashfuls2("en-GB"),
+                            onPressedAmerican: () => speakbashfuls2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

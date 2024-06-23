@@ -150,62 +150,22 @@ class EnglishEntrybarefaced extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) بێ‌شەرم و بەبێ ھیچ ھەوڵێک بۆ شاردنەوەی ڕووی خراپ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "That's a barefaced lie!"), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text: "ئەوە درۆیەکی بێ‌شەرمانەیە!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarefaceds1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarefaceds1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That's a barefaced lie!",
+                            kurdishText: "ئەوە درۆیەکی بێ‌شەرمانەیە!",
+                            onPressedBritish: () => speakbarefaceds1("en-GB"),
+                            onPressedAmerican: () => speakbarefaceds1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بەبێ مەیکەپ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I prefer a barefaced, natural look."), // DOPSUM_WRITE_A_SENTENCE
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕوویەکی سرووشتی بێ مەیکەپم لا پەسەندە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarefaceds2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarefaceds2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I prefer a barefaced, natural look.",
+                            kurdishText:
+                                "ڕوویەکی سرووشتی بێ مەیکەپم لا پەسەندە.",
+                            onPressedBritish: () => speakbarefaceds2("en-GB"),
+                            onPressedAmerican: () => speakbarefaceds2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

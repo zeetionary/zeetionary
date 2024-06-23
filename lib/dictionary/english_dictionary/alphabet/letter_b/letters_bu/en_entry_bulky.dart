@@ -144,89 +144,30 @@ class EnglishEntrybulky extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵناو) گەورە بەشێوەیەک کە ئاسان نییە بۆ ھەڵگرتن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bulky items will be collected separately."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شتە زلەکان بە جیایی کۆدەکرێنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "bulky", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulkys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulkys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bulky items will be collected separately.",
+                            kurdishText:
+                                "شتە زلەکان بە جیایی کۆدەکرێنەوە.", // bulky", follow LX strictly
+                            onPressedBritish: () => speakbulkys1("en-GB"),
+                            onPressedAmerican: () => speakbulkys1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The key felt bulky in his pocket."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کلیلەکە قەبە دیاربوو لە گیرفانیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulkys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulkys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The key felt bulky in his pocket.",
+                            kurdishText: "کلیلەکە قەبە دیاربوو لە گیرفانیدا.",
+                            onPressedBritish: () => speakbulkys2("en-GB"),
+                            onPressedAmerican: () => speakbulkys2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) کەسێکی قوورس و بەرز"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is tall and bulky, with broad shoulders."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەرز و قەبە و چوارشانەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulkys3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulkys3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is tall and bulky, with broad shoulders.",
+                            kurdishText: "بەرز و قەبە و چوارشانەیە.",
+                            onPressedBritish: () => speakbulkys3("en-GB"),
+                            onPressedAmerican: () => speakbulkys3("en-US"),
                           ),
                         ],
                       ),

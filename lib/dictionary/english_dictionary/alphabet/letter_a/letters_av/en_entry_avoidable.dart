@@ -157,34 +157,15 @@ class EnglishEntryavoidable extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) کە دەتوانرێت ڕێگری لێ بکرێت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Many deaths from heart disease are actually avoidable."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆر نەخۆشی دڵ لەڕاستیدا دەکرێت بەریان پێ‌بگیرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavoidables1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavoidables1(// REPLACE: avoidable
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Many deaths from heart disease are actually avoidable.",
+                            kurdishText:
+                                "زۆر نەخۆشی دڵ لەڕاستیدا دەکرێت بەریان پێ‌بگیرێت.",
+                            onPressedBritish: () => speakavoidables1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavoidables1(// REPLACE: avoidable
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

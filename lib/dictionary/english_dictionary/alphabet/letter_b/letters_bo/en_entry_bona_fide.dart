@@ -148,60 +148,21 @@ class EnglishEntrybonafide extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕاستی، یاسایی، درووست"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Make sure you are dealing with a bona fide company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دڵنیابەرەوە مامەڵە لەگەڵ کۆمپانیایەکی ڕاست دەکەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonafides1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonafides1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Make sure you are dealing with a bona fide company.",
+                            kurdishText:
+                                "دڵنیابەرەوە مامەڵە لەگەڵ کۆمپانیایەکی ڕاست دەکەیت.",
+                            onPressedBritish: () => speakbonafides1("en-GB"),
+                            onPressedAmerican: () => speakbonafides1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You’re a bona fide member of the team now."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئێستا ئەندامێکی یاساییت لە تیمەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbonafides2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbonafides2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You’re a bona fide member of the team now.",
+                            kurdishText: "ئێستا ئەندامێکی یاساییت لە تیمەکە.",
+                            onPressedBritish: () => speakbonafides2("en-GB"),
+                            onPressedAmerican: () => speakbonafides2("en-US"),
                           ),
                         ],
                       ),

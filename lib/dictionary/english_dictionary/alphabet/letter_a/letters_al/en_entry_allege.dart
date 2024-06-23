@@ -111,64 +111,26 @@ class EnglishEntryallege extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) وتنی شتێک بەبێ بەڵگە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is alleged that he mistreated the prisoners."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوترێت خراپ مامەڵەی لەگەڵ زیندانیان دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallege46398("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallege46398(
-                                        // REPLACE: allege /əˈledʒ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is alleged that he mistreated the prisoners.",
+                            kurdishText:
+                                "ئەوترێت خراپ مامەڵەی لەگەڵ زیندانیان دەکرد.",
+                            onPressedBritish: () => speakallege46398("en-GB"),
+                            onPressedAmerican: () => speakallege46398(
+                                // REPLACE: allege /əˈledʒ/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The two men allege (that) the police forced them to make false confessions."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دوو پیاوەکە بانگەشەی ئەوە دەکەن کە پۆلیس ناچار بە دانپیانانی ھەڵەی کردوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakallege361423("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallege361423(
-                                        // REPLACE: allege /əˈledʒ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The two men allege (that) the police forced them to make false confessions.",
+                            kurdishText:
+                                "دوو پیاوەکە بانگەشەی ئەوە دەکەن کە پۆلیس ناچار بە دانپیانانی ھەڵەی کردوون.",
+                            onPressedBritish: () => speakallege361423("en-GB"),
+                            onPressedAmerican: () => speakallege361423(
+                                // REPLACE: allege /əˈledʒ/
+                                "en-US"),
                           ),
                         ],
                       ),

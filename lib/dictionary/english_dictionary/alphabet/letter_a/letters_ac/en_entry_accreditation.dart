@@ -99,32 +99,13 @@ class EnglishEntryaccreditation extends StatelessWidget {
                               text:
                                   "١. (ناو) باوەڕنامەیەک کە دەدرێت بە ڕێکخراوێک وەک ئاماژە بەوەی کە جێگەی باوەڕن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The college was given full accreditation in 1965."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆلێژەکە باوەڕنامەی فەرمی پێدرا لە ساڵی ١٩٦٥."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka24894("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speaka24894("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The college was given full accreditation in 1965.",
+                            kurdishText:
+                                "کۆلێژەکە باوەڕنامەی فەرمی پێدرا لە ساڵی ١٩٦٥.",
+                            onPressedBritish: () => speaka24894("en-GB"),
+                            onPressedAmerican: () => speaka24894("en-US"),
                           ),
                         ],
                       ),

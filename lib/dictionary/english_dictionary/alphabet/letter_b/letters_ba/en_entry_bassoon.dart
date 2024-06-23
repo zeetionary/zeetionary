@@ -147,32 +147,13 @@ class EnglishEntrybassoon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئامێرێکی گەورەی میوزیکی کە لێدەدرێت بە فووکردنە لوولەیەکی چەماوەی درێژ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The young musician struggled to master the complex fingering of the bassoon."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "میوزیکژەنە گەنجەکە تەقەڵای‌بوو لە فێربوونی پەنجەژەنینی ئاڵۆزی بەسوونەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbassoons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbassoons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The young musician struggled to master the complex fingering of the bassoon.",
+                            kurdishText:
+                                "میوزیکژەنە گەنجەکە تەقەڵای‌بوو لە فێربوونی پەنجەژەنینی ئاڵۆزی بەسوونەکە.",
+                            onPressedBritish: () => speakbassoons1("en-GB"),
+                            onPressedAmerican: () => speakbassoons1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

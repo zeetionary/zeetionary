@@ -150,63 +150,25 @@ class EnglishEntrybollard extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) بەربەستێکی ئەستوور و کورت کە دادەنرێت بۆ ئەوەی ئۆتۆمبێل نەچێتە سەر ڕێگایەک یان ناو ناوچەیەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Bollards line the pedestrian area, protecting it from vehicle intrusion."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆڵەکەمەترسی ڕیزکرابوو لە ناوچەی پیادەڕەوان بۆ ئەوەی لە چوونە ناوەوەی ئۆتۆمبێل بیان پارێزێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbollards1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbollards1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Bollards line the pedestrian area, protecting it from vehicle intrusion.",
+                            kurdishText:
+                                "کۆڵەکەمەترسی ڕیزکرابوو لە ناوچەی پیادەڕەوان بۆ ئەوەی لە چوونە ناوەوەی ئۆتۆمبێل بیان پارێزێت.",
+                            onPressedBritish: () => speakbollards1("en-GB"),
+                            onPressedAmerican: () => speakbollards1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) ئەستووندەگێکی ئەستوور و کورت بۆ ئەوەی بەلەمێک یان کەشتییەکی پێوە ببەسترێت بۆ ئەوەی نەجوڵێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The boat was secured to the bollard with a thick rope."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەلەمەکە بەسترا بە ڕاگرێکەوە بە حەبلێکی ئەستوور."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbollards2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbollards2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The boat was secured to the bollard with a thick rope.",
+                            kurdishText:
+                                "بەلەمەکە بەسترا بە ڕاگرێکەوە بە حەبلێکی ئەستوور.",
+                            onPressedBritish: () => speakbollards2("en-GB"),
+                            onPressedAmerican: () => speakbollards2("en-US"),
                           ),
                         ],
                       ),

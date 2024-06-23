@@ -155,34 +155,14 @@ class EnglishEntrybackache extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ئێش لە پشتدا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A lot of sitting gives me such backache."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دانیشتنی زۆر تووشی پشتێشەم دەکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speaka3s1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speaka3s1(// REPLACE: backache
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A lot of sitting gives me such backache.",
+                            kurdishText: "دانیشتنی زۆر تووشی پشتێشەم دەکات.",
+                            onPressedBritish: () => speaka3s1("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka3s1(// REPLACE: backache
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

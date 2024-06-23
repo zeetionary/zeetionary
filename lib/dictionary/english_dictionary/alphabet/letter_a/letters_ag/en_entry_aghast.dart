@@ -111,34 +111,14 @@ class EnglishEntryaghast extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) تۆقاو و سەرسوڕماو" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He stood aghast at the sight of so much blood."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "واق‌وڕماو بوو بە بینینی خوێنێکی زۆر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaghas15622("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaghas15622(
-                                        // REPLACE: aghast /əˈɡɑːst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He stood aghast at the sight of so much blood.",
+                            kurdishText: "واق‌وڕماو بوو بە بینینی خوێنێکی زۆر.",
+                            onPressedBritish: () => speakaghas15622("en-GB"),
+                            onPressedAmerican: () => speakaghas15622(
+                                // REPLACE: aghast /əˈɡɑːst/
+                                "en-US"),
                           ),
                         ],
                       ),

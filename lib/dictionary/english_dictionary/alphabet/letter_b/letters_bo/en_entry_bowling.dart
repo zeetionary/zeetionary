@@ -143,62 +143,23 @@ class EnglishEntrybowling extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بۆوڵینگ؛ یارییەکە کە یاریزانان تۆپ خلۆردەکەنەوە بەرەو کۆمەڵە شتێکی وەستاو کە شێوەیان وەک بوتڵ وان و ھەوڵ دەدات ھەتا بکرێت زیاتریان لێ بکەوێنێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Let's go bowling on Saturday."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "با ڕۆژی شەممە بچین بۆ یاری بۆوڵینگ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowlings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowlings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Let's go bowling on Saturday.",
+                            kurdishText: "با ڕۆژی شەممە بچین بۆ یاری بۆوڵینگ.",
+                            onPressedBritish: () => speakbowlings1("en-GB"),
+                            onPressedAmerican: () => speakbowlings1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) لە یاری کرکیتدا ھەڵدانی تۆپەکە بۆ ئەو کەسەی لە تۆپەکە دەدات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "England were no match for the Indian bowling attack."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئینگلیزەکان بەرگەی ھێرشی ھاویشتنی ھندییەکانیان نەگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbowlings2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbowlings2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "England were no match for the Indian bowling attack.",
+                            kurdishText:
+                                "ئینگلیزەکان بەرگەی ھێرشی ھاویشتنی ھندییەکانیان نەگرت.",
+                            onPressedBritish: () => speakbowlings2("en-GB"),
+                            onPressedAmerican: () => speakbowlings2("en-US"),
                           ),
                         ],
                       ),

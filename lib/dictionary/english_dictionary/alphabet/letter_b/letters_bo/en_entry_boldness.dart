@@ -150,91 +150,33 @@ class EnglishEntryboldness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) خاسیەتی ئازایی و متمانە بەخۆبوون و نەترسان لە کردن یان وتنی ئەوەی دەتەوێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Both men were surprised by the boldness of the question."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو پیاوەکە سەرسام بوون بە بوێری پرسیارەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboldnesss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboldnesss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Both men were surprised by the boldness of the question.",
+                            kurdishText:
+                                "ھەردوو پیاوەکە سەرسام بوون بە بوێری پرسیارەکە.",
+                            onPressedBritish: () => speakboldnesss1("en-GB"),
+                            onPressedAmerican: () => speakboldnesss1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Even critics admire his boldness."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنانەت ڕەخنەگرانیش سەرسامی بوێرییەکەین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboldnesss2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboldnesss2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Even critics admire his boldness.",
+                            kurdishText:
+                                "تەنانەت ڕەخنەگرانیش سەرسامی بوێرییەکەین.",
+                            onPressedBritish: () => speakboldnesss2("en-GB"),
+                            onPressedAmerican: () => speakboldnesss2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) خاسیەتی ئاسان بوون بۆ بینین ھەبوونی ڕواڵەتێکی ئاشکرا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The boldness of the architecture made the building an iconic landmark."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەرچاوی بیناسازییەکە وایکرد بیناکە وەک ناوەندێکی ئایکۆنی بینراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakboldnesss3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakboldnesss3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The boldness of the architecture made the building an iconic landmark.",
+                            kurdishText:
+                                "بەرچاوی بیناسازییەکە وایکرد بیناکە وەک ناوەندێکی ئایکۆنی بینراوە.",
+                            onPressedBritish: () => speakboldnesss3("en-GB"),
+                            onPressedAmerican: () => speakboldnesss3("en-US"),
                           ),
                         ],
                       ),

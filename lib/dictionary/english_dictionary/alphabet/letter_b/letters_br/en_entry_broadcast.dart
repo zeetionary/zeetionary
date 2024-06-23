@@ -147,177 +147,62 @@ class EnglishEntrybroadcast extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) پەخشکردن لە ڕێگەی ڕادیۆ یان تەلەفیزیۆنەوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Most of the programmes are broadcast in English."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زۆرینەی پڕۆگرامەکان بە ئینگلیزی پەخش دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broadcast" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Most of the programmes are broadcast in English.",
+                            kurdishText:
+                                "زۆرینەی پڕۆگرامەکان بە ئینگلیزی پەخش دەکرێن.", // broadcast" as
+                            onPressedBritish: () => speakbroadcasts1("en-GB"),
+                            onPressedAmerican: () => speakbroadcasts1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The BBC began broadcasting in 1922."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بی‌بی‌سی لە ساڵی ١٩٢٢ دەستی بە پەخشکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The BBC began broadcasting in 1922.",
+                            kurdishText:
+                                "بی‌بی‌سی لە ساڵی ١٩٢٢ دەستی بە پەخشکرد.",
+                            onPressedBritish: () => speakbroadcasts2("en-GB"),
+                            onPressedAmerican: () => speakbroadcasts2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) وتنی شتێک بە ژمارەیەکی زۆر خەڵک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I don't like to broadcast the fact that my father owns the company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەوێت بانگەواز بۆ ئەو ڕاستییە بکەم کە باوکم خاوەنی کۆمپانیاکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I don't like to broadcast the fact that my father owns the company.",
+                            kurdishText:
+                                "نامەوێت بانگەواز بۆ ئەو ڕاستییە بکەم کە باوکم خاوەنی کۆمپانیاکەیە.",
+                            onPressedBritish: () => speakbroadcasts3("en-GB"),
+                            onPressedAmerican: () => speakbroadcasts3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) پەخشی تەلەفیزیۆن یان ڕادیۆیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We watched a live broadcast of the speech (= one shown at the same time as the speech was made)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەیری پەخشی ڕاستەوخۆی وتارەکەمان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We watched a live broadcast of the speech (= one shown at the same time as the speech was made).",
+                            kurdishText:
+                                "سەیری پەخشی ڕاستەوخۆی وتارەکەمان کرد.",
+                            onPressedBritish: () => speakbroadcasts4("en-GB"),
+                            onPressedAmerican: () => speakbroadcasts4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The evening news broadcasts are very different today than they were 25 years ago."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پەخشی ھەواڵی شەوانە ئێستا زۆر جیاوازە وەک لە ٢٥ ساڵ پێش ئێستا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The evening news broadcasts are very different today than they were 25 years ago.",
+                            kurdishText:
+                                "پەخشی ھەواڵی شەوانە ئێستا زۆر جیاوازە وەک لە ٢٥ ساڵ پێش ئێستا.",
+                            onPressedBritish: () => speakbroadcasts5("en-GB"),
+                            onPressedAmerican: () => speakbroadcasts5("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They do not own a major television broadcast network."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خاوەنداری تۆڕێکی پەخشی تەلەفیزیۆنی گرنگ ناکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroadcasts6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroadcasts6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They do not own a major television broadcast network.",
+                            kurdishText:
+                                "خاوەنداری تۆڕێکی پەخشی تەلەفیزیۆنی گرنگ ناکەن.",
+                            onPressedBritish: () => speakbroadcasts6("en-GB"),
+                            onPressedAmerican: () => speakbroadcasts6("en-US"),
                           ),
                         ],
                       ),

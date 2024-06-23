@@ -319,551 +319,221 @@ class EnglishEntryaround extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ئامراز) دەوردراو لە ھەموو لایەکەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The house is built around a central courtyard."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانووەکە بە دەوری حەوشەیەکدا درووست‌کراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1058("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1058(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The house is built around a central courtyard.",
+                            kurdishText:
+                                "خانووەکە بە دەوری حەوشەیەکدا درووست‌کراوە.",
+                            onPressedBritish: () => speakaround1058("en-GB"),
+                            onPressedAmerican: () => speakaround1058(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He put his arms around her."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەستی‌کردە ملی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1100("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1100(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He put his arms around her.",
+                            kurdishText: "دەستی‌کردە ملی.",
+                            onPressedBritish: () => speakaround1100("en-GB"),
+                            onPressedAmerican: () => speakaround1100(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ئامراز) لە لایەکی تری شوێنێک یان شتێکەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The bus came around the bend."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاسەکە لە لایەکەی تری سوڕانەکەوە ھات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1106("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1106(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The bus came around the bend.",
+                            kurdishText:
+                                "پاسەکە لە لایەکەی تری سوڕانەکەوە ھات.",
+                            onPressedBritish: () => speakaround1106("en-GB"),
+                            onPressedAmerican: () => speakaround1106(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our house is just around the corner."),
-                                    ExampleSentenceKurdish(
-                                        text: "ماڵمان لەوسەری سوچەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1107("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1107(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Our house is just around the corner.",
+                            kurdishText: "ماڵمان لەوسەری سوچەکەیە.",
+                            onPressedBritish: () => speakaround1107("en-GB"),
+                            onPressedAmerican: () => speakaround1107(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ئامراز) بە بازنەیی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They walked around the lake."),
-                                    ExampleSentenceKurdish(
-                                        text: "بەدەوری دەریاچەکەدا ڕێیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1109("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1109(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They walked around the lake.",
+                            kurdishText: "بەدەوری دەریاچەکەدا ڕێیان کرد.",
+                            onPressedBritish: () => speakaround1109("en-GB"),
+                            onPressedAmerican: () => speakaround1109(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ئامراز) بۆ ژمارەیەکی زۆری ناوچەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They walked around the town looking for a place to eat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە شارۆچکەکەدا ڕێیان‌کرد بۆ دۆزینەوەی شوێنێک بۆ نان‌خواردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1112("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1112(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They walked around the town looking for a place to eat.",
+                            kurdishText:
+                                "بە شارۆچکەکەدا ڕێیان‌کرد بۆ دۆزینەوەی شوێنێک بۆ نان‌خواردن.",
+                            onPressedBritish: () => speakaround1112("en-GB"),
+                            onPressedAmerican: () => speakaround1112(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ئامراز) بۆ گونجاندن لەگەڵ کەسێک/شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't arrange everything around your timetable!"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم ھەموو شتێک لەگەڵ خشتەی کاتی تۆ بگونجێنم!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1114("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1114(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't arrange everything around your timetable!",
+                            kurdishText:
+                                "ناتوانم ھەموو شتێک لەگەڵ خشتەی کاتی تۆ بگونجێنم!",
+                            onPressedBritish: () => speakaround1114("en-GB"),
+                            onPressedAmerican: () => speakaround1114(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ئامراز) پەیوەندیدار بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There are a lot of questions around her motivation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پرسیاری زۆر ھەیە پەیوەندیدار بە پاڵنەرەکانی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1115("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1115(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There are a lot of questions around her motivation.",
+                            kurdishText:
+                                "پرسیاری زۆر ھەیە پەیوەندیدار بە پاڵنەرەکانی.",
+                            onPressedBritish: () => speakaround1115("en-GB"),
+                            onPressedAmerican: () => speakaround1115(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ھاوەڵکار) بەنزیکەیی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The cost would be somewhere around £1 500."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێچووەکەی نزیکەی ١,٥٠٠ پاوەند دەبێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1117("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1117(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The cost would be somewhere around £1 500.",
+                            kurdishText: "تێچووەکەی نزیکەی ١,٥٠٠ پاوەند دەبێت.",
+                            onPressedBritish: () => speakaround1117("en-GB"),
+                            onPressedAmerican: () => speakaround1117(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (ھاوەڵکار) لە ھەموو لایەکەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I could hear laughter all around."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ھەموو لایەکەوە گوێم لە پێکەنین بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1118("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1118(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I could hear laughter all around.",
+                            kurdishText:
+                                "لە ھەموو لایەکەوە گوێم لە پێکەنین بوو.",
+                            onPressedBritish: () => speakaround1118("en-GB"),
+                            onPressedAmerican: () => speakaround1118(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٩. (ھاوەڵکار) بە بازنەیی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How do you make the wheels go around?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن وا لە ویلەکە دەکەیت بسووڕێتەوە؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1120("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1120(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How do you make the wheels go around?",
+                            kurdishText: "چۆن وا لە ویلەکە دەکەیت بسووڕێتەوە؟",
+                            onPressedBritish: () => speakaround1120("en-GB"),
+                            onPressedAmerican: () => speakaround1120(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٠. (ھاوەڵکار) بە بازنەیەک یان ھێڵێکی چەماوە و ڕووکردن لە لایەکی تر یان ئاراستەی پێچەوانە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She turned the car around and drove off."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئۆتۆمبێلەکەی سووڕاندەوە و ڕۆشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1123("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1123(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She turned the car around and drove off.",
+                            kurdishText: "ئۆتۆمبێلەکەی سووڕاندەوە و ڕۆشت.",
+                            onPressedBritish: () => speakaround1123("en-GB"),
+                            onPressedAmerican: () => speakaround1123(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١١. (ھاوەڵکار) پێوانەکردن بە بازنەیی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I saw an old tree that was at least ten feet around."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "درەختێکی کۆنم دی کە بە لایەنی کەمەوە ١٠ پێ ئەستوور بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1125("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1125(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I saw an old tree that was at least ten feet around.",
+                            kurdishText:
+                                "درەختێکی کۆنم دی کە بە لایەنی کەمەوە ١٠ پێ ئەستوور بوو.",
+                            onPressedBritish: () => speakaround1125("en-GB"),
+                            onPressedAmerican: () => speakaround1125(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٢. (ھاوەڵکار) لە ژمارەیەکی زۆر شوێندا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were papers lying around all over the floor."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کاغەز بە ھەموو زەوییەکەدا کەوتبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1128("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1128(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were papers lying around all over the floor.",
+                            kurdishText: "کاغەز بە ھەموو زەوییەکەدا کەوتبوو.",
+                            onPressedBritish: () => speakaround1128("en-GB"),
+                            onPressedAmerican: () => speakaround1128(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٣. (ھاوەڵکار) بۆ باسکردن لەو چالاکییانەی کە ھیچ ھۆکارێکیان نییە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There were several young people sitting around looking bored."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەندێک کەسی گەنج دانیشتبوون و بێزاربوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1130("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1130(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There were several young people sitting around looking bored.",
+                            kurdishText:
+                                "ھەندێک کەسی گەنج دانیشتبوون و بێزاربوون.",
+                            onPressedBritish: () => speakaround1130("en-GB"),
+                            onPressedAmerican: () => speakaround1130(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٤. (ھاوەڵکار) بەردەست"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She must be somewhere around here."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەبێت لە شوێنێک لێرە بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1131("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1131(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She must be somewhere around here.",
+                            kurdishText: "دەبێت لە شوێنێک لێرە بێت.",
+                            onPressedBritish: () => speakaround1131("en-GB"),
+                            onPressedAmerican: () => speakaround1131(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١٥. (ھاوەڵکار) چالاک لە پیشەیەکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She's been around as a film director since the early 2000s."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ساڵانی ٢٠٠ەوە چالاکە وەک دەرھێنەرێکی فیلم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaround1133("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaround1133(
-                                        // REPLACE: around /əˈraʊnd/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She's been around as a film director since the early 2000s.",
+                            kurdishText:
+                                "لە ساڵانی ٢٠٠ەوە چالاکە وەک دەرھێنەرێکی فیلم.",
+                            onPressedBritish: () => speakaround1133("en-GB"),
+                            onPressedAmerican: () => speakaround1133(
+                                // REPLACE: around /əˈraʊnd/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

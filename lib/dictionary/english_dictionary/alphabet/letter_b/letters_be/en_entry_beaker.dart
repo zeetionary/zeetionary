@@ -151,92 +151,33 @@ class EnglishEntrybeaker extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) گڵاسێک کە بە زۆری لە پلاستیک درووستکراوە و دەسکی نییە، بەکاردێت بۆ خواردنەوە تێیدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She drank from a plastic beaker."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە گڵاسێکی پلاستیکی (ئاوی) خواردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeakers1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeakers1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She drank from a plastic beaker.",
+                            kurdishText: "لە گڵاسێکی پلاستیکی (ئاوی) خواردەوە.",
+                            onPressedBritish: () => speakbeakers1("en-GB"),
+                            onPressedAmerican: () => speakbeakers1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئەو ڕێژەیەی لە گڵاسێکدا جێی دەبێتەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She gave me a beaker of juice."),
-                                    ExampleSentenceKurdish(
-                                        text: "گڵاسێک شەربەتی پێدام."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeakers2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeakers2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She gave me a beaker of juice.",
+                            kurdishText: "گڵاسێک شەربەتی پێدام.",
+                            onPressedBritish: () => speakbeakers2("en-GB"),
+                            onPressedAmerican: () => speakbeakers2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) گڵاسێک کە لە کیمیادا بەکاردێت بۆ پێوان"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was a glass beaker containing copper sulphate solution on the table."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گڵاسێکی شووشە کە تواوەی سولفاتی مسی تێدابوو لەسەر مێزەکە بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeakers3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeakers3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "There was a glass beaker containing copper sulphate solution on the table.",
+                            kurdishText:
+                                "گڵاسێکی شووشە کە تواوەی سولفاتی مسی تێدابوو لەسەر مێزەکە بوو.",
+                            onPressedBritish: () => speakbeakers3("en-GB"),
+                            onPressedAmerican: () => speakbeakers3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

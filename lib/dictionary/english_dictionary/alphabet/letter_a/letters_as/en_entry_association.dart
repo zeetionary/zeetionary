@@ -169,137 +169,61 @@ class EnglishEntryassociation extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) کۆمەڵە کەسێک کە گرووپێکیان ڕێکخراوێکیان درووستکردووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The British Medical Association is/are campaigning for a complete ban on tobacco advertising."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێکخراوی تەندرووستیی بەریتانی ھەوڵ دەدات بۆ قەدەغەی تەواوەتیی ڕیکلام بۆ تۆباکۆ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassociation1201("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassociation1201(
-                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The British Medical Association is/are campaigning for a complete ban on tobacco advertising.",
+                            kurdishText:
+                                "ڕێکخراوی تەندرووستیی بەریتانی ھەوڵ دەدات بۆ قەدەغەی تەواوەتیی ڕیکلام بۆ تۆباکۆ.",
+                            onPressedBritish: () =>
+                                speakassociation1201("en-GB"),
+                            onPressedAmerican: () => speakassociation1201(
+                                // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) پەیوەندیی نێوان خەڵک یان چەند ڕێکخراوێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have maintained a close association with a college in the US."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەماھەنگی نزیکیان لەگەڵ کۆلێژێکی ئەمریکی ھێشتووەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassociation1205("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassociation1205(
-                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have maintained a close association with a college in the US.",
+                            kurdishText:
+                                "ھەماھەنگی نزیکیان لەگەڵ کۆلێژێکی ئەمریکی ھێشتووەتەوە.",
+                            onPressedBritish: () =>
+                                speakassociation1205("en-GB"),
+                            onPressedAmerican: () => speakassociation1205(
+                                // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بەستنەوەی شتەکان بە یەکترەوە لە مێشکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You should teach the child to form an association between good behaviour and rewards."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەبێت منداڵەکە فێربکەیت گرێیەک درووست بکات لەنێوان ڕەفتاری باش و پاداشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassociation1209("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassociation1209(
-                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "You should teach the child to form an association between good behaviour and rewards.",
+                            kurdishText:
+                                "دەبێت منداڵەکە فێربکەیت گرێیەک درووست بکات لەنێوان ڕەفتاری باش و پاداشت.",
+                            onPressedBritish: () =>
+                                speakassociation1209("en-GB"),
+                            onPressedAmerican: () => speakassociation1209(
+                                // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) پەیوەندیی نێوان دوو شت کە یەکێکیان بەھۆی ئەوی دیکەوە ڕوویداوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The research showed an association between diet and various diseases."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "توێژینەوە پەیوەندی نێوان خواردن و ژمارەیەک نەخۆشی پیشاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakassociation1212("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassociation1212(
-                                        // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The research showed an association between diet and various diseases.",
+                            kurdishText:
+                                "توێژینەوە پەیوەندی نێوان خواردن و ژمارەیەک نەخۆشی پیشاندا.",
+                            onPressedBritish: () =>
+                                speakassociation1212("en-GB"),
+                            onPressedAmerican: () => speakassociation1212(
+                                // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

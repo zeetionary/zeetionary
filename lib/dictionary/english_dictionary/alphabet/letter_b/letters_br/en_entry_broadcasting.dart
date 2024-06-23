@@ -145,34 +145,15 @@ class EnglishEntrybroadcasting extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کاری بەرھەمھێنان و پەخشی پڕۆگرامی تەلەفیزیۆنی و ڕادیۆیی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Huge amounts of money are spent on sports broadcasting."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پارەیەکی زۆر خەرج دەکرێت بۆ پەخشی تەلەفیزیۆنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broadcasting" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbroadcastings1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbroadcastings1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Huge amounts of money are spent on sports broadcasting.",
+                            kurdishText:
+                                "پارەیەکی زۆر خەرج دەکرێت بۆ پەخشی تەلەفیزیۆنی.", // broadcasting" as
+                            onPressedBritish: () =>
+                                speakbroadcastings1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbroadcastings1("en-US"),
                           ),
                         ],
                       ),

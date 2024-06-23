@@ -117,35 +117,16 @@ class EnglishEntryallrounder extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک/شتێک کە زۆر شارەزایی، توانا، یان سوودی ھەیە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He is a good all-rounder who likes tennis, cricket, and swimming."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەزارپیشەیەکی باشە کە حەزی بە تێنس و کریکت و مەلەوانی ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakallrounder12544("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakallrounder12544(
-                                        // REPLACE: all-rounder /ˌɔːl ˈraʊndər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He is a good all-rounder who likes tennis, cricket, and swimming.",
+                            kurdishText:
+                                "ھەزارپیشەیەکی باشە کە حەزی بە تێنس و کریکت و مەلەوانی ھەیە.",
+                            onPressedBritish: () =>
+                                speakallrounder12544("en-GB"),
+                            onPressedAmerican: () => speakallrounder12544(
+                                // REPLACE: all-rounder /ˌɔːl ˈraʊndər/
+                                "en-US"),
                           ),
                         ],
                       ),

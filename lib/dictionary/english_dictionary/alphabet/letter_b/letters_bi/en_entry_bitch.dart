@@ -149,155 +149,61 @@ class EnglishEntrybitch extends StatelessWidget {
 کوردی: دێڵ، دێڵەسەگ، مێ یان دێڵی گورگ، ڕێوی، سمۆری ئاوی، سکاڵا، پرتەوبۆڵە، کێشەنەرەوە، بێ‌حەیا، ژنی ھەرزە و لەش‌فرۆش، سەڵیتە
 """),
                           const DefinitionKurdish(text: "١. (ناو) سەگی مێینە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our neighbor's bitch gave birth to a litter of puppies."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دێڵی دراوسێیەکەمان ژمارەیەک بەچکەی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitchs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitchs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our neighbor's bitch gave birth to a litter of puppies.",
+                            kurdishText:
+                                "دێڵی دراوسێیەکەمان ژمارەیەک بەچکەی بوو.",
+                            onPressedBritish: () => speakbitchs1("en-GB"),
+                            onPressedAmerican: () => speakbitchs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) ژنێکی بێزارکەر"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She confronted the person who had referred to her as a bitch, demanding an apology."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕووبەڕووی ئەو کەسەوە بووەوە کە پێی گوت ھەرزە و داوای لێبووردنخوازی دەکرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitchs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitchs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She confronted the person who had referred to her as a bitch, demanding an apology.",
+                            kurdishText:
+                                "ڕووبەڕووی ئەو کەسەوە بووەوە کە پێی گوت ھەرزە و داوای لێبووردنخوازی دەکرد.",
+                            onPressedBritish: () => speakbitchs2("en-GB"),
+                            onPressedAmerican: () => speakbitchs2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) شتێک کە کێشە درووست دەکات"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Life's a bitch."),
-                                    ExampleSentenceKurdish(text: "ژیان سەختە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitchs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitchs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Life's a bitch.",
+                            kurdishText: "ژیان سەختە.",
+                            onPressedBritish: () => speakbitchs3("en-GB"),
+                            onPressedAmerican: () => speakbitchs3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ناو) ناڕەزایی لەسەر شتێک، یان گفتوگۆیەکی لەو شێوەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We've been having a bitch about our boss."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمەقاڵێمان ھەبووە سەبارەت بە بەڕێوبەرەکەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitchs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitchs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We've been having a bitch about our boss.",
+                            kurdishText:
+                                "دەمەقاڵێمان ھەبووە سەبارەت بە بەڕێوبەرەکەمان.",
+                            onPressedBritish: () => speakbitchs4("en-GB"),
+                            onPressedAmerican: () => speakbitchs4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) کردنی قسەی توند سەبارەت بە کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She isn’t the sort of person who bitches about others behind their back."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەو جۆرە کەسانە نییە کە پرتەوبۆڵە لەسەر کەسێک بکات لە پشتیانەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbitchs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbitchs5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She isn’t the sort of person who bitches about others behind their back.",
+                            kurdishText:
+                                "لەو جۆرە کەسانە نییە کە پرتەوبۆڵە لەسەر کەسێک بکات لە پشتیانەوە.",
+                            onPressedBritish: () => speakbitchs5("en-GB"),
+                            onPressedAmerican: () => speakbitchs5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

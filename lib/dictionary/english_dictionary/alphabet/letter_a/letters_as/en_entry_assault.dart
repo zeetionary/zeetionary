@@ -168,228 +168,94 @@ class EnglishEntryassault extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) ھێرشی جەستەیی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Both men were charged with assault."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەردوو پیاوەکە بە ھێرشی تاوانبارکران."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassault845("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassault845(
-                                        // REPLACE: assault /əˈsɔːlt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Both men were charged with assault.",
+                            kurdishText:
+                                "ھەردوو پیاوەکە بە ھێرشی تاوانبارکران.",
+                            onPressedBritish: () => speakassault845("en-GB"),
+                            onPressedAmerican: () => speakassault845(
+                                // REPLACE: assault /əˈsɔːlt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A significant number of indecent assaults on women go unreported."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارەیەکی زۆر لە پەلاماری نابەجێ بۆ سەر ژنان بەبێ باسکردن تێدەپەڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassault851("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassault851(
-                                        // REPLACE: assault /əˈsɔːlt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A significant number of indecent assaults on women go unreported.",
+                            kurdishText:
+                                "ژمارەیەکی زۆر لە پەلاماری نابەجێ بۆ سەر ژنان بەبێ باسکردن تێدەپەڕێت.",
+                            onPressedBritish: () => speakassault851("en-GB"),
+                            onPressedAmerican: () => speakassault851(
+                                // REPLACE: assault /əˈsɔːlt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ھێرشی سەربازی بە مەبەستی کۆنترۆڵکردنی شوێنێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "An assault on the capital was launched in the early hours of the morning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە بەیانی زوودا ھێرشێک بۆ سەر پایتەختەکە ئەنجام‌درا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassault855("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassault855(
-                                        // REPLACE: assault /əˈsɔːlt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "An assault on the capital was launched in the early hours of the morning.",
+                            kurdishText:
+                                "لە بەیانی زوودا ھێرشێک بۆ سەر پایتەختەکە ئەنجام‌درا.",
+                            onPressedBritish: () => speakassault855("en-GB"),
+                            onPressedAmerican: () => speakassault855(
+                                // REPLACE: assault /əˈsɔːlt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) بەدەستھێنانی شتێکی سەخت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The government has mounted a new assault on unemployment."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "حکومەت ھەڵمەتێکی تازەی دژ بە بێ‌کاری ڕاگەیاندووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassault856("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassault856(
-                                        // REPLACE: assault /əˈsɔːlt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The government has mounted a new assault on unemployment.",
+                            kurdishText:
+                                "حکومەت ھەڵمەتێکی تازەی دژ بە بێ‌کاری ڕاگەیاندووە.",
+                            onPressedBritish: () => speakassault856("en-GB"),
+                            onPressedAmerican: () => speakassault856(
+                                // REPLACE: assault /əˈsɔːlt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ڕەخنەی توند"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The paper's assault on the president was totally unjustified."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەخنەی ڕۆژنامەکە دژ بە سەرۆک تەواو ناڕەوا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassault859("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassault859(
-                                        // REPLACE: assault /əˈsɔːlt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The paper's assault on the president was totally unjustified.",
+                            kurdishText:
+                                "ڕەخنەی ڕۆژنامەکە دژ بە سەرۆک تەواو ناڕەوا بوو.",
+                            onPressedBritish: () => speakassault859("en-GB"),
+                            onPressedAmerican: () => speakassault859(
+                                // REPLACE: assault /əˈsɔːlt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) ھێرشی تاوانکاری"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He has been charged with assaulting a police officer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاوانبارکراوە بە پەلاماردانی ئەفسەرێکی پۆلیس."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassault900("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassault900(
-                                        // REPLACE: assault /əˈsɔːlt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He has been charged with assaulting a police officer.",
+                            kurdishText:
+                                "تاوانبارکراوە بە پەلاماردانی ئەفسەرێکی پۆلیس.",
+                            onPressedBritish: () => speakassault900("en-GB"),
+                            onPressedAmerican: () => speakassault900(
+                                // REPLACE: assault /əˈsɔːlt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Four women have been sexually assaulted in the area recently."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چوار ژن بەم‌نزیکانە لە ناوچەکە پەلاماری سێکسییان بۆسەر ئەنجام دراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakassault902("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakassault902(
-                                        // REPLACE: assault /əˈsɔːlt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Four women have been sexually assaulted in the area recently.",
+                            kurdishText:
+                                "چوار ژن بەم‌نزیکانە لە ناوچەکە پەلاماری سێکسییان بۆسەر ئەنجام دراوە.",
+                            onPressedBritish: () => speakassault902("en-GB"),
+                            onPressedAmerican: () => speakassault902(
+                                // REPLACE: assault /əˈsɔːlt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

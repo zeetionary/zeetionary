@@ -151,91 +151,33 @@ class EnglishEntrybillion extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ژمارە) ١٠٠٠,٠٠٠,٠٠٠؛ ھەزار ملیۆن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Worldwide sales reached 2.5 billion."),
-                                    ExampleSentenceKurdish(
-                                        text: "فرۆشی جیھانی گەشتە ٢,٥ ملیار."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbillions1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbillions1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Worldwide sales reached 2.5 billion.",
+                            kurdishText: "فرۆشی جیھانی گەشتە ٢,٥ ملیار.",
+                            onPressedBritish: () => speakbillions1("en-GB"),
+                            onPressedAmerican: () => speakbillions1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They have spent billions of dollars on the problem (= billions of dollars, etc.)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ملیاران دۆلاریان بە کێشەکەوە خەرجکردووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbillions2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbillions2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They have spent billions of dollars on the problem (= billions of dollars, etc.).",
+                            kurdishText:
+                                "ملیاران دۆلاریان بە کێشەکەوە خەرجکردووە.",
+                            onPressedBritish: () => speakbillions2("en-GB"),
+                            onPressedAmerican: () => speakbillions2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ژمارە) بڕێکی زۆر گەورە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Our immune systems are killing billions of germs right now."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سیستەمی بەرگریمان لە ئێستادا ملیاران میکرۆب دەکوژێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbillions3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbillions3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Our immune systems are killing billions of germs right now.",
+                            kurdishText:
+                                "سیستەمی بەرگریمان لە ئێستادا ملیاران میکرۆب دەکوژێت.",
+                            onPressedBritish: () => speakbillions3("en-GB"),
+                            onPressedAmerican: () => speakbillions3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -162,35 +162,16 @@ class EnglishEntryarchaeologist extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) کەسێکی شوێنەوارناس"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He's an archaeologist and has been on a dig in Crete for the past year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شوێنەوارناسە و بۆ ماوەی یەک ساڵی ڕابردوو خەریکی ھەڵکۆڵینی شوێنەوارێک بووە لە کریت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarchaeologist251("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarchaeologist251(
-                                        // REPLACE: archaeologist /ˌɑːrkiˈɑːlədʒɪst/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He's an archaeologist and has been on a dig in Crete for the past year.",
+                            kurdishText:
+                                "شوێنەوارناسە و بۆ ماوەی یەک ساڵی ڕابردوو خەریکی ھەڵکۆڵینی شوێنەوارێک بووە لە کریت.",
+                            onPressedBritish: () =>
+                                speakarchaeologist251("en-GB"),
+                            onPressedAmerican: () => speakarchaeologist251(
+                                // REPLACE: archaeologist /ˌɑːrkiˈɑːlədʒɪst/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

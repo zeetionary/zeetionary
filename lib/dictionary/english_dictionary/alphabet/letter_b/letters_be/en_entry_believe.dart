@@ -226,326 +226,115 @@ class EnglishEntrybelieve extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (کردار) باوەڕکردن بە شتێک یان شتێک کە کەسێک دەیڵێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I don't believe you!"),
-                                    ExampleSentenceKurdish(
-                                        text: "باوەڕت پێ ناکەم!"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelieves1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelieves1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "I don't believe you!",
+                            kurdishText: "باوەڕت پێ ناکەم!",
+                            onPressedBritish: () => speakbelieves1("en-GB"),
+                            onPressedAmerican: () => speakbelieves1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Do you really believe her?"),
-                                    ExampleSentenceKurdish(
-                                        text: "بەڕاستی باوەڕی پێ دەکەیت؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelieves2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelieves2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Do you really believe her?",
+                            kurdishText: "بەڕاستی باوەڕی پێ دەکەیت؟",
+                            onPressedBritish: () => speakbelieves2("en-GB"),
+                            onPressedAmerican: () => speakbelieves2("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Believe me, she's not right for you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "متمانەم پێ بکە، ئەو گونجاو نییە بۆت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelieves3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelieves3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Believe me, she's not right for you.",
+                            kurdishText: "متمانەم پێ بکە، ئەو گونجاو نییە بۆت.",
+                            onPressedBritish: () => speakbelieves3("en-GB"),
+                            onPressedAmerican: () => speakbelieves3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بیرکردنەوە لەوەی کە شتێک ڕاستە یان ڕێی تێ دەچێت، ئەگەرچی دڵنیا نیت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Police believe (that) the man may be armed."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس باوەڕی وایە پیاوەکە لەوانەیە چەکی پێ بێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelieves4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelieves4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Police believe (that) the man may be armed.",
+                            kurdishText:
+                                "پۆلیس باوەڕی وایە پیاوەکە لەوانەیە چەکی پێ بێت.",
+                            onPressedBritish: () => speakbelieves4("en-GB"),
+                            onPressedAmerican: () => speakbelieves4("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "l firmly believe that she is still alive."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕێکی بەھێزم ھەیە کە ھێشتا لە ژیاندایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelieves5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelieves5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "l firmly believe that she is still alive.",
+                            kurdishText:
+                                "باوەڕێکی بەھێزم ھەیە کە ھێشتا لە ژیاندایە.",
+                            onPressedBritish: () => speakbelieves5("en-GB"),
+                            onPressedAmerican: () => speakbelieves5("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It is widely believed that he was forced to resign."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕێکی بەفراوان ھەیە کە ناچارکرا دەستلەکاربکێشێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelieves6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelieves6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It is widely believed that he was forced to resign.",
+                            kurdishText:
+                                "باوەڕێکی بەفراوان ھەیە کە ناچارکرا دەستلەکاربکێشێتەوە.",
+                            onPressedBritish: () => speakbelieves6("en-GB"),
+                            onPressedAmerican: () => speakbelieves6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) ھەبوونی بۆچوونێک کە شتێک درووستە یان ڕاستە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She believes that killing animals for food or fur is completely immoral."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باوەڕی وایە کووشتنی ئاژەڵان بۆ فەروو کارێکی نائەخلاقییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelieves7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelieves7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She believes that killing animals for food or fur is completely immoral.",
+                            kurdishText:
+                                "باوەڕی وایە کووشتنی ئاژەڵان بۆ فەروو کارێکی نائەخلاقییە.",
+                            onPressedBritish: () => speakbelieves7("en-GB"),
+                            onPressedAmerican: () => speakbelieves7("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She truly believes that love can change the world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرڕاستانە باوەڕی وایە خۆشەویستی دەتوانێت جیھان بگۆڕێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelieves8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelieves8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She truly believes that love can change the world.",
+                            kurdishText:
+                                "سەرڕاستانە باوەڕی وایە خۆشەویستی دەتوانێت جیھان بگۆڕێت.",
+                            onPressedBritish: () => speakbelieves8("en-GB"),
+                            onPressedAmerican: () => speakbelieves8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) بۆ وتنی ئەوەی سەرسام یان تووڕەی بە شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She couldn’t believe (that) it was all happening again."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نەیدەتوانی باوەڕ بکات ھەموو ئەوە دووبارە ڕوویدەداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelieves9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelieves9("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She couldn’t believe (that) it was all happening again.",
+                            kurdishText:
+                                "نەیدەتوانی باوەڕ بکات ھەموو ئەوە دووبارە ڕوویدەداوە.",
+                            onPressedBritish: () => speakbelieves9("en-GB"),
+                            onPressedAmerican: () => speakbelieves9("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can't believe how much better I feel."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانم باوەڕ بێنم بەوەی چەند ھەستێکی باشترم ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelieves10("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelieves10("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I can't believe how much better I feel.",
+                            kurdishText:
+                                "ناتوانم باوەڕ بێنم بەوەی چەند ھەستێکی باشترم ھەیە.",
+                            onPressedBritish: () => speakbelieves10("en-GB"),
+                            onPressedAmerican: () => speakbelieves10("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) ھەبوونی باوەڕێکی ئایینی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The god appears only to those who believe."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەنھا ئەوانەی باوەڕیان ھەیە ھەست بە بوونی خودا دەکەن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbelieves11("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbelieves11("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The god appears only to those who believe.",
+                            kurdishText:
+                                "تەنھا ئەوانەی باوەڕیان ھەیە ھەست بە بوونی خودا دەکەن.",
+                            onPressedBritish: () => speakbelieves11("en-GB"),
+                            onPressedAmerican: () => speakbelieves11("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -99,32 +99,13 @@ class EnglishEntryabstemious extends StatelessWidget {
                               text:
                                   "١. کەسێک کە خۆی لەو شتانە بەدووردەگرێت کە چێژ دەبەخشن، بۆ نموونە مادە کحوولییەکان"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was a hard-working man with abstemious habits."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پیاوێکی زەحمەتکێش بوو کە خۆی لە حەز و ویستەکانی بەدووردەگرت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakab75891("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakab75891("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was a hard-working man with abstemious habits.",
+                            kurdishText:
+                                "پیاوێکی زەحمەتکێش بوو کە خۆی لە حەز و ویستەکانی بەدووردەگرت.",
+                            onPressedBritish: () => speakab75891("en-GB"),
+                            onPressedAmerican: () => speakab75891("en-US"),
                           ),
                         ],
                       ),

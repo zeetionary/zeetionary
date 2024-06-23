@@ -181,34 +181,15 @@ class EnglishEntryamnesia extends StatelessWidget {
                               text:
                                   "١. (ناو) بارێکی تەندرووستی کە تێیدا کەسێک بەشێک یان تەواوی بیروھۆشی لەدەستدەدات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "After the accident he suffered periods of amnesia."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دوای ڕووداوەکە تووشی بیرنەمایی ماوە ماوە دەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamnesia663("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamnesia663(
-                                        // REPLACE: amnesia /æmˈniːʒə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "After the accident he suffered periods of amnesia.",
+                            kurdishText:
+                                "لە دوای ڕووداوەکە تووشی بیرنەمایی ماوە ماوە دەبوو.",
+                            onPressedBritish: () => speakamnesia663("en-GB"),
+                            onPressedAmerican: () => speakamnesia663(
+                                // REPLACE: amnesia /æmˈniːʒə/
+                                "en-US"),
                           ),
                         ],
                       ),

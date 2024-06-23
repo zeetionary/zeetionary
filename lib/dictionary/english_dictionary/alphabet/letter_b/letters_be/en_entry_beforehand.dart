@@ -150,61 +150,22 @@ class EnglishEntrybeforehand extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار) پێشوەختە؛ پێش ڕوودانی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I wish we'd known about it beforehand."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خۆزگە پێشوەختە لەسەری بمانزانیایە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeforehands1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeforehands1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I wish we'd known about it beforehand.",
+                            kurdishText: "خۆزگە پێشوەختە لەسەری بمانزانیایە.",
+                            onPressedBritish: () => speakbeforehands1("en-GB"),
+                            onPressedAmerican: () => speakbeforehands1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I knew she was coming that afternoon because she had phoned beforehand to say so."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەمزانی ئەو نیوەڕۆیە دێ چونکە پێشوەختە پەیوەندی کردبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbeforehands2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbeforehands2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I knew she was coming that afternoon because she had phoned beforehand to say so.",
+                            kurdishText:
+                                "دەمزانی ئەو نیوەڕۆیە دێ چونکە پێشوەختە پەیوەندی کردبوو.",
+                            onPressedBritish: () => speakbeforehands2("en-GB"),
+                            onPressedAmerican: () => speakbeforehands2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -153,32 +153,13 @@ class EnglishEntrybible extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئینجیل؛ کتێبی پیرۆزی ئایینی مەسیحییەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In the Bible it says that Adam and Eve were the first human beings."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئینجیل دەڵێت ئادەم و حەوا یەکەمین مرۆڤەکان بوونە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbibles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbibles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "In the Bible it says that Adam and Eve were the first human beings.",
+                            kurdishText:
+                                "ئینجیل دەڵێت ئادەم و حەوا یەکەمین مرۆڤەکان بوونە.",
+                            onPressedBritish: () => speakbibles1("en-GB"),
+                            onPressedAmerican: () => speakbibles1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,32 +171,13 @@ class EnglishEntrybible extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کتێبێک یان گۆڤارێک کە ڕاوێژ و زانیاریی گرنگ دەدات سەبارەت بە بابەتێکی دیاریکراو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Vogue magazine quickly became the bible of fashionable women."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆڤاری Vogue ھەرزوو بوو بە سەرچاوە بۆ ژنانی مۆدباز."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbibles2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbibles2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Vogue magazine quickly became the bible of fashionable women.",
+                            kurdishText:
+                                "گۆڤاری Vogue ھەرزوو بوو بە سەرچاوە بۆ ژنانی مۆدباز.",
+                            onPressedBritish: () => speakbibles2("en-GB"),
+                            onPressedAmerican: () => speakbibles2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

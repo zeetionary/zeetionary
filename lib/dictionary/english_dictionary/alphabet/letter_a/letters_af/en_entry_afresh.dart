@@ -112,34 +112,14 @@ class EnglishEntryafresh extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) دووبارە لە سەرەتاوە، زۆرجار بەشێوەیەکی جیاوازتر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a chance to start afresh."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شانسێک بوو بۆ ئەوەی سەرلەنوێ دەستپێبکەینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakafre411("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakafre411(// REPLACE: afresh /əˈfreʃ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "It was a chance to start afresh.",
+                            kurdishText:
+                                "شانسێک بوو بۆ ئەوەی سەرلەنوێ دەستپێبکەینەوە.",
+                            onPressedBritish: () => speakafre411("en-GB"),
+                            onPressedAmerican: () =>
+                                speakafre411(// REPLACE: afresh /əˈfreʃ/
+                                    "en-US"),
                           ),
                         ],
                       ),

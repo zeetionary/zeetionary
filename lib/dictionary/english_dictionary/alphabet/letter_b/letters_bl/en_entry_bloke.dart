@@ -146,30 +146,11 @@ class EnglishEntrybloke extends StatelessWidget {
 کوردی: پیاو، مرۆ، بنیادەم
 """),
                           const DefinitionKurdish(text: """١. (ناو) پیاو"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He seemed like a nice bloke."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە پیاوێکی بەڕێز دەچوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblokes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblokes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He seemed like a nice bloke.",
+                            kurdishText: "لە پیاوێکی بەڕێز دەچوو.",
+                            onPressedBritish: () => speakblokes1("en-GB"),
+                            onPressedAmerican: () => speakblokes1("en-US"),
                           ),
                         ],
                       ),

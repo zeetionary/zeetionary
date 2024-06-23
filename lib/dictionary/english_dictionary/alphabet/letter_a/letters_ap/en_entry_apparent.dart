@@ -164,98 +164,41 @@ class EnglishEntryapparent extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) ئاسان بۆ بینین و تێگەشتن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Then, for no apparent reason, the train suddenly stopped."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دواتر، بەبێ ھیچ ھۆکارێکی ڕوون، شەمەندەفەرەکە وەستا لە کارکردن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapparent852("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapparent852(
-                                        // REPLACE: apparent /əˈpærənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Then, for no apparent reason, the train suddenly stopped.",
+                            kurdishText:
+                                "دواتر، بەبێ ھیچ ھۆکارێکی ڕوون، شەمەندەفەرەکە وەستا لە کارکردن.",
+                            onPressedBritish: () => speakapparent852("en-GB"),
+                            onPressedAmerican: () => speakapparent852(
+                                // REPLACE: apparent /əˈpærənt/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It soon became apparent to everyone that he couldn't sing."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەرزوو بۆ ھەموان ڕوونبووەوە کە توانای گۆرانی‌وتنی نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapparent853("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapparent853(
-                                        // REPLACE: apparent /əˈpærənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It soon became apparent to everyone that he couldn't sing.",
+                            kurdishText:
+                                "ھەرزوو بۆ ھەموان ڕوونبووەوە کە توانای گۆرانی‌وتنی نەبوو.",
+                            onPressedBritish: () => speakapparent853("en-GB"),
+                            onPressedAmerican: () => speakapparent853(
+                                // REPLACE: apparent /əˈpærənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک وەک ڕاستی دەردەکەوێت بەڵام ئەگەری ھەیە وا نەبێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My parents were concerned at my apparent lack of enthusiasm for school."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دایک و باوکم نیگەران بوون بە کەمی ڕووکەشانەی تامەزرۆییم بۆ قوتابخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakapparent858("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakapparent858(
-                                        // REPLACE: apparent /əˈpærənt/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My parents were concerned at my apparent lack of enthusiasm for school.",
+                            kurdishText:
+                                "دایک و باوکم نیگەران بوون بە کەمی ڕووکەشانەی تامەزرۆییم بۆ قوتابخانە.",
+                            onPressedBritish: () => speakapparent858("en-GB"),
+                            onPressedAmerican: () => speakapparent858(
+                                // REPLACE: apparent /əˈpærənt/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

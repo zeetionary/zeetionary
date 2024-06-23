@@ -149,61 +149,23 @@ class EnglishEntryblaspheme extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) ناوھێنانی خودا یان پیرۆزی دیکەی ئایینی بەشێوەیەک کە لە ڕووی ئایینییەوە پەسەندنەکراوە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "How dare you blaspheme in front of your own father?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چۆن بوێری ئەوەی ئەکەیت کفر بکەیت لە پێش باوکی خۆتدا؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblasphemes1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblasphemes1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "How dare you blaspheme in front of your own father?",
+                            kurdishText:
+                                "چۆن بوێری ئەوەی ئەکەیت کفر بکەیت لە پێش باوکی خۆتدا؟",
+                            onPressedBritish: () => speakblasphemes1("en-GB"),
+                            onPressedAmerican: () => speakblasphemes1("en-US"),
                           ),
                           // const DividerDefinition(),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was accused of blaspheming the prophet."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تاوانبارکرا بە سوکایەتی کردن بە پێغەمبەر."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblasphemes2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblasphemes2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was accused of blaspheming the prophet.",
+                            kurdishText:
+                                "تاوانبارکرا بە سوکایەتی کردن بە پێغەمبەر.",
+                            onPressedBritish: () => speakblasphemes2("en-GB"),
+                            onPressedAmerican: () => speakblasphemes2("en-US"),
                           ),
                           // const DividerDefinition(),
                         ],

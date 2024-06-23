@@ -147,34 +147,15 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) سەوزەیەکی خڕی بچووکی سەوز کە وەک کەلەرمێکی بچووکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She reluctantly tried a Brussels sprout and was pleasantly surprised."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە نابەدڵییەوە کەلەرمێکی سەوزی تاقیکردەوە و سەرسام بوو پێی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "brussels sprout" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbrusselssprouts1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbrusselssprouts1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She reluctantly tried a Brussels sprout and was pleasantly surprised.",
+                            kurdishText:
+                                "بە نابەدڵییەوە کەلەرمێکی سەوزی تاقیکردەوە و سەرسام بوو پێی.", // brussels sprout" as
+                            onPressedBritish: () =>
+                                speakbrusselssprouts1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbrusselssprouts1("en-US"),
                           ),
                         ],
                       ),

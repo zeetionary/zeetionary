@@ -163,35 +163,16 @@ class EnglishEntryaristocracy extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسانی بەرزترین ئاستی کۆمەڵگە کە زۆرجار پلە و سەروەت و سامانی زۆریان ھەیە"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He married into the French aristocracy."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھاوسەرگیری لەگەڵ ئەندامی خێزانێکی خانەدانی فەرەنسی کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakaristocracy1158("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakaristocracy1158(
-                                        // REPLACE: aristocracy /ˌærɪˈstɑːkrəsi/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He married into the French aristocracy.",
+                            kurdishText:
+                                "ھاوسەرگیری لەگەڵ ئەندامی خێزانێکی خانەدانی فەرەنسی کرد.",
+                            onPressedBritish: () =>
+                                speakaristocracy1158("en-GB"),
+                            onPressedAmerican: () => speakaristocracy1158(
+                                // REPLACE: aristocracy /ˌærɪˈstɑːkrəsi/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

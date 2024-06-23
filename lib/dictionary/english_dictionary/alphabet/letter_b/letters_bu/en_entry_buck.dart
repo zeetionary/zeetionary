@@ -144,208 +144,73 @@ class EnglishEntrybuck extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵناو) دۆلاری ئەمریکی، نیوزلەندی، ئوسترالی، ڕوپێی ھندی، ڕاندی ئەفریقای باشوور"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They cost ten bucks."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە دە دۆلارن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "buck" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbucks1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbucks1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They cost ten bucks.",
+                            kurdishText: "بە دە دۆلارن.", // buck" as
+                            onPressedBritish: () => speakbucks1("en-GB"),
+                            onPressedAmerican: () => speakbucks1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We're talking big bucks (= a lot of money) here."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "باسی پارەیەکی زۆر دەکەین لێرەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbucks2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbucks2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We're talking big bucks (= a lot of money) here.",
+                            kurdishText: "باسی پارەیەکی زۆر دەکەین لێرەدا.",
+                            onPressedBritish: () => speakbucks2("en-GB"),
+                            onPressedAmerican: () => speakbucks2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەروێشک یان ئاسکی نێرە (لە ئەفریقای باشوور مێیەش)"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The hunter spotted a buck in the forest."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕاوکەرەکە ئاسکێکی دۆزییەوە لە دارستانەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbucks3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbucks3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The hunter spotted a buck in the forest.",
+                            kurdishText:
+                                "ڕاوکەرەکە ئاسکێکی دۆزییەوە لە دارستانەکەدا.",
+                            onPressedBritish: () => speakbucks3("en-GB"),
+                            onPressedAmerican: () => speakbucks3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ناو) لۆمە یان بەرپرسیاریەتی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was my decision. The buck stops here (= nobody else can be blamed)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بڕیاری من بوو. کەسی تر بەرپرس نییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbucks4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbucks4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was my decision. The buck stops here (= nobody else can be blamed).",
+                            kurdishText: "بڕیاری من بوو. کەسی تر بەرپرس نییە.",
+                            onPressedBritish: () => speakbucks4("en-GB"),
+                            onPressedAmerican: () => speakbucks4("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٤. (کردار) بازدانی ئەسپ"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The horse bucked wildly."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەسپەکە شێتانە بازی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbucks5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbucks5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The horse bucked wildly.",
+                            kurdishText: "ئەسپەکە شێتانە بازی دا.",
+                            onPressedBritish: () => speakbucks5("en-GB"),
+                            onPressedAmerican: () => speakbucks5("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٥. (کردار) ھەڵبەز و دابەزکردنی شتێک وەک ئەوەی کۆنترۆڵی نەبێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "The boat bucked beneath them."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەلەمەکە ھەڵبەز و دابەزی بوو لە ژێریاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbucks6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbucks6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "The boat bucked beneath them.",
+                            kurdishText:
+                                "بەلەمەکە ھەڵبەز و دابەزی بوو لە ژێریاندا.",
+                            onPressedBritish: () => speakbucks6("en-GB"),
+                            onPressedAmerican: () => speakbucks6("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٦. (کردار) دژایەتی یان بەرەنگاری دژ بە شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He admired her willingness to buck the system (= oppose authority or rules)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرسام بوو بە ویستی بۆ دژایەتی دەسەڵات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbucks7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbucks7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He admired her willingness to buck the system (= oppose authority or rules).",
+                            kurdishText:
+                                "سەرسام بوو بە ویستی بۆ دژایەتی دەسەڵات.",
+                            onPressedBritish: () => speakbucks7("en-GB"),
+                            onPressedAmerican: () => speakbucks7("en-US"),
                           ),
                         ],
                       ),

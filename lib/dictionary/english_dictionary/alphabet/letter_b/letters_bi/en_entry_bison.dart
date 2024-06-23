@@ -151,32 +151,13 @@ class EnglishEntrybison extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئاژەڵێکی گەورەیە کە جۆرێکی مانگایە و ئەورووپی و ئەمریکای باکووریی ھەیە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Large herds of bison used to live on the plains of western North America."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کۆمەڵی گەورەی بایسن جاران لە دەشتەکانی ڕۆژئاوای ئەمریکای باکوور دەژیان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbisons1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbisons1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Large herds of bison used to live on the plains of western North America.",
+                            kurdishText:
+                                "کۆمەڵی گەورەی بایسن جاران لە دەشتەکانی ڕۆژئاوای ئەمریکای باکوور دەژیان.",
+                            onPressedBritish: () => speakbisons1("en-GB"),
+                            onPressedAmerican: () => speakbisons1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

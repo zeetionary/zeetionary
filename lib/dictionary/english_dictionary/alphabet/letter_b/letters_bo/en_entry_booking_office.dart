@@ -148,34 +148,15 @@ class EnglishEntrybookingoffice extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شوێنێک کە دەتوانی بلیت بکڕیت لە وێستگەیەکی پاس یان شەمەندەفەر، یان لە سینەمایەک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Visit the booking office to secure your seat."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەردانی بلیت‌فرۆشییەکە بکە بۆ گرتنی جێگایەک."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbookingoffices1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbookingoffices1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Visit the booking office to secure your seat.",
+                            kurdishText:
+                                "سەردانی بلیت‌فرۆشییەکە بکە بۆ گرتنی جێگایەک.",
+                            onPressedBritish: () =>
+                                speakbookingoffices1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbookingoffices1("en-US"),
                           ),
                         ],
                       ),

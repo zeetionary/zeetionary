@@ -152,34 +152,15 @@ class EnglishEntryamp extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەمپێر؛ یەکەی پێوانەی تەزووی کارەبا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "A typical household circuit carries 15 to 50 amps."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سرکتێکی ئاسایی ماڵان ١٥ بۆ ٢٠ ئەمپێر دەگوازێتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamp4599("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakamp4599(// REPLACE: amp /æmp/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "A typical household circuit carries 15 to 50 amps.",
+                            kurdishText:
+                                "سرکتێکی ئاسایی ماڵان ١٥ بۆ ٢٠ ئەمپێر دەگوازێتەوە.",
+                            onPressedBritish: () => speakamp4599("en-GB"),
+                            onPressedAmerican: () =>
+                                speakamp4599(// REPLACE: amp /æmp/
+                                    "en-US"),
                           ),
                         ],
                       ),

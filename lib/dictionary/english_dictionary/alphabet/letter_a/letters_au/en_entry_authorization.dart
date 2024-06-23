@@ -166,99 +166,42 @@ class EnglishEntryauthorization extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) مۆڵەت یان دەسەڵاتی فەرمی بۆ کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Who gave the authorization to release the data?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کێ مۆڵەتی بڵاوکردنەوەی زانیارییەکانی دا؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthorization850("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthorization850(
-                                        // REPLACE: authorization
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Who gave the authorization to release the data?",
+                            kurdishText:
+                                "کێ مۆڵەتی بڵاوکردنەوەی زانیارییەکانی دا؟",
+                            onPressedBritish: () =>
+                                speakauthorization850("en-GB"),
+                            onPressedAmerican: () => speakauthorization850(
+                                // REPLACE: authorization
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We cannot act without the explicit authorization of the board."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ناتوانین بەبێ مۆڵەتی ڕوونی دەستەکە ھەنگاو بنێین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthorization852("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthorization852(
-                                        // REPLACE: authorization
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We cannot act without the explicit authorization of the board.",
+                            kurdishText:
+                                "ناتوانین بەبێ مۆڵەتی ڕوونی دەستەکە ھەنگاو بنێین.",
+                            onPressedBritish: () =>
+                                speakauthorization852("en-GB"),
+                            onPressedAmerican: () => speakauthorization852(
+                                // REPLACE: authorization
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) دۆکیومێنتێک کە مۆڵەتە بۆ کردنی شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can I see your authorization?"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەتوانم مۆڵەتەکەت ببینم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakauthorization853("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakauthorization853(
-                                        // REPLACE: authorization
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Can I see your authorization?",
+                            kurdishText: "دەتوانم مۆڵەتەکەت ببینم؟",
+                            onPressedBritish: () =>
+                                speakauthorization853("en-GB"),
+                            onPressedAmerican: () => speakauthorization853(
+                                // REPLACE: authorization
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -149,59 +149,21 @@ class EnglishEntrybecauseof extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ئامراز) بەکاردێت لە پێش ناوێک یان گرێی ناوی بۆ وتنی ئەوەی کەسێک/شتێک ھۆکارە بۆ شتێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They are here because of us."),
-                                    ExampleSentenceKurdish(
-                                        text: "لێرەن بەھۆی ئێمەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbecauseofs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbecauseofs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They are here because of us.",
+                            kurdishText: "لێرەن بەھۆی ئێمەوە.",
+                            onPressedBritish: () => speakbecauseofs1("en-GB"),
+                            onPressedAmerican: () => speakbecauseofs1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Because of his wife(’s) being there, I said nothing about it."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەبەرئەوەی ژنەکەی لەوێ بوو، ھیچم نەوت لەسەری."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbecauseofs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbecauseofs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Because of his wife(’s) being there, I said nothing about it.",
+                            kurdishText:
+                                "لەبەرئەوەی ژنەکەی لەوێ بوو، ھیچم نەوت لەسەری.",
+                            onPressedBritish: () => speakbecauseofs2("en-GB"),
+                            onPressedAmerican: () => speakbecauseofs2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -161,34 +161,15 @@ class EnglishEntryatm extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دەزگایەک کە لە دەرەوەی بانکێک یان فرۆشگایەکە کە لە ڕێگەیەوە دەتوانی پارە ڕابکێشیت لە ھەژمارە بانکییەکەت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I need to find an ATM to withdraw some cash before the store closes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستە دەزگایەکی خۆکار بدۆزمەوە بۆ ڕاکێشانی ھەندێک کاش پێش ئەوەی فرۆشگاکە دابخرێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakatm1109("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakatm1109(// REPLACE: ATM
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I need to find an ATM to withdraw some cash before the store closes.",
+                            kurdishText:
+                                "پێویستە دەزگایەکی خۆکار بدۆزمەوە بۆ ڕاکێشانی ھەندێک کاش پێش ئەوەی فرۆشگاکە دابخرێت.",
+                            onPressedBritish: () => speakatm1109("en-GB"),
+                            onPressedAmerican: () =>
+                                speakatm1109(// REPLACE: ATM
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

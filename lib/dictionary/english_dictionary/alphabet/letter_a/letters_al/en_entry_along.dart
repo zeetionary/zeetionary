@@ -163,162 +163,64 @@ class EnglishEntryalong extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ئامراز) لەلایەکی شتێک بۆ لاکەی تری" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They walked slowly along the road."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەھێواشی بەدرێژایی ڕێگاکە ڕێیان کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalong457("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakalong457(// REPLACE: along /əˈlɔːŋ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "They walked slowly along the road.",
+                            kurdishText: "بەھێواشی بەدرێژایی ڕێگاکە ڕێیان کرد.",
+                            onPressedBritish: () => speakalong457("en-GB"),
+                            onPressedAmerican: () =>
+                                speakalong457(// REPLACE: along /əˈlɔːŋ/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ئامراز) لەسەر ھێڵێک بەدرێژایی شتێکی درێژ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Houses had been built along both sides of the river."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خانوو بەدرێژایی ھەردوو لای ڕووبارەکە بنیاتنراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalong4451("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalong4451(
-                                        // REPLACE: along /əˈlɔːŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Houses had been built along both sides of the river.",
+                            kurdishText:
+                                "خانوو بەدرێژایی ھەردوو لای ڕووبارەکە بنیاتنراون.",
+                            onPressedBritish: () => speakalong4451("en-GB"),
+                            onPressedAmerican: () => speakalong4451(
+                                // REPLACE: along /əˈlɔːŋ/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ئامراز) لە شوێنێکی دیاریکراوی شوێنێکی درێژ، یان لە نزیکی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Somewhere along this road there's a garage."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە شوێنێک بەدرێژایی ئەم شەقامە گەراجێک ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalong451("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakalong451(// REPLACE: along /əˈlɔːŋ/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Somewhere along this road there's a garage.",
+                            kurdishText:
+                                "لە شوێنێک بەدرێژایی ئەم شەقامە گەراجێک ھەیە.",
+                            onPressedBritish: () => speakalong451("en-GB"),
+                            onPressedAmerican: () =>
+                                speakalong451(// REPLACE: along /əˈlɔːŋ/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵکار) بۆ پێشەوە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We were going along at about 50 miles an hour."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ پێشەوە دەچووین بەخێرایی نزاکەی ٥٠ میل لە کاتژمێرێکدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalong45169("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalong45169(
-                                        // REPLACE: along /əˈlɔːŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We were going along at about 50 miles an hour.",
+                            kurdishText:
+                                "بۆ پێشەوە دەچووین بەخێرایی نزاکەی ٥٠ میل لە کاتژمێرێکدا.",
+                            onPressedBritish: () => speakalong45169("en-GB"),
+                            onPressedAmerican: () => speakalong45169(
+                                // REPLACE: along /əˈlɔːŋ/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵکار) لەگەڵ کەسێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I'll be along (= I'll join you) in a few minutes."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە چەند خولەکێکدا دەگەمە لاتان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakalong4516("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalong4516(
-                                        // REPLACE: along /əˈlɔːŋ/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I'll be along (= I'll join you) in a few minutes.",
+                            kurdishText: "لە چەند خولەکێکدا دەگەمە لاتان.",
+                            onPressedBritish: () => speakalong4516("en-GB"),
+                            onPressedAmerican: () => speakalong4516(
+                                // REPLACE: along /əˈlɔːŋ/
+                                "en-US"),
                           ),
                         ],
                       ),

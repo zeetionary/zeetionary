@@ -213,348 +213,136 @@ class EnglishEntryanswer extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) شتێک کە دەیکەیت، دەینووسیت، یان دەیڵێیت وەک وەڵام بۆ پرسیارێک یان بارودۆخێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I rang the bell, but there was no answer."),
-                                    ExampleSentenceKurdish(
-                                        text: "زەنگم لێدا بەڵام وەڵام نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanswer1019("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswer1019(
-                                        // REPLACE: answer /ˈɑːnsər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I rang the bell, but there was no answer.",
+                            kurdishText: "زەنگم لێدا بەڵام وەڵام نەبوو.",
+                            onPressedBritish: () => speakanswer1019("en-GB"),
+                            onPressedAmerican: () => speakanswer1019(
+                                // REPLACE: answer /ˈɑːnsər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Can't you give me a definitive answer?"),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەتوانیت وەڵامێکی تەواوم پێ بدەیت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanswer1021("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswer1021(
-                                        // REPLACE: answer /ˈɑːnsər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Can't you give me a definitive answer?",
+                            kurdishText: "دەتوانیت وەڵامێکی تەواوم پێ بدەیت.",
+                            onPressedBritish: () => speakanswer1021("en-GB"),
+                            onPressedAmerican: () => speakanswer1021(
+                                // REPLACE: answer /ˈɑːnsər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had no answer to the accusations."),
-                                    ExampleSentenceKurdish(
-                                        text: "ھیچ وەڵامی بۆ تۆمەتەکان نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanswer1022("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswer1022(
-                                        // REPLACE: answer /ˈɑːnsər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had no answer to the accusations.",
+                            kurdishText: "ھیچ وەڵامی بۆ تۆمەتەکان نەبوو.",
+                            onPressedBritish: () => speakanswer1022("en-GB"),
+                            onPressedAmerican: () => speakanswer1022(
+                                // REPLACE: answer /ˈɑːnsər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شتێک کە دەینووسیت یان دەیڵێیت وەک وەڵام بۆ پرسیارێک لە تاقیکردنەوەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Write your answers on the sheet provided."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وەڵامەکانت لەسەر ئەو پەڕە بنووسە کە پێت‌دراوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanswer1025("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswer1025(
-                                        // REPLACE: answer /ˈɑːnsər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Write your answers on the sheet provided.",
+                            kurdishText:
+                                "وەڵامەکانت لەسەر ئەو پەڕە بنووسە کە پێت‌دراوە.",
+                            onPressedBritish: () => speakanswer1025("en-GB"),
+                            onPressedAmerican: () => speakanswer1025(
+                                // REPLACE: answer /ˈɑːnsər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Do you know the answer (= the right one) to question 12?"),
-                                    ExampleSentenceKurdish(
-                                        text: "وەڵامی پرسیاری ١٢یەم دەزانی؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanswer1026("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswer1026(
-                                        // REPLACE: answer /ˈɑːnsər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Do you know the answer (= the right one) to question 12?",
+                            kurdishText: "وەڵامی پرسیاری ١٢یەم دەزانی؟",
+                            onPressedBritish: () => speakanswer1026("en-GB"),
+                            onPressedAmerican: () => speakanswer1026(
+                                // REPLACE: answer /ˈɑːnsər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) چارەسەری کێشەیەک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "This may not be the answer for everyone."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەمە ڕەنگە چارەسەر نەبێت بۆ ھەموان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanswer1027("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswer1027(
-                                        // REPLACE: answer /ˈɑːnsər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "This may not be the answer for everyone.",
+                            kurdishText: "ئەمە ڕەنگە چارەسەر نەبێت بۆ ھەموان.",
+                            onPressedBritish: () => speakanswer1027("en-GB"),
+                            onPressedAmerican: () => speakanswer1027(
+                                // REPLACE: answer /ˈɑːnsər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The obvious answer would be to cancel the party."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چارەسەری ڕوون ھەڵوەشاندنەوەی ئاھەنگەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanswer1029("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswer1029(
-                                        // REPLACE: answer /ˈɑːnsər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The obvious answer would be to cancel the party.",
+                            kurdishText:
+                                "چارەسەری ڕوون ھەڵوەشاندنەوەی ئاھەنگەکەیە.",
+                            onPressedBritish: () => speakanswer1029("en-GB"),
+                            onPressedAmerican: () => speakanswer1029(
+                                // REPLACE: answer /ˈɑːnsər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (کردار) کردن، نووسین، یان وتنی شتێک وەک وەڵام بۆ پرسیارێک یان بارودۆخێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I repeated the question, but she didn't answer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پرسیارەکەم دووبارە کردەوە بەڵام وەڵامی نەداوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanswer1032("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswer1032(
-                                        // REPLACE: answer /ˈɑːnsər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I repeated the question, but she didn't answer.",
+                            kurdishText:
+                                "پرسیارەکەم دووبارە کردەوە بەڵام وەڵامی نەداوە.",
+                            onPressedBritish: () => speakanswer1032("en-GB"),
+                            onPressedAmerican: () => speakanswer1032(
+                                // REPLACE: answer /ˈɑːnsər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "You haven't answered my question."),
-                                    ExampleSentenceKurdish(
-                                        text: "وەڵامی پرسیارەکەمت نەداوەتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanswer1034("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswer1034(
-                                        // REPLACE: answer /ˈɑːnsər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "You haven't answered my question.",
+                            kurdishText: "وەڵامی پرسیارەکەمت نەداوەتەوە.",
+                            onPressedBritish: () => speakanswer1034("en-GB"),
+                            onPressedAmerican: () => speakanswer1034(
+                                // REPLACE: answer /ˈɑːnsər/
+                                "en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He refused to answer the charges against him."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕەتی‌کردەوە وەڵامی تۆمەتەکانی دژی بداتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanswer1036("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswer1036(
-                                        // REPLACE: answer /ˈɑːnsər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He refused to answer the charges against him.",
+                            kurdishText:
+                                "ڕەتی‌کردەوە وەڵامی تۆمەتەکانی دژی بداتەوە.",
+                            onPressedBritish: () => speakanswer1036("en-GB"),
+                            onPressedAmerican: () => speakanswer1036(
+                                // REPLACE: answer /ˈɑːnsər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (کردار) بەرگری‌کردن لە خۆت بەرامبەر تۆمەت یان ڕەخنە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was summoned before the council to answer charges of treason."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بانگ‌کرایە پێش ئەنجوومەنەکە بۆ وەڵامدانەوەی تۆمەتی خیانەت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakanswer1039("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakanswer1039(
-                                        // REPLACE: answer /ˈɑːnsər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He was summoned before the council to answer charges of treason.",
+                            kurdishText:
+                                "بانگ‌کرایە پێش ئەنجوومەنەکە بۆ وەڵامدانەوەی تۆمەتی خیانەت.",
+                            onPressedBritish: () => speakanswer1039("en-GB"),
+                            onPressedAmerican: () => speakanswer1039(
+                                // REPLACE: answer /ˈɑːnsər/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

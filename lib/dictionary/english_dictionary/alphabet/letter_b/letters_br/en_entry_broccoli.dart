@@ -145,32 +145,13 @@ class EnglishEntrybroccoli extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) سەوزەیەک کە قەدێکی سەوزی ئەستووری ھەیە لەگەڵ چەند تۆپەڵێک لە چرۆی گوڵ لەسەرەوەی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My son is a picky eater, and the only vegetable he likes is broccoli."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "منداڵەکەم لە خواردندا بە وڕکە و تەنھا سەوزە حەزی لێیە برۆکلییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // Define the word "broccoli" as
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbroccolis1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbroccolis1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "My son is a picky eater, and the only vegetable he likes is broccoli.",
+                            kurdishText:
+                                "منداڵەکەم لە خواردندا بە وڕکە و تەنھا سەوزە حەزی لێیە برۆکلییە.", // broccoli" as
+                            onPressedBritish: () => speakbroccolis1("en-GB"),
+                            onPressedAmerican: () => speakbroccolis1("en-US"),
                           ),
                         ],
                       ),

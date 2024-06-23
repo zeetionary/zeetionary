@@ -155,34 +155,15 @@ class EnglishEntryavenge extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (کرادر) تۆڵەکردنەوە" ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He promised to avenge his father's murder."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بەڵێنی‌دا تۆڵەی کووشتنی باوکی بکاتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakavenges1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakavenges1(// REPLACE: avenge
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He promised to avenge his father's murder.",
+                            kurdishText:
+                                "بەڵێنی‌دا تۆڵەی کووشتنی باوکی بکاتەوە.",
+                            onPressedBritish: () => speakavenges1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakavenges1(// REPLACE: avenge
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

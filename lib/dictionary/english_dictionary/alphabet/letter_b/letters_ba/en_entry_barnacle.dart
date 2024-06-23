@@ -146,32 +146,13 @@ class EnglishEntrybarnacle extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گەنلەبەرێک کە لەژێر ئاودا بە شتەوە دەنووسێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Barnacles covered the hull of the ship."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بارنکڵ باشی پێشەوەی کەشتییەکەی داپۆشیبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbarnacles1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbarnacles1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Barnacles covered the hull of the ship.",
+                            kurdishText:
+                                "بارنکڵ باشی پێشەوەی کەشتییەکەی داپۆشیبوو.",
+                            onPressedBritish: () => speakbarnacles1("en-GB"),
+                            onPressedAmerican: () => speakbarnacles1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

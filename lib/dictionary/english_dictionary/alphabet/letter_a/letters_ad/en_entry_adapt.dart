@@ -113,34 +113,15 @@ class EnglishEntryadapt extends StatelessWidget {
                               text:
                                   "١. (کردار) خۆگونجاندن لەگەڵ بارودۆخێکی جیاواز"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "We have had to adapt quickly to the new system."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پێویستبووە زوو خۆمان بە سیستەمە نووێیەکە ڕابێنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakada4567("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakada4567(// REPLACE: adapt /əˈdæpt/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "We have had to adapt quickly to the new system.",
+                            kurdishText:
+                                "پێویستبووە زوو خۆمان بە سیستەمە نووێیەکە ڕابێنین.",
+                            onPressedBritish: () => speakada4567("en-GB"),
+                            onPressedAmerican: () =>
+                                speakada4567(// REPLACE: adapt /əˈdæpt/
+                                    "en-US"),
                           ),
                         ],
                       ),

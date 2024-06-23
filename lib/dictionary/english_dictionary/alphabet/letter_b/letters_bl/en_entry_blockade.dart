@@ -151,149 +151,52 @@ class EnglishEntryblockade extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئابڵووقە؛ کردەی دەوردان یان گرتنی شوێنێک، بەتایبەتی بەندەرێک، بۆ وەستاندنی ھاتووچۆی خەڵکی و کەلوپەل"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The president imposed a complete blockade on the island's harbours."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرۆک ئابڵووقەی تەواوی سەپاند بەسەر بەندەرەکانی دوورگەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblockades1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblockades1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The president imposed a complete blockade on the island's harbours.",
+                            kurdishText:
+                                "سەرۆک ئابڵووقەی تەواوی سەپاند بەسەر بەندەرەکانی دوورگەکەدا.",
+                            onPressedBritish: () => speakblockades1("en-GB"),
+                            onPressedAmerican: () => speakblockades1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "They attempted to break the blockade by using submarines."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەوڵیان دا ئابڵووقەکە بشکێنن بە بەکارھێنانی ژێر دەریا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblockades2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblockades2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "They attempted to break the blockade by using submarines.",
+                            kurdishText:
+                                "ھەوڵیان دا ئابڵووقەکە بشکێنن بە بەکارھێنانی ژێر دەریا.",
+                            onPressedBritish: () => speakblockades2("en-GB"),
+                            onPressedAmerican: () => speakblockades2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) بەربەستێک کە ڕێگری لە خەڵکی و ئۆتۆمبێل دەکات بچنە شوێنێک یان جێی بھێڵن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The police set up blockades on highways leading out of the city."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پۆلیس بەربەستی دانا لەو ڕێگایانەی بۆ دەرەوەی شارەکە دەچوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblockades3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblockades3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The police set up blockades on highways leading out of the city.",
+                            kurdishText:
+                                "پۆلیس بەربەستی دانا لەو ڕێگایانەی بۆ دەرەوەی شارەکە دەچوون.",
+                            onPressedBritish: () => speakblockades3("en-GB"),
+                            onPressedAmerican: () => speakblockades3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (کردار) ئابڵووقەدانی شوێنێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "All the ports had been blockaded."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تەواوی بەندەرەکان ئابڵووقە دراون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblockades4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblockades4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "All the ports had been blockaded.",
+                            kurdishText: "تەواوی بەندەرەکان ئابڵووقە دراون.",
+                            onPressedBritish: () => speakblockades4("en-GB"),
+                            onPressedAmerican: () => speakblockades4("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Employees blockaded the entrance to the offices."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کارمەندان ڕێگای چوونە ناو ئۆفیسەکانیان بەربەست کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblockades5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblockades5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Employees blockaded the entrance to the offices.",
+                            kurdishText:
+                                "کارمەندان ڕێگای چوونە ناو ئۆفیسەکانیان بەربەست کرد.",
+                            onPressedBritish: () => speakblockades5("en-GB"),
+                            onPressedAmerican: () => speakblockades5("en-US"),
                           ),
                         ],
                       ),

@@ -152,93 +152,35 @@ class EnglishEntrybasin extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) دەستشۆر کە دەلکێندرێت بە دیوارەوە و بەلووعەی پێوەیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He washed his hands in the basin."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەستەکانی لە دەستشۆرەکە شۆرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasins1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasins1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He washed his hands in the basin.",
+                            kurdishText: "دەستەکانی لە دەستشۆرەکە شۆرد.",
+                            onPressedBritish: () => speakbasins1("en-GB"),
+                            onPressedAmerican: () => speakbasins1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) دەفرێکی گەورە بۆ ئاوتێکردن یان ئامادەکردنی خۆراک تێیدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The chef carefully placed the dough into a large basin."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "شێفەکە بەوریاییەوە ھەویرەکەی خستە ناو دەفرەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasins2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasins2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The chef carefully placed the dough into a large basin.",
+                            kurdishText:
+                                "شێفەکە بەوریاییەوە ھەویرەکەی خستە ناو دەفرەکەوە.",
+                            onPressedBritish: () => speakbasins2("en-GB"),
+                            onPressedAmerican: () => speakbasins2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ناوچەیەک کە لە تەبیشت ڕووبارێکی گەورەیە و لقی پێدا تێدەپەڕێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The Amazon River Basin is the largest river basin in the world."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گۆلاوی ڕووباری ئەمازۆن گەورەترین گۆلاوە لە جیھاندا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbasins3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbasins3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The Amazon River Basin is the largest river basin in the world.",
+                            kurdishText:
+                                "گۆلاوی ڕووباری ئەمازۆن گەورەترین گۆلاوە لە جیھاندا.",
+                            onPressedBritish: () => speakbasins3("en-GB"),
+                            onPressedAmerican: () => speakbasins3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

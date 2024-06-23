@@ -152,34 +152,15 @@ class EnglishEntryamuse extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) خستنەپێکەنین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've brought an article from yesterday's paper that I thought might amuse you."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارێکم لە چاپی دوێنێی ڕۆژنامەکە ھێناوە کە پێم‌وایە دەتخاتە پێکەنین."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakamuse448096("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakamuse448096(
-                                        // REPLACE: amuse /əˈmjuːz/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "I've brought an article from yesterday's paper that I thought might amuse you.",
+                            kurdishText:
+                                "وتارێکم لە چاپی دوێنێی ڕۆژنامەکە ھێناوە کە پێم‌وایە دەتخاتە پێکەنین.",
+                            onPressedBritish: () => speakamuse448096("en-GB"),
+                            onPressedAmerican: () => speakamuse448096(
+                                // REPLACE: amuse /əˈmjuːz/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

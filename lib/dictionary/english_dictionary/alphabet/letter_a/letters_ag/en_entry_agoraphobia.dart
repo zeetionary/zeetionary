@@ -115,34 +115,15 @@ class EnglishEntryagoraphobia extends StatelessWidget {
                               text:
                                   "١. (ناو) ترسی بوون لە شوێنی گشتی و قەرەباڵغ"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She had agoraphobia and never wanted to go out of the house."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەگۆرافۆبیای ھەبوو و ھەرگیز نەیدەویست لە ماڵەوە دەربچێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakagoraph6922("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakagoraph6922(
-                                        // REPLACE: agoraphobia /ˌæɡərəˈfəʊbiə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She had agoraphobia and never wanted to go out of the house.",
+                            kurdishText:
+                                "ئەگۆرافۆبیای ھەبوو و ھەرگیز نەیدەویست لە ماڵەوە دەربچێت.",
+                            onPressedBritish: () => speakagoraph6922("en-GB"),
+                            onPressedAmerican: () => speakagoraph6922(
+                                // REPLACE: agoraphobia /ˌæɡərəˈfəʊbiə/
+                                "en-US"),
                           ),
                         ],
                       ),

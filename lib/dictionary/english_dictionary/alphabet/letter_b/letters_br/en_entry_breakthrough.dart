@@ -148,130 +148,54 @@ class EnglishEntrybreakthrough extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: "١. (ناو) ڕووداو یان دۆزینەوەیەکی گەورە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The new deal represents a major breakthrough for the company."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ڕێککەوتنە نوێیەکە پيشکەوتنێکی بایەخدارە بۆ کۆمپانیاکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreakthroughs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreakthroughs1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The new deal represents a major breakthrough for the company.",
+                            kurdishText:
+                                "ڕێککەوتنە نوێیەکە پيشکەوتنێکی بایەخدارە بۆ کۆمپانیاکە.",
+                            onPressedBritish: () =>
+                                speakbreakthroughs1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbreakthroughs1("en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Scientists are hoping for a breakthrough in the search for a cure for cancer."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زاناکان ھیوا بۆ پەرەسەندنێکی گەورە دەخوازن لە ھەوڵ بۆ دۆزینەوەی چارەسەرێک بۆ شێرپەنجە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreakthroughs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreakthroughs2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Scientists are hoping for a breakthrough in the search for a cure for cancer.",
+                            kurdishText:
+                                "زاناکان ھیوا بۆ پەرەسەندنێکی گەورە دەخوازن لە ھەوڵ بۆ دۆزینەوەی چارەسەرێک بۆ شێرپەنجە.",
+                            onPressedBritish: () =>
+                                speakbreakthroughs2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbreakthroughs2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵناو) بەشێوەیەک کە کەسێک/شتێک بۆ یەکەم جار سەرکەوتووە و ئەگەری بەرەوپێشچوونی زیاتری ھەیە لە داھاتوودا"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was a breakthrough album for the band."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەلبوومەکە بۆ باندەکە دەرگای سەرکەوتنی کردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreakthroughs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreakthroughs3("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "It was a breakthrough album for the band.",
+                            kurdishText:
+                                "ئەلبوومەکە بۆ باندەکە دەرگای سەرکەوتنی کردەوە.",
+                            onPressedBritish: () =>
+                                speakbreakthroughs3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbreakthroughs3("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ھاوەڵناو) زۆر گرنگ لە پەرەسەندنی کەسێک/شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The article described the impact of their breakthrough discovery of the structure of DNA."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "وتارەکە باسی کاریگەریی دۆزینەوە گەورەکەیانی دەکرد کە لەسەر پێکھاتەی DNA بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakbreakthroughs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakbreakthroughs4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The article described the impact of their breakthrough discovery of the structure of DNA.",
+                            kurdishText:
+                                "وتارەکە باسی کاریگەریی دۆزینەوە گەورەکەیانی دەکرد کە لەسەر پێکھاتەی DNA بوو.",
+                            onPressedBritish: () =>
+                                speakbreakthroughs4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakbreakthroughs4("en-US"),
                           ),
                         ],
                       ),

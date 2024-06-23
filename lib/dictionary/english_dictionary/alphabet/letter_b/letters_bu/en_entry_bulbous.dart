@@ -144,30 +144,12 @@ class EnglishEntrybulbous extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) لە شێوەی سەلکە ڕووەکێکدا؛ خڕ و قەڵەو بەشێوەیەکی ناشرین"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "He had a huge, bulbous nose."),
-                                    ExampleSentenceKurdish(
-                                        text: "لووتێکی گەورەی سەلک‌ئاسا بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(), // With short examples define the word "bulbous", follow LX strictly
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakbulbouss1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakbulbouss1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He had a huge, bulbous nose.",
+                            kurdishText:
+                                "لووتێکی گەورەی سەلک‌ئاسا بوو.", // bulbous", follow LX strictly
+                            onPressedBritish: () => speakbulbouss1("en-GB"),
+                            onPressedAmerican: () => speakbulbouss1("en-US"),
                           ),
                         ],
                       ),

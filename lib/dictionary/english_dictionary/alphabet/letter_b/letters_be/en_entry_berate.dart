@@ -146,32 +146,13 @@ class EnglishEntryberate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) سەرکۆنەکردنی کەسێک بەھۆی ئەوەی ناڕازیت لە شتێک کە کردوویەتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She berated herself for being a bad mother."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "سەرکۆنەی خۆی کرد بۆ بوون بە دایکێکی خراپ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakberates1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakberates1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She berated herself for being a bad mother.",
+                            kurdishText:
+                                "سەرکۆنەی خۆی کرد بۆ بوون بە دایکێکی خراپ.",
+                            onPressedBritish: () => speakberates1("en-GB"),
+                            onPressedAmerican: () => speakberates1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

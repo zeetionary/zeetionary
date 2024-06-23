@@ -150,63 +150,25 @@ class EnglishEntryblindly extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ھاوەڵکار) بەبێ ھەبوونی توانای بەکارھێنانی بینایی بۆ کردنی شتێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She groped blindly for the light switch in the dark room."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە کوێرانە ھەوڵی دۆزینەوەی سویچی گڵۆپەکانی دەدا لە ژوورە تاریکەکەدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblindlys1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblindlys1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She groped blindly for the light switch in the dark room.",
+                            kurdishText:
+                                "بە کوێرانە ھەوڵی دۆزینەوەی سویچی گڵۆپەکانی دەدا لە ژوورە تاریکەکەدا.",
+                            onPressedBritish: () => speakblindlys1("en-GB"),
+                            onPressedAmerican: () => speakblindlys1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ھاوەڵکار) بەبێ بیرکردنەوە لەوەی دەیکەیت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He wanted to decide for himself instead of blindly following his parents' advice."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دەیویست بۆ خۆی بڕیار بدات لە جیاتی ئەوەی کوێرانە شوێن ڕاوێژی دایک و باوکی بکەوێت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakblindlys2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakblindlys2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "He wanted to decide for himself instead of blindly following his parents' advice.",
+                            kurdishText:
+                                "دەیویست بۆ خۆی بڕیار بدات لە جیاتی ئەوەی کوێرانە شوێن ڕاوێژی دایک و باوکی بکەوێت.",
+                            onPressedBritish: () => speakblindlys2("en-GB"),
+                            onPressedAmerican: () => speakblindlys2("en-US"),
                           ),
                         ],
                       ),

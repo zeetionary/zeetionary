@@ -157,98 +157,39 @@ class EnglishEntryball extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text: """١. (ناو) تۆپی یاریکردن"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He kicked the ball into the net."),
-                                    ExampleSentenceKurdish(
-                                        text: "تۆپەکەی ھەڵدایە ناو تۆڕەکەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballs1("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballs1(// REPLACE: ball
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He kicked the ball into the net.",
+                            kurdishText: "تۆپەکەی ھەڵدایە ناو تۆڕەکەوە.",
+                            onPressedBritish: () => speakballs1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballs1(// REPLACE: ball
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) شتێکی خڕ لە شێوەی تۆپ، یان شتێک کە تۆپەڵە بووە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The little girl curled into a ball in her mother's arms."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کچە بچووکەکە خۆی تۆپەڵە کرد لە باوەشی دایکیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballs2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballs2(// REPLACE: ball
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The little girl curled into a ball in her mother's arms.",
+                            kurdishText:
+                                "کچە بچووکەکە خۆی تۆپەڵە کرد لە باوەشی دایکیدا.",
+                            onPressedBritish: () => speakballs2("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballs2(// REPLACE: ball
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) لێدان یان فڕێدانی تۆپێک"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "That's a great ball from Kane."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لێدانێکی جوان بوو لەلایەن کەینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballs3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballs3(// REPLACE: ball
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "That's a great ball from Kane.",
+                            kurdishText: "لێدانێکی جوان بوو لەلایەن کەینەوە.",
+                            onPressedBritish: () => speakballs3("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballs3(// REPLACE: ball
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -257,129 +198,51 @@ class EnglishEntryball extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ناو) ئەو بەشەی کە پەنجە گەورەکان دەگەن بە دەست یان پێ"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The ball of the hand is the fleshy part at the base of the thumb."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گرمۆڵەی دەست ئەو بەشە گۆشتاوییەی بنی پەنجە گەورەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballs4("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballs4(// REPLACE: ball
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "The ball of the hand is the fleshy part at the base of the thumb.",
+                            kurdishText:
+                                "گرمۆڵەی دەست ئەو بەشە گۆشتاوییەی بنی پەنجە گەورەیە.",
+                            onPressedBritish: () => speakballs4("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballs4(// REPLACE: ball
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٦. (ناو) گون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He noticed a lump in his left ball."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تێبینی گرێیەکی کرد لە گونی چەپیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballs5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballs5(// REPLACE: ball
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He noticed a lump in his left ball.",
+                            kurdishText: "تێبینی گرێیەکی کرد لە گونی چەپیدا.",
+                            onPressedBritish: () => speakballs5("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballs5(// REPLACE: ball
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٧. (ناو) ئاھەنگێکی گەورە کە سەمای تێدایە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She met him at the ball."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ئاھەنگەکە بینی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballs6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballs6(// REPLACE: ball
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She met him at the ball.",
+                            kurdishText: "لە ئاھەنگەکە بینی.",
+                            onPressedBritish: () => speakballs6("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballs6(// REPLACE: ball
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (کردار) خڕبوون لە شێوەی تۆپێکدا"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Her hands balled into fists."),
-                                    ExampleSentenceKurdish(
-                                        text: "دەستەکانی خڕبوونە مشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakballs7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakballs7(// REPLACE: ball
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "Her hands balled into fists.",
+                            kurdishText: "دەستەکانی خڕبوونە مشت.",
+                            onPressedBritish: () => speakballs7("en-GB"),
+                            onPressedAmerican: () =>
+                                speakballs7(// REPLACE: ball
+                                    "en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),

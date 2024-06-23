@@ -115,95 +115,35 @@ class EnglishEntryambition extends StatelessWidget {
                               text:
                                   "١. (ناو) شتێک کە دەتەوێت بیکەیت یان بە دەستی بھێنیت"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "At last he had realized his life's ambition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لەکۆتاییدا لە ئامانجەکانی ژیانی تێگەشت."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakambition422("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambition422(
-                                        // REPLACE: ambition /æmˈbɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "At last he had realized his life's ambition.",
+                            kurdishText:
+                                "لەکۆتاییدا لە ئامانجەکانی ژیانی تێگەشت.",
+                            onPressedBritish: () => speakambition422("en-GB"),
+                            onPressedAmerican: () => speakambition422(
+                                // REPLACE: ambition /æmˈbɪʃn/
+                                "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had only one ambition in life."),
-                                    ExampleSentenceKurdish(
-                                        text: "یەک ئامانجی لە ژیاندا ھەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakambition3444("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambition3444(
-                                        // REPLACE: ambition /æmˈbɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He had only one ambition in life.",
+                            kurdishText: "یەک ئامانجی لە ژیاندا ھەبوو.",
+                            onPressedBritish: () => speakambition3444("en-GB"),
+                            onPressedAmerican: () => speakambition3444(
+                                // REPLACE: ambition /æmˈbɪʃn/
+                                "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ئاوات‌خواستن بە پارە و دەسەڵات"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She was driven by personal ambition."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە حەز و ئارەزووی خۆی ھەڵدەسووڕا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakambition344("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakambition344(
-                                        // REPLACE: ambition /æmˈbɪʃn/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She was driven by personal ambition.",
+                            kurdishText: "بە حەز و ئارەزووی خۆی ھەڵدەسووڕا.",
+                            onPressedBritish: () => speakambition344("en-GB"),
+                            onPressedAmerican: () => speakambition344(
+                                // REPLACE: ambition /æmˈbɪʃn/
+                                "en-US"),
                           ),
                         ],
                       ),

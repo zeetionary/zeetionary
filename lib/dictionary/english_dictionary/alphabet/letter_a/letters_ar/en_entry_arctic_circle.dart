@@ -164,35 +164,16 @@ class EnglishEntryarcticcircle extends StatelessWidget {
                               text:
                                   "١. (ناو) ھێڵی درێژی سەروو ٧٠ پلەی باکوور کە دەوری خولگەی جەمسەری باکوور دەدات"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Soviet Union tested atomic bomb in Arctic Circle."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "یەکێتیی سۆڤییەت چەکی ئەتۆمی لە خولگەی جەمسەری باکوور تاقیدەکردەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakarcticcircle505("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakarcticcircle505(
-                                        // REPLACE: the Arctic Circle /ði ˌɑːrktɪk ˈsɜːrkl/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "Soviet Union tested atomic bomb in Arctic Circle.",
+                            kurdishText:
+                                "یەکێتیی سۆڤییەت چەکی ئەتۆمی لە خولگەی جەمسەری باکوور تاقیدەکردەوە.",
+                            onPressedBritish: () =>
+                                speakarcticcircle505("en-GB"),
+                            onPressedAmerican: () => speakarcticcircle505(
+                                // REPLACE: the Arctic Circle /ði ˌɑːrktɪk ˈsɜːrkl/
+                                "en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

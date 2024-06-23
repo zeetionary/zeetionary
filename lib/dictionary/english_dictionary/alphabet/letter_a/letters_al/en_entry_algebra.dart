@@ -116,35 +116,15 @@ class EnglishEntryalgebra extends StatelessWidget {
                               text:
                                   "١. (ناو) جۆرێکی بیرکاری کە تێیدا ژمارە و ھێماکان بڕ پیشان دەدەن"
                                   ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "She is fascinated by algebra while he considers it meaningless nonsense."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کچەکە حەزی بە ئەلجبرەیە لەکاتێکدا کوڕەکە بە ھیچ و پڕووپووچی دادەنا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakalgebra356994("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakalgebra356994(
-                                        // REPLACE: algebra /ˈældʒɪbrə/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "She is fascinated by algebra while he considers it meaningless nonsense.",
+                            kurdishText:
+                                "کچەکە حەزی بە ئەلجبرەیە لەکاتێکدا کوڕەکە بە ھیچ و پڕووپووچی دادەنا.",
+                            onPressedBritish: () => speakalgebra356994("en-GB"),
+                            onPressedAmerican: () => speakalgebra356994(
+                                // REPLACE: algebra /ˈældʒɪbrə/
+                                "en-US"),
                           ),
                         ],
                       ),

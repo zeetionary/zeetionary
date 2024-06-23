@@ -115,94 +115,35 @@ class EnglishEntryaloud extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ھاوەڵکار) بە دەنگێک کە خەڵکی تر گوێیان لێیە"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He read the letter aloud to us."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "نامەکەی بە دەنگی بەرز بۆ خوێندینەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaloud469("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaloud469(// REPLACE: aloud /əˈlaʊd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "He read the letter aloud to us.",
+                            kurdishText: "نامەکەی بە دەنگی بەرز بۆ خوێندینەوە.",
+                            onPressedBritish: () => speakaloud469("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaloud469(// REPLACE: aloud /əˈlaʊd/
+                                    "en-US"),
                           ),
                           const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "People are starting to wonder aloud (= question publicly) whether the economic reforms have gone too far."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "خەڵکی دەستیان کردووە بە گۆتەگۆت کە ئاخۆ چاکسازییە ئابوورییەکان پەلیان زۆر ھاویشتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaloud462("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaloud462(// REPLACE: aloud /əˈlaʊd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText:
+                                "People are starting to wonder aloud (= question publicly) whether the economic reforms have gone too far.",
+                            kurdishText:
+                                "خەڵکی دەستیان کردووە بە گۆتەگۆت کە ئاخۆ چاکسازییە ئابوورییەکان پەلیان زۆر ھاویشتووە.",
+                            onPressedBritish: () => speakaloud462("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaloud462(// REPLACE: aloud /əˈlaʊd/
+                                    "en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بە دەنگێکی بەرز"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She cried aloud in protest."),
-                                    ExampleSentenceKurdish(
-                                        text: "بە دەنگی بەرز ناڕەزایی دەربڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakaloud596("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakaloud596(// REPLACE: aloud /əˈlaʊd/
-                                            "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          SentencesRow(
+                            englishText: "She cried aloud in protest.",
+                            kurdishText: "بە دەنگی بەرز ناڕەزایی دەربڕی.",
+                            onPressedBritish: () => speakaloud596("en-GB"),
+                            onPressedAmerican: () =>
+                                speakaloud596(// REPLACE: aloud /əˈlaʊd/
+                                    "en-US"),
                           ),
                         ],
                       ),
